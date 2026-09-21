@@ -1,0 +1,364 @@
+---
+type: version
+title: SmarTest 7.2.2 — 版本页
+tags: [version, smartest]
+related: []
+sources:
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.10.03.01_Creating_a_new_device.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.10.03.03_Editing_technology_data.md
+  - 01_Getting_started/01.05_SmarTest_character_and_number_limits/01.05_SmarTest_character_and_number_limits.md
+  - 01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01.01_Device_directory_structure.md
+  - 01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01_Creating_a_new_device.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.07_E8023PG_pogo_cable_assembly__4_MS-DPS_style_pogo_blocks__DPS64_only.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.01_Two_areas_of_expertise_in_PDN_design.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.02_Checking_the_basic_UHC4___UHC4T_stability_requirements.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.03.04.03_Practical_tips_for_selecting_PDN_capacitors.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.04.02_Low_inductance_power_plane_and_socket_design.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.04.04_Bulk_capacitor_placement.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.04.05_Ceramic_capacitor_placement.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.04.06_Sense_line_routing.md
+  - 02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.01_Pogocabling_entries_for_various_card_types.md
+  - 02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.06_DPS_section.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03.04_PS1600_DC_value_measurements.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02_DPS128____PS64_specifications.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.05.01.06_DPS128____PS64_in_DPS_operating_mode.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.05.01.07_DPS128____PS64_in_PMU_operating_mode.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.07_E8023PG_pogo_cable_assembly__4_MS-DPS_style_pogo_blocks__DPS64_only.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09_DPS128____PS64_specific_setup_tasks.md
+  # 本页共涉及 242 篇文档。上面只列了前 30 篇——**完整出处是正文每条后面的链接**，
+  # 机器可读全量见 extract/version-facts.csv（按 doc 列筛）。**这是有意的截断，不是漏列。**
+created: 2026-09-18
+updated: 2026-09-18
+verified: doc-only
+---
+
+# SmarTest 7.2.2
+
+> **本页由 `extract/versions.py` 从 raw 的 `## Functional changes` 段落机械汇编**——分组、排序、出处都是脚本算的，**没有一句是模型写的**。
+> 条目**原样转录**（含语料自己的措辞、大小写与错拼），本页不替它改。
+>
+> 因此本页只证明**「文档这么写」**，不证明**「机台这样」**（schema §11）。
+> **本页没有被人在真实机台上核对过**（`verified: doc-only`）。
+
+## 这一版改了什么（194 条）
+
+格式：**出处文档 —— 语料原条目**。条目本身带 `SmarTest 7.2.2:` 前缀，**那是原文的一部分，没有去掉**。
+
+- [Technology file for a device](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
+- [Creating a new device](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.10.03.01_Creating_a_new_device.md>) —— SmarTest 7.2.2: The testtable subdirectory is created in the device directory when creating a new device.
+- [Creating a new device](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.10.03.01_Creating_a_new_device.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
+- [Editing technology data](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.10.03.03_Editing_technology_data.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
+- [SmarTest character and number limits](<01_Getting_started/01.05_SmarTest_character_and_number_limits/01.05_SmarTest_character_and_number_limits.md>) —— SmarTest 7.2.2: Number of characters for test suite names changed
+- [Device directory structure](<01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01.01_Device_directory_structure.md>) —— SmarTest 7.2.2: The testtable subdirectory is created in the device directory when creating a new device.
+- [Creating a new device](<01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01_Creating_a_new_device.md>) —— SmarTest 7.2.2: The testtable subdirectory is created in the device directory when creating a new device.
+- [Creating a new device](<01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01_Creating_a_new_device.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
+- [E8023PA pogo cable assembly: 8 HD pogo blocks (Standard)](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [E8023PG pogo cable assembly: 4 MS-DPS style pogo blocks (DPS64 only)](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.07_E8023PG_pogo_cable_assembly__4_MS-DPS_style_pogo_blocks__DPS64_only.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1.
+- [DPS128鈥?鈥奃PS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [Pogocabling entries for various card types](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.01_Pogocabling_entries_for_various_card_types.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [Pogocabling entries for various card types](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.01_Pogocabling_entries_for_various_card_types.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1
+- [DPS section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.06_DPS_section.md>) —— SmarTest 7.2.2: DPS128-HC/HV supported.
+- [DPS section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.06_DPS_section.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1.
+- [PS1600 DC value measurements](<02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03.04_PS1600_DC_value_measurements.md>) —— SmarTest 7.2.2: Added test method: PPMU_BADC_MEASURE
+- [DPS128鈥?鈥奃PS64 specifications](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02_DPS128____PS64_specifications.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥?鈥奃PS64 functionality and features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥?鈥奃PS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥?鈥奃PS64 power budget](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥?鈥奃PS64 in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.06_DPS128____PS64_in_DPS_operating_mode.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥?鈥奃PS64 in PMU operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.07_DPS128____PS64_in_PMU_operating_mode.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [E8023PA pogo cable assembly: 8 HD pogo blocks (Standard)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [E8023PG pogo cable assembly: 4 MS-DPS style pogo blocks (DPS64 only)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.07_E8023PG_pogo_cable_assembly__4_MS-DPS_style_pogo_blocks__DPS64_only.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1.
+- [DPS128鈥?鈥奃PS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128 and DPS64 pogo cabling and model file configuration](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128 and DPS64 pogo cabling and model file configuration](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1
+- [DPS128鈥?鈥奃PS64 specific setup tasks](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09_DPS128____PS64_specific_setup_tasks.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥?鈥奃PS64 specific setup tasks](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09_DPS128____PS64_specific_setup_tasks.md>) —— SmarTest 7.2.2: New test method API: EVENT_IC_HAC
+- [DC Scale DPS128/DPS64 cards](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01_DC_Scale_DPS128_DPS64_cards.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [FFCI? - (First Failed Cycle Information)](<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>) —— SmarTest 7.2.2: FFPM introduced
+- [NOOP, NOOP? - (NO OPeration)](<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>) —— SmarTest 7.2.2: Number of characters for string_1 tostring_4 changed
+- [DCVH - (DC Voltage measurement High precision pmu)](<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>) —— SmarTest 7.2.2: Additional executionMode parameter options: SER_HAC, PAR_HAC
+- [FFCI? - (First Failed Cycle Information)](<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>) —— SmarTest 7.2.2: FFPM introduced
+- [ANALOG_WAVEFORM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.05_ANALOG_WAVEFORM.md>) —— SmarTest 7.2.2: Analog waveform name (or, label) can be up to 256 characters long
+- [CCTsetExecMode](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.33_CCTsetExecMode.md>) —— SmarTest 7.2.2: New execution mode EXM_SYNC_DC to support dynamic (sequencer鈥慶ontrolled) DC test.
+- [CCTsetResultArea](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.35_CCTsetResultArea.md>) —— SmarTest 7.2.2: New parameter resultType.
+- [SET_MULTIBIN](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.212_SET_MULTIBIN.md>) —— SmarTest 7.2.2: Patch1 - New testflow flag multibin_mode
+- [SET_TESTFLOW_FLAG()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.217_SET_TESTFLOW_FLAG.md>) —— SmarTest 7.2.2: Patch1 - New testflow flag multibin_mode
+- [SPMU_PIN_TASK.clamp()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.01_SPMU_PIN_TASK.clamp.md>) —— SmarTest 7.2.2: sink and source parameters added.
+- [SPMU_PIN_TASK.execMode()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.08_SPMU_PIN_TASK.execMode.md>) —— SmarTest 7.2.2: New parameters: PAR_HAC, SER_HAC
+- [TESTSET().judgeAndLog_FunctionalTest()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.09_TESTSET__.judgeAndLog_FunctionalTest.md>) —— SmarTest 7.2.2: Enhanced judgeAndLog_FunctionalTest() function can be used within the SMC framework.
+- [TESTSET().judgeAndLog_FunctionalTest()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.09_TESTSET__.judgeAndLog_FunctionalTest.md>) —— SmarTest 7.2.2: Adapted parameter lim to tmLimit.
+- [TESTSET().judgeAndLog_ScanTest()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.15_TESTSET__.judgeAndLog_ScanTest.md>) —— SmarTest 7.2.2: Enhanced judgeAndLog_ScanTest() function can be used within the SMC framework.
+- [TESTSET](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md>) —— SmarTest 7.2.2: Enhanced judgeAndLog_FunctionalTest() and judgeAndLog_ScanTest() functions can be used within SMC framework.
+- [DIGITAL_WAVEFORM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.37_DIGITAL_WAVEFORM.md>) —— SmarTest 7.2.2: The API now also supports the STD mode on all supported systems.
+- [DPS_AUX_PIN_TASK.checkIcHacError()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01.01_DPS_AUX_PIN_TASK.checkIcHacError.md>) —— SmarTest 7.2.2: Supported with 7.2.2.1 patch
+- [DPS_AUX_PIN_TASK.checkSetRangeError()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01.03_DPS_AUX_PIN_TASK.checkSetRangeError.md>) —— SmarTest 7.2.2: Supported with 7.2.2.1 patch
+- [DPS_AUX_TASK.getIcHacError()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.07.01_DPS_AUX_TASK.getIcHacError.md>) —— SmarTest 7.2.2: Supported with 7.2.2.1 patch
+- [DPS_AUX_TASK.getRangeError()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.07.02_DPS_AUX_TASK.getRangeError.md>) —— SmarTest 7.2.2: Supported with 7.2.2.1 patch
+- [GET_SYSTEM_FLAG](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.94_GET_SYSTEM_FLAG.md>) —— SmarTest 7.2.2: Removed OOC_watch and OOC_sample_size flags.
+- [GET_TESTFLOW_FLAG()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.96_GET_TESTFLOW_FLAG.md>) —— SmarTest 7.2.2: Patch1 - New testflow flag multibin_mode
+- [Shmoo](<02_System_reference/02.07_Test_Method_Reference/02.07.05.01.09_Shmoo.md>) —— SmarTest 7.2.2: The shmooTestSuite parameter accepts multiple test suites names to support shmoo over multiple test suites.
+- [Editing technology data](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.02_Editing_technology_data.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
+- [Technology file for a device](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.03_Technology_file_for_a_device.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
+- [Setting the data log output information in the Datalog Control tool](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.06.01.02_Setting_the_data_log_output_information_in_the_Datalog_Control_tool.md>) —— SmarTest 7.2.2: Supports logging the EDL data log file in TCCT 1.4
+- [Setting the data log output information in the Datalog Control tool](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.06.01.02_Setting_the_data_log_output_information_in_the_Datalog_Control_tool.md>) —— SmarTest 7.2.2: Supports logging the content with customized data log formatter in TCCT 1.4
+- [Logging test results with Datalog Control tool in EWC](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.06.01_Logging_test_results_with_Datalog_Control_tool_in_EWC.md>) —— SmarTest 7.2.2: The Datalog tab and the Summary tab are merged to the File tab.
+- [Merging data logs](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.03_Merging_data_logs.md>) —— SmarTest 7.2.2: All files to be merged can now be selected before opening the dialog.
+- [Correlating data logs](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.04_Correlating_data_logs.md>) —— SmarTest 7.2.2: All files to correlate can now be selected before opening the dialog.
+- [Correlating data logs](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.04_Correlating_data_logs.md>) —— SmarTest 7.2.2: Correlated data stores are automatically opened.
+- [Filtering test result data](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.02_Filtering_test_result_data.md>) —— SmarTest 7.2.2: Filtering is now dynamic, updating the display as the condition is entered
+- [Setting table display options](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.06_Setting_table_display_options.md>) —— SmarTest 7.2.2: Added option to synchronize views
+- [Excluding data from evaluation](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.02_Excluding_data_from_evaluation.md>) —— SmarTest 7.2.2: Added shortcut menu command Statistics for Selection.
+- [Displaying test results in analysis views](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.03_Displaying_test_results_in_analysis_views.md>) —— SmarTest 7.2.2: Added scan view.
+- [Displaying test results in analysis views](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.03_Displaying_test_results_in_analysis_views.md>) —— SmarTest 7.2.2: Added range charts for two tests.
+- [Examining the underlying data of an analysis view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.04_Examining_the_underlying_data_of_an_analysis_view.md>) —— SmarTest 7.2.2: Added option to view underlying data in a raw data view.
+- [Analyzing test results](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04_Analyzing_test_results.md>) —— SmarTest 7.2.2: Yields for modified limits can now be calculated
+- [Data Log Explorer view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.01_Data_Log_Explorer_view.md>) —— SmarTest 7.2.2: New "Link with Editor" button.
+- [Data Log Explorer view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.01_Data_Log_Explorer_view.md>) —— SmarTest 7.2.2: New Save and Clear shortcut menu command.
+- [Data Log Explorer view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.01_Data_Log_Explorer_view.md>) —— SmarTest 7.2.2: The Clear shortcut menu command now also clears system event stream.
+- [Test summary tab](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.01_Test_summary_tab.md>) —— SmarTest 7.2.2: Added menu command for yield calculator.
+- [Test summary tab](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.01_Test_summary_tab.md>) —— SmarTest 7.2.2: Added Pattern Name column.
+- [Test summary tab](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.01_Test_summary_tab.md>) —— SmarTest 7.2.2: Added Save and Clear shortcut menu command.
+- [Test summary tab](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.01_Test_summary_tab.md>) —— SmarTest 7.2.2: The Clear shortcut menu command now also clears system event stream.
+- [Wafer summary tab](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.02_Wafer_summary_tab.md>) —— SmarTest 7.2.2: Added several shortcut menu commands.
+- [Device summary tab](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.03_Device_summary_tab.md>) —— SmarTest 7.2.2: Added several shortcut menu commands.
+- [Hardware bin summary tab](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.04_Hardware_bin_summary_tab.md>) —— SmarTest 7.2.2: Added several shortcut menu commands.
+- [Software bin summary tab](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.05_Software_bin_summary_tab.md>) —— SmarTest 7.2.2: Added several shortcut menu commands.
+- [Data navigation views](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02_Data_navigation_views.md>) —— SmarTest 7.2.2: New "Refresh", "Clear", and "Save and Clear" buttons.
+- [Data navigation views](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02_Data_navigation_views.md>) —— SmarTest 7.2.2: New Save and Clear shortcut menu command.
+- [Raw data views](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.03.01_Raw_data_views.md>) —— SmarTest 7.2.2: Added Pattern Name column.
+- [Raw data views](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.03.01_Raw_data_views.md>) —— SmarTest 7.2.2: Added shortcut menu command Analyze Selection.
+- [Stream data view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.03.02_Stream_data_view.md>) —— SmarTest 7.2.2: Added Pattern Name column.
+- [Trend chart properties](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.01.01_Trend_chart_properties.md>) —— SmarTest 7.2.2: Changed axis names
+- [Trend chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.01_Trend_chart_view.md>) —— SmarTest 7.2.2: Added Show in Raw Data shortcut menu command
+- [Trend chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.01_Trend_chart_view.md>) —— SmarTest 7.2.2: Changed axis names in shortcut menu
+- [Trend chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.01_Trend_chart_view.md>) —— SmarTest 7.2.2: Added option to export charts as JPEG images
+- [Histogram properties](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.02.01_Histogram_properties.md>) —— SmarTest 7.2.2: Changed value axis name
+- [Histogram view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.02_Histogram_view.md>) —— SmarTest 7.2.2: Changed axis names in shortcut menu
+- [Histogram view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.02_Histogram_view.md>) —— SmarTest 7.2.2: Added option to export charts as JPEG images
+- [Probability chart properties](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.03.01_Probability_chart_properties.md>) —— SmarTest 7.2.2: Changed axis names
+- [Probability chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.03_Probability_chart_view.md>) —— SmarTest 7.2.2: Added Show in Raw Data shortcut menu command
+- [Probability chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.03_Probability_chart_view.md>) —— SmarTest 7.2.2: Changed axis names in shortcut menu
+- [Probability chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.03_Probability_chart_view.md>) —— SmarTest 7.2.2: Added option to export charts as JPEG images
+- [Box chart properties](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.04.01_Box_chart_properties.md>) —— SmarTest 7.2.2: Renamed axis
+- [Box chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.04_Box_chart_view.md>) —— SmarTest 7.2.2: Added Show in Raw Data shortcut menu command.
+- [Box chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.04_Box_chart_view.md>) —— SmarTest 7.2.2: Changed axis name in shortcut menu.
+- [Box chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.04_Box_chart_view.md>) —— SmarTest 7.2.2: Added option to export charts as JPEG images.
+- [Box chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.04_Box_chart_view.md>) —— SmarTest 7.2.2: Added legend.
+- [Scatter chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.05_Scatter_chart_view.md>) —— SmarTest 7.2.2: Added option to export charts as JPEG images
+- [Scatter chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.05_Scatter_chart_view.md>) —— SmarTest 7.2.2: Added limits to range chart
+- [Scatter chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.05_Scatter_chart_view.md>) —— SmarTest 7.2.2: Added button to switch between scatter and range charts
+- [FFC Pareto chart view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.06_FFC_Pareto_chart_view.md>) —— SmarTest 7.2.2: Added option to export charts as JPEG images
+- [Shmoo view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.08_Shmoo_view.md>) —— SmarTest 7.2.2: Added option to export charts as JPEG images
+- [Shmoo view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.08_Shmoo_view.md>) —— SmarTest 7.2.2: Patch 5, adds Primary Value to both X Axis and Y Axis sections in the Statistics form
+- [Parametric wafer map view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.09_Parametric_wafer_map_view.md>) —— SmarTest 7.2.2: Added option to export charts as JPEG images
+- [Bin wafer map view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.11_Bin_wafer_map_view.md>) —— SmarTest 7.2.2: Added Show in Device Summary shortcut menu command.
+- [Bin wafer map view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.11_Bin_wafer_map_view.md>) —— SmarTest 7.2.2: Added option to export charts as JPEG images
+- [Analysis views](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04_Analysis_views.md>) —— SmarTest 7.2.2: Added scan view.
+- [Creating a new device](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15.01_Creating_a_new_device.md>) —— SmarTest 7.2.2: The testtable subdirectory is created in the device directory when creating a new device.
+- [Creating a new device](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15.01_Creating_a_new_device.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
+- [Editing technology data](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15.02_Editing_technology_data.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
+- [Technology file for a device](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15.03_Technology_file_for_a_device.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
+- [New Device wizard](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15_New_Device_wizard.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
+- [Shmoo tests in the Shmoo Tool](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.25.03.01_Shmoo_tests_in_the_Shmoo_Tool.md>) —— SmarTest 7.2.2: Supports shmoo over multiple test suites.
+- [Test modes](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.25.03.02.02_Test_modes.md>) —— SmarTest 7.2.2: Supports shmoo over multiple test suites.
+- [Setting up a shmoo test with the Shmoo Tool](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.25.03.02_Setting_up_a_shmoo_test_with_the_Shmoo_Tool.md>) —— SmarTest 7.2.2: The shmooTestSuite parameter accepts multiple test suite names to support shmoo over multiple test suites.
+- [Saving shmoo plots to png or ASCII files](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.25.03.07_Saving_shmoo_plots_to_png_or_ASCII_files.md>) —— SmarTest 7.2.2: The Event Formatter can save shmoo plots and results as ASCII files.
+- [Shmoo Tool](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.25_Shmoo_Tool.md>) —— SmarTest 7.2.2: Introduces shmoo over multiple test suites.
+- [Shmoo Tool](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.25_Shmoo_Tool.md>) —— SmarTest 7.2.2: Saves shmoo plots and results as ASCII files..
+- [Group node](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.05_Group_node.md>) —— SmarTest 7.2.2: Add an empty group node
+- [Testflow file](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.05_Testflow_file.md>) —— SmarTest 7.2.2: Removed ooc_rule, OOC_watch, and OOC_sample_size related syntaxes
+- [Parameter: waiting_for_parts_timeout_action](<02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.04.09_Parameter__waiting_for_parts_timeout_action.md>) —— SmarTest 7.2.2: New option "skip"
+- [System Flag](<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.03_System_Flag.md>) —— SmarTest 7.2.2: Removed the CI_OOC_WATCH and CI_OOC_SAMPLE_SIZE flags.
+- [GetTestHeadInfoByID](<02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.03.06_GetTestHeadInfoByID.md>) —— SmarTest 7.2.2: Supports querying the serial number of the test system.
+- [GetTestBoardInfoByID](<02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.03.07_GetTestBoardInfoByID.md>) —— SmarTest 7.2.2: Supports querying the physical location of the board.
+- [Starting the Test Cell Control Tool](<02_System_reference/02.09_Test_Program_Management/02.09.01.17.02_Starting_the_Test_Cell_Control_Tool.md>) —— SmarTest 7.2.2: Added the environment variable TCCT_RECIPE_FILE_LOCATION in TCCT 1.4.
+- [Setting up the data log information](<02_System_reference/02.09_Test_Program_Management/02.09.01.17.08_Setting_up_the_data_log_information.md>) —— SmarTest 7.2.2: Supports logging the EDL data log file in TCCT 1.4
+- [Setting up the data log information](<02_System_reference/02.09_Test_Program_Management/02.09.01.17.08_Setting_up_the_data_log_information.md>) —— SmarTest 7.2.2: Supports logging the content with customized data log formatter in TCCT 1.4
+- [Recipe file](<02_System_reference/02.09_Test_Program_Management/02.09.01.17.10.01_Recipe_file.md>) —— SmarTest 7.2.2: Supports EDL data log file in TCCT 1.4.
+- [Recipe file](<02_System_reference/02.09_Test_Program_Management/02.09.01.17.10.01_Recipe_file.md>) —— SmarTest 7.2.2: Supports the custom data log formatter and file in TCCT 1.4.
+- [Recipe file](<02_System_reference/02.09_Test_Program_Management/02.09.01.17.10.01_Recipe_file.md>) —— SmarTest 7.2.2: Supports assigning the value to a variable with script in TCCT 1.4.
+- [Test Cell Control Tool](<02_System_reference/02.09_Test_Program_Management/02.09.01.17_Test_Cell_Control_Tool.md>) —— SmarTest 7.2.2: Shows the version number in the title in TCCT 1.4.
+- [Installing SmarTest Program Manager](<02_System_reference/02.09_Test_Program_Management/02.09.02.01.03_Installing_SmarTest_Program_Manager.md>) —— SmarTest 7.2.2: Added STPM UI plug-in
+- [write_tp](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.04_write_tp.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [add_test](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.05_add_test.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [add_burst](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.06_add_burst.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [add_test_to_burst](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.07_add_test_to_burst.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [add_empty_test_group](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.08_add_empty_test_group.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [remove_test](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.09_remove_test.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [replace_test](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.10_replace_test.md>) —— SmarTest 7.2.2: Added the copy_test_method, pre_proc, and post_proc parameters.
+- [remove_label](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.11_remove_label.md>) —— SmarTest 7.2.2: Added the pmf_only, pre_proc, and post_proc parameters.
+- [tpt_generate_template](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.14_tpt_generate_template.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [tpt_import_from_device](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.15_tpt_import_from_device.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [tpt_generate_device_dir](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.16_tpt_generate_device_dir.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [tpt_merge](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.17_tpt_merge.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [tpt_add_test](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.18_tpt_add_test.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [tpt_replace_test](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.19_tpt_replace_test.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [tpt_generate_tp](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.20_tpt_generate_tp.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [tpt_compare_tp](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.21_tpt_compare_tp.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [tpt_generate_test_stages](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.22_tpt_generate_test_stages.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [extract_subflow](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.23_extract_subflow.md>) —— SmarTest 7.2.2: Removed the keep_all_levels and keep_all_timings parameters.
+- [extract_subflow](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.23_extract_subflow.md>) —— SmarTest 7.2.2: Added the levels_mode, timing_mode, pattern_mode, config_mode, keep_tim_eqnsets, keep_lev_eqnsets, keep_wavetables, keep_specifications, keep_pattern_files, pre_proc, and post_proc parameters.
+- [merge_subflow](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.24_merge_subflow.md>) —— SmarTest 7.2.2: Removed the rename_prefix parameter.
+- [merge_subflow](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.24_merge_subflow.md>) —— SmarTest 7.2.2: Added the levels_mode, timing_mode, pattern_mode, keep_tim_eqnsets, keep_lev_eqnsets, keep_wavetables, keep_specifications, keep_pattern_files, pre_proc, and post_proc parameters.
+- [remove_subflow](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.25_remove_subflow.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [clear_duplicated](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.26_clear_duplicated.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [clear_unused](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.27_clear_unused.md>) —— SmarTest 7.2.2: Added the pre_proc and post_proc parameters.
+- [TestEventType](<02_System_reference/02.10_Data_Logging/02.10.01.06.03.12_TestEventType.md>) —— SmarTest 7.2.2: Added RARepairResultsAttrType attribute.
+- [Shmoo output of the Event Formatter](<02_System_reference/02.10_Data_Logging/02.10.02.04_Shmoo_output_of_the_Event_Formatter.md>) —— SmarTest 7.2.2: Patch 5, the output will show the primary values of those resources that the X and Y axes represent
+- [Appendix B: Event Formatter Defaults](<02_System_reference/02.10_Data_Logging/02.10.02.13_Appendix_B__Event_Formatter_Defaults.md>) —— SmarTest 7.2.2: Adds new parameters: shmoo_set_name, shmoo_txt_generation, shmoo_pass_mark, and shmoo_fail_mark.
+- [Audit Trail Record (ATR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.04_Audit_Trail_Record__ATR.md>) —— SmarTest 7.2.2: Added ATR record for test on more than 255 sites.
+- [Site Description Record (SDR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.08_Site_Description_Record__SDR.md>) —— SmarTest 7.2.2: Added special conventions for test on more than 128 sites.
+- [Hardware Bin Record (HBR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.09_Hardware_Bin_Record__HBR.md>) —— SmarTest 7.2.2: Added HEAD_NUM and SITE_NUM conventions for tests on more than 255 sites.
+- [Software Bin Record (SBR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.10_Software_Bin_Record__SBR.md>) —— SmarTest 7.2.2: Added HEAD_NUM and SITE_NUM conventions for tests on more than 255 sites.
+- [Pin Map Record (PMR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.11_Pin_Map_Record__PMR.md>) —— SmarTest 7.2.2: Added HEAD_NUM and SITE_NUM conventions for tests on more than 255 sites.
+- [Part Information Record (PIR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.16_Part_Information_Record__PIR.md>) —— SmarTest 7.2.2: Added HEAD_NUM and SITE_NUM conventions for tests on more than 255 sites.
+- [Parametric Test Record (PTR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.22_Parametric_Test_Record__PTR.md>) —— SmarTest 7.2.2: Added HEAD_NUM and SITE_NUM conventions for tests on more than 255 sites.
+- [Functional Test Record (FTR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.24_Functional_Test_Record__FTR.md>) —— SmarTest 7.2.2: Added HEAD_NUM and SITE_NUM conventions for tests on more than 255 sites.
+- [Part Results Record (PRR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.25_Part_Results_Record__PRR.md>) —— SmarTest 7.2.2: Added HEAD_NUM and SITE_NUM conventions for tests on more than 255 sites.
+- [Part Results Record (PRR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.25_Part_Results_Record__PRR.md>) —— SmarTest 7.2.2: Added data source for PART_FIX field.
+- [Test Synopsis Record (TSR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.26_Test_Synopsis_Record__TSR.md>) —— SmarTest 7.2.2: Added HEAD_NUM and SITE_NUM conventions for tests on more than 255 sites.
+- [Test Synopsis Record (TSR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.26_Test_Synopsis_Record__TSR.md>) —— SmarTest 7.2.2: TEST_LBL now contains the pattern name.
+- [Generic Data Record (GDR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.27_Generic_Data_Record__GDR.md>) —— SmarTest 7.2.2: Added special GDR record for test on more than 255 sites.
+- [Part Count Record (PCR)](<02_System_reference/02.10_Data_Logging/02.10.03.05.30_Part_Count_Record__PCR.md>) —— SmarTest 7.2.2: Added HEAD_NUM and SITE_NUM conventions for tests on more than 255 sites.
+- [Sequence of STDF records](<02_System_reference/02.10_Data_Logging/02.10.03.05.32_Sequence_of_STDF_records.md>) —— SmarTest 7.2.2: Added GDR records for tests on more than 255 sites
+- [Application model variables used for STDF generation](<02_System_reference/02.10_Data_Logging/02.10.03.05.33_Application_model_variables_used_for_STDF_generation.md>) —— SmarTest 7.2.2: Added STDF_SUMMARY_FILE and PART_FIX variables.
+- [Configuring x-modes using STIL Reader](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.04.04_Configuring_x-modes_using_STIL_Reader.md>) —— SmarTest 7.2.2: Added "auto" option to xmode_factor setting
+- [Using concurrent (multiport) testing](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.04.05_Using_concurrent__multiport__testing.md>) —— SmarTest 7.2.2: Added scan_repeat_compression, pattern_comments, and card parameters.
+- [Setting up additional DC levels and options](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.04.07_Setting_up_additional_DC_levels_and_options.md>) —— SmarTest 7.2.2: Added support for the vout...c2c parameters.
+- [Project-related STIL Reader setup options](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.05.03.01_Project-related_STIL_Reader_setup_options.md>) —— SmarTest 7.2.2: Added the stil_file_name_as_project_name setting.
+- [Test-processing STIL Reader setup options](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.05.03.02_Test-processing_STIL_Reader_setup_options.md>) —— SmarTest 7.2.2: Removed use_unified_memory setting.
+- [Test-processing STIL Reader setup options](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.05.03.02_Test-processing_STIL_Reader_setup_options.md>) —— SmarTest 7.2.2: Added "auto" option to xmode_factor setting.
+- [Test-processing STIL Reader setup options](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.05.03.02_Test-processing_STIL_Reader_setup_options.md>) —— SmarTest 7.2.2: Added pattern_memory_type and repeat_compression_ignore_comments settings.
+- [Test-processing STIL Reader setup options](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.05.03.02_Test-processing_STIL_Reader_setup_options.md>) —— SmarTest 7.2.2: Changed the default for repeat_break to 32.
+- [Translation-related STIL Reader setup options](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.05.03.03_Translation-related_STIL_Reader_setup_options.md>) —— SmarTest 7.2.2: Added the auto_create_signal_groups, create_min_max_typ_tests, error_on_2_state_ambiguity, levels_group_exclude_pins, optimize_equation_based_timing_vars, pad_xmode_vectors, process_user_keywords, statemap_selector, stil_file_name_as_wft_prefix, and tim_group_exclude_pins options.
+- [TDL-related STIL Reader setup options](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.05.03.06_TDL-related_STIL_Reader_setup_options.md>) —— SmarTest 7.2.2: Added tdl_drive_off_position and tdl_signal_drive_off_position options.
+- [STIL Reader setup file](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.05.03_STIL_Reader_setup_file.md>) —— SmarTest 7.2.2: Removed use_unified_memory setting.
+- [STIL Reader setup file](<02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.01.05.03_STIL_Reader_setup_file.md>) —— SmarTest 7.2.2: Added auto_create_signal_groups, create_min_max_typ_tests, error_on_2_state_ambiguity, levels_group_exclude_pins, optimize_equation_based_timing_vars, pad_xmode_vectors, pattern_memory_type, process_user_keywords, repeat_compression_ignore_comments, statemap_selector, stil_file_name_as_project_name, stil_file_name_as_wft_prefix, tdl_drive_off_position, tdl_signal_drive_off_position, and tim_group_exclude_pins options.
+- [Testflow flags](<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.10.02_Testflow_flags.md>) —— SmarTest 7.2.2: Patch1 - New testflow flag multibin_mode
+- [Use of multibins](<03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.02.06.07_Use_of_multibins.md>) —— SmarTest 7.2.2: Patch1 - New testflow flag multibin_mode
+- [CI Calls for Multisite Testing](<03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.03.02_CI_Calls_for_Multisite_Testing.md>) —— SmarTest 7.2.2: Removed *CI_OOC_WATCH and *CI_SAMPLE_SIZE constants
+- [Enabling test points in the .technology file](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.01_Enabling_test_points_in_the_.technology_file.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
+
+
+## 这一版新引入（94 条）
+
+语料原句是 `Introduced in …`，说的是「**这篇文档描述的东西从这一版开始有**」。条目短，所以**文档放前面、原句放后面**：
+
+- [Two areas of expertise in PDN design](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.01_Two_areas_of_expertise_in_PDN_design.md>) —— Introduced in SmarTest 7.2.2
+- [Checking the basic UHC4 / UHC4T stability requirements](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.02_Checking_the_basic_UHC4___UHC4T_stability_requirements.md>) —— Introduced in SmarTest 7.2.2
+- [Practical tips for selecting PDN capacitors](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.03.04.03_Practical_tips_for_selecting_PDN_capacitors.md>) —— Introduced in SmarTest 7.2.2
+- [Low inductance power plane and socket design](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.04.02_Low_inductance_power_plane_and_socket_design.md>) —— Introduced in SmarTest 7.2.2
+- [Bulk capacitor placement](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.04.04_Bulk_capacitor_placement.md>) —— Introduced in SmarTest 7.2.2
+- [Ceramic capacitor placement](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.04.05_Ceramic_capacitor_placement.md>) —— Introduced in SmarTest 7.2.2
+- [Sense line routing](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.04.06_Sense_line_routing.md>) —— Introduced in SmarTest 7.2.2
+- [Site dependent firmware commands](<02_System_reference/02.06_Command_Reference/02.06.01.05_Site_dependent_firmware_commands.md>) —— Introduced in SmarTest 7.2.2
+- [Site dependent firmware commands](<02_System_reference/02.06_Command_Reference/02.06.02.02.01_Site_dependent_firmware_commands.md>) —— Introduced in SmarTest 7.2.2
+- [CSAS? - (Channel Slot Accumulated Status)](<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>) —— Introduced in SmarTest 7.2.2
+- [CSAS? - (Channel Slot Accumulated Status)](<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>) —— Introduced in SmarTest 7.2.2
+- [FFPM? (First Failing cycle information Pin Mapping)](<02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md>) —— Introduced in SmarTest 7.2.2
+- [CCTgetAllDCUploadLength](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.05_CCTgetAllDCUploadLength.md>) —— Introduced in SmarTest 7.2.2
+- [CCTgetAllDCUploadStartIdx](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.06_CCTgetAllDCUploadStartIdx.md>) —— Introduced in SmarTest 7.2.2
+- [CCTgetDCUploadLength](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.11_CCTgetDCUploadLength.md>) —— Introduced in SmarTest 7.2.2
+- [CCTgetDCUploadStartIdx](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.12_CCTgetDCUploadStartIdx.md>) —— Introduced in SmarTest 7.2.2
+- [CCTRegisterDCPins](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.27_CCTRegisterDCPins.md>) —— Introduced in SmarTest 7.2.2
+- [PPMU_BADC_PIN_MEASURE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.153.01_PPMU_BADC_PIN_MEASURE.md>) —— Introduced in SmarTest 7.2.2
+- [PPMU_BADC_MEASURE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.153_PPMU_BADC_MEASURE.md>) —— Introduced in SmarTest 7.2.2
+- [DPS_AUX_PIN_TASK.checkIcHacError()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01.01_DPS_AUX_PIN_TASK.checkIcHacError.md>) —— Introduced in SmarTest 7.2.2
+- [DPS_AUX_PIN_TASK.checkSetRangeError()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01.03_DPS_AUX_PIN_TASK.checkSetRangeError.md>) —— Introduced in SmarTest 7.2.2
+- [DPS_AUX_TASK.getIcHacError()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.07.01_DPS_AUX_TASK.getIcHacError.md>) —— Introduced in SmarTest 7.2.2
+- [DPS_AUX_TASK.getRangeError()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.07.02_DPS_AUX_TASK.getRangeError.md>) —— Introduced in SmarTest 7.2.2
+- [EVENT_IC_HAC.iClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.09.01_EVENT_IC_HAC.iClampLow.md>) —— Introduced in SmarTest 7.2.2
+- [EVENT_IC_HAC.iClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.09.02_EVENT_IC_HAC.iClampHigh.md>) —— Introduced in SmarTest 7.2.2
+- [EVENT_IC_HAC.getIClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.09.03_EVENT_IC_HAC.getIClampLow.md>) —— Introduced in SmarTest 7.2.2
+- [EVENT_IC_HAC.getIClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.09.04_EVENT_IC_HAC.getIClampHigh.md>) —— Introduced in SmarTest 7.2.2
+- [EVENT_IC_HAC](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.09_EVENT_IC_HAC.md>) —— Introduced in SmarTest 7.2.2
+- [Saving the system data log stream](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.05_Saving_the_system_data_log_stream.md>) —— Introduced in SmarTest 7.2.2
+- [Selecting similar data](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.04_Selecting_similar_data.md>) —— Introduced in SmarTest 7.2.2
+- [Calculating yields for modified limits](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.08_Calculating_yields_for_modified_limits.md>) —— Introduced in SmarTest 7.2.2
+- [Yield Calculator](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.01.01_Yield_Calculator.md>) —— Introduced in SmarTest 7.2.2
+- [Scan view properties](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.10.01_Scan_view_properties.md>) —— Introduced in SmarTest 7.2.2
+- [Scan view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.04.10_Scan_view.md>) —— Introduced in SmarTest 7.2.2
+- [Box preference settings](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.04_Box_preference_settings.md>) —— Introduced in SmarTest 7.2.2
+- [Scan View preference settings](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.15_Scan_View_preference_settings.md>) —— Introduced in SmarTest 7.2.2
+- [MEC configuration file](<02_System_reference/02.09_Test_Program_Management/02.09.01.03.07.01_MEC_configuration_file.md>) —— Introduced in SmarTest 7.2.2
+- [Using the Multiple Equipment Control driver to execute a test program](<02_System_reference/02.09_Test_Program_Management/02.09.01.03.07.02_Using_the_Multiple_Equipment_Control_driver_to_execute_a_test_program.md>) —— Introduced in SmarTest 7.2.2
+- [Multiple Equipment Control driver](<02_System_reference/02.09_Test_Program_Management/02.09.01.03.07_Multiple_Equipment_Control_driver.md>) —— Introduced in SmarTest 7.2.2
+- [Function: ph_disable_equipment](<02_System_reference/02.09_Test_Program_Management/02.09.01.03.08.08.01_Function__ph_disable_equipment.md>) —— Introduced in SmarTest 7.2.2
+- [Function:ph_enable_equipment](<02_System_reference/02.09_Test_Program_Management/02.09.01.03.08.08.02_Function_ph_enable_equipment.md>) —— Introduced in SmarTest 7.2.2
+- [Function: ph_list_equipment](<02_System_reference/02.09_Test_Program_Management/02.09.01.03.08.08.03_Function__ph_list_equipment.md>) —— Introduced in SmarTest 7.2.2
+- [Functions specifically for MEC driver](<02_System_reference/02.09_Test_Program_Management/02.09.01.03.08.08_Functions_specifically_for_MEC_driver.md>) —— Introduced in SmarTest 7.2.2
+- [Preprocessing and postprocessing scripts](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md>) —— Introduced in SmarTest 7.2.2
+- [add_pattern](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.12_add_pattern.md>) —— Introduced in SmarTest 7.2.2
+- [replace_pattern](<02_System_reference/02.09_Test_Program_Management/02.09.02.03.13_replace_pattern.md>) —— Introduced in SmarTest 7.2.2
+- [Installing the STPM UI plug-in](<02_System_reference/02.09_Test_Program_Management/02.09.02.07.01_Installing_the_STPM_UI_plug-in.md>) —— Introduced in SmarTest 7.2.2
+- [STPM menu](<02_System_reference/02.09_Test_Program_Management/02.09.02.07.02_STPM_menu.md>) —— Introduced in SmarTest 7.2.2
+- [Clear Unused dialog](<02_System_reference/02.09_Test_Program_Management/02.09.02.07.03_Clear_Unused_dialog.md>) —— Introduced in SmarTest 7.2.2
+- [Clear Duplicated dialog](<02_System_reference/02.09_Test_Program_Management/02.09.02.07.04_Clear_Duplicated_dialog.md>) —— Introduced in SmarTest 7.2.2
+- [Keep Timing dialog](<02_System_reference/02.09_Test_Program_Management/02.09.02.07.05.01_Keep_Timing_dialog.md>) —— Introduced in SmarTest 7.2.2
+- [Extract Subflow dialog](<02_System_reference/02.09_Test_Program_Management/02.09.02.07.05_Extract_Subflow_dialog.md>) —— Introduced in SmarTest 7.2.2
+- [Merge Subflow dialog](<02_System_reference/02.09_Test_Program_Management/02.09.02.07.06_Merge_Subflow_dialog.md>) —— Introduced in SmarTest 7.2.2
+- [Extract Test Group dialog](<02_System_reference/02.09_Test_Program_Management/02.09.02.07.07_Extract_Test_Group_dialog.md>) —— Introduced in SmarTest 7.2.2
+- [Merge Test Group dialog](<02_System_reference/02.09_Test_Program_Management/02.09.02.07.08_Merge_Test_Group_dialog.md>) —— Introduced in SmarTest 7.2.2
+- [STPM UI plug-in](<02_System_reference/02.09_Test_Program_Management/02.09.02.07_STPM_UI_plug-in.md>) —— Introduced in SmarTest 7.2.2
+- [DRLRARepairResult](<02_System_reference/02.10_Data_Logging/02.10.01.04.02.60_DRLRARepairResult.md>) —— Introduced in SmarTest 7.2.2
+- [DRLRARepairResultsAttr](<02_System_reference/02.10_Data_Logging/02.10.01.04.02.61_DRLRARepairResultsAttr.md>) —— Introduced in SmarTest 7.2.2
+- [RARepairResultsAttrType](<02_System_reference/02.10_Data_Logging/02.10.01.06.05.42_RARepairResultsAttrType.md>) —— Introduced in SmarTest 7.2.2
+- [Creating both detailed and summary output files](<02_System_reference/02.10_Data_Logging/02.10.03.04.02_Creating_both_detailed_and_summary_output_files.md>) —— Introduced in SmarTest 7.2.2
+- [Installing TP360](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.02_Installing_TP360.md>) —— Introduced in SmarTest 7.2.2
+- [Opening TP360](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.03_Opening_TP360.md>) —— Introduced in SmarTest 7.2.2
+- [Global parameters](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.01.01.01_Global_parameters.md>) —— Introduced in SmarTest 7.2.2
+- [Measuring test time](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.01.01_Measuring_test_time.md>) —— Introduced in SmarTest 7.2.2
+- [Managing test time reports](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.01.02_Managing_test_time_reports.md>) —— Introduced in SmarTest 7.2.2
+- [Importing test time files to view](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.01.03_Importing_test_time_files_to_view.md>) —— Introduced in SmarTest 7.2.2
+- [Comparing test time](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.01.04_Comparing_test_time.md>) —— Introduced in SmarTest 7.2.2
+- [Test Time Utilities](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.01_Test_Time_Utilities.md>) —— Introduced in SmarTest 7.2.2
+- [Executing the test program resource profiler](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.02.01_Executing_the_test_program_resource_profiler.md>) —— Introduced in SmarTest 7.2.2
+- [Test program resource profiler report](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.02.02_Test_program_resource_profiler_report.md>) —— Introduced in SmarTest 7.2.2
+- [Test program resource profiler](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.02_Test_program_resource_profiler.md>) —— Introduced in SmarTest 7.2.2
+- [Preference pages on Test Program Stability Checker](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.03.01_Preference_pages_on_Test_Program_Stability_Checker.md>) —— Introduced in SmarTest 7.2.2
+- [The CSV file for checking overvoltage/overcurrent risks](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.03.02_The_CSV_file_for_checking_overvoltage_overcurrent_risks.md>) —— Introduced in SmarTest 7.2.2
+- [Test Program Stability Checker](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.03_Test_Program_Stability_Checker.md>) —— Introduced in SmarTest 7.2.2
+- [Testflow report](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.04.01.01_Testflow_report.md>) —— Introduced in SmarTest 7.2.2
+- [Pin configuration report](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.04.01.02_Pin_configuration_report.md>) —— Introduced in SmarTest 7.2.2
+- [Level setup report](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.04.01.03_Level_setup_report.md>) —— Introduced in SmarTest 7.2.2
+- [Timing setup report](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.04.01.04_Timing_setup_report.md>) —— Introduced in SmarTest 7.2.2
+- [Pattern setup report](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.04.01.05_Pattern_setup_report.md>) —— Introduced in SmarTest 7.2.2
+- [Test table report](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.04.01.06_Test_table_report.md>) —— Introduced in SmarTest 7.2.2
+- [Test methods report](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.04.01.07_Test_methods_report.md>) —— Introduced in SmarTest 7.2.2
+- [Suite setups and ports running speed reports](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.04.01.09_Suite_setups_and_ports_running_speed_reports.md>) —— Introduced in SmarTest 7.2.2
+- [Test Program Browser report](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.04.01_Test_Program_Browser_report.md>) —— Introduced in SmarTest 7.2.2
+- [Test Program Browser](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.04_Test_Program_Browser.md>) —— Introduced in SmarTest 7.2.2
+- [Using the Test Program Cleaner](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.05.01_Using_the_Test_Program_Cleaner.md>) —— Introduced in SmarTest 7.2.2
+- [Programs after cleaning](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.05.02_Programs_after_cleaning.md>) —— Introduced in SmarTest 7.2.2
+- [Test Program Cleaner](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.05_Test_Program_Cleaner.md>) —— Introduced in SmarTest 7.2.2
+- [Preference page on Test Program Comparator](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.09.01_Preference_page_on_Test_Program_Comparator.md>) —— Introduced in SmarTest 7.2.2
+- [Comparison reports](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.09.03_Comparison_reports.md>) —— Introduced in SmarTest 7.2.2
+- [Test Program Comparator](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.09_Test_Program_Comparator.md>) —— Introduced in SmarTest 7.2.2
+- [Test time details of code lines](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.11.01.05_Test_time_details_of_code_lines.md>) —— Introduced in SmarTest 7.2.2
+- [Timeline of SMC execution](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.11.02_Timeline_of_SMC_execution.md>) —— Introduced in SmarTest 7.2.2
+- [Using TP360](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04_Using_TP360.md>) —— Introduced in SmarTest 7.2.2
+- [Test Program 360 Cookbook](<03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13_Test_Program_360_Cookbook.md>) —— Introduced in SmarTest 7.2.2
+
+
+## 出处
+
+- 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 288 条**，涉及 **242 篇**文档。
+- 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
+- **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
+
+## ⚠️ 本页出现的语料编码损坏
+
+本页条目里有 **1 处**「`鈥`」字样：`鈥慶`（1 处）。
+
+**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
+
+**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

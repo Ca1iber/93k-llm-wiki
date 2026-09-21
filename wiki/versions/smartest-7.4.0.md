@@ -1,0 +1,375 @@
+---
+type: version
+title: SmarTest 7.4.0 — 版本页
+tags: [version, smartest]
+related: []
+sources:
+  - 01_Getting_started/01.02_SmarTest_workstation_administration/01.02.01.01_SmarTest_Prerequisites.md
+  - 02_System_reference/02.02_Specifications/02.02.02_Infrastructure_specifications_-_V93000_Pin_Scale_and_Smart_Scale_systems.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01.01_AVI64_pogo_cable_assembly__E8025AVP.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01_AVI64_pogo_pin_assignment.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.06.02_Pogo_pin_assignment_-_DC_Scale_cards.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.07.01.03_Connecting_DPS_channels_in_parallel.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.02_HV_protection_-_Compliance_range.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.03.02_HV_protection_-_Clamp_regulator.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.01_AVI64_Kelvin_connection.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.03_AVI64_Sense_only_connection.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01_AVI64_output_pogo_pins.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.02_AVI64_safety_pogo_pins.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.03_AVI64_ganged_wiring.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.04_AVI64_channel_group_and_differential_compare_assignment.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01_DC_Scale_AVI64_card.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.01_Direct-Probe_probe_card_layout_information.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.02_Direct-Probe_stiffener.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.23_Wave_Scale_RF_PCB_layout_and_stiffener_info_for_Direct-Probe.md
+  - 02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.24_Wave_Scale_RF_PCB_layout_and_stiffener_info_for_final_test.md
+  - 02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.01_Pogocabling_entries_for_various_card_types.md
+  - 02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.06_DPS_section.md
+  - 02_System_reference/02.05_Test_Head_Cards/02.05.04.03.08_Channel_groups_of_Smart_Scale_cards.md
+  - 02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md
+  - 02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md
+  - 02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md
+  - 02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md
+  - 02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md
+  - 02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md
+  - 02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md
+  - 02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md
+  # 本页共涉及 278 篇文档。上面只列了前 30 篇——**完整出处是正文每条后面的链接**，
+  # 机器可读全量见 extract/version-facts.csv（按 doc 列筛）。**这是有意的截断，不是漏列。**
+created: 2026-09-18
+updated: 2026-09-18
+verified: doc-only
+---
+
+# SmarTest 7.4.0
+
+> **本页由 `extract/versions.py` 从 raw 的 `## Functional changes` 段落机械汇编**——分组、排序、出处都是脚本算的，**没有一句是模型写的**。
+> 条目**原样转录**（含语料自己的措辞、大小写与错拼），本页不替它改。
+>
+> 因此本页只证明**「文档这么写」**，不证明**「机台这样」**（schema §11）。
+> **本页没有被人在真实机台上核对过**（`verified: doc-only`）。
+
+## 这一版改了什么（116 条）
+
+格式：**出处文档 —— 语料原条目**。条目本身带 `SmarTest 7.4.0:` 前缀，**那是原文的一部分，没有去掉**。
+
+- [Infrastructure specifications - V93000 Pin Scale and Smart Scale systems](<02_System_reference/02.02_Specifications/02.02.02_Infrastructure_specifications_-_V93000_Pin_Scale_and_Smart_Scale_systems.md>) —— SmarTest 7.4.0: Weekly DC update (SmarTest 7) / Enhanced Accuracy Adjustment (SmarTest 8) period for enhanced accuracy of DC Scale card AVI64
+- [Pogo pin assignment - DC Scale cards](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02_Pogo_pin_assignment_-_DC_Scale_cards.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [Connecting DPS channels in parallel](<02_System_reference/02.03_DUT_board_design_reference/02.03.07.01.03_Connecting_DPS_channels_in_parallel.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [HV protection - Compliance range](<02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.02_HV_protection_-_Compliance_range.md>) —— SmarTest 7.4.0: DV Scale AVI64 card added
+- [HV protection - Clamp regulator](<02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.03.02_HV_protection_-_Clamp_regulator.md>) —— SmarTest 7.4.0: AVI64 added
+- [Direct-Probe probe card layout information](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.01_Direct-Probe_probe_card_layout_information.md>) —— SmarTest 7.4.0: Drawing N2360-90120 updated from revision B to revision D.
+- [Direct-Probe stiffener](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.02_Direct-Probe_stiffener.md>) —— SmarTest 7.4.0: Update to Revision F of Direct Probe Universal Stiffener
+- [Pogocabling entries for various card types](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.01_Pogocabling_entries_for_various_card_types.md>) —— SmarTest 7.4.0: Support of AVI64
+- [DPS section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.06_DPS_section.md>) —— SmarTest 7.4.0: AVI64 supported.
+- [PSAS? - (Power Supply Accumulated Status)](<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>) —— SmarTest 7.4.0: DC Scale AVI64 card and support for the Digital I/O operating mode of DPS added.
+- [PSAS? - (Power Supply Accumulated Status)](<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>) —— SmarTest 7.4.0: New flags Range overflow (Bit 13) and Clamp distance too low (Bit 14).
+- [RCLV, RCLV? - (ReCeive LeVel)](<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>) —— SmarTest 7.4.0: New extra parameter range.
+- [CHIN? - (CHannel INformation)](<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>) —— SmarTest 7.4.0: New card AVI64
+- [SQPG, SQPG? - (SeQuencer ProGramming)](<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>) —— SmarTest 7.4.0: New feature Fast Sync enables the COGO, JMPE, RETC, MACT and MRPT instructions to use smaller number of vectors for error propagation..
+- [STME, STME? - (SiTe Match Enable)](<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>) —— SmarTest 7.4.0: New option FAST.
+- [TERM, TERM? - (TERMination mode)](<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>) —— SmarTest 7.4.0: New extra parameter hr_mode.
+- [TERM, TERM? - (TERMination mode)](<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>) —— SmarTest 7.4.0: Termination modes for DC Scale AVI64 added.
+- [CSAS? - (Channel Slot Accumulated Status)](<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>) —— SmarTest 7.4.0: DC Scale AVI64 card and support for the Digital I/O operating mode of DPS added.
+- [CSAS? - (Channel Slot Accumulated Status)](<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>) —— SmarTest 7.4.0: New flags Battery full and PowerBudget 1 ... 3 warning (Bit 5 ... 8).
+- [*OPT? - (hardware OPTions)](<02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md>) —— SmarTest 7.4.0: DC Scale card AVI64 added
+- [DCCH - (DC Current measurement High precision pmu)](<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>) —— SmarTest 7.4.0: New extra parameters forceMode and refPinList.
+- [DCCH - (DC Current measurement High precision pmu)](<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>) —— SmarTest 7.4.0: New connectState options: HS_AWG, HR_AWG, HC_AWG, SENSE_ONLY, SAFE_CON
+- [DCCH - (DC Current measurement High precision pmu)](<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>) —— SmarTest 7.4.0: Naming and usage of parameters modified: forceVoltage > forceValue, currentLimit > clampValue
+- [DCCH - (DC Current measurement High precision pmu)](<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>) —— SmarTest 7.4.0: Naming and usage of parameters modified: forceVoltageRange > forceRange, forceCurrentRange > clampRange
+- [DCVH - (DC Voltage measurement High precision pmu)](<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>) —— SmarTest 7.4.0: New extra parameters forceMode and refPinList.
+- [DCVH - (DC Voltage measurement High precision pmu)](<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>) —— SmarTest 7.4.0: New connectState options: HS_AWG, HR_AWG, HC_AWG, DIFF_VM, COHERENT, SENSE_ONLY, SAFE_CON
+- [DCVH - (DC Voltage measurement High precision pmu)](<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>) —— SmarTest 7.4.0: Naming and usage of parameters modified: forceCurrent > forceValue, voltageLimit > clampValue
+- [DCVH - (DC Voltage measurement High precision pmu)](<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>) —— SmarTest 7.4.0: Naming and usage of parameters modified: forceCurrentRange > forceRange, forceVoltageRange > clampRange
+- [DFPN, DFPN? - (DeFine Pin Name)](<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>) —— SmarTest 7.4.0: Support for DC Scale AVI64 card added.
+- [DFPS, DFPS? - (DeFine Power Supply)](<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DFTD, DFTD? (DeFine Test Data)](<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>) —— SmarTest 7.4.0: New elements setForceRange and setForceMode
+- [DFTD, DFTD? (DeFine Test Data)](<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>) —— SmarTest 7.4.0: New values current and voltageClamp for attribute type of element setForceValue
+- [DFTD, DFTD? (DeFine Test Data)](<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>) —— SmarTest 7.4.0: New value current for attribute type of element setTmuConfigure
+- [DRLV, DRLV? - (DRive LeVel)](<02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md>) —— SmarTest 7.4.0: Usage of the fourth parameter extended: v3h_level changed to v3h_level | range.
+- [Mode contexts](<02_System_reference/02.06_Command_Reference/02.06.03.01.03.01_Mode_contexts.md>) —— SmarTest 7.4.0: DC Scale card AVI64 added.
+- [Configuring pin type and operating mode for a context](<02_System_reference/02.06_Command_Reference/02.06.03.01.03_Configuring_pin_type_and_operating_mode_for_a_context.md>) —— SmarTest 7.4.0: DC Scale card AVI64 added.
+- [CHIN? - (CHannel INformation)](<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>) —— SmarTest 7.4.0: New card AVI64
+- [DFPN, DFPN? - (DeFine Pin Name)](<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>) —— SmarTest 7.4.0: Support for DC Scale AVI64 card added.
+- [DFPS, DFPS? - (DeFine Power Supply)](<02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [STME, STME? - (SiTe Match Enable)](<02_System_reference/02.06_Command_Reference/02.06.03.02.23_STME__STME__-__SiTe_Match_Enable.md>) —— SmarTest 7.4.0: New option FAST.
+- [*OPT? - (hardware OPTions)](<02_System_reference/02.06_Command_Reference/02.06.03.02.37_OPT__-__hardware_OPTions.md>) —— SmarTest 7.4.0: DC Scale card AVI64 added
+- [IO PINS resources](<02_System_reference/02.06_Command_Reference/02.06.05.01.04.02.07_IO_PINS_resources.md>) —— SmarTest 7.4.0: New resources irng, orng, and hyst added.
+- [DRLV, DRLV? - (DRive LeVel)](<02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md>) —— SmarTest 7.4.0: Usage of the fourth parameter extended: v3h_level changed to v3h_level | range.
+- [RCLV, RCLV? - (ReCeive LeVel)](<02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md>) —— SmarTest 7.4.0: New extra parameter range.
+- [TERM, TERM? - (TERMination mode)](<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>) —— SmarTest 7.4.0: New extra parameter hr_mode.
+- [TERM, TERM? - (TERMination mode)](<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>) —— SmarTest 7.4.0: Termination modes for DC Scale AVI64 added.
+- [Match loops](<02_System_reference/02.06_Command_Reference/02.06.07.01.08.04.03_Match_loops.md>) —— SmarTest 7.4.0: New feature Fast Sync.
+- [SQPG, SQPG? - (SeQuencer ProGramming)](<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>) —— SmarTest 7.4.0: New feature Fast Sync enables the COGO, JMPE, RETC, MACT and MRPT instructions to use smaller number of vectors for error propagation..
+- [CSAS? - (Channel Slot Accumulated Status)](<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>) —— SmarTest 7.4.0: DC Scale AVI64 card and support for the Digital I/O operating mode of DPS added.
+- [CSAS? - (Channel Slot Accumulated Status)](<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>) —— SmarTest 7.4.0: New flags Battery full and PowerBudget 1 ... 3 warning (Bit 5 ... 8).
+- [PSAS? - (Power Supply Accumulated Status)](<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>) —— SmarTest 7.4.0: DC Scale AVI64 card and support for the Digital I/O operating mode of DPS added.
+- [PSAS? - (Power Supply Accumulated Status)](<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>) —— SmarTest 7.4.0: New flags Range overflow (Bit 13) and Clamp distance too low (Bit 14).
+- [HW_PIN_STATE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.01_HW_PIN_STATE.md>) —— SmarTest 7.4.0: New return values "SENSE_ONLY" and "SAFE_CONNECT" of member function getConnectState()
+- [HW_PIN_STATE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.01_HW_PIN_STATE.md>) —— SmarTest 7.4.0: New member functions getVoltageSlew(), getCurrentSlew(), getLoadcap()
+- [HW_PIN_STATE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.01_HW_PIN_STATE.md>) —— SmarTest 7.4.0: New member functions getReferencePin(), getCompHysteresis()
+- [HW_PIN_STATE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.01_HW_PIN_STATE.md>) —— SmarTest 7.4.0: New member functions getMeasFilter(), getCompSelector()
+- [HW_STATE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117_HW_STATE.md>) —— SmarTest 7.4.0: New member function HW_STATE.checkKelvinStatus()
+- [SMC_SYNCHRONIZE_WITHOUT_BINNING()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.44_SMC_SYNCHRONIZE_WITHOUT_BINNING.md>) —— SmarTest 7.4.0: Introduced in patch 3.
+- [SPMU_PIN_TASK.clamp()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.01_SPMU_PIN_TASK.clamp.md>) —— SmarTest 7.4.0: Support for AVI64 and new meaning of the two parameters added.
+- [SPMU_PIN_TASK.connectState()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.04_SPMU_PIN_TASK.connectState.md>) —— SmarTest 7.4.0: New AVI64 connection state "SENSE_ONLY"
+- [SPMU_PIN_TASK.iClampFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.12_SPMU_PIN_TASK.iClampFilter.md>) —— SmarTest 7.4.0: Support for AVI64 added.
+- [SPMU_PIN_TASK.loadCap()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.19_SPMU_PIN_TASK.loadCap.md>) —— SmarTest 7.4.0: Support for AVI64 added.
+- [SPMU_PIN_TASK.mode()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.24_SPMU_PIN_TASK.mode.md>) —— SmarTest 7.4.0: New measurement modes added for AVI64.
+- [SPMU_PIN_TASK.preCharge()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.26_SPMU_PIN_TASK.preCharge.md>) —— SmarTest 7.4.0: Second syntax with string added for AVI64.
+- [SPMU_PIN_TASK.vForceFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.35_SPMU_PIN_TASK.vForceFilter.md>) —— SmarTest 7.4.0: Support for AVI64 added
+- [SPMU_PIN_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01_SPMU_PIN_TASK.md>) —— SmarTest 7.4.0: New SPMU_PIN_TASK.iSlewRate(), SPMU_PIN_TASK.vSlewRate()
+- [SPMU_PIN_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01_SPMU_PIN_TASK.md>) —— SmarTest 7.4.0: New SPMU_PIN_TASK.refPin(), SPMU_PIN_TASK.measFilter()
+- [SPMU_PIN_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01_SPMU_PIN_TASK.md>) —— SmarTest 7.4.0: New SPMU_PIN_TASK.iFilter(), SPMU_PIN_TASK.vFilter()
+- [WAIT_TEST_DONE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.271_WAIT_TEST_DONE.md>) —— SmarTest 7.4.0: WAIT_ABORT_CONDITION parameter.
+- [DC_RESULT_ACCESSOR](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.28_DC_RESULT_ACCESSOR.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DPS_AUX_PIN_TASK.checkSetRangeError()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01.03_DPS_AUX_PIN_TASK.checkSetRangeError.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DPS_AUX_PIN_TASK.checkSurgeTracker()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01.04_DPS_AUX_PIN_TASK.checkSurgeTracker.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DPS_AUX_PIN_TASK.selectISensorSetThresholds()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01.05_DPS_AUX_PIN_TASK.selectISensorSetThresholds.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DPS_AUX_PIN_TASK.selectVSensorSetThresholds()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01.06_DPS_AUX_PIN_TASK.selectVSensorSetThresholds.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DPS_AUX_PIN_TASK.setMode()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01.07_DPS_AUX_PIN_TASK.setMode.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DPS_AUX_PIN_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01_DPS_AUX_PIN_TASK.md>) —— SmarTest 7.4.0: New member functions DPS_AUX_PIN_TASK.checkBatteryFull() and DPS_AUX_PIN_TASK.checkPowerBudget().
+- [DPS_AUX_PIN_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01_DPS_AUX_PIN_TASK.md>) —— SmarTest 7.4.0: New member function DPS_AUX_PIN_TASK.checkPowerFlags().
+- [DPS_AUX_PIN_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01_DPS_AUX_PIN_TASK.md>) —— SmarTest 7.4.0: New member functions DPS_AUX_PIN_TASK.selectComp(), DPS_AUX_PIN_TASK.setCompHysteresis().
+- [DPS_AUX_TASK.setup()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.04_DPS_AUX_TASK.setup.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DPS_AUX_TASK.getSurgeTrackerStatus()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.05_DPS_AUX_TASK.getSurgeTrackerStatus.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DPS_AUX_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43_DPS_AUX_TASK.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DPS_AUX_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43_DPS_AUX_TASK.md>) —— SmarTest 7.4.0: New member functions DPS_AUX_TASK.getBatteryFull().
+- [DPS_AUX_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43_DPS_AUX_TASK.md>) —— SmarTest 7.4.0: New member functions DPS_AUX_TASK.getPowerBudgetWarningAll().
+- [DPS_AUX_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43_DPS_AUX_TASK.md>) —— SmarTest 7.4.0: New member functions DPS_AUX_TASK.getPowerBudgetWarning1(), ...Warning2(), and ...Warning3().
+- [DPS_AUX_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43_DPS_AUX_TASK.md>) —— SmarTest 7.4.0: New member functions returning the DPS_POWER_FLAG_STATUS.
+- [DPS_PIN_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.50.01_DPS_PIN_TASK.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DPS_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.50_DPS_TASK.md>) —— SmarTest 7.4.0: samples() values for AVI64 added.
+- [EVENT_IM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.12_EVENT_IM.md>) —— SmarTest 7.4.0: New member functions clampChecks() and getClampChecks().
+- [EVENT_VFIM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.24_EVENT_VFIM.md>) —— SmarTest 7.4.0: New member functions clampChecks() and getClampChecks().
+- [EVENT_VFVM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.25_EVENT_VFVM.md>) —— SmarTest 7.4.0: New member functions clampChecks() and getClampChecks().
+- [EVENT_VM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.26_EVENT_VM.md>) —— SmarTest 7.4.0: New member functions clampChecks() and getClampChecks().
+- [EVENT_WAVEFORM_IM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33_EVENT_WAVEFORM_IM.md>) —— SmarTest 7.4.0: New member functions clampChecks() and getClampChecks().
+- [EVENT_WAVEFORM_VFIM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38_EVENT_WAVEFORM_VFIM.md>) —— SmarTest 7.4.0: New member functions clampChecks() and getClampChecks().
+- [EVENT_WAVEFORM_VFVM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39_EVENT_WAVEFORM_VFVM.md>) —— SmarTest 7.4.0: New member functions clampChecks() and getClampChecks().
+- [EVENT_WAVEFORM_VM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40_EVENT_WAVEFORM_VM.md>) —— SmarTest 7.4.0: New member functions clampChecks() and getClampChecks().
+- [EVENT_... (DC events API reference)](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63_EVENT_...__DC_events_API_reference.md>) —— SmarTest 7.4.0: New EVENT_RANGE_CF, EVENT_RANGE_VF, and EVENT_FORCE_MODE
+- [EVENT_... (DC events API reference)](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63_EVENT_...__DC_events_API_reference.md>) —— SmarTest 7.4.0: New EVENT_CF, EVENT_CFIM, and EVENT_CFVM
+- [EVENT_... (DC events API reference)](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63_EVENT_...__DC_events_API_reference.md>) —— SmarTest 7.4.0: New EVENT_VC, EVENT_VCIM, and EVENT_VCVM
+- [EVENT_... (DC events API reference)](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63_EVENT_...__DC_events_API_reference.md>) —— SmarTest 7.4.0: New EVENT_WAVEFORM_CF, EVENT_WAVEFORM_CFIM, and EVENT_WAVEFORM_CFVM
+- [EVENT_... (DC events API reference)](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63_EVENT_...__DC_events_API_reference.md>) —— SmarTest 7.4.0: New EVENT_WAVEFORM_VC, EVENT_WAVEFORM_VCVM, and EVENT_WAVEFORM_VCIM
+- [FLEX_PIN_RELAY](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.68.01_FLEX_PIN_RELAY.md>) —— SmarTest 7.4.0: AVI64 added.
+- [DPSPINS resources](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md>) —— SmarTest 7.4.0: Support of DC Scale AVI64 card.
+- [IO PINS resources](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.08.01_IO_PINS_resources.md>) —— SmarTest 7.4.0: New resources irng, orng, and hyst added.
+- [How to read the IO Level Setup window](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.03.01_How_to_read_the_IO_Level_Setup_window.md>) —— SmarTest 7.4.0: New columns "HR mode" and "range" .
+- [Elements of the Level Setup window](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.03_Elements_of_the_Level_Setup_window.md>) —— SmarTest 7.4.0: New columns "HR mode" and "range" in the I/O pins view.
+- [Voltage ramps](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.06.01.02.02.01_Voltage_ramps.md>) —— SmarTest 7.4.0: Transition time of AVI64 added.
+- [Sequencer instructions](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md>) —— SmarTest 7.4.0: New feature Fast Sync enables COGO, JMPE, RETC, MACT and MRPT to run faster.
+- [Digital Pins editor](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DC Scale pin (DPS mode) setup](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.03.01_DC_Scale_pin__DPS_mode__setup.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [DPS Pins editor](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.03_DPS_Pins_editor.md>) —— SmarTest 7.4.0: DC Scale AVI64 card added.
+- [Elements of the Pin Configuration Tool](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03_Elements_of_the_Pin_Configuration_Tool.md>) —— SmarTest 7.4.0: DC Scale Extensions added.
+- [User Defined Panel](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.03_User_Defined_Panel.md>) —— SmarTest 7.4.0: dBV is supported in Signal Analysis
+- [Minimum period / maximum frequency of the sequencer](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.06.05.01_Minimum_period___maximum_frequency_of_the_sequencer.md>) —— SmarTest 7.4.0: Data for AVI64 added.
+- [User Flag](<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.04_User_Flag.md>) —— SmarTest 7.4.0: New function IsUserFlagDefined().
+- [User Double](<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.05_User_Double.md>) —— SmarTest 7.4.0: New function IsUserDoubleDefined().
+- [User String](<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.06_User_String.md>) —— SmarTest 7.4.0: New function IsUserStringDefined().
+
+
+## 这一版新引入（191 条）
+
+语料原句是 `Introduced in …`，说的是「**这篇文档描述的东西从这一版开始有**」。条目短，所以**文档放前面、原句放后面**：
+
+- [SmarTest Prerequisites](<01_Getting_started/01.02_SmarTest_workstation_administration/01.02.01.01_SmarTest_Prerequisites.md>) —— Introduced in SmarTest 7.4.0
+- [AVI64 pogo cable assembly (E8025AVP)](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01.01_AVI64_pogo_cable_assembly__E8025AVP.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
+- [AVI64 pogo pin assignment](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01_AVI64_pogo_pin_assignment.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
+- [AVI64 Kelvin connection](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.01_AVI64_Kelvin_connection.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
+- [AVI64 Sense only connection](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.03_AVI64_Sense_only_connection.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
+- [AVI64 output pogo pins](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01_AVI64_output_pogo_pins.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
+- [AVI64 safety pogo pins](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.02_AVI64_safety_pogo_pins.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
+- [AVI64 ganged wiring](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.03_AVI64_ganged_wiring.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
+- [AVI64 channel group and differential compare assignment](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.04_AVI64_channel_group_and_differential_compare_assignment.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
+- [DC Scale AVI64 card](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01_DC_Scale_AVI64_card.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
+- [Wave Scale RF PCB layout and stiffener info for Direct-Probe](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.23_Wave_Scale_RF_PCB_layout_and_stiffener_info_for_Direct-Probe.md>) —— Introduced in SmarTest 7.4.0
+- [Wave Scale RF PCB layout and stiffener info for final test](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.24_Wave_Scale_RF_PCB_layout_and_stiffener_info_for_final_test.md>) —— Introduced in SmarTest 7.4.0
+- [Channel groups of Smart Scale cards](<02_System_reference/02.05_Test_Head_Cards/02.05.04.03.08_Channel_groups_of_Smart_Scale_cards.md>) —— Introduced in SmarTest 7.4.0
+- [NIFE, NIFE? - (Number of Independent Fast Error)](<02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md>) —— Introduced in SmarTest 7.4.0
+- [How to use Fast Sync](<02_System_reference/02.06_Command_Reference/02.06.07.01.08.04.03.03.01_How_to_use_Fast_Sync.md>) —— Introduced in SmarTest 7.4.0
+- [Fast Sync](<02_System_reference/02.06_Command_Reference/02.06.07.01.08.04.03.03_Fast_Sync.md>) —— Introduced in SmarTest 7.4.0
+- [HW_STATE.checkKelvinStatus()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.02_HW_STATE.checkKelvinStatus.md>) —— Introduced in SmarTest 7.4.0
+- [SPMU_PIN_TASK.iFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.13_SPMU_PIN_TASK.iFilter.md>) —— Introduced in SmarTest 7.4.0
+- [SPMU_PIN_TASK.iSlewRate()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.17_SPMU_PIN_TASK.iSlewRate.md>) —— Introduced in SmarTest 7.4.0
+- [SPMU_PIN_TASK.measFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.22_SPMU_PIN_TASK.measFilter.md>) —— Introduced in SmarTest 7.4.0
+- [SPMU_PIN_TASK.vFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.33_SPMU_PIN_TASK.vFilter.md>) —— Introduced in SmarTest 7.4.0
+- [SPMU_PIN_TASK.vSlewRate()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.38_SPMU_PIN_TASK.vSlewRate.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_PIN_TASK.checkPowerFlags()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01.02_DPS_AUX_PIN_TASK.checkPowerFlags.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getAllStatus()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.01_DPS_AUX_TASK.getAllStatus.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getStatusWithoutConstCur()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.02_DPS_AUX_TASK.getStatusWithoutConstCur.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getStatusWithoutConstVol()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.03_DPS_AUX_TASK.getStatusWithoutConstVol.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getClampDistanceTooLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.04_DPS_AUX_TASK.getClampDistanceTooLow.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getConstantCurrent()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.05_DPS_AUX_TASK.getConstantCurrent.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getConstantCurrentLimitDisconnect()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.06_DPS_AUX_TASK.getConstantCurrentLimitDisconnect.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getConstantVoltage()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.07_DPS_AUX_TASK.getConstantVoltage.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getCurrentLimiterProtectionDetected()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.08_DPS_AUX_TASK.getCurrentLimiterProtectionDetected.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getDutBoardDisconnect()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.09_DPS_AUX_TASK.getDutBoardDisconnect.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getLowHeadroom()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.10_DPS_AUX_TASK.getLowHeadroom.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getOvercurrent()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.11_DPS_AUX_TASK.getOvercurrent.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getOvertemperature()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.12_DPS_AUX_TASK.getOvertemperature.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getOvervoltage()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.13_DPS_AUX_TASK.getOvervoltage.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getRangeOverflow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.14_DPS_AUX_TASK.getRangeOverflow.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getSafetyLine()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.15_DPS_AUX_TASK.getSafetyLine.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getUnregulated()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.16_DPS_AUX_TASK.getUnregulated.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getVoltageDropForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.17_DPS_AUX_TASK.getVoltageDropForce.md>) —— Introduced in SmarTest 7.4.0
+- [DPS_AUX_TASK.getVoltageDropReturn()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.19_DPS_AUX_TASK.getVoltageDropReturn.md>) —— Introduced in SmarTest 7.4.0
+- [DPS power flags - get...() functions](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06_DPS_power_flags_-_get...___functions.md>) —— Introduced in SmarTest 7.4.0
+- [DPS status flags - get...() functions](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.07_DPS_status_flags_-_get...___functions.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CF.cForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.02.01_EVENT_CF.cForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CF.getCForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.02.02_EVENT_CF.getCForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CF](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.02_EVENT_CF.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.cForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.01_EVENT_CFIM.cForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.getCForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.02_EVENT_CFIM.getCForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.03_EVENT_CFIM.averages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.04_EVENT_CFIM.getAverages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.05_EVENT_CFIM.outOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.06_EVENT_CFIM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.clampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.07_EVENT_CFIM.clampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.getClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.08_EVENT_CFIM.getClampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.limits()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.09_EVENT_CFIM.limits.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.limitLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.10_EVENT_CFIM.limitLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.limitHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.11_EVENT_CFIM.limitHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.clearLimits()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.12_EVENT_CFIM.clearLimits.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.getLimitLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.13_EVENT_CFIM.getLimitLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM.getLimitHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.14_EVENT_CFIM.getLimitHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFIM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03_EVENT_CFIM.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.cForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.01_EVENT_CFVM.cForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.getCForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.02_EVENT_CFVM.getCForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.03_EVENT_CFVM.averages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.04_EVENT_CFVM.getAverages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.05_EVENT_CFVM.outOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.06_EVENT_CFVM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.clampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.07_EVENT_CFVM.clampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.getClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.08_EVENT_CFVM.getClampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.limits()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.09_EVENT_CFVM.limits.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.limitLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.10_EVENT_CFVM.limitLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.limitHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.11_EVENT_CFVM.limitHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.clearLimits()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.12_EVENT_CFVM.clearLimits.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.getLimitLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.13_EVENT_CFVM.getLimitLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM.getLimitHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.14_EVENT_CFVM.getLimitHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_CFVM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04_EVENT_CFVM.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_RANGE_CF.iRange()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.13.01_EVENT_RANGE_CF.iRange.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_RANGE_CF.getIRange()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.13.02_EVENT_RANGE_CF.getIRange.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_RANGE_CF](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.13_EVENT_RANGE_CF.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VC.vClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.20.01_EVENT_VC.vClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VC.getVClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.20.02_EVENT_VC.getVClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VC.vClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.20.03_EVENT_VC.vClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VC.getVClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.20.04_EVENT_VC.getVClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VC](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.20_EVENT_VC.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.vClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.01_EVENT_VCIM.vClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.getVClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.02_EVENT_VCIM.getVClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.vClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.03_EVENT_VCIM.vClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.getVClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.04_EVENT_VCIM.getVClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.05_EVENT_VCIM.averages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.06_EVENT_VCIM.getAverages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.07_EVENT_VCIM.outOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.08_EVENT_VCIM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.limits()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.09_EVENT_VCIM.limits.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.limitLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.10_EVENT_VCIM.limitLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.limitHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.11_EVENT_VCIM.limitHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.clearLimits()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.12_EVENT_VCIM.clearLimits.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.getLimitLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.13_EVENT_VCIM.getLimitLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM.getLimitHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.14_EVENT_VCIM.getLimitHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCIM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21_EVENT_VCIM.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.vClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.01_EVENT_VCVM.vClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.getVClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.02_EVENT_VCVM.getVClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.vClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.03_EVENT_VCVM.vClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.getVClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.04_EVENT_VCVM.getVClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.05_EVENT_VCVM.averages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.06_EVENT_VCVM.getAverages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.07_EVENT_VCVM.outOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.08_EVENT_VCVM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.limits()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.09_EVENT_VCVM.limits.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.limitLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.10_EVENT_VCVM.limitLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.limitHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.11_EVENT_VCVM.limitHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.clearLimits()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.12_EVENT_VCVM.clearLimits.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.getLimitLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.13_EVENT_VCVM.getLimitLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM.getLimitHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.14_EVENT_VCVM.getLimitHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_VCVM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22_EVENT_VCVM.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CF.cForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.27.01_EVENT_WAVEFORM_CF.cForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CF.getCForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.27.02_EVENT_WAVEFORM_CF.getCForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CF.sampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.27.03_EVENT_WAVEFORM_CF.sampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CF.getSampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.27.04_EVENT_WAVEFORM_CF.getSampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CF.getSamples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.27.05_EVENT_WAVEFORM_CF.getSamples.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CF.getRepeatCount()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.27.06_EVENT_WAVEFORM_CF.getRepeatCount.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CF](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.27_EVENT_WAVEFORM_CF.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.cForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.01_EVENT_WAVEFORM_CFIM.cForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.getCForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.02_EVENT_WAVEFORM_CFIM.getCForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.sampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.03_EVENT_WAVEFORM_CFIM.sampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.getSampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.04_EVENT_WAVEFORM_CFIM.getSampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.getSamples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.05_EVENT_WAVEFORM_CFIM.getSamples.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.getRepeatCount()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.06_EVENT_WAVEFORM_CFIM.getRepeatCount.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.07_EVENT_WAVEFORM_CFIM.averages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.08_EVENT_WAVEFORM_CFIM.getAverages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.09_EVENT_WAVEFORM_CFIM.outOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.10_EVENT_WAVEFORM_CFIM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.clampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.11_EVENT_WAVEFORM_CFIM.clampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM.getClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.12_EVENT_WAVEFORM_CFIM.getClampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFIM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28_EVENT_WAVEFORM_CFIM.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.cForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.01_EVENT_WAVEFORM_CFVM.cForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.getCForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.02_EVENT_WAVEFORM_CFVM.getCForce.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.sampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.03_EVENT_WAVEFORM_CFVM.sampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.getSampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.04_EVENT_WAVEFORM_CFVM.getSampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.getSamples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.05_EVENT_WAVEFORM_CFVM.getSamples.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.getRepeatCount()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.06_EVENT_WAVEFORM_CFVM.getRepeatCount.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.07_EVENT_WAVEFORM_CFVM.averages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.08_EVENT_WAVEFORM_CFVM.getAverages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.09_EVENT_WAVEFORM_CFVM.outOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.10_EVENT_WAVEFORM_CFVM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.clampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.11_EVENT_WAVEFORM_CFVM.clampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM.getClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.12_EVENT_WAVEFORM_CFVM.getClampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_CFVM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29_EVENT_WAVEFORM_CFVM.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_IM.clampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.07_EVENT_WAVEFORM_IM.clampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_IM.getClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.08_EVENT_WAVEFORM_IM.getClampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VC.vClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.34.01_EVENT_WAVEFORM_VC.vClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VC.getVClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.34.02_EVENT_WAVEFORM_VC.getVClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VC.vClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.34.03_EVENT_WAVEFORM_VC.vClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VC.getVClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.34.04_EVENT_WAVEFORM_VC.getVClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VC.sampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.34.05_EVENT_WAVEFORM_VC.sampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VC.getSampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.34.06_EVENT_WAVEFORM_VC.getSampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VC.getSamples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.34.07_EVENT_WAVEFORM_VC.getSamples.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VC.getRepeatCount()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.34.08_EVENT_WAVEFORM_VC.getRepeatCount.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VC](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.34_EVENT_WAVEFORM_VC.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.vClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.01_EVENT_WAVEFORM_VCIM.vClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.getVClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.02_EVENT_WAVEFORM_VCIM.getVClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.vClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.03_EVENT_WAVEFORM_VCIM.vClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.getVClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.04_EVENT_WAVEFORM_VCIM.getVClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.sampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.05_EVENT_WAVEFORM_VCIM.sampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.getSampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.06_EVENT_WAVEFORM_VCIM.getSampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.getSamples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.07_EVENT_WAVEFORM_VCIM.getSamples.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.getRepeatCount()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.08_EVENT_WAVEFORM_VCIM.getRepeatCount.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.09_EVENT_WAVEFORM_VCIM.averages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.10_EVENT_WAVEFORM_VCIM.getAverages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.11_EVENT_WAVEFORM_VCIM.outOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.12_EVENT_WAVEFORM_VCIM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCIM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35_EVENT_WAVEFORM_VCIM.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.vClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.01_EVENT_WAVEFORM_VCVM.vClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.getVClampLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.02_EVENT_WAVEFORM_VCVM.getVClampLow.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.vClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.03_EVENT_WAVEFORM_VCVM.vClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.getVClampHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.04_EVENT_WAVEFORM_VCVM.getVClampHigh.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.sampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.05_EVENT_WAVEFORM_VCVM.sampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.getSampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.06_EVENT_WAVEFORM_VCVM.getSampleVectorDistance.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.getSamples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.07_EVENT_WAVEFORM_VCVM.getSamples.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.getRepeatCount()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.08_EVENT_WAVEFORM_VCVM.getRepeatCount.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.09_EVENT_WAVEFORM_VCVM.averages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.10_EVENT_WAVEFORM_VCVM.getAverages.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.11_EVENT_WAVEFORM_VCVM.outOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.12_EVENT_WAVEFORM_VCVM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VCVM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36_EVENT_WAVEFORM_VCVM.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VFIM.clampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.08_EVENT_WAVEFORM_VFIM.clampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VFIM.getClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.09_EVENT_WAVEFORM_VFIM.getClampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VFVM.clampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.13_EVENT_WAVEFORM_VFVM.clampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VFVM.getClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.14_EVENT_WAVEFORM_VFVM.getClampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VM.clampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.07_EVENT_WAVEFORM_VM.clampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [EVENT_WAVEFORM_VM.getClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.08_EVENT_WAVEFORM_VM.getClampChecks.md>) —— Introduced in SmarTest 7.4.0
+- [DC Scale Extensions editor](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.05_DC_Scale_Extensions_editor.md>) —— Introduced in SmarTest 7.4.0
+
+
+## 出处
+
+- 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 307 条**，涉及 **278 篇**文档。
+- 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
+- **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。

@@ -1,0 +1,277 @@
+slug,type,layer,stage,rel,status,note
+# 建页计划 —— 一行一页。**这份文件是「建什么」的唯一记录**，不是散在对话里。,,,,,
+# type/layer/stage 是人的判断（§2 / §6），slug 按 §5 定；rel 指定义该对象的那篇 raw。,,,,,
+# objscaffold.py 读它出骨架；verify_stages.py 第六类按页面的 sources 反查归属。,,,,,
+# 来源：extract/unowned.csv（= stage-report.md 第六类未归属清单，脚本断言两边同数）,,,,,
+#,,,,,
+# ── 2026-09-18：第六类那 26 篇「无家可归」的语料。**它们是 26 篇文档，不是 26 个页**：,,,,,
+# 其中好几篇讲的是同一个东西（DPS128 那张卡由 5 篇定义），拆成 5 页就是 5 个半页。,,,,,
+# `rel` 列因此改成**分号分隔的多篇**，第一篇是主文档（语法节从它抽）。,,,,,
+# 分组依据是**文档实际讲的对象**，不是章节号；每组的选择写在 log.md 里。,,,,,
+data-navigation-views,object,gui,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02_Data_navigation_views.md,done,
+cct-multiport-sequencer-synchronizer-api,object,L2,pattern,03_Use_cases_and_application_papers/03.03_How_to_use_Multiport_for_specific_Applications/03.03.05.09_CCT_Multiport_Sequencer_Synchronizer_API.md,done,
+sharing-configuration-file,object,file,pin,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.07.07.02_Sharing_configuration_file.md,done,
+device-architecture-file,object,file,pattern,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05_Device_architecture_file.md,done,
+pogo-pad-and-via-design,concept,n/a,pin,02_System_reference/02.03_DUT_board_design_reference/02.03.07.07_Pogo_pad_and_via_design.md,done,
+xps256-pmu-operating-mode,object,L2,level,02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.15_XPS256_programming_-_PMU_operating_mode.md,done,
+pogo-block-compatibility,concept,n/a,pin,02_System_reference/02.03_DUT_board_design_reference/02.03.07.07.01_Pogo_block_compatibility.md,done,
+inter-layer-via-design,concept,n/a,pin,02_System_reference/02.03_DUT_board_design_reference/02.03.07.07.02_Inter-layer_via_design.md,done,
+xps256-programming-dps-operating-mode,object,L2,level,02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.07_XPS256_programming_-_DPS_operating_mode.md,done,
+xps256-status-flags,object,L2,level,02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.02_XPS256_status_flags.md,done,
+tpi-program-routines,object,L3,run,02_System_reference/02.09_Test_Program_Management/02.09.01.09_TPI_Program_Routines.md,done,
+test-suite-control-api,object,L3,run,02_System_reference/02.09_Test_Program_Management/02.09.01.14_Test_Suite_Control_API.md,done,
+dps128-dps64-cards,object,n/a,level,02_System_reference/02.05_Test_Head_Cards/02.05.05.01_DC_Scale_DPS128_DPS64_cards.md;02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md;02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md;02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md;02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md,done,
+utility-line-assignments,object,n/a,pin,02_System_reference/02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md;02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md;02_System_reference/02.03_DUT_board_design_reference/02.03.06.08_Pogo_pin_assignment_-_Utility_pogo_blocks.md;02_System_reference/02.03_DUT_board_design_reference/02.03.05.05_Internal_utility_power_supply__V93000_systems.md,done,
+sequencer-controlled-utility-lines,concept,n/a,pattern,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md,done,
+dut-board-grounding,concept,n/a,pin,02_System_reference/02.03_DUT_board_design_reference/02.03.07.09.04_Grounding.md,done,
+dps-aux-pin-task,object,L2,level,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01_DPS_AUX_PIN_TASK.md;02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.01.02_DPS_AUX_PIN_TASK.checkPowerFlags.md,done,
+event-waveform-vfvm,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39_EVENT_WAVEFORM_VFVM.md,done,
+hidden-upload,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.10.04.05_Hidden_upload.md,done,
+mtp-shared-test-commands,object,L2,testmethod,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25_SHARING_CONFIGURATION.md;02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.21_SHARED_CONTINUITY_TEST.md;02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.23_SHARED_LEAKAGE_PARALLEL_TEST.md,done,
+mtp-maintenance-operations,object,n/a,testmethod,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.04.12_Maintenance_operations.md,done,
+gpib-lan-communication-conventions,concept,L3,project,02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.04_Conventions_for_GPIB_LAN_communication.md,done,
+preprocessing-and-postprocessing-scripts,object,file,project,02_System_reference/02.09_Test_Program_Management/02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md,done,
+mtpt,object,file,project,02_System_reference/02.09_Test_Program_Management/02.09.03.04_MTPT__STPM_MCM_mapping_tables.md,done,
+logical-boards,concept,n/a,pin,02_System_reference/02.04_Model_File_and_Licensing/02.04.01.02_Concepts_of_logical_boards.md,done,
+tp360,object,gui,project,03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.03_Opening_TP360.md,done,
+timestamp-attr-type,object,file,results,02_System_reference/02.10_Data_Logging/02.10.01.06.05.65_TimeStampAttrType.md,done,
+analysis-views,object,gui,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.03_Displaying_test_results_in_analysis_views.md,done,
+hv-protection,concept,n/a,pin,02_System_reference/02.03_DUT_board_design_reference/02.03.07.03_HV__High-Voltage__protection.md;02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.01_HV_protection_-_Root_causes_for_high-voltage_damages.md;02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.02_HV_protection_-_Compliance_range.md;02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.03_HV_protection_-_Recommended_protection_circuitry.md;02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.03.01_HV_protection_-_Clamp_diodes.md;02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.03.02_HV_protection_-_Clamp_regulator.md;02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.03.03_HV_protection_-_DC_supply.md;02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.04_HV_protection_-_Impact_on_stimulations_and_measurements.md;02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.04.01_HV_protection_-_Impact_on_leakage_current_example.md;02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.04.02_HV_protection_-_Impact_on_rise_time_example.md;02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.05_AVI64_HV__High-Voltage__protection.md,done,
+pogocabling-section,object,file,pin,02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02_POGOCABLING_section.md;02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.01_Pogocabling_entries_for_various_card_types.md;02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.02_Conversions__pogo_mapping_file__-__POGOCABLING.md,done,
+constraint-level-mode-context-match,constraint,L1,level,02_System_reference/02.06_Command_Reference/02.06.03.01.03.01_Mode_contexts.md,done,回填（页面先建；sources 共 3 条，此处只记第一条）
+constraint-timing-mode-context-match,constraint,L1,timing,02_System_reference/02.06_Command_Reference/02.06.03.01.03.01_Mode_contexts.md,done,回填（页面先建；sources 共 2 条，此处只记第一条）
+cross-card-ganging-requires-ddic,constraint,L1,pin,02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md,done,回填（页面先建；sources 共 4 条，此处只记第一条）
+error-data-queue-empty,error,,,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.05.02.01_Data_Queue_Empty_error.md,done,回填（页面先建；sources 共 1 条，此处只记第一条）
+error-flexlm-license-codes,error,,,02_System_reference/02.04_Model_File_and_Licensing/02.04.05.09_Error_handling.md,done,回填（页面先建；sources 共 3 条，此处只记第一条）
+error-model-file-rejected-at-startup,error,,,02_System_reference/02.04_Model_File_and_Licensing/02.04.05.09_Error_handling.md,done,回填（页面先建；sources 共 6 条，此处只记第一条）
+error-result-server-transmission-timeout,error,,,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.08.01_Result_Server_transmission_timeout.md,done,回填（页面先建；sources 共 1 条，此处只记第一条）
+error-utility-power-supply-not-enabled,error,,,02_System_reference/02.03_DUT_board_design_reference/02.03.05.06.03_External_utility_power_supply_-_Installation__diagnostics__troubleshooti.md,done,回填（页面先建；sources 共 1 条，此处只记第一条）
+error-workspace-in-use,error,,,01_Getting_started/01.01_SmarTest_Work_Center/01.01.04.02_Warnings_and_error_messages_when_starting_SmarTest.md,done,回填（页面先建；sources 共 1 条，此处只记第一条）
+execution-context-requires-firmware-definition,constraint,L1,pattern,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.135_NB_DIGITAL_CAPTURE_START.md,done,回填（页面先建；sources 共 8 条，此处只记第一条）
+label-edit-requires-tstl-selection,constraint,L1,pattern,02_System_reference/02.06_Command_Reference/02.06.07.01.07.01.02_Creating_a_label_with_edit_commands.md,done,回填（页面先建；sources 共 10 条，此处只记第一条）
+level,stage,,,01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01.01_Device_directory_structure.md,done,回填（页面先建；sources 共 100 条，此处只记第一条）
+pals-before-other-setup,constraint,L1,pin,02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md,done,回填（页面先建；sources 共 1 条，此处只记第一条）
+pattern,stage,,,01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01_Testing_a_basic_digital_device.md,done,回填（页面先建；sources 共 102 条，此处只记第一条）
+pin,stage,,,02_System_reference/02.06_Command_Reference/02.06.03_Pin_configuration_setup_commands.md,done,回填（页面先建；sources 共 112 条，此处只记第一条）
+pin-config-locked-during-test,constraint,L1,pin,02_System_reference/02.06_Command_Reference/02.06.03_Pin_configuration_setup_commands.md,done,回填（页面先建；sources 共 2 条，此处只记第一条）
+pin-config-requires-sequencer-off,constraint,L1,pin,02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md,done,回填（页面先建；sources 共 5 条，此处只记第一条）
+project,stage,,,01_Getting_started/01.01_SmarTest_Work_Center/01.01.04_SmarTest_workspaces.md,done,回填（页面先建；sources 共 64 条，此处只记第一条）
+rdi-call-requires-begin-end-block,constraint,L1,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01.04_copyLabel.md,done,回填（页面先建；sources 共 6 条，此处只记第一条）
+referenced-set-requires-prior-definition,constraint,L1,pattern,02_System_reference/02.06_Command_Reference/02.06.02.02.11_BSVE_-__Bulk_Set_Value_Evaluation.md,done,回填（页面先建；sources 共 9 条，此处只记第一条）
+results,stage,,,02_System_reference/02.06_Command_Reference/02.06.11_Test_Result_Commands.md,done,回填（页面先建；sources 共 0 条，此处只记第一条）
+run,stage,,,02_System_reference/02.08_Setup_and_Result_Tools/02.08.01.01_Digital_test_setup_flow.md,done,回填（页面先建；sources 共 64 条，此处只记第一条）
+site-focus-required-before-command,constraint,L1,run,02_System_reference/02.06_Command_Reference/02.06.01.05_Site_dependent_firmware_commands.md,done,回填（页面先建；sources 共 2 条，此处只记第一条）
+smc-background-process-locks-config,constraint,L1,run,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.01_SMC_ARM.md,done,回填（页面先建；sources 共 5 条，此处只记第一条）
+synchronized-pins-require-same-test-processor,constraint,L1,pin,02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01_AVI64_pogo_pin_assignment.md,done,回填（页面先建；sources 共 10 条，此处只记第一条）
+testflow,stage,,,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32_Testflow_Tool.md,done,回填（页面先建；sources 共 71 条，此处只记第一条）
+testmethod,stage,,,01_Getting_started/01.06_Test_methods/01.06.01_Test_Method_Introduction.md,done,回填（页面先建；sources 共 38 条，此处只记第一条）
+testname-requires-matching-limits,constraint,L1,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.05.03.01_Continuity.md,done,回填（页面先建；sources 共 7 条，此处只记第一条）
+timing,stage,,,01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01.01_Device_directory_structure.md,done,回填（页面先建；sources 共 72 条，此处只记第一条）
+ctxt,object,L1,level,02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md,done,
+dfpn,object,L1,pin,02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md,done,
+sqst,object,L1,pattern,02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md,done,
+pals,object,L1,pin,02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md,done,
+psfc,object,L1,pin,02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md,done,
+conf,object,L1,project,02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md,done,
+dscp,object,L1,project,02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md,done,
+jscf,object,L1,timing,02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md,done,
+jsdf,object,L1,timing,02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md,done,
+jspr,object,L1,timing,02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md,done,
+pste,object,L1,run,02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md,done,
+primary-status,object,L3,level,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.167_PRIMARY_STATUS_-__Primary.md,done,
+sequencer-status,object,L3,pattern,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.204_SEQUENCER_STATUS_-__Sequencer.md,done,
+tmlimits,object,L3,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.250_TMLimits.md,done,
+report-window,object,gui,results,01_Getting_started/01.01_SmarTest_Work_Center/01.01.13_Report_window.md,done,
+timing-diagram-tool,object,gui,pattern,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.33_Timing_Diagram_Tool.md,done,并入 using-the-timing-diagram-tool
+error-map-tool,object,gui,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.08_Error_Map_Tool.md,done,
+shmoo-tool,object,gui,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.25_Shmoo_Tool.md,done,并入 setting-up-a-shmoo-test-with-the-shmoo-tool
+setup-management-tool,object,gui,project,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.02.04_Setup_Management_Tool.md,done,
+integrated-result-tool,object,gui,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13_Integrated_Result_Tool.md,done,
+digital-pins-editor,object,gui,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md,done,
+stpm,object,gui,project,02_System_reference/02.09_Test_Program_Management/02.09.02_SmarTest_Program_Manager.md,done,
+model-file,object,file,project,02_System_reference/02.04_Model_File_and_Licensing/02.04.01_The_model_file.md,done,
+testflow-file,object,file,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.05_Testflow_file.md,done,
+stpm-control-file,object,file,project,02_System_reference/02.09_Test_Program_Management/02.09.02.03_STPM_control_file.md,done,
+spec-set,object,L2,level,02_System_reference/02.06_Command_Reference/02.06.05.01.04.02.09_Spec_sets.md,done,
+ganging,concept,n/a,pin,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.03_Ganging_utility_blocks.md,done,
+execution-context,object,L2,run,02_System_reference/02.06_Command_Reference/02.06.07.01.08.05.03.02.03_Using_execution_contexts.md,done,
+sequencer,object,L1,pattern,02_System_reference/02.06_Command_Reference/02.06.07.01.01.03_The_sequencer_program.md,done,
+tpt-generate-device-dir,object,L2,project,02_System_reference/02.09_Test_Program_Management/02.09.02.03.16_tpt_generate_device_dir.md,done,
+dc-scale-xps256-card,object,n/a,pin,02_System_reference/02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md,done,
+dc-scale-uhc4t-card,object,n/a,pin,02_System_reference/02.05_Test_Head_Cards/02.05.05.02_DC_Scale_UHC4T_card.md,done,并入 dc-scale-uhc4-uhc4t-card（DUT 板侧那章）
+utility-card,object,n/a,pin,02_System_reference/02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md,done,
+dut-board-design-reference,concept,n/a,project,02_System_reference/02.03_DUT_board_design_reference/02.03_DUT_board_design_reference.md,done,
+utility-power-supplies,object,n/a,project,02_System_reference/02.03_DUT_board_design_reference/02.03.05_Utility_power_supplies.md,done,
+utility-pogo-block-utility-card-v93000-exa-scale-systems,object,n/a,project,02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md,done,
+direct-probe-stiffener,concept,n/a,project,02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.02_Direct-Probe_stiffener.md,done,
+layout-information-dut-board,concept,n/a,project,02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.08_Layout_information__DUT_board.md,done,
+technology-file-for-a-device,object,file,project,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md,done,并入 technology-file
+global-section,object,file,project,02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md,done,
+edf-data-organization,concept,n/a,results,02_System_reference/02.10_Data_Logging/02.10.01.06.01_EDF_data_organization.md,done,
+edf-data-types,concept,n/a,results,02_System_reference/02.10_Data_Logging/02.10.01.06.02_EDF_data_types.md,done,
+data-logging-profiles,object,file,results,02_System_reference/02.10_Data_Logging/02.10.01.02_Data_Logging_Profiles.md,done,
+structure-of-a-tmlimits-csv-file,object,file,testmethod,02_System_reference/02.10_Data_Logging/02.10.01.08.01.01.03.01_Structure_of_a_TMLimits_CSV_file.md,done,并入 test-number-generator-and-tmlimits
+alphabetical-list-of-flags,object,L3,testmethod,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.07.01_Alphabetical_list_of_flags.md,done,
+special-test-suites,object,file,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.01.02_Special_test_suites.md,done,
+command-reference,concept,n/a,project,02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md,done,
+timing-setup-commands,concept,n/a,timing,02_System_reference/02.06_Command_Reference/02.06.06_Timing_Setup_Commands.md,done,
+event-base,object,L3,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01_EVENT_BASE.md,done,
+event-waveform-vfim,object,L3,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38_EVENT_WAVEFORM_VFIM.md,done,和已有的 event-waveform-vfvm 是**两套**（63.38 / 63.39）
+dc-result-accessor,object,L3,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.28_DC_RESULT_ACCESSOR.md,done,
+dps-power-flags-get-functions,object,L3,run,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06_DPS_power_flags_-_get...___functions.md,done,
+spmu-pin-task-mode,object,L3,level,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.24_SPMU_PIN_TASK.mode.md,done,
+smartcalc-framework,object,L3,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.10_SmartCalc_framework.md,done,
+smartrdi,object,L3,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.13_SmartRDI.md,done,并入 smartrdi-tmu-test-setup、setting-up-dc-scale-pins-with-smartrdi
+smartrdi-vector-and-protocol-programming,concept,n/a,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.13.24_SmartRDI__Vector_and_protocol_programming.md,done,
+rdi-configure-file,object,file,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.13.04_RDI_Configure_file.md,done,
+dc-test-programming,concept,n/a,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.03.02_DC_Test_Programming.md,done,
+controlling-multiple-sites,concept,n/a,run,02_System_reference/02.07_Test_Method_Reference/02.07.03.13_Controlling_Multiple_Sites.md,done,
+how-to-create-a-universal-test-method-class,concept,n/a,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.02.02.02_How_to_create_a_universal_test_method_class.md,done,
+equation-based-level-setup,concept,n/a,level,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02_Equation_based_level_setup.md,done,
+dpspins-resources,object,L2,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md,done,
+protocol-editor,object,gui,pattern,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.22_Protocol_editor.md,done,
+test-summary-tab,object,gui,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.01_Test_summary_tab.md,done,
+setting-chart-display-options,concept,n/a,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.05_Setting_chart_display_options.md,done,
+raw-data-views,object,gui,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.03.01_Raw_data_views.md,done,
+mtp-memory-test,object,L2,pattern,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.17_MTP_MEMORY_TEST.md,done,
+apg-pattern-file,object,file,pattern,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.02_APG_pattern_file.md,done,
+apg-program-file,object,file,pattern,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.03_APG_program_file.md,done,
+device-access-file,object,file,pattern,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04_Device_access_file.md,done,
+pin-mapping-file,object,file,pattern,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.06_Pin_mapping_file.md,done,
+mapping-pin,mapping,n/a,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.04_Pin_configuration_file.md,done,回填（页面先建；sources 共 14 条，此处只记第一条）
+mapping-level,mapping,n/a,level,01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.03_Setting_up_your_levels.md,done,回填（页面先建；sources 共 46 条，此处只记第一条）
+mapping-pattern,mapping,n/a,pattern,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16_Pattern_Tools.md,done,回填（页面先建；sources 共 40 条，此处只记第一条）
+mapping-project,mapping,n/a,project,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md,done,回填（页面先建；sources 共 32 条，此处只记第一条）
+mapping-results,mapping,n/a,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.08.01_Error_Map.md,done,回填（页面先建；sources 共 24 条，此处只记第一条）
+mapping-run,mapping,n/a,run,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03_Running_a_testflow.md,done,回填（页面先建；sources 共 36 条，此处只记第一条）
+mapping-testflow,mapping,n/a,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32_Testflow_Tool.md,done,回填（页面先建；sources 共 42 条，此处只记第一条）
+mapping-testmethod,mapping,n/a,testmethod,01_Getting_started/01.06_Test_methods/01.06.02.01_1._Create_a_Test_Method_Project.md,done,回填（页面先建；sources 共 31 条，此处只记第一条）
+mapping-timing,mapping,n/a,timing,01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.04.02_Setting_up_the_wavetables.md,done,回填（页面先建；sources 共 68 条，此处只记第一条）
+pin-configuration-file,object,file,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.04_Pin_configuration_file.md;02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.05_Pin_configuration_master_file.md;02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.09.01_Pin_configuration_file.md,done,
+level-file,object,file,level,02_System_reference/02.06_Command_Reference/02.06.05.01.04.02_Structure_of_an_equation_based_level_setup.md;02_System_reference/02.06_Command_Reference/02.06.05.01.05_Data_Organization_of_Fixed_Levels.md,done,
+test-program-explorer,object,gui,project,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.02_Test_Program_Explorer.md,done,
+pattern-explorer,object,gui,pattern,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01_Pattern_Explorer.md,done,
+vector-setup-file,object,file,pattern,02_System_reference/02.06_Command_Reference/02.06.07.01_Concepts_of_vector_setup.md;02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md,done,
+device-directory,object,file,project,01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01.01_Device_directory_structure.md,done,
+flags-page,object,gui,run,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.06_Flags_page.md,done,
+pattern-master-file,object,file,pattern,02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md,done,
+spec-tool,object,gui,level,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30_Spec_Tool.md,done,
+testflow-tool,object,gui,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32_Testflow_Tool.md,done,
+timing-file,object,file,timing,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.01_Data_organization_of_equation_based_timing.md;02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.04_Example_of_the_equation_based_timing_setup_file.md,done,
+level-master-file,object,file,level,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.05_Level_setup_master_file.md;01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.02.04.04_Creating_a_level_master_file.md,done,
+site-control-window,object,gui,run,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.27_Site_Control_Window.md,done,
+ci-cpi,object,L3,testflow,02_System_reference/02.09_Test_Program_Management/02.09.01.08.05_Command_Set_Programming_Interface.md;02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.02.02_Production_Flags.md;02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.02.03_User_Flags.md,done,
+flow-sequence-editor,object,gui,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.02_Flow_Sequence_Editor.md,done,
+flush,object,L2,run,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.69_FLUSH.md,done,
+level-setup-tool,object,gui,level,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14_Level_setup_tool.md,done,
+pattern-editor,object,gui,pattern,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02_Pattern_Editor.md,done,
+test-suite,object,n/a,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.01_Test_suites.md,done,
+bin,object,n/a,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.06_Bins.md,done,
+connect,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.18_CONNECT.md,done,
+timing-setup-tool,object,gui,timing,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34_Timing_Setup_Tool.md,done,
+dps-pins-editor,object,gui,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.03_DPS_Pins_editor.md,done,
+flow-data-editor,object,gui,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01_Flow_Data_Editor.md,done,
+level-spec,object,L2,level,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.124_LEVEL_SPEC.md,done,
+svlr,object,L1,level,02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md,done,
+test-suites-page,object,gui,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.01_Test_Suites_page.md,done,
+testflow-analyzer-tool,object,L3,project,02_System_reference/02.04_Model_File_and_Licensing/02.04.05.07_The_Testflow_Analyzer_Tool__TAT.md,done,
+timing-equation-set,object,file,timing,02_System_reference/02.06_Command_Reference/02.06.06.01.02.01_Timing_equation_set_reference.md,done,
+timing-master-file,object,file,timing,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.05_Timing_setup_master_file.md,done,
+utility-pins-editor,object,gui,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.04_Utility_Pins_editor.md,done,
+disconnect,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.18_CONNECT.md,done,
+spec-value,object,L2,level,02_System_reference/02.07_Test_Method_Reference/02.07.02.13.03_SpecValue.md,done,
+spec-variable,object,L2,level,02_System_reference/02.07_Test_Method_Reference/02.07.02.13.04_SpecVariable.md,done,
+timing-spec,object,L2,timing,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.249_TIMING_SPEC.md,done,
+wavetable-file,object,file,timing,02_System_reference/02.07_Test_Method_Reference/02.07.11.01.05.03_Wavetable_file.md,done,
+dfps,object,L1,pin,02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md,done,
+on-first-invocation-begin,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.138_ON_FIRST_INVOCATION_BEGIN.md,done,
+on-first-invocation-end,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.139_ON_FIRST_INVOCATION_END.md,done,
+testflow-properties-view,object,gui,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.04_Testflow_Properties_view.md,done,
+aprm,object,L1,level,02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md,done,
+device-license-file,object,file,project,02_System_reference/02.04_Model_File_and_Licensing/02.04.05.06_The_device_license_file.md,done,
+eqfs,object,L1,timing,02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md,done,
+eqsp,object,L1,timing,02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md,done,
+testset,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md,done,
+event-value-double,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.18_EVENT_VALUE_DOUBLE.md,done,
+spmu-pin-task,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01_SPMU_PIN_TASK.md,done,
+get-functional-result,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.88_GET_FUNCTIONAL_RESULT.md,done,
+test,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.241_TEST.md,done,
+spmu-task,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234_SPMU_TASK.md,done,
+dps-task,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.50_DPS_TASK.md,done,
+event-value-int,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.19_EVENT_VALUE_INT.md,done,
+limit,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.126_LIMIT.md,done,
+task-list,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.240_TASK_LIST.md,done,
+pattern-controller,object,L2,pattern,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.142_PATTERN_CONTROLLER.md,done,
+smc-test,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.45_SMC_TEST.md,done,
+digital-offset-search-pins,object,L2,pattern,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.36.01_DIGITAL_OFFSET_SEARCH_PINS.md,done,
+smc-synchronize,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.43_SMC_SYNCHRONIZE.md,done,
+for-each-site-end,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.72_FOR_EACH_SITE_END.md,done,
+for-each-site-begin,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.70_FOR_EACH_SITE_BEGIN.md,done,
+digital-capture-test,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.35_DIGITAL_CAPTURE_TEST.md,done,
+setting-up-dc-scale-pins-with-smartrdi,concept,n/a,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md,done,
+smartrdi-tmu-test-setup,concept,n/a,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.13.21_SmartRDI__TMU_test_setup.md,done,
+dut-interface-layout,concept,n/a,project,02_System_reference/02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md,done,
+utility-lines,concept,n/a,pin,02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md,done,
+stpm-merge-rules-file,object,file,project,02_System_reference/02.09_Test_Program_Management/02.09.02.04_STPM_merge_rules_file.md,done,
+setting-up-a-shmoo-test-with-the-shmoo-tool,concept,n/a,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.25.03.02_Setting_up_a_shmoo_test_with_the_Shmoo_Tool.md,done,
+pin-configuration-tool,object,gui,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18_Pin_configuration_tool.md,done,
+signal-analyzer,object,gui,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26_Signal_Analyzer.md,done,
+pin-group-editor,object,gui,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.02_Pin_group_editor.md,done,
+test-number-generator-and-tmlimits,concept,n/a,results,02_System_reference/02.10_Data_Logging/02.10.01.08.01_Test_Number_Generator_and_TMLimits.md,done,
+dfgp,object,L1,pin,02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md,done,
+psas,object,L1,results,02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md,done,
+level-equation-file,object,file,level,02_System_reference/02.07_Test_Method_Reference/02.07.11.01.05.01_Level_equation_file.md,done,内容严格限定 USE_PROTOCOL/.prot_lev；泛指的 equation set 文件格式在 `level-file`，页内显式指过去
+offline-result-emulation,concept,n/a,run,02_System_reference/02.07_Test_Method_Reference/02.07.12_Offline_Result_Emulation.md,done,章首篇，有完整定义句；可追加 .02 Concept_of / .05 setup_file 为第二三 sources
+pin-configuration-master-file,object,file,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.05_Pin_configuration_master_file.md,done,建页后须把本篇从 pin-configuration-file.md 的 sources 摘掉（否则两页都自称拥有它）
+tpt-import-from-device,object,L3,project,02_System_reference/02.09_Test_Program_Management/02.09.02.03.15_tpt_import_from_device.md,done,与已建的 tpt-generate-device-dir 对称；注意 stpm-merge-rules-file 明说不构成依赖
+dc-scale-limits-editor,object,gui,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.06_DC_Scale_Limits_editor.md,done,同级兄弟 dps-pins-editor / utility-pins-editor 已建，对称
+edl-file,object,file,results,03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.10.04_The_V93000_Data_Logging_Architecture.md,done,定义句在此篇：「the terms DataCollection file and EDL file have become synonymous」
+flag,concept,n/a,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.07_Flags.md,done,flag 对象本身；清单侧已建 `alphabetical-list-of-flags`，勿重复
+flex-relay,object,L2,pin,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.68_FLEX_RELAY.md,done,stages/pin.md 已定 L2；spmu-pin-task-mode 把它写成替代品
+flsh,object,L1,run,02_System_reference/02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md,done,⚠️ 与已建 `flush`（L2）**只差一个字母、是另一件东西**；flush.md 与 stages/run.md 已明写要各建一页
+pin-string,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.02.02.02_How_to_create_a_universal_test_method_class.md,done,⚠️ 是 test method 的 PinString **参数类型**，不是 02.06 的 PADS 命令（词面匹配会指错）
+smartcalc,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.10_SmartCalc_framework.md,done,分界已定：本页讲「怎么调」（API 侧），`smartcalc-framework` 讲「为什么、是什么」
+spec-search,object,L2,level,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.233_SPEC_SEARCH.md,done,六个 FLUSH-then-X 之一；level-spec.md 已划清与本页不同物
+test-method-class,object,gui,testmethod,01_Getting_started/01.06_Test_methods/01.06.02.02_2._Create_a_Test_Method_Class.md,done,「New > Test Method Class」向导产出的类模板；概念页 `how-to-create-a-universal-test-method-class` 是「怎么建」
+utility-line-view,object,gui,run,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.04_Utility_Line_view.md,done,utility line 的**运行期**视图；与概念页 `utility-lines` 不同层
+wavetable,object,n/a,timing,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.03.07_wavetable.md,done,⚠️ wavetable-file.md 自己把取材边界写好了：本页是概念侧，「wavetable 本身是什么、有哪些列」
+device-technology-directory,object,file,project,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.01_Device_Technology_Directory.md,done,≠ `device-directory`（那是结构本身）；本页是 /dev_tech 下的 cmos/ecl 模板
+dps-aux-task,object,L2,level,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43_DPS_AUX_TASK.md,done,**父类**，管 surge tracker 与 TMU；子类 `dps-aux-pin-task` 已建
+dtcp,object,L1,project,02_System_reference/02.06_Command_Reference/02.06.02.02.93_DTCP__DTCP__-__Define_Technology_Control_Parameters.md,done,管 testpoints / extended_dram_factor，需 *RST 激活；补充已建 `dscp`
+error-map,object,file,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.08.01_Error_Map.md,done,⚠️ error-map-tool.md 已明写「上游，不是同义词」——工具页与格式页两页
+fw-task,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.77_FW_TASK.md,done,⚠️ 勿挂 02.08.04.32.02.06.01.05_FW_TASK_type.md（Hardware Response Emulator 的对话框，是另一件东西）
+multiport-burst-editor,object,gui,pattern,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.03_Multiport_Burst_Editor.md,done,原文首句自称 multiport editor（与标题不一致，逐字引用保留）。可追加 99.0136 为第二 source
+pattern-object,object,L2,pattern,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.142.01_PATTERN.md,done,⚠️ slug 是 wiki 自造（§5 避撞脊椎 pattern 段），**不许改回 pattern**；sources 只挂 .142.01
+port-editor,object,gui,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.03_Port_Editor.md,done,建页前先读 pin-configuration-tool.md:577（Port Editor ↔ Pin Group Editor 关系已写在那里）
+setup-perspective,object,gui,project,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02_Setup_perspective.md,done,勿把父篇 01.01.07_Perspectives（in_src=13）内容吸进来
+spst,object,L1,level,02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md,done,⚠️ 取 dedup canonical（in_src=7）；另有 3 份 in_src=0 的重复投放，取错会得出「入度 0」的反向结论
+stdf,object,file,results,02_System_reference/02.10_Data_Logging/02.10.03.02.01_Starting_the_formatter.md,done,⚠️ 定义句在此篇；挂名的 02.10.03.01_Overview 只有 377 B 纯子主题清单、无定义。原文特意写明它不是 SmarTest Data Formatter 的缩写
+testflow-variable,object,file,testflow,02_System_reference/02.09_Test_Program_Management/02.09.03.04.08_Testflow_variable_mapping_table.md,done,分 Userflag / String / Double 三型；RDI_CONFIGURE_FILE 与 TMLimit_* 的宿主
+timing-specification,object,file,timing,02_System_reference/02.06_Command_Reference/02.06.06.01.05_Defining_the_timing_specification.md,done,wavetable + equation set 合成的产物；与 `timing-spec`（类）分层
+universal-test-method-library,object,file,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.02.02_Developing_a_universal_test_method_library.md,done,本阶段最终产物 lib<工程名>.so，落在 Debug/
+utility-purpose-editor,object,gui,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.05_Utility_Purpose_Editor.md,done,≠ `utility-pins-editor`（相邻的另一个编辑器）
+waveform-set,concept,n/a,timing,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.03_Waveform_and_timing_sets.md,done,⚠️ 词面会误配到 02.06 的 JSWF 命令——本页是内存里的逻辑容器，不是命令
+alias-set-editor,object,gui,pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.04_Alias_Set_Editor.md,done,pin alias 编辑器；可追加 99.0011 为第二 source
+assign-value-node,object,gui,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.03_Assign_Value_node.md,done,svlr 在 testflow 侧挂的就是这个节点
+change-device-wizard,object,gui,project,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03_Change_Device_wizard.md,done,⚠️ 勿与 HVM 远程命令 ChangeDevice（02.09.01.10.03.02.02.12）合并——词面同、位置不同
+context-pins,concept,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.02.02.02_How_to_create_a_universal_test_method_class.md,done,test method 参数类型 ContextPins；勿与已建 `execution-context` 互链
+data-retrieval-library,object,L2,results,02_System_reference/02.10_Data_Logging/02.10.01.04_Data_Retrieval_Library.md,done,DRL，读 data log stream 的 C 库；认领须锁死 02.10.01.04
+dfge,object,L1,pin,02_System_reference/02.06_Command_Reference/02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md,done,定义表达式型 pin 组；⚠️ 勿据已建 `dfgp` 推内容（dfgp.md 实测 0 命中 DFGE）
+dfpt,object,L1,pin,02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md,done,定义 port；⚠️ raw 正文小标题误拼作 DFTP，逐字引用须保留并加注
+edf,concept,file,results,02_System_reference/02.10_Data_Logging/02.10.01.06_Event_Data_Logging_Format__EDF.md,done,⚠️ **本篇正文 0 句**（602 B 纯子主题清单）。语料全库无 EDF 定义句——页内必须写「语料未写」，不许替它造定义
+event-formatter,object,gui,results,02_System_reference/02.10_Data_Logging/02.10.02_Event_Formatter.md,done,把 EDF 落成人读报告；与 `smartest-data-formatter` 分列（mapping-results 已分）
+file-string,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.02.02.02_How_to_create_a_universal_test_method_class.md,done,test method 参数类型 FileString（SmarTest 7.2.1 起）
+hardware-response-emulator,object,gui,run,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.06_Hardware_Response_Emulator.md,done,HWRE，Run dialog 的 Response Emulator 区；≠ `offline-result-emulation`（ORE）
+jsud,object,L1,timing,02_System_reference/02.06_Command_Reference/02.06.16.02.05_JSUD_-__Jitter_Set_UnDefine.md,done,抖动注入家族 02.06.16；同族 jscf/jsdf/jspr 已建
+jswf,object,L1,timing,02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md,done,抖动注入家族 02.06.16
+new-device-wizard,object,gui,project,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15_New_Device_wizard.md,done,建 device 的唯一 GUI 入口；与 `change-device-wizard` 成对
+option-list,object,L2,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.02.02.02_How_to_create_a_universal_test_method_class.md,done,test method 参数类型 OptionList（SmarTest 7.2.0 起）
+pattern-tool,object,gui,pattern,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16_Pattern_Tools.md,done,pattern 工具的父页；pattern-editor / pattern-explorer 是它的子主题
+pin-utility,object,L2,pin,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.147_PIN_UTILITY.md,done,把 pin list（含 pin group 名）展开成具体 pin 名
+project-explorer-view,object,gui,project,01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.02_Project_Explorer_view.md,done,层次化显示 device 目录；import / remove / activate device 的入口
+run-dialog,object,gui,run,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03_Running_a_testflow.md,done,Run dialog（Run > Open Run Dialog）；Loop 区细节可追加 02.08.04.32.02.03.01
+software-bin-summary-tab,object,gui,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.05_Software_bin_summary_tab.md,done,与 hardware-bin-summary-tab 成对（后者同批未建，不在本次范围）
+testflow-master-file,object,file,testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.06_Testflow_master_file.md,done,≠ `testflow-file`（.03.05 是另一篇）；拆文件时的主文件
+uptd,object,L1,level,02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md,done,查数据与硬件是否一致；stage 归属 level（与已建 `aprm` 同侧）
+pqfc,object,L1,pin,02_System_reference/02.06_Command_Reference/02.06.03.02.19_PQFC__PQFC__-__Parallel_Query_FoCus.md,done,§12.1「按需求补」；⚠️ 取 dedup canonical（in_src=11），hubs.csv 的 15 是灌水
+sprm,object,L1,level,02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md,done,§12.1「按需求补」；已建 `aprm` 的 related 第一项就是它——建它是闭环。⚠️ dedup canonical in_src=11

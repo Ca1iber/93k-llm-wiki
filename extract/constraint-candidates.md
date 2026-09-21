@@ -1,0 +1,4276 @@
+# constraint 页候选 —— **按「多少篇不同文档都写了这句规矩」排序**
+
+由 `extract/constraints.py` 写。含约束标记的句子 **10606** 条，聚成 **6946** 个候选，其中 **253** 个出现在 ≥4 篇不同文档里。
+
+**怎么用**：一篇文档里的句子再多也只是它自己的事；**多篇文档不约而同写同一句，那才是该立页的 constraint。**`docs` = 复现它的文档数（判据），`variants` = 归一化后仍有几种写法（写法越多，越说明这条规矩散落在各处、没有一个地方讲全）。
+
+## 1. 169 篇 / 171 句 / 17 种写法
+
+> If more than one pin is to be included, the names must be separated with a comma.
+
+<details><summary>全部写法</summary>
+
+- 87x :: If more than one pin is to be included, the names must be separated with a comma.
+- 27x :: If more than one pin is required, the names must be separated with a comma.
+- 18x :: If more than one pin is to be included, the names must be separated by a comma.
+- 8x :: If more than one pin is used, the names must be separated by a comma.
+- 5x :: If more than one pin is included, the names must be separated by a comma.
+- 4x :: If more than one pin is specified, the names must be separated by a comma.
+- 3x :: If a list of more than one pin is required, the pin names must be separated with a comma.
+- 3x :: If more than one pin list is included, the names must be separated by a comma.
+- 2x :: If more than one pin is to be included in the query, the names must be separated with a comma.
+- 2x :: If a list of more than one pin is required, the pin names must be separated by a comma.
+- 2x :: If a list of more than one pin is required, the names must be separated with a comma.
+- 2x :: If more than one pin is to be entered, the names must be separated with a comma.
+- 2x :: If more than one pin is to be removed, the names must be separated with a comma.
+- 2x :: If more than one pin is included , the names must be separated by a comma.
+- 2x :: All pin names must be separated with a comma.
+- 1x :: If more than one pin is specified, the pin names must be separated by a comma.
+- 1x :: Multiple pin names must be separated with a comma.
+
+</details>
+
+出处（169）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.101_EDGE__-__EDGE_errors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.104_EMBS__Error_Map_Block_Size.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.113_ERCY__-__ERror_CYcle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.119_EUDS__-__Edge_Usage_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.136_GETX__-__GET_eXtended_vector_information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.158_MCNT__-__Match_loop_CouNT.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.170_OUTS__-__OUTput_Search.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.174_PASS__-__PASS_or_fail_result.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.184_PRMD__-__PRBS_MoDe.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.20_CHER__-__CHeck_ERrors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.21_CHFA__-__CHannel_FAil_flag.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.221_SHSP__SHSP__-__SHmoo_SPecs.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.243_SREC__SREC__-__Set_RECeiver_mask.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.253_SWNG__SWNG__-__SWiNG__mV__for_level_dependent_calibration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.29_CNCT_-_CoNneCT_disCoNneCT.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.319_VCLK__-__Verify_CLocK.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.322_VDCN_-__Vector_Device_Cycle_Name.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.323_VDCP__VDCP___Vector_Device_Cycle_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.328_VRCS__-__Valid_ReConStruction.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.329_VTIM__-__Verify_TIMing.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.34_CTST__-__Continuity_TeST.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.51_DCUD_-__Device_Cycle_UnDefine.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.58_DFCT_-__DeFine_Continuity_Test.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.88_DRLS__-__DRive_Level_Sensitivity.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.02_CONF__CONF__-__CONFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.10_DFPT__DFPT__-__DeFine_PorT.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.17_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.07_DCUD_-__Device_Cycle_UnDefine.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.17_EUDS__-__Edge_Usage_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.20_PCLK__PCLK__-__Pin_CLocK.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.35_VCLK__-__Verify_CLocK.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.37_VTIM__-__Verify_TIMing.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.39_VWFS__-__Verify_WaveForm_Sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.32_SREC__SREC__-__Set_RECeiver_mask.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.36_VDCN_-__Vector_Device_Cycle_Name.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.37_VDCP__VDCP___Vector_Device_Cycle_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.03_DRLS__-__DRive_Level_Sensitivity.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.12_SHSP__SHSP__-__SHmoo_SPecs.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.15_SREC__SREC__-__Set_RECeiver_mask.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.04_DFCT_-__DeFine_Continuity_Test.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.02_CHER__-__CHeck_ERrors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.03_CHFA__-__CHannel_FAil_flag.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.17_EDGE__-__EDGE_errors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.19_ERCC__-__ERror_in_Cycle_range_Count.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.21_ERCY__-__ERror_CYcle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.29_GETX__-__GET_eXtended_vector_information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.30_PASS__-__PASS_or_fail_result.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.37_VRCS__-__Valid_ReConStruction.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md`
+- `02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md`
+- `02_System_reference/02.06_Command_Reference/02.06.17.05.05_PRMD__-__PRBS_MoDe.md`
+- `02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.18.02.07_SWNG__SWNG__-__SWiNG__mV__for_level_dependent_calibration.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.01.03.02.01_Vector_variable_configuration.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.07_DCUD_-__Device_Cycle_UnDefine.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.11_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.12_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.16_ETIM__ETIM__-__Edge_TIMing.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.17_EUDS__-__Edge_Usage_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.20_PCLK__PCLK__-__Pin_CLocK.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.30_STRS__-__Spec_TRansition_Search.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.35_VCLK__-__Verify_CLocK.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.37_VTIM__-__Verify_TIMing.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.38_VWFG__-__Verify_WaveForms_in_Groups.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.39_VWFS__-__Verify_WaveForm_Sets.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.43_WFUD_-__WaveForm_UnDefine.md`
+- `03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.03.04.04_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`
+
+## 2. 29 篇 / 56 句 / 13 种写法
+
+> This member function is supported only for the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>).
+
+<details><summary>全部写法</summary>
+
+- 15x :: This member function is supported only for the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>).
+- 3x :: This optional parameter is supported only by the [DC Scale UHC4T card](<../02.05_Test_Head_Cards/02.05.05.02_DC_Scale_UHC4T_card.md>) and the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>).
+- 3x :: The function is supported only with the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>).
+- 2x :: The following syntax is supported only for the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>):
+- 2x :: This parameter is supported only by the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>).
+- 2x :: Only supported with the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>).
+- 1x :: The string parameter safe_con is supported only by the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>).
+- 1x :: This optional parameter is supported only by the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>).
+- 1x :: This optional parameter is supported only by the [DC Scale UHC4T card](<../02.05_Test_Head_Cards/02.05.05.02_DC_Scale_UHC4T_card.md>).
+- 1x :: This function is supported only for the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>).
+- 1x :: The function is only supported with the DC Scale XPS256 card.
+- 1x :: The function is supported only for the DC Scale XPS256 card.
+- 1x :: The function is supported only with DC Scale XPS256 card.
+
+</details>
+
+出处（29）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.01_HW_PIN_STATE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.02_HW_STATE.checkKelvinStatus.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.03_HW_STATE.checkKelvinStatusParallel.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.04_HW_STATE.checkGangConnection.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.05_HW_STATE.checkGangConnectionParallel.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117_HW_STATE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.05_SPMU_PIN_TASK.currentClampTimeToAlarm.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.06_SPMU_PIN_TASK.currentClampTimeToDisconnect.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.09_SPMU_PIN_TASK.forceDropMax.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.10_SPMU_PIN_TASK.forceDropWarn.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.12_SPMU_PIN_TASK.iClampFilter.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.13_SPMU_PIN_TASK.iFilter.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.17_SPMU_PIN_TASK.iSlewRate.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.20_SPMU_PIN_TASK.loadStepMode.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.22_SPMU_PIN_TASK.measFilter.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.25_SPMU_PIN_TASK.openLoopProtection.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.26_SPMU_PIN_TASK.preCharge.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.27_SPMU_PIN_TASK.pulldown.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.29_SPMU_PIN_TASK.returnDropMax.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.30_SPMU_PIN_TASK.returnDropWarn.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.33_SPMU_PIN_TASK.vFilter.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.35_SPMU_PIN_TASK.vForceFilter.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.38_SPMU_PIN_TASK.vSlewRate.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.50.01_DPS_PIN_TASK.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md`
+
+## 3. 29 篇 / 29 句 / 1 种写法
+
+> But you need to enter the test names manually in the parameter.
+
+出处（29）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.01_Frequency_byDigitalCapture.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.02_FunctionalTest.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.03_JitterHistogram.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.04_JitterSeparation.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.05_JitterSeparationHS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.06_JitterStardust.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.07_ParametricFunctionalTest.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.08_SetBasedSpecSearch.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.10_SpecSearch.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.02.01_Continuity.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.02.02_DpsConnectivity.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.02.03_DpsStatus.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.02.04_DVM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.02.05_GeneralPMU.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.02.06_HighZ.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.02.07_Leakage.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.02.08_OperatingCurrent.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.02.09_OutputDC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.02.10_ProductionIddq.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.02.11_StandbyCurrent.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.01_Continuity.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.02_DpsConnectivity.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.03_DpsStatus.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.04_GeneralPMU.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.05_Leakage.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.06_OperatingCurrent.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.07_OutputDC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.05_ScanTest__scan_tml.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.07.05_Leakage_test_concept.md`
+
+## 4. 25 篇 / 25 句 / 5 种写法
+
+> The [DPS_AUX_PIN_TASK.checkPowerFlags()](<02.07.04.01.43.01.02_DPS_AUX_PIN_TASK.checkPowerFlags.md>) member function must be called upfront for reading the flags from the hardware into the test method cache.
+
+<details><summary>全部写法</summary>
+
+- 21x :: The [DPS_AUX_PIN_TASK.checkPowerFlags()](<02.07.04.01.43.01.02_DPS_AUX_PIN_TASK.checkPowerFlags.md>) member function must be called upfront for reading the flags from the hardware into the test method cache.
+- 1x :: The [DPS_AUX_PIN_TASK.checkSetRangeError()](<02.07.04.01.43.01.03_DPS_AUX_PIN_TASK.checkSetRangeError.md>) member function must be called upfront for reading the flags from the hardware into the test method cache.
+- 1x :: The related [DPS_AUX_PIN_TASK.check...()](<02.07.04.01.43.01_DPS_AUX_PIN_TASK.md>) member function must be called upfront for reading the flags from the hardware into the test method cache.
+- 1x :: The [DPS_AUX_PIN_TASK.checkIcHacError()](<02.07.04.01.43.01.01_DPS_AUX_PIN_TASK.checkIcHacError.md>) member function must be called upfront for reading the flags from the hardware into the test method cache.
+- 1x :: The [readMaxAbsVdropsParallel](<02.07.04.01.117_HW_STATE.md#_105633__dle_readMaxAbsVdropsParallel>) member function must be called upfront for reading the flags from the hardware into the test method cache.
+
+</details>
+
+出处（25）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117_HW_STATE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.01_DPS_AUX_TASK.getAllStatus.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.02_DPS_AUX_TASK.getStatusWithoutConstCur.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.03_DPS_AUX_TASK.getStatusWithoutConstVol.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.04_DPS_AUX_TASK.getClampDistanceTooLow.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.05_DPS_AUX_TASK.getConstantCurrent.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.06_DPS_AUX_TASK.getConstantCurrentLimitDisconnect.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.07_DPS_AUX_TASK.getConstantVoltage.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.08_DPS_AUX_TASK.getCurrentLimiterProtectionDetected.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.09_DPS_AUX_TASK.getDutBoardDisconnect.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.10_DPS_AUX_TASK.getLowHeadroom.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.11_DPS_AUX_TASK.getOvercurrent.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.12_DPS_AUX_TASK.getOvertemperature.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.13_DPS_AUX_TASK.getOvervoltage.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.14_DPS_AUX_TASK.getRangeOverflow.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.15_DPS_AUX_TASK.getSafetyLine.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.16_DPS_AUX_TASK.getUnregulated.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.17_DPS_AUX_TASK.getVoltageDropForce.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.18_DPS_AUX_TASK.getVoltageDropForceWarn.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.19_DPS_AUX_TASK.getVoltageDropReturn.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.20_DPS_AUX_TASK.getVoltageDropReturnWarn.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06_DPS_power_flags_-_get...___functions.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.07.01_DPS_AUX_TASK.getIcHacError.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.07.02_DPS_AUX_TASK.getRangeError.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.07_DPS_status_flags_-_get...___functions.md`
+
+## 5. 21 篇 / 21 句 / 1 种写法
+
+> For DC Scale channels, with exception of XPS256, the number of samples must be a power of 2.
+
+出处（21）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.31_SPMU_PIN_TASK.samples.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03.03_EVENT_CFIM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04.03_EVENT_CFVM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.10.05_EVENT_ICIM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.11.05_EVENT_ICVM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.12_EVENT_IM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.05_EVENT_VCIM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.05_EVENT_VCVM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.26_EVENT_VM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28.07_EVENT_WAVEFORM_CFIM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29.07_EVENT_WAVEFORM_CFVM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.31.08_EVENT_WAVEFORM_ICIM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.32.08_EVENT_WAVEFORM_ICVM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.05_EVENT_WAVEFORM_IM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.09_EVENT_WAVEFORM_VCIM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.09_EVENT_WAVEFORM_VCVM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.06_EVENT_WAVEFORM_VFIM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.06_EVENT_WAVEFORM_VFVM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.05_EVENT_WAVEFORM_VM.averages.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.11.04.01_average.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.01_average.md`
+
+## 6. 21 篇 / 21 句 / 1 种写法
+
+> This member function must be called outside of the ON_FIRST_INVOCATION_BEGIN() ...
+
+出处（21）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.01_DPS_AUX_TASK.getAllStatus.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.02_DPS_AUX_TASK.getStatusWithoutConstCur.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.03_DPS_AUX_TASK.getStatusWithoutConstVol.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.04_DPS_AUX_TASK.getClampDistanceTooLow.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.05_DPS_AUX_TASK.getConstantCurrent.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.06_DPS_AUX_TASK.getConstantCurrentLimitDisconnect.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.07_DPS_AUX_TASK.getConstantVoltage.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.08_DPS_AUX_TASK.getCurrentLimiterProtectionDetected.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.09_DPS_AUX_TASK.getDutBoardDisconnect.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.10_DPS_AUX_TASK.getLowHeadroom.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.11_DPS_AUX_TASK.getOvercurrent.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.12_DPS_AUX_TASK.getOvertemperature.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.13_DPS_AUX_TASK.getOvervoltage.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.14_DPS_AUX_TASK.getRangeOverflow.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.15_DPS_AUX_TASK.getSafetyLine.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.16_DPS_AUX_TASK.getUnregulated.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.17_DPS_AUX_TASK.getVoltageDropForce.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.18_DPS_AUX_TASK.getVoltageDropForceWarn.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.19_DPS_AUX_TASK.getVoltageDropReturn.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.20_DPS_AUX_TASK.getVoltageDropReturnWarn.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.07.01_DPS_AUX_TASK.getIcHacError.md`
+
+## 7. 20 篇 / 20 句 / 5 种写法
+
+> This class is supported only for the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>) in PMU operating mode.
+
+<details><summary>全部写法</summary>
+
+- 13x :: This class is supported only for the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>) in PMU operating mode.
+- 2x :: This class is supported only for the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>) in PMU operating mode or in DPS operating mode.
+- 2x :: This member function is supported only for the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>) in PMU operating mode.
+- 2x :: Only the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>) in the [PMU operating mode](<../02.05_Test_Head_Cards/02.05.05.03.10.15_XPS256_programming_-_PMU_operating_mode.md>) is supported:
+- 1x :: This class is supported only for the [DC Scale XPS256 card](<../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md>) in PMU operating mode or the DPS operating mode.
+
+</details>
+
+出处（20）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.11_SPMU_PIN_TASK.highAccuracy.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.02_EVENT_CF.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03_EVENT_CFIM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04_EVENT_CFVM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.06_EVENT_FDM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.07_EVENT_FILTER.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.13_EVENT_RANGE_CF.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.17_EVENT_RDM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.20_EVENT_VC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21_EVENT_VCIM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22_EVENT_VCVM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.27_EVENT_WAVEFORM_CF.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28_EVENT_WAVEFORM_CFIM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29_EVENT_WAVEFORM_CFVM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.34_EVENT_WAVEFORM_VC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35_EVENT_WAVEFORM_VCIM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36_EVENT_WAVEFORM_VCVM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.08_forceDropMax.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.10_hiAccuracy.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.36_returnDropMax.md`
+
+## 8. 18 篇 / 18 句 / 3 种写法
+
+> In equation-based testing, you must identify a wavetable instead of a waveform set.
+
+<details><summary>全部写法</summary>
+
+- 10x :: In equation-based testing, you must identify a wavetable instead of a waveform set.
+- 5x :: In Equation Based Testing, you must identify a wavetable instead of a waveform set.
+- 3x :: In equation based testing, you must identify the appropriate wavetable instead of a waveform set.
+
+</details>
+
+出处（18）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.340_WSDM__WSDM__-__Waveform_Set_Display_Mode.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.27_SQLB__SQLB__-__SeQuencer_LaBel_definition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.16_ETIM__ETIM__-__Edge_TIMing.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.32_TSUS__TSUS__-__Timing_Sets_USed.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.38_VWFG__-__Verify_WaveForms_in_Groups.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md`
+
+## 9. 16 篇 / 16 句 / 10 种写法
+
+> Specific design rules must be followed when designing a new DUT board and assigning PS5000 channels:
+
+<details><summary>全部写法</summary>
+
+- 3x :: Specific design rules must be followed when designing a new DUT board and assigning PS5000 channels:
+- 3x :: Specific design rules must be followed when designing a new DUT board:
+- 2x :: Specific design rules must be followed when designing a new DUT board and assigning PS1600 channels:
+- 2x :: Specific design rules must be followed when designing a new DUT board for the DPS128/DPS64:
+- 1x :: Specific design rules must be followed when designing a new DUT board and assigning AVI64 channels:
+- 1x :: Specific design rules must be followed when designing a new DUT board and assigning FVI16 channels:
+- 1x :: Specific design rules must be followed when designing a new DUT board and assigning PVI8 channels:
+- 1x :: Specific design rules must be followed when designing a new DUT board and assigning PS9G channels:
+- 1x :: For some products, specific design rules must be followed when designing a new DUT board.
+- 1x :: Specific design rules must be followed when designing a new DUT board for the XPS256.
+
+</details>
+
+出处（16）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01_AVI64_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.04_FVI16_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.05_PVI8_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.07_XPS256_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.03_PS1600_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.05_PS5000_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.06_PS9G_pogo_cable_assembly__pogo_pin_layout_and_model_file_configuration.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07.01_XPS256_pogo_pins.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07_DC_Scale_XPS256_card.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.03.01_Pin_Scale_5000_card.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08_Electrical_design__Product-specific_rules.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.01.06_PS1600_pogo_pin_assignment.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.02.06_Pin_Scale_5000_pogo_pin_assignment.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.04_XPS256_pogo_pin_assignment.md`
+
+## 10. 16 篇 / 16 句 / 1 种写法
+
+> The object that is created by this class has to be assigned to the [PATTERN_CONTROLLER](<02.07.04.01.142_PATTERN_CONTROLLER.md>) which is responsible for further handling.
+
+出处（16）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.02_EVENT_CF.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.03_EVENT_CFIM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.04_EVENT_CFVM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.06_EVENT_FDM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.07_EVENT_FILTER.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.13_EVENT_RANGE_CF.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.17_EVENT_RDM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.20_EVENT_VC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21_EVENT_VCIM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22_EVENT_VCVM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.27_EVENT_WAVEFORM_CF.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.28_EVENT_WAVEFORM_CFIM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.29_EVENT_WAVEFORM_CFVM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.34_EVENT_WAVEFORM_VC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35_EVENT_WAVEFORM_VCIM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36_EVENT_WAVEFORM_VCVM.md`
+
+## 11. 16 篇 / 16 句 / 1 种写法
+
+> The power domain to channel mapping must be observed for DPS128 cards when assigning the available channels to the DUT pins.
+
+出处（16）：
+
+- `02_System_reference/02.02_Specifications/02.02.05.01_DC_Scale_DPS128_Device_Power_Supply__E8023CS_E8023CSH__-_high_current_sp.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.02_E8023PB_pogo_cable_assembly__2_VHD_pogo_blocks.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.03_E8023PC_pogo_cable_assembly__4_HD_pogo_blocks__DPS128-HC_only.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.05_E8023PE_pogo_cable_assembly__8_MS-DPS_style_pogo_blocks__DPS128-HC_only.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.09_E8023PK_pogo_cable_assembly__4_VHD_pogo_blocks__DPS128.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.02_DC_Scale_DPS128___DPS64_card.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02.01_DC_Scale_DPS128_Device_Power_Supply__E8023CS_E8023CSH__-_high_current_sp.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.02_E8023PB_pogo_cable_assembly__2_VHD_pogo_blocks.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.03_E8023PC_pogo_cable_assembly__4_HD_pogo_blocks__DPS128-HC_only.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.05_E8023PE_pogo_cable_assembly__8_MS-DPS_style_pogo_blocks__DPS128-HC_only.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.09_E8023PK_pogo_cable_assembly__4_VHD_pogo_blocks__DPS128.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md`
+
+## 12. 15 篇 / 16 句 / 7 种写法
+
+> All "GND" pogo pins must be connected in parallel on the DUT board to ensure that the specifications for the card and the maximum ratings for the pogo pins are met.
+
+<details><summary>全部写法</summary>
+
+- 6x :: All "GND" pogo pins must be connected in parallel on the DUT board to ensure that the specifications for the card and the maximum ratings for the pogo pins are met.
+- 3x :: All GND pins must be connected in parallel to ensure that the specifications for the card and the maximum ratings for the pogo pins are met.
+- 2x :: These three pogo pins must be connected in parallel on the DUT board to ensure that the specification for the card and the maximum ratings for the pogo pins can be met.
+- 2x :: These three pogo pins must be connected in parallel on the DUT board to ensure that the specifications for the card and the maximum ratings for the pogo pins are met.
+- 1x :: All three VCC pins must be connected in parallel on the DUT board to ensure that the specifications for the card and the maximum ratings for the pogo pins are met.
+- 1x :: All three GND pins must be connected in parallel on the DUT board to ensure that the specifications for the card and the maximum ratings for the pogo pins are met.
+- 1x :: All GND pogo pins must be connected in parallel on the DUT board to ensure that the specifications for the card and the maximum ratings for the pogo pins are met.
+
+</details>
+
+出处（15）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01_AVI64_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.02_E8023PB_pogo_cable_assembly__2_VHD_pogo_blocks.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.09_E8023PK_pogo_cable_assembly__4_VHD_pogo_blocks__DPS128.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.04_FVI16_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.05_PVI8_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.07_XPS256_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01_AVI64_output_pogo_pins.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.03_AVI64_ganged_wiring.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.04.01_FVI16_output_pogo_pins.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.05.01_PVI8_output_pogo_pins.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07.01_XPS256_pogo_pins.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.04.01.02_PMUX01_supply_pins.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.02_E8023PB_pogo_cable_assembly__2_VHD_pogo_blocks.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.09_E8023PK_pogo_cable_assembly__4_VHD_pogo_blocks__DPS128.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.04_XPS256_pogo_pin_assignment.md`
+
+## 13. 15 篇 / 15 句 / 2 种写法
+
+> The ports of the context must be included in the current start label (which must be a multiport burst).
+
+<details><summary>全部写法</summary>
+
+- 14x :: The ports of the context must be included in the current start label (which must be a multiport burst).
+- 1x :: An execution context can only be run if all its ports are included in the current start label.
+
+</details>
+
+出处（15）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.134_NB_DIGITAL_CAPTURE_END.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.135_NB_DIGITAL_CAPTURE_START.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.136_NB_FUNCTIONAL_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.08_SMC_DIGITAL_CAPTURE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.11_SMC_EXECUTE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.12_SMC_EXECUTE_TMU_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.13_SMC_FUNCTIONAL_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.26_SMC_NB_DIGITAL_CAPTURE_END.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.52_SMC_WAIT_TEST_DONE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.235_START_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.271_WAIT_TEST_DONE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.35_DIGITAL_CAPTURE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.65_EXECUTE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.75_FUNCTIONAL_TEST.md`
+
+## 14. 14 篇 / 15 句 / 3 种写法
+
+> The context must have been defined on the firmware level (with the [SQEC](<../02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>) command), or as a [SEQUENCER_CONTEXT_ITEM](<02.07.04.01.202_SEQUENCER_CONTEXT_ITEM.md>) object.
+
+<details><summary>全部写法</summary>
+
+- 13x :: The context must have been defined on the firmware level (with the [SQEC](<../02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>) command), or as a [SEQUENCER_CONTEXT_ITEM](<02.07.04.01.202_SEQUENCER_CONTEXT_ITEM.md>) object.
+- 1x :: The context must have been defined either as an SEQUENCER_CONTEXT_ITEM object or on the firmware level.
+- 1x :: The context must have been defined either with the SEQUENCER_CONTEXT_ITEM API or on the firmware level.
+
+</details>
+
+出处（14）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.118_INDEPENDENT_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.134_NB_DIGITAL_CAPTURE_END.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.135_NB_DIGITAL_CAPTURE_START.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.136_NB_FUNCTIONAL_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.08_SMC_DIGITAL_CAPTURE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.11_SMC_EXECUTE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.12_SMC_EXECUTE_TMU_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.13_SMC_FUNCTIONAL_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.26_SMC_NB_DIGITAL_CAPTURE_END.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.52_SMC_WAIT_TEST_DONE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.271_WAIT_TEST_DONE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.35_DIGITAL_CAPTURE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.65_EXECUTE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.75_FUNCTIONAL_TEST.md`
+
+## 15. 14 篇 / 14 句 / 7 种写法
+
+> The APDV command can only be issued after a label has been selected for editing with the [TSTL](<02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>) command.
+
+<details><summary>全部写法</summary>
+
+- 2x :: The APDV command can only be issued after a label has been selected for editing with the [TSTL](<02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>) command.
+- 2x :: The INSI command can only be issued after a label has been selected for editing with the TSTL command.
+- 2x :: The SPGV command can only be issued after a label has been selected for editing with the [TSTL](<02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>) command.
+- 2x :: The CNGV command can only be issued after a label has been selected for editing with the TSTL command.
+- 2x :: command can only be issued after a label has been selected for editing with the [TSTL](<02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>) command.
+- 2x :: It can only be issued after a label has been activated for editing with the [TSTL](<02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>) command.
+- 2x :: can only be issued after a label has been selected for editing with the [TSTL](<02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>) command.
+
+</details>
+
+出处（14）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.144_INSI_-__INsert_Instructions.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.168_NODV__-__Number_Of_Displayable_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.226_SPGV_-__SPlit_Generate_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.30_CNGV_-__CoNnect_Generate_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.07_CNGV_-__CoNnect_Generate_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.20_INSI_-__INsert_Instructions.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.21_NODV__-__Number_Of_Displayable_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.24_SPGV_-__SPlit_Generate_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md`
+
+## 16. 14 篇 / 14 句 / 5 种写法
+
+> The number must not exceed the maximum number of level sets allowed (as defined by the [DSCP](<02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>) command).
+
+<details><summary>全部写法</summary>
+
+- 6x :: The number must not exceed the maximum number of level sets allowed (as defined by the [DSCP](<02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>) command).
+- 2x :: The number must not exceed the maximum number of level sets allowed (as defined by [DSCP, DSCP?
+- 2x :: The number must not exceed the maximum number of level sets allowed (as defined by [DSCP](<02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>)) and the level sets used (as defined by [LSUS](<02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>)).
+- 2x :: The number you type must not exceed the maximum number of level sets allowed (defined by the [DSCP](<02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>) command).
+- 2x :: The number you type must not exceed the maximum number of DPS sets allowed (defined by the DSCP command).
+
+</details>
+
+出处（14）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md`
+
+## 17. 14 篇 / 14 句 / 3 种写法
+
+> [Pin assignment for Fast Sync / Fast Match](<../02.03_DUT_board_design_reference/02.03.07.06_Pin_assignment_for_Fast_Sync___Fast_Match.md>): For fast local synchronization, the synchronized DUT pins must be assigned to the same group of channels respectively to the same test processor.
+
+<details><summary>全部写法</summary>
+
+- 11x :: [Pin assignment for Fast Sync / Fast Match](<../02.03_DUT_board_design_reference/02.03.07.06_Pin_assignment_for_Fast_Sync___Fast_Match.md>): For fast local synchronization, the synchronized DUT pins must be assigned to the same group of channels respectively to the same test processor.
+- 2x :: [Pin assignment for Fast Sync / Fast Match](<02.03.07.06_Pin_assignment_for_Fast_Sync___Fast_Match.md>): For fast local synchronization, the synchronized DUT pins must be assigned to the same group of eight channels respectively to the same test processor[1)](<#_350670__d1727e1349>).
+- 1x :: For the fast local synchronization, the synchronized DUT pins must be assigned to the same group of channels respectively to the same test processor.
+
+</details>
+
+出处（14）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01_AVI64_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.04_FVI16_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.05_PVI8_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.07_XPS256_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.03_PS1600_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.05_PS5000_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.06_PS9G_pogo_cable_assembly__pogo_pin_layout_and_model_file_configuration.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.07.06_Pin_assignment_for_Fast_Sync___Fast_Match.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07_DC_Scale_XPS256_card.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.03.01_Pin_Scale_5000_card.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.01.06_PS1600_pogo_pin_assignment.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.02.06_Pin_Scale_5000_pogo_pin_assignment.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md`
+
+## 18. 13 篇 / 13 句 / 7 种写法
+
+> 6, must be changed to correct value based on the handler's setup .
+
+<details><summary>全部写法</summary>
+
+- 5x :: 6, must be changed to correct value based on the handler's setup .
+- 3x :: 1, must be changed to correct value based on the handler's setup.
+- 1x :: The setting must be changed to correct value based on the handler's setup.
+- 1x :: This must be changed to correct value based on the handler's setup.
+- 1x :: 12, must be changed to correct value based on the handler's setup.
+- 1x :: 22, must be changed to correct value based on the handler's setup.
+- 1x :: 14, must be changed to correct value based on the handler's setup (available with DIP switches on the handler's interface card).
+
+</details>
+
+出处（13）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.06.01_GPIB_driver_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.08.01.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.08.03.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.08.04.03_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.11.01_GPIB_driver_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.12.07.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.14.01_GPIB_driver_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.15.04.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.16.01_GPIB_driver_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.17.02_GPIB_driver_configurations.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.18.01_GPIB_driver_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.19.03.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.21.01.02_Default_GPIB_configuration.md`
+
+## 19. 13 篇 / 13 句 / 1 种写法
+
+> If the context has been defined as a SEQUENCER_CONTEXT_ITEM object, you must use the name specified for its name parameter.
+
+出处（13）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.134_NB_DIGITAL_CAPTURE_END.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.135_NB_DIGITAL_CAPTURE_START.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.136_NB_FUNCTIONAL_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.08_SMC_DIGITAL_CAPTURE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.11_SMC_EXECUTE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.12_SMC_EXECUTE_TMU_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.13_SMC_FUNCTIONAL_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.26_SMC_NB_DIGITAL_CAPTURE_END.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.52_SMC_WAIT_TEST_DONE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.271_WAIT_TEST_DONE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.35_DIGITAL_CAPTURE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.65_EXECUTE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.75_FUNCTIONAL_TEST.md`
+
+## 20. 13 篇 / 13 句 / 2 种写法
+
+> In the latter case this object must have been included in a [SEQUENCER_CONTEXT](<02.07.04.01.201_SEQUENCER_CONTEXT.md>) object, and must also have been activated on the firmware level with the apply() function of this SEQUENCER_CONTEXT object.
+
+<details><summary>全部写法</summary>
+
+- 12x :: In the latter case this object must have been included in a [SEQUENCER_CONTEXT](<02.07.04.01.201_SEQUENCER_CONTEXT.md>) object, and must also have been activated on the firmware level with the apply() function of this SEQUENCER_CONTEXT object.
+- 1x :: In the latter case, this object must have been included in a SEQUENCER_CONTEXT object, and must also have been activated on the firmware level with the apply() function of this SEQUENCER_CONTEXT object.
+
+</details>
+
+出处（13）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.134_NB_DIGITAL_CAPTURE_END.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.135_NB_DIGITAL_CAPTURE_START.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.136_NB_FUNCTIONAL_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.08_SMC_DIGITAL_CAPTURE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.11_SMC_EXECUTE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.12_SMC_EXECUTE_TMU_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.13_SMC_FUNCTIONAL_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.26_SMC_NB_DIGITAL_CAPTURE_END.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.52_SMC_WAIT_TEST_DONE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.271_WAIT_TEST_DONE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.35_DIGITAL_CAPTURE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.65_EXECUTE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.75_FUNCTIONAL_TEST.md`
+
+## 21. 13 篇 / 13 句 / 1 种写法
+
+> Note As `SMC_UPLOAD_STATUS` represents a collection, one has to iterate over the collection to obtain the item.
+
+出处（13）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.01_SMC_UPLOAD_STATUS.analogWfMeasurement.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.02_SMC_UPLOAD_STATUS.area.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.03_SMC_UPLOAD_STATUS.finished.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.04_SMC_UPLOAD_STATUS.handle.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.05_SMC_UPLOAD_STATUS.name.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.06_SMC_UPLOAD_STATUS.numWaveforms.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.07_SMC_UPLOAD_STATUS.remainingUploadSize.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.08_SMC_UPLOAD_STATUS.remainingUploadTime.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.09_SMC_UPLOAD_STATUS.site.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.10_SMC_UPLOAD_STATUS.testSuiteName.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.11_SMC_UPLOAD_STATUS.toString.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.12_SMC_UPLOAD_STATUS.totalUploadSize.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.51.13_SMC_UPLOAD_STATUS.uploadType.md`
+
+## 22. 13 篇 / 13 句 / 4 种写法
+
+> Note that the reference port must belong to the current start label (as defined by SQSL).
+
+<details><summary>全部写法</summary>
+
+- 7x :: Note that the reference port must belong to the current start label (as defined by SQSL).
+- 2x :: They must also all belong to the same port in the current start label.
+- 2x :: They must also all belong to the same port of the current start label.
+- 2x :: Note that the reference port must belong to the start label.
+
+</details>
+
+出处（13）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md`
+
+## 23. 12 篇 / 14 句 / 6 种写法
+
+> The new value has to be an integer in the range of 1 to Maximum allowed waveform sets as set by [DSCP, DSCP?
+
+<details><summary>全部写法</summary>
+
+- 3x :: The new value has to be an integer in the range of 1 to Maximum allowed waveform sets as set by [DSCP, DSCP?
+- 3x :: The new value has to be an integer in the range of 1 to Maximum allowed timing sets as set by [CONF, CONF?
+- 2x :: The new value has to be an integer in the range of 1 to the maximum number of allowed timing sets as set by the [DSCP](<02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>)command.
+- 2x :: The new value has to be an integer in the range of 1 to the maximum allowed level sets as set by the [DSCP](<02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>) command.
+- 2x :: The new value has to be an integer in the range of 1 to the Maximum allowed level sets as set by [CONF, CONF?
+- 2x :: The new value has to be an integer in the range of 1 to the Maximum allowed DPS sets as set by [CONF, CONF?
+
+</details>
+
+出处（12）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.32_TSUS__TSUS__-__Timing_Sets_USed.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md`
+
+## 24. 12 篇 / 13 句 / 1 种写法
+
+> In production test cout must never be used in a background process.
+
+出处（12）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.01_SMC_ARM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.03_SMC_ARM_OTHER_TS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.06_SMC_BACKGROUND_ENABLE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.22_SMC_HIDDEN_EXECUTION_BEGIN.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.27.02_SMC_PIN_ERROR_MAP.getFirstFailingXmodeCycles.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.28.01_SMC_PIN_ERROR_MAP_ACCESSOR.getSmcPinErrorMap.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.28_SMC_PIN_ERROR_MAP_ACCESSOR.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.45_SMC_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.50_SMC_UPLOAD_DC_RESULTS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.10.02.01.01_SmartCalc_thread_per_site_example.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.10.02.01.02_SmartCalc_common_thread_example.md`
+
+## 25. 12 篇 / 13 句 / 1 种写法
+
+> When using cout in a background process, you have to expect a mix up of the output in the ui_report window and possibly other unwanted behavior.
+
+出处（12）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.01_SMC_ARM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.03_SMC_ARM_OTHER_TS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.06_SMC_BACKGROUND_ENABLE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.22_SMC_HIDDEN_EXECUTION_BEGIN.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.27.02_SMC_PIN_ERROR_MAP.getFirstFailingXmodeCycles.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.28.01_SMC_PIN_ERROR_MAP_ACCESSOR.getSmcPinErrorMap.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.28_SMC_PIN_ERROR_MAP_ACCESSOR.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.45_SMC_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.50_SMC_UPLOAD_DC_RESULTS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.10.02.01.01_SmartCalc_thread_per_site_example.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.10.02.01.02_SmartCalc_common_thread_example.md`
+
+## 26. 12 篇 / 12 句 / 1 种写法
+
+> Deselect All: Uncheck all columns (except those that cannot be deselected), meaning that none of them will be displayed in the view.
+
+出处（12）：
+
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.05_Device_Summary_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.07_Hardware_Bin_Correlation_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.09_HW_Bin_Summary_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.12_Protocol_Monitor_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.13_R_R_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.14_Raw_Data_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.17_Software_Bin_Correlation_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.18_Stream_Data_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.19_SW_Bin_Summary_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.20_Test_Correlation_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.21_Test_Summary_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.23_Wafer_Summary_preference_settings.md`
+
+## 27. 12 篇 / 12 句 / 2 种写法
+
+> For one pin, [xMode](<02.07.13.24.42_xMode.md>) must remain the same in different labels in burst; otherwise the results might be wrong.
+
+<details><summary>全部写法</summary>
+
+- 8x :: For one pin, [xMode](<02.07.13.24.42_xMode.md>) must remain the same in different labels in burst; otherwise the results might be wrong.
+- 4x :: For one pin, the xMode must remain the same in different labels in burst; otherwise the results might be wrong.
+
+</details>
+
+出处（12）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.03_failCount.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.04_failCyc.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.05_FFC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.08_multiFFC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.09_pfMap.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.12_xMode.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16_SmartRDI__Error_map_results_from_user_patterns.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md`
+
+## 28. 12 篇 / 12 句 / 5 种写法
+
+> If the application model does not use the standard prober/handler driver function call (`ph_device_start`) or the equivalent, this event may not be generated.
+
+<details><summary>全部写法</summary>
+
+- 4x :: If the application model does not use the standard prober/handler driver function call (`ph_device_start`) or the equivalent, this event may not be generated.
+- 2x :: If the application model does not contain the custom Cassette level or does not use the standard prober/handler driver function call (ph_cassette_start) or the equivalent, this event may not be generated.
+- 2x :: If the application model does not contain the custom Wafer level or does not use the standard prober/handler driver function call (`ph_wafer_start`) or the equivalent, this event may not be generated.
+- 2x :: If the application model does not contain the custom Lot level or does not use the standard prober/handler driver function call (ph_lot_start) or the equivalent, this event may not be generated.
+- 2x :: If the [Application Model](<02.09.01.02_Application_Model.md>) does not contain a custom strip level or does not use the standard prober/handler driver function call (`ph_strip_start`) or the equivalent, this event may not be generated.
+
+</details>
+
+出处（12）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.10_CASSETTE_COMPLETED.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.11_CASSETTE_STARTED.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.17_DIE_COMPLETED.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.18_DIE_STARTED.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.34_LOT_COMPLETED.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.35_LOT_STARTED.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.48_PACKAGE_COMPLETED.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.49_PACKAGE_STARTED.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.56_STRIP_COMPLETED.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.57_STRIP_STARTED.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.70_WAFER_COMPLETED.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.71_WAFER_STARTED.md`
+
+## 29. 12 篇 / 12 句 / 1 种写法
+
+> The [xMode](<02.07.13.24.42_xMode.md>) parameter for a pin must be correct, otherwise the result for the pin will not be correct.
+
+出处（12）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.03_failCount.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.04_failCyc.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.05_FFC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.08_multiFFC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.09_pfMap.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.12_xMode.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16_SmartRDI__Error_map_results_from_user_patterns.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md`
+
+## 30. 11 篇 / 11 句 / 1 种写法
+
+> More settings are required for an executable SPMU_TASK object.
+
+出处（11）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.04_SPMU_PIN_TASK.connectState.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.09_SPMU_PIN_TASK.forceDropMax.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.12_SPMU_PIN_TASK.iClampFilter.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.13_SPMU_PIN_TASK.iFilter.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.17_SPMU_PIN_TASK.iSlewRate.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.19_SPMU_PIN_TASK.loadCap.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.22_SPMU_PIN_TASK.measFilter.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.29_SPMU_PIN_TASK.returnDropMax.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.33_SPMU_PIN_TASK.vFilter.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.35_SPMU_PIN_TASK.vForceFilter.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.38_SPMU_PIN_TASK.vSlewRate.md`
+
+## 31. 11 篇 / 11 句 / 1 种写法
+
+> The DSC pin of every utility block has to be connected to UGND on the DUT board.
+
+出处（11）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.05.06.02_External_utility_power_supply_-_Configuration_and_DUT_board_design.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.01_Utility_pogo_block_-_Basic_configuration__V93000_EXA_Scale_systems.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.03_Utility_pogo_block_-_LTH_large_DUT_interface.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.04_Utility_pogo_block_-_STH_DUT_Scale_interface.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.05_Utility_pogo_block_-_CTH_DUT_Scale_interface.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.06_Utility_pogo_block_-_ATH_DUT_Scale_interface.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.07_Utility_pogo_block_-_STH_small_DUT_interface.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.08_Utility_pogo_block_-_CTH_small_DUT_interface.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.09_Utility_pogo_block_-_ATH_small_DUT_interface.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.08.01.02_External_utility_power_supply_-_Configuration_and_DUT_board_design.md`
+
+## 32. 11 篇 / 11 句 / 11 种写法
+
+> The overwrite_digital_pin_no flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must give a new pin number to an existing digital pin (I, O, IO) in the primaries of the master test program (MTP) to add or replace a test.
+
+<details><summary>全部写法</summary>
+
+- 1x :: The overwrite_digital_pin_no flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must give a new pin number to an existing digital pin (I, O, IO) in the primaries of the master test program (MTP) to add or replace a test.
+- 1x :: The overwrite_dps_pin_polarity flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must give an existing DPS pin the primaries of the master test program (MTP) a new polarity to add or replace a test.
+- 1x :: The merge_digital_pin_dir flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must give a new direction (I, O, IO) to an existing pin in the primaries of the master test program (MTP) to add or replace a test.
+- 1x :: The overwrite_pin_group flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must change an existing pin group definition in the primaries of the master test program (MTP) to add or replace a test.
+- 1x :: The overwrite_channel flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must change an existing channel definition in the primaries of the master test program (MTP) to add or replace a test.
+- 1x :: The overwrite_port flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must change an existing port definition in the primaries of the master test program (MTP) to add or replace a test.
+- 1x :: The new_pin_group flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must add a new pin group definition in the primaries of the master test program (MTP) to add or replace a test.
+- 1x :: The new_digital_pin flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must add a new digital pin (I, O, or IO) to the primaries of the master test program (MTP) to add or replace a test.
+- 1x :: The new_port flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must add a new port definition in the primaries of the master test program (MTP) to add or replace a test.
+- 1x :: The new_site flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must add a new site definition in the primaries of the master test program (MTP) to add or replace a test.
+- 1x :: The new_dps_pin flag of the [STPM merge rules file](<02.09.02.04_STPM_merge_rules_file.md>) lets you specify what happens when STPM must add a new supply pin to the primaries of the master test program (MTP) to add or replace a test.
+
+</details>
+
+出处（11）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.04.02_new_digital_pin.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.04.03_overwrite_digital_pin_no.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.04.04_merge_digital_pin_dir.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.04.05_new_dps_pin.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.04.06_overwrite_dps_pin_polarity.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.04.07_new_pin_group.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.04.08_overwrite_pin_group.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.04.10_new_port.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.04.11_overwrite_port.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.04.12_new_site.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.04.13_overwrite_channel.md`
+
+## 33. 10 篇 / 18 句 / 4 种写法
+
+> The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by [DSCP](<../02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>)).
+
+<details><summary>全部写法</summary>
+
+- 7x :: The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by [DSCP](<../02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>)).
+- 4x :: The number you enter must also be less than or equal to the maximum number of level sets allowed (as defined by [DSCP](<../02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>)).
+- 4x :: The number you enter must be less than or equal to the maximum number of DPS sets allowed (as defined by [DSCP](<../02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>)).
+- 3x :: The number you enter must be less than or equal to the maximum number of timing sets allowed (as defined by the [DSCP](<../02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>) command).
+
+</details>
+
+出处（10）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.32_TSUS__TSUS__-__Timing_Sets_USed.md`
+
+## 34. 10 篇 / 10 句 / 4 种写法
+
+> If the GPIO Box is used with this driver configuration, the jumper settings given in the table below are required:
+
+<details><summary>全部写法</summary>
+
+- 6x :: If the GPIO Box is used with this driver configuration, the jumper settings given in the table below are required:
+- 2x :: If the GPIO Box is used with this driver configuration, the jumper settings given in the table below below are required:
+- 1x :: If the GPIO Box is used with this driver configuration, the jumper settings in the table below below are required:
+- 1x :: If the GPIO Box is used with this driver configuration, the jumper settings in the table below are required:
+
+</details>
+
+出处（10）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.12.01.03_GPIO_box_jumpering.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.12.02.03_GPIO_box_jumpering.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.12.03.03_GPIO_box_jumpering.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.12.04.03_GPIO_box_jumpering.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.12.05.03_GPIO_box_jumpering.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.12.06.03_GPIO_box_jumpering.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.15.01.03_GPIO_box_jumpering.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.15.02.03_GPIO_box_jumpering.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.15.03.03_GPIO_box_jumpering.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.17.01.03_GPIO_box_jumpering.md`
+
+## 35. 10 篇 / 10 句 / 3 种写法
+
+> The number of timing specification variables must be equal to the number of pin groups.
+
+<details><summary>全部写法</summary>
+
+- 6x :: The number of timing specification variables must be equal to the number of pin groups.
+- 2x :: The number of source synchronous pin groups and the number of timing specification variables need to be the same.
+- 2x :: The number of pin groups and the number of timing specification variables need to be the same.
+
+</details>
+
+出处（10）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.03_Address_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.04_Address_Bus_Inversion_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.05_Clock_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.06_Read_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.07_Write_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.06.03.04_Parameters_for_the_DataTraining_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.06.04.02_Parameters_for_the_DataTrainingFlex_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.05.04.06.03.04_Parameters_for_the_DataTraining_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.05.04.06.04.02_Parameters_for_the_DataTrainingFlex_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.31.02_CSearchTask.md`
+
+## 36. 10 篇 / 10 句 / 1 种写法
+
+> This function is not supported within the SMC_backgroundProcessing() test method when flag [hidden_datalog_mode](<../02.08_Setup_and_Result_Tools/02.08.04.32.01.02.07.01_Alphabetical_list_of_flags.md#_342556__row_hidden_datalog_mode>) is set to 0.
+
+出处（10）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.02_TESTSET__.combineMultiPortTests.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.05_TESTSET__.hlmFmt.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.18_TESTSET__.llmFmt.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.19_TESTSET__.port.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.21_TESTSET__.resFmt.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.22_TESTSET__.suppressTestNameLoopCount.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.23_TESTSET__.testname.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.24_TESTSET__.testname_default.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.32_TESTSET__.testtype.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.33_TESTSET__.testtype_default.md`
+
+## 37. 9 篇 / 9 句 / 2 种写法
+
+> Since the new or changed waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
+
+<details><summary>全部写法</summary>
+
+- 6x :: Since the new or changed waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
+- 3x :: Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
+
+</details>
+
+出处（9）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.40_WAVE__WAVE__-__WAVEform.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.43_WFUD_-__WaveForm_UnDefine.md`
+
+## 38. 8 篇 / 10 句 / 4 种写法
+
+> Maximum source/sink current per board cannot be exceeded.
+
+<details><summary>全部写法</summary>
+
+- 2x :: Maximum source/sink current per board cannot be exceeded.
+- 2x :: Maximum source/sink current per card cannot be exceeded.
+- 2x :: The maximum current per board cannot be exceeded.
+- 2x :: The maximum current per card cannot be exceeded.
+
+</details>
+
+出处（8）：
+
+- `02_System_reference/02.02_Specifications/02.02.05.01_DC_Scale_DPS128_Device_Power_Supply__E8023CS_E8023CSH__-_high_current_sp.md`
+- `02_System_reference/02.02_Specifications/02.02.05.02_DC_Scale_UHC4T_Device_Power_Supply__E8024UH.md`
+- `02_System_reference/02.02_Specifications/02.02.05.03.01_XPS256_overview.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02.01_DC_Scale_DPS128_Device_Power_Supply__E8023CS_E8023CSH__-_high_current_sp.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.02.02_UHC4T_specifications.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.02.01.01_XPS256_overview.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md`
+
+## 39. 8 篇 / 8 句 / 3 种写法
+
+> All pins in pinlist must be O or IO pin types.
+
+<details><summary>全部写法</summary>
+
+- 4x :: All pins in pinlist must be O or IO pin types.
+- 2x :: All pins in pinlist must be I, O, or IO pin types.
+- 2x :: All pins in pinlist must be O or IO types.
+
+</details>
+
+出处（8）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md`
+
+## 40. 8 篇 / 8 句 / 1 种写法
+
+> Driver default: none; value must be defined in the driver configuration
+
+出处（8）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.01.01_Parameter__handler_family.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.01.02_Parameter__prober_family.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.01.03_Parameter__model.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.05.01_Parameter__gpib-port.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.05.04_Parameter__interface_type.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.05.05_Parameter__symbolic_interface_name.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.06.01_Parameter__handler_site_ids_prober_site_ids.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.07.01_Parameter__bin_mapping.md`
+
+## 41. 8 篇 / 8 句 / 4 种写法
+
+> Driver sends CR+LF and EOI on the GPIB bus, cannot be changed through configuration file.
+
+<details><summary>全部写法</summary>
+
+- 4x :: Driver sends CR+LF and EOI on the GPIB bus, cannot be changed through configuration file.
+- 2x :: Driver sends LF and EOI on the GPIB bus, cannot be changed through configuration file.
+- 1x :: Driver sends CR+LF and EOI on the GPIB bus, cannot be changed through the configuration file.
+- 1x :: Driver sends LF and EOI on the GPIB bus, cannot be changed in the configuration file.
+
+</details>
+
+出处（8）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.08.01.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.08.03.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.08.04.03_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.08.05.03_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.12.07.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.15.04.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.19.03.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.21.01.02_Default_GPIB_configuration.md`
+
+## 42. 8 篇 / 8 句 / 1 种写法
+
+> Every POG4R pin has to be connected to UGND on a DUT board that utilizes 4-row utility pogo blocks.
+
+出处（8）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.05.06.02_External_utility_power_supply_-_Configuration_and_DUT_board_design.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.01_Utility_pogo_block_-_Basic_configuration__V93000_EXA_Scale_systems.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.03_Utility_pogo_block_-_LTH_large_DUT_interface.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.04_Utility_pogo_block_-_STH_DUT_Scale_interface.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.05_Utility_pogo_block_-_CTH_DUT_Scale_interface.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.06_Utility_pogo_block_-_ATH_DUT_Scale_interface.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.08.01.02_External_utility_power_supply_-_Configuration_and_DUT_board_design.md`
+
+## 43. 8 篇 / 8 句 / 1 种写法
+
+> For the [DC Scale DPS128/DPS64 cards](<../../02_System_reference/02.05_Test_Head_Cards/02.05.05.01_DC_Scale_DPS128_DPS64_cards.md>), changing the current measurement range for profiling is not supported.
+
+出处（8）：
+
+- `01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03.05_Profiling_of_DC_Scale_cards_with_Hardware_view.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.105_ENSP__ENSP__-__ENable_Sampling_Profile.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.03_DFSP__DFSP__-__DeFine_Sampling_Profile.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.07_ENSP__ENSP__-__ENable_Sampling_Profile.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.24_DC_PROFILING_DEFINE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.27_DC_PROFILING_ON.md`
+
+## 44. 8 篇 / 8 句 / 1 种写法
+
+> If in is selected to define an input edge, then the edge_spec parameter must be D1, D2, C1, or C2.
+
+出处（8）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.11_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.12_EDSP__EDSP__-__EDge_SPecification.md`
+
+## 45. 8 篇 / 8 句 / 1 种写法
+
+> If out is selected to define a receiver edge, then the edge_spec parameter must be E1 or E2.
+
+出处（8）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.11_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.12_EDSP__EDSP__-__EDge_SPecification.md`
+
+## 46. 8 篇 / 8 句 / 1 种写法
+
+> If this parameter is set to Yes (Pin attr), the unit for the sweep spec variables must be nanoseconds.
+
+出处（8）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.03_Address_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.04_Address_Bus_Inversion_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.05_Clock_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.06_Read_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.07_Write_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.31.01_CDataEyeAlign.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.31.02_CSearchTask.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.31.05_CTransitionAlign.md`
+
+## 47. 8 篇 / 8 句 / 1 种写法
+
+> In a multi-port setup, all pins must belong to the same port of the specification that was entered as the first parameter.
+
+出处（8）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.11_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.12_EDSP__EDSP__-__EDge_SPecification.md`
+
+## 48. 8 篇 / 8 句 / 2 种写法
+
+> Note It is only available for universal test method.
+
+<details><summary>全部写法</summary>
+
+- 7x :: Note It is only available for universal test method.
+- 1x :: This test method is only available for universal test method.
+
+</details>
+
+出处（8）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.01_Connect.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.02_Disconnect.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.03_ExecuteLinuxCommand.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.05_GetUtilityLines.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.07_SetUtilityLines.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.08_StartSequencer.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.09_TestheadTemperature.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.10_TestState.md`
+
+## 49. 8 篇 / 8 句 / 4 种写法
+
+> Note Remember that if you want to have your timing specification file available at a later stage, you must either save it from within the wavetable editor, or save the Timing Setup, from within the Test Program Explorer.
+
+<details><summary>全部写法</summary>
+
+- 2x :: Note Remember that if you want to have your timing specification file available at a later stage, you must either save it from within the wavetable editor, or save the Timing Setup, from within the Test Program Explorer.
+- 2x :: Note Remember that, if you want to have your level equation file available at a later stage, you must either save it from within the Level Equation Editor, or save the Level Setup.
+- 2x :: Note Remember that if you want to have your equation file available at a later stage, you must either save it from within the wavetable editor, or save the Timing Setup.
+- 2x :: If you want to make it available at a later stage, you must either save it from within the wavetable editor (using vi, for example), or save the Timing Setup.
+
+</details>
+
+出处（8）：
+
+- `01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.03_Setting_up_your_levels.md`
+- `01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.04.02_Setting_up_the_wavetables.md`
+- `01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.04.03_Defining_the_equation_sets.md`
+- `01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.04.04_Defining_the_spec_sets.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.01_Setting_up_your_levels.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.06.01_Setting_up_the_wavetables.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.06.02_Defining_the_equation_sets.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.06.03_Defining_the_spec_sets.md`
+
+## 50. 8 篇 / 8 句 / 8 种写法
+
+> The lower clamp voltage waveform, defined by this member function, and the upper clamp voltage, defined by [EVENT_WAVEFORM_VCIM.vClampHigh()](<02.07.04.01.63.35.03_EVENT_WAVEFORM_VCIM.vClampHigh.md>), must be set in separate DC events.
+
+<details><summary>全部写法</summary>
+
+- 1x :: The lower clamp voltage waveform, defined by this member function, and the upper clamp voltage, defined by [EVENT_WAVEFORM_VCIM.vClampHigh()](<02.07.04.01.63.35.03_EVENT_WAVEFORM_VCIM.vClampHigh.md>), must be set in separate DC events.
+- 1x :: The lower clamp voltage waveform, defined by this member function, and the upper clamp voltage, defined by [EVENT_WAVEFORM_VCVM.vClampHigh()](<02.07.04.01.63.36.03_EVENT_WAVEFORM_VCVM.vClampHigh.md>), must be set in separate DC events.
+- 1x :: The upper clamp voltage waveform, defined by this member function, and the lower clamp voltage, defined by [EVENT_WAVEFORM_VCIM.vClampLow()](<02.07.04.01.63.35.01_EVENT_WAVEFORM_VCIM.vClampLow.md>), must be set in separate DC events.
+- 1x :: The upper clamp voltage waveform, defined by this member function, and the lower clamp voltage, defined by [EVENT_WAVEFORM_VCVM.vClampLow()](<02.07.04.01.63.36.01_EVENT_WAVEFORM_VCVM.vClampLow.md>), must be set in separate DC events.
+- 1x :: The lower clamp voltage, defined by this member function, and the upper clamp voltage, defined by [EVENT_VCIM.vClampHigh()](<02.07.04.01.63.21.03_EVENT_VCIM.vClampHigh.md>), must be set in separate DC events.
+- 1x :: The lower clamp voltage, defined by this member function, and the upper clamp voltage, defined by [EVENT_VCVM.vClampHigh()](<02.07.04.01.63.22.03_EVENT_VCVM.vClampHigh.md>), must be set in separate DC events.
+- 1x :: The upper clamp voltage, defined by this member function, and the lower clamp voltage, defined by [EVENT_VCIM.vClampLow()](<02.07.04.01.63.21.01_EVENT_VCIM.vClampLow.md>), must be set in separate DC events.
+- 1x :: The upper clamp voltage, defined by this member function, and the lower clamp voltage, defined by [EVENT_VCVM.vClampLow()](<02.07.04.01.63.22.01_EVENT_VCVM.vClampLow.md>), must be set in separate DC events.
+
+</details>
+
+出处（8）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.01_EVENT_VCIM.vClampLow.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.21.03_EVENT_VCIM.vClampHigh.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.01_EVENT_VCVM.vClampLow.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.22.03_EVENT_VCVM.vClampHigh.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.01_EVENT_WAVEFORM_VCIM.vClampLow.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.35.03_EVENT_WAVEFORM_VCIM.vClampHigh.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.01_EVENT_WAVEFORM_VCVM.vClampLow.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.36.03_EVENT_WAVEFORM_VCVM.vClampHigh.md`
+
+## 51. 8 篇 / 8 句 / 2 种写法
+
+> pinlist must contain the names of pins previously defined by the [DFPS](<02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>) command.
+
+<details><summary>全部写法</summary>
+
+- 7x :: pinlist must contain the names of pins previously defined by the [DFPS](<02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>) command.
+- 1x :: Note that pinlist must contain the names of pins previously defined by the [DFPS](<02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>) command.
+
+</details>
+
+出处（8）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md`
+
+## 52. 7 篇 / 12 句 / 1 种写法
+
+> After that you need to add the defined test names (limits) to the test suite.
+
+出处（7）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.02_DpsConnectivity.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.03_DpsStatus.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.04_GeneralPMU.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.05_Leakage.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.06_OperatingCurrent.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.07_OutputDC.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.06.02.05.01_SourceSync_fast_mode.md`
+
+## 53. 7 篇 / 10 句 / 7 种写法
+
+> A test point pattern must have been executed for DC Scale pins.
+
+<details><summary>全部写法</summary>
+
+- 3x :: A test point pattern must have been executed for DC Scale pins.
+- 2x :: A test point pattern must have been executed for DC scale pins, or a DC pattern for digital pins.
+- 1x :: Can only be requested if a test point pattern has been executed for DC Scale pins, or a DC pattern was executed for digital pins.
+- 1x :: If result data are requested, a test point pattern must have been executed for DC Scale pins, or a DC pattern for digital pins.
+- 1x :: This option can only be requested if a test point pattern has been executed for DC Scale pins.
+- 1x :: If result data are requested, a test point pattern must have been executed for DC Scale pins.
+- 1x :: Can only be requested if a test point pattern has been executed for DC Scale pins.
+
+</details>
+
+出处（7）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.02_XPS256_status_flags.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.280_TSST__-__TeSt_STatus.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.317_VALR__-__VALid_Range.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.34_VALR__-__VALid_Range.md`
+
+## 54. 7 篇 / 9 句 / 1 种写法
+
+> Note Rapid source sync is not supported on the EXA Scale test systems.
+
+出处（7）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.06.02.05.01_SourceSync_fast_mode.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.06.02.05_Parameters_for_multistrobe_test_methods.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.06.05_Rapid_source-sync__RSS.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.06_Source-synchronous_class_test_methods.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.05.04.06.02_Rapid_source-sync__RSS.md`
+
+## 55. 7 篇 / 7 句 / 1 种写法
+
+> Columns displayed in gray cannot be deselected.
+
+出处（7）：
+
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.05_Device_Summary_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.09_HW_Bin_Summary_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.14_Raw_Data_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.18_Stream_Data_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.19_SW_Bin_Summary_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.20_Test_Correlation_preference_settings.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.23_Wafer_Summary_preference_settings.md`
+
+## 56. 7 篇 / 7 句 / 1 种写法
+
+> For this additional duration of time, the BADC cannot be used to perform a new measurement.
+
+出处（7）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03.04_PS1600_DC_value_measurements.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.01.07.06.02_How_to_use_the_BADC_as_digitizer.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.03.02.07_Executing_PPMU_tests_from_a_pattern.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08_BADC_MEASURE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.142_PATTERN_CONTROLLER.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.153_PPMU_BADC_MEASURE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.157_PPMU_MEASURE.md`
+
+## 57. 7 篇 / 7 句 / 2 种写法
+
+> If more than one pin is to be included, the names must be separated by commas.
+
+<details><summary>全部写法</summary>
+
+- 4x :: If more than one pin is to be included, the names must be separated by commas.
+- 3x :: If more than one pin is to be included, the names must be separated with commas.
+
+</details>
+
+出处（7）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.206_RLYC__RLYC__-__ReLaY_Control.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.40_WAVE__WAVE__-__WAVEform.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+
+## 58. 7 篇 / 7 句 / 1 种写法
+
+> If you define new test names in the parameter testName, you need to add limits to the test suite with the same test name.
+
+出处（7）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.01_Continuity.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.02_DpsConnectivity.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.04_GeneralPMU.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.05_Leakage.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.06_OperatingCurrent.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.07_OutputDC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.03.08_ProductionIddq.md`
+
+## 59. 7 篇 / 7 句 / 1 种写法
+
+> In additional, an extra wait time of, at least, 60 渭s must be added for the first BADC measurement after switching the measurement mode on one channel for EXA Scale digital cards or Smart Scale digital cards in Exa Scale compatibility mode.
+
+出处（7）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03.04_PS1600_DC_value_measurements.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.01.07.06.02_How_to_use_the_BADC_as_digitizer.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.03.02.07_Executing_PPMU_tests_from_a_pattern.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08_BADC_MEASURE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.142_PATTERN_CONTROLLER.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.153_PPMU_BADC_MEASURE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.157_PPMU_MEASURE.md`
+
+## 60. 7 篇 / 7 句 / 2 种写法
+
+> It must be used inside a RDI_BEGIN()/RDI_END() block.
+
+<details><summary>全部写法</summary>
+
+- 6x :: It must be used inside a RDI_BEGIN()/RDI_END() block.
+- 1x :: getEnabledPins() must be used inside an RDI_BEGIN()/RDI_END() block.
+
+</details>
+
+出处（7）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.09.02.04_rdi.alarm__.getEnabledPins.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01.04_copyLabel.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.02.03_copyLabel.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.05_copyLabel.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.13.08_copyLabel.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.08_rdi.tmu__.label__.copyLabel.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.06_copyLabel.md`
+
+## 61. 7 篇 / 7 句 / 1 种写法
+
+> The member function `uploadPeriodResults()` of TMU_PINS needs to be used before using this function.
+
+出处（7）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.251.10_TMU_RESULTS.getPeriodMax.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.251.11_TMU_RESULTS.getPeriodMean.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.251.12_TMU_RESULTS.getPeriodMedian.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.251.13_TMU_RESULTS.getPeriodMin.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.251.14_TMU_RESULTS.getPeriodPP.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.251.15_TMU_RESULTS.getPeriodRange.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.251.16_TMU_RESULTS.getPeriodStddev.md`
+
+## 62. 7 篇 / 7 句 / 1 种写法
+
+> The specified label must be the main label, not a burst label or subroutine.
+
+出处（7）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01.12_label.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.02.06_label.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.24_label.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.13.13_label.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.07_label.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.17.01.05_rdi.func__.label.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.24.22_label.md`
+
+## 63. 6 篇 / 11 句 / 9 种写法
+
+> Axis Selector (X Axis ID) - If the selected Data Display Panel has multiple x-axes, you need to specify on which x-axis the cursors are placed.
+
+<details><summary>全部写法</summary>
+
+- 2x :: Axis Selector (X Axis ID) - If the selected Data Display Panel has multiple x-axes, you need to specify on which x-axis the cursors are placed.
+- 2x :: Axis Selector (Y Axis ID) - If the selected Data Display Panel has multiple y-axes, you need to specify which y-axis the cursors are put on.
+- 1x :: Axis Selector (Y Axis ID) - If the focused Data Display Panel has multiple y-axes, the users need to specify which y-axis the cursors are put on.
+- 1x :: Axis Selector (X Axis ID) - If the focused Data Display Panel has multiple x-axes, you need to specify on which x-axis the cursors are placed.
+- 1x :: X Axis ID - If the selected Data Display Panel has multiple x-axes, you must specify on which x-axis the mask is placed.
+- 1x :: If the selected Data Display Panel has multiple x-axes, you must specify on which x-axis the cursors are placed.
+- 1x :: If the focused Data Display Panel has multiple y-axes, you must specify on which y-axis the cursors are placed.
+- 1x :: If the selected Data Display Panel has multiple axes, you must specify on which x-axis the trace is placed.
+- 1x :: If the selected Data Display Panel has multiple axes, you must specify on which y-axis the trace is placed.
+
+</details>
+
+出处（6）：
+
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.02.05_Mask_Waveform.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.02.07_Cursors.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.04_Tool_Bars.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.03.01.02_Cursor_Toolbar.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.04.01.04_Cursor_Properties.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.04.01.06_Trace_Properties.md`
+
+## 64. 6 篇 / 11 句 / 1 种写法
+
+> If it contains spaces, it must be enclosed by double quotes.
+
+出处（6）：
+
+- `01_Getting_started/01.05_SmarTest_character_and_number_limits/01.05_SmarTest_character_and_number_limits.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.01.02.01_Timing_equation_set_reference.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.01.02_Data_organization_of_equation_based_timing.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.02.01_Timing_equation_set_reference.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.02_Data_organization_of_equation_based_timing.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.01_Data_organization_of_equation_based_timing.md`
+
+## 65. 6 篇 / 10 句 / 1 种写法
+
+> In this case, the returned integer must be converted into binary format.
+
+出处（6）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.134_NB_DIGITAL_CAPTURE_END.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.11_SMC_EXECUTE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.26_SMC_NB_DIGITAL_CAPTURE_END.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.52_SMC_WAIT_TEST_DONE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.271_WAIT_TEST_DONE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.65_EXECUTE_TEST.md`
+
+## 66. 6 篇 / 7 句 / 6 种写法
+
+> Note A call to this member function must be followed by calls to member functions of the DPS_AUX_PIN_TASK class.
+
+<details><summary>全部写法</summary>
+
+- 1x :: Note A call to this member function must be followed by calls to member functions of the DPS_AUX_PIN_TASK class.
+- 1x :: Note A call of this function must be followed by calls of member functions of the [SEARCH_FUNC_PIN_TASK](<02.07.04.01.199.01_SEARCH_FUNC_PIN_TASK.md>) class.
+- 1x :: Note A call to this function must be followed by calls to member functions of [DPS_POWER_PIN_STATUS](<02.07.04.01.49.01_DPS_POWER_PIN_STATUS.md>) class.
+- 1x :: Note A call to this function must be followed by calls to member functions of the PPTIA_PIN_TASK class.
+- 1x :: Note A call of this function must be followed by calls of member functions of the PATTERN class.
+- 1x :: Note A call to this function must be followed by calls to member functions of [DPS_PIN_TASK](<02.07.04.01.50.01_DPS_PIN_TASK.md>) class.
+
+</details>
+
+出处（6）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.142_PATTERN_CONTROLLER.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.165_PPTIA_TASK.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.199_SEARCH_FUNC_TASK.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.03_DPS_AUX_TASK.pin.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.49_DPS_POWER_STATUS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.50_DPS_TASK.md`
+
+## 67. 6 篇 / 6 句 / 2 种写法
+
+> 0110: Edge compare, reconstruction not possible
+
+<details><summary>全部写法</summary>
+
+- 4x :: 0110: Edge compare, reconstruction not possible
+- 2x :: Edge compare, reconstruction not possible!
+
+</details>
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md`
+
+## 68. 6 篇 / 6 句 / 2 种写法
+
+> 1110: Window compare, reconstruction not possible
+
+<details><summary>全部写法</summary>
+
+- 4x :: 1110: Window compare, reconstruction not possible
+- 2x :: Window compare, reconstruction not possible!
+
+</details>
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md`
+
+## 69. 6 篇 / 6 句 / 1 种写法
+
+> A positive voltage has to be set regardless of the polarity of the actual or programmed current.
+
+出处（6）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.09_SPMU_PIN_TASK.forceDropMax.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.10_SPMU_PIN_TASK.forceDropWarn.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.29_SPMU_PIN_TASK.returnDropMax.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.30_SPMU_PIN_TASK.returnDropWarn.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.08_forceDropMax.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.36_returnDropMax.md`
+
+## 70. 6 篇 / 6 句 / 2 种写法
+
+> After you have defined the logical waveform with WFDF, you must specify the physical waveforms that are based on it with the [WAVE](<../02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>) command.
+
+<details><summary>全部写法</summary>
+
+- 3x :: After you have defined the logical waveform with WFDF, you must specify the physical waveforms that are based on it with the [WAVE](<../02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>) command.
+- 3x :: After you have defined the logical waveform with WFDS, you must specify the physical waveforms that are based on it with the WAVE command.
+
+</details>
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+
+## 71. 6 篇 / 6 句 / 1 种写法
+
+> If a size larger than zero is specified, the memory for the specified number of elements is allocated and the array cannot be resized.
+
+出处（6）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.02.01_ARRAY_I.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.02.02_ARRAY_D.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.02.03_ARRAY_COMPLEX.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.02.04_ARRAY_CHAR.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.02.05_ARRAY_BOOL.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.02.06_ARRAY_LL.md`
+
+## 72. 6 篇 / 6 句 / 1 种写法
+
+> If more than one name is required, the names must be separated with a comma.
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.307_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.314_UTTI__UTTI__-__UTility_line_settling_TIme.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.32_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.34_UTTI__UTTI__-__UTility_line_settling_TIme.md`
+- `02_System_reference/02.06_Command_Reference/02.06.12.02.08_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md`
+- `02_System_reference/02.06_Command_Reference/02.06.12.02.14_UTTI__UTTI__-__UTility_line_settling_TIme.md`
+
+## 73. 6 篇 / 6 句 / 1 种写法
+
+> If more than one name is to be removed, the names must be separated by a comma.
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.302_UDUT_-__UnDefine_UTility_line.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.28_UDUT_-__UnDefine_UTility_line.md`
+- `02_System_reference/02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md`
+- `02_System_reference/02.06_Command_Reference/02.06.12.02.04_UDUT_-__UnDefine_UTility_line.md`
+
+## 74. 6 篇 / 6 句 / 1 种写法
+
+> If the EdgeCentering value is Yes (Pin attr), the unit for the SweepSpecVars values must be nanoseconds.
+
+出处（6）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.03_Address_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.04_Address_Bus_Inversion_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.05_Clock_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.06_Read_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.07_Write_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.31.02_CSearchTask.md`
+
+## 75. 6 篇 / 6 句 / 1 种写法
+
+> In this case, the number of sweep start values must be the same as the number of pin groups.
+
+出处（6）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.03_Address_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.04_Address_Bus_Inversion_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.05_Clock_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.06_Read_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.07_Write_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.31.02_CSearchTask.md`
+
+## 76. 6 篇 / 6 句 / 1 种写法
+
+> Note The second parameter must be left empty.
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.262_TORC_-__Timing_level_Offset_Result_Copy.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.264_TORR__Timing_level_Offset_Reset_Result.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.265_TORS__-__Timing_level_Offset_ReSult.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.19_TORC_-__Timing_level_Offset_Result_Copy.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.21_TORR__Timing_level_Offset_Reset_Result.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.22_TORS__-__Timing_level_Offset_ReSult.md`
+
+## 77. 6 篇 / 6 句 / 1 种写法
+
+> Note that waveforms that are to be used for selective digital capture must contain exactly one compare action.
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+
+## 78. 6 篇 / 6 句 / 1 种写法
+
+> Potential device related settling times need to be added on top.
+
+出处（6）：
+
+- `02_System_reference/02.02_Specifications/02.02.05.01_DC_Scale_DPS128_Device_Power_Supply__E8023CS_E8023CSH__-_high_current_sp.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02.01_DC_Scale_DPS128_Device_Power_Supply__E8023CS_E8023CSH__-_high_current_sp.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.02_Timing_of_DC_events_-_DPS128___DPS64.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.01.01_Timing_of_DC_events_-_XPS256.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01.02_Timing_of_DC_events_-_XPS256.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01.03_Timing_of_DC_events_-_DPS128___DPS64.md`
+
+## 79. 6 篇 / 6 句 / 1 种写法
+
+> Since, this information is required only for the pin assignment, these pins are referenced as "P#", "PS#", and "GS#" in all other sections of the TDC.
+
+出处（6）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.02_E8023PB_pogo_cable_assembly__2_VHD_pogo_blocks.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.09_E8023PK_pogo_cable_assembly__4_VHD_pogo_blocks__DPS128.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.07_XPS256_pogo_pin_assignment.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.02_E8023PB_pogo_cable_assembly__2_VHD_pogo_blocks.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.09_E8023PK_pogo_cable_assembly__4_VHD_pogo_blocks__DPS128.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.04_XPS256_pogo_pin_assignment.md`
+
+## 80. 6 篇 / 6 句 / 1 种写法
+
+> The "measurement filter" may be used instead of averaging if a high effective sample frequency is required.
+
+出处（6）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.03.03_XPS256_digitizer__DGT.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.06.02_XPS256_measure_voltages.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.07.02_XPS256_measure_currents.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.13_XPS256_programming_-_Measure_currents.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.14_XPS256_programming_-_Measure_voltages.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.19_XPS256_programming_-_Voltage_drop_measurement.md`
+
+## 81. 6 篇 / 6 句 / 1 种写法
+
+> The break waveform must not contain data dependent actions.
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md`
+
+## 82. 6 篇 / 6 句 / 2 种写法
+
+> The conversion tool is only available in the 32-bit SmarTest.
+
+<details><summary>全部写法</summary>
+
+- 4x :: The conversion tool is only available in the 32-bit SmarTest.
+- 2x :: The conversion tool is only available for 32-bit SmarTest.
+
+</details>
+
+出处（6）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.02.04.01_How_to_convert_a_classic_test_method_project_to_universal_test_method_pr.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.02.05_Converting_user_procedures_to_universal_test_methods.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.02.06_Converting_a_classic_testflow_to_a_UTM-based_testflow.md`
+- `03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.01.01_How_to_convert_a_classic_test_method_project_to_universal_test_method_pr.md`
+- `03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.02_Converting_user_procedures_to_universal_test_methods.md`
+- `03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.03_Converting_a_classic_testflow_to_a_UTM-based_testflow.md`
+
+## 83. 6 篇 / 6 句 / 2 种写法
+
+> The edge order is wrong; for instance a window open must come before a window close - a mismatch exists between edge delays of the selected timing set and the waveform definition - [WFDS, WFDS?
+
+<details><summary>全部写法</summary>
+
+- 3x :: The edge order is wrong; for instance a window open must come before a window close - a mismatch exists between edge delays of the selected timing set and the waveform definition - [WFDS, WFDS?
+- 3x :: The edge order is wrong; for instance a window open must come before a window close - a mismatch exists between edge delays of the selected timing set and the waveform definition - [WFDF, WFDF?
+
+</details>
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.16_ETIM__ETIM__-__Edge_TIMing.md`
+
+## 84. 6 篇 / 6 句 / 1 种写法
+
+> The number of data output pin groups must be equal to the number of address pin groups.
+
+出处（6）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.03_Address_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.04_Address_Bus_Inversion_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.05_Clock_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.06_Read_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.07_Write_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.31.02_CSearchTask.md`
+
+## 85. 6 篇 / 6 句 / 3 种写法
+
+> The number of entries in the list must either match the number of entries of temp_chambers or one single value may be inserted.
+
+<details><summary>全部写法</summary>
+
+- 4x :: The number of entries in the list must either match the number of entries of temp_chambers or one single value may be inserted.
+- 1x :: The number of entries in the list must either match the number of entries of the parameter temp_chambers or one single value only may be set.
+- 1x :: The number of entries in the list must either match the number of entries of temp_chambers or one single entry may be inserted.
+
+</details>
+
+出处（6）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.09.05_Parameter__temp_setpoint.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.09.07_Parameter__temp_desoaktime.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.09.08_Parameter__temp_upper_guard_band.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.09.09_Parameter__temp_lower_guard_band.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.09.10_Parameter__temp_active_heating.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.05.09.11_Parameter__temp_active_cooling.md`
+
+## 86. 6 篇 / 6 句 / 1 种写法
+
+> The sample time for averaged measurements must be taken into account.
+
+出处（6）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.03.03_XPS256_digitizer__DGT.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.06.02_XPS256_measure_voltages.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.07.02_XPS256_measure_currents.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.13_XPS256_programming_-_Measure_currents.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.14_XPS256_programming_-_Measure_voltages.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.19_XPS256_programming_-_Voltage_drop_measurement.md`
+
+## 87. 6 篇 / 6 句 / 1 种写法
+
+> The seq_status parameter is required for the reconstruction of received data.
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md`
+
+## 88. 6 篇 / 6 句 / 1 种写法
+
+> The specified time must be significantly shorter than the minimum eye open time.
+
+出处（6）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.03_Address_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.04_Address_Bus_Inversion_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.05_Clock_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.06_Read_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.03.07_Write_Training_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.31.02_CSearchTask.md`
+
+## 89. 6 篇 / 6 句 / 3 种写法
+
+> The value must be within the minimum and maximum range specified in the given spec set.
+
+<details><summary>全部写法</summary>
+
+- 4x :: The value must be within the minimum and maximum range specified in the given spec set.
+- 1x :: The value must be within the range between the minimum and maximum values specified in the specification (on the Spec Tool window).
+- 1x :: The value must be within the range between the minimum and maximum values specified in the spec set.
+
+</details>
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.232_SPECIFICATION.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.249_TIMING_SPEC.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+
+## 90. 6 篇 / 6 句 / 1 种写法
+
+> This API must be called inside your `SMC_backgroundProcessing()` method.
+
+出处（6）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.47_SMC_TMU_UPLOAD_APP_RESULTS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.48_SMC_TMU_UPLOAD_PERIOD_RESULTS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.49_SMC_TMU_UPLOAD_RAW_RESULTS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.50_SMC_UPLOAD_DC_RESULTS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.252.16_TMU_TASK.smcUploadPeriodResult.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.252.17_TMU_TASK.smcUploadRawResults.md`
+
+## 91. 6 篇 / 6 句 / 1 种写法
+
+> This is required even if the logical waveform contains no data parameters.
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+
+## 92. 6 篇 / 6 句 / 1 种写法
+
+> This parameter can have up to 16 alphanumeric characters and must not contain blank spaces, or any of the following characters: `# ; ( ' ' ) ?
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md`
+- `02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md`
+- `02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md`
+
+## 93. 6 篇 / 6 句 / 4 种写法
+
+> This procedure must be performed by trained personnel experienced with the maintenance and operation of the Accretech UF3000EX series probers.
+
+<details><summary>全部写法</summary>
+
+- 3x :: This procedure must be performed by trained personnel experienced with the maintenance and operation of the Accretech UF3000EX series probers.
+- 1x :: Note Deinstallation must only be performed by trained personnel experienced with the operation and maintenance of Accretech UF3000EX series probers.
+- 1x :: Note Installation must only be performed by trained personnel experienced with the operation and maintenance of Accretech UF3000EX series probers.
+- 1x :: Note This procedure must be performed by trained personnel experienced with the operation and maintenance of Accretech UF3000EX series probers.
+
+</details>
+
+出处（6）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.02_Deinstalling_Direct-Probe_bridge_beam_from_Accretech_UF3000_EX_wafer_pro.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.03.01_Bridge_beam_installation_on_Accretech_UF3000_EX_-_Phase_1.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.03.03_Bridge_beam_installation_on_Accretech_UF3000_EX_-_Phase_2.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.03.04.01_Verification_Phase_2_-_Stage_1.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.03.04.02_Verification_Phase_2_-_Stage_2.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.03.04.03_Verification_Phase_2_-_Stage_3.md`
+
+## 94. 6 篇 / 6 句 / 1 种写法
+
+> You have to consider this when assigning parameters to the [WAVE](<../02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>) command.
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+
+## 95. 6 篇 / 6 句 / 2 种写法
+
+> You have to define all of them for the modified logical waveform again (with the [WAVE](<../02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>) command).
+
+<details><summary>全部写法</summary>
+
+- 3x :: You have to define all of them for the modified logical waveform again (with the [WAVE](<../02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>) command).
+- 3x :: You have to define all of them again for the modified logical waveform (with the [WAVE](<../02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>) command).
+
+</details>
+
+出处（6）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md`
+
+## 96. 5 篇 / 11 句 / 1 种写法
+
+> You must specify a target trace ID.
+
+出处（5）：
+
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.04_Tool_Bars.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.03.01.04_Hardware_Access_Toolbar.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.06.01_Download_Vector.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.06.02_DSM.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.06_Actions_Menu.md`
+
+## 97. 5 篇 / 7 句 / 2 种写法
+
+> Note that the FOR_EACH_SITE_BEGIN_WITH_QUERY() API must be used to set the query focus within the block.
+
+<details><summary>全部写法</summary>
+
+- 4x :: Note that the FOR_EACH_SITE_BEGIN_WITH_QUERY() API must be used to set the query focus within the block.
+- 3x :: The [FOR_EACH_SITE_BEGIN_WITH_QUERY](<02.07.04.01.71_FOR_EACH_SITE_BEGIN_WITH_QUERY.md>) API must be used to set the query focus within the FOR_EACH_SITE block.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.02_HW_STATE.checkKelvinStatus.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.03_HW_STATE.checkKelvinStatusParallel.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.04_HW_STATE.checkGangConnection.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.05_HW_STATE.checkGangConnectionParallel.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117_HW_STATE.md`
+
+## 98. 5 篇 / 7 句 / 4 种写法
+
+> Trace Selector (Trace ID) - If the selected Data Display Panel has multiple traces (overlaid waveforms), you need to specify on which trace the markers are placed.
+
+<details><summary>全部写法</summary>
+
+- 3x :: Trace Selector (Trace ID) - If the selected Data Display Panel has multiple traces (overlaid waveforms), you need to specify on which trace the markers are placed.
+- 2x :: Trace Selector (Trace ID) - If the selected Data Display Panel has multiple traces (overlaid waveforms), you need to specify on which trace the slope marker is placed.
+- 1x :: If the selected Data Display Panel has multiple traces (overlaid waveforms), you must specify on which trace the slope marker is placed.
+- 1x :: If the selected Data Display Panel has multiple traces (overlaid waveforms), you must specify on which trace the markers are placed.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.02.08_Markers.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.02.09_Slope_Marker.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.04_Tool_Bars.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.03.01.03_Marker_Toolbar.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.04.01.05_Marker_Properties.md`
+
+## 99. 5 篇 / 6 句 / 1 种写法
+
+> The programmable range is 0.0 鈥?nbsp;1.0 V for the force line and for the return line but, the total for the two lines must not exceed 1.0 V.
+
+出处（5）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.09_SPMU_PIN_TASK.forceDropMax.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.29_SPMU_PIN_TASK.returnDropMax.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md`
+
+## 100. 5 篇 / 6 句 / 4 种写法
+
+> To ensure that adjacent high voltage pins or traces have no effect on the "NC" pins, adequate measures like sufficient insulation space have to be respected.
+
+<details><summary>全部写法</summary>
+
+- 2x :: To ensure that adjacent high voltage pins or traces have no effect on the "NC" pins, adequate measures like sufficient insulation space have to be respected.
+- 2x :: To ensure that adjacent high voltage pins or traces have no effect on the DNC pins, adequate measures like sufficient insulation space have to be respected.
+- 1x :: To ensure that adjacent high voltage pins or traces have no effect on the DNC pins and Separation rows, adequate measures like sufficient insulation space have to be respected.
+- 1x :: To ensure that adjacent high voltage pins or traces have no effect the Separation rows, adequate measures like sufficient insulation space have to be respected.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01_AVI64_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.04_FVI16_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.05_PVI8_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.07_XPS256_pogo_pin_assignment.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.04_XPS256_pogo_pin_assignment.md`
+
+## 101. 5 篇 / 5 句 / 1 种写法
+
+> All tested sense connections must fail in this verification.
+
+出处（5）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.01_UHC4___UHC4T_recommendations_for_use.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.02.06_UHC4___UHC4T_recommendations_for_use.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.03.04_XPS256_Kelvin_test_unit.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.12_XPS256_programming_-_Kelvin_test___sense_connection_test.md`
+
+## 102. 5 篇 / 5 句 / 1 种写法
+
+> For differential pins, you only need to input the positive pins.
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.60_ERROR_COUNT_ACQUIRE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.03_JitterHistogram.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.04_JitterSeparation.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.05_JitterSeparationHS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.06_JitterStardust.md`
+
+## 103. 5 篇 / 5 句 / 1 种写法
+
+> If the STP contains multiple tests, test_source is required.
+
+出处（5）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.05_add_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.07_add_test_to_burst.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.10_replace_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.18_tpt_add_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.19_tpt_replace_test.md`
+
+## 104. 5 篇 / 5 句 / 2 种写法
+
+> If this license is not available ORE is disabled.
+
+<details><summary>全部写法</summary>
+
+- 4x :: If this license is not available ORE is disabled.
+- 1x :: If this license is not available, ORE is disabled.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.12.03_Test_program_requirements_for_offline_result_emulation.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.12.04.02_Activation_and_deactivation_of_the_offline_result_emulation.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.12.04.03_Activating_offline_result_emulation_in_the_testflow.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.12.05_Offline_result_emulation_setup_file.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.12_Offline_Result_Emulation.md`
+
+## 105. 5 篇 / 5 句 / 1 种写法
+
+> If you do not have any existing specification sets you must create one.
+
+出处（5）：
+
+- `01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.03.03_Creating_new_specification_sets.md`
+- `01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.04.04_Defining_the_spec_sets.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.04_Creating_new_specification_sets.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30.02.01_Creating_new_specification_sets.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.06.03_Defining_the_spec_sets.md`
+
+## 106. 5 篇 / 5 句 / 2 种写法
+
+> In a multi-port setup, every pin must belong to a port of the specified specification.
+
+<details><summary>全部写法</summary>
+
+- 3x :: In a multi-port setup, every pin must belong to a port of the specified specification.
+- 2x :: In a multiport setup, every pin must belong to a port of the specified specification.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md`
+- `02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md`
+
+## 107. 5 篇 / 5 句 / 2 种写法
+
+> In order for this API (or an API that internally executes the [FLUSH](<02.07.04.01.69_FLUSH.md>) API) to reflect the changes that are specified by ROUTING_STATUS/ANALOG_STATUS to an analog module hardware, the sequencers in all analog modules must be halted.
+
+<details><summary>全部写法</summary>
+
+- 3x :: In order for this API (or an API that internally executes the [FLUSH](<02.07.04.01.69_FLUSH.md>) API) to reflect the changes that are specified by ROUTING_STATUS/ANALOG_STATUS to an analog module hardware, the sequencers in all analog modules must be halted.
+- 2x :: In order for the DIGITAL_CAPTURE_TEST API (or an API that internally executes the FLUSH API) to reflect the changes that are specified by ROUTING_STATUS/ANALOG_STATUS to an analog module hardware, the sequencers in all analog modules must be halted.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.135_NB_DIGITAL_CAPTURE_START.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.235_START_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.35_DIGITAL_CAPTURE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.65_EXECUTE_TEST.md`
+- `03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.03.04.03.01_Important_Points_About_the_DIGITAL_CAPTURE_TEST_API.md`
+
+## 108. 5 篇 / 5 句 / 3 种写法
+
+> In order to achieve a higher output current, parallel connection of multiple XPS256 channels is supported.
+
+<details><summary>全部写法</summary>
+
+- 3x :: In order to achieve a higher output current, parallel connection of multiple XPS256 channels is supported.
+- 1x :: In order to achieve a higher output current, parallel connection of multiple FVI16 channels is supported.
+- 1x :: In order to achieve a higher output current, parallel connection of multiple PVI8 channels is supported.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.04.04_FVI16_ganged_wiring.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.05.06_PVI8_ganged_wiring_and_ganging_control_pogo_pins.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07.05_XPS256_ganged_wiring.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.08_XPS256_ganged.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.10_XPS256_programming_-_Ganging.md`
+
+## 109. 5 篇 / 5 句 / 1 种写法
+
+> In the case that size is not power of two, the Xpress data mode must be enabled in order to process the elements.
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.105_DSP_THD.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.34_DSP_FFT.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.95_DSP_SND.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.96_DSP_SNR.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.99_DSP_SPECTRUM.md`
+
+## 110. 5 篇 / 5 句 / 5 种写法
+
+> It is not possible to use the add_test_to_burst command to merge tests with the MTP that use PRBS (pseudo-random bit sequences).
+
+<details><summary>全部写法</summary>
+
+- 1x :: It is not possible to use the add_test_to_burst command to merge tests with the MTP that use PRBS (pseudo-random bit sequences).
+- 1x :: It is not possible to use the tpt_replace_test command to merge tests with the MTP that use PRBS (pseudo-random bit sequences).
+- 1x :: It is not possible to use the replace_test command to merge tests with the MTP that use PRBS (pseudo-random bit sequences).
+- 1x :: It is not possible to use the tpt_add_test command to merge tests with the MTP that use PRBS (pseudo-random bit sequences).
+- 1x :: It is not possible to use the add_test command to merge tests with the MTP that use PRBS (pseudo-random bit sequences).
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.05_add_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.07_add_test_to_burst.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.10_replace_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.18_tpt_add_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.19_tpt_replace_test.md`
+
+## 111. 5 篇 / 5 句 / 2 种写法
+
+> It must be a decimal integer that corresponds to the desired bit pattern.
+
+<details><summary>全部写法</summary>
+
+- 3x :: It must be a decimal integer that corresponds to the desired bit pattern.
+- 2x :: pattern must be a decimal integer that corresponds to the desired bit pattern.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.109_DSP_XOR_SCL.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.10_DSP_AND_SCL.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.56_DSP_OR_SCL.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.86_DSP_SEARCH_PARA.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.87_DSP_SEARCH_SERI.md`
+
+## 112. 5 篇 / 5 句 / 1 种写法
+
+> Member variables of the test method class that are used in a background process must not be changed while the background process is running.
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.01_SMC_ARM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.02_SMC_ARM_FOR_SITES.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.03_SMC_ARM_OTHER_TS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.04_SMC_ARM_OTHER_TS_FOR_SITES.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.10.05_SmartCalc_recommendations.md`
+
+## 113. 5 篇 / 5 句 / 1 种写法
+
+> Note Note that in some use cases you must program additional wait time, as the SmartRDI settling time is shorter than the hardware requirement.
+
+出处（5）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.01.07.08_PS1600_MSET_timing.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.02_Timing_of_DC_events_-_DPS128___DPS64.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.01.01_Timing_of_DC_events_-_XPS256.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01.02_Timing_of_DC_events_-_XPS256.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01.03_Timing_of_DC_events_-_DPS128___DPS64.md`
+
+## 114. 5 篇 / 5 句 / 1 种写法
+
+> Note: UP5V pins of different card cages or Utility Cards must not be connected together on the DUT board.
+
+出处（5）：
+
+- `02_System_reference/02.02_Specifications/02.02.01.05.01_Internal_utility_resources.md`
+- `02_System_reference/02.02_Specifications/02.02.01.05.02_Utility_Card__EK051_and_EK051A.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.05.01_Utility_power_supply_-_UP5V_pins__V93000_EXA_Scale_systems.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.08.03.02_Internal_utility_power_supplies.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.08.04.02.02_Utility_power_supply_-_UP5V_pins__V93000_EXA_Scale_systems.md`
+
+## 115. 5 篇 / 5 句 / 1 种写法
+
+> SmarTest is the V93000 system software required to operate the V93000 family of semiconductor test systems.
+
+出处（5）：
+
+- `02_System_reference/02.01_Release_Information/02.01.04_Release_Notes.md`
+- `02_System_reference/02.01_Release_Information/02.01.05_Workstation_Platform_Description_RHEL_7.4.md`
+- `99_Unlisted_or_Unreferenced/99.0203_V93000_SOC_7.10.0.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0204_V93000_SOC_7.10.1.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0205_V93000_SOC_7.10.2.0T_Release_Notes.md`
+
+## 116. 5 篇 / 5 句 / 1 种写法
+
+> The member of pin list needs to be O or IO digital pins or pin groups, which are delimited by commas.
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.60_ERROR_COUNT_ACQUIRE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.03_JitterHistogram.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.04_JitterSeparation.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.05_JitterSeparationHS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.05.01.06_JitterStardust.md`
+
+## 117. 5 篇 / 5 句 / 1 种写法
+
+> The name is required to refer to the corresponding offline measurement result specified in the setup file.
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.157_PPMU_MEASURE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.50_DPS_TASK.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.12.06.02.01.01_Offline_result_emulation_for_Class_DPS_TASK.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.12.06.02.01.02_Offline_result_emulation_for_Class_PPMU_MEASURE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.12.06.02.01.03_Offline_result_emulation_for_Class_SPMU_TASK.md`
+
+## 118. 5 篇 / 5 句 / 2 种写法
+
+> The number must not exceed the maximum number allowed (as defined by the DSCP (Define System Control Parameter) command).
+
+<details><summary>全部写法</summary>
+
+- 3x :: The number must not exceed the maximum number allowed (as defined by the DSCP (Define System Control Parameter) command).
+- 2x :: The number must not exceed the maximum number allowed (as defined by the DSCP (Define System Control Parameter) command.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md`
+
+## 119. 5 篇 / 5 句 / 1 种写法
+
+> The number of timing sets must be equal to or greater than the number of waveform sets, as there must be at least one timing set per waveform set.
+
+出处（5）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md`
+
+## 120. 5 篇 / 5 句 / 2 种写法
+
+> The value of the parameter "LEVEL_TYPE" can only be "CUSTOM_LEVEL", "WAFER_LEVEL" and "DEVICE_LEVEL".
+
+<details><summary>全部写法</summary>
+
+- 4x :: The value of the parameter "LEVEL_TYPE" can only be "CUSTOM_LEVEL", "WAFER_LEVEL" and "DEVICE_LEVEL".
+- 1x :: The value of the parameter "LEVEL_TYPE" can only be CUSTOM_LEVEL, WAFER_LEVEL and DEVICE_LEVEL.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.28_IssueHVMExecutionEvent.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.29_IssueEDLEvent.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.11.03.02.01_StartLevel.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.11.03.08.01_IssueEDLEvent.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.11.03.11.01_IssueHVMExecutionEvent.md`
+
+## 121. 5 篇 / 5 句 / 1 种写法
+
+> Therefore, you have to reload the device setup after changing parameters using the DSCP command.
+
+出处（5）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md`
+
+## 122. 5 篇 / 5 句 / 1 种写法
+
+> This function can be only used in the [code鈥慴ased mode](<02.07.13_SmartRDI.md#_142069__dle_Code-based_mode>).
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.09_forceDropWarn.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.10_hiAccuracy.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.13_iClampTimeToAlarm.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.14_iClampTimeToDisconnect.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.37_returnDropWarn.md`
+
+## 123. 5 篇 / 5 句 / 1 种写法
+
+> This is not supported for DC Scale cards, use [DPS_TASK](<../../02_System_reference/02.07_Test_Method_Reference/02.07.04.01.50_DPS_TASK.md>) instead
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.03.13.01_Parallel_Execution.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.03.13.02_Measurement_Data_Management.md`
+- `03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.03.01.01_Multisite_Programming_Techniques.md`
+- `03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.04.02_Parallel_Execution.md`
+- `03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.04.05_Measurement_Data_Management.md`
+
+## 124. 5 篇 / 5 句 / 2 种写法
+
+> This stream of characters must be terminated with a @ character.
+
+<details><summary>全部写法</summary>
+
+- 4x :: This stream of characters must be terminated with a @ character.
+- 1x :: This stream of characters must be terminated with the @ character.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md`
+
+## 125. 5 篇 / 5 句 / 2 种写法
+
+> To be compatible with STDF, the number must be between 0 and 32767.
+
+<details><summary>全部写法</summary>
+
+- 4x :: To be compatible with STDF, the number must be between 0 and 32767.
+- 1x :: To be compatible with STDF, the number must be an integer between 0 and 32767.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.212_SET_MULTIBIN.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.04_Bins_page.md`
+- `99_Unlisted_or_Unreferenced/99.0044_Searching_for_a_bin_node.md`
+- `99_Unlisted_or_Unreferenced/99.0049_Adding_bins.md`
+- `99_Unlisted_or_Unreferenced/99.0059_Inserting_a_good_or_bad_Bin.md`
+
+## 126. 5 篇 / 5 句 / 2 种写法
+
+> Transferring the averaged values to the test processor memory is supported for a sample frequency of maximum 1.5 MHz.
+
+<details><summary>全部写法</summary>
+
+- 4x :: Transferring the averaged values to the test processor memory is supported for a sample frequency of maximum 1.5 MHz.
+- 1x :: Transferring the averaged values to the test processor memory is supported for a sample frequency of maximum 1.5 MHz.[2)](<>) 1.5 MHz is the maximum programmable sample frequency.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.03.03_XPS256_digitizer__DGT.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.06.02_XPS256_measure_voltages.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.07.02_XPS256_measure_currents.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.13_XPS256_programming_-_Measure_currents.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.19_XPS256_programming_-_Voltage_drop_measurement.md`
+
+## 127. 5 篇 / 5 句 / 1 种写法
+
+> You must restart SmarTest in order that this EDITOR variable takes effect.
+
+出处（5）：
+
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.02.10_Data_Display_Panel_Shortcut_Menus.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.03_User_Defined_Panel.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.04_Tool_Bars.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.03.01.05_User_Defined_Function_Toolbar.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.05.01.06_Point-by-Point.md`
+
+## 128. 5 篇 / 5 句 / 1 种写法
+
+> You need to have a login to the Advantest License Portal.
+
+出处（5）：
+
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.05.01.01_Activating_system_licenses.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.05.01.02_Activating_licenses_advanced.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.10.01_Activating_licenses.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.10.02_Activating_licenses_advanced.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.11_Downloading_licenses.md`
+
+## 129. 5 篇 / 5 句 / 2 种写法
+
+> Z620 (32GB RAM) may not be sufficient for larger devices / complex test programs with more than 1500 test suites.
+
+<details><summary>全部写法</summary>
+
+- 4x :: Z620 (32GB RAM) may not be sufficient for larger devices / complex test programs with more than 1500 test suites.
+- 1x :: Z620 (32GB RAM) may not be sufficient for very large devices / complex test programs with more than 1500 test suites.
+
+</details>
+
+出处（5）：
+
+- `02_System_reference/02.01_Release_Information/02.01.04_Release_Notes.md`
+- `02_System_reference/02.01_Release_Information/02.01.05_Workstation_Platform_Description_RHEL_7.4.md`
+- `99_Unlisted_or_Unreferenced/99.0203_V93000_SOC_7.10.0.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0204_V93000_SOC_7.10.1.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0205_V93000_SOC_7.10.2.0T_Release_Notes.md`
+
+## 130. 5 篇 / 5 句 / 1 种写法
+
+> [Hidden uploads](<02.07.10.04.05_Hidden_upload.md>), controlled and started by [SMC_ARM()](<02.07.04.01.231.01_SMC_ARM.md>) must be finished before a [Mode context](<../02.06_Command_Reference/02.06.03.01.03_Configuring_pin_type_and_operating_mode_for_a_context.md>) is changed.
+
+出处（5）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.01_SMC_ARM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.02_SMC_ARM_FOR_SITES.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.03_SMC_ARM_OTHER_TS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.04_SMC_ARM_OTHER_TS_FOR_SITES.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.10.04.05_Hidden_upload.md`
+
+## 131. 5 篇 / 5 句 / 1 种写法
+
+> pinlist must only contain pins configured as outputs.
+
+出处（5）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md`
+
+## 132. 4 篇 / 8 句 / 1 种写法
+
+> This mode is only supported for compatibility reasons.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md`
+
+## 133. 4 篇 / 6 句 / 1 种写法
+
+> In order to save your work you must first download the changed data, and then save them from the Test Program Explorer.
+
+出处（4）：
+
+- `01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.03.02_How_to_create_an_equation_set_using_the_Equation_editor.md`
+- `01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.03_Setting_up_your_levels.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.01_Setting_up_your_levels.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.03_How_to_create_an_equation_set_using_the_Equation_editor.md`
+
+## 134. 4 篇 / 6 句 / 3 种写法
+
+> The instruction of the construct must be GENV (GENerate Vectors), RPTV (RePeaT Vectors), or MRPT (Match RePeaT).
+
+<details><summary>全部写法</summary>
+
+- 2x :: The instruction of the construct must be GENV (GENerate Vectors), RPTV (RePeaT Vectors), or MRPT (Match RePeaT).
+- 2x :: The instruction of the construct must be GENV, RPTV, or MRPT.
+- 2x :: The instruction of the construct must be GENV (GENerate Vectors) or RPTV (RePeaT Vectors)
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md`
+
+## 135. 4 篇 / 6 句 / 1 种写法
+
+> The list must be enclosed in square brackets..
+
+出处（4）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.05_add_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.23_extract_subflow.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.24_merge_subflow.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.25_remove_subflow.md`
+
+## 136. 4 篇 / 6 句 / 2 种写法
+
+> The specified number range must not exceed the maximum vector address allowed by the system.
+
+<details><summary>全部写法</summary>
+
+- 2x :: The specified number range must not exceed the maximum vector address allowed by the system.
+- 2x :: The specified address must not exceed the maximum vector address allowed by the system.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md`
+
+## 137. 4 篇 / 5 句 / 3 种写法
+
+> Therefore the device license file must contain only license relevant entries.
+
+<details><summary>全部写法</summary>
+
+- 3x :: Therefore the device license file must contain only license relevant entries.
+- 1x :: Parameters may vary, as the device license file must contain only license relevant entries.
+- 1x :: CAUTION The device license file must contain only license relevant entries.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03_Model_file_sections.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.01_The_model_file.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.05.06.02_Device_license_file_syntax.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.05.06_The_device_license_file.md`
+
+## 138. 4 篇 / 5 句 / 1 种写法
+
+> This option can be used in a production environment if the result data is recorded in acquire failure mode, since if any data is recorded with this recording mode, the device must in fact have failed.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.233_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.01.02.01.05_Dealing_with_storage_problems_on_Smart_Scale_systems.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.32_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.191_RESULT_CONFIGURATION.md`
+
+## 139. 4 篇 / 4 句 / 2 种写法
+
+> (Not useful for SRM driver plug-in right now) The default value is 100 ms, only used if waiting for parts is done by polling.
+
+<details><summary>全部写法</summary>
+
+- 3x :: (Not useful for SRM driver plug-in right now) The default value is 100 ms, only used if waiting for parts is done by polling.
+- 1x :: The default value is 200 ms, only used if waiting for parts is done by polling.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.06.01_GPIB_driver_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.14.01_GPIB_driver_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.16.01_GPIB_driver_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.17.02_GPIB_driver_configurations.md`
+
+## 140. 4 篇 / 4 句 / 1 种写法
+
+> - (Set PRiMary sets)](<../02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md>) prior to running your test, otherwise device cycle reconstruction is not possible.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+
+## 141. 4 篇 / 4 句 / 1 种写法
+
+> A WSRF DUT board cannot be docked on a test head with installed MUX cards.
+
+出处（4）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.04.04_MUX_cards_design_data.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.11_MUX_cards_design_data.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.23_Wave_Scale_RF_PCB_layout_and_stiffener_info_for_Direct-Probe.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.24_Wave_Scale_RF_PCB_layout_and_stiffener_info_for_final_test.md`
+
+## 142. 4 篇 / 4 句 / 1 种写法
+
+> All bit positions of the status flags that should be checked, must be set to 1 in mask.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md`
+
+## 143. 4 篇 / 4 句 / 1 种写法
+
+> All users working with SmarTest must grant read and write permission to each other!
+
+出处（4）：
+
+- `02_System_reference/02.01_Release_Information/02.01.04_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0203_V93000_SOC_7.10.0.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0204_V93000_SOC_7.10.1.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0205_V93000_SOC_7.10.2.0T_Release_Notes.md`
+
+## 144. 4 篇 / 4 句 / 1 种写法
+
+> An equation variable cannot be specified in the command or in a query which uses the extra parameter.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+
+## 145. 4 篇 / 4 句 / 1 种写法
+
+> Before cross-card ganging can be used, the connection must be enabled by command [DDIC](<02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>).
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md`
+
+## 146. 4 篇 / 4 句 / 2 种写法
+
+> But as the timing search is done locally in the test processor (TP), setup and result pins must belong to the same TP.
+
+<details><summary>全部写法</summary>
+
+- 2x :: But as the timing search is done locally in the test processor (TP), setup and result pins must belong to the same TP.
+- 2x :: Note As the timing search is done locally in the test processor (TP), setup and result channel must belong to the same TP.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03.03_PS1600_embedded_timing_search.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.02.03.02_Pin_Scale_5000_embedded_timing_search.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.03.03.08.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md`
+
+## 147. 4 篇 / 4 句 / 1 种写法
+
+> CAUTION You must not change or reload a TMLimits table while an SMC background process is armed or running.
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.250_TMLimits.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.10.04.09_Hidden_data_logging.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.10.05_SmartCalc_recommendations.md`
+- `03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.05.05_Hidden_data_logging.md`
+
+## 148. 4 篇 / 4 句 / 2 种写法
+
+> CAUTION You must turn off site matching (see [Controlling the site match function](<../02.06_Command_Reference/02.06.03.01.10.04_Controlling_the_site_match_function.md>)) when sharing BADC(s) over sites, to ensure proper pattern-controlled DC value measurements with the BADC.
+
+<details><summary>全部写法</summary>
+
+- 3x :: CAUTION You must turn off site matching (see [Controlling the site match function](<../02.06_Command_Reference/02.06.03.01.10.04_Controlling_the_site_match_function.md>)) when sharing BADC(s) over sites, to ensure proper pattern-controlled DC value measurements with the BADC.
+- 1x :: CAUTION You must turn off site matching when sharing BADCs over sites, to ensure proper pattern-controlled DC value measurements with the BADCs.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.03.01.10.04_Controlling_the_site_match_function.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08_BADC_MEASURE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.153.01_PPMU_BADC_PIN_MEASURE.md`
+
+## 149. 4 篇 / 4 句 / 2 种写法
+
+> CPYV can only be issued after the label to which the sequencer construct belongs has been activated for editing with the TSTL command.
+
+<details><summary>全部写法</summary>
+
+- 2x :: CPYV can only be issued after the label to which the sequencer construct belongs has been activated for editing with the TSTL command.
+- 2x :: DELV can only be issued after the label to which the sequencer construct belongs has been activated for editing with the TSTL command.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md`
+
+## 150. 4 篇 / 4 句 / 1 种写法
+
+> Changes cannot be made on FlexNet Publisher license servers.
+
+出处（4）：
+
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.05.01.01_Activating_system_licenses.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.05.01.02_Activating_licenses_advanced.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.10.01_Activating_licenses.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.10.02_Activating_licenses_advanced.md`
+
+## 151. 4 篇 / 4 句 / 1 种写法
+
+> Currently, the only supported result type is PERIOD.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md`
+- `02_System_reference/02.06_Command_Reference/02.06.13.02.08_TSRC__-__Time_Stamping_Results_Computed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md`
+
+## 152. 4 篇 / 4 句 / 1 种写法
+
+> DPS128/DPS64 channels must be of the same type (HC or HV).
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`
+- `02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.03.01_DC_Scale_pin__DPS_mode__setup.md`
+
+## 153. 4 篇 / 4 句 / 2 种写法
+
+> Every row must be terminated with a semicolon.
+
+<details><summary>全部写法</summary>
+
+- 2x :: Every row must be terminated with a semicolon.
+- 2x :: Every row must be terminated by a semicolon.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.02.01.01_The_PATTERNS_Section.md`
+- `02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.03.01.05_The_AI_DIGCAP_SETTINGS_section.md`
+- `02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.03.02.02_Defining_ASCII_Vectors.md`
+- `02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.03.02.06_Supplying_Values_for_Inactive_Pins__The_DEFAULT_STATE_Statement.md`
+
+## 154. 4 篇 / 4 句 / 4 种写法
+
+> Firstly, you need to define a timing spec to control the right neighbor drive edge of the measured edge.
+
+<details><summary>全部写法</summary>
+
+- 1x :: Firstly, you need to define a timing spec to control the right neighbor drive edge of the measured edge.
+- 1x :: Firstly, you need to define a timing spec to control the right neighbor edge (shifted edge) of the measured edge.
+- 1x :: Firstly, you need to define a timing spec to control the measured receive edge.
+- 1x :: Firstly, you need to define a timing spec to control the measured edge.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.02.06.01.01.04_Setup_Time_conversion.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.02.06.01.01.05_Hold_Time_test_function_conversion.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.02.06.01.01.06_Propagation_Delay_conversion.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.02.06.01.01.07_Output_Data_Hold_Time_conversion.md`
+
+## 155. 4 篇 / 4 句 / 1 种写法
+
+> Flexible ganging across XPS256 cards is supported for up to 4096 channels.
+
+出处（4）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.07.01.03_Connecting_DPS_channels_in_parallel.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07.05_XPS256_ganged_wiring.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.08_XPS256_ganged.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.10_XPS256_programming_-_Ganging.md`
+
+## 156. 4 篇 / 4 句 / 2 种写法
+
+> For applications that need remote sensing and high-speed digital I/O capability on the same DUT pin, relays can be required to disconnect the sense line.
+
+<details><summary>全部写法</summary>
+
+- 3x :: For applications that need remote sensing and high-speed digital I/O capability on the same DUT pin, relays can be required to disconnect the sense line.
+- 1x :: For applications that need remote sensing and high-speed digital I/O capability on the same DUT pin, relays can be required to disconnect the sense trace.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.05_PS5000_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.03.01.03_PS5000_remote_sensing.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.03.01_Pin_Scale_5000_card.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.02.06_Pin_Scale_5000_pogo_pin_assignment.md`
+
+## 157. 4 篇 / 4 句 / 1 种写法
+
+> For example, if the largest vector update operation is 128 bytes, and a device is configured with 100 digital and DPS channels for each of 16 sites (a total of 1600 channels), the fast_transfer_buffer_size must be at least 128 x 1600 = 204800 bytes.
+
+出处（4）：
+
+- `01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.270_VEC_TRANSFER_TASK.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.03_Technology_file_for_a_device.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15.03_Technology_file_for_a_device.md`
+
+## 158. 4 篇 / 4 句 / 1 种写法
+
+> For this kind of passing data to the background process, you have to be aware of
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.01_SMC_ARM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.02_SMC_ARM_FOR_SITES.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.03_SMC_ARM_OTHER_TS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.04_SMC_ARM_OTHER_TS_FOR_SITES.md`
+
+## 159. 4 篇 / 4 句 / 1 种写法
+
+> If a SmarTest installation is used (= started) by more than one user-account, the following rule must be strictly applied:
+
+出处（4）：
+
+- `02_System_reference/02.01_Release_Information/02.01.04_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0203_V93000_SOC_7.10.0.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0204_V93000_SOC_7.10.1.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0205_V93000_SOC_7.10.2.0T_Release_Notes.md`
+
+## 160. 4 篇 / 4 句 / 1 种写法
+
+> If a port is specified (which is required for a 7.x setup), the address refers to the specific vector area of this port.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md`
+
+## 161. 4 篇 / 4 句 / 2 种写法
+
+> If a state characters is used which cannot be converted to integer, an error is issued.
+
+<details><summary>全部写法</summary>
+
+- 3x :: If a state characters is used which cannot be converted to integer, an error is issued.
+- 1x :: If a state characters is used that cannot be converted to integer, an error is issued.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.11.01.11.02.03_Bitwise_AND.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.11.01.11.02.04_Bitwise_inclusive_OR.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.11.01.11.02.05_Bitwise_exclusive_OR__XOR.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.11.01.11.03.08_shift.md`
+
+## 162. 4 篇 / 4 句 / 1 种写法
+
+> If cycles contain inconsistent data and cannot be reconstructed, no data is returned for the affected cycles.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md`
+
+## 163. 4 篇 / 4 句 / 1 种写法
+
+> If no port is specified (which is only allowed for older setups), it refers to the one global vector area.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md`
+
+## 164. 4 篇 / 4 句 / 2 种写法
+
+> If parameter mask is ALL, you need to translate the hex value (hexadecimal representation of the status bits) to its binary form as follows:
+
+<details><summary>全部写法</summary>
+
+- 2x :: If parameter mask is ALL, you need to translate the hex value (hexadecimal representation of the status bits) to its binary form as follows:
+- 2x :: If mask is ALL, you need to translate the hex value (hexadecimal representation of the status bits) to its binary form as follows:
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md`
+
+## 165. 4 篇 / 4 句 / 1 种写法
+
+> If reconstruction is not possible (code 110 on bits 2, 1, 0), there has been more than one edge or window compare within a single test system cycle.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md`
+
+## 166. 4 篇 / 4 句 / 2 种写法
+
+> If the list contains more than one element, the element names must be separated with a comma.
+
+<details><summary>全部写法</summary>
+
+- 3x :: If the list contains more than one element, the element names must be separated with a comma.
+- 1x :: If the list contains more than one element, the names must be separated with a comma.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.94_DVVA__DVVA__-__Define_Vector_VAriable.md`
+- `02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.03.01.05_The_AI_DIGCAP_SETTINGS_section.md`
+
+## 167. 4 篇 / 4 句 / 1 种写法
+
+> If the mode parameter is set to STSV, three cases must be distinguished:
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md`
+
+## 168. 4 篇 / 4 句 / 1 种写法
+
+> If the setnr parameter is not specified, you must specify the range with a value.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md`
+
+## 169. 4 篇 / 4 句 / 1 种写法
+
+> If the vector setup is in 7.x format, where the vector areas are port specific, you must specify a port in the command.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md`
+
+## 170. 4 篇 / 4 句 / 1 种写法
+
+> If this is not possible, a new timing is created.
+
+出处（4）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.05_add_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.10_replace_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.18_tpt_add_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.19_tpt_replace_test.md`
+
+## 171. 4 篇 / 4 句 / 1 种写法
+
+> If this is not possible, new levels are created.
+
+出处（4）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.05_add_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.10_replace_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.18_tpt_add_test.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.02.03.19_tpt_replace_test.md`
+
+## 172. 4 篇 / 4 句 / 3 种写法
+
+> If you attempt to execute a test containing digital capturing with the EXECUTE_TEST or START_TEST API, the test cannot be done.
+
+<details><summary>全部写法</summary>
+
+- 2x :: If you attempt to execute a test containing digital capturing with the EXECUTE_TEST or START_TEST API, the test cannot be done.
+- 1x :: If you attempt to execute the test containing the digital capturing with the normal START_TEST API, the test cannot be done.
+- 1x :: If you attempt to execute a test containing digital capturing by the EXECUTE_TEST API, the test cannot be done.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.03.03.04_Executing_an_AC_Test.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.235_START_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.35_DIGITAL_CAPTURE_TEST.md`
+- `03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.03.04.03.01_Important_Points_About_the_DIGITAL_CAPTURE_TEST_API.md`
+
+## 173. 4 篇 / 4 句 / 1 种写法
+
+> If you specify a physical edge, the dev_cyc_name and the dc_ref parameters must be omitted.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.11_EDDC__-__EDge_in_Device_Cycle.md`
+
+## 174. 4 篇 / 4 句 / 1 种写法
+
+> If you still need to activate further licenses on the same license server, download the license file after completing all activations.
+
+出处（4）：
+
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.05.01.01_Activating_system_licenses.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.05.01.02_Activating_licenses_advanced.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.10.01_Activating_licenses.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.10.02_Activating_licenses_advanced.md`
+
+## 175. 4 篇 / 4 句 / 1 种写法
+
+> If you use TMLimits within the SMC framework together with background processing (as described in [Four-step SmartCalc implementation](<../../02_System_reference/02.07_Test_Method_Reference/02.07.10.04.03_Four-step_SmartCalc_implementation.md>)), the following rules must be observed:
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.250_TMLimits.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.10.04.09_Hidden_data_logging.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.10.05_SmartCalc_recommendations.md`
+- `03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.05.05_Hidden_data_logging.md`
+
+## 176. 4 篇 / 4 句 / 1 种写法
+
+> If you use the option @port`[`@UNCHANGED`]`, (see the port parameter), you must include this extension in the double quotes, too.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.30_STRS__-__Spec_TRansition_Search.md`
+
+## 177. 4 篇 / 4 句 / 1 种写法
+
+> If you want to have complete control over the clock resolution, you must specify a period resolution not greater than `2 * minimal_clock_resolution` manually (with the period_res keyword).
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md`
+
+## 178. 4 篇 / 4 句 / 1 种写法
+
+> In an equation based timing or level setup, you must identify a spec set ID, level set ID and DPS set ID instead of waveform set number, level set number and DPS set number.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md`
+
+## 179. 4 篇 / 4 句 / 2 种写法
+
+> In case (a), the list items must be separated by a comma, and the maximum number of items is 3072.
+
+<details><summary>全部写法</summary>
+
+- 2x :: In case (a), the list items must be separated by a comma, and the maximum number of items is 3072.
+- 2x :: In case (a), the list items must be separated by a comma, and the maximum number of items is 512.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md`
+
+## 180. 4 篇 / 4 句 / 1 种写法
+
+> In mixed signal system-on-a-chip (SOC) testing, there are lots of needs to measure phase and frequency change of signals.
+
+出处（4）：
+
+- `03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.02.03_Frequency_Phase_Movement_Analysis_by_Orthogonal_Demodulation__Part_1__-.md`
+- `03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.02.04_Frequency_Phase_Movement_Analysis_by_Orthogonal_Demodulation__part_2__-.md`
+- `03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.02.05_Frequency_and_Phase_Movement_Analysis_by_Orthogonal_Demodulation_-_Part.md`
+- `03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.02.06_Frequency_Phase_Movement_Analysis_by_Orthogonal_Demodulation_-_Part_4__O.md`
+
+## 181. 4 篇 / 4 句 / 1 种写法
+
+> In order to run the tests successfully, a device must be used that doesn't change the location, and where per-pin programs are stored.
+
+出处（4）：
+
+- `02_System_reference/02.01_Release_Information/02.01.04_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0203_V93000_SOC_7.10.0.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0204_V93000_SOC_7.10.1.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0205_V93000_SOC_7.10.2.0T_Release_Notes.md`
+
+## 182. 4 篇 / 4 句 / 1 种写法
+
+> In such a case, no change to the model file is required when the E8024UHPS cable is used instead of the E8013UHP cable.
+
+出处（4）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.06.02_UHC4___UHC4T_pogo_cable_assembly__E8013UHP.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.06.03_UHC4___UHC4T_pogo_cable_assembly__E8024UHPS.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.06_UHC4___UHC4T_pogo_pin_assignment.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.02.07_UHC4T_pogo_pin_assignment.md`
+
+## 183. 4 篇 / 4 句 / 1 种写法
+
+> In the file /etc/sysconfig/network you must have one of the following entries:
+
+出处（4）：
+
+- `02_System_reference/02.01_Release_Information/02.01.04_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0203_V93000_SOC_7.10.0.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0204_V93000_SOC_7.10.1.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0205_V93000_SOC_7.10.2.0T_Release_Notes.md`
+
+## 184. 4 篇 / 4 句 / 1 种写法
+
+> In the latter case, the wavetable must use logical waveforms.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.12_EDSP__EDSP__-__EDge_SPecification.md`
+
+## 185. 4 篇 / 4 句 / 1 种写法
+
+> In this case, the equation_set_no parameter must be left empty.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.229_SPST__-__SPecset_STatus.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.29_SPST__-__SPecset_STatus.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.29_SPST__-__SPecset_STatus.md`
+
+## 186. 4 篇 / 4 句 / 1 种写法
+
+> It can be 1 (one global result), in which case you must specify the number of cycles, or 8 (one result for every edge), in which case you must specify `8 * number_of_cycles`.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md`
+- `02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md`
+
+## 187. 4 篇 / 4 句 / 2 种写法
+
+> It must be changed to correct value according to set up of handler.
+
+<details><summary>全部写法</summary>
+
+- 2x :: It must be changed to correct value according to set up of handler.
+- 2x :: Must be changed to correct value according to set up of handler.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.12.07.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.14.01_GPIB_driver_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.17.02_GPIB_driver_configurations.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.19.03.02_Default_GPIB_configuration.md`
+
+## 188. 4 篇 / 4 句 / 1 种写法
+
+> It returns an empty reply if the supplied description or number cannot be found.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.25_SDSC__-__Set_number_DeSCriptions.md`
+
+## 189. 4 篇 / 4 句 / 1 种写法
+
+> Loopback pins must belong to the same test processor (TP).
+
+出处（4）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.03_PS1600_pogo_pin_assignment.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.06_PS9G_pogo_cable_assembly__pogo_pin_layout_and_model_file_configuration.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03.06_PS1600_SmartLoop__loopback_testing.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.04.01.06_PS1600_pogo_pin_assignment.md`
+
+## 190. 4 篇 / 4 句 / 2 种写法
+
+> Make sue that you have installed the SmartInstall add-on required to install packages from the Software Center.
+
+<details><summary>全部写法</summary>
+
+- 3x :: Make sue that you have installed the SmartInstall add-on required to install packages from the Software Center.
+- 1x :: Make sure that you have installed the SmartInstall add-on required to install packages from the Software Center.
+
+</details>
+
+出处（4）：
+
+- `01_Getting_started/01.02_SmarTest_workstation_administration/01.02.01.02_Using_the_Advantest_Software_Center.md`
+- `01_Getting_started/01.02_SmarTest_workstation_administration/01.02.01.06_Searching_the_Software_Center.md`
+- `01_Getting_started/01.02_SmarTest_workstation_administration/01.02.01.07_Downloading_SmarTest_software.md`
+- `01_Getting_started/01.02_SmarTest_workstation_administration/01.02.01.08_Installing_software_products.md`
+
+## 191. 4 篇 / 4 句 / 1 种写法
+
+> No additional connections are required on the DUT board.
+
+出处（4）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.04.05_Sequencer-controlled_utility_lines.md`
+- `03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.05_Setting_up_sequencer_control_of_utility_lines.md`
+- `03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md`
+
+## 192. 4 篇 / 4 句 / 1 种写法
+
+> Not available on EXA Scale systems. No effect on functionality.
+
+出处（4）：
+
+- `02_System_reference/02.01_Release_Information/02.01.04_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0203_V93000_SOC_7.10.0.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0204_V93000_SOC_7.10.1.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0205_V93000_SOC_7.10.2.0T_Release_Notes.md`
+
+## 193. 4 篇 / 4 句 / 1 种写法
+
+> Note For a digital pin, all the parameters must be the same within one RDI_BEGIN() ...
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.01_rdi.tmu__.dataRate.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.04_rdi.tmu__.initDiscard.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.06_rdi.tmu__.interSkip.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.12_rdi.tmu__.preScaler.md`
+
+## 194. 4 篇 / 4 句 / 2 种写法
+
+> Note For supported DC Scale pins, the initDiscard(), interSkip(), preScaler(), and dataRate() settings must be the same within one RDI_BEGIN() ...
+
+<details><summary>全部写法</summary>
+
+- 2x :: Note For supported DC Scale pins, the initDiscard(), interSkip(), preScaler(), and dataRate() settings must be the same within one RDI_BEGIN() ...
+- 2x :: Note For supported DC Scale pins, the preScaler() and dataRate() settings must be the same within one RDI_BEGIN() ...
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.01_rdi.tmu__.dataRate.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.04_rdi.tmu__.initDiscard.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.06_rdi.tmu__.interSkip.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.12_rdi.tmu__.preScaler.md`
+
+## 195. 4 篇 / 4 句 / 1 种写法
+
+> Note If the FlexNet Embedded license server is not connected to the internet, you must download the license container file and upload it to the FlexNet Embedded license server.
+
+出处（4）：
+
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.05.01.01_Activating_system_licenses.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.05.01.02_Activating_licenses_advanced.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.10.01_Activating_licenses.md`
+- `02_System_reference/02.04_Model_File_and_Licensing/02.04.10.02_Activating_licenses_advanced.md`
+
+## 196. 4 篇 / 4 句 / 1 种写法
+
+> Note Retrieval of xMode results is supported if the xMode value is set accordingly with [xMode()](<02.07.13.16.12_xMode.md>).
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.04_failCyc.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.05_FFC.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.14_getFailCyc.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.16.15_getFFC.md`
+
+## 197. 4 篇 / 4 句 / 1 种写法
+
+> Note This API cannot be used with [Hidden data logging](<02.07.10.04.09_Hidden_data_logging.md>).
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.33_SMC_SET_HLM_FORMAT.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.34_SMC_SET_LLM_FORMAT.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.35_SMC_SET_RES_FORMAT.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.46_SMC_TEST_TEXT.md`
+
+## 198. 4 篇 / 4 句 / 1 种写法
+
+> Note This functionality is not supported for DC Scale pins.
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.252.02.01.21_TMU_PINS.setInitialDiscard.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.252.02.01.22_TMU_PINS.setInterSampleDiscard.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.04_rdi.tmu__.initDiscard.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.06_rdi.tmu__.interSkip.md`
+
+## 199. 4 篇 / 4 句 / 1 种写法
+
+> Note You must inherit this function when defining your own [SOURCESYNC_HANDLER](<02.12.06.27_SOURCESYNC_HANDLER.md>) class.
+
+出处（4）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.27.01_SOURCESYNC_HANDLER.OPERATION_PRE_ITERATE_EACH_CYCLE.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.27.02_SOURCESYNC_HANDLER.OPERATION_PRE_ITERATE_EACH_EDGE.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.27.03_SOURCESYNC_HANDLER.OPERATION_ITERATE_EACH_EDGE.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.27.04_SOURCESYNC_HANDLER.OPERATION_POST_ITERATE_EACH_EDGE.md`
+
+## 200. 4 篇 / 4 句 / 1 种写法
+
+> Note that P1 and P2 must belong to the same sequencing group.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md`
+
+## 201. 4 篇 / 4 句 / 1 种写法
+
+> Note that the STSV option cannot be used if no start label has been defined with SQSL, or if the start label is a burst or multi-port burst label.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md`
+
+## 202. 4 篇 / 4 句 / 1 种写法
+
+> Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+
+## 203. 4 篇 / 4 句 / 1 种写法
+
+> Preset to 100 ms, only used if waiting for parts is done by polling.
+
+出处（4）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.08.01.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.08.03.02_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.08.05.03_Default_GPIB_configuration.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.12.07.02_Default_GPIB_configuration.md`
+
+## 204. 4 篇 / 4 句 / 1 种写法
+
+> Resolvable hostname means that the IP your DNS server returns for the hostname must be identical to the IP of your workstation.
+
+出处（4）：
+
+- `02_System_reference/02.01_Release_Information/02.01.04_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0203_V93000_SOC_7.10.0.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0204_V93000_SOC_7.10.1.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0205_V93000_SOC_7.10.2.0T_Release_Notes.md`
+
+## 205. 4 篇 / 4 句 / 1 种写法
+
+> Selects the sequencer the API shall wait for completion.
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.08_SMC_DIGITAL_CAPTURE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.11_SMC_EXECUTE_TEST.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.26_SMC_NB_DIGITAL_CAPTURE_END.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.52_SMC_WAIT_TEST_DONE.md`
+
+## 206. 4 篇 / 4 句 / 1 种写法
+
+> SmarTest ensures that the defined voltage and current limits cannot be exceeded by programming higher or lower force or clamp values.
+
+出处（4）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.06.01_XPS256_force_and_clamp_voltages.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.07.01_XPS256_force_and_clamp_currents.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.08_XPS256_programming_-_Force_and_clamp_currents.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.09_XPS256_programming_-_Force_and_clamp_voltages.md`
+
+## 207. 4 篇 / 4 句 / 4 种写法
+
+> Some specific electrical design rules must be considered for the DC Scale XPS256 card to ensure that the specifications for the card and the maximum ratings for the pogo pins can be met.
+
+<details><summary>全部写法</summary>
+
+- 1x :: Some specific electrical design rules must be considered for the DC Scale XPS256 card to ensure that the specifications for the card and the maximum ratings for the pogo pins can be met.
+- 1x :: Some specific electrical design rules must be considered for the DC Scale AVI64 card to ensure that the specifications for the card and the maximum ratings for the pogo pins can be met.
+- 1x :: Some specific electrical design rules must be considered for the DC Scale FVI16 card to ensure that the specifications for the card and the maximum ratings for the pogo pins can be met.
+- 1x :: Some specific electrical design rules must be considered for the DC Scale PVI8 card to ensure that the specifications for the card and the maximum ratings for the pogo pins can be met.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01_DC_Scale_AVI64_card.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.04_DC_Scale_FVI16_card.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.05_DC_Scale_PVI8_card.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07_DC_Scale_XPS256_card.md`
+
+## 208. 4 篇 / 4 句 / 1 种写法
+
+> Specifies the name of a jitter set that must have been defined with JSDF.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.151_JSWF__-__Jitter_Set_WaveForm.md`
+- `02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md`
+
+## 209. 4 篇 / 4 句 / 1 种写法
+
+> Specifies the name of a transition test set that must have been defined with [TTDF](<02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>).
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.294_TTVD__-__Transition_Test_ValiDate.md`
+- `02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.15.03.10_TTVD__-__Transition_Test_ValiDate.md`
+
+## 210. 4 篇 / 4 句 / 3 种写法
+
+> Sub-die probing is not supported.
+
+<details><summary>全部写法</summary>
+
+- 2x :: Sub-die probing is not supported.
+- 1x :: Indicates if sub-die probing is supported.
+- 1x :: Sub-die probing is supported.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.02.01_The_configuration_for_probers.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.02.04.01.01_Restrictions.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.02.05.01_General_information_about_the_Electroglas_drivers.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.02.06.01_General_information_about_TSK_drivers.md`
+
+## 211. 4 篇 / 4 句 / 1 种写法
+
+> That means you have to set the site focus before you can execute the command.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.01.05_Site_dependent_firmware_commands.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.01_Site_dependent_firmware_commands.md`
+- `03_Use_cases_and_application_papers/03.04_How_to_do_disconnect/03.04.01.03.01_Effects_of_user-defined_disconnect_sequence.md`
+- `03_Use_cases_and_application_papers/03.04_How_to_do_disconnect/03.04.01.03_User-defined_disconnect_sequence.md`
+
+## 212. 4 篇 / 4 句 / 1 种写法
+
+> The bit fail maps must have been loaded, as described in [Loading bit fail maps into the BFM Viewer](<02.12.04.04.02.03_Loading_bit_fail_maps_into_the_BFM_Viewer.md>).
+
+出处（4）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.04.04.02.04.02_Creating_and_managing_detail_views.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.04.04.02.04.03_Specifying_an_analysis_area.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.04.04.02.04.04_Marking_and_unmarking_cells.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.04.04.02.04_Analyzing_bit_fail_maps.md`
+
+## 213. 4 篇 / 4 句 / 1 种写法
+
+> The file must be located in the configuration subdirectory of the current device directory.
+
+出处（4）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.07.09.07_ResetOverCurrentProtection_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.07.09.12_SharedLeakageParallel_syntax.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.07.09.14_SharedIDD_syntax.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.07.09.16_SharedVBump_syntax.md`
+
+## 214. 4 篇 / 4 句 / 1 种写法
+
+> The following table shows the execution time that consists of the settling time for the front end and the minimum number of vectors that are required:
+
+出处（4）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.02_Timing_of_DC_events_-_DPS128___DPS64.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.01.01_Timing_of_DC_events_-_XPS256.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01.02_Timing_of_DC_events_-_XPS256.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01.03_Timing_of_DC_events_-_DPS128___DPS64.md`
+
+## 215. 4 篇 / 4 句 / 1 种写法
+
+> The function must therefore be omitted or the programmed value must be set to 0.
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.252.02.01.21_TMU_PINS.setInitialDiscard.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.252.02.01.22_TMU_PINS.setInterSampleDiscard.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.04_rdi.tmu__.initDiscard.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.21.06_rdi.tmu__.interSkip.md`
+
+## 216. 4 篇 / 4 句 / 1 种写法
+
+> The hex value must be translated into binary form to interpret the status.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md`
+
+## 217. 4 篇 / 4 句 / 3 种写法
+
+> The member function must be called outside of the [ON_FIRST_INVOCATION](<02.07.04.01.138_ON_FIRST_INVOCATION_BEGIN.md>) block or within a FOR_EACH_SITE block.
+
+<details><summary>全部写法</summary>
+
+- 2x :: The member function must be called outside of the [ON_FIRST_INVOCATION](<02.07.04.01.138_ON_FIRST_INVOCATION_BEGIN.md>) block or within a FOR_EACH_SITE block.
+- 1x :: The member function must be called outside of the [ON_FIRST_INVOCATION](<02.07.04.01.138_ON_FIRST_INVOCATION_BEGIN.md>) block or within a [FOR_EACH_SITE...WITH_QUERY](<02.07.04.01.71_FOR_EACH_SITE_BEGIN_WITH_QUERY.md>) block.
+- 1x :: This member function must be called outside of the [ON_FIRST_INVOCATION](<02.07.04.01.138_ON_FIRST_INVOCATION_BEGIN.md>) block or within a [FOR_EACH_SITE](<02.07.04.01.70_FOR_EACH_SITE_BEGIN.md>) block.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.02_HW_STATE.checkKelvinStatus.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.04_HW_STATE.checkGangConnection.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117_HW_STATE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.07.02_DPS_AUX_TASK.getRangeError.md`
+
+## 218. 4 篇 / 4 句 / 1 种写法
+
+> The name can be up to 16 characters long and must not contain the characters: # ; ( ' ' ) ?
+
+出处（4）：
+
+- `99_Unlisted_or_Unreferenced/99.0012_Analog_pin_editor_reference.md`
+- `99_Unlisted_or_Unreferenced/99.0014_Digital_pin_editor_reference.md`
+- `99_Unlisted_or_Unreferenced/99.0015_DPS_pin_editor_reference.md`
+- `99_Unlisted_or_Unreferenced/99.0018_Utility_pin_editor_reference.md`
+
+## 219. 4 篇 / 4 句 / 1 种写法
+
+> The number must be between 1 (0 for ACQF) and 281,474,976,710,655 = 248 - 1 (248 - 2 for ACQF).
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md`
+
+## 220. 4 篇 / 4 句 / 1 种写法
+
+> The number of bytes required to store the specified number of results must be a multiple of 8.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md`
+- `02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md`
+- `02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md`
+
+## 221. 4 篇 / 4 句 / 1 种写法
+
+> The number you enter must also be less than or equal to the maximum number of waveform sets allowed - as defined by [CONF, CONF?
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md`
+
+## 222. 4 篇 / 4 句 / 1 种写法
+
+> The order of the timing sets must correspond to the order of the ports in the multi-port timing specification.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md`
+
+## 223. 4 篇 / 4 句 / 1 种写法
+
+> The primary jitter set (as defined with JSPR) must be associated with the same context as the other primary sets.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md`
+- `02_System_reference/02.06_Command_Reference/02.06.16.02.03_JSDF__JSDF__-__Jitter_Set_DeFinition.md`
+- `02_System_reference/02.06_Command_Reference/02.06.16.02.04_JSPR__JSPR__-__Jitter_Set_PRimary_set.md`
+
+## 224. 4 篇 / 4 句 / 2 种写法
+
+> The sequence of the pins must match the sequence of the sweep variables.
+
+<details><summary>全部写法</summary>
+
+- 2x :: The sequence of the pins must match the sequence of the sweep variables.
+- 2x :: The sequence of the pins must match the sequence of the variables.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.06.03.04_Parameters_for_the_DataTraining_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.06.04.02_Parameters_for_the_DataTrainingFlex_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.05.04.06.03.04_Parameters_for_the_DataTraining_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.05.04.06.04.02_Parameters_for_the_DataTrainingFlex_test_method.md`
+
+## 225. 4 篇 / 4 句 / 2 种写法
+
+> The sequence of the specification variables must match the sequence of the pins in the field SourceSyncPinGroups.
+
+<details><summary>全部写法</summary>
+
+- 2x :: The sequence of the specification variables must match the sequence of the pins in the field SourceSyncPinGroups.
+- 2x :: The sequence of the specification variables must match the sequence of the pins in the SourceSyncPinGroups field.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.06.03.04_Parameters_for_the_DataTraining_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.06.04.02_Parameters_for_the_DataTrainingFlex_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.05.04.06.03.04_Parameters_for_the_DataTraining_test_method.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.05.04.06.04.02_Parameters_for_the_DataTrainingFlex_test_method.md`
+
+## 226. 4 篇 / 4 句 / 1 种写法
+
+> The sequencer repeats the complete test, including primaries and multiport synchronization, in an endless loop and can only be stopped by Break.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md`
+
+## 227. 4 篇 / 4 句 / 1 种写法
+
+> The session ID of SmarTest is required to execute some API.
+
+出处（4）：
+
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.02.01_How_to_issue_a_command.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.02.02_How_to_issue_an_operation.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.02.03_How_to_issue_a_query.md`
+- `02_System_reference/02.09_Test_Program_Management/02.09.01.10.02.04_How_to_issue_a_notify.md`
+
+## 228. 4 篇 / 4 句 / 1 种写法
+
+> The setup for the utility lines is similar to the setup defined in Controlling utility lines but the definition of the control lines by keyword utilityControl is not required.
+
+出处（4）：
+
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md`
+- `02_System_reference/02.03_DUT_board_design_reference/02.03.04.05_Sequencer-controlled_utility_lines.md`
+- `03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.05_Setting_up_sequencer_control_of_utility_lines.md`
+- `03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md`
+
+## 229. 4 篇 / 4 句 / 1 种写法
+
+> The specified fast_transfer_buffer_size must be a multiple of 8192 bytes for SmarTest 7.4.1.0 and older versions.
+
+出处（4）：
+
+- `01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.270_VEC_TRANSFER_TASK.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.03_Technology_file_for_a_device.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15.03_Technology_file_for_a_device.md`
+
+## 230. 4 篇 / 4 句 / 1 种写法
+
+> The string must be enclosed with double quotes.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.27_CMNT__CMNT__-__CoMmeNT.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.05_CMNT__CMNT__-__CoMmeNT.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md`
+
+## 231. 4 篇 / 4 句 / 1 种写法
+
+> The termination modes NTMBB, NTBBM, and TERM are not supported by DC-Scale cards.
+
+出处（4）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.07_DPS128____PS64_in_PMU_operating_mode.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.05.02_XPS256_in_PMU_operating_mode.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.15_XPS256_programming_-_PMU_operating_mode.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.05.03_Relay_switching_in_PMU_operating_mode.md`
+
+## 232. 4 篇 / 4 句 / 1 种写法
+
+> The time between the measurement events of a digitizer wave that is defined by functions FS(), sampleCycle(), or samplePeriod() must always be larger than the time that is required for averaging.
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.11.04.01_average.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.11.04.03_FS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.11.04.04_sampleCycle.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.01_average.md`
+
+## 233. 4 篇 / 4 句 / 1 种写法
+
+> The value of the fast_transfer_buffer_size must greater than the largest used VTT (transfer) size multiplied by the number of configured (DPS and digital) channels.
+
+出处（4）：
+
+- `01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.270_VEC_TRANSFER_TASK.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.03_Technology_file_for_a_device.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15.03_Technology_file_for_a_device.md`
+
+## 234. 4 篇 / 4 句 / 2 种写法
+
+> The variable must have been previously declared as type DOUBLE, and the site must have been previously declared as type INT.
+
+<details><summary>全部写法</summary>
+
+- 2x :: The variable must have been previously declared as type DOUBLE, and the site must have been previously declared as type INT.
+- 2x :: The variable must have been previously declared as type STRING, and the site must have been previously declared as type INT.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.102_GET_USER_DOUBLE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.106_GET_USER_STRING.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.220_SET_USER_DOUBLE.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.222_SET_USER_STRING.md`
+
+## 235. 4 篇 / 4 句 / 1 种写法
+
+> This caching is not available on the firmware level.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+
+## 236. 4 篇 / 4 句 / 1 种写法
+
+> This command is only supported for compatibility reasons and should not be used in new applications.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md`
+
+## 237. 4 篇 / 4 句 / 1 种写法
+
+> This is the only possible value for multi-port specifications.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.25_SDSC__-__Set_number_DeSCriptions.md`
+
+## 238. 4 篇 / 4 句 / 1 种写法
+
+> This keyword is required at the start of the file.
+
+出处（4）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.02.01_APG_pattern_file_syntax.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04.01_Device_access_file_syntax.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.08.01_DC_event_file_syntax.md`
+
+## 239. 4 篇 / 4 句 / 1 种写法
+
+> This method must be defined as public method of your test method class.
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.01_SMC_ARM.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.02_SMC_ARM_FOR_SITES.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.03_SMC_ARM_OTHER_TS.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.04_SMC_ARM_OTHER_TS_FOR_SITES.md`
+
+## 240. 4 篇 / 4 句 / 2 种写法
+
+> This option is primarily intended for the reporting mode EOLY, where the size of the data that will be returned cannot be calculated beforehand.
+
+<details><summary>全部写法</summary>
+
+- 2x :: This option is primarily intended for the reporting mode EOLY, where the size of the data that will be returned cannot be calculated beforehand.
+- 2x :: This option can be used for the reporting mode EOLY, where the size of the data that will be returned cannot be calculated beforehand.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md`
+- `02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md`
+
+## 241. 4 篇 / 4 句 / 1 种写法
+
+> This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md`
+
+## 242. 4 篇 / 4 句 / 1 种写法
+
+> This parameter is required if the command is applied to a 7.x setup, where the STVA instructions are port specific (address specified in param_2).
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md`
+- `02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md`
+
+## 243. 4 篇 / 4 句 / 1 种写法
+
+> This parameter must be omitted if a multi-port specification is specified for the thirdparameter.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
+
+## 244. 4 篇 / 4 句 / 4 种写法
+
+> This task describes the modifications of the general parameters you need to carry out in your protocol file, for example d2sJTAG.h .
+
+<details><summary>全部写法</summary>
+
+- 1x :: This task describes the modifications of the general parameters you need to carry out in your protocol file, for example d2sJTAG.h .
+- 1x :: This task describes the modifications of the write parameters you need to carry out in your protocol file, for example d2sJTAG.h .
+- 1x :: This task describes the modifications of the read parameters you need to carry out in your protocol file, for example d2sJTAG.h .
+- 1x :: This task describes the modifications of the wait parameters you need to carry out in your protocol file, for example d2sJTAG.h .
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.07_Test_Method_Reference/02.07.09.04.03.01_Configuring_general_parameters.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.09.04.03.02_Configuring_write_parameters.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.09.04.03.03_Configuring_read_parameters.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.09.04.03.04_Configuring_wait_parameters.md`
+
+## 245. 4 篇 / 4 句 / 1 种写法
+
+> Vectors: The table shows the minimum number of vectors that are required between DC events or between the last DC event in a pattern and the end of the pattern in light blue, and the number of vectors automatically added by SmartRDI in dark blue.
+
+出处（4）：
+
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.02_Timing_of_DC_events_-_DPS128___DPS64.md`
+- `02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.01.01_Timing_of_DC_events_-_XPS256.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01.02_Timing_of_DC_events_-_XPS256.md`
+- `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01.03_Timing_of_DC_events_-_DPS128___DPS64.md`
+
+## 246. 4 篇 / 4 句 / 1 种写法
+
+> When a wavetable is combined with a timing set in a timing specification, both must specify the same value for this keyword.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.01_Defining_waveforms_for_a_protocol_engine_test.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.01_Defining_edge_delays_and_period_length_for_a_protocol_engine_test.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.01_Defining_waveforms_for_a_protocol_engine_test.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.01_Defining_edge_delays_and_period_length_for_a_protocol_engine_test.md`
+
+## 247. 4 篇 / 4 句 / 1 种写法
+
+> When installing third-party plug-ins, you must install plug-in versions that are compatible with SmarTest based on the current Eclipse (3.7.2 Indigo) and CDT plug-in (8.0.2) versions.
+
+出处（4）：
+
+- `01_Getting_started/01.03_Using_SmarTest/01.03.08.01_Installing_third-party_plug-ins_for_all_users.md`
+- `01_Getting_started/01.03_Using_SmarTest/01.03.08.02_Installing_third-party_plug-ins_for_a_single_user.md`
+- `01_Getting_started/01.03_Using_SmarTest/01.03.08.06_Support_for_third-party_plug-ins.md`
+- `01_Getting_started/01.03_Using_SmarTest/01.03.08_Using_the_third-party_plug-ins.md`
+
+## 248. 4 篇 / 4 句 / 2 种写法
+
+> When this parameter is specified, the corresponding set must already have been defined.
+
+<details><summary>全部写法</summary>
+
+- 2x :: When this parameter is specified, the corresponding set must already have been defined.
+- 2x :: When this parameter is specified the corresponding set must have already been defined.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`
+- `02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md`
+
+## 249. 4 篇 / 4 句 / 1 种写法
+
+> When you insert a flow control node, you must enter, or select, your desired parameters in the dialog window which appears.
+
+出处（4）：
+
+- `99_Unlisted_or_Unreferenced/99.0050_Inserting_a__For__flow_control_node.md`
+- `99_Unlisted_or_Unreferenced/99.0051_Inserting_an__If__flow_control_node.md`
+- `99_Unlisted_or_Unreferenced/99.0055_Inserting_a__Repeat__flow_control_node.md`
+- `99_Unlisted_or_Unreferenced/99.0060_Inserting_a__While__flow_control_node.md`
+
+## 250. 4 篇 / 4 句 / 4 种写法
+
+> You must invoke this member function ahead of any other functions when you create a test method with the SHARED_LEAKAGE_PARALLEL_TEST API.
+
+<details><summary>全部写法</summary>
+
+- 1x :: You must invoke this member function ahead of any other functions when you create a test method with the SHARED_LEAKAGE_PARALLEL_TEST API.
+- 1x :: You must invoke this member function ahead of any other functions when you create a test method with the SHARED_CONTINUITY_TEST API.
+- 1x :: You must invoke this member function ahead of any other functions when you create a test method with the SHARED_VBUMP_TEST API.
+- 1x :: You must invoke this member function ahead of any other functions when you create a test method with the SHARED_IDD_TEST API.
+
+</details>
+
+出处（4）：
+
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.21.01_SHARED_CONTINUITY_TEST.init.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.22.01_SHARED_IDD_TEST.init.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.23.01_SHARED_LEAKAGE_PARALLEL_TEST.init.md`
+- `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.24.01_SHARED_VBUMP_TEST.init.md`
+
+## 251. 4 篇 / 4 句 / 1 种写法
+
+> You must specify the number of edges per cycle with the period_div keyword.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.02_Defining_edge_delays_for_a_PRBS_test.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.02_Defining_edge_delays_for_a_PRBS_test.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md`
+
+## 252. 4 篇 / 4 句 / 1 种写法
+
+> part can only be set to WVT, EQN, or CLK if spec_type is set to TIM.
+
+出处（4）：
+
+- `02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md`
+- `02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md`
+- `02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md`
+- `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md`
+
+## 253. 4 篇 / 4 句 / 1 种写法
+
+> stdf cannot be loaded in Integrated Result Tool
+
+出处（4）：
+
+- `02_System_reference/02.01_Release_Information/02.01.04_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0203_V93000_SOC_7.10.0.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0204_V93000_SOC_7.10.1.0T_Release_Notes.md`
+- `99_Unlisted_or_Unreferenced/99.0205_V93000_SOC_7.10.2.0T_Release_Notes.md`
+

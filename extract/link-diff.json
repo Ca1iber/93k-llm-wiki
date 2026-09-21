@@ -1,0 +1,334 @@
+{
+  "a_total": 53102,
+  "b_total": 53042,
+  "only_a_attribution": {
+    "code_span": 54,
+    "html_block": 1,
+    "indented_code_block": 5
+  },
+  "only_a_attribution_detail": [
+    {
+      "block": "code_block",
+      "count": 1,
+      "doc": "02_System_reference/02.05_Test_Head_Cards/02.05.08.04.04_Utility_Card_specific_setup_tasks.md",
+      "line": 63,
+      "span": [
+        62,
+        64
+      ],
+      "target": "../02.03_DUT_board_design_reference/02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md"
+    },
+    {
+      "block": "code_block",
+      "count": 1,
+      "doc": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08_BADC_MEASURE.md",
+      "line": 28,
+      "span": [
+        27,
+        28
+      ],
+      "target": "../02.06_Command_Reference/02.06.03.01.10.04_Controlling_the_site_match_function.md"
+    },
+    {
+      "block": "html_block",
+      "count": 1,
+      "doc": "02_System_reference/02.09_Test_Program_Management/02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md",
+      "line": 306,
+      "span": [
+        33,
+        310
+      ],
+      "target": "02.09.02.03_STPM_control_file.md"
+    },
+    {
+      "block": "code_block",
+      "count": 1,
+      "doc": "02_System_reference/02.16_ACS_TE-Cloud/02.16.03.08_Transmitting_files_between_Linux_machines_with_command_line.md",
+      "line": 37,
+      "span": [
+        36,
+        37
+      ],
+      "target": "02.16.01.01_Virtual_Machine_page.md#_355180__publicIP"
+    },
+    {
+      "block": "code_block",
+      "count": 1,
+      "doc": "02_System_reference/02.16_ACS_TE-Cloud/02.16.03.08_Transmitting_files_between_Linux_machines_with_command_line.md",
+      "line": 37,
+      "span": [
+        36,
+        37
+      ],
+      "target": "02.16.03.01_Generating_and_saving_key_files.md"
+    },
+    {
+      "block": "code_block",
+      "count": 1,
+      "doc": "02_System_reference/02.16_ACS_TE-Cloud/02.16.03.08_Transmitting_files_between_Linux_machines_with_command_line.md",
+      "line": 37,
+      "span": [
+        36,
+        37
+      ],
+      "target": "02.16.03.02_Creating_a_TE-Cloud_virtual_machine.md#_354551__username"
+    }
+  ],
+  "only_a_by_doc": [
+    [
+      "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md",
+      9
+    ],
+    [
+      "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.06_Session_parameters.md",
+      6
+    ],
+    [
+      "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.01_Opening_and_closing_connections.md",
+      5
+    ],
+    [
+      "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.07_Error_handling.md",
+      4
+    ],
+    [
+      "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.05_Asynchronous_events.md",
+      3
+    ],
+    [
+      "02_System_reference/02.16_ACS_TE-Cloud/02.16.03.08_Transmitting_files_between_Linux_machines_with_command_line.md",
+      3
+    ],
+    [
+      "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.03_Operations_specific_to_GPIB_devices.md",
+      2
+    ],
+    [
+      "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.04_Operations_specific_to_RS-232_devices.md",
+      2
+    ],
+    [
+      "02_System_reference/02.05_Test_Head_Cards/02.05.08.04.04_Utility_Card_specific_setup_tasks.md",
+      1
+    ],
+    [
+      "02_System_reference/02.07_Test_Method_Reference/02.07.02.12.01.01_How_to_implement_a_concurrent_test_method.md",
+      1
+    ],
+    [
+      "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08_BADC_MEASURE.md",
+      1
+    ],
+    [
+      "02_System_reference/02.09_Test_Program_Management/02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md",
+      1
+    ],
+    [
+      "03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.02.06.07.01_Use_of_TESTSET_with_multibin.md",
+      1
+    ]
+  ],
+  "only_a_kinds": 39,
+  "only_a_samples": [
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.05_Test_Head_Cards/02.05.08.04.04_Utility_Card_specific_setup_tasks.md",
+      "target": "../02.03_DUT_board_design_reference/02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.07_Test_Method_Reference/02.07.02.12.01.01_How_to_implement_a_concurrent_test_method.md",
+      "target": "02.07.04.01.14.30_CCTregisterTx.md"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08_BADC_MEASURE.md",
+      "target": "../02.06_Command_Reference/02.06.03.01.10.04_Controlling_the_site_match_function.md"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.09_Test_Program_Management/02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md",
+      "target": "02.09.02.03_STPM_control_file.md"
+    },
+    {
+      "count": 3,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.01_Opening_and_closing_connections.md",
+      "target": "02.13.07.01_Opening_and_closing_connections.md#gaddc8671fd089529c77794f0d38603fca"
+    },
+    {
+      "count": 2,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.01_Opening_and_closing_connections.md",
+      "target": "02.13.07.01_Opening_and_closing_connections.md#ga267c08ba41cc3d2f3662b27683687615"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.01_Opening_and_closing_connections.md",
+      "target": "02.13.07.01_Opening_and_closing_connections.md#gaa2ca178dbd1f7b8435e3c1c6e34f1605"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.01_Opening_and_closing_connections.md",
+      "target": "02.13.07.01_Opening_and_closing_connections.md#ga71dcdd2c63203488d9f9413a75a98c71"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.01_Opening_and_closing_connections.md",
+      "target": "02.13.07.07_Error_handling.md#ga26d80faf8db0efc372f8ccf254e321f8"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md",
+      "target": "02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md#ga3ffa3bd02beca7fc651b3eeb0f82d86c"
+    },
+    {
+      "count": 2,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md",
+      "target": "02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md#ga91862461d833db0642f79f0410c33468"
+    },
+    {
+      "count": 4,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md",
+      "target": "02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md#gac927c44b656660a6150cd7564b98f13c"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md",
+      "target": "02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md#ga02d19585c20ed08fc4071d0e9b1b78e4"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md",
+      "target": "02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md#ga0568b46d55d49fca982038493e9d9c19"
+    },
+    {
+      "count": 3,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md",
+      "target": "02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md#ga281f1e0664bd2ea69456e1f38bc93b61"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md",
+      "target": "02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md#gaec1fd6f26e13a0c20d1311c6f8a1811f"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md",
+      "target": "02.13.07.03_Operations_specific_to_GPIB_devices.md#gac412964b605b33bd1b60acaa8c6bae91"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md",
+      "target": "02.13.07.06_Session_parameters.md#gabcc62403c25ffbe6199d0b4459614370"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.03_Operations_specific_to_GPIB_devices.md",
+      "target": "02.13.07.03_Operations_specific_to_GPIB_devices.md#ga0305551b69eaeb5f96237491f449f199"
+    },
+    {
+      "count": 2,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.03_Operations_specific_to_GPIB_devices.md",
+      "target": "02.13.07.03_Operations_specific_to_GPIB_devices.md#gad90039c7bf09a556c936e770cd6e12d2"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.04_Operations_specific_to_RS-232_devices.md",
+      "target": "02.13.07.04_Operations_specific_to_RS-232_devices.md#ga99834c86c5f7a53ad210875a615c2759"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.04_Operations_specific_to_RS-232_devices.md",
+      "target": "02.13.07.04_Operations_specific_to_RS-232_devices.md#ga702d374f6e023c0200b0d2f07167548d"
+    },
+    {
+      "count": 3,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.05_Asynchronous_events.md",
+      "target": "02.13.07.05_Asynchronous_events.md#gabfe925725dae98655de0895cebbcb941"
+    },
+    {
+      "count": 4,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.05_Asynchronous_events.md",
+      "target": "02.13.07.05_Asynchronous_events.md#ga234c3d95dcd5a7864a17b0c6fc58707d"
+    },
+    {
+      "count": 3,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.05_Asynchronous_events.md",
+      "target": "02.13.07.05_Asynchronous_events.md#ga29851456b490c6ab1ee8a95b44d5cbc9"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.06_Session_parameters.md",
+      "target": "02.13.07.06_Session_parameters.md#ga9652b651c3fa312558526ac8496c8436"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.06_Session_parameters.md",
+      "target": "02.13.07.06_Session_parameters.md#gac2f86ca1b6ed305e0e70ebe821e7f422"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.06_Session_parameters.md",
+      "target": "02.13.07.06_Session_parameters.md#gaf3b56eb8d1c518881ad3283142077c07"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.06_Session_parameters.md",
+      "target": "02.13.07.06_Session_parameters.md#ga8b5bf80f3a00be4ee8b4b3e664d415bb"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.06_Session_parameters.md",
+      "target": "02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md#ga281f1e0664bd2ea69456e1f38bc93b61"
+    },
+    {
+      "count": 2,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.06_Session_parameters.md",
+      "target": "02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md#gac927c44b656660a6150cd7564b98f13c"
+    },
+    {
+      "count": 4,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.07_Error_handling.md",
+      "target": "02.13.07.07_Error_handling.md#ga26d80faf8db0efc372f8ccf254e321f8"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.07_Error_handling.md",
+      "target": "02.13.07.07_Error_handling.md#ga95b9e4fd1744925907db4ac40cc816fe"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.07_Error_handling.md",
+      "target": "02.13.07.01_Opening_and_closing_connections.md#gaddc8671fd089529c77794f0d38603fca"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.07_Error_handling.md",
+      "target": "02.13.07.05_Asynchronous_events.md#ga234c3d95dcd5a7864a17b0c6fc58707d"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.16_ACS_TE-Cloud/02.16.03.08_Transmitting_files_between_Linux_machines_with_command_line.md",
+      "target": "02.16.03.01_Generating_and_saving_key_files.md"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.16_ACS_TE-Cloud/02.16.03.08_Transmitting_files_between_Linux_machines_with_command_line.md",
+      "target": "02.16.03.02_Creating_a_TE-Cloud_virtual_machine.md#_354551__username"
+    },
+    {
+      "count": 1,
+      "doc": "02_System_reference/02.16_ACS_TE-Cloud/02.16.03.08_Transmitting_files_between_Linux_machines_with_command_line.md",
+      "target": "02.16.01.01_Virtual_Machine_page.md#_355180__publicIP"
+    },
+    {
+      "count": 1,
+      "doc": "03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.02.06.07.01_Use_of_TESTSET_with_multibin.md",
+      "target": "../../02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md#_58886__dle_System-prepared_class_object"
+    }
+  ],
+  "only_a_total": 60,
+  "only_b_by_doc": [],
+  "only_b_kinds": 0,
+  "only_b_samples": [],
+  "only_b_total": 0
+}

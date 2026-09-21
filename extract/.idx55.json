@@ -1,0 +1,442 @@
+{
+ "context-pins": {
+  "dir": "concepts",
+  "title": "How to create a universal test method class",
+  "layer": "L2",
+  "stage": "testmethod",
+  "first": "ContextPins 是 test method 参数的一种类型。",
+  "bytes": 8117
+ },
+ "edf": {
+  "dir": "concepts",
+  "title": "Event Data Logging Format (EDF)",
+  "layer": "file",
+  "stage": "results",
+  "first": "本篇不是一篇说明文，是一条「子主题清单」。",
+  "bytes": 10971
+ },
+ "flag": {
+  "dir": "concepts",
+  "title": "Flags",
+  "layer": "n/a",
+  "stage": "testflow",
+  "first": "flag 是 Testflow Tool 里的一类「开关」：用来调试、以及控制一次测试的执行。",
+  "bytes": 12662
+ },
+ "offline-result-emulation": {
+  "dir": "concepts",
+  "title": "Offline Result Emulation",
+  "layer": "n/a",
+  "stage": "run",
+  "first": "ORE（Offline Result Emulation，离线结果仿真）是「在真器件还不存在的时候，让测试程序照样拿到",
+  "bytes": 17985
+ },
+ "waveform-set": {
+  "dir": "concepts",
+  "title": "Waveform and timing sets",
+  "layer": "n/a",
+  "stage": "timing",
+  "first": "waveform set 是「存在系统内存里的一个逻辑实体」，它是一个容器——不是一条命令、不是一个文件、不是一段语法。",
+  "bytes": 12981
+ },
+ "alias-set-editor": {
+  "dir": "objects",
+  "title": "Alias Set Editor",
+  "layer": "gui",
+  "stage": "pin",
+  "first": "Alias Set Editor 是 pin alias set 的编辑器：一个 alias set 里放一组「别名 ↔ 封装针名」的对照。",
+  "bytes": 11774
+ },
+ "assign-value-node": {
+  "dir": "objects",
+  "title": "Assign Value node",
+  "layer": "gui",
+  "stage": "testflow",
+  "first": "Assign Value node 是 testflow 里的一个节点：在 testflow 的某个点上，把一个值赋给一个变量。",
+  "bytes": 6892
+ },
+ "change-device-wizard": {
+  "dir": "objects",
+  "title": "Change Device wizard",
+  "layer": "gui",
+  "stage": "project",
+  "first": "这篇定义文档只有两句话。 一句说它干什么，一句说它从哪开。没有第三句。",
+  "bytes": 7246
+ },
+ "data-retrieval-library": {
+  "dir": "objects",
+  "title": "Data Retrieval Library",
+  "layer": "L2",
+  "stage": "results",
+  "first": "定义句逐字（本篇第 1 段第 1 句）：",
+  "bytes": 43390
+ },
+ "dc-scale-limits-editor": {
+  "dir": "objects",
+  "title": "DC Scale Limits editor",
+  "layer": "gui",
+  "stage": "pin",
+  "first": "DC Scale Limits editor 是给 DC Scale 卡配「电压 / 电流安全限值」的 GUI。 原文开门两句逐字：",
+  "bytes": 9922
+ },
+ "device-technology-directory": {
+  "dir": "objects",
+  "title": "Device Technology Directory",
+  "layer": "file",
+  "stage": "project",
+  "first": "device technology directory 是「一份现成的 device 目录样板」：",
+  "bytes": 15054
+ },
+ "dfge": {
+  "dir": "objects",
+  "title": "DFGE, DFGE? - (DeFine Group by Expressions)",
+  "layer": "L1",
+  "stage": "pin",
+  "first": "DFGE 定义「表达式型 pin 组」——组的成员不是逐个列出来的 pin 名，",
+  "bytes": 10381
+ },
+ "dfpt": {
+  "dir": "objects",
+  "title": "DFPT, DFPT? - (DeFine PorT)",
+  "layer": "L1",
+  "stage": "pin",
+  "first": "DFPT 定义 port。 原文两句：",
+  "bytes": 6613
+ },
+ "dps-aux-task": {
+  "dir": "objects",
+  "title": "DPS_AUX_TASK",
+  "layer": "L2",
+  "stage": "level",
+  "first": "DPS_AUX_TASK 是一个 C++ 类（L2 / Test Method API）：管DC Scale 卡的 surge tracker 和 TMU。",
+  "bytes": 24637
+ },
+ "dtcp": {
+  "dir": "objects",
+  "title": "DTCP, DTCP? - (Define Technology Control Parameters)",
+  "layer": "L1",
+  "stage": "project",
+  "first": "DTCP 是 DSCP 的补充命令。 原文第一句：",
+  "bytes": 6167
+ },
+ "edl-file": {
+  "dir": "objects",
+  "title": "The V93000 Data Logging Architecture",
+  "layer": "file",
+  "stage": "results",
+  "first": "EDL file 与 DataCollection file 是同一件东西的两个名字——这是本文自己下的判断，",
+  "bytes": 26508
+ },
+ "error-map": {
+  "dir": "objects",
+  "title": "Error Map",
+  "layer": "file",
+  "stage": "results",
+  "first": "本篇正文只有 4 句话（本页数过），第一句就是定义句，逐字：",
+  "bytes": 12384
+ },
+ "event-formatter": {
+  "dir": "objects",
+  "title": "Event Formatter",
+  "layer": "gui",
+  "stage": "results",
+  "first": "本篇是一个章的入口页，正文只有两段话加一串目录。定义句在第一段，逐字：",
+  "bytes": 21282
+ },
+ "file-string": {
+  "dir": "objects",
+  "title": "How to create a universal test method class",
+  "layer": "L2",
+  "stage": "testmethod",
+  "first": "FileString 是 test method 参数的一种类型。",
+  "bytes": 7401
+ },
+ "flex-relay": {
+  "dir": "objects",
+  "title": "FLEX_RELAY",
+  "layer": "L2",
+  "stage": "pin",
+  "first": "FLEX_RELAY 是 L2 的一个「任务容器」：你把继电器的设置往里面塞，执行时一次性下载到硬件。",
+  "bytes": 26048
+ },
+ "flsh": {
+  "dir": "objects",
+  "title": "FLSH - (FLuSH buffered commands)",
+  "layer": "L1",
+  "stage": "run",
+  "first": "FLSH 是让「被缓冲的 utility line 命令」生效的那条命令。",
+  "bytes": 7848
+ },
+ "fw-task": {
+  "dir": "objects",
+  "title": "FW_TASK",
+  "layer": "L2",
+  "stage": "testmethod",
+  "first": "一句话：FW_TASK 是 L2 那条「从测试方法直接对硬件说固件命令」的口子。",
+  "bytes": 19099
+ },
+ "hardware-response-emulator": {
+  "dir": "objects",
+  "title": "Hardware Response Emulator",
+  "layer": "gui",
+  "stage": "run",
+  "first": "HWRE（Hardware Response Emulator，硬件响应仿真器）是 SmarTest 的一个后台工具：",
+  "bytes": 20126
+ },
+ "jsud": {
+  "dir": "objects",
+  "title": "JSUD - (Jitter Set UnDefine)",
+  "layer": "L1",
+  "stage": "timing",
+  "first": "JSUD 是 jitter set 的「注销」命令——它把已经定义的 jitter set 删掉。 原文正文全部只有一句：",
+  "bytes": 10413
+ },
+ "jswf": {
+  "dir": "objects",
+  "title": "JSWF? - (Jitter Set WaveForm)",
+  "layer": "L1",
+  "stage": "timing",
+  "first": "JSWF? 是查询命令：给它一个 jitter set、一个 clock resolution 和一串 pin，它返回这些 pin 上",
+  "bytes": 16615
+ },
+ "level-equation-file": {
+  "dir": "objects",
+  "title": "Level equation file",
+  "layer": "file",
+  "stage": "level",
+  "first": "这一页讲两样东西，只有两样：USE_PROTOCOL 语句，和它引进来的那个 .prot_lev 文件。",
+  "bytes": 14485
+ },
+ "multiport-burst-editor": {
+  "dir": "objects",
+  "title": "Multiport Burst Editor",
+  "layer": "gui",
+  "stage": "pattern",
+  "first": "Multiport Burst Editor 是 pattern 工具里的一个编辑器，管的是 multiport burst，以及组成它的",
+  "bytes": 16988
+ },
+ "new-device-wizard": {
+  "dir": "objects",
+  "title": "New Device wizard",
+  "layer": "gui",
+  "stage": "project",
+  "first": "New Device wizard 干两件事，原文一句话说完：",
+  "bytes": 8333
+ },
+ "option-list": {
+  "dir": "objects",
+  "title": "How to create a universal test method class",
+  "layer": "L2",
+  "stage": "testmethod",
+  "first": "OptionList 是 test method 参数的一种类型。",
+  "bytes": 8101
+ },
+ "pattern-object": {
+  "dir": "objects",
+  "title": "PATTERN",
+  "layer": "L2",
+  "stage": "pattern",
+  "first": "一句话：PATTERN 是「一个 subpattern 的元素容器」。 原文第一句就是它的定义：",
+  "bytes": 18047
+ },
+ "pattern-tool": {
+  "dir": "objects",
+  "title": "Pattern Tools",
+  "layer": "gui",
+  "stage": "pattern",
+  "first": "Pattern Tools 不是一个工具，是三个编辑器的合称：Pattern Explorer、Pattern Editor、",
+  "bytes": 34121
+ },
+ "pin-configuration-master-file": {
+  "dir": "objects",
+  "title": "Pin configuration master file",
+  "layer": "file",
+  "stage": "pin",
+  "first": "pin configuration master file 是一份「清单」：它自己不含任何 pin 定义，只写「这次组装",
+  "bytes": 18729
+ },
+ "pin-string": {
+  "dir": "objects",
+  "title": "How to create a universal test method class",
+  "layer": "L2",
+  "stage": "testmethod",
+  "first": "PinString 是 test method 参数的一种类型。",
+  "bytes": 13358
+ },
+ "pin-utility": {
+  "dir": "objects",
+  "title": "PIN_UTILITY",
+  "layer": "L2",
+  "stage": "pin",
+  "first": "PIN_UTILITY 是 L2 的 test method API：把一串「针的名字」展开成「具体的针名清单」。",
+  "bytes": 25341
+ },
+ "port-editor": {
+  "dir": "objects",
+  "title": "Port Editor",
+  "layer": "gui",
+  "stage": "pin",
+  "first": "Port Editor 是「给一个 port 挑成员」的编辑器。 原文开门一句逐字：",
+  "bytes": 10512
+ },
+ "pqfc": {
+  "dir": "objects",
+  "title": "PQFC, PQFC? - (Parallel Query FoCus)",
+  "layer": "L1",
+  "stage": "pin",
+  "first": "PQFC 设的是「查询焦点」——同一时刻只有一个 site 在焦点里，PQFC 决定是哪个。",
+  "bytes": 6417
+ },
+ "project-explorer-view": {
+  "dir": "objects",
+  "title": "Project Explorer view",
+  "layer": "gui",
+  "stage": "project",
+  "first": "Project Explorer view 是 Setup perspective 里的一个 view，它把 device 目录层次化地画出来。",
+  "bytes": 7069
+ },
+ "run-dialog": {
+  "dir": "objects",
+  "title": "Running a testflow",
+  "layer": "gui",
+  "stage": "run",
+  "first": "Run dialog 是「跑 testflow」这件事的唯一配置面板。 原文把它是什么、怎么打开放在同一段：",
+  "bytes": 21139
+ },
+ "setup-perspective": {
+  "dir": "objects",
+  "title": "Setup perspective",
+  "layer": "gui",
+  "stage": "project",
+  "first": "Setup perspective 是 SmarTest 的默认透视图，也是第一次启动 SmarTest 时活动的那一个。",
+  "bytes": 13167
+ },
+ "smartcalc": {
+  "dir": "objects",
+  "title": "SmartCalc framework",
+  "layer": "L2",
+  "stage": "testmethod",
+  "first": "SmartCalc（缩写 SMC）是 L2 的一层「高层 API 命令」，用途只有一个：",
+  "bytes": 21088
+ },
+ "software-bin-summary-tab": {
+  "dir": "objects",
+  "title": "Software bin summary tab",
+  "layer": "gui",
+  "stage": "results",
+  "first": "定义句逐字（本篇正文第 1 句）：",
+  "bytes": 20973
+ },
+ "spec-search": {
+  "dir": "objects",
+  "title": "SPEC_SEARCH",
+  "layer": "L2",
+  "stage": "level",
+  "first": "SPEC_SEARCH 是一个 L2 API，它干两件事：执行一次 spec search 测试，并访问「存放这次测试条件的数据容器」。",
+  "bytes": 17698
+ },
+ "sprm": {
+  "dir": "objects",
+  "title": "SPRM, SPRM? - (Set PRiMary sets)",
+  "layer": "L1",
+  "stage": "level",
+  "first": "SPRM 选「这一轮要用哪几组 set」，但它不改硬件。 原文两句逐字：",
+  "bytes": 19903
+ },
+ "spst": {
+  "dir": "objects",
+  "title": "SPST? - (SPecset STatus)",
+  "layer": "L1",
+  "stage": "level",
+  "first": "SPST? 问的不是「某个 spec 的数值是多少」，而是「这个 specset 现在处于什么状态」。",
+  "bytes": 15463
+ },
+ "stdf": {
+  "dir": "objects",
+  "title": "Starting the formatter",
+  "layer": "file",
+  "stage": "results",
+  "first": "本篇给了 STDF 的定义句，而且这个定义句有一半是否定句。 原文逐字：",
+  "bytes": 16154
+ },
+ "test-method-class": {
+  "dir": "objects",
+  "title": "2. Create a Test Method Class",
+  "layer": "gui",
+  "stage": "testmethod",
+  "first": "「Test Method Class」是 SmarTest GUI 里由向导产出的那一个类。",
+  "bytes": 6612
+ },
+ "testflow-master-file": {
+  "dir": "objects",
+  "title": "Testflow master file",
+  "layer": "file",
+  "stage": "testflow",
+  "first": "testflow master file 是「testflow 被拆成多个文件之后，把它们重新拉在一起的那份索引」。",
+  "bytes": 17758
+ },
+ "testflow-variable": {
+  "dir": "objects",
+  "title": "Testflow variable mapping table",
+  "layer": "file",
+  "stage": "testflow",
+  "first": "这一页讲一张表：它把各个 STP 里的 testflow 变量与 flag 映射到主测试程序（MTP）的",
+  "bytes": 16551
+ },
+ "timing-specification": {
+  "dir": "objects",
+  "title": "Defining the timing specification",
+  "layer": "file",
+  "stage": "timing",
+  "first": "timing specification 是「把波形形状、周期长度与边沿延迟、spec 取值这三样合成到一起」的那份东西——",
+  "bytes": 16304
+ },
+ "tpt-import-from-device": {
+  "dir": "objects",
+  "title": "tpt_import_from_device",
+  "layer": "L3",
+  "stage": "project",
+  "first": "tpt_import_from_device 是 STPM（SmarTest Program Manager）控制文件里的一条命令：",
+  "bytes": 24748
+ },
+ "universal-test-method-library": {
+  "dir": "objects",
+  "title": "Developing a universal test method library",
+  "layer": "file",
+  "stage": "testmethod",
+  "first": "UTM 库（universal test method library）是「一整套 UTM 流程」的产物；",
+  "bytes": 10313
+ },
+ "uptd": {
+  "dir": "objects",
+  "title": "UPTD, UPTD? - (UP To Date)",
+  "layer": "L1",
+  "stage": "level",
+  "first": "UPTD 管的是「硬件里的数据，和当前 device 文件还对得上吗」。 原文两句逐字：",
+  "bytes": 14061
+ },
+ "utility-line-view": {
+  "dir": "objects",
+  "title": "Utility Line view",
+  "layer": "gui",
+  "stage": "run",
+  "first": "Utility Line view 是 Hardware Perspective 里的一个视图：查 utility line 的读 / 写状态，",
+  "bytes": 15421
+ },
+ "utility-purpose-editor": {
+  "dir": "objects",
+  "title": "Utility Purpose Editor",
+  "layer": "gui",
+  "stage": "pin",
+  "first": "Utility Purpose Editor 是「给一个 utility purpose 挑 utility line」的编辑器。",
+  "bytes": 16949
+ },
+ "wavetable": {
+  "dir": "objects",
+  "title": "wavetable",
+  "layer": "n/a",
+  "stage": "timing",
+  "first": "wavetable 是「把纯波形（pure waveform）逐条贴到一串 pin 上」的那张表。 原文第一句就是全部定义，",
+  "bytes": 10851
+ }
+}

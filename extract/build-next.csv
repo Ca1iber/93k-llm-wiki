@@ -1,0 +1,79 @@
+slug,type,layer,stage,rel,in_src,refs,来源,候选名（人写的标题，供核对 slug）
+model-file,,,dps128-dps64-cards error-flexlm-license-codes error-model-file-rejected-at-startup pogocabling-section project,,0,9,B,
+report-window,,,error-data-queue-empty error-result-server-transmission-timeout results run,01_Getting_started/01.01_SmarTest_Work_Center/01.01.13_Report_window.md,0,7,B,
+timing-diagram-tool,,,pattern results run timing,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.33_Timing_Diagram_Tool.md,0,7,B,
+ctxt,,,constraint-level-mode-context-match constraint-timing-mode-context-match pin,02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md,0,5,B,
+dfpn,,,cross-card-ganging-requires-ddic pals-before-other-setup pin pin-config-requires-sequencer-off,02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md,0,5,B,
+error-map-tool,,,results run,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.08_Error_Map_Tool.md,0,5,B,
+execution-context,,,execution-context-requires-firmware-definition run,,0,5,B,
+sequencer,,,execution-context-requires-firmware-definition label-edit-requires-tstl-selection pin-config-requires-sequencer-off sequencer-controlled-utility-lines,,0,5,B,
+sqst,,,level pin pin-config-requires-sequencer-off,02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md,0,5,B,
+ganging,,,cross-card-ganging-requires-ddic pin,,0,4,B,
+integrated-result-tool,,,data-navigation-views results,,0,4,B,
+pals,,,cross-card-ganging-requires-ddic pals-before-other-setup pin pin-config-requires-sequencer-off,02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md,0,4,B,
+primary-status,,,level pattern timing,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.167_PRIMARY_STATUS_-__Primary.md,0,4,B,
+psfc,,,pin site-focus-required-before-command,02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md,0,4,B,
+spec-set,,,level referenced-set-requires-prior-definition testname-requires-matching-limits,,0,4,B,
+stpm-control-file,,,mtpt preprocessing-and-postprocessing-scripts project,02_System_reference/02.09_Test_Program_Management/02.09.02.03_STPM_control_file.md,0,4,B,
+testflow-file,,,run testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.05_Testflow_file.md,0,4,B,
+conf,,,pals-before-other-setup pin pin-config-requires-sequencer-off,02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md,0,3,B,
+digital-pins-editor,,,pin xps256-pmu-operating-mode,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md,0,3,B,
+dscp,,,level project,02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md,0,3,B,
+jscf,,,referenced-set-requires-prior-definition timing,02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md,0,3,B,
+jsdf,,,referenced-set-requires-prior-definition timing,02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md,0,3,B,
+jspr,,,referenced-set-requires-prior-definition timing,02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md,0,3,B,
+pste,,,pals-before-other-setup pin,02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md,0,3,B,
+sequencer-status,,,cct-multiport-sequencer-synchronizer-api label-edit-requires-tstl-selection pattern,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.204_SEQUENCER_STATUS_-__Sequencer.md,0,3,B,
+setup-management-tool,,,project testflow,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.02.04_Setup_Management_Tool.md,0,3,B,
+shmoo-tool,,,analysis-views results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.25_Shmoo_Tool.md,0,3,B,
+stpm,,,project testflow,,0,3,B,
+technology-file,,,level project,,0,3,B,
+tmlimits,,,results testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.250_TMLimits.md,0,3,B,
+tpt-generate-device-dir,,,project,02_System_reference/02.09_Test_Program_Management/02.09.02.03.16_tpt_generate_device_dir.md,0,3,B,
+dc-scale-xps256-card,,,pin,02_System_reference/02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md,95,0,A,DC Scale XPS256 card
+dut-board-design-reference,,,pin/project,02_System_reference/02.03_DUT_board_design_reference/02.03_DUT_board_design_reference.md,95,0,A,DUT board design reference
+edf-data-organization,,,level/timing,02_System_reference/02.10_Data_Logging/02.10.01.06.01_EDF_data_organization.md,78,0,A,EDF data organization
+edf-data-types,,,level/pin/project/results/testflow,02_System_reference/02.10_Data_Logging/02.10.01.06.02_EDF_data_types.md,72,0,A,EDF data types
+alphabetical-list-of-flags,,,run/testmethod,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.07.01_Alphabetical_list_of_flags.md,62,0,A,Alphabetical list of flags
+smartrdi,,,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.13_SmartRDI.md,56,0,A,SmartRDI
+rdi-configure-file,,,pin/project/testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.13.04_RDI_Configure_file.md,55,0,A,RDI_Configure file
+apg-pattern-file,,,pattern/results,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.02_APG_pattern_file.md,49,0,A,APG pattern file
+dpspins-resources,,,level/pin,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md,46,0,A,DPSPINS resources
+structure-of-a-tmlimits-csv-file,,,testmethod,02_System_reference/02.10_Data_Logging/02.10.01.08.01.01.03.01_Structure_of_a_TMLimits_CSV_file.md,46,0,A,Structure of a TMLimits CSV file
+utility-card,,,pin/project,02_System_reference/02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md,45,0,A,Utility Card
+technology-file-for-a-device,,,level/project,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md,43,0,A,Technology file for a device
+mtp-memory-test,,,pattern/pin/project/testflow,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.17_MTP_MEMORY_TEST.md,42,0,A,MTP_MEMORY_TEST
+apg-program-file,,,pattern/results,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.03_APG_program_file.md,39,0,A,APG program file
+utility-pogo-block-utility-card-v93000-exa-scale-systems,,,project,02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md,39,0,A,Utility pogo block - Utility Card (V93000 EXA Scale systems)
+event-base,,,level/pattern/project/results/run/testflow/testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01_EVENT_BASE.md,38,0,A,EVENT_BASE
+smartcalc-framework,,,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.10_SmartCalc_framework.md,38,0,A,SmartCalc framework
+equation-based-level-setup,,,level/project/testflow/testmethod/timing,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02_Equation_based_level_setup.md,37,0,A,Equation based level setup
+smartrdi-vector-and-protocol-programming,,,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.13.24_SmartRDI__Vector_and_protocol_programming.md,37,0,A,SmartRDI: Vector and protocol programming
+device-access-file,,,pattern/pin/results/run/testflow/testmethod,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04_Device_access_file.md,33,0,A,Device access file
+dc-test-programming,,,pin/project/run/testflow/testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.03.02_DC_Test_Programming.md,30,0,A,DC Test Programming
+pin-mapping-file,,,pattern/pin/results,02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.06_Pin_mapping_file.md,30,0,A,Pin mapping file
+setting-up-a-shmoo-test-with-the-shmoo-tool,,,project/results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.25.03.02_Setting_up_a_shmoo_test_with_the_Shmoo_Tool.md,27,0,A,Setting up a shmoo test with the Shmoo Tool
+test-summary-tab,,,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.01_Test_summary_tab.md,27,0,A,Test summary tab
+dps-power-flags-get-functions,,,run/testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06_DPS_power_flags_-_get...___functions.md,26,0,A,DPS power flags - get...() functions
+controlling-multiple-sites,,,run/testflow,02_System_reference/02.07_Test_Method_Reference/02.07.03.13_Controlling_Multiple_Sites.md,25,0,A,Controlling Multiple Sites
+setting-chart-display-options,,,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.05_Setting_chart_display_options.md,25,0,A,Setting chart display options
+special-test-suites,,,run/testflow,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.01.02_Special_test_suites.md,25,0,A,Special test suites
+timing-setup-commands,,,level/pattern/pin/project/results/run/testflow/testmethod/timing,02_System_reference/02.06_Command_Reference/02.06.06_Timing_Setup_Commands.md,25,0,A,Timing Setup Commands
+data-logging-profiles,,,project/results,02_System_reference/02.10_Data_Logging/02.10.01.02_Data_Logging_Profiles.md,23,0,A,Data Logging Profiles
+direct-probe-stiffener,,,project,02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.02_Direct-Probe_stiffener.md,23,0,A,Direct-Probe stiffener
+how-to-create-a-universal-test-method-class,,,run/testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.02.02.02_How_to_create_a_universal_test_method_class.md,23,0,A,How to create a universal test method class
+test-number-generator-and-tmlimits,,,results,02_System_reference/02.10_Data_Logging/02.10.01.08.01_Test_Number_Generator_and_TMLimits.md,23,0,A,Test Number Generator and TMLimits
+utility-power-supplies,,,project,02_System_reference/02.03_DUT_board_design_reference/02.03.05_Utility_power_supplies.md,23,0,A,Utility power supplies
+dc-result-accessor,,,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.28_DC_RESULT_ACCESSOR.md,22,0,A,DC_RESULT_ACCESSOR
+dc-scale-uhc4-uhc4t-card,,,pin,02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06_DC_Scale_UHC4___UHC4T_card.md,22,0,A,DC Scale UHC4 / UHC4T card
+dc-scale-uhc4t-card,,,pin,02_System_reference/02.05_Test_Head_Cards/02.05.05.02_DC_Scale_UHC4T_card.md,22,0,A,DC Scale UHC4T card
+global-section,,,project/run/testflow,02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md,22,0,A,GLOBAL section
+setting-up-dc-scale-pins-with-smartrdi,,,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md,22,0,A,Setting up DC Scale pins with SmartRDI
+spmu-pin-task-mode,,,level/run/testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.24_SPMU_PIN_TASK.mode.md,22,0,A,SPMU_PIN_TASK.mode()
+using-the-timing-diagram-tool,,,pattern/results/run/timing,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.33.01_Using_the_Timing_Diagram_Tool.md,22,0,A,Using the Timing Diagram Tool
+command-reference,,,pattern/pin/project/results/run/testflow/testmethod/timing,02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md,21,0,A,Command Reference
+event-waveform-vfim,,,run/testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38_EVENT_WAVEFORM_VFIM.md,21,0,A,EVENT_WAVEFORM_VFIM
+layout-information-dut-board,,,project,02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.08_Layout_information__DUT_board.md,21,0,A,Layout information: DUT board
+protocol-editor,,,level/pattern/run/testmethod/timing,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.22_Protocol_editor.md,21,0,A,Protocol editor
+smartrdi-tmu-test-setup,,,testmethod,02_System_reference/02.07_Test_Method_Reference/02.07.13.21_SmartRDI__TMU_test_setup.md,21,0,A,SmartRDI: TMU test setup
+raw-data-views,,,results,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.03.01_Raw_data_views.md,20,0,A,Raw data views

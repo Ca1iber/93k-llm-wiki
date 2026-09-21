@@ -1,0 +1,473 @@
+---
+type: version
+title: SmarTest 6.5.2 — 版本页
+tags: [version, smartest]
+related: []
+sources:
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.02.04.03_Using_the_Setup_Management_Tool_from_the_Command_Line.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02_Setup_perspective.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.02_Pin_Browser_view.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03.03_Hardware_view_for_digital_pins.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03.11_Hardware_view_preference_page.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03_Hardware_view.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05_Hardware_Perspective.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.03.01_Setting_a_bookmark.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.03.03_Exporting_the_bookmarks_to_a_file.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.03.04_Importing_the_bookmarks_from_a_file.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.05.04_Test_method_debugger_default_console.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.08_Firmware_view.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.12_Waveform_View.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.09_Editors.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.10.03.01_Creating_a_new_device.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.10.03.02_Changing_the_device_with_the_Change_Device_button.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.10.03_Change_Device_button.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.11.01_93000_menu_and_its_tools.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.13.02_Printing_the_hardware_configuration_and_license_checkout_information.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.03_Analog__digital__and_dps_preference_page.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.04_Build_preference_page.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.05_Comments_preference_page.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.06_Diagrams_preference_page.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.07_Flow_Sequence_Editor_preference_page.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.09_Hardware_view_preference_page.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.10_Layout_preference_page.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.11_Pattern_Tool_-_Table_Annotations_preference_page.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.12_Pattern_Debug_Tool_preference_page.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.13_Pattern_Explorer_preference_page.md
+  - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.14_Pin_Browser_preference_page.md
+  # 本页共涉及 364 篇文档。上面只列了前 30 篇——**完整出处是正文每条后面的链接**，
+  # 机器可读全量见 extract/version-facts.csv（按 doc 列筛）。**这是有意的截断，不是漏列。**
+created: 2026-09-18
+updated: 2026-09-18
+verified: doc-only
+---
+
+# SmarTest 6.5.2
+
+> **本页由 `extract/versions.py` 从 raw 的 `## Functional changes` 段落机械汇编**——分组、排序、出处都是脚本算的，**没有一句是模型写的**。
+> 条目**原样转录**（含语料自己的措辞、大小写与错拼），本页不替它改。
+>
+> 因此本页只证明**「文档这么写」**，不证明**「机台这样」**（schema §11）。
+> **本页没有被人在真实机台上核对过**（`verified: doc-only`）。
+
+## 这一版改了什么（185 条）
+
+格式：**出处文档 —— 语料原条目**。条目本身带 `SmarTest 6.5.2:` 前缀，**那是原文的一部分，没有去掉**。
+
+- [Using the Setup Management Tool from the Command Line](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.02.04.03_Using_the_Setup_Management_Tool_from_the_Command_Line.md>) —— SmarTest 6.5.2: Renamed macro variable AGILENT93000_MFH_CONTENTBASED to VERIGY93000_MFH_CONTENTBASED.
+- [Using the Setup Management Tool from the Command Line](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.02.04.03_Using_the_Setup_Management_Tool_from_the_Command_Line.md>) —— SmarTest 6.5.2: Renamed macro variable AGILENT93000_MFH_PREFIX to VERIGY93000_MFH_PREFIX.
+- [Setup perspective](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02_Setup_perspective.md>) —— SmarTest 6.5.2: The Firmware view is visible by default
+- [Pin Browser view](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.02_Pin_Browser_view.md>) —— SmarTest 6.5.2: The Pin Browser view can display the Keep Alive characteristic for MCB AWG unit.
+- [Hardware view for digital pins](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03.03_Hardware_view_for_digital_pins.md>) —— SmarTest 6.5.2: The high impedance voltage measurements with the Board ADC is supported in the Hardware view.
+- [Hardware view](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03_Hardware_view.md>) —— SmarTest 6.5.2: Added Open new Hardware view button.
+- [Hardware view](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03_Hardware_view.md>) —— SmarTest 6.5.2: Added RF hardware state button.
+- [Hardware Perspective](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05_Hardware_Perspective.md>) —— SmarTest 6.5.2: The Firmware view is visible by default in the Setup perspectives.
+- [Setting a bookmark](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.03.01_Setting_a_bookmark.md>) —— SmarTest 6.5.2: Bookmarks can only be set to test suite nodes.
+- [Test method debugger default console](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.05.04_Test_method_debugger_default_console.md>) —— SmarTest 6.5.2: Renamed to test method debugger default.
+- [Waveform View](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.12_Waveform_View.md>) —— SmarTest 6.5.2: Quick Viewer view is renamed to Waveform view.
+- [Editors](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.09_Editors.md>) —— SmarTest 6.5.2: Alias set editor introduced
+- [Editors](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.09_Editors.md>) —— SmarTest 6.5.2: Flow sequence editor introduced
+- [Creating a new device](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.10.03.01_Creating_a_new_device.md>) —— SmarTest 6.5.2: Creating a new device is done in the New Device wizard.
+- [Changing the device with the Change Device button](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.10.03.02_Changing_the_device_with_the_Change_Device_button.md>) —— SmarTest 6.5.2: Changing the device is done in the Change Device Wizard.
+- [Change Device button](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.10.03_Change_Device_button.md>) —— SmarTest 6.5.2: You create new device in the New Device Wizard.
+- [93000 menu and its tools](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.11.01_93000_menu_and_its_tools.md>) —— SmarTest 6.5.2: New added menu item 93000 > Device.
+- [Keyboard shortcuts (key bindings) - context related](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.16.01_Keyboard_shortcuts__key_bindings__-_context_related.md>) —— SmarTest 6.5.2: Adapted shortcuts for the Testflow Data editor
+- [Creating a new device](<01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01_Creating_a_new_device.md>) —— SmarTest 6.5.2: Creating a new device is done in the New Device wizard.
+- [GLOBAL section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md>) —— SmarTest 6.5.2: New definition: triage
+- [Device license file syntax](<02_System_reference/02.04_Model_File_and_Licensing/02.04.05.06.02_Device_license_file_syntax.md>) —— SmarTest 6.5.2: New parameter (DSL) for device specific licensing
+- [PSER? - (Power Supply External trigger measurement Read results)](<02_System_reference/02.06_Command_Reference/02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>) —— SmarTest 6.5.2: Results sequence matches the PSEE/PSIE pinlist (since 6.3.5.3)
+- [PSIE - (Power Supply Internal trigger Execute)](<02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md>) —— SmarTest 6.5.2: Voltage measurement for MS-DPS supported.
+- [SQPG, SQPG? - (SeQuencer ProGramming)](<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>) —— SmarTest 6.5.2: The maximum number of loops for a counted match loop (MACT) has be reduced to 221-1.
+- [DFTD, DFTD? (DeFine Test Data)](<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>) —— SmarTest 6.5.2: New attribute accuracy for setMeasureRange operation
+- [Introduction](<02_System_reference/02.06_Command_Reference/02.06.03.01.01_Introduction.md>) —— SmarTest 6.5.2: New command: DFPR
+- [Introduction](<02_System_reference/02.06_Command_Reference/02.06.03.01.01_Introduction.md>) —— SmarTest 6.5.2: New command: UDPR
+- [Pin configuration setup commands](<02_System_reference/02.06_Command_Reference/02.06.03_Pin_configuration_setup_commands.md>) —— SmarTest 6.5.2: New command: DFPR
+- [Pin configuration setup commands](<02_System_reference/02.06_Command_Reference/02.06.03_Pin_configuration_setup_commands.md>) —— SmarTest 6.5.2: New command: UDPR
+- [Waveform Shapes and Edge Delays](<02_System_reference/02.06_Command_Reference/02.06.06.01.01_Waveform_Shapes_and_Edge_Delays.md>) —— SmarTest 6.5.2: Logical waveforms are no longer supported.
+- [Specifying the actions](<02_System_reference/02.06_Command_Reference/02.06.06.01.03.01.01_Specifying_the_actions.md>) —— SmarTest 6.5.2: Logical waveforms are no longer supported.
+- [Defining waveform shapes for Pin Scale standard pins](<02_System_reference/02.06_Command_Reference/02.06.06.01.03.01_Defining_waveform_shapes_for_Pin_Scale_standard_pins.md>) —— SmarTest 6.5.2: Logical waveforms are no longer supported in the wavetable.
+- [Defining waveform shapes](<02_System_reference/02.06_Command_Reference/02.06.06.01.03_Defining_waveform_shapes.md>) —— SmarTest 6.5.2: Logical waveforms are no longer supported.
+- [SQPG, SQPG? - (SeQuencer ProGramming)](<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>) —— SmarTest 6.5.2: The maximum number of loops for a counted match loop (MACT) has be reduced to 221-1.
+- [PSER? - (Power Supply External trigger measurement Read results)](<02_System_reference/02.06_Command_Reference/02.06.10.02.13_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>) —— SmarTest 6.5.2: Results sequence matches the PSEE/PSIE pinlist (since 6.3.5.3)
+- [PSIE - (Power Supply Internal trigger Execute)](<02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md>) —— SmarTest 6.5.2: Voltage measurement for MS-DPS supported.
+- [How to create a universal test method project](<02_System_reference/02.07_Test_Method_Reference/02.07.02.02.01_How_to_create_a_universal_test_method_project.md>) —— SmarTest 6.5.2: New wizard to create a Test Method Project
+- [How to create a universal test method class](<02_System_reference/02.07_Test_Method_Reference/02.07.02.02.02_How_to_create_a_universal_test_method_class.md>) —— SmarTest 6.5.2: New Build Test Method reminding dialog
+- [How to create a universal test method class](<02_System_reference/02.07_Test_Method_Reference/02.07.02.02.02_How_to_create_a_universal_test_method_class.md>) —— SmarTest 6.5.2: New parameter type SpecValue
+- [How to debug a universal test method](<02_System_reference/02.07_Test_Method_Reference/02.07.02.02.04_How_to_debug_a_universal_test_method.md>) —— SmarTest 6.5.2: New button Run > Terminate TestMethod Execution in the main menu
+- [How to debug a universal test method](<02_System_reference/02.07_Test_Method_Reference/02.07.02.02.04_How_to_debug_a_universal_test_method.md>) —— SmarTest 6.5.2: New button Start Test Method Debug and Stop Test Method Debug.
+- [How to import a universal test method project](<02_System_reference/02.07_Test_Method_Reference/02.07.02.04.02_How_to_import_a_universal_test_method_project.md>) —— SmarTest 6.5.2: New dialog to warn the conflict of the universal test method library name.
+- [How to convert a classic testflow to universal-test-method-based testflow](<02_System_reference/02.07_Test_Method_Reference/02.07.02.06.01_How_to_convert_a_classic_testflow_to_universal-test-method-based_testflo.md>) —— SmarTest 6.5.2: Test-function-based test suite can now be conerted to UTM-based test suite.
+- [Converting a classic testflow to a UTM-based testflow](<02_System_reference/02.07_Test_Method_Reference/02.07.02.06_Converting_a_classic_testflow_to_a_UTM-based_testflow.md>) —— SmarTest 6.5.2: Test-function-based test suite can now be converted to UTM-based test suite.
+- [Using the predefined universal Test Method Libraries](<02_System_reference/02.07_Test_Method_Reference/02.07.02.07_Using_the_predefined_universal_Test_Method_Libraries.md>) —— SmarTest 6.5.2: New wizard to import the system test method library.
+- [Using C/C++ functions from external libraries in universal test methods](<02_System_reference/02.07_Test_Method_Reference/02.07.02.11_Using_C_C___functions_from_external_libraries_in_universal_test_methods.md>) —— SmarTest 6.5.2: Preload mechanism is supported.
+- [addParameter](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.03_addParameter.md>) —— SmarTest 6.5.2: Supports the parameter type SpecValue
+- [ANALOG_WAVEFORM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.05_ANALOG_WAVEFORM.md>) —— SmarTest 6.5.2: You can directly assign the waveform data of the analog waveform object to a variable of the ARRAY_D or ARRAY_I type.
+- [PATTERN](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.142.01_PATTERN.md>) —— SmarTest 6.5.2: Additional member functions: vecEvents() and getForceVoltage()
+- [PPMU_PIN_MEASURE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.157.01_PPMU_PIN_MEASURE.md>) —— SmarTest 6.5.2: New execution mode TM::OVAL
+- [PUT_DEBUG](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.175_PUT_DEBUG.md>) —— SmarTest 6.5.2: New syntax to display the data of ARRAY_COMPLEX.
+- [PIN_I](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.195.01_PIN_I.md>) —— SmarTest 6.5.2: New member function isConnected()
+- [PIN_I](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.195.01_PIN_I.md>) —— SmarTest 6.5.2: New member function getMode()
+- [PIN_I](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.195.01_PIN_I.md>) —— SmarTest 6.5.2: New member function getResource()
+- [SEQUENCER_STATUS - (Sequencer)](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.204_SEQUENCER_STATUS_-__Sequencer.md>) —— SmarTest 6.5.2: New parameter option TM::STOPONERROR and TM::STOPONERROR_LOOP for the member function run().
+- [SEQUENCER_STATUS - (Sequencer)](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.204_SEQUENCER_STATUS_-__Sequencer.md>) —— SmarTest 6.5.2: New member function getSequencerStatus().
+- [SEQUENCER_STATUS - (Sequencer)](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.204_SEQUENCER_STATUS_-__Sequencer.md>) —— SmarTest 6.5.2: New parameter portName for the member function stopCycle().
+- [TESTSET](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md>) —— SmarTest 6.5.2: New member function doLog_ShmooTest()
+- [TESTSET](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md>) —— SmarTest 6.5.2: New member function judgeAndLog_Dps()
+- [TESTSET](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md>) —— SmarTest 6.5.2: New member function judgeAndLog_Spmu()
+- [VEC_LABEL_EDIT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.268_VEC_LABEL_EDIT.md>) —— SmarTest 6.5.2: New constructor VEC_LABEL_EDIT(const STRING& labelName, const STRING& pinList)
+- [VEC_LABEL_EDIT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.268_VEC_LABEL_EDIT.md>) —— SmarTest 6.5.2: New member function VEC_LABEL_EDIT& downloadUserVectors(const char* pinListCstr, ...)
+- [VEC_LABEL_EDIT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.268_VEC_LABEL_EDIT.md>) —— SmarTest 6.5.2: New member function VEC_LABEL_EDIT& downloadUserVectorRange(INT startVector, INT numOfVectors, INT physWfIndex, const char* pinListCstr)
+- [VEC_LABEL_EDIT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.268_VEC_LABEL_EDIT.md>) —— SmarTest 6.5.2: New member function VEC_LABEL_EDIT& storeVectorData(const char* pinListCstr)
+- [VEC_LABEL_EDIT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.268_VEC_LABEL_EDIT.md>) —— SmarTest 6.5.2: New member function VEC_LABEL_EDIT& storeVectorData(INT startVector, INT numOfVector, const char* pinListCstr)
+- [VEC_LABEL_EDIT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.268_VEC_LABEL_EDIT.md>) —— SmarTest 6.5.2: New member function VEC_LABEL_EDIT& restoreVectorData(const char* pinListCstr)
+- [VEC_LABEL_EDIT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.268_VEC_LABEL_EDIT.md>) —— SmarTest 6.5.2: New member function VEC_LABEL_EDIT& setPinToConstantAction(INT phyWvfIndex, const char* pinListCstr)
+- [VEC_LABEL_EDIT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.268_VEC_LABEL_EDIT.md>) —— SmarTest 6.5.2: New member function VEC_LABEL_EDIT& setPinToConstantAction(const STRING& wvfString, const char* pinListCstr)
+- [VEC_LABEL_EDIT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.268_VEC_LABEL_EDIT.md>) —— SmarTest 6.5.2: New member function VEC_LABEL_EDIT& releasePinFromConstantAction(const char* pinListCstr)
+- [VEC_LABEL_EDIT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.268_VEC_LABEL_EDIT.md>) —— SmarTest 6.5.2: New member function Boolean isPinInConstantAction(const char* pinListCstr)
+- [DPS_PIN_TASK](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.50.01_DPS_PIN_TASK.md>) —— SmarTest 6.5.2: Voltage measurement modes for MS-DPS supported.
+- [DSP_THD](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.105_DSP_THD.md>) —— SmarTest 6.5.2: The spurious free dynamic range (SFDR) can be calculated.
+- [DSP_THD](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.105_DSP_THD.md>) —— SmarTest 6.5.2: The size parameter is not restricted to the power of two.
+- [DSP_THD](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.105_DSP_THD.md>) —— SmarTest 6.5.2: The DYNPARtype result is introduced.
+- [DSP_BLOCK_FFT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.14_DSP_BLOCK_FFT.md>) —— SmarTest 6.5.2: The fft_size parameter is not restricted to the power of two.
+- [DSP_EXTRACT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.33_DSP_EXTRACT.md>) —— SmarTest 6.5.2: New added parameter: interdiscard
+- [DSP_EXTRACT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.33_DSP_EXTRACT.md>) —— SmarTest 6.5.2: The parameters src and result can be of the type ARRAY_COMPLEX or COMPLEX.
+- [DSP_FFT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.34_DSP_FFT.md>) —— SmarTest 6.5.2: The size parameter is not restricted to the power of two.
+- [DSP_MINMAX](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.47_DSP_MINMAX.md>) —— SmarTest 6.5.2: For the complex vector array, DSP_MINMAX can search the min and max value among the absolute values.
+- [DSP_SND](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.95_DSP_SND.md>) —— SmarTest 6.5.2: The size parameter is not restricted to the power of two.
+- [DSP_SNR](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.96_DSP_SNR.md>) —— SmarTest 6.5.2: The size parameter is not restricted to the power of two.
+- [DSP_SPECTRUM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.99_DSP_SPECTRUM.md>) —— SmarTest 6.5.2: The size parameter is not restricted to the power of two.
+- [FLEX_RELAY](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.68_FLEX_RELAY.md>) —— SmarTest 6.5.2: New member function util_channelRes().
+- [Frequency_byDigitalCapture](<02_System_reference/02.07_Test_Method_Reference/02.07.05.01.01_Frequency_byDigitalCapture.md>) —— SmarTest 6.5.2: Remove "_unit" from the parameter names in UTM library.
+- [Frequency_byDigitalCapture](<02_System_reference/02.07_Test_Method_Reference/02.07.05.01.01_Frequency_byDigitalCapture.md>) —— SmarTest 6.5.2: Change the parameter type of samplePeriod and targetFrequency to SpecValue in UTM library.
+- [JitterHistogram](<02_System_reference/02.07_Test_Method_Reference/02.07.05.01.03_JitterHistogram.md>) —— SmarTest 6.5.2: Remove "_unit" from the parameter names in UTM library.
+- [JitterHistogram](<02_System_reference/02.07_Test_Method_Reference/02.07.05.01.03_JitterHistogram.md>) —— SmarTest 6.5.2: Change the parameter type of UI_Width, start, stop, dataAcquStepWidth and autoSync.stepWidth to SpecValue in UTM library.
+- [AC test methods (ac_tml)](<02_System_reference/02.07_Test_Method_Reference/02.07.05.01_AC_test_methods__ac_tml.md>) —— SmarTest 6.5.2: New test method library Shmoo and CustomizedShmoo.
+- [Continuity](<02_System_reference/02.07_Test_Method_Reference/02.07.05.02.01_Continuity.md>) —— SmarTest 6.5.2: Change parameter type of testCurrent and settlingTime to SpecValue for UTM library.
+- [DVM](<02_System_reference/02.07_Test_Method_Reference/02.07.05.02.04_DVM.md>) —— SmarTest 6.5.2: Change parameter type of settlingTime to SpecValue for UTM library.
+- [GeneralPMU](<02_System_reference/02.07_Test_Method_Reference/02.07.05.02.05_GeneralPMU.md>) —— SmarTest 6.5.2: Change parameter type of forceValue, spmuClamp, prechargeVoltage, settlingTime, ppmuClampLow and ppmuClampHigh to SpecValue for UTM library.
+- [HighZ](<02_System_reference/02.07_Test_Method_Reference/02.07.05.02.06_HighZ.md>) —— SmarTest 6.5.2: Change parameter type of forcevoltage and settlingTime to SpecValue for UTM library.
+- [Leakage](<02_System_reference/02.07_Test_Method_Reference/02.07.05.02.07_Leakage.md>) —— SmarTest 6.5.2: Change parameter type of forceVoltageLow, forceVOltageHigh, spmuClampCurentLow, spmuClampCurrentHigh, prechargeVoltageLow, prechargeVoltageHigh, settlingTimeLow and settlingTimeHigh to SpecValue for UTM library.
+- [OperatingCurrent](<02_System_reference/02.07_Test_Method_Reference/02.07.05.02.08_OperatingCurrent.md>) —— SmarTest 6.5.2: Change parameter type of delayTime to SpecValue for UTM library.
+- [OutputDC](<02_System_reference/02.07_Test_Method_Reference/02.07.05.02.09_OutputDC.md>) —— SmarTest 6.5.2: Remove the "_unit" from the parameter name.
+- [OutputDC](<02_System_reference/02.07_Test_Method_Reference/02.07.05.02.09_OutputDC.md>) —— SmarTest 6.5.2: Change parameter type of forceCurrentLow, forceCurrentHigh, maxPassLow, minPassLow, maxPassHigh, minPassLow, settingTimeLow, settingTimeHigh, spmuClampVoltageLow and spmuClampVoltageHigh to SpecValue for UTM library.
+- [ProductionIddq](<02_System_reference/02.07_Test_Method_Reference/02.07.05.02.10_ProductionIddq.md>) —— SmarTest 6.5.2: Change parameter type of settlingTime to SpecValue for UTM library.
+- [Vector variable configuration usage](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.01.03.02.02_Vector_variable_configuration_usage.md>) —— SmarTest 6.5.2: For each VVC, only one VVC usage can be defined in the GUI. You needn't define the mapping between VVC variables and the vector variables in the VVC usage.
+- [Creating a Digital Source Setup for DSM FLAT setup](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.01.03.04.01_Creating_a_Digital_Source_Setup_for_DSM_FLAT_setup.md>) —— SmarTest 6.5.2: The Digital Source setup is created including the VVC and VVC usage.
+- [Viewing and editing content in the MAIN label](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.01.03.04.03_Viewing_and_editing_content_in_the_MAIN_label.md>) —— SmarTest 6.5.2: The column for the Digital Source setup is added to make the MAIN label more readable.
+- [93000 menu and its tools](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.02_93000_menu_and_its_tools.md>) —— SmarTest 6.5.2: New added menu item 93000 > Device.
+- [Changing the device with the Change Device button](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.01_Changing_the_device_with_the_Change_Device_button.md>) —— SmarTest 6.5.2: Changing the device is done in the Change Device Wizard.
+- [Master file format for level setup](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.05.01_Master_file_format_for_level_setup.md>) —— SmarTest 6.5.2: Renamed macro variable AGILENT93000_MFH_PREFIX to VERIGY93000_MFH_PREFIX.
+- [Creating a new device](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15.01_Creating_a_new_device.md>) —— SmarTest 6.5.2: Creating a new device is done in the New Device wizard.
+- [Signal and pin group representations](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.02_Signal_and_pin_group_representations.md>) —— SmarTest 6.5.2: Modified or new signal type abbreviations: device cycle name (was DC, now DVC), test point (TP)
+- [Signal and pin group representations](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.02_Signal_and_pin_group_representations.md>) —— SmarTest 6.5.2: Additional pin group representations: BIN, DVC, Oct
+- [xN-mode example](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.04.01_xN-mode_example.md>) —— SmarTest 6.5.2: Adapted to reflect Pattern Editor enhancements.
+- [Configuring the layout of the editor](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.02_Configuring_the_layout_of_the_editor.md>) —— SmarTest 6.5.2: Enhanced Configure Layout dialog supports selectors.
+- [Editing patterns](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.04_Editing_patterns.md>) —— SmarTest 6.5.2: Restructured and enhanced editing options to support events and test points.
+- [Finding and replacing pattern cells](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.05_Finding_and_replacing_pattern_cells.md>) —— SmarTest 6.5.2: Modified Find/Replace.
+- [Inserting counted match loops](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.01_Inserting_counted_match_loops.md>) —— SmarTest 6.5.2: Counted match loops superseded timed match loops.
+- [Sequencer instructions](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md>) —— SmarTest 6.5.2: Additional sequencer instructions: RPTV 1, SSRC, SRCV.
+- [Sequencer instructions](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md>) —— SmarTest 6.5.2: Removed sequencer instructions: MATCH, MATCHEND.
+- [Inserting, editing, and deleting sequencer instructions](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10_Inserting__editing__and_deleting_sequencer_instructions.md>) —— SmarTest 6.5.2: Modified layout of sequencer instructions in Pattern Editor.
+- [Inserting and editing comments](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.11_Inserting_and_editing_comments.md>) —— SmarTest 6.5.2: Copy and paste of comments supported.
+- [Copying patterns](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.12_Copying_patterns.md>) —— SmarTest 6.5.2: Redesign of Insert Special menu
+- [Creating a Digital Source setup](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.16_Creating_a_Digital_Source_setup.md>) —— SmarTest 6.5.2: The VVC and its usage are defined in the Setup Wizard. You can use the GUI setup to automatically create the VVC or directly enter the VVC in the editor.
+- [Changing pattern tool preferences](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.04.11_Changing_pattern_tool_preferences.md>) —— SmarTest 6.5.2: Extended Preferences dialog for Pattern Debug Tool
+- [Elements of the Pin Configuration Tool](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03_Elements_of_the_Pin_Configuration_Tool.md>) —— SmarTest 6.5.2: The Alias Sets editor is added.
+- [Downloading waveform patterns from the Signal Analyzer](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.01.03_Downloading_waveform_patterns_from_the_Signal_Analyzer.md>) —— SmarTest 6.5.2: The logical waveform is not supported.
+- [Download Vector...](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.06.01_Download_Vector.md>) —— SmarTest 6.5.2: The logical waveform is not supported.
+- [Special test suites](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.01.02_Special_test_suites.md>) —— SmarTest 6.5.2: New special test suite multi_bin_decision.
+- [Bins](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.06_Bins.md>) —— SmarTest 6.5.2: The floating bin.
+- [Selecting setup files](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.03_Selecting_setup_files.md>) —— SmarTest 6.5.2: You cannot create setup files with the Testflow Tool.
+- [Setting up a special test suite](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.04.02_Setting_up_a_special_test_suite.md>) —— SmarTest 6.5.2: Special test suite is inserted with the Flow Data Editor.
+- [Inserting a test suite into the testflow](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.04_Inserting_a_test_suite_into_the_testflow.md>) —— SmarTest 6.5.2: You can insert a test suite in the Flow Sequence Editor.
+- [Inserting a bin into the testflow](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.05_Inserting_a_bin_into_the_testflow.md>) —— SmarTest 6.5.2: Stop bins are inserted with the Flow Sequence Editor.
+- [Inserting a bin into the testflow](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.05_Inserting_a_bin_into_the_testflow.md>) —— SmarTest 6.5.2: Each testflow includes an otherwise bin by default.
+- [Inserting a bin into the testflow](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.05_Inserting_a_bin_into_the_testflow.md>) —— SmarTest 6.5.2: Floating bins are inserted with the Flow Data Editor. They are used for multibin.
+- [Editing a test suite in the Flow Data Editor](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.06_Editing_a_test_suite_in_the_Flow_Data_Editor.md>) —— SmarTest 6.5.2: To check/uncheck a flag for all test suites, right-click the test suite flag name and select Check All or Uncheck All.
+- [Inserting a node](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.11.02_Inserting_a_node.md>) —— SmarTest 6.5.2: You can insert a testflow node in the Flow Sequence Editor.
+- [Deleting nodes](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.11.03_Deleting_nodes.md>) —— SmarTest 6.5.2: You can delete the testflow node in the Flow Sequence Editor.
+- [Cutting, copying and pasting nodes](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.11.04_Cutting__copying_and_pasting_nodes.md>) —— SmarTest 6.5.2: You can cut, copy, and paste the testflow node in the Flow Sequence Editor.
+- [Cloning nodes](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.11.06_Cloning_nodes.md>) —— SmarTest 6.5.2: You can clone the test suite and bin nodes in the Flow Sequence Editor.
+- [Grouping nodes](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.11.07_Grouping_nodes.md>) —— SmarTest 6.5.2: You can group the testflow nodes in the Flow Sequence Editor.
+- [Grouping nodes](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.11.07_Grouping_nodes.md>) —— SmarTest 6.5.2: You can edit the group name in the Properties view.
+- [Defining variables](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.12.01_Defining_variables.md>) —— SmarTest 6.5.2: You can create the variables in the Variables page.
+- [Deleting variables](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.12.02_Deleting_variables.md>) —— SmarTest 6.5.2: You can delete variables on the Variables page.
+- [Assigning values to variables](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.12.03_Assigning_values_to_variables.md>) —— SmarTest 6.5.2: You cannot define new variables by entering a new variable name in the Assign Value node. Defining new variables can only be done on the Variables page.
+- [Changing spec values at run time](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.12.05_Changing_spec_values_at_run_time.md>) —— SmarTest 6.5.2: When you change a timing or level spec at run time for a multiport test, the number of the equation set and spec set must be entered.
+- [Working with variables](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.12_Working_with_variables.md>) —— SmarTest 6.5.2: You can add, delete and rename the variables on the Variables page of the Flow Data Editor.
+- [Printing a graphical representation of the testflow](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.13_Printing_a_graphical_representation_of_the_testflow.md>) —— SmarTest 6.5.2: You can output the testflow image rather than an ASCII testflow description to a file.
+- [Loop configuration settings](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03.01_Loop_configuration_settings.md>) —— SmarTest 6.5.2: The Run Config window replaces the Looping Configuration Dialog window.
+- [Loop configuration settings](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03.01_Loop_configuration_settings.md>) —— SmarTest 6.5.2: You cannot change the loop configuration during the testflow or test suite execution.
+- [Source and target testflows](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.05.01_Source_and_target_testflows.md>) —— SmarTest 6.5.2: You cannot group testflow elements in the source testflow.
+- [Merging the testflows](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.05_Merging_the_testflows.md>) —— SmarTest 6.5.2: If the primary setting of the merged test suite is invalid in the target testflow, you need correct them manually.
+- [Test Suites page](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.01_Test_Suites_page.md>) —— SmarTest 6.5.2: Test suite names can be changed.
+- [Test Suites page](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.01_Test_Suites_page.md>) —— SmarTest 6.5.2: Test suite Comment column is added.
+- [Test Suites page](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.01_Test_Suites_page.md>) —— SmarTest 6.5.2: Show all columns button is added.
+- [Parameters page](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.02_Parameters_page.md>) —— SmarTest 6.5.2: The parameters on this page are editable.
+- [Tests page](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.03_Tests_page.md>) —— SmarTest 6.5.2: Tests page replaces Limits page.
+- [Bins page](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.04_Bins_page.md>) —— SmarTest 6.5.2: The Bins page shows stop bins, otherwise bins, and floating bins.
+- [Variables page](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.05_Variables_page.md>) —— SmarTest 6.5.2: You can add or delete a variable on the Variables page.
+- [Variables page](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.05_Variables_page.md>) —— SmarTest 6.5.2: Defining the variables in the Assign Value node is not supported.
+- [Setups page](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.07_Setups_page.md>) —— SmarTest 6.5.2: Test table can be loaded in the Setups page.
+- [Flow Data Editor](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01_Flow_Data_Editor.md>) —— SmarTest 6.5.2: Testtree page is removed.
+- [Flow Data Editor](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01_Flow_Data_Editor.md>) —— SmarTest 6.5.2: Test suites page replaces Testlist page.
+- [Flow Data Editor](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01_Flow_Data_Editor.md>) —— SmarTest 6.5.2: Tests page replaces Limits page.
+- [Flow Sequence Editor](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.02_Flow_Sequence_Editor.md>) —— SmarTest 6.5.2: The Flow Sequence Editor replaces the Graphical Testflow Editor.
+- [Flow Sequence Editor](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.02_Flow_Sequence_Editor.md>) —— SmarTest 6.5.2: For bin node, the OOC (Out Of Control) rule is not supported.
+- [Testflow Properties view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.04_Testflow_Properties_view.md>) —— SmarTest 6.5.2: Properties view replaces Testsuite view.
+- [Testflow master file](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.06_Testflow_master_file.md>) —— SmarTest 6.5.2: Renamed macro variable AGILENT93000_MFH_PREFIX to VERIGY93000_MFH_PREFIX.
+- [Elements of the Testflow Tool](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03_Elements_of_the_Testflow_Tool.md>) —— SmarTest 6.5.2: Flow Sequence Editor is integrated into SmarTest Eclipse Work Center.
+- [Elements of the Testflow Tool](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03_Elements_of_the_Testflow_Tool.md>) —— SmarTest 6.5.2: Properties view replaces Testsuite view.
+- [Creating a new format](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.33.01.07_Creating_a_new_format.md>) —— SmarTest 6.5.2: You can select pin alias set when you create a new format.
+- [Waveform Shapes and Edge Delays](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.01_Waveform_Shapes_and_Edge_Delays.md>) —— SmarTest 6.5.2: Logical waveforms are no longer supported.
+- [Specifying the actions](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.01.01_Specifying_the_actions.md>) —— SmarTest 6.5.2: Logical waveforms are no longer supported.
+- [Defining waveform shapes for Pin Scale standard pins](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.01_Defining_waveform_shapes_for_Pin_Scale_standard_pins.md>) —— SmarTest 6.5.2: Logical waveforms are no longer supported in the wavetable.
+- [Defining waveform shapes](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03_Defining_waveform_shapes.md>) —— SmarTest 6.5.2: Logical waveforms are no longer supported.
+- [wavetable](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.03.07_wavetable.md>) —— SmarTest 6.5.2: Logical waveform is not supported.
+- [Master file format for timing setup](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.05.01_Master_file_format_for_timing_setup.md>) —— SmarTest 6.5.2: Renamed macro variable AGILENT93000_MFH_PREFIX to VERIGY93000_MFH_PREFIX.
+- [Defining the Table Format](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.06.09.01_Defining_the_Table_Format.md>) —— SmarTest 6.5.2: The logical waveform is not supported.
+- [ALARM_NOTIFICATION](<02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.09_ALARM_NOTIFICATION.md>) —— SmarTest 6.5.2: SmarTest initialization warnings and errors, Test program execution warnings and errors and Advantest Generic Prober/Handler driver errors and warnings are supported.
+- [DownloadTestflow](<02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.19_DownloadTestflow.md>) —— SmarTest 6.5.2: Empty input of TESTFLOW_NAME is supported.
+- [DownloadTestprogram](<02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.20_DownloadTestprogram.md>) —— SmarTest 6.5.2: Empty input of TESTPROGRAM_NAME is supported.
+- [ExecuteTestflowSync()](<02_System_reference/02.09_Test_Program_Management/02.09.01.11.03.06.02_ExecuteTestflowSync.md>) —— SmarTest 6.5.2: New Parameter SITE_ID_FOR_SITES and SITE_SETUP_FOR_SITES.
+- [How to detect and report errors from running SmarTest with HVM API](<02_System_reference/02.09_Test_Program_Management/02.09.01.16.05_How_to_detect_and_report_errors_from_running_SmarTest_with_HVM_API.md>) —— SmarTest 6.5.2: SmarTest initialization warnings and errors, Test program execution warnings and errors and Verigy Generic Prober/Handler driver errors and warnings are supported.
+- [Leakage test concept](<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.07.05_Leakage_test_concept.md>) —— SmarTest 6.5.2: Changed parameter type of forceVoltageLow, forceVOltageHigh, spmuClampCurentLow, spmuClampCurrentHigh, prechargeVoltageLow, prechargeVoltageHigh, settlingTimeLow and settlingTimeHigh to SpecValue for UTM library.
+- [Comparing the disconnect methods](<03_Use_cases_and_application_papers/03.04_How_to_do_disconnect/03.04.01.01_Comparing_the_disconnect_methods.md>) —— SmarTest 6.5.2: New special test suite bin_disconnect.
+- [Overview of various disconnect methods](<03_Use_cases_and_application_papers/03.04_How_to_do_disconnect/03.04.01_Overview_of_various_disconnect_methods.md>) —— SmarTest 6.5.2: New special test suite bin_disconnect.
+- [Avoiding the pass or fail site dependency](<03_Use_cases_and_application_papers/03.04_How_to_do_disconnect/03.04.02_Avoiding_the_pass_or_fail_site_dependency.md>) —— SmarTest 6.5.2: New special test suite bin_disconnect.
+- [Inserting sequencer instructions and comments](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.07_Inserting_sequencer_instructions_and_comments.md>) —— SmarTest 6.5.2: New sequencer instruction (RPTV 1) and modified pattern editor.
+- [How to import a universal test method project](<03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.01.02_How_to_import_a_universal_test_method_project.md>) —— SmarTest 6.5.2: New dialog to warn the conflict of the universal test method library name.
+- [How to convert a classic testflow to universal-test-method-based testflow](<03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.03.01_How_to_convert_a_classic_testflow_to_universal-test-method-based_testflo.md>) —— SmarTest 6.5.2: Test-function-based test suite can now be conerted to UTM-based test suite.
+- [Converting a classic testflow to a UTM-based testflow](<03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.03_Converting_a_classic_testflow_to_a_UTM-based_testflow.md>) —— SmarTest 6.5.2: Test-function-based test suite can now be converted to UTM-based test suite.
+
+
+## 这一版新引入（220 条）
+
+语料原句是 `Introduced in …`，说的是「**这篇文档描述的东西从这一版开始有**」。条目短，所以**文档放前面、原句放后面**：
+
+- [Hardware view preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03.11_Hardware_view_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Exporting the bookmarks to a file](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.03.03_Exporting_the_bookmarks_to_a_file.md>) —— Introduced in SmarTest 6.5.2
+- [Importing the bookmarks from a file](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.03.04_Importing_the_bookmarks_from_a_file.md>) —— Introduced in SmarTest 6.5.2
+- [Firmware view](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.08_Firmware_view.md>) —— Introduced in SmarTest 6.5.2
+- [Printing the hardware configuration and license checkout information](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.13.02_Printing_the_hardware_configuration_and_license_checkout_information.md>) —— Introduced in SmarTest 6.5.2
+- [Analog, digital, and dps preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.03_Analog__digital__and_dps_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Build preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.04_Build_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Comments preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.05_Comments_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Diagrams preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.06_Diagrams_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Flow Sequence Editor preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.07_Flow_Sequence_Editor_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Hardware view preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.09_Hardware_view_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Layout preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.10_Layout_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Pattern Tool - Table Annotations preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.11_Pattern_Tool_-_Table_Annotations_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Pattern Debug Tool preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.12_Pattern_Debug_Tool_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Pattern Explorer preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.13_Pattern_Explorer_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Pin Browser preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.14_Pin_Browser_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [RF preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.18_RF_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Test Method preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.22_Test_Method_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Test Suites preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.26_Test_Suites_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Testflow Tool - Table Annotations preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.29_Testflow_Tool_-_Table_Annotations_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Testflow Tool preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.30_Testflow_Tool_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Utility Line preference page](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.31_Utility_Line_preference_page.md>) —— Introduced in SmarTest 6.5.2
+- [Tagging a pin configuration file with a license lock](<02_System_reference/02.04_Model_File_and_Licensing/02.04.05.08.01_Tagging_a_pin_configuration_file_with_a_license_lock.md>) —— Introduced in SmarTest 6.5.2
+- [Disabling a pin configuration license lock](<02_System_reference/02.04_Model_File_and_Licensing/02.04.05.08.02_Disabling_a_pin_configuration_license_lock.md>) —— Introduced in SmarTest 6.5.2
+- [Device specific licensing](<02_System_reference/02.04_Model_File_and_Licensing/02.04.05.08_Device_specific_licensing.md>) —— Introduced in SmarTest 6.5.2
+- [Firmware view](<02_System_reference/02.06_Command_Reference/02.06.01.02_Firmware_view.md>) —— Introduced in SmarTest 6.5.2
+- [ERCE? - (Expected and Received Cycle data of Events)](<02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md>) —— Introduced in SmarTest 6.5.2
+- [GETN? - (GEt Testdata Name)](<02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md>) —— Introduced in SmarTest 6.5.2
+- [UDPR - (UnDefine Pin Role)](<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>) —— Introduced in SmarTest 6.5.2
+- [DFPR, DFPR? - (DeFine Pin Role)](<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>) —— Introduced in SmarTest 6.5.2
+- [How to convert a user procedure to a UTM project](<02_System_reference/02.07_Test_Method_Reference/02.07.02.05.01_How_to_convert_a_user_procedure_to_a_UTM_project.md>) —— Introduced in SmarTest 6.5.2
+- [Converting user procedures to universal test methods](<02_System_reference/02.07_Test_Method_Reference/02.07.02.05_Converting_user_procedures_to_universal_test_methods.md>) —— Introduced in SmarTest 6.5.2
+- [AC test function conversion](<02_System_reference/02.07_Test_Method_Reference/02.07.02.06.01.01_AC_test_function_conversion.md>) —— Introduced in SmarTest 6.5.2
+- [SpecValue](<02_System_reference/02.07_Test_Method_Reference/02.07.02.13.03_SpecValue.md>) —— Introduced in SmarTest 6.5.2
+- [GET_UTILITY_LINES_STATUS](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.108_GET_UTILITY_LINES_STATUS.md>) —— Introduced in SmarTest 6.5.2
+- [CALC_COHERENCY](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.12_CALC_COHERENCY.md>) —— Introduced in SmarTest 6.5.2
+- [ShmooData](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.225_ShmooData.md>) —— Introduced in SmarTest 6.5.2
+- [ShmooSpec](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.228_ShmooSpec.md>) —— Introduced in SmarTest 6.5.2
+- [TESTSET().doLog_ShmooTest()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.04_TESTSET__.doLog_ShmooTest.md>) —— Introduced in SmarTest 6.5.2
+- [TESTSET().judgeAndLog_Dps()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.07_TESTSET__.judgeAndLog_Dps.md>) —— Introduced in SmarTest 6.5.2
+- [TESTSET().judgeAndLog_Spmu()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.17_TESTSET__.judgeAndLog_Spmu.md>) —— Introduced in SmarTest 6.5.2
+- [VEC_EVENTS](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.267_VEC_EVENTS.md>) —— Introduced in SmarTest 6.5.2
+- [DSP_SUM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.103_DSP_SUM.md>) —— Introduced in SmarTest 6.5.2
+- [DSP_CONCAT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.17_DSP_CONCAT.md>) —— Introduced in SmarTest 6.5.2
+- [DSP_FIR_FILTER1](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.36_DSP_FIR_FILTER1.md>) —— Introduced in SmarTest 6.5.2
+- [DSP_MEDIAN](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.48_DSP_MEDIAN.md>) —— Introduced in SmarTest 6.5.2
+- [DSP_RESAMPLING](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.64_DSP_RESAMPLING.md>) —— Introduced in SmarTest 6.5.2
+- [DSP_SFDR](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.90_DSP_SFDR.md>) —— Introduced in SmarTest 6.5.2
+- [DSP_SORT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.98_DSP_SORT.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_BASE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01_EVENT_BASE.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_IM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.12_EVENT_IM.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_RANGE_IM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.14_EVENT_RANGE_IM.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_RANGE_VM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.16_EVENT_RANGE_VM.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_VALUE_DOUBLE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.18_EVENT_VALUE_DOUBLE.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_VALUE_INT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.19_EVENT_VALUE_INT.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_VF](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.23_EVENT_VF.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_VFIM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.24_EVENT_VFIM.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_VFVM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.25_EVENT_VFVM.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_VM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.26_EVENT_VM.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM.samples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.01_EVENT_WAVEFORM_IM.samples.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM.getsamples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.02_EVENT_WAVEFORM_IM.getsamples.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM.sampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.03_EVENT_WAVEFORM_IM.sampleVectorDistance.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM.getSampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.04_EVENT_WAVEFORM_IM.getSampleVectorDistance.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.05_EVENT_WAVEFORM_IM.averages.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.06_EVENT_WAVEFORM_IM.getAverages.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM.iClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.09_EVENT_WAVEFORM_IM.iClampChecks.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM.getIClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.10_EVENT_WAVEFORM_IM.getIClampChecks.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.11_EVENT_WAVEFORM_IM.outOfRangeCheck.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.12_EVENT_WAVEFORM_IM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM.getRepeatCount()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33.13_EVENT_WAVEFORM_IM.getRepeatCount.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_IM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.33_EVENT_WAVEFORM_IM.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VF](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.37_EVENT_WAVEFORM_VF.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.vForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.01_EVENT_WAVEFORM_VFIM.vForce.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.getVForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.02_EVENT_WAVEFORM_VFIM.getVForce.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.sampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.03_EVENT_WAVEFORM_VFIM.sampleVectorDistance.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.getSampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.04_EVENT_WAVEFORM_VFIM.getSampleVectorDistance.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.getSamples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.05_EVENT_WAVEFORM_VFIM.getSamples.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.06_EVENT_WAVEFORM_VFIM.averages.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.07_EVENT_WAVEFORM_VFIM.getAverages.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.iClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.10_EVENT_WAVEFORM_VFIM.iClampChecks.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.getIClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.11_EVENT_WAVEFORM_VFIM.getIClampChecks.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.12_EVENT_WAVEFORM_VFIM.outOfRangeCheck.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.13_EVENT_WAVEFORM_VFIM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.getRepeatCount()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38.14_EVENT_WAVEFORM_VFIM.getRepeatCount.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.38_EVENT_WAVEFORM_VFIM.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.vForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.01_EVENT_WAVEFORM_VFVM.vForce.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFIM.getVForce()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.02_EVENT_WAVEFORM_VFIM.getVForce.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.sampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.03_EVENT_WAVEFORM_VFVM.sampleVectorDistance.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.getSampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.04_EVENT_WAVEFORM_VFVM.getSampleVectorDistance.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.getSamples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.05_EVENT_WAVEFORM_VFVM.getSamples.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.06_EVENT_WAVEFORM_VFVM.averages.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.07_EVENT_WAVEFORM_VFVM.getAverages.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.vForceCheckLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.08_EVENT_WAVEFORM_VFVM.vForceCheckLow.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.vForceCheckHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.09_EVENT_WAVEFORM_VFVM.vForceCheckHigh.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.getVForceCheckLow()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.10_EVENT_WAVEFORM_VFVM.getVForceCheckLow.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.getVForceCheckHigh()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.11_EVENT_WAVEFORM_VFVM.getVForceCheckHigh.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.clearVForceCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.12_EVENT_WAVEFORM_VFVM.clearVForceCheck.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.iClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.15_EVENT_WAVEFORM_VFVM.iClampChecks.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.getIClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.16_EVENT_WAVEFORM_VFVM.getIClampChecks.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.17_EVENT_WAVEFORM_VFVM.outOfRangeCheck.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.18_EVENT_WAVEFORM_VFVM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM.getRepeatCount()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39.19_EVENT_WAVEFORM_VFVM.getRepeatCount.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VFVM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39_EVENT_WAVEFORM_VFVM.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM.samples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.01_EVENT_WAVEFORM_VM.samples.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM.getSamples()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.02_EVENT_WAVEFORM_VM.getSamples.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM.sampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.03_EVENT_WAVEFORM_VM.sampleVectorDistance.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM.getSampleVectorDistance()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.04_EVENT_WAVEFORM_VM.getSampleVectorDistance.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM.averages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.05_EVENT_WAVEFORM_VM.averages.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM.getAverages()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.06_EVENT_WAVEFORM_VM.getAverages.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM.iClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.09_EVENT_WAVEFORM_VM.iClampChecks.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM.getIClampChecks()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.10_EVENT_WAVEFORM_VM.getIClampChecks.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM.outOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.11_EVENT_WAVEFORM_VM.outOfRangeCheck.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM.getOutOfRangeCheck()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.12_EVENT_WAVEFORM_VM.getOutOfRangeCheck.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM.getRepeatCount()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40.13_EVENT_WAVEFORM_VM.getRepeatCount.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_WAVEFORM_VM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.40_EVENT_WAVEFORM_VM.md>) —— Introduced in SmarTest 6.5.2
+- [EVENT_... (DC events API reference)](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63_EVENT_...__DC_events_API_reference.md>) —— Introduced in SmarTest 6.5.2
+- [ExecuteShellCommand](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.64_ExecuteShellCommand.md>) —— Introduced in SmarTest 6.5.2
+- [FLEX_UTILITY_CHANNEL_RES](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.68.04_FLEX_UTILITY_CHANNEL_RES.md>) —— Introduced in SmarTest 6.5.2
+- [GET_TESTHEAD_TEMPERATURE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.98_GET_TESTHEAD_TEMPERATURE.md>) —— Introduced in SmarTest 6.5.2
+- [SpecValue](<02_System_reference/02.07_Test_Method_Reference/02.07.04.02.14_SpecValue.md>) —— Introduced in SmarTest 6.5.2
+- [Shmoo](<02_System_reference/02.07_Test_Method_Reference/02.07.05.01.09_Shmoo.md>) —— Introduced in SmarTest 6.5.2
+- [Connect](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.01_Connect.md>) —— Introduced in SmarTest 6.5.2
+- [Disconnect](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.02_Disconnect.md>) —— Introduced in SmarTest 6.5.2
+- [ExecuteLinuxCommand](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.03_ExecuteLinuxCommand.md>) —— Introduced in SmarTest 6.5.2
+- [FwEscape](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.04_FwEscape.md>) —— Introduced in SmarTest 6.5.2
+- [GetUtilityLines](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.05_GetUtilityLines.md>) —— Introduced in SmarTest 6.5.2
+- [SetUtilityLines](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.07_SetUtilityLines.md>) —— Introduced in SmarTest 6.5.2
+- [StartSequencer](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.08_StartSequencer.md>) —— Introduced in SmarTest 6.5.2
+- [TestheadTemperature](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.09_TestheadTemperature.md>) —— Introduced in SmarTest 6.5.2
+- [TestState](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.10_TestState.md>) —— Introduced in SmarTest 6.5.2
+- [Miscellaneous test methods (miscellaneous_tml)](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04_Miscellaneous_test_methods__miscellaneous_tml.md>) —— Introduced in SmarTest 6.5.2
+- [Creating a Digital Capture setup](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.01.02.07.02.05.01_Creating_a_Digital_Capture_setup.md>) —— Introduced in SmarTest 6.5.2
+- [Deleting a vector variable](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.01.02.07.02.05.02_Deleting_a_vector_variable.md>) —— Introduced in SmarTest 6.5.2
+- [Change Device wizard](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03_Change_Device_wizard.md>) —— Introduced in SmarTest 6.5.2
+- [Pin alias set (PIN_ALIAS_SET)](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.05_Pin_alias_set__PIN_ALIAS_SET.md>) —— Introduced in SmarTest 6.5.2
+- [New Device wizard](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15_New_Device_wizard.md>) —— Introduced in SmarTest 6.5.2
+- [Pattern editor properties view](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.03_Pattern_editor_properties_view.md>) —— Introduced in SmarTest 6.5.2
+- [Replacing failed state characters for golden device](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.06_Replacing_failed_state_characters_for_golden_device.md>) —— Introduced in SmarTest 6.5.2
+- [Locating events and their test points](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.08_Locating_events_and_their_test_points.md>) —— Introduced in SmarTest 6.5.2
+- [Renaming events and test points](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.09_Renaming_events_and_test_points.md>) —— Introduced in SmarTest 6.5.2
+- [Creating a Digital Capture setup](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.17_Creating_a_Digital_Capture_setup.md>) —— Introduced in SmarTest 6.5.2
+- [Alias set](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.01.04_Alias_set.md>) —— Introduced in SmarTest 6.5.2
+- [Alias Set Editor](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.04_Alias_Set_Editor.md>) —— Introduced in SmarTest 6.5.2
+- [Pin configuration master file](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.05_Pin_configuration_master_file.md>) —— Introduced in SmarTest 6.5.2
+- [Testsuite list](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.19.02.01.03.03_Testsuite_list.md>) —— Introduced in SmarTest 6.5.2
+- [Floating test suite](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.01.03_Floating_test_suite.md>) —— Introduced in SmarTest 6.5.2
+- [Connecting a floating test suite to the testflow](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.04.03.01_Connecting_a_floating_test_suite_to_the_testflow.md>) —— Introduced in SmarTest 6.5.2
+- [Creating a floating test suite](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.01.04.03_Creating_a_floating_test_suite.md>) —— Introduced in SmarTest 6.5.2
+- [Configuring the Testflow Tool](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.07_Configuring_the_Testflow_Tool.md>) —— Introduced in SmarTest 6.5.2
+- [Pin alias set (PIN_ALIAS_SET)](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.03.02_Pin_alias_set__PIN_ALIAS_SET.md>) —— Introduced in SmarTest 6.5.2
+- [Pin alias set (PIN_ALIAS_SET)](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.04.02_Pin_alias_set__PIN_ALIAS_SET.md>) —— Introduced in SmarTest 6.5.2
+- [LoadTestflowSync](<02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.30_LoadTestflowSync.md>) —— Introduced in SmarTest 6.5.2
+- [LoadTestprogramSync](<02_System_reference/02.09_Test_Program_Management/02.09.01.10.03.02.02.31_LoadTestprogramSync.md>) —— Introduced in SmarTest 6.5.2
+- [How to use the test suite control API](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.01_How_to_use_the_test_suite_control_API.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.attachTestmethod()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.01_TestsuiteProxy.attachTestmethod.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.executeActiveSites()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.02_TestsuiteProxy.executeActiveSites.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.executeSiteInFocus()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.03_TestsuiteProxy.executeSiteInFocus.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getAnalogSet()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.04_TestsuiteProxy.getAnalogSet.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getLevelEquation()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.05_TestsuiteProxy.getLevelEquation.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getLevelSet()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.06_TestsuiteProxy.getLevelSet.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getLevelSpec()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.07_TestsuiteProxy.getLevelSpec.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getName()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.08_TestsuiteProxy.getName.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getSequencerLabel()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.09_TestsuiteProxy.getSequencerLabel.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getSiteMatch()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.10_TestsuiteProxy.getSiteMatch.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getTestmethodDefaultLimitNames()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.11_TestsuiteProxy.getTestmethodDefaultLimitNames.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getTestmethodLimitValue()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.12_TestsuiteProxy.getTestmethodLimitValue.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getTestmethodName()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.13_TestsuiteProxy.getTestmethodName.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getTestmethodParameterNames()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.14_TestsuiteProxy.getTestmethodParameterNames.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getTestmethodParameterValue()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.15_TestsuiteProxy.getTestmethodParameterValue.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getTestmethodUserDefinedLimitNames()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.16_TestsuiteProxy.getTestmethodUserDefinedLimitNames.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getTestsuiteFlag()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.17_TestsuiteProxy.getTestsuiteFlag.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getTimingEquation()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.18_TestsuiteProxy.getTimingEquation.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getTimingSet()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.19_TestsuiteProxy.getTimingSet.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.getTimingSpec ()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.20_TestsuiteProxy.getTimingSpec.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.isExecuted()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.21_TestsuiteProxy.isExecuted.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.isMultiportTiming()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.22_TestsuiteProxy.isMultiportTiming.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.isPass()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.23_TestsuiteProxy.isPass.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.setAnalogSet()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.24_TestsuiteProxy.setAnalogSet.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.setEquationBasedLevel()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.25_TestsuiteProxy.setEquationBasedLevel.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.setEquationBasedTiming()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.26_TestsuiteProxy.setEquationBasedTiming.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.setMultiportTiming()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.27_TestsuiteProxy.setMultiportTiming.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.setName()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.28_TestsuiteProxy.setName.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.setSequencerLabel()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.29_TestsuiteProxy.setSequencerLabel.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.setSiteMatch()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.30_TestsuiteProxy.setSiteMatch.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.setTestmethodLimits()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.31_TestsuiteProxy.setTestmethodLimits.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.setTestmethodParameterValues()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.32_TestsuiteProxy.setTestmethodParameterValues.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy.setTestsuiteFlag()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.33_TestsuiteProxy.setTestsuiteFlag.md>) —— Introduced in SmarTest 6.5.2
+- [TestsuiteProxy](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01_TestsuiteProxy.md>) —— Introduced in SmarTest 6.5.2
+- [initializeSession()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.04_initializeSession.md>) —— Introduced in SmarTest 6.5.2
+- [getTestsuite()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.05_getTestsuite.md>) —— Introduced in SmarTest 6.5.2
+- [getAllTestsuiteNames()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.06_getAllTestsuiteNames.md>) —— Introduced in SmarTest 6.5.2
+- [getSpecialTestsuite()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.07_getSpecialTestsuite.md>) —— Introduced in SmarTest 6.5.2
+- [createFloatingTestsuite()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.08_createFloatingTestsuite.md>) —— Introduced in SmarTest 6.5.2
+- [deleteFloatingTestsuite()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.09_deleteFloatingTestsuite.md>) —— Introduced in SmarTest 6.5.2
+- [selectTestmethodExecutor()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.10_selectTestmethodExecutor.md>) —— Introduced in SmarTest 6.5.2
+- [getTestmethodExecutorIndex()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.11_getTestmethodExecutorIndex.md>) —— Introduced in SmarTest 6.5.2
+- [setSiteInFocus()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.12_setSiteInFocus.md>) —— Introduced in SmarTest 6.5.2
+- [getSiteInFocus()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.13_getSiteInFocus.md>) —— Introduced in SmarTest 6.5.2
+- [setActiveSites()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.14_setActiveSites.md>) —— Introduced in SmarTest 6.5.2
+- [getActiveSites()](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.15_getActiveSites.md>) —— Introduced in SmarTest 6.5.2
+- [Test suite control API reference](<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02_Test_suite_control_API_reference.md>) —— Introduced in SmarTest 6.5.2
+- [DRLShmooCellResult](<02_System_reference/02.10_Data_Logging/02.10.01.04.02.70_DRLShmooCellResult.md>) —— Introduced in SmarTest 6.5.2
+- [DRLShmooTestAttr](<02_System_reference/02.10_Data_Logging/02.10.01.04.02.76_DRLShmooTestAttr.md>) —— Introduced in SmarTest 6.5.2
+- [ShmooTestAttrType](<02_System_reference/02.10_Data_Logging/02.10.01.06.05.46_ShmooTestAttrType.md>) —— Introduced in SmarTest 6.5.2
+- [TESTSET.doLog_ShmooTest sample output](<02_System_reference/02.10_Data_Logging/02.10.02.14.01_TESTSET.doLog_ShmooTest_sample_output.md>) —— Introduced in SmarTest 6.5.2
+- [Implementing bin_disconnect to overcome the pass or fail site dependency issue](<03_Use_cases_and_application_papers/03.04_How_to_do_disconnect/03.04.01.04.01_Implementing_bin_disconnect_to_overcome_the_pass_or_fail_site_dependency.md>) —— Introduced in SmarTest 6.5.2
+- [Special test suite bin_disconnect](<03_Use_cases_and_application_papers/03.04_How_to_do_disconnect/03.04.01.04_Special_test_suite_bin_disconnect.md>) —— Introduced in SmarTest 6.5.2
+- [Enabling test points in the .technology file](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.01_Enabling_test_points_in_the_.technology_file.md>) —— Introduced in SmarTest 6.5.2
+- [Configuring the pins for a dynamic DC test](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.02_Configuring_the_pins_for_a_dynamic_DC_test.md>) —— Introduced in SmarTest 6.5.2
+- [Creating a pattern for a dynamic DC test](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.05_Creating_a_pattern_for_a_dynamic_DC_test.md>) —— Introduced in SmarTest 6.5.2
+- [Defining events and test points for a dynamic DC test](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.06_Defining_events_and_test_points_for_a_dynamic_DC_test.md>) —— Introduced in SmarTest 6.5.2
+- [Setting up the functional test for a dynamic DC test](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.08_Setting_up_the_functional_test_for_a_dynamic_DC_test.md>) —— Introduced in SmarTest 6.5.2
+- [Setting up the (dis-)connect tasks for a dynamic DC test and building the test methods](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.09_Setting_up_the__dis-_connect_tasks_for_a_dynamic_DC_test_and_building_th.md>) —— Introduced in SmarTest 6.5.2
+- [Setting up the testflow for a dynamic DC test](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.10_Setting_up_the_testflow_for_a_dynamic_DC_test.md>) —— Introduced in SmarTest 6.5.2
+- [Executing the dynamic DC test and displaying the result](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.11_Executing_the_dynamic_DC_test_and_displaying_the_result.md>) —— Introduced in SmarTest 6.5.2
+- [Showing the resulting dynamic DC signal waveform](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.12_Showing_the_resulting_dynamic_DC_signal_waveform.md>) —— Introduced in SmarTest 6.5.2
+- [Debugging the dynamic DC test setup](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01.13_Debugging_the_dynamic_DC_test_setup.md>) —— Introduced in SmarTest 6.5.2
+- [A dynamic DC test example](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.01_A_dynamic_DC_test_example.md>) —— Introduced in SmarTest 6.5.2
+- [How to convert a user procedure to a UTM project](<03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.02.01_How_to_convert_a_user_procedure_to_a_UTM_project.md>) —— Introduced in SmarTest 6.5.2
+- [Converting user procedures to universal test methods](<03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.02_Converting_user_procedures_to_universal_test_methods.md>) —— Introduced in SmarTest 6.5.2
+
+
+## 出处
+
+- 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 405 条**，涉及 **364 篇**文档。
+- 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
+- **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
