@@ -4484,3 +4484,17 @@ In the Start Analysis mode, enter a positive value between 0 and ...
 
 **没有锁 `agent-markdown/`**：按 §1.2 那一层是**可以**改的（A 类例外）。
 锁上等于把五步流程废掉——**锁要锁在该锁的地方，多锁一处就是把规矩也锁死了。**
+
+**实况**：`tdc-html/raw/` 共 **15,121 个文件，全部只读**（试写被 `PermissionError` 挡下；
+`git status` 不受影响，该树 15,121 个文件本就全部已跟踪）。
+
+**开锁**（确需改动时——例如将来语料升级到新版 TDC、整棵要换）：
+
+```bash
+cd F:/master-dev/dorm-wsl-sytest/tdc-html/raw && attrib -R *.* /s
+```
+
+**一个要知道的副作用**：只读会让 `git checkout` / `git reset --hard`
+**在这棵子树上失败**（Windows 上 git 删不掉只读文件）。
+**这既是护栏也是麻烦**——护栏是它挡住了误改，麻烦是它也会挡住你想做的整树操作。
+**哪天 git 报 `unable to unlink`，先看是不是这里**，别先去怀疑磁盘或权限。
