@@ -131,7 +131,14 @@ def scan_md():
                         if any(pre_h[-k:] == ctx(om.start())[-k:] for k in range(50, 9, -1)
                                if k <= len(pre_h) and k <= len(ctx(om.start())))]
                 if len(offs) != 1:
-                    skipped.append((md.name, lit, f'定位到 {len(offs)} 处，需人工'))
+                    # ★ **桶名要说实话。** 原来 0 处也叫「需人工」——
+                    # 于是报告里出现「80 处未核」，我去查了一遍，**一处上标损坏都没有**：
+                    # 全是「本批已修好的」+「表格标记被误分类」。
+                    # **桶名说错，比没查更坏**——它会让人再查一遍。
+                    if not offs:
+                        skipped.append((md.name, lit, 'md 里没有粘连形态（已修 / 本来就没丢）'))
+                    else:
+                        skipped.append((md.name, lit, f'定位到 {len(offs)} 处，需人工判位置'))
                     continue
                 hits.append((md, offs[0], base, inner, lit, f.name, txt))
     return hits, skipped
