@@ -1,0 +1,224 @@
+[
+{
+"layer": "raw",
+"file": "98749.htm",
+"before": "2<sup>32-1</sup>",
+"after": "2<sup>32</sup>-1",
+"why": "同文件另有 12 处写 `2<sup>31</sup>-1`（`-1` 在上标外）——此处 `-1` 被包进去了"
+},
+{
+"layer": "raw",
+"file": "98749.htm",
+"before": "2<sup>16-1</sup>",
+"after": "2<sup>16</sup>-1",
+"why": "同上"
+},
+{
+"layer": "raw",
+"file": "98749_2.htm",
+"before": "2<sup>32-1</sup>",
+"after": "2<sup>32</sup>-1",
+"why": "同上（重投件）"
+},
+{
+"layer": "raw",
+"file": "98749_2.htm",
+"before": "2<sup>16-1</sup>",
+"after": "2<sup>16</sup>-1",
+"why": "同上"
+},
+{
+"layer": "raw",
+"file": "125001.htm",
+"before": "(2<sup>n).</sup>",
+"after": "(2<sup>n</sup>).",
+"why": "`)` `.` 被包进上标，渲染成 2 的「n).」次方"
+},
+{
+"layer": "raw",
+"file": "125003.htm",
+"before": "(2<sup>n).</sup>",
+"after": "(2<sup>n</sup>).",
+"why": "同上（重投件）"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md",
+"offset": 13468,
+"base": "2",
+"exp": "n",
+"lit": "2n",
+"html": "100076.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.17.01_Overview_of_pseudo_random_bit_sequences.md",
+"offset": 4011,
+"base": "2",
+"exp": "j",
+"lit": "2j",
+"html": "118592.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\03_Use_cases_and_application_papers\\03.14_Application_Papers\\03.14.02.21_Accurate_Incoherent_Signal_Measurement_with_RTSPU.md",
+"offset": 7153,
+"base": "e",
+"exp": "jwt",
+"lit": "ejwt",
+"html": "120456.htm",
+"rel": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.02.21_Accurate_Incoherent_Signal_Measurement_with_RTSPU.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\03_Use_cases_and_application_papers\\03.14_Application_Papers\\03.14.06.08_X-Mode_Pattern_Synchronization_to_Free_Running_Bit_Streams.md",
+"offset": 26251,
+"base": "2",
+"exp": "n",
+"lit": "2n",
+"html": "123993.htm",
+"rel": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.06.08_X-Mode_Pattern_Synchronization_to_Free_Running_Bit_Streams.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.07_Test_Method_Reference\\02.07.04.01.24_DC_PROFILING_DEFINE.md",
+"offset": 3066,
+"base": "2",
+"exp": "n",
+"lit": "2n",
+"html": "125001.htm",
+"rel": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.24_DC_PROFILING_DEFINE.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.07_Test_Method_Reference\\02.07.04.01.27_DC_PROFILING_ON.md",
+"offset": 3960,
+"base": "2",
+"exp": "n",
+"lit": "2n",
+"html": "125003.htm",
+"rel": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.27_DC_PROFILING_ON.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\03_Use_cases_and_application_papers\\03.14_Application_Papers\\03.14.04.07_A_Novel_Dynamic_Method_to_Generate_PRBS_Pattern.md",
+"offset": 2678,
+"base": "2",
+"exp": "X",
+"lit": "2X",
+"html": "129462.htm",
+"rel": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.04.07_A_Novel_Dynamic_Method_to_Generate_PRBS_Pattern.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.07_Test_Method_Reference\\02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md",
+"offset": 3314,
+"base": "2",
+"exp": "n",
+"lit": "2n",
+"html": "149558.htm",
+"rel": "02_System_reference/02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.07_Test_Method_Reference\\02.07.03.04.04_FS_Gain___LSB_Gain.md",
+"offset": 1057,
+"base": "2",
+"exp": "n",
+"lit": "2n",
+"html": "26088.htm",
+"rel": "02_System_reference/02.07_Test_Method_Reference/02.07.03.04.04_FS_Gain___LSB_Gain.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.07_Test_Method_Reference\\02.07.13.01.10_SmartRDI_7.4.4.md",
+"offset": 818,
+"base": "2",
+"exp": "n",
+"lit": "2n",
+"html": "344019.htm",
+"rel": "02_System_reference/02.07_Test_Method_Reference/02.07.13.01.10_SmartRDI_7.4.4.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.11_Data_Conversion_and_Bridges\\02.11.02.02.03_The_X-Mode_Control_File___.cmb.md",
+"offset": 2061,
+"base": "n",
+"exp": "m",
+"lit": "nm",
+"html": "37494.htm",
+"rel": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.02.03_The_X-Mode_Control_File___.cmb.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.11_Data_Conversion_and_Bridges\\02.11.02.02.03_The_X-Mode_Control_File___.cmb.md",
+"offset": 2344,
+"base": "n",
+"exp": "m",
+"lit": "nm",
+"html": "37494.htm",
+"rel": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.02.03_The_X-Mode_Control_File___.cmb.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md",
+"offset": 15856,
+"base": "2",
+"exp": "n",
+"lit": "2n",
+"html": "98518.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md",
+"offset": 17998,
+"base": "2",
+"exp": "n",
+"lit": "2n",
+"html": "98530.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 16323,
+"base": "2",
+"exp": "32",
+"lit": "232",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 16569,
+"base": "2",
+"exp": "16",
+"lit": "216",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 16434,
+"base": "2",
+"exp": "32",
+"lit": "232",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"layer": "md",
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 16680,
+"base": "2",
+"exp": "16",
+"lit": "216",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+}
+]

@@ -4537,3 +4537,66 @@ In the Start Analysis mode, enter a positive value between 0 and ...
 
 留底：`extract/_assign_signed.json`、`extract/findings-corpus-superscript-loss-evidence-signed.md`、
 `extract/fix_corpus_superscript_signed.py`、`extract/scan_signed_exponent.py`（定位，只报不改）。
+
+
+## [2026-09-23] **G 类修完**：符号 / 公式上标 —— **第一次动 raw**（raw 6 + md 18）
+
+### 一、规矩改了
+
+原本 §1.2 写「`tdc-html/raw/` 一个字不许动」。**2026-09-23 用户改掉了**：
+
+> **raw 有问题你就改 raw，markdown 有问题你就改 md。**
+
+**改得有道理**：原来那条的理由是「HTML 是 A 类唯一的对证上游，改掉就再也证不了」。
+现在**两层的改动都在 git 里**，回滚有底——git 的历史接管了「不许动」想干的事。
+**同一天立的「上游不动，才重放得出来」也还成立**：重放读的是 `git show HEAD:`，不是工作区。
+
+### 二、raw 侧：6 处
+
+判据**不是「我觉得」，是同一文件里别处的写法**：
+
+| 文件 | 改前 | 改后 | 凭据 |
+|---|---|---|---|
+| `98749.htm` ×2 | `2<sup>32-1</sup>` / `2<sup>16-1</sup>` | `2<sup>32</sup>-1` / `2<sup>16</sup>-1` | **同文件另有 12 处写 `2<sup>31</sup>-1`**（`-1` 在上标外） |
+| `98749_2.htm` ×2 | 同上 | 同上 | 同上（重投件） |
+| `125001.htm` | `(2<sup>n).</sup>` | `(2<sup>n</sup>).` | `)` `.` 被包进上标，渲染成 2 的「n).」次方 |
+| `125003.htm` | 同上 | 同上 | 同上（重投件） |
+
+### 三、md 侧：18 处（raw 是对的，md 丢了上标）
+
+`(2<sup>n</sup>)` → `2n`、`e<sup>jwt</sup>` → `ejwt`、`n<sup>m</sup>` → `nm`、
+`2<sup>X</sup>` → `2X`、`2<sup>32</sup>-1` → `232-1` 等。
+
+### 四、具名排除（**一个字没动**）
+
+- `118592.htm` 的 `xj` / `xj-1`：该篇把 `<sup>` 当**下标**用（`c1*x1` / `x3` / `x0`），展平是对的
+- `46266.htm` 的 `yx`：指数还是下标判不出 → **留给人**
+- `344019.htm` 的 `2n-1`：raw 是 `2<sup>n-1</sup>` = 2^(n-1)，**raw 是对的**；
+  写成 `2^n-1` 会读错，得写 `2^(n-1)`——**这个写法要人定**
+- `69125.htm` `<sup>1)</sup>`（`<a>` 包裹的脚注）、`151881.htm` `<sup>TM</sup>`、
+  `120830.htm` `<sup>[a]</sup>`
+- 序数后缀 99 处、脚注标记 1,235 处——**都不是损坏**
+
+### 五、这一批我自己犯的两个错
+
+**错一：想用放宽判据去兜几个具体处。**
+raw 修完 `2<sup>32-1</sup>` → `2<sup>32</sup>` 之后，上标成了纯数字 `32`，
+被「纯数字 = A/D 已处置」跳过，它的 md（`232-1`）**漏改 4 处**。
+我改成「看 md 里还有没有粘连形态」——**一下卷进来 91 处**（`I<sup>2</sup>`、
+`m<sup>2</sup>`、`x<sup>5</sup>`），那是**表里 B/E 类待判的那批**，不是 G。
+**正解是具名列出那 4 处**（`MD_FORCE`），不是放宽判据。
+
+**错二：清单被第二轮 `--apply` 覆盖。**
+清单只写「本次结果」，不合并——第二轮（4 处）盖掉了第一轮（14 处），只剩 10 条。
+**和 `_assign.json` 被空表覆盖是同一类毛病。** 已改成合并；
+去重键还要带 `offset`（同一文件里两处形态相同时，不带就会**静默丢条目**——`37494.htm` 有两个 `n^m`）。
+**补救照旧：不靠记忆补写，用读 HEAD 的方式重算**（raw 读工作区 + md 读 HEAD = 本批的完整状态）。
+
+### 六、验收
+
+- 语料：19 篇 / 24 行改动；**每行要么只多一个 `^`，要么是标点搬家**（逐行核对）
+- 第十二类一度报 `command-reference` 语法节过期（raw 改了）→ `--refresh-syntax` 重刷
+- 总闸 13 类全绿，EXIT=0
+
+留底：`extract/_assign_symbol.json`、`extract/findings-corpus-superscript-loss-evidence-symbol.md`、
+`extract/fix_corpus_superscript_symbol.py`、`extract/scan_symbol_superscript.py`（只报不改）。

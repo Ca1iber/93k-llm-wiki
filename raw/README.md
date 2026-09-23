@@ -46,6 +46,13 @@ by-category/
     清单 `extract/_assign.json`、脚本 `extract/fix_corpus_superscript.py`、
     完整账 `extract/findings-corpus-superscript-loss.md`、log 见 `wiki/log.md`。
     **`tdc-html/raw/` 的 HTML 一个字没动。**
+  - **第三批（已改完，2026-09-23）**：**G 类——符号 / 公式上标**，**raw 6 处 + md 18 处**。
+    **这一批第一次动了 `tdc-html/raw/`**——因为规矩改了（用户定）：
+    「**raw 有问题你就改 raw，markdown 有问题你就改 md**」。
+    raw 侧的判据不是「我觉得」，是**同一文件里别处的写法**
+    （`98749.htm` 有 12 处写 `2<sup>31</sup>-1`，那 2 处却写 `2<sup>32-1</sup>`）。
+    证据表 `extract/findings-corpus-superscript-loss-evidence-symbol.md`、
+    清单 `extract/_assign_symbol.json`、脚本 `extract/fix_corpus_superscript_symbol.py`。
   - **第二批（已改完，2026-09-23）**：**D 类 3 处 / 3 篇**——带符号指数被拍平
     （`10<sup>-9</sup>` → `10-9`，与 A 类同一机制，A 类脚本的正则漏了带符号的）。
     证据表 `extract/findings-corpus-superscript-loss-evidence-signed.md`、

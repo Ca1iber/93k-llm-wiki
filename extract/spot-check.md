@@ -1337,7 +1337,7 @@ protected:
 
 *抽样理由：补齐（全库等距，非随机）*
 
-- 字节 1257 / 标题 1 / 出度 0 / 代码块 0
+- 字节 1258 / 标题 1 / 出度 0 / 代码块 0
 - frontmatter：`{"source_html": "02_System_reference/02.07_Test_Method_Reference/02.07.03.04.04_FS_Gain___LSB_Gain.htm", "source_topic": "26088.htm", "title": "FS Gain / LSB Gain"}`
 - title：`FS Gain / LSB Gain`
 - 结构段落：（无）
