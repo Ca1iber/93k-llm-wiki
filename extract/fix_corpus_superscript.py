@@ -193,11 +193,21 @@ with EVID.open('w', encoding='utf-8', newline='\n') as fh:
 print(f'\n证据表 → {EVID}')
 
 # 机器可读的清单（供校验与日后重放）
-(WIKI / 'extract' / '_assign.json').write_text(json.dumps(
-    [dict(md=str(md), offset=off, base=e['base'], exp=e['exp'], lit=e['lit'],
-          html=e['hf'], rel=md.relative_to(MD).as_posix())
-     for (md, off), e in sorted(assign.items(), key=lambda kv: (str(kv[0][0]), kv[0][1]))],
-    ensure_ascii=False, indent=0), encoding='utf-8')
+# ★ **合并，不重写**——同一条规矩，见 `fix_corpus_superscript_signed.py` 的 `guard()`。
+_AP = WIKI / 'extract' / '_assign.json'
+_new = [dict(layer='md', md=str(md), offset=off, base=e['base'], exp=e['exp'], lit=e['lit'],
+             html=e['hf'], rel=md.relative_to(MD).as_posix())
+        for (md, off), e in sorted(assign.items(), key=lambda kv: (str(kv[0][0]), kv[0][1]))]
+_old = json.loads(_AP.read_text(encoding='utf-8')) if _AP.exists() else []
+_merged, _seen = [], set()
+for _e in _new + _old:
+    _k = (_e.get('layer'), _e['md'], _e['lit'], _e.get('offset'))
+    if _k in _seen:
+        continue
+    _seen.add(_k)
+    _merged.append(_e)
+if _merged:
+    _AP.write_text(json.dumps(_merged, ensure_ascii=False, indent=0), encoding='utf-8')
 
 # ---------- 5. 落盘 ----------
 if not APPLY:
