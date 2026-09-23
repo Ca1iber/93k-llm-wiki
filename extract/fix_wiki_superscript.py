@@ -42,10 +42,29 @@ A 类修复的**下游**：把 wiki 页**散文**里被拍平的数字改回 `^`
 > **教训二**：兜住了「漏」，却出了「错」——见上面那两节。
 > **判据不自证**：它对散文成立，对脚本那一节不成立。**范围要和判据一起写死。**
 
-## 搜索范围
+## 搜索范围（**两侧都要写死，不然判据会自己变宽或变窄**）
 
-只搜**那 60 篇有过损坏的文件**（约 460 KB），不搜全库 26 MB——
+**一、语料侧**：只搜**那 60 篇有过损坏的文件**（约 460 KB），不搜全库 26 MB——
 wiki 里出现损坏拷贝，来源只可能是这 60 篇。快 80 倍，判据一样硬。
+
+**二、wiki 侧**：只扫**页面**（`wiki/` 下那 7 个目录），
+**不扫 `wiki/index.md`（目录）与 `wiki/log.md`（改动记录）**。
+
+- **`wiki/log.md` 里有意引着「改前」的形态当证据**（`0 to248 - 1`、`231 - 1`…）。
+  **扫它 = 有机会把记录改成假的**——那是 A 类修复唯一的账，比页面上的数字重要得多。
+- `wiki/index.md` 列的是页名与链接，不是散文。
+
+> **这一条是被一次「计数对不上」逼出来的。** 2026-09-23 往 log 里追加了一段文字之后，
+> 「跳过候选」从 7662 变成 7664。查下去：`log.md` 里有 `语法节 begin` ×6、**`end` ×0**，
+> 而 `owned_spans()` 找不到 `end` 时**保守地一路划到文件尾**——
+> 于是 `log.md` **整篇**都被当成「脚本管的范围」跳过了。
+>
+> **也就是说：此前 `log.md` 没被误改，靠的是这个兜底碰巧盖住了它，不是判据在管它。**
+> **靠碰巧保护住的东西不算保护**——兜底是给页面写的，`log.md` 只是搭了个便车。
+>
+> **排除是具名且可证伪的**：脚本先断言 `wiki/` 根下**只有**这两个非页面文件。
+> **多出第三个就直接报错**——宁可停下问一句，也不许它悄悄落在扫描范围之外
+> （「范围比自称的窄」这个毛病，本项目已经犯过很多次）。
 
 用法：
     python -X utf8 fix_wiki_superscript.py            # 空跑
@@ -118,8 +137,27 @@ print(f'语料比对串：{len({a["md"] for a in A})} 篇 / {len(fixed):,} 字�
 
 check_quoted_old()
 
+# ── wiki 侧的范围：**只扫页面** ─────────────────────────────────────
+#
+# 不扫 `wiki/index.md`（目录）与 `wiki/log.md`（改动记录）。
+# **`log.md` 里有意引着「改前」的形态当证据**——扫它就可能把记录改成假的。
+#
+# 这个排除**具名且可证伪**：先断言根下**只有**这两个非页面文件。
+# 多出第三个就报错——**宁可停下问一句，也不许它悄悄落在范围之外。**
+PAGE_DIRS = ('concepts', 'constraints', 'errors', 'mappings', 'objects', 'stages', 'versions')
+NOT_PAGE = {'index.md': '目录：列的是页名与链接，不是散文',
+            'log.md': '改动记录：**里面有意引着「改前」的形态当证据，扫它会把记录改成假的**'}
+
+_root_md = sorted(p.name for p in (WIKI / 'wiki').glob('*.md'))
+if _root_md != sorted(NOT_PAGE):
+    raise SystemExit(f'❌ wiki/ 根下的 md 变了：{_root_md}（清单里是 {sorted(NOT_PAGE)}）。\n'
+                     f'   范围是靠这份清单写死的——**多出来的那个算不算页面？先看它，再改清单。**')
+pages = sorted(p for d in PAGE_DIRS for p in (WIKI / 'wiki' / d).rglob('*.md'))
+print(f'扫描范围：{len(pages)} 个页面（{" ".join(PAGE_DIRS)}）；'
+      f'跳过非页面 {sorted(NOT_PAGE)}')
+
 hits, skipped, quoted = [], 0, 0
-for pg in sorted((WIKI / 'wiki').rglob('*.md')):
+for pg in pages:
     txt = pg.read_bytes().decode('utf-8', 'replace')
     spans = owned_spans(txt)
     rel = pg.relative_to(WIKI).as_posix()
