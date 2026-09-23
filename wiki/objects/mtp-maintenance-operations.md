@@ -97,7 +97,7 @@ main ()
 | **`maintop_time_a`** | **单次**刷新 |
 | **`static_maintop_time_x`**（`x` 任意字母） | **多次**刷新 |
 
-**边界**：**最长 9.2 秒**（原文：`228 times the test system period`）；
+**边界**：**最长 9.2 秒**（原文：`2^28 times the test system period`）；
 **最短 16 倍 test system period**。
 
 > ⚠️ **上面这两个数本页没有替它换算。** 原文把「9.2 秒」和「228 × test system period」

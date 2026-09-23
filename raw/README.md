@@ -40,8 +40,22 @@ by-category/
     **区别在于**：A 类改完 raw 说的还是原厂那句话；B 类改完就成了你的话，且再也分不出来。
 - 引用时用**相对路径**（相对 `by-category/`），写进 wiki 页面的 `sources:` 字段。
 - wiki 里每一句断言都要能追回这里的某个文件。追不回去的，就是编的。
-- **改过的每一处都要有 log 记录。** 已知第一批：151 处 / 60 篇，
-  见 `extract/findings-corpus-superscript-loss.md`（**尚未改**）。
+- **改过的每一处都要有 log 记录。**
+  - **第一批（已改完，2026-09-22）**：**151 处 / 60 篇**——数字上标被拍平（`2^48`→`248`）。
+    证据表 `extract/findings-corpus-superscript-loss-evidence.md`（151 行逐处对照）、
+    清单 `extract/_assign.json`、脚本 `extract/fix_corpus_superscript.py`、
+    完整账 `extract/findings-corpus-superscript-loss.md`、log 见 `wiki/log.md`。
+    **`tdc-html/raw/` 的 HTML 一个字没动。**
+  - **验法**：拿 `git show HEAD:` + 记录的偏移**重放**，60/60 篇逐字节一致；
+    CRLF 计数改前改后相同；带上下文锚复检 **151 → 0**。
+  - **这两个产物必须进版本库——2026-09-23 已进。** 2026-09-22 它们被**清空过一次**——
+    `fix_corpus_superscript.py` 的写盘在 `--apply` 判断**之前**，改完语料再空跑，
+    151 处全报「未定位」，**一份空表盖掉了好清单**；两份都是未追踪文件，**git 救不回**。
+    靠「HTML 没动」重算才补回（并与残留清单逐条对上）。
+    现已加互锁 **`guard()`：空结果不许覆盖非空清单**。
+    **教训**：同一次事故里，被追踪的 `findings-corpus-superscript-loss.md` 毫发无损，
+    **没进版本库的两份没了**——「数据要能重算」**不能拿来代替留版本**，
+    重算得出来的前提，恰恰是别的东西没被动过。
 
 ## 已知的语料特征
 

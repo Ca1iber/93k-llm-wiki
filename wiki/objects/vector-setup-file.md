@@ -19,7 +19,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **13,666 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.07.01_Concepts_of_vector_setup.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.07.01.01.01_The_label_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.01.02_The_vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.03.02_Deleting_a_sequencer_instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.04_Executing_a_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.01_Vector_generating_instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.02_Address_instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.03.01_Changing_the_timing_set__CTIM.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.04.01_Endless_loops.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.04.02_Counted_loops.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.05.02_SVEC_subroutines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.06_Instructions_for_PRBS_and_SmartLoop_tests.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.09.01_Data_transfer_from_the_vector_area_to_the_data_queue.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.01_Synchronization_within_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.02_De-coupling_ports_by_separate_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.03_Phase_synchronization_across_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.04_Defining_sequencing_groups.md>`。**不是转述。**
+> 本节 **13,668 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.07.01_Concepts_of_vector_setup.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.07.01.01.01_The_label_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.01.02_The_vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.03.02_Deleting_a_sequencer_instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.04_Executing_a_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.01_Vector_generating_instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.02_Address_instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.03.01_Changing_the_timing_set__CTIM.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.04.01_Endless_loops.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.04.02_Counted_loops.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.05.02_SVEC_subroutines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.06_Instructions_for_PRBS_and_SmartLoop_tests.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.09.01_Data_transfer_from_the_vector_area_to_the_data_queue.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.01_Synchronization_within_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.02_De-coupling_ports_by_separate_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.03_Phase_synchronization_across_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.04_Defining_sequencing_groups.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -378,7 +378,7 @@ The following is the sequencer program of a PRBS test.
 < SQPG 7,STOP,,,,(@)
 ```
 
-This example combines a PRBS test with a TMU per pin measurement. Note that the TMUA instruction is included in a loop. Note also that the first parameter of PRBS is set to its maximum value 231 - 1, and that the number of cycles is increased above this maximum by multiplication with the second parameter, which is also set to its maximum value 212 - 1.
+This example combines a PRBS test with a TMU per pin measurement. Note that the TMUA instruction is included in a loop. Note also that the first parameter of PRBS is set to its maximum value 2^31 - 1, and that the number of cycles is increased above this maximum by multiplication with the second parameter, which is also set to its maximum value 2^12 - 1.
 
 ### Example 2（取自子主题 Using sequencer instructions › Instructions for PRBS and SmartLoop tests）
 
@@ -749,11 +749,15 @@ For sequencing group definitions within a multi-port specification, see the exam
   **不能唯一反解**；上下文里读作 **™** 才通（**推断**：`SmartLoop™`）。
 - **代价照写**：拿修好的 `×` / `™` 去 raw 里搜**搜不到**，要搜坏掉的形态（§11.2）。
 
-**④ 上标丢失（推断）。** 语法节 `### Example 1（取自子主题 Using sequencer instructions › Instructions for PRBS and SmartLoop tests）` 里那句写的是
+**④ 上标丢失——已确认，且已于 2026-09-22 修复。** 语法节 `### Example 1（取自子主题 Using sequencer instructions › Instructions for PRBS and SmartLoop tests）` 里那句，修前的 markdown 写的是
 `the first parameter of PRBS is set to its maximum value 231 - 1`、`the second parameter, which is also set to its maximum value 212 - 1`。
-**这两个数只能是 2³¹ − 1 与 2¹² − 1**——依据是**同一段程序自己写着** `SQPG 5,PRBS,2147483647,4095`
-（2147483647 = 2³¹ − 1，4095 = 2¹² − 1）。**HTML 转 markdown 时 `<sup>` 丢了**（推断）。
-**本页照原样引，没替它补上标。**
+**这两个数是 2³¹ − 1 与 2¹² − 1**——依据是**同一段程序自己写着** `SQPG 5,PRBS,2147483647,4095`
+（2147483647 = 2³¹ − 1，4095 = 2¹² − 1）。
+**上游对得上：HTML 源里明写着 `<sup>31</sup>` / `<sup>12</sup>`，是转换时被拍平的**——属 A 类「转换损坏」，不再是推断。
+**2026-09-22 经人批准已修**（`schema.md` §1.2）：上游 `agent-markdown/` 与本节引文一并改回 `2^31 - 1` / `2^12 - 1`，
+**上面那行引文即是修后的 raw 原文**。全库共 **151 处**同类损坏，逐处证据与清单见
+`extract/findings-corpus-superscript-loss.md`、`extract/findings-corpus-superscript-loss-evidence.md`；
+动过哪些文件见 `wiki/log.md`。**HTML 侧一字未动。**
 
 **⑤ `waveform DC/DC power units`——原先写「本页不判」，现在收了：它不是原文如此，也不是 §11.2 那两族编码坏字。**
 语法节里有 **3 处** `waveform DC/DC power units`（两处在图的 alt 文字里：

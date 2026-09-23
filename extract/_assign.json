@@ -1,0 +1,1361 @@
+[
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.02_Specifications\\02.02.04.03.01_Pin_Scale_5000_basic_parameters.md",
+"offset": 395,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "351220.htm",
+"rel": "02_System_reference/02.02_Specifications/02.02.04.03.01_Pin_Scale_5000_basic_parameters.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.05_Test_Head_Cards\\02.05.04.02.02.01_Pin_Scale_5000_basic_parameters.md",
+"offset": 401,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "351220-1.htm",
+"rel": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.01_Pin_Scale_5000_basic_parameters.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1111,
+"base": "2",
+"exp": "7",
+"lit": "27",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1115,
+"base": "2",
+"exp": "5",
+"lit": "25",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1131,
+"base": "2",
+"exp": "7",
+"lit": "27",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1135,
+"base": "2",
+"exp": "5",
+"lit": "25",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1140,
+"base": "2",
+"exp": "3",
+"lit": "23",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1156,
+"base": "2",
+"exp": "7",
+"lit": "27",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1160,
+"base": "2",
+"exp": "5",
+"lit": "25",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1165,
+"base": "2",
+"exp": "3",
+"lit": "23",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1170,
+"base": "2",
+"exp": "2",
+"lit": "22",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1268,
+"base": "2",
+"exp": "7",
+"lit": "27",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1272,
+"base": "2",
+"exp": "5",
+"lit": "25",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.09_BDID__BDID__-__BoarD_ID.md",
+"offset": 1277,
+"base": "2",
+"exp": "2",
+"lit": "22",
+"html": "98489.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.103_EMAP__-__Error_MAP.md",
+"offset": 2899,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98590.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.112_ERCT__-__ERror_CounT.md",
+"offset": 1840,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98595.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md",
+"offset": 1991,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98607.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md",
+"offset": 3326,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98607.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.131_GETC__-__GET_Cycles.md",
+"offset": 1942,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98614.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.131_GETC__-__GET_Cycles.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.134_GETS__-__GET_Sets.md",
+"offset": 1434,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98616.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.134_GETS__-__GET_Sets.md",
+"offset": 1494,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98616.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.135_GETV__-__GET_Vectors.md",
+"offset": 1304,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98617.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.135_GETV__-__GET_Vectors.md",
+"offset": 1364,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98617.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.135_GETV__-__GET_Vectors.md",
+"offset": 1701,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98617.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md",
+"offset": 1850,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98499.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md",
+"offset": 2071,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98499.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md",
+"offset": 6250,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98746.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md",
+"offset": 6259,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98746.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 6419,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 10052,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 10123,
+"base": "2",
+"exp": "12",
+"lit": "212",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 10887,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 12883,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 12921,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 13667,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 13738,
+"base": "2",
+"exp": "12",
+"lit": "212",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 16630,
+"base": "2",
+"exp": "16",
+"lit": "216",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 17368,
+"base": "2",
+"exp": "19",
+"lit": "219",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 17647,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 17813,
+"base": "2",
+"exp": "24",
+"lit": "224",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 17856,
+"base": "2",
+"exp": "18",
+"lit": "218",
+"html": "98749.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md",
+"offset": 8855,
+"base": "2",
+"exp": "32",
+"lit": "232",
+"html": "116670.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md",
+"offset": 10643,
+"base": "2",
+"exp": "32",
+"lit": "232",
+"html": "116670.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.316_VALD__-__VALid_Data.md",
+"offset": 2965,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98841.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.316_VALD__-__VALid_Data.md",
+"offset": 3414,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98841.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.320_VCYC__-__Valid_CYCle.md",
+"offset": 1797,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98845.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.320_VCYC__-__Valid_CYCle.md",
+"offset": 2019,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98845.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.320_VCYC__-__Valid_CYCle.md",
+"offset": 2524,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98845.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md",
+"offset": 1323,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98873.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md",
+"offset": 1550,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98873.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md",
+"offset": 1899,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98873.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md",
+"offset": 1579,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98874.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md",
+"offset": 1928,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98874.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.36_CYCI__-__get_CYCle_Information.md",
+"offset": 2123,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "99098.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.36_CYCI__-__get_CYCle_Information.md",
+"offset": 2184,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "99098.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md",
+"offset": 1944,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98525.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md",
+"offset": 5786,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98574.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md",
+"offset": 1702,
+"base": "2",
+"exp": "16",
+"lit": "216",
+"html": "118966.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md",
+"offset": 1140,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98581.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md",
+"offset": 1367,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98581.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md",
+"offset": 1476,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98582.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md",
+"offset": 1638,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98582.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md",
+"offset": 1195,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98583.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md",
+"offset": 1357,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98583.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md",
+"offset": 1852,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98499_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md",
+"offset": 2073,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98499_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.01.08.01_Vector_generating_instructions.md",
+"offset": 825,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "10554.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.01.08.01_Vector_generating_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.01.08.01_Vector_generating_instructions.md",
+"offset": 960,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "10554.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.01.08.01_Vector_generating_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.01.08.01_Vector_generating_instructions.md",
+"offset": 1124,
+"base": "2",
+"exp": "24",
+"lit": "224",
+"html": "10554.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.01.08.01_Vector_generating_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.01.08.01_Vector_generating_instructions.md",
+"offset": 1167,
+"base": "2",
+"exp": "18",
+"lit": "218",
+"html": "10554.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.01.08.01_Vector_generating_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.01.08.06_Instructions_for_PRBS_and_SmartLoop_tests.md",
+"offset": 3427,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "118334.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.01.08.06_Instructions_for_PRBS_and_SmartLoop_tests.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.01.08.06_Instructions_for_PRBS_and_SmartLoop_tests.md",
+"offset": 3582,
+"base": "2",
+"exp": "12",
+"lit": "212",
+"html": "118334.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.01.08.06_Instructions_for_PRBS_and_SmartLoop_tests.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md",
+"offset": 1992,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98607_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md",
+"offset": 3327,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98607_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md",
+"offset": 6251,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98746_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md",
+"offset": 6260,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98746_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 6420,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 10163,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 10234,
+"base": "2",
+"exp": "12",
+"lit": "212",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 10998,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 12994,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 13032,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 13778,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 13849,
+"base": "2",
+"exp": "12",
+"lit": "212",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 16741,
+"base": "2",
+"exp": "16",
+"lit": "216",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 17479,
+"base": "2",
+"exp": "19",
+"lit": "219",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 17758,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 17924,
+"base": "2",
+"exp": "24",
+"lit": "224",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"offset": 17967,
+"base": "2",
+"exp": "18",
+"lit": "218",
+"html": "98749_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md",
+"offset": 5788,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98574_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md",
+"offset": 1992,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98607_3.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md",
+"offset": 3327,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98607_3.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md",
+"offset": 6251,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98746_3.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md",
+"offset": 6260,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98746_3.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md",
+"offset": 1852,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98499_3.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md",
+"offset": 2073,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98499_3.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.04_CYCI__-__get_CYCle_Information.md",
+"offset": 2125,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "99098_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.04_CYCI__-__get_CYCle_Information.md",
+"offset": 2186,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "99098_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md",
+"offset": 1946,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98525_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md",
+"offset": 1142,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98581_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md",
+"offset": 1369,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98581_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md",
+"offset": 1478,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98582_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md",
+"offset": 1640,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98582_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md",
+"offset": 1197,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98583_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md",
+"offset": 1359,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98583_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.18_EMAP__-__Error_MAP.md",
+"offset": 2900,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98590_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.20_ERCT__-__ERror_CounT.md",
+"offset": 1841,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98595_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.26_GETC__-__GET_Cycles.md",
+"offset": 1943,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98614_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.26_GETC__-__GET_Cycles.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.27_GETS__-__GET_Sets.md",
+"offset": 1435,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98616_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.27_GETS__-__GET_Sets.md",
+"offset": 1495,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98616_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.28_GETV__-__GET_Vectors.md",
+"offset": 1305,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98617_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.28_GETV__-__GET_Vectors.md",
+"offset": 1365,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98617_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.28_GETV__-__GET_Vectors.md",
+"offset": 1702,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98617_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md",
+"offset": 6251,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98746_4.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md",
+"offset": 6260,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98746_4.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.33_VALD__-__VALid_Data.md",
+"offset": 2966,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98841_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.33_VALD__-__VALid_Data.md",
+"offset": 3415,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98841_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.35_VCYC__-__Valid_CYCle.md",
+"offset": 1798,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98845_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.35_VCYC__-__Valid_CYCle.md",
+"offset": 2020,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98845_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.35_VCYC__-__Valid_CYCle.md",
+"offset": 2525,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "98845_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md",
+"offset": 1324,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98873_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md",
+"offset": 1551,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98873_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md",
+"offset": 1900,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98873_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md",
+"offset": 1580,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98874_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md",
+"offset": 1929,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98874_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md",
+"offset": 8856,
+"base": "2",
+"exp": "32",
+"lit": "232",
+"html": "116670_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md",
+"offset": 10644,
+"base": "2",
+"exp": "32",
+"lit": "232",
+"html": "116670_2.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.17.01_Overview_of_pseudo_random_bit_sequences.md",
+"offset": 4886,
+"base": "2",
+"exp": "3",
+"lit": "23",
+"html": "118592.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.07_Test_Method_Reference\\02.07.04.01.199.01_SEARCH_FUNC_PIN_TASK.md",
+"offset": 9567,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "71358.htm",
+"rel": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.199.01_SEARCH_FUNC_PIN_TASK.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.07_Test_Method_Reference\\02.07.04.01.257.01_TRANSITION_TEST_PINS.md",
+"offset": 10690,
+"base": "2",
+"exp": "32",
+"lit": "232",
+"html": "114956.htm",
+"rel": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.257.01_TRANSITION_TEST_PINS.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.07_Test_Method_Reference\\02.07.04.01.257.01_TRANSITION_TEST_PINS.md",
+"offset": 11359,
+"base": "2",
+"exp": "32",
+"lit": "232",
+"html": "114956.htm",
+"rel": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.257.01_TRANSITION_TEST_PINS.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.07_Test_Method_Reference\\02.07.04.01.53.30_DSP_EXP10_VEC.md",
+"offset": 1281,
+"base": "0",
+"exp": "2",
+"lit": "02",
+"html": "28967.htm",
+"rel": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.30_DSP_EXP10_VEC.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.08_Setup_and_Result_Tools\\02.08.04.16.02.06.10.02_Sequencer_instructions.md",
+"offset": 4238,
+"base": "2",
+"exp": "32",
+"lit": "232",
+"html": "99880.htm",
+"rel": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.08_Setup_and_Result_Tools\\02.08.04.16.02.06.10.02_Sequencer_instructions.md",
+"offset": 4322,
+"base": "2",
+"exp": "12",
+"lit": "212",
+"html": "99880.htm",
+"rel": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.08_Setup_and_Result_Tools\\02.08.04.16.02.06.10.02_Sequencer_instructions.md",
+"offset": 5989,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "99880.htm",
+"rel": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.08_Setup_and_Result_Tools\\02.08.04.16.02.06.10.02_Sequencer_instructions.md",
+"offset": 6058,
+"base": "2",
+"exp": "12",
+"lit": "212",
+"html": "99880.htm",
+"rel": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.08_Setup_and_Result_Tools\\02.08.04.16.02.06.10.02_Sequencer_instructions.md",
+"offset": 7524,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "99880.htm",
+"rel": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.08_Setup_and_Result_Tools\\02.08.04.16.02.06.10.02_Sequencer_instructions.md",
+"offset": 7570,
+"base": "2",
+"exp": "21",
+"lit": "221",
+"html": "99880.htm",
+"rel": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.08_Setup_and_Result_Tools\\02.08.04.16.02.06.10.02_Sequencer_instructions.md",
+"offset": 7891,
+"base": "2",
+"exp": "24",
+"lit": "224",
+"html": "99880.htm",
+"rel": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.08_Setup_and_Result_Tools\\02.08.04.16.02.06.10.02_Sequencer_instructions.md",
+"offset": 7986,
+"base": "2",
+"exp": "18",
+"lit": "218",
+"html": "99880.htm",
+"rel": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.08_Setup_and_Result_Tools\\02.08.04.34.02.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md",
+"offset": 1917,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98499_4.htm",
+"rel": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.08_Setup_and_Result_Tools\\02.08.04.34.02.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md",
+"offset": 2138,
+"base": "2",
+"exp": "48",
+"lit": "248",
+"html": "98499_4.htm",
+"rel": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.12_Memory_Test_Plus_7.10.2\\02.12.03.03.03.01.06_Values.md",
+"offset": 430,
+"base": "0",
+"exp": "18",
+"lit": "018",
+"html": "102931.htm",
+"rel": "02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.03.01.06_Values.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.12_Memory_Test_Plus_7.10.2\\02.12.03.03.03.01.06_Values.md",
+"offset": 445,
+"base": "0",
+"exp": "18",
+"lit": "018",
+"html": "102931.htm",
+"rel": "02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.03.01.06_Values.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.12_Memory_Test_Plus_7.10.2\\02.12.03.04.12_Maintenance_operations.md",
+"offset": 1877,
+"base": "2",
+"exp": "28",
+"lit": "228",
+"html": "75895.htm",
+"rel": "02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.04.12_Maintenance_operations.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\03_Use_cases_and_application_papers\\03.14_Application_Papers\\03.14.04.07_A_Novel_Dynamic_Method_to_Generate_PRBS_Pattern.md",
+"offset": 3036,
+"base": "2",
+"exp": "7",
+"lit": "27",
+"html": "129462.htm",
+"rel": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.04.07_A_Novel_Dynamic_Method_to_Generate_PRBS_Pattern.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\03_Use_cases_and_application_papers\\03.14_Application_Papers\\03.14.04.07_A_Novel_Dynamic_Method_to_Generate_PRBS_Pattern.md",
+"offset": 3071,
+"base": "2",
+"exp": "15",
+"lit": "215",
+"html": "129462.htm",
+"rel": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.04.07_A_Novel_Dynamic_Method_to_Generate_PRBS_Pattern.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\03_Use_cases_and_application_papers\\03.14_Application_Papers\\03.14.04.07_A_Novel_Dynamic_Method_to_Generate_PRBS_Pattern.md",
+"offset": 3112,
+"base": "2",
+"exp": "23",
+"lit": "223",
+"html": "129462.htm",
+"rel": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.04.07_A_Novel_Dynamic_Method_to_Generate_PRBS_Pattern.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\03_Use_cases_and_application_papers\\03.14_Application_Papers\\03.14.04.07_A_Novel_Dynamic_Method_to_Generate_PRBS_Pattern.md",
+"offset": 3156,
+"base": "2",
+"exp": "31",
+"lit": "231",
+"html": "129462.htm",
+"rel": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.04.07_A_Novel_Dynamic_Method_to_Generate_PRBS_Pattern.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\03_Use_cases_and_application_papers\\03.14_Application_Papers\\03.14.08.09_Use_of_Solid_State_Relays_as_a_Replacement_of_Mechanical_Relays_for_DUT.md",
+"offset": 9977,
+"base": "0",
+"exp": "7",
+"lit": "07",
+"html": "120509.htm",
+"rel": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.08.09_Use_of_Solid_State_Relays_as_a_Replacement_of_Mechanical_Relays_for_DUT.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\03_Use_cases_and_application_papers\\03.14_Application_Papers\\03.14.08.09_Use_of_Solid_State_Relays_as_a_Replacement_of_Mechanical_Relays_for_DUT.md",
+"offset": 9984,
+"base": "0",
+"exp": "9",
+"lit": "09",
+"html": "120509.htm",
+"rel": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.08.09_Use_of_Solid_State_Relays_as_a_Replacement_of_Mechanical_Relays_for_DUT.md"
+}
+]
