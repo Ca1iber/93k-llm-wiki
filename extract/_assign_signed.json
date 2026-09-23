@@ -1,0 +1,29 @@
+[
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.06_Command_Reference\\02.06.06.01.06.01_Avoiding_rounding_problems_with_the_fract___function.md",
+"offset": 1392,
+"base": "0",
+"exp": "-9",
+"lit": "0-9",
+"html": "124790.htm",
+"rel": "02_System_reference/02.06_Command_Reference/02.06.06.01.06.01_Avoiding_rounding_problems_with_the_fract___function.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.08_Setup_and_Result_Tools\\02.08.04.34.02.01.06.01_Avoiding_rounding_problems_with_the_fract___function.md",
+"offset": 1417,
+"base": "0",
+"exp": "-9",
+"lit": "0-9",
+"html": "124790_2.htm",
+"rel": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.06.01_Avoiding_rounding_problems_with_the_fract___function.md"
+},
+{
+"md": "F:\\master-dev\\dorm-wsl-sytest\\tdc-html\\agent-markdown\\by-category\\02_System_reference\\02.07_Test_Method_Reference\\02.07.04.01.249_TIMING_SPEC.md",
+"offset": 10603,
+"base": "0",
+"exp": "-9",
+"lit": "0-9",
+"html": "29809.htm",
+"rel": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.249_TIMING_SPEC.md"
+}
+]

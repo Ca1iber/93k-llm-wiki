@@ -452,3 +452,24 @@ In the Start Analysis mode, enter a positive value between 0 and ...
 > **两条待办**（不在本批）：
 > ① wiki 层该给这两处加标注（说明上游两个说法）；
 > ② 这类「同一句在多篇里不一致」的形态，值得像 §11.2 那样单列一族去扫一遍。
+
+## 十三、D 类：带符号指数被拍平（2026-09-23 已修）
+
+**3 处 / 3 篇**。`10<sup>-9</sup>` → `10-9`——**和 A 类同一个机制**，
+只是上标内容带正负号，`fix_corpus_superscript.py` 的正则 `\d{1,3}` 漏掉了它们。
+
+上游 `.htm` 明写 `10<sup>-9</sup>`；**下游自己就作证**：
+一处后面紧跟 `(nHz)`（纳赫兹 = 10⁻⁹ Hz），一处是 `seconds`（纳秒）。
+**`10-9` = 1，讲不通。**
+
+逐处对照见 `extract/findings-corpus-superscript-loss-evidence-signed.md`；
+清单 `extract/_assign_signed.json`；脚本 `extract/fix_corpus_superscript_signed.py`；
+定位（只报不改）`extract/scan_signed_exponent.py`；log 见 `wiki/log.md`。
+
+**验收**：3 行 diff，每行只是多一个 `^`（逐字符核对，异常 0）；`raw/` 0 篇；
+wiki 侧 `timing-spec` 三处分别处置（语法节重刷 / 引文跟改 / 标注 ④ 重写）；
+总闸 13 类全绿 EXIT=0。
+
+> **一条要记住的连锁**：改完语料，**页面里所有"声明了语料尺寸"的地方都会过期**。
+> 这次是第十四类（`timing-spec` 自述源文档 12,565 → 12,566）；
+> A 类那次是第十二类（语法节自述字符数）。**同一类病，两个地方。**

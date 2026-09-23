@@ -46,6 +46,10 @@ by-category/
     清单 `extract/_assign.json`、脚本 `extract/fix_corpus_superscript.py`、
     完整账 `extract/findings-corpus-superscript-loss.md`、log 见 `wiki/log.md`。
     **`tdc-html/raw/` 的 HTML 一个字没动。**
+  - **第二批（已改完，2026-09-23）**：**D 类 3 处 / 3 篇**——带符号指数被拍平
+    （`10<sup>-9</sup>` → `10-9`，与 A 类同一机制，A 类脚本的正则漏了带符号的）。
+    证据表 `extract/findings-corpus-superscript-loss-evidence-signed.md`、
+    清单 `extract/_assign_signed.json`、脚本 `extract/fix_corpus_superscript_signed.py`。
   - **验法**：拿 `git show HEAD:` + 记录的偏移**重放**，60/60 篇逐字节一致；
     CRLF 计数改前改后相同；带上下文锚复检 **151 → 0**。
   - **这两个产物必须进版本库——2026-09-23 已进。** 2026-09-22 它们被**清空过一次**——

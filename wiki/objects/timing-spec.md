@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,410 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.249_TIMING_SPEC.md>`。**不是转述。**
+> 本节 **2,411 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.249_TIMING_SPEC.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -57,7 +57,7 @@ TIMING_SPEC spec1(1, 2);
 Primary.getTimingSpec().change("Tp", 10 ns);
 ```
 
-In this example, with "ns" in the second parameter of the change() member function, the spec variable "Tp" is changed into 10-9 seconds. This is more convenient when you want your timing in nanoseconds be represented in seconds basis.
+In this example, with "ns" in the second parameter of the change() member function, the spec variable "Tp" is changed into 10^-9 seconds. This is more convenient when you want your timing in nanoseconds be represented in seconds basis.
 
 ### Example 3: Retrieve a primary timing spec value
 
@@ -183,7 +183,7 @@ TIMING_SPEC(INT eqnset, INT specset)
   > 「In SmarTest, all timing values are in nanoseconds by default.」
 
 - **第二参数可以带单位后缀**：Example 2 的第三种写法是 `Primary.getTimingSpec().change("Tp", 10 ns);`，
-  原文的解释是「the spec variable "Tp" is changed into 10-9 seconds」——
+  原文的解释是「the spec variable "Tp" is changed into 10^-9 seconds」——
   **即：带上 `ns` 就是「按秒为基准表示纳秒」**，原文说这样写更方便。
 
 ### 一条 CAUTION：**别把 API 和固件命令混用**
@@ -344,7 +344,7 @@ FLUSH;
 `sources:` **一篇**：
 
 - `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.249_TIMING_SPEC.md`
-  （TDC `29809.htm`，12,565 字节 / 251 行，**整篇读完**）
+  （TDC `29809.htm`，12,566 字节 / 251 行，**整篇读完**）
 - 本页的「语法 / 参数」节是脚本从这一篇的 `## Examples` 段逐字抽的（**本页一个字没动**）。
   本页**没有核实**它抽全了没有——**但从内容看，这一篇的 `## Class definition` 与
   `## Member functions` 两段（构造签名 + 五个成员签名）不在那个节里**（raw 里它们不叫 `## Syntax`），
@@ -385,9 +385,12 @@ FLUSH;
 > ③ **`to10 nanoseconds`（`to` 与 `10` 之间缺空格）**——Example 2 第二段的正文。
 > **上游 `.htm` 里也是 `to10`**（实测 1 次）→ 同属 §11.2 ⑥。
 
-> ④ **`10-9 seconds` 里的上标丢了**。上游 `.htm` 写的是 `10<sup>-9</sup> seconds`
-> ——**是 HTML→md 把上标压成了普通字符 `-9`**。
-> **本页在正文里照原样引**（所以那句话读起来像「10 减 9 秒」，实际是 10⁻⁹ 秒）。
+> ④ **`10^-9 seconds` 里的上标曾经丢失——已于 2026-09-23 修复。**
+> 上游 `.htm` 写的是 `10<sup>-9</sup> seconds`
+> ——**是 HTML→md 把上标压成了普通字符 `-9`**，读起来像「10 减 9 秒」。
+> **语料已改回 `10^-9`**（依据 `schema.md` §1.2，D 类：与 A 类同一机制，
+> 只是指数带正负号，A 类那个脚本的正则 `\d{1,3}` 漏掉了它）。
+> **本页正文跟着 raw 走**，所以这里现在是修后的形态。
 
 > ⑤ **「改值生效」清单里那七条以 `FLUSH then` 开头的条目，每条末尾都多一个 `)`**：
 > `FLUSH then SPEC_SEARCH.execute() member function)`——**左括号没有对应的右括号**。

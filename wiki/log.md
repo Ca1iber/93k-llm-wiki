@@ -4498,3 +4498,42 @@ In the Start Analysis mode, enter a positive value between 0 and ...
 > **加只读还会反过来挡住 `git checkout` / `reset --hard`**（Windows 上 git 删不掉只读文件），
 > 等于**拿一个新的麻烦，换一个本来就不对症的安心**。
 > **上游不可变靠的是 git 的历史 + §1.2 的规矩，不是文件属性。**
+
+
+## [2026-09-23] **D 类修完**：带符号指数被拍平（`10<sup>-9</sup>` → `10-9`），3 处 / 3 篇
+
+与 A 类**同一个机制**，只是上标内容带正负号——A 类那个脚本的正则 `\d{1,3}` 漏掉了它。
+
+| # | markdown | 源 HTML | 改前 |
+|---|---|---|---|
+| 1 | `02.06.06.01.06.01_Avoiding_rounding_problems_with_the_fract___function.md` | `124790.htm` | `10-9 Hz (nHz)` |
+| 2 | `02.08.04.34.02.01.06.01_…_fract___function.md`（同文重投） | `124790_2.htm` | 同上 |
+| 3 | `02.07.04.01.249_TIMING_SPEC.md` | `29809.htm` | `10-9 seconds` |
+
+三处都改成 `10^-9`。
+
+**上游对证**：`.htm` 里明写着 `10<sup>-9</sup>`。
+**下游自证**：第 1、2 处后面紧跟 `(nHz)`（纳赫兹 = 10⁻⁹ Hz），第 3 处是 `seconds`（纳秒）——
+**原文 `10-9` = 1，讲不通。**
+
+**验收**：`git diff` 3 行，**每行只是多了一个 `^`**（逐字符核对，异常 0）；`raw/` 改动 0 篇。
+
+### wiki 侧：`wiki/objects/timing-spec.md` 把三种情形凑齐了
+
+| 位置 | 情形 | 处置 |
+|---|---|---|
+| 第 60 行 | **在 `<!-- 语法节 begin/end -->` 里** | **不手改**，`objscaffold.py --refresh-syntax` 重刷（自述数 2,410 → **2,411**，正好 +1） |
+| 第 186 行 | 正文引文 | 跟着 raw 改 |
+| 标注 ④ | 原本写「上标丢了、**本页照原样引**」 | **重写为「已于 2026-09-23 修复」**（同 A 类那次 `vector-setup-file` ④） |
+
+### 顺带撞出一次：第十四类（自我声明）
+
+它报 `29809.htm` —— **页称 12,565 字节，实际 12,566**。
+**语料多了一个 `^`，页面自述的字节数就过期了。** 改成 12,566 后全绿（13 类，EXIT=0）。
+
+> **这类「语料一改、页面自述数就过期」的连锁，正是改语料必须跑总闸的原因**——
+> 它跟内容对错无关，纯粹是「有一处声明了语料的尺寸」。
+> A 类那次是第十二类（语法节自述数），这次是第十四类。**同一类病，两个地方。**
+
+留底：`extract/_assign_signed.json`、`extract/findings-corpus-superscript-loss-evidence-signed.md`、
+`extract/fix_corpus_superscript_signed.py`、`extract/scan_signed_exponent.py`（定位，只报不改）。
