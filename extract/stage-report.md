@@ -102,6 +102,7 @@
 | `mappings/mapping-testflow.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `mappings/mapping-testmethod.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `mappings/mapping-timing.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/add-limit.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/alias-set-editor.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/alphabetical-list-of-flags.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/analysis-views.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -109,13 +110,22 @@
 | `objects/apg-program-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/aprm.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/assign-value-node.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/begin-extension.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/bin.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/built-in-functions.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/bwdf.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/bwds.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/cct-change-level-spec.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/cct-multiport-sequencer-synchronizer-api.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/change-device-wizard.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/chin.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/ci-cpi.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/clkr.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/clmp.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/conf.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/connect.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/ctxt.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/data-logging-profile-api.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/data-logging-profiles.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/data-navigation-views.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/data-retrieval-library.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -123,20 +133,30 @@
 | `objects/dc-scale-limits-editor.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dc-scale-uhc4t-card.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dc-scale-xps256-card.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/dcdt.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/debug-perspective.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/debug-view.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/device-access-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/device-architecture-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/device-directory.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/device-license-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/device-summary-tab.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/device-technology-directory.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dfge.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dfgp.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/dfpc.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dfpn.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/dfpr.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dfps.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dfpt.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/dfup.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/dfut.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/digital-capture-test.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/digital-offset-search-pins.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/digital-pins-editor.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/disconnect.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/dprl.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/dprt.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dps-aux-pin-task.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dps-aux-task.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dps-pins-editor.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -144,13 +164,19 @@
 | `objects/dps-task.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dps128-dps64-cards.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dpspins-resources.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/drlv.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dscp.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/dsus.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/dtcp.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/edl-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/edsp.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/end-extension.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/eqfs.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/eqsp.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/error-map-tool.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/error-map.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/etds.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/etim.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/event-base.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/event-formatter.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/event-value-double.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -168,11 +194,21 @@
 | `objects/for-each-site-begin.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/for-each-site-end.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/fw-task.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/gctx.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/get-functional-result.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/get-utility-lines.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/global-section.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/ground-sense-editor.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/group-node.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/hardware-bin-summary-tab.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/hardware-response-emulator.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/hardware-view.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/hidden-upload.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/hw-pin-state.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/hw-state.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/hwty.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/integrated-result-tool.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/jrst.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/jscf.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/jsdf.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/jspr.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -181,10 +217,17 @@
 | `objects/level-equation-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/level-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/level-master-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/level-set-selector.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/level-setup-tool.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/level-spec.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/limit.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/lot-summary-generator.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/lsus.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/lsux.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/match-loops.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/model-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/mscf.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/msdf.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/mtp-maintenance-operations.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/mtp-memory-test.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/mtp-shared-test-commands.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -194,6 +237,7 @@
 | `objects/on-first-invocation-begin.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/on-first-invocation-end.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/option-list.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/pact.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pals.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pattern-controller.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pattern-editor.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -201,38 +245,57 @@
 | `objects/pattern-master-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pattern-object.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pattern-tool.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/pclk.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/pdiv.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/pfnd.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-configuration-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-configuration-master-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-configuration-tool.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-group-editor.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-mapping-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/pin-property-monitor.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-string.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-utility.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/play-pattern.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pogocabling-section.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/port-editor.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pqfc.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/preprocessing-and-postprocessing-scripts.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/primary-status.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/prlt.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/project-explorer-view.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/protocol-editor.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/psas.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/psfc.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/pslv.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/pssl.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/pssr.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/pste.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/raw-data-views.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/rclv.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/rdi-configure-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/report-window.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/result-configuration.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/rset.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/run-dialog.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/sequencer-status.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/sequencer.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/set-utility-lines.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/setup-level-set-0.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/setup-management-tool.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/setup-perspective.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/shared-continuity-test.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/sharing-configuration-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/sharing-configuration.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/shmoo-tool.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/signal-analyzer.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/site-control-window.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/sldo.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/smartcalc-framework.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/smartcalc.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/smartest-data-formatter.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/smartrdi.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/smartshell.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/smc-synchronize.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/smc-test.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/software-bin-summary-tab.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -249,13 +312,17 @@
 | `objects/spst.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/sqst.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/stdf.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/stme.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/stpm-control-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/stpm-merge-rules-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/stpm.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/strs.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/structure-of-a-tmlimits-csv-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/svlr.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/table-filter.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/task-list.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/technology-file-for-a-device.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/term.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/test-method-class.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/test-program-explorer.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/test-suite-control-api.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -269,12 +336,14 @@
 | `objects/testflow-properties-view.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/testflow-tool.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/testflow-variable.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/testset-testname.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/testset.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/timestamp-attr-type.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-diagram-tool.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-equation-set.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-master-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/timing-set-selector.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-setup-tool.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-spec.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-specification.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -283,7 +352,18 @@
 | `objects/tpi-program-routines.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/tpt-generate-device-dir.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/tpt-import-from-device.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/tsus.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/tsux.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/udef.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/udgp.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/udpr.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/udps.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/udpt.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/udup.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/udut.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/udvp.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/universal-test-method-library.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/upas.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/uptd.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/utility-card.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/utility-line-assignments.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -292,9 +372,22 @@
 | `objects/utility-pogo-block-utility-card-v93000-exa-scale-systems.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/utility-power-supplies.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/utility-purpose-editor.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/vclk.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/vdcg.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/vec-events.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/vector-setup-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/vpin.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/vtim.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/vwfg.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/vwfs.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/wafer-summary-tab.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/wave.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/waveform-mapping.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/waveform-view.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/wavetable-file.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/wavetable.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/wfds.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/wsus.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/xps256-pmu-operating-mode.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/xps256-programming-dps-operating-mode.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/xps256-status-flags.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -507,6 +600,7 @@
 | `mappings/mapping-testflow.md` | ✅ | ✅ | ✅ | ✅ |
 | `mappings/mapping-testmethod.md` | ✅ | ✅ | ✅ | ✅ |
 | `mappings/mapping-timing.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/add-limit.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/alias-set-editor.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/alphabetical-list-of-flags.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/analysis-views.md` | ✅ | ✅ | ✅ | ✅ |
@@ -514,13 +608,22 @@
 | `objects/apg-program-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/aprm.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/assign-value-node.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/begin-extension.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/bin.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/built-in-functions.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/bwdf.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/bwds.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/cct-change-level-spec.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/cct-multiport-sequencer-synchronizer-api.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/change-device-wizard.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/chin.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/ci-cpi.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/clkr.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/clmp.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/conf.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/connect.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/ctxt.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/data-logging-profile-api.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/data-logging-profiles.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/data-navigation-views.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/data-retrieval-library.md` | ✅ | ✅ | ✅ | ✅ |
@@ -528,20 +631,30 @@
 | `objects/dc-scale-limits-editor.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dc-scale-uhc4t-card.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dc-scale-xps256-card.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/dcdt.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/debug-perspective.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/debug-view.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/device-access-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/device-architecture-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/device-directory.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/device-license-file.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/device-summary-tab.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/device-technology-directory.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dfge.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dfgp.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/dfpc.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dfpn.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/dfpr.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dfps.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dfpt.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/dfup.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/dfut.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/digital-capture-test.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/digital-offset-search-pins.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/digital-pins-editor.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/disconnect.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/dprl.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/dprt.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dps-aux-pin-task.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dps-aux-task.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dps-pins-editor.md` | ✅ | ✅ | ✅ | ✅ |
@@ -549,13 +662,19 @@
 | `objects/dps-task.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dps128-dps64-cards.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dpspins-resources.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/drlv.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dscp.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/dsus.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/dtcp.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/edl-file.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/edsp.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/end-extension.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/eqfs.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/eqsp.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/error-map-tool.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/error-map.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/etds.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/etim.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/event-base.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/event-formatter.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/event-value-double.md` | ✅ | ✅ | ✅ | ✅ |
@@ -573,11 +692,21 @@
 | `objects/for-each-site-begin.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/for-each-site-end.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/fw-task.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/gctx.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/get-functional-result.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/get-utility-lines.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/global-section.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/ground-sense-editor.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/group-node.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/hardware-bin-summary-tab.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/hardware-response-emulator.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/hardware-view.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/hidden-upload.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/hw-pin-state.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/hw-state.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/hwty.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/integrated-result-tool.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/jrst.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/jscf.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/jsdf.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/jspr.md` | ✅ | ✅ | ✅ | ✅ |
@@ -586,10 +715,17 @@
 | `objects/level-equation-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/level-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/level-master-file.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/level-set-selector.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/level-setup-tool.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/level-spec.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/limit.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/lot-summary-generator.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/lsus.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/lsux.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/match-loops.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/model-file.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/mscf.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/msdf.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/mtp-maintenance-operations.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/mtp-memory-test.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/mtp-shared-test-commands.md` | ✅ | ✅ | ✅ | ✅ |
@@ -599,6 +735,7 @@
 | `objects/on-first-invocation-begin.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/on-first-invocation-end.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/option-list.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/pact.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pals.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pattern-controller.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pattern-editor.md` | ✅ | ✅ | ✅ | ✅ |
@@ -606,38 +743,57 @@
 | `objects/pattern-master-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pattern-object.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pattern-tool.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/pclk.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/pdiv.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/pfnd.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-configuration-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-configuration-master-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-configuration-tool.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-group-editor.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-mapping-file.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/pin-property-monitor.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-string.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pin-utility.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/play-pattern.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pogocabling-section.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/port-editor.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pqfc.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/preprocessing-and-postprocessing-scripts.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/primary-status.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/prlt.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/project-explorer-view.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/protocol-editor.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/psas.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/psfc.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/pslv.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/pssl.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/pssr.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/pste.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/raw-data-views.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/rclv.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/rdi-configure-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/report-window.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/result-configuration.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/rset.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/run-dialog.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/sequencer-status.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/sequencer.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/set-utility-lines.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/setup-level-set-0.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/setup-management-tool.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/setup-perspective.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/shared-continuity-test.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/sharing-configuration-file.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/sharing-configuration.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/shmoo-tool.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/signal-analyzer.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/site-control-window.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/sldo.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/smartcalc-framework.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/smartcalc.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/smartest-data-formatter.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/smartrdi.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/smartshell.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/smc-synchronize.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/smc-test.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/software-bin-summary-tab.md` | ✅ | ✅ | ✅ | ✅ |
@@ -654,13 +810,17 @@
 | `objects/spst.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/sqst.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/stdf.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/stme.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/stpm-control-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/stpm-merge-rules-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/stpm.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/strs.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/structure-of-a-tmlimits-csv-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/svlr.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/table-filter.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/task-list.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/technology-file-for-a-device.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/term.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/test-method-class.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/test-program-explorer.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/test-suite-control-api.md` | ✅ | ✅ | ✅ | ✅ |
@@ -674,12 +834,14 @@
 | `objects/testflow-properties-view.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/testflow-tool.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/testflow-variable.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/testset-testname.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/testset.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/timestamp-attr-type.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-diagram-tool.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-equation-set.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-master-file.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/timing-set-selector.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-setup-tool.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-spec.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/timing-specification.md` | ✅ | ✅ | ✅ | ✅ |
@@ -688,7 +850,18 @@
 | `objects/tpi-program-routines.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/tpt-generate-device-dir.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/tpt-import-from-device.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/tsus.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/tsux.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/udef.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/udgp.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/udpr.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/udps.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/udpt.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/udup.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/udut.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/udvp.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/universal-test-method-library.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/upas.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/uptd.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/utility-card.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/utility-line-assignments.md` | ✅ | ✅ | ✅ | ✅ |
@@ -697,9 +870,22 @@
 | `objects/utility-pogo-block-utility-card-v93000-exa-scale-systems.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/utility-power-supplies.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/utility-purpose-editor.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/vclk.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/vdcg.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/vec-events.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/vector-setup-file.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/vpin.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/vtim.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/vwfg.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/vwfs.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/wafer-summary-tab.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/wave.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/waveform-mapping.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/waveform-view.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/wavetable-file.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/wavetable.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/wfds.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/wsus.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/xps256-pmu-operating-mode.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/xps256-programming-dps-operating-mode.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/xps256-status-flags.md` | ✅ | ✅ | ✅ | ✅ |
@@ -871,7 +1057,7 @@
 
 阶段页合计 677 条来源路径。
 
-### 第三类续 · `stages/` 以外 401 页
+### 第三类续 · `stages/` 以外 494 页
 
 - ✅ `concepts/command-reference.md` — 1 条来源
 - ✅ `concepts/context-pins.md` — 1 条来源
@@ -935,6 +1121,7 @@
 - ✅ `mappings/mapping-testflow.md` — 42 条来源
 - ✅ `mappings/mapping-testmethod.md` — 31 条来源
 - ✅ `mappings/mapping-timing.md` — 68 条来源
+- ✅ `objects/add-limit.md` — 1 条来源
 - ✅ `objects/alias-set-editor.md` — 1 条来源
 - ✅ `objects/alphabetical-list-of-flags.md` — 1 条来源
 - ✅ `objects/analysis-views.md` — 1 条来源
@@ -942,13 +1129,22 @@
 - ✅ `objects/apg-program-file.md` — 1 条来源
 - ✅ `objects/aprm.md` — 1 条来源
 - ✅ `objects/assign-value-node.md` — 1 条来源
+- ✅ `objects/begin-extension.md` — 1 条来源
 - ✅ `objects/bin.md` — 1 条来源
+- ✅ `objects/built-in-functions.md` — 1 条来源
+- ✅ `objects/bwdf.md` — 1 条来源
+- ✅ `objects/bwds.md` — 1 条来源
+- ✅ `objects/cct-change-level-spec.md` — 1 条来源
 - ✅ `objects/cct-multiport-sequencer-synchronizer-api.md` — 1 条来源
 - ✅ `objects/change-device-wizard.md` — 1 条来源
+- ✅ `objects/chin.md` — 1 条来源
 - ✅ `objects/ci-cpi.md` — 3 条来源
+- ✅ `objects/clkr.md` — 1 条来源
+- ✅ `objects/clmp.md` — 1 条来源
 - ✅ `objects/conf.md` — 1 条来源
 - ✅ `objects/connect.md` — 1 条来源
 - ✅ `objects/ctxt.md` — 1 条来源
+- ✅ `objects/data-logging-profile-api.md` — 1 条来源
 - ✅ `objects/data-logging-profiles.md` — 1 条来源
 - ✅ `objects/data-navigation-views.md` — 1 条来源
 - ✅ `objects/data-retrieval-library.md` — 1 条来源
@@ -956,20 +1152,30 @@
 - ✅ `objects/dc-scale-limits-editor.md` — 1 条来源
 - ✅ `objects/dc-scale-uhc4t-card.md` — 1 条来源
 - ✅ `objects/dc-scale-xps256-card.md` — 1 条来源
+- ✅ `objects/dcdt.md` — 1 条来源
+- ✅ `objects/debug-perspective.md` — 1 条来源
+- ✅ `objects/debug-view.md` — 1 条来源
 - ✅ `objects/device-access-file.md` — 1 条来源
 - ✅ `objects/device-architecture-file.md` — 1 条来源
 - ✅ `objects/device-directory.md` — 1 条来源
 - ✅ `objects/device-license-file.md` — 1 条来源
+- ✅ `objects/device-summary-tab.md` — 1 条来源
 - ✅ `objects/device-technology-directory.md` — 1 条来源
 - ✅ `objects/dfge.md` — 1 条来源
 - ✅ `objects/dfgp.md` — 1 条来源
+- ✅ `objects/dfpc.md` — 1 条来源
 - ✅ `objects/dfpn.md` — 1 条来源
+- ✅ `objects/dfpr.md` — 1 条来源
 - ✅ `objects/dfps.md` — 1 条来源
 - ✅ `objects/dfpt.md` — 1 条来源
+- ✅ `objects/dfup.md` — 1 条来源
+- ✅ `objects/dfut.md` — 1 条来源
 - ✅ `objects/digital-capture-test.md` — 1 条来源
 - ✅ `objects/digital-offset-search-pins.md` — 1 条来源
 - ✅ `objects/digital-pins-editor.md` — 1 条来源
 - ✅ `objects/disconnect.md` — 1 条来源
+- ✅ `objects/dprl.md` — 1 条来源
+- ✅ `objects/dprt.md` — 1 条来源
 - ✅ `objects/dps-aux-pin-task.md` — 2 条来源
 - ✅ `objects/dps-aux-task.md` — 1 条来源
 - ✅ `objects/dps-pins-editor.md` — 1 条来源
@@ -977,13 +1183,19 @@
 - ✅ `objects/dps-task.md` — 1 条来源
 - ✅ `objects/dps128-dps64-cards.md` — 5 条来源
 - ✅ `objects/dpspins-resources.md` — 1 条来源
+- ✅ `objects/drlv.md` — 1 条来源
 - ✅ `objects/dscp.md` — 1 条来源
+- ✅ `objects/dsus.md` — 1 条来源
 - ✅ `objects/dtcp.md` — 1 条来源
 - ✅ `objects/edl-file.md` — 1 条来源
+- ✅ `objects/edsp.md` — 1 条来源
+- ✅ `objects/end-extension.md` — 1 条来源
 - ✅ `objects/eqfs.md` — 1 条来源
 - ✅ `objects/eqsp.md` — 1 条来源
 - ✅ `objects/error-map-tool.md` — 1 条来源
 - ✅ `objects/error-map.md` — 1 条来源
+- ✅ `objects/etds.md` — 1 条来源
+- ✅ `objects/etim.md` — 1 条来源
 - ✅ `objects/event-base.md` — 1 条来源
 - ✅ `objects/event-formatter.md` — 1 条来源
 - ✅ `objects/event-value-double.md` — 1 条来源
@@ -1001,11 +1213,21 @@
 - ✅ `objects/for-each-site-begin.md` — 1 条来源
 - ✅ `objects/for-each-site-end.md` — 1 条来源
 - ✅ `objects/fw-task.md` — 1 条来源
+- ✅ `objects/gctx.md` — 1 条来源
 - ✅ `objects/get-functional-result.md` — 1 条来源
+- ✅ `objects/get-utility-lines.md` — 1 条来源
 - ✅ `objects/global-section.md` — 1 条来源
+- ✅ `objects/ground-sense-editor.md` — 1 条来源
+- ✅ `objects/group-node.md` — 1 条来源
+- ✅ `objects/hardware-bin-summary-tab.md` — 1 条来源
 - ✅ `objects/hardware-response-emulator.md` — 1 条来源
+- ✅ `objects/hardware-view.md` — 1 条来源
 - ✅ `objects/hidden-upload.md` — 1 条来源
+- ✅ `objects/hw-pin-state.md` — 1 条来源
+- ✅ `objects/hw-state.md` — 1 条来源
+- ✅ `objects/hwty.md` — 1 条来源
 - ✅ `objects/integrated-result-tool.md` — 1 条来源
+- ✅ `objects/jrst.md` — 1 条来源
 - ✅ `objects/jscf.md` — 1 条来源
 - ✅ `objects/jsdf.md` — 1 条来源
 - ✅ `objects/jspr.md` — 1 条来源
@@ -1014,10 +1236,17 @@
 - ✅ `objects/level-equation-file.md` — 1 条来源
 - ✅ `objects/level-file.md` — 2 条来源
 - ✅ `objects/level-master-file.md` — 2 条来源
+- ✅ `objects/level-set-selector.md` — 1 条来源
 - ✅ `objects/level-setup-tool.md` — 1 条来源
 - ✅ `objects/level-spec.md` — 1 条来源
 - ✅ `objects/limit.md` — 1 条来源
+- ✅ `objects/lot-summary-generator.md` — 1 条来源
+- ✅ `objects/lsus.md` — 1 条来源
+- ✅ `objects/lsux.md` — 1 条来源
+- ✅ `objects/match-loops.md` — 1 条来源
 - ✅ `objects/model-file.md` — 1 条来源
+- ✅ `objects/mscf.md` — 1 条来源
+- ✅ `objects/msdf.md` — 1 条来源
 - ✅ `objects/mtp-maintenance-operations.md` — 1 条来源
 - ✅ `objects/mtp-memory-test.md` — 1 条来源
 - ✅ `objects/mtp-shared-test-commands.md` — 3 条来源
@@ -1027,6 +1256,7 @@
 - ✅ `objects/on-first-invocation-begin.md` — 1 条来源
 - ✅ `objects/on-first-invocation-end.md` — 1 条来源
 - ✅ `objects/option-list.md` — 1 条来源
+- ✅ `objects/pact.md` — 1 条来源
 - ✅ `objects/pals.md` — 1 条来源
 - ✅ `objects/pattern-controller.md` — 1 条来源
 - ✅ `objects/pattern-editor.md` — 1 条来源
@@ -1034,38 +1264,57 @@
 - ✅ `objects/pattern-master-file.md` — 1 条来源
 - ✅ `objects/pattern-object.md` — 1 条来源
 - ✅ `objects/pattern-tool.md` — 1 条来源
+- ✅ `objects/pclk.md` — 1 条来源
+- ✅ `objects/pdiv.md` — 1 条来源
+- ✅ `objects/pfnd.md` — 1 条来源
 - ✅ `objects/pin-configuration-file.md` — 2 条来源
 - ✅ `objects/pin-configuration-master-file.md` — 1 条来源
 - ✅ `objects/pin-configuration-tool.md` — 1 条来源
 - ✅ `objects/pin-group-editor.md` — 3 条来源
 - ✅ `objects/pin-mapping-file.md` — 1 条来源
+- ✅ `objects/pin-property-monitor.md` — 1 条来源
 - ✅ `objects/pin-string.md` — 1 条来源
 - ✅ `objects/pin-utility.md` — 1 条来源
+- ✅ `objects/play-pattern.md` — 1 条来源
 - ✅ `objects/pogocabling-section.md` — 3 条来源
 - ✅ `objects/port-editor.md` — 1 条来源
 - ✅ `objects/pqfc.md` — 1 条来源
 - ✅ `objects/preprocessing-and-postprocessing-scripts.md` — 1 条来源
 - ✅ `objects/primary-status.md` — 1 条来源
+- ✅ `objects/prlt.md` — 1 条来源
 - ✅ `objects/project-explorer-view.md` — 1 条来源
 - ✅ `objects/protocol-editor.md` — 1 条来源
 - ✅ `objects/psas.md` — 1 条来源
 - ✅ `objects/psfc.md` — 1 条来源
+- ✅ `objects/pslv.md` — 1 条来源
+- ✅ `objects/pssl.md` — 1 条来源
+- ✅ `objects/pssr.md` — 1 条来源
 - ✅ `objects/pste.md` — 1 条来源
 - ✅ `objects/raw-data-views.md` — 1 条来源
+- ✅ `objects/rclv.md` — 1 条来源
 - ✅ `objects/rdi-configure-file.md` — 1 条来源
 - ✅ `objects/report-window.md` — 1 条来源
+- ✅ `objects/result-configuration.md` — 1 条来源
+- ✅ `objects/rset.md` — 1 条来源
 - ✅ `objects/run-dialog.md` — 1 条来源
 - ✅ `objects/sequencer-status.md` — 1 条来源
 - ✅ `objects/sequencer.md` — 1 条来源
+- ✅ `objects/set-utility-lines.md` — 1 条来源
+- ✅ `objects/setup-level-set-0.md` — 1 条来源
 - ✅ `objects/setup-management-tool.md` — 1 条来源
 - ✅ `objects/setup-perspective.md` — 1 条来源
+- ✅ `objects/shared-continuity-test.md` — 1 条来源
 - ✅ `objects/sharing-configuration-file.md` — 1 条来源
+- ✅ `objects/sharing-configuration.md` — 1 条来源
 - ✅ `objects/shmoo-tool.md` — 1 条来源
 - ✅ `objects/signal-analyzer.md` — 1 条来源
 - ✅ `objects/site-control-window.md` — 1 条来源
+- ✅ `objects/sldo.md` — 1 条来源
 - ✅ `objects/smartcalc-framework.md` — 1 条来源
 - ✅ `objects/smartcalc.md` — 1 条来源
+- ✅ `objects/smartest-data-formatter.md` — 1 条来源
 - ✅ `objects/smartrdi.md` — 1 条来源
+- ✅ `objects/smartshell.md` — 1 条来源
 - ✅ `objects/smc-synchronize.md` — 1 条来源
 - ✅ `objects/smc-test.md` — 1 条来源
 - ✅ `objects/software-bin-summary-tab.md` — 1 条来源
@@ -1082,13 +1331,17 @@
 - ✅ `objects/spst.md` — 1 条来源
 - ✅ `objects/sqst.md` — 1 条来源
 - ✅ `objects/stdf.md` — 1 条来源
+- ✅ `objects/stme.md` — 1 条来源
 - ✅ `objects/stpm-control-file.md` — 1 条来源
 - ✅ `objects/stpm-merge-rules-file.md` — 1 条来源
 - ✅ `objects/stpm.md` — 1 条来源
+- ✅ `objects/strs.md` — 1 条来源
 - ✅ `objects/structure-of-a-tmlimits-csv-file.md` — 1 条来源
 - ✅ `objects/svlr.md` — 1 条来源
+- ✅ `objects/table-filter.md` — 1 条来源
 - ✅ `objects/task-list.md` — 1 条来源
 - ✅ `objects/technology-file-for-a-device.md` — 1 条来源
+- ✅ `objects/term.md` — 1 条来源
 - ✅ `objects/test-method-class.md` — 1 条来源
 - ✅ `objects/test-program-explorer.md` — 1 条来源
 - ✅ `objects/test-suite-control-api.md` — 1 条来源
@@ -1102,12 +1355,14 @@
 - ✅ `objects/testflow-properties-view.md` — 1 条来源
 - ✅ `objects/testflow-tool.md` — 1 条来源
 - ✅ `objects/testflow-variable.md` — 1 条来源
+- ✅ `objects/testset-testname.md` — 1 条来源
 - ✅ `objects/testset.md` — 1 条来源
 - ✅ `objects/timestamp-attr-type.md` — 1 条来源
 - ✅ `objects/timing-diagram-tool.md` — 1 条来源
 - ✅ `objects/timing-equation-set.md` — 1 条来源
 - ✅ `objects/timing-file.md` — 2 条来源
 - ✅ `objects/timing-master-file.md` — 1 条来源
+- ✅ `objects/timing-set-selector.md` — 1 条来源
 - ✅ `objects/timing-setup-tool.md` — 1 条来源
 - ✅ `objects/timing-spec.md` — 1 条来源
 - ✅ `objects/timing-specification.md` — 1 条来源
@@ -1116,7 +1371,18 @@
 - ✅ `objects/tpi-program-routines.md` — 1 条来源
 - ✅ `objects/tpt-generate-device-dir.md` — 1 条来源
 - ✅ `objects/tpt-import-from-device.md` — 1 条来源
+- ✅ `objects/tsus.md` — 1 条来源
+- ✅ `objects/tsux.md` — 1 条来源
+- ✅ `objects/udef.md` — 1 条来源
+- ✅ `objects/udgp.md` — 1 条来源
+- ✅ `objects/udpr.md` — 1 条来源
+- ✅ `objects/udps.md` — 1 条来源
+- ✅ `objects/udpt.md` — 1 条来源
+- ✅ `objects/udup.md` — 1 条来源
+- ✅ `objects/udut.md` — 1 条来源
+- ✅ `objects/udvp.md` — 1 条来源
 - ✅ `objects/universal-test-method-library.md` — 1 条来源
+- ✅ `objects/upas.md` — 1 条来源
 - ✅ `objects/uptd.md` — 1 条来源
 - ✅ `objects/utility-card.md` — 1 条来源
 - ✅ `objects/utility-line-assignments.md` — 4 条来源
@@ -1125,9 +1391,22 @@
 - ✅ `objects/utility-pogo-block-utility-card-v93000-exa-scale-systems.md` — 1 条来源
 - ✅ `objects/utility-power-supplies.md` — 1 条来源
 - ✅ `objects/utility-purpose-editor.md` — 1 条来源
+- ✅ `objects/vclk.md` — 1 条来源
+- ✅ `objects/vdcg.md` — 1 条来源
+- ✅ `objects/vec-events.md` — 1 条来源
 - ✅ `objects/vector-setup-file.md` — 2 条来源
+- ✅ `objects/vpin.md` — 1 条来源
+- ✅ `objects/vtim.md` — 1 条来源
+- ✅ `objects/vwfg.md` — 1 条来源
+- ✅ `objects/vwfs.md` — 1 条来源
+- ✅ `objects/wafer-summary-tab.md` — 1 条来源
+- ✅ `objects/wave.md` — 1 条来源
+- ✅ `objects/waveform-mapping.md` — 1 条来源
+- ✅ `objects/waveform-view.md` — 1 条来源
 - ✅ `objects/wavetable-file.md` — 1 条来源
 - ✅ `objects/wavetable.md` — 1 条来源
+- ✅ `objects/wfds.md` — 1 条来源
+- ✅ `objects/wsus.md` — 1 条来源
 - ✅ `objects/xps256-pmu-operating-mode.md` — 1 条来源
 - ✅ `objects/xps256-programming-dps-operating-mode.md` — 1 条来源
 - ✅ `objects/xps256-status-flags.md` — 1 条来源
@@ -1275,7 +1554,7 @@
 - ✅ `versions/tp360-7.2.2.md` — 1 条来源
 - ✅ `versions/tp360-7.3.2.md` — 1 条来源
 
-其余页合计 2959 条来源路径（阶段页合计 677 条）。
+其余页合计 3052 条来源路径（阶段页合计 677 条）。
 
 ## 第四类 · 正文引用的分类号是否存在于语料
 
@@ -1382,7 +1661,7 @@
 | 26 | TMLimits | `wiki/constraints/smc-background-process-locks-config.md` |
 | 26 | EVENT_WAVEFORM_VFVM | `wiki/objects/event-waveform-vfvm.md` |
 | 26 | Sequencer-controlled utility lines | `wiki/concepts/sequencer-controlled-utility-lines.md` |
-| 26 | SHARING_CONFIGURATION | `wiki/objects/mtp-shared-test-commands.md` |
+| 26 | SHARING_CONFIGURATION | `wiki/objects/sharing-configuration.md` |
 | 26 | DPS128鈥?鈥奃PS64 functionality and features | `wiki/objects/dps128-dps64-cards.md` |
 | 26 | DIGITAL_OFFSET_SEARCH_PINS | `wiki/objects/digital-offset-search-pins.md` |
 | 26 | DPS power flags - get...() functions | `wiki/objects/dps-power-flags-get-functions.md` |
@@ -1411,7 +1690,7 @@
 | 23 | How to create a universal test method class | `wiki/mappings/mapping-testmethod.md` |
 | 23 | Flow Sequence Editor | `wiki/objects/flow-sequence-editor.md` |
 | 22 | DC Scale UHC4T card | `wiki/objects/dc-scale-uhc4t-card.md` |
-| 22 | SHARED_CONTINUITY_TEST | `wiki/objects/mtp-shared-test-commands.md` |
+| 22 | SHARED_CONTINUITY_TEST | `wiki/objects/shared-continuity-test.md` |
 | 22 | SHARED_LEAKAGE_PARALLEL_TEST | `wiki/objects/mtp-shared-test-commands.md` |
 | 22 | SPMU_PIN_TASK.mode() | `wiki/objects/spmu-pin-task-mode.md` |
 | 22 | Using the Timing Diagram Tool | `wiki/mappings/mapping-timing.md` |
@@ -1533,6 +1812,7 @@
 - ✅ `mappings/mapping-testflow.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `mappings/mapping-testmethod.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `mappings/mapping-timing.md` — 引用块/代码块 22 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/add-limit.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/alias-set-editor.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/alphabetical-list-of-flags.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/analysis-views.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1540,13 +1820,22 @@
 - ✅ `objects/apg-program-file.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/aprm.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/assign-value-node.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/begin-extension.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/bin.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/built-in-functions.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/bwdf.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/bwds.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/cct-change-level-spec.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/cct-multiport-sequencer-synchronizer-api.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/change-device-wizard.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/chin.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/ci-cpi.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/clkr.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/clmp.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/conf.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/connect.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/ctxt.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/data-logging-profile-api.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/data-logging-profiles.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
     - 🟠 **疑似自加结构 1 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
         - `debug profile to enable more detailed logging. …`
@@ -1557,16 +1846,24 @@
 - ✅ `objects/dc-scale-uhc4t-card.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dc-scale-xps256-card.md` — 引用块/代码块 3 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 62%｜`The card features 256 full 4 quadrant VI sources, each of them capable to force …`
+- ✅ `objects/dcdt.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/debug-perspective.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/debug-view.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/device-access-file.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/device-architecture-file.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/device-directory.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/device-license-file.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/device-summary-tab.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/device-technology-directory.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfge.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfgp.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dfpc.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfpn.md` — 引用块/代码块 20 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dfpr.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfps.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfpt.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dfup.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dfut.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/digital-capture-test.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/digital-offset-search-pins.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/digital-pins-editor.md` — 引用块/代码块 5 处；对不上的 2 处，其中**页面自称「逐字」的 0 处**
@@ -1576,6 +1873,8 @@
         - `a virtual pogo block number. - bb: The`
         - `number. - bb: The channel number (range 01`
 - ✅ `objects/disconnect.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dprl.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dprt.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dps-aux-pin-task.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dps-aux-task.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dps-pins-editor.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1583,13 +1882,19 @@
 - ✅ `objects/dps-task.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dps128-dps64-cards.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dpspins-resources.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/drlv.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dscp.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dsus.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dtcp.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/edl-file.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/edsp.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/end-extension.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/eqfs.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/eqsp.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/error-map-tool.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/error-map.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/etds.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/etim.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/event-base.md` — 引用块/代码块 6 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 50%｜`The following event types are provided by specialized event classes：`
 - ✅ `objects/event-formatter.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1609,12 +1914,22 @@
 - ✅ `objects/for-each-site-begin.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/for-each-site-end.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/fw-task.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/gctx.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/get-functional-result.md` — 引用块/代码块 23 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/get-utility-lines.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/global-section.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/ground-sense-editor.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/group-node.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/hardware-bin-summary-tab.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/hardware-response-emulator.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/hardware-view.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/hidden-upload.md` — 引用块/代码块 3 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 50%｜`Note Hidden uploads, controlled and started by SMC_ARM()， must be finished befor…`
+- ✅ `objects/hw-pin-state.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/hw-state.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/hwty.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/integrated-result-tool.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/jrst.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/jscf.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/jsdf.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/jspr.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1623,10 +1938,17 @@
 - ✅ `objects/level-equation-file.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/level-file.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/level-master-file.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/level-set-selector.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/level-setup-tool.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/level-spec.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/limit.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/lot-summary-generator.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/lsus.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/lsux.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/match-loops.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/model-file.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/mscf.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/msdf.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/mtp-maintenance-operations.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/mtp-memory-test.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/mtp-shared-test-commands.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1638,6 +1960,7 @@
 - ✅ `objects/on-first-invocation-end.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/option-list.md` — 引用块/代码块 6 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 33%｜`Identifier: The parameter name to be shown in the testflow editor. Type: The par…`
+- ✅ `objects/pact.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pals.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
     - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
         - `An error is generated if： - The specified`
@@ -1648,45 +1971,64 @@
 - ✅ `objects/pattern-master-file.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pattern-object.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pattern-tool.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/pclk.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/pdiv.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/pfnd.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pin-configuration-file.md` — 引用块/代码块 18 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pin-configuration-master-file.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pin-configuration-tool.md` — 引用块/代码块 30 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pin-group-editor.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pin-mapping-file.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/pin-property-monitor.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pin-string.md` — 引用块/代码块 4 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 33%｜`Identifier: The parameter name to be shown in the testflow editor. Type: The par…`
 - ✅ `objects/pin-utility.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/play-pattern.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pogocabling-section.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/port-editor.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pqfc.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/preprocessing-and-postprocessing-scripts.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/primary-status.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/prlt.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/project-explorer-view.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/protocol-editor.md` — 引用块/代码块 5 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 0%｜`Introduced in SmarTest 7.1.0 SmarTest 7.1.3: Enhanced error handling and present…`
 - ✅ `objects/psas.md` — 引用块/代码块 25 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/psfc.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/pslv.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/pssl.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/pssr.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pste.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/raw-data-views.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/rclv.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/rdi-configure-file.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
     - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
         - `generate eight or more cycles […]. So when`
         - `cycles […]. So when this mode is enabled,`
 - ✅ `objects/report-window.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/result-configuration.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/rset.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/run-dialog.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/sequencer-status.md` — 引用块/代码块 19 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/sequencer.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/set-utility-lines.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/setup-level-set-0.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/setup-management-tool.md` — 引用块/代码块 4 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 0%｜`Introduced before SmarTest 6.3.2 SmarTest 6.5.3: TMLimits setup is now supported`
 - ✅ `objects/setup-perspective.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/shared-continuity-test.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/sharing-configuration-file.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/sharing-configuration.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/shmoo-tool.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/signal-analyzer.md` — 引用块/代码块 14 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/site-control-window.md` — 引用块/代码块 6 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 0%｜`The site in focus is automatically switched depending on the current situation i…`
+- ✅ `objects/sldo.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/smartcalc-framework.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/smartcalc.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/smartest-data-formatter.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/smartrdi.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/smartshell.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/smc-synchronize.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/smc-test.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/software-bin-summary-tab.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1703,13 +2045,17 @@
 - ✅ `objects/spst.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/sqst.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/stdf.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/stme.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/stpm-control-file.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/stpm-merge-rules-file.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/stpm.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/strs.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/structure-of-a-tmlimits-csv-file.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/svlr.md` — 引用块/代码块 21 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/table-filter.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/task-list.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/technology-file-for-a-device.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/term.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/test-method-class.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/test-program-explorer.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/test-suite-control-api.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1727,6 +2073,7 @@
         - `!Universal test method parameter display and modification Note If a parameter value is …`
 - ✅ `objects/testflow-tool.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/testflow-variable.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/testset-testname.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/testset.md` — 引用块/代码块 18 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timestamp-attr-type.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-diagram-tool.md` — 引用块/代码块 4 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
@@ -1734,6 +2081,7 @@
 - ✅ `objects/timing-equation-set.md` — 引用块/代码块 25 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-file.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-master-file.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/timing-set-selector.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-setup-tool.md` — 引用块/代码块 43 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-spec.md` — 引用块/代码块 19 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-specification.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1746,7 +2094,18 @@
 - ✅ `objects/tpt-generate-device-dir.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/tpt-import-from-device.md` — 引用块/代码块 10 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 60%｜`<pre_proc> is a script that is executed before this command. <post_proc> is a sc…`
+- ✅ `objects/tsus.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/tsux.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/udef.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/udgp.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/udpr.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/udps.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/udpt.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/udup.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/udut.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/udvp.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/universal-test-method-library.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/upas.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/uptd.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/utility-card.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/utility-line-assignments.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1756,9 +2115,22 @@
     - ⚠️ 未称逐字，覆盖率 50%｜`CAUTION The 4-row utility block uses the row sequence c-a-b-d for compatibility …`
 - ✅ `objects/utility-power-supplies.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/utility-purpose-editor.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/vclk.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/vdcg.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/vec-events.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/vector-setup-file.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/vpin.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/vtim.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/vwfg.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/vwfs.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/wafer-summary-tab.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/wave.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/waveform-mapping.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/waveform-view.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/wavetable-file.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/wavetable.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/wfds.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/wsus.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/xps256-pmu-operating-mode.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/xps256-programming-dps-operating-mode.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/xps256-status-flags.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1925,7 +2297,7 @@
 > - **没自称逐字 = 转述，对不上是正常的。** 只提示，不判错。
 >
 > **另一档，与上面两档都不同：疑似自加结构 —— 本次共 16 处。**
-> **本类主动排除：`<!-- 语法节 begin -->`…`<!-- 语法节 end -->` 之间那一段，本次涉及 229 页、共 3480167 字符。**
+> **本类主动排除：`<!-- 语法节 begin -->`…`<!-- 语法节 end -->` 之间那一段，本次涉及 322 页、共 3703367 字符。**
 > 那一段由 `objscaffold.py` 写（§4），段内语料链接被机械改写成 ``文本``（raw: `路径`），**按设计就不是逐字的**——不排除它，本类会稳定地报一条自己造成的「对不上」。
 > **它没有被放过，是被更硬的口径接管了**：第十二类查的是「页面与脚本当前产出**逐字节一致**」。两个检查管同一段时，弱的那条只产生噪声。
 > 形状判据三条：引文单元**以 `- ` 开头**、**中间含 ` - `**、或**含 `…` / `...`**，**且对不上原文**。
@@ -1957,8 +2329,8 @@
 
 ## 第八类 · 链接目标可达（**抓断链；排除项是名字白名单两项，行内代码跨度里的 wikilink 照样算**）
 
-- 内容页共 **411** 页，引用 **522** 个目标，其中 **111** 个找不到对应页。
-- 口径指纹：内容页 411 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 9e797c3c0451`。
+- 内容页共 **504** 页，引用 **520** 个目标，其中 **16** 个找不到对应页。
+- 口径指纹：内容页 504 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 362c2789808e`。
 
 > **这不是页面的缺陷，是建页 backlog。** 它列的是**脊椎已经要求**的页——
 > 比按 `in_src` 排的「125 个高入度对象」更有用：那些只是"语料里常出现"，
@@ -1966,126 +2338,31 @@
 
 | 悬空目标 | 被引 | 引用它的 stage |
 |---|---|---|
-| `smartest-data-formatter` | 9 | edl-file, event-formatter, mapping-results, results, stdf, structure-of-a-tmlimits-csv-file |
-| `pslv` | 8 | dpspins-resources, level, mapping-level, spst, uptd |
-| `table-filter` | 8 | data-navigation-views, raw-data-views, software-bin-summary-tab, test-summary-tab |
-| `hardware-bin-summary-tab` | 7 | bin, data-navigation-views, mapping-results, software-bin-summary-tab, structure-of-a-tmlimits-csv-file |
-| `hardware-view` | 7 | dc-scale-uhc4t-card, mapping-run, run, utility-line-view |
 | `ps1600` | 7 | jsud, jswf, logical-boards, pin-utility, smartrdi, smartrdi-tmu-test-setup |
 | `test-method-project` | 7 | how-to-create-a-universal-test-method-class, mapping-testmethod, pin-string, project-explorer-view, smartcalc-framework, testmethod, universal-test-method-library |
-| `drlv` | 6 | level, mapping-level, spst, uptd |
 | `flow-control-node` | 6 | assign-value-node, flag, flow-sequence-editor, mapping-testflow, testflow, testflow-tool |
 | `hardware-response-file` | 6 | flow-sequence-editor, hardware-response-emulator, mapping-run, run, testflow-tool |
-| `rclv` | 6 | level, mapping-level, spst, uptd |
-| `udgp` | 6 | dfge, dfgp, dfpt, pin |
-| `wsus` | 6 | mapping-timing, sprm, timing |
-| `dfpr` | 5 | mapping-pin, pin, pin-configuration-file, pin-configuration-master-file |
-| `dsus` | 5 | level, mapping-level, sprm |
-| `get-utility-lines` | 5 | flex-relay, pin, rdi-configure-file, utility-card, utility-pins-editor |
-| `group-node` | 5 | assign-value-node, mapping-testflow, testflow, testflow-master-file, tpt-import-from-device |
-| `jrst` | 5 | jsud, mapping-timing, timing |
-| `lsus` | 5 | level, mapping-level, sprm |
-| `mscf` | 5 | jsud, mapping-timing, timing |
-| `msdf` | 5 | jsud, mapping-timing, timing |
-| `set-utility-lines` | 5 | flex-relay, pin, rdi-configure-file, utility-card, utility-pins-editor |
-| `term` | 5 | level, mapping-level, spst |
-| `timing-set-selector` | 5 | mapping-timing, timing, timing-setup-commands, timing-spec, waveform-set |
-| `tsus` | 5 | mapping-timing, sprm, timing |
-| `add-limit` | 4 | dc-scale-limits-editor, mapping-testmethod, testmethod |
-| `clkr` | 4 | jswf, mapping-timing, spst, timing |
-| `dfup` | 4 | dfpn, flsh, mapping-pin, pin |
-| `dfut` | 4 | mapping-pin, pals, pin, utility-pins-editor |
 | `drldump` | 4 | edl-file, mapping-results, results |
-| `pclk` | 4 | mapping-timing, spst, timing, uptd |
-| `prlt` | 4 | get-functional-result, mapping-project, pin |
-| `sldo` | 4 | level, level-master-file, mapping-level |
 | `technology-file` | 4 | level, project, rdi-configure-file |
-| `testset-testname` | 4 | mapping-results, results, test-summary-tab |
-| `wafer-summary-tab` | 4 | data-navigation-views, mapping-results, setting-chart-display-options, software-bin-summary-tab |
-| `wave` | 4 | mapping-timing, timing, wavetable |
-| `begin-extension` | 3 | fw-task, mapping-testmethod, testmethod |
-| `clmp` | 3 | level, mapping-level |
-| `data-logging-profile-api` | 3 | data-logging-profiles, mapping-results, results |
-| `debug-view` | 3 | mapping-run, run, testflow-tool |
-| `device-summary-tab` | 3 | data-navigation-views, mapping-results, software-bin-summary-tab |
-| `end-extension` | 3 | fw-task, mapping-testmethod, testmethod |
-| `ground-sense-editor` | 3 | pin, pin-configuration-tool |
-| `maintenance-operations` | 3 | apg-program-file, device-architecture-file |
-| `match-loops` | 3 | hidden-upload, mapping-run, smartrdi-vector-and-protocol-programming |
 | `print-node` | 3 | assign-value-node, mapping-testflow, testflow |
-| `result-configuration` | 3 | error-map-tool, mapping-results, results |
 | `switch-version-command-line-tool` | 3 | mapping-project, project |
-| `upas` | 3 | flsh, mapping-pin, pin |
-| `vec-events` | 3 | event-value-int, pattern, pattern-object |
-| `waveform-mapping` | 3 | apg-pattern-file, mtp-maintenance-operations, smartrdi-vector-and-protocol-programming |
 | `workspace` | 3 | new-device-wizard, project, project-explorer-view |
-| `built-in-functions` | 2 | mapping-testflow, testflow |
-| `bwdf` | 2 | mapping-timing, timing |
-| `bwds` | 2 | mapping-timing, timing |
 | `ctim` | 2 | primary-status, timing |
-| `dcdt` | 2 | mapping-timing, timing |
-| `debug-perspective` | 2 | mapping-run, run |
-| `dprl` | 2 | level, mapping-level |
-| `etds` | 2 | spst, timing |
-| `etim` | 2 | spst, timing |
-| `level-set-selector` | 2 | equation-based-level-setup, level |
 | `list-of-test-result-commands` | 2 | mapping-results, results |
-| `lot-summary-generator` | 2 | mapping-results, results |
 | `org-file` | 2 | mapping-project, project |
-| `pact` | 2 | mapping-pin, pin |
-| `pdiv` | 2 | mapping-timing, timing |
-| `play-pattern` | 2 | cct-multiport-sequencer-synchronizer-api, pattern |
 | `ps5000` | 2 | logical-boards, smartrdi |
-| `pssr` | 2 | level, mapping-level |
-| `setup-level-set-0` | 2 | level, mapping-level |
-| `sharing-configuration` | 2 | pals, sharing-configuration-file |
-| `stme` | 2 | mapping-pin, pin |
-| `tsux` | 2 | mapping-timing, timing |
-| `udef` | 2 | pin, pin-config-requires-sequencer-off |
-| `vclk` | 2 | mapping-timing, timing |
-| `vdcg` | 2 | mapping-timing, timing |
-| `vpin` | 2 | mapping-pin, pin |
-| `vtim` | 2 | mapping-timing, timing |
-| `vwfg` | 2 | mapping-timing, timing |
-| `vwfs` | 2 | mapping-timing, timing |
-| `waveform-view` | 2 | timing, timing-diagram-tool |
-| `wfds` | 2 | mapping-timing, timing |
-| `cct-change-level-spec` | 1 | level |
-| `chin` | 1 | pin |
-| `dfpc` | 1 | pin |
-| `dprt` | 1 | timing |
-| `edsp` | 1 | timing |
-| `error` | 1 | mtp-maintenance-operations |
-| `gctx` | 1 | pin |
 | `gio-library-api` | 1 | project |
-| `hw-pin-state` | 1 | pin |
-| `hw-state` | 1 | pin |
-| `hwty` | 1 | pin |
 | `initialize` | 1 | testmethod |
-| `lsux` | 1 | level |
-| `pfnd` | 1 | pin |
-| `pin-property-monitor` | 1 | pin |
-| `pssl` | 1 | pin |
-| `rset` | 1 | level |
-| `shared-continuity-test` | 1 | sharing-configuration-file |
 | `shared-leakage-parallel-test` | 1 | sharing-configuration-file |
-| `smartshell` | 1 | project |
-| `strs` | 1 | timing |
-| `udpr` | 1 | pin |
-| `udps` | 1 | pin |
-| `udpt` | 1 | pin |
-| `udup` | 1 | pin |
-| `udut` | 1 | pin |
-| `udvp` | 1 | pin |
 
 > 九页之间的互链见第五类；本类只看**指向未建页**的链接。
 
 ## 第九类 · 命名合规（**schema §5**）
 
-- **乙 · 文件名本身**：**412 个文件**逐个验过，**0 个不合 §5**。
-- **丙 · stem 唯一**：412 个文件占 **412 个 stem**，**0 个撞名**。
-- **甲 · 链接目标**：内容页引用 **5356** 处，其中 **0 个目标不合 §5**。
-- ⚠️ **语法节整段不参与链接检查**：**229 页**有脚本写的语法节，已整段切掉（`alias-set-editor`、`alphabetical-list-of-flags`、`analysis-views`、`apg-pattern-file`、`apg-program-file`、`aprm`、`assign-value-node`、`bin`…）。
+- **乙 · 文件名本身**：**505 个文件**逐个验过，**0 个不合 §5**。
+- **丙 · stem 唯一**：505 个文件占 **505 个 stem**，**0 个撞名**。
+- **甲 · 链接目标**：内容页引用 **5355** 处，其中 **0 个目标不合 §5**。
+- ⚠️ **语法节整段不参与链接检查**：**322 页**有脚本写的语法节，已整段切掉（`add-limit`、`alias-set-editor`、`alphabetical-list-of-flags`、`analysis-views`、`apg-pattern-file`、`apg-program-file`、`aprm`、`assign-value-node`…）。
   **理由**：那一段是 §4 规定**脚本写、LLM 一个字不许改**的逐字原文，它由**第十二类**用更硬的口径管（页面 ↔ 脚本逐字节一致）。实测 `concepts/command-reference.md` 的语法节里抄着 pattern master file 的格式，而**那个格式自己就用 `[[path: …]]`**——不切，甲就会报一个名叫 `path:` 的「下划线分隔」违规，**而那是假红**。
 
 - ✅ 甲无违规。
@@ -2129,25 +2406,44 @@
 | `concepts/flag.md` | Flags | `n/a` | testflow=n/a | ✅ |
 | `concepts/offline-result-emulation.md` | Offline Result Emulation | `n/a` | run=n/a | ✅ |
 | `concepts/waveform-set.md` | Waveform and timing sets | `n/a` | timing=n/a | ✅ |
+| `objects/add-limit.md` | addLimit | `L2` | testmethod=L2 | ✅ |
 | `objects/aprm.md` | APRM - (Activate PRiMary sets) | `L1` | level=L1 / timing=L1 | ✅ |
 | `objects/assign-value-node.md` | Assign Value node | `gui` | testflow=gui | ✅ |
+| `objects/begin-extension.md` | BEGIN_EXTENSION | `L2` | testmethod=L2（L1 通道） | ✅ |
 | `objects/bin.md` | Bins | `n/a` | testflow=n/a | ✅ |
+| `objects/built-in-functions.md` | Built-in functions | `gui` | testflow=gui | ✅ |
+| `objects/bwdf.md` | BWDF, BWDF? - (Break Waveform DeFinition | `L1` | timing=L1 | ✅ |
+| `objects/bwds.md` | BWDS, BWDS? - (Break Waveform Definition | `L1` | timing=L1 | ✅ |
+| `objects/cct-change-level-spec.md` | CCTchangeLevelSpec | `L2` | level=L2 | ✅ |
 | `objects/change-device-wizard.md` | Change Device wizard | `gui` | project=gui | ✅ |
 | `objects/ci-cpi.md` | Command Set Programming Interface | `L3` | testflow=L3 | ✅ |
+| `objects/clkr.md` | CLKR, CLKR? - (CLocK Resolution) | `L1` | timing=L1 | ✅ |
+| `objects/clmp.md` | CLMP, CLMP? - (CLaMP level) | `L1` | level=L1 | ✅ |
 | `objects/connect.md` | CONNECT | `L2` | testmethod=L2 | ✅ |
 | `objects/data-logging-profiles.md` | Data Logging Profiles | `file` | results=file | ✅ |
 | `objects/data-retrieval-library.md` | Data Retrieval Library | `L2` | results=L2 | ✅ |
+| `objects/dcdt.md` | DCDT, DCDT? - (Device Cycle DefaulT) | `L1` | timing=L1 | ✅ |
+| `objects/debug-perspective.md` | Debug perspective | `gui` | run=gui | ✅ |
+| `objects/debug-view.md` | Debug View | `gui` | run=gui | ✅ |
 | `objects/device-directory.md` | Device directory structure | `file` | project=file | ✅ |
 | `objects/device-license-file.md` | The device license file | `file` | project=file | ✅ |
 | `objects/device-technology-directory.md` | Device Technology Directory | `file` | project=file | ✅ |
 | `objects/disconnect.md` | DISCONNECT | `L2` | testmethod=L2 | ✅ |
+| `objects/dprl.md` | DPRL, DPRL? - (Default PRimary Level set | `L1` | level=L1 | ✅ |
+| `objects/dprt.md` | DPRT, DPRT? - (Default PRimary Timing se | `L1` | timing=L1 | ✅ |
+| `objects/drlv.md` | DRLV, DRLV? - (DRive LeVel) | `L1` | level=L1 | ✅ |
 | `objects/dscp.md` | DSCP, DSCP? - (Define System Control Par | `L1` | project=L1 / level=L1 | ✅ |
+| `objects/dsus.md` | DSUS, DSUS? - (Dps Sets USed) | `L1` | level=L1 | ✅ |
 | `objects/dtcp.md` | DTCP, DTCP? - (Define Technology Control | `L1` | project=L1 | ✅ |
 | `objects/edl-file.md` | The V93000 Data Logging Architecture | `file` | results=file | ✅ |
+| `objects/edsp.md` | EDSP, EDSP? - (EDge SPecification) | `L1` | timing=L1 | ✅ |
+| `objects/end-extension.md` | END_EXTENSION | `L2` | testmethod=L2（L1 通道） | ✅ |
 | `objects/eqfs.md` | EQFS - (EQuation FileS command transfer) | `L1` | level=L1 / timing=L1 | ✅ |
 | `objects/eqsp.md` | EQSP, EQSP? - (EQuation SPecification tr | `L1` | level=L1 / timing=L1 | ✅ |
 | `objects/error-map-tool.md` | Error Map Tool | `gui` | run=gui / results=gui | ✅ |
 | `objects/error-map.md` | Error Map | `file` | results=file | ✅ |
+| `objects/etds.md` | ETDS, ETDS? - (Edge Timing Definition St | `L1` | timing=L1 | ✅ |
+| `objects/etim.md` | ETIM, ETIM? - (Edge TIMing) | `L1` | timing=L1 | ✅ |
 | `objects/event-formatter.md` | Event Formatter | `gui` | results=gui | ✅ |
 | `objects/execution-context.md` | Using execution contexts | `L2` | run=L2 | ✅ |
 | `objects/file-string.md` | How to create a universal test method cl | `L2` | testmethod=L2 参数类型 | ✅ |
@@ -2157,30 +2453,45 @@
 | `objects/for-each-site-begin.md` | FOR_EACH_SITE_BEGIN | `L2` | testmethod=L2 | ✅ |
 | `objects/for-each-site-end.md` | FOR_EACH_SITE_END | `L2` | testmethod=L2 | ✅ |
 | `objects/fw-task.md` | FW_TASK | `L2` | testmethod=L2（L1 通道） | ✅ |
+| `objects/group-node.md` | Group node | `gui` | testflow=gui | ✅ |
 | `objects/hardware-response-emulator.md` | Hardware Response Emulator | `gui` | run=gui | ✅ |
+| `objects/hardware-view.md` | Hardware view | `gui` | run=gui | ✅ |
 | `objects/integrated-result-tool.md` | Integrated Result Tool | `gui` | results=gui | ✅ |
 | `objects/level-equation-file.md` | Level equation file | `file` | level=file | ✅ |
 | `objects/level-file.md` | Structure of an equation based level set | `file` | level=file | ✅ |
 | `objects/level-master-file.md` | Level setup master file | `file` | level=file | ✅ |
+| `objects/level-set-selector.md` | LevelSetSelector | `L2` | level=L2 | ✅ |
 | `objects/level-setup-tool.md` | Level setup tool | `gui` | level=gui | ✅ |
 | `objects/level-spec.md` | LEVEL_SPEC | `L2` | level=L2 | ✅ |
 | `objects/limit.md` | LIMIT | `L2` | testmethod=L2 | ✅ |
+| `objects/lot-summary-generator.md` | LotSummaryGenerator | `L1` | results=L1 | ✅ |
+| `objects/lsus.md` | LSUS, LSUS? - (Level Sets USed) | `L1` | level=L1 | ✅ |
+| `objects/lsux.md` | LSUX, LSUX? - (Level Sets Used eXtended) | `L1` | level=L1 | ✅ |
 | `objects/model-file.md` | The model file | `file` | project=file | ✅ |
 | `objects/new-device-wizard.md` | New Device wizard | `gui` | project=gui | ✅ |
 | `objects/on-first-invocation-begin.md` | ON_FIRST_INVOCATION_BEGIN | `L2` | testmethod=L2 | ✅ |
 | `objects/on-first-invocation-end.md` | ON_FIRST_INVOCATION_END | `L2` | testmethod=L2 | ✅ |
 | `objects/option-list.md` | How to create a universal test method cl | `L2` | testmethod=L2 参数类型 | ✅ |
 | `objects/pattern-tool.md` | Pattern Tools | `gui` | run=gui | ✅ |
+| `objects/pclk.md` | PCLK, PCLK? - (Pin CLocK) | `L1` | timing=L1 | ✅ |
+| `objects/pdiv.md` | PDIV? - (Period DIVider) | `L1` | timing=L1 | ✅ |
 | `objects/pin-string.md` | How to create a universal test method cl | `L2` | testmethod=L2 参数类型 | ✅ |
 | `objects/primary-status.md` | PRIMARY_STATUS - (Primary) | `L2` | level=L2 / timing=L2 | ✅ |
 | `objects/project-explorer-view.md` | Project Explorer view | `gui` | project=gui | ✅ |
+| `objects/pslv.md` | PSLV, PSLV? - (Power Supply LeVel) | `L1` | level=L1 | ✅ |
+| `objects/pssr.md` | PSSR, PSSR? -(Power Supply Slew Rate) | `L1` | level=L1 | ✅ |
+| `objects/rclv.md` | RCLV, RCLV? - (ReCeive LeVel) | `L1` | level=L1 | ✅ |
 | `objects/report-window.md` | Report window | `gui` | run=gui / results=gui | ✅ |
+| `objects/rset.md` | RSET - (ReSET) | `L1` | level=L1 | ✅ |
 | `objects/run-dialog.md` | Running a testflow | `gui` | run=gui | ✅ |
+| `objects/setup-level-set-0.md` | SetupLevelSet0 | `L2` | level=L2 | ✅ |
 | `objects/setup-management-tool.md` | Setup Management Tool | `gui` | project=gui / testflow=gui | ✅ |
 | `objects/setup-perspective.md` | Setup perspective | `gui` | project=gui | ✅ |
 | `objects/shmoo-tool.md` | Shmoo Tool | `gui` | results=gui | ✅ |
 | `objects/signal-analyzer.md` | Signal Analyzer | `gui` | results=gui | ✅ |
 | `objects/site-control-window.md` | Site Control Window | `gui` | run=gui | ✅ |
+| `objects/sldo.md` | SLDO - (Switch Level and Dps Order) | `L1` | level=L1 | ✅ |
+| `objects/smartest-data-formatter.md` | SmarTest Data Formatter | `gui` | results=gui/file | ✅ |
 | `objects/spec-search.md` | SPEC_SEARCH | `L2` | timing=L2 | ✅ |
 | `objects/spec-set.md` | Spec sets | `L2` | level=L2 | ✅ |
 | `objects/spec-tool.md` | Spec Tool | `gui` | level=gui / timing=gui | ✅ |
@@ -2193,7 +2504,9 @@
 | `objects/stpm-control-file.md` | STPM control file | `file` | project=file | ✅ |
 | `objects/stpm-merge-rules-file.md` | STPM merge rules file | `file` | project=file | ✅ |
 | `objects/stpm.md` | SmarTest Program Manager | `L3` | project=L3 / testflow=L3 | ✅ |
+| `objects/strs.md` | STRS? - (Spec TRansition Search) | `L1` | timing=L1 | ✅ |
 | `objects/svlr.md` | SVLR, SVLR? - (Spec VaLues at Runtime) | `L1` | level=L1 / timing=L1 | ✅ |
+| `objects/term.md` | TERM, TERM? - (TERMination mode) | `L1` | level=L1 | ✅ |
 | `objects/test-method-class.md` | 2. Create a Test Method Class | `gui` | testmethod=gui | ✅ |
 | `objects/test-program-explorer.md` | Test Program Explorer | `gui` | project=gui | ✅ |
 | `objects/test-suite.md` | Test suites | `n/a` | testflow=n/a | ✅ |
@@ -2210,19 +2523,31 @@
 | `objects/timing-equation-set.md` | Timing equation set reference | `file` | timing=file | ✅ |
 | `objects/timing-file.md` | Data organization of equation based timi | `file` | timing=file | ✅ |
 | `objects/timing-master-file.md` | Timing setup master file | `file` | timing=file | ✅ |
+| `objects/timing-set-selector.md` | TimingSetSelector | `L2` | timing=L2 | ✅ |
 | `objects/timing-setup-tool.md` | Timing Setup Tool | `gui` | timing=gui | ✅ |
 | `objects/timing-spec.md` | TIMING_SPEC | `L2` | timing=L2 | ✅ |
 | `objects/timing-specification.md` | Defining the timing specification | `file` | timing=file | ✅ |
 | `objects/tmlimits.md` | TMLimits | `L2` | testmethod=L2 + file / results=L2/file | ✅ |
 | `objects/tpt-generate-device-dir.md` | tpt_generate_device_dir | `L3` | project=L3 | ✅ |
 | `objects/tpt-import-from-device.md` | tpt_import_from_device | `L3` | project=L3 | ✅ |
+| `objects/tsus.md` | TSUS, TSUS? - (Timing Sets USed) | `L1` | timing=L1 | ✅ |
+| `objects/tsux.md` | TSUX, TSUX? - (Timing Sets Used eXtended | `L1` | timing=L1 | ✅ |
 | `objects/universal-test-method-library.md` | Developing a universal test method libra | `file` | testmethod=file | ✅ |
 | `objects/uptd.md` | UPTD, UPTD? - (UP To Date) | `L1` | level=L1 / timing=L1 | ✅ |
 | `objects/utility-line-view.md` | Utility Line view | `gui` | run=gui | ✅ |
+| `objects/vclk.md` | VCLK? - (Verify CLocK) | `L1` | timing=L1 | ✅ |
+| `objects/vdcg.md` | VDCG? - (Verify Device Cycle for Group) | `L1` | timing=L1 | ✅ |
+| `objects/vtim.md` | VTIM? - (Verify TIMing) | `L1` | timing=L1 | ✅ |
+| `objects/vwfg.md` | VWFG? - (Verify WaveForms in Groups) | `L1` | timing=L1 | ✅ |
+| `objects/vwfs.md` | VWFS? - (Verify WaveForm Sets) | `L1` | timing=L1 | ✅ |
+| `objects/wave.md` | WAVE, WAVE? - (WAVEform) | `L1` | timing=L1 | ✅ |
+| `objects/waveform-view.md` | Waveform View | `gui` | timing=gui | ✅ |
 | `objects/wavetable-file.md` | Wavetable file | `file` | timing=file | ✅ |
 | `objects/wavetable.md` | wavetable | `n/a` | timing=n/a | ✅ |
+| `objects/wfds.md` | WFDS, WFDS? - (WaveForm Definition Strin | `L1` | timing=L1 | ✅ |
+| `objects/wsus.md` | WSUS, WSUS? - (Waveform Sets USed) | `L1` | timing=L1 | ✅ |
 
-- ℹ️ 155 页的层**没有第二处可以对照**（表格里没有它）——这不是错，是「**这层只有页自己说了算，机器无从复核**」：
+- ℹ️ 200 页的层**没有第二处可以对照**（表格里没有它）——这不是错，是「**这层只有页自己说了算，机器无从复核**」：
     - `concepts/command-reference.md` — `layer: n/a`
     - `concepts/controlling-multiple-sites.md` — `layer: n/a`
     - `concepts/dc-test-programming.md` — `layer: n/a`
@@ -2280,8 +2605,10 @@
     - `objects/apg-pattern-file.md` — `layer: file`
     - `objects/apg-program-file.md` — `layer: file`
     - `objects/cct-multiport-sequencer-synchronizer-api.md` — `layer: L2`
+    - `objects/chin.md` — `layer: L1`
     - `objects/conf.md` — `layer: L1`
     - `objects/ctxt.md` — `layer: L1`
+    - `objects/data-logging-profile-api.md` — `layer: n/a`
     - `objects/data-navigation-views.md` — `layer: gui`
     - `objects/dc-result-accessor.md` — `layer: L3`
     - `objects/dc-scale-limits-editor.md` — `layer: gui`
@@ -2289,11 +2616,16 @@
     - `objects/dc-scale-xps256-card.md` — `layer: n/a`
     - `objects/device-access-file.md` — `layer: file`
     - `objects/device-architecture-file.md` — `layer: file`
+    - `objects/device-summary-tab.md` — `layer: gui`
     - `objects/dfge.md` — `layer: L1`
     - `objects/dfgp.md` — `layer: L1`
+    - `objects/dfpc.md` — `layer: L1`
     - `objects/dfpn.md` — `layer: L1`
+    - `objects/dfpr.md` — `layer: L1`
     - `objects/dfps.md` — `layer: L1`
     - `objects/dfpt.md` — `layer: L1`
+    - `objects/dfup.md` — `layer: L1`
+    - `objects/dfut.md` — `layer: L1`
     - `objects/digital-capture-test.md` — `layer: L2`
     - `objects/digital-offset-search-pins.md` — `layer: L2`
     - `objects/digital-pins-editor.md` — `layer: gui`
@@ -2312,47 +2644,69 @@
     - `objects/flex-relay.md` — `layer: L2`
     - `objects/flsh.md` — `layer: L1`
     - `objects/flush.md` — `layer: L2`
+    - `objects/gctx.md` — `layer: L1`
     - `objects/get-functional-result.md` — `layer: L2`
+    - `objects/get-utility-lines.md` — `layer: L2`
     - `objects/global-section.md` — `layer: file`
+    - `objects/ground-sense-editor.md` — `layer: gui`
+    - `objects/hardware-bin-summary-tab.md` — `layer: gui`
     - `objects/hidden-upload.md` — `layer: L2`
+    - `objects/hw-pin-state.md` — `layer: L2`
+    - `objects/hw-state.md` — `layer: L2`
+    - `objects/hwty.md` — `layer: L1`
+    - `objects/jrst.md` — `layer: L1`
     - `objects/jscf.md` — `layer: L1`
     - `objects/jsdf.md` — `layer: L1`
     - `objects/jspr.md` — `layer: L1`
     - `objects/jsud.md` — `layer: L1`
     - `objects/jswf.md` — `layer: L1`
+    - `objects/match-loops.md` — `layer: L1`
+    - `objects/mscf.md` — `layer: L1`
+    - `objects/msdf.md` — `layer: L1`
     - `objects/mtp-maintenance-operations.md` — `layer: n/a`
     - `objects/mtp-memory-test.md` — `layer: L2`
     - `objects/mtp-shared-test-commands.md` — `layer: L2`
     - `objects/mtpt.md` — `layer: file`
     - `objects/multiport-burst-editor.md` — `layer: gui`
+    - `objects/pact.md` — `layer: L1`
     - `objects/pals.md` — `layer: L1`
     - `objects/pattern-controller.md` — `layer: L2`
     - `objects/pattern-editor.md` — `layer: gui`
     - `objects/pattern-explorer.md` — `layer: gui`
     - `objects/pattern-master-file.md` — `layer: file`
     - `objects/pattern-object.md` — `layer: L2`
+    - `objects/pfnd.md` — `layer: L1`
     - `objects/pin-configuration-file.md` — `layer: file`
     - `objects/pin-configuration-master-file.md` — `layer: file`
     - `objects/pin-configuration-tool.md` — `layer: gui`
     - `objects/pin-group-editor.md` — `layer: gui`
     - `objects/pin-mapping-file.md` — `layer: file`
+    - `objects/pin-property-monitor.md` — `layer: L2`
     - `objects/pin-utility.md` — `layer: L2`
+    - `objects/play-pattern.md` — `layer: L2`
     - `objects/pogocabling-section.md` — `layer: file`
     - `objects/port-editor.md` — `layer: gui`
     - `objects/pqfc.md` — `layer: L1`
     - `objects/preprocessing-and-postprocessing-scripts.md` — `layer: file`
+    - `objects/prlt.md` — `layer: L1`
     - `objects/protocol-editor.md` — `layer: gui`
     - `objects/psas.md` — `layer: L1`
     - `objects/psfc.md` — `layer: L1`
+    - `objects/pssl.md` — `layer: L1`
     - `objects/pste.md` — `layer: L1`
     - `objects/raw-data-views.md` — `layer: gui`
     - `objects/rdi-configure-file.md` — `layer: file`
+    - `objects/result-configuration.md` — `layer: L2`
     - `objects/sequencer-status.md` — `layer: L3`
     - `objects/sequencer.md` — `layer: L1`
+    - `objects/set-utility-lines.md` — `layer: L2`
+    - `objects/shared-continuity-test.md` — `layer: n/a`
     - `objects/sharing-configuration-file.md` — `layer: file`
+    - `objects/sharing-configuration.md` — `layer: n/a`
     - `objects/smartcalc-framework.md` — `layer: L2`
     - `objects/smartcalc.md` — `layer: L2`
     - `objects/smartrdi.md` — `layer: L2`
+    - `objects/smartshell.md` — `layer: n/a`
     - `objects/smc-synchronize.md` — `layer: L2`
     - `objects/smc-test.md` — `layer: L2`
     - `objects/software-bin-summary-tab.md` — `layer: gui`
@@ -2360,30 +2714,46 @@
     - `objects/spmu-pin-task-mode.md` — `layer: L3`
     - `objects/spmu-pin-task.md` — `layer: L2`
     - `objects/spmu-task.md` — `layer: L2`
+    - `objects/stme.md` — `layer: L1`
     - `objects/structure-of-a-tmlimits-csv-file.md` — `layer: file`
+    - `objects/table-filter.md` — `layer: gui`
     - `objects/task-list.md` — `layer: L2`
     - `objects/technology-file-for-a-device.md` — `layer: file`
     - `objects/test-suite-control-api.md` — `layer: L3`
     - `objects/test-summary-tab.md` — `layer: gui`
+    - `objects/testset-testname.md` — `layer: L2`
     - `objects/timestamp-attr-type.md` — `layer: file`
     - `objects/tp360.md` — `layer: gui`
     - `objects/tpi-program-routines.md` — `layer: L3`
+    - `objects/udef.md` — `layer: L1`
+    - `objects/udgp.md` — `layer: L1`
+    - `objects/udpr.md` — `layer: L1`
+    - `objects/udps.md` — `layer: L1`
+    - `objects/udpt.md` — `layer: L1`
+    - `objects/udup.md` — `layer: L1`
+    - `objects/udut.md` — `layer: L1`
+    - `objects/udvp.md` — `layer: L1`
+    - `objects/upas.md` — `layer: L1`
     - `objects/utility-card.md` — `layer: n/a`
     - `objects/utility-line-assignments.md` — `layer: n/a`
     - `objects/utility-pins-editor.md` — `layer: gui`
     - `objects/utility-pogo-block-utility-card-v93000-exa-scale-systems.md` — `layer: n/a`
     - `objects/utility-power-supplies.md` — `layer: n/a`
     - `objects/utility-purpose-editor.md` — `layer: gui`
+    - `objects/vec-events.md` — `layer: L2`
     - `objects/vector-setup-file.md` — `layer: file`
+    - `objects/vpin.md` — `layer: L1`
+    - `objects/wafer-summary-tab.md` — `layer: gui`
+    - `objects/waveform-mapping.md` — `layer: n/a`
     - `objects/xps256-pmu-operating-mode.md` — `layer: L2`
     - `objects/xps256-programming-dps-operating-mode.md` — `layer: L2`
     - `objects/xps256-status-flags.md` — `layer: L2`
 
 ## 第十二类 · 语法节与抽取器当前产出一致（**页面 ↔ 脚本**）
 
-✅ **229 个已建页的 `## 语法 / 参数` 与 `objscaffold.py` 现在的产出逐字一致。**
+✅ **322 个已建页的 `## 语法 / 参数` 与 `objscaffold.py` 现在的产出逐字一致。**
 
-> **这一条查了哪些、没查哪些，都写出来**（§13.1 第 ⑥′ 问）：逐字比了 **229** 页；**38** 页是纯散文页（`constraint` / `error` / `stage`），按设计没有脚本写的一节，**不参与比较**；
+> **这一条查了哪些、没查哪些，都写出来**（§13.1 第 ⑥′ 问）：逐字比了 **322** 页；**38** 页是纯散文页（`constraint` / `error` / `stage`），按设计没有脚本写的一节，**不参与比较**；
 > 判据是**两个方向都封死**的：`object` / `concept` 页**必须**带`<!-- 语法节 begin -->` 标记（没有就是红——旧写法会**静默跳过**它，那正是本文件头说的「检查比自称的范围窄」），带标记的页**一律逐字比**。
 
 > **判据是逐字相等**，不是「看起来差不多」——这一节是脚本写的，它和脚本的输出**必须**是同一个东西。
@@ -2406,7 +2776,7 @@
 | `概念` | `concepts/` | 33 | 35 | ✅ 无 | ✅ 无 | `cross-card-ganging-requires-ddic`, `utility-line-assignments` |
 | `约束` | `constraints/` | 14 | 14 | ✅ 无 | ✅ 无 | — |
 | `映射` | `mappings/` | 9 | 9 | ✅ 无 | ✅ 无 | — |
-| `对象` | `objects/` | 196 | 205 | ✅ 无 | ✅ 无 | `dut-interface-layout`, `hv-protection`, `inter-layer-via-design`, `pogo-block-compatibility`, `setting-up-a-shmoo-test-with-the-shmoo-tool`, `setting-up-dc-scale-pins-with-smartrdi`, `smartrdi-tmu-test-setup`, `test-number-generator-and-tmlimits`, `utility-lines` |
+| `对象` | `objects/` | 289 | 205 | ❌ `add-limit`, `begin-extension`, `built-in-functions`, `bwdf`, `bwds`, `cct-change-level-spec`, `chin`, `clkr`, `clmp`, `data-logging-profile-api`, `dcdt`, `debug-perspective`, `debug-view`, `device-summary-tab`, `dfpc`, `dfpr`, `dfup`, `dfut`, `dprl`, `dprt`, `drlv`, `dsus`, `edsp`, `end-extension`, `etds`, `etim`, `gctx`, `get-utility-lines`, `ground-sense-editor`, `group-node`, `hardware-bin-summary-tab`, `hardware-view`, `hw-pin-state`, `hw-state`, `hwty`, `jrst`, `level-set-selector`, `lot-summary-generator`, `lsus`, `lsux`, `match-loops`, `mscf`, `msdf`, `pact`, `pclk`, `pdiv`, `pfnd`, `pin-property-monitor`, `play-pattern`, `prlt`, `pslv`, `pssl`, `pssr`, `rclv`, `result-configuration`, `rset`, `set-utility-lines`, `setup-level-set-0`, `shared-continuity-test`, `sharing-configuration`, `sldo`, `smartest-data-formatter`, `smartshell`, `stme`, `strs`, `table-filter`, `term`, `testset-testname`, `timing-set-selector`, `tsus`, `tsux`, `udef`, `udgp`, `udpr`, `udps`, `udpt`, `udup`, `udut`, `udvp`, `upas`, `vclk`, `vdcg`, `vec-events`, `vpin`, `vtim`, `vwfg`, `vwfs`, `wafer-summary-tab`, `wave`, `waveform-mapping`, `waveform-view`, `wfds`, `wsus` | ✅ 无 | `dut-interface-layout`, `hv-protection`, `inter-layer-via-design`, `pogo-block-compatibility`, `setting-up-a-shmoo-test-with-the-shmoo-tool`, `setting-up-dc-scale-pins-with-smartrdi`, `smartrdi-tmu-test-setup`, `test-number-generator-and-tmlimits`, `utility-lines` |
 | `排错` | `errors/` | 6 | 6 | ✅ 无 | ✅ 无 | — |
 
 > **本类不查 `版本` 节**：它不逐页列出——`index.md` 只带一行指针 `[[index-versions]]`，那 143 个文件由**第十三类**管（与 `versions.render()` 逐字节一致 + 条目逐字回 raw）。**被接管的范围要报出来，不然它和「没人管」长得一样。**
@@ -2421,7 +2791,7 @@
 | `概念` | 33 | 33 | ✅ |
 | `约束` | 14 | 14 | ✅ |
 | `映射` | 9 | 9 | ✅ |
-| `对象` | 196 | 196 | ✅ |
+| `对象` | 196 | 289 | ❌ |
 | `排错` | 6 | 6 | ✅ |
 | `已知缺口` | 5 | 5 | ✅ |
 
@@ -2431,7 +2801,7 @@
 |---|---|---|---|
 | 已知缺口（N 条） | `5` | `5` | ✅ |
 | 阶段（脊椎，N） | `9` | `9` | ✅ |
-| （脊椎 N / 概念 N / 约束 N / 对象 N / 排错 N / 映射 N） | `(9, 33, 14, 196, 6, 9)` | `(9, 33, 14, 196, 6, 9)` | ✅ |
+| （脊椎 N / 概念 N / 约束 N / 对象 N / 排错 N / 映射 N） | `(9, 33, 14, 196, 6, 9)` | `(9, 33, 14, 289, 6, 9)` | ❌ |
 
 > **登记了 3 条散文声明，本次找到 3 条、全部找到。****「没找到」不判错**（散文会被改写），**但必须印出来**——否则改一次措辞，这条声明就**静默地不再被检查**，而报告照样全绿。
 > 没登记进表的散文数字**本类一概不管**：`index.md` 里还有很多「N 页」「N 个」的说法，**它们没有检查**。这一条只覆盖登记在 `IDX_PROSE_CLAIMS` 里的那些。
@@ -2482,9 +2852,109 @@
 > **两条已知限界**（不藏着）：① 只认「附近有 TDC 号」的写法，**99 条够不着**（文档写成纯路径的认不出）；
 > ② 它**不改**页面——改法是 `python -X utf8 extract/fix_doc_stats.py --write`。
 
+**修法**：把 `index.md` 里的数字改成实际值，或者把标记补上／删掉多余的；`wiki-plan.csv` 的 status/缺行跑 `python -X utf8 extract/plan_sync.py --write`；「字节/行数」跑 `python -X utf8 extract/fix_doc_stats.py --write`。**不许反过来改判据去迁就页面**——这些数字的意义就是「和实际一致」。
+
 ## 第十五类 · 散文有没有真的写（**骨架占位符**）
 
-✅ **409 页的正文都写过了**（没有 `（待补）`，也没有残留的骨架注释）。
+❌ **93 页的正文还是骨架**（`objscaffold.py` 出的 `（待补）` 一个都没被换掉，或者骨架注释没删）：
+
+| 页 | 还缺什么 | 正文字节 |
+|---|---|---|
+| `objects/add-limit` | `（待补）` × 6＋骨架注释还在 | 896 |
+| `objects/begin-extension` | `（待补）` × 6＋骨架注释还在 | 2,023 |
+| `objects/built-in-functions` | `（待补）` × 6＋骨架注释还在 | 473 |
+| `objects/bwdf` | `（待补）` × 6＋骨架注释还在 | 3,406 |
+| `objects/bwds` | `（待补）` × 6＋骨架注释还在 | 3,573 |
+| `objects/cct-change-level-spec` | `（待补）` × 6＋骨架注释还在 | 924 |
+| `objects/chin` | `（待补）` × 6＋骨架注释还在 | 3,866 |
+| `objects/clkr` | `（待补）` × 6＋骨架注释还在 | 3,385 |
+| `objects/clmp` | `（待补）` × 6＋骨架注释还在 | 3,885 |
+| `objects/data-logging-profile-api` | `（待补）` × 6＋骨架注释还在 | 7,685 |
+| `objects/dcdt` | `（待补）` × 6＋骨架注释还在 | 1,889 |
+| `objects/debug-perspective` | `（待补）` × 6＋骨架注释还在 | 472 |
+| `objects/debug-view` | `（待补）` × 6＋骨架注释还在 | 465 |
+| `objects/device-summary-tab` | `（待补）` × 6＋骨架注释还在 | 473 |
+| `objects/dfpc` | `（待补）` × 6＋骨架注释还在 | 1,446 |
+| `objects/dfpr` | `（待补）` × 6＋骨架注释还在 | 3,596 |
+| `objects/dfup` | `（待补）` × 6＋骨架注释还在 | 4,708 |
+| `objects/dfut` | `（待补）` × 6＋骨架注释还在 | 4,050 |
+| `objects/dprl` | `（待补）` × 6＋骨架注释还在 | 1,210 |
+| `objects/dprt` | `（待补）` × 6＋骨架注释还在 | 3,022 |
+| `objects/drlv` | `（待补）` × 6＋骨架注释还在 | 4,515 |
+| `objects/dsus` | `（待补）` × 6＋骨架注释还在 | 1,811 |
+| `objects/edsp` | `（待补）` × 6＋骨架注释还在 | 5,122 |
+| `objects/end-extension` | `（待补）` × 6＋骨架注释还在 | 786 |
+| `objects/etds` | `（待补）` × 6＋骨架注释还在 | 8,803 |
+| `objects/etim` | `（待补）` × 6＋骨架注释还在 | 4,144 |
+| `objects/gctx` | `（待补）` × 6＋骨架注释还在 | 1,977 |
+| `objects/get-utility-lines` | `（待补）` × 6＋骨架注释还在 | 2,912 |
+| `objects/ground-sense-editor` | `（待补）` × 6＋骨架注释还在 | 474 |
+| `objects/group-node` | `（待补）` × 6＋骨架注释还在 | 465 |
+| `objects/hardware-bin-summary-tab` | `（待补）` × 6＋骨架注释还在 | 479 |
+| `objects/hardware-view` | `（待补）` × 6＋骨架注释还在 | 2,018 |
+| `objects/hw-pin-state` | `（待补）` × 6＋骨架注释还在 | 977 |
+| `objects/hw-state` | `（待补）` × 6＋骨架注释还在 | 2,595 |
+| `objects/hwty` | `（待补）` × 6＋骨架注释还在 | 1,264 |
+| `objects/jrst` | `（待补）` × 6＋骨架注释还在 | 988 |
+| `objects/level-set-selector` | `（待补）` × 6＋骨架注释还在 | 2,331 |
+| `objects/lot-summary-generator` | `（待补）` × 6＋骨架注释还在 | 4,495 |
+| `objects/lsus` | `（待补）` × 6＋骨架注释还在 | 2,277 |
+| `objects/lsux` | `（待补）` × 6＋骨架注释还在 | 1,940 |
+| `objects/match-loops` | `（待补）` × 6＋骨架注释还在 | 5,959 |
+| `objects/mscf` | `（待补）` × 6＋骨架注释还在 | 2,027 |
+| `objects/msdf` | `（待补）` × 6＋骨架注释还在 | 1,753 |
+| `objects/pact` | `（待补）` × 6＋骨架注释还在 | 2,805 |
+| `objects/pclk` | `（待补）` × 6＋骨架注释还在 | 4,813 |
+| `objects/pdiv` | `（待补）` × 6＋骨架注释还在 | 1,822 |
+| `objects/pfnd` | `（待补）` × 6＋骨架注释还在 | 1,162 |
+| `objects/pin-property-monitor` | `（待补）` × 6＋骨架注释还在 | 1,263 |
+| `objects/play-pattern` | `（待补）` × 6＋骨架注释还在 | 1,145 |
+| `objects/prlt` | `（待补）` × 6＋骨架注释还在 | 1,528 |
+| `objects/pslv` | `（待补）` × 6＋骨架注释还在 | 7,041 |
+| `objects/pssl` | `（待补）` × 6＋骨架注释还在 | 2,091 |
+| `objects/pssr` | `（待补）` × 6＋骨架注释还在 | 5,612 |
+| `objects/rclv` | `（待补）` × 6＋骨架注释还在 | 5,773 |
+| `objects/result-configuration` | `（待补）` × 6＋骨架注释还在 | 2,532 |
+| `objects/rset` | `（待补）` × 6＋骨架注释还在 | 2,576 |
+| `objects/set-utility-lines` | `（待补）` × 6＋骨架注释还在 | 3,472 |
+| `objects/setup-level-set-0` | `（待补）` × 6＋骨架注释还在 | 2,218 |
+| `objects/shared-continuity-test` | `（待补）` × 6＋骨架注释还在 | 4,316 |
+| `objects/sharing-configuration` | `（待补）` × 6＋骨架注释还在 | 8,150 |
+| `objects/sldo` | `（待补）` × 6＋骨架注释还在 | 2,168 |
+| `objects/smartest-data-formatter` | `（待补）` × 6＋骨架注释还在 | 17,648 |
+| `objects/smartshell` | `（待补）` × 6＋骨架注释还在 | 465 |
+| `objects/stme` | `（待补）` × 6＋骨架注释还在 | 1,808 |
+| `objects/strs` | `（待补）` × 6＋骨架注释还在 | 5,883 |
+| `objects/table-filter` | `（待补）` × 6＋骨架注释还在 | 1,928 |
+| `objects/term` | `（待补）` × 6＋骨架注释还在 | 6,708 |
+| `objects/testset-testname` | `（待补）` × 6＋骨架注释还在 | 1,945 |
+| `objects/timing-set-selector` | `（待补）` × 6＋骨架注释还在 | 3,195 |
+| `objects/tsus` | `（待补）` × 6＋骨架注释还在 | 3,426 |
+| `objects/tsux` | `（待补）` × 6＋骨架注释还在 | 1,580 |
+| `objects/udef` | `（待补）` × 6＋骨架注释还在 | 1,699 |
+| `objects/udgp` | `（待补）` × 6＋骨架注释还在 | 949 |
+| `objects/udpr` | `（待补）` × 6＋骨架注释还在 | 1,830 |
+| `objects/udps` | `（待补）` × 6＋骨架注释还在 | 1,120 |
+| `objects/udpt` | `（待补）` × 6＋骨架注释还在 | 904 |
+| `objects/udup` | `（待补）` × 6＋骨架注释还在 | 1,486 |
+| `objects/udut` | `（待补）` × 6＋骨架注释还在 | 1,459 |
+| `objects/udvp` | `（待补）` × 6＋骨架注释还在 | 1,513 |
+| `objects/upas` | `（待补）` × 6＋骨架注释还在 | 3,778 |
+| `objects/vclk` | `（待补）` × 6＋骨架注释还在 | 3,166 |
+| `objects/vdcg` | `（待补）` × 6＋骨架注释还在 | 3,465 |
+| `objects/vec-events` | `（待补）` × 6＋骨架注释还在 | 4,226 |
+| `objects/vpin` | `（待补）` × 6＋骨架注释还在 | 1,887 |
+| `objects/vtim` | `（待补）` × 6＋骨架注释还在 | 4,881 |
+| `objects/vwfg` | `（待补）` × 6＋骨架注释还在 | 3,303 |
+| `objects/vwfs` | `（待补）` × 6＋骨架注释还在 | 2,332 |
+| `objects/wafer-summary-tab` | `（待补）` × 6＋骨架注释还在 | 472 |
+| `objects/wave` | `（待补）` × 6＋骨架注释还在 | 7,022 |
+| `objects/waveform-mapping` | `（待补）` × 6＋骨架注释还在 | 3,478 |
+| `objects/waveform-view` | `（待补）` × 6＋骨架注释还在 | 468 |
+| `objects/wfds` | `（待补）` × 6＋骨架注释还在 | 7,845 |
+| `objects/wsus` | `（待补）` × 6＋骨架注释还在 | 1,907 |
+
+（另 **409 页**已写完。）
 
 > **最薄的十节**（只列，不判——理由见本类开头）：
 >
@@ -2520,10 +2990,10 @@
 | 第十一类 层断言一致性 | ✅ 通过 |
 | 第十二类 语法节新鲜度 | ✅ 通过 |
 | 第十三类 版本页新鲜度 | ✅ 通过 |
-| 第十四类 自我声明 | ✅ 通过 |
-| 第十五类 散文已写（无骨架占位符） | ✅ 通过 |
+| 第十四类 自我声明 | ❌ 未通过 |
+| 第十五类 散文已写（无骨架占位符） | ❌ 未通过 |
 
-**第六类的 ❌ 是怎么灭的（2026-09-18）**：建了 **258 个 `stage` 之外的页**，由各页 frontmatter 的 `sources:` 把候选逐个认领。
+**第六类的 ❌ 是怎么灭的（2026-09-18）**：建了 **351 个 `stage` 之外的页**，由各页 frontmatter 的 `sources:` 把候选逐个认领。
 （另有 **143 个文件在 `wiki/versions/`**——142 个版本页 + 一个目录页。它们的 `sources:` 意思是「这篇文档里有一条这个版本的变更记录」，**不是「本页讲的是它」**，所以**不参与第六类**，见 `MECH_TYPES`。）
 **这一条不用再盯了**——但注意它**只证明「每个高入度候选都有归宿」，不证明「当归宿的那页写得对」**。
 

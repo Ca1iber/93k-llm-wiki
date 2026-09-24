@@ -1,0 +1,127 @@
+---
+type: object
+title: UDPR - (UnDefine Pin Role)
+layer: L1
+stage: pin
+tags: []
+related: []
+sources:
+  - 02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md
+created: 2026-09-24
+updated: 2026-09-24
+verified: doc-only
+---
+
+# UDPR - (UnDefine Pin Role)
+
+<!-- 骨架由 `extract/objscaffold.py` 生成。
+     「语法 / 参数」节是脚本逐字抽的（§4），**不许改**；
+     其余 `（待补）` 由 LLM 补完，补完请删掉本注释。 -->
+
+## 语法 / 参数
+
+<!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
+
+> 本节 **704 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`。**不是转述。**
+> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
+> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
+> 改写参数表就是把文档事实降级成我的转述（§11）。
+> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
+
+### Syntax
+
+```
+UDPR "alias_set_name"|@,"pin_alias",(package_pin_name|@)
+```
+
+### Parameters
+
+|
+
+alias_set_name
+
+ |
+
+The alias set name.
+
+The alias of the pin (specified by the pin name parameter) defined in this alias set is deleted.
+
+The symbol @ can be used to list all the required alias set names.
+
+ |
+ |
+
+pin_alias
+
+ |
+
+The pin alias.
+
+ |
+ |
+
+package_pin_name
+
+ |
+
+The package pin name.
+
+The symbol @ can be used to list all the required package pin names.
+
+ |
+
+### Example
+
+```
+UDPR "@","",(@)
+```
+
+This example deletes all the alias sets.
+
+```
+UDPR "FUNC","",(@)
+```
+
+This example deletes the alias set FUNC.
+
+```
+UDPR "FUNC","CLK",(CP)
+```
+
+This example deletes the pair of package pin name CP and the pin alias CLK from the alias set FUNC.
+
+<!-- 语法节 end -->
+
+## 报错条件（脚本从 raw 的 `## Errors` / `## Warnings` 段逐字取）
+
+<!-- 报错节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-errors` 时消失** -->
+
+> 本节**逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>` 的 `## Errors` 段。
+> **不是转述**（§4：脚本能产出的不许调 LLM）。**本页没有增删一个字**；
+> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
+
+### Errors
+
+An error is generated if the package pin name has not been defined.
+
+<!-- 报错节 end -->
+
+## 是什么
+
+（待补）
+
+## 典型用法
+
+（待补）
+
+## 和谁有关
+
+（待补）
+
+## 版本
+
+（待补）
+
+## 出处
+
+（待补）

@@ -86,7 +86,6 @@ end-extension
 eqfs
 eqsp
 equation-based-level-setup
-error
 error-data-queue-empty
 error-flexlm-license-codes
 error-map
@@ -163,7 +162,6 @@ logical-boards
 lot-summary-generator
 lsus
 lsux
-maintenance-operations
 mapping-level
 mapping-pattern
 mapping-pin

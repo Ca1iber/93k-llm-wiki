@@ -1089,7 +1089,7 @@ This is an example of a device architecture file for an DRAM device. It contains
   以及 **device parameters** —— x / y / z 三个存储维度和数据宽度，**还可以自定义参数**
   （原文 *"have the option of defining custom parameters"*）。
   **所有参数在 APG program file 里都可用**。
-- **还可以声明维护操作**（refresh），见 [[maintenance-operations]]。
+- **还可以声明维护操作**（refresh），见 [[mtp-maintenance-operations]]。
 - **放哪**：（`Creating the device architecture` 原文）
   `<device directory>/mts/device_defs/arch_defs/`。
 - **属于哪一段**：`stage: pattern` —— 它是 **APG 侧的配置文件**，
@@ -1176,7 +1176,7 @@ APG pattern file 是**选哪张表**的地方。改错了地方会很难查。
   scrambling expression in the Device architecture file."* —— **加扰表达式是给工具用的，不只是给机台用的。**
 
 **同族**：`MTL_Configuration_Files`（本文件是 MTL 配置文件族的一员）、
-[[maintenance-operations]]、`Device_architecture_file_syntax`。
+[[mtp-maintenance-operations]]、`Device_architecture_file_syntax`。
 这三个都**不入 backlog**（入度不够），所以不链，名字留在这里是为了能照着去 raw 里搜。
 
 > 以上每条都来自 `edges.jsonl` 里带原句的边。**本页没有推断。**

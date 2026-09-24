@@ -254,7 +254,7 @@ Device architecture file`，而本页推断「这个引用应该在 `.apg` 里�
   `The device access defined in the device access file are called from the APG program file.`
   ——**`.prog` 里那些 `WriteBackground(...)` / `ReadBackground(...)` 就是 device access 调用**（推断，
   依据是示例里这些名字和 `.dvac` 示例里的 `:name: write_access` / `read_access` 同一族）
-- [[maintenance-operations]] — **产物去向**。只有维护例程的 `.prog` 编译成
+- [[mtp-maintenance-operations]] — **产物去向**。只有维护例程的 `.prog` 编译成
   reusable maintenance routine，**服务的正是这一类操作**
 - `MTL Configuration Files`（**未建**）— 原文 `## Related information` 只指向这一篇；
   **本页没读它**
