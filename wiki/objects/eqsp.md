@@ -18,11 +18,78 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **244 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`。**不是转述。**
+> 本节 **1,419 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
 > 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
+
+### EQSP
+
+```
+EQSP {spec_type}, {part}, {#spec(data)}
+```
+
+### EQSP?
+
+```
+EQSP?{spec_type}, {part}
+```
+
+returns:
+
+```
+EQSP {spec_type}, {part}, {#spec(data)}
+```
+
+if these are not empty, for backward compatibility.
+
+Parameters
+ |
+
+spec_type
+
+ |
+
+The mandatory parameter defines which specification type to use.
+
+Use:
+
+- LEV to specify levels
+- TIM to specify timing
+ |
+ |
+
+part
+
+ |
+
+The mandatory parameter defines which part of the specification type to use.
+
+Use:
+
+- EQN to specify equations
+- SPS to specify specs
+- WVT to specify a wavetable
+
+part can only be set to WVT, EQN, or CLK if spec_type is set to TIM.
+
+ |
+ |
+
+#spec(data)
+
+ |
+
+An equation based set of data (for example wavetables) in binary format.
+
+This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:
+
+- A # to mark the start of the data block.
+- One digit indicating how many digits make up the data length specifier.
+- A number of digits indicating the length (in bytes) of the data to follow.
+- A number of characters which make up the specified equation based testing file. This stream of characters must be terminated with a @ character.
+ |
 
 ### Example
 

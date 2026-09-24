@@ -135,8 +135,103 @@ def sections_of(rel):
     return list(_sections_index().get(rel, ()))
 
 
-def verbatim_sections(text):
+# ── 「以命令名命名的语法段」（2026-09-24 加）────────────────────────────
+#
+# **它要修的是什么。** 有一批命令页**不写 `## Syntax`**，而是把语法直接放在
+# **以命令名命名的二级标题**底下：
+#
+#     ## DTCP
+#     ```
+#     DTCP {"key"}, {"value"}
+#     ```
+#     ## DTCP?
+#     ```
+#     DTCP? {"key"}
+#     ```
+#     ## Parameters
+#     ...
+#
+# 于是抽取器认出同篇的 `## Parameters` / `## Examples`，**却认不出语法那一节**——
+# 页面就成了「有参数表、没有语法」。`check_syntax_fresh.py` 也查不出来：
+# 它比的是「页面里的块 == 脚本会生成的块」，而脚本生成的就是这个漏了语法行的版本，
+# 所以它一路报「过期 0」。**抽取范围比自称的窄，窄掉的那块没有灯**——老毛病。
+#
+# **判据取文档自己，不取我的口味。** 段名要和**正文互相印证**，两条之一即可：
+#   ① **正文首行就是段名本身**（跳过可有可无的开头围栏）——`BDID {-1|0|2|3}, {"string"}`；
+#   ② 段里有代码围栏——`EDSP` 先是一句导语（"The edge_spec parameter specifies…"），
+#      围栏紧随其后。
+#
+# **为什么必须有这层印证，不能只看段名。** 文档标题是**一串术语**时，按逗号拆出来的
+# 「名字」会多出几个，而那几个名字在正文里是**别的小节**：
+# `Definitions, Vector, Pattern, Burst, …` 这篇里 `## Pattern` 的正文是
+# 「A pattern is a sequence of vectors and sequencer instructions.」——**是散文**。
+# 实测全语料 632 处候选：①② 共 **626** 处收，两条都不满足的 **3** 处
+# （`Pattern` / `Burst` / `Virtual Pins editor`）不收，另有 3 处空段本来就不收。
+CMD_NAME_MAX = 24
+FENCE_RE = re.compile(r'^\s*```')
+
+
+def title_aliases(text):
+    """文档标题头里的那串名字：`DTCP, DTCP? - (Define …)` → `{'dtcp', 'dtcp?'}`。
+
+    **只取 ` - ` 之前那截**——后面是解释（`- (Define Technology Control Parameters)`），
+    不是名字。再按逗号拆：这类命令页的一个标题常同时给出「设置」与「查询」两种形态。
+    """
+    m = re.search(r'^title:\s*["\']?(.*?)["\']?\s*$', text, re.M)
+    t = m.group(1) if m else ''
+    if not t:
+        m = re.search(r'^#\s+(.+?)\s*$', text, re.M)
+        t = m.group(1) if m else ''
+    head = re.split(r'\s+[-–—]\s+', t, maxsplit=1)[0]
+    return {a.strip().strip('"\'').lower() for a in head.split(',')
+            if 0 < len(a.strip()) <= CMD_NAME_MAX}
+
+
+def looks_like_syntax(name, body):
+    """段名与正文互相印证：**正文首行就是段名本身**，或段里有代码围栏。"""
+    lines = [x for x in body.splitlines() if x.strip()]
+    if not lines:
+        return False
+    j = 1 if FENCE_RE.match(lines[0]) else 0
+    if j < len(lines) and lines[j].strip().lower().startswith(name.lower()):
+        return True
+    return any(FENCE_RE.match(x) for x in lines)
+
+
+def alias_sections(lines, start, aliases):
+    """→ 行号集合：哪些 H2/H3 是「以命令名命名的语法段」。
+
+    **判据只看本节的直接正文**（到下一个标题为止，不吞子小节）——**宁可窄判**：
+    判宽了会把散文当语法抄进页面，判窄了那一节照旧空着（看得见）。
+    同一取舍见 `SEC_HEADS` 上面那段注释。
+    """
+    if not aliases:
+        return frozenset()
+    ok = set()
+    for k in range(start, len(lines)):
+        m = re.match(r'^(#{2,3})\s+(.+?)\s*$', lines[k])
+        if not m:
+            continue
+        name = m.group(2).strip()
+        low = name.lower()
+        if low not in aliases or low in SEC_HEADS or SEC_EXAMPLE_PREFIX.match(name):
+            continue
+        body = []
+        for x in lines[k + 1:]:
+            if re.match(r'^#{1,3}\s', x):
+                break
+            body.append(x)
+        if looks_like_syntax(name, '\n'.join(body)):
+            ok.add(k)
+    return frozenset(ok)
+
+
+def verbatim_sections(text, aliases=frozenset()):
     """逐字抽 `## Syntax` / `## Parameters` 这类段落。
+
+    `aliases` 是**文档标题头里那串命令名**（见 `title_aliases`）。
+    **默认空集 = 旧行为**——不传就不认「以命令名命名的语法段」，
+    这样量影响面时能拿两版跑一遍做差，不必改代码。
 
     手工逐行状态机，不引 yaml/markdown 库：`extract.py` 立的规矩是主链路零依赖。
     只在 **H2/H3** 上切；H4+ 归入当前段（文档里参数常在 H4）。
@@ -176,6 +271,13 @@ def verbatim_sections(text):
     **修法**：H2 开的段继续拥有后面**不命中**的 H3——把那个 H3 标题行原样并进正文，
     读者仍看得见分段。H3 开的段**行为不变**（遇到下一个标题就结束），
     这条护栏保证已建页面的语法节不会因为本次改动而变形。
+
+    ---
+
+    **第二次放宽（2026-09-24）**：命中的标题除了 `SEC_HEADS` 里那串**固定段名**，
+    还认**以本文档命令名命名的标题**（`## DTCP` / `## DTCP?`）——
+    判据与代价见文件上方「以命令名命名的语法段」那段。
+    **`aliases` 不传就完全退回旧行为**，这一条是给「两版做差」留的口子。
     """
     lines = text.splitlines()
     # 跳 frontmatter
@@ -185,13 +287,15 @@ def verbatim_sections(text):
         while i < len(lines) and lines[i].strip() != '---':
             i += 1
         i += 1
+    alias_ok = alias_sections(lines, i, aliases)
     cur, buf, out = None, [], []
     h2_owned = False        # 当前段是否由 H2 开（只有它拥有不命中的 H3 子段）
-    for ln in lines[i:]:
+    for k, ln in enumerate(lines[i:], i):
         m = re.match(r'^(#{2,3})\s+(.+?)\s*$', ln)
         if m:
             lvl, name = len(m.group(1)), m.group(2).strip()
-            hit = (name.lower() in SEC_HEADS or bool(SEC_EXAMPLE_PREFIX.match(name)))
+            hit = (name.lower() in SEC_HEADS or bool(SEC_EXAMPLE_PREFIX.match(name))
+                   or k in alias_ok)
             # H2 一律结束当前段；命中的标题一律结束当前段；
             # H3 开的段遇到任何标题都结束（**这条是行为护栏，不许改**）。
             if cur and (lvl == 2 or hit or not h2_owned):
@@ -299,7 +403,7 @@ def _sub_parts(rel, depth, chain):
     **「我没找到」和「文档没有」是两件事**，九页返工就栽在这句话上。
     """
     body = (CORPUS / rel).read_text(encoding='utf-8', errors='replace')
-    got = verbatim_sections(body)
+    got = verbatim_sections(body, title_aliases(body))
     if got:
         return [(n, b, rel, chain) for n, b in got]
     if depth >= SUBTREE_MAX:
@@ -347,7 +451,7 @@ def collect_syntax(rel):
             parts.append((f'{_nice(sub)}（整篇，取自子主题）', strip_tail(sbody)))
             srcs.append(sub)
 
-    own = verbatim_sections(body)
+    own = verbatim_sections(body, title_aliases(body))
     # ② 自己和 `_file_syntax` 子主题都没有 → 再放宽一层，看其他子主题的 `SEC_HEADS` 段。
     #    顺序不能反：先窄后宽，宽的那层只在窄的全落空时才走。
     if not own and not parts:

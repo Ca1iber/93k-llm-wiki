@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,317,951 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.01.02_Firmware_view.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.03_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.04_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.05_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.06_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.07_BCMD__BCMD__-_Binding_CoMmanD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.08_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.101_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.104_EMBS__Error_Map_Block_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.105_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.106_EPRC__-__Error_Propagation_Repetition_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.108_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.10_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.113_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.116_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.119_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.11_BSVE_-__Bulk_Set_Value_Evaluation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.120_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.121_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.123_FLBL__-__Failing_LaBeLs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.127_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.12_BSVR__BSVR___Bulk_Set_Value_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.131_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.132_GETL__-__GET_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.136_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.137_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.138_HREX__-__High_Resolution_EXecution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.139_HRIT__HRIT__-__High_Resolution_Interval_of_Time.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.143_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.144_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.145_INST__-__INSTrument_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.150_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.151_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.153_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.154_LBUD__LBUD__-__LaBel_User_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.156_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.157_LTDE__LTDE__-__Load_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.158_MCNT__-__Match_loop_CouNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.159_MEAR__retrieve_MEAsurement_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.160_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.161_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.163_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.165_MVCU_-__Modify_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.168_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.16_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.170_OUTS__-__OUTput_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.174_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.176_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.179_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.17_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.180_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.181_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.182_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.184_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.185_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.187_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.18_CFPR__CFPR__-__Clock_Forwarding_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.19_CFUD_-__Clock_Forwarding_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.201_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.202_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.205_RDGC_-__Reset_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.206_RLYC__RLYC__-__ReLaY_Control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.207_RRDF_-__Result_Retention_area_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.208_RRSC_-__Result_Retention_area_Select_for_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.209_RRUD_-__Result_Retention_area_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.20_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.211_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.212_RRSU___Result_Retention_area_Select_for_Upload.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.213_RVCU_-__Remove_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.214_RVVA_-__Remove_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.215_RVVC_-__Remove_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.217_SATR__SATR__-__System_ATtRibutes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.218_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.21_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.221_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.224_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.225_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.226_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.227_SPOP__SPOP__Set_Performance_Optimization_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.229_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.230_SQBV__SQBV__-__SeQuencer_Break_Vector_insertion.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.233_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.234_SQIT__-__SeQuencer_InterRupt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.235_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.238_SQRC_-__SeQuencer_Remove_execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.239_SQRP__SQRP__-__SeQuencer_Reference_Port.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.23_CHRS__CHRS__-__CHeck_Routing_Set_globally.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.242_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.243_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.244_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.247_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.248_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.249_STDE_-__Save_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.255_TDEX__Test_Data_Extension.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.256_TEMP__-__read_TEMPerature.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.258_TMUD__Tester_Memory_Utilization_set_Default_values.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.259_TMUL___Tester_Memory_Utilization_Log.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.25_CLKC.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.260_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.261_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.262_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.263_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.264_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.265_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.266_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.267_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.269_TPSP__TPSP__-__TestPoint_SuPpression.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.270_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.271_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.272_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.273_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.274_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.275_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.276_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.27_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.280_TSST__-__TeSt_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.282_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.284_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.285_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.287_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.28_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.290_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.293_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.294_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.299_UDPT_-__UnDefine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.29_CNCT_-_CoNneCT_disCoNneCT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.300_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.302_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.307_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.308_UTDE_-__Unload_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.309_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.30_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.314_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.315_VALC__-__VALid_Cycle_range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.317_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.318_VCAT__VCAT__-__VeCtor_ATtachment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.319_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.322_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.323_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.326_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.328_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.329_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.332_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.339_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.340_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.343_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.345_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.34_CTST__-__Continuity_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.37_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.38_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.39_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.41_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.42_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.43_DCEX_-__DC_set_EXecute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.45_DCRE__-__DC_set_REsult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.48_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.49_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.50_DCST__-__DC_SeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.51_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.55_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.57_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.58_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.61_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.71_DGCM__-__DiGital_Capture_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.72_DGCS__DGCC___DiGital_Capture_aSynchronous.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.73_DGCT__-__DiGital_Capture_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.74_DIAG_-__DIAGnostics.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.76_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.77_DLSO__Driver_Level_Switch_Off.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.78_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.80_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.81_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.84_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.87_DQUE__-__show_Data_QUEue_low_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.88_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.93_DTCP__DTCP__-__Define_Technology_Control_Parameters.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.94_DVVA__DVVA__-__Define_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.06_Defining_pin_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.07_Defining_ports.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.02_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.03_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.04_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.06_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.07_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.10_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.14_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.15_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.16_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.17_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.18_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.19_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.20_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.22_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.23_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.25_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.28_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.29_UDVP_-__UnDefine_Virtual_Pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.30_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.31_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.32_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.33_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.34_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.36_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.37_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.02_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.03_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.03_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.04_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.07_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.11_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.13_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.14_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.19_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.21_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.27_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.28_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.02_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.03_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.04_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.05_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.06_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.07_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.09_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.11_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.12_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.13_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.14_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.15_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.16_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.19_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.20_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.21_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.22_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.23_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.24_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.26_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.27_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.29_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.30_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.31_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.32_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.34_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.36_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.37_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.01_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.03_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.06_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.07_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.09_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.11_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.12_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.15_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.18_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.19_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.20_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.21_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.22_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.23_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.24_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.01.05_DC_measurements_using_a_PPMU_and_a_DC_Scale_DPS.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.02_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.03_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.04_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.05_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.06_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.07_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.10_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.13_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.15_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.02_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.03_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.05_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.06_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.07_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.08_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.09_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.10_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.12_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.13_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.17_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.19_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.21_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.25_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.26_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.29_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.30_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.32_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.34_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.36_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.37_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.04_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.05_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.06_UPOW__UPOW__-__Utility_POWer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.07_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.08_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.09_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.10_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.12_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.13_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.14_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.01_TMU_per_Pin_overview.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.03_Storing_the_results_of_more_than_one_TMU_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.01_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.02_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.03_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.04_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.05_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.06_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.07_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.08_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.11_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.12_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.01.01_Principles_of_source_synchronous_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.03_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.04_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.01.01_Drift_and_transition_tracking.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.01_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.02_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.04_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.05_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.07_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.08_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.09_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.10_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.01_Principles_of_jitter_injection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.01_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.03_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.04_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.05_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.08_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.03_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.04_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.05_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.06_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.07_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.01_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.02_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.03_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.05_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.06_SATR__SATR__-__System_ATtRibutes.md>`。**不是转述。**
+> 本节 **1,541,185 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.01.02_Firmware_view.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.03_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.04_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.05_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.06_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.07_BCMD__BCMD__-_Binding_CoMmanD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.08_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.101_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.104_EMBS__Error_Map_Block_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.105_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.106_EPRC__-__Error_Propagation_Repetition_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.108_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.10_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.113_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.116_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.119_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.11_BSVE_-__Bulk_Set_Value_Evaluation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.120_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.121_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.123_FLBL__-__Failing_LaBeLs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.127_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.12_BSVR__BSVR___Bulk_Set_Value_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.131_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.132_GETL__-__GET_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.136_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.137_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.138_HREX__-__High_Resolution_EXecution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.139_HRIT__HRIT__-__High_Resolution_Interval_of_Time.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.143_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.144_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.145_INST__-__INSTrument_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.150_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.151_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.153_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.154_LBUD__LBUD__-__LaBel_User_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.156_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.157_LTDE__LTDE__-__Load_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.158_MCNT__-__Match_loop_CouNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.159_MEAR__retrieve_MEAsurement_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.160_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.161_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.163_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.165_MVCU_-__Modify_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.168_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.16_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.170_OUTS__-__OUTput_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.174_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.176_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.179_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.17_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.180_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.181_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.182_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.184_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.185_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.187_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.18_CFPR__CFPR__-__Clock_Forwarding_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.19_CFUD_-__Clock_Forwarding_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.201_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.202_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.205_RDGC_-__Reset_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.206_RLYC__RLYC__-__ReLaY_Control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.207_RRDF_-__Result_Retention_area_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.208_RRSC_-__Result_Retention_area_Select_for_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.209_RRUD_-__Result_Retention_area_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.20_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.211_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.212_RRSU___Result_Retention_area_Select_for_Upload.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.213_RVCU_-__Remove_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.214_RVVA_-__Remove_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.215_RVVC_-__Remove_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.217_SATR__SATR__-__System_ATtRibutes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.218_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.21_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.221_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.224_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.225_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.226_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.227_SPOP__SPOP__Set_Performance_Optimization_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.229_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.230_SQBV__SQBV__-__SeQuencer_Break_Vector_insertion.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.233_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.234_SQIT__-__SeQuencer_InterRupt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.235_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.238_SQRC_-__SeQuencer_Remove_execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.239_SQRP__SQRP__-__SeQuencer_Reference_Port.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.23_CHRS__CHRS__-__CHeck_Routing_Set_globally.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.242_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.243_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.244_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.247_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.248_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.249_STDE_-__Save_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.255_TDEX__Test_Data_Extension.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.256_TEMP__-__read_TEMPerature.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.258_TMUD__Tester_Memory_Utilization_set_Default_values.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.259_TMUL___Tester_Memory_Utilization_Log.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.25_CLKC.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.260_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.261_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.262_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.263_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.264_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.265_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.266_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.267_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.269_TPSP__TPSP__-__TestPoint_SuPpression.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.270_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.271_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.272_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.273_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.274_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.275_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.276_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.27_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.280_TSST__-__TeSt_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.282_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.284_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.285_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.287_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.28_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.290_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.293_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.294_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.299_UDPT_-__UnDefine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.29_CNCT_-_CoNneCT_disCoNneCT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.300_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.302_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.307_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.308_UTDE_-__Unload_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.309_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.30_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.314_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.315_VALC__-__VALid_Cycle_range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.317_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.318_VCAT__VCAT__-__VeCtor_ATtachment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.319_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.322_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.323_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.326_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.328_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.329_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.332_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.339_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.340_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.343_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.345_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.34_CTST__-__Continuity_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.37_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.38_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.39_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.41_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.42_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.43_DCEX_-__DC_set_EXecute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.45_DCRE__-__DC_set_REsult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.48_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.49_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.50_DCST__-__DC_SeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.51_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.55_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.57_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.58_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.61_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.71_DGCM__-__DiGital_Capture_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.72_DGCS__DGCC___DiGital_Capture_aSynchronous.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.73_DGCT__-__DiGital_Capture_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.74_DIAG_-__DIAGnostics.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.76_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.77_DLSO__Driver_Level_Switch_Off.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.78_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.80_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.81_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.84_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.87_DQUE__-__show_Data_QUEue_low_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.88_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.93_DTCP__DTCP__-__Define_Technology_Control_Parameters.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.94_DVVA__DVVA__-__Define_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.06_Defining_pin_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.07_Defining_ports.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.02_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.03_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.04_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.06_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.07_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.10_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.14_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.15_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.16_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.17_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.18_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.19_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.20_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.22_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.23_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.25_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.28_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.29_UDVP_-__UnDefine_Virtual_Pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.30_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.31_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.32_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.33_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.34_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.36_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.37_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.02_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.03_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.03_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.04_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.07_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.11_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.13_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.14_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.19_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.21_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.27_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.28_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.02_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.03_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.04_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.05_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.06_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.07_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.09_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.11_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.12_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.13_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.14_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.15_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.16_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.19_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.20_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.21_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.22_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.23_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.24_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.26_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.27_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.29_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.30_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.31_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.32_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.34_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.36_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.37_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.01_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.03_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.06_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.07_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.09_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.11_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.12_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.15_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.18_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.19_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.20_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.21_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.22_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.23_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.24_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.01.05_DC_measurements_using_a_PPMU_and_a_DC_Scale_DPS.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.02_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.03_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.04_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.05_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.06_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.07_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.10_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.13_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.15_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.02_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.03_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.05_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.06_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.07_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.08_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.09_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.10_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.12_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.13_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.17_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.19_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.21_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.25_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.26_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.29_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.30_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.32_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.34_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.36_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.37_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.04_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.05_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.06_UPOW__UPOW__-__Utility_POWer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.07_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.08_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.09_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.10_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.12_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.13_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.14_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.01_TMU_per_Pin_overview.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.03_Storing_the_results_of_more_than_one_TMU_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.01_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.02_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.03_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.04_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.05_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.06_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.07_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.08_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.11_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.12_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.01.01_Principles_of_source_synchronous_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.03_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.04_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.01.01_Drift_and_transition_tracking.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.01_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.02_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.04_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.05_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.07_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.08_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.09_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.10_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.01_Principles_of_jitter_injection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.01_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.03_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.04_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.05_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.08_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.03_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.04_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.05_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.06_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.07_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.01_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.02_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.03_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.05_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.06_SATR__SATR__-__System_ATtRibutes.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -234,6 +234,24 @@ APTS "NEW",MAIN,"spec_port_1_port_2",(port_1)
 
 This example appends the label `NEW` to the sequencer area of port `port_1`. The base wavetable is identified uniquely by specifying the multi-port specification `spec_port_1_port_2` and the port `port_1`, which belongs to `spec_port_1_port_2`.
 
+### ASWE（取自子主题 Commands in alphabetical order › List of commands › ASWE  ASWE  -  Auto SWing Enable）
+
+```
+ASWE {waveform_set|specset_id}, {enable_status}
+```
+
+### ASWE?（取自子主题 Commands in alphabetical order › List of commands › ASWE  ASWE  -  Auto SWing Enable）
+
+```
+ASWE? {waveform_set|specset_id}
+```
+
+returns:
+
+```
+ASWE {waveform_set|specset_id}, {enable_status}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › ASWE  ASWE  -  Auto SWing Enable）
 
 |
@@ -273,6 +291,24 @@ ASWE 1,ON
 ```
 
 This example enables the automatic swing adjustment for waveform set 1.
+
+### ASWM（取自子主题 Commands in alphabetical order › List of commands › ASWM  ASWM  -  Auto SWing Mode）
+
+```
+ASWM {command}, {mode}
+```
+
+### ASWM?（取自子主题 Commands in alphabetical order › List of commands › ASWM  ASWM  -  Auto SWing Mode）
+
+```
+ASWM?
+```
+
+returns:
+
+```
+ASWM {command}, {mode}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › ASWM  ASWM  -  Auto SWing Mode）
 
@@ -359,6 +395,18 @@ ASWM SET,AUTO
 
 This example sets the swing adjustment mode AUTO.
 
+### BCMD（取自子主题 Commands in alphabetical order › List of commands › BCMD  BCMD  - Binding CoMmanD）
+
+```
+BCMD "InstanceName",{Set | Reset | Action},"parameter", "value"
+```
+
+### BCMD?（取自子主题 Commands in alphabetical order › List of commands › BCMD  BCMD  - Binding CoMmanD）
+
+```
+BCMD? "InstanceName","parameter"
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › BCMD  BCMD  - Binding CoMmanD）
 
 |
@@ -410,6 +458,85 @@ This can be a list of elements separated by a space or spaces, or a predefined f
 
  |
 
+### BCMT（取自子主题 Commands in alphabetical order › List of commands › BCMT  BCMT  -  Binary CoMmenT）
+
+```
+BCMT {vect_addr}, {vect_length}[, HIMEN][, (port)], {#spec(data)}
+```
+
+### BCMT?（取自子主题 Commands in alphabetical order › List of commands › BCMT  BCMT  -  Binary CoMmenT）
+
+```
+BCMT? [(portlist)]
+```
+
+returns:
+
+```
+BCMT {vect_addr}, {vect_length}[, HIMEN][, (port)], {#spec(data)}
+```
+
+Parameters
+ |
+
+vect_addr
+
+ |
+
+The first vector of the segment for which comments are to be transferred.
+
+This number counts the active vectors of the port (as specified for the port parameter) across all of its labels, starting from 0. For example, suppose that two labels are associated with the port, and that the first of them has eight active vectors, while the second has three. Then you must enter 9 if you want to insert comments for a segment that begins with the second vector of the second label.
+
+ |
+ |
+
+vect_length
+
+ |
+
+Defines the total number of active vectors for which comments are to be downloaded.
+
+ |
+ | HIMEM |
+
+If this parameter is specified, the data format of #spec(data) will be treated as 64-bit. If the HIMEM parameter is omitted, the data format will be treated as 32-bit. If you want to set any comments to over 2GB vector address, you should also use the himem:on parameter in the `.technology file`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md`）.
+
+The query displays the 64-bit format if the response data includes over 2GB vector addresses.
+
+ |
+ |
+
+port
+
+ |
+
+If you specify a port, the comments are associated with the active vectors of this port. Otherwise, they are associated with the active vectors of the default port @.
+
+ |
+ |
+
+#spec(data)
+
+ |
+
+The binary comment data. The format of this parameter is:
+
+#Nn1n2n...nNcomm_data[comm_data...]
+
+where the decimal digit N defines the number of the decimal digits ni (1 鈮?i 鈮?N) that specify the length of the comment data in bytes. The comm_data blocks are structured as follows:
+
+Not using HIMEM (default):
+
+- The first byte specifies the comment length.
+- The next four bytes contain the number of the active vector to which the comment is to be attached. The vectors are counted for the whole port across label boundaries, starting from 0.
+- The remaining bytes (250 at most) contain the actual comment data.
+ Using HIMEM:
+
+- The first byte specifies the actual comment length. (Excluding vector number.)
+- The next eight bytes contain the number of the active vector to which the comment is to be attached. The vectors are counted for the whole port across label boundaries, starting from 0.
+- The remaining bytes (250 at most) contain the actual comment data.
+ |
+
 ### Example（取自子主题 Commands in alphabetical order › List of commands › BCMT  BCMT  -  Binary CoMmenT）
 
 ```
@@ -419,6 +546,99 @@ This can be a list of elements separated by a space or spaces, or a predefined f
 ```
 
 This call of BCMT? displays the comments of the default port. The `&` character (with the decimal ASCII value 38) indicates the (identical) length of the two comments. The first comment is at vector 33 (decimal ASCII value of the ! character), the second at vector 48 (decimal ASCII value of the 0 character).
+
+### BDID（取自子主题 Commands in alphabetical order › List of commands › BDID  BDID  -  BoarD ID）
+
+```
+BDID {-1|0|2|3}, {"string"}
+```
+
+### BDID?（取自子主题 Commands in alphabetical order › List of commands › BDID  BDID  -  BoarD ID）
+
+```
+BDID? {-1|0|2|3|ALL}
+```
+
+returns:
+
+```
+BDID {0|2|3}, {"string"}
+```
+
+Parameters
+ |
+
+address
+
+ |
+
+Specifies how the value of the string parameter is to be processed. Possible values are:
+
+ |
+ |
+
+0,2,3
+
+ |
+
+Writes to or reads from the EEPROM with the specified logical address. These addresses represent the two address lines of the X24C04 EEPROM. The corresponding physical addresses are:
+
+0 = 160 (= 2^7+ 2^5)
+
+2 = 168 (= 2^7+ 2^5 + 2^3)
+
+3 = 172 (= 2^7+ 2^5 + 2^3 + 2^2)
+
+The logical address 0 is the address of the DUT board EEPROM. The logical address 1 = 164 (= 2^7+ 2^5 + 2^2) is reserved for the DUT interface EEPROM.
+
+ |
+ |
+
+-1
+
+ |
+
+Interprets the string as a sequence of command characters and executes the commands. This can be used for debugging purposes.
+
+The following characters are valid:
+
+c: Set SCL to low.
+
+C: Set SCL to high.
+
+d: Set SDA to low.
+
+D: Set SDA to high
+
+?: Print state of SDA to report window.
+
+In the query, BDID? returns the state of the SDA when called with -1.
+
+ |
+ |
+
+ALL
+
+ |
+
+Searches for an existing EEPROM in descending address order and returns the content of the first EEPROM that it finds (only for the query).
+
+ |
+ |
+
+string
+
+ |
+
+The string that is written to or read from the EEPROM. Its maximal length is 255 bytes.
+
+ |
+
+### BLUP（取自子主题 Commands in alphabetical order › List of commands › BLUP -  BLock UP to date）
+
+```
+BLUP {"name"}, {type}, {state},
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › BLUP -  BLock UP to date）
 
@@ -515,6 +735,12 @@ Number of a spec value set.
 > BSVE 11
 ```
 
+### BSVR（取自子主题 Commands in alphabetical order › List of commands › BSVR  BSVR   Bulk Set Value at Runtime）
+
+```
+BSVR {spec_value_set_no}, {"spec_name"|"spec_name@port_name"}, {value}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › BSVR  BSVR   Bulk Set Value at Runtime）
 
 |
@@ -572,6 +798,24 @@ The new value of the variable.
 > BSVR? 11
 < BSVR 11,"per1",30
 < BSVR 11,"per2",60
+```
+
+### BWDF（取自子主题 Commands in alphabetical order › List of commands › BWDF  BWDF  -  Break Waveform DeFinition）
+
+```
+BWDF {wvf_set}, {a1}, {a2}, {a3}, {a4}, {a5}, {a6}, {(pinlist)}
+```
+
+### BWDF?（取自子主题 Commands in alphabetical order › List of commands › BWDF  BWDF  -  Break Waveform DeFinition）
+
+```
+BWDF? {wvf_set|"wavetable_name"|specset_id|"multiport_spec"}, {(pinlist)}
+```
+
+returns:
+
+```
+BWDF {wvf_set|"wavetable_name"|specset_id|"multiport_spec"}, {a1}, {a2}, {a3}, {a4}, {a5}, {a6}, {(pinlist)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › BWDF  BWDF  -  Break Waveform DeFinition）
@@ -721,6 +965,108 @@ BWDF 1,N,N,N,F1N,F0N,N,(D0,D1,D2,D3)
 ```
 
 This example defines a pulse for waveform set 1, and for pins D0 to D3, driving to 1 at edge action 4 and to 0 at edge action 5. The tri-state formatter is not used.
+
+### BWDS（取自子主题 Commands in alphabetical order › List of commands › BWDS  BWDS  -  Break Waveform Definition String）
+
+```
+BWDS {wvf_set}, [break_waveform_index], [mode], {definition_string}, {(pinlist)}
+```
+
+### BWDS?（取自子主题 Commands in alphabetical order › List of commands › BWDS  BWDS  -  Break Waveform Definition String）
+
+```
+BWDS? {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, [break_waveform_index], [mode], {(pinlist)}
+```
+
+returns:
+
+```
+BWDS {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, [break_waveform_index], [mode], {definition_string}, {(pinlist)}
+```
+
+Parameters
+ |
+
+wvf_set
+
+ |
+
+Waveform Set Number (range 1 to maximum). Enter ALL for all waveform sets. Enter PRM for the Primary waveform set. The maximum number is determined by the command `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
+
+ |
+ |
+
+wavetable_name
+
+ |
+
+The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. wavetable_name can only be specified in the query.
+
+ |
+ |
+
+specset_id
+
+ |
+
+Derived as follows:
+
+100 * equation_set_no + specset_no
+
+specset_id can only be specified in the query.
+
+ |
+ |
+
+multi-port_spec
+
+ |
+
+To query a multi-port specification, enter the name of the specification.
+
+ |
+ |
+
+break_waveform_index
+
+ |
+
+Enter DEF for the default break waveform or an integer in the range 0 to 3. This parameter is optional in release 2.0 and can only be used to select the default break waveform (DEF).
+
+ |
+ |
+
+mode
+
+ |
+
+NOT USED.
+
+ |
+ |
+
+definition_string
+
+ |
+
+The definition string consists of a sequence of items each of which associates a drive action with a drive edge.
+
+Receive edge are always denoted by rn.
+
+All edges which are not explicitly specified are set to N. In the query only those edges that are used are printed.
+
+For details of the syntax see `WFDS, WFDS? - (WaveForm Definition String)`（raw: `02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`）.
+
+ |
+ |
+
+pinlist
+
+ |
+
+The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma.
+
+ |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › BWDS  BWDS  -  Break Waveform Definition String）
 
@@ -975,6 +1321,24 @@ Unclear. The system may return this value to indicate that the interpretation of
 
 In the second call of CDCP? (the first call just serves to display the underlying situation) the range of interest starts at vector 6. Note that the reply starts with vector 5, and that the first occurrence of MYDC, which lies between vector 2 and vector 6, is not displayed.
 
+### CFCF（取自子主题 Commands in alphabetical order › List of commands › CFCF  CFCF  -  Clock Forwarding ConFiguration）
+
+```
+CFCF {"cf_name"}, {(source_pin)}, {(sink_pins)} [, speed]
+```
+
+### CFCF?（取自子主题 Commands in alphabetical order › List of commands › CFCF  CFCF  -  Clock Forwarding ConFiguration）
+
+```
+CFCF? {"cf_name"}, {(pinlist)}
+```
+
+returns:
+
+```
+CFCF {"cf_name"}, {(source_pin)}, {(sink_pins)} [, speed]
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CFCF  CFCF  -  Clock Forwarding ConFiguration）
 
 |
@@ -1036,6 +1400,24 @@ This query parameter specifies the pins whose role in the specified clock forwar
 > CFCF "cf_set1",(Pin7),(Pin4)
 ```
 
+### CFDF（取自子主题 Commands in alphabetical order › List of commands › CFDF  CFDF  -  Clock Forwarding Set DeFinition）
+
+```
+CFDF {"cf_set_name"} [, "mode_context"]
+```
+
+### CFDF?（取自子主题 Commands in alphabetical order › List of commands › CFDF  CFDF  -  Clock Forwarding Set DeFinition）
+
+```
+CFDF? ["cf_set_name"]
+```
+
+returns:
+
+```
+CFDF {"cf_set_name"} [, "mode_context"]
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CFDF  CFDF  -  Clock Forwarding Set DeFinition）
 
 |
@@ -1068,6 +1450,24 @@ The mode context with which the clock forwarding set is associated. If this para
 < CFDF   "cf_set1"
 < CFDF   "cf_set2"
 < CFDF   "cf_set3"
+```
+
+### CFPR（取自子主题 Commands in alphabetical order › List of commands › CFPR  CFPR  -  Clock Forwarding PRimary set）
+
+```
+CFPR {"cf_set_name"}
+```
+
+### CFPR?（取自子主题 Commands in alphabetical order › List of commands › CFPR  CFPR  -  Clock Forwarding PRimary set）
+
+```
+CFPR?
+```
+
+returns:
+
+```
+CFPR {"cf_set_name"}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CFPR  CFPR  -  Clock Forwarding PRimary set）
@@ -1509,6 +1909,24 @@ CHIN 21702,DPS128HC,-1,217,31,191,0
 
 ```
 
+### CHRS（取自子主题 Commands in alphabetical order › List of commands › CHRS  CHRS  -  CHeck Routing Set globally）
+
+```
+CHRS {ON|OFF}
+```
+
+### CHRS?（取自子主题 Commands in alphabetical order › List of commands › CHRS  CHRS  -  CHeck Routing Set globally）
+
+```
+CHRS?
+```
+
+returns:
+
+```
+CHRS {ON|OFF}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CHRS  CHRS  -  CHeck Routing Set globally）
 
 |
@@ -1529,6 +1947,24 @@ ON
 SmarTest issues an error message when a routing request is inconsistent, and retains the previous routing status
 
  |
+
+### CLKR（取自子主题 Commands in alphabetical order › List of commands › CLKR  CLKR  -  CLocK Resolution）
+
+```
+CLKR {waveform_set|specset_id|"multi-port_spec"}, [ref_period],{period_res}
+```
+
+### CLKR?（取自子主题 Commands in alphabetical order › List of commands › CLKR  CLKR  -  CLocK Resolution）
+
+```
+CLKR?[type,] {waveform_set|specset_id|"multi-port_spec"}
+```
+
+returns:
+
+```
+CLKR {waveform_set|specset_id|"multi-port_spec"}, [ref_period],{period_res|clock_res}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CLKR  CLKR  -  CLocK Resolution）
 
@@ -1663,6 +2099,24 @@ The port name. This can be either a specific port, or all ports. For all ports, 
 
  |
 
+### CLMP（取自子主题 Commands in alphabetical order › List of commands › CLMP  CLMP  -  CLaMP level）
+
+```
+CLMP {level_set|level_set_id}, [clamp_mode], [low_clamp_level], [high_clamp_level], {(pinlist)}
+```
+
+### CLMP?（取自子主题 Commands in alphabetical order › List of commands › CLMP  CLMP  -  CLaMP level）
+
+```
+CLMP? {level_set|level_set_id}, {(pinlist)}
+```
+
+returns:
+
+```
+CLMP {level_set|level_set_id}, [clamp_mode], [low_clamp_level], [high_clamp_level], {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CLMP  CLMP  -  CLaMP level）
 
 |
@@ -1741,6 +2195,24 @@ CLMP 1,ON,-10,5100,(Q0,Q1,Q2,Q3)
 ```
 
 This example sets the clamp levels for level set 1 for pins Q0, Q1, Q2 and Q3. The low clamp level is set to -10 mV, and the high clamp level is set to 5100 mV.
+
+### CMNT（取自子主题 Commands in alphabetical order › List of commands › CMNT  CMNT  -  CoMmeNT）
+
+```
+CMNT {act_vect_of_port}, {"text"}[, (port)]
+```
+
+### CMNT?（取自子主题 Commands in alphabetical order › List of commands › CMNT  CMNT  -  CoMmeNT）
+
+```
+CMNT? {act_vect_of_port}, [vect_length][, (port)]
+```
+
+returns:
+
+```
+CMNT {act_vect_of_port}, {"text"}[, (port)]
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CMNT  CMNT  -  CoMmeNT）
 
@@ -1869,6 +2341,12 @@ The vector range from which comments are to be moved. Specify 0 in order to simp
 
 This example moves comments in the vector range 0 to 1 to the range 4 to 5. The previous comments for vectors 4 and 5 are overwritten, the comments for vector 2 and 3 are cleared.
 
+### CNCT（取自子主题 Commands in alphabetical order › List of commands › CNCT - CoNneCT disCoNneCT）
+
+```
+CNCT {mode}, {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CNCT - CoNneCT disCoNneCT）
 
 | mode |
@@ -1940,6 +2418,24 @@ The command number which references the first of the two consecutive GENV sequen
 < SQPG 1,STSA,,,,(@)
 < SQPG 2,GENV,17,,,(@)
 < SQPG 3,STOP,,,,(@)
+```
+
+### CONF（取自子主题 Commands in alphabetical order › List of commands › CONF  CONF  -  CONFiguration）
+
+```
+CONF ["context",]{pin_type},[pin_oper_mode],{(pinlist)}
+```
+
+### CONF?（取自子主题 Commands in alphabetical order › List of commands › CONF  CONF  -  CONFiguration）
+
+```
+CONF? ["context"|ALL,] {(pinlist)}
+```
+
+returns:
+
+```
+CONF ["context",]{pin_type},{pin_oper_mode},{(pinlist)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CONF  CONF  -  CONFiguration）
@@ -2296,6 +2792,24 @@ This example uses the command to set up the parameters needed to execute a conti
 - Single polarity measurement selected.
 
 It then executes the test with the CTST command using the global pass/fail mode.
+
+### CTXT（取自子主题 Commands in alphabetical order › List of commands › CTXT  CTXT  -  ConTeXT）
+
+```
+CTXT {action},{"name"}
+```
+
+### CTXT?（取自子主题 Commands in alphabetical order › List of commands › CTXT  CTXT  -  ConTeXT）
+
+```
+CTXT?ALL
+```
+
+returns:
+
+```
+CTXT {DEFINE},{"name"}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CTXT  CTXT  -  ConTeXT）
 
@@ -3200,6 +3714,24 @@ error: unstable received on edge 1 (FIX)
 
  |
 
+### CYRM（取自子主题 Commands in alphabetical order › List of commands › CYRM  CYRM  -  CYcle Resolution Mode）
+
+```
+CYRM {resolution_mode}, [error_limit], {(pinlist)}
+```
+
+### CYRM?（取自子主题 Commands in alphabetical order › List of commands › CYRM  CYRM  -  CYcle Resolution Mode）
+
+```
+CYRM? {(pinlist)}
+```
+
+returns:
+
+```
+CYRM {resolution_mode},[error_limit], {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CYRM  CYRM  -  CYcle Resolution Mode）
 
 |
@@ -3775,6 +4307,12 @@ Execution:
 DCEX 1, FORCE_ON
 ```
 
+### DCDT（取自子主题 Commands in alphabetical order › List of commands › DCDT  DCDT  -  Device Cycle DefaulT）
+
+```
+DCDT {waveform_set}, {"default_name"}
+```
+
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DCDT  DCDT  -  Device Cycle DefaulT）
 
 ```
@@ -3789,6 +4327,24 @@ DCDT "fast_ARM","Cycle",(ARMPort)
 ```
 
 This example queries the default device cycle name for the ARMPort port in the multi-port specification fast_ARM.
+
+### DCEL（取自子主题 Commands in alphabetical order › List of commands › DCEL  DCEL  -  Digital Compare Exception List）
+
+```
+DCEL {DCRT}, {TP}, {action}, {(pinlist)}
+```
+
+### DCEL?（取自子主题 Commands in alphabetical order › List of commands › DCEL  DCEL  -  Digital Compare Exception List）
+
+```
+DCEL? {DCRT}, {parameter}, {(pinlist)}
+```
+
+returns:
+
+```
+DCEL? {DCRT}, {parameter}, {action}, {(pinlist)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DCEL  DCEL  -  Digital Compare Exception List）
 
@@ -3862,6 +4418,24 @@ DCRE? 1,
 DCRE P, 10.3, (pin1)
 DCRE F, 200.1, (pin2)
 DCRE P, 20.4, (pin3)
+```
+
+### DCGM（取自子主题 Commands in alphabetical order › List of commands › DCGM  DCGM  -  Digital Compare Global Mode）
+
+```
+DCGM {acqu_mode},{emap_pos_int},{ovem_pos_int}
+```
+
+### DCGM?（取自子主题 Commands in alphabetical order › List of commands › DCGM  DCGM  -  Digital Compare Global Mode）
+
+```
+DCGM? [answer_type] [,"exec_context"]
+```
+
+returns:
+
+```
+DCGM {acqu_mode},{emap_pos_int},{ovem_pos_int}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DCGM  DCGM  -  Digital Compare Global Mode）
@@ -4241,6 +4815,24 @@ DCRM OVEM,6000,,(@)
 
 This example defines that 6000 cycles will be compressed into one Overview Error Map bit when the next test will be executed.
 
+### DCRP（取自子主题 Commands in alphabetical order › List of commands › DCRP  DCRP  -  Digital Compare Result Positioning）
+
+```
+DCRP {error_map_pos},{(ref_port)}
+```
+
+### DCRP?（取自子主题 Commands in alphabetical order › List of commands › DCRP  DCRP  -  Digital Compare Result Positioning）
+
+```
+DCRP? [answer_type,]{(port_list)}
+```
+
+returns:
+
+```
+DCRP {error_map_pos},{(port)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DCRP  DCRP  -  Digital Compare Result Positioning）
 
 |
@@ -4476,6 +5068,24 @@ first_cycle_of_interest + capacity_of_the_Error_Map
 ```
 
 In the example, the first addend is 1312. The second addend is determined with the DCRS? query.
+
+### DCRT（取自子主题 Commands in alphabetical order › List of commands › DCRT  DCRT  -  Digital Compare Result Target）
+
+```
+DCRT {target},{(port_list)}
+```
+
+### DCRT?（取自子主题 Commands in alphabetical order › List of commands › DCRT  DCRT  -  Digital Compare Result Target）
+
+```
+DCRT? [answer_type,] {(port_list)}
+```
+
+returns:
+
+```
+DCRT {target},{(port)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DCRT  DCRT  -  Digital Compare Result Target）
 
@@ -5175,6 +5785,18 @@ Execution:
 DCEX 1, FORCE_ON
 ```
 
+### DDIC（取自子主题 Commands in alphabetical order › List of commands › DDIC  DDIC  -  Define DUT Interface Connection）
+
+```
+DDIC ["connectionSet",] {"circuitry_type"}, {(cp1,cp2)}
+```
+
+### DDIC?（取自子主题 Commands in alphabetical order › List of commands › DDIC  DDIC  -  Define DUT Interface Connection）
+
+```
+DDIC? {"circuitry_type"}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DDIC  DDIC  -  Define DUT Interface Connection）
 
 |
@@ -5401,6 +6023,24 @@ The number of active vectors to be deleted at the end of the referenced sequence
 
 This example deletes 25 vectors from the end of the sequencer construct referenced by command number 2. Three memory words become inactive in the process and are deleted. The start address of the following label (command line 4) is adjusted.
 
+### DFCR（取自子主题 Commands in alphabetical order › List of commands › DFCR  DFCR  -  DeFine Clock Routing）
+
+```
+DFCR {source_group},{dest_group}
+```
+
+### DFCR?（取自子主题 Commands in alphabetical order › List of commands › DFCR  DFCR  -  DeFine Clock Routing）
+
+```
+DFCR?
+```
+
+returns (for every group except G4):
+
+```
+DFCR {source_group},{dest_group}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFCR  DFCR  -  DeFine Clock Routing）
 
 |
@@ -5439,6 +6079,12 @@ specifies the hardware group whose inherited clock is to be changed.
 ```
 
 This example changes the default routing (DFCR? gives an empty reply). Note that the inherited clocks of G6 and of all successors of G6 are also changed.
+
+### DFCT（取自子主题 Commands in alphabetical order › List of commands › DFCT -  DeFine Continuity Test）
+
+```
+DFCT {force_current}, {commutation_voltage}, {pass_volt_min}, {pass_volt_max}, {polarity}, {(pinlist)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFCT -  DeFine Continuity Test）
 
@@ -5535,6 +6181,32 @@ This example sets up the parameters needed to execute a continuity test on pins 
 -  Single polarity measurement selected
 
 The example also includes the CTST? (Continuity TeST) query used to execute the test.
+
+### DFGE（取自子主题 Commands in alphabetical order › List of commands › DFGE  DFGE  -  DeFine Group by Expressions）
+
+```
+DFGE {group_type}, {"group_expression"}, {(pin_group)}
+```
+
+### DFGE?（取自子主题 Commands in alphabetical order › List of commands › DFGE  DFGE  -  DeFine Group by Expressions）
+
+```
+DFGE? {(pin_group)}
+```
+
+returns:
+
+```
+DFGE {group_type}, {("group_expression")}, {(pin_group)}
+```
+
+for expression-based groups, and
+
+```
+DFGP {pin_type}, {(pinlist)}, {(pin_group)}
+```
+
+for digital fixed groups.
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFGE  DFGE  -  DeFine Group by Expressions）
 
@@ -5666,6 +6338,24 @@ The same result would be obtained with the definition
 > DFGE O,"OUT - O1",(SCAN_OUT)
 ```
 
+### DFGP（取自子主题 Commands in alphabetical order › List of commands › DFGP  DFGP  -  DeFine GrouP）
+
+```
+DFGP {pin_type}, {(pinlist)}, {(pin_group)}
+```
+
+### DFGP?（取自子主题 Commands in alphabetical order › List of commands › DFGP  DFGP  -  DeFine GrouP）
+
+```
+DFGP? {(pin_group)}
+```
+
+returns:
+
+```
+DFGP {pin_type}, {(pinlist)}, {(pin_group)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFGP  DFGP  -  DeFine GrouP）
 
 |
@@ -5743,6 +6433,36 @@ DFGP O,(Q0,Q1,Q2,Q3),(outputs)
 ```
 
 This example defines a group called outputs which contains pins Q0, Q1, Q2 and Q3.
+
+### DFLV（取自子主题 Commands in alphabetical order › List of commands › DFLV  DFLV  -  DeFaultLeVel）
+
+```
+DFLV [resourceSpecifier,] [mode,] {value}
+```
+
+### DFLV?（取自子主题 Commands in alphabetical order › List of commands › DFLV  DFLV  -  DeFaultLeVel）
+
+```
+DFLV? [resourceSpecifier] [, mode]
+```
+
+returns
+
+```
+DFLV VIL,STD,value
+DFLV VIH,STD,value
+DFLV VIHH,STD,value
+DFLV VOL,STD,value
+DFLV VOH,STD,value
+DFLV VOL_DIFF,STD,value
+DFLV VOH_DIFF,STD,value
+DFLV VT,STD,value
+DFLV VCOM,STD,value
+DFLV REC_OFFSET,STD,value
+DFLV REC_SWING,STD,value
+```
+
+if neither parameter resourceSpecifier nor parameter mode have been specified.
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFLV  DFLV  -  DeFaultLeVel）
 
@@ -5844,6 +6564,24 @@ DFLV REC_SWING,STD,3200
 
 for the cmos technology.
 
+### DFPC（取自子主题 Commands in alphabetical order › List of commands › DFPC  DFPC  -  DeFine Pin Comment）
+
+```
+DFPC {(pin)}, {"comment"}
+```
+
+### DFPC?（取自子主题 Commands in alphabetical order › List of commands › DFPC  DFPC  -  DeFine Pin Comment）
+
+```
+DFPC? {(pinlist)}
+```
+
+returns:
+
+```
+DFPC {(pin)}, {"comment"}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFPC  DFPC  -  DeFine Pin Comment）
 
 |
@@ -5885,6 +6623,24 @@ The comment to the pin. The maximal length of the comment string is 2048 charact
 ```
 
 Since no comment has been defined for pin `pin2`, it is ignored in the reply.
+
+### DFPN（取自子主题 Commands in alphabetical order › List of commands › DFPN  DFPN  -  DeFine Pin Name）
+
+```
+DFPN ["connectionSet",] {channelNo_1|(list_of_DC_scale_channels)}, ["pinNo"], {(pinName)}
+```
+
+### DFPN?（取自子主题 Commands in alphabetical order › List of commands › DFPN  DFPN  -  DeFine Pin Name）
+
+```
+DFPN? {(pinlist)}
+```
+
+returns:
+
+```
+DFPN {channelNo_1|(list_of_DC_scale_channels)}, ["pinNo"], {(pinName)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFPN  DFPN  -  DeFine Pin Name）
 
@@ -5988,6 +6744,24 @@ DFPN (11901, 11902),,(vee)
 ```
 
 This example defines ganging for DC Scale channels in PMU mode.
+
+### DFPR（取自子主题 Commands in alphabetical order › List of commands › DFPR  DFPR  -  DeFine Pin Role）
+
+```
+DFPR "alias_set_name","pin_alias", (package_pin_name)
+```
+
+### DFPR（取自子主题 Commands in alphabetical order › List of commands › DFPR  DFPR  -  DeFine Pin Role）
+
+```
+DFPR?DEF|ALL, (alias_set_name::pin_alias|alias_set_name|@)
+```
+
+returns:
+
+```
+DFPR "alias_set_name", "pin_alias", (package_pin_name)
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFPR  DFPR  -  DeFine Pin Role）
 
@@ -6202,6 +6976,24 @@ CP
 
  |
 
+### DFPS（取自子主题 Commands in alphabetical order › List of commands › DFPS  DFPS  -  DeFine Power Supply）
+
+```
+DFPS {dps_channel|(DC_scale_channel_list)}, {polarity}, {(pin)}
+```
+
+### DFPS?（取自子主题 Commands in alphabetical order › List of commands › DFPS  DFPS  -  DeFine Power Supply）
+
+```
+DFPS? {(pinlist)}
+```
+
+returns:
+
+```
+DFPS {dps_channel|(DC_scale_channel_list)}, {polarity}, {(pin)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFPS  DFPS  -  DeFine Power Supply）
 
 |
@@ -6347,6 +7139,18 @@ DFPS (23004, 22701),POS,(VDDCI)
 
 This example specifies the ganging of channels across two DC Scale UHC4 cards.
 
+### DFPT?（取自子主题 Commands in alphabetical order › List of commands › DFPT  DFPT  -  DeFine PorT）
+
+```
+DFPT? {(portlist)}
+```
+
+returns:
+
+```
+DFPT {(pinlist)}, {(port)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFPT  DFPT  -  DeFine PorT）
 
 |
@@ -6392,6 +7196,24 @@ DFPT (CP_2,DS7_2,DS0_2,I/O7_2,...,I/O0_2,Q7_2,
 Q0_2,S1_2,S0_2,_MR_2),(port_2)
 ```
 
+### DFSP（取自子主题 Commands in alphabetical order › List of commands › DFSP  DFSP  -  DeFine Sampling Profile）
+
+```
+DFSP [meas_resource,] {measure_type}, {measure_range}, {sampling_rate}, [average_factor], [keep_range,] {(pinlist)}
+```
+
+### DFSP?（取自子主题 Commands in alphabetical order › List of commands › DFSP  DFSP  -  DeFine Sampling Profile）
+
+```
+DFSP? {(pinlist)}
+```
+
+returns
+
+```
+DFSP [meas_resource,] {measure_type}, {measure_range},{sampling_rate}, [average_factor], [keep_range,] {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFSP  DFSP  -  DeFine Sampling Profile）
 
 | meas_resource  | The measurement resource. It can be:
@@ -6431,6 +7253,12 @@ or
 
 ```
 DFSP VOLT,2,50,,(@)
+```
+
+### DFTD（取自子主题 Commands in alphabetical order › List of commands › DFTD  DFTD   DeFine Test Data）
+
+```
+DFTD {"`testdata_name`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md#_100076__r_testdata_name`）"}, {`edit_mode`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md#_100076__r_edit_mode`）}, {(`pinlist`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md#_100076__r_pinlist`）)}, {`#spec(data)`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md#_100076__r_spec`）}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFTD  DFTD   DeFine Test Data）
@@ -6986,6 +7814,24 @@ SQPG 2,RSUB,,,,(pmuPort)
 
 The subpattern named `dcSubLabel` executes the first of the two DC waveforms that are contained in the test data collection of the same name.
 
+### DFUP（取自子主题 Commands in alphabetical order › List of commands › DFUP  DFUP  -  DeFine Utility Purpose）
+
+```
+DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
+```
+
+### DFUP?（取自子主题 Commands in alphabetical order › List of commands › DFUP  DFUP  -  DeFine Utility Purpose）
+
+```
+DFUP? {(purpose_name)}
+```
+
+returns
+
+```
+DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFUP  DFUP  -  DeFine Utility Purpose）
 
 | ch_No_list |
@@ -7046,6 +7892,24 @@ The members and the setting values are as follows:
 Member:      16501  16502  16503  16504
 ---------------------------------------
 Setting:     0      1      1      0
+```
+
+### DFUT（取自子主题 Commands in alphabetical order › List of commands › DFUT  DFUT  -  DeFine UTility line）
+
+```
+DFUT {ch_No}, {type}, {(util_name)}
+```
+
+### DFUT?（取自子主题 Commands in alphabetical order › List of commands › DFUT  DFUT  -  DeFine UTility line）
+
+```
+DFUT? {(util_name)}
+```
+
+returns
+
+```
+DFUT {ch_No}, {type}, {(util_name)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFUT  DFUT  -  DeFine UTility line）
@@ -7592,6 +8456,158 @@ DLTS "MPBU_port_1_port_2",(port_1)
 
 This example deletes the label referenced by `MPBU_port_1_port_2` from the port `port_1`.
 
+### DMAS（取自子主题 Commands in alphabetical order › List of commands › DMAS  DMAS  -  Define Memory Area Size）
+
+```
+DMAS SQPG, [memory], {size}, {(port)}
+```
+
+### DMAS?（取自子主题 Commands in alphabetical order › List of commands › DMAS  DMAS  -  Define Memory Area Size）
+
+Area type PARA:
+
+```
+DMAS? PARA, [memory], PER_PORT, {(port_list)}
+```
+
+returns:
+
+```
+DMAS PARA, {memory}, {size}, {(port)}
+```
+
+Area type SQPG:
+
+```
+DMAS? SQPG, [SM], [PER_PORT,] {(port_list)}
+```
+
+returns:
+
+```
+DMAS SQPG, SM, {size}, {(port)}
+```
+
+Area type PPSQ:
+
+```
+DMAS? PPSQ, [SM], [PER_PORT,] {(@)}
+```
+
+returns:
+
+```
+DMAS PPSQ, SM, {size}, {(@)}
+```
+
+Area type RSLT, querying ports:
+
+```
+DMAS? RSLT, [SM], [PER_PORT,] {(port_list)}
+```
+
+returns:
+
+```
+DMAS RSLT, SM, {size}, {port}
+```
+
+Area type RSLT, querying pins:
+
+```
+DMAS? RSLT, [SM], {PER_PIN}, {(pin_list)}
+```
+
+returns:
+
+```
+DMAS RSLT, SM, {size}, {pin}
+```
+
+Area type SAVE:
+
+```
+DMAS? SAVE, ALL, [PER_PORT,] {(port_list)}
+```
+
+returns:
+
+```
+DMAS SAVE, {memory}, {size}, {(port)}
+```
+
+Area type ALL:
+
+```
+DMAS? ALL, [memory], [PER_PORT,] {(port_list)}
+```
+
+returns:
+
+```
+DMAS {area}, {memory}, {size}, {(port)}
+```
+
+Area type MFRE, querying ports:
+
+```
+DMAS? MFRE, [SM|SMEXT], [PER_PORT,] {(port_list)}
+```
+
+returns:
+
+```
+DMAS MFRE, {SM|SMEXT}, {size}, {port}
+```
+
+Area type MFRE, querying pins:
+
+```
+DMAS? MFRE, [SM|SMEXT], {PER_PIN}, {(pin_list)}
+```
+
+returns:
+
+```
+DMAS MFRE, {SM|SMEXT}, {size}, {pin}
+```
+
+Area type MFRE, querying channels:
+
+```
+DMAS? MFRE, [SM|SMEXT], {PER_CHANNEL}, {(channel_list)}
+```
+
+returns:
+
+```
+DMAS MFRE, {SM|SMEXT}, {size_1}, {size_2}, {size_3}, {(channel)}
+```
+
+Area type MFRP, querying channels:
+
+```
+DMAS? MFRP, [SM|SMEXT], {PER_CHANNEL}, {(port_list)}
+```
+
+returns:
+
+```
+DMAS MFRP, {SM|SMEXT}, {size_1}, {size_2}, {size_3}, {(channel)}
+```
+
+Area type MFRP, querying pools:
+
+```
+DMAS? MFRP, [SM|SMEXT], {PER_POOL}, {(port_list)}
+```
+
+returns:
+
+```
+DMAS MFRP, {SM|SMEXT}, {pool_size}, {(pool_channels)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DMAS  DMAS  -  Define Memory Area Size）
 
 |
@@ -7934,6 +8950,12 @@ Finally, the two possible options for MFRP, applied to `port12`, produce
 < DMAS MFRP,SM,347400,(10101,10102,10103,10104)
 ```
 
+### DPPC（取自子主题 Commands in alphabetical order › List of commands › DPPC -  Define Per Pin subroutine Configuration）
+
+```
+DPPC {name}, {parameter}, [value], {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DPPC -  Define Per Pin subroutine Configuration）
 
 |
@@ -8045,6 +9067,24 @@ Pins for which a per-pin subroutine is valid.
 
  |
 
+### DPPS（取自子主题 Commands in alphabetical order › List of commands › DPPS  DPPS  -  Define Per Pin Subroutine label）
+
+```
+DPPS {name}, {cycle_len}
+```
+
+### DPPS?（取自子主题 Commands in alphabetical order › List of commands › DPPS  DPPS  -  Define Per Pin Subroutine label）
+
+```
+DPPS? {name}
+```
+
+returns:
+
+```
+DPPS {name}, {cycle_len}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DPPS  DPPS  -  Define Per Pin Subroutine label）
 
 |
@@ -8067,6 +9107,24 @@ cycle_len
 Per-pin cycle length.
 
  |
+
+### DPRL（取自子主题 Commands in alphabetical order › List of commands › DPRL  DPRL  -  Default PRimary Level sets）
+
+```
+DPRL {level_set}, {dps_set}, [screen_select]
+```
+
+### DPRL?（取自子主题 Commands in alphabetical order › List of commands › DPRL  DPRL  -  Default PRimary Level sets）
+
+```
+DPRL?
+```
+
+returns:
+
+```
+DPRL {level_set}, {dps_set}, [screen_select]
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DPRL  DPRL  -  Default PRimary Level sets）
 
@@ -8142,6 +9200,61 @@ DPRL 1,2,LEV
 ```
 
 On sending a query, the system reports that the default primary level set is 1 and the default primary DPS set is 2.
+
+### DPRT（取自子主题 Commands in alphabetical order › List of commands › DPRT  DPRT  -  Default PRimary Timing sets）
+
+```
+DPRT {waveform_set}, {timing_set}
+```
+
+For equation-based testing:
+
+```
+DPRT {specset_id}, {timing_set}
+```
+
+For multiport specifications:
+
+```
+DPRT {"multi-port_spec"}, [timing_set_no|"timing_set_list"][,(port)]
+```
+
+### DPRT?（取自子主题 Commands in alphabetical order › List of commands › DPRT  DPRT  -  Default PRimary Timing sets）
+
+```
+DPRT?
+```
+
+returns:
+
+```
+DPRT {waveform_set}, {timing_set}
+```
+
+For equation-based testing:
+
+```
+DPRT?
+```
+
+returns:
+
+```
+DPRT {specset_id}, {timing_set}
+```
+
+For multiport specifications:
+
+```
+DPRT? [(port)]
+```
+
+returns:
+
+```
+DPRT {"multi-port_spec"}, {timing_set_no|"timing_set_list"}[,(port)]
+
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DPRT  DPRT  -  Default PRimary Timing sets）
 
@@ -8222,6 +9335,24 @@ DPRT 3,4
 
 On sending a query the system reports that the default primary waveform set is 3 and the default primary timing set is 4.
 
+### DPSA（取自子主题 Commands in alphabetical order › List of commands › DPSA  DPSA  -  Define per Pin Subroutine Address）
+
+```
+DPSA {name}, {address}, {(pinlist)}
+```
+
+### DPSA?（取自子主题 Commands in alphabetical order › List of commands › DPSA  DPSA  -  Define per Pin Subroutine Address）
+
+```
+DPSA? {name}, {(pinlist)}
+```
+
+returns:
+
+```
+DPSA {name}, {address}, {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DPSA  DPSA  -  Define per Pin Subroutine Address）
 
 |
@@ -8253,6 +9384,24 @@ pinlist
 Pins for which a per-pin subroutine is valid.
 
  |
+
+### DPSE（取自子主题 Commands in alphabetical order › List of commands › DPSE  DPSE  -  Define Power Supply External trigger measurement）
+
+```
+DPSE {setnr}, {(pinlist)}, {binary_data}
+```
+
+### DPSE?（取自子主题 Commands in alphabetical order › List of commands › DPSE  DPSE  -  Define Power Supply External trigger measurement）
+
+```
+DPSE? {setnr}
+```
+
+returns:
+
+```
+DPSE {setnr}, {(pinlist)}, {binary_data}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DPSE  DPSE  -  Define Power Supply External trigger measurement）
 
@@ -8418,6 +9567,179 @@ PSER 1,F,(),#9000000000
 ```
 
 This example performs a measurement with format 3 and PSIE for two different pins in parallel.
+
+### DPSR（取自子主题 Commands in alphabetical order › List of commands › DPSR  DPSR  -  Define Parallel SeaRch）
+
+```
+DPSR {set_nr}, ["exec_context",] [(setup_pinlist)|(primary_port)], [(result_pinlist)], [wait_time,] [search_type], [max_err_count,] {#spec(data)}
+```
+
+### DPSR?（取自子主题 Commands in alphabetical order › List of commands › DPSR  DPSR  -  Define Parallel SeaRch）
+
+```
+DPSR? {set_nr} [, (setup_pinlist)]
+```
+
+returns:
+
+```
+DPSR {set_nr}, ["exec_context",] (setup_pinlist), (result_pinlist), [wait_time,] search_type, [max_err_count], {#spec(data)}
+```
+
+Extra parameters exec_context and wait_time are returned only if they have been defined by DPSR.
+
+Parameters
+ | set_nr |
+
+The mandatory parameter specifies the number of the search set in which the condition is to be stored.
+
+The maximum number is 128.
+
+If a search set with this number does not yet exist, it will be created.
+
+ |
+ | exec_context |
+
+The extra parameter defines an execution context.
+
+For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）.
+
+ |
+ | setup_pinlist |
+
+The optional parameter defines the pins for which an edge is to be moved or a spec variable is to be modified.
+
+If this parameter is omitted, all pins will be used as setup pins.
+
+ |
+ | primary_port |
+
+This optional parameter is only relevant for Pin Scale systems.
+
+Specifies the setup pins by a single port name. The difference to a setup pin list is that the port will be used as the primary port by `EXSR`（raw: `02.06.02.02.121_EXSR_-__EXecute_SeaRch.md`）.
+
+Note that this only holds if you specify the setup pins by one single port. If you enter more than one port, the list will be treated as a normal setup pin list.
+
+This parameter is only applicable if spec_name as specified in the #spec(data) parameter occurs in the period definition for the specified port in the primary multi-port timing specification.
+
+Add @UNCHANGED to suppress the switch of the primary port..
+
+ |
+ | result_pinlist |
+
+The optional parameter defines the output pins whose results are contributing to the test result.
+
+If the parameter is omitted, all output and I/O pins will contribute to the result. If you specify an empty #spec(data) parameter, the result_pinlist parameter is ignored.
+
+ |
+ | wait_time  | The extra parameter specifies a wait time between the functional test runs in milliseconds.
+
+Valid range: 0 鈥?2^31 - 2
+
+Default value if not specified: 0 ms
+
+ |
+ | search_type |
+
+The optional parameter specifies the search type.
+
+This parameter determines the format of the #spec(data) parameter. If you specify an empty #spec(data) parameter, the search_type parameter will be ignored.
+
+Currently, the following values are allowed:
+
+ |
+ | FUNC  | Functional search |
+ | ERCT |
+
+With this option, an additional error count check is performed internally for each repetition of the functional test. If the number of errors is smaller than the value specified by the max_err_count parameter, then the functional test will count as passed, and the search be terminated for a FAIL/PASS transition. The edge position / spec value of this test repetition will then be returned as the transition point by RSSR?.
+
+Note that it depends on the settings of DRCM whether failing cycles or failing edges are counted.
+
+ |
+ | max_err_count |
+
+This extra parameter specifies the maximum number of errors for which a repetition of the functional test will still count as passed.
+
+The parameter must be defined and is only processed if the search_type is ERCT.
+
+ |
+ | #spec(data) |
+
+The mandatory binary data that define the search condition. The general format is:
+
+`#Nn1n2n...nNdata_stream`
+
+where the digit N defines the number of the digits ni (1 鈮? i 鈮?N) that specify the length of data_stream in bytes.
+
+The format of the data stream itself is determined by the search_type parameter. For search types FUNC and ERCT (currently the only search types), the format is
+
+`{spec_type}, {"spec_name"|resource}, {search_mode}, {start}, {stop}, [step_size], [resolution]`
+
+You can delete a search condition by specifying an empty data stream with #10. If you omit all the other parameters and specify #10 for the #spec(data) parameter, the whole search set will be erased.
+
+The meaning of the individual sub-parameters is as follows:
+
+ |
+ |
+
+spec_type
+
+ |
+
+Specifies whether a spec variable or a resource is modified, and in the former case also the type of the spec variable. This parameter determines the allowed values of the following parameter.
+
+Possible values of the spec_type parameter are:
+
+ |
+ | TIM  | A timing spec variable is to be modified. |
+ | LEV  | A level spec variable is to be modified. |
+ | RES  | A hardware resource is to be modified. |
+ | spec_name |
+
+The name of a spec variable must be specified if spec_type is set to TIM or LEV.
+
+DPSR does not accept the format
+
+`spec_name@port_name,`
+
+that is, spec names that are qualified by a port name. If the same spec variable is used in more than one port, the setup pins determine on which ports the value of the variable is modified.
+
+ |
+ | resource |
+
+A resource must be specified if spec_type is set to RES Currently, the only allowed resources are edges, which must be specified in the standard format, di or ri.
+
+ |
+ | search_mode |
+
+This parameter defines the search algorithm.
+
+Possible values are:
+
+ |
+ | L  | Specifies a linear search from the start of the search range at intervals defined by step_size. |
+ | B  | Specifies a binary search between the start and the stop positions. |
+ |
+
+LB
+
+   | Specifies a combined linear and binary search. A linear search is performed at intervals defined by step_size. When a PASS/FAIL transition is found, an additional binary search is performed in the interval between the last passed and the first failed test, or the last failed and the first passed test. |
+ | start  | >Specifies the starting point of the search. If the value is greater than the stop value, the search will go backward. |
+ | stop  | Specifies the end point of the search. If the value is smaller than the start value, the search will go backward. |
+ | step_size |
+
+This parameter specifies the step width of a linear search. The unit depends on the spec_type parameter. For a spec search, it is the unit of the spec variable. For a resource search, it is ns.
+
+This parameter is mandatory for a linear search, and optional for a binary search.
+
+ |
+ | resolution |
+
+This parameter specifies the resolution of the search. For a binary search, this is the minimum length of the interval between the returned PASS value and the returned FAIL value. For a linear search, the start, stop, and step_size values will be rounded to multiples of the specified resolution.
+
+If the parameter is omitted, the smallest values allowed by the software ( for spec variables) or the hardware (for edges) will be used.
+
+ |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DPSR  DPSR  -  Define Parallel SeaRch）
 
@@ -8660,6 +9982,24 @@ returns:
 DRLS EQ,-490
 ```
 
+### DRLV（取自子主题 Commands in alphabetical order › List of commands › DRLV  DRLV  -  DRive LeVel）
+
+```
+DRLV {level_set_no | level_set_id}, [logic_0_level], [logic_1_level], [v3h_level | range,] {(pinlist)}
+```
+
+### DRLV?（取自子主题 Commands in alphabetical order › List of commands › DRLV  DRLV  -  DRive LeVel）
+
+```
+DRLV? {level_set_no | level_set_id}, {(pinlist)}
+```
+
+returns:
+
+```
+DRLV {level_set | level_set_id}, [logic_0_level], [logic_1_level], [v3h_level | range,] {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DRLV  DRLV  -  DRive LeVel）
 
 |
@@ -8763,6 +10103,28 @@ DRLV 1,-1750,-850,8000,(avi64Pin1)
 
 This example shows how the 8 V drive range of an AVI64 pin is selected.
 
+### DSCP（取自子主题 Commands in alphabetical order › List of commands › DSCP  DSCP  -  Define System Control Parameter）
+
+```
+DSCP `[device_cycle`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_device_cycle`）], `[waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`）], `[timing_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_timing_set`）], `[level_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_level_set`）], `[dps_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_dps_set`）], `[pmu_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_pmu_set`）],
+                        `[devicecycle_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_devicecycle_set`）], `[routing_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_routing_set`）], `[period_res_prec`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_period_res_prec`）],
+
+```
+
+### DSCP?（取自子主题 Commands in alphabetical order › List of commands › DSCP  DSCP  -  Define System Control Parameter）
+
+```
+DSCP?
+```
+
+returns:
+
+```
+DSCP {device_cycle}, {waveform_set}, {timing_set}, {level_set}, {dps_set},
+       {pmu_set}, {devicecycle_set}, {routing_set}, [period_res_prec],
+       [period_res_compatibility_model]
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DSCP  DSCP  -  Define System Control Parameter）
 
 | device_cycle  | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.
@@ -8861,6 +10223,24 @@ Maximum: 128
 DSCP 256,16,256,32,32,1024,16,1,256,
 ```
 
+### DSUS（取自子主题 Commands in alphabetical order › List of commands › DSUS  DSUS  -  Dps Sets USed）
+
+```
+DSUS {ds_No}
+```
+
+### DSUS?（取自子主题 Commands in alphabetical order › List of commands › DSUS  DSUS  -  Dps Sets USed）
+
+```
+DSUS?
+```
+
+returns:
+
+```
+DSUS {ds_No}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DSUS  DSUS  -  Dps Sets USed）
 
 |
@@ -8882,6 +10262,25 @@ DSUS 2
 ```
 
 This example defines a maximum of 2 DPS sets.
+
+### DSVS（取自子主题 Commands in alphabetical order › List of commands › DSVS  DSVS  -  Define Spec Value Set）
+
+```
+DSVS {spec_value_set_id}, ["description"], {"spec_type"}, [equ_set_no|PRM], [spec_set_no|"multi-port_spec"]
+DSVS {spec_value_set_id},,,,
+```
+
+### DSVS?（取自子主题 Commands in alphabetical order › List of commands › DSVS  DSVS  -  Define Spec Value Set）
+
+```
+DSVS? {spec_value_set_no|ALL}
+```
+
+returns:
+
+```
+DSVS {spec_value_set_id}, ["description"], {"spec_type"}, [equ_set_no|PRM], [spec_set_no|"multi-port_spec"]
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DSVS  DSVS  -  Define Spec Value Set）
 
@@ -8969,6 +10368,24 @@ Instead of a spec set number, you can also specify the name of a multi-port timi
 
 This example shows how to redefine a spec value set. Note that you must delete the set before you can change the specification.
 
+### DTCP（取自子主题 Commands in alphabetical order › List of commands › DTCP  DTCP  -  Define Technology Control Parameters）
+
+```
+DTCP {"key"}, {"value"}
+```
+
+### DTCP?（取自子主题 Commands in alphabetical order › List of commands › DTCP  DTCP  -  Define Technology Control Parameters）
+
+```
+DTCP? {"key"}
+```
+
+returns:
+
+```
+DTCP {"key"}, {"value"}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DTCP  DTCP  -  Define Technology Control Parameters）
 
 | key  | The string specifies the system control parameter.
@@ -8998,6 +10415,24 @@ For more information, refer to `testpoints`（raw: `../../01_Getting_started/01.
 > *RST
 > DTCP? "extended_dram_factor"
 < DTCP "extended_dram_factor","90"
+```
+
+### DVVA（取自子主题 Commands in alphabetical order › List of commands › DVVA  DVVA  -  Define Vector VAriable）
+
+```
+DVVA {"name"}, {type}, {"evector_label"}, {xfer_mode}, [device_cycle], [start_vector_nr], ["capt_label"], [init_discard], {nr_vec_per_frame}, [nr_vec_per_sample], [nr_vector_interdisc], [nr_of_frames], [nr_frame_interdisc], {(pinlist)}
+```
+
+### DVVA?（取自子主题 Commands in alphabetical order › List of commands › DVVA  DVVA  -  Define Vector VAriable）
+
+```
+DVVA? {"name"|ALL}[, (portlist)]
+```
+
+returns:
+
+```
+DVVA {"name"}, {type}, {"vector_label"}, {xfer_mode}, [device_cycle], [start_vector_nr], ["capt_label"], [init_discard], {nr_vec_per_frame}, [nr_vec_per_sample], [nr_vector_interdisc], [nr_of_frames], [nr_frame_interdisc], {(pinlist)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DVVA  DVVA  -  Define Vector VAriable）
@@ -9179,6 +10614,24 @@ Specify @@ to display all vector variables for all labels of all ports.
 < DVVA "vec_2",DIGCAPT,"port2_A",PARA,,,,0,1,1,0,1,0,(I/O7_2,I/O6_2)
 ```
 
+### DVVC（取自子主题 Commands in alphabetical order › List of commands › DVVC  DVVC  -  Define Vector Variable Configuration）
+
+```
+DVVC {name}, {#data}
+```
+
+### DVVC?（取自子主题 Commands in alphabetical order › List of commands › DVVC  DVVC  -  Define Vector Variable Configuration）
+
+```
+DVVC? {name},
+```
+
+returns:
+
+```
+DVVC {name}, {#data}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DVVC  DVVC  -  Define Vector Variable Configuration）
 
 |
@@ -9202,6 +10655,100 @@ A configuration file in binary (BIN) format. This parameter allows you to define
 - One digit indicating how many digits make up the data length specifier.
 - A number of digits indicate the length (in bytes) of the data to follow.
 - A number of characters which make up the specified VVC based testing file. This stream of characters must be terminated with the @ character.
+ |
+
+### DVCU（取自子主题 Commands in alphabetical order › List of commands › DVCU  DVCU  -  Define Vector variable Configuration Usage）
+
+```
+DVCU {label_name}, {VVC_name}, {vector_offset},
+{init_discard_frames}, {number_of_frames}, {var_name_def}, {init_static_data}
+```
+
+### DVCU?（取自子主题 Commands in alphabetical order › List of commands › DVCU  DVCU  -  Define Vector variable Configuration Usage）
+
+```
+DVCU? {label_name}, {VVC_name}, {vector_offset}
+```
+
+Parameters
+ |
+
+label_name
+
+ |
+
+Name of the label for which usage is to be created.
+
+In the query, label_name can also be ALL.
+
+ |
+ |
+
+VVC_name
+
+ |
+
+Name of the Vector Variable Configuration. For more information, refer to `DVVC, DVVC? - (Define Vector Variable Configuration)`（raw: `02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md`）.
+
+In the query, VVC_name can also be ALL.
+
+ |
+ |
+
+vector_offset
+
+ |
+
+vector_offset is the offset in the source label where the first frame of the usage is to be created. vector_offset is the logical vector number in the label. The first usage for a source label should start at 0.
+
+The query also accepts ALL.
+
+ |
+ |
+
+init_discard_frames
+
+ |
+
+Not in use at this time. This is a reserved parameter.
+
+ |
+ |
+
+number_of_frames
+
+ |
+
+Number of frames this usage is to create in the source label.
+
+ |
+ |
+
+var_name_def
+
+ |
+
+This parameter specifies the vector variable names for the variable names defined in VVC. This parameter is a string.
+
+Syntax:
+
+`"`VVC_NAME_1`=`VEC_VAR_NAME_1`[,`VVC_NAME_2`=`VEC_VAR_NAME_2`[,.....]]"`
+
+The vector variable name can be identical with the VVC variable name. But notice that the vector variable names must be unique in the vector setup.
+
+ |
+ |
+
+init_static_data
+
+ |
+
+This parameter is either TRUE or FALSE.
+
+TRUE: Static data, as defined in the VVC, will be downloaded on definition of usage.
+
+FALSE: Static data will not be downloaded.
+
  |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DVCU  DVCU  -  Define Vector variable Configuration Usage）
@@ -10101,6 +11648,142 @@ One character per edge. F means failed and . means not failed.
 < EDGE ..F..... (pin4)
 ```
 
+### EDSP（取自子主题 Commands in alphabetical order › List of commands › EDSP  EDSP  -  EDge SPecification）
+
+The edge_spec parameter specifies a physical edge (d1 through d8 or r1 through r8):
+
+```
+EDSP [waveform_set|specset_id|"multi-port_spec"], [timing_set], {edge_spec}, , ,[direction], {(pinlist)}
+```
+
+The edge_spec parameter is a data parameter (D1, D2, C1, C2, E1, or E2):
+
+```
+EDSP [waveform_set|specset_id|"multi-port_spec"], [timing_set], {edge_spec}, [dev_cyc_name], [dc_ref] ,[direction], {(pinlist)}
+```
+
+### EDSP?（取自子主题 Commands in alphabetical order › List of commands › EDSP  EDSP  -  EDge SPecification）
+
+```
+EDSP? [dc_ref], {(pinlist)}
+```
+
+returns:
+
+```
+EDSP , , {edge_number}, , {dc_ref}, ,{(pinlist)}
+```
+
+Parameters
+ |
+
+waveform_set
+
+ |
+
+Specifies a waveform set number for a fixed timing setup.
+
+ |
+ |
+
+specset_id
+
+ |
+
+Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:
+
+100 * equation_set_no + specset_no
+
+ |
+ |
+
+multi-port_spec
+
+ |
+
+Specifies the name of a multiport specification for a multi-port setup. PRM is the default value.
+
+ |
+ |
+
+timing_set
+
+ |
+
+Specifies the number of the a timing set. PRM is the default value.
+
+ |
+ |
+
+edge_spec
+
+ |
+
+The edge specifier can either be a physical edge (d1 through d8 or r1 through r8), or one of the data parameters D1, D2, C1, C2 (drive parameters) or E1, E2 (receive parameters).
+
+ |
+ |
+
+edge_number
+
+ |
+
+In the query reply, this parameter contains the edge that is used as leading or trailing edge.
+
+ |
+ |
+
+dev_cyc_name
+
+ |
+
+Specifies the name of a logical device cycle that uses the data parameter given as the edge_spec. It must be defined for all pins in pinlist. If you do not enter a name in this parameter, the first device cycle in the device cycle table is used.
+
+ |
+ |
+
+dc_ref
+
+ |
+
+This parameter specifies the input edge. The input edge determines the algorithm according to which the trailing edge is selected. The two options are LE (for "leading edge") and TE (for "trailing edge").
+
+The leading edge will always be the first edge that is associated with the specified data parameter within the specified device cycle, regardless of whether LE or TE is specified.
+
+For the trailing edge the following rules apply:
+
+- When you specify LE, trailing and leading edge will be identical.
+- When you specify TE, then drive parameters and receive parameters are treated differently.
+
+  - Drive parameter: The trailing edge will be the first drive edge after the leading edge thats performs a data or tri-state action. Note that this trailing edge need not be associated in any way with the data parameter of the leading edge.
+  - Receive parameter: If the action of the leading edge is an edge compare, leading and trailing edge will be identical. If it is the start action of a window compare, then the associated window close edge will be the trailing edge.
+
+For both cases, see the example below.
+
+In the query, you can also specify both. In this case both the leading and the trailing edge will be returned for the pins in pinlist.
+
+ |
+ |
+
+direction
+
+ |
+
+This parameter can be in or out. If in is selected to define an input edge, then the edge_spec parameter must be D1, D2, C1, or C2. If out is selected to define a receiver edge, then the edge_spec parameter must be E1 or E2. If either in or out is selected along with an edge_spec parameter of 1,2...6, then a check is performed to ensure that the edges of all pins are in the required direction. If no entry is made in this parameter, the measuring edges of the pin in pinlist can have any direction or be unused.
+
+ |
+ |
+
+pinlist
+
+ |
+
+The parameters of the EDSP command are applied to all pins named in this parameter. If more than one pin is used, the names must be separated by a comma.
+
+In a multi-port setup, all pins must belong to the same port of the specification that was entered as the first parameter.
+
+ |
+
 ### Syntax（取自子主题 Commands in alphabetical order › List of commands › EMAP  -  Error MAP）
 
 ```
@@ -10655,6 +12338,24 @@ List of pins that the action will take place on. If more than one pin list is in
 
  |
 
+### ENSP（取自子主题 Commands in alphabetical order › List of commands › ENSP  ENSP  -  ENable Sampling Profile）
+
+```
+ENSP {operation_state},{(pinlist)}
+```
+
+### ENSP?（取自子主题 Commands in alphabetical order › List of commands › ENSP  ENSP  -  ENable Sampling Profile）
+
+```
+ENSP? {(pinlist)}
+```
+
+returns
+
+```
+ENSP {operation_state},{(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › ENSP  ENSP  -  ENable Sampling Profile）
 
 |
@@ -10755,6 +12456,18 @@ The following examples queries the required number of repetitions for the three 
 < EPRC 2,228233,(Port1)
 < EPRC 2,342193,(Port2)
 < EPRC 2,171253,(Port3)
+```
+
+### EQFC（取自子主题 Commands in alphabetical order › List of commands › EQFC  EQFC  -  EQualization and Filter Configuration）
+
+```
+EQFC {level_set_no|level_set_id|ALL|PRM} ,{filter_parameter|ALL_specifier}, {offset_value|filter_value}, {(pinList)}
+```
+
+### EQFC?（取自子主题 Commands in alphabetical order › List of commands › EQFC  EQFC  -  EQualization and Filter Configuration）
+
+```
+EQFC? {level_set_no|level_set_id|ALL|PRM} ,{filter_parameter|ALL_specifier|ALL}, {value}, {(pinList)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › EQFC  EQFC  -  EQualization and Filter Configuration）
@@ -11195,6 +12908,73 @@ EQFS LEV,EQN,LOAD,"/tmp/level_equation",
 ```
 
 This example loads the level equation file from /tmp/level_equation.
+
+### EQSP（取自子主题 Commands in alphabetical order › List of commands › EQSP  EQSP  -  EQuation SPecification transfer）
+
+```
+EQSP {spec_type}, {part}, {#spec(data)}
+```
+
+### EQSP?（取自子主题 Commands in alphabetical order › List of commands › EQSP  EQSP  -  EQuation SPecification transfer）
+
+```
+EQSP?{spec_type}, {part}
+```
+
+returns:
+
+```
+EQSP {spec_type}, {part}, {#spec(data)}
+```
+
+if these are not empty, for backward compatibility.
+
+Parameters
+ |
+
+spec_type
+
+ |
+
+The mandatory parameter defines which specification type to use.
+
+Use:
+
+- LEV to specify levels
+- TIM to specify timing
+ |
+ |
+
+part
+
+ |
+
+The mandatory parameter defines which part of the specification type to use.
+
+Use:
+
+- EQN to specify equations
+- SPS to specify specs
+- WVT to specify a wavetable
+
+part can only be set to WVT, EQN, or CLK if spec_type is set to TIM.
+
+ |
+ |
+
+#spec(data)
+
+ |
+
+An equation based set of data (for example wavetables) in binary format.
+
+This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:
+
+- A # to mark the start of the data block.
+- One digit indicating how many digits make up the data length specifier.
+- A number of digits indicating the length (in bytes) of the data to follow.
+- A number of characters which make up the specified equation based testing file. This stream of characters must be terminated with a @ character.
+ |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › EQSP  EQSP  -  EQuation SPecification transfer）
 
@@ -12482,6 +14262,24 @@ Graphically, the structure can be illustrated by a simple example of the EOLY re
 
 The data stream has been broken up to make it more readable. The first test point measurement failed because of a low limit violation, the fourth because of a low clamp violation.
 
+### ESGB（取自子主题 Commands in alphabetical order › List of commands › ESGB  ESGB  -  Edge Search GloBal）
+
+```
+ESGB [lin_step], [lin_bin_step], [min_pulse]
+```
+
+### ESGB（取自子主题 Commands in alphabetical order › List of commands › ESGB  ESGB  -  Edge Search GloBal）
+
+```
+ESGB?
+```
+
+returns:
+
+```
+ESGB [lin_step], [lin_bin_step], [min_pulse]
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › ESGB  ESGB  -  Edge Search GloBal）
 
 |
@@ -12519,6 +14317,18 @@ ESGB 20,30,0
 ```
 
 This example defines a 20 ns step width for linear search and a 30 ns step width for the combined linear/binary search. The minimum allowed pulse width is 0 ns.
+
+### ETDS（取自子主题 Commands in alphabetical order › List of commands › ETDS  ETDS  -  Edge Timing Definition String）
+
+ETDS {waveform_set|specset_id|"multi-port_spec"}, {timing_set}, [mode], {definition_string}, {(pinlist)}
+
+### ETDS?（取自子主题 Commands in alphabetical order › List of commands › ETDS  ETDS  -  Edge Timing Definition String）
+
+ETDS? {waveform_set|specset_id|"multi-port_spec"}, {timing_set}, [mode], {(pinlist)}
+
+returns:
+
+ETDS {waveform_set|specset_id|"multi-port_spec"}, {timing_set}, [mode], {definition_string}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › ETDS  ETDS  -  Edge Timing Definition String）
 
@@ -12675,6 +14485,85 @@ This example shows how to set and retrieve a delay of a multi-port specification
 ```
 
 The specification name and the pin name identify the port (no pin may occur in more than one port within the same specification). Then the port and the specification identify the equation set.
+
+### ETIM（取自子主题 Commands in alphabetical order › List of commands › ETIM  ETIM  -  Edge TIMing）
+
+```
+ETIM {waveform_set},{timing_set}, [t1], [t2], [t3], [t4], [t5], [t6], {(pinlist)}
+```
+
+### ETIM?（取自子主题 Commands in alphabetical order › List of commands › ETIM  ETIM  -  Edge TIMing）
+
+```
+ETIM? {waveform_set}, {timing_set}, {(pinlist)}
+```
+
+returns:
+
+```
+ETIM {waveform_set},{timing_set}, [t1], [t2], [t3], [t4], [t5], [t6], {(pinlist)}
+```
+
+or:
+
+```
+ETIM? {specset_id}, {timing_set_no}, {(pinlist)}
+```
+
+returns:
+
+```
+ETIM {specset_id}, {timing_set_no}, [t1], [t2], [t3], [t4], [t5], [t6],{(pinlist)}
+```
+
+Parameters
+ |
+
+waveform_set
+
+ |
+
+Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
+
+ |
+ |
+
+specset_id
+
+ |
+
+Derived as follows:
+
+`100 *`equation_set_no `+ `specset_no
+
+ |
+ |
+
+timing_set
+
+ |
+
+Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by TSUS.
+
+ |
+ |
+
+t1..t6
+
+ |
+
+Edge delay in ns. Note that the positions of some edges may be affected by the use and position of previously defined edges as explained in "Restrictions" in `ETIM, ETIM? - (Edge TIMing)`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）.
+
+ |
+ |
+
+pinlist
+
+ |
+
+The name of the pin or pins for which edge delays are to be set or read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
+
+ |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ETIM  ETIM  -  Edge TIMing）
 
@@ -13448,6 +15337,24 @@ FTST P
 ```
 
 This example returns a pass result for the functional test.
+
+### FXDL（取自子主题 Commands in alphabetical order › List of commands › FXDL  FXDL  -  FiXture DeLay）
+
+```
+FXDL {channel}, {fixture_delay}
+```
+
+### FXDL?（取自子主题 Commands in alphabetical order › List of commands › FXDL  FXDL  -  FiXture DeLay）
+
+```
+FXDL? {channel}
+```
+
+returns:
+
+```
+FXDL {channel}, {fixture_delay}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › FXDL  FXDL  -  FiXture DeLay）
 
@@ -14590,6 +16497,25 @@ An example is given below.
 
 In this example, a rising edge occurs exactly in the middle of every cycle, and a falling edge at the end of every cycle for all pins. Note that the total number of results 4 * (199 + 1) equals the number of samples requested with HRIT RES.
 
+### HRIT（取自子主题 Commands in alphabetical order › List of commands › HRIT  HRIT  -  High Resolution Interval of Time）
+
+```
+HRIT {HRES|SCOP}, {start_cyc}, {start_offs}, {stop_cyc), (stop_offs}, {samples), {(ref_port)}
+HRIT END
+```
+
+### HRIT?（取自子主题 Commands in alphabetical order › List of commands › HRIT  HRIT  -  High Resolution Interval of Time）
+
+```
+HRIT? [(port)]
+```
+
+returns:
+
+```
+HRIT {task}, {param}[, start_offs] [, stop_cyc][, stop_offs][, samples][, (ref_port)]
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › HRIT  HRIT  -  High Resolution Interval of Time）
 
 |
@@ -14741,6 +16667,24 @@ If the measurement sequence was terminated correctly or aborted because of an er
 In this example, there are two ports A and B that belong to the same sequencing group. A is the reference port. The period length for port A is 5 ns, that for port B is 4 ns. It is assumed that a rising edge occurs exactly in the middle of every cycle, and a falling edge at the end of every cycle for all pins.
 
 The display interval is 2 cycles for port A, and 2 1/2 cycles for port B. This is reflected by the offset of 2 in the answer to the first query.
+
+### HROL（取自子主题 Commands in alphabetical order › List of commands › HROL  HROL  -  High Resolution Option and Level）
+
+```
+HROL {PINS|LEVP}, {param1}, [param2], {(pinlist)}
+```
+
+### HROL?（取自子主题 Commands in alphabetical order › List of commands › HROL  HROL  -  High Resolution Option and Level）
+
+```
+HROL? {PINS|LEVP},{(pinlist)}
+```
+
+returns:
+
+```
+HROL {PINS|LEVP}, {param1}, [param2], {(pinlist)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › HROL  HROL  -  High Resolution Option and Level）
 
@@ -14938,6 +16882,25 @@ SOC
 ```
 > HWTY?
 < HWTY VS,TH_4CC,SOC
+```
+
+### I2CA（取自子主题 Commands in alphabetical order › List of commands › I2CA  I2CA  -  I2CA bus）
+
+```
+I2CA {address}, {offset}, {#spec(data)}
+```
+
+### I2CA?（取自子主题 Commands in alphabetical order › List of commands › I2CA  I2CA  -  I2CA bus）
+
+```
+
+I2CA? {address}, {offset}, {size}
+```
+
+returns:
+
+```
+I2CA {address}, {offset}, {#spec(data)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › I2CA  I2CA  -  I2CA bus）
@@ -15139,6 +17102,24 @@ JRST (@)
 
 This example resets the jitter modulator of all configured pins to its default state OFF.
 
+### JSCF（取自子主题 Commands in alphabetical order › List of commands › JSCF  JSCF  -  Jitter Set ConFiguration）
+
+```
+JSCF {"jitter_set_name"}, {"property"}, {"property_value"}, {(pinlist)}
+```
+
+### JSCF?（取自子主题 Commands in alphabetical order › List of commands › JSCF  JSCF  -  Jitter Set ConFiguration）
+
+```
+JSCF? {"jitter_set_name"|ALL|PRM}, {"property"|ALL}, {(pinlist)}
+```
+
+returns:
+
+```
+JSCF {"jitter_set_name"}, {"property"}, {"property_value"}, {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › JSCF  JSCF  -  Jitter Set ConFiguration）
 
 |
@@ -15249,6 +17230,24 @@ With this parameter, the query returns all existing jitter sets.
 < JSDF   "js_set2"
 < JSDF   "js_set3"
 
+```
+
+### JSPR（取自子主题 Commands in alphabetical order › List of commands › JSPR  JSPR  -  Jitter Set PRimary set）
+
+```
+JSPR {"js_set_name"|""}
+```
+
+### JSPR?（取自子主题 Commands in alphabetical order › List of commands › JSPR  JSPR  -  Jitter Set PRimary set）
+
+```
+JSPR?
+```
+
+returns:
+
+```
+JSPR {"js_set_name"|""}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › JSPR  JSPR  -  Jitter Set PRimary set）
@@ -15558,6 +17557,73 @@ Specifies the pin which is mapped to the partner channel of the channel for pin1
 < LBRT (pin2),(pin1)
 ```
 
+### LBUD（取自子主题 Commands in alphabetical order › List of commands › LBUD  LBUD  -  LaBel User Data）
+
+```
+LBUD {"UserDefinedKey"}, {"LabelName"}, [DELETE_AT_EDIT|PRESERVE_AT_EDIT][, (portlist)], #value
+```
+
+### LBUD?（取自子主题 Commands in alphabetical order › List of commands › LBUD  LBUD  -  LaBel User Data）
+
+```
+LBUD? [ALL|{"UserDefinedKey"}], [ALL|{"LabelName"}] [, (port)]
+```
+
+Parameters
+ |
+
+UserDefinedKey
+
+ |
+
+A string to identify a specific category of user defined data, for example, MD5 checksum. The maximum length is 40 bytes.
+
+ |
+ |
+
+LabelName
+
+ |
+
+A string identifier of a label.
+
+ |
+ |
+
+DELETE_AT_EDIT|PRESERVE_AT_EDIT
+
+ |
+
+An enumeration type parameter which is optional.
+
+DELETE_AT_EDIT: Editing the pattern will remove the attached data on demand.
+
+PRESERVE_AT_EDIT: Editing the pattern will not remove the attached data on demand.
+
+The default value is DELETE_AT_EDIT.
+
+ |
+ |
+
+port
+
+ |
+
+The port. Specifies one port at a time.
+
+ |
+ |
+
+#value
+
+ |
+
+User defined data to be attached to the pattern, in binary code.
+
+To remove the attached user data manually from a label, just run an LBUD command with the user defined key to be deleted and the label identifier with empty binary data. See example below.
+
+ |
+
 ### Example（取自子主题 Commands in alphabetical order › List of commands › LBUD  LBUD  -  LaBel User Data）
 
 Attach user data example:
@@ -15585,6 +17651,36 @@ Query user data example:
 ```
 
 Each of these queries returns one matching result or multiple matching results. It can also return an empty result (instead of an error), if the given key does not exist.
+
+### LSUS（取自子主题 Commands in alphabetical order › List of commands › LSUS  LSUS  -  Level Sets USed）
+
+```
+LSUS {level_set_no}
+```
+
+### LSUS?（取自子主题 Commands in alphabetical order › List of commands › LSUS  LSUS  -  Level Sets USed）
+
+```
+LSUS? [level_set_no]
+```
+
+returns:
+
+```
+LSUS {level_set_no}
+```
+
+or:
+
+```
+LSUS? [equation_set_no]
+```
+
+returns:
+
+```
+LSUS {level_set_no}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › LSUS  LSUS  -  Level Sets USed）
 
@@ -15616,6 +17712,24 @@ LSUS 4
 ```
 
 This example defines a maximum of 4 level sets.
+
+### LSUX（取自子主题 Commands in alphabetical order › List of commands › LSUX  LSUX  -  Level Sets Used eXtended）
+
+```
+LSUX {level_set_no|SWAP|NONE}
+```
+
+### LSUX?（取自子主题 Commands in alphabetical order › List of commands › LSUX  LSUX  -  Level Sets Used eXtended）
+
+```
+LSUX?
+```
+
+returns:
+
+```
+LSUX {level_set_no}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › LSUX  LSUX  -  Level Sets Used eXtended）
 
@@ -15654,6 +17768,18 @@ LSUX 4
 ```
 
 This example defines a maximum of 4 level sets.
+
+### LTDE（取自子主题 Commands in alphabetical order › List of commands › LTDE  LTDE  -  Load Test Data Entity）
+
+```
+LTDE "<tde_name>"
+```
+
+### LTDE?（取自子主题 Commands in alphabetical order › List of commands › LTDE  LTDE  -  Load Test Data Entity）
+
+```
+LTDE?
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › LTDE  LTDE  -  Load Test Data Entity）
 
@@ -15816,6 +17942,24 @@ This example executes the measurement set 2 of the DC set 1.
 
 See also an example in `MSET, MSET? - (definition of Measurement SET)`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md`）.
 
+### MERL（取自子主题 Commands in alphabetical order › List of commands › MERL  MERL  -  Message ERror Limits）
+
+```
+MERL [error_limit], [message_limit]
+```
+
+### MERL?（取自子主题 Commands in alphabetical order › List of commands › MERL  MERL  -  Message ERror Limits）
+
+```
+MERL?
+```
+
+returns:
+
+```
+MERL [error_limit], [message_limit]
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › MERL  MERL  -  Message ERror Limits）
 
 | error_limit |
@@ -15838,6 +17982,24 @@ Default value is 40.
 MERL 30,30
 
 This example sets both the error and the message limits to 30.
+
+### MSCF（取自子主题 Commands in alphabetical order › List of commands › MSCF  MSCF  -  Modulation Set ConFiguration）
+
+```
+MSCF {"modulation_set_name"}, {"property"}, {"property_value"}
+```
+
+### MSCF?（取自子主题 Commands in alphabetical order › List of commands › MSCF  MSCF  -  Modulation Set ConFiguration）
+
+```
+MSCF? {"modulation_set_name"|ALL}, {"property"|ALL}
+```
+
+returns:
+
+```
+MSCF {"modulation_set_name"}, {"property"}, {"property_value"}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › MSCF  MSCF  -  Modulation Set ConFiguration）
 
@@ -15931,6 +18093,555 @@ With this parameter, the query returns all existing modulation sets.
 < MSDF   "ms_set3",TIM
 
 ```
+
+### MSET（取自子主题 Commands in alphabetical order › List of commands › MSET  MSET  -  definition of Measurement SET）
+
+```
+MSET {`id_dc`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_dc`）}, DC, {`id_mset`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_mset`）}, {`glob_act`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_glob_act`）}, `[par1`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_par1`）], `[par2`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_par2`）], {(`pinlist`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_pinlist`）)}
+MSET {`id_dc`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_dc`）}, DC, {`id_mset`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_mset`）}, {`act`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_act`）}, {`id_act`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_act`）}, {`par2`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_par2`）}, {(`pinlist`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_pinlist`）)}
+MSET {`id_dc`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_dc`）}, DC, {`id_mset`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_mset`）}, `VMUM`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__e_VMUM`）, {`id_act`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_act`）}, {`par2`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_par2`）},{`numOfSamples`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_numOfSamples`）},ADC`,[waveformSize`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_waveformSize`）]`,[samplePeriod`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_samplePeriod`）]{(`pinlist`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_pinlist`）)}
+```
+
+### MSET?（取自子主题 Commands in alphabetical order › List of commands › MSET  MSET  -  definition of Measurement SET）
+
+```
+MSET? {id_dc|ALL}, DC, {id_mset|ALL}, {(pinlist)}
+```
+
+returns
+
+```
+MSET {id_dc}, DC, {id_mset}, {act}, {par1}, {par2}, {(pinlist)}
+```
+
+Parameters
+ |
+
+id_dc
+
+ |
+
+The DC set identification number. The number is an integer in the range 1 to 256. A DC set consists of up to 10 measurement sets. For the query, you can specify all the defined DC sets with the ALL specifier.
+
+ |
+ |
+
+id_mset
+
+ |
+
+The measurement set identification number. The number is an integer in the range 1 to 10. For the query, you can specify all the defined measurement sets with the ALL specifier.
+
+ |
+ |
+
+glob_act
+
+ |
+
+Global action in the measurement set. The allowed values are:
+
+ |
+ |
+
+LEN
+
+ |
+
+This action creates a default measurement set of the length specified with par1. par2 must be omitted. LEN must be executed before you can define any individual action.
+
+This action can only be executed for all configured pins (@).
+
+ |
+ |
+
+WAIT
+
+ |
+
+This action defines the waiting time for the sequencers after execution of the measurement set. The actual time is specified with the par2 parameter (in ms). par1 must be omitted.
+
+Note that it takes 0.32/0.58/0.40 ms respectively for the PS1600 (DC-relays only)/PS9G/pin scale`1)`（raw: `#fntarg_1`） cards to open or close relays. Further, 4.0/2.8/1.0 ms respectively is needed for the PS1600/PS9G/pin scale cards as settling time of PMUs after closing relays. Therefore, for PS1600 for example, you must set at least 4.32 ms (for connecting relays) or 0.32 ms (for disconnecting relays) for the action for opening and closing relays.
+
+This action can only be executed for all configured pins (@).
+
+ |
+ |
+
+SWAIT
+
+ |
+
+This action defines the waiting time for the sequencers before execution of the measurement set. The actual time is specified with the par2 parameter (in ms). par1 must be omitted.
+
+The default is 0, in which case the sequencers start the measurement immediately.
+
+A possible reason for defining such a wait time is to ensure that the vectors needed for preparing the measurement have actually been shifted out of the data queue. This is ensured if
+
+wait_time = 28 * user_period.
+
+This action can only be executed for all configured pins (@).
+
+ Note This action is only supported for DC measurements that are started from within the sequencer program with the MEAS instruction. It cannot be used with the MEAS firmware command. |
+ |
+
+RSET
+
+ |
+
+This action undefines the specified measurement set. par1 and par2 must be omitted.
+
+RSET can only be executed for all configured pins (@).
+
+ |
+ |
+
+ACT
+
+ |
+
+This action activates the specified measurement set for execution. This is the default.
+
+ |
+ |
+
+X
+
+ |
+
+This action inactivates the specified measurement set for execution.
+
+ |
+ |
+
+act
+
+ |
+
+Individual action in the measurement set. The allowed values for the measurement setup are:
+
+ |
+ |
+
+SEL
+
+ |
+
+Selects the working mode of the PMU. Set par2 to CURR for current measurements, or to VOLT for voltage measurements.
+
+ |
+ |
+
+IRNG
+
+ |
+
+Specifies the current range with par2 that is. You can specify a value in 碌A or one of the following codes:
+
+IRA = +/- 10 碌A range
+
+IRB = +/- 100 碌A range
+
+IRC = +/- 1 mA range
+
+IRD = +/- 40 mA range
+
+If a value is specified, the smallest range that does not exceed the value will be set.
+
+ |
+ |
+
+CRNG
+
+ |
+
+Specifies the current range for the clamp with par2. The possible options are the same as for IRNG. The range for CRNG and IRNG must be identical.
+
+ |
+ |
+
+Note that SEL and IRNG must have been defined before any of the following setup actions can be executed. Also the follwing actions must be redefined after a change of SEL or IRNG.
+
+ |
+ |
+
+IFOR
+
+ |
+
+Specifies a force current with par2 in 碌A when the working mode (SEL action) is set to voltage measurement.
+
+ |
+ |
+
+UFOR
+
+ |
+
+Specifies a force voltage with par2 in mV when the working mode (SEL action) is set to current measurement.
+
+ |
+ |
+
+PMUL
+
+ |
+
+Specifies the lower pass limit of the DC test with par2 in 碌A for current measurements, or in mV for voltage measurements. This value is used for pass/fail judgment and is set to the PPMU hardware.
+
+ |
+ |
+
+PMUH
+
+ |
+
+Specifies the higher pass limit of the DC test with par2 in 碌A for current measurement, or in mV for voltage measurement. This value is used for pass/fail judgment and is set to the PPMU hardware.
+
+ |
+ |
+
+You can control the AC relay, the PPMU relay and the DC relay if the used hardware supports these relays. The allowed values for relay control are:
+
+ |
+ |
+
+AC
+
+ |
+
+The AC relay can be closed or opened with ON/OFF for par2. The other two relays are always open.
+
+ |
+ |
+
+PPMU
+
+ |
+
+The PPMU relay can be closed or opened with ON/OFF for par2. The other two relays are always open.
+
+ |
+ |
+
+DC
+
+ |
+
+The DC relay can be closed or opened with ON/OFF for par2. The other two relays are always open.
+
+ |
+ |
+
+ACDC
+
+ |
+
+The AC and DC relays can be closed or opened simultaneously with ON/OFF for par2. The PPMU relay is always open.
+
+ |
+ |
+
+ACPM
+
+ |
+
+The AC and PPMU relays can be closed or opened simultaneously with ON/OFF for par2. The DC relay is always open.
+
+ |
+ |
+
+DCPM
+
+ |
+
+The PPMU and DC relays can be closed or opened simultaneously with ON/OFF for par2. The AC relay is always open.
+
+ |
+ |
+
+ALL
+
+ |
+
+All three relays can be closed or opened simultaneously with ON/OFF for par2.
+
+ |
+ |
+
+OAC
+
+ |
+
+The AC relay can be closed or opened with ON/OFF for par2. The state of the other two relays remains unchanged.
+
+ |
+ |
+
+OPM
+
+ |
+
+The PPMU relay can be closed or opened with ON/OFF for par2. The state of the other two relays remains unchanged.
+
+ |
+ |
+
+ODC
+
+ |
+
+The DC relay can be closed or opened with ON/OFF for par2. The state of the other two relays remains unchanged.
+
+ |
+ |
+
+The following actions set up the voltage clamp for Pin Scale systems:
+
+ |
+ |
+
+CLPL
+
+ |
+
+Specifies the clamp low voltage with par2 in mV.
+
+ |
+ |
+
+CLPH
+
+ |
+
+Specifies the clamp high voltage with par2 in mV.
+
+This clamp high voltage must be greater than the clamp low voltage. The setting range is same as for CLPL.
+
+ |
+ |
+
+CLMP
+
+ |
+
+Enables or disables the PPMU clamp with par2. ON enables the clamps, OFF disables them.
+
+The clamp operates for both current force (IVOR action) and voltage force (UFOR action).
+
+Before setting this parameter to ON, both the clamp low and high voltage (current) should be defined by CLPL (ICPL) and CLPH (ICPH) to prevent that unknown clamp voltages will be set momentarily.
+
+ |
+ |
+
+ICPL
+
+ |
+
+Specifies the clamp low current with par2 in 碌A.
+
+ |
+ |
+
+ICPH
+
+ |
+
+Specifies the clamp high current with par2 in 碌A.
+
+ |
+ |
+
+The following actions define the measurement mode:
+
+ |
+ |
+
+PMUM
+
+ |
+
+This action provides a PASS/FAIL result. This depends on how the measured value is compared with the limits. The compare mode can be set as par2 with the following specifiers:
+
+I (for Intermediate): PASS is returned if the measured value lies between the lower and the higher limit. This is the default.
+
+H (for High): PASS is returned if the measured value is not smaller than the higher limit.
+
+L (for Low): PASS is returned if the measured value is not greater than the lower limit.
+
+ X: Mask (Always returns PASS).Note For EXA Scale digital cards, to push the register setting into the hardware, the SYNC action must be executed immediately after this action. |
+ |
+
+VMUM
+
+ |
+
+This action provides a measurement value, but also a PASS/FAIL result. For the latter a compare mode must be specified with par2. The possible options are same as for PMUM.
+
+ Note This action is only supported for DC measurements that are started within the sequencer program with the `MEAS`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md#_99880__row_MEAS`） instruction. It cannot be used with the MEAS firmware command. Note For EXA Scale digital cards, to push the register setting into the hardware, the SYNC action must be executed immediately after this action. |
+ |
+
+DVM1
+
+ |
+
+This action provides the first value for a delta measurement. It also returns a PASS/FAIL result, for which a compare mode must be specified with par2. The possible options are same as for PMUM.
+
+ Note This action is only supported for DC measurements that are started within the sequencer program with the `MEAS`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md#_99880__row_MEAS`） instruction. It cannot be used with the MEAS firmware command. Note For EXA Scale digital cards, to push the register setting into the hardware, the SYNC action must be executed immediately after this action. |
+ |
+
+DVM2
+
+ |
+
+This action
+
+- provides the second value for a delta measurement,
+- calculates the difference between this value and the one provided by DVM1,
+- creates a PASS/FAIL result from this difference by comparing it with the limits (PMUL and PMUH).
+
+For the last step, a compare mode must be specified with par2. The possible options are same as for PMUM.
+
+ Note This action is only supported for DC measurements that are started within the sequencer program with the `MEAS`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md#_99880__row_MEAS`） instruction. It cannot be used with the MEAS firmware command. Note For EXA Scale digital cards, to push the register setting into the hardware, the SYNC action must be executed immediately after this action. |
+ |
+
+MUX_PPMU_BADC
+
+(Available on PS1600)
+
+ |
+
+Supports using the board ADC to measure voltage/current on pins during a pattern running in a functional test.
+
+This action controls the multilplexer before a board ADC to select the signal coming from the pin in {pinlist} via its PPMU and inputs it to the board ADC for value measurement.
+
+To support this action:
+
+- The values for {part2} are "ON" and "OFF".
+- {pinlist} can contain only one pin or pins of different logical boards.
+
+Putting a number of pins of the same logical board in the {pinlist} will result in resource confliction errors, because they share the same one board ADC and this board ADC can measure only one of them each time.
+
+ |
+ |
+
+MUX_VM_HIZ
+
+(Available on PS1600)
+
+ |
+
+Supports using the board ADC to measure high impedance or high voltage on pins during a pattern running in a functional test.
+
+This action controls the multiplexer before a board ADC to select the voltage signal coming from the pin in {pinlist} that has been connected to a DC Line and inputs it to the board ADC for value measurement.
+
+To support this action:
+
+- The values for {part2} are "ON" and "OFF".
+- {pinlist} can contain only one pin or pins of different logical boards.
+
+Putting pins of the same logical board in the {pinlist} will result in resource confliction errors, because they share the same one board ADC and this board ADC can measure only one of them each time.
+
+ |
+ |
+
+There are two actions which are not related to any af the DC measurement tasks:
+
+ |
+ |
+
+NOP
+
+ |
+
+This action does nothing at all.
+
+ |
+ |
+
+ACTI
+
+ |
+
+This action pushes the register setting into the hardware. It must be executed at the end of every measurement set, except when PMUM, VMUM, DVM1, or DVM2 is the only action within the set.
+
+For the EXA Scale digital card, it must be followed by the SYNC action.
+
+ |
+ | SYNC |
+
+This action pushes the register setting into the hardware, ensuring proper timing for the EXA Scale digital cards (the action does nothing for other digital cards). It must be executed right after ACTI, PMUM, VMUM, DVM1, or DVM2.
+
+ |
+ |
+
+par1
+
+ |
+
+First parameter for glob_act. The possible values depend on the act parameter.
+
+ |
+ |
+
+id_act
+
+ |
+
+The index of an individual action within the measurement set.
+
+ |
+ |
+
+par2
+
+ |
+
+Second parameter for glob_act. The possible values depend on the act parameter.
+
+ |
+ |
+
+numOfSamples
+
+ |
+
+The number of samples to be taken for one measurement value. Depending on the specified waveform size, the number of samples is constraint.
+
+If only one measurement is taken, the number of samples can be an integer between 1 and 4096.
+
+If a waveform (waveformSize > 1) is captured, then the number of samples must be one.
+
+ |
+ |
+
+waveformSize
+
+ |
+
+The number of measurements to be taken in the waveform. It is an integer between 1 and 4096.
+
+ |
+ |
+
+samplePeriod
+
+ |
+
+The sampling period for the waveform to measure, specified as float64 in [s]. The valid range is from 4 us to 409.6 us. The first sample has an additional trigger delay of 14.5us.
+
+The sampling period resolution is 25 ns.
+
+ |
+ |
+
+pinlist
+
+ |
+
+Target pin or pins for act. If more than one pin is to be included, the names must be separated by a comma. pinlist can contain digital pins configured as O, I, IO, or DC pin types.
+
+ |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › MSET  MSET  -  definition of Measurement SET）
 
@@ -16308,6 +19019,24 @@ returns the number of active vectors.
 < NODV 15
 ```
 
+### NOOP（取自子主题 Commands in alphabetical order › List of commands › NOOP  NOOP  -  NO OPeration）
+
+```
+NOOP["string_1"|no_1],["string_2"|no_2],["string_3"|no_3],["string_4"|no_4]
+```
+
+### NOOP?（取自子主题 Commands in alphabetical order › List of commands › NOOP  NOOP  -  NO OPeration）
+
+```
+NOOP?["string_1"|no_1],["string_2"|no_2],["string_3"|no_3],["string_4"|no_4]
+```
+
+returns:
+
+```
+NOOP["string_1"|no_1],["string_2"|no_2],["string_3"|no_3],["string_4"|no_4]
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › NOOP  NOOP  -  NO OPeration）
 
 |
@@ -16494,6 +19223,36 @@ This indicates that a logic 1 occurs at the given cycle.
 
  |
 
+### PACT（取自子主题 Commands in alphabetical order › List of commands › PACT  PACT  -  Parallel ACTivities control）
+
+PACT {control}, {site|ALL}
+
+PACT {"site_string"}
+
+### PACT?（取自子主题 Commands in alphabetical order › List of commands › PACT  PACT  -  Parallel ACTivities control）
+
+```
+PACT?
+```
+
+returns
+
+```
+PACT {control}, {site}
+```
+
+Or:
+
+```
+PACT?STR
+```
+
+returns
+
+```
+PACT {"site_string"}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PACT  PACT  -  Parallel ACTivities control）
 
 |
@@ -16587,6 +19346,24 @@ This example masks site 2 and site 3, and makes site 1 active.
 
 This example shows the impact of the optional STR parameter for the query.
 
+### PADS（取自子主题 Commands in alphabetical order › List of commands › PADS  PADS  -  Pin Attributes Definition String）
+
+```
+PADS [mode], {definition_string}, [drv_adj], [rec_adj], {(pinlist)}
+```
+
+### PADS?（取自子主题 Commands in alphabetical order › List of commands › PADS  PADS  -  Pin Attributes Definition String）
+
+```
+PADS? [mode], {(pinlist)}
+```
+
+returns:
+
+```
+PADS [mode], {definition_string}, [drv_adj], [rec_adj], {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PADS  PADS  -  Pin Attributes Definition String）
 
 |
@@ -16645,6 +19422,24 @@ The pinlist must include all pins to which the given attributes apply. If more t
 > PADS? ,(@)
 < PADS ,"d1:0.1 d2:0.2 d3:0.3 d4:0.1 r1:0.1 r2:0.2 r3:0.3 r4:0.1",,-1,(io)
 < PADS ,"d1:0.1 d2:0.2 d3:0.3 d4:0.1 d5:0.2 d6:0.3 d7:0.1 d8:0.2",2,,(clk)
+```
+
+### PALS（取自子主题 Commands in alphabetical order › List of commands › PALS  PALS  -  Pin ALlocation for multiple Sites）
+
+```
+PALS {site}, {channel_1|(DC_scale_channels_list)}, [channel_2], {(pin)}
+```
+
+### PALS?（取自子主题 Commands in alphabetical order › List of commands › PALS  PALS  -  Pin ALlocation for multiple Sites）
+
+```
+PALS? {site}, {(pinlist)}
+```
+
+returns:
+
+```
+PALS {site}, {channel_1|(DC_scale_channels_list)}, [channel_2], {(pin)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PALS  PALS  -  Pin ALlocation for multiple Sites）
@@ -16877,6 +19672,46 @@ PASS F, (@)
 ```
 
 for a passed or a failed test result respectively.
+
+### PCLK（取自子主题 Commands in alphabetical order › List of commands › PCLK  PCLK  -  Pin CLocK）
+
+Fixed timing:
+
+```
+PCLK{waveform_set}, {timing_set}, {period}, {(pinlist)}
+```
+
+Equation-based timing:
+
+```
+PCLK {specset_id|"multi-port_spec"}, {timing_set}, {period}, {(pinlist)}
+```
+
+### PCLK?（取自子主题 Commands in alphabetical order › List of commands › PCLK  PCLK  -  Pin CLocK）
+
+Fixed timing:
+
+```
+PCLK?{waveform_set},{timing_set},{(pinlist)} [,query_mode]
+```
+
+returns:
+
+```
+PCLK {waveform_set}, {timing_set}, {period}, {(pinlist)}
+```
+
+Equation-based timing:
+
+```
+PCLK? {specset_id|"multi-port_spec"}, {timing_set}, {(pinlist|portlist)} [,query_mode]
+```
+
+returns:
+
+```
+PCLK {specset_id|"multi-port_spec"}, {timing_set}, {period}, {(pinlist)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PCLK  PCLK  -  Pin CLocK）
 
@@ -17370,6 +20205,18 @@ This example retrieves the measurement value of "p1" and "p2" for the site that 
 
 In this example, PMUR? returns the global pass/fail result for all tested pins of the site that has the query focus.
 
+### PQFC（取自子主题 Commands in alphabetical order › List of commands › PQFC  PQFC  -  Parallel Query FoCus）
+
+```
+PQFC {site}
+```
+
+### PQFC?（取自子主题 Commands in alphabetical order › List of commands › PQFC  PQFC  -  Parallel Query FoCus）
+
+```
+PQFC?
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PQFC  PQFC  -  Parallel Query FoCus）
 
 |
@@ -17389,6 +20236,24 @@ PQFC 2
 ```
 
 This example sets the query focus to site 2.
+
+### PRCF（取自子主题 Commands in alphabetical order › List of commands › PRCF  PRCF  -  Pseudo Random bit sequence ConFiguration）
+
+```
+PRCF {"PRBS_set_name"|PRM}, {property}, {"property_value"}, {(pinlist)}
+```
+
+### PRCF?（取自子主题 Commands in alphabetical order › List of commands › PRCF  PRCF  -  Pseudo Random bit sequence ConFiguration）
+
+```
+PRCF? {"PRBS_set_name"|ALL|PRM}, {property|ALL}, {(pinlist)}
+```
+
+returns:
+
+```
+PRCF {"PRBS_set_name"}, {property}, {"property_value"}, {(pinlist)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PRCF  PRCF  -  Pseudo Random bit sequence ConFiguration）
 
@@ -17486,6 +20351,24 @@ Specifies the pins to which pin this configuration is to be applied.
 ```
 
 This example defines 1 + x1 + x3 as the connection polynomial, and 100 as the initial segment for Pin1. This is the example which is also used in `Overview of pseudo random bit sequences`（raw: `02.06.17.01_Overview_of_pseudo_random_bit_sequences.md`）.
+
+### PRDF（取自子主题 Commands in alphabetical order › List of commands › PRDF  PRDF  -  PRBS set DeFinition）
+
+```
+PRDF {"prbs_set_name"} [, "mode_context"]
+```
+
+### PRDF?（取自子主题 Commands in alphabetical order › List of commands › PRDF  PRDF  -  PRBS set DeFinition）
+
+```
+PRDF? ["prbs_set_name"]
+```
+
+returns:
+
+```
+PRDF {"prbs_set_name"} [, "mode_context"]
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PRDF  PRDF  -  PRBS set DeFinition）
 
@@ -17710,6 +20593,20 @@ The name of the pin or pins for which the PRBS configuration is to be retrieved.
 ```
 
 This example queries a wavetable.
+
+### PRPR（取自子主题 Commands in alphabetical order › List of commands › PRPR  PRPR  -  PRBS PRimary set）
+
+PRPR {"prbs_set_name"|DEFAULT}
+
+### PRPR?（取自子主题 Commands in alphabetical order › List of commands › PRPR  PRPR  -  PRBS PRimary set）
+
+PRPR?
+
+returns:
+
+```
+PRPR {"prbs_set_name"}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PRPR  PRPR  -  PRBS PRimary set）
 
@@ -18134,6 +21031,25 @@ returns:
 PSER ,,(Vcc),#90000000190.15,0.25,0.35,0.45
 ```
 
+### PSFC（取自子主题 Commands in alphabetical order › List of commands › PSFC  PSFC  -  Parallel Setup FoCus）
+
+```
+PSFC {site|"site_string"|ALL}
+```
+
+### PSFC?（取自子主题 Commands in alphabetical order › List of commands › PSFC  PSFC  -  Parallel Setup FoCus）
+
+```
+
+PSFC? [STR]
+```
+
+returns
+
+```
+PSFC {"site_string"|ALL}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSFC  PSFC  -  Parallel Setup FoCus）
 
 |
@@ -18303,6 +21219,25 @@ Names of pins to which this command is applied. The character @ can be used to s
 
 In this example, the `DPSE`（raw: `02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md`） command specifies a current limit of 0.9 A to 0.11 A for Vcc. Then the PSIE command starts measurements for the measurement set 1. In this case, the pin name is ignored because the set number is specified with the first parameter. After the measurement, the `PSER`（raw: `02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md`） command retrieves the measurement value for Vcc. In this case, the 300 mA range that is determined by using the specified limit value, is automatically selected for the measurement.
 
+### PSLC（取自子主题 Commands in alphabetical order › List of commands › PSLC  PSLC  -  Power Supply Load Capacitance）
+
+```
+PSLC [value], [DCS_value,] {(pinlist)}
+```
+
+### PSLC?（取自子主题 Commands in alphabetical order › List of commands › PSLC  PSLC  -  Power Supply Load Capacitance）
+
+```
+
+PSLC? {(pinlist)}
+```
+
+returns:
+
+```
+PSLC {value}, [DCS_value,] {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSLC  PSLC  -  Power Supply Load Capacitance）
 
 |
@@ -18342,6 +21277,26 @@ DC Scale DPS128/DPS64
 ```
 PSLC ,4.7, (VDD)
 ```
+
+### PSLR（取自子主题 Commands in alphabetical order › List of commands › PSLR  PSLR  -  Power Supply Level Ranges）
+
+```
+PSLR {dps_No|dps_set_id}, [vout_frc_rng], [iout_clamp_rng], [current_limiter,] [const_curr_check], [connect_state], {(pinlist)}
+```
+
+### PSLR?（取自子主题 Commands in alphabetical order › List of commands › PSLR  PSLR  -  Power Supply Level Ranges）
+
+```
+PSLR? {dps_No|dps_set_id}, {(pinlist)}
+```
+
+returns:
+
+```
+PSLR {dps_No|dps_set_id}, [vout_frc_rng], [iout_clamp_rng], [current_limiter,] [const_curr_check], [connect_state], {(pinlist)}
+```
+
+Note The PSLR command supports only DC Scale channels, except for one parameter: const_curr_check can be set for standard DPS-slot DPS's as well.
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSLR  PSLR  -  Power Supply Level Ranges）
 
@@ -18492,6 +21447,28 @@ PSLR PRM,,,,HDIG,(dps1)
 
 This example uses the default parameters for device pin Vee, while the connect state is set to digitizer mode.
 
+### PSLV（取自子主题 Commands in alphabetical order › List of commands › PSLV  PSLV  -  Power Supply LeVel）
+
+```
+PSLV {dps_No|dps_set_id}, [voltage], [source_current], [sink_current,] [impedance], [setup_time], {(pinlist)}
+```
+
+  Note If equation based testing is being used, you specify a DPS set ID instead of a DPS set number.  Note PSLV ALL only applies changes to all non-equation-based DPS sets.
+
+### PSLV?（取自子主题 Commands in alphabetical order › List of commands › PSLV  PSLV  -  Power Supply LeVel）
+
+```
+PSLV? {dps_No|dps_set_id}, {(pinlist)}
+```
+
+returns:
+
+```
+PSLV {dps_No|dps_set_id}, [voltage], [source_current], [sink_current,] [impedance], [setup_time], {(pinlist)}
+```
+
+ Note PSLV? ALL returns information for non-equation-based DPS sets only.
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSLV  PSLV  -  Power Supply LeVel）
 
 Note The settling time parameter (setup_time) of the PSLV command and the rise_... and fall_... parameters of the `PSSR, PSSR? -(Power Supply Slew Rate)`（raw: `02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md`） command exclude each other. This also applies to the t_ms equation parameter (see `DPSPINS`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07_DPSPINS.md`） and `DPSPINS resources`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md`）).
@@ -18641,6 +21618,12 @@ This example sets the following parameters for device pin Vee:
 - Minimum current limit when the test system is disconnected
 - A setup time of 15 ms
 
+### PSSL（取自子主题 Commands in alphabetical order › List of commands › PSSL  PSSL   Power Supply Safety Limits）
+
+```
+PSSL [min_voltage | OFF], [max_voltage | OFF], [max_source_current | OFF], [max_sink_current | OFF], {(pin_list)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSSL  PSSL   Power Supply Safety Limits）
 
 |
@@ -18695,6 +21678,12 @@ Comma separated list of DPS power pins, previously defined by the `DFPS`（raw: 
 PSSL OFF,OFF,OFF,OFF,(DPS_1)
 PSSL -2,5,0.5,0.5,(DPS_2)
 PSSL -1.5,3,0.5,0.5,(SIG_1A)
+```
+
+### PSSR（取自子主题 Commands in alphabetical order › List of commands › PSSR  PSSR  - Power Supply Slew Rate）
+
+```
+PSSR {dps_No|dps_set_id}, [rise_tm_per_v], [rise_settm], [fall_tm_per_v], [fall_settm], [rise_t_per_v_c2c], [rise_setup_t_c2c], [fall_t_per_v_c2c], [fall_setup_t_c2c], (pinlist)
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSSR  PSSR  - Power Supply Slew Rate）
@@ -18852,6 +21841,24 @@ This example sets the following parameters for the primary set of DPS pin Vcc:
 - fall_tm_per_v = 20 ms/V
 - fall_settm = 70 ms
 
+### PSST（取自子主题 Commands in alphabetical order › List of commands › PSST  PSST  -  Power Supply STatus）
+
+```
+PSST {state} [, (pinlist)]
+```
+
+### PSST?（取自子主题 Commands in alphabetical order › List of commands › PSST  PSST  -  Power Supply STatus）
+
+```
+PSST?  [(pinlist)]
+```
+
+returns:
+
+```
+PSST {state} [, (pinlist)]
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSST  PSST  -  Power Supply STatus）
 
 |
@@ -18918,6 +21925,24 @@ PQFC 2 ; PSST? (vcc)   # answers, since one site should have vcc
                        # connected, whereas the other site does not
 ```
 
+### PSTE（取自子主题 Commands in alphabetical order › List of commands › PSTE  PSTE  -  Parallel SiTe Enable）
+
+```
+PSTE {sites}
+```
+
+### PSTE?（取自子主题 Commands in alphabetical order › List of commands › PSTE  PSTE  -  Parallel SiTe Enable）
+
+```
+PSTE? [STR]
+```
+
+returns
+
+```
+PSTE {sites|"site_string"}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSTE  PSTE  -  Parallel SiTe Enable）
 
 | sites |
@@ -18957,6 +21982,14 @@ This example configures three sites (site 1, site 2, and site 3).
 
 This example says that three sites are configured, but that only two of them (site 1 and site 3) are available for testing. Site 2 uses a channel that is listed in the MCDIgnore file, and therefore cannot be used for testing.
 
+### PTDE（取自子主题 Commands in alphabetical order › List of commands › PTDE  PTDE  -  Path for Test Data Entities）
+
+PTDE "<device_directory>/<domain>/<TDE_directory>"
+
+### PTDE?（取自子主题 Commands in alphabetical order › List of commands › PTDE  PTDE  -  Path for Test Data Entities）
+
+PTDE?
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PTDE  PTDE  -  Path for Test Data Entities）
 
 |
@@ -18995,6 +22028,24 @@ This name is usually the name of the firmware command file to which the director
 
 ```
 PTDE "/mydevice/configuration/test.files"
+```
+
+### PTDS（取自子主题 Commands in alphabetical order › List of commands › PTDS  PTDS  -  Pin attributes Tweaking Definition String）
+
+```
+PTDS {channelNo}, [EBT_specifier], {set_specifier}, {timing_set}, [tweaking_set], [mode], {definition_string}
+```
+
+### PTDS?（取自子主题 Commands in alphabetical order › List of commands › PTDS  PTDS  -  Pin attributes Tweaking Definition String）
+
+```
+PTDS? {channelNo}, [EBT_specifier], {set_specifier}, {timing_set}, [tweaking_set], [mode]
+```
+
+returns:
+
+```
+PTDS {channelNo}, [EBT_specifier], {set_specifier}, {timing_set}, [tweaking_set], [mode], {definition_string}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PTDS  PTDS  -  Pin attributes Tweaking Definition String）
@@ -19373,6 +22424,24 @@ RCLS EQ,5300
 
 In this example a search was made to find the high level threshold between 3V and 6V. The pass/fail transition was located at 5.3V.
 
+### RCLV（取自子主题 Commands in alphabetical order › List of commands › RCLV  RCLV  -  ReCeive LeVel）
+
+```
+RCLV {level_set_no | level_set_id}, [vth | logic_0_level], [logic_1_level], [range,] {(pinlist)}
+```
+
+### RCLV?（取自子主题 Commands in alphabetical order › List of commands › RCLV  RCLV  -  ReCeive LeVel）
+
+```
+RCLV? {level_set_no | level_set_id}, {(pinlist)}
+```
+
+returns:
+
+```
+RCLV {level_set | level_set_id}, [vth | logic_0_level], [logic_1_level], [range,] {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › RCLV  RCLV  -  ReCeive LeVel）
 
 |
@@ -19531,6 +22600,36 @@ Specify @@ to remove the association for all label of all ports.
 < SDGC "vec_lab_portB_1",STD,(I/O7_2,I/O6_2,I/O5_2)
 < SDGC "vec_lab_portB_2",STD,(I/O3_2,I/O2_2,I/O1_2)
 ```
+
+### RLYC（取自子主题 Commands in alphabetical order › List of commands › RLYC  RLYC  -  ReLaY Control）
+
+```
+RLYC [pin_mode], [dc_target], [mux_setting,] {(pinlist)}
+```
+
+### RLYC?（取自子主题 Commands in alphabetical order › List of commands › RLYC  RLYC  -  ReLaY Control）
+
+```
+RLYC? {(pinlist)}
+```
+
+returns:
+
+```
+RLYC [pin_mode], [dc_target], {(pinlist)}
+```
+
+ Note
+
+In offline mode, the command cannot always return the correct settings of the hardware. This is especially true when hardware settings depend on pattern鈥慴ased conditional jumps and match loops.
+
+ If SmarTest determines that the state of the hardware cannot be evaluated correctly, the message
+
+```
+WARNING: ... - reported last DC state ... may not reflect online state.
+```
+
+is issued in the ui_report window.
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › RLYC  RLYC  -  ReLaY Control）
 
@@ -20213,6 +23312,24 @@ Name of the vector variable configuration to be removed.
 
  |
 
+### SAOF（取自子主题 Commands in alphabetical order › List of commands › SAOF  SAOF  -  Set Alternating Operation Features）
+
+```
+SAOF {mode|"label"}
+```
+
+### SAOF?（取自子主题 Commands in alphabetical order › List of commands › SAOF  SAOF  -  Set Alternating Operation Features）
+
+```
+SAOF?
+```
+
+returns:
+
+```
+SAOF {mode|"label"}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SAOF  SAOF  -  Set Alternating Operation Features）
 
 |
@@ -20297,6 +23414,22 @@ The following example illustrates the effects of the APP mode:
 > SAOF ZERO
 > DMAS? SQPG,SM,(@)
 < DMAS SQPG,SM,7,(@)
+```
+
+### SATR（取自子主题 Commands in alphabetical order › List of commands › SATR  SATR  -  System ATtRibutes）
+
+SATR {comm_rec_delay}
+
+### SATR?（取自子主题 Commands in alphabetical order › List of commands › SATR  SATR  -  System ATtRibutes）
+
+```
+SATR?
+```
+
+returns:
+
+```
+SATR {comm_rec_delay}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SATR  SATR  -  System ATtRibutes）
@@ -20395,6 +23528,24 @@ Returns the value for the primary waveform set or specification (set by SPRM).
 ```
 > SCLK? 401
 < SCLK 401,480
+```
+
+### SDGC（取自子主题 Commands in alphabetical order › List of commands › SDGC  SDGC  -  Setup DiGital Capture）
+
+```
+SDGC {"vector_label"},[res_mode],{(pinlist)}
+```
+
+### SDGC?（取自子主题 Commands in alphabetical order › List of commands › SDGC  SDGC  -  Setup DiGital Capture）
+
+```
+SDGC? {"vector_label"|ALL}[, (portlist)]
+```
+
+returns:
+
+```
+SDGC {"vector_label"},[res_mode],{(pinlist)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SDGC  SDGC  -  Setup DiGital Capture）
@@ -20921,6 +24072,86 @@ This example returns the equation set that is associated with port port_1 in the
 
 spec_port_1_port_2. Note that the setup_comp_1 parameter is ignored.
 
+### SHSP（取自子主题 Commands in alphabetical order › List of commands › SHSP  SHSP  -  SHmoo SPecs）
+
+```
+SHSP [spec_type_1], ["spec_name_1[@port[@UNCHANGED]]"], [(pinlist_1)], [spec_type_2], ["spec_name_2[@port[@UNCHANGED]]"], [(pinlist_2)]
+```
+
+### SHSP?（取自子主题 Commands in alphabetical order › List of commands › SHSP  SHSP  -  SHmoo SPecs）
+
+```
+SHSP?
+```
+
+returns:
+
+```
+SHSP [spec_type_1], ["spec_name_1"], [(pinlist_1)], [spec_type_2], ["spec_name_2"], [(pinlist_2)]
+```
+
+Parameters
+ |
+
+spec_type_<number>
+
+ |
+
+Which specification type to use. Use:
+
+ |
+ |
+
+LEV
+
+ |
+
+to specify levels, or
+
+ |
+ |
+
+TIM
+
+ |
+
+to specify timing.
+
+ |
+ |
+
+spec_name_<number>
+
+ |
+
+A string of up to 16 alphanumeric characters (upper or lower case) enclosed in double quotes ("...").
+
+If you use the option @port[@UNCHANGED] (see parameter port), you must enclose it in the double quotes.
+
+ |
+ |
+
+port
+
+ |
+
+Define temporarily the port being shmooed as primary port.
+
+This is only applicable if spec_name_<number> affects the period.
+
+Add @UNCHANGED to apply legacy behavior: primary port is not switched to the port being shmooed
+
+ |
+ |
+
+pinlist_<number>
+
+ |
+
+The name of the pin or pins to be applied. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）command. If more than one pin is to be included, the names must be separated with a comma. The @ character indicates all pins.
+
+ |
+
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SHSP  SHSP  -  SHmoo SPecs）
 
 ```
@@ -20947,6 +24178,24 @@ In the following Pin Scale example, both spec variables occur in the period defi
 ```
 
 Since `shmsp` is used in the period definitions for both port `Port1` and `Port2`, the one that is specified first in the SHSP command will be used to derive the period resolution. Note that the primary port is only changed after issuing the SHVL command.
+
+### SHVL（取自子主题 Commands in alphabetical order › List of commands › SHVL  SHVL  -  SHmoo spec VaLues）
+
+```
+SHVL [value_1], [value_2]
+```
+
+### SHVL?（取自子主题 Commands in alphabetical order › List of commands › SHVL  SHVL  -  SHmoo spec VaLues）
+
+```
+SHVL?
+```
+
+returns:
+
+```
+SHVL [value_1], [value_2]
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SHVL  SHVL  -  SHmoo spec VaLues）
 
@@ -20980,6 +24229,12 @@ Or use RSTO to restore the original value.
 > SHVL 2,3
 > SHVL?
 < SHVL 2,3
+```
+
+### SLDO（取自子主题 Commands in alphabetical order › List of commands › SLDO -  Switch Level and Dps Order）
+
+```
+SLDO {order}, [report]
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SLDO -  Switch Level and Dps Order）
@@ -21278,6 +24533,12 @@ The logical vector number at which a GENV sequencer construct is to be split.
 
 This example splits a GENV sequencer construct at command number 2 before vector 7. Note the adjustment of the start address in command 6.
 
+### SPOP（取自子主题 Commands in alphabetical order › List of commands › SPOP  SPOP  Set Performance Optimization Parameter）
+
+```
+SPOP {keyword}, {value}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SPOP  SPOP  Set Performance Optimization Parameter）
 
 |
@@ -21310,6 +24571,54 @@ Specifies the value for the optimization parameter.
 > SPOP? SVLR_CACHE_DEPTH
 
 < SPOP SVLR_CACHE_DEPTH, 20
+
+### SPRM（取自子主题 Commands in alphabetical order › List of commands › SPRM  SPRM  -  Set PRiMary sets）
+
+```
+SPRM [waveform_set_no], [timing_set_no], [level_set_no|level_set_id], [dps_set_no|dps_set_id]
+```
+
+or:
+
+```
+SPRM {timing_specset_id}, [timing_set_no], [level_set_no|level_set_id], [dps_set_no|dps_set_id]
+```
+
+or, for multiport specifications:
+
+```
+SPRM {"multi-port_spec"}, [timing_set_no|"timing_set_list"], [level_set_id|level_set_no],[dps_set_id|dps_set_no] [,(port)]
+```
+
+### SPRM?（取自子主题 Commands in alphabetical order › List of commands › SPRM  SPRM  -  Set PRiMary sets）
+
+```
+SPRM?
+```
+
+returns:
+
+```
+SPRM {waveform_set_no}, {timing_set_no}, {level_set_no|level_set_id}, {dps_set_no|dps_set_id}
+```
+
+or:
+
+```
+SPRM {timing_specset_id}, {timing_set_no}, {level_set_id|level_set_no}, {dps_set_id|dps_set_no}
+```
+
+or, for multiport specifications:
+
+```
+SPRM? [(port)]
+```
+
+returns:
+
+```
+SPRM {"multi-port_spec"}, {timing_set_no|"timing_set_list"}, {level_set_id|level_set_no},{dps_set_id|dps_set_no} [,(port)]
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SPRM  SPRM  -  Set PRiMary sets）
 
@@ -21767,6 +25076,117 @@ Receive 10 period limit violation
 
 In this last example, a multi-port specification is queried. The answer says that bits 1 and 2 have been set. This has the effect that a drive or receive period 1 limit violation will be ignored, and only a period 2 limit violation will be recorded.
 
+### SQBV（取自子主题 Commands in alphabetical order › List of commands › SQBV  SQBV  -  SeQuencer Break Vector insertion）
+
+```
+SQBV [CTOF_align],[pattern_align],[activ_type],{(port)}
+```
+
+### SQBV?（取自子主题 Commands in alphabetical order › List of commands › SQBV  SQBV  -  SeQuencer Break Vector insertion）
+
+```
+SQBV? {(port)}
+```
+
+returns:
+
+```
+SQBV {CTOF_align},{pattern_align},{activ_type},{(portlist)}
+```
+
+Parameters
+ |
+
+CTOF_align
+
+ |
+
+This parameter specifies the number of break vectors that are to be inserted before the last activation. If the specified number is not exactly divisible by 8, it will be autocorrected to the next multiple of 8. The default is 0. The maximum depends on the activ_type parameter.
+
+Note that a value greate than 0 is not allowed for ports whose sequencing group does not admit any activation of primary sets (`FTCG`（raw: `02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md`） SKPR,ON).
+
+ |
+ |
+
+pattern_align
+
+ |
+
+This parameter specifies the number of break vectors that are to be inserted before the first user vector. If the specified number is not exactly divisible by 8, it will be autocorrected to the next multiple of 8. The default is 0. The maximum depends on the activ_type parameter.
+
+ |
+ |
+
+activ_type
+
+ |
+
+The type of activation sequence which is to be compensated by the break vectors. The possible values are:
+
+ |
+ |
+
+ |
+
+NONE
+
+ |
+
+No primary sets are activated. This option can be used to compensate hardware specific delays. The maximum number for this type is 2 * 262136.
+
+ |
+ |
+
+ |
+
+TIM
+
+ |
+
+Only the timing is activated. The maximum number for this type, which must not be smaller than that specified for NONE, is the number for NONE plus 262136.
+
+ |
+ |
+
+ |
+
+TIM_LEV
+
+ |
+
+Timing and levels are activated. The maximum number for this type, which must not be smaller than that specified for TIM, is the number for TIM plus 262136.
+
+ |
+ |
+
+ |
+
+ALL
+
+ |
+
+All primary sets are activated. This is the default. The maximum number for this type, which must not be smaller than that specified for TIM_LEV, is the number for TIM_LEV plus 2 * 262136.
+
+ |
+ |
+
+port
+
+ |
+
+The port where the break vectors are to be inserted. Note that the vectors are inserted into all patterns of this port.
+
+ |
+ |
+
+portlist
+
+ |
+
+The ports for which the settings are to be returned. Specify @@ to retrieve the settings of all ports.
+
+ |
+
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SQBV  SQBV  -  SeQuencer Break Vector insertion）
 
 The following example synchronizes two ports RX and TX, each of which is the only port in its sequencing group. The RX port does not admit any changes of primary sets, the TX port must change its primary sets several times during the testflow. This is implemented by the `FTCG`（raw: `02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md`） command as follows:
@@ -21801,6 +25221,24 @@ The required number of break vectors must again be determined by measurements. T
 ```
 
 Note that in this case the insertion port is identical with the reference port.
+
+### SQEC（取自子主题 Commands in alphabetical order › List of commands › SQEC  SQEC  -  SeQuencer Execution Context）
+
+```
+SQEC {"context_name"}, {(port_list)}
+```
+
+### SQEC?（取自子主题 Commands in alphabetical order › List of commands › SQEC  SQEC  -  SeQuencer Execution Context）
+
+```
+SQEC? {"context_name"|ALL}
+```
+
+returns:
+
+```
+SQEC {"context_name"}, {(port_list)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQEC  SQEC  -  SeQuencer Execution Context）
 
@@ -21838,6 +25276,24 @@ The list of the ports that are to run in this execution context.
 > SQEC "c1",(P1,P2)
 > SQEC? ALL
 < SQEC "c1",(P1,P2)
+```
+
+### SQGB（取自子主题 Commands in alphabetical order › List of commands › SQGB  SQGB  -  SeQuencer GloBal）
+
+```
+SQGB [mode], [analyze_delay][, (ref_port)]
+```
+
+### SQGB?（取自子主题 Commands in alphabetical order › List of commands › SQGB  SQGB  -  SeQuencer GloBal）
+
+```
+SQGB? [(portlist)]
+```
+
+returns:
+
+```
+SQGB {mode}, [analyze_delay][, (port)]
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQGB  SQGB  -  SeQuencer GloBal）
@@ -22019,6 +25475,24 @@ If the current mode requires an analyze delay, you can specify a port list in th
 
 This example configures the sequencers to stop when port P2 has completed 30 cycles. Port P1, whose period length is twice the period length of P2, will be stopped after 15 cycles. Note that P1 and P2 must belong to the same sequencing group.
 
+### SQIB（取自子主题 Commands in alphabetical order › List of commands › SQIB  SQIB  -  SeQuencer Interrupt Behavior）
+
+```
+SQIB {BANDWIDTH|TIMEOUT}, {ERIM|ERRQ|FLIM|FLRQ}
+```
+
+### SQIB?（取自子主题 Commands in alphabetical order › List of commands › SQIB  SQIB  -  SeQuencer Interrupt Behavior）
+
+```
+SQIB? {BANDWIDTH|TIMEOUT}
+```
+
+returns:
+
+```
+SQIB {BANDWIDTH|TIMEOUT}, {ERIM|ERRQ|FLIM|FLRQ}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQIB  SQIB  -  SeQuencer Interrupt Behavior）
 
 |
@@ -22094,6 +25568,24 @@ SQIB BANDWIDTH FLrQ
 
 This example suppresses all error messages in case of a recording abort.
 
+### SQIT?（取自子主题 Commands in alphabetical order › List of commands › SQIT  -  SeQuencer InterRupt）
+
+```
+SQIT? ["context"]
+```
+
+returns:
+
+```
+SQIT {NO}
+```
+
+or
+
+```
+SQIT {BANDWIDTH|TIMEOUT|OTHER}, {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQIT  -  SeQuencer InterRupt）
 
 |
@@ -22161,6 +25653,24 @@ The pins on which the specified interrupt was observed.
 ```
 
 In this example, a timeout was observed on `pin1`.
+
+### SQLA（取自子主题 Commands in alphabetical order › List of commands › SQLA  SQLA  -  SeQuencer Label Attribute）
+
+```
+SQLA [type],{"name"},{"attr_key_1=[attr_val_1] [,attr_key_2=[attr_val_2] [,attr_key_3=[attr_val_3]]]"} [,(port)]
+```
+
+### SQLA?（取自子主题 Commands in alphabetical order › List of commands › SQLA  SQLA  -  SeQuencer Label Attribute）
+
+```
+SQLA? [type], {"name"|ALL}, {"attr_key"|ALL|SAVE} [, (portlist)]
+```
+
+returns:
+
+```
+SQLAtype, {"name"},{"attr_key_1=attr_val_1, attr_key_2=attr_val_2} [,attr_key_3=attr_val_3]" [,(port)]
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQLA  SQLA  -  SeQuencer Label Attribute）
 
@@ -22265,6 +25775,213 @@ Specify @@ to display attributes for all labels of all ports.
 
 This example changes the PARA_MEM attribute of the new label test from SM to SHMEM. Note the change of the address in command line 4.
 
+### SQLB（取自子主题 Commands in alphabetical order › List of commands › SQLB  SQLB  -  SeQuencer LaBel definition）
+
+```
+SQLB {"label"}, {type}, {start_cmd_no}, {stop_cmd_no}, [base_wf_set|"wavetable_name"| "sync_grp"] [, (port)]
+```
+
+### SQLB（取自子主题 Commands in alphabetical order › List of commands › SQLB  SQLB  -  SeQuencer LaBel definition）
+
+```
+SQLB? {"label"|ALL}, {type|ALL}[, (portlist)]
+```
+
+returns:
+
+```
+SQLB {label}, {type}, {start_cmd_no}, {stop_cmd_no}, {"wavetable_name"|base_wf_set| "sync_grp"} [,(port)]
+```
+
+Parameters
+ |
+
+label
+
+ |
+
+The label name. It identifies the label which is to be defined for the specified port, or whose definition is to be displayed. Enter a string enclosed in double quotes. The string must have a length of between 1 and 128 alpha-numeric characters.
+
+If you enter an empty string in the command, the label specified by the start_cmd_no and the stop_cmd_no parameters is deleted. Note, however, that the respective lines of the sequencer area are not deleted.
+
+See `SmarTest character and number limits`（raw: `../../01_Getting_started/01.05_SmarTest_character_and_number_limits/01.05_SmarTest_character_and_number_limits.md#_128029__max_labels_per_port`） for the maximum number of labels per port.
+
+ |
+ |
+
+For the query you can also enter:
+
+ |
+ |
+
+ALL
+
+ |
+
+to read the configurations for all labels.
+
+ |
+ |
+
+SUR
+
+ |
+
+(SURround) to obtain configurations for the label selected for editing (in the Pattern Tool) by the TSTL (TeST Label) command, as well as the labels immediately preceding and following it.
+
+ |
+ |
+
+FRS
+
+ |
+
+(FiRSt) to return only the first label in the sequencer area of the specified port.
+
+If the label you are querying does not exist, the firmware returns nothing.
+
+ |
+ |
+
+type
+
+ |
+
+The label type. This parameter must always be present. It has the following options:
+
+ |
+ |
+
+MAIN
+
+ |
+
+A MAIN program. A MAIN label can be used as a start label (see the `SQSL`（raw: `02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md`） command) if it is defined for the default port @. It can call any type of subroutine. It can be called from a burst (type BRST) or multi-port burst label (type MPBU).
+
+The rudimentary sequencer program that is created for this label type consists of the STVA, STSA, and STOP instructions.
+
+ |
+ |
+
+SVEC
+
+ |
+
+Vector subroutine. A subroutine that cannot serve as a start label. It must be called with the JSUB sequencer instruction from a MAIN label or another SVEC label. You can nest SVEC subroutines up to 7 levels deep.
+
+The rudimentary sequencer program that is created for this label type consists of the STVA and the RSUB instructions.
+
+ |
+ |
+
+BRST
+
+ |
+
+Burst mode. Defines a burst label. A burst label executes a sequence of MAIN labels in burst mode. Its sequencer program consists of a sequence of CALL instructions for the individual MAIN labels, and is terminated by a BEND instruction. The BEND instruction is created automatically by SQLB. The same MAIN label can be called by several burst labels.
+
+For more information on the subject and the dependencies that have to be taken into account see `Burst and Multi-Burst Labels`（raw: `02.06.07.01.08.05.03_Burst_labels_and_multi-port_burst_labels.md`）.
+
+ |
+ |
+
+DSRC
+
+ |
+
+The digital source label. A type of label used only by SSRC and SRCV. A DSRC label is not executable. The contents of DSRC labels are determined by DVCU. See `DVCU, DVCU? - (Define Vector variable Configuration Usage`（raw: `02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md`）) for more information.
+
+ |
+ |
+
+MPBU
+
+ |
+
+Multiport burst mode. A burst label that is executed simultaneously for several ports. You must define the multi-port burst label separately for all the required ports; this is the only case where the same label name can be used more than once.
+
+The structure of a multiport burst is the same as that of a normal burst label. The parameters of the CALL instructions will be different for the same label in the individual ports.
+
+Note that the ports for which a multiport burst is defined must not have any pins in common. This is not checked by the firmware.
+
+ |
+ |
+
+SJMP
+
+ |
+
+Jump subroutine. This label type is allowed for downward compatibility only. It should not be used in new applications.
+
+ |
+ |
+
+ALL
+
+ |
+
+For the query, you can type ALL to read the configurations for all label types.
+
+ |
+ |
+
+start_cmd_no
+
+ |
+
+The start command number parameter identifies the position within the sequencer area where the label starts.
+
+Note that the exact meaning of this number depends on the operation mode, as defined with the SAOF command. In standard mode (SAOF ZERO), the command lines are counted from the start of the sequencer area, but in append mode (SAOF APP) they are counted from the start of the expansion of the sequencer area previously defined with DMAS. See example 4, below.
+
+ |
+ |
+
+stop_cmd_no
+
+ |
+
+The stop command number parameter identifies the position within the sequencer area where the label stops.
+
+Note that the exact meaning of this number depends on the operation mode, as defined with the SAOF command. In standard mode (SAOF ZERO), the command lines are counted from the start of the sequencer area, but in append mode (SAOF APP) they are counted from the start of the expansion of the sequencer area previously defined with DMAS. See example 4, below.
+
+ |
+ |
+
+base_wf_set
+
+ |
+
+The base waveform set. This waveform set is used by the pattern tool to translate the physical waveform DC/DC power units of the vector area into device cycle names and data parameters, and vice versa.
+
+ |
+ |
+
+wavetable
+
+ |
+
+The base wavetable. This wavetable is used by the pattern tool to translate the physical waveform DC/DC power units of the vector areas into device cycle names and data parameters, and vice versa.
+
+ |
+ |
+
+sync_grp
+
+ |
+
+If type has been set to MPBU, you can specify a synchronization (sequencing) group for the multi-port burst with this parameter.
+
+ |
+ |
+
+port
+
+ |
+
+The name of the port for which the label is defined. If you do not specify a port, the label will be defined for the default port @, to which all pins belong.
+
+ |
+
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SQLB  SQLB  -  SeQuencer LaBel definition）
 
 This example defines a burst label for the default port.
@@ -22341,6 +26058,550 @@ This example illustrates the relative numbering of the command lines in SAOF APP
 < SQLB "L_2",MAIN,3,5,"wf1"
 ```
 
+### SQPG（取自子主题 Commands in alphabetical order › List of commands › SQPG  SQPG  -  SeQuencer ProGramming）
+
+```
+SQPG {cmd_No}, {instr}, [param_1], [param_2], [memory], {(port)}
+```
+
+### SQPG?（取自子主题 Commands in alphabetical order › List of commands › SQPG  SQPG  -  SeQuencer ProGramming）
+
+```
+SQPG? {cmd_No|ALL|"cmd_No_A,cmd_No_B"}, {(portlist)}
+```
+
+returns:
+
+```
+SQPG {cmd_No}, {instr}, [param_1], [param_2], [memory], {(port)}
+```
+
+Parameters
+ |
+
+cmd_No
+
+ |
+
+The command number. This parameter identifies the instruction within the sequencer area of the specified port. Refer to `Address instructions`（raw: `02.06.07.01.08.02_Address_instructions.md`） for further details.
+
+In the query, you can also specify ALL or two command numbers that are separated by a comma and included by quotes. If you specify ALL, SQPG? will return all the instructions in the sequencer area of all the specified ports. If you specify two numbers, all instructions in the specified range will be returned.
+
+Note that the exact meaning of this number depends on the operation mode, as defined with the `SAOF`（raw: `02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md`）command. In standard mode (SAOF ZERO), the command lines are counted from the start of the sequencer area, but in append mode (SAOF APP) they are counted from the start of the expansion previously defined with `DMAS`（raw: `02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md`）.
+
+ |
+ |
+
+instr
+
+ |
+
+The mandatory sequencer instruction. It specifies the task that the sequencer performs:
+
+ |
+ | |
+
+BEND
+
+ |
+
+Marks the end of a normal or a multi-port burst label.
+
+ |
+ | |
+
+BRKV
+
+ |
+
+The "break vector" instruction generates break vectors. param_1 and param_2 must both be specified.
+
+- param_1specifies the number of break vectors to be generated. If the specified number is not directly divisible by 8, it will be rounded up to the next multiple of 8. The admitted range is from 1 to 32760.
+- param_2specifies a wait time in nanoseconds. SmarTest will generate the appropriate number of break vectors (always a multiple of 8) to fill that interval.
+
+Note that this is a lower bound; the actual wait time may be longer than the specified time. The admitted range is from 0 to 5592402.
+
+If the wait time is greater than 0, it is added to the time consumed by the break vectors of param_1.
+
+ |
+ | |
+
+CALL
+
+ |
+
+Calls a MAIN label within a normal or a multi-port burst label. param_1 must be omitted, param_2 is required:
+
+- param_2 specifies the name of the label to be executed as part of the burst label. The label name must be enclosed in double quotes.
+ |
+ | |
+
+CLEV
+
+ |
+
+The "Change LEVels" instruction allows you to change the level set. param_1 is required, param_2 must be omitted:
+
+- param_1 specifies the level set number. The new value has to be an integer in the range of 1 to the maximum allowed level sets as set by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command. You can also enter PRM which specifies the primary level set.
+ |
+ | |
+
+COGO
+
+ |
+
+The "conditional go to" instruction is similar to the JMPE instruction. There are two differences:
+
+- COGO can only be used in SVEC subroutines.
+- When a subroutine is called with COGO, the called subroutine will not return to the calling subroutine, but to the lowest label in the call hierarchy that did not use COGO for its subroutine call.
+
+If, for example, the MAIN label pat1 calls the subroutine sub1 with JSUB, and sub1 calls sub2 with JMPE, then sub2 will return to sub1. But if sub2 is called with COGO from sub1, then sub2 will return to pat1.
+
+The reason for this is that the return address for a COGO call is not pushed onto the call stack. Note that this can be exploited to create an infinite loop by letting sub1 call sub2 with COGO, and letting sub2 in turn call sub1 also with COGO. By contrast, such a mutual call will lead to a stack overflow when JMPE is used for the calls.
+
+- param_1 specifies the label to jump to when the error flag is not set 1.
+- param_2 specifies the label to jump to when the error flag is set 1.
+
+The label names must be enclosed with double quotes. Both parameters can be omitted.
+
+ |
+ | |
+
+CTIM
+
+ |
+
+The "Change TIMing" instruction allows you to change the timing set. param_1 is required, param_2 must be omitted:
+
+- param_1 specifies the timing set number. The new value has to be an integer in the range of 1 to the maximum number of allowed timing sets as set by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）command. You can also enter PRM which specifies the primary timing set.
+ |
+ | |
+
+FLQU
+
+ |
+
+The "fill data queue" instruction inserts fill break vectors into the data queue (see also `How to prevent the data queue from running empty`（raw: `02.06.07.01.09.03_How_to_prevent_the_data_queue_from_running_empty.md`）). param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+GENV
+
+ |
+
+The "GENerate Vectors" instruction causes parallel vectors to be sent to the DUT. param_1 is required, param_2 must be omitted. Where, param_1 specifies the number of parallel vectors to be generated. The maximum number of vectors is (2^21- 1) * 8.
+
+  Note After inserting a GENV instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas. See `Inserting a sequencer instruction`（raw: `02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md`）. |
+ | |
+
+JMPE
+
+ |
+
+The "jump to subroutine on error" instruction lets you execute a conditional jump to an SVEC type subroutine in dependence on an internal error flag which indicates that at least one cycle has failed. You can specify two subroutines, one for the case where the flag is set, and one for the case where it is not set. Both specifications are optional.
+
+- param_1 specifies the label to jump to when the error flag is not set`1)`（raw: `#_98749__fn1`）.
+- param_2 specifies the label to jump to when the error flag is set`1)`（raw: `#_98749__fn1`）.
+
+The label names must be enclosed with double quotes. Both parameters can be omitted.
+
+The error flag is reset when the subroutine of param_2 is executed.
+
+Note that the instruction cannot be placed immediately after the last of those vectors on whose result the jump is to depend. Rather, an appropriate number of buffer vectors must be inserted between this vector and the instruction. For more information see `Calculating the buffer vectors for JMPE`（raw: `02.06.07.01.08.05.02.01_Calculating_the_buffer_cycles_for_JMPE_and_RETC__and_match_loops.md`）.
+
+Note also that this instruction is not supported by the result tools.
+
+ |
+ | |
+
+JPPS
+
+ |
+
+The "jump to per-pin subroutine" instruction jumps to a pin specific subroutine. param_1 must be omitted, param_2 is required:
+
+- param_2 specifies the label to jump to. The label name must be enclosed with double quotes.
+
+Note that this instruction is counted as a logical vector of a pattern.
+
+ |
+ |   | JSUB |
+
+The "jump sub-patterns" instruction jumps to a vector type subroutine or a scan subroutine.
+
+Note that this instruction is not allowed in scan subroutines.
+
+ |
+ | |
+
+JTIN
+
+ |
+
+This instruction starts or stops jitter injection on a Smart Scale port for all port pins that are included in the primary jitter set. It overrules the global configuration of the jitter loop (as defined by the MODE property of JSCF), but only within the test in which it is issued. If no primary jitter set exists, the instruction is ignored.
+
+param_1 is required, param_2 must be omitted:
+
+- The possible values for param_1 are START and STOP.
+
+Note that this instruction is not available for the PSSL FASTDIFF mode.
+
+ |
+ | |
+
+LBGN
+
+ |
+
+The "loop begin" instruction specifies the start position of either a counted or an endless loop. The software uses different parameters to differentiate between the two loop structures.
+
+For an endless loop, param_1 can be either omitted or set to 0.
+
+For a counted loop, param_1 must be an integer in the range of 1 to 33554432 (this is the restriction imposed by the hardware). If this maximum is exceeded, the command fails with an error message.
+
+For both cases, param_2 must be omitted.
+
+ Note The only instructions that are allowed to be used within a counted loop are GENV, SRCV, RPTV, and NOP. Other instructions will report errors at the proper time. There are no changes to the existing endless loop structure. Note Whenever possible, use RPTV instead of a counted loop. |
+ | |
+
+LEND
+
+ |
+
+The "Loop END" instruction specifies the end of an endless loop. param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+LPBK
+
+ |
+
+This instruction starts a SmartLoop鈩?test. param_1 and param_2 are both optional:
+
+- param_1 defines the number of cycles for the SmartLoop鈩?test; this must be a multiple of 8. The maximum is 2^31-1.
+- param_2 is an optional multiplier for param_1; the maximum is 2^12-1. The point of this construction is to increase the maximum number of cycles above the maximum value of the individual parameters.
+
+If you omit both parameters, then the behavior of the SmartLoop鈩?test depends on whether ports without loopback pins exist in the start label. If so, the SmartLoop鈩? test will run until all ports without loopback pins have finished their test. If all pins are loopback pins, the test will start, but stop at once.
+
+Note that a pattern that contains a LPBK instruction must not contain any other instruction except BRKV, LBGN/LEND, and TMUA.
+
+ |
+ | |
+
+MACT
+
+ |
+
+The "match activate" instruction specifies the start of a counted match loop.
+
+param_1 specifies the number of loops after which the whole test fails. The maximum is 2^21 - 1.
+
+The MACT instruction features a second, optional parameter:
+
+- CONTINUE: This option keeps the test going on even if the loop fails.
+- TIL_FAIL_STOP: The loop is to be repeated until an iteration fails. When the maximum loop count is reached, the test program stops.
+- TIL_FAIL_CONT: The loop is to be repeated until an iteration fails. When the maximum loop count is reached, the test program continues after the loop has been completely executed. This behavior is a combination of both TIL_FAIL_STOP and CONTINUE.
+  Note The two values TIL_FAIL_STOP and TIL_FAIL_CONT are valid for Smart Scale cards only. |
+ | |
+
+MBGN
+
+ |
+
+The "Match BeGiN" instruction specifies the start position of a timed (old style) match loop. param_1 and param_2 must be omitted. See Generating a Match Loop below.
+
+ |
+ | |
+
+MEAS
+
+ |
+
+The "execute MEASurement set" instruction executes a PPMU measurement set. The measurement set must have been downloaded with the `MSET`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md`） command. param_1 and param_2 are both required.
+
+- param_1 specifies the number of the PPMU DC set to which the measurement set belongs.
+- param_2 specifies the number of the measurement set.
+ |
+ | |
+
+MEND
+
+ |
+
+The "Match END" instruction specifies the end of a timed (old style) match loop. param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+MJPE
+
+ |
+
+The "Match Jump on Error" instruction tells the sequencer to jump out of a timed (old style) match loop when a compare match is found. param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+MRPT
+
+ |
+
+The "match repeat" instruction marks the end of the compare vectors and the start of the dummy vectors for a counted match loop. It specifies the number of dummy vectors. It also causes the sequencer to wait when an error is detected in the match loop. See `Counted match loops`（raw: `02.06.07.01.08.04.03.01_Counted_match_loops.md`）. param_1 is required, param_2 must be omitted:
+
+- param_1 is the number of vectors. The maximum is (2^21 - 1) * 8 for SM memory type, and (2^21 - 1) * 7 for VM memory type.
+
+Note that after inserting a MRPT instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas.
+
+Note that this instruction is counted as a logical vector of a pattern.
+
+ |
+ | |
+
+NOP
+
+ |
+
+The "no operation" instruction performs no operation on the DUT (but increases the instruction density for the data queue. For more information refer to `Managing the data queue`（raw: `02.06.07.01.09_Managing_the_data_queue.md`）). param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+PRBS
+
+ |
+
+This instruction starts a PRBS test. param_1 is required, param_2 is optional:
+
+- param_1 defines the number of cycles for the PRBS test; the maximum is 2^31-1.
+- param_2 is an optional multiplier for param_1; the maximum is 2^12-1. The point of this construction is to increase the maximum number of cycles above the maximum value of the individual parameters.
+
+Note that a pattern that contains a PRBS instruction must not contain any other instruction except BRKV, LBGN/LEND, and TMUA.
+
+ |
+ | |
+
+RETC
+
+ |
+
+The "return conditionally" instruction returns from an SVEC type subroutine to a higher level SVEC subroutine or the main program in dependence of an internal error flag which is set when at least one cycle has failed. param_1 and param_2 are both required.
+
+- param_1 controls the dependency on the error flag. If it is set to 0, the return will only be executed if no error occurred so far. If it is set to 1, the return will only be executed if an error occurred.
+- param_2 can be used to reset the error flag. If the parameter is set to 0, the flag will be reset. If the parameter is set to 1, the flag will left in its current state.
+
+Note that this instruction is not supported by the result tools.
+
+ Note If you use the LMAP error map mode, `FLBL`（raw: `02.06.02.02.123_FLBL__-__Failing_LaBeLs.md`） ignores the RETC clearing flag for failures. Note If you use RETC to reduce test time by aborting a sequencer run early after checking for a failing DUT response, consider the following:
+
+When not all sites are enabled or activated (means, they are masked), see `The states of the sites`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.27.01_The_states_of_the_sites.md`）, and site match is set to ON, the masked sites will not be aware of the abort condition. Instead, the overall execution time depend on the maximum pattern length. In such scenarios, use the `Pattern per site`（raw: `../../03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.03.02.02_Pattern_per_site__Label_per_site.md`） feature to assign a dummy label for disabled sites. This ensures that the sequencer run get stopped as soon as all enabled sites have met the RETC condition.
+
+ |
+ |   | RGOP  | The "register operation" instruction performs simple arithmetic operations. It can be used, for instance, to ease the branch reconstruction for a `Sequencer鈥慶ontrolled search with cogo`（raw: `../02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md`）.
+
+param_1 is required, param_2 must be omitted.
+
+param_1 species the action as one of the following options:
+
+- RESET checks that the register value is 0. If not, the test fails. The first instruction of a new search has to be an RGOP RESET.
+- INC adds 1 to the current value of the register. The maximum count is 2^32-1.
+- INC_LOWER is the same as INC but with a different overflow check, to be used to run the first of two counts in the same sequencer run, together with INC_UPPER (not INC). Must not be used after a call with INC_UPPER. The maximum count is 2^16-1
+- INC_UPPER is to be used as the second count (works by adding 2^16 to the current value of the register).
+- SHL shifts the current value of the register one bit to the left and set bit 0 of the register to 0.
+
+The RGOP instruction cannot be used in the same sequencer run as a `match loop`（raw: `02.06.07.01.08.04.03_Match_loops.md`）, nor can you do interleaved or sequential COGO searches with this approach.
+
+The result is retrieved with an RGOV? query.
+
+ |
+ | |
+
+RPTJ
+
+ |
+
+The "repeat jump" instruction repeats the next JSUB instruction param_1 times. The JSUB instruction must follow the RPTJ instruction immediately. param_1 is required, param_2 must be omitted:
+
+- param_1 specifies the number of times the next JSUB instruction is to be repeated. The value has to be an integer in the range of 2 to 2^19 - 1.
+
+Note that this instruction is counted as a logical vector of a pattern.
+
+ |
+ | |
+
+RPTV
+
+ |
+
+The "repeat vector" instruction repeats a sequence of vectors. param_1 and param_2 are both required:
+
+- param_1 specifies the number of vectors to be repeated. The maximum is (2^21- 1) * 8.
+- param_2 specifies the number of repetitions. The maximum value depends on whether param_1 exceeds the word length of 8. If it does not, the maximum is 2^24 - 8. If it does, the maximum number is 2^18.
+ Note After inserting an RPTV instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas. See `Inserting a sequencer instruction`（raw: `02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md`）. |
+ | |
+
+RSJP
+
+ |
+
+The "Return from a Subroutine Jump" instruction returns from an SJMP type subroutine. param_1 and param_2 must be omitted.
+
+This instruction is allowed for downward compatibility only. It should not be used in new applications.
+
+ |
+ | |
+
+RSUB
+
+ |
+
+The "return from a vector subroutine" instruction returns from an SVEC type subroutine to a higher level SVEC subroutine or the main program. param_1 and param_2 must both be omitted.
+
+ |
+ | |
+
+SRCV
+
+ |
+
+The "SouRCe Vectors" instruction marks the start of a source vector block. It can only be used in connection with the SSRC instruction. Within such a block, the vectors of the source pins are read from the DSCR label referenced by the SSRC instruction. The vectors for the other non-source pins are specified in the actual label. param_1 and param_2 are both required:
+
+- param_1 specifies the size of the parallel vector sequence to be repeated on non-source pins. The range is 1 to 65535.
+- param_2 specifies how often the sequence is to be repeated. The range is also 1 to 65535.
+
+The length of a source vector block is determined by the length of the corresponding source vector section in the DSCR label. Accordingly, param_1 * param_2 must equal the length of this section. Otherwise, the parameters are only relevant to the non-DSM pins: they define the length of the vector block that is to be executed on the non-source pins, and how often this block is to be repeated.
+
+Note that this instruction is counted as a logical vector of a pattern.
+
+ |
+ | |
+
+SSRC
+
+ |
+
+The "Start SouRCe" instruction specifies the label (of type DSRC) that contains the vectors for the source pins. param_1 must be omitted, param_2 is required:
+
+- param_2 must specify a valid DSRC label name enclosed by doubled quotes.
+
+The source pins are defined by the port of the DSRC label. Refer to the SRCV instruction below.
+
+ |
+ | |
+
+STOP
+
+ |
+
+The "stop test" instruction programs the sequencer to stop the label. This instruction must be present in each label of type MAIN. param_1 and param_2 must both be omitted.
+
+ |
+ | |
+
+STSA
+
+ |
+
+The "SeT Scan vector Address" instruction is one of the two STxA instructions that form a label header. It must be present in every label of type MAIN. param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+STVA
+
+ |
+
+The "SeT parallel Vector Address" instruction is one of the two STxA instructions that form a label header. It must be present in every label of types MAIN and SVEC. param_2 is required, param_1 must be omitted:
+
+- param_2 specifies the start address of the port specific vector area segments that are associated with the label. The address must be a multiple of 8.
+
+You can always use param_2 to specify the address, but SmarTest stores and displays the address in param_2 only if the vector setup file contains patterns for user defined ports. In all other cases it uses param_1.
+
+ |
+ | |
+
+TMUA
+
+ |
+
+This instruction arms the TMU per pin for all pins of the pattern port. param_1 and param_2 must both be omitted.
+
+Not supported for Pin Scale 5000 cards.
+
+ |
+ | |
+
+WAIT
+
+ |
+
+The WAIT instruction causes the sequencer to create a number of break vectors which approximates as closely as possible a specified number of nano seconds.
+
+param_1 is required, param_2 must be omitted:
+
+- param_1specifies the required number of nano seconds. The admitted range is from 0 to 5592402.
+ |
+ | |
+
+WTER
+
+ |
+
+The "WaiT on ERror" instruction programs the sequencer to wait on encountering an error within a timed (old style) match loop. param_1 and param_2 must be omitted.
+
+ |
+ |
+
+ |
+
+XACT
+
+ |
+
+The "eXecute ACTion" instruction executes a DC waveform. param_2 is required, param_1 must be omitted:
+
+- param_2 specifies the name of the DC waveform to be executed. The waveform identified by this name must have been defined with the DFTD command within a test data collection which has the same name as the pattern in which XACT is used.
+ |
+ |
+
+param_1
+
+ |
+
+The role of this optional parameter depends on the instruction specified for the instr parameter. See the descriptions of the individual instructions.
+
+ |
+ |
+
+param_2
+
+ |
+
+The role of this optional parameter depends on the instruction specified for the instr parameter. See the descriptions of the individual instructions.
+
+ |
+ |
+
+memory
+
+ |
+
+The optional parameter defines the location of the vectors. Possible values are:
+
+- SM: Sequencer memory. This is the default.
+- SHMEM: With this option different sites for the same pin share their vector areas, or at least always use the same vector data. For more information see `Selecting the memory type`（raw: `02.06.07.01.04.01_Selecting_the_memory_type.md`）.
+ |
+ |
+
+port
+
+ |
+
+The mandatory parameter defines the name of the port whose sequencer area is to be modified. Specify @ for the default port to which all pins belong.
+
+ |
+
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SQPG  SQPG  -  SeQuencer ProGramming）
 
 The following is a simple example of a counted match loop:
@@ -22412,6 +26673,12 @@ Display the active vectors for the two GENV instructions:
 
 The first memory word is now associated with the new instruction. The first of its vectors is active, the others are inactive. The previous command 6 (now command 7) is now associated with the second and the third block. Thus the third memory word is illegally shared between two labels.
 
+### SQRC（取自子主题 Commands in alphabetical order › List of commands › SQRC -  SeQuencer Remove execution Context）
+
+```
+SQRC {"context_name"|ALL}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQRC -  SeQuencer Remove execution Context）
 
 |
@@ -22437,6 +26704,24 @@ With this option, all existing contexts will be removed.
 
 ```
 > SQRC "c1"
+```
+
+### SQRP（取自子主题 Commands in alphabetical order › List of commands › SQRP  SQRP  -  SeQuencer Reference Port）
+
+```
+SQRP {(port)}
+```
+
+### SQRP?（取自子主题 Commands in alphabetical order › List of commands › SQRP  SQRP  -  SeQuencer Reference Port）
+
+```
+SQRP?
+```
+
+returns:
+
+```
+SQRP {(port)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQRP  SQRP  -  SeQuencer Reference Port）
@@ -22486,6 +26771,110 @@ The required number of break vectors must again be determined by measurements. T
 
 Note that in this case the insertion port is identical with the reference port.
 
+### SQSL（取自子主题 Commands in alphabetical order › List of commands › SQSL  SQSL  -  SeQuencer Start Label）
+
+```
+SQSL  {"label"} [, site|"site_string"]
+```
+
+### SQSL?（取自子主题 Commands in alphabetical order › List of commands › SQSL  SQSL  -  SeQuencer Start Label）
+
+```
+SQSL?
+```
+
+returns:
+
+```
+SQSL {"label"}
+```
+
+With the TYPE option:
+
+```
+SQSL?TYPE
+```
+
+returns:
+
+```
+SQSL {"label"}, {type}, {(portlist)}
+```
+
+With the ALL option:
+
+```
+SQSL?ALL
+```
+
+returns:
+
+```
+SQSL {"label"}, {"site_string"}, {type}, {(portlist)}
+```
+
+Parameters
+ |
+
+label
+
+ |
+
+The name of a sequencer start label. In the command, you can enter an empty string ("") to deactivate the current start label.
+
+ |
+ |
+
+site|"site_string"
+
+ |
+
+In the command, you can either specify a number to identify a single site, or a string of 1's and 0's. The length of the string must correspond to the number of the configured sites. The nth character of this string stands for site n.
+
+"1" means that the specified label is to be assigned as the new start label to the respective site, "0" means that the current start label is not changed.
+
+If you omit this parameter, the specified label will be made the start label of all sites.
+
+When ALL was specified in the query, a site string is returned.
+
+ |
+ |
+
+TYPE
+
+ |
+
+If you issue SQSL? without any parameter, the query will return the name of the current start label for the site that has the query focus. If you add TYPE, not only the name, but also the type and the associated ports of this label will be returned.
+
+ |
+ |
+
+ALL
+
+ |
+
+If you specify this keyword in the query, SQSL? will return the start labels of all sites, including their type and associated ports.
+
+ |
+ |
+
+type
+
+ |
+
+The type of the label. For an explanation of the possible types, see the SQLB command.
+
+ |
+ |
+
+portlist
+
+ |
+
+This can be the default port @ which comprises all configured pins, or, in the case of a multi-port burst, the ports with which the label is associated.
+
+ |
+
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SQSL  SQSL  -  SeQuencer Start Label）
 
 ```
@@ -22514,6 +26903,22 @@ Note that in this case the insertion port is identical with the reference port.
 ```
 
 This example illustrates the definition of different start labels for different sites. Note that the restriction of the setup focus has no influence on the command, but that the setting of the query focus does affect SQSL?.
+
+### SQST（取自子主题 Commands in alphabetical order › List of commands › SQST  SQST  -  SeQuencer STate）
+
+SQST {seq_state} [,"exec_context"]
+
+### SQST?（取自子主题 Commands in alphabetical order › List of commands › SQST  SQST  -  SeQuencer STate）
+
+```
+SQST? ["exec_context"]
+```
+
+returns:
+
+```
+SQST {seq_state}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQST  SQST  -  SeQuencer STate）
 
@@ -22613,6 +27018,24 @@ SQST RUN
 
 This example starts a global sequencer run.
 
+### SQTO（取自子主题 Commands in alphabetical order › List of commands › SQTO  SQTO  -  SeQuencer TimeOut）
+
+```
+SQTO {timeout}             // in seconds
+```
+
+### SQTO?（取自子主题 Commands in alphabetical order › List of commands › SQTO  SQTO  -  SeQuencer TimeOut）
+
+```
+SQTO?
+```
+
+returns:
+
+```
+SQTO {timeout}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQTO  SQTO  -  SeQuencer TimeOut）
 
 |
@@ -22632,6 +27055,20 @@ SQTO 3000
 ```
 
 This example programs the sequencer to exit after 50 minutes.
+
+### SREC（取自子主题 Commands in alphabetical order › List of commands › SREC  SREC  -  Set RECeiver mask）
+
+```
+SREC {mask_value}, {(pinlist)}
+```
+
+### SREC?（取自子主题 Commands in alphabetical order › List of commands › SREC  SREC  -  Set RECeiver mask）
+
+```
+SREC? {(pinlist)}
+```
+
+Note Executing `SREC ACT,(@)` may cause excessive overhead. You can use the `UI_SUSPEND`（raw: `../02.07_Test_Method_Reference/02.07.04.01.260_UI_SUSPEND.md`） test method API to suspend updates of the graphical user interface.
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SREC  SREC  -  Set RECeiver mask）
 
@@ -22698,6 +27135,16 @@ SREC X, (D1, D2, D3, D4)
 
 This example masks the pins D1, D2, D3 and D4.
 
+### SRPR（取自子主题 Commands in alphabetical order › List of commands › SRPR  SRPR  -  Set Routing PRimary）
+
+```
+SRPR {set}
+```
+
+### SRPR?（取自子主题 Commands in alphabetical order › List of commands › SRPR  SRPR  -  Set Routing PRimary）
+
+SRPR?
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SRPR  SRPR  -  Set Routing PRimary）
 
 |
@@ -22719,6 +27166,24 @@ SRPR 4
 ```
 
 This example sets the routing set 4 as the primary routing set.
+
+### SSAC（取自子主题 Commands in alphabetical order › List of commands › SSAC  SSAC  -  Source Synchronous testing  Add Configuration）
+
+```
+SSAC [read_mode],[nr_of_results],[(ref_pin}],{(pinlist)}
+```
+
+### SSAC?（取自子主题 Commands in alphabetical order › List of commands › SSAC  SSAC  -  Source Synchronous testing  Add Configuration）
+
+```
+SSAC?
+```
+
+returns:
+
+```
+SSAC {read_mode},[nr_of_results],[(ref_pin}],{(pinlist)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SSAC  SSAC  -  Source Synchronous testing  Add Configuration）
 
@@ -22805,6 +27270,129 @@ The following example shows how the buffer channels are configured by using a re
 ```
 
 First the detailed Error Map is configured for source synchronous testing (recording mode ALL, location in RDRAM). Next the existing buffer configurations are removed. Then the sweep variable is set, and the first functional test executed. Subsequently the buffer channels are configured using D1 as the reference pin. Then the results of the first functional test are processed. Finally, the sweep variable is incremented and the next functional test executed.
+
+### SSCT（取自子主题 Commands in alphabetical order › List of commands › SSCT  SSCT  -  Source Synchronous data  Combine and Transfer）
+
+```
+SSCT {exec_mode},[read_mode],[nr_of_results],{(dest_pin)}, {(source_pins)}
+```
+
+### SSCT?（取自子主题 Commands in alphabetical order › List of commands › SSCT  SSCT  -  Source Synchronous data  Combine and Transfer）
+
+```
+SSCT? {(dest_pins)}
+```
+
+returns:
+
+```
+SSCT {exec_mode},{read_mode},{nr_of_results},{(dest_pin)}, {(source_pins)}
+```
+
+Parameters
+ |
+
+exec_mode
+
+ |
+
+Possible execution modes are:
+
+ |
+ |
+
+IMM
+
+ |
+
+The command is executed immediately.
+
+ |
+ |
+
+ACC
+
+ |
+
+Command execution is delayed to the next FTST? call or the next SSCT IMM call (whichever comes first).
+
+ |
+ |
+
+DEL
+
+ |
+
+Deletes all SSCT instances that ar still pending for the specified destination pin and source pins. The other parameters are ignored.
+
+ |
+ |
+
+read_mode
+
+ |
+
+Possible read modes are:
+
+ |
+ |
+
+NORM
+
+ |
+
+Source data is processed as it is stored in the source channels. This is the default.
+
+ |
+ |
+
+INV
+
+ |
+
+Source data is inverted internally before it is processed. The source data itself is not changed.
+
+ |
+ |
+
+Note that the read modes of SSAC and SSCT are concatenated. If inversion has been set for a source channel with SSAC, and the read mode of SSCT is also set to INV then the data of the respective channel will be inverted twice, and therefore processed as it is stored.
+
+ |
+ |
+
+no_of_results
+
+ |
+
+Specifies the number of results to be processed. The default is all results (as defined with SSAC). The maximum is the number of results that are configured by SSAC.
+
+The number to be specified here must be calculated as `result_granularity * number_of_cycles`.
+
+The result granularity is the number of results per cycle. It can be 1 (one global result), in which case you must specify the number of cycles, or 8 (one result for every edge), in which case you must specify `8 * number_of_cycles`.
+
+The number of bytes required to store the specified number of results must be a multiple of 8. If this requirement is not satisfied, the number of results will be auto-corrected.
+
+ |
+ |
+
+dest_pin
+
+ |
+
+The target buffer pin into which the combined results are transferred. This should be an input pin, in order to avoid conflicts within the result area between the buffer function and pin specific result data. This pin must have been defined as a buffer pin with SSAC.
+
+Note that the Error Map for this pin must be located in RDRAM (DCRT command).
+
+ |
+ |
+
+source_pins
+
+ |
+
+The pins whose results are to be combined. Note that the Error Map for these pins must be located in RDRAM (DCRT command).
+
+ |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SSCT  SSCT  -  Source Synchronous data  Combine and Transfer）
 
@@ -22995,6 +27583,22 @@ STDE
 ```
 STDE
 ```
+
+### STME（取自子主题 Commands in alphabetical order › List of commands › STME  STME  -  SiTe Match Enable）
+
+```
+STME {ON|OFF|AUTO|FAST},
+```
+
+### STME?（取自子主题 Commands in alphabetical order › List of commands › STME  STME  -  SiTe Match Enable）
+
+```
+STME?
+```
+
+returns:
+
+STME {ON|OFF|FAST),
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › STME  STME  -  SiTe Match Enable）
 
@@ -23453,6 +28057,21 @@ Since f is global for p_1, its value has been modified. Now change the value a s
 
 The second global command has no effect because f has only local scope after issuing the local command.
 
+### TCMT（取自子主题 Commands in alphabetical order › List of commands › TCMT  TCMT  -  Test CoMment Transfer）
+
+```
+TCMT {vect_addr}, {"text"}
+```
+
+### TCMT?（取自子主题 Commands in alphabetical order › List of commands › TCMT  TCMT  -  Test CoMment Transfer）
+
+```
+
+TCMT? {vect_addr}, [vect_length]
+```
+
+returns a comment text for each TCMT in the range vect_addr to vect_addr `+`vect_length `- 1`.
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TCMT  TCMT  -  Test CoMment Transfer）
 
 |
@@ -23838,6 +28457,26 @@ Default value in offline mode is 292.3 K.
 TEMP? DIGIO
 TEMP DIGIO,101,292.3
 TEMP DIGIO,102,292.3
+```
+
+### TERM（取自子主题 Commands in alphabetical order › List of commands › TERM  TERM  -  TERMination mode）
+
+```
+TERM {level_set_no | level_set_id}, [term_mode], [term_pulldown,] [param_1], [param_2], [param_3],
+ [l_range], [h_range], [hr_mode,] {(pinlist)}
+```
+
+### TERM?（取自子主题 Commands in alphabetical order › List of commands › TERM  TERM  -  TERMination mode）
+
+```
+TERM? {level_set_no | level_set_id}, {(pinlist)}
+```
+
+returns:
+
+```
+TERM {level_set_no | level_set_id}, {term_mode}, [term_pulldown,] [param_1], [param_2], [param_3],
+ [l_range], [h_range], [hr_mode,] {(pinlist)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TERM  TERM  -  TERMination mode）
@@ -24277,6 +28916,24 @@ This example queries all ports (@@)`` for ALL details of ALL client.
 < TMUL PROTOCOLTEST,SIZE,"0,0,AUTO",(otherPort)
 ```
 
+### TOCF（取自子主题 Commands in alphabetical order › List of commands › TOCF  TOCF  -  Timing Level Offset search ConFiguration）
+
+```
+TOCF [search_type], {resource_type}, {start}, {number_of_steps}, {step_width}, {resolution}, [min_pass_count], [min_stable_error_count,] [histogram_step_width,] [transition_detection], [error_count_limit], [restore_flag], {(setup_pinlist)}
+```
+
+### TOCF?（取自子主题 Commands in alphabetical order › List of commands › TOCF  TOCF  -  Timing Level Offset search ConFiguration）
+
+```
+TOCF? {(pinlist)}
+```
+
+returns:
+
+```
+TOCF {search_type} {resource_type}, {start}, {number_of_steps}, {step_width}, {resolution}, {min_pass_count}, {min_stable_error_count}, {histogram_step_width}, {transition_detection}, {error_count_limit}, {restore_flag}, {(setup_pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TOCF  TOCF  -  Timing Level Offset search ConFiguration）
 
 |
@@ -24648,6 +29305,30 @@ TOCF EYE,R,1,100,1,0.1,1,10,0.1,ECL,7,NO,(Pin1)
 ```
 
 This example appends a histogram based search to the binary search. The histogram based search is terminated if the error count is stable for 10 consecutive search steps. A test is considered passed if the number of errors is smaller than 7.
+
+### TOCR（取自子主题 Commands in alphabetical order › List of commands › TOCR  TOCR  -  Timing level Offset Configure Result pins）
+
+```
+TOCR [(result_pinlist)], {(setup_pin)}
+```
+
+### TOCR?（取自子主题 Commands in alphabetical order › List of commands › TOCR  TOCR  -  Timing level Offset Configure Result pins）
+
+```
+TOCR? {(result_pinlist)},
+```
+
+or
+
+```
+TOCR? , {(setup_pinlist)}
+```
+
+Both formats return:
+
+```
+TOCR {(result_pinlist)}, {(setup_pin)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TOCR  TOCR  -  Timing level Offset Configure Result pins）
 
@@ -25285,6 +29966,24 @@ The pins for which the embedded timing search configuration is to be removed.
 TOUD (Pin1, Pin2)
 ```
 
+### TPSE（取自子主题 Commands in alphabetical order › List of commands › TPSE  TPSE  -  Test Point SEquence）
+
+```
+TPSE {testdata_name}, {label_type}, {label_name}, {edit_mode}, {(pinlist)}, [#spec(test_points)]
+```
+
+### TPSE?（取自子主题 Commands in alphabetical order › List of commands › TPSE  TPSE  -  Test Point SEquence）
+
+```
+TPSE? {label_type}, {label_name}, [anchor_number],{(pinlist)}
+```
+
+returns:
+
+```
+TPSE {testdata_name}, {label_type}, {label_name}, REPLACE, {(pinlist)}, [#spec(test_points)]
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TPSE  TPSE  -  Test Point SEquence）
 
 |
@@ -25483,6 +30182,12 @@ TPSE "ramp_events",SVEC,"ramp4",REPLACE,(vdd),#3226<?xml version="1.0"?>
 </sequence>
 ```
 
+### TPSP（取自子主题 Commands in alphabetical order › List of commands › TPSP  TPSP  -  TestPoint SuPpression）
+
+```
+TPSP {suppression_type}, {(pin_list)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TPSP  TPSP  -  TestPoint SuPpression）
 
 |
@@ -25517,6 +30222,24 @@ TPSP OFF,(dps1)
 ```
 
 In this example, input operations for `dps1` are suppressed for the following functional test. After completion of the test, the suppression is canceled.
+
+### TSCF（取自子主题 Commands in alphabetical order › List of commands › TSCF  TSCF  -  TMU Set ConFiguration）
+
+```
+TSCF {"ts_name"}, {property}, {property_value|RESET}, {(pinlist)}
+```
+
+### TSCF?（取自子主题 Commands in alphabetical order › List of commands › TSCF  TSCF  -  TMU Set ConFiguration）
+
+```
+TSCF? {"ts_name"|ALL|PRM}, [property], {(pinlist)}
+```
+
+returns:
+
+```
+TSCF {"ts_name"}, {property}, {property_value}, {(pinlist)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSCF  TSCF  -  TMU Set ConFiguration）
 
@@ -25755,6 +30478,24 @@ Note that the original level setup is automatically restored after the measureme
 
 This example queries a period measurement definition. Typically, only two samples are taken for such a measurement, and these at a great distance (see the INTER_SAMPLE_DISCARD property in the example). The period resulting from this measurement can be retrieved with the `TSRS?`（raw: `02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md`） query.
 
+### TSDF（取自子主题 Commands in alphabetical order › List of commands › TSDF  TSDF  -  TMU Set DeFinition）
+
+```
+TSDF {"TMU_set_name"} [, "mode_context"]
+```
+
+### TSDF?（取自子主题 Commands in alphabetical order › List of commands › TSDF  TSDF  -  TMU Set DeFinition）
+
+```
+TSDF? ["TMU_set_name"]
+```
+
+returns:
+
+```
+TSDF {"TMU_set_name"} [, "mode_context"]
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSDF  TSDF  -  TMU Set DeFinition）
 
 |
@@ -25865,6 +30606,16 @@ The pins for which the state of the TMU measurement is to be returned.
 > TSER? (Pin1)
 < TSER ARM_OVERRUN,(Pin1)
 ```
+
+### TSHA?（取自子主题 Commands in alphabetical order › List of commands › TSHA  -  Timing Setup Has Arming）
+
+```
+TSHA? {specset_id|"multi-port_spec"}, {(pinlist)}
+```
+
+returns:
+
+TSHA {specset_id|"multi-port_spec"},{TRUE|FALSE}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSHA  -  Timing Setup Has Arming）
 
@@ -26049,6 +30800,24 @@ The pins for which the state of the TMU measurement is to be returned.
 ```
 > TSMD? (Pin1)
 < TSMD FINISHED,(Pin1)
+```
+
+### TSPR（取自子主题 Commands in alphabetical order › List of commands › TSPR  TSPR  -  TMU Set PRimary set）
+
+```
+TSPR {"TMU_set_name"|""}
+```
+
+### TSPR?（取自子主题 Commands in alphabetical order › List of commands › TSPR  TSPR  -  TMU Set PRimary set）
+
+```
+TSPR?
+```
+
+returns:
+
+```
+TSPR {"TMU_set_name"|""}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSPR  TSPR  -  TMU Set PRimary set）
@@ -26722,6 +31491,24 @@ Results are provided only for the pins specified in pinlist. If you specify more
 
 This example shows the effect of a mask. As shown by the first query, the only error was that at least one pin has failed the limit check. In the second query, bit 0 of the result byte is masked, and consequently TSST? returns P for both result and status.
 
+### TSTL（取自子主题 Commands in alphabetical order › List of commands › TSTL  TSTL  -  TeST Label）
+
+```
+TSTL {"label"}, [(port)]
+```
+
+### TSTL?（取自子主题 Commands in alphabetical order › List of commands › TSTL  TSTL  -  TeST Label）
+
+```
+TSTL?
+```
+
+returns:
+
+```
+TSTL {"label"}, {(port)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSTL  TSTL  -  TeST Label）
 
 |
@@ -26782,6 +31569,48 @@ This option removes all defined TMU sets.
 
 ```
 > TSUD   "TMU_set1"
+```
+
+### TSUS（取自子主题 Commands in alphabetical order › List of commands › TSUS  TSUS  -  Timing Sets USed）
+
+```
+TSUS {waveform_set},{timing_set}
+```
+
+### TSUS?（取自子主题 Commands in alphabetical order › List of commands › TSUS  TSUS  -  Timing Sets USed）
+
+```
+TSUS? {waveform_set}
+```
+
+returns:
+
+```
+TSUS {waveform_set},{timing_set}
+```
+
+Or:
+
+```
+TSUS? {specset_id}
+```
+
+returns:
+
+```
+TSUS {specset_id},{timing_set}
+```
+
+Or, for multiport specifications:
+
+```
+TSUS? {"multiport_spec"}[,(portlist)]
+```
+
+returns:
+
+```
+TSUS {"multiport_spec"},{timing_set}[,(port)]
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSUS  TSUS  -  Timing Sets USed）
@@ -26846,6 +31675,26 @@ TSUS "spefc",3,(ARMPort)
 ```
 
 This example queries the number of timing sets defined for port ARMPort in the multiport specification spefc.
+
+### TSUX（取自子主题 Commands in alphabetical order › List of commands › TSUX  TSUX  -  Timing Sets Used eXtended）
+
+```
+
+TSUX {waveform_set},{timing_set}
+```
+
+### TSUX?（取自子主题 Commands in alphabetical order › List of commands › TSUX  TSUX  -  Timing Sets Used eXtended）
+
+```
+
+TSUX? {waveform_set}
+```
+
+returns:
+
+```
+TSUX {waveform_set},{timing_set}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSUX  TSUX  -  Timing Sets Used eXtended）
 
@@ -26974,6 +31823,24 @@ Timing specification and TMU set are not consistent.
 ```
 
 This example queries if the current primary timing is consistent to the TMU set `TMU_set1`.
+
+### TTCF（取自子主题 Commands in alphabetical order › List of commands › TTCF  TTCF  -  Transition Test ConFiguration）
+
+```
+TTCF {"tt_name"}, {property}, {property_value}, {(pinlist)}
+```
+
+### TTCF?（取自子主题 Commands in alphabetical order › List of commands › TTCF  TTCF  -  Transition Test ConFiguration）
+
+```
+TTCF? {"tt_name"|ALL|PRM|DEFAULT}, {property|ALL}, {(pinlist)}
+```
+
+returns:
+
+```
+TTCF {"tt_name"}, {property}, {property_value}, {(pinlist)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TTCF  TTCF  -  Transition Test ConFiguration）
 
@@ -27827,6 +32694,44 @@ This example queries how often the first special idle token was removed in the l
 
 The first line of the reply reports the transitions of the last 24 UI, accumulated in blocks of 6. The third line reports which accumulated transition patterns occurred in one window (= 3 UI) during the last sequencer run. Three of the 8 possible patterns were observed.
 
+### TTDF（取自子主题 Commands in alphabetical order › List of commands › TTDF  TTDF  -  Transition Test set DeFinition）
+
+```
+TTDF {"tt_set_name"} [, "mode_context"]
+```
+
+### TTDF?（取自子主题 Commands in alphabetical order › List of commands › TTDF  TTDF  -  Transition Test set DeFinition）
+
+```
+TTDF? ["tt_set_name"]
+```
+
+returns:
+
+```
+TTDF {"tt_set_name"} [, "mode_context"]
+```
+
+Parameters
+ |
+
+tt_set_name
+
+ |
+
+In the command, this is the name of a new transition test set. In the query, it is a name of an existing transition test set. If you omit this parameter in the query, TTDF? will return the names of all user defined transition test sets.
+
+ |
+ |
+
+mode_context
+
+ |
+
+The mode context with which the transition test set is associated. If this parameter is omitted, the DEFAULT context is assumed.
+
+ |
+
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TTDF  TTDF  -  Transition Test set DeFinition）
 
 ```
@@ -27947,6 +32852,22 @@ In a multiport setup, every pin must belong to a port of the specified specifica
 ```
 > TTMD 101,1,(PIN1)
 < TTMD 101,1,X4,,(PIN1)
+```
+
+### TTPR（取自子主题 Commands in alphabetical order › List of commands › TTPR  TTPR  -  Transition Test PRimary set）
+
+TTPR {"tt_set_name"|DEFAULT}
+
+### TTPR?（取自子主题 Commands in alphabetical order › List of commands › TTPR  TTPR  -  Transition Test PRimary set）
+
+```
+TTPR?
+```
+
+returns:
+
+```
+TTPR {"tt_set_name"}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TTPR  TTPR  -  Transition Test PRimary set）
@@ -28894,6 +33815,26 @@ UDUT (@)
 
 This command undefines all defined utility line names.
 
+### UHCM（取自子主题 Commands in alphabetical order › List of commands › UHCM  UHCM  -  Ultra High Current power supply Modes）
+
+```
+UHCM {`set_nr`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_set_nr`）}, `[time_to_alarm`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_time_to_alarm`）,] `[reserved_param`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_reserved_param`）], `[clamp_mode`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_clamp_mode`）], `[fast_preload`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_fast_preload`）],
+         `[openLoopProtection`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_openLoopProtection`）,] `[force_drop`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_force_drop`）], `[return_drop`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_return_drop`）], `[pulldown`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_pulldown`）,] {(`pinlist`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_pinlist`）)}
+```
+
+### UHCM?（取自子主题 Commands in alphabetical order › List of commands › UHCM  UHCM  -  Ultra High Current power supply Modes）
+
+```
+UHCM? {`set_nr`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_set_nr`）}, {(`pinlist`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_pinlist`）)}
+```
+
+returns:
+
+```
+UHCM {`set_nr`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_set_nr`）}, `[time_to_alarm`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_time_to_alarm`）,] `[reserved_param`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_reserved_param`）], `[clamp_mode`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_clamp_mode`）], `[fast_preload`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_fast_preload`）],
+         `[openLoopProtection`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_openLoopProtection`）,] `[force_drop`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_force_drop`）], `[return_drop`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_return_drop`）], {`[pulldown`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_pulldown`）], {(`pinlist`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_pinlist`）)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UHCM  UHCM  -  Ultra High Current power supply Modes）
 
 | set_nr  | The mandatory identification number of the DPS set which you want to modify:
@@ -29059,6 +34000,24 @@ UHCM PRM,,,,0.4,0.1,(Vee)
 
 This example sets the voltage drop force to 0.4 V, and the voltage drop return to 0.1 V.
 
+### UPAS（取自子主题 Commands in alphabetical order › List of commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
+
+```
+UPAS {site}, ["{setting}"], {(purpose_name)}
+```
+
+### UPAS?（取自子主题 Commands in alphabetical order › List of commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
+
+```
+UPAS? {site}, {(purpose_name)}
+```
+
+returns:
+
+```
+UPAS {site}, "{setting}", {(purpose_name)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
 
 | site |
@@ -29110,6 +34069,24 @@ In the query, the symbol @ can be used to list all defined utility purposes.
 ```
 
 In this example, the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command defines a utility purpose AWG_CNCT and output states for site 1. The UPAS command defines the output states of AWG_CNCT for site 2. First the settings of site 1 are activated. Then the setup focus is restricted to site 2, and the output states for site 2 are activated.
+
+### UPST（取自子主题 Commands in alphabetical order › List of commands › UPST  UPST  -  Utility Purpose STate）
+
+```
+UPST ["setting"], {(purpose_name)}
+```
+
+### UPST?（取自子主题 Commands in alphabetical order › List of commands › UPST  UPST  -  Utility Purpose STate）
+
+```
+UPST? {(purpose_name)}
+```
+
+returns:
+
+```
+UPST "{setting}", {(purpose_name)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UPST  UPST  -  Utility Purpose STate）
 
@@ -29163,6 +34140,24 @@ UPST "0110",(AWG_CNCT)
 
 This example sets the utility purpose "AWG_CNCT" to the hardware, then reads the state of the utility purpose.
 
+### UPTD（取自子主题 Commands in alphabetical order › List of commands › UPTD  UPTD  -  UP To Date）
+
+```
+UPTD {status}, {flag}
+```
+
+### UPTD?（取自子主题 Commands in alphabetical order › List of commands › UPTD  UPTD  -  UP To Date）
+
+```
+UPTD? {status}
+```
+
+returns:
+
+```
+UPTD {status}, {flag}
+```
+
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UPTD  UPTD  -  UP To Date）
 
 ```
@@ -29173,6 +34168,24 @@ This example requests if the pin configuration data has been changed since the f
 
 ```
 UPTD CONF,1
+```
+
+### UPTI（取自子主题 Commands in alphabetical order › List of commands › UPTI  UPTI  -  Utility Purpose settling TIme）
+
+```
+UPTI {time}, {(purpose_name)}
+```
+
+### UPTI?（取自子主题 Commands in alphabetical order › List of commands › UPTI  UPTI  -  Utility Purpose settling TIme）
+
+```
+UPTI? {(purpose_name)}
+```
+
+returns:
+
+```
+UPTI {time}, {(purpose_name)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UPTI  UPTI  -  Utility Purpose settling TIme）
@@ -29350,6 +34363,24 @@ UTIX 165,65534
 
 In this example the first 16 utility lines of block 165 were either set to FFFEh by UTOT or they were set to FFFFh and an external device has pulled down line 00, or both occurrences have taken place.
 
+### UTOT（取自子主题 Commands in alphabetical order › List of commands › UTOT  UTOT  -  UTility line OuTputs）
+
+```
+UTOT {utility_group}, [mask], {value}
+```
+
+### UTOT?（取自子主题 Commands in alphabetical order › List of commands › UTOT  UTOT  -  UTility line OuTputs）
+
+```
+UTOT? {utility_group}
+```
+
+returns:
+
+```
+UTOT {utility_group}, [mask], {word}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UTOT  UTOT  -  UTility line OuTputs）
 
 | utility_group |
@@ -29514,6 +34545,24 @@ returns the last written values. If you have just executed example 3, the result
 UTOT 166,,65535
 ```
 
+### UTSC（取自子主题 Commands in alphabetical order › List of commands › UTSC  UTSC  -  UTility line Serial Configuration）
+
+```
+UTSC {(word) | ALL}, {mode} [, maskMode]
+```
+
+### UTSC?（取自子主题 Commands in alphabetical order › List of commands › UTSC  UTSC  -  UTility line Serial Configuration）
+
+```
+UTSC? {(word)} | ALL
+```
+
+returns:
+
+```
+UTSC {(word)}, {mode} [, maskMode]
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UTSC  UTSC  -  UTility line Serial Configuration）
 
 | word |
@@ -29635,6 +34684,24 @@ UTSC 171,OFF
 UTSC 172,OFF
 ```
 
+### UTST（取自子主题 Commands in alphabetical order › List of commands › UTST  UTST  -  UTility line STate）
+
+```
+UTST {value}, {(util_name)}
+```
+
+### UTST?（取自子主题 Commands in alphabetical order › List of commands › UTST  UTST  -  UTility line STate）
+
+```
+UTST? type, {(util_name)}
+```
+
+returns:
+
+```
+UTST {value}, {(util_name)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UTST  UTST  -  UTility line STate）
 
 | value |
@@ -29682,6 +34749,24 @@ UTST 0,(Filt3,Filt4)
 ```
 
 This example sets the utility lines "Filt1" and "Filt2" to high output, and "Filt3" and "Filt4" to low output.
+
+### UTTI（取自子主题 Commands in alphabetical order › List of commands › UTTI  UTTI  -  UTility line settling TIme）
+
+```
+UTTI {time}, {(util_name)}
+```
+
+### UTTI?（取自子主题 Commands in alphabetical order › List of commands › UTTI  UTTI  -  UTility line settling TIme）
+
+```
+UTTI? {(util_name)}
+```
+
+returns:
+
+```
+UTTI {time}, {(util_name)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UTTI  UTTI  -  UTility line settling TIme）
 
@@ -29970,6 +35055,22 @@ List of DC Scale pins.
 ```
 > VALR? (dpsPin)
 < VALR CONS,10,(dpsPin)
+```
+
+### VCAT（取自子主题 Commands in alphabetical order › List of commands › VCAT  VCAT  -  VeCtor ATtachment）
+
+VCAT {"label_name"}, {(port)}, {"attachment_type"}, {#spec(data)}
+
+### VCAT?（取自子主题 Commands in alphabetical order › List of commands › VCAT  VCAT  -  VeCtor ATtachment）
+
+```
+VCAT? {"label_name"|ALL}, {(port)}, {"attachment_type"}
+```
+
+returns
+
+```
+VCAT {"label_name"}, {(port)}, {"attachment_type"}, {#spec(data)}
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › VCAT  VCAT  -  VeCtor ATtachment）
@@ -30796,6 +35897,10 @@ VDCN 93, "EXAMPL", 1, 15, (@)
 
 This example downloads vector data resulting from the default values for the EXAMPL device cycle to all pins, starting at active vector 93. The download is repeated 15 times.
 
+### VDCP（取自子主题 Commands in alphabetical order › List of commands › VDCP  VDCP   Vector Device Cycle Parameter）
+
+VDCP {vec_no}, {"dev_cyc_name"}, {dev_cyc_len}, [ed_comp], {DD1}, {DD2}, {ED1}, {ED2}, {(pinlist)}
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › VDCP  VDCP   Vector Device Cycle Parameter）
 
 |
@@ -30943,6 +36048,151 @@ The pin name or names for which a vector data transfer is to be made. If more th
 
 In the second call of VDCP? (the first call just serves to display the underlying situation) the range of interest starts at vector 6. Note that the reply starts with vector 5, and that the first occurrence of MYDC, which lies between vector 2 and vector 6, is not displayed.
 
+### VECC（取自子主题 Commands in alphabetical order › List of commands › VECC  VECC  -  VECtor download Compressed）
+
+```
+VECC {applic}, {type} [, port], {address}, {length}, {(pin_or_port)}, {#spec(data)}
+```
+
+### VECC?（取自子主题 Commands in alphabetical order › List of commands › VECC  VECC  -  VECtor download Compressed）
+
+```
+VECC? {applic}, {type} [, port_list], {address}, [length], {(pinlist)}
+```
+
+returns:
+
+```
+VECC {applic}, {type} [, port], {address}, {length}, {(pin)}, {#spec(data)}
+```
+
+Parameters
+ |
+
+applic
+
+ |
+
+The parameter specifies the target area of the command, and the source area of the query. Possible values are:
+
+ |
+ |
+
+PARA
+
+ |
+
+For 鈥楶ARAllel test'.
+
+ |
+ |
+
+PPSQ
+
+ |
+
+For 鈥楶er-Pin SeQuencer test'.
+
+ |
+ |
+
+For DC Scale channels, only PPSQ is allowed.
+
+ |
+ |
+
+type
+
+ |
+
+The type of memory. This can be
+
+- SM for sequencer memory (the standard type), or
+- SHMEM, a special kind of SM only for multi-site setups, or
+- ALL (only in the query) for both SM and SHMEM.
+ |
+ |
+
+port
+
+ |
+
+This parameter is required if the command is applied to a 7.x setup, where the STVA instructions are port specific (address specified in param_2).
+
+If the parameter is omitted for an older setup (so that the address parameter refers to the one global vector area), VECC will find the correct location of the data by analyzing the STVA addresses of the setup.
+
+ |
+ |
+
+port_list
+
+ |
+
+In the query, you can specify a port list for a 7.x setup. You will get an answer for every pin in pinlist that belongs to one of the specified ports.
+
+ |
+ |
+
+address
+
+ |
+
+The address of the target area where the data transfer should start. This must be a multiple of 8. If a port is specified (which is required for a 7.x setup), the address refers to the specific vector area of this port. If no port is specified (which is only allowed for older setups), it refers to the one global vector area.
+
+For the command, the start address may be greater than the actual last address of the target area. In this case, VECC extends the size of the target area accordingly; the new last address will be at address + length.
+
+ |
+ |
+
+length
+
+ |
+
+The length of the data that is to be down- or uploaded. This must be a multiple of 8.
+
+In the command, address + length may be greater than the actual last address of the target area. In this case, VECC extends the size of the target area accordingly; the new last address will be at address + length.
+
+This parameter is optional for the query. If you enter a length, the contents of the specified part of the vector area are returned. If you omit it, the contents of the memory from address to the current end address of the target area are returned.
+
+ |
+ |
+
+pin_or_port
+
+ |
+
+The name of the pin whose vectors are to be down- or uploaded. If you specify a port, the vectors will be downloaded to all pins of this port.
+
+Note that if the query is issued for a port, the answer will be given for the individual pins.
+
+ |
+ |
+
+pinlist
+
+ |
+
+The pins for which vector data is to be returned from the vector area.
+
+Note: You can either type the pin number or the pin alias.
+
+ |
+ |
+
+#spec(data)
+
+ |
+
+Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:
+
+Type # to mark the start of the data block.
+
+Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.
+
+The compressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character (`\x0A`).
+
+ |
+
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VECC  VECC  -  VECtor download Compressed）
 
 ```
@@ -30960,6 +36210,149 @@ data:
 VECD PARA,SM,0,56,(S0),#9000000016\x02Ee\x80\x02Ee\x814VX\x13Eu\x90\x00\x0A
 status: 0
 ```
+
+### VECD（取自子主题 Commands in alphabetical order › List of commands › VECD  VECD  -  VECtor Download）
+
+```
+VECD {applic}, {type} [, port], {address}, {length}, {(pin_or_port)}, {#spec(data)}
+```
+
+### VECD?（取自子主题 Commands in alphabetical order › List of commands › VECD  VECD  -  VECtor Download）
+
+```
+VECD? {applic}, {type} [, port_list], {address}, [length], {(pinlist)}
+```
+
+returns:
+
+```
+VECD {applic}, {type} [, port], {address}, {length}, {(pin)}, {#spec(data)}
+```
+
+Parameters
+ |
+
+applic
+
+ |
+
+The parameter specifies the target area of the command, and the source area of the query. Possible values are:
+
+ |
+ |
+
+PARA
+
+ |
+
+For 鈥楶ARAllel test'.
+
+ |
+ |
+
+PPSQ
+
+ |
+
+For 鈥楶er-Pin SeQuencer test'.
+
+ |
+ |
+
+For DC Scale channels, only PPSQ is allowed.
+
+ |
+ |
+
+type
+
+ |
+
+The type of memory. This can be
+
+- SM for sequencer memory (the standard type), or
+- SHMEM, a special kind of SM only for multi-site setups, or
+- ALL (only in the query) for both SM and SHMEM.
+ |
+ |
+
+port
+
+ |
+
+This parameter is required if the command is applied to a 7.x setup, where the STVA instructions are port specific (address specified in param_2).
+
+If the parameter is omitted for an older setup (so that the address parameter refers to the one global vector area), VECD will find the correct location of the data by analyzing the STVA addresses of the setup.
+
+ |
+ |
+
+port_list
+
+ |
+
+In the query, you can specify a port list for a 7.x setup. You will get an answer for every pin in pinlist that belongs to one of the specified ports.
+
+ |
+ |
+
+address
+
+ |
+
+The address of the target area where the data transfer should start. This must be a multiple of 8. If a port is specified (which is required for a 7.x setup), the address refers to the specific vector area of this port. If no port is specified (which is only allowed for older setups), it refers to the one global vector area.
+
+For the command, the start address may be greater than the actual last address of the target area. In this case, VECD extends the size of the target area accordingly; the new last address will be at address + length.
+
+ |
+ |
+
+length
+
+ |
+
+The length of the data that is to be down- or uploaded. This must be a multiple of 8.
+
+In the command, address + length may be greater than the actual last address of the target area. In this case, VECD extends the size of the target area accordingly; the new last address will be at address + length.
+
+This parameter is optional for the query. If you enter a length, the contents of the specified part of the vector area are returned. If you omit it, the contents of the memory from address to the current end address of the target area are returned.
+
+ |
+ |
+
+pin_or_port
+
+ |
+
+The name of the pin whose vectors are to be down- or uploaded. If you specify a port, the vectors will be downloaded to all pins of this port.
+
+Note that if the query is issued for a port, the answer will be given for the individual pins.
+
+ |
+ |
+
+pinlist
+
+ |
+
+The pins for which vector data is to be returned from the vector area.
+
+ |
+ |
+
+#spec(data)
+
+ |
+
+Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:
+
+Type # to mark the start of the data block.
+
+Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.
+
+The uncompressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character. One byte represents one vector.
+
+ |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VECD  VECD  -  VECtor Download）
 
@@ -31617,6 +37010,25 @@ RLYC DC,PMU,(outputs); WAIT 1000; FTST?
 
 This example causes the MCD to wait 1 ms (1000 碌s) for the PMU relay to close before executing a functional test.
 
+### WAVE（取自子主题 Commands in alphabetical order › List of commands › WAVE  WAVE  -  WAVEform）
+
+```
+WAVE {wvf_set}, {wfIndex}, [DD1], [DD2], [ED1], [ED2], {pwfIndex}, {(pinlist)}
+WAVE {specset_id|"multiport_spec"}, {wfIndex}, [DD1], [DD2], [ED1], [ED2], {pwfIndex}, {(pinlist)}, ALLOW_EQ
+```
+
+### WAVE?（取自子主题 Commands in alphabetical order › List of commands › WAVE  WAVE  -  WAVEform）
+
+```
+WAVE? {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {(pinlist)}
+```
+
+returns:
+
+```
+WAVE {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {wfIndex}, [DD1], [DD2], [ED1], [ED2], {pwfIndex}, {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › WAVE  WAVE  -  WAVEform）
 
 |
@@ -31869,6 +37281,205 @@ Note also the following:
 
 This example first defines a logical waveform with the index 2 for waveform set 1. The waveform uses the data parameter D11, the fixed action 0, and the complement C11 of D11. Then two physical waveforms are defined for logical waveform 2, which are referenced by the physical waveform DC/DC power units 4 and 5. Waveform 4 drives to 0 at edge d1, to 0 at d3, and to 1 at d4. Waveform 5 drives to 1 at edge d1, to 0 at d3, and to 0 at d4.
 
+### WFDF（取自子主题 Commands in alphabetical order › List of commands › WFDF  WFDF  -  WaveForm DeFinition）
+
+```
+WFDF {wvf_set}, {wfIndex}, {a1}, {a2}, {a3}, {a4}, {a5}, {a6}, {(pinlist)}
+```
+
+### WFDF?（取自子主题 Commands in alphabetical order › List of commands › WFDF  WFDF  -  WaveForm DeFinition）
+
+```
+WFDF? {wvf_set|"wavetable"|specset_id|"multiport_spec"}, {wfIndex}, [mode], {(pinlist)}
+```
+
+returns:
+
+```
+WFDF {wvf_set|"wavetable"|specset_id|"multiport_spec"}, {wfIndex}, {a1}, {a2}, {a3}, {a4}, {a5}, {a6}, {(pinlist)}
+```
+
+Parameters
+ |
+
+wvf_set
+
+ |
+
+Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
+
+ |
+ |
+
+wavetable
+
+ |
+
+The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes.
+
+ |
+ |
+
+specset_id
+
+ |
+
+Derived as follows:
+
+`100 * equation_set_no + specset_no`
+
+ |
+ |
+
+multiport_spec
+
+ |
+
+To query a multiport specification, enter the name of the specification.
+
+ |
+ |
+
+wfIndex
+
+ |
+
+Waveform index. Enter an integer between 0 and 31. The index references a waveform in a device cycle. For the query command you can also enter ALL for all waveform DC/DC power units. The waveform index is also used by the `WAVE`（raw: `02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`） commands.
+
+ |
+ |
+
+a1 to a6
+
+ |
+
+Drive and compare actions, one per edge. There are drive actions that are fixed (drive to a certain fixed level) and receive actions that are fixed (compare to a certain fixed level). You can also drive to two drive data parameters (DD1 and DD2), and compare to two expected data parameters (ED1 and ED2).
+
+Note that no tri-state actions, either defined or implied, are allowed on edges 2 or 5. For details, refer to `Restrictions for drive edges`（raw: `02.06.06.01.03.01.02.01_Restrictions_for_drive_edges.md`）.
+
+On the drive data side the actions you can define are:
+
+- N: No action
+- F0N: Drive 0, no tri-state action
+- F1N: Drive 1, no tri-state action
+- FN0: No drive action, tri-state off
+- FNZ: No drive action, tri-state on
+- F00: Drive 0, tri-state off
+- F0Z: Drive 0, tri-state on
+- F10: Drive 1, tri-state off
+- F1Z: Drive 1, tri-state on
+- D1N: Drive parameter 1 (DD1), no tri-state action
+- D1N: Drive parameter 2 (DD2), no tri-state action
+- C1N: Drive complement of parameter 1 (DD1), no tri-state action
+- C2N: Drive complement of parameter 2 (DD2), no tri-state action
+- DN1: No drive action, tri-state parameter 1 (DD1)
+- DN2: No drive action, tri-state parameter 2 (DD2)
+- D11: Drive parameter 1 (DD1), tri-state parameter 1 (DD1)
+- C11: Drive complement of parameter 1 (DD1), tri-state parameter 1 (DD1)
+- D22: Drive parameter 2 (DD2), tri-state parameter 2 (DD2)
+- C22: Drive complement of parameter 2 (DD2), tri-state parameter 2 (DD2)
+
+The following table shows which data-dependent drive actions use the driver formatter, which use the tri-state formatter, and which use both. You have to consider this when assigning parameters to the `WAVE`（raw: `02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`） command.
+
+ |
+ |
+
+ |
+
+Data-dependent Drive Action
+
+ |
+
+Driver
+
+ |
+
+Tri-state
+
+ |
+ |
+
+ |
+
+D1N, D2N, C1N, C2N
+
+ |
+
+yes
+
+ |
+
+no
+
+ |
+ |
+
+ |
+
+DN1, DN2
+
+ |
+
+no
+
+ |
+
+yes
+
+ |
+ |
+
+ |
+
+D11, C11, D22, C22
+
+ |
+
+yes
+
+ |
+
+yes
+
+ |
+ |
+
+ |
+
+On the expected data side the actions you can define are:
+
+- N: No action
+- E0: Edge compare to 0
+- E1: Edge compare to 1
+- EI: Edge compare to intermediate
+- EX: Edge compare to mask
+- EU: Edge compare to unstable
+- C: Capture digital data (selective digital capture)
+- D: Do not capture digital data (selective digital capture)
+
+Note that waveforms that are to be used for selective digital capture must contain exactly one compare action.
+
+- W0: Window open with compare to 0
+- W1: Window open with compare to 1
+- WI: Window open with compare to intermediate
+- WX: Window open with compare to mask
+- WU: Window open with compare to unstable
+- WC: Window close
+- EE1: Edge compare to parameter 1 (ED1)
+- EE2: Edge compare to parameter 1 (ED2)
+- WE1: Window open with compare to parameter 1 (ED1)
+- WE2: Window open with compare to parameter 1 (ED2)
+ |
+ |
+
+pinlist
+
+ |
+
+The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with commas.
+
+ |
+
 ### Example（取自子主题 Commands in alphabetical order › List of commands › WFDF  WFDF  -  WaveForm DeFinition）
 
 ```
@@ -31876,6 +37487,25 @@ This example first defines a logical waveform with the index 2 for waveform set 
 ```
 
 This example defines a waveform referenced by waveform index 2. The waveform uses the drive data and tri-state parameter 1. Edge number 3 provides the timing for this waveform. The definitions are made for waveform set 1 and for pins D0 to D3.
+
+### WFDS（取自子主题 Commands in alphabetical order › List of commands › WFDS  WFDS  -  WaveForm Definition String）
+
+```
+WFDS {wvf_set}, {wfIndex}, [mode], {definition_string}, {(pinlist)}
+WFDS {specset_id|"multiport_spec"}, {wfIndex}, [mode], {definition_string}, {(pinlist)}, ALLOW_EQ
+```
+
+### WFDS?（取自子主题 Commands in alphabetical order › List of commands › WFDS  WFDS  -  WaveForm Definition String）
+
+```
+WFDS? {wvf_set|"wavetable"|specset_id|"multiport_spec"}, {wfIndex}, [mode], {(pinlist)}
+```
+
+returns:
+
+```
+WFDS {wvf_set|"wavetable"|specset_id|"multiport_spec"}, {wfIndex}, [mode], {definition_string}, {(pinlist)}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › WFDS  WFDS  -  WaveForm Definition String）
 
@@ -32948,6 +38578,12 @@ WRST 3
 
 This example resets all waveform and timing entries for all pins for waveform set 3.
 
+### WSDM（取自子主题 Commands in alphabetical order › List of commands › WSDM  WSDM  -  Waveform Set Display Mode）
+
+```
+WSDM {waveform_set}, {display_mode}
+```
+
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › WSDM  WSDM  -  Waveform Set Display Mode）
 
 |
@@ -33046,6 +38682,24 @@ WSDN
 ```
 
 The WSDN command returns if all buffered setup downloading, triggered by the FLSH command, is completed.
+
+### WSUS（取自子主题 Commands in alphabetical order › List of commands › WSUS  WSUS  -  Waveform Sets USed）
+
+```
+WSUS {waveform_set}
+```
+
+### WSUS?（取自子主题 Commands in alphabetical order › List of commands › WSUS  WSUS  -  Waveform Sets USed）
+
+```
+WSUS?
+```
+
+returns:
+
+```
+WSUS {waveform_set}
+```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › WSUS  WSUS  -  Waveform Sets USed）
 
@@ -33547,6 +39201,24 @@ CHIN 21702,DPS128HC,-1,217,31,191,0
 
 ```
 
+### CONF（取自子主题 Pin configuration setup commands › List of configuration commands › CONF  CONF  -  CONFiguration）
+
+```
+CONF ["context",]{pin_type},[pin_oper_mode],{(pinlist)}
+```
+
+### CONF?（取自子主题 Pin configuration setup commands › List of configuration commands › CONF  CONF  -  CONFiguration）
+
+```
+CONF? ["context"|ALL,] {(pinlist)}
+```
+
+returns:
+
+```
+CONF ["context",]{pin_type},{pin_oper_mode},{(pinlist)}
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › CONF  CONF  -  CONFiguration）
 
 | context |
@@ -33625,6 +39297,24 @@ This example configures pins `D0` and `D1` as bidirectional pins operating in St
 
 This example queries the DC Scale channels `sdd` and `vdd`, which were set with `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） to PMU mode (`DCSIGNAL`) and with `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） to DPS mode (`POWER`), respectively.
 
+### CTXT（取自子主题 Pin configuration setup commands › List of configuration commands › CTXT  CTXT  -  ConTeXT）
+
+```
+CTXT {action},{"name"}
+```
+
+### CTXT?（取自子主题 Pin configuration setup commands › List of configuration commands › CTXT  CTXT  -  ConTeXT）
+
+```
+CTXT?ALL
+```
+
+returns:
+
+```
+CTXT {DEFINE},{"name"}
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › CTXT  CTXT  -  ConTeXT）
 
 |
@@ -33681,6 +39371,32 @@ The name of the mode context. If the action parameter is set to DELETE, you can 
 < CTXT DEFINE,"differential"
 < CTXT DEFINE,"PdrvNPrcv"
 ```
+
+### DFGE（取自子主题 Pin configuration setup commands › List of configuration commands › DFGE  DFGE  -  DeFine Group by Expressions）
+
+```
+DFGE {group_type}, {"group_expression"}, {(pin_group)}
+```
+
+### DFGE?（取自子主题 Pin configuration setup commands › List of configuration commands › DFGE  DFGE  -  DeFine Group by Expressions）
+
+```
+DFGE? {(pin_group)}
+```
+
+returns:
+
+```
+DFGE {group_type}, {("group_expression")}, {(pin_group)}
+```
+
+for expression-based groups, and
+
+```
+DFGP {pin_type}, {(pinlist)}, {(pin_group)}
+```
+
+for digital fixed groups.
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFGE  DFGE  -  DeFine Group by Expressions）
 
@@ -33812,6 +39528,24 @@ The same result would be obtained with the definition
 > DFGE O,"OUT - O1",(SCAN_OUT)
 ```
 
+### DFGP（取自子主题 Pin configuration setup commands › List of configuration commands › DFGP  DFGP  -  DeFine GrouP）
+
+```
+DFGP {pin_type}, {(pinlist)}, {(pin_group)}
+```
+
+### DFGP?（取自子主题 Pin configuration setup commands › List of configuration commands › DFGP  DFGP  -  DeFine GrouP）
+
+```
+DFGP? {(pin_group)}
+```
+
+returns:
+
+```
+DFGP {pin_type}, {(pinlist)}, {(pin_group)}
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFGP  DFGP  -  DeFine GrouP）
 
 |
@@ -33889,6 +39623,36 @@ DFGP O,(Q0,Q1,Q2,Q3),(outputs)
 ```
 
 This example defines a group called outputs which contains pins Q0, Q1, Q2 and Q3.
+
+### DFLV（取自子主题 Pin configuration setup commands › List of configuration commands › DFLV  DFLV  -  DeFaultLeVel）
+
+```
+DFLV [resourceSpecifier,] [mode,] {value}
+```
+
+### DFLV?（取自子主题 Pin configuration setup commands › List of configuration commands › DFLV  DFLV  -  DeFaultLeVel）
+
+```
+DFLV? [resourceSpecifier] [, mode]
+```
+
+returns
+
+```
+DFLV VIL,STD,value
+DFLV VIH,STD,value
+DFLV VIHH,STD,value
+DFLV VOL,STD,value
+DFLV VOH,STD,value
+DFLV VOL_DIFF,STD,value
+DFLV VOH_DIFF,STD,value
+DFLV VT,STD,value
+DFLV VCOM,STD,value
+DFLV REC_OFFSET,STD,value
+DFLV REC_SWING,STD,value
+```
+
+if neither parameter resourceSpecifier nor parameter mode have been specified.
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFLV  DFLV  -  DeFaultLeVel）
 
@@ -33990,6 +39754,24 @@ DFLV REC_SWING,STD,3200
 
 for the cmos technology.
 
+### DFPC（取自子主题 Pin configuration setup commands › List of configuration commands › DFPC  DFPC  -  DeFine Pin Comment）
+
+```
+DFPC {(pin)}, {"comment"}
+```
+
+### DFPC?（取自子主题 Pin configuration setup commands › List of configuration commands › DFPC  DFPC  -  DeFine Pin Comment）
+
+```
+DFPC? {(pinlist)}
+```
+
+returns:
+
+```
+DFPC {(pin)}, {"comment"}
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFPC  DFPC  -  DeFine Pin Comment）
 
 |
@@ -34031,6 +39813,24 @@ The comment to the pin. The maximal length of the comment string is 2048 charact
 ```
 
 Since no comment has been defined for pin `pin2`, it is ignored in the reply.
+
+### DFPN（取自子主题 Pin configuration setup commands › List of configuration commands › DFPN  DFPN  -  DeFine Pin Name）
+
+```
+DFPN ["connectionSet",] {channelNo_1|(list_of_DC_scale_channels)}, ["pinNo"], {(pinName)}
+```
+
+### DFPN?（取自子主题 Pin configuration setup commands › List of configuration commands › DFPN  DFPN  -  DeFine Pin Name）
+
+```
+DFPN? {(pinlist)}
+```
+
+returns:
+
+```
+DFPN {channelNo_1|(list_of_DC_scale_channels)}, ["pinNo"], {(pinName)}
+```
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFPN  DFPN  -  DeFine Pin Name）
 
@@ -34134,6 +39934,24 @@ DFPN (11901, 11902),,(vee)
 ```
 
 This example defines ganging for DC Scale channels in PMU mode.
+
+### DFPS（取自子主题 Pin configuration setup commands › List of configuration commands › DFPS  DFPS  -  DeFine Power Supply）
+
+```
+DFPS {dps_channel|(DC_scale_channel_list)}, {polarity}, {(pin)}
+```
+
+### DFPS?（取自子主题 Pin configuration setup commands › List of configuration commands › DFPS  DFPS  -  DeFine Power Supply）
+
+```
+DFPS? {(pinlist)}
+```
+
+returns:
+
+```
+DFPS {dps_channel|(DC_scale_channel_list)}, {polarity}, {(pin)}
+```
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFPS  DFPS  -  DeFine Power Supply）
 
@@ -34280,6 +40098,18 @@ DFPS (23004, 22701),POS,(VDDCI)
 
 This example specifies the ganging of channels across two DC Scale UHC4 cards.
 
+### DFPT?（取自子主题 Pin configuration setup commands › List of configuration commands › DFPT  DFPT  -  DeFine PorT）
+
+```
+DFPT? {(portlist)}
+```
+
+returns:
+
+```
+DFPT {(pinlist)}, {(port)}
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFPT  DFPT  -  DeFine PorT）
 
 |
@@ -34323,6 +40153,24 @@ DFPT (CP_1,DS7_1,DS0_1,I/O7_1,...,I/O0_1,Q7_1,
 Q0_1,S1_1,S0_1,_MR_1),(port_1)
 DFPT (CP_2,DS7_2,DS0_2,I/O7_2,...,I/O0_2,Q7_2,
 Q0_2,S1_2,S0_2,_MR_2),(port_2)
+```
+
+### DFUP（取自子主题 Pin configuration setup commands › List of configuration commands › DFUP  DFUP  -  DeFine Utility Purpose）
+
+```
+DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
+```
+
+### DFUP?（取自子主题 Pin configuration setup commands › List of configuration commands › DFUP  DFUP  -  DeFine Utility Purpose）
+
+```
+DFUP? {(purpose_name)}
+```
+
+returns
+
+```
+DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
 ```
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFUP  DFUP  -  DeFine Utility Purpose）
@@ -34387,6 +40235,24 @@ Member:      16501  16502  16503  16504
 Setting:     0      1      1      0
 ```
 
+### DFUT（取自子主题 Pin configuration setup commands › List of configuration commands › DFUT  DFUT  -  DeFine UTility line）
+
+```
+DFUT {ch_No}, {type}, {(util_name)}
+```
+
+### DFUT?（取自子主题 Pin configuration setup commands › List of configuration commands › DFUT  DFUT  -  DeFine UTility line）
+
+```
+DFUT? {(util_name)}
+```
+
+returns
+
+```
+DFUT {ch_No}, {type}, {(util_name)}
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFUT  DFUT  -  DeFine UTility line）
 
 | ch_No |
@@ -34439,6 +40305,28 @@ DFUT 16504,w,(filter)
 ```
 
 This example assigns the name `filter` and operating mode w to utility line 4 of the first utility pogo block.
+
+### DSCP（取自子主题 Pin configuration setup commands › List of configuration commands › DSCP  DSCP  -  Define System Control Parameter）
+
+```
+DSCP `[device_cycle`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_device_cycle`）], `[waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`）], `[timing_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_timing_set`）], `[level_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_level_set`）], `[dps_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_dps_set`）], `[pmu_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_pmu_set`）],
+                        `[devicecycle_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_devicecycle_set`）], `[routing_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_routing_set`）], `[period_res_prec`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_period_res_prec`）],
+
+```
+
+### DSCP?（取自子主题 Pin configuration setup commands › List of configuration commands › DSCP  DSCP  -  Define System Control Parameter）
+
+```
+DSCP?
+```
+
+returns:
+
+```
+DSCP {device_cycle}, {waveform_set}, {timing_set}, {level_set}, {dps_set},
+       {pmu_set}, {devicecycle_set}, {routing_set}, [period_res_prec],
+       [period_res_compatibility_model]
+```
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DSCP  DSCP  -  Define System Control Parameter）
 
@@ -34718,6 +40606,36 @@ SOC
 < HWTY VS,TH_4CC,SOC
 ```
 
+### PACT（取自子主题 Pin configuration setup commands › List of configuration commands › PACT  PACT  -  Parallel ACTivities control）
+
+PACT {control}, {site|ALL}
+
+PACT {"site_string"}
+
+### PACT?（取自子主题 Pin configuration setup commands › List of configuration commands › PACT  PACT  -  Parallel ACTivities control）
+
+```
+PACT?
+```
+
+returns
+
+```
+PACT {control}, {site}
+```
+
+Or:
+
+```
+PACT?STR
+```
+
+returns
+
+```
+PACT {"site_string"}
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › PACT  PACT  -  Parallel ACTivities control）
 
 |
@@ -34810,6 +40728,24 @@ This example masks site 2 and site 3, and makes site 1 active.
 ```
 
 This example shows the impact of the optional STR parameter for the query.
+
+### PALS（取自子主题 Pin configuration setup commands › List of configuration commands › PALS  PALS  -  Pin ALlocation for multiple Sites）
+
+```
+PALS {site}, {channel_1|(DC_scale_channels_list)}, [channel_2], {(pin)}
+```
+
+### PALS?（取自子主题 Pin configuration setup commands › List of configuration commands › PALS  PALS  -  Pin ALlocation for multiple Sites）
+
+```
+PALS? {site}, {(pinlist)}
+```
+
+returns:
+
+```
+PALS {site}, {channel_1|(DC_scale_channels_list)}, [channel_2], {(pin)}
+```
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › PALS  PALS  -  Pin ALlocation for multiple Sites）
 
@@ -34969,6 +40905,18 @@ List of the ports that contain the pin, or the differential pair to which the sp
 < PFND DIFF,(P+,P-),(P+)
 ```
 
+### PQFC（取自子主题 Pin configuration setup commands › List of configuration commands › PQFC  PQFC  -  Parallel Query FoCus）
+
+```
+PQFC {site}
+```
+
+### PQFC?（取自子主题 Pin configuration setup commands › List of configuration commands › PQFC  PQFC  -  Parallel Query FoCus）
+
+```
+PQFC?
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › PQFC  PQFC  -  Parallel Query FoCus）
 
 |
@@ -35020,6 +40968,12 @@ PRLT ALL, "PF0"
 ```
 
 In this example, site 1 passed the last test, site 2 failed it, and site 3 was masked during the test.
+
+### PSSL（取自子主题 Pin configuration setup commands › List of configuration commands › PSSL  PSSL   Power Supply Safety Limits）
+
+```
+PSSL [min_voltage | OFF], [max_voltage | OFF], [max_source_current | OFF], [max_sink_current | OFF], {(pin_list)}
+```
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › PSSL  PSSL   Power Supply Safety Limits）
 
@@ -35077,6 +41031,24 @@ PSSL -2,5,0.5,0.5,(DPS_2)
 PSSL -1.5,3,0.5,0.5,(SIG_1A)
 ```
 
+### PSTE（取自子主题 Pin configuration setup commands › List of configuration commands › PSTE  PSTE  -  Parallel SiTe Enable）
+
+```
+PSTE {sites}
+```
+
+### PSTE?（取自子主题 Pin configuration setup commands › List of configuration commands › PSTE  PSTE  -  Parallel SiTe Enable）
+
+```
+PSTE? [STR]
+```
+
+returns
+
+```
+PSTE {sites|"site_string"}
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › PSTE  PSTE  -  Parallel SiTe Enable）
 
 | sites |
@@ -35115,6 +41087,22 @@ This example configures three sites (site 1, site 2, and site 3).
 ```
 
 This example says that three sites are configured, but that only two of them (site 1 and site 3) are available for testing. Site 2 uses a channel that is listed in the MCDIgnore file, and therefore cannot be used for testing.
+
+### STME（取自子主题 Pin configuration setup commands › List of configuration commands › STME  STME  -  SiTe Match Enable）
+
+```
+STME {ON|OFF|AUTO|FAST},
+```
+
+### STME?（取自子主题 Pin configuration setup commands › List of configuration commands › STME  STME  -  SiTe Match Enable）
+
+```
+STME?
+```
+
+returns:
+
+STME {ON|OFF|FAST),
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › STME  STME  -  SiTe Match Enable）
 
@@ -35304,6 +41292,12 @@ UDUT (@)
 
 This command undefines all defined utility line names.
 
+### UDVP（取自子主题 Pin configuration setup commands › List of configuration commands › UDVP -  UnDefine Virtual Pin）
+
+```
+UDVP (pinlist)
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UDVP -  UnDefine Virtual Pin）
 
 |
@@ -35334,6 +41328,24 @@ The names of the pins to undefine. The @ symbol can be used to undefine all pins
 
 ```
 > UDVP (@)
+```
+
+### UPAS（取自子主题 Pin configuration setup commands › List of configuration commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
+
+```
+UPAS {site}, ["{setting}"], {(purpose_name)}
+```
+
+### UPAS?（取自子主题 Pin configuration setup commands › List of configuration commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
+
+```
+UPAS? {site}, {(purpose_name)}
+```
+
+returns:
+
+```
+UPAS {site}, "{setting}", {(purpose_name)}
 ```
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
@@ -35388,6 +41400,24 @@ In the query, the symbol @ can be used to list all defined utility purposes.
 
 In this example, the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command defines a utility purpose AWG_CNCT and output states for site 1. The UPAS command defines the output states of AWG_CNCT for site 2. First the settings of site 1 are activated. Then the setup focus is restricted to site 2, and the output states for site 2 are activated.
 
+### UPST（取自子主题 Pin configuration setup commands › List of configuration commands › UPST  UPST  -  Utility Purpose STate）
+
+```
+UPST ["setting"], {(purpose_name)}
+```
+
+### UPST?（取自子主题 Pin configuration setup commands › List of configuration commands › UPST  UPST  -  Utility Purpose STate）
+
+```
+UPST? {(purpose_name)}
+```
+
+returns:
+
+```
+UPST "{setting}", {(purpose_name)}
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UPST  UPST  -  Utility Purpose STate）
 
 | setting |
@@ -35440,6 +41470,24 @@ UPST "0110",(AWG_CNCT)
 
 This example sets the utility purpose "AWG_CNCT" to the hardware, then reads the state of the utility purpose.
 
+### UPTI（取自子主题 Pin configuration setup commands › List of configuration commands › UPTI  UPTI  -  Utility Purpose settling TIme）
+
+```
+UPTI {time}, {(purpose_name)}
+```
+
+### UPTI?（取自子主题 Pin configuration setup commands › List of configuration commands › UPTI  UPTI  -  Utility Purpose settling TIme）
+
+```
+UPTI? {(purpose_name)}
+```
+
+returns:
+
+```
+UPTI {time}, {(purpose_name)}
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UPTI  UPTI  -  Utility Purpose settling TIme）
 
 | time |
@@ -35466,6 +41514,24 @@ UPTI 2.5,(AWG_CNCT)
 ```
 
 This example sets the settling time of the utility purpose "AWG_CNCT" to 2.5 ms.
+
+### UTST（取自子主题 Pin configuration setup commands › List of configuration commands › UTST  UTST  -  UTility line STate）
+
+```
+UTST {value}, {(util_name)}
+```
+
+### UTST?（取自子主题 Pin configuration setup commands › List of configuration commands › UTST  UTST  -  UTility line STate）
+
+```
+UTST? type, {(util_name)}
+```
+
+returns:
+
+```
+UTST {value}, {(util_name)}
+```
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UTST  UTST  -  UTility line STate）
 
@@ -35515,6 +41581,24 @@ UTST 0,(Filt3,Filt4)
 
 This example sets the utility lines "Filt1" and "Filt2" to high output, and "Filt3" and "Filt4" to low output.
 
+### UTTI（取自子主题 Pin configuration setup commands › List of configuration commands › UTTI  UTTI  -  UTility line settling TIme）
+
+```
+UTTI {time}, {(util_name)}
+```
+
+### UTTI?（取自子主题 Pin configuration setup commands › List of configuration commands › UTTI  UTTI  -  UTility line settling TIme）
+
+```
+UTTI? {(util_name)}
+```
+
+returns:
+
+```
+UTTI {time}, {(util_name)}
+```
+
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UTTI  UTTI  -  UTility line settling TIme）
 
 | time  | Specifies the wait time to change the utility line status using the `UTST`（raw: `02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） command (in ms). |
@@ -35535,6 +41619,18 @@ UTTI 2.5,(filter)
 ```
 
 This example sets the settling time of the utility line "filter" to 2.5 ms.
+
+### VPIN（取自子主题 Pin configuration setup commands › List of configuration commands › VPIN  VPIN  -  Virtual PIN）
+
+```
+VPIN (pinlist)
+```
+
+### VPIN?（取自子主题 Pin configuration setup commands › List of configuration commands › VPIN  VPIN  -  Virtual PIN）
+
+```
+VPIN? ([(pinlist) | @]}
+```
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › VPIN  VPIN  -  Virtual PIN）
 
@@ -35758,6 +41854,28 @@ O: Output channel
 
 The reply from the *OPT? query has been generated in offline mode. The board IDs are set to 254.
 
+### DSCP（取自子主题 Routing Setup Commands › List of routing setup commands › DSCP  DSCP  -  Define System Control Parameter）
+
+```
+DSCP `[device_cycle`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_device_cycle`）], `[waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`）], `[timing_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_timing_set`）], `[level_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_level_set`）], `[dps_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_dps_set`）], `[pmu_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_pmu_set`）],
+                        `[devicecycle_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_devicecycle_set`）], `[routing_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_routing_set`）], `[period_res_prec`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_period_res_prec`）],
+
+```
+
+### DSCP?（取自子主题 Routing Setup Commands › List of routing setup commands › DSCP  DSCP  -  Define System Control Parameter）
+
+```
+DSCP?
+```
+
+returns:
+
+```
+DSCP {device_cycle}, {waveform_set}, {timing_set}, {level_set}, {dps_set},
+       {pmu_set}, {devicecycle_set}, {routing_set}, [period_res_prec],
+       [period_res_compatibility_model]
+```
+
 ### Parameters（取自子主题 Routing Setup Commands › List of routing setup commands › DSCP  DSCP  -  Define System Control Parameter）
 
 | device_cycle  | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.
@@ -35856,6 +41974,16 @@ Maximum: 128
 DSCP 256,16,256,32,32,1024,16,1,256,
 ```
 
+### SRPR（取自子主题 Routing Setup Commands › List of routing setup commands › SRPR  SRPR  -  Set Routing PRimary）
+
+```
+SRPR {set}
+```
+
+### SRPR?（取自子主题 Routing Setup Commands › List of routing setup commands › SRPR  SRPR  -  Set Routing PRimary）
+
+SRPR?
+
 ### Parameters（取自子主题 Routing Setup Commands › List of routing setup commands › SRPR  SRPR  -  Set Routing PRimary）
 
 |
@@ -35920,6 +42048,24 @@ APRM {mode}
 
 ```
 APRM CNL
+```
+
+### CLMP（取自子主题 Level Setup Commands › List of level setup commands › CLMP  CLMP  -  CLaMP level）
+
+```
+CLMP {level_set|level_set_id}, [clamp_mode], [low_clamp_level], [high_clamp_level], {(pinlist)}
+```
+
+### CLMP?（取自子主题 Level Setup Commands › List of level setup commands › CLMP  CLMP  -  CLaMP level）
+
+```
+CLMP? {level_set|level_set_id}, {(pinlist)}
+```
+
+returns:
+
+```
+CLMP {level_set|level_set_id}, [clamp_mode], [low_clamp_level], [high_clamp_level], {(pinlist)}
 ```
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › CLMP  CLMP  -  CLaMP level）
@@ -36001,6 +42147,24 @@ CLMP 1,ON,-10,5100,(Q0,Q1,Q2,Q3)
 
 This example sets the clamp levels for level set 1 for pins Q0, Q1, Q2 and Q3. The low clamp level is set to -10 mV, and the high clamp level is set to 5100 mV.
 
+### DFSP（取自子主题 Level Setup Commands › List of level setup commands › DFSP  DFSP  -  DeFine Sampling Profile）
+
+```
+DFSP [meas_resource,] {measure_type}, {measure_range}, {sampling_rate}, [average_factor], [keep_range,] {(pinlist)}
+```
+
+### DFSP?（取自子主题 Level Setup Commands › List of level setup commands › DFSP  DFSP  -  DeFine Sampling Profile）
+
+```
+DFSP? {(pinlist)}
+```
+
+returns
+
+```
+DFSP [meas_resource,] {measure_type}, {measure_range},{sampling_rate}, [average_factor], [keep_range,] {(pinlist)}
+```
+
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › DFSP  DFSP  -  DeFine Sampling Profile）
 
 | meas_resource  | The measurement resource. It can be:
@@ -36040,6 +42204,24 @@ or
 
 ```
 DFSP VOLT,2,50,,(@)
+```
+
+### DPRL（取自子主题 Level Setup Commands › List of level setup commands › DPRL  DPRL  -  Default PRimary Level sets）
+
+```
+DPRL {level_set}, {dps_set}, [screen_select]
+```
+
+### DPRL?（取自子主题 Level Setup Commands › List of level setup commands › DPRL  DPRL  -  Default PRimary Level sets）
+
+```
+DPRL?
+```
+
+returns:
+
+```
+DPRL {level_set}, {dps_set}, [screen_select]
 ```
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › DPRL  DPRL  -  Default PRimary Level sets）
@@ -36116,6 +42298,24 @@ DPRL 1,2,LEV
 ```
 
 On sending a query, the system reports that the default primary level set is 1 and the default primary DPS set is 2.
+
+### DRLV（取自子主题 Level Setup Commands › List of level setup commands › DRLV  DRLV  -  DRive LeVel）
+
+```
+DRLV {level_set_no | level_set_id}, [logic_0_level], [logic_1_level], [v3h_level | range,] {(pinlist)}
+```
+
+### DRLV?（取自子主题 Level Setup Commands › List of level setup commands › DRLV  DRLV  -  DRive LeVel）
+
+```
+DRLV? {level_set_no | level_set_id}, {(pinlist)}
+```
+
+returns:
+
+```
+DRLV {level_set | level_set_id}, [logic_0_level], [logic_1_level], [v3h_level | range,] {(pinlist)}
+```
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › DRLV  DRLV  -  DRive LeVel）
 
@@ -36220,6 +42420,24 @@ DRLV 1,-1750,-850,8000,(avi64Pin1)
 
 This example shows how the 8 V drive range of an AVI64 pin is selected.
 
+### DSUS（取自子主题 Level Setup Commands › List of level setup commands › DSUS  DSUS  -  Dps Sets USed）
+
+```
+DSUS {ds_No}
+```
+
+### DSUS?（取自子主题 Level Setup Commands › List of level setup commands › DSUS  DSUS  -  Dps Sets USed）
+
+```
+DSUS?
+```
+
+returns:
+
+```
+DSUS {ds_No}
+```
+
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › DSUS  DSUS  -  Dps Sets USed）
 
 |
@@ -36241,6 +42459,24 @@ DSUS 2
 ```
 
 This example defines a maximum of 2 DPS sets.
+
+### ENSP（取自子主题 Level Setup Commands › List of level setup commands › ENSP  ENSP  -  ENable Sampling Profile）
+
+```
+ENSP {operation_state},{(pinlist)}
+```
+
+### ENSP?（取自子主题 Level Setup Commands › List of level setup commands › ENSP  ENSP  -  ENable Sampling Profile）
+
+```
+ENSP? {(pinlist)}
+```
+
+returns
+
+```
+ENSP {operation_state},{(pinlist)}
+```
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › ENSP  ENSP  -  ENable Sampling Profile）
 
@@ -36279,6 +42515,18 @@ or
 
 ```
 ENSP OFF,(@)
+```
+
+### EQFC（取自子主题 Level Setup Commands › List of level setup commands › EQFC  EQFC  -  EQualization and Filter Configuration）
+
+```
+EQFC {level_set_no|level_set_id|ALL|PRM} ,{filter_parameter|ALL_specifier}, {offset_value|filter_value}, {(pinList)}
+```
+
+### EQFC?（取自子主题 Level Setup Commands › List of level setup commands › EQFC  EQFC  -  EQualization and Filter Configuration）
+
+```
+EQFC? {level_set_no|level_set_id|ALL|PRM} ,{filter_parameter|ALL_specifier|ALL}, {value}, {(pinList)}
 ```
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › EQFC  EQFC  -  EQualization and Filter Configuration）
@@ -36720,6 +42968,73 @@ EQFS LEV,EQN,LOAD,"/tmp/level_equation",
 
 This example loads the level equation file from /tmp/level_equation.
 
+### EQSP（取自子主题 Level Setup Commands › List of level setup commands › EQSP  EQSP  -  EQuation SPecification transfer）
+
+```
+EQSP {spec_type}, {part}, {#spec(data)}
+```
+
+### EQSP?（取自子主题 Level Setup Commands › List of level setup commands › EQSP  EQSP  -  EQuation SPecification transfer）
+
+```
+EQSP?{spec_type}, {part}
+```
+
+returns:
+
+```
+EQSP {spec_type}, {part}, {#spec(data)}
+```
+
+if these are not empty, for backward compatibility.
+
+Parameters
+ |
+
+spec_type
+
+ |
+
+The mandatory parameter defines which specification type to use.
+
+Use:
+
+- LEV to specify levels
+- TIM to specify timing
+ |
+ |
+
+part
+
+ |
+
+The mandatory parameter defines which part of the specification type to use.
+
+Use:
+
+- EQN to specify equations
+- SPS to specify specs
+- WVT to specify a wavetable
+
+part can only be set to WVT, EQN, or CLK if spec_type is set to TIM.
+
+ |
+ |
+
+#spec(data)
+
+ |
+
+An equation based set of data (for example wavetables) in binary format.
+
+This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:
+
+- A # to mark the start of the data block.
+- One digit indicating how many digits make up the data length specifier.
+- A number of digits indicating the length (in bytes) of the data to follow.
+- A number of characters which make up the specified equation based testing file. This stream of characters must be terminated with a @ character.
+ |
+
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › EQSP  EQSP  -  EQuation SPecification transfer）
 
 The following example queries the current wavetables:
@@ -36843,6 +43158,36 @@ The following example illustrates the dependence of the FTCG command on the curr
 
 In the first functional test, sequencing group `SG1` only contains the port `clock`, and therefore activation of primary sets is suppressed at the start of `MP_burst1` only for `clock`, whereas it is enforced for ports `data1` and `data2`. In the second test, `SG1` contains both `clock` and `data1`, and therefore activation is suppressed for both these ports at the start of `MP_burst2`, and enforced only for `data2`.
 
+### LSUS（取自子主题 Level Setup Commands › List of level setup commands › LSUS  LSUS  -  Level Sets USed）
+
+```
+LSUS {level_set_no}
+```
+
+### LSUS?（取自子主题 Level Setup Commands › List of level setup commands › LSUS  LSUS  -  Level Sets USed）
+
+```
+LSUS? [level_set_no]
+```
+
+returns:
+
+```
+LSUS {level_set_no}
+```
+
+or:
+
+```
+LSUS? [equation_set_no]
+```
+
+returns:
+
+```
+LSUS {level_set_no}
+```
+
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › LSUS  LSUS  -  Level Sets USed）
 
 |
@@ -36873,6 +43218,24 @@ LSUS 4
 ```
 
 This example defines a maximum of 4 level sets.
+
+### LSUX（取自子主题 Level Setup Commands › List of level setup commands › LSUX  LSUX  -  Level Sets Used eXtended）
+
+```
+LSUX {level_set_no|SWAP|NONE}
+```
+
+### LSUX?（取自子主题 Level Setup Commands › List of level setup commands › LSUX  LSUX  -  Level Sets Used eXtended）
+
+```
+LSUX?
+```
+
+returns:
+
+```
+LSUX {level_set_no}
+```
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › LSUX  LSUX  -  Level Sets Used eXtended）
 
@@ -36912,6 +43275,24 @@ LSUX 4
 
 This example defines a maximum of 4 level sets.
 
+### MERL（取自子主题 Level Setup Commands › List of level setup commands › MERL  MERL  -  Message ERror Limits）
+
+```
+MERL [error_limit], [message_limit]
+```
+
+### MERL?（取自子主题 Level Setup Commands › List of level setup commands › MERL  MERL  -  Message ERror Limits）
+
+```
+MERL?
+```
+
+returns:
+
+```
+MERL [error_limit], [message_limit]
+```
+
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › MERL  MERL  -  Message ERror Limits）
 
 | error_limit |
@@ -36934,6 +43315,28 @@ Default value is 40.
 MERL 30,30
 
 This example sets both the error and the message limits to 30.
+
+### PSLV（取自子主题 Level Setup Commands › List of level setup commands › PSLV  PSLV  -  Power Supply LeVel）
+
+```
+PSLV {dps_No|dps_set_id}, [voltage], [source_current], [sink_current,] [impedance], [setup_time], {(pinlist)}
+```
+
+  Note If equation based testing is being used, you specify a DPS set ID instead of a DPS set number.  Note PSLV ALL only applies changes to all non-equation-based DPS sets.
+
+### PSLV?（取自子主题 Level Setup Commands › List of level setup commands › PSLV  PSLV  -  Power Supply LeVel）
+
+```
+PSLV? {dps_No|dps_set_id}, {(pinlist)}
+```
+
+returns:
+
+```
+PSLV {dps_No|dps_set_id}, [voltage], [source_current], [sink_current,] [impedance], [setup_time], {(pinlist)}
+```
+
+ Note PSLV? ALL returns information for non-equation-based DPS sets only.
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › PSLV  PSLV  -  Power Supply LeVel）
 
@@ -37083,6 +43486,12 @@ This example sets the following parameters for device pin Vee:
 - A current limit of 0.5 A
 - Minimum current limit when the test system is disconnected
 - A setup time of 15 ms
+
+### PSSR（取自子主题 Level Setup Commands › List of level setup commands › PSSR  PSSR  - Power Supply Slew Rate）
+
+```
+PSSR {dps_No|dps_set_id}, [rise_tm_per_v], [rise_settm], [fall_tm_per_v], [fall_settm], [rise_t_per_v_c2c], [rise_setup_t_c2c], [fall_t_per_v_c2c], [fall_setup_t_c2c], (pinlist)
+```
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › PSSR  PSSR  - Power Supply Slew Rate）
 
@@ -37409,6 +43818,24 @@ RCLS EQ,5300
 ```
 
 In this example a search was made to find the high level threshold between 3V and 6V. The pass/fail transition was located at 5.3V.
+
+### RCLV（取自子主题 Level Setup Commands › List of level setup commands › RCLV  RCLV  -  ReCeive LeVel）
+
+```
+RCLV {level_set_no | level_set_id}, [vth | logic_0_level], [logic_1_level], [range,] {(pinlist)}
+```
+
+### RCLV?（取自子主题 Level Setup Commands › List of level setup commands › RCLV  RCLV  -  ReCeive LeVel）
+
+```
+RCLV? {level_set_no | level_set_id}, {(pinlist)}
+```
+
+returns:
+
+```
+RCLV {level_set | level_set_id}, [vth | logic_0_level], [logic_1_level], [range,] {(pinlist)}
+```
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › RCLV  RCLV  -  ReCeive LeVel）
 
@@ -38169,6 +44596,12 @@ This example returns the equation set that is associated with port port_1 in the
 
 spec_port_1_port_2. Note that the setup_comp_1 parameter is ignored.
 
+### SLDO（取自子主题 Level Setup Commands › List of level setup commands › SLDO -  Switch Level and Dps Order）
+
+```
+SLDO {order}, [report]
+```
+
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › SLDO -  Switch Level and Dps Order）
 
 |
@@ -38266,6 +44699,54 @@ SLDO CVDL, AMBI
 ```
 
 This example switches either the DPS voltage values or the level voltage values first when changing from one DPS or level set to the next depending on which of the three above mentioned cases occur and reports any ambiguous case.
+
+### SPRM（取自子主题 Level Setup Commands › List of level setup commands › SPRM  SPRM  -  Set PRiMary sets）
+
+```
+SPRM [waveform_set_no], [timing_set_no], [level_set_no|level_set_id], [dps_set_no|dps_set_id]
+```
+
+or:
+
+```
+SPRM {timing_specset_id}, [timing_set_no], [level_set_no|level_set_id], [dps_set_no|dps_set_id]
+```
+
+or, for multiport specifications:
+
+```
+SPRM {"multi-port_spec"}, [timing_set_no|"timing_set_list"], [level_set_id|level_set_no],[dps_set_id|dps_set_no] [,(port)]
+```
+
+### SPRM?（取自子主题 Level Setup Commands › List of level setup commands › SPRM  SPRM  -  Set PRiMary sets）
+
+```
+SPRM?
+```
+
+returns:
+
+```
+SPRM {waveform_set_no}, {timing_set_no}, {level_set_no|level_set_id}, {dps_set_no|dps_set_id}
+```
+
+or:
+
+```
+SPRM {timing_specset_id}, {timing_set_no}, {level_set_id|level_set_no}, {dps_set_id|dps_set_no}
+```
+
+or, for multiport specifications:
+
+```
+SPRM? [(port)]
+```
+
+returns:
+
+```
+SPRM {"multi-port_spec"}, {timing_set_no|"timing_set_list"}, {level_set_id|level_set_no},{dps_set_id|dps_set_no} [,(port)]
+```
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › SPRM  SPRM  -  Set PRiMary sets）
 
@@ -38936,6 +45417,26 @@ Since f is global for p_1, its value has been modified. Now change the value a s
 
 The second global command has no effect because f has only local scope after issuing the local command.
 
+### TERM（取自子主题 Level Setup Commands › List of level setup commands › TERM  TERM  -  TERMination mode）
+
+```
+TERM {level_set_no | level_set_id}, [term_mode], [term_pulldown,] [param_1], [param_2], [param_3],
+ [l_range], [h_range], [hr_mode,] {(pinlist)}
+```
+
+### TERM?（取自子主题 Level Setup Commands › List of level setup commands › TERM  TERM  -  TERMination mode）
+
+```
+TERM? {level_set_no | level_set_id}, {(pinlist)}
+```
+
+returns:
+
+```
+TERM {level_set_no | level_set_id}, {term_mode}, [term_pulldown,] [param_1], [param_2], [param_3],
+ [l_range], [h_range], [hr_mode,] {(pinlist)}
+```
+
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › TERM  TERM  -  TERMination mode）
 
 |
@@ -39099,6 +45600,24 @@ TERM 1,OFF,NONE,,,,,,(Q1,Q2)
 
 On a PS1600 card, this example switches off the pulldown resistor on the specified pins.
 
+### UPTD（取自子主题 Level Setup Commands › List of level setup commands › UPTD  UPTD  -  UP To Date）
+
+```
+UPTD {status}, {flag}
+```
+
+### UPTD?（取自子主题 Level Setup Commands › List of level setup commands › UPTD  UPTD  -  UP To Date）
+
+```
+UPTD? {status}
+```
+
+returns:
+
+```
+UPTD {status}, {flag}
+```
+
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › UPTD  UPTD  -  UP To Date）
 
 ```
@@ -39223,6 +45742,24 @@ APRM {mode}
 
 ```
 APRM CNL
+```
+
+### BWDF（取自子主题 Timing Setup Commands › List of timing setup commands › BWDF  BWDF  -  Break Waveform DeFinition）
+
+```
+BWDF {wvf_set}, {a1}, {a2}, {a3}, {a4}, {a5}, {a6}, {(pinlist)}
+```
+
+### BWDF?（取自子主题 Timing Setup Commands › List of timing setup commands › BWDF  BWDF  -  Break Waveform DeFinition）
+
+```
+BWDF? {wvf_set|"wavetable_name"|specset_id|"multiport_spec"}, {(pinlist)}
+```
+
+returns:
+
+```
+BWDF {wvf_set|"wavetable_name"|specset_id|"multiport_spec"}, {a1}, {a2}, {a3}, {a4}, {a5}, {a6}, {(pinlist)}
 ```
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › BWDF  BWDF  -  Break Waveform DeFinition）
@@ -39372,6 +45909,108 @@ BWDF 1,N,N,N,F1N,F0N,N,(D0,D1,D2,D3)
 ```
 
 This example defines a pulse for waveform set 1, and for pins D0 to D3, driving to 1 at edge action 4 and to 0 at edge action 5. The tri-state formatter is not used.
+
+### BWDS（取自子主题 Timing Setup Commands › List of timing setup commands › BWDS  BWDS  -  Break Waveform Definition String）
+
+```
+BWDS {wvf_set}, [break_waveform_index], [mode], {definition_string}, {(pinlist)}
+```
+
+### BWDS?（取自子主题 Timing Setup Commands › List of timing setup commands › BWDS  BWDS  -  Break Waveform Definition String）
+
+```
+BWDS? {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, [break_waveform_index], [mode], {(pinlist)}
+```
+
+returns:
+
+```
+BWDS {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, [break_waveform_index], [mode], {definition_string}, {(pinlist)}
+```
+
+Parameters
+ |
+
+wvf_set
+
+ |
+
+Waveform Set Number (range 1 to maximum). Enter ALL for all waveform sets. Enter PRM for the Primary waveform set. The maximum number is determined by the command `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
+
+ |
+ |
+
+wavetable_name
+
+ |
+
+The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. wavetable_name can only be specified in the query.
+
+ |
+ |
+
+specset_id
+
+ |
+
+Derived as follows:
+
+100 * equation_set_no + specset_no
+
+specset_id can only be specified in the query.
+
+ |
+ |
+
+multi-port_spec
+
+ |
+
+To query a multi-port specification, enter the name of the specification.
+
+ |
+ |
+
+break_waveform_index
+
+ |
+
+Enter DEF for the default break waveform or an integer in the range 0 to 3. This parameter is optional in release 2.0 and can only be used to select the default break waveform (DEF).
+
+ |
+ |
+
+mode
+
+ |
+
+NOT USED.
+
+ |
+ |
+
+definition_string
+
+ |
+
+The definition string consists of a sequence of items each of which associates a drive action with a drive edge.
+
+Receive edge are always denoted by rn.
+
+All edges which are not explicitly specified are set to N. In the query only those edges that are used are printed.
+
+For details of the syntax see `WFDS, WFDS? - (WaveForm Definition String)`（raw: `02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`）.
+
+ |
+ |
+
+pinlist
+
+ |
+
+The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma.
+
+ |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › BWDS  BWDS  -  Break Waveform Definition String）
 
@@ -39626,6 +46265,24 @@ Unclear. The system may return this value to indicate that the interpretation of
 
 In the second call of CDCP? (the first call just serves to display the underlying situation) the range of interest starts at vector 6. Note that the reply starts with vector 5, and that the first occurrence of MYDC, which lies between vector 2 and vector 6, is not displayed.
 
+### CLKR（取自子主题 Timing Setup Commands › List of timing setup commands › CLKR  CLKR  -  CLocK Resolution）
+
+```
+CLKR {waveform_set|specset_id|"multi-port_spec"}, [ref_period],{period_res}
+```
+
+### CLKR?（取自子主题 Timing Setup Commands › List of timing setup commands › CLKR  CLKR  -  CLocK Resolution）
+
+```
+CLKR?[type,] {waveform_set|specset_id|"multi-port_spec"}
+```
+
+returns:
+
+```
+CLKR {waveform_set|specset_id|"multi-port_spec"}, [ref_period],{period_res|clock_res}
+```
+
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › CLKR  CLKR  -  CLocK Resolution）
 
 |
@@ -39718,6 +46375,12 @@ This example sets and queries the period resolution (10 ns) for waveform set 1. 
 
 This example queries the period resolution for the multi-port specification `spec_port_1_port_2`.
 
+### DCDT（取自子主题 Timing Setup Commands › List of timing setup commands › DCDT  DCDT  -  Device Cycle DefaulT）
+
+```
+DCDT {waveform_set}, {"default_name"}
+```
+
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › DCDT  DCDT  -  Device Cycle DefaulT）
 
 ```
@@ -39777,6 +46440,24 @@ DCUD 1,"WRITE"
 
 This example deletes the device cycle `WRITE` for waveform set 1 from the device cycle table.
 
+### DFCR（取自子主题 Timing Setup Commands › List of timing setup commands › DFCR  DFCR  -  DeFine Clock Routing）
+
+```
+DFCR {source_group},{dest_group}
+```
+
+### DFCR?（取自子主题 Timing Setup Commands › List of timing setup commands › DFCR  DFCR  -  DeFine Clock Routing）
+
+```
+DFCR?
+```
+
+returns (for every group except G4):
+
+```
+DFCR {source_group},{dest_group}
+```
+
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › DFCR  DFCR  -  DeFine Clock Routing）
 
 |
@@ -39815,6 +46496,61 @@ specifies the hardware group whose inherited clock is to be changed.
 ```
 
 This example changes the default routing (DFCR? gives an empty reply). Note that the inherited clocks of G6 and of all successors of G6 are also changed.
+
+### DPRT（取自子主题 Timing Setup Commands › List of timing setup commands › DPRT  DPRT  -  Default PRimary Timing sets）
+
+```
+DPRT {waveform_set}, {timing_set}
+```
+
+For equation-based testing:
+
+```
+DPRT {specset_id}, {timing_set}
+```
+
+For multiport specifications:
+
+```
+DPRT {"multi-port_spec"}, [timing_set_no|"timing_set_list"][,(port)]
+```
+
+### DPRT?（取自子主题 Timing Setup Commands › List of timing setup commands › DPRT  DPRT  -  Default PRimary Timing sets）
+
+```
+DPRT?
+```
+
+returns:
+
+```
+DPRT {waveform_set}, {timing_set}
+```
+
+For equation-based testing:
+
+```
+DPRT?
+```
+
+returns:
+
+```
+DPRT {specset_id}, {timing_set}
+```
+
+For multiport specifications:
+
+```
+DPRT? [(port)]
+```
+
+returns:
+
+```
+DPRT {"multi-port_spec"}, {timing_set_no|"timing_set_list"}[,(port)]
+
+```
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › DPRT  DPRT  -  Default PRimary Timing sets）
 
@@ -39894,6 +46630,28 @@ DPRT 3,4
 ```
 
 On sending a query the system reports that the default primary waveform set is 3 and the default primary timing set is 4.
+
+### DSCP（取自子主题 Timing Setup Commands › List of timing setup commands › DSCP  DSCP  -  Define System Control Parameter）
+
+```
+DSCP `[device_cycle`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_device_cycle`）], `[waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`）], `[timing_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_timing_set`）], `[level_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_level_set`）], `[dps_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_dps_set`）], `[pmu_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_pmu_set`）],
+                        `[devicecycle_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_devicecycle_set`）], `[routing_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_routing_set`）], `[period_res_prec`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_period_res_prec`）],
+
+```
+
+### DSCP?（取自子主题 Timing Setup Commands › List of timing setup commands › DSCP  DSCP  -  Define System Control Parameter）
+
+```
+DSCP?
+```
+
+returns:
+
+```
+DSCP {device_cycle}, {waveform_set}, {timing_set}, {level_set}, {dps_set},
+       {pmu_set}, {devicecycle_set}, {routing_set}, [period_res_prec],
+       [period_res_compatibility_model]
+```
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › DSCP  DSCP  -  Define System Control Parameter）
 
@@ -40006,6 +46764,142 @@ returns:
 EDDC {edge_number}, {dev_cyc_name}, [reuse_flag], {(pinlist)}
 ```
 
+### EDSP（取自子主题 Timing Setup Commands › List of timing setup commands › EDSP  EDSP  -  EDge SPecification）
+
+The edge_spec parameter specifies a physical edge (d1 through d8 or r1 through r8):
+
+```
+EDSP [waveform_set|specset_id|"multi-port_spec"], [timing_set], {edge_spec}, , ,[direction], {(pinlist)}
+```
+
+The edge_spec parameter is a data parameter (D1, D2, C1, C2, E1, or E2):
+
+```
+EDSP [waveform_set|specset_id|"multi-port_spec"], [timing_set], {edge_spec}, [dev_cyc_name], [dc_ref] ,[direction], {(pinlist)}
+```
+
+### EDSP?（取自子主题 Timing Setup Commands › List of timing setup commands › EDSP  EDSP  -  EDge SPecification）
+
+```
+EDSP? [dc_ref], {(pinlist)}
+```
+
+returns:
+
+```
+EDSP , , {edge_number}, , {dc_ref}, ,{(pinlist)}
+```
+
+Parameters
+ |
+
+waveform_set
+
+ |
+
+Specifies a waveform set number for a fixed timing setup.
+
+ |
+ |
+
+specset_id
+
+ |
+
+Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:
+
+100 * equation_set_no + specset_no
+
+ |
+ |
+
+multi-port_spec
+
+ |
+
+Specifies the name of a multiport specification for a multi-port setup. PRM is the default value.
+
+ |
+ |
+
+timing_set
+
+ |
+
+Specifies the number of the a timing set. PRM is the default value.
+
+ |
+ |
+
+edge_spec
+
+ |
+
+The edge specifier can either be a physical edge (d1 through d8 or r1 through r8), or one of the data parameters D1, D2, C1, C2 (drive parameters) or E1, E2 (receive parameters).
+
+ |
+ |
+
+edge_number
+
+ |
+
+In the query reply, this parameter contains the edge that is used as leading or trailing edge.
+
+ |
+ |
+
+dev_cyc_name
+
+ |
+
+Specifies the name of a logical device cycle that uses the data parameter given as the edge_spec. It must be defined for all pins in pinlist. If you do not enter a name in this parameter, the first device cycle in the device cycle table is used.
+
+ |
+ |
+
+dc_ref
+
+ |
+
+This parameter specifies the input edge. The input edge determines the algorithm according to which the trailing edge is selected. The two options are LE (for "leading edge") and TE (for "trailing edge").
+
+The leading edge will always be the first edge that is associated with the specified data parameter within the specified device cycle, regardless of whether LE or TE is specified.
+
+For the trailing edge the following rules apply:
+
+- When you specify LE, trailing and leading edge will be identical.
+- When you specify TE, then drive parameters and receive parameters are treated differently.
+
+  - Drive parameter: The trailing edge will be the first drive edge after the leading edge thats performs a data or tri-state action. Note that this trailing edge need not be associated in any way with the data parameter of the leading edge.
+  - Receive parameter: If the action of the leading edge is an edge compare, leading and trailing edge will be identical. If it is the start action of a window compare, then the associated window close edge will be the trailing edge.
+
+For both cases, see the example below.
+
+In the query, you can also specify both. In this case both the leading and the trailing edge will be returned for the pins in pinlist.
+
+ |
+ |
+
+direction
+
+ |
+
+This parameter can be in or out. If in is selected to define an input edge, then the edge_spec parameter must be D1, D2, C1, or C2. If out is selected to define a receiver edge, then the edge_spec parameter must be E1 or E2. If either in or out is selected along with an edge_spec parameter of 1,2...6, then a check is performed to ensure that the edges of all pins are in the required direction. If no entry is made in this parameter, the measuring edges of the pin in pinlist can have any direction or be unused.
+
+ |
+ |
+
+pinlist
+
+ |
+
+The parameters of the EDSP command are applied to all pins named in this parameter. If more than one pin is used, the names must be separated by a comma.
+
+In a multi-port setup, all pins must belong to the same port of the specification that was entered as the first parameter.
+
+ |
+
 ### Syntax（取自子主题 Timing Setup Commands › List of timing setup commands › EQFS -  EQuation FileS command transfer）
 
 ```
@@ -40117,6 +47011,73 @@ EQFS LEV,EQN,LOAD,"/tmp/level_equation",
 
 This example loads the level equation file from /tmp/level_equation.
 
+### EQSP（取自子主题 Timing Setup Commands › List of timing setup commands › EQSP  EQSP  -  EQuation SPecification transfer）
+
+```
+EQSP {spec_type}, {part}, {#spec(data)}
+```
+
+### EQSP?（取自子主题 Timing Setup Commands › List of timing setup commands › EQSP  EQSP  -  EQuation SPecification transfer）
+
+```
+EQSP?{spec_type}, {part}
+```
+
+returns:
+
+```
+EQSP {spec_type}, {part}, {#spec(data)}
+```
+
+if these are not empty, for backward compatibility.
+
+Parameters
+ |
+
+spec_type
+
+ |
+
+The mandatory parameter defines which specification type to use.
+
+Use:
+
+- LEV to specify levels
+- TIM to specify timing
+ |
+ |
+
+part
+
+ |
+
+The mandatory parameter defines which part of the specification type to use.
+
+Use:
+
+- EQN to specify equations
+- SPS to specify specs
+- WVT to specify a wavetable
+
+part can only be set to WVT, EQN, or CLK if spec_type is set to TIM.
+
+ |
+ |
+
+#spec(data)
+
+ |
+
+An equation based set of data (for example wavetables) in binary format.
+
+This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:
+
+- A # to mark the start of the data block.
+- One digit indicating how many digits make up the data length specifier.
+- A number of digits indicating the length (in bytes) of the data to follow.
+- A number of characters which make up the specified equation based testing file. This stream of characters must be terminated with a @ character.
+ |
+
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › EQSP  EQSP  -  EQuation SPecification transfer）
 
 The following example queries the current wavetables:
@@ -40133,6 +47094,18 @@ The following example queries the current wavetables:
 
   @
 ```
+
+### ETDS（取自子主题 Timing Setup Commands › List of timing setup commands › ETDS  ETDS  -  Edge Timing Definition String）
+
+ETDS {waveform_set|specset_id|"multi-port_spec"}, {timing_set}, [mode], {definition_string}, {(pinlist)}
+
+### ETDS?（取自子主题 Timing Setup Commands › List of timing setup commands › ETDS  ETDS  -  Edge Timing Definition String）
+
+ETDS? {waveform_set|specset_id|"multi-port_spec"}, {timing_set}, [mode], {(pinlist)}
+
+returns:
+
+ETDS {waveform_set|specset_id|"multi-port_spec"}, {timing_set}, [mode], {definition_string}, {(pinlist)}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › ETDS  ETDS  -  Edge Timing Definition String）
 
@@ -40289,6 +47262,85 @@ This example shows how to set and retrieve a delay of a multi-port specification
 ```
 
 The specification name and the pin name identify the port (no pin may occur in more than one port within the same specification). Then the port and the specification identify the equation set.
+
+### ETIM（取自子主题 Timing Setup Commands › List of timing setup commands › ETIM  ETIM  -  Edge TIMing）
+
+```
+ETIM {waveform_set},{timing_set}, [t1], [t2], [t3], [t4], [t5], [t6], {(pinlist)}
+```
+
+### ETIM?（取自子主题 Timing Setup Commands › List of timing setup commands › ETIM  ETIM  -  Edge TIMing）
+
+```
+ETIM? {waveform_set}, {timing_set}, {(pinlist)}
+```
+
+returns:
+
+```
+ETIM {waveform_set},{timing_set}, [t1], [t2], [t3], [t4], [t5], [t6], {(pinlist)}
+```
+
+or:
+
+```
+ETIM? {specset_id}, {timing_set_no}, {(pinlist)}
+```
+
+returns:
+
+```
+ETIM {specset_id}, {timing_set_no}, [t1], [t2], [t3], [t4], [t5], [t6],{(pinlist)}
+```
+
+Parameters
+ |
+
+waveform_set
+
+ |
+
+Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
+
+ |
+ |
+
+specset_id
+
+ |
+
+Derived as follows:
+
+`100 *`equation_set_no `+ `specset_no
+
+ |
+ |
+
+timing_set
+
+ |
+
+Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by TSUS.
+
+ |
+ |
+
+t1..t6
+
+ |
+
+Edge delay in ns. Note that the positions of some edges may be affected by the use and position of previously defined edges as explained in "Restrictions" in `ETIM, ETIM? - (Edge TIMing)`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）.
+
+ |
+ |
+
+pinlist
+
+ |
+
+The name of the pin or pins for which edge delays are to be set or read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
+
+ |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › ETIM  ETIM  -  Edge TIMing）
 
@@ -40561,6 +47613,46 @@ The following example illustrates the dependence of the FTCG command on the curr
 ```
 
 In the first functional test, sequencing group `SG1` only contains the port `clock`, and therefore activation of primary sets is suppressed at the start of `MP_burst1` only for `clock`, whereas it is enforced for ports `data1` and `data2`. In the second test, `SG1` contains both `clock` and `data1`, and therefore activation is suppressed for both these ports at the start of `MP_burst2`, and enforced only for `data2`.
+
+### PCLK（取自子主题 Timing Setup Commands › List of timing setup commands › PCLK  PCLK  -  Pin CLocK）
+
+Fixed timing:
+
+```
+PCLK{waveform_set}, {timing_set}, {period}, {(pinlist)}
+```
+
+Equation-based timing:
+
+```
+PCLK {specset_id|"multi-port_spec"}, {timing_set}, {period}, {(pinlist)}
+```
+
+### PCLK?（取自子主题 Timing Setup Commands › List of timing setup commands › PCLK  PCLK  -  Pin CLocK）
+
+Fixed timing:
+
+```
+PCLK?{waveform_set},{timing_set},{(pinlist)} [,query_mode]
+```
+
+returns:
+
+```
+PCLK {waveform_set}, {timing_set}, {period}, {(pinlist)}
+```
+
+Equation-based timing:
+
+```
+PCLK? {specset_id|"multi-port_spec"}, {timing_set}, {(pinlist|portlist)} [,query_mode]
+```
+
+returns:
+
+```
+PCLK {specset_id|"multi-port_spec"}, {timing_set}, {period}, {(pinlist)}
+```
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › PCLK  PCLK  -  Pin CLocK）
 
@@ -41676,6 +48768,54 @@ The query returns the range for Pin Scale systems.
 
 Note: Parameter pinlist is irrelevant for this query and may be omitted.
 
+### SPRM（取自子主题 Timing Setup Commands › List of timing setup commands › SPRM  SPRM  -  Set PRiMary sets）
+
+```
+SPRM [waveform_set_no], [timing_set_no], [level_set_no|level_set_id], [dps_set_no|dps_set_id]
+```
+
+or:
+
+```
+SPRM {timing_specset_id}, [timing_set_no], [level_set_no|level_set_id], [dps_set_no|dps_set_id]
+```
+
+or, for multiport specifications:
+
+```
+SPRM {"multi-port_spec"}, [timing_set_no|"timing_set_list"], [level_set_id|level_set_no],[dps_set_id|dps_set_no] [,(port)]
+```
+
+### SPRM?（取自子主题 Timing Setup Commands › List of timing setup commands › SPRM  SPRM  -  Set PRiMary sets）
+
+```
+SPRM?
+```
+
+returns:
+
+```
+SPRM {waveform_set_no}, {timing_set_no}, {level_set_no|level_set_id}, {dps_set_no|dps_set_id}
+```
+
+or:
+
+```
+SPRM {timing_specset_id}, {timing_set_no}, {level_set_id|level_set_no}, {dps_set_id|dps_set_no}
+```
+
+or, for multiport specifications:
+
+```
+SPRM? [(port)]
+```
+
+returns:
+
+```
+SPRM {"multi-port_spec"}, {timing_set_no|"timing_set_list"}, {level_set_id|level_set_no},{dps_set_id|dps_set_no} [,(port)]
+```
+
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › SPRM  SPRM  -  Set PRiMary sets）
 
 |
@@ -42531,6 +49671,48 @@ Since f is global for p_1, its value has been modified. Now change the value a s
 
 The second global command has no effect because f has only local scope after issuing the local command.
 
+### TSUS（取自子主题 Timing Setup Commands › List of timing setup commands › TSUS  TSUS  -  Timing Sets USed）
+
+```
+TSUS {waveform_set},{timing_set}
+```
+
+### TSUS?（取自子主题 Timing Setup Commands › List of timing setup commands › TSUS  TSUS  -  Timing Sets USed）
+
+```
+TSUS? {waveform_set}
+```
+
+returns:
+
+```
+TSUS {waveform_set},{timing_set}
+```
+
+Or:
+
+```
+TSUS? {specset_id}
+```
+
+returns:
+
+```
+TSUS {specset_id},{timing_set}
+```
+
+Or, for multiport specifications:
+
+```
+TSUS? {"multiport_spec"}[,(portlist)]
+```
+
+returns:
+
+```
+TSUS {"multiport_spec"},{timing_set}[,(port)]
+```
+
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › TSUS  TSUS  -  Timing Sets USed）
 
 |
@@ -42594,6 +49776,26 @@ TSUS "spefc",3,(ARMPort)
 
 This example queries the number of timing sets defined for port ARMPort in the multiport specification spefc.
 
+### TSUX（取自子主题 Timing Setup Commands › List of timing setup commands › TSUX  TSUX  -  Timing Sets Used eXtended）
+
+```
+
+TSUX {waveform_set},{timing_set}
+```
+
+### TSUX?（取自子主题 Timing Setup Commands › List of timing setup commands › TSUX  TSUX  -  Timing Sets Used eXtended）
+
+```
+
+TSUX? {waveform_set}
+```
+
+returns:
+
+```
+TSUX {waveform_set},{timing_set}
+```
+
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › TSUX  TSUX  -  Timing Sets Used eXtended）
 
 |
@@ -42632,6 +49834,24 @@ NONE
 This command parameter sets the value of TSUX back to 1 for the specified waveform set.
 
  |
+
+### UPTD（取自子主题 Timing Setup Commands › List of timing setup commands › UPTD  UPTD  -  UP To Date）
+
+```
+UPTD {status}, {flag}
+```
+
+### UPTD?（取自子主题 Timing Setup Commands › List of timing setup commands › UPTD  UPTD  -  UP To Date）
+
+```
+UPTD? {status}
+```
+
+returns:
+
+```
+UPTD {status}, {flag}
+```
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › UPTD  UPTD  -  UP To Date）
 
@@ -43181,6 +50401,25 @@ This example checks whether waveform sets 1 and 2 are the same for the pins in t
 VWFS 1,(DATA)
 ```
 
+### WAVE（取自子主题 Timing Setup Commands › List of timing setup commands › WAVE  WAVE  -  WAVEform）
+
+```
+WAVE {wvf_set}, {wfIndex}, [DD1], [DD2], [ED1], [ED2], {pwfIndex}, {(pinlist)}
+WAVE {specset_id|"multiport_spec"}, {wfIndex}, [DD1], [DD2], [ED1], [ED2], {pwfIndex}, {(pinlist)}, ALLOW_EQ
+```
+
+### WAVE?（取自子主题 Timing Setup Commands › List of timing setup commands › WAVE  WAVE  -  WAVEform）
+
+```
+WAVE? {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {(pinlist)}
+```
+
+returns:
+
+```
+WAVE {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {wfIndex}, [DD1], [DD2], [ED1], [ED2], {pwfIndex}, {(pinlist)}
+```
+
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › WAVE  WAVE  -  WAVEform）
 
 |
@@ -43433,6 +50672,205 @@ Note also the following:
 
 This example first defines a logical waveform with the index 2 for waveform set 1. The waveform uses the data parameter D11, the fixed action 0, and the complement C11 of D11. Then two physical waveforms are defined for logical waveform 2, which are referenced by the physical waveform DC/DC power units 4 and 5. Waveform 4 drives to 0 at edge d1, to 0 at d3, and to 1 at d4. Waveform 5 drives to 1 at edge d1, to 0 at d3, and to 0 at d4.
 
+### WFDF（取自子主题 Timing Setup Commands › List of timing setup commands › WFDF  WFDF  -  WaveForm DeFinition）
+
+```
+WFDF {wvf_set}, {wfIndex}, {a1}, {a2}, {a3}, {a4}, {a5}, {a6}, {(pinlist)}
+```
+
+### WFDF?（取自子主题 Timing Setup Commands › List of timing setup commands › WFDF  WFDF  -  WaveForm DeFinition）
+
+```
+WFDF? {wvf_set|"wavetable"|specset_id|"multiport_spec"}, {wfIndex}, [mode], {(pinlist)}
+```
+
+returns:
+
+```
+WFDF {wvf_set|"wavetable"|specset_id|"multiport_spec"}, {wfIndex}, {a1}, {a2}, {a3}, {a4}, {a5}, {a6}, {(pinlist)}
+```
+
+Parameters
+ |
+
+wvf_set
+
+ |
+
+Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
+
+ |
+ |
+
+wavetable
+
+ |
+
+The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes.
+
+ |
+ |
+
+specset_id
+
+ |
+
+Derived as follows:
+
+`100 * equation_set_no + specset_no`
+
+ |
+ |
+
+multiport_spec
+
+ |
+
+To query a multiport specification, enter the name of the specification.
+
+ |
+ |
+
+wfIndex
+
+ |
+
+Waveform index. Enter an integer between 0 and 31. The index references a waveform in a device cycle. For the query command you can also enter ALL for all waveform DC/DC power units. The waveform index is also used by the `WAVE`（raw: `02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`） commands.
+
+ |
+ |
+
+a1 to a6
+
+ |
+
+Drive and compare actions, one per edge. There are drive actions that are fixed (drive to a certain fixed level) and receive actions that are fixed (compare to a certain fixed level). You can also drive to two drive data parameters (DD1 and DD2), and compare to two expected data parameters (ED1 and ED2).
+
+Note that no tri-state actions, either defined or implied, are allowed on edges 2 or 5. For details, refer to `Restrictions for drive edges`（raw: `02.06.06.01.03.01.02.01_Restrictions_for_drive_edges.md`）.
+
+On the drive data side the actions you can define are:
+
+- N: No action
+- F0N: Drive 0, no tri-state action
+- F1N: Drive 1, no tri-state action
+- FN0: No drive action, tri-state off
+- FNZ: No drive action, tri-state on
+- F00: Drive 0, tri-state off
+- F0Z: Drive 0, tri-state on
+- F10: Drive 1, tri-state off
+- F1Z: Drive 1, tri-state on
+- D1N: Drive parameter 1 (DD1), no tri-state action
+- D1N: Drive parameter 2 (DD2), no tri-state action
+- C1N: Drive complement of parameter 1 (DD1), no tri-state action
+- C2N: Drive complement of parameter 2 (DD2), no tri-state action
+- DN1: No drive action, tri-state parameter 1 (DD1)
+- DN2: No drive action, tri-state parameter 2 (DD2)
+- D11: Drive parameter 1 (DD1), tri-state parameter 1 (DD1)
+- C11: Drive complement of parameter 1 (DD1), tri-state parameter 1 (DD1)
+- D22: Drive parameter 2 (DD2), tri-state parameter 2 (DD2)
+- C22: Drive complement of parameter 2 (DD2), tri-state parameter 2 (DD2)
+
+The following table shows which data-dependent drive actions use the driver formatter, which use the tri-state formatter, and which use both. You have to consider this when assigning parameters to the `WAVE`（raw: `02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`） command.
+
+ |
+ |
+
+ |
+
+Data-dependent Drive Action
+
+ |
+
+Driver
+
+ |
+
+Tri-state
+
+ |
+ |
+
+ |
+
+D1N, D2N, C1N, C2N
+
+ |
+
+yes
+
+ |
+
+no
+
+ |
+ |
+
+ |
+
+DN1, DN2
+
+ |
+
+no
+
+ |
+
+yes
+
+ |
+ |
+
+ |
+
+D11, C11, D22, C22
+
+ |
+
+yes
+
+ |
+
+yes
+
+ |
+ |
+
+ |
+
+On the expected data side the actions you can define are:
+
+- N: No action
+- E0: Edge compare to 0
+- E1: Edge compare to 1
+- EI: Edge compare to intermediate
+- EX: Edge compare to mask
+- EU: Edge compare to unstable
+- C: Capture digital data (selective digital capture)
+- D: Do not capture digital data (selective digital capture)
+
+Note that waveforms that are to be used for selective digital capture must contain exactly one compare action.
+
+- W0: Window open with compare to 0
+- W1: Window open with compare to 1
+- WI: Window open with compare to intermediate
+- WX: Window open with compare to mask
+- WU: Window open with compare to unstable
+- WC: Window close
+- EE1: Edge compare to parameter 1 (ED1)
+- EE2: Edge compare to parameter 1 (ED2)
+- WE1: Window open with compare to parameter 1 (ED1)
+- WE2: Window open with compare to parameter 1 (ED2)
+ |
+ |
+
+pinlist
+
+ |
+
+The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with commas.
+
+ |
+
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WFDF  WFDF  -  WaveForm DeFinition）
 
 ```
@@ -43440,6 +50878,25 @@ This example first defines a logical waveform with the index 2 for waveform set 
 ```
 
 This example defines a waveform referenced by waveform index 2. The waveform uses the drive data and tri-state parameter 1. Edge number 3 provides the timing for this waveform. The definitions are made for waveform set 1 and for pins D0 to D3.
+
+### WFDS（取自子主题 Timing Setup Commands › List of timing setup commands › WFDS  WFDS  -  WaveForm Definition String）
+
+```
+WFDS {wvf_set}, {wfIndex}, [mode], {definition_string}, {(pinlist)}
+WFDS {specset_id|"multiport_spec"}, {wfIndex}, [mode], {definition_string}, {(pinlist)}, ALLOW_EQ
+```
+
+### WFDS?（取自子主题 Timing Setup Commands › List of timing setup commands › WFDS  WFDS  -  WaveForm Definition String）
+
+```
+WFDS? {wvf_set|"wavetable"|specset_id|"multiport_spec"}, {wfIndex}, [mode], {(pinlist)}
+```
+
+returns:
+
+```
+WFDS {wvf_set|"wavetable"|specset_id|"multiport_spec"}, {wfIndex}, [mode], {definition_string}, {(pinlist)}
+```
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › WFDS  WFDS  -  WaveForm Definition String）
 
@@ -43775,6 +51232,12 @@ WRST 3
 
 This example resets all waveform and timing entries for all pins for waveform set 3.
 
+### WSDM（取自子主题 Timing Setup Commands › List of timing setup commands › WSDM  WSDM  -  Waveform Set Display Mode）
+
+```
+WSDM {waveform_set}, {display_mode}
+```
+
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › WSDM  WSDM  -  Waveform Set Display Mode）
 
 |
@@ -43860,6 +51323,24 @@ For multiport specifications, you can specify the ports for which the vector set
 ```
 
 This example queries the display mode of port port_1 in the multiport specification spec_1. The reply shows that it is set to the "classic" display mode.
+
+### WSUS（取自子主题 Timing Setup Commands › List of timing setup commands › WSUS  WSUS  -  Waveform Sets USed）
+
+```
+WSUS {waveform_set}
+```
+
+### WSUS?（取自子主题 Timing Setup Commands › List of timing setup commands › WSUS  WSUS  -  Waveform Sets USed）
+
+```
+WSUS?
+```
+
+returns:
+
+```
+WSUS {waveform_set}
+```
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › WSUS  WSUS  -  Waveform Sets USed）
 
@@ -44169,6 +51650,85 @@ APTS "NEW",MAIN,"spec_port_1_port_2",(port_1)
 
 This example appends the label `NEW` to the sequencer area of port `port_1`. The base wavetable is identified uniquely by specifying the multi-port specification `spec_port_1_port_2` and the port `port_1`, which belongs to `spec_port_1_port_2`.
 
+### BCMT（取自子主题 Vector Setup Commands › List of vector setup commands › BCMT  BCMT  -  Binary CoMmenT）
+
+```
+BCMT {vect_addr}, {vect_length}[, HIMEN][, (port)], {#spec(data)}
+```
+
+### BCMT?（取自子主题 Vector Setup Commands › List of vector setup commands › BCMT  BCMT  -  Binary CoMmenT）
+
+```
+BCMT? [(portlist)]
+```
+
+returns:
+
+```
+BCMT {vect_addr}, {vect_length}[, HIMEN][, (port)], {#spec(data)}
+```
+
+Parameters
+ |
+
+vect_addr
+
+ |
+
+The first vector of the segment for which comments are to be transferred.
+
+This number counts the active vectors of the port (as specified for the port parameter) across all of its labels, starting from 0. For example, suppose that two labels are associated with the port, and that the first of them has eight active vectors, while the second has three. Then you must enter 9 if you want to insert comments for a segment that begins with the second vector of the second label.
+
+ |
+ |
+
+vect_length
+
+ |
+
+Defines the total number of active vectors for which comments are to be downloaded.
+
+ |
+ | HIMEM |
+
+If this parameter is specified, the data format of #spec(data) will be treated as 64-bit. If the HIMEM parameter is omitted, the data format will be treated as 32-bit. If you want to set any comments to over 2GB vector address, you should also use the himem:on parameter in the `.technology file`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md`）.
+
+The query displays the 64-bit format if the response data includes over 2GB vector addresses.
+
+ |
+ |
+
+port
+
+ |
+
+If you specify a port, the comments are associated with the active vectors of this port. Otherwise, they are associated with the active vectors of the default port @.
+
+ |
+ |
+
+#spec(data)
+
+ |
+
+The binary comment data. The format of this parameter is:
+
+#Nn1n2n...nNcomm_data[comm_data...]
+
+where the decimal digit N defines the number of the decimal digits ni (1 鈮?i 鈮?N) that specify the length of the comment data in bytes. The comm_data blocks are structured as follows:
+
+Not using HIMEM (default):
+
+- The first byte specifies the comment length.
+- The next four bytes contain the number of the active vector to which the comment is to be attached. The vectors are counted for the whole port across label boundaries, starting from 0.
+- The remaining bytes (250 at most) contain the actual comment data.
+ Using HIMEM:
+
+- The first byte specifies the actual comment length. (Excluding vector number.)
+- The next eight bytes contain the number of the active vector to which the comment is to be attached. The vectors are counted for the whole port across label boundaries, starting from 0.
+- The remaining bytes (250 at most) contain the actual comment data.
+ |
+
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › BCMT  BCMT  -  Binary CoMmenT）
 
 ```
@@ -44178,6 +51738,12 @@ This example appends the label `NEW` to the sequencer area of port `port_1`. The
 ```
 
 This call of BCMT? displays the comments of the default port. The `&` character (with the decimal ASCII value 38) indicates the (identical) length of the two comments. The first comment is at vector 33 (decimal ASCII value of the ! character), the second at vector 48 (decimal ASCII value of the 0 character).
+
+### BLUP（取自子主题 Vector Setup Commands › List of vector setup commands › BLUP -  BLock UP to date）
+
+```
+BLUP {"name"}, {type}, {state},
+```
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › BLUP -  BLock UP to date）
 
@@ -44249,6 +51815,24 @@ BLUP "test",LBL,UPDT,
 ```
 
 This example sets the state of label `test` to up to date.
+
+### CMNT（取自子主题 Vector Setup Commands › List of vector setup commands › CMNT  CMNT  -  CoMmeNT）
+
+```
+CMNT {act_vect_of_port}, {"text"}[, (port)]
+```
+
+### CMNT?（取自子主题 Vector Setup Commands › List of vector setup commands › CMNT  CMNT  -  CoMmeNT）
+
+```
+CMNT? {act_vect_of_port}, [vect_length][, (port)]
+```
+
+returns:
+
+```
+CMNT {act_vect_of_port}, {"text"}[, (port)]
+```
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › CMNT  CMNT  -  CoMmeNT）
 
@@ -44653,6 +52237,158 @@ DLTS "MPBU_port_1_port_2",(port_1)
 
 This example deletes the label referenced by `MPBU_port_1_port_2` from the port `port_1`.
 
+### DMAS（取自子主题 Vector Setup Commands › List of vector setup commands › DMAS  DMAS  -  Define Memory Area Size）
+
+```
+DMAS SQPG, [memory], {size}, {(port)}
+```
+
+### DMAS?（取自子主题 Vector Setup Commands › List of vector setup commands › DMAS  DMAS  -  Define Memory Area Size）
+
+Area type PARA:
+
+```
+DMAS? PARA, [memory], PER_PORT, {(port_list)}
+```
+
+returns:
+
+```
+DMAS PARA, {memory}, {size}, {(port)}
+```
+
+Area type SQPG:
+
+```
+DMAS? SQPG, [SM], [PER_PORT,] {(port_list)}
+```
+
+returns:
+
+```
+DMAS SQPG, SM, {size}, {(port)}
+```
+
+Area type PPSQ:
+
+```
+DMAS? PPSQ, [SM], [PER_PORT,] {(@)}
+```
+
+returns:
+
+```
+DMAS PPSQ, SM, {size}, {(@)}
+```
+
+Area type RSLT, querying ports:
+
+```
+DMAS? RSLT, [SM], [PER_PORT,] {(port_list)}
+```
+
+returns:
+
+```
+DMAS RSLT, SM, {size}, {port}
+```
+
+Area type RSLT, querying pins:
+
+```
+DMAS? RSLT, [SM], {PER_PIN}, {(pin_list)}
+```
+
+returns:
+
+```
+DMAS RSLT, SM, {size}, {pin}
+```
+
+Area type SAVE:
+
+```
+DMAS? SAVE, ALL, [PER_PORT,] {(port_list)}
+```
+
+returns:
+
+```
+DMAS SAVE, {memory}, {size}, {(port)}
+```
+
+Area type ALL:
+
+```
+DMAS? ALL, [memory], [PER_PORT,] {(port_list)}
+```
+
+returns:
+
+```
+DMAS {area}, {memory}, {size}, {(port)}
+```
+
+Area type MFRE, querying ports:
+
+```
+DMAS? MFRE, [SM|SMEXT], [PER_PORT,] {(port_list)}
+```
+
+returns:
+
+```
+DMAS MFRE, {SM|SMEXT}, {size}, {port}
+```
+
+Area type MFRE, querying pins:
+
+```
+DMAS? MFRE, [SM|SMEXT], {PER_PIN}, {(pin_list)}
+```
+
+returns:
+
+```
+DMAS MFRE, {SM|SMEXT}, {size}, {pin}
+```
+
+Area type MFRE, querying channels:
+
+```
+DMAS? MFRE, [SM|SMEXT], {PER_CHANNEL}, {(channel_list)}
+```
+
+returns:
+
+```
+DMAS MFRE, {SM|SMEXT}, {size_1}, {size_2}, {size_3}, {(channel)}
+```
+
+Area type MFRP, querying channels:
+
+```
+DMAS? MFRP, [SM|SMEXT], {PER_CHANNEL}, {(port_list)}
+```
+
+returns:
+
+```
+DMAS MFRP, {SM|SMEXT}, {size_1}, {size_2}, {size_3}, {(channel)}
+```
+
+Area type MFRP, querying pools:
+
+```
+DMAS? MFRP, [SM|SMEXT], {PER_POOL}, {(port_list)}
+```
+
+returns:
+
+```
+DMAS MFRP, {SM|SMEXT}, {pool_size}, {(pool_channels)}
+```
+
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › DMAS  DMAS  -  Define Memory Area Size）
 
 |
@@ -44995,6 +52731,12 @@ Finally, the two possible options for MFRP, applied to `port12`, produce
 < DMAS MFRP,SM,347400,(10101,10102,10103,10104)
 ```
 
+### DPPC（取自子主题 Vector Setup Commands › List of vector setup commands › DPPC -  Define Per Pin subroutine Configuration）
+
+```
+DPPC {name}, {parameter}, [value], {(pinlist)}
+```
+
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › DPPC -  Define Per Pin subroutine Configuration）
 
 |
@@ -45106,6 +52848,24 @@ Pins for which a per-pin subroutine is valid.
 
  |
 
+### DPPS（取自子主题 Vector Setup Commands › List of vector setup commands › DPPS  DPPS  -  Define Per Pin Subroutine label）
+
+```
+DPPS {name}, {cycle_len}
+```
+
+### DPPS?（取自子主题 Vector Setup Commands › List of vector setup commands › DPPS  DPPS  -  Define Per Pin Subroutine label）
+
+```
+DPPS? {name}
+```
+
+returns:
+
+```
+DPPS {name}, {cycle_len}
+```
+
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › DPPS  DPPS  -  Define Per Pin Subroutine label）
 
 |
@@ -45128,6 +52888,24 @@ cycle_len
 Per-pin cycle length.
 
  |
+
+### DPSA（取自子主题 Vector Setup Commands › List of vector setup commands › DPSA  DPSA  -  Define per Pin Subroutine Address）
+
+```
+DPSA {name}, {address}, {(pinlist)}
+```
+
+### DPSA?（取自子主题 Vector Setup Commands › List of vector setup commands › DPSA  DPSA  -  Define per Pin Subroutine Address）
+
+```
+DPSA? {name}, {(pinlist)}
+```
+
+returns:
+
+```
+DPSA {name}, {address}, {(pinlist)}
+```
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › DPSA  DPSA  -  Define per Pin Subroutine Address）
 
@@ -45645,6 +53423,24 @@ RSET TIM
 
 This example resets all waveform sets and timing sets and loads the hardware with the default vector rate and edge placement values. Only waveform set 1 and timing set 1 in waveform set 1 is active.
 
+### SAOF（取自子主题 Vector Setup Commands › List of vector setup commands › SAOF  SAOF  -  Set Alternating Operation Features）
+
+```
+SAOF {mode|"label"}
+```
+
+### SAOF?（取自子主题 Vector Setup Commands › List of vector setup commands › SAOF  SAOF  -  Set Alternating Operation Features）
+
+```
+SAOF?
+```
+
+returns:
+
+```
+SAOF {mode|"label"}
+```
+
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › SAOF  SAOF  -  Set Alternating Operation Features）
 
 |
@@ -45774,6 +53570,24 @@ The logical vector number at which a GENV sequencer construct is to be split.
 ```
 
 This example splits a GENV sequencer construct at command number 2 before vector 7. Note the adjustment of the start address in command 6.
+
+### SQGB（取自子主题 Vector Setup Commands › List of vector setup commands › SQGB  SQGB  -  SeQuencer GloBal）
+
+```
+SQGB [mode], [analyze_delay][, (ref_port)]
+```
+
+### SQGB?（取自子主题 Vector Setup Commands › List of vector setup commands › SQGB  SQGB  -  SeQuencer GloBal）
+
+```
+SQGB? [(portlist)]
+```
+
+returns:
+
+```
+SQGB {mode}, [analyze_delay][, (port)]
+```
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › SQGB  SQGB  -  SeQuencer GloBal）
 
@@ -45954,6 +53768,24 @@ If the current mode requires an analyze delay, you can specify a port list in th
 
 This example configures the sequencers to stop when port P2 has completed 30 cycles. Port P1, whose period length is twice the period length of P2, will be stopped after 15 cycles. Note that P1 and P2 must belong to the same sequencing group.
 
+### SQLA（取自子主题 Vector Setup Commands › List of vector setup commands › SQLA  SQLA  -  SeQuencer Label Attribute）
+
+```
+SQLA [type],{"name"},{"attr_key_1=[attr_val_1] [,attr_key_2=[attr_val_2] [,attr_key_3=[attr_val_3]]]"} [,(port)]
+```
+
+### SQLA?（取自子主题 Vector Setup Commands › List of vector setup commands › SQLA  SQLA  -  SeQuencer Label Attribute）
+
+```
+SQLA? [type], {"name"|ALL}, {"attr_key"|ALL|SAVE} [, (portlist)]
+```
+
+returns:
+
+```
+SQLAtype, {"name"},{"attr_key_1=attr_val_1, attr_key_2=attr_val_2} [,attr_key_3=attr_val_3]" [,(port)]
+```
+
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › SQLA  SQLA  -  SeQuencer Label Attribute）
 
 |
@@ -46057,6 +53889,213 @@ Specify @@ to display attributes for all labels of all ports.
 
 This example changes the PARA_MEM attribute of the new label test from SM to SHMEM. Note the change of the address in command line 4.
 
+### SQLB（取自子主题 Vector Setup Commands › List of vector setup commands › SQLB  SQLB  -  SeQuencer LaBel definition）
+
+```
+SQLB {"label"}, {type}, {start_cmd_no}, {stop_cmd_no}, [base_wf_set|"wavetable_name"| "sync_grp"] [, (port)]
+```
+
+### SQLB（取自子主题 Vector Setup Commands › List of vector setup commands › SQLB  SQLB  -  SeQuencer LaBel definition）
+
+```
+SQLB? {"label"|ALL}, {type|ALL}[, (portlist)]
+```
+
+returns:
+
+```
+SQLB {label}, {type}, {start_cmd_no}, {stop_cmd_no}, {"wavetable_name"|base_wf_set| "sync_grp"} [,(port)]
+```
+
+Parameters
+ |
+
+label
+
+ |
+
+The label name. It identifies the label which is to be defined for the specified port, or whose definition is to be displayed. Enter a string enclosed in double quotes. The string must have a length of between 1 and 128 alpha-numeric characters.
+
+If you enter an empty string in the command, the label specified by the start_cmd_no and the stop_cmd_no parameters is deleted. Note, however, that the respective lines of the sequencer area are not deleted.
+
+See `SmarTest character and number limits`（raw: `../../01_Getting_started/01.05_SmarTest_character_and_number_limits/01.05_SmarTest_character_and_number_limits.md#_128029__max_labels_per_port`） for the maximum number of labels per port.
+
+ |
+ |
+
+For the query you can also enter:
+
+ |
+ |
+
+ALL
+
+ |
+
+to read the configurations for all labels.
+
+ |
+ |
+
+SUR
+
+ |
+
+(SURround) to obtain configurations for the label selected for editing (in the Pattern Tool) by the TSTL (TeST Label) command, as well as the labels immediately preceding and following it.
+
+ |
+ |
+
+FRS
+
+ |
+
+(FiRSt) to return only the first label in the sequencer area of the specified port.
+
+If the label you are querying does not exist, the firmware returns nothing.
+
+ |
+ |
+
+type
+
+ |
+
+The label type. This parameter must always be present. It has the following options:
+
+ |
+ |
+
+MAIN
+
+ |
+
+A MAIN program. A MAIN label can be used as a start label (see the `SQSL`（raw: `02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md`） command) if it is defined for the default port @. It can call any type of subroutine. It can be called from a burst (type BRST) or multi-port burst label (type MPBU).
+
+The rudimentary sequencer program that is created for this label type consists of the STVA, STSA, and STOP instructions.
+
+ |
+ |
+
+SVEC
+
+ |
+
+Vector subroutine. A subroutine that cannot serve as a start label. It must be called with the JSUB sequencer instruction from a MAIN label or another SVEC label. You can nest SVEC subroutines up to 7 levels deep.
+
+The rudimentary sequencer program that is created for this label type consists of the STVA and the RSUB instructions.
+
+ |
+ |
+
+BRST
+
+ |
+
+Burst mode. Defines a burst label. A burst label executes a sequence of MAIN labels in burst mode. Its sequencer program consists of a sequence of CALL instructions for the individual MAIN labels, and is terminated by a BEND instruction. The BEND instruction is created automatically by SQLB. The same MAIN label can be called by several burst labels.
+
+For more information on the subject and the dependencies that have to be taken into account see `Burst and Multi-Burst Labels`（raw: `02.06.07.01.08.05.03_Burst_labels_and_multi-port_burst_labels.md`）.
+
+ |
+ |
+
+DSRC
+
+ |
+
+The digital source label. A type of label used only by SSRC and SRCV. A DSRC label is not executable. The contents of DSRC labels are determined by DVCU. See `DVCU, DVCU? - (Define Vector variable Configuration Usage`（raw: `02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md`）) for more information.
+
+ |
+ |
+
+MPBU
+
+ |
+
+Multiport burst mode. A burst label that is executed simultaneously for several ports. You must define the multi-port burst label separately for all the required ports; this is the only case where the same label name can be used more than once.
+
+The structure of a multiport burst is the same as that of a normal burst label. The parameters of the CALL instructions will be different for the same label in the individual ports.
+
+Note that the ports for which a multiport burst is defined must not have any pins in common. This is not checked by the firmware.
+
+ |
+ |
+
+SJMP
+
+ |
+
+Jump subroutine. This label type is allowed for downward compatibility only. It should not be used in new applications.
+
+ |
+ |
+
+ALL
+
+ |
+
+For the query, you can type ALL to read the configurations for all label types.
+
+ |
+ |
+
+start_cmd_no
+
+ |
+
+The start command number parameter identifies the position within the sequencer area where the label starts.
+
+Note that the exact meaning of this number depends on the operation mode, as defined with the SAOF command. In standard mode (SAOF ZERO), the command lines are counted from the start of the sequencer area, but in append mode (SAOF APP) they are counted from the start of the expansion of the sequencer area previously defined with DMAS. See example 4, below.
+
+ |
+ |
+
+stop_cmd_no
+
+ |
+
+The stop command number parameter identifies the position within the sequencer area where the label stops.
+
+Note that the exact meaning of this number depends on the operation mode, as defined with the SAOF command. In standard mode (SAOF ZERO), the command lines are counted from the start of the sequencer area, but in append mode (SAOF APP) they are counted from the start of the expansion of the sequencer area previously defined with DMAS. See example 4, below.
+
+ |
+ |
+
+base_wf_set
+
+ |
+
+The base waveform set. This waveform set is used by the pattern tool to translate the physical waveform DC/DC power units of the vector area into device cycle names and data parameters, and vice versa.
+
+ |
+ |
+
+wavetable
+
+ |
+
+The base wavetable. This wavetable is used by the pattern tool to translate the physical waveform DC/DC power units of the vector areas into device cycle names and data parameters, and vice versa.
+
+ |
+ |
+
+sync_grp
+
+ |
+
+If type has been set to MPBU, you can specify a synchronization (sequencing) group for the multi-port burst with this parameter.
+
+ |
+ |
+
+port
+
+ |
+
+The name of the port for which the label is defined. If you do not specify a port, the label will be defined for the default port @, to which all pins belong.
+
+ |
+
 ### Example 1（取自子主题 Vector Setup Commands › List of vector setup commands › SQLB  SQLB  -  SeQuencer LaBel definition）
 
 This example defines a burst label for the default port.
@@ -46133,6 +54172,550 @@ This example illustrates the relative numbering of the command lines in SAOF APP
 < SQLB "L_2",MAIN,3,5,"wf1"
 ```
 
+### SQPG（取自子主题 Vector Setup Commands › List of vector setup commands › SQPG  SQPG  -  SeQuencer ProGramming）
+
+```
+SQPG {cmd_No}, {instr}, [param_1], [param_2], [memory], {(port)}
+```
+
+### SQPG?（取自子主题 Vector Setup Commands › List of vector setup commands › SQPG  SQPG  -  SeQuencer ProGramming）
+
+```
+SQPG? {cmd_No|ALL|"cmd_No_A,cmd_No_B"}, {(portlist)}
+```
+
+returns:
+
+```
+SQPG {cmd_No}, {instr}, [param_1], [param_2], [memory], {(port)}
+```
+
+Parameters
+ |
+
+cmd_No
+
+ |
+
+The command number. This parameter identifies the instruction within the sequencer area of the specified port. Refer to `Address instructions`（raw: `02.06.07.01.08.02_Address_instructions.md`） for further details.
+
+In the query, you can also specify ALL or two command numbers that are separated by a comma and included by quotes. If you specify ALL, SQPG? will return all the instructions in the sequencer area of all the specified ports. If you specify two numbers, all instructions in the specified range will be returned.
+
+Note that the exact meaning of this number depends on the operation mode, as defined with the `SAOF`（raw: `02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md`）command. In standard mode (SAOF ZERO), the command lines are counted from the start of the sequencer area, but in append mode (SAOF APP) they are counted from the start of the expansion previously defined with `DMAS`（raw: `02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md`）.
+
+ |
+ |
+
+instr
+
+ |
+
+The mandatory sequencer instruction. It specifies the task that the sequencer performs:
+
+ |
+ | |
+
+BEND
+
+ |
+
+Marks the end of a normal or a multi-port burst label.
+
+ |
+ | |
+
+BRKV
+
+ |
+
+The "break vector" instruction generates break vectors. param_1 and param_2 must both be specified.
+
+- param_1specifies the number of break vectors to be generated. If the specified number is not directly divisible by 8, it will be rounded up to the next multiple of 8. The admitted range is from 1 to 32760.
+- param_2specifies a wait time in nanoseconds. SmarTest will generate the appropriate number of break vectors (always a multiple of 8) to fill that interval.
+
+Note that this is a lower bound; the actual wait time may be longer than the specified time. The admitted range is from 0 to 5592402.
+
+If the wait time is greater than 0, it is added to the time consumed by the break vectors of param_1.
+
+ |
+ | |
+
+CALL
+
+ |
+
+Calls a MAIN label within a normal or a multi-port burst label. param_1 must be omitted, param_2 is required:
+
+- param_2 specifies the name of the label to be executed as part of the burst label. The label name must be enclosed in double quotes.
+ |
+ | |
+
+CLEV
+
+ |
+
+The "Change LEVels" instruction allows you to change the level set. param_1 is required, param_2 must be omitted:
+
+- param_1 specifies the level set number. The new value has to be an integer in the range of 1 to the maximum allowed level sets as set by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command. You can also enter PRM which specifies the primary level set.
+ |
+ | |
+
+COGO
+
+ |
+
+The "conditional go to" instruction is similar to the JMPE instruction. There are two differences:
+
+- COGO can only be used in SVEC subroutines.
+- When a subroutine is called with COGO, the called subroutine will not return to the calling subroutine, but to the lowest label in the call hierarchy that did not use COGO for its subroutine call.
+
+If, for example, the MAIN label pat1 calls the subroutine sub1 with JSUB, and sub1 calls sub2 with JMPE, then sub2 will return to sub1. But if sub2 is called with COGO from sub1, then sub2 will return to pat1.
+
+The reason for this is that the return address for a COGO call is not pushed onto the call stack. Note that this can be exploited to create an infinite loop by letting sub1 call sub2 with COGO, and letting sub2 in turn call sub1 also with COGO. By contrast, such a mutual call will lead to a stack overflow when JMPE is used for the calls.
+
+- param_1 specifies the label to jump to when the error flag is not set 1.
+- param_2 specifies the label to jump to when the error flag is set 1.
+
+The label names must be enclosed with double quotes. Both parameters can be omitted.
+
+ |
+ | |
+
+CTIM
+
+ |
+
+The "Change TIMing" instruction allows you to change the timing set. param_1 is required, param_2 must be omitted:
+
+- param_1 specifies the timing set number. The new value has to be an integer in the range of 1 to the maximum number of allowed timing sets as set by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）command. You can also enter PRM which specifies the primary timing set.
+ |
+ | |
+
+FLQU
+
+ |
+
+The "fill data queue" instruction inserts fill break vectors into the data queue (see also `How to prevent the data queue from running empty`（raw: `02.06.07.01.09.03_How_to_prevent_the_data_queue_from_running_empty.md`）). param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+GENV
+
+ |
+
+The "GENerate Vectors" instruction causes parallel vectors to be sent to the DUT. param_1 is required, param_2 must be omitted. Where, param_1 specifies the number of parallel vectors to be generated. The maximum number of vectors is (2^21- 1) * 8.
+
+  Note After inserting a GENV instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas. See `Inserting a sequencer instruction`（raw: `02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md`）. |
+ | |
+
+JMPE
+
+ |
+
+The "jump to subroutine on error" instruction lets you execute a conditional jump to an SVEC type subroutine in dependence on an internal error flag which indicates that at least one cycle has failed. You can specify two subroutines, one for the case where the flag is set, and one for the case where it is not set. Both specifications are optional.
+
+- param_1 specifies the label to jump to when the error flag is not set`1)`（raw: `02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md#_98749__fn1`）.
+- param_2 specifies the label to jump to when the error flag is set`1)`（raw: `02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md#_98749__fn1`）.
+
+The label names must be enclosed with double quotes. Both parameters can be omitted.
+
+The error flag is reset when the subroutine of param_2 is executed.
+
+Note that the instruction cannot be placed immediately after the last of those vectors on whose result the jump is to depend. Rather, an appropriate number of buffer vectors must be inserted between this vector and the instruction. For more information see `Calculating the buffer vectors for JMPE`（raw: `02.06.07.01.08.05.02.01_Calculating_the_buffer_cycles_for_JMPE_and_RETC__and_match_loops.md`）.
+
+Note also that this instruction is not supported by the result tools.
+
+ |
+ | |
+
+JPPS
+
+ |
+
+The "jump to per-pin subroutine" instruction jumps to a pin specific subroutine. param_1 must be omitted, param_2 is required:
+
+- param_2 specifies the label to jump to. The label name must be enclosed with double quotes.
+
+Note that this instruction is counted as a logical vector of a pattern.
+
+ |
+ |   | JSUB |
+
+The "jump sub-patterns" instruction jumps to a vector type subroutine or a scan subroutine.
+
+Note that this instruction is not allowed in scan subroutines.
+
+ |
+ | |
+
+JTIN
+
+ |
+
+This instruction starts or stops jitter injection on a Smart Scale port for all port pins that are included in the primary jitter set. It overrules the global configuration of the jitter loop (as defined by the MODE property of JSCF), but only within the test in which it is issued. If no primary jitter set exists, the instruction is ignored.
+
+param_1 is required, param_2 must be omitted:
+
+- The possible values for param_1 are START and STOP.
+
+Note that this instruction is not available for the PSSL FASTDIFF mode.
+
+ |
+ | |
+
+LBGN
+
+ |
+
+The "loop begin" instruction specifies the start position of either a counted or an endless loop. The software uses different parameters to differentiate between the two loop structures.
+
+For an endless loop, param_1 can be either omitted or set to 0.
+
+For a counted loop, param_1 must be an integer in the range of 1 to 33554432 (this is the restriction imposed by the hardware). If this maximum is exceeded, the command fails with an error message.
+
+For both cases, param_2 must be omitted.
+
+ Note The only instructions that are allowed to be used within a counted loop are GENV, SRCV, RPTV, and NOP. Other instructions will report errors at the proper time. There are no changes to the existing endless loop structure. Note Whenever possible, use RPTV instead of a counted loop. |
+ | |
+
+LEND
+
+ |
+
+The "Loop END" instruction specifies the end of an endless loop. param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+LPBK
+
+ |
+
+This instruction starts a SmartLoop鈩?test. param_1 and param_2 are both optional:
+
+- param_1 defines the number of cycles for the SmartLoop鈩?test; this must be a multiple of 8. The maximum is 2^31-1.
+- param_2 is an optional multiplier for param_1; the maximum is 2^12-1. The point of this construction is to increase the maximum number of cycles above the maximum value of the individual parameters.
+
+If you omit both parameters, then the behavior of the SmartLoop鈩?test depends on whether ports without loopback pins exist in the start label. If so, the SmartLoop鈩? test will run until all ports without loopback pins have finished their test. If all pins are loopback pins, the test will start, but stop at once.
+
+Note that a pattern that contains a LPBK instruction must not contain any other instruction except BRKV, LBGN/LEND, and TMUA.
+
+ |
+ | |
+
+MACT
+
+ |
+
+The "match activate" instruction specifies the start of a counted match loop.
+
+param_1 specifies the number of loops after which the whole test fails. The maximum is 2^21 - 1.
+
+The MACT instruction features a second, optional parameter:
+
+- CONTINUE: This option keeps the test going on even if the loop fails.
+- TIL_FAIL_STOP: The loop is to be repeated until an iteration fails. When the maximum loop count is reached, the test program stops.
+- TIL_FAIL_CONT: The loop is to be repeated until an iteration fails. When the maximum loop count is reached, the test program continues after the loop has been completely executed. This behavior is a combination of both TIL_FAIL_STOP and CONTINUE.
+  Note The two values TIL_FAIL_STOP and TIL_FAIL_CONT are valid for Smart Scale cards only. |
+ | |
+
+MBGN
+
+ |
+
+The "Match BeGiN" instruction specifies the start position of a timed (old style) match loop. param_1 and param_2 must be omitted. See Generating a Match Loop below.
+
+ |
+ | |
+
+MEAS
+
+ |
+
+The "execute MEASurement set" instruction executes a PPMU measurement set. The measurement set must have been downloaded with the `MSET`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md`） command. param_1 and param_2 are both required.
+
+- param_1 specifies the number of the PPMU DC set to which the measurement set belongs.
+- param_2 specifies the number of the measurement set.
+ |
+ | |
+
+MEND
+
+ |
+
+The "Match END" instruction specifies the end of a timed (old style) match loop. param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+MJPE
+
+ |
+
+The "Match Jump on Error" instruction tells the sequencer to jump out of a timed (old style) match loop when a compare match is found. param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+MRPT
+
+ |
+
+The "match repeat" instruction marks the end of the compare vectors and the start of the dummy vectors for a counted match loop. It specifies the number of dummy vectors. It also causes the sequencer to wait when an error is detected in the match loop. See `Counted match loops`（raw: `02.06.07.01.08.04.03.01_Counted_match_loops.md`）. param_1 is required, param_2 must be omitted:
+
+- param_1 is the number of vectors. The maximum is (2^21 - 1) * 8 for SM memory type, and (2^21 - 1) * 7 for VM memory type.
+
+Note that after inserting a MRPT instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas.
+
+Note that this instruction is counted as a logical vector of a pattern.
+
+ |
+ | |
+
+NOP
+
+ |
+
+The "no operation" instruction performs no operation on the DUT (but increases the instruction density for the data queue. For more information refer to `Managing the data queue`（raw: `02.06.07.01.09_Managing_the_data_queue.md`）). param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+PRBS
+
+ |
+
+This instruction starts a PRBS test. param_1 is required, param_2 is optional:
+
+- param_1 defines the number of cycles for the PRBS test; the maximum is 2^31-1.
+- param_2 is an optional multiplier for param_1; the maximum is 2^12-1. The point of this construction is to increase the maximum number of cycles above the maximum value of the individual parameters.
+
+Note that a pattern that contains a PRBS instruction must not contain any other instruction except BRKV, LBGN/LEND, and TMUA.
+
+ |
+ | |
+
+RETC
+
+ |
+
+The "return conditionally" instruction returns from an SVEC type subroutine to a higher level SVEC subroutine or the main program in dependence of an internal error flag which is set when at least one cycle has failed. param_1 and param_2 are both required.
+
+- param_1 controls the dependency on the error flag. If it is set to 0, the return will only be executed if no error occurred so far. If it is set to 1, the return will only be executed if an error occurred.
+- param_2 can be used to reset the error flag. If the parameter is set to 0, the flag will be reset. If the parameter is set to 1, the flag will left in its current state.
+
+Note that this instruction is not supported by the result tools.
+
+ Note If you use the LMAP error map mode, `FLBL`（raw: `02.06.02.02.123_FLBL__-__Failing_LaBeLs.md`） ignores the RETC clearing flag for failures. Note If you use RETC to reduce test time by aborting a sequencer run early after checking for a failing DUT response, consider the following:
+
+When not all sites are enabled or activated (means, they are masked), see `The states of the sites`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.27.01_The_states_of_the_sites.md`）, and site match is set to ON, the masked sites will not be aware of the abort condition. Instead, the overall execution time depend on the maximum pattern length. In such scenarios, use the `Pattern per site`（raw: `../../03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.03.02.02_Pattern_per_site__Label_per_site.md`） feature to assign a dummy label for disabled sites. This ensures that the sequencer run get stopped as soon as all enabled sites have met the RETC condition.
+
+ |
+ |   | RGOP  | The "register operation" instruction performs simple arithmetic operations. It can be used, for instance, to ease the branch reconstruction for a `Sequencer鈥慶ontrolled search with cogo`（raw: `../02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md`）.
+
+param_1 is required, param_2 must be omitted.
+
+param_1 species the action as one of the following options:
+
+- RESET checks that the register value is 0. If not, the test fails. The first instruction of a new search has to be an RGOP RESET.
+- INC adds 1 to the current value of the register. The maximum count is 2^32-1.
+- INC_LOWER is the same as INC but with a different overflow check, to be used to run the first of two counts in the same sequencer run, together with INC_UPPER (not INC). Must not be used after a call with INC_UPPER. The maximum count is 2^16-1
+- INC_UPPER is to be used as the second count (works by adding 2^16 to the current value of the register).
+- SHL shifts the current value of the register one bit to the left and set bit 0 of the register to 0.
+
+The RGOP instruction cannot be used in the same sequencer run as a `match loop`（raw: `02.06.07.01.08.04.03_Match_loops.md`）, nor can you do interleaved or sequential COGO searches with this approach.
+
+The result is retrieved with an RGOV? query.
+
+ |
+ | |
+
+RPTJ
+
+ |
+
+The "repeat jump" instruction repeats the next JSUB instruction param_1 times. The JSUB instruction must follow the RPTJ instruction immediately. param_1 is required, param_2 must be omitted:
+
+- param_1 specifies the number of times the next JSUB instruction is to be repeated. The value has to be an integer in the range of 2 to 2^19 - 1.
+
+Note that this instruction is counted as a logical vector of a pattern.
+
+ |
+ | |
+
+RPTV
+
+ |
+
+The "repeat vector" instruction repeats a sequence of vectors. param_1 and param_2 are both required:
+
+- param_1 specifies the number of vectors to be repeated. The maximum is (2^21- 1) * 8.
+- param_2 specifies the number of repetitions. The maximum value depends on whether param_1 exceeds the word length of 8. If it does not, the maximum is 2^24 - 8. If it does, the maximum number is 2^18.
+ Note After inserting an RPTV instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas. See `Inserting a sequencer instruction`（raw: `02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md`）. |
+ | |
+
+RSJP
+
+ |
+
+The "Return from a Subroutine Jump" instruction returns from an SJMP type subroutine. param_1 and param_2 must be omitted.
+
+This instruction is allowed for downward compatibility only. It should not be used in new applications.
+
+ |
+ | |
+
+RSUB
+
+ |
+
+The "return from a vector subroutine" instruction returns from an SVEC type subroutine to a higher level SVEC subroutine or the main program. param_1 and param_2 must both be omitted.
+
+ |
+ | |
+
+SRCV
+
+ |
+
+The "SouRCe Vectors" instruction marks the start of a source vector block. It can only be used in connection with the SSRC instruction. Within such a block, the vectors of the source pins are read from the DSCR label referenced by the SSRC instruction. The vectors for the other non-source pins are specified in the actual label. param_1 and param_2 are both required:
+
+- param_1 specifies the size of the parallel vector sequence to be repeated on non-source pins. The range is 1 to 65535.
+- param_2 specifies how often the sequence is to be repeated. The range is also 1 to 65535.
+
+The length of a source vector block is determined by the length of the corresponding source vector section in the DSCR label. Accordingly, param_1 * param_2 must equal the length of this section. Otherwise, the parameters are only relevant to the non-DSM pins: they define the length of the vector block that is to be executed on the non-source pins, and how often this block is to be repeated.
+
+Note that this instruction is counted as a logical vector of a pattern.
+
+ |
+ | |
+
+SSRC
+
+ |
+
+The "Start SouRCe" instruction specifies the label (of type DSRC) that contains the vectors for the source pins. param_1 must be omitted, param_2 is required:
+
+- param_2 must specify a valid DSRC label name enclosed by doubled quotes.
+
+The source pins are defined by the port of the DSRC label. Refer to the SRCV instruction below.
+
+ |
+ | |
+
+STOP
+
+ |
+
+The "stop test" instruction programs the sequencer to stop the label. This instruction must be present in each label of type MAIN. param_1 and param_2 must both be omitted.
+
+ |
+ | |
+
+STSA
+
+ |
+
+The "SeT Scan vector Address" instruction is one of the two STxA instructions that form a label header. It must be present in every label of type MAIN. param_1 and param_2 must be omitted.
+
+ |
+ | |
+
+STVA
+
+ |
+
+The "SeT parallel Vector Address" instruction is one of the two STxA instructions that form a label header. It must be present in every label of types MAIN and SVEC. param_2 is required, param_1 must be omitted:
+
+- param_2 specifies the start address of the port specific vector area segments that are associated with the label. The address must be a multiple of 8.
+
+You can always use param_2 to specify the address, but SmarTest stores and displays the address in param_2 only if the vector setup file contains patterns for user defined ports. In all other cases it uses param_1.
+
+ |
+ | |
+
+TMUA
+
+ |
+
+This instruction arms the TMU per pin for all pins of the pattern port. param_1 and param_2 must both be omitted.
+
+Not supported for Pin Scale 5000 cards.
+
+ |
+ | |
+
+WAIT
+
+ |
+
+The WAIT instruction causes the sequencer to create a number of break vectors which approximates as closely as possible a specified number of nano seconds.
+
+param_1 is required, param_2 must be omitted:
+
+- param_1specifies the required number of nano seconds. The admitted range is from 0 to 5592402.
+ |
+ | |
+
+WTER
+
+ |
+
+The "WaiT on ERror" instruction programs the sequencer to wait on encountering an error within a timed (old style) match loop. param_1 and param_2 must be omitted.
+
+ |
+ |
+
+ |
+
+XACT
+
+ |
+
+The "eXecute ACTion" instruction executes a DC waveform. param_2 is required, param_1 must be omitted:
+
+- param_2 specifies the name of the DC waveform to be executed. The waveform identified by this name must have been defined with the DFTD command within a test data collection which has the same name as the pattern in which XACT is used.
+ |
+ |
+
+param_1
+
+ |
+
+The role of this optional parameter depends on the instruction specified for the instr parameter. See the descriptions of the individual instructions.
+
+ |
+ |
+
+param_2
+
+ |
+
+The role of this optional parameter depends on the instruction specified for the instr parameter. See the descriptions of the individual instructions.
+
+ |
+ |
+
+memory
+
+ |
+
+The optional parameter defines the location of the vectors. Possible values are:
+
+- SM: Sequencer memory. This is the default.
+- SHMEM: With this option different sites for the same pin share their vector areas, or at least always use the same vector data. For more information see `Selecting the memory type`（raw: `02.06.07.01.04.01_Selecting_the_memory_type.md`）.
+ |
+ |
+
+port
+
+ |
+
+The mandatory parameter defines the name of the port whose sequencer area is to be modified. Specify @ for the default port to which all pins belong.
+
+ |
+
 ### Example 1（取自子主题 Vector Setup Commands › List of vector setup commands › SQPG  SQPG  -  SeQuencer ProGramming）
 
 The following is a simple example of a counted match loop:
@@ -46204,6 +54787,110 @@ Display the active vectors for the two GENV instructions:
 
 The first memory word is now associated with the new instruction. The first of its vectors is active, the others are inactive. The previous command 6 (now command 7) is now associated with the second and the third block. Thus the third memory word is illegally shared between two labels.
 
+### SQSL（取自子主题 Vector Setup Commands › List of vector setup commands › SQSL  SQSL  -  SeQuencer Start Label）
+
+```
+SQSL  {"label"} [, site|"site_string"]
+```
+
+### SQSL?（取自子主题 Vector Setup Commands › List of vector setup commands › SQSL  SQSL  -  SeQuencer Start Label）
+
+```
+SQSL?
+```
+
+returns:
+
+```
+SQSL {"label"}
+```
+
+With the TYPE option:
+
+```
+SQSL?TYPE
+```
+
+returns:
+
+```
+SQSL {"label"}, {type}, {(portlist)}
+```
+
+With the ALL option:
+
+```
+SQSL?ALL
+```
+
+returns:
+
+```
+SQSL {"label"}, {"site_string"}, {type}, {(portlist)}
+```
+
+Parameters
+ |
+
+label
+
+ |
+
+The name of a sequencer start label. In the command, you can enter an empty string ("") to deactivate the current start label.
+
+ |
+ |
+
+site|"site_string"
+
+ |
+
+In the command, you can either specify a number to identify a single site, or a string of 1's and 0's. The length of the string must correspond to the number of the configured sites. The nth character of this string stands for site n.
+
+"1" means that the specified label is to be assigned as the new start label to the respective site, "0" means that the current start label is not changed.
+
+If you omit this parameter, the specified label will be made the start label of all sites.
+
+When ALL was specified in the query, a site string is returned.
+
+ |
+ |
+
+TYPE
+
+ |
+
+If you issue SQSL? without any parameter, the query will return the name of the current start label for the site that has the query focus. If you add TYPE, not only the name, but also the type and the associated ports of this label will be returned.
+
+ |
+ |
+
+ALL
+
+ |
+
+If you specify this keyword in the query, SQSL? will return the start labels of all sites, including their type and associated ports.
+
+ |
+ |
+
+type
+
+ |
+
+The type of the label. For an explanation of the possible types, see the SQLB command.
+
+ |
+ |
+
+portlist
+
+ |
+
+This can be the default port @ which comprises all configured pins, or, in the case of a multi-port burst, the ports with which the label is associated.
+
+ |
+
 ### Example 1（取自子主题 Vector Setup Commands › List of vector setup commands › SQSL  SQSL  -  SeQuencer Start Label）
 
 ```
@@ -46232,6 +54919,22 @@ The first memory word is now associated with the new instruction. The first of i
 ```
 
 This example illustrates the definition of different start labels for different sites. Note that the restriction of the setup focus has no influence on the command, but that the setting of the query focus does affect SQSL?.
+
+### SQST（取自子主题 Vector Setup Commands › List of vector setup commands › SQST  SQST  -  SeQuencer STate）
+
+SQST {seq_state} [,"exec_context"]
+
+### SQST?（取自子主题 Vector Setup Commands › List of vector setup commands › SQST  SQST  -  SeQuencer STate）
+
+```
+SQST? ["exec_context"]
+```
+
+returns:
+
+```
+SQST {seq_state}
+```
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › SQST  SQST  -  SeQuencer STate）
 
@@ -46331,6 +55034,24 @@ SQST RUN
 
 This example starts a global sequencer run.
 
+### SQTO（取自子主题 Vector Setup Commands › List of vector setup commands › SQTO  SQTO  -  SeQuencer TimeOut）
+
+```
+SQTO {timeout}             // in seconds
+```
+
+### SQTO?（取自子主题 Vector Setup Commands › List of vector setup commands › SQTO  SQTO  -  SeQuencer TimeOut）
+
+```
+SQTO?
+```
+
+returns:
+
+```
+SQTO {timeout}
+```
+
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › SQTO  SQTO  -  SeQuencer TimeOut）
 
 |
@@ -46350,6 +55071,20 @@ SQTO 3000
 ```
 
 This example programs the sequencer to exit after 50 minutes.
+
+### SREC（取自子主题 Vector Setup Commands › List of vector setup commands › SREC  SREC  -  Set RECeiver mask）
+
+```
+SREC {mask_value}, {(pinlist)}
+```
+
+### SREC?（取自子主题 Vector Setup Commands › List of vector setup commands › SREC  SREC  -  Set RECeiver mask）
+
+```
+SREC? {(pinlist)}
+```
+
+Note Executing `SREC ACT,(@)` may cause excessive overhead. You can use the `UI_SUSPEND`（raw: `../02.07_Test_Method_Reference/02.07.04.01.260_UI_SUSPEND.md`） test method API to suspend updates of the graphical user interface.
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › SREC  SREC  -  Set RECeiver mask）
 
@@ -46416,6 +55151,21 @@ SREC X, (D1, D2, D3, D4)
 
 This example masks the pins D1, D2, D3 and D4.
 
+### TCMT（取自子主题 Vector Setup Commands › List of vector setup commands › TCMT  TCMT  -  Test CoMment Transfer）
+
+```
+TCMT {vect_addr}, {"text"}
+```
+
+### TCMT?（取自子主题 Vector Setup Commands › List of vector setup commands › TCMT  TCMT  -  Test CoMment Transfer）
+
+```
+
+TCMT? {vect_addr}, [vect_length]
+```
+
+returns a comment text for each TCMT in the range vect_addr to vect_addr `+`vect_length `- 1`.
+
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › TCMT  TCMT  -  Test CoMment Transfer）
 
 |
@@ -46455,6 +55205,24 @@ TCMT 2063,"Start of test 2".
 ```
 
 This example inserts the comment "Start of test 2" at the logical vector address 2063.
+
+### TSTL（取自子主题 Vector Setup Commands › List of vector setup commands › TSTL  TSTL  -  TeST Label）
+
+```
+TSTL {"label"}, [(port)]
+```
+
+### TSTL?（取自子主题 Vector Setup Commands › List of vector setup commands › TSTL  TSTL  -  TeST Label）
+
+```
+TSTL?
+```
+
+returns:
+
+```
+TSTL {"label"}, {(port)}
+```
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › TSTL  TSTL  -  TeST Label）
 
@@ -46676,6 +55444,10 @@ VDCN 93, "EXAMPL", 1, 15, (@)
 
 This example downloads vector data resulting from the default values for the EXAMPL device cycle to all pins, starting at active vector 93. The download is repeated 15 times.
 
+### VDCP（取自子主题 Vector Setup Commands › List of vector setup commands › VDCP  VDCP   Vector Device Cycle Parameter）
+
+VDCP {vec_no}, {"dev_cyc_name"}, {dev_cyc_len}, [ed_comp], {DD1}, {DD2}, {ED1}, {ED2}, {(pinlist)}
+
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › VDCP  VDCP   Vector Device Cycle Parameter）
 
 |
@@ -46823,6 +55595,151 @@ The pin name or names for which a vector data transfer is to be made. If more th
 
 In the second call of VDCP? (the first call just serves to display the underlying situation) the range of interest starts at vector 6. Note that the reply starts with vector 5, and that the first occurrence of MYDC, which lies between vector 2 and vector 6, is not displayed.
 
+### VECC（取自子主题 Vector Setup Commands › List of vector setup commands › VECC  VECC  -  VECtor download Compressed）
+
+```
+VECC {applic}, {type} [, port], {address}, {length}, {(pin_or_port)}, {#spec(data)}
+```
+
+### VECC?（取自子主题 Vector Setup Commands › List of vector setup commands › VECC  VECC  -  VECtor download Compressed）
+
+```
+VECC? {applic}, {type} [, port_list], {address}, [length], {(pinlist)}
+```
+
+returns:
+
+```
+VECC {applic}, {type} [, port], {address}, {length}, {(pin)}, {#spec(data)}
+```
+
+Parameters
+ |
+
+applic
+
+ |
+
+The parameter specifies the target area of the command, and the source area of the query. Possible values are:
+
+ |
+ |
+
+PARA
+
+ |
+
+For 鈥楶ARAllel test'.
+
+ |
+ |
+
+PPSQ
+
+ |
+
+For 鈥楶er-Pin SeQuencer test'.
+
+ |
+ |
+
+For DC Scale channels, only PPSQ is allowed.
+
+ |
+ |
+
+type
+
+ |
+
+The type of memory. This can be
+
+- SM for sequencer memory (the standard type), or
+- SHMEM, a special kind of SM only for multi-site setups, or
+- ALL (only in the query) for both SM and SHMEM.
+ |
+ |
+
+port
+
+ |
+
+This parameter is required if the command is applied to a 7.x setup, where the STVA instructions are port specific (address specified in param_2).
+
+If the parameter is omitted for an older setup (so that the address parameter refers to the one global vector area), VECC will find the correct location of the data by analyzing the STVA addresses of the setup.
+
+ |
+ |
+
+port_list
+
+ |
+
+In the query, you can specify a port list for a 7.x setup. You will get an answer for every pin in pinlist that belongs to one of the specified ports.
+
+ |
+ |
+
+address
+
+ |
+
+The address of the target area where the data transfer should start. This must be a multiple of 8. If a port is specified (which is required for a 7.x setup), the address refers to the specific vector area of this port. If no port is specified (which is only allowed for older setups), it refers to the one global vector area.
+
+For the command, the start address may be greater than the actual last address of the target area. In this case, VECC extends the size of the target area accordingly; the new last address will be at address + length.
+
+ |
+ |
+
+length
+
+ |
+
+The length of the data that is to be down- or uploaded. This must be a multiple of 8.
+
+In the command, address + length may be greater than the actual last address of the target area. In this case, VECC extends the size of the target area accordingly; the new last address will be at address + length.
+
+This parameter is optional for the query. If you enter a length, the contents of the specified part of the vector area are returned. If you omit it, the contents of the memory from address to the current end address of the target area are returned.
+
+ |
+ |
+
+pin_or_port
+
+ |
+
+The name of the pin whose vectors are to be down- or uploaded. If you specify a port, the vectors will be downloaded to all pins of this port.
+
+Note that if the query is issued for a port, the answer will be given for the individual pins.
+
+ |
+ |
+
+pinlist
+
+ |
+
+The pins for which vector data is to be returned from the vector area.
+
+Note: You can either type the pin number or the pin alias.
+
+ |
+ |
+
+#spec(data)
+
+ |
+
+Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:
+
+Type # to mark the start of the data block.
+
+Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.
+
+The compressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character (`\x0A`).
+
+ |
+
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › VECC  VECC  -  VECtor download Compressed）
 
 ```
@@ -46840,6 +55757,149 @@ data:
 VECD PARA,SM,0,56,(S0),#9000000016\x02Ee\x80\x02Ee\x814VX\x13Eu\x90\x00\x0A
 status: 0
 ```
+
+### VECD（取自子主题 Vector Setup Commands › List of vector setup commands › VECD  VECD  -  VECtor Download）
+
+```
+VECD {applic}, {type} [, port], {address}, {length}, {(pin_or_port)}, {#spec(data)}
+```
+
+### VECD?（取自子主题 Vector Setup Commands › List of vector setup commands › VECD  VECD  -  VECtor Download）
+
+```
+VECD? {applic}, {type} [, port_list], {address}, [length], {(pinlist)}
+```
+
+returns:
+
+```
+VECD {applic}, {type} [, port], {address}, {length}, {(pin)}, {#spec(data)}
+```
+
+Parameters
+ |
+
+applic
+
+ |
+
+The parameter specifies the target area of the command, and the source area of the query. Possible values are:
+
+ |
+ |
+
+PARA
+
+ |
+
+For 鈥楶ARAllel test'.
+
+ |
+ |
+
+PPSQ
+
+ |
+
+For 鈥楶er-Pin SeQuencer test'.
+
+ |
+ |
+
+For DC Scale channels, only PPSQ is allowed.
+
+ |
+ |
+
+type
+
+ |
+
+The type of memory. This can be
+
+- SM for sequencer memory (the standard type), or
+- SHMEM, a special kind of SM only for multi-site setups, or
+- ALL (only in the query) for both SM and SHMEM.
+ |
+ |
+
+port
+
+ |
+
+This parameter is required if the command is applied to a 7.x setup, where the STVA instructions are port specific (address specified in param_2).
+
+If the parameter is omitted for an older setup (so that the address parameter refers to the one global vector area), VECD will find the correct location of the data by analyzing the STVA addresses of the setup.
+
+ |
+ |
+
+port_list
+
+ |
+
+In the query, you can specify a port list for a 7.x setup. You will get an answer for every pin in pinlist that belongs to one of the specified ports.
+
+ |
+ |
+
+address
+
+ |
+
+The address of the target area where the data transfer should start. This must be a multiple of 8. If a port is specified (which is required for a 7.x setup), the address refers to the specific vector area of this port. If no port is specified (which is only allowed for older setups), it refers to the one global vector area.
+
+For the command, the start address may be greater than the actual last address of the target area. In this case, VECD extends the size of the target area accordingly; the new last address will be at address + length.
+
+ |
+ |
+
+length
+
+ |
+
+The length of the data that is to be down- or uploaded. This must be a multiple of 8.
+
+In the command, address + length may be greater than the actual last address of the target area. In this case, VECD extends the size of the target area accordingly; the new last address will be at address + length.
+
+This parameter is optional for the query. If you enter a length, the contents of the specified part of the vector area are returned. If you omit it, the contents of the memory from address to the current end address of the target area are returned.
+
+ |
+ |
+
+pin_or_port
+
+ |
+
+The name of the pin whose vectors are to be down- or uploaded. If you specify a port, the vectors will be downloaded to all pins of this port.
+
+Note that if the query is issued for a port, the answer will be given for the individual pins.
+
+ |
+ |
+
+pinlist
+
+ |
+
+The pins for which vector data is to be returned from the vector area.
+
+ |
+ |
+
+#spec(data)
+
+ |
+
+Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:
+
+Type # to mark the start of the data block.
+
+Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.
+
+The uncompressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character. One byte represents one vector.
+
+ |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › VECD  VECD  -  VECtor Download）
 
@@ -46944,6 +56004,24 @@ Note that a positive step width means that the level is increased, and a negativ
 
 You can combine level searches with timing searches, but not on the same pin at the same time: If you define, for example, first a level search for a pin with TOCF, and then a timing search for the same pin, the timing search configuration will overwrite the level configuration.
 
+### CYRM（取自子主题 AC Testing Commands › List of AC test function commands › CYRM  CYRM  -  CYcle Resolution Mode）
+
+```
+CYRM {resolution_mode}, [error_limit], {(pinlist)}
+```
+
+### CYRM?（取自子主题 AC Testing Commands › List of AC test function commands › CYRM  CYRM  -  CYcle Resolution Mode）
+
+```
+CYRM? {(pinlist)}
+```
+
+returns:
+
+```
+CYRM {resolution_mode},[error_limit], {(pinlist)}
+```
+
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › CYRM  CYRM  -  CYcle Resolution Mode）
 
 |
@@ -47006,6 +56084,179 @@ The pin or pins to which this mode will be applied. You can also specify one or 
 CYRM CYCL,,(@)
 CYRM CYCL,,(MatchLoopPin)
 ```
+
+### DPSR（取自子主题 AC Testing Commands › List of AC test function commands › DPSR  DPSR  -  Define Parallel SeaRch）
+
+```
+DPSR {set_nr}, ["exec_context",] [(setup_pinlist)|(primary_port)], [(result_pinlist)], [wait_time,] [search_type], [max_err_count,] {#spec(data)}
+```
+
+### DPSR?（取自子主题 AC Testing Commands › List of AC test function commands › DPSR  DPSR  -  Define Parallel SeaRch）
+
+```
+DPSR? {set_nr} [, (setup_pinlist)]
+```
+
+returns:
+
+```
+DPSR {set_nr}, ["exec_context",] (setup_pinlist), (result_pinlist), [wait_time,] search_type, [max_err_count], {#spec(data)}
+```
+
+Extra parameters exec_context and wait_time are returned only if they have been defined by DPSR.
+
+Parameters
+ | set_nr |
+
+The mandatory parameter specifies the number of the search set in which the condition is to be stored.
+
+The maximum number is 128.
+
+If a search set with this number does not yet exist, it will be created.
+
+ |
+ | exec_context |
+
+The extra parameter defines an execution context.
+
+For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）.
+
+ |
+ | setup_pinlist |
+
+The optional parameter defines the pins for which an edge is to be moved or a spec variable is to be modified.
+
+If this parameter is omitted, all pins will be used as setup pins.
+
+ |
+ | primary_port |
+
+This optional parameter is only relevant for Pin Scale systems.
+
+Specifies the setup pins by a single port name. The difference to a setup pin list is that the port will be used as the primary port by `EXSR`（raw: `02.06.02.02.121_EXSR_-__EXecute_SeaRch.md`）.
+
+Note that this only holds if you specify the setup pins by one single port. If you enter more than one port, the list will be treated as a normal setup pin list.
+
+This parameter is only applicable if spec_name as specified in the #spec(data) parameter occurs in the period definition for the specified port in the primary multi-port timing specification.
+
+Add @UNCHANGED to suppress the switch of the primary port..
+
+ |
+ | result_pinlist |
+
+The optional parameter defines the output pins whose results are contributing to the test result.
+
+If the parameter is omitted, all output and I/O pins will contribute to the result. If you specify an empty #spec(data) parameter, the result_pinlist parameter is ignored.
+
+ |
+ | wait_time  | The extra parameter specifies a wait time between the functional test runs in milliseconds.
+
+Valid range: 0 鈥?2^31 - 2
+
+Default value if not specified: 0 ms
+
+ |
+ | search_type |
+
+The optional parameter specifies the search type.
+
+This parameter determines the format of the #spec(data) parameter. If you specify an empty #spec(data) parameter, the search_type parameter will be ignored.
+
+Currently, the following values are allowed:
+
+ |
+ | FUNC  | Functional search |
+ | ERCT |
+
+With this option, an additional error count check is performed internally for each repetition of the functional test. If the number of errors is smaller than the value specified by the max_err_count parameter, then the functional test will count as passed, and the search be terminated for a FAIL/PASS transition. The edge position / spec value of this test repetition will then be returned as the transition point by RSSR?.
+
+Note that it depends on the settings of DRCM whether failing cycles or failing edges are counted.
+
+ |
+ | max_err_count |
+
+This extra parameter specifies the maximum number of errors for which a repetition of the functional test will still count as passed.
+
+The parameter must be defined and is only processed if the search_type is ERCT.
+
+ |
+ | #spec(data) |
+
+The mandatory binary data that define the search condition. The general format is:
+
+`#Nn1n2n...nNdata_stream`
+
+where the digit N defines the number of the digits ni (1 鈮? i 鈮?N) that specify the length of data_stream in bytes.
+
+The format of the data stream itself is determined by the search_type parameter. For search types FUNC and ERCT (currently the only search types), the format is
+
+`{spec_type}, {"spec_name"|resource}, {search_mode}, {start}, {stop}, [step_size], [resolution]`
+
+You can delete a search condition by specifying an empty data stream with #10. If you omit all the other parameters and specify #10 for the #spec(data) parameter, the whole search set will be erased.
+
+The meaning of the individual sub-parameters is as follows:
+
+ |
+ |
+
+spec_type
+
+ |
+
+Specifies whether a spec variable or a resource is modified, and in the former case also the type of the spec variable. This parameter determines the allowed values of the following parameter.
+
+Possible values of the spec_type parameter are:
+
+ |
+ | TIM  | A timing spec variable is to be modified. |
+ | LEV  | A level spec variable is to be modified. |
+ | RES  | A hardware resource is to be modified. |
+ | spec_name |
+
+The name of a spec variable must be specified if spec_type is set to TIM or LEV.
+
+DPSR does not accept the format
+
+`spec_name@port_name,`
+
+that is, spec names that are qualified by a port name. If the same spec variable is used in more than one port, the setup pins determine on which ports the value of the variable is modified.
+
+ |
+ | resource |
+
+A resource must be specified if spec_type is set to RES Currently, the only allowed resources are edges, which must be specified in the standard format, di or ri.
+
+ |
+ | search_mode |
+
+This parameter defines the search algorithm.
+
+Possible values are:
+
+ |
+ | L  | Specifies a linear search from the start of the search range at intervals defined by step_size. |
+ | B  | Specifies a binary search between the start and the stop positions. |
+ |
+
+LB
+
+   | Specifies a combined linear and binary search. A linear search is performed at intervals defined by step_size. When a PASS/FAIL transition is found, an additional binary search is performed in the interval between the last passed and the first failed test, or the last failed and the first passed test. |
+ | start  | >Specifies the starting point of the search. If the value is greater than the stop value, the search will go backward. |
+ | stop  | Specifies the end point of the search. If the value is smaller than the start value, the search will go backward. |
+ | step_size |
+
+This parameter specifies the step width of a linear search. The unit depends on the spec_type parameter. For a spec search, it is the unit of the spec variable. For a resource search, it is ns.
+
+This parameter is mandatory for a linear search, and optional for a binary search.
+
+ |
+ | resolution |
+
+This parameter specifies the resolution of the search. For a binary search, this is the minimum length of the interval between the returned PASS value and the returned FAIL value. For a linear search, the start, stop, and step_size values will be rounded to multiples of the specified resolution.
+
+If the parameter is omitted, the smallest values allowed by the software ( for spec variables) or the hardware (for edges) will be used.
+
+ |
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › DPSR  DPSR  -  Define Parallel SeaRch）
 
@@ -47215,6 +56466,160 @@ returns:
 
 ```
 EDDC {edge_number}, {dev_cyc_name}, [reuse_flag], {(pinlist)}
+```
+
+### EDSP（取自子主题 AC Testing Commands › List of AC test function commands › EDSP  EDSP  -  EDge SPecification）
+
+The edge_spec parameter specifies a physical edge (d1 through d8 or r1 through r8):
+
+```
+EDSP [waveform_set|specset_id|"multi-port_spec"], [timing_set], {edge_spec}, , ,[direction], {(pinlist)}
+```
+
+The edge_spec parameter is a data parameter (D1, D2, C1, C2, E1, or E2):
+
+```
+EDSP [waveform_set|specset_id|"multi-port_spec"], [timing_set], {edge_spec}, [dev_cyc_name], [dc_ref] ,[direction], {(pinlist)}
+```
+
+### EDSP?（取自子主题 AC Testing Commands › List of AC test function commands › EDSP  EDSP  -  EDge SPecification）
+
+```
+EDSP? [dc_ref], {(pinlist)}
+```
+
+returns:
+
+```
+EDSP , , {edge_number}, , {dc_ref}, ,{(pinlist)}
+```
+
+Parameters
+ |
+
+waveform_set
+
+ |
+
+Specifies a waveform set number for a fixed timing setup.
+
+ |
+ |
+
+specset_id
+
+ |
+
+Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:
+
+100 * equation_set_no + specset_no
+
+ |
+ |
+
+multi-port_spec
+
+ |
+
+Specifies the name of a multiport specification for a multi-port setup. PRM is the default value.
+
+ |
+ |
+
+timing_set
+
+ |
+
+Specifies the number of the a timing set. PRM is the default value.
+
+ |
+ |
+
+edge_spec
+
+ |
+
+The edge specifier can either be a physical edge (d1 through d8 or r1 through r8), or one of the data parameters D1, D2, C1, C2 (drive parameters) or E1, E2 (receive parameters).
+
+ |
+ |
+
+edge_number
+
+ |
+
+In the query reply, this parameter contains the edge that is used as leading or trailing edge.
+
+ |
+ |
+
+dev_cyc_name
+
+ |
+
+Specifies the name of a logical device cycle that uses the data parameter given as the edge_spec. It must be defined for all pins in pinlist. If you do not enter a name in this parameter, the first device cycle in the device cycle table is used.
+
+ |
+ |
+
+dc_ref
+
+ |
+
+This parameter specifies the input edge. The input edge determines the algorithm according to which the trailing edge is selected. The two options are LE (for "leading edge") and TE (for "trailing edge").
+
+The leading edge will always be the first edge that is associated with the specified data parameter within the specified device cycle, regardless of whether LE or TE is specified.
+
+For the trailing edge the following rules apply:
+
+- When you specify LE, trailing and leading edge will be identical.
+- When you specify TE, then drive parameters and receive parameters are treated differently.
+
+  - Drive parameter: The trailing edge will be the first drive edge after the leading edge thats performs a data or tri-state action. Note that this trailing edge need not be associated in any way with the data parameter of the leading edge.
+  - Receive parameter: If the action of the leading edge is an edge compare, leading and trailing edge will be identical. If it is the start action of a window compare, then the associated window close edge will be the trailing edge.
+
+For both cases, see the example below.
+
+In the query, you can also specify both. In this case both the leading and the trailing edge will be returned for the pins in pinlist.
+
+ |
+ |
+
+direction
+
+ |
+
+This parameter can be in or out. If in is selected to define an input edge, then the edge_spec parameter must be D1, D2, C1, or C2. If out is selected to define a receiver edge, then the edge_spec parameter must be E1 or E2. If either in or out is selected along with an edge_spec parameter of 1,2...6, then a check is performed to ensure that the edges of all pins are in the required direction. If no entry is made in this parameter, the measuring edges of the pin in pinlist can have any direction or be unused.
+
+ |
+ |
+
+pinlist
+
+ |
+
+The parameters of the EDSP command are applied to all pins named in this parameter. If more than one pin is used, the names must be separated by a comma.
+
+In a multi-port setup, all pins must belong to the same port of the specification that was entered as the first parameter.
+
+ |
+
+### ESGB（取自子主题 AC Testing Commands › List of AC test function commands › ESGB  ESGB  -  Edge Search GloBal）
+
+```
+ESGB [lin_step], [lin_bin_step], [min_pulse]
+```
+
+### ESGB（取自子主题 AC Testing Commands › List of AC test function commands › ESGB  ESGB  -  Edge Search GloBal）
+
+```
+ESGB?
+```
+
+returns:
+
+```
+ESGB [lin_step], [lin_bin_step], [min_pulse]
 ```
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › ESGB  ESGB  -  Edge Search GloBal）
@@ -47676,6 +57081,86 @@ If only a fail value is returned, the test always failed.
 
 In this example, RSSR? returns the results of all setup pins in search set 3 for site 2. For OUT1, a pass/fail transition was found, for IN1 a fail/pass transition.
 
+### SHSP（取自子主题 AC Testing Commands › List of AC test function commands › SHSP  SHSP  -  SHmoo SPecs）
+
+```
+SHSP [spec_type_1], ["spec_name_1[@port[@UNCHANGED]]"], [(pinlist_1)], [spec_type_2], ["spec_name_2[@port[@UNCHANGED]]"], [(pinlist_2)]
+```
+
+### SHSP?（取自子主题 AC Testing Commands › List of AC test function commands › SHSP  SHSP  -  SHmoo SPecs）
+
+```
+SHSP?
+```
+
+returns:
+
+```
+SHSP [spec_type_1], ["spec_name_1"], [(pinlist_1)], [spec_type_2], ["spec_name_2"], [(pinlist_2)]
+```
+
+Parameters
+ |
+
+spec_type_<number>
+
+ |
+
+Which specification type to use. Use:
+
+ |
+ |
+
+LEV
+
+ |
+
+to specify levels, or
+
+ |
+ |
+
+TIM
+
+ |
+
+to specify timing.
+
+ |
+ |
+
+spec_name_<number>
+
+ |
+
+A string of up to 16 alphanumeric characters (upper or lower case) enclosed in double quotes ("...").
+
+If you use the option @port[@UNCHANGED] (see parameter port), you must enclose it in the double quotes.
+
+ |
+ |
+
+port
+
+ |
+
+Define temporarily the port being shmooed as primary port.
+
+This is only applicable if spec_name_<number> affects the period.
+
+Add @UNCHANGED to apply legacy behavior: primary port is not switched to the port being shmooed
+
+ |
+ |
+
+pinlist_<number>
+
+ |
+
+The name of the pin or pins to be applied. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）command. If more than one pin is to be included, the names must be separated with a comma. The @ character indicates all pins.
+
+ |
+
 ### Example 1（取自子主题 AC Testing Commands › List of AC test function commands › SHSP  SHSP  -  SHmoo SPecs）
 
 ```
@@ -47702,6 +57187,24 @@ In the following Pin Scale example, both spec variables occur in the period defi
 ```
 
 Since `shmsp` is used in the period definitions for both port `Port1` and `Port2`, the one that is specified first in the SHSP command will be used to derive the period resolution. Note that the primary port is only changed after issuing the SHVL command.
+
+### SHVL（取自子主题 AC Testing Commands › List of AC test function commands › SHVL  SHVL  -  SHmoo spec VaLues）
+
+```
+SHVL [value_1], [value_2]
+```
+
+### SHVL?（取自子主题 AC Testing Commands › List of AC test function commands › SHVL  SHVL  -  SHmoo spec VaLues）
+
+```
+SHVL?
+```
+
+returns:
+
+```
+SHVL [value_1], [value_2]
+```
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › SHVL  SHVL  -  SHmoo spec VaLues）
 
@@ -47735,6 +57238,24 @@ Or use RSTO to restore the original value.
 > SHVL 2,3
 > SHVL?
 < SHVL 2,3
+```
+
+### SQGB（取自子主题 AC Testing Commands › List of AC test function commands › SQGB  SQGB  -  SeQuencer GloBal）
+
+```
+SQGB [mode], [analyze_delay][, (ref_port)]
+```
+
+### SQGB?（取自子主题 AC Testing Commands › List of AC test function commands › SQGB  SQGB  -  SeQuencer GloBal）
+
+```
+SQGB? [(portlist)]
+```
+
+returns:
+
+```
+SQGB {mode}, [analyze_delay][, (port)]
 ```
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › SQGB  SQGB  -  SeQuencer GloBal）
@@ -47915,6 +57436,20 @@ If the current mode requires an analyze delay, you can specify a port list in th
 ```
 
 This example configures the sequencers to stop when port P2 has completed 30 cycles. Port P1, whose period length is twice the period length of P2, will be stopped after 15 cycles. Note that P1 and P2 must belong to the same sequencing group.
+
+### SREC（取自子主题 AC Testing Commands › List of AC test function commands › SREC  SREC  -  Set RECeiver mask）
+
+```
+SREC {mask_value}, {(pinlist)}
+```
+
+### SREC?（取自子主题 AC Testing Commands › List of AC test function commands › SREC  SREC  -  Set RECeiver mask）
+
+```
+SREC? {(pinlist)}
+```
+
+Note Executing `SREC ACT,(@)` may cause excessive overhead. You can use the `UI_SUSPEND`（raw: `../02.07_Test_Method_Reference/02.07.04.01.260_UI_SUSPEND.md`） test method API to suspend updates of the graphical user interface.
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › SREC  SREC  -  Set RECeiver mask）
 
@@ -48165,6 +57700,24 @@ returns
 
 ```
 STRS GE,2,,
+```
+
+### TOCF（取自子主题 AC Testing Commands › List of AC test function commands › TOCF  TOCF  -  Timing Level Offset search ConFiguration）
+
+```
+TOCF [search_type], {resource_type}, {start}, {number_of_steps}, {step_width}, {resolution}, [min_pass_count], [min_stable_error_count,] [histogram_step_width,] [transition_detection], [error_count_limit], [restore_flag], {(setup_pinlist)}
+```
+
+### TOCF?（取自子主题 AC Testing Commands › List of AC test function commands › TOCF  TOCF  -  Timing Level Offset search ConFiguration）
+
+```
+TOCF? {(pinlist)}
+```
+
+returns:
+
+```
+TOCF {search_type} {resource_type}, {start}, {number_of_steps}, {step_width}, {resolution}, {min_pass_count}, {min_stable_error_count}, {histogram_step_width}, {transition_detection}, {error_count_limit}, {restore_flag}, {(setup_pinlist)}
 ```
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › TOCF  TOCF  -  Timing Level Offset search ConFiguration）
@@ -48538,6 +58091,30 @@ TOCF EYE,R,1,100,1,0.1,1,10,0.1,ECL,7,NO,(Pin1)
 ```
 
 This example appends a histogram based search to the binary search. The histogram based search is terminated if the error count is stable for 10 consecutive search steps. A test is considered passed if the number of errors is smaller than 7.
+
+### TOCR（取自子主题 AC Testing Commands › List of AC test function commands › TOCR  TOCR  -  Timing level Offset Configure Result pins）
+
+```
+TOCR [(result_pinlist)], {(setup_pin)}
+```
+
+### TOCR?（取自子主题 AC Testing Commands › List of AC test function commands › TOCR  TOCR  -  Timing level Offset Configure Result pins）
+
+```
+TOCR? {(result_pinlist)},
+```
+
+or
+
+```
+TOCR? , {(setup_pinlist)}
+```
+
+Both formats return:
+
+```
+TOCR {(result_pinlist)}, {(setup_pin)}
+```
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › TOCR  TOCR  -  Timing level Offset Configure Result pins）
 
@@ -49464,6 +59041,24 @@ No "Measurement range change failed" error. All set current measurement range re
 
 The "Clamp current correction failed". A high-accuracy clamp current correction for a DCVH setup with execution mode SER_HAC or PAR_HAC was not successful.
 
+### CTXT（取自子主题 DC Measurement Commands › List of DC measurement commands › CTXT  CTXT  -  ConTeXT）
+
+```
+CTXT {action},{"name"}
+```
+
+### CTXT?（取自子主题 DC Measurement Commands › List of DC measurement commands › CTXT  CTXT  -  ConTeXT）
+
+```
+CTXT?ALL
+```
+
+returns:
+
+```
+CTXT {DEFINE},{"name"}
+```
+
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › CTXT  CTXT  -  ConTeXT）
 
 |
@@ -49519,6 +59114,18 @@ The name of the mode context. If the action parameter is set to DELETE, you can 
 < CTXT DEFINE,"DEFAULT"
 < CTXT DEFINE,"differential"
 < CTXT DEFINE,"PdrvNPrcv"
+```
+
+### DDIC（取自子主题 DC Measurement Commands › List of DC measurement commands › DDIC  DDIC  -  Define DUT Interface Connection）
+
+```
+DDIC ["connectionSet",] {"circuitry_type"}, {(cp1,cp2)}
+```
+
+### DDIC?（取自子主题 DC Measurement Commands › List of DC measurement commands › DDIC  DDIC  -  Define DUT Interface Connection）
+
+```
+DDIC? {"circuitry_type"}
 ```
 
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › DDIC  DDIC  -  Define DUT Interface Connection）
@@ -49645,6 +59252,12 @@ returns
 DDIC CONN, (207GO,209GI)
 ```
 
+### DFCT（取自子主题 DC Measurement Commands › List of DC measurement commands › DFCT -  DeFine Continuity Test）
+
+```
+DFCT {force_current}, {commutation_voltage}, {pass_volt_min}, {pass_volt_max}, {polarity}, {(pinlist)}
+```
+
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › DFCT -  DeFine Continuity Test）
 
 |
@@ -49740,6 +59353,24 @@ This example sets up the parameters needed to execute a continuity test on pins 
 -  Single polarity measurement selected
 
 The example also includes the CTST? (Continuity TeST) query used to execute the test.
+
+### DPSE（取自子主题 DC Measurement Commands › List of DC measurement commands › DPSE  DPSE  -  Define Power Supply External trigger measurement）
+
+```
+DPSE {setnr}, {(pinlist)}, {binary_data}
+```
+
+### DPSE?（取自子主题 DC Measurement Commands › List of DC measurement commands › DPSE  DPSE  -  Define Power Supply External trigger measurement）
+
+```
+DPSE? {setnr}
+```
+
+returns:
+
+```
+DPSE {setnr}, {(pinlist)}, {binary_data}
+```
 
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › DPSE  DPSE  -  Define Power Supply External trigger measurement）
 
@@ -50017,6 +59648,555 @@ MEAS 1,2
 This example executes the measurement set 2 of the DC set 1.
 
 See also an example in `MSET, MSET? - (definition of Measurement SET)`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md`）.
+
+### MSET（取自子主题 DC Measurement Commands › List of DC measurement commands › MSET  MSET  -  definition of Measurement SET）
+
+```
+MSET {`id_dc`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_dc`）}, DC, {`id_mset`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_mset`）}, {`glob_act`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_glob_act`）}, `[par1`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_par1`）], `[par2`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_par2`）], {(`pinlist`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_pinlist`）)}
+MSET {`id_dc`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_dc`）}, DC, {`id_mset`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_mset`）}, {`act`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_act`）}, {`id_act`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_act`）}, {`par2`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_par2`）}, {(`pinlist`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_pinlist`）)}
+MSET {`id_dc`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_dc`）}, DC, {`id_mset`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_mset`）}, `VMUM`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__e_VMUM`）, {`id_act`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_id_act`）}, {`par2`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_par2`）},{`numOfSamples`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_numOfSamples`）},ADC`,[waveformSize`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_waveformSize`）]`,[samplePeriod`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_samplePeriod`）]{(`pinlist`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md#_98657__r_pinlist`）)}
+```
+
+### MSET?（取自子主题 DC Measurement Commands › List of DC measurement commands › MSET  MSET  -  definition of Measurement SET）
+
+```
+MSET? {id_dc|ALL}, DC, {id_mset|ALL}, {(pinlist)}
+```
+
+returns
+
+```
+MSET {id_dc}, DC, {id_mset}, {act}, {par1}, {par2}, {(pinlist)}
+```
+
+Parameters
+ |
+
+id_dc
+
+ |
+
+The DC set identification number. The number is an integer in the range 1 to 256. A DC set consists of up to 10 measurement sets. For the query, you can specify all the defined DC sets with the ALL specifier.
+
+ |
+ |
+
+id_mset
+
+ |
+
+The measurement set identification number. The number is an integer in the range 1 to 10. For the query, you can specify all the defined measurement sets with the ALL specifier.
+
+ |
+ |
+
+glob_act
+
+ |
+
+Global action in the measurement set. The allowed values are:
+
+ |
+ |
+
+LEN
+
+ |
+
+This action creates a default measurement set of the length specified with par1. par2 must be omitted. LEN must be executed before you can define any individual action.
+
+This action can only be executed for all configured pins (@).
+
+ |
+ |
+
+WAIT
+
+ |
+
+This action defines the waiting time for the sequencers after execution of the measurement set. The actual time is specified with the par2 parameter (in ms). par1 must be omitted.
+
+Note that it takes 0.32/0.58/0.40 ms respectively for the PS1600 (DC-relays only)/PS9G/pin scale`1)`（raw: `#fntarg_1`） cards to open or close relays. Further, 4.0/2.8/1.0 ms respectively is needed for the PS1600/PS9G/pin scale cards as settling time of PMUs after closing relays. Therefore, for PS1600 for example, you must set at least 4.32 ms (for connecting relays) or 0.32 ms (for disconnecting relays) for the action for opening and closing relays.
+
+This action can only be executed for all configured pins (@).
+
+ |
+ |
+
+SWAIT
+
+ |
+
+This action defines the waiting time for the sequencers before execution of the measurement set. The actual time is specified with the par2 parameter (in ms). par1 must be omitted.
+
+The default is 0, in which case the sequencers start the measurement immediately.
+
+A possible reason for defining such a wait time is to ensure that the vectors needed for preparing the measurement have actually been shifted out of the data queue. This is ensured if
+
+wait_time = 28 * user_period.
+
+This action can only be executed for all configured pins (@).
+
+ Note This action is only supported for DC measurements that are started from within the sequencer program with the MEAS instruction. It cannot be used with the MEAS firmware command. |
+ |
+
+RSET
+
+ |
+
+This action undefines the specified measurement set. par1 and par2 must be omitted.
+
+RSET can only be executed for all configured pins (@).
+
+ |
+ |
+
+ACT
+
+ |
+
+This action activates the specified measurement set for execution. This is the default.
+
+ |
+ |
+
+X
+
+ |
+
+This action inactivates the specified measurement set for execution.
+
+ |
+ |
+
+act
+
+ |
+
+Individual action in the measurement set. The allowed values for the measurement setup are:
+
+ |
+ |
+
+SEL
+
+ |
+
+Selects the working mode of the PMU. Set par2 to CURR for current measurements, or to VOLT for voltage measurements.
+
+ |
+ |
+
+IRNG
+
+ |
+
+Specifies the current range with par2 that is. You can specify a value in 碌A or one of the following codes:
+
+IRA = +/- 10 碌A range
+
+IRB = +/- 100 碌A range
+
+IRC = +/- 1 mA range
+
+IRD = +/- 40 mA range
+
+If a value is specified, the smallest range that does not exceed the value will be set.
+
+ |
+ |
+
+CRNG
+
+ |
+
+Specifies the current range for the clamp with par2. The possible options are the same as for IRNG. The range for CRNG and IRNG must be identical.
+
+ |
+ |
+
+Note that SEL and IRNG must have been defined before any of the following setup actions can be executed. Also the follwing actions must be redefined after a change of SEL or IRNG.
+
+ |
+ |
+
+IFOR
+
+ |
+
+Specifies a force current with par2 in 碌A when the working mode (SEL action) is set to voltage measurement.
+
+ |
+ |
+
+UFOR
+
+ |
+
+Specifies a force voltage with par2 in mV when the working mode (SEL action) is set to current measurement.
+
+ |
+ |
+
+PMUL
+
+ |
+
+Specifies the lower pass limit of the DC test with par2 in 碌A for current measurements, or in mV for voltage measurements. This value is used for pass/fail judgment and is set to the PPMU hardware.
+
+ |
+ |
+
+PMUH
+
+ |
+
+Specifies the higher pass limit of the DC test with par2 in 碌A for current measurement, or in mV for voltage measurement. This value is used for pass/fail judgment and is set to the PPMU hardware.
+
+ |
+ |
+
+You can control the AC relay, the PPMU relay and the DC relay if the used hardware supports these relays. The allowed values for relay control are:
+
+ |
+ |
+
+AC
+
+ |
+
+The AC relay can be closed or opened with ON/OFF for par2. The other two relays are always open.
+
+ |
+ |
+
+PPMU
+
+ |
+
+The PPMU relay can be closed or opened with ON/OFF for par2. The other two relays are always open.
+
+ |
+ |
+
+DC
+
+ |
+
+The DC relay can be closed or opened with ON/OFF for par2. The other two relays are always open.
+
+ |
+ |
+
+ACDC
+
+ |
+
+The AC and DC relays can be closed or opened simultaneously with ON/OFF for par2. The PPMU relay is always open.
+
+ |
+ |
+
+ACPM
+
+ |
+
+The AC and PPMU relays can be closed or opened simultaneously with ON/OFF for par2. The DC relay is always open.
+
+ |
+ |
+
+DCPM
+
+ |
+
+The PPMU and DC relays can be closed or opened simultaneously with ON/OFF for par2. The AC relay is always open.
+
+ |
+ |
+
+ALL
+
+ |
+
+All three relays can be closed or opened simultaneously with ON/OFF for par2.
+
+ |
+ |
+
+OAC
+
+ |
+
+The AC relay can be closed or opened with ON/OFF for par2. The state of the other two relays remains unchanged.
+
+ |
+ |
+
+OPM
+
+ |
+
+The PPMU relay can be closed or opened with ON/OFF for par2. The state of the other two relays remains unchanged.
+
+ |
+ |
+
+ODC
+
+ |
+
+The DC relay can be closed or opened with ON/OFF for par2. The state of the other two relays remains unchanged.
+
+ |
+ |
+
+The following actions set up the voltage clamp for Pin Scale systems:
+
+ |
+ |
+
+CLPL
+
+ |
+
+Specifies the clamp low voltage with par2 in mV.
+
+ |
+ |
+
+CLPH
+
+ |
+
+Specifies the clamp high voltage with par2 in mV.
+
+This clamp high voltage must be greater than the clamp low voltage. The setting range is same as for CLPL.
+
+ |
+ |
+
+CLMP
+
+ |
+
+Enables or disables the PPMU clamp with par2. ON enables the clamps, OFF disables them.
+
+The clamp operates for both current force (IVOR action) and voltage force (UFOR action).
+
+Before setting this parameter to ON, both the clamp low and high voltage (current) should be defined by CLPL (ICPL) and CLPH (ICPH) to prevent that unknown clamp voltages will be set momentarily.
+
+ |
+ |
+
+ICPL
+
+ |
+
+Specifies the clamp low current with par2 in 碌A.
+
+ |
+ |
+
+ICPH
+
+ |
+
+Specifies the clamp high current with par2 in 碌A.
+
+ |
+ |
+
+The following actions define the measurement mode:
+
+ |
+ |
+
+PMUM
+
+ |
+
+This action provides a PASS/FAIL result. This depends on how the measured value is compared with the limits. The compare mode can be set as par2 with the following specifiers:
+
+I (for Intermediate): PASS is returned if the measured value lies between the lower and the higher limit. This is the default.
+
+H (for High): PASS is returned if the measured value is not smaller than the higher limit.
+
+L (for Low): PASS is returned if the measured value is not greater than the lower limit.
+
+ X: Mask (Always returns PASS).Note For EXA Scale digital cards, to push the register setting into the hardware, the SYNC action must be executed immediately after this action. |
+ |
+
+VMUM
+
+ |
+
+This action provides a measurement value, but also a PASS/FAIL result. For the latter a compare mode must be specified with par2. The possible options are same as for PMUM.
+
+ Note This action is only supported for DC measurements that are started within the sequencer program with the `MEAS`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md#_99880__row_MEAS`） instruction. It cannot be used with the MEAS firmware command. Note For EXA Scale digital cards, to push the register setting into the hardware, the SYNC action must be executed immediately after this action. |
+ |
+
+DVM1
+
+ |
+
+This action provides the first value for a delta measurement. It also returns a PASS/FAIL result, for which a compare mode must be specified with par2. The possible options are same as for PMUM.
+
+ Note This action is only supported for DC measurements that are started within the sequencer program with the `MEAS`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md#_99880__row_MEAS`） instruction. It cannot be used with the MEAS firmware command. Note For EXA Scale digital cards, to push the register setting into the hardware, the SYNC action must be executed immediately after this action. |
+ |
+
+DVM2
+
+ |
+
+This action
+
+- provides the second value for a delta measurement,
+- calculates the difference between this value and the one provided by DVM1,
+- creates a PASS/FAIL result from this difference by comparing it with the limits (PMUL and PMUH).
+
+For the last step, a compare mode must be specified with par2. The possible options are same as for PMUM.
+
+ Note This action is only supported for DC measurements that are started within the sequencer program with the `MEAS`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md#_99880__row_MEAS`） instruction. It cannot be used with the MEAS firmware command. Note For EXA Scale digital cards, to push the register setting into the hardware, the SYNC action must be executed immediately after this action. |
+ |
+
+MUX_PPMU_BADC
+
+(Available on PS1600)
+
+ |
+
+Supports using the board ADC to measure voltage/current on pins during a pattern running in a functional test.
+
+This action controls the multilplexer before a board ADC to select the signal coming from the pin in {pinlist} via its PPMU and inputs it to the board ADC for value measurement.
+
+To support this action:
+
+- The values for {part2} are "ON" and "OFF".
+- {pinlist} can contain only one pin or pins of different logical boards.
+
+Putting a number of pins of the same logical board in the {pinlist} will result in resource confliction errors, because they share the same one board ADC and this board ADC can measure only one of them each time.
+
+ |
+ |
+
+MUX_VM_HIZ
+
+(Available on PS1600)
+
+ |
+
+Supports using the board ADC to measure high impedance or high voltage on pins during a pattern running in a functional test.
+
+This action controls the multiplexer before a board ADC to select the voltage signal coming from the pin in {pinlist} that has been connected to a DC Line and inputs it to the board ADC for value measurement.
+
+To support this action:
+
+- The values for {part2} are "ON" and "OFF".
+- {pinlist} can contain only one pin or pins of different logical boards.
+
+Putting pins of the same logical board in the {pinlist} will result in resource confliction errors, because they share the same one board ADC and this board ADC can measure only one of them each time.
+
+ |
+ |
+
+There are two actions which are not related to any af the DC measurement tasks:
+
+ |
+ |
+
+NOP
+
+ |
+
+This action does nothing at all.
+
+ |
+ |
+
+ACTI
+
+ |
+
+This action pushes the register setting into the hardware. It must be executed at the end of every measurement set, except when PMUM, VMUM, DVM1, or DVM2 is the only action within the set.
+
+For the EXA Scale digital card, it must be followed by the SYNC action.
+
+ |
+ | SYNC |
+
+This action pushes the register setting into the hardware, ensuring proper timing for the EXA Scale digital cards (the action does nothing for other digital cards). It must be executed right after ACTI, PMUM, VMUM, DVM1, or DVM2.
+
+ |
+ |
+
+par1
+
+ |
+
+First parameter for glob_act. The possible values depend on the act parameter.
+
+ |
+ |
+
+id_act
+
+ |
+
+The index of an individual action within the measurement set.
+
+ |
+ |
+
+par2
+
+ |
+
+Second parameter for glob_act. The possible values depend on the act parameter.
+
+ |
+ |
+
+numOfSamples
+
+ |
+
+The number of samples to be taken for one measurement value. Depending on the specified waveform size, the number of samples is constraint.
+
+If only one measurement is taken, the number of samples can be an integer between 1 and 4096.
+
+If a waveform (waveformSize > 1) is captured, then the number of samples must be one.
+
+ |
+ |
+
+waveformSize
+
+ |
+
+The number of measurements to be taken in the waveform. It is an integer between 1 and 4096.
+
+ |
+ |
+
+samplePeriod
+
+ |
+
+The sampling period for the waveform to measure, specified as float64 in [s]. The valid range is from 4 us to 409.6 us. The first sample has an additional trigger delay of 14.5us.
+
+The sampling period resolution is 25 ns.
+
+ |
+ |
+
+pinlist
+
+ |
+
+Target pin or pins for act. If more than one pin is to be included, the names must be separated by a comma. pinlist can contain digital pins configured as O, I, IO, or DC pin types.
+
+ |
 
 ### Example（取自子主题 DC Measurement Commands › List of DC measurement commands › MSET  MSET  -  definition of Measurement SET）
 
@@ -50831,6 +61011,24 @@ Names of pins to which this command is applied. The character @ can be used to s
 
 In this example, the `DPSE`（raw: `02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md`） command specifies a current limit of 0.9 A to 0.11 A for Vcc. Then the PSIE command starts measurements for the measurement set 1. In this case, the pin name is ignored because the set number is specified with the first parameter. After the measurement, the `PSER`（raw: `02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md`） command retrieves the measurement value for Vcc. In this case, the 300 mA range that is determined by using the specified limit value, is automatically selected for the measurement.
 
+### PSST（取自子主题 DC Measurement Commands › List of DC measurement commands › PSST  PSST  -  Power Supply STatus）
+
+```
+PSST {state} [, (pinlist)]
+```
+
+### PSST?（取自子主题 DC Measurement Commands › List of DC measurement commands › PSST  PSST  -  Power Supply STatus）
+
+```
+PSST?  [(pinlist)]
+```
+
+returns:
+
+```
+PSST {state} [, (pinlist)]
+```
+
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › PSST  PSST  -  Power Supply STatus）
 
 |
@@ -50895,6 +61093,26 @@ PSST OFF,(vcc)         # turn off vcc of one site only!
 PQFC 1 ; PSST? (vcc)   # these last two commands return different
 PQFC 2 ; PSST? (vcc)   # answers, since one site should have vcc
                        # connected, whereas the other site does not
+```
+
+### UHCM（取自子主题 DC Measurement Commands › List of DC measurement commands › UHCM  UHCM  -  Ultra High Current power supply Modes）
+
+```
+UHCM {`set_nr`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_set_nr`）}, `[time_to_alarm`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_time_to_alarm`）,] `[reserved_param`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_reserved_param`）], `[clamp_mode`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_clamp_mode`）], `[fast_preload`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_fast_preload`）],
+         `[openLoopProtection`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_openLoopProtection`）,] `[force_drop`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_force_drop`）], `[return_drop`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_return_drop`）], `[pulldown`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_pulldown`）,] {(`pinlist`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_pinlist`）)}
+```
+
+### UHCM?（取自子主题 DC Measurement Commands › List of DC measurement commands › UHCM  UHCM  -  Ultra High Current power supply Modes）
+
+```
+UHCM? {`set_nr`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_set_nr`）}, {(`pinlist`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_pinlist`）)}
+```
+
+returns:
+
+```
+UHCM {`set_nr`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_set_nr`）}, `[time_to_alarm`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_time_to_alarm`）,] `[reserved_param`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_reserved_param`）], `[clamp_mode`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_clamp_mode`）], `[fast_preload`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_fast_preload`）],
+         `[openLoopProtection`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_openLoopProtection`）,] `[force_drop`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_force_drop`）], `[return_drop`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_return_drop`）], {`[pulldown`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_pulldown`）], {(`pinlist`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md#_106910__r_pinlist`）)}
 ```
 
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › UHCM  UHCM  -  Ultra High Current power supply Modes）
@@ -52301,6 +62519,24 @@ error: unstable received on edge 1 (FIX)
 
  |
 
+### CYRM（取自子主题 Test Result Commands › List of test result commands › CYRM  CYRM  -  CYcle Resolution Mode）
+
+```
+CYRM {resolution_mode}, [error_limit], {(pinlist)}
+```
+
+### CYRM?（取自子主题 Test Result Commands › List of test result commands › CYRM  CYRM  -  CYcle Resolution Mode）
+
+```
+CYRM? {(pinlist)}
+```
+
+returns:
+
+```
+CYRM {resolution_mode},[error_limit], {(pinlist)}
+```
+
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › CYRM  CYRM  -  CYcle Resolution Mode）
 
 |
@@ -52504,6 +62740,24 @@ CYRS? (Out1,Out2)
 CYRS CYCL,(Out1,Out2)
 ```
 
+### DCEL（取自子主题 Test Result Commands › List of test result commands › DCEL  DCEL  -  Digital Compare Exception List）
+
+```
+DCEL {DCRT}, {TP}, {action}, {(pinlist)}
+```
+
+### DCEL?（取自子主题 Test Result Commands › List of test result commands › DCEL  DCEL  -  Digital Compare Exception List）
+
+```
+DCEL? {DCRT}, {parameter}, {(pinlist)}
+```
+
+returns:
+
+```
+DCEL? {DCRT}, {parameter}, {action}, {(pinlist)}
+```
+
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › DCEL  DCEL  -  Digital Compare Exception List）
 
 | DCRT  | The command for which an exception list is to be created. Currently, DCRT is the only allowed command. |
@@ -52531,6 +62785,24 @@ CYRS CYCL,(Out1,Out2)
 ```
 
 Note that you can add further pins to the exception list, and that the settings of DCRT are not changed even if all three pins of `portA` are in the exception list.
+
+### DCGM（取自子主题 Test Result Commands › List of test result commands › DCGM  DCGM  -  Digital Compare Global Mode）
+
+```
+DCGM {acqu_mode},{emap_pos_int},{ovem_pos_int}
+```
+
+### DCGM?（取自子主题 Test Result Commands › List of test result commands › DCGM  DCGM  -  Digital Compare Global Mode）
+
+```
+DCGM? [answer_type] [,"exec_context"]
+```
+
+returns:
+
+```
+DCGM {acqu_mode},{emap_pos_int},{ovem_pos_int}
+```
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › DCGM  DCGM  -  Digital Compare Global Mode）
 
@@ -52815,6 +63087,24 @@ DCRM OVEM,6000,,(@)
 
 This example defines that 6000 cycles will be compressed into one Overview Error Map bit when the next test will be executed.
 
+### DCRP（取自子主题 Test Result Commands › List of test result commands › DCRP  DCRP  -  Digital Compare Result Positioning）
+
+```
+DCRP {error_map_pos},{(ref_port)}
+```
+
+### DCRP?（取自子主题 Test Result Commands › List of test result commands › DCRP  DCRP  -  Digital Compare Result Positioning）
+
+```
+DCRP? [answer_type,]{(port_list)}
+```
+
+returns:
+
+```
+DCRP {error_map_pos},{(port)}
+```
+
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › DCRP  DCRP  -  Digital Compare Result Positioning）
 
 |
@@ -53050,6 +63340,24 @@ first_cycle_of_interest + capacity_of_the_Error_Map
 ```
 
 In the example, the first addend is 1312. The second addend is determined with the DCRS? query.
+
+### DCRT（取自子主题 Test Result Commands › List of test result commands › DCRT  DCRT  -  Digital Compare Result Target）
+
+```
+DCRT {target},{(port_list)}
+```
+
+### DCRT?（取自子主题 Test Result Commands › List of test result commands › DCRT  DCRT  -  Digital Compare Result Target）
+
+```
+DCRT? [answer_type,] {(port_list)}
+```
+
+returns:
+
+```
+DCRT {target},{(port)}
+```
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › DCRT  DCRT  -  Digital Compare Result Target）
 
@@ -56376,6 +66684,24 @@ PASS F, (@)
 
 for a passed or a failed test result respectively.
 
+### SQGB（取自子主题 Test Result Commands › List of test result commands › SQGB  SQGB  -  SeQuencer GloBal）
+
+```
+SQGB [mode], [analyze_delay][, (ref_port)]
+```
+
+### SQGB?（取自子主题 Test Result Commands › List of test result commands › SQGB  SQGB  -  SeQuencer GloBal）
+
+```
+SQGB? [(portlist)]
+```
+
+returns:
+
+```
+SQGB {mode}, [analyze_delay][, (port)]
+```
+
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › SQGB  SQGB  -  SeQuencer GloBal）
 
 |
@@ -56554,6 +66880,24 @@ If the current mode requires an analyze delay, you can specify a port list in th
 ```
 
 This example configures the sequencers to stop when port P2 has completed 30 cycles. Port P1, whose period length is twice the period length of P2, will be stopped after 15 cycles. Note that P1 and P2 must belong to the same sequencing group.
+
+### SQIB（取自子主题 Test Result Commands › List of test result commands › SQIB  SQIB  -  SeQuencer Interrupt Behavior）
+
+```
+SQIB {BANDWIDTH|TIMEOUT}, {ERIM|ERRQ|FLIM|FLRQ}
+```
+
+### SQIB?（取自子主题 Test Result Commands › List of test result commands › SQIB  SQIB  -  SeQuencer Interrupt Behavior）
+
+```
+SQIB? {BANDWIDTH|TIMEOUT}
+```
+
+returns:
+
+```
+SQIB {BANDWIDTH|TIMEOUT}, {ERIM|ERRQ|FLIM|FLRQ}
+```
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › SQIB  SQIB  -  SeQuencer Interrupt Behavior）
 
@@ -58131,6 +68475,24 @@ WFRE 10000, 5000, 1, NOER, (pin1), BinData      (c)
 
 For an example see the `UPAS`（raw: `02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md`） command.
 
+### DFUP（取自子主题 Utility Line Commands › List of utility line commands › DFUP  DFUP  -  DeFine Utility Purpose）
+
+```
+DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
+```
+
+### DFUP?（取自子主题 Utility Line Commands › List of utility line commands › DFUP  DFUP  -  DeFine Utility Purpose）
+
+```
+DFUP? {(purpose_name)}
+```
+
+returns
+
+```
+DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
+```
+
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › DFUP  DFUP  -  DeFine Utility Purpose）
 
 | ch_No_list |
@@ -58191,6 +68553,24 @@ The members and the setting values are as follows:
 Member:      16501  16502  16503  16504
 ---------------------------------------
 Setting:     0      1      1      0
+```
+
+### DFUT（取自子主题 Utility Line Commands › List of utility line commands › DFUT  DFUT  -  DeFine UTility line）
+
+```
+DFUT {ch_No}, {type}, {(util_name)}
+```
+
+### DFUT?（取自子主题 Utility Line Commands › List of utility line commands › DFUT  DFUT  -  DeFine UTility line）
+
+```
+DFUT? {(util_name)}
+```
+
+returns
+
+```
+DFUT {ch_No}, {type}, {(util_name)}
 ```
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › DFUT  DFUT  -  DeFine UTility line）
@@ -58298,6 +68678,24 @@ UDUT (@)
 
 This command undefines all defined utility line names.
 
+### UPAS（取自子主题 Utility Line Commands › List of utility line commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
+
+```
+UPAS {site}, ["{setting}"], {(purpose_name)}
+```
+
+### UPAS?（取自子主题 Utility Line Commands › List of utility line commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
+
+```
+UPAS? {site}, {(purpose_name)}
+```
+
+returns:
+
+```
+UPAS {site}, "{setting}", {(purpose_name)}
+```
+
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
 
 | site |
@@ -58349,6 +68747,24 @@ In the query, the symbol @ can be used to list all defined utility purposes.
 ```
 
 In this example, the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command defines a utility purpose AWG_CNCT and output states for site 1. The UPAS command defines the output states of AWG_CNCT for site 2. First the settings of site 1 are activated. Then the setup focus is restricted to site 2, and the output states for site 2 are activated.
+
+### UPOW（取自子主题 Utility Line Commands › List of utility line commands › UPOW  UPOW  -  Utility POWer）
+
+```
+UPOW {mode} [, supply, (resourceID)]
+```
+
+### UPOW?（取自子主题 Utility Line Commands › List of utility line commands › UPOW  UPOW  -  Utility POWer）
+
+```
+UPOW? [supply, (resourceID)]
+```
+
+returns:
+
+```
+UPOW {state} [, supplyId, resourceID]
+```
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UPOW  UPOW  -  Utility POWer）
 
@@ -58414,6 +68830,24 @@ UPOW ON
 
 Switches on the `Utility power supply - XP pins (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md`） of the first Utility Card.
 
+### UPST（取自子主题 Utility Line Commands › List of utility line commands › UPST  UPST  -  Utility Purpose STate）
+
+```
+UPST ["setting"], {(purpose_name)}
+```
+
+### UPST?（取自子主题 Utility Line Commands › List of utility line commands › UPST  UPST  -  Utility Purpose STate）
+
+```
+UPST? {(purpose_name)}
+```
+
+returns:
+
+```
+UPST "{setting}", {(purpose_name)}
+```
+
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UPST  UPST  -  Utility Purpose STate）
 
 | setting |
@@ -58465,6 +68899,24 @@ UPST "0110",(AWG_CNCT)
 ```
 
 This example sets the utility purpose "AWG_CNCT" to the hardware, then reads the state of the utility purpose.
+
+### UPTI（取自子主题 Utility Line Commands › List of utility line commands › UPTI  UPTI  -  Utility Purpose settling TIme）
+
+```
+UPTI {time}, {(purpose_name)}
+```
+
+### UPTI?（取自子主题 Utility Line Commands › List of utility line commands › UPTI  UPTI  -  Utility Purpose settling TIme）
+
+```
+UPTI? {(purpose_name)}
+```
+
+returns:
+
+```
+UPTI {time}, {(purpose_name)}
+```
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UPTI  UPTI  -  Utility Purpose settling TIme）
 
@@ -58603,6 +69055,24 @@ UTIX 165,65534
 ```
 
 In this example the first 16 utility lines of block 165 were either set to FFFEh by UTOT or they were set to FFFFh and an external device has pulled down line 00, or both occurrences have taken place.
+
+### UTOT（取自子主题 Utility Line Commands › List of utility line commands › UTOT  UTOT  -  UTility line OuTputs）
+
+```
+UTOT {utility_group}, [mask], {value}
+```
+
+### UTOT?（取自子主题 Utility Line Commands › List of utility line commands › UTOT  UTOT  -  UTility line OuTputs）
+
+```
+UTOT? {utility_group}
+```
+
+returns:
+
+```
+UTOT {utility_group}, [mask], {word}
+```
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UTOT  UTOT  -  UTility line OuTputs）
 
@@ -58768,6 +69238,24 @@ returns the last written values. If you have just executed example 3, the result
 UTOT 166,,65535
 ```
 
+### UTSC（取自子主题 Utility Line Commands › List of utility line commands › UTSC  UTSC  -  UTility line Serial Configuration）
+
+```
+UTSC {(word) | ALL}, {mode} [, maskMode]
+```
+
+### UTSC?（取自子主题 Utility Line Commands › List of utility line commands › UTSC  UTSC  -  UTility line Serial Configuration）
+
+```
+UTSC? {(word)} | ALL
+```
+
+returns:
+
+```
+UTSC {(word)}, {mode} [, maskMode]
+```
+
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UTSC  UTSC  -  UTility line Serial Configuration）
 
 | word |
@@ -58889,6 +69377,24 @@ UTSC 171,OFF
 UTSC 172,OFF
 ```
 
+### UTST（取自子主题 Utility Line Commands › List of utility line commands › UTST  UTST  -  UTility line STate）
+
+```
+UTST {value}, {(util_name)}
+```
+
+### UTST?（取自子主题 Utility Line Commands › List of utility line commands › UTST  UTST  -  UTility line STate）
+
+```
+UTST? type, {(util_name)}
+```
+
+returns:
+
+```
+UTST {value}, {(util_name)}
+```
+
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UTST  UTST  -  UTility line STate）
 
 | value |
@@ -58936,6 +69442,24 @@ UTST 0,(Filt3,Filt4)
 ```
 
 This example sets the utility lines "Filt1" and "Filt2" to high output, and "Filt3" and "Filt4" to low output.
+
+### UTTI（取自子主题 Utility Line Commands › List of utility line commands › UTTI  UTTI  -  UTility line settling TIme）
+
+```
+UTTI {time}, {(util_name)}
+```
+
+### UTTI?（取自子主题 Utility Line Commands › List of utility line commands › UTTI  UTTI  -  UTility line settling TIme）
+
+```
+UTTI? {(util_name)}
+```
+
+returns:
+
+```
+UTTI {time}, {(util_name)}
+```
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UTTI  UTTI  -  UTility line settling TIme）
 
@@ -59000,6 +69524,24 @@ Note the following points with respect to alternate sampling of rising and falli
 ```
 
 This example makes successively `TMU_set1` and `TMU_set2` the primary TMU set, and executes a test with each of these primary TMU sets. The results of the first measurement are stored in `area1`, those of the second in `area2`. Afterwards, the global means of both measurements are retrieved with TSRS?.
+
+### TSCF（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSCF  TSCF  -  TMU Set ConFiguration）
+
+```
+TSCF {"ts_name"}, {property}, {property_value|RESET}, {(pinlist)}
+```
+
+### TSCF?（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSCF  TSCF  -  TMU Set ConFiguration）
+
+```
+TSCF? {"ts_name"|ALL|PRM}, [property], {(pinlist)}
+```
+
+returns:
+
+```
+TSCF {"ts_name"}, {property}, {property_value}, {(pinlist)}
+```
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSCF  TSCF  -  TMU Set ConFiguration）
 
@@ -59238,6 +69780,24 @@ Note that the original level setup is automatically restored after the measureme
 
 This example queries a period measurement definition. Typically, only two samples are taken for such a measurement, and these at a great distance (see the INTER_SAMPLE_DISCARD property in the example). The period resulting from this measurement can be retrieved with the `TSRS?`（raw: `02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md`） query.
 
+### TSDF（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSDF  TSDF  -  TMU Set DeFinition）
+
+```
+TSDF {"TMU_set_name"} [, "mode_context"]
+```
+
+### TSDF?（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSDF  TSDF  -  TMU Set DeFinition）
+
+```
+TSDF? ["TMU_set_name"]
+```
+
+returns:
+
+```
+TSDF {"TMU_set_name"} [, "mode_context"]
+```
+
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSDF  TSDF  -  TMU Set DeFinition）
 
 |
@@ -59348,6 +69908,16 @@ The pins for which the state of the TMU measurement is to be returned.
 > TSER? (Pin1)
 < TSER ARM_OVERRUN,(Pin1)
 ```
+
+### TSHA?（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSHA  -  Timing Setup Has Arming）
+
+```
+TSHA? {specset_id|"multi-port_spec"}, {(pinlist)}
+```
+
+returns:
+
+TSHA {specset_id|"multi-port_spec"},{TRUE|FALSE}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSHA  -  Timing Setup Has Arming）
 
@@ -59532,6 +70102,24 @@ The requested action failed.
 ```
 > TSRH? REQUEST, "area1"
 < TSRH REQUEST,"area1",SUCCEED
+```
+
+### TSPR（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSPR  TSPR  -  TMU Set PRimary set）
+
+```
+TSPR {"TMU_set_name"|""}
+```
+
+### TSPR?（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSPR  TSPR  -  TMU Set PRimary set）
+
+```
+TSPR?
+```
+
+returns:
+
+```
+TSPR {"TMU_set_name"|""}
 ```
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSPR  TSPR  -  TMU Set PRimary set）
@@ -60151,6 +70739,24 @@ The above discussion centers on validation of a given requirement. But you can a
 
 A group of output data pins and the associated output clock pin is called a synchronization group. One source synchronous device may contain several synchronization groups.
 
+### SSAC（取自子主题 Commands for Processing Results of Source Synchronous Testing › List of commands for source synchronous testing › SSAC  SSAC  -  Source Synchronous testing  Add Configuration）
+
+```
+SSAC [read_mode],[nr_of_results],[(ref_pin}],{(pinlist)}
+```
+
+### SSAC?（取自子主题 Commands for Processing Results of Source Synchronous Testing › List of commands for source synchronous testing › SSAC  SSAC  -  Source Synchronous testing  Add Configuration）
+
+```
+SSAC?
+```
+
+returns:
+
+```
+SSAC {read_mode},[nr_of_results],[(ref_pin}],{(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands for Processing Results of Source Synchronous Testing › List of commands for source synchronous testing › SSAC  SSAC  -  Source Synchronous testing  Add Configuration）
 
 |
@@ -60236,6 +70842,129 @@ The following example shows how the buffer channels are configured by using a re
 ```
 
 First the detailed Error Map is configured for source synchronous testing (recording mode ALL, location in RDRAM). Next the existing buffer configurations are removed. Then the sweep variable is set, and the first functional test executed. Subsequently the buffer channels are configured using D1 as the reference pin. Then the results of the first functional test are processed. Finally, the sweep variable is incremented and the next functional test executed.
+
+### SSCT（取自子主题 Commands for Processing Results of Source Synchronous Testing › List of commands for source synchronous testing › SSCT  SSCT  -  Source Synchronous data  Combine and Transfer）
+
+```
+SSCT {exec_mode},[read_mode],[nr_of_results],{(dest_pin)}, {(source_pins)}
+```
+
+### SSCT?（取自子主题 Commands for Processing Results of Source Synchronous Testing › List of commands for source synchronous testing › SSCT  SSCT  -  Source Synchronous data  Combine and Transfer）
+
+```
+SSCT? {(dest_pins)}
+```
+
+returns:
+
+```
+SSCT {exec_mode},{read_mode},{nr_of_results},{(dest_pin)}, {(source_pins)}
+```
+
+Parameters
+ |
+
+exec_mode
+
+ |
+
+Possible execution modes are:
+
+ |
+ |
+
+IMM
+
+ |
+
+The command is executed immediately.
+
+ |
+ |
+
+ACC
+
+ |
+
+Command execution is delayed to the next FTST? call or the next SSCT IMM call (whichever comes first).
+
+ |
+ |
+
+DEL
+
+ |
+
+Deletes all SSCT instances that ar still pending for the specified destination pin and source pins. The other parameters are ignored.
+
+ |
+ |
+
+read_mode
+
+ |
+
+Possible read modes are:
+
+ |
+ |
+
+NORM
+
+ |
+
+Source data is processed as it is stored in the source channels. This is the default.
+
+ |
+ |
+
+INV
+
+ |
+
+Source data is inverted internally before it is processed. The source data itself is not changed.
+
+ |
+ |
+
+Note that the read modes of SSAC and SSCT are concatenated. If inversion has been set for a source channel with SSAC, and the read mode of SSCT is also set to INV then the data of the respective channel will be inverted twice, and therefore processed as it is stored.
+
+ |
+ |
+
+no_of_results
+
+ |
+
+Specifies the number of results to be processed. The default is all results (as defined with SSAC). The maximum is the number of results that are configured by SSAC.
+
+The number to be specified here must be calculated as `result_granularity * number_of_cycles`.
+
+The result granularity is the number of results per cycle. It can be 1 (one global result), in which case you must specify the number of cycles, or 8 (one result for every edge), in which case you must specify `8 * number_of_cycles`.
+
+The number of bytes required to store the specified number of results must be a multiple of 8. If this requirement is not satisfied, the number of results will be auto-corrected.
+
+ |
+ |
+
+dest_pin
+
+ |
+
+The target buffer pin into which the combined results are transferred. This should be an input pin, in order to avoid conflicts within the result area between the buffer function and pin specific result data. This pin must have been defined as a buffer pin with SSAC.
+
+Note that the Error Map for this pin must be located in RDRAM (DCRT command).
+
+ |
+ |
+
+source_pins
+
+ |
+
+The pins whose results are to be combined. Note that the Error Map for these pins must be located in RDRAM (DCRT command).
+
+ |
 
 ### Example（取自子主题 Commands for Processing Results of Source Synchronous Testing › List of commands for source synchronous testing › SSCT  SSCT  -  Source Synchronous data  Combine and Transfer）
 
@@ -60423,6 +71152,24 @@ Note that the result granularity has been set to 8, so that every bit of the SST
 
 This example picks up the example of `Overview of the protocol engine per pin`（raw: `02.06.15.01_Overview_of_the_protocol_engine_per_pin.md`）. Five observation windows are shown. There are last CD transitions in the first and third window. The fourth window has its last internal transition between A and B in the third sub-window.
 
+### CFCF（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › CFCF  CFCF  -  Clock Forwarding ConFiguration）
+
+```
+CFCF {"cf_name"}, {(source_pin)}, {(sink_pins)} [, speed]
+```
+
+### CFCF?（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › CFCF  CFCF  -  Clock Forwarding ConFiguration）
+
+```
+CFCF? {"cf_name"}, {(pinlist)}
+```
+
+returns:
+
+```
+CFCF {"cf_name"}, {(source_pin)}, {(sink_pins)} [, speed]
+```
+
 ### Parameters（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › CFCF  CFCF  -  Clock Forwarding ConFiguration）
 
 |
@@ -60484,6 +71231,24 @@ This query parameter specifies the pins whose role in the specified clock forwar
 > CFCF "cf_set1",(Pin7),(Pin4)
 ```
 
+### CFDF（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › CFDF  CFDF  -  Clock Forwarding Set DeFinition）
+
+```
+CFDF {"cf_set_name"} [, "mode_context"]
+```
+
+### CFDF?（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › CFDF  CFDF  -  Clock Forwarding Set DeFinition）
+
+```
+CFDF? ["cf_set_name"]
+```
+
+returns:
+
+```
+CFDF {"cf_set_name"} [, "mode_context"]
+```
+
 ### Parameters（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › CFDF  CFDF  -  Clock Forwarding Set DeFinition）
 
 |
@@ -60516,6 +71281,24 @@ The mode context with which the clock forwarding set is associated. If this para
 < CFDF   "cf_set1"
 < CFDF   "cf_set2"
 < CFDF   "cf_set3"
+```
+
+### TTCF（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTCF  TTCF  -  Transition Test ConFiguration）
+
+```
+TTCF {"tt_name"}, {property}, {property_value}, {(pinlist)}
+```
+
+### TTCF?（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTCF  TTCF  -  Transition Test ConFiguration）
+
+```
+TTCF? {"tt_name"|ALL|PRM|DEFAULT}, {property|ALL}, {(pinlist)}
+```
+
+returns:
+
+```
+TTCF {"tt_name"}, {property}, {property_value}, {(pinlist)}
 ```
 
 ### Parameters（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTCF  TTCF  -  Transition Test ConFiguration）
@@ -61370,6 +72153,44 @@ This example queries how often the first special idle token was removed in the l
 
 The first line of the reply reports the transitions of the last 24 UI, accumulated in blocks of 6. The third line reports which accumulated transition patterns occurred in one window (= 3 UI) during the last sequencer run. Three of the 8 possible patterns were observed.
 
+### TTDF（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTDF  TTDF  -  Transition Test set DeFinition）
+
+```
+TTDF {"tt_set_name"} [, "mode_context"]
+```
+
+### TTDF?（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTDF  TTDF  -  Transition Test set DeFinition）
+
+```
+TTDF? ["tt_set_name"]
+```
+
+returns:
+
+```
+TTDF {"tt_set_name"} [, "mode_context"]
+```
+
+Parameters
+ |
+
+tt_set_name
+
+ |
+
+In the command, this is the name of a new transition test set. In the query, it is a name of an existing transition test set. If you omit this parameter in the query, TTDF? will return the names of all user defined transition test sets.
+
+ |
+ |
+
+mode_context
+
+ |
+
+The mode context with which the transition test set is associated. If this parameter is omitted, the DEFAULT context is assumed.
+
+ |
+
 ### Example（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTDF  TTDF  -  Transition Test set DeFinition）
 
 ```
@@ -61490,6 +72311,22 @@ In a multiport setup, every pin must belong to a port of the specified specifica
 ```
 > TTMD 101,1,(PIN1)
 < TTMD 101,1,X4,,(PIN1)
+```
+
+### TTPR（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTPR  TTPR  -  Transition Test PRimary set）
+
+TTPR {"tt_set_name"|DEFAULT}
+
+### TTPR?（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTPR  TTPR  -  Transition Test PRimary set）
+
+```
+TTPR?
+```
+
+returns:
+
+```
+TTPR {"tt_set_name"}
 ```
 
 ### Parameters（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTPR  TTPR  -  Transition Test PRimary set）
@@ -62064,6 +72901,24 @@ JRST (@)
 
 This example resets the jitter modulator of all configured pins to its default state OFF.
 
+### JSCF（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSCF  JSCF  -  Jitter Set ConFiguration）
+
+```
+JSCF {"jitter_set_name"}, {"property"}, {"property_value"}, {(pinlist)}
+```
+
+### JSCF?（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSCF  JSCF  -  Jitter Set ConFiguration）
+
+```
+JSCF? {"jitter_set_name"|ALL|PRM}, {"property"|ALL}, {(pinlist)}
+```
+
+returns:
+
+```
+JSCF {"jitter_set_name"}, {"property"}, {"property_value"}, {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSCF  JSCF  -  Jitter Set ConFiguration）
 
 |
@@ -62174,6 +73029,24 @@ With this parameter, the query returns all existing jitter sets.
 < JSDF   "js_set2"
 < JSDF   "js_set3"
 
+```
+
+### JSPR（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSPR  JSPR  -  Jitter Set PRimary set）
+
+```
+JSPR {"js_set_name"|""}
+```
+
+### JSPR?（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSPR  JSPR  -  Jitter Set PRimary set）
+
+```
+JSPR?
+```
+
+returns:
+
+```
+JSPR {"js_set_name"|""}
 ```
 
 ### Parameters（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSPR  JSPR  -  Jitter Set PRimary set）
@@ -62309,6 +73182,24 @@ This example first queries the jitter waveform for pin `IO0`, and also the clock
 ```
 
 This example shows how JSWF? corrects the offset list if the second of two consecutive items is smaller than the first, and the maximum difference is exceeded.
+
+### MSCF（取自子主题 Commands for jitter injection › List of commands for jitter injection › MSCF  MSCF  -  Modulation Set ConFiguration）
+
+```
+MSCF {"modulation_set_name"}, {"property"}, {"property_value"}
+```
+
+### MSCF?（取自子主题 Commands for jitter injection › List of commands for jitter injection › MSCF  MSCF  -  Modulation Set ConFiguration）
+
+```
+MSCF? {"modulation_set_name"|ALL}, {"property"|ALL}
+```
+
+returns:
+
+```
+MSCF {"modulation_set_name"}, {"property"}, {"property_value"}
+```
 
 ### Parameters（取自子主题 Commands for jitter injection › List of commands for jitter injection › MSCF  MSCF  -  Modulation Set ConFiguration）
 
@@ -62647,6 +73538,24 @@ Specifies the pin which is mapped to the partner channel of the channel for pin1
 < LBRT (pin2),(pin1)
 ```
 
+### PRCF（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRCF  PRCF  -  Pseudo Random bit sequence ConFiguration）
+
+```
+PRCF {"PRBS_set_name"|PRM}, {property}, {"property_value"}, {(pinlist)}
+```
+
+### PRCF?（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRCF  PRCF  -  Pseudo Random bit sequence ConFiguration）
+
+```
+PRCF? {"PRBS_set_name"|ALL|PRM}, {property|ALL}, {(pinlist)}
+```
+
+returns:
+
+```
+PRCF {"PRBS_set_name"}, {property}, {"property_value"}, {(pinlist)}
+```
+
 ### Parameters（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRCF  PRCF  -  Pseudo Random bit sequence ConFiguration）
 
 |
@@ -62743,6 +73652,24 @@ Specifies the pins to which pin this configuration is to be applied.
 ```
 
 This example defines 1 + x1 + x3 as the connection polynomial, and 100 as the initial segment for Pin1. This is the example which is also used in `Overview of pseudo random bit sequences`（raw: `02.06.17.01_Overview_of_pseudo_random_bit_sequences.md`）.
+
+### PRDF（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRDF  PRDF  -  PRBS set DeFinition）
+
+```
+PRDF {"prbs_set_name"} [, "mode_context"]
+```
+
+### PRDF?（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRDF  PRDF  -  PRBS set DeFinition）
+
+```
+PRDF? ["prbs_set_name"]
+```
+
+returns:
+
+```
+PRDF {"prbs_set_name"} [, "mode_context"]
+```
 
 ### Parameters（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRDF  PRDF  -  PRBS set DeFinition）
 
@@ -62936,6 +73863,20 @@ The name of the pin or pins for which the PRBS configuration is to be retrieved.
 
 This example queries a wavetable.
 
+### PRPR（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRPR  PRPR  -  PRBS PRimary set）
+
+PRPR {"prbs_set_name"|DEFAULT}
+
+### PRPR?（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRPR  PRPR  -  PRBS PRimary set）
+
+PRPR?
+
+returns:
+
+```
+PRPR {"prbs_set_name"}
+```
+
 ### Parameters（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRPR  PRPR  -  PRBS PRimary set）
 
 |
@@ -62985,6 +73926,24 @@ Remove all existing transition tests sets
 > PRUD   "prbs_set1"
 ```
 
+### ASWE（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › ASWE  ASWE  -  Auto SWing Enable）
+
+```
+ASWE {waveform_set|specset_id}, {enable_status}
+```
+
+### ASWE?（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › ASWE  ASWE  -  Auto SWing Enable）
+
+```
+ASWE? {waveform_set|specset_id}
+```
+
+returns:
+
+```
+ASWE {waveform_set|specset_id}, {enable_status}
+```
+
 ### Parameters（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › ASWE  ASWE  -  Auto SWing Enable）
 
 |
@@ -63024,6 +73983,24 @@ ASWE 1,ON
 ```
 
 This example enables the automatic swing adjustment for waveform set 1.
+
+### ASWM（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › ASWM  ASWM  -  Auto SWing Mode）
+
+```
+ASWM {command}, {mode}
+```
+
+### ASWM?（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › ASWM  ASWM  -  Auto SWing Mode）
+
+```
+ASWM?
+```
+
+returns:
+
+```
+ASWM {command}, {mode}
+```
 
 ### Parameters（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › ASWM  ASWM  -  Auto SWing Mode）
 
@@ -63110,6 +74087,24 @@ ASWM SET,AUTO
 
 This example sets the swing adjustment mode AUTO.
 
+### FXDL（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › FXDL  FXDL  -  FiXture DeLay）
+
+```
+FXDL {channel}, {fixture_delay}
+```
+
+### FXDL?（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › FXDL  FXDL  -  FiXture DeLay）
+
+```
+FXDL? {channel}
+```
+
+returns:
+
+```
+FXDL {channel}, {fixture_delay}
+```
+
 ### Parameters（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › FXDL  FXDL  -  FiXture DeLay）
 
 |
@@ -63142,6 +74137,24 @@ FXDL 10101,2.5
 ```
 
 This example sets the fixture delay of channel 10101 to 2.5 ns.
+
+### PADS（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › PADS  PADS  -  Pin Attributes Definition String）
+
+```
+PADS [mode], {definition_string}, [drv_adj], [rec_adj], {(pinlist)}
+```
+
+### PADS?（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › PADS  PADS  -  Pin Attributes Definition String）
+
+```
+PADS? [mode], {(pinlist)}
+```
+
+returns:
+
+```
+PADS [mode], {definition_string}, [drv_adj], [rec_adj], {(pinlist)}
+```
 
 ### Parameters（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › PADS  PADS  -  Pin Attributes Definition String）
 
@@ -63201,6 +74214,24 @@ The pinlist must include all pins to which the given attributes apply. If more t
 > PADS? ,(@)
 < PADS ,"d1:0.1 d2:0.2 d3:0.3 d4:0.1 r1:0.1 r2:0.2 r3:0.3 r4:0.1",,-1,(io)
 < PADS ,"d1:0.1 d2:0.2 d3:0.3 d4:0.1 d5:0.2 d6:0.3 d7:0.1 d8:0.2",2,,(clk)
+```
+
+### PTDS（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › PTDS  PTDS  -  Pin attributes Tweaking Definition String）
+
+```
+PTDS {channelNo}, [EBT_specifier], {set_specifier}, {timing_set}, [tweaking_set], [mode], {definition_string}
+```
+
+### PTDS?（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › PTDS  PTDS  -  Pin attributes Tweaking Definition String）
+
+```
+PTDS? {channelNo}, [EBT_specifier], {set_specifier}, {timing_set}, [tweaking_set], [mode]
+```
+
+returns:
+
+```
+PTDS {channelNo}, [EBT_specifier], {set_specifier}, {timing_set}, [tweaking_set], [mode], {definition_string}
 ```
 
 ### Parameters（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › PTDS  PTDS  -  Pin attributes Tweaking Definition String）
@@ -63366,6 +74397,22 @@ The following example defines pin attributes for timing sets of the multi-port s
 > PTDS? 10101,,"spec_port_1_port_2",ALL,,
 < PTDS 10101,,"spec_port_1_port_2",1,,,"d1:1 d3:3"
 < PTDS 10101,,"spec_port_1_port_2",2,,,"d1:2 d2:3"
+```
+
+### SATR（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › SATR  SATR  -  System ATtRibutes）
+
+SATR {comm_rec_delay}
+
+### SATR?（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › SATR  SATR  -  System ATtRibutes）
+
+```
+SATR?
+```
+
+returns:
+
+```
+SATR {comm_rec_delay}
 ```
 
 ### Parameters（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › SATR  SATR  -  System ATtRibutes）
