@@ -1812,7 +1812,7 @@
 - ✅ `mappings/mapping-testflow.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `mappings/mapping-testmethod.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `mappings/mapping-timing.md` — 引用块/代码块 22 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/add-limit.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/add-limit.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/alias-set-editor.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/alphabetical-list-of-flags.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/analysis-views.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1830,7 +1830,7 @@
 - ✅ `objects/change-device-wizard.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/chin.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/ci-cpi.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/clkr.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/clkr.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/clmp.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/conf.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/connect.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1859,10 +1859,10 @@
 - ✅ `objects/dfgp.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfpc.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfpn.md` — 引用块/代码块 20 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/dfpr.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dfpr.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfps.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfpt.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/dfup.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dfup.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfut.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/digital-capture-test.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/digital-offset-search-pins.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1882,9 +1882,13 @@
 - ✅ `objects/dps-task.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dps128-dps64-cards.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dpspins-resources.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/drlv.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/drlv.md` — 引用块/代码块 10 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
+    - ⚠️ 未称逐字，覆盖率 79%｜`The DRLV command defines the low and the high voltage levels for the driver ampl…`
+    - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
+        - `previously defined by the DFGP, DFGP? - (DeFine`
+        - `DFGP, DFGP? - (DeFine GrouP) command. These levels`
 - ✅ `objects/dscp.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/dsus.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dsus.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dtcp.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/edl-file.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/edsp.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1916,20 +1920,21 @@
 - ✅ `objects/fw-task.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/gctx.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/get-functional-result.md` — 引用块/代码块 23 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/get-utility-lines.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/get-utility-lines.md` — 引用块/代码块 8 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
+    - ⚠️ 未称逐字，覆盖率 75%｜`GetUtilityLines: Gets the status of the utility lines SetUtilityLines: Sets the …`
 - ✅ `objects/global-section.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/ground-sense-editor.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/group-node.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/hardware-bin-summary-tab.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/group-node.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/hardware-bin-summary-tab.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/hardware-response-emulator.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/hardware-view.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/hardware-view.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/hidden-upload.md` — 引用块/代码块 3 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 50%｜`Note Hidden uploads, controlled and started by SMC_ARM()， must be finished befor…`
 - ✅ `objects/hw-pin-state.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/hw-state.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/hwty.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/integrated-result-tool.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/jrst.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/jrst.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/jscf.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/jsdf.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/jspr.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1943,12 +1948,12 @@
 - ✅ `objects/level-spec.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/limit.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/lot-summary-generator.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/lsus.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/lsus.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/lsux.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/match-loops.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/model-file.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/mscf.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/msdf.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/mscf.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/msdf.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/mtp-maintenance-operations.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/mtp-memory-test.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/mtp-shared-test-commands.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1995,12 +2000,15 @@
     - ⚠️ 未称逐字，覆盖率 0%｜`Introduced in SmarTest 7.1.0 SmarTest 7.1.3: Enhanced error handling and present…`
 - ✅ `objects/psas.md` — 引用块/代码块 25 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/psfc.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/pslv.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/pslv.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pssl.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pssr.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pste.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/raw-data-views.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/rclv.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/rclv.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+    - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
+        - `previously defined by the DFGP, DFGP? - (DeFine`
+        - `DFGP, DFGP? - (DeFine GrouP) command. The threshold`
 - ✅ `objects/rdi-configure-file.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
     - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
         - `generate eight or more cycles […]. So when`
@@ -2011,7 +2019,8 @@
 - ✅ `objects/run-dialog.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/sequencer-status.md` — 引用块/代码块 19 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/sequencer.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/set-utility-lines.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/set-utility-lines.md` — 引用块/代码块 12 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
+    - ⚠️ 未称逐字，覆盖率 75%｜`GetUtilityLines: Gets the status of the utility lines SetUtilityLines: Sets the …`
 - ✅ `objects/setup-level-set-0.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/setup-management-tool.md` — 引用块/代码块 4 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 0%｜`Introduced before SmarTest 6.3.2 SmarTest 6.5.3: TMLimits setup is now supported`
@@ -2026,7 +2035,7 @@
 - ✅ `objects/sldo.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/smartcalc-framework.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/smartcalc.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/smartest-data-formatter.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/smartest-data-formatter.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/smartrdi.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/smartshell.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/smc-synchronize.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2052,10 +2061,10 @@
 - ✅ `objects/strs.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/structure-of-a-tmlimits-csv-file.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/svlr.md` — 引用块/代码块 21 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/table-filter.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/table-filter.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/task-list.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/technology-file-for-a-device.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/term.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/term.md` — 引用块/代码块 18 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/test-method-class.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/test-program-explorer.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/test-suite-control-api.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2081,7 +2090,7 @@
 - ✅ `objects/timing-equation-set.md` — 引用块/代码块 25 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-file.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-master-file.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/timing-set-selector.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/timing-set-selector.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-setup-tool.md` — 引用块/代码块 43 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-spec.md` — 引用块/代码块 19 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-specification.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2094,10 +2103,10 @@
 - ✅ `objects/tpt-generate-device-dir.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/tpt-import-from-device.md` — 引用块/代码块 10 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 60%｜`<pre_proc> is a script that is executed before this command. <post_proc> is a sc…`
-- ✅ `objects/tsus.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/tsus.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/tsux.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/udef.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/udgp.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/udgp.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/udpr.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/udps.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/udpt.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2130,7 +2139,7 @@
 - ✅ `objects/wavetable-file.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/wavetable.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/wfds.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/wsus.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/wsus.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/xps256-pmu-operating-mode.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/xps256-programming-dps-operating-mode.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/xps256-status-flags.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2296,7 +2305,7 @@
 > - **自称「逐字」却没对上 = 硬错误。** 要么改回原文，要么把「逐字」二字删掉。
 > - **没自称逐字 = 转述，对不上是正常的。** 只提示，不判错。
 >
-> **另一档，与上面两档都不同：疑似自加结构 —— 本次共 16 处。**
+> **另一档，与上面两档都不同：疑似自加结构 —— 本次共 20 处。**
 > **本类主动排除：`<!-- 语法节 begin -->`…`<!-- 语法节 end -->` 之间那一段，本次涉及 322 页、共 3703367 字符。**
 > 那一段由 `objscaffold.py` 写（§4），段内语料链接被机械改写成 ``文本``（raw: `路径`），**按设计就不是逐字的**——不排除它，本类会稳定地报一条自己造成的「对不上」。
 > **它没有被放过，是被更硬的口径接管了**：第十二类查的是「页面与脚本当前产出**逐字节一致**」。两个检查管同一段时，弱的那条只产生噪声。
@@ -2330,7 +2339,7 @@
 ## 第八类 · 链接目标可达（**抓断链；排除项是名字白名单两项，行内代码跨度里的 wikilink 照样算**）
 
 - 内容页共 **504** 页，引用 **520** 个目标，其中 **16** 个找不到对应页。
-- 口径指纹：内容页 504 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 362c2789808e`。
+- 口径指纹：内容页 504 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 9295932c81d3`。
 
 > **这不是页面的缺陷，是建页 backlog。** 它列的是**脊椎已经要求**的页——
 > 比按 `in_src` 排的「125 个高入度对象」更有用：那些只是"语料里常出现"，
@@ -2338,9 +2347,10 @@
 
 | 悬空目标 | 被引 | 引用它的 stage |
 |---|---|---|
-| `ps1600` | 7 | jsud, jswf, logical-boards, pin-utility, smartrdi, smartrdi-tmu-test-setup |
-| `test-method-project` | 7 | how-to-create-a-universal-test-method-class, mapping-testmethod, pin-string, project-explorer-view, smartcalc-framework, testmethod, universal-test-method-library |
-| `flow-control-node` | 6 | assign-value-node, flag, flow-sequence-editor, mapping-testflow, testflow, testflow-tool |
+| `ps1600` | 12 | drlv, jsud, jswf, logical-boards, pin-utility, rclv, smartrdi, smartrdi-tmu-test-setup, term |
+| `test-method-project` | 8 | add-limit, how-to-create-a-universal-test-method-class, mapping-testmethod, pin-string, project-explorer-view, smartcalc-framework, testmethod, universal-test-method-library |
+| `flow-control-node` | 7 | assign-value-node, flag, flow-sequence-editor, group-node, mapping-testflow, testflow, testflow-tool |
+| `ps5000` | 7 | drlv, logical-boards, rclv, smartrdi, term |
 | `hardware-response-file` | 6 | flow-sequence-editor, hardware-response-emulator, mapping-run, run, testflow-tool |
 | `drldump` | 4 | edl-file, mapping-results, results |
 | `technology-file` | 4 | level, project, rdi-configure-file |
@@ -2350,7 +2360,6 @@
 | `ctim` | 2 | primary-status, timing |
 | `list-of-test-result-commands` | 2 | mapping-results, results |
 | `org-file` | 2 | mapping-project, project |
-| `ps5000` | 2 | logical-boards, smartrdi |
 | `gio-library-api` | 1 | project |
 | `initialize` | 1 | testmethod |
 | `shared-leakage-parallel-test` | 1 | sharing-configuration-file |
@@ -2361,7 +2370,7 @@
 
 - **乙 · 文件名本身**：**505 个文件**逐个验过，**0 个不合 §5**。
 - **丙 · stem 唯一**：505 个文件占 **505 个 stem**，**0 个撞名**。
-- **甲 · 链接目标**：内容页引用 **5355** 处，其中 **0 个目标不合 §5**。
+- **甲 · 链接目标**：内容页引用 **5845** 处，其中 **0 个目标不合 §5**。
 - ⚠️ **语法节整段不参与链接检查**：**322 页**有脚本写的语法节，已整段切掉（`add-limit`、`alias-set-editor`、`alphabetical-list-of-flags`、`analysis-views`、`apg-pattern-file`、`apg-program-file`、`aprm`、`assign-value-node`…）。
   **理由**：那一段是 §4 规定**脚本写、LLM 一个字不许改**的逐字原文，它由**第十二类**用更硬的口径管（页面 ↔ 脚本逐字节一致）。实测 `concepts/command-reference.md` 的语法节里抄着 pattern master file 的格式，而**那个格式自己就用 `[[path: …]]`**——不切，甲就会报一个名叫 `path:` 的「下划线分隔」违规，**而那是假红**。
 
@@ -2810,7 +2819,7 @@
 
 | 检查 | 判据 | 结果 |
 |---|---|---|
-| **丁** · `status` 和实际进度一致 | 表里每一行 | ✅ 一致 |
+| **丁** · `status` 和实际进度一致 | 表里每一行 | ❌ **24 行不符**：smartest-data-formatter（写 `skeleton`，应是 `done`）、pslv（写 `skeleton`，应是 `done`）、table-filter（写 `skeleton`，应是 `done`）、hardware-bin-summary-tab（写 `skeleton`，应是 `done`）、hardware-view（写 `skeleton`，应是 `done`）、drlv（写 `skeleton`，应是 `done`）… |
 | **戊** · 六个类型目录里每一页都在表里 | 目录 ↔ 表，双向 | ✅ 都有 |
 | （反向，**不判错**）表里有、页面还没有 | = 待建 | ℹ️ 0 行 |
 
@@ -2840,34 +2849,32 @@
 
 ### 庚 · 页面里的「N 字节，M 行」对得上 raw 吗
 
-- 页里「N 字节…」形态 **230** 条；**认到 TDC 号、真被比过** **131** 条；**够不着、没比的 99 条**。
-- 比过的里面带行数的 **77** 条。
-- 字节：✅ 对得上文件实际大小的 **85**；**口径不同但页面写明了**的 **1**（不算错）；**值错的 0**。
-- 行数：错 **0 / 77**（真值取 `wc -l`）。
+- 页里「N 字节…」形态 **258** 条；**认到 TDC 号、真被比过** **148** 条；**够不着、没比的 110 条**。
+- 比过的里面带行数的 **85** 条。
+- 字节：✅ 对得上文件实际大小的 **98**；**口径不同但页面写明了**的 **1**（不算错）；**值错的 0**。
+- 行数：错 **0 / 85**（真值取 `wc -l`）。
   - ⚪ `wiki/objects/eqfs.md`：1,493 = **剥掉 frontmatter 后**（页面写明了，**不算错**）
 
 > **为什么这一条要单独有一节。** 它和「引文逐字」是同一类东西：**可机械复核的断言**。
 > 2026-09-20 那批页里出过 **6 处「两篇互为出边」全错**，教训写成了「**能核而不核的，迟早是假的**」——
 > 字节和行数和边数一样**就在那儿、一数就知道**，而它此前**一处检查都没有**。
-> **两条已知限界**（不藏着）：① 只认「附近有 TDC 号」的写法，**99 条够不着**（文档写成纯路径的认不出）；
+> **两条已知限界**（不藏着）：① 只认「附近有 TDC 号」的写法，**110 条够不着**（文档写成纯路径的认不出）；
 > ② 它**不改**页面——改法是 `python -X utf8 extract/fix_doc_stats.py --write`。
 
 **修法**：把 `index.md` 里的数字改成实际值，或者把标记补上／删掉多余的；`wiki-plan.csv` 的 status/缺行跑 `python -X utf8 extract/plan_sync.py --write`；「字节/行数」跑 `python -X utf8 extract/fix_doc_stats.py --write`。**不许反过来改判据去迁就页面**——这些数字的意义就是「和实际一致」。
 
 ## 第十五类 · 散文有没有真的写（**骨架占位符**）
 
-❌ **93 页的正文还是骨架**（`objscaffold.py` 出的 `（待补）` 一个都没被换掉，或者骨架注释没删）：
+❌ **69 页的正文还是骨架**（`objscaffold.py` 出的 `（待补）` 一个都没被换掉，或者骨架注释没删）：
 
 | 页 | 还缺什么 | 正文字节 |
 |---|---|---|
-| `objects/add-limit` | `（待补）` × 6＋骨架注释还在 | 896 |
 | `objects/begin-extension` | `（待补）` × 6＋骨架注释还在 | 2,023 |
 | `objects/built-in-functions` | `（待补）` × 6＋骨架注释还在 | 473 |
 | `objects/bwdf` | `（待补）` × 6＋骨架注释还在 | 3,406 |
 | `objects/bwds` | `（待补）` × 6＋骨架注释还在 | 3,573 |
 | `objects/cct-change-level-spec` | `（待补）` × 6＋骨架注释还在 | 924 |
 | `objects/chin` | `（待补）` × 6＋骨架注释还在 | 3,866 |
-| `objects/clkr` | `（待补）` × 6＋骨架注释还在 | 3,385 |
 | `objects/clmp` | `（待补）` × 6＋骨架注释还在 | 3,885 |
 | `objects/data-logging-profile-api` | `（待补）` × 6＋骨架注释还在 | 7,685 |
 | `objects/dcdt` | `（待补）` × 6＋骨架注释还在 | 1,889 |
@@ -2875,34 +2882,22 @@
 | `objects/debug-view` | `（待补）` × 6＋骨架注释还在 | 465 |
 | `objects/device-summary-tab` | `（待补）` × 6＋骨架注释还在 | 473 |
 | `objects/dfpc` | `（待补）` × 6＋骨架注释还在 | 1,446 |
-| `objects/dfpr` | `（待补）` × 6＋骨架注释还在 | 3,596 |
-| `objects/dfup` | `（待补）` × 6＋骨架注释还在 | 4,708 |
 | `objects/dfut` | `（待补）` × 6＋骨架注释还在 | 4,050 |
 | `objects/dprl` | `（待补）` × 6＋骨架注释还在 | 1,210 |
 | `objects/dprt` | `（待补）` × 6＋骨架注释还在 | 3,022 |
-| `objects/drlv` | `（待补）` × 6＋骨架注释还在 | 4,515 |
-| `objects/dsus` | `（待补）` × 6＋骨架注释还在 | 1,811 |
 | `objects/edsp` | `（待补）` × 6＋骨架注释还在 | 5,122 |
 | `objects/end-extension` | `（待补）` × 6＋骨架注释还在 | 786 |
 | `objects/etds` | `（待补）` × 6＋骨架注释还在 | 8,803 |
 | `objects/etim` | `（待补）` × 6＋骨架注释还在 | 4,144 |
 | `objects/gctx` | `（待补）` × 6＋骨架注释还在 | 1,977 |
-| `objects/get-utility-lines` | `（待补）` × 6＋骨架注释还在 | 2,912 |
 | `objects/ground-sense-editor` | `（待补）` × 6＋骨架注释还在 | 474 |
-| `objects/group-node` | `（待补）` × 6＋骨架注释还在 | 465 |
-| `objects/hardware-bin-summary-tab` | `（待补）` × 6＋骨架注释还在 | 479 |
-| `objects/hardware-view` | `（待补）` × 6＋骨架注释还在 | 2,018 |
 | `objects/hw-pin-state` | `（待补）` × 6＋骨架注释还在 | 977 |
 | `objects/hw-state` | `（待补）` × 6＋骨架注释还在 | 2,595 |
 | `objects/hwty` | `（待补）` × 6＋骨架注释还在 | 1,264 |
-| `objects/jrst` | `（待补）` × 6＋骨架注释还在 | 988 |
 | `objects/level-set-selector` | `（待补）` × 6＋骨架注释还在 | 2,331 |
 | `objects/lot-summary-generator` | `（待补）` × 6＋骨架注释还在 | 4,495 |
-| `objects/lsus` | `（待补）` × 6＋骨架注释还在 | 2,277 |
 | `objects/lsux` | `（待补）` × 6＋骨架注释还在 | 1,940 |
 | `objects/match-loops` | `（待补）` × 6＋骨架注释还在 | 5,959 |
-| `objects/mscf` | `（待补）` × 6＋骨架注释还在 | 2,027 |
-| `objects/msdf` | `（待补）` × 6＋骨架注释还在 | 1,753 |
 | `objects/pact` | `（待补）` × 6＋骨架注释还在 | 2,805 |
 | `objects/pclk` | `（待补）` × 6＋骨架注释还在 | 4,813 |
 | `objects/pdiv` | `（待补）` × 6＋骨架注释还在 | 1,822 |
@@ -2910,29 +2905,20 @@
 | `objects/pin-property-monitor` | `（待补）` × 6＋骨架注释还在 | 1,263 |
 | `objects/play-pattern` | `（待补）` × 6＋骨架注释还在 | 1,145 |
 | `objects/prlt` | `（待补）` × 6＋骨架注释还在 | 1,528 |
-| `objects/pslv` | `（待补）` × 6＋骨架注释还在 | 7,041 |
 | `objects/pssl` | `（待补）` × 6＋骨架注释还在 | 2,091 |
 | `objects/pssr` | `（待补）` × 6＋骨架注释还在 | 5,612 |
-| `objects/rclv` | `（待补）` × 6＋骨架注释还在 | 5,773 |
 | `objects/result-configuration` | `（待补）` × 6＋骨架注释还在 | 2,532 |
 | `objects/rset` | `（待补）` × 6＋骨架注释还在 | 2,576 |
-| `objects/set-utility-lines` | `（待补）` × 6＋骨架注释还在 | 3,472 |
 | `objects/setup-level-set-0` | `（待补）` × 6＋骨架注释还在 | 2,218 |
 | `objects/shared-continuity-test` | `（待补）` × 6＋骨架注释还在 | 4,316 |
 | `objects/sharing-configuration` | `（待补）` × 6＋骨架注释还在 | 8,150 |
 | `objects/sldo` | `（待补）` × 6＋骨架注释还在 | 2,168 |
-| `objects/smartest-data-formatter` | `（待补）` × 6＋骨架注释还在 | 17,648 |
 | `objects/smartshell` | `（待补）` × 6＋骨架注释还在 | 465 |
 | `objects/stme` | `（待补）` × 6＋骨架注释还在 | 1,808 |
 | `objects/strs` | `（待补）` × 6＋骨架注释还在 | 5,883 |
-| `objects/table-filter` | `（待补）` × 6＋骨架注释还在 | 1,928 |
-| `objects/term` | `（待补）` × 6＋骨架注释还在 | 6,708 |
 | `objects/testset-testname` | `（待补）` × 6＋骨架注释还在 | 1,945 |
-| `objects/timing-set-selector` | `（待补）` × 6＋骨架注释还在 | 3,195 |
-| `objects/tsus` | `（待补）` × 6＋骨架注释还在 | 3,426 |
 | `objects/tsux` | `（待补）` × 6＋骨架注释还在 | 1,580 |
 | `objects/udef` | `（待补）` × 6＋骨架注释还在 | 1,699 |
-| `objects/udgp` | `（待补）` × 6＋骨架注释还在 | 949 |
 | `objects/udpr` | `（待补）` × 6＋骨架注释还在 | 1,830 |
 | `objects/udps` | `（待补）` × 6＋骨架注释还在 | 1,120 |
 | `objects/udpt` | `（待补）` × 6＋骨架注释还在 | 904 |
@@ -2952,9 +2938,8 @@
 | `objects/waveform-mapping` | `（待补）` × 6＋骨架注释还在 | 3,478 |
 | `objects/waveform-view` | `（待补）` × 6＋骨架注释还在 | 468 |
 | `objects/wfds` | `（待补）` × 6＋骨架注释还在 | 7,845 |
-| `objects/wsus` | `（待补）` × 6＋骨架注释还在 | 1,907 |
 
-（另 **409 页**已写完。）
+（另 **433 页**已写完。）
 
 > **最薄的十节**（只列，不判——理由见本类开头）：
 >

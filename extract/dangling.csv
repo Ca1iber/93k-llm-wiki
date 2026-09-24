@@ -1,9 +1,10 @@
 slug,refs,stages
 # 第八类产出：内容页伸手要、但还不存在的页。**由 verify_stages.py 写，不许手改。**
 # 判据见 `wiki/schema.md` §9.1；refs = 被引处数，stages = 引用它的页。
-ps1600,7,jsud jswf logical-boards pin-utility smartrdi smartrdi-tmu-test-setup
-test-method-project,7,how-to-create-a-universal-test-method-class mapping-testmethod pin-string project-explorer-view smartcalc-framework testmethod universal-test-method-library
-flow-control-node,6,assign-value-node flag flow-sequence-editor mapping-testflow testflow testflow-tool
+ps1600,12,drlv jsud jswf logical-boards pin-utility rclv smartrdi smartrdi-tmu-test-setup term
+test-method-project,8,add-limit how-to-create-a-universal-test-method-class mapping-testmethod pin-string project-explorer-view smartcalc-framework testmethod universal-test-method-library
+flow-control-node,7,assign-value-node flag flow-sequence-editor group-node mapping-testflow testflow testflow-tool
+ps5000,7,drlv logical-boards rclv smartrdi term
 hardware-response-file,6,flow-sequence-editor hardware-response-emulator mapping-run run testflow-tool
 drldump,4,edl-file mapping-results results
 technology-file,4,level project rdi-configure-file
@@ -13,7 +14,6 @@ workspace,3,new-device-wizard project project-explorer-view
 ctim,2,primary-status timing
 list-of-test-result-commands,2,mapping-results results
 org-file,2,mapping-project project
-ps5000,2,logical-boards smartrdi
 gio-library-api,1,project
 initialize,1,testmethod
 shared-leakage-parallel-test,1,sharing-configuration-file
