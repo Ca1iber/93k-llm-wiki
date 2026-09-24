@@ -467,7 +467,7 @@ Label ...
 - [[test]] — **分工（本页的读法，不是哪一篇给的总纲）**：TEST 判并记、本 API 按 pin / port 取结果。**边表里两篇之间只有单向的 2 条边**（`02.07.04.01.241_TEST.md` → 本页）；**本页 32 条出边的 21 个目标里没有 `TEST`，本页 `## Related information` 那 8 个目标里也没有 `TEST`**（两处都回 raw 与 `extract/edges.jsonl` 数过）。**TEST 那篇本页没读。**
 - [[primary-status]] — **恢复手段**：`Primary.label()` 是「把原始 start label 弄回来」的那一步，后面必须再跟一次 [[flush]]。
 - [[flush]] — 同上，`FLUSH()` 是那条恢复链的第二半。
-- [[prlt]]（**未建**）/ `CSAS` / `PSAS` — **作废链**：本页 `## Syntax` 前面那段 note 的两个主角（`CSAS` 与 `PSAS` 在 raw 里是 L1 命令页的链接，**本页没读它们**）。
+- [[prlt]]/ `CSAS` / `PSAS` — **作废链**：本页 `## Syntax` 前面那段 note 的两个主角（`CSAS` 与 `PSAS` 在 raw 里是 L1 命令页的链接，**本页没读它们**）。
 - [[dps-aux-pin-task]] — **顺序上的对手**：本页的结果必须在 `DPS_AUX_PIN_TASK.check...()` 一族之前取；**出边里那 4 条 `DPS_AUX_PIN_TASK.check*Error` / `checkPowerFlags` / `checkSurgeTracker` 都链回本页**，可见这条先后关系是双向被提到的。
 - [[execution-context]] / `SEQUENCER_CONTEXT` / `SEQUENCER_CONTEXT_ITEM`（后两个**清单外**，见下面「出处」）——**context 三件套**：`context` 参数、`sequencer_execution_context` 参数、以及被改动作废结果的那个对象。
 - [[testset]] — **继任族**：`TESTSET__.judgeAndLog_FunctionalTest` 也链到本页（入边 1 条）。

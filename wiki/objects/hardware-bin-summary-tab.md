@@ -119,12 +119,21 @@ verified: doc-only
 
 #### 排序：点列标题三下
 
-**原文逐字（`## Table` 一节末段）：**
+**原文逐字（`## Table` 一节末段）。按 §11.1 断开成三块引** ——
+原句是**一段连续的文字**，中间嵌着两张行内插图，块内部不许跳过，只能断开：
 
 > 「Clicking a column title sort the table by this column in ascending order (rows with smaller
-> values come first). This is indicated by a triangle. Clicking again sorts the table by the
-> column in descending order, which is indicated by an upside-down triangle. Clicking again unsorts
-> the table. (The rows are displayed in the order in which they occur in the data store.)」
+> values come first). This is indicated by a triangle」
+
+**原文此处夹一张行内图**：`![Data log summary view_Ascending triangle](<../../../../raw/136425.png>)`（**本页没看**）。**紧接着的那句以 `.` 起头**：
+
+> 「. Clicking again sorts the table by the column in descending order, which is indicated by an
+> upside-down triangle」
+
+**原文此处再夹一张**：`![Data log summary view_Descending triangle](<../../../../raw/136426.png>)`（**本页没看**）。**然后是**：
+
+> 「. Clicking again unsorts the table. (The rows are displayed in the order in which they occur
+> in the data store.)」
 
 **三次点击是一个循环**：
 

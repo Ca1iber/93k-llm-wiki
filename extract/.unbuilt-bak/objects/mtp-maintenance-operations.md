@@ -97,7 +97,7 @@ main ()
 | **`maintop_time_a`** | **单次**刷新 |
 | **`static_maintop_time_x`**（`x` 任意字母） | **多次**刷新 |
 
-**边界**：**最长 9.2 秒**（原文：`228 times the test system period`）；
+**边界**：**最长 9.2 秒**（原文：`2^28 times the test system period`）；
 **最短 16 倍 test system period**。
 
 > ⚠️ **上面这两个数本页没有替它换算。** 原文把「9.2 秒」和「228 × test system period」
@@ -211,12 +211,12 @@ refreshes` 是同一条。）
 - [[timing]] — `maintop_time_a` / `static_maintop_time_x` 写在 **Timing file** 里
 - [[pin]] — `VEC` 写在 **pin mapping file** 的 `using interruptCtrl` 语句里；
   这是引脚属性，属 pin 阶段
-- [[device-architecture-file]]（**未建**）— `:timerMode:` 与 `:intervalMode:` 写在这里
-- [[apg-pattern-file]]（**未建**）— `:timing:` 加在这里
+- [[device-architecture-file ]] — `:timerMode:` 与 `:intervalMode:` 写在这里
+- [[apg-pattern-file ]] — `:timing:` 加在这里
 - [[waveform-mapping]]（**未建**）— 原文 `Related information` 里**只列了这一篇**；
   波形与 index `0x80` 的关系在那边
 - [[mtp-shared-test-commands]]、[[mtpt]] — 同批建的另两页 MTP 页
-- [[error]]（**未建**）— 刷新没按时发生属于哪一类，本页不判
+- `error`（**未建**）— 刷新没按时发生属于哪一类，本页不判
 
 ## 版本
 

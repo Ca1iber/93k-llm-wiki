@@ -121,7 +121,7 @@ EVENT_VALUE_INT eqnValue("LEV:frc1");
 
 - `EVENT_VALUE_DOUBLE`（**清单外**）——**唯一的出边目标（2 条），也是入边里最密的一个（同一族里它被链 91 次）**。本页 source 里那句 `See also the second value class EVENT_VALUE_DOUBLE.` 就是这条边的出处；raw 路径：`02.07.04.01.63.18_EVENT_VALUE_DOUBLE.md`。**「两个类怎么选」本页没有答案**（**那一篇本页没读**）。
 - [[event-base]] — **同一族的基类**：族索引 `02.07.04.01.63_EVENT_...__DC_events_API_reference.md` 一把链出四个名字（`EVENT_BASE`、`EVENT_VALUE_DOUBLE`、`EVENT_VALUE_INT`、`VEC_EVENTS`）——**本页与 [[event-base]] 是并列关系，不是继承关系**（**继承关系那一句在 EVENT_BASE 那篇里，本页没读**）。
-- [[vec-events]]（**未建**）— 同一条族索引链里的第四个名字。
+- [[vec-events]]— 同一条族索引链里的第四个名字。
 - **本页入边的绝对主力是那一族的 `averages` / `getAverages` 成员页**（`02.07.04.01.63.*`，例子：`EVENT_CFIM.getAverages.md`、`EVENT_CFIM.averages.md`、`EVENT_WAVEFORM_VCVM.getAverages.md` 等，**全部清单外**）——**说明这个类最常出现在「平均值的设定或读取」这条路径上**（**这一条只有链接证的份量；本页没有读那一族任何一篇**）。
 - [[level]] / [[level-spec]] / [[level-equation-file]]/ [[equation-based-level-setup]] — **`LEV:` 前缀指过去的那套东西**：`level equation set`、`spec`、`equation variable` 三个词在本页 source 里都有，**解释都在那些页里**（**本页一篇都没读**）。
 - [[spec-variable]] / [[spec-value]] — **参数表里那个 `spec`**：原文说表达式「可以是 spec 或 equation variable」，**而 spec 是什么本页不知道**（**那两页没读**）。

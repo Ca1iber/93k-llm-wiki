@@ -435,7 +435,7 @@ PALS 4,"MCE231,8,i",,(av8_bbrx_b-)
   **`PALS` 的 `## Application` 写的是 `Pin Configuration`**，
   **这些是「引脚配置」这一片的其余部分。**
   **本页与它们的**具体**分工，本页没读那几篇，不作断言。**
-- [[sharing-configuration]] / [[sharing-configuration-file]]（**均未建**）——
+- [[sharing-configuration]] / [[sharing-configuration-file]]——
   **多 site 共用资源这一片**；**本页做的是「按 site 分配通道」，
   与「哪些资源在 site 间共享」相邻但不同**（**推断**：依据是本页 `site` 参数的语义，
   **原文没有提到 sharing**）。

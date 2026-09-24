@@ -213,7 +213,7 @@ refreshes` 是同一条。）
   这是引脚属性，属 pin 阶段
 - [[device-architecture-file ]] — `:timerMode:` 与 `:intervalMode:` 写在这里
 - [[apg-pattern-file ]] — `:timing:` 加在这里
-- [[waveform-mapping]]（**未建**）— 原文 `Related information` 里**只列了这一篇**；
+- [[waveform-mapping]]— 原文 `Related information` 里**只列了这一篇**；
   波形与 index `0x80` 的关系在那边
 - [[mtp-shared-test-commands]]、[[mtpt]] — 同批建的另两页 MTP 页
 - `error`（**未建**）— 刷新没按时发生属于哪一类，本页不判

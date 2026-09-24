@@ -88,7 +88,7 @@ Match Loops 的场合**。
   **它怎么启动、什么时候调，本篇没讲**
 - `SMC_SYNCHRONIZE_WITHOUT_BINNING()`（**未建**）— test suite 内换 Mode context 前建议调
 - [[testmethod]] — 本页 `stage: testmethod` 的理由：装载位置是 test method 的 SMC 段
-- [[smartcalc]]（**未建**）— 干这件事的主体
+- [[smartcalc ]] — 干这件事的主体
 - [[match-loops]]（**未建**）— 原文点名「用了它，自动算法可能算不准」
 - [[run]] — 被隐藏在上传背后的那个东西是**下一个 test 的 sequencer 执行**；
   sequencer 与 test flow 的关系在那边

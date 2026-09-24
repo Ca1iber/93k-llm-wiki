@@ -3,8 +3,8 @@ type: object
 title: Waveform mapping
 layer: n/a
 stage: pattern
-tags: []
-related: []
+tags: [waveform-mapping, waveform, mapping, apg, pattern, mtl, mtp, wavetable, timing-file, pin-mapping]
+related: [apg-pattern-file, apg-program-file, timing-file, wavetable, wavetable-file, pin-mapping-file, device-access-file, pattern, smartest-6.3.2]
 sources:
   - 02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.04.03_Waveform_mapping.md
 created: 2026-09-24
@@ -13,10 +13,6 @@ verified: doc-only
 ---
 
 # Waveform mapping
-
-<!-- 骨架由 `extract/objscaffold.py` 生成。
-     「语法 / 参数」节是脚本逐字抽的（§4），**不许改**；
-     其余 `（待补）` 由 LLM 补完，补完请删掉本注释。 -->
 
 ## 语法 / 参数
 
@@ -394,20 +390,310 @@ The compiler adds the minimum number of waveforms that is required to execute th
 
 ## 是什么
 
-（待补）
+**waveform mapping 是「逻辑 0/1 的图案 → 送到针脚上的物理波形」这一步转换。** 原文第一句就是全部定义：
+
+> 「Waveform mapping refers to the process by which patterns of logical zeros and ones created by
+> the APG program are converted to physical waveforms that are sent to the tester pins.」
+
+**一句话拆成三个成分：**
+
+| 成分 | 原文（逐字） |
+|---|---|
+| 输入 | `patterns of logical zeros and ones created by the APG program` |
+| 做什么 | `are converted` |
+| 输出 | `physical waveforms that are sent to the tester pins` |
+
+**注意输入那一栏的定语**：造图案的是 **APG program**（不是编译器）；
+而下一段又说是**编译器**造的——见 `## 出处` ③。
+
+### 两种方式，分界在「用哪个文件转换」
+
+> 「There are two different ways of mapping waveforms in MTL. Both convert logical patterns created
+> by the compiler to indexes into the timing file:」
+
+| | 方式（逐字） | 用什么转 | 怎么设（逐字） | 专页（原文的子主题名） |
+|---|---|---|---|---|
+| 1 | `Direct waveform mapping` | the standard SmarTest `Timing file` | `It is set up by specifying the timing file and the desired wavetable as the arguments of the :waveformMap: keyword in the APG pattern file.` | `Setting up direct waveform mapping` |
+| 2 | `Indirect waveform mapping` | the MTP `Waveform mapping file` | `It is set up by specifying the waveform mapping file as the argument of the :waveformMap: keyword in the APG pattern file.` | `Setting up indirect waveform mapping` |
+
+（上表「用什么转」那一列在原文里各是一个链接，目标是 `<02.12.03.03.09.02_Timing_file.md>` 与
+`<02.12.03.03.07_Waveform_mapping_file.md>`；本页只留链接文字。
+两列里的反引号是本页加的标记，不是原文的字符。）
+
+**两条的共同点**：都设在**同一个地方**——`the :waveformMap: keyword in the APG pattern file`。
+**两条的区别**：**direct 要两样东西（timing file + 想要的 wavetable），indirect 只要一样（waveform mapping file）。**
+
+**⚠️ 「两种方式都产出 timing file 的索引」这一句要读准**：原文说的是
+`Both convert logical patterns created by the compiler to indexes into the timing file`——
+**indirect 那一支中间还夹着一个 waveform mapping file，它和 timing file 是什么关系，本篇一句话没说**
+（它的名字是 `Waveform mapping file`，属 MTP 侧；**那一篇本页没读**）。
+
+### 一条强制 + 一条推荐
+
+> 「A form of waveform mapping must always be used. We recommend that you always use direct
+> waveform mapping unless there is a specific reason to use indirect waveform mapping. Reasons
+> include:」
+
+**两句的力度完全不同，要分开读：**
+
+| 句子 | 力度 | 读法 |
+|---|---|---|
+| `A form of waveform mapping must always be used.` | **强制**（`must always`） | **不能不映射**——但**可以是两种里的任何一种** |
+| `We recommend that you always use direct waveform mapping unless there is a specific reason to use indirect waveform mapping.` | **推荐**（`We recommend`） | **默认走 direct**；要换 indirect 得说得出理由 |
+
+**原文紧接着给了「什么情况下该换 indirect」的两条理由**，逐字：
+
+> 「- You are using the :devCyc: keyword in the `Device access file` (which we recommend you no longer do).」
+
+（那一行里 `Device access file` 在原文里是一个链接，目标是 `<02.12.03.03.04_Device_access_file.md>`。）
+
+> 「- You are testing devices that require a third level at high data rates. (More generally speaking: You need to map multiple logical waveforms to one physical waveform, which is not possible using direct waveform mapping.)」
+
+**第二条是本篇给的 direct 的能力边界**（括注里逐字）：
+`You need to map multiple logical waveforms to one physical waveform, which is not possible using direct waveform mapping.`
+
+**第一条带着一个软性废弃**（括注逐字）：`(which we recommend you no longer do)`——
+**即 `:devCyc:` 这个关键字本身，原文已经不建议再用。**
+（**它怎么用、为什么废弃，本篇没写**；`Device access file` 那一篇本页没读。）
+
+### 本篇的 `## 语法 / 参数` 节里有什么（**两段都是取自子主题的**）
+
+**⚠️ 先说来源**：本节节首逐字写着它取自定义文档**及其子主题**
+`02.12.03.04.03.01.01_Wavetable_syntax.md` 与 `02.12.03.04.03.03_Automatic_waveform_generation.md`。
+**这两篇本页都没读**——**所以本页对它们的了解，只到 `## 语法 / 参数` 节里逐字收的那两段为止。**
+
+#### 第一段：`Wavetable syntax` 的 `Compatible syntax`
+
+它给的是**两张对照代码**，说清 `Compatible` 这一族 wavetable 在两种 mode 下怎么写：
+
+| 写在哪个文件里 | 代码（逐字） |
+|---|---|
+| `Pin mapping file`（raw: `02.12.03.03.06_Pin_mapping_file.md`） | `using defaultxmode 3` |
+| wavetable 文件 | `WAVETBL "Compatible"`，底下同一个 `pin1` 分 `# fast-mode` 与 `# std-mode` 两段 |
+
+**两个代码块里都有整行的 `...`**（`...` 单独占一行，前后各一处）。
+**那不是本页写的省略号，是原文自带的**——正是 §11.1 说的
+「`…` / `...` 出现在引文里的唯一合法场合：原文自己就写着它」。
+
+**两段的关键差别在那一列波形的写法**：`fast-mode` 段写的是 `"000"` / `"001"` / `"011"` 这种三位串，
+`std-mode` 段写的是 `"d1:0 d2:0 d3:0"` / `"d1:0 d2:0 d3:1"` 这种**带 `d1:` `d2:` `d3:` 前缀**的串。
+**这两个 mode 分别是什么意思、`defaultxmode 3` 里的 `3` 是什么，本篇一个字没有**（见 `## 出处`）。
+
+#### 第二段：`Automatic waveform generation`——**编译器往你给的 wavetable 里自动补波形**
+
+**这一段讲的事情，正文完全没提**（正文只写了「两种方式」）。它的场景逐字：
+
+> 「Consider a pin group DQ_i which contains a pin named DQ_i1 (besides others). The user supplied
+> wavetable has the following entry for the pins in the DQ_i group:」
+
+**然后按三种情形说明波形加在哪：**
+
+| 情形 | 原文（逐字） |
+|---|---|
+| pattern 要两个用户没给的波形 | `If the pattern requires two new waveforms 10101010 and 01010101, the waveforms are added in the same section.` |
+| 同 group 的**另一个 pin** 要别的波形 | `If another pin, for example DQ_i2, in the same group requires the waveforms 11100011 and 00011100, they will also be added to the waveform definition for the DQ_i group.` |
+| 那个 pin **不属于**这个 group | `If DQ_i2 did not belong to the DQ_i group, the waveforms of DQ_i2 will be created in a separate pin definition.` |
+
+**两段收尾的话（这一段的核心机制）**，逐字：
+
+> 「Device cycle names for the added waveforms will be automatically generated by the compiler, which
+> reflect the logical actions of the waveforms. When a non-interruptible waveform is created, the
+> device cycle name for the waveform will be given the suffix `_ni`.」
+
+> 「The compiler adds the minimum number of waveforms that is required to execute the pattern when it
+> adds waveforms to existing wavetables.」
+
+**三条可用的结论**：
+
+1. **补进去的波形，device cycle name 由编译器自动生成**（`automatically generated by the compiler`）。
+2. **不可中断的波形，名字带 `_ni` 后缀**。
+3. **只补「跑这个 pattern 所需的最少条数」**（`the minimum number of waveforms that is required`）。
+
+**这一段里的 wavetable 长这样**（段头 `PINS DQ_i`，三列逐字）：
+`PWF index` / `Waveform` / `Device cycle name`。
+**⚠️ 这三个列名在本篇正文里没有**——它们只出现在这一段（子主题）的表里，
+**而且这张表在本篇语料里是被压平的**（见 `## 出处` ⑥）。**本页不做字段定义。**
 
 ## 典型用法
 
-（待补）
+**本篇没有 `## Procedure`、没有 `## Before you begin`、没有一条命令行、没有一个关键字参数表。**
+所以「怎么用」只能从「两种方式怎么设」那两句和「什么情况下换 indirect」那两条里读出来。
+
+### 一、两条路，都设在同一个关键字上
+
+| 你想要 | 在 APG pattern file 的 `:waveformMap:` 里填什么 | 依据（逐字） |
+|---|---|---|
+| **direct**（默认走法） | **timing file + 想要的 wavetable** | `It is set up by specifying the timing file and the desired wavetable as the arguments of the :waveformMap: keyword in the APG pattern file.` |
+| **indirect**（有理由才走） | **waveform mapping file** | `It is set up by specifying the waveform mapping file as the argument of the :waveformMap: keyword in the APG pattern file.` |
+
+**⚠️ 「这两个参数怎么写在一起」（分隔符、顺序）本篇没有给。**
+[[apg-pattern-file]] 那页的语法节里记着 direct 那一支是**冒号连接**的
+`<timingFile>:<wavetableName>`（**那一页本页读过**，它的语法段来自**另一篇 raw**，
+`02.12.03.03.02.01_APG_pattern_file_syntax.md`，**本页没读那一篇**）。
+
+### 二、选哪条：照原文的判据走
+
+| 问题 | 答 | 依据（逐字） |
+|---|---|---|
+| **能不能不映射？** | **不能** | `A form of waveform mapping must always be used.` |
+| **默认用哪个？** | **direct** | `We recommend that you always use direct waveform mapping unless there is a specific reason to use indirect waveform mapping.` |
+| **什么理由算「specific reason」？** | 原文只给了两条：用了 `:devCyc:`；或者**要高速率下的第三级**（即**多条逻辑波形映射到同一条物理波形**） | 两条理由逐字见 `## 是什么` |
+| **direct 做不到什么？** | **做不到「多条逻辑波形 → 一条物理波形」** | `which is not possible using direct waveform mapping` |
+
+### 三、本页答不了、要去别处问的
+
+| 想知道什么 | 本篇 | 去哪 |
+|---|---|---|
+| `:waveformMap:` 参数怎么分隔、顺序怎样 | **一个字没有** | [[apg-pattern-file]] 的语法节（**本页读过那一页**；它的来源是另一篇 raw，**本页没读**） |
+| direct 怎么一步步设（timing file 从哪来、wavetable 怎么选） | **一个字没有** | `Setting up direct waveform mapping`（**子主题，未建、本页没读**） |
+| indirect 怎么一步步设、waveform mapping file 里写什么 | **一个字没有** | `Setting up indirect waveform mapping` / `Waveform mapping file`（**均未建、本页都没读**） |
+| 用户给的 wavetable 长什么样、有哪些列 | **正文一个字没有**；只有 `## 语法 / 参数` 节子主题那一段里出现过 `PWF index` / `Waveform` / `Device cycle name` 三列 | `Automatic waveform generation`（**子主题，未建、本页没读**） |
+| pin group（如 `DQ_i`）怎么建 | **一个字没有** | 本篇的 `Pin mapping file` / `Device access file` 那两篇（**本页都没读**） |
+| `defaultxmode` 的取值语义 | **一个字没有** | `Wavetable syntax`（**孙辈子主题，未建、本页没读**） |
+
+**一句话**：**本页只回答「waveform mapping 是什么、有哪两条路、默认走哪条、为什么换」——
+「怎么设」的答案全在本页没读的那几篇里。**
 
 ## 和谁有关
 
-（待补）
+- [[apg-pattern-file]] —— **本页两种方式的设置点都在它身上**。原文两句都写
+  `the :waveformMap: keyword in the APG pattern file`；[[apg-pattern-file]] 那页也把本页标成**下游**
+  （它那里写的是「间接波形映射那一支」）。**那一页本页读过，本页的 raw 没读那一篇。**
+- [[apg-program-file]] —— **图案的源头**。原文第一句写
+  `patterns of logical zeros and ones created by the APG program`。
+  **本篇只出现这一次 `APG program`**，它自己是什么本页没有。
+- [[timing-file]] —— **direct 那一支的转换依据**（原文链接名 `Timing file`）。
+  **它是「标准的 SmarTest timing file」**（原文 `the standard SmarTest Timing file`）——
+  **这一句是 direct 与 indirect 的分界所在。** 那一页本页没读。
+- [[wavetable]] / [[wavetable-file]] —— **direct 那一支要指定「想要的那个 wavetable」**
+  （原文 `the desired wavetable`），而 `## 语法 / 参数` 节里出现的 `WAVETBL "Compatible"` 与段头
+  `PINS DQ_i` 就是它的形态。**⚠️ 两边不是同一份文档**：[[wavetable]] 那页的 raw 在 SmarTest timing 侧，
+  本页的是 MTP 侧，**两处的 wavetable 列名是不是同一套，本页核不了**（推断，那两页本页都没读 raw）。
+- [[pin-mapping-file]] —— **直系亲属，但不是同一个东西**。本页 `## 语法 / 参数` 节的第一段里，
+  `using defaultxmode 3` 那一行明写是写在 `Pin mapping file` 里的；
+  [[pin-mapping-file]] 那页的 `stage` 也是 `pattern`、也挂在 [[mtp-memory-test]] 一代。
+  **那一页本页没读**——所以「pin mapping 与 waveform mapping 谁先谁后」本页没有。
+- [[device-access-file]] —— **换 indirect 的第一条理由就在它身上**（用了它里面的 `:devCyc:` 关键字，
+  而原文说那个关键字已经不推荐再用）。**那一页本页没读。**
+- [[pattern]] —— **stage 页**。本页 `stage: pattern` 的理由：波形映射是**图案编译这一段**里的一步
+  （原文 `logical patterns created by the compiler`）。**本篇没有 `## Application` 这类自我定位段**，
+  这个归属是本 wiki 的既有划分。
+- [[mapping-pattern]] —— **对照表页**（pattern 那一段的 GUI ↔ 文件 ↔ 命令）。**本页没读那一页。**
+- [[mtp-memory-test]] / [[mtpt]] —— **本章的族头**。本篇在 `02.12_Memory_Test_Plus_7.10.2` 章下，
+  **属 MTP 侧而不是 SmarTest 侧**（原文也两次用 `MTL` / `MTP` 自称）。
+  **两页本页都没读**，这条只是章属（**取材边界**）。
+- `Setting up direct waveform mapping` / `Setting up indirect waveform mapping` /
+  `Automatic waveform generation`（**3 篇子主题，均未建、均未读**）—— **本篇自己声明的全部子页**，
+  也就是**每条路的操作细节所在**。
+- `Wavetable syntax`（**未建、未读**）—— `Setting up direct waveform mapping` 底下的孙辈，
+  本页 `## 语法 / 参数` 节第一段的来源。
+- `Waveform mapping file`（**未建**）—— indirect 那一支的转换文件，本篇链了它**两次**
+  （正文一次、`## Related information` 一次）。**本页没读。**
+- [[smartest-6.3.2]] —— **版本页，读法是「更老」**。本篇 `## Functional changes` 只有
+  `Introduced before SmarTest 6.3.2`（哨兵值，§11.2 ②）。
 
 ## 版本
 
-（待补）
+原文 `## Functional changes` 段**只有一行**，逐字：
+
+- `Introduced before SmarTest 6.3.2`
+
+**这一行是哨兵值**（§11.2 ②）：措辞是 `before`，意思是「**在本套文档集覆盖范围开始之前就已经有了**」。
+**不许读成「SmarTest 6.3.2 引入了 waveform mapping」。** 能说的只有：
+**7.10.3 上有，且它比 6.3.2 更老** → [[smartest-6.3.2]]。
+
+**⚠️ 还有一处口径要注意**：**本篇住在 `02.12_Memory_Test_Plus_7.10.2`（MTP）章下，
+而这一行写的却是 SmarTest 的版本号。**
+按 §11.2 ④，`## Functional changes` 里不止 SmarTest 一条产品线，同一个版本号会跨产品线出现——
+**所以本页不把这一行读成「SmarTest 侧的事实」，只照原样记「这一行写的是 SmarTest 的版本号」。**
+
+**本篇没有的东西**（照实记，不替它补）：**没有第二条**。
+所以「两种方式分别是哪一版进来的」「`Automatic waveform generation` 是哪一版进来的」，
+**本篇都答不了**。
 
 ## 出处
 
-（待补）
+`sources:` 一篇：
+`02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.04.03_Waveform_mapping.md`
+（frontmatter `source_topic` = `67573.htm`；**2,141 字节 / 37 行**，**整篇读完**。
+口径按 §11.5：字节是 `st_size`，行数是 `wc -l`，本语料末行带换行，两者恒等）
+
+**本页读了的：只有这一篇。**
+`## 语法 / 参数` 节是**脚本**从这一篇加它的**两个**子主题/孙辈逐字抽的
+（`02.12.03.04.03.01.01_Wavetable_syntax.md` 与 `02.12.03.04.03.03_Automatic_waveform_generation.md`，
+来源逐字写在节首），**本页一个字没动**。
+
+**本页没做的：**
+
+- **本篇自己声明的 3 个子主题，一篇都没读**（`Setting up direct waveform mapping` /
+  `Setting up indirect waveform mapping` / `Automatic waveform generation`）。
+  **后果说清**：**「direct 怎么一步步设」「indirect 怎么一步步设」「waveform mapping file 里写什么」
+  这三个问题，本页一个字都答不了**——本页只有「有这么两条路、默认走哪条」。
+- **`## 语法 / 参数` 节里那两段的来源（`Wavetable_syntax` / `Automatic_waveform_generation`）
+  也没读**——本页对它们的了解**只到 `## 语法 / 参数` 节里逐字收的那两段为止**。
+  所以：**`defaultxmode` 的取值语义、`fast-mode` / `std-mode` 的含义、
+  `Automatic waveform generation` 的触发条件与别的选项，本页一个字都没有。**
+- **本篇正文里点名的三篇都没读**：`Timing file`（`02.12.03.03.09.02`）、
+  `Waveform mapping file`（`02.12.03.03.07`）、`Device access file`（`02.12.03.03.04`），
+  外加 `## 语法 / 参数` 节里出现的 `Pin mapping file`（`02.12.03.03.06`）。
+  **所以这四种文件各自长什么样、怎么生成，本页一个字没有。**
+- **一个图都没有。** 本篇里 `![` 出现 **0 次**（本页查过），**所以这一页不含任何图证，也不缺。**
+- **`## 语法 / 参数` 节里出现的 `WAVETBL` / `PINS` / `PWF index` 等记号，本页没有去别处核**——
+  **它们在这一篇里没有定义**（这一篇一个都没解释），**本页只引不改。**
+- **一处没跑、一个 pattern 没编。** `verified: doc-only` 指的就是这件事
+  （§11：文档里有 ≠ 这台机器上能用）。**尤其：「不改映射会怎样」本篇只说 `must always be used`，
+  没说违反会报什么。**
+- **本篇没有 `## Procedure` / `## Before you begin`**，也没有 `## Errors` / `## Warnings` 段——
+  所以本页**没有「报错条件」节**（骨架里本来就没有这一节）。
+- **`layer: n/a` / `stage: pattern` 不是本篇写的**——本篇没有 `## Application` 这类自我定位段，
+  这两个值是本 wiki 的既有划分。
+
+> ⚠️ **本篇的语料瑕疵，本页照实记下、一处都没替它改**：
+>
+> ① **`## Related information` 是两个链接首尾相接、中间一个字符都没有。** 逐字（整行）：
+> `[Waveform mapping file](<02.12.03.03.07_Waveform_mapping_file.md>)[Timing file](<02.12.03.03.09.02_Timing_file.md>)`
+> ——**两条链接直接粘在一起**（[[data-logging-profile-api]] 那篇的 `## Related information` 是同一个毛病）。
+>
+> ② **正文说「两种方式」，`#### Subtopics` 底下却是三条。** 逐字并列：
+> `There are two different ways of mapping waveforms in MTL.` 与子主题清单里的三项
+> `Setting up direct waveform mapping` / `Setting up indirect waveform mapping` / `Automatic waveform generation`。
+> ——**第三条（自动波形生成）算不算「第三种方式」，正文没有说。**
+> **本页把它当「前两条之外的另一个机制」摆着，不替它归类。**
+>
+> ③ **同一批图案，一句里说「APG program 造的」、下一句说「编译器造的」。** 逐字并列（相邻两段）：
+> `patterns of logical zeros and ones created by the APG program are converted to physical waveforms`
+> 与 `Both convert logical patterns created by the compiler to indexes into the timing file:`
+> ——**`created by the APG program` 对 `created by the compiler`。**
+> **两者是同一件事的两个阶段（APG program 写、编译器处理），还是措辞不一致，本篇没说。本页不裁定。**
+>
+> ④ **`## Functional changes` 里的版本号是 SmarTest 的，而本篇在 MTP 章下。** 逐字：
+> `Introduced before SmarTest 6.3.2`（而 frontmatter 的 `source_html` 是
+> `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.04.03_Waveform_mapping.htm`）——
+> **按 §11.2 ④，同一个版本号会跨产品线出现，本页据此不把它读成 SmarTest 侧的事实**（见 `## 版本`）。
+>
+> ⑤ **`#### Subtopics` 是 4 级标题，却是本篇最顶层的结构段**——
+> 它出现在正文与 `## Related information` **之前**，级别却比它们深。
+> **全语料同此形态**（[[data-logging-profile-api]]、[[data-logging-profiles]]、[[device-access-file]] 也是），
+> **不是本篇独有**（推断）。
+>
+> ⑥ **`## 语法 / 参数` 节里那三张表在语料里被压平成「一格一段」。** 逐字（`PINS DQ_i` 那张表的开头；
+> **` / ` 是行界，空行也照数**）：
+> `PINS DQ_i` / （空行） / ` |` / （空行） / `PWF index` / （空行） / ` |` / （空行） / `Waveform`
+> ——**三列的表头被拆成多行，`|` 自己单独占一行，列名与说明之间还夹着散文句**
+> （`If the pattern requires two new waveforms 10101010 and 01010101, the waveforms are added in the same section.`
+> 那句就插在表的两截之间）。
+> **本页在 `## 是什么` 里按字段重排成表的是「本页的转述」；要看原样，看 `## 语法 / 参数` 节。**
+>
+> ⑦ **同节第一段的两个代码块里，`...` 是整行独占的。** 逐字：
+> ```
+> ...
+> using defaultxmode 3
+> ...
+> ```
+> ——**那是原文自带的省略**（不是本页写的）。§11.1 明说 `...` 只许出现在原文自己就有的地方，
+> **这里就是那种地方**，所以本页照原样引。
+>
+> ⑧ **本篇没有 §11.2 ① 那种编码损坏**（本页查过：全文汉字 **0** 个、`鈥` **0** 处、
+> 非 ASCII 字符 **0** 个）。
+
+`verified: doc-only`

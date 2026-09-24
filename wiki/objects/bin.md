@@ -118,7 +118,7 @@ stop bin 的形态原文写得很具体：
 - `Inserting a bin into the testflow`（**未建**）— `Related information` 指的那篇；**插 bin 的步骤在那篇里**。
 - `Use of bins with multisite tests`（**未建**）— 原文第二句点名的另一篇；**多 site 场景下 bin 怎么算，本页一个字没有**。
 - `Multibin Disconnect` / `Multi Bin`（**均在 [[flow-sequence-editor]] 那侧，未建**）— **floating bin 的落点**（原文：`the associated multibin that you subsequently insert`）。
-- [[hardware-bin-summary-tab]] / [[software-bin-summary-tab]]（**均未建**）— 原文只说了「一个 bin 生成各一个 hardware bin 与 software bin」；**那两个 bin 在结果侧怎么看，在那两页里**（**推断**，依据只有页名与 `hardware bin` / `software bin` 同词，**本页没有读过它们**）。
+- [[hardware-bin-summary-tab]] / [[software-bin-summary-tab]]— 原文只说了「一个 bin 生成各一个 hardware bin 与 software bin」；**那两个 bin 在结果侧怎么看，在那两页里**（**推断**，依据只有页名与 `hardware bin` / `software bin` 同词，**本页没有读过它们**）。
 - [[results]] — **bin 是结果侧统计的对象**（原文两处点名 yield 计算用它）。**本页没有读任何 results 页**，所以**「yield 怎么算」本页答不了**。
 - **只写反引号、不写链接的名字**：`Bins page`、`Multi Bin`、`goodbin` / `badbin`、`bin_disconnect`、`multi_bin_decision`、`SET_MULTIBIN`、`stop_bin`、`binning`、`test_flow`、`hardware bin` / `software bin`——**它们都不在 `extract/prose-allowlist.txt` 里**，按 §9.1 一律反引号。
 

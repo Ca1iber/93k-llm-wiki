@@ -18,11 +18,29 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,996 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`。**不是转述。**
+> 本节 **3,199 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
 > 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
+
+### PALS
+
+```
+PALS {site}, {channel_1|(DC_scale_channels_list)}, [channel_2], {(pin)}
+```
+
+### PALS?
+
+```
+PALS? {site}, {(pinlist)}
+```
+
+returns:
+
+```
+PALS {site}, {channel_1|(DC_scale_channels_list)}, [channel_2], {(pin)}
+```
 
 ### Parameters
 
@@ -412,8 +430,8 @@ PALS 4,"MCE231,8,i",,(av8_bbrx_b-)
 
 **同域（引脚 / 通道配置这一片）**：
 
-- [[pin-mapping-file]]（**未建**）/ [[pin-configuration-file]]（**未建**）/
-  [[pin-configuration-tool]]（**未建**）/ [[digital-pins-editor]]（**未建**）——
+- [[pin-mapping-file]]/ [[pin-configuration-file]]/
+  [[pin-configuration-tool]]/ [[digital-pins-editor ]] ——
   **`PALS` 的 `## Application` 写的是 `Pin Configuration`**，
   **这些是「引脚配置」这一片的其余部分。**
   **本页与它们的**具体**分工，本页没读那几篇，不作断言。**
@@ -424,9 +442,9 @@ PALS 4,"MCE231,8,i",,(av8_bbrx_b-)
 
 **硬件侧（本页的规则针对的卡）**：
 
-- [[dc-scale-uhc4t-card]]（**未建**）— **`DC_scale_channels_list` 那段的相邻性规则
+- [[dc-scale-uhc4t-card ]] — **`DC_scale_channels_list` 那段的相邻性规则
   与「不能混 gang」禁令，针对的就是 UHC4 / UHC4T。**（**那页本页没读**）
-- [[ganging]]（**未建**）— **master/slave 配置这件事的总页**；
+- [[ganging ]] — **master/slave 配置这件事的总页**；
   **本页给的是「怎么在 `PALS` 里写出来」，ganging 本身是什么在那一边。**
 - [[cross-card-ganging-requires-ddic]] — **与原文那句
   `Before ganging between boards can be used, the connection must be enabled by DDIC.` 直接对应**
@@ -436,7 +454,7 @@ PALS 4,"MCE231,8,i",,(av8_bbrx_b-)
 
 - `Configuration Setup Commands`（**未建**）— **`## Application` 指向的上一级分类。**
 - `DUT interface layout`（**未建**）— **`## Related information` 里**唯一**的一条**；
-  它属于 [[dut-board-design-reference]]（**未建**）那一章。
+  它属于 [[dut-board-design-reference]]那一章。
   **原文只给了链接，没有任何说明它和本页什么关系。**
 - [[smartest-7.1.3]] / [[smartest-7.5.0]] — **本页版本记录里的两版**（见「版本」）。
 
