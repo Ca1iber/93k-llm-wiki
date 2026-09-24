@@ -28,7 +28,6 @@ controlling-multiple-sites
 cross-card-ganging-requires-ddic
 ctim
 ctxt
-data-logging-profile
 data-logging-profile-api
 data-logging-profiles
 data-navigation-views
