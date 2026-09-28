@@ -14,6 +14,6 @@ workspace,3,new-device-wizard project project-explorer-view
 ctim,2,primary-status timing
 list-of-test-result-commands,2,mapping-results results
 org-file,2,mapping-project project
+shared-leakage-parallel-test,2,shared-continuity-test sharing-configuration-file
 gio-library-api,1,project
 initialize,1,testmethod
-shared-leakage-parallel-test,1,sharing-configuration-file
