@@ -4891,3 +4891,73 @@ agent 用 Edit 沿用了骨架的……不，骨架是 CRLF，**是 agent 自己
 
 **闸门**：11 类绿；第十四类 ❌（`index.md` 未列这 93 页，且 93 行钩子必撑爆 §7 预算 → **拆子索引，单独做**）；
 第十五类 ❌（**还剩 45 页骨架 —— 是进度**）。
+
+## [2026-09-24] **补页第三批 24 页**（累计 72/93）—— 两条大发现，都另立了档
+
+第三批写完（`dprl` `pssr` `pact` `stme` / `etds` `etim` `pdiv` `tsux` /
+`vclk` `vdcg` `vtim` `wfds` / `vwfg` `vwfs` `waveform-view` `play-pattern` /
+`level-set-selector` `setup-level-set-0` `cct-change-level-spec` `sharing-configuration` /
+`lot-summary-generator` `udef` `vpin` `chin`）。
+逐页复验：越界 0、骨架注释全删、`（待补）` 全清、**换行全 CRLF**、第十二类过期 0。
+
+**这一批的交代里加了「写文件必须保持 CRLF」**（上一批有 4 页被写成纯 LF），**这批零发生**。
+
+### 顺手清掉的三样垃圾
+
+`wiki/objects/` 下两个 **0 字节的乱名文件**（`) and not prev.strip().endswith(` 这种）——
+是某个 agent 跑 shell 时引号出事故，把 Python 片段当文件名写了出来；
+仓库根一个 `_ell.txt`（另一个 agent 的临时文件）。**都删了。**
+
+### 发现一：**那族乱码坏字，上游有正字 —— 所以是可修的** → `findings-mojibake-upstream-resolves.md`
+
+`wfds` 那组的 agent 核上游 `.htm`，发现语料里的 `鈮?` 在上游是干净的 `≤`。
+我照这个办法**全库量了一遍**：
+
+| | |
+|---|---|
+| 坏字处数 | **3,220** |
+| 涉及篇数 | **605** |
+| **上游 `.htm` 干净**（正字取得到） | **602 篇（99.5%）** |
+| 上游 `.htm` 也坏 | **0 篇** |
+
+**这推翻了 §11.2 ① 原来的结论**（「第三字节被 `?` 替掉，**不唯一**，不许当映射用」，
+记成不可修的损坏）。**那句话少说了一个前提：上游还在。**
+若 `.htm` 没坏，正字就在里面 —— 不用猜、不用映射表、不用唯一性，
+**正好落在 §1.2 的 A 类定义上**（「上游明写着原意，转换时被毁」）。
+**比上午修的那批（151 处）大 20 倍。一个字没动，等批准。**
+
+**同一批 agent 还确证了反面**：`wave` / `waveform-view` 里的 `DC/DC power units`
+（应为 `index`）**上游 `.htm` 里就是这样** → 属 §11.2 ⑤（上游就坏，救不回来），
+全语料 **128 篇**含该串。
+
+### 发现二：**第七类不看含中文的引文块** → 追记进 `findings-quote-checker-holes.md`
+
+`vpin` 那组的 agent **自查时抓到一处真错**（把 `An error occurs if:` 与下面带 `- ` 列表符的行
+合成一句引文，**丢了列表符**），而**第七类的报告里没有它** —— 因为那个 `>` 块里夹了中文。
+
+量了才知道多大：**wiki 里 5,129 个 `>` 引文块，1,418 个（27.6%）含中文、一律不被检查。**
+这工程的页面本来就是中文写的，引文常常中英混排 —— **混排越自然，越不在检查范围内。**
+
+### 发现三：`ERR_MIN = 60` 静默丢掉 **33 处真材料** → 追记进 `findings-scaffold-syntax.md`
+
+四个 agent 各自独立报「我的页没有报错节，而原文有」。
+用对的入口（`objpack.sections_of()`）量：**命中 `Errors`/`Warnings`/`Limits` 的段 495 处，
+其中 33 处短于 60 字符被挡掉**，而被挡的是实义内容（`There are no errors except parameter checks.`、
+`An error is generated if the argument is invalid.`…）。
+
+**好几条是否定式**（`No errors are generated if the given sets are out of range.`）——
+**丢掉它，页面就对这件事一个字不说**，读者读成「文档没写」，而文档明确写了「越界不报错」。
+
+**我第一版量成了 0，也记进档**：我用 `verbatim_sections()` 去数，而 `error_block()` 读的是
+`sections_of()`（走 `sections.jsonl`）。**两个函数的段集不一样**，33 处量成了 0。
+
+### 做法上沉淀下来的一条（该进规格）
+
+**写页的人现在会去核上游 `.htm`**（`tdc-html/raw/<source_topic>.htm`），
+用来分清「**转换坏的**（可救）」与「**上游就坏的**（救不回来）」。
+第三批里六个组有**四个**主动做了，而且**两次推翻了先前的判断**
+（`鈮?` 由「不可修」改成「可修」；`DC/DC power units` 由疑似改成确证上游就坏）。
+**在此之前，好几条只能写「判不了」。** 这条值得写进 `PROSE-SPEC.md`。
+
+**闸门**：11 类绿；第十四类 ❌（`index.md` 未列这 93 页 + §7 预算，**拆子索引的事单独做**）；
+第十五类 ❌（**还剩 21 页骨架 —— 是进度**）。

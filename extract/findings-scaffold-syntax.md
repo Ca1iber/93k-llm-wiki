@@ -182,3 +182,43 @@ DTCP {"key"}, {"value"}
 **真正该改的可能是报的口径**：`--refresh-errors` / `--refresh-syntax` 跑完，
 **应当报告「我认出了哪些段、没认哪些、哪些因为太短被丢」**，让人逐条过。
 现在它只报「过期 N 处」，**N=0 时看起来像「全都对」，而其实可能是「什么都没认出来」**。
+
+### 顺带量到的另一处静默丢：**`ERR_MIN = 60` 丢掉了 33 处真材料**（2026-09-24）
+
+写页第三批时，四个 agent **各自独立**报同一件事：他们的页**没有「报错条件」节**，
+而原文**有** `## Errors` / `## Warnings` 段。追下去是 `objscaffold.ERR_MIN = 60` ——
+**短于 60 字符的报错段一律不收**。
+
+用对的入口（`objpack.sections_of()`，不是 `verbatim_sections()`）量全库：
+
+| | |
+|---|---|
+| 语料里命中 `Errors` / `Warnings` / `Limits` 的段 | **495 处** |
+| 其中 **< 60 字符、被挡掉** | **33 处** |
+
+被挡掉的**是实义内容**，不是空壳：
+
+| 字符 | 段 |
+|---|---|
+| 44 | `There are no errors except parameter checks.` |
+| 49 | `An error is generated if the argument is invalid.` |
+| 52 | `If a site is unavailable, PACT will issue a warning.` |
+| 53 | `An error is generated if spelling or syntax is wrong.` |
+| 59 | `No errors are generated if the given sets are out of range.` |
+
+> **⚠️ 我第一版量成了 0，也记在这里**：我用 `objpack.verbatim_sections()` 去数，
+> 而 `objscaffold.error_block()` 读的是 `objpack.sections_of()`（走 `sections.jsonl`）。
+> **两个函数的段集不一样**，于是「有 33 处」量成了「一处都没有」。
+> 又一次「**量之前先确认量的是不是同一个东西**」。
+
+**为什么这一类比语法节那几种更值得先修**：好几条是**否定式**——
+`No errors are generated if the given sets are out of range.`
+**丢掉它，页面就对这件事一个字不说**，读者会读成「文档没写」，
+而文档明确写了「**越界不报错**」。**这是把一个明确的否定变成了一片空白。**
+
+**还没改。** 修法有两条，取舍不同：
+① **降门槛**（或干脆去掉，靠已有的 `is_stub` 挡空壳）—— 优点是 33 处立刻回来；
+   缺点是**改的是全库 229 页的报错节**，要重刷、要重新验第十二类。
+② **不降门槛，但让报告说出被丢了什么** —— 优点是不动页面；
+   缺点是那 33 处**还是不在页面上**，只是从「静默」变成「记在案」。
+**两条可以都做，但顺序要人定。**

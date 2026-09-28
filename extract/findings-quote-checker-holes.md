@@ -53,3 +53,51 @@ cd F:\master-dev\understand-anything-wiki
 python -X utf8 extract/verify_stages.py | grep -A 2 'hardware-bin-summary-tab.md'
 ```
 修前该页报「对不上的 1 处」；修后「对不上的 0 处」。
+
+---
+
+## 第二个洞（2026-09-24 补）：**含中文的引文块，第七类一个都不看**
+
+发现方式：写 `vpin` 页的 agent **自查时抓到一处真错**，而它**不在第七类的报告里**——
+追下去发现：那个 `>` 块里夹了中文，而第七类的判据**只收不含 CJK 的块**（§13.1 第八次记的）。
+错的是：把 `An error occurs if:` 与下面那条带 `- ` 列表符的行**合成了一句引文**，
+**丢了列表符**（§11.1「丢了字符就算错」）。
+
+### 有多大
+
+```bash
+cd F:\master-dev\understand-anything-wiki
+python -X utf8 - <<'PY'
+import pathlib, re
+CJK = re.compile(r'[\u4e00-\u9fff]')
+tot = skip = 0
+for p in pathlib.Path('wiki').rglob('*.md'):
+    if p.name in ('index.md', 'log.md') or p.name.startswith('index-'):
+        continue
+    t = p.read_text(encoding='utf-8')
+    for blk in re.findall(r'(?:^>.*\n?)+', t, re.M):
+        tot += 1
+        if CJK.search(blk):
+            skip += 1
+print(tot, skip, f'{skip/tot:.1%}')
+PY
+```
+
+实测 **5,129 个 `>` 引文块，其中 1,418 个（27.6%）含中文、一律不被检查。**
+
+### 为什么这个洞比上一个严重
+
+上一个（80% 覆盖率）影响的是**边界情形**；这一个影响的是**四分之一以上的引文**，
+而且**这工程的页面本来就是中文写的**——引文常常写成
+「> 原文写着 `An error occurs if:` —— 然后……」这种中英混排。
+**混排越自然，越不在检查范围内。**
+
+与 §13.1 第八次同源（那次是「只收不含 CJK 的块」被当成一条小限制记下来的），
+**但那次没人量过它盖掉了多少**。量了才知道是 27.6%。
+
+### 处置
+
+**判据一个字没改。** 改它要想清楚：CJK 块里哪部分是引文、哪部分是作者的话，
+**机器分不出来**（这正是当初把它排除的理由）。要收，得先有一个**标记引文边界**的写法
+（例如规定引文必须独立成块、作者的话不许与引文同段）。
+**在那之前，这 1,418 块只有靠写页的人自查。**
