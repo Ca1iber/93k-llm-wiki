@@ -48,6 +48,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 sys.path.insert(0, str(Path(__file__).parent))
 import objscaffold as os_
+import subindex
 
 HEAD = os_.HEAD
 
@@ -119,7 +120,15 @@ def main(strict=False):
     fresh, stale, missing = [], [], []
     err_stale, err_unmarked = [], []
     unmarked, prose = [], []          # 见文件头那张表
+    skipped_sub = []                  # §7 的子索引：不是骨架页，本类不管它
     for r in rows:
+        if r['slug'] in subindex.STEMS:
+            # **子索引不是 `objscaffold.py` 出的骨架**，没有也不该有语法节。
+            # 它登记在 `extract/subindex.py`（**具名，不按 `index-` 前缀**——
+            # 按模式豁免等于让「新加一个子索引」自动获得豁免，那是个洞）。
+            # **跳过了必须报出来**，否则「没查」和「查了没问题」长得一样。
+            skipped_sub.append(r['slug'])
+            continue
         p = os_.WIKI / os_.DIRS[r['type']] / f"{r['slug']}.md"
         if not p.exists():
             missing.append(r['slug'])
@@ -154,7 +163,7 @@ def main(strict=False):
     # `verify_stages.py` 第十二类那行原来硬编码「12 个已建页」，
     # 建到 28 页时它就成了一句假话——**报告里最危险的不是红，是过期的绿。**
     LAST.update({'fresh': fresh, 'stale': stale, 'missing': missing,
-                 'unmarked': unmarked, 'prose': prose,
+                 'unmarked': unmarked, 'prose': prose, 'skipped_sub': skipped_sub,
                  'err_stale': err_stale, 'err_unmarked': err_unmarked})
     print(f'已建页 {len(fresh) + len(stale) + len(unmarked) + len(prose)} 个：'
           f'一致 {len(fresh)}，**过期 {len(stale)}**，'
@@ -163,7 +172,10 @@ def main(strict=False):
           f'{"：" + "、".join(prose[:6]) + "…" if prose else ""}')
     for s, a, b in stale:
         print(f'  ❌ {s}  页面 {a:,} 字符 vs 抽取器 {b:,} 字符（{b - a:+,}）')
-    print(f'报错节：过期 {len(err_stale)}，该有却没有 {len(err_unmarked)}')
+    # **跳过要报出来**：不报的话，「本类没查它」和「本类查了没问题」长得一样。
+    _skip = (f'；**跳过 {len(skipped_sub)} 个已登记的子索引**'
+             f'（{"、".join(skipped_sub)}，它们不是骨架页）' if skipped_sub else '')
+    print(f'报错节：过期 {len(err_stale)}，该有却没有 {len(err_unmarked)}{_skip}')
     for s, a, b in err_stale:
         print(f'  ❌ [报错节] {s}  页面 {a:,} vs 抽取器 {b:,}')
     for s in err_unmarked:

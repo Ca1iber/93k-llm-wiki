@@ -207,6 +207,7 @@
 | `objects/hw-pin-state.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/hw-state.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/hwty.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `objects/index-objects.md` | ✅ | ✅ | ✅ | — 豁免 | — 豁免 | ✅ | ✅ | ✅ |
 | `objects/integrated-result-tool.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/jrst.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `objects/jscf.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -534,6 +535,7 @@
 | `versions/tp360-3.9.0.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `versions/tp360-7.2.2.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `versions/tp360-7.3.2.md` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+    - ℹ️ `objects/index-objects.md`：`sources` / `related` **豁免**（§7 子索引）。**逐批手写**（钩子直接写在条目里；`index_rebuild.py` 的 `OBJ_HOOK` 只是2026-09-18 那一次迁移的输入，**那份脚本已跑完、不要重跑**）——**没有渲染器，所以做不到逐字节对账**；替换判据 = **第十四类甲：子索引列出的页 ↔ 目录里的页互为子集**
     - ℹ️ `versions/index-versions.md`：`sources` / `related` **豁免**（§7 子索引）。由 `extract/versions.py` 的 `render_index()` 生成；替换判据 = **与它的产出逐字节一致**（第十三类甲之二）
 
 | 页 | `type` | 目录对不对 | `layer` | `stage` |
@@ -705,6 +707,7 @@
 | `objects/hw-pin-state.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/hw-state.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/hwty.md` | ✅ | ✅ | ✅ | ✅ |
+| `objects/index-objects.md` | ✅ | ✅ | ✅ | — 豁免 |
 | `objects/integrated-result-tool.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/jrst.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/jscf.md` | ✅ | ✅ | ✅ | ✅ |
@@ -889,7 +892,7 @@
 | `objects/xps256-pmu-operating-mode.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/xps256-programming-dps-operating-mode.md` | ✅ | ✅ | ✅ | ✅ |
 | `objects/xps256-status-flags.md` | ✅ | ✅ | ✅ | ✅ |
-| `versions/index-versions.md` | ✅ | ✅ | — 未带 | — 未带 |
+| `versions/index-versions.md` | ✅ | ✅ | — 未带 | — 豁免 |
 | `versions/mtp-2.4.0.md` | ✅ | ✅ | — 未带 | — 未带 |
 | `versions/mtp-2.4.2.md` | ✅ | ✅ | — 未带 | — 未带 |
 | `versions/mtp-2.6.5.md` | ✅ | ✅ | — 未带 | — 未带 |
@@ -1057,7 +1060,7 @@
 
 阶段页合计 677 条来源路径。
 
-### 第三类续 · `stages/` 以外 494 页
+### 第三类续 · `stages/` 以外 495 页
 
 - ✅ `concepts/command-reference.md` — 1 条来源
 - ✅ `concepts/context-pins.md` — 1 条来源
@@ -1226,6 +1229,7 @@
 - ✅ `objects/hw-pin-state.md` — 1 条来源
 - ✅ `objects/hw-state.md` — 1 条来源
 - ✅ `objects/hwty.md` — 1 条来源
+- ✅ `objects/index-objects.md` — 0 条来源
 - ✅ `objects/integrated-result-tool.md` — 1 条来源
 - ✅ `objects/jrst.md` — 1 条来源
 - ✅ `objects/jscf.md` — 1 条来源
@@ -1733,9 +1737,9 @@
 
 ## 第七类 · 引文是否逐字（**抓编引文**）
 
-> **范围：`wiki/` 下**除 `log.md` / `index.md` 和 §7 的子索引（`index-*.md`）**外的全部页面**——本次跳过 **3 个元文件**，逐个列在下面（本类曾只走九页，见下）。判据是「引用块能在 9,398 篇里找到完全子串」，不是「读起来像」。
+> **范围：`wiki/` 下**除 `log.md` / `index.md` 和 §7 的子索引（`index-*.md`）**外的全部页面**——本次跳过 **4 个元文件**，逐个列在下面（本类曾只走九页，见下）。判据是「引用块能在 9,398 篇里找到完全子串」，不是「读起来像」。
 
-> 跳过的：`index.md`、`log.md`、`versions/index-versions.md`。**这是全部**——排除必须报出来，不许静默缩小范围。
+> 跳过的：`index.md`、`log.md`、`objects/index-objects.md`、`versions/index-versions.md`。**这是全部**——排除必须报出来，不许静默缩小范围。
 
 - ✅ `concepts/command-reference.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `concepts/context-pins.md` — 引用块/代码块 5 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
@@ -2338,8 +2342,8 @@
 
 ## 第八类 · 链接目标可达（**抓断链；排除项是名字白名单两项，行内代码跨度里的 wikilink 照样算**）
 
-- 内容页共 **504** 页，引用 **520** 个目标，其中 **16** 个找不到对应页。
-- 口径指纹：内容页 504 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = a433f4cc0251`。
+- 内容页共 **505** 页，引用 **521** 个目标，其中 **16** 个找不到对应页。
+- 口径指纹：内容页 505 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 59621b02c06d`。
 
 > **这不是页面的缺陷，是建页 backlog。** 它列的是**脊椎已经要求**的页——
 > 比按 `in_src` 排的「125 个高入度对象」更有用：那些只是"语料里常出现"，
@@ -2368,9 +2372,9 @@
 
 ## 第九类 · 命名合规（**schema §5**）
 
-- **乙 · 文件名本身**：**505 个文件**逐个验过，**0 个不合 §5**。
-- **丙 · stem 唯一**：505 个文件占 **505 个 stem**，**0 个撞名**。
-- **甲 · 链接目标**：内容页引用 **7491** 处，其中 **0 个目标不合 §5**。
+- **乙 · 文件名本身**：**506 个文件**逐个验过，**0 个不合 §5**。
+- **丙 · stem 唯一**：506 个文件占 **506 个 stem**，**0 个撞名**。
+- **甲 · 链接目标**：内容页引用 **7586** 处，其中 **0 个目标不合 §5**。
 - ⚠️ **语法节整段不参与链接检查**：**322 页**有脚本写的语法节，已整段切掉（`add-limit`、`alias-set-editor`、`alphabetical-list-of-flags`、`analysis-views`、`apg-pattern-file`、`apg-program-file`、`aprm`、`assign-value-node`…）。
   **理由**：那一段是 §4 规定**脚本写、LLM 一个字不许改**的逐字原文，它由**第十二类**用更硬的口径管（页面 ↔ 脚本逐字节一致）。实测 `concepts/command-reference.md` 的语法节里抄着 pattern master file 的格式，而**那个格式自己就用 `[[path: …]]`**——不切，甲就会报一个名叫 `path:` 的「下划线分隔」违规，**而那是假红**。
 
@@ -2556,7 +2560,7 @@
 | `objects/wfds.md` | WFDS, WFDS? - (WaveForm Definition Strin | `L1` | timing=L1 | ✅ |
 | `objects/wsus.md` | WSUS, WSUS? - (Waveform Sets USed) | `L1` | timing=L1 | ✅ |
 
-- ℹ️ 200 页的层**没有第二处可以对照**（表格里没有它）——这不是错，是「**这层只有页自己说了算，机器无从复核**」：
+- ℹ️ 201 页的层**没有第二处可以对照**（表格里没有它）——这不是错，是「**这层只有页自己说了算，机器无从复核**」：
     - `concepts/command-reference.md` — `layer: n/a`
     - `concepts/controlling-multiple-sites.md` — `layer: n/a`
     - `concepts/dc-test-programming.md` — `layer: n/a`
@@ -2663,6 +2667,7 @@
     - `objects/hw-pin-state.md` — `layer: L2`
     - `objects/hw-state.md` — `layer: L2`
     - `objects/hwty.md` — `layer: L1`
+    - `objects/index-objects.md` — `layer: n/a`
     - `objects/jrst.md` — `layer: L1`
     - `objects/jscf.md` — `layer: L1`
     - `objects/jsdf.md` — `layer: L1`
@@ -2785,7 +2790,7 @@
 | `概念` | `concepts/` | 33 | 35 | ✅ 无 | ✅ 无 | `cross-card-ganging-requires-ddic`, `utility-line-assignments` |
 | `约束` | `constraints/` | 14 | 14 | ✅ 无 | ✅ 无 | — |
 | `映射` | `mappings/` | 9 | 9 | ✅ 无 | ✅ 无 | — |
-| `对象` | `objects/` | 289 | 205 | ❌ `add-limit`, `begin-extension`, `built-in-functions`, `bwdf`, `bwds`, `cct-change-level-spec`, `chin`, `clkr`, `clmp`, `data-logging-profile-api`, `dcdt`, `debug-perspective`, `debug-view`, `device-summary-tab`, `dfpc`, `dfpr`, `dfup`, `dfut`, `dprl`, `dprt`, `drlv`, `dsus`, `edsp`, `end-extension`, `etds`, `etim`, `gctx`, `get-utility-lines`, `ground-sense-editor`, `group-node`, `hardware-bin-summary-tab`, `hardware-view`, `hw-pin-state`, `hw-state`, `hwty`, `jrst`, `level-set-selector`, `lot-summary-generator`, `lsus`, `lsux`, `match-loops`, `mscf`, `msdf`, `pact`, `pclk`, `pdiv`, `pfnd`, `pin-property-monitor`, `play-pattern`, `prlt`, `pslv`, `pssl`, `pssr`, `rclv`, `result-configuration`, `rset`, `set-utility-lines`, `setup-level-set-0`, `shared-continuity-test`, `sharing-configuration`, `sldo`, `smartest-data-formatter`, `smartshell`, `stme`, `strs`, `table-filter`, `term`, `testset-testname`, `timing-set-selector`, `tsus`, `tsux`, `udef`, `udgp`, `udpr`, `udps`, `udpt`, `udup`, `udut`, `udvp`, `upas`, `vclk`, `vdcg`, `vec-events`, `vpin`, `vtim`, `vwfg`, `vwfs`, `wafer-summary-tab`, `wave`, `waveform-mapping`, `waveform-view`, `wfds`, `wsus` | ✅ 无 | `dut-interface-layout`, `hv-protection`, `inter-layer-via-design`, `pogo-block-compatibility`, `setting-up-a-shmoo-test-with-the-shmoo-tool`, `setting-up-dc-scale-pins-with-smartrdi`, `smartrdi-tmu-test-setup`, `test-number-generator-and-tmlimits`, `utility-lines` |
+| `对象` | `objects/` | 289 | 298 | ✅ 无 | ✅ 无 | `dut-interface-layout`, `hv-protection`, `inter-layer-via-design`, `pogo-block-compatibility`, `setting-up-a-shmoo-test-with-the-shmoo-tool`, `setting-up-dc-scale-pins-with-smartrdi`, `smartrdi-tmu-test-setup`, `test-number-generator-and-tmlimits`, `utility-lines` |
 | `排错` | `errors/` | 6 | 6 | ✅ 无 | ✅ 无 | — |
 
 > **本类不查 `版本` 节**：它不逐页列出——`index.md` 只带一行指针 `[[index-versions]]`，那 143 个文件由**第十三类**管（与 `versions.render()` 逐字节一致 + 条目逐字回 raw）。**被接管的范围要报出来，不然它和「没人管」长得一样。**
@@ -2800,7 +2805,7 @@
 | `概念` | 33 | 33 | ✅ |
 | `约束` | 14 | 14 | ✅ |
 | `映射` | 9 | 9 | ✅ |
-| `对象` | 196 | 289 | ❌ |
+| `对象` | 289 | 289 | ✅ |
 | `排错` | 6 | 6 | ✅ |
 | `已知缺口` | 5 | 5 | ✅ |
 
@@ -2810,7 +2815,7 @@
 |---|---|---|---|
 | 已知缺口（N 条） | `5` | `5` | ✅ |
 | 阶段（脊椎，N） | `9` | `9` | ✅ |
-| （脊椎 N / 概念 N / 约束 N / 对象 N / 排错 N / 映射 N） | `(9, 33, 14, 196, 6, 9)` | `(9, 33, 14, 289, 6, 9)` | ❌ |
+| （脊椎 N / 概念 N / 约束 N / 对象 N / 排错 N / 映射 N） | `(9, 33, 14, 289, 6, 9)` | `(9, 33, 14, 289, 6, 9)` | ✅ |
 
 > **登记了 3 条散文声明，本次找到 3 条、全部找到。****「没找到」不判错**（散文会被改写），**但必须印出来**——否则改一次措辞，这条声明就**静默地不再被检查**，而报告照样全绿。
 > 没登记进表的散文数字**本类一概不管**：`index.md` 里还有很多「N 页」「N 个」的说法，**它们没有检查**。这一条只覆盖登记在 `IDX_PROSE_CLAIMS` 里的那些。
@@ -2830,11 +2835,10 @@
 
 | 编码器 | 实测 | 页面自己写的 | 对 25,000 |
 |---|---|---|---|
-| `cl100k_base` | 23,216 | 23216 | +1,784 |
-| `o200k_base` | 20,015 | 20015 | +4,985 |
+| `cl100k_base` | 9,060 | 9060 | +15,940 |
+| `o200k_base` | 7,690 | 7690 | +17,310 |
 
-**取大的那个当上界：`cl100k_base` = 23,216，余 1,784。**
-⚠️ **已越过 §7 的触发线 22,000**（现值 23,216，超 1,216）——§7 说的是「**必须回来重定**」。**这不是红**（越线不是错），**但在没重定之前，它一直挂在这里**——不印就等于把它变成「先放着」。
+**取大的那个当上界：`cl100k_base` = 9,060，余 15,940。**
 
 > **这是代理，不是本体**：`tiktoken` 是 OpenAI 的编码器，读这份文件的是 Claude，
 > **两家的切分不同**。所以它的用法是「**能证伪『超了』，不能证明『离得远』**」——**那正是这条检查要的**（它只判超没超）。
@@ -2850,28 +2854,16 @@
 ### 庚 · 页面里的「N 字节，M 行」对得上 raw 吗
 
 - 页里「N 字节…」形态 **405** 条；**认到 TDC 号、真被比过** **246** 条；**够不着、没比的 159 条**。
-- 比过的里面带行数的 **98** 条。
-- 字节：✅ 对得上文件实际大小的 **182**；**口径不同但页面写明了**的 **1**（不算错）；**值错的 4**。
-- 行数：错 **6 / 98**（真值取 `wc -l`）。
+- 比过的里面带行数的 **96** 条。
+- 字节：✅ 对得上文件实际大小的 **186**；**口径不同但页面写明了**的 **1**（不算错）；**值错的 0**。
+- 行数：错 **0 / 96**（真值取 `wc -l`）。
   - ⚪ `wiki/objects/eqfs.md`：1,493 = **剥掉 frontmatter 后**（页面写明了，**不算错**）
-  - ❌ `wiki/objects/chin.md` `98502_2.htm`：页称 11,096，实际 4,128——**哪个口径都对不上**
-  - ❌ `wiki/objects/sharing-configuration.md` `131630.htm`：页称 12,861，实际 5,043——**哪个口径都对不上**
-  - ❌ `wiki/objects/udef.md` `98821_2.htm`：页称 3,270，实际 1,210——**哪个口径都对不上**
-  - ❌ `wiki/objects/udps.md` `98823_2.htm`：页称 3,060，实际 1,208——**哪个口径都对不上**
-  - ❌ `wiki/objects/begin-extension.md` `28740.htm`：页称 119 行，`wc -l` = 118
-  - ❌ `wiki/objects/end-extension.md` `29303.htm`：页称 35 行，`wc -l` = 34
-  - ❌ `wiki/objects/setup-level-set-0.md` `121827.htm`：页称 228 行，`wc -l` = 284
-  - ❌ `wiki/objects/sharing-configuration.md` `131630.htm`：页称 28 行，`wc -l` = 73
-  - ❌ `wiki/objects/testset-testname.md` `127794.htm`：页称 70 行，`wc -l` = 69
-  - ❌ `wiki/objects/vec-events.md` `116944.htm`：页称 228 行，`wc -l` = 227
 
 > **为什么这一条要单独有一节。** 它和「引文逐字」是同一类东西：**可机械复核的断言**。
 > 2026-09-20 那批页里出过 **6 处「两篇互为出边」全错**，教训写成了「**能核而不核的，迟早是假的**」——
 > 字节和行数和边数一样**就在那儿、一数就知道**，而它此前**一处检查都没有**。
 > **两条已知限界**（不藏着）：① 只认「附近有 TDC 号」的写法，**159 条够不着**（文档写成纯路径的认不出）；
 > ② 它**不改**页面——改法是 `python -X utf8 extract/fix_doc_stats.py --write`。
-
-**修法**：把 `index.md` 里的数字改成实际值，或者把标记补上／删掉多余的；`wiki-plan.csv` 的 status/缺行跑 `python -X utf8 extract/plan_sync.py --write`；「字节/行数」跑 `python -X utf8 extract/fix_doc_stats.py --write`。**不许反过来改判据去迁就页面**——这些数字的意义就是「和实际一致」。
 
 ## 第十五类 · 散文有没有真的写（**骨架占位符**）
 
@@ -2911,10 +2903,10 @@
 | 第十一类 层断言一致性 | ✅ 通过 |
 | 第十二类 语法节新鲜度 | ✅ 通过 |
 | 第十三类 版本页新鲜度 | ✅ 通过 |
-| 第十四类 自我声明 | ❌ 未通过 |
+| 第十四类 自我声明 | ✅ 通过 |
 | 第十五类 散文已写（无骨架占位符） | ✅ 通过 |
 
-**第六类的 ❌ 是怎么灭的（2026-09-18）**：建了 **351 个 `stage` 之外的页**，由各页 frontmatter 的 `sources:` 把候选逐个认领。
+**第六类的 ❌ 是怎么灭的（2026-09-18）**：建了 **352 个 `stage` 之外的页**，由各页 frontmatter 的 `sources:` 把候选逐个认领。
 （另有 **143 个文件在 `wiki/versions/`**——142 个版本页 + 一个目录页。它们的 `sources:` 意思是「这篇文档里有一条这个版本的变更记录」，**不是「本页讲的是它」**，所以**不参与第六类**，见 `MECH_TYPES`。）
 **这一条不用再盯了**——但注意它**只证明「每个高入度候选都有归宿」，不证明「当归宿的那页写得对」**。
 

@@ -155,7 +155,7 @@ See the Examples section of `BEGIN_EXTENSION`（raw: `02.07.04.01.10_BEGIN_EXTEN
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.59_END_EXTENSION.md`
-（TDC `29303.htm`，35 行 / 941 字节）。**整篇读完——它全文就是本页上面引的那几句。**
+（TDC `29303.htm`，34 行 / 941 字节）。**整篇读完——它全文就是本页上面引的那几句。**
 
 **本页没做的：**
 

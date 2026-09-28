@@ -157,13 +157,25 @@ def scan(wiki=None):
             tdc = m.group(1)
             b = int(m.group(2).replace(',', '')) if m.group(2) else None
             nl_raw = m.group(3) or m.group(4)          # 带字节的走 (3)，只写行数的走 (4)
+            # ★ **「第 N 行」是「指到某一行」，不是「一共 N 行」。**
+            # 实测两条：`setup-level-set-0` 写「上游核过 `121827.htm` 第 228 行」（文件 284 行）、
+            # `sharing-configuration` 写「`131630.htm` 第 28 行」（文件 73 行）——
+            # 两条都是**行号引用**，而正则把它们当成了行数声明，报成 `n-56` / `n-45`。
+            # **判据要把「第」认出来**，否则每写一次行号就多一条假红。
+            if nl_raw and m.group(4) and text[max(0, m.start(4) - 3):m.start(4)].count('第'):
+                nl_raw = None
             n = int(nl_raw.replace(',', '')) if nl_raw else None
             # **同一个号，md 和上游 `.htm` 是两篇东西。**
             # 页面写「其上游 `...\tdc-html\raw\130563.htm`（10,418 字节）」时量的是 HTML，
             # 而 `130563` 在语料里**也有一篇 md**——**不按路径分辨就会把它判成错**。
             # （实测：7 条「上游」断言全对，是检查器自己配错了对。）
             pre = text[max(0, m.start() - 80):m.start()]
-            upstream = ('raw\\' in pre or 'raw/' in pre)
+            # **「上游」也要算。** 判据原先只认路径里出现 `raw\` / `raw/`，
+            # 而页面更常写的是中文的「回上游核过 `131630.htm`（12,861 字节）」——
+            # 那种写法下检查器**把它配成了 md**，于是 4 条本来正确的
+            # 「上游 htm 尺寸」全被报成 ❌（实测就是这 4 条）。
+            # **一处声称 X 的地方落在判据之外，报出来的就是假红。**
+            upstream = ('raw\\' in pre or 'raw/' in pre or '上游' in pre)
             rels = idx.get(tdc)
             if len(rels or ()) > 1 and not upstream:
                 dup.append((page, tdc, len(rels)))
@@ -188,6 +200,12 @@ def scan(wiki=None):
                          'tdc': tdc,
                          'b_claim': b, 'b_true': b2, 'var': var, 'named': named,
                          'upstream': upstream, 'pre': ' '.join(pre.split())[-60:],
+                         # ★ **`rel` 原先没放进行字典**，而下面两处 ❌ 明细要印它
+                         # （「← 对的是 …」）——于是**一旦真有不符的，脚本就
+                         # `KeyError: 'rel'` 崩在打印那一步**：
+                         # 报不出来 ≠ 没问题，而报告里看不出区别。
+                         # **改页面的替换串必须拿 `hit_raw`，别拿 `hit`**（上面那句注释）。
+                         'rel': rel,
                          'n_claim': n, 'wc': nl, 'sl': sl,
                          # **两份**：`hit` 是给人看的（空白归一，日志里一行放得下），
                          # `hit_raw` 是**原样的**——改页面必须拿这一份去替换。

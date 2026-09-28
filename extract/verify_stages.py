@@ -237,12 +237,35 @@ IDX_PAGES = {
     'versions/index-versions.md':
         '由 `extract/versions.py` 的 `render_index()` 生成；'
         '替换判据 = **与它的产出逐字节一致**（第十三类甲之二）',
+
+    # 2026-09-28：第二例。根 `index.md` 撑爆 §7 预算（23,216 / 25,000，而 93 页新对象
+    # 要 +5,000），于是按 §7 把 `## 对象` 那一节拆出来。
+    #
+    # **它和 `versions/` 那份有一处重要不同，照实写在这里**：
+    # `versions/index-versions.md` 能「与产出逐字节一致」，是因为 `versions.py` 会
+    # **渲染整份**。这一份渲染不了 —— 已有 196 条的钩子是**逐批手写、直接写在
+    # `index.md` 正文里的**（多行、带加粗），**不在任何表里**；`index_rebuild.py`
+    # 的 `OBJ_HOOK` 只有**新批次**那 93 条。所以逐字节对账**做不到**。
+    #
+    # 接替它的判据是**第十四类甲**：**子索引里列出的页 ↔ `wiki/objects/` 里的页，
+    # 互为子集**（这就是 §7 要「每次 ingest 后更新」的那条，只是清单搬了个家）。
+    # `sources` 空着是实情（机器汇编的清单没有对应 raw 文档）；`stage` 空着同理 ——
+    # **子索引不是对象，它覆盖全部九段**，填任何一段都是编。
+    'objects/index-objects.md':
+        '**逐批手写**（钩子直接写在条目里；`index_rebuild.py` 的 `OBJ_HOOK` 只是'
+        '2026-09-18 那一次迁移的输入，**那份脚本已跑完、不要重跑**）——'
+        '**没有渲染器，所以做不到逐字节对账**；'
+        '替换判据 = **第十四类甲：子索引列出的页 ↔ 目录里的页互为子集**',
 }
+
+# `IDX_PAGES` 里的子索引还豁免 `stage`：它不是对象，覆盖全部九段。
+# `layer` 不豁免 —— `n/a` 本来就是合法值，填得出实话就不该走豁免。
+_IDX_EXEMPT_KEYS = ('sources', 'related', 'stage')
 
 
 def _idx_exempt(rel, k):
     """这一页的这个字段是不是被登记的豁免。返回豁免说明，或 `None`。"""
-    if k in ('sources', 'related') and rel in IDX_PAGES:
+    if k in _IDX_EXEMPT_KEYS and rel in IDX_PAGES:
         return IDX_PAGES[rel]
     return None
 
@@ -311,7 +334,12 @@ def cat2b_other():
         want_dir = TYPES.get(fm.get('type'), '（未知类型）')
         dir_ok = (want_dir == p.parent.name)
         cells = []
+        _rel = f'{p.parent.name}/{p.name}'
         for k in ('layer', 'stage'):
+            if _idx_exempt(_rel, k):
+                # 登记过的子索引：`stage` 豁免，**印出来，不静默**。
+                cells.append('— 豁免')
+                continue
             if k not in fm:
                 # 缺不缺**分类型判**：`object`/`constraint`/`mapping` 缺了就是错，
                 # 其余类型这里只记「没带」——**别把「没要求」写成 ❌**。
@@ -1774,6 +1802,28 @@ IDX_SECTIONS = [
     ('映射', 'mappings'), ('对象', 'objects'), ('排错', 'errors'),
 ]
 
+# ── 拆出去的子索引（§7「**撑爆了才拆**」，2026-09-28 第一例非 `versions` 的）──
+#
+# `## 对象` 那一节已从根 `index.md` 搬到 `wiki/objects/index-objects.md`。
+# **拆的判据是预算，不是整齐**：根索引当时 23,216 token、只剩 1,784 余量，
+# 而 93 页新对象要 +5,000，**必超 §7 的 25,000**。§7 对这一刻的规定就是
+# 「按类型拆子索引：叫 `index-<类型>.md`、放在那个类型的目录里、根索引只留一行指针」。
+#
+# 有了这张表之后，甲 的「节里列了」= **根索引那一节的链接 ∪ 子索引里的链接**；
+# 而**子索引文件自己不算一个对象页**，要从「目录里有」里扣掉——
+# 不扣的话它会立刻报「`index-objects` 漏列」，而那正是 §5 说的
+# 「`index` 这个 stem 会被所有按 stem 建的集合当成同一个文件」的近亲。
+IDX_SUBINDEX = {'对象': 'objects/index-objects.md'}
+
+# 两边必须一致：**「哪些 stem 是子索引」只有一份**（`extract/subindex.py`），
+# 这里只放「哪一节拆给了哪份」。不一致就当场炸，不留到以后再发现。
+import subindex as _subidx                                          # noqa: E402
+assert {Path(k).stem for k in IDX_PAGES} <= _subidx.STEMS, (
+    'IDX_PAGES 里登记的子索引没有进 subindex.STEMS：'
+    f'{sorted({Path(k).stem for k in IDX_PAGES} - set(_subidx.STEMS))}')
+assert {Path(v).stem for v in IDX_SUBINDEX.values()} <= _subidx.STEMS, (
+    'IDX_SUBINDEX 指向的文件不在 subindex.STEMS 里')
+
 # 数字声明靠**标记**读，不靠正则猜散文。
 #
 # `<!-- index-count: 概念 = 8 -->`，写在它描述的那一节里。
@@ -1868,7 +1918,13 @@ def cat14_index_claims():
     for chunk in parts[1:]:
         name = chunk.split('\n', 1)[0].strip()
         secs[name] = chunk
-    have_dirs = {d: sorted((WIKI / d).glob('*.md')) for _, d in IDX_SECTIONS}
+    # **子索引不算「这个类型的一页」**，所以**在这一处扣掉，不要各处各扣一遍**：
+    # 甲（清单 ↔ 目录）、乙（`index-count` 标记）、丙（散文数字）读的都是它，
+    # 三处各扣一次就会漂成三个数 —— 实测拆完当场就是「甲 289、乙/丙 290」，
+    # **同一件事两个数**，而这正是本工程反复抓的那个形状。
+    _substems = {Path(v).stem for v in IDX_SUBINDEX.values()}
+    have_dirs = {d: sorted(p for p in (WIKI / d).glob('*.md') if p.stem not in _substems)
+                 for _, d in IDX_SECTIONS}
     allstems = {p.stem for p in WIKI.rglob('*.md')}
 
     # ---- 甲 · 漏列 ----
@@ -1887,8 +1943,16 @@ def cat14_index_claims():
             w(f'| `{name}` | `{d}/` | — | — | ❌ **整节不见了** | — |')
             ok = False
             continue
+        sub = IDX_SUBINDEX.get(name)
         listed = set(_links(sec))
-        files = {p.stem for p in have_dirs[d]}
+        if sub:
+            # 拆出去的那一节：清单在子索引里，**不在根索引里**。
+            listed |= set(_links((WIKI / sub).read_text(encoding='utf-8')))
+        files = {p.stem for p in have_dirs[d]}      # 子索引已在 `have_dirs` 里统一扣掉
+        if sub:
+            # 那一行**指针**不是「列出的一页」，也从 `listed` 里扣掉。
+            # 只扣一边等于没扣：实测「节里列了」会多 1（`对象 | 289 | 290 | ❌`）。
+            listed.discard(Path(sub).stem)
         missing = sorted(files - listed)
         ghost = sorted(t for t in listed if t not in allstems)
         # **「多出来的」不是罪，但必须点名。** 节里除了本类的页，还会交叉引用别的类的页

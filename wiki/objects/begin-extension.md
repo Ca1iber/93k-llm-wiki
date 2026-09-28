@@ -319,7 +319,7 @@ nest 信息被自动初始化 + report window 里出现 warning**。**注意「w
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.10_BEGIN_EXTENSION.md`
-（TDC `28740.htm`，119 行 / 3,911 字节）。**整篇读完。**
+（TDC `28740.htm`，118 行 / 3,911 字节）。**整篇读完。**
 
 **本页没做的：**
 
