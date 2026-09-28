@@ -270,9 +270,16 @@ def refresh(row):
     # 兜底不能指望运气，所以**由写页面的脚本自己存**，不靠人想起来。
     import snapshot as _snap                     # 同目录，见 extract/snapshot.py
     box = _snap.save(quiet=True)
-    old = len(text) - len(new)
+    # ★ **符号必须是「改后 − 改前」**，`{:+}` 打出来才和左边那个箭头同向。
+    #
+    # 原来写的是 `len(text) - len(new)`（改前 − 改后），于是**页面变长时它是负数**，
+    # 印出来是「`115,885 → 138,305` 字符，`-22,420`」——**箭头说长了 22,420，
+    # 数字说少了 22,420**，同一行里自己打自己的脸。
+    # 2026-09-24 建页时发现的，当时按 §1.2「不许顺手改旁边」只记进 log，没动；
+    # 2026-09-28 单独改。
+    delta = len(new) - len(text)
     p.write_text(new, encoding='utf-8')
-    print(f'🔄 {p.name}  语法节重刷（整页 {len(text):,} → {len(new):,} 字符，{old:+,}）')
+    print(f'🔄 {p.name}  语法节重刷（整页 {len(text):,} → {len(new):,} 字符，{delta:+,}）')
     print(f'   ↳ 改前已存快照 `{box}`（要撤：`python extract/snapshot.py --restore {box}`）'
           if box else '   ↳ 与最近一份快照逐字节相同，未另存')
 

@@ -2819,7 +2819,7 @@
 
 | 检查 | 判据 | 结果 |
 |---|---|---|
-| **丁** · `status` 和实际进度一致 | 表里每一行 | ❌ **21 行不符**：dfpc（写 `skeleton`，应是 `done`）、dprt（写 `skeleton`，应是 `done`）、edsp（写 `skeleton`，应是 `done`）、gctx（写 `skeleton`，应是 `done`）、hw-pin-state（写 `skeleton`，应是 `done`）、hw-state（写 `skeleton`，应是 `done`）… |
+| **丁** · `status` 和实际进度一致 | 表里每一行 | ✅ 一致 |
 | **戊** · 六个类型目录里每一页都在表里 | 目录 ↔ 表，双向 | ✅ 都有 |
 | （反向，**不判错**）表里有、页面还没有 | = 待建 | ℹ️ 0 行 |
 
