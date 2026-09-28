@@ -61,6 +61,16 @@ by-category/
     （`10<sup>-9</sup>` → `10-9`，与 A 类同一机制，A 类脚本的正则漏了带符号的）。
     证据表 `extract/findings-corpus-superscript-loss-evidence-signed.md`、
     清单 `extract/_assign_signed.json`、脚本 `extract/fix_corpus_superscript_signed.py`。
+  - **第四批（2026-09-28，已改完）**：**坏字（GBK 误读）第一批 —— 120 族，5,638 处 / 759 篇**。
+    **只改 `agent-markdown/`，`raw/` 一个字节没动**——这一族的上游 `.htm` 是干净的
+    （实测 605 篇里 602 篇干净、上游也坏的 0 篇），坏的是转换出来的 md（§1.2：哪一层错就改哪一层）。
+    判据：坏字 `encode('gbk')` 拿回原字节、再 `decode('utf-8')` = 原字，**且反向也成立**
+    （`µ` → UTF-8 `C2 B5` → GBK 读成 `碌`）。**不用猜**。
+    工具 `extract/fix_corpus_mojibake.py`、证据表 `extract/findings-corpus-mojibake-evidence.md`、
+    清单 `extract/_assign_mojibake.json`、映射表 `extract/encoding-map.csv`。
+    **验**：改完剩 0 处；759 篇新增/删除行数对称（3,638 / 3,638），没有整篇重写、换行未动。
+    **第二批（8 族 / 2,268 处）没修**——那些是「第三字节已丢」，只能给区间、**不许猜**；
+    试的锚点判据成功率只有 **40%**，不达标。见 `PLAN-未修清单.md` 的 A1。
   - **验法**：拿 `git show HEAD:` + 记录的偏移**重放**，60/60 篇逐字节一致；
     CRLF 计数改前改后相同；带上下文锚复检 **151 → 0**。
   - **这两个产物必须进版本库——2026-09-23 已进。** 2026-09-22 它们被**清空过一次**——
