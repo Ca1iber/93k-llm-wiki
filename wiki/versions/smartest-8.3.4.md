@@ -56,20 +56,20 @@ verified: doc-only
 - [DUT interface layout](<02_System_reference/02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md>) —— SmarTest 8.3.4: Alternate UTIL and DPS pogo block numbers for V93000 EXA Scale systems added.
 - [DUT Scale interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.03.02_DUT_Scale_interface.md>) —— SmarTest 7.6.0 / 8.3.4: Support of V93000 EXA Scale test heads.
 - [Utility line characteristics](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md>) —— SmarTest 8.3.4: Utility line characteristics for V93000 EXA Scale systems added
-- [Setting up sequencer control of utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md>) —— SmarTest 8.3.4: Support of sequencer鈥慶ontrolled utility lines on V93000 EXA Scale systems.
-- [Sequencer-controlled utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05_Sequencer-controlled_utility_lines.md>) —— SmarTest 8.3.4: Support of sequencer鈥慶ontrolled utility lines on V93000 EXA Scale systems.
+- [Setting up sequencer control of utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md>) —— SmarTest 8.3.4: Support of sequencer‑controlled utility lines on V93000 EXA Scale systems.
+- [Sequencer-controlled utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05_Sequencer-controlled_utility_lines.md>) —— SmarTest 8.3.4: Support of sequencer‑controlled utility lines on V93000 EXA Scale systems.
 - [Utility power supplies](<02_System_reference/02.03_DUT_board_design_reference/02.03.05_Utility_power_supplies.md>) —— SmarTest 8.3.4: Utility power supplies for V93000 EXA Scale systems added
-- [DPS128鈥?鈥奃PS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.5.4 / 8.3.4: Support of E8023PB and E8023PK VHD pogo cable assemblies
+- [DPS128鈥? DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.5.4 / 8.3.4: Support of E8023PB and E8023PK VHD pogo cable assemblies
 - [Pogo pin assignment - DC Scale cards](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02_Pogo_pin_assignment_-_DC_Scale_cards.md>) —— SmarTest 7.6.0 / 8.3.4: DC Scale XPS256 card added.
 - [Pogo pin assignment - Utility pogo blocks](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08_Pogo_pin_assignment_-_Utility_pogo_blocks.md>) —— SmarTest 8.3.4: Utility pogo pin layout for V93000 EXA Scale systems added
 - [Connecting DPS channels in parallel](<02_System_reference/02.03_DUT_board_design_reference/02.03.07.01.03_Connecting_DPS_channels_in_parallel.md>) —— SmarTest 7.10.1 / 8.3.4: DC Scale XPS256 card added.
 - [HV protection - Compliance range](<02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.02_HV_protection_-_Compliance_range.md>) —— SmarTest 7.6.0 / 8.3.4: DC Scale XPS256 card added.
 - [Wave Scale RF PCB layout and stiffener info for Direct-Probe](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.23_Wave_Scale_RF_PCB_layout_and_stiffener_info_for_Direct-Probe.md>) —— SmarTest 7.6.0 / 8.3.4: Drawing N2605-64170 updated from rev. E to rev. G
 - [DUT Scale interface](<02_System_reference/02.05_Test_Head_Cards/02.05.01.01.01_DUT_Scale_interface.md>) —— SmarTest 7.6.0 / 8.3.4: Support of V93000 EXA Scale test heads.
-- [DPS128鈥?鈥奃PS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.5.4 / 8.3.4: Support of E8023PB and E8023PK VHD pogo cable assemblies
+- [DPS128鈥? DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.5.4 / 8.3.4: Support of E8023PB and E8023PK VHD pogo cable assemblies
 - [DPS128 and DPS64 pogo cabling and model file configuration](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md>) —— SmarTest 7.5.4 / 8.3.4: Support of E8023PB and E8023PK VHD pogo cable assemblies
-- [Setting up sequencer control of utility lines](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.05_Setting_up_sequencer_control_of_utility_lines.md>) —— SmarTest 8.3.4: Support of sequencer鈥慶ontrolled utility lines on V93000 EXA Scale systems.
-- [Sequencer-controlled utility lines](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md>) —— SmarTest 8.3.4: Support of sequencer鈥慶ontrolled utility lines on V93000 EXA Scale systems.
+- [Setting up sequencer control of utility lines](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.05_Setting_up_sequencer_control_of_utility_lines.md>) —— SmarTest 8.3.4: Support of sequencer‑controlled utility lines on V93000 EXA Scale systems.
+- [Sequencer-controlled utility lines](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md>) —— SmarTest 8.3.4: Support of sequencer‑controlled utility lines on V93000 EXA Scale systems.
 
 
 ## 这一版新引入（24 条）
@@ -107,11 +107,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 41 条**，涉及 **41 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **4 处**「`鈥`」字样：`鈥慶`（4 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

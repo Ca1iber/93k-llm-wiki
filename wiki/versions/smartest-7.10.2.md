@@ -85,8 +85,8 @@ verified: doc-only
 - [Direct DMM high-accuracy voltage measurements via utility pogo block](<02_System_reference/02.07_Test_Method_Reference/02.07.03.02.03_Direct_DMM_high-accuracy_voltage_measurements_via_utility_pogo_block.md>) —— SmarTest 7.10.2: Support for EXA Scale test systems added.
 - [PPMU_PIN_CLAMP](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.154.01_PPMU_PIN_CLAMP.md>) —— SmarTest 7.10.2: New card Pin Scale 5000
 - [Continuity](<02_System_reference/02.07_Test_Method_Reference/02.07.05.02.01_Continuity.md>) —— SmarTest 7.10.2: Measurement Mode "Progload" no longer supported.
-- [GetUtilityLines](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.05_GetUtilityLines.md>) —— SmarTest 7.10.2: Maximum 512 utility lines and three鈥慸igit utility pogo block designator.
-- [SetUtilityLines](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.07_SetUtilityLines.md>) —— SmarTest 7.10.2: Maximum 512 utility lines and three鈥慸igit utility pogo block designator.
+- [GetUtilityLines](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.05_GetUtilityLines.md>) —— SmarTest 7.10.2: Maximum 512 utility lines and three‑digit utility pogo block designator.
+- [SetUtilityLines](<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.07_SetUtilityLines.md>) —— SmarTest 7.10.2: Maximum 512 utility lines and three‑digit utility pogo block designator.
 - [SmartRDI](<02_System_reference/02.07_Test_Method_Reference/02.07.13_SmartRDI.md>) —— SmarTest 7.10.2: Pin Scale 5000 card added.
 - [Comparing output signals](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.01.02.01_Comparing_output_signals.md>) —— SmarTest 7.10.2: New card PS5000 added
 - [Active load termination](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.01.03.01_Active_load_termination.md>) —— SmarTest 7.10.2: New card Pin Scale 5000
@@ -168,11 +168,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 102 条**，涉及 **98 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **2 处**「`鈥`」字样：`鈥慸`（2 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

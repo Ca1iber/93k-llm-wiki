@@ -83,10 +83,10 @@ verified: doc-only
 - [Utility lines (V93000 systems)](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.02.02_Utility_lines__V93000_systems.md>) —— SmarTest 7.1.0: Added A-test head
 - [Utility line characteristics](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md>) —— SmarTest 7.1.0: Support of A-test head
 - [Utility line control software](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.04_Utility_line_control_software.md>) —— SmarTest 7.1.0: Removed Standard Test Functions
-- [Utility line control software](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.04_Utility_line_control_software.md>) —— SmarTest 7.1.0: Introduced sequencer鈥慶ontrolled utility lines.
-- [Utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md>) —— SmarTest 7.1.0: Sequencer鈥慶ontrolled utility lines introduced
+- [Utility line control software](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.04_Utility_line_control_software.md>) —— SmarTest 7.1.0: Introduced sequencer‑controlled utility lines.
+- [Utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md>) —— SmarTest 7.1.0: Sequencer‑controlled utility lines introduced
 - [Internal Utility Power Supply (SE-UDPS) specifications](<02_System_reference/02.03_DUT_board_design_reference/02.03.05.07.01_Internal_Utility_Power_Supply__SE-UDPS__specifications.md>) —— SmarTest 7.1.0: Added A-test head
-- [Utility pogo block - CTH DUT Scale interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.05_Utility_pogo_block_-_CTH_DUT_Scale_interface.md>) —— SmarTest 7.1.0: Sequencer鈥慶ontrolled utility lines introduced
+- [Utility pogo block - CTH DUT Scale interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.05_Utility_pogo_block_-_CTH_DUT_Scale_interface.md>) —— SmarTest 7.1.0: Sequencer‑controlled utility lines introduced
 - [UHC4 / UHC4T capacitor requirements](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.04_UHC4___UHC4T_capacitor_requirements.md>) —— SmarTest 7.1.0: Update on example Tantal decoupling capacitors.
 - [Direct-Probe PSRF probe card specifications](<02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.02_Direct-Probe_PSRF_probe_card_specifications.md>) —— SmarTest 7.1.0: Added support blocks
 - [GLOBAL section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md>) —— SmarTest 7.1.0: New parameters: memory_pooling, protocol_aware
@@ -135,7 +135,7 @@ verified: doc-only
 - [SHVL, SHVL? - (SHmoo spec VaLues)](<02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md>) —— SmarTest 7.1.0: Setting the primary port
 - [STRS? - (Spec TRansition Search)](<02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md>) —— SmarTest 7.1.0: Setting the primary port
 - [TOCF, TOCF? - (Timing/Level Offset search ConFiguration)](<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>) —— SmarTest 7.1.0: Histogram based search was added. ECL option for transition_detection parameter was added.
-- [Accessing Utility Lines](<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>) —— SmarTest 7.1.0: Introduced sequencer鈥慶ontrolled utility lines.
+- [Accessing Utility Lines](<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>) —— SmarTest 7.1.0: Introduced sequencer‑controlled utility lines.
 - [How to convert a classic test method project to universal test method project](<02_System_reference/02.07_Test_Method_Reference/02.07.02.04.01_How_to_convert_a_classic_test_method_project_to_universal_test_method_pr.md>) —— SmarTest 7.1.0: The location of the conversion tool is changed.
 - [How to convert a user procedure to a UTM project](<02_System_reference/02.07_Test_Method_Reference/02.07.02.05.01_How_to_convert_a_user_procedure_to_a_UTM_project.md>) —— SmarTest 7.1.0: The location of the conversion tool is changed.
 - [Converting user procedures to universal test methods](<02_System_reference/02.07_Test_Method_Reference/02.07.02.05_Converting_user_procedures_to_universal_test_methods.md>) —— SmarTest 7.1.0: The location of the conversion tool is changed.
@@ -234,7 +234,7 @@ verified: doc-only
 - [Converting user procedures to universal test methods](<03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.02_Converting_user_procedures_to_universal_test_methods.md>) —— SmarTest 7.1.0: The location of the conversion tool is changed.
 - [Converting a classic testflow to a UTM-based testflow](<03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.03_Converting_a_classic_testflow_to_a_UTM-based_testflow.md>) —— SmarTest 7.1.0: The location of the conversion tool is changed.
 - [Utility line control software](<99_Unlisted_or_Unreferenced/99.0190_Utility_line_control_software.md>) —— SmarTest 7.1.0: Removed Standard Test Functions
-- [Utility line control software](<99_Unlisted_or_Unreferenced/99.0190_Utility_line_control_software.md>) —— SmarTest 7.1.0: Introduced sequencer鈥慶ontrolled utility lines.
+- [Utility line control software](<99_Unlisted_or_Unreferenced/99.0190_Utility_line_control_software.md>) —— SmarTest 7.1.0: Introduced sequencer‑controlled utility lines.
 
 
 ## 这一版新引入（315 条）
@@ -327,7 +327,7 @@ verified: doc-only
 - [TSRS? - (TMU Set ReSults)](<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>) —— Introduced in SmarTest 7.1.0
 - [TSRW? - (TMU Set RaW results)](<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>) —— Introduced in SmarTest 7.1.0
 - [TSUD - (TMU Set UnDefine)](<02_System_reference/02.06_Command_Reference/02.06.13.02.11_TSUD_-__TMU_Set_UnDefine.md>) —— Introduced in SmarTest 7.1.0
-- [Defining a compliance pattern for pattern鈥慴ased SmartLoop testing](<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>) —— Introduced in SmarTest 7.1.0
+- [Defining a compliance pattern for pattern‑based SmartLoop testing](<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>) —— Introduced in SmarTest 7.1.0
 - [BADC_PIN_MEASURE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md>) —— Introduced in SmarTest 7.1.0
 - [BADC_MEASURE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08_BADC_MEASURE.md>) —— Introduced in SmarTest 7.1.0
 - [BADC_PIN_SETTING](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.09.01_BADC_PIN_SETTING.md>) —— Introduced in SmarTest 7.1.0
@@ -563,11 +563,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 497 条**，涉及 **461 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **5 处**「`鈥`」字样：`鈥慶`（5 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

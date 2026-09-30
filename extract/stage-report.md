@@ -1666,7 +1666,7 @@
 | 26 | EVENT_WAVEFORM_VFVM | `wiki/objects/event-waveform-vfvm.md` |
 | 26 | Sequencer-controlled utility lines | `wiki/concepts/sequencer-controlled-utility-lines.md` |
 | 26 | SHARING_CONFIGURATION | `wiki/objects/sharing-configuration.md` |
-| 26 | DPS128鈥?鈥奃PS64 functionality and features | `wiki/objects/dps128-dps64-cards.md` |
+| 26 | DPS128鈥? DPS64 functionality and features | `wiki/objects/dps128-dps64-cards.md` |
 | 26 | DIGITAL_OFFSET_SEARCH_PINS | `wiki/objects/digital-offset-search-pins.md` |
 | 26 | DPS power flags - get...() functions | `wiki/objects/dps-power-flags-get-functions.md` |
 | 26 | Conventions for GPIB/LAN communication | `wiki/concepts/gpib-lan-communication-conventions.md` |
@@ -1698,10 +1698,10 @@
 | 22 | SHARED_LEAKAGE_PARALLEL_TEST | `wiki/objects/mtp-shared-test-commands.md` |
 | 22 | SPMU_PIN_TASK.mode() | `wiki/objects/spmu-pin-task-mode.md` |
 | 22 | Using the Timing Diagram Tool | `wiki/mappings/mapping-timing.md` |
-| 22 | DPS128鈥?鈥奃PS64 hardware overview | `wiki/objects/dps128-dps64-cards.md` |
+| 22 | DPS128鈥? DPS64 hardware overview | `wiki/objects/dps128-dps64-cards.md` |
 | 22 | Setting up DC Scale pins with SmartRDI | `wiki/concepts/setting-up-dc-scale-pins-with-smartrdi.md` |
 | 22 | Opening TP360 | `wiki/objects/tp360.md` |
-| 22 | DPS128鈥?鈥奃PS64 power budget | `wiki/objects/dps128-dps64-cards.md` |
+| 22 | DPS128鈥? DPS64 power budget | `wiki/objects/dps128-dps64-cards.md` |
 | 22 | TimeStampAttrType | `wiki/objects/timestamp-attr-type.md` |
 | 22 | GLOBAL section | `wiki/objects/global-section.md` |
 | 22 | DFPN, DFPN? - (DeFine Pin Name) | `wiki/constraints/pin-config-requires-sequencer-off.md` |
@@ -1848,8 +1848,7 @@
 - ✅ `objects/dc-result-accessor.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dc-scale-limits-editor.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dc-scale-uhc4t-card.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/dc-scale-xps256-card.md` — 引用块/代码块 3 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
-    - ⚠️ 未称逐字，覆盖率 62%｜`The card features 256 full 4 quadrant VI sources, each of them capable to force …`
+- ✅ `objects/dc-scale-xps256-card.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dcdt.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/debug-perspective.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/debug-view.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2343,7 +2342,7 @@
 ## 第八类 · 链接目标可达（**抓断链；排除项是名字白名单两项，行内代码跨度里的 wikilink 照样算**）
 
 - 内容页共 **505** 页，引用 **521** 个目标，其中 **16** 个找不到对应页。
-- 口径指纹：内容页 505 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 59621b02c06d`。
+- 口径指纹：内容页 505 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 1ad6ba2e43f8`。
 
 > **这不是页面的缺陷，是建页 backlog。** 它列的是**脊椎已经要求**的页——
 > 比按 `in_src` 排的「125 个高入度对象」更有用：那些只是"语料里常出现"，
@@ -2374,7 +2373,7 @@
 
 - **乙 · 文件名本身**：**506 个文件**逐个验过，**0 个不合 §5**。
 - **丙 · stem 唯一**：506 个文件占 **506 个 stem**，**0 个撞名**。
-- **甲 · 链接目标**：内容页引用 **7586** 处，其中 **0 个目标不合 §5**。
+- **甲 · 链接目标**：内容页引用 **7556** 处，其中 **0 个目标不合 §5**。
 - ⚠️ **语法节整段不参与链接检查**：**322 页**有脚本写的语法节，已整段切掉（`add-limit`、`alias-set-editor`、`alphabetical-list-of-flags`、`analysis-views`、`apg-pattern-file`、`apg-program-file`、`aprm`、`assign-value-node`…）。
   **理由**：那一段是 §4 规定**脚本写、LLM 一个字不许改**的逐字原文，它由**第十二类**用更硬的口径管（页面 ↔ 脚本逐字节一致）。实测 `concepts/command-reference.md` 的语法节里抄着 pattern master file 的格式，而**那个格式自己就用 `[[path: …]]`**——不切，甲就会报一个名叫 `path:` 的「下划线分隔」违规，**而那是假红**。
 

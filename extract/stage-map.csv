@@ -64,7 +64,7 @@ object:constraints/smc-background-process-locks-config,"TMLimits",02_System_refe
 object:objects/event-waveform-vfvm,"EVENT_WAVEFORM_VFVM",02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.39_EVENT_WAVEFORM_VFVM.md,26,page
 object:concepts/sequencer-controlled-utility-lines,"Sequencer-controlled utility lines",03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md,26,page
 object:objects/sharing-configuration,"SHARING_CONFIGURATION",02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25_SHARING_CONFIGURATION.md,26,page
-object:objects/dps128-dps64-cards,"DPS128鈥?鈥奃PS64 functionality and features",02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md,26,page
+object:objects/dps128-dps64-cards,"DPS128鈥? DPS64 functionality and features",02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md,26,page
 object:objects/digital-offset-search-pins,"DIGITAL_OFFSET_SEARCH_PINS",02_System_reference/02.07_Test_Method_Reference/02.07.04.01.36.01_DIGITAL_OFFSET_SEARCH_PINS.md,26,page
 object:objects/dps-power-flags-get-functions,"DPS power flags - get...() functions",02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06_DPS_power_flags_-_get...___functions.md,26,page
 object:concepts/gpib-lan-communication-conventions,"Conventions for GPIB/LAN communication",02_System_reference/02.09_Test_Program_Management/02.09.01.03.06.01.04_Conventions_for_GPIB_LAN_communication.md,26,page
@@ -96,10 +96,10 @@ object:objects/shared-continuity-test,"SHARED_CONTINUITY_TEST",02_System_referen
 object:objects/mtp-shared-test-commands,"SHARED_LEAKAGE_PARALLEL_TEST",02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.23_SHARED_LEAKAGE_PARALLEL_TEST.md,22,page
 object:objects/spmu-pin-task-mode,"SPMU_PIN_TASK.mode()",02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.24_SPMU_PIN_TASK.mode.md,22,page
 object:mappings/mapping-timing,"Using the Timing Diagram Tool",02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.33.01_Using_the_Timing_Diagram_Tool.md,22,page
-object:objects/dps128-dps64-cards,"DPS128鈥?鈥奃PS64 hardware overview",02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md,22,page
+object:objects/dps128-dps64-cards,"DPS128鈥? DPS64 hardware overview",02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md,22,page
 object:concepts/setting-up-dc-scale-pins-with-smartrdi,"Setting up DC Scale pins with SmartRDI",02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md,22,page
 object:objects/tp360,"Opening TP360",03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.03_Opening_TP360.md,22,page
-object:objects/dps128-dps64-cards,"DPS128鈥?鈥奃PS64 power budget",02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md,22,page
+object:objects/dps128-dps64-cards,"DPS128鈥? DPS64 power budget",02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md,22,page
 object:objects/timestamp-attr-type,"TimeStampAttrType",02_System_reference/02.10_Data_Logging/02.10.01.06.05.65_TimeStampAttrType.md,22,page
 object:objects/global-section,"GLOBAL section",02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md,22,page
 object:constraints/pin-config-requires-sequencer-off,"DFPN, DFPN? - (DeFine Pin Name)",02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md,22,page

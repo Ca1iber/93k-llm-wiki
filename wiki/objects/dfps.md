@@ -54,7 +54,7 @@ The test system channel number of the DPS channel to be configured.
 
 The channel is to be defined as follows:
 
-- For `external device power supplies`（raw: `../02.05_Test_Head_Cards/02.05.06_External_device_power_supply__external_GPIB_DPS.md`）, this is a three鈥慸igit or four鈥慸igit integer.
+- For `external device power supplies`（raw: `../02.05_Test_Head_Cards/02.05.06_External_device_power_supply__external_GPIB_DPS.md`）, this is a three‑digit or four‑digit integer.
 
 The first one or two digits define an external supply. To avoid a conflict with the internal supplies, we recommend using values above 8. The maximum supported value is 16.
 

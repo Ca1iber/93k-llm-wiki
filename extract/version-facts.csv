@@ -5164,10 +5164,10 @@ SmarTest,7.1.0,change,SmarTest 7.1.0: A-test head introduced,02_System_reference
 SmarTest,7.1.0,change,SmarTest 7.1.0: Added A-test head,02_System_reference/02.03_DUT_board_design_reference/02.03.04.02.02_Utility_lines__V93000_systems.md,63
 SmarTest,7.1.0,change,SmarTest 7.1.0: Support of A-test head,02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md,66
 SmarTest,7.1.0,change,SmarTest 7.1.0: Removed Standard Test Functions,02_System_reference/02.03_DUT_board_design_reference/02.03.04.04_Utility_line_control_software.md,50
-SmarTest,7.1.0,change,SmarTest 7.1.0: Introduced sequencer鈥慶ontrolled utility lines.,02_System_reference/02.03_DUT_board_design_reference/02.03.04.04_Utility_line_control_software.md,50
-SmarTest,7.1.0,change,SmarTest 7.1.0: Sequencer鈥慶ontrolled utility lines introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md,53
+SmarTest,7.1.0,change,SmarTest 7.1.0: Introduced sequencer‑controlled utility lines.,02_System_reference/02.03_DUT_board_design_reference/02.03.04.04_Utility_line_control_software.md,50
+SmarTest,7.1.0,change,SmarTest 7.1.0: Sequencer‑controlled utility lines introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md,53
 SmarTest,7.1.0,change,SmarTest 7.1.0: Added A-test head,02_System_reference/02.03_DUT_board_design_reference/02.03.05.07.01_Internal_Utility_Power_Supply__SE-UDPS__specifications.md,50
-SmarTest,7.1.0,change,SmarTest 7.1.0: Sequencer鈥慶ontrolled utility lines introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.05_Utility_pogo_block_-_CTH_DUT_Scale_interface.md,540
+SmarTest,7.1.0,change,SmarTest 7.1.0: Sequencer‑controlled utility lines introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.05_Utility_pogo_block_-_CTH_DUT_Scale_interface.md,540
 SmarTest,7.1.0,change,SmarTest 7.1.0: Update on example Tantal decoupling capacitors.,02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.04_UHC4___UHC4T_capacitor_requirements.md,42
 SmarTest,7.1.0,change,SmarTest 7.1.0: Added support blocks,02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.02_Direct-Probe_PSRF_probe_card_specifications.md,92
 SmarTest,7.1.0,change,"SmarTest 7.1.0: New parameters: memory_pooling, protocol_aware",02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md,532
@@ -5216,7 +5216,7 @@ SmarTest,7.1.0,change,SmarTest 7.1.0: Changing the primary port,02_System_refere
 SmarTest,7.1.0,change,SmarTest 7.1.0: Setting the primary port,02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md,83
 SmarTest,7.1.0,change,SmarTest 7.1.0: Setting the primary port,02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md,218
 SmarTest,7.1.0,change,SmarTest 7.1.0: Histogram based search was added. ECL option for transition_detection parameter was added.,02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md,418
-SmarTest,7.1.0,change,SmarTest 7.1.0: Introduced sequencer鈥慶ontrolled utility lines.,02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md,37
+SmarTest,7.1.0,change,SmarTest 7.1.0: Introduced sequencer‑controlled utility lines.,02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md,37
 SmarTest,7.1.0,change,SmarTest 7.1.0: The location of the conversion tool is changed.,02_System_reference/02.07_Test_Method_Reference/02.07.02.04.01_How_to_convert_a_classic_test_method_project_to_universal_test_method_pr.md,163
 SmarTest,7.1.0,change,SmarTest 7.1.0: The location of the conversion tool is changed.,02_System_reference/02.07_Test_Method_Reference/02.07.02.05.01_How_to_convert_a_user_procedure_to_a_UTM_project.md,67
 SmarTest,7.1.0,change,SmarTest 7.1.0: The location of the conversion tool is changed.,02_System_reference/02.07_Test_Method_Reference/02.07.02.05_Converting_user_procedures_to_universal_test_methods.md,135
@@ -5315,7 +5315,7 @@ SmarTest,7.1.0,change,SmarTest 7.1.0: The location of the conversion tool is cha
 SmarTest,7.1.0,change,SmarTest 7.1.0: The location of the conversion tool is changed.,03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.02_Converting_user_procedures_to_universal_test_methods.md,135
 SmarTest,7.1.0,change,SmarTest 7.1.0: The location of the conversion tool is changed.,03_Use_cases_and_application_papers/03.12_SmarTest_Program_Migration_Framework/03.12.02.03_Converting_a_classic_testflow_to_a_UTM-based_testflow.md,616
 SmarTest,7.1.0,change,SmarTest 7.1.0: Removed Standard Test Functions,99_Unlisted_or_Unreferenced/99.0190_Utility_line_control_software.md,50
-SmarTest,7.1.0,change,SmarTest 7.1.0: Introduced sequencer鈥慶ontrolled utility lines.,99_Unlisted_or_Unreferenced/99.0190_Utility_line_control_software.md,50
+SmarTest,7.1.0,change,SmarTest 7.1.0: Introduced sequencer‑controlled utility lines.,99_Unlisted_or_Unreferenced/99.0190_Utility_line_control_software.md,50
 SmarTest,7.1.0,intro,Introduced in SmarTest 7.1.0,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.02.01.09_Unloading_a_protocol.md,26
 SmarTest,7.1.0,intro,Introduced in SmarTest 7.1.0,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.02.01.10_Exporting_a_protocol.md,24
 SmarTest,7.1.0,intro,Introduced in SmarTest 7.1.0,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.02.01.11_Importing_a_protocol.md,41
@@ -5731,8 +5731,8 @@ SmarTest,7.1.2,change,SmarTest 7.1.2: Renamed: HSM4000 is now HSM4G,02_System_re
 SmarTest,7.1.2,change,SmarTest 7.1.2: Added functions: badcSetting.xxx and badcMeasure.xxx,02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03.04_PS1600_DC_value_measurements.md,421
 SmarTest,7.1.2,change,SmarTest 7.1.2: For 64-bit systems: Number of of characters for pinName extended.,02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md,157
 SmarTest,7.1.2,change,SmarTest 7.1.2: For 64-bit systems: Number of of characters for pinName extended.,02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md,157
-SmarTest,7.1.2,change,SmarTest 7.1.2: All x-modes are now supported. Pattern鈥慴ased SmartLoop can now also be combined with transition tracking in x6-mode.,02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md,128
-SmarTest,7.1.2,change,SmarTest 7.1.2: Pattern鈥慴ased SmartLoop can now also be combined with transition tracking in x6-mode.,02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md,69
+SmarTest,7.1.2,change,SmarTest 7.1.2: All x-modes are now supported. Pattern‑based SmartLoop can now also be combined with transition tracking in x6-mode.,02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md,128
+SmarTest,7.1.2,change,SmarTest 7.1.2: Pattern‑based SmartLoop can now also be combined with transition tracking in x6-mode.,02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md,69
 SmarTest,7.1.2,change,SmarTest 7.1.2: Support of MBAV8+.,02_System_reference/02.07_Test_Method_Reference/02.07.03.03.05_Retrieving_AC_Test_Results.md,36
 SmarTest,7.1.2,change,SmarTest 7.1.2: Support of MBAV8+.,02_System_reference/02.07_Test_Method_Reference/02.07.03.16.03_Error_Handling_on_Missing_Trigger_Input.md,155
 SmarTest,7.1.2,change,SmarTest 7.1.2: Reduced to numberOfSamples() function,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md,464
@@ -5757,8 +5757,8 @@ SmarTest,7.1.2,change,SmarTest 7.1.2: Removed rf_cal_enable flag,02_System_refer
 SmarTest,7.1.2,change,SmarTest 7.1.2: Removed rf_cal_enable flag,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.07.02_Testflow_flags.md,116
 SmarTest,7.1.2,change,SmarTest 7.1.2: Stop on Fail now stops when any test suite in a sequence has an overall fail result and Stop on Pass now stops when all of the test suites in a sequence pass.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03.01_Loop_configuration_settings.md,94
 SmarTest,7.1.2,change,SmarTest 7.1.2: Stop on Fail now stops when any test suite in a sequence has an overall fail result and Stop on Pass now stops when all of the test suites in a sequence pass.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03_Running_a_testflow.md,201
-SmarTest,7.1.2,change,SmarTest 7.1.2: All x-modes are now supported. Pattern鈥慴ased SmartLoop can now also be combined with transition tracking in x6-mode.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md,128
-SmarTest,7.1.2,change,SmarTest 7.1.2: Pattern鈥慴ased SmartLoop can now also be combined with transition tracking in x6-mode.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md,69
+SmarTest,7.1.2,change,SmarTest 7.1.2: All x-modes are now supported. Pattern‑based SmartLoop can now also be combined with transition tracking in x6-mode.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md,128
+SmarTest,7.1.2,change,SmarTest 7.1.2: Pattern‑based SmartLoop can now also be combined with transition tracking in x6-mode.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md,69
 SmarTest,7.1.2,change,SmarTest 7.1.2: PoE LAN switch E7033B for gateway E7032A (E5810A) introduced,02_System_reference/02.09_Test_Program_Management/02.09.01.03.01.02_Communication_with_a_GPIB_interface.md,34
 SmarTest,7.1.2,change,SmarTest 7.1.2: New application variable LOT_SUMMNARY_PATH_NAME and FORCE_SUMMARY_GENERATION_FOR_LEVEL,02_System_reference/02.10_Data_Logging/02.10.01.07_LotSummaryGenerator.md,213
 SmarTest,7.1.2,change,SmarTest 7.1.2: Support generating lot summary for incomplete data collection file,02_System_reference/02.10_Data_Logging/02.10.01.07_LotSummaryGenerator.md,213
@@ -6194,22 +6194,22 @@ SmarTest,7.2.0,change,SmarTest 7.2.0: Max number of ports increased to 256,01_Ge
 SmarTest,7.2.0,change,SmarTest 7.2.0: Removed 32 bit SmarTest version,01_Getting_started/01.05_SmarTest_character_and_number_limits/01.05_SmarTest_character_and_number_limits.md,282
 SmarTest,7.2.0,change,SmarTest 7.2.0: Max number of ports increased to 256,01_Getting_started/01.05_SmarTest_character_and_number_limits/01.05_SmarTest_character_and_number_limits.md,282
 SmarTest,7.2.0,change,SmarTest 7.2.0: Updated all test head weights and dimensions,02_System_reference/02.02_Specifications/02.02.02.09_Weights_and_dimensions.md,206
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md,49
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md,49
 SmarTest,7.2.0,change,SmarTest 7.2.0: External utility power introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md,49
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md,66
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md,66
 SmarTest,7.2.0,change,SmarTest 7.2.0: External utility power introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.04.03.03_Utility_line_example_circuits.md,51
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.01_Serial_interface_for_sequencer-controlled_utility_lines.md,190
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.02_Specifications_for_the_serial_interface.md,87
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.03_Ganging_utility_blocks.md,57
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md,234
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.01_Serial_interface_for_sequencer-controlled_utility_lines.md,190
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.02_Specifications_for_the_serial_interface.md,87
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.03_Ganging_utility_blocks.md,57
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md,234
 SmarTest,7.2.0,change,SmarTest 7.2.0: External utility power introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05_Sequencer-controlled_utility_lines.md,96
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.07.01_Designing_compatible_utility_lines.md,82
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md,53
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04.07.01_Designing_compatible_utility_lines.md,82
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md,53
 SmarTest,7.2.0,change,SmarTest 7.2.0: External utility power introduced on ATH/CTH/STH DUT Scale and on LTH,02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md,53
 SmarTest,7.2.0,change,SmarTest 7.2.0: 256 utility lines on 4-row utility pogo blocks introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.03_Utility_pogo_block_-_LTH_large_DUT_interface.md,540
-SmarTest,7.2.0,change,SmarTest 7.2.0: Sequencer鈥慶ontrolled utility lines introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.03_Utility_pogo_block_-_LTH_large_DUT_interface.md,540
+SmarTest,7.2.0,change,SmarTest 7.2.0: Sequencer‑controlled utility lines introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.03_Utility_pogo_block_-_LTH_large_DUT_interface.md,540
 SmarTest,7.2.0,change,SmarTest 7.2.0: 256 utility lines on 4-row utility pogo blocks introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.04_Utility_pogo_block_-_STH_DUT_Scale_interface.md,522
-SmarTest,7.2.0,change,SmarTest 7.2.0: Sequencer鈥慶ontrolled utility lines introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.04_Utility_pogo_block_-_STH_DUT_Scale_interface.md,522
+SmarTest,7.2.0,change,SmarTest 7.2.0: Sequencer‑controlled utility lines introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.04_Utility_pogo_block_-_STH_DUT_Scale_interface.md,522
 SmarTest,7.2.0,change,SmarTest 7.2.0: 256 utility lines on 4-row utility pogo blocks introduced,02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.05_Utility_pogo_block_-_CTH_DUT_Scale_interface.md,540
 SmarTest,7.2.0,change,SmarTest 7.2.0: New definition: utility_lines,02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md,532
 SmarTest,7.2.0,change,"SmarTest 7.2.0: New card:PS1600-ME, allowed as alternative card with 7.2.0.5",02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.03_IOCHANNEL_section.md,239
@@ -6231,7 +6231,7 @@ SmarTest,7.2.0,change,SmarTest 7.2.0: New options for site_selector and executio
 SmarTest,7.2.0,change,"SmarTest 7.2.0: New parameters: site_selector, sitenumber, resultAreaName",02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md,180
 SmarTest,7.2.0,change,SmarTest 7.2.0: New options for execution_control parameter,02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md,180
 SmarTest,7.2.0,change,SmarTest 7.2.0: Removed the SHMO parameter,02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md,317
-SmarTest,7.2.0,change,SmarTest 7.2.0: Sequencer鈥慶ontrolled utility lines introduced.,02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md,224
+SmarTest,7.2.0,change,SmarTest 7.2.0: Sequencer‑controlled utility lines introduced.,02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md,224
 SmarTest,7.2.0,change,SmarTest 7.2.0: New card PS1600ME,02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md,262
 SmarTest,7.2.0,change,SmarTest 7.2.0: New parameter: sink_current,02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md,205
 SmarTest,7.2.0,change,SmarTest 7.2.0: Removed the SHMO parameter,02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md,317
@@ -6245,7 +6245,7 @@ SmarTest,7.2.0,change,SmarTest 7.2.0: New FASTSTOP mode,02_System_reference/02.0
 SmarTest,7.2.0,change,SmarTest 7.2.0: New search mode FASTSTOP,02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md,104
 SmarTest,7.2.0,change,SmarTest 7.2.0: New FASTSTOP mode,02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md,418
 SmarTest,7.2.0,change,"SmarTest 7.2.0: in patch 4, supports new parameter waveformSize and samplePeriod for measurement VMUM with board ADC.",02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md,675
-SmarTest,7.2.0,change,SmarTest 7.2.0: Sequencer鈥慶ontrolled utility lines introduced.,02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md,224
+SmarTest,7.2.0,change,SmarTest 7.2.0: Sequencer‑controlled utility lines introduced.,02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md,224
 SmarTest,7.2.0,change,SmarTest 7.2.0: New parameter: resultAreaName,02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md,224
 SmarTest,7.2.0,change,SmarTest 7.2.0: New options for site_selector and execution_control parameters,02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md,224
 SmarTest,7.2.0,change,"SmarTest 7.2.0: New parameters: site_selector, sitenumber, resultAreaName",02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md,180
@@ -6255,7 +6255,7 @@ SmarTest,7.2.0,change,"SmarTest 7.2.0: New parameter types: ContextPins, OptionL
 SmarTest,7.2.0,change,SmarTest 7.2.0: New FASTSTOP mode,02_System_reference/02.07_Test_Method_Reference/02.07.03.03.08.02.01_Linear_search_modes.md,110
 SmarTest,7.2.0,change,SmarTest 7.2.0: New search mode FASTSTOP,02_System_reference/02.07_Test_Method_Reference/02.07.03.03.08.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md,104
 SmarTest,7.2.0,change,SmarTest 7.2.0: Supports the parameter type ContextPins and OptionList,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.03_addParameter.md,129
-SmarTest,7.2.0,change,SmarTest 7.2.0: One-time overhead of 18.5 渭s per measurement by the PS1600 Board ADC reduced to 14.5 渭s.,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md,464
+SmarTest,7.2.0,change,SmarTest 7.2.0: One-time overhead of 18.5 μs per measurement by the PS1600 Board ADC reduced to 14.5 μs.,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md,464
 SmarTest,7.2.0,change,"SmarTest 7.2.0: in patch 4, supports new member function waveformSize().",02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md,464
 SmarTest,7.2.0,change,"SmarTest 7.2.0: in patch 4, supports new member function waveformSamplePeriod().",02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md,464
 SmarTest,7.2.0,change,SmarTest 7.2.0: Additional member function for assigning DC waveform: add().,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.142.01_PATTERN.md,211
@@ -6379,10 +6379,10 @@ SmarTest,7.2.0,change,SmarTest 7.2.0: Removed *CI_DATALOG_TO_FILE constant,03_Us
 SmarTest,7.2.0,change,SmarTest 7.2.0: Removed *CI_DATALOG_TO_PRINTER constant,03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.03.02_CI_Calls_for_Multisite_Testing.md,295
 SmarTest,7.2.0,change,SmarTest 7.2.0: Removed *CI_DATALOG_TO_REPORT_WINDOW constant,03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.03.02_CI_Calls_for_Multisite_Testing.md,295
 SmarTest,7.2.0,change,SmarTest 7.2.0: Max number of ports increased to 256,03_Use_cases_and_application_papers/03.03_How_to_use_Multiport_for_specific_Applications/03.03.06.02.01_Configuring_Ports__Pins__Timing__Vectors_and_Test_Methods.md,50
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.01_Serial_interface_for_sequencer-controlled_utility_lines.md,190
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.02_Specifications_for_the_serial_interface.md,87
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.03_Ganging_utility_blocks.md,57
-SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.05_Setting_up_sequencer_control_of_utility_lines.md,234
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.01_Serial_interface_for_sequencer-controlled_utility_lines.md,190
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.02_Specifications_for_the_serial_interface.md,87
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.03_Ganging_utility_blocks.md,57
+SmarTest,7.2.0,change,SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.05_Setting_up_sequencer_control_of_utility_lines.md,234
 SmarTest,7.2.0,change,SmarTest 7.2.0: External utility power introduced on ATH/CTH/STH DUT Scale and on LTH,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md,98
 SmarTest,7.2.0,intro,Introduced in SmarTest 7.2.0,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03.05_Profiling_of_DC_Scale_cards_with_Hardware_view.md,114
 SmarTest,7.2.0,intro,Introduced in SmarTest 7.2.0,01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.06_Utility_Purpose_view.md,18
@@ -6771,7 +6771,7 @@ SmarTest,7.2.1,change,SmarTest 7.2.1: Testflow Analyzer tool provides the number
 SmarTest,7.2.1,change,SmarTest 7.2.1: New option Test Name Width and Show Pin Column to control the text data log files in TCCT 1.3,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.06.01.02_Setting_the_data_log_output_information_in_the_Datalog_Control_tool.md,43
 SmarTest,7.2.1,change,SmarTest 7.2.1: All the variables defined in the newlotuiconfiguration.xml file can be used in the data log file name in TCCT 1.3,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.06.01.02_Setting_the_data_log_output_information_in_the_Datalog_Control_tool.md,43
 SmarTest,7.2.1,change,SmarTest 7.2.1: Correlation data logs can no longer be merged.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.03_Merging_data_logs.md,161
-SmarTest,7.2.1,change,"SmarTest 7.2.1: Added 螖Cpl, 螖Cpl%, 螖Cpu, 螖Cpu%, 螖Ppk, 螖Ppk%, 螖Device#, and 螖Device% columns.",02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.04.01_Correlation_data_store_structure.md,64
+SmarTest,7.2.1,change,"SmarTest 7.2.1: Added ΔCpl, ΔCpl%, ΔCpu, ΔCpu%, ΔPpk, ΔPpk%, ΔDevice#, and ΔDevice% columns.",02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.04.01_Correlation_data_store_structure.md,64
 SmarTest,7.2.1,change,SmarTest 7.2.1: Renamed some columns.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.04.01_Correlation_data_store_structure.md,64
 SmarTest,7.2.1,change,SmarTest 7.2.1: Added sorting of detail data views.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.01_Sorting_tables.md,63
 SmarTest,7.2.1,change,SmarTest 7.2.1: New option to automatically auto-fit columns,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.06_Setting_table_display_options.md,80
@@ -7233,7 +7233,7 @@ SmarTest,7.2.2,change,SmarTest 7.2.2: Number of characters for string_1 tostring
 SmarTest,7.2.2,change,"SmarTest 7.2.2: Additional executionMode parameter options: SER_HAC, PAR_HAC",02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md,551
 SmarTest,7.2.2,change,SmarTest 7.2.2: FFPM introduced,02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md,143
 SmarTest,7.2.2,change,"SmarTest 7.2.2: Analog waveform name (or, label) can be up to 256 characters long",02_System_reference/02.07_Test_Method_Reference/02.07.04.01.05_ANALOG_WAVEFORM.md,796
-SmarTest,7.2.2,change,SmarTest 7.2.2: New execution mode EXM_SYNC_DC to support dynamic (sequencer鈥慶ontrolled) DC test.,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.33_CCTsetExecMode.md,161
+SmarTest,7.2.2,change,SmarTest 7.2.2: New execution mode EXM_SYNC_DC to support dynamic (sequencer‑controlled) DC test.,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.33_CCTsetExecMode.md,161
 SmarTest,7.2.2,change,SmarTest 7.2.2: New parameter resultType.,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.35_CCTsetResultArea.md,77
 SmarTest,7.2.2,change,SmarTest 7.2.2: Patch1 - New testflow flag multibin_mode,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.212_SET_MULTIBIN.md,143
 SmarTest,7.2.2,change,SmarTest 7.2.2: Patch1 - New testflow flag multibin_mode,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.217_SET_TESTFLOW_FLAG.md,67
@@ -7841,7 +7841,7 @@ SmarTest,7.3.2,change,SmarTest 7.3.2: CCF_ParallelISR parameter introduced to en
 SmarTest,7.3.2,change,SmarTest 7.3.2: CCF_ParallelISR parameter introduced to enable parallel testing of independent test suites.,02_System_reference/02.07_Test_Method_Reference/02.07.08.04_Test_method_parameters.md,67
 SmarTest,7.3.2,change,"SmarTest 7.3.2: (patch level 4) New checkbox ""Optimized Multiport Memory Allocation""",02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.02_Editing_technology_data.md,56
 SmarTest,7.3.2,change,SmarTest 7.3.2: New parameter:fast_transfer_buffer_size,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.03_Technology_file_for_a_device.md,429
-SmarTest,7.3.2,change,SmarTest 7.3.2: Added 螖Range% and 螖StDev% columns.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.04.01_Correlation_data_store_structure.md,64
+SmarTest,7.3.2,change,SmarTest 7.3.2: Added ΔRange% and ΔStDev% columns.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.04.01_Correlation_data_store_structure.md,64
 SmarTest,7.3.2,change,SmarTest 7.3.2: Added raw data export option.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.06_Exporting_data_logs.md,102
 SmarTest,7.3.2,change,SmarTest 7.3.2: Added sorting by multiple columns.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.01_Sorting_tables.md,63
 SmarTest,7.3.2,change,SmarTest 7.3.2: Added Protocol Monitor view.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.03_Displaying_test_results_in_analysis_views.md,95
@@ -8565,13 +8565,13 @@ SmarTest,7.4.4,change,SmarTest 7.4.4: The class supports both the PMU operating 
 SmarTest,7.4.4,change,"SmarTest 7.4.4: New parameter ""samples"" is added in TML",02_System_reference/02.07_Test_Method_Reference/02.07.05.02.02_DpsConnectivity.md,115
 SmarTest,7.4.4,change,"SmarTest 7.4.4: New parameter ""samples"" is added in TML",02_System_reference/02.07_Test_Method_Reference/02.07.05.03.02_DpsConnectivity.md,101
 SmarTest,7.4.4,change,"SmarTest 7.4.4: New parameters ""perLabelBasedMaxFails"", ""extraFailureFlag"" and ""stopAtSameCycle"" to make the parameter ""maxFailsPerPin"" work for each label and log the extra failures when number of failures exceeds the ""maxFailsPerPin"" upper limit.",02_System_reference/02.07_Test_Method_Reference/02.07.05.05_ScanTest__scan_tml.md,289
-SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 pins in PMU operating mode.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.15_iFilter.md,66
-SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 DPS-type pins.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.17_iForceRange.md,96
-SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 pins in PMU operating mode.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.23_iSlewRate.md,66
-SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 pin in PMU operating mode.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.28_measFilter.md,68
-SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 SIG-type pins,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.40_vFilter.md,51
-SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 DPS-type pins.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.42_vForceRange.md,48
-SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 SIG-type pins.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.48_vSlewRate.md,52
+SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 pins in PMU operating mode.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.15_iFilter.md,66
+SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 DPS-type pins.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.17_iForceRange.md,96
+SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 pins in PMU operating mode.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.23_iSlewRate.md,66
+SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 pin in PMU operating mode.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.28_measFilter.md,68
+SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 SIG-type pins,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.40_vFilter.md,51
+SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 DPS-type pins.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.42_vForceRange.md,48
+SmarTest,7.4.4,change,SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 SIG-type pins.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.48_vSlewRate.md,52
 SmarTest,7.4.4,change,"SmarTest 7.4.4: Red-colored highlights for failed pins, symbols and ports.",02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.08.03.02.02_Navigation_area.md,16
 SmarTest,7.4.4,change,SmarTest 7.4.4: MACT supports CONTINUE as a parameter option.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md,372
 SmarTest,7.4.4,change,SmarTest 7.4.4: Increase maximum number of bins to 65536.,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.04_Bins_page.md,120
@@ -8701,7 +8701,7 @@ SmarTest,7.5.0,change,SmarTest 7.5.0: DC Scale FVI16 card added.,02_System_refer
 SmarTest,7.5.0,change,SmarTest 7.5.0: FVI16 added.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.17_iForceRange.md,96
 SmarTest,7.5.0,change,SmarTest 7.5.0: Spec variables can be added to DC events.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.17_iForceRange.md,96
 SmarTest,7.5.0,change,SmarTest 7.5.0: DC Scale FVI16 card added.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.23_iSlewRate.md,66
-SmarTest,7.5.0,change,SmarTest 7.5.0: DC Scale FVI16 card added. Pattern鈥慴ased programming added for AVI64 and FVI16.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.26_loadCap.md,93
+SmarTest,7.5.0,change,SmarTest 7.5.0: DC Scale FVI16 card added. Pattern‑based programming added for AVI64 and FVI16.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.26_loadCap.md,93
 SmarTest,7.5.0,change,SmarTest 7.5.0: DC Scale FVI16 card added.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.28_measFilter.md,68
 SmarTest,7.5.0,change,SmarTest 7.5.0: DC Scale FVI16 card added.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.39_vClamp.md,90
 SmarTest,7.5.0,change,SmarTest 7.5.0: DC Scale FVI16 added,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.40_vFilter.md,51
@@ -9329,8 +9329,8 @@ SmarTest,7.10.2,change,SmarTest 7.10.2: New keywords for the type parameter to c
 SmarTest,7.10.2,change,SmarTest 7.10.2: Support for EXA Scale test systems added.,02_System_reference/02.07_Test_Method_Reference/02.07.03.02.03_Direct_DMM_high-accuracy_voltage_measurements_via_utility_pogo_block.md,139
 SmarTest,7.10.2,change,SmarTest 7.10.2: New card Pin Scale 5000,02_System_reference/02.07_Test_Method_Reference/02.07.04.01.154.01_PPMU_PIN_CLAMP.md,201
 SmarTest,7.10.2,change,"SmarTest 7.10.2: Measurement Mode ""Progload"" no longer supported.",02_System_reference/02.07_Test_Method_Reference/02.07.05.02.01_Continuity.md,137
-SmarTest,7.10.2,change,SmarTest 7.10.2: Maximum 512 utility lines and three鈥慸igit utility pogo block designator.,02_System_reference/02.07_Test_Method_Reference/02.07.05.04.05_GetUtilityLines.md,76
-SmarTest,7.10.2,change,SmarTest 7.10.2: Maximum 512 utility lines and three鈥慸igit utility pogo block designator.,02_System_reference/02.07_Test_Method_Reference/02.07.05.04.07_SetUtilityLines.md,104
+SmarTest,7.10.2,change,SmarTest 7.10.2: Maximum 512 utility lines and three‑digit utility pogo block designator.,02_System_reference/02.07_Test_Method_Reference/02.07.05.04.05_GetUtilityLines.md,76
+SmarTest,7.10.2,change,SmarTest 7.10.2: Maximum 512 utility lines and three‑digit utility pogo block designator.,02_System_reference/02.07_Test_Method_Reference/02.07.05.04.07_SetUtilityLines.md,104
 SmarTest,7.10.2,change,SmarTest 7.10.2: Pin Scale 5000 card added.,02_System_reference/02.07_Test_Method_Reference/02.07.13_SmartRDI.md,111
 SmarTest,7.10.2,change,SmarTest 7.10.2: New card PS5000 added,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.01.02.01_Comparing_output_signals.md,14
 SmarTest,7.10.2,change,SmarTest 7.10.2: New card Pin Scale 5000,02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.01.03.01_Active_load_termination.md,30
@@ -9581,8 +9581,8 @@ SmarTest,8.3.3,intro,Introduced in SmarTest 8.3.3,02_System_reference/02.03_DUT_
 SmarTest,8.3.4,change,SmarTest 8.3.4: Alternate UTIL and DPS pogo block numbers for V93000 EXA Scale systems added.,02_System_reference/02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md,321
 SmarTest,8.3.4,change,SmarTest 7.6.0 / 8.3.4: Support of V93000 EXA Scale test heads.,02_System_reference/02.03_DUT_board_design_reference/02.03.03.02_DUT_Scale_interface.md,117
 SmarTest,8.3.4,change,SmarTest 8.3.4: Utility line characteristics for V93000 EXA Scale systems added,02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md,66
-SmarTest,8.3.4,change,SmarTest 8.3.4: Support of sequencer鈥慶ontrolled utility lines on V93000 EXA Scale systems.,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md,234
-SmarTest,8.3.4,change,SmarTest 8.3.4: Support of sequencer鈥慶ontrolled utility lines on V93000 EXA Scale systems.,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05_Sequencer-controlled_utility_lines.md,96
+SmarTest,8.3.4,change,SmarTest 8.3.4: Support of sequencer‑controlled utility lines on V93000 EXA Scale systems.,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md,234
+SmarTest,8.3.4,change,SmarTest 8.3.4: Support of sequencer‑controlled utility lines on V93000 EXA Scale systems.,02_System_reference/02.03_DUT_board_design_reference/02.03.04.05_Sequencer-controlled_utility_lines.md,96
 SmarTest,8.3.4,change,SmarTest 8.3.4: Utility power supplies for V93000 EXA Scale systems added,02_System_reference/02.03_DUT_board_design_reference/02.03.05_Utility_power_supplies.md,159
 SmarTest,8.3.4,change,SmarTest 7.5.4 / 8.3.4: Support of E8023PB and E8023PK VHD pogo cable assemblies,02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md,206
 SmarTest,8.3.4,change,SmarTest 7.6.0 / 8.3.4: DC Scale XPS256 card added.,02_System_reference/02.03_DUT_board_design_reference/02.03.06.02_Pogo_pin_assignment_-_DC_Scale_cards.md,32
@@ -9593,8 +9593,8 @@ SmarTest,8.3.4,change,SmarTest 7.6.0 / 8.3.4: Drawing N2605-64170 updated from r
 SmarTest,8.3.4,change,SmarTest 7.6.0 / 8.3.4: Support of V93000 EXA Scale test heads.,02_System_reference/02.05_Test_Head_Cards/02.05.01.01.01_DUT_Scale_interface.md,117
 SmarTest,8.3.4,change,SmarTest 7.5.4 / 8.3.4: Support of E8023PB and E8023PK VHD pogo cable assemblies,02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md,166
 SmarTest,8.3.4,change,SmarTest 7.5.4 / 8.3.4: Support of E8023PB and E8023PK VHD pogo cable assemblies,02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md,334
-SmarTest,8.3.4,change,SmarTest 8.3.4: Support of sequencer鈥慶ontrolled utility lines on V93000 EXA Scale systems.,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.05_Setting_up_sequencer_control_of_utility_lines.md,234
-SmarTest,8.3.4,change,SmarTest 8.3.4: Support of sequencer鈥慶ontrolled utility lines on V93000 EXA Scale systems.,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md,98
+SmarTest,8.3.4,change,SmarTest 8.3.4: Support of sequencer‑controlled utility lines on V93000 EXA Scale systems.,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.05_Setting_up_sequencer_control_of_utility_lines.md,234
+SmarTest,8.3.4,change,SmarTest 8.3.4: Support of sequencer‑controlled utility lines on V93000 EXA Scale systems.,03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md,98
 SmarTest,8.3.4,intro,Introduced in SmarTest 7.6.0 / 8.3.4,02_System_reference/02.03_DUT_board_design_reference/02.03.03.04_Remote_control_unit__V93000_EXA_Scale_system.md,163
 SmarTest,8.3.4,intro,Introduced in SmarTest 7.10.0 / 8.3.4,02_System_reference/02.03_DUT_board_design_reference/02.03.04.02.01_Utility_lines__V93000_EXA_Scale_systems.md,110
 SmarTest,8.3.4,intro,Introduced in SmarTest 7.10.0 / 8.3.4,02_System_reference/02.03_DUT_board_design_reference/02.03.05.01_Utility_power_supply_-_UP5V_pins__V93000_EXA_Scale_systems.md,70
@@ -9844,8 +9844,8 @@ SmartRDI,2.2.0,change,SmartRDI 2.2.0: Supports synchronizing selected ports.,02_
 SmartRDI,2.2.0,change,SmartRDI 2.2.0: Removed the functionality of burst write.,02_System_reference/02.07_Test_Method_Reference/02.07.13.10.06_write.md,84
 SmartRDI,2.2.0,change,SmartRDI 2.2.0: Supports using the DC Scale resource as a digitizer while sourcing a waveform on the same pin.,02_System_reference/02.07_Test_Method_Reference/02.07.13.11_SmartRDI__DC_resource_AWG_DGT_usage.md,25
 SmartRDI,2.2.0,change,SmartRDI 2.2.0: Supports the syntax relay(TA::PPMU_RELAY_ACTION rly_before),02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01.17_relay.md,171
-SmartRDI,2.2.0,change,SmartRDI 2.2.0: Supports switching AMUX in the pattern鈥慴ased mode when measuring with board ADC on PS1600.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01.18_valueMode.md,88
-SmartRDI,2.2.0,change,SmartRDI 2.2.0: Supports switching AMUX on PS1600 in the pattern鈥慴ased mode.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.02_Setting_up_Board_ADC_with_SmartRDI.md,64
+SmartRDI,2.2.0,change,SmartRDI 2.2.0: Supports switching AMUX in the pattern‑based mode when measuring with board ADC on PS1600.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01.18_valueMode.md,88
+SmartRDI,2.2.0,change,SmartRDI 2.2.0: Supports switching AMUX on PS1600 in the pattern‑based mode.,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.02_Setting_up_Board_ADC_with_SmartRDI.md,64
 SmartRDI,2.2.0,change,SmartRDI 2.2.0: New function preCharge().,02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md,239
 SmartRDI,2.2.0,intro,Introduced in SmartRDI 2.2.0,02_System_reference/02.07_Test_Method_Reference/02.07.13.10.07_writeBurst.md,62
 SmartRDI,2.2.0,intro,Introduced in SmartRDI 2.2.0,02_System_reference/02.07_Test_Method_Reference/02.07.13.11.01.05_sampleCycle.md,56
@@ -10148,7 +10148,7 @@ SmartRDI,2.4.5,change,SmartRDI 2.4.5: New execution mode TA::NON_BLOCKING is add
 SmartRDI,2.4.5,change,SmartRDI 2.4.5: New parameter TA::CTIM for exact port synchronization.,02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.02_portSync.md,123
 SmartRDI,2.4.5,change,SmartRDI 2.4.5: Combined use of SMC_DISABLE(true) with rdi.hiddenUpload(TA::ALL) no more reports an error.,02_System_reference/02.07_Test_Method_Reference/02.07.13.08.19.02.03_rdi.hiddenUpload.md,164
 SmartRDI,2.4.5,change,SmartRDI 2.4.5: rdi.site().id().getXXX() can be called anywhere inside a test method's run() function; the error map result supports common thread SMC.,02_System_reference/02.07_Test_Method_Reference/02.07.13.08.19.02.04_rdi.site.md,91
-SmartRDI,2.4.5,change,"SmartRDI 2.4.5: Minimum load capacity allowed changes from 1 uF to 1 nF, for better support of pattern鈥慴ased mode for AVI64.",02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.26_loadCap.md,93
+SmartRDI,2.4.5,change,"SmartRDI 2.4.5: Minimum load capacity allowed changes from 1 uF to 1 nF, for better support of pattern‑based mode for AVI64.",02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.26_loadCap.md,93
 SmartRDI,2.4.5,change,SmartRDI 2.4.5: Default error map location changes from TA::TP (test processor) to TA::RAM (unused vector memory on the tester).,02_System_reference/02.07_Test_Method_Reference/02.07.13.16.02_emapLocation.md,73
 SmartRDI,2.4.5,change,"SmartRDI 2.4.5: burstLabel() supports multiple ports, and can be used in combination with portSync().",02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md,192
 SmartRDI,2.4.5,change,SmartRDI 2.4.5: A label name with or without an MD5 postfix option.,02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md,91
@@ -10317,7 +10317,7 @@ SmartRDI,7.6.0,change,SmartRDI 7.6.0: startVec() and stopVec() support the emap(
 SmartRDI,7.6.0,change,SmartRDI 7.6.0: startVec() and stopVec() support the emap() class.,02_System_reference/02.07_Test_Method_Reference/02.07.13.17.01.11_rdi.func__.startVec.md,90
 SmartRDI,7.6.0,change,SmartRDI 7.6.0: startVec() and stopVec() support the emap() class.,02_System_reference/02.07_Test_Method_Reference/02.07.13.17.01.12_rdi.func__.stopVec.md,77
 SmartRDI,7.6.0,change,SmartRDI 7.6.0: Linear search is supported with one subroutine for all search steps.,02_System_reference/02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md,214
-SmartRDI,7.6.0,change,SmartRDI 7.6.0: Wait time can be added to pins in Pin Configuration for sequencer鈥慶ontrolled utility pattern.,02_System_reference/02.07_Test_Method_Reference/02.07.13.23.04_Sequencer_Controlled_Utility_Mask_with_SmartRDI.md,47
+SmartRDI,7.6.0,change,SmartRDI 7.6.0: Wait time can be added to pins in Pin Configuration for sequencer‑controlled utility pattern.,02_System_reference/02.07_Test_Method_Reference/02.07.13.23.04_Sequencer_Controlled_Utility_Mask_with_SmartRDI.md,47
 SmartRDI,7.6.0,change,SmartRDI 7.6.0: SMV_IGNORE_COMMENT in the RDI_Configure file can be used to globally allow comments output in pattern.,02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md,61
 SmartRDI,7.6.0,intro,Introduced in SmartRDI 7.6.0,02_System_reference/02.07_Test_Method_Reference/02.07.13.08.12.01.01_Register_structure.md,256
 SmartRDI,7.6.0,intro,Introduced in SmartRDI 7.6.0,02_System_reference/02.07_Test_Method_Reference/02.07.13.08.12.01_Setting_up_the_Register_Access_library.md,32

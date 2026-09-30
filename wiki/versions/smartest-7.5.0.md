@@ -137,7 +137,7 @@ verified: doc-only
 - [iForceRange()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.17_iForceRange.md>) —— SmarTest 7.5.0: FVI16 added.
 - [iForceRange()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.17_iForceRange.md>) —— SmarTest 7.5.0: Spec variables can be added to DC events.
 - [iSlewRate()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.23_iSlewRate.md>) —— SmarTest 7.5.0: DC Scale FVI16 card added.
-- [loadCap()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.26_loadCap.md>) —— SmarTest 7.5.0: DC Scale FVI16 card added. Pattern鈥慴ased programming added for AVI64 and FVI16.
+- [loadCap()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.26_loadCap.md>) —— SmarTest 7.5.0: DC Scale FVI16 card added. Pattern‑based programming added for AVI64 and FVI16.
 - [measFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.28_measFilter.md>) —— SmarTest 7.5.0: DC Scale FVI16 card added.
 - [vClamp()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.39_vClamp.md>) —— SmarTest 7.5.0: DC Scale FVI16 card added.
 - [vFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.40_vFilter.md>) —— SmarTest 7.5.0: DC Scale FVI16 added
@@ -223,7 +223,7 @@ verified: doc-only
 
 ## ⚠️ 本页出现的语料编码损坏
 
-本页条目里有 **3 处**「`鈥`」字样：`鈥`（2 处）、`鈥慴`（1 处）。
+本页条目里有 **2 处**「`鈥`」字样：`鈥`（2 处）。
 
 **这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
 

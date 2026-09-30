@@ -53,12 +53,12 @@ verified: doc-only
 
 格式：**出处文档 —— 语料原条目**。条目本身带 `SmarTest 7.4.4:` 前缀，**那是原文的一部分，没有去掉**。
 
-- [DPS128鈥?鈥奃PS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.4.4: Support of E8023PH pogo cable assembly
+- [DPS128鈥? DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.4.4: Support of E8023PH pogo cable assembly
 - [Direct-Probe stiffener](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.02_Direct-Probe_stiffener.md>) —— SmarTest 7.4.4: New drawing for V93000 Direct-Probe probe card specifications N2360-90117_C
 - [GLOBAL section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md>) —— SmarTest 7.4.4: New optional parameter diag_behavior of definition mux_boards
 - [Pogocabling entries for various card types](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.01_Pogocabling_entries_for_various_card_types.md>) —— SmarTest 7.4.4: Support of E8023PH pogo assembly for DPS64
 - [DPS section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.06_DPS_section.md>) —— SmarTest 7.4.4: Support of E8023PH pogo assembly.
-- [DPS128鈥?鈥奃PS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.4.4: Support of E8023PH pogo cable assembly
+- [DPS128鈥? DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.4.4: Support of E8023PH pogo cable assembly
 - [DPS128 and DPS64 pogo cabling and model file configuration](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md>) —— SmarTest 7.4.4: E8023PH cable assembly for DPS64-HC
 - [Connecting and disconnecting in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.04.02.01_Connecting_and_disconnecting_in_DPS_operating_mode.md>) —— SmarTest 7.4.4: AVI64 supports force range changes in connected state.
 - [Standard DPS functionality of DC Scale cards in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.04.02_Standard_DPS_functionality_of_DC_Scale_cards_in_DPS_operating_mode.md>) —— SmarTest 7.4.4: AVI64 supports force range changes in connected state.
@@ -75,13 +75,13 @@ verified: doc-only
 - [DpsConnectivity](<02_System_reference/02.07_Test_Method_Reference/02.07.05.02.02_DpsConnectivity.md>) —— SmarTest 7.4.4: New parameter "samples" is added in TML
 - [DpsConnectivity](<02_System_reference/02.07_Test_Method_Reference/02.07.05.03.02_DpsConnectivity.md>) —— SmarTest 7.4.4: New parameter "samples" is added in TML
 - [ScanTest (scan_tml)](<02_System_reference/02.07_Test_Method_Reference/02.07.05.05_ScanTest__scan_tml.md>) —— SmarTest 7.4.4: New parameters "perLabelBasedMaxFails", "extraFailureFlag" and "stopAtSameCycle" to make the parameter "maxFailsPerPin" work for each label and log the extra failures when number of failures exceeds the "maxFailsPerPin" upper limit.
-- [iFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.15_iFilter.md>) —— SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 pins in PMU operating mode.
-- [iForceRange()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.17_iForceRange.md>) —— SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 DPS-type pins.
-- [iSlewRate()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.23_iSlewRate.md>) —— SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 pins in PMU operating mode.
-- [measFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.28_measFilter.md>) —— SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 pin in PMU operating mode.
-- [vFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.40_vFilter.md>) —— SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 SIG-type pins
-- [vForceRange()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.42_vForceRange.md>) —— SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 DPS-type pins.
-- [vSlewRate()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.48_vSlewRate.md>) —— SmarTest 7.4.4: The function can be used in the pattern鈥慴ased mode for AVI64 SIG-type pins.
+- [iFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.15_iFilter.md>) —— SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 pins in PMU operating mode.
+- [iForceRange()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.17_iForceRange.md>) —— SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 DPS-type pins.
+- [iSlewRate()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.23_iSlewRate.md>) —— SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 pins in PMU operating mode.
+- [measFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.28_measFilter.md>) —— SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 pin in PMU operating mode.
+- [vFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.40_vFilter.md>) —— SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 SIG-type pins
+- [vForceRange()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.42_vForceRange.md>) —— SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 DPS-type pins.
+- [vSlewRate()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.48_vSlewRate.md>) —— SmarTest 7.4.4: The function can be used in the pattern‑based mode for AVI64 SIG-type pins.
 - [Navigation area](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.08.03.02.02_Navigation_area.md>) —— SmarTest 7.4.4: Red-colored highlights for failed pins, symbols and ports.
 - [Sequencer instructions](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.02_Sequencer_instructions.md>) —— SmarTest 7.4.4: MACT supports CONTINUE as a parameter option.
 - [Bins page](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.04_Bins_page.md>) —— SmarTest 7.4.4: Increase maximum number of bins to 65536.
@@ -122,11 +122,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 56 条**，涉及 **56 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **7 处**「`鈥`」字样：`鈥慴`（7 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

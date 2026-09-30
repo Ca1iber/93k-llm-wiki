@@ -48,15 +48,15 @@ DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
 
 Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with a comma.
 
-In the five鈥慸igit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+In the five‑digit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-The legacy three鈥慸igit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
+The legacy three‑digit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
 
 The last two digits specify the channel number 01 ... 32 of the utility line.
 
 On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
 
-When reading the defined utility lines with the DFUP? command, the data returned always have the five鈥慸igit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
+When reading the defined utility lines with the DFUP? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
 
 The channel numbers 16515 and 16516 should not be used. They should only be accessed with the `I2CA`（raw: `02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md`）or the `BDID`（raw: `02.06.02.02.09_BDID__BDID__-__BoarD_ID.md`）firmware command.
 

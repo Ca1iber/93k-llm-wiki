@@ -88,7 +88,7 @@ verified: doc-only
 - [PS1600 TMU (Time Measurement Unit) per pin](<02_System_reference/02.05_Test_Head_Cards/02.05.04.01.07.07_PS1600_TMU__Time_Measurement_Unit__per_pin.md>) —— SmarTest 7.3.2: Support of PS1600B
 - [PS1600 specific setup tasks](<02_System_reference/02.05_Test_Head_Cards/02.05.04.01.07_PS1600_specific_setup_tasks.md>) —— SmarTest 7.3.2: Support of PS1600B
 - [Pin Scale 1600 digital card (Smart Scale)](<02_System_reference/02.05_Test_Head_Cards/02.05.04.01_Pin_Scale_1600_digital_card__Smart_Scale.md>) —— SmarTest 7.3.2: Support of PS1600B
-- [DPS128鈥?鈥奃PS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— SmarTest 7.3.2: Load Capacitance field in DPS128/DPS64 hardware views
+- [DPS128鈥? DPS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— SmarTest 7.3.2: Load Capacitance field in DPS128/DPS64 hardware views
 - [UHC4T features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.02.03.03_UHC4T_features.md>) —— SmarTest 7.3.2: Current limiter protection mode (UHC4T only)
 - [UHC4T features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.02.03.03_UHC4T_features.md>) —— SmarTest 7.3.2: Measure Voltage Drop and Sampler fields of UHC4 and UHC4T hardware views generate sample test method code
 - [UHC4T functionality and features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.02.03_UHC4T_functionality_and_features.md>) —— SmarTest 7.3.2: Support of UHC4T
@@ -135,7 +135,7 @@ verified: doc-only
 - [Test method parameters](<02_System_reference/02.07_Test_Method_Reference/02.07.08.04_Test_method_parameters.md>) —— SmarTest 7.3.2: CCF_ParallelISR parameter introduced to enable parallel testing of independent test suites.
 - [Editing technology data](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.02_Editing_technology_data.md>) —— SmarTest 7.3.2: (patch level 4) New checkbox "Optimized Multiport Memory Allocation"
 - [Technology file for a device](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.03_Technology_file_for_a_device.md>) —— SmarTest 7.3.2: New parameter:fast_transfer_buffer_size
-- [Correlation data store structure](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.04.01_Correlation_data_store_structure.md>) —— SmarTest 7.3.2: Added 螖Range% and 螖StDev% columns.
+- [Correlation data store structure](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.04.01_Correlation_data_store_structure.md>) —— SmarTest 7.3.2: Added ΔRange% and ΔStDev% columns.
 - [Exporting data logs](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.06_Exporting_data_logs.md>) —— SmarTest 7.3.2: Added raw data export option.
 - [Sorting tables](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.01_Sorting_tables.md>) —— SmarTest 7.3.2: Added sorting by multiple columns.
 - [Displaying test results in analysis views](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.03_Displaying_test_results_in_analysis_views.md>) —— SmarTest 7.3.2: Added Protocol Monitor view.

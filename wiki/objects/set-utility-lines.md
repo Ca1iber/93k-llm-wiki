@@ -69,7 +69,7 @@ Both parameters can be filled with data at the same time.
  |
  | utilityLineNameOn  | STRING |
 
-A single utility pin or a comma鈥憇eparated list of utility pins to be set to on or to off.
+A single utility pin or a comma‑separated list of utility pins to be set to on or to off.
 
 Valid names are defined in the `Utility Pins editor`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.18.03.01.04_Utility_Pins_editor.md`）.
 
@@ -77,20 +77,20 @@ Valid names are defined in the `Utility Pins editor`（raw: `../02.08_Setup_and_
  | utilityLineNameOff |
  | utilityPurpose  | STRING |
 
-A utility purpose or a comma鈥憇eparated list of utility purposes to be applied.
+A utility purpose or a comma‑separated list of utility purposes to be applied.
 
 Valid names are defined in the `Pin setting editors`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.18.03.01_Pin_setting_editors.md`） and configured in the `Utility Purpose Editor`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.18.03.01.05_Utility_Purpose_Editor.md`）.
 
  |
  | utilityLineChannelOn  | STRING |
 
-A single utility channel or a comma鈥憇eparated list of utility channels to be set to on or to off.
+A single utility channel or a comma‑separated list of utility channels to be set to on or to off.
 
 The utility channels are to be defined like `UTI101`, `UTI102`.
 
 The format using three digits for the pogo blocks is also supported. For this format, the utility pins are to be defined as `UTI16501` or `UTI16502`, for example.
 
-For the second optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） of EXA Scale systems, the utility pins can be defined only using the three鈥慸igit format of the pogo blocks. The valid range for the second card is `UTI26501` ... `UTI27232`.
+For the second optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） of EXA Scale systems, the utility pins can be defined only using the three‑digit format of the pogo blocks. The valid range for the second card is `UTI26501` ... `UTI27232`.
 
 See also `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
@@ -312,7 +312,7 @@ For a coding example see the file /opt/hp93000/soc/testmethod/library/miscellane
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.07_SetUtilityLines.md`
-（TDC `111065.htm`，**3,871 字节 / 109 行**）。**整篇读完**——本页引文全部来自这一篇 + `edges.jsonl` 里带原句的边。
+（TDC `111065.htm`，**3,861 字节 / 109 行**）。**整篇读完**——本页引文全部来自这一篇 + `edges.jsonl` 里带原句的边。
 
 **入边 6 条 / 5 篇**（`inline` + `toc` 口径）：
 `02.07.05.04_Miscellaneous_test_methods__miscellaneous_tml`（2 条）、

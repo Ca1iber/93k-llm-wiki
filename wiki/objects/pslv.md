@@ -155,8 +155,8 @@ The optional parameter sets the DPS output impedance. You can select:
 
 Note that relay switching is slower than with HIZ.
 
-- LOZ_HIZ combines LOZ with HIZ. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (卤50 mV) or after a timeout of 1 second, the DPS pin is switched to high impedance. This combines the advantages of both modes. A capacitor on the load board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or DUT board after a disconnect.
-- LOZ_HIZ_R combines LOZ with HIZ_R. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (卤50mV) or after a timeout of 1 second, the DPS pin is switched to open. This combines the advantages of both modes. A capacitor on the DUT board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or the DUT board after a disconnect.
+- LOZ_HIZ combines LOZ with HIZ. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50 mV) or after a timeout of 1 second, the DPS pin is switched to high impedance. This combines the advantages of both modes. A capacitor on the load board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or DUT board after a disconnect.
+- LOZ_HIZ_R combines LOZ with HIZ_R. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50mV) or after a timeout of 1 second, the DPS pin is switched to open. This combines the advantages of both modes. A capacitor on the DUT board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or the DUT board after a disconnect.
  |
  |
 

@@ -56,9 +56,15 @@ def plan():
         nb, nn = b, n
         why = []
         if b is not None and b != var['st_size'] and b != var.get('剥掉 frontmatter 后'):
-            if b == var.get('st_size − 行数（CR 归一）'):
-                nb = var['st_size']
-                why.append(f'字节 {b:,}→{nb:,}（CR 归一 → 文件实际大小）')
+            # ★ **2026-09-30 改**：原来只在 `b == var['st_size − 行数（CR 归一）']`
+            # 时才动手，**别的不符一律静默跳过**。
+            # 修语料（坏字改短了字符）之后页面有 14 处字节数过期，
+            # 而 `plan()` 报「**要改 0 处**」—— 同时 `check_doc_stats` 那边红着 14 条。
+            # **两个数打架，看的人只能当没看见。**
+            # 现在：**剩下的任何不符，都改成文件实际大小**（`check_doc_stats` 对它们
+            # 报的就是「哪个口径都对不上」，改成正字是唯一诚实的处置）。
+            nb = var['st_size']
+            why.append(f'字节 {b:,}→{nb:,}（改成文件实际大小 st_size）')
         if n is not None and n != nl:
             nn = nl
             why.append(f'行数 {n}→{nn}（wc -l）')

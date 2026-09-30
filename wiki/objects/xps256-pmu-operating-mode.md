@@ -41,25 +41,25 @@ The three examples are set up in a three-step sequence of connecting the pin and
 
  These examples are available in the following sections:
 
-- `Example 1: SmartRDI, pattern鈥慴ased programming`（raw: `02.05.05.03.10.15_XPS256_programming_-_PMU_operating_mode.md#_354253__e_SRDI_pattern-based`）
+- `Example 1: SmartRDI, pattern‑based programming`（raw: `02.05.05.03.10.15_XPS256_programming_-_PMU_operating_mode.md#_354253__e_SRDI_pattern-based`）
 
-Pattern鈥慴ased programming using SmartRDI is the recommended solution that requires the least amount of code and on the other hand delivers the most stable result in terms of timing.
+Pattern‑based programming using SmartRDI is the recommended solution that requires the least amount of code and on the other hand delivers the most stable result in terms of timing.
 
-- `Example 2: SmartRDI, code鈥慴ased programming`（raw: `02.05.05.03.10.15_XPS256_programming_-_PMU_operating_mode.md#_354253__e_SRDI_code-based`）
+- `Example 2: SmartRDI, code‑based programming`（raw: `02.05.05.03.10.15_XPS256_programming_-_PMU_operating_mode.md#_354253__e_SRDI_code-based`）
 
-Code鈥慴ased programming using SmartRDI needs some more code and must follow the structure of the wrapped test method APIs.
+Code‑based programming using SmartRDI needs some more code and must follow the structure of the wrapped test method APIs.
 
 - `Example 3: Test method API SPMU_TASK`（raw: `02.05.05.03.10.15_XPS256_programming_-_PMU_operating_mode.md#_354253__e_TM_API_based`）
 
 This example is based on the test method APIs and is strongly tied to the structure of the underlying commands.
 
-The code of the three examples generates the same measurement sequence for the programmed pin. If you use the `Trace Function`（raw: `../02.06_Command_Reference/02.06.01.03.05_Using_the_Trace_Function.md`） to compare the code鈥慴ased SmartRDI example and the example based on the test method APIs, you will get the same output in the MCDLog file.
+The code of the three examples generates the same measurement sequence for the programmed pin. If you use the `Trace Function`（raw: `../02.06_Command_Reference/02.06.01.03.05_Using_the_Trace_Function.md`） to compare the code‑based SmartRDI example and the example based on the test method APIs, you will get the same output in the MCDLog file.
 
-### Example 1: SmartRDI, pattern鈥慴ased programming
+### Example 1: SmartRDI, pattern‑based programming
 
-The example uses a code鈥慴ased `RDI command`（raw: `../02.07_Test_Method_Reference/02.07.13.05_Code_structure_with_SmartRDI.md#_142604__dle_RDI_command`） to setup and connect the XPS256 pin. The following `RDI block`（raw: `../02.07_Test_Method_Reference/02.07.13.05_Code_structure_with_SmartRDI.md#_142604__dle_RDI_block`） performs a pattern鈥慴ased measurement. The last RDI command disconnects the XPS256 pin in code鈥慴ased mode.
+The example uses a code‑based `RDI command`（raw: `../02.07_Test_Method_Reference/02.07.13.05_Code_structure_with_SmartRDI.md#_142604__dle_RDI_command`） to setup and connect the XPS256 pin. The following `RDI block`（raw: `../02.07_Test_Method_Reference/02.07.13.05_Code_structure_with_SmartRDI.md#_142604__dle_RDI_block`） performs a pattern‑based measurement. The last RDI command disconnects the XPS256 pin in code‑based mode.
 
-Since the RDI block uses a specialized `DC event`（raw: `../02.07_Test_Method_Reference/02.07.04.01.63_EVENT_...__DC_events_API_reference.md`） to perform the measurement, only the measurement related parameters must be defined. In contrast, for code鈥慴ased programming with SmartRDI or programming with test method APIs, all parameters must be specified also for the measurement.
+Since the RDI block uses a specialized `DC event`（raw: `../02.07_Test_Method_Reference/02.07.04.01.63_EVENT_...__DC_events_API_reference.md`） to perform the measurement, only the measurement related parameters must be defined. In contrast, for code‑based programming with SmartRDI or programming with test method APIs, all parameters must be specified also for the measurement.
 
 ```
 RDI_INIT();
@@ -90,7 +90,7 @@ double resultIMeasXPS256;
 resultIMeasXPS256 = rdi.id("iMeasXPS256").getValue("XPS256_PMU_1");
 ```
 
-### Example 2: SmartRDI, code鈥慴ased programming
+### Example 2: SmartRDI, code‑based programming
 
 The first `RDI command`（raw: `../02.07_Test_Method_Reference/02.07.13.05_Code_structure_with_SmartRDI.md#_142604__dle_RDI_command`） connects and sets the XPS256 pin: DC Scale pins in PMU operating mode are automatically connected if `iForce()`（raw: `../02.07_Test_Method_Reference/02.07.13.12.02.16_iForce.md`） or `vForce()`（raw: `../02.07_Test_Method_Reference/02.07.13.12.02.41_vForce.md`） are used within the RDI command. For more information, see also `Setting up DC Scale pins with SmartRDI`（raw: `../02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md`）.
 
@@ -317,7 +317,7 @@ resultIMeasXPS256 = spmuTask_measure.getValue("XPS256_PMU_1");
 ## 出处
 
 - 定义文档：`02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.15_XPS256_programming_-_PMU_operating_mode.md`
-  （TDC `354253.htm`，19,208 字节）
+  （TDC `354253.htm`，19,176 字节）
 - **入边 57 条 / 29 篇**（含自身 1 篇 / 15 条文内锚点）：`extract/pack/06-xps256-programming-pmu-operating-mode.md`
   口径同 `hubs-dedup.csv`：**只算 `inline` 边**。
 - 所属：**Test Head Cards**（`02.05`）→ XPS256（DC Scale 系列）

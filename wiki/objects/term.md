@@ -109,7 +109,7 @@ The use of this parameter depends on the termination mode as shown in the Termin
 
 When used, param_2 defines either
 
-- the active load Iol current in 碌A,
+- the active load Iol current in µA,
 - the clamp high level voltage in mV, or
 - the receiver swing voltage in mV.
 
@@ -124,7 +124,7 @@ param_3
 
 The use of this parameter depends on the termination mode as shown in the Termination modes table, below:
 
-- For term_mode = A, param_3 defines the active load Ioh current. The units are 碌A.
+- For term_mode = A, param_3 defines the active load Ioh current. The units are µA.
 - For term_mode = CT, param_3 defines the receiver offset in mV.
 - For term_mode = bidir_receiver, param_3 defines the receiver offset in mV.
  |
@@ -500,7 +500,7 @@ A warning is generated if:
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`
-（TDC `98771.htm`，11,653 字节，556 行）。**整篇读完。**
+（TDC `98771.htm`，11,651 字节，556 行）。**整篇读完。**
 
 **本页没做的**：
 

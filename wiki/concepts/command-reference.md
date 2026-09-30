@@ -3961,7 +3961,7 @@ This is an optional parameter.
 
  |   | I  | Specifies the force current mode.
 
-Parameter forceValue is to be defined in 碌A (Microampere).
+Parameter forceValue is to be defined in µA (Microampere).
 
  |
  |   | V  | Specifies the force voltage mode.
@@ -3975,13 +3975,13 @@ This is the default force mode.
 The force current mode is currently supported only by the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`）.
 
  |
- | forceValue  | The force value parameter specifies the force current in 碌A (Microampere) or the force voltage mV (Millivolt).
+ | forceValue  | The force value parameter specifies the force current in µA (Microampere) or the force voltage mV (Millivolt).
 
 The type and unit of the value depends on the value of the forceMode parameter:
 
- |   | I  | The force value is to be specified as current in 碌A (Microampere). |
+ |   | I  | The force value is to be specified as current in µA (Microampere). |
  |   | V  | The force value is to be specified as voltage in mV (Millivolt).  |  The valid range for the force value depends on the hardware. |
- | clampValue  | The optional clamp value parameter specifies the output clamp voltage in mV (Millivolt) or the output clamp current in 碌A (Microampere).
+ | clampValue  | The optional clamp value parameter specifies the output clamp voltage in mV (Millivolt) or the output clamp current in µA (Microampere).
 
 The type and unit of the value depends on the value of the forceMode parameter:
 
@@ -3990,7 +3990,7 @@ The type and unit of the value depends on the value of the forceMode parameter:
 This is the default mode.
 
  |
- |   | V  | The clamp value is to be specified as output clamp current in 碌A (Microampere).  |  The parameter may be defined as floating-point number or as string.
+ |   | V  | The clamp value is to be specified as output clamp current in µA (Microampere).  |  The parameter may be defined as floating-point number or as string.
 
 The string format supports different values for the upper (or positive) clamp value and the lower (or negative) clamp value.
 
@@ -4054,13 +4054,13 @@ Example:
 `...,"forceDrop:5000 returnDrop:4000",...`
 
  |
- | lowThreshold  | The low threshold is used for evaluating the Pass/Fail result. It's specified in 碌A. |
- | highThreshold  | The high threshold is used for evaluating the Pass/Fail result. It's specified in 碌A. |
+ | lowThreshold  | The low threshold is used for evaluating the Pass/Fail result. It's specified in µA. |
+ | highThreshold  | The high threshold is used for evaluating the Pass/Fail result. It's specified in µA. |
  | forceRange  | This extra parameter specifies the force range.
 
 The type and unit of the value depends on the value of the forceMode parameter:
 
- |   | I  | The force current range is to be specified in 碌A (Microampere). |
+ |   | I  | The force current range is to be specified in µA (Microampere). |
  |   | V  | The force voltage range is to be specified in mV (Millivolt).  | |
  | compareMode  | This optional string parameter defines how the measured value is compared against the lowThreshold and the highThreshold.
 
@@ -4080,7 +4080,7 @@ The valid range is 0 ms to 2000 ms. The specified settling time is added to the 
 The type and unit of the value depends on the value of the forceMode parameter:
 
  |   | I  | The clamp voltage range is to be specified in mV (Millivolt). |
- |   | V  | The clamp current range is to be specified in 碌A (Microampere).  | |
+ |   | V  | The clamp current range is to be specified in µA (Microampere).  | |
  | relayAction  | This parameter defines the termination mode of the measurement. The mode can be:
 
  | |
@@ -5315,7 +5315,7 @@ This is an optional parameter.
 
 Specifies the force current mode.
 
-Parameter forceValue is to be defined in 碌A (Microampere).
+Parameter forceValue is to be defined in µA (Microampere).
 
 This is the default force mode.
 
@@ -5333,11 +5333,11 @@ The force current mode is only supported by the `DC Scale XPS256 card`（raw: `.
  |
  | forceValue |
 
-The force value parameter specifies the force current in 碌A (Microampere) or the force voltage mV (Millivolt).
+The force value parameter specifies the force current in µA (Microampere) or the force voltage mV (Millivolt).
 
 The type and unit of the value depends on the value of the forceMode parameter:
 
- |   | I  | The force value is to be specified as current in 碌A (Microampere). |
+ |   | I  | The force value is to be specified as current in µA (Microampere). |
  |   | V  | The force value is to be specified as voltage in mV (Millivolt). |
 
 The valid range for the force value depends on the hardware.
@@ -5347,7 +5347,7 @@ HPMU force current value: -200mA ... +200mA
  |
  | clampValue |
 
-The optional clamp value parameter specifies the output clamp voltage in mV (Millivolt) or the output clamp current in 碌A (Microampere).
+The optional clamp value parameter specifies the output clamp voltage in mV (Millivolt) or the output clamp current in µA (Microampere).
 
 The type and unit of the value depends on the value of the forceMode parameter:
 
@@ -5358,7 +5358,7 @@ The clamp value is to be specified as output clamp voltage in mV (Millivolt).
 This is the default mode.
 
  |
- |   | V  | The clamp value is to be specified as output clamp current in 碌A (Microampere). |
+ |   | V  | The clamp value is to be specified as output clamp current in µA (Microampere). |
 
 The parameter may be defined as floating-point number or as string.
 
@@ -5444,7 +5444,7 @@ This extra parameter specifies the force range.
 
 The type and unit of the value depends on the value of the forceMode parameter:
 
- |   | I  | The force current range is to be specified in 碌A (Microampere). |
+ |   | I  | The force current range is to be specified in µA (Microampere). |
  |   | V  | The force voltage range is to be specified in mV (Millivolt).  | |
  | compareMode |
 
@@ -5470,7 +5470,7 @@ This extra parameter specifies the clamp range.
 The type and unit of the value depends on the value of the forceMode parameter:
 
  |   | I  | The clamp voltage range is to be specified in mV (Millivolt). |
- |   | V  | The clamp current range is to be specified in 碌A (Microampere).  | |
+ |   | V  | The clamp current range is to be specified in µA (Microampere).  | |
  | relayAction  | This parameter defines the termination mode of the measurement. The mode can be:
 
  |   | NTBBM |
@@ -5588,7 +5588,7 @@ Default property is OFF.
 
 Supported only by the HC variant of DPS128 and by XPS256.
 
-For more information on DPS128 kelvin measurements, refer to `Voltage drop measurement`（raw: `../02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md#_140638__s_Voltage_drop_measurement`） in `DPS128鈥?鈥奃PS64 functionality and features`（raw: `../02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md`）.
+For more information on DPS128 kelvin measurements, refer to `Voltage drop measurement`（raw: `../02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md#_140638__s_Voltage_drop_measurement`） in `DPS128鈥? DPS64 functionality and features`（raw: `../02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md`）.
 
  |
  | KELVIN_RETURN |
@@ -5603,7 +5603,7 @@ Default property is OFF.
 
 Supported only by the HC variant of DPS128 and by XPS256.
 
-For more information on DPS128-HC kelvin measurements, refer to `Voltage drop measurement`（raw: `../02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md#_140638__s_Voltage_drop_measurement`） in `DPS128鈥?鈥奃PS64 functionality and features`（raw: `../02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md`）.
+For more information on DPS128-HC kelvin measurements, refer to `Voltage drop measurement`（raw: `../02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md#_140638__s_Voltage_drop_measurement`） in `DPS128鈥? DPS64 functionality and features`（raw: `../02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md`）.
 
 For more information on XPS256 kelvin measurements, refer to `XPS256 programming - Kelvin test / sense connection test`（raw: `../02.05_Test_Head_Cards/02.05.05.03.10.12_XPS256_programming_-_Kelvin_test___sense_connection_test.md`）.
 
@@ -7006,7 +7006,7 @@ The test system channel number of the DPS channel to be configured.
 
 The channel is to be defined as follows:
 
-- For `external device power supplies`（raw: `../02.05_Test_Head_Cards/02.05.06_External_device_power_supply__external_GPIB_DPS.md`）, this is a three鈥慸igit or four鈥慸igit integer.
+- For `external device power supplies`（raw: `../02.05_Test_Head_Cards/02.05.06_External_device_power_supply__external_GPIB_DPS.md`）, this is a three‑digit or four‑digit integer.
 
 The first one or two digits define an external supply. To avoid a conflict with the internal supplies, we recommend using values above 8. The maximum supported value is 16.
 
@@ -7838,15 +7838,15 @@ DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
 
 Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with a comma.
 
-In the five鈥慸igit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+In the five‑digit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-The legacy three鈥慸igit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
+The legacy three‑digit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
 
 The last two digits specify the channel number 01 ... 32 of the utility line.
 
 On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
 
-When reading the defined utility lines with the DFUP? command, the data returned always have the five鈥慸igit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
+When reading the defined utility lines with the DFUP? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
 
 The channel numbers 16515 and 16516 should not be used. They should only be accessed with the `I2CA`（raw: `02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md`）or the `BDID`（raw: `02.06.02.02.09_BDID__BDID__-__BoarD_ID.md`）firmware command.
 
@@ -7918,15 +7918,15 @@ DFUT {ch_No}, {type}, {(util_name)}
 
 Channel number of the utility line specified with five or three digits.
 
-In the five鈥慸igit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+In the five‑digit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-In the legacy three鈥慸igit format, the first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
+In the legacy three‑digit format, the first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
 
 The last two digits specify the channel number 01 ... 32 of the utility line.
 
 On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
 
-When reading the defined utility lines with the DFUT? command, the data returned always have the five鈥慸igit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
+When reading the defined utility lines with the DFUT? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
 
 For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）
 
@@ -7939,7 +7939,7 @@ Specifies the operating mode of the utility line with the following specifiers:
 - R: Read-Only
 - RW: Read-Write
 
-Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware鈥慶ontrolled shutdown of XPS256 pins:
+Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware‑controlled shutdown of XPS256 pins:
 
 - TRIGGER_IF_HIGH: Safety line
 - TRIGGER_IF_LOW: Safety line
@@ -8283,7 +8283,7 @@ nr_vectors
 
 The number of vectors that are to be downloaded or uploaded, starting from offset. The Digital Capture variable type default is
 
-nr_of_ frames 脳 nr_vec_per_frame
+nr_of_ frames × nr_vec_per_frame
 
 where nr_of_ frames and nr_vec_per_frame are parameters of the vector variable.
 
@@ -8799,7 +8799,7 @@ HSER
 
  |
 
-A special kind of SM for patterns used in SmartLoop testing. For details see `Defining a compliance pattern for pattern鈥慴ased SmartLoop testing`（raw: `02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md`）.
+A special kind of SM for patterns used in SmartLoop testing. For details see `Defining a compliance pattern for pattern‑based SmartLoop testing`（raw: `02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md`）.
 
  |
  |   | SMEXT  | A special kind of memory for vectors, used only when himem is enabled in the .technology file. See `Technology file for a device - himem`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md#_49363__row_himem`） for details. This option can only be used in the query with MFRE or MFRP. |
@@ -18236,11 +18236,11 @@ IRNG
 
  |
 
-Specifies the current range with par2 that is. You can specify a value in 碌A or one of the following codes:
+Specifies the current range with par2 that is. You can specify a value in µA or one of the following codes:
 
-IRA = +/- 10 碌A range
+IRA = +/- 10 µA range
 
-IRB = +/- 100 碌A range
+IRB = +/- 100 µA range
 
 IRC = +/- 1 mA range
 
@@ -18269,7 +18269,7 @@ IFOR
 
  |
 
-Specifies a force current with par2 in 碌A when the working mode (SEL action) is set to voltage measurement.
+Specifies a force current with par2 in µA when the working mode (SEL action) is set to voltage measurement.
 
  |
  |
@@ -18287,7 +18287,7 @@ PMUL
 
  |
 
-Specifies the lower pass limit of the DC test with par2 in 碌A for current measurements, or in mV for voltage measurements. This value is used for pass/fail judgment and is set to the PPMU hardware.
+Specifies the lower pass limit of the DC test with par2 in µA for current measurements, or in mV for voltage measurements. This value is used for pass/fail judgment and is set to the PPMU hardware.
 
  |
  |
@@ -18296,7 +18296,7 @@ PMUH
 
  |
 
-Specifies the higher pass limit of the DC test with par2 in 碌A for current measurement, or in mV for voltage measurement. This value is used for pass/fail judgment and is set to the PPMU hardware.
+Specifies the higher pass limit of the DC test with par2 in µA for current measurement, or in mV for voltage measurement. This value is used for pass/fail judgment and is set to the PPMU hardware.
 
  |
  |
@@ -18438,7 +18438,7 @@ ICPL
 
  |
 
-Specifies the clamp low current with par2 in 碌A.
+Specifies the clamp low current with par2 in µA.
 
  |
  |
@@ -18447,7 +18447,7 @@ ICPH
 
  |
 
-Specifies the clamp high current with par2 in 碌A.
+Specifies the clamp high current with par2 in µA.
 
  |
  |
@@ -19940,7 +19940,7 @@ The command additionally stores a global pass/fail result for all active sites. 
  |   |   | If not specified, the measurement results are returned only for the site in result focus. The command returns individual results for the measurements defined by parameter spec and for the pins defined by pinlist. A following PRLT? query will return an error message. |
  | spec  | The mandatory parameter defines the test specification that can be: |
  | Fo_Se  | to check that the force/sense lines are correctly wired on your DUT board. This measurement must be made in disconnected state. |
- | Ma_S1  | to check the force connections on the ganging line. The force of master and all forces of slaves must be connected within a resistant of 20 惟. PASS is returned if pin is not in ganging mode.
+ | Ma_S1  | to check the force connections on the ganging line. The force of master and all forces of slaves must be connected within a resistant of 20 Ω. PASS is returned if pin is not in ganging mode.
 
 Only supported with the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`）.
 
@@ -21246,7 +21246,7 @@ value
 
  |
 
-The value of the load capacitor (capacitance) in 渭F in the range of 0.0 ... 214748364.6.
+The value of the load capacitor (capacitance) in μF in the range of 0.0 ... 214748364.6.
 
  |
  |
@@ -21257,7 +21257,7 @@ DCS_value
 
 Capacitance for DPS128 HC. This value must be set to 0, if there is no capacitance on the DUT board. Otherwise it must be set to the capacitance value of the DUT board.
 
-The range is: `2147 渭F *` number_of_ganged_channels
+The range is: `2147 μF *` number_of_ganged_channels
 
  |
  |
@@ -21578,8 +21578,8 @@ The optional parameter sets the DPS output impedance. You can select:
 
 Note that relay switching is slower than with HIZ.
 
-- LOZ_HIZ combines LOZ with HIZ. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (卤50 mV) or after a timeout of 1 second, the DPS pin is switched to high impedance. This combines the advantages of both modes. A capacitor on the load board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or DUT board after a disconnect.
-- LOZ_HIZ_R combines LOZ with HIZ_R. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (卤50mV) or after a timeout of 1 second, the DPS pin is switched to open. This combines the advantages of both modes. A capacitor on the DUT board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or the DUT board after a disconnect.
+- LOZ_HIZ combines LOZ with HIZ. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50 mV) or after a timeout of 1 second, the DPS pin is switched to high impedance. This combines the advantages of both modes. A capacitor on the load board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or DUT board after a disconnect.
+- LOZ_HIZ_R combines LOZ with HIZ_R. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50mV) or after a timeout of 1 second, the DPS pin is switched to open. This combines the advantages of both modes. A capacitor on the DUT board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or the DUT board after a disconnect.
  |
  |
 
@@ -22621,7 +22621,7 @@ RLYC [pin_mode], [dc_target], {(pinlist)}
 
  Note
 
-In offline mode, the command cannot always return the correct settings of the hardware. This is especially true when hardware settings depend on pattern鈥慴ased conditional jumps and match loops.
+In offline mode, the command cannot always return the correct settings of the hardware. This is especially true when hardware settings depend on pattern‑based conditional jumps and match loops.
 
  If SmarTest determines that the state of the hardware cannot be evaluated correctly, the message
 
@@ -25717,7 +25717,7 @@ NONE = no memory for parallel vectors (default for all label types except MAIN a
 
 SHMEM = memory shared for different sites of the same pin (only for 7.x, for details see `Selecting the memory type`（raw: `02.06.07.01.04.01_Selecting_the_memory_type.md`）.
 
-HSER = memory for SmartLoop鈩? initialization patterns (see `Defining a compliance pattern for pattern鈥慴ased SmartLoop testing`（raw: `02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md`）)
+HSER = memory for SmartLoop鈩? initialization patterns (see `Defining a compliance pattern for pattern‑based SmartLoop testing`（raw: `02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md`）)
 
 An empty value will delete the attribute definition. This attribute can only be changed if the sequencer program of the label contains no GENV or RPTV instructions.
 
@@ -26398,7 +26398,7 @@ Note that this instruction is not supported by the result tools.
 When not all sites are enabled or activated (means, they are masked), see `The states of the sites`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.27.01_The_states_of_the_sites.md`）, and site match is set to ON, the masked sites will not be aware of the abort condition. Instead, the overall execution time depend on the maximum pattern length. In such scenarios, use the `Pattern per site`（raw: `../../03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.03.02.02_Pattern_per_site__Label_per_site.md`） feature to assign a dummy label for disabled sites. This ensures that the sequencer run get stopped as soon as all enabled sites have met the RETC condition.
 
  |
- |   | RGOP  | The "register operation" instruction performs simple arithmetic operations. It can be used, for instance, to ease the branch reconstruction for a `Sequencer鈥慶ontrolled search with cogo`（raw: `../02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md`）.
+ |   | RGOP  | The "register operation" instruction performs simple arithmetic operations. It can be used, for instance, to ease the branch reconstruction for a `Sequencer‑controlled search with cogo`（raw: `../02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md`）.
 
 param_1 is required, param_2 must be omitted.
 
@@ -28544,7 +28544,7 @@ The use of this parameter depends on the termination mode as shown in the Termin
 
 When used, param_2 defines either
 
-- the active load Iol current in 碌A,
+- the active load Iol current in µA,
 - the clamp high level voltage in mV, or
 - the receiver swing voltage in mV.
 
@@ -28559,7 +28559,7 @@ param_3
 
 The use of this parameter depends on the termination mode as shown in the Termination modes table, below:
 
-- For term_mode = A, param_3 defines the active load Ioh current. The units are 碌A.
+- For term_mode = A, param_3 defines the active load Ioh current. The units are µA.
 - For term_mode = CT, param_3 defines the receiver offset in mV.
 - For term_mode = bidir_receiver, param_3 defines the receiver offset in mV.
  |
@@ -33893,7 +33893,7 @@ The following options are supported:
 
  | DIODE |
 
-The internal force to sense connections are made via anti鈥憄arallel diodes.
+The internal force to sense connections are made via anti‑parallel diodes.
 
 This is the default state if the parameter is not defined.
 
@@ -33917,7 +33917,7 @@ This parameter is supported only by the `DC Scale XPS256 card`（raw: `../02.05_
  |
  | force_drop |
 
-The optional parameter forces a channel to be disconnected if a user鈥慸efined voltage drop on the force lines is reached, which means that the absolute voltage is higher than the defined threshold.
+The optional parameter forces a channel to be disconnected if a user‑defined voltage drop on the force lines is reached, which means that the absolute voltage is higher than the defined threshold.
 
 The `DC Scale UHC4T card`（raw: `../02.05_Test_Head_Cards/02.05.05.02_DC_Scale_UHC4T_card.md`） and the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`） can measure the voltage drop of the force line on the DUT board.
 
@@ -33984,7 +33984,7 @@ The extra parameter specifies whether a pulldown resistor is active after discon
  |
  | pinlist |
 
-The mandatory comma鈥憇eparated list of pins.
+The mandatory comma‑separated list of pins.
 
 The @ character can be used to specify all applicable pins.
 
@@ -34310,9 +34310,9 @@ utility_group
 
 This parameter specifies the utility pogo block.
 
-The pogo block is defined by a three鈥慸igit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-The legacy single鈥慸igit format 1 ... 8 is also supported, but the query always returns the three鈥慸igit format.
+The legacy single‑digit format 1 ... 8 is also supported, but the query always returns the three‑digit format.
 
 For the query, ALL can be entered to specify all utility blocks.
 
@@ -34329,7 +34329,7 @@ The returned integer word.
 
 This integer word must be translated to binary code to get the state of each utility line in the utility line block specified in the query.
 
-The range is 0 ... 4鈥?94鈥?67鈥?95 for a 4鈥憆ow utility block.
+The range is 0 ... 4鈥?94鈥?67鈥?95 for a 4‑row utility block.
 
  |
 
@@ -34387,9 +34387,9 @@ UTOT {utility_group}, [mask], {word}
 
 This parameter specifies the utility pogo block.
 
-The pogo block is defined by a three鈥慸igit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-The legacy single鈥慸igit format 1 ... 8 is also supported, but the query always returns the three 鈥慸igit format.
+The legacy single‑digit format 1 ... 8 is also supported, but the query always returns the three ‑digit format.
 
 For the UTOT? query, the parameter can be set to ALL to specify all utility blocks.
 
@@ -34412,7 +34412,7 @@ If the mask parameter is not specified, then all the utility lines in the select
  |
  | value |
 
-This parameter can be entered either as string in the form of a hex word (0 ... FFFF鈥疐FFF), or in the form of an integer word (0 ... 4鈥?94鈥?67鈥?95).
+This parameter can be entered either as string in the form of a hex word (0 ... FFFF FFFF), or in the form of an integer word (0 ... 4鈥?94鈥?67鈥?95).
 
 Utility lines are basically low side switches. Therefore, the utility lines are set to the inverse of the binary equivalent of the specified value. For example, let us assume the value is 12. This equals to 1100 in binary, its inverse is 0011. Therefore, the first and the second utility line (URW00 and URW01) will be set to high, while all others on this block are set to low.
 
@@ -34569,9 +34569,9 @@ UTSC {(word)}, {mode} [, maskMode]
 
 One unique utility pogo block number or a list enclosed in brackets containing utility pogo blocks separated by commas.
 
-The pogo block or the list of pogo blocks uses three鈥慸igit numbers. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+The pogo block or the list of pogo blocks uses three‑digit numbers. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-The legacy single鈥慸igit format 1 ... 8 is also supported, but the query always returns the three鈥慸igit format.
+The legacy single‑digit format 1 ... 8 is also supported, but the query always returns the three‑digit format.
 
  |
  | ALL  | Keyword to use all available utility blocks with the given mode. |
@@ -36082,7 +36082,7 @@ PARA
 
  |
 
-For 鈥楶ARAllel test'.
+For ‘PARAllel test'.
 
  |
  |
@@ -36091,7 +36091,7 @@ PPSQ
 
  |
 
-For 鈥楶er-Pin SeQuencer test'.
+For ‘Per-Pin SeQuencer test'.
 
  |
  |
@@ -36245,7 +36245,7 @@ PARA
 
  |
 
-For 鈥楶ARAllel test'.
+For ‘PARAllel test'.
 
  |
  |
@@ -36254,7 +36254,7 @@ PPSQ
 
  |
 
-For 鈥楶er-Pin SeQuencer test'.
+For ‘Per-Pin SeQuencer test'.
 
  |
  |
@@ -36998,7 +36998,7 @@ time
 
  |
 
-Enter a time in 碌s.
+Enter a time in µs.
 
  |
 
@@ -37008,7 +37008,7 @@ Enter a time in 碌s.
 RLYC DC,PMU,(outputs); WAIT 1000; FTST?
 ```
 
-This example causes the MCD to wait 1 ms (1000 碌s) for the PMU relay to close before executing a functional test.
+This example causes the MCD to wait 1 ms (1000 µs) for the PMU relay to close before executing a functional test.
 
 ### WAVE（取自子主题 Commands in alphabetical order › List of commands › WAVE  WAVE  -  WAVEform）
 
@@ -39965,7 +39965,7 @@ The test system channel number of the DPS channel to be configured.
 
 The channel is to be defined as follows:
 
-- For `external device power supplies`（raw: `../02.05_Test_Head_Cards/02.05.06_External_device_power_supply__external_GPIB_DPS.md`）, this is a three鈥慸igit or four鈥慸igit integer.
+- For `external device power supplies`（raw: `../02.05_Test_Head_Cards/02.05.06_External_device_power_supply__external_GPIB_DPS.md`）, this is a three‑digit or four‑digit integer.
 
 The first one or two digits define an external supply. To avoid a conflict with the internal supplies, we recommend using values above 8. The maximum supported value is 16.
 
@@ -40179,15 +40179,15 @@ DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
 
 Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with a comma.
 
-In the five鈥慸igit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+In the five‑digit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-The legacy three鈥慸igit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
+The legacy three‑digit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
 
 The last two digits specify the channel number 01 ... 32 of the utility line.
 
 On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
 
-When reading the defined utility lines with the DFUP? command, the data returned always have the five鈥慸igit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
+When reading the defined utility lines with the DFUP? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
 
 The channel numbers 16515 and 16516 should not be used. They should only be accessed with the `I2CA`（raw: `02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md`）or the `BDID`（raw: `02.06.02.02.09_BDID__BDID__-__BoarD_ID.md`）firmware command.
 
@@ -40259,15 +40259,15 @@ DFUT {ch_No}, {type}, {(util_name)}
 
 Channel number of the utility line specified with five or three digits.
 
-In the five鈥慸igit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+In the five‑digit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-In the legacy three鈥慸igit format, the first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
+In the legacy three‑digit format, the first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
 
 The last two digits specify the channel number 01 ... 32 of the utility line.
 
 On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
 
-When reading the defined utility lines with the DFUT? command, the data returned always have the five鈥慸igit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
+When reading the defined utility lines with the DFUT? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
 
 For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）
 
@@ -40280,7 +40280,7 @@ Specifies the operating mode of the utility line with the following specifiers:
 - R: Read-Only
 - RW: Read-Write
 
-Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware鈥慶ontrolled shutdown of XPS256 pins:
+Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware‑controlled shutdown of XPS256 pins:
 
 - TRIGGER_IF_HIGH: Safety line
 - TRIGGER_IF_LOW: Safety line
@@ -43447,8 +43447,8 @@ The optional parameter sets the DPS output impedance. You can select:
 
 Note that relay switching is slower than with HIZ.
 
-- LOZ_HIZ combines LOZ with HIZ. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (卤50 mV) or after a timeout of 1 second, the DPS pin is switched to high impedance. This combines the advantages of both modes. A capacitor on the load board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or DUT board after a disconnect.
-- LOZ_HIZ_R combines LOZ with HIZ_R. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (卤50mV) or after a timeout of 1 second, the DPS pin is switched to open. This combines the advantages of both modes. A capacitor on the DUT board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or the DUT board after a disconnect.
+- LOZ_HIZ combines LOZ with HIZ. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50 mV) or after a timeout of 1 second, the DPS pin is switched to high impedance. This combines the advantages of both modes. A capacitor on the load board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or DUT board after a disconnect.
+- LOZ_HIZ_R combines LOZ with HIZ_R. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50mV) or after a timeout of 1 second, the DPS pin is switched to open. This combines the advantages of both modes. A capacitor on the DUT board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or the DUT board after a disconnect.
  |
  |
 
@@ -45502,7 +45502,7 @@ The use of this parameter depends on the termination mode as shown in the Termin
 
 When used, param_2 defines either
 
-- the active load Iol current in 碌A,
+- the active load Iol current in µA,
 - the clamp high level voltage in mV, or
 - the receiver swing voltage in mV.
 
@@ -45517,7 +45517,7 @@ param_3
 
 The use of this parameter depends on the termination mode as shown in the Termination modes table, below:
 
-- For term_mode = A, param_3 defines the active load Ioh current. The units are 碌A.
+- For term_mode = A, param_3 defines the active load Ioh current. The units are µA.
 - For term_mode = CT, param_3 defines the receiver offset in mV.
 - For term_mode = bidir_receiver, param_3 defines the receiver offset in mV.
  |
@@ -45644,7 +45644,7 @@ time
 
  |
 
-Enter a time in 碌s.
+Enter a time in µs.
 
  |
 
@@ -45654,7 +45654,7 @@ Enter a time in 碌s.
 RLYC DC,PMU,(outputs); WAIT 1000; FTST?
 ```
 
-This example causes the MCD to wait 1 ms (1000 碌s) for the PMU relay to close before executing a functional test.
+This example causes the MCD to wait 1 ms (1000 µs) for the PMU relay to close before executing a functional test.
 
 ### Syntax（取自子主题 Level Setup Commands › List of level setup commands › RST -  ReSeT）
 
@@ -52580,7 +52580,7 @@ HSER
 
  |
 
-A special kind of SM for patterns used in SmartLoop testing. For details see `Defining a compliance pattern for pattern鈥慴ased SmartLoop testing`（raw: `02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md`）.
+A special kind of SM for patterns used in SmartLoop testing. For details see `Defining a compliance pattern for pattern‑based SmartLoop testing`（raw: `02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md`）.
 
  |
  |   | SMEXT  | A special kind of memory for vectors, used only when himem is enabled in the .technology file. See `Technology file for a device - himem`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md#_49363__row_himem`） for details. This option can only be used in the query with MFRE or MFRP. |
@@ -53831,7 +53831,7 @@ NONE = no memory for parallel vectors (default for all label types except MAIN a
 
 SHMEM = memory shared for different sites of the same pin (only for 7.x, for details see `Selecting the memory type`（raw: `02.06.07.01.04.01_Selecting_the_memory_type.md`）.
 
-HSER = memory for SmartLoop鈩? initialization patterns (see `Defining a compliance pattern for pattern鈥慴ased SmartLoop testing`（raw: `02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md`）)
+HSER = memory for SmartLoop鈩? initialization patterns (see `Defining a compliance pattern for pattern‑based SmartLoop testing`（raw: `02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md`）)
 
 An empty value will delete the attribute definition. This attribute can only be changed if the sequencer program of the label contains no GENV or RPTV instructions.
 
@@ -54512,7 +54512,7 @@ Note that this instruction is not supported by the result tools.
 When not all sites are enabled or activated (means, they are masked), see `The states of the sites`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.27.01_The_states_of_the_sites.md`）, and site match is set to ON, the masked sites will not be aware of the abort condition. Instead, the overall execution time depend on the maximum pattern length. In such scenarios, use the `Pattern per site`（raw: `../../03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.03.02.02_Pattern_per_site__Label_per_site.md`） feature to assign a dummy label for disabled sites. This ensures that the sequencer run get stopped as soon as all enabled sites have met the RETC condition.
 
  |
- |   | RGOP  | The "register operation" instruction performs simple arithmetic operations. It can be used, for instance, to ease the branch reconstruction for a `Sequencer鈥慶ontrolled search with cogo`（raw: `../02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md`）.
+ |   | RGOP  | The "register operation" instruction performs simple arithmetic operations. It can be used, for instance, to ease the branch reconstruction for a `Sequencer‑controlled search with cogo`（raw: `../02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md`）.
 
 param_1 is required, param_2 must be omitted.
 
@@ -55629,7 +55629,7 @@ PARA
 
  |
 
-For 鈥楶ARAllel test'.
+For ‘PARAllel test'.
 
  |
  |
@@ -55638,7 +55638,7 @@ PPSQ
 
  |
 
-For 鈥楶er-Pin SeQuencer test'.
+For ‘Per-Pin SeQuencer test'.
 
  |
  |
@@ -55792,7 +55792,7 @@ PARA
 
  |
 
-For 鈥楶ARAllel test'.
+For ‘PARAllel test'.
 
  |
  |
@@ -55801,7 +55801,7 @@ PPSQ
 
  |
 
-For 鈥楶er-Pin SeQuencer test'.
+For ‘Per-Pin SeQuencer test'.
 
  |
  |
@@ -59791,11 +59791,11 @@ IRNG
 
  |
 
-Specifies the current range with par2 that is. You can specify a value in 碌A or one of the following codes:
+Specifies the current range with par2 that is. You can specify a value in µA or one of the following codes:
 
-IRA = +/- 10 碌A range
+IRA = +/- 10 µA range
 
-IRB = +/- 100 碌A range
+IRB = +/- 100 µA range
 
 IRC = +/- 1 mA range
 
@@ -59824,7 +59824,7 @@ IFOR
 
  |
 
-Specifies a force current with par2 in 碌A when the working mode (SEL action) is set to voltage measurement.
+Specifies a force current with par2 in µA when the working mode (SEL action) is set to voltage measurement.
 
  |
  |
@@ -59842,7 +59842,7 @@ PMUL
 
  |
 
-Specifies the lower pass limit of the DC test with par2 in 碌A for current measurements, or in mV for voltage measurements. This value is used for pass/fail judgment and is set to the PPMU hardware.
+Specifies the lower pass limit of the DC test with par2 in µA for current measurements, or in mV for voltage measurements. This value is used for pass/fail judgment and is set to the PPMU hardware.
 
  |
  |
@@ -59851,7 +59851,7 @@ PMUH
 
  |
 
-Specifies the higher pass limit of the DC test with par2 in 碌A for current measurement, or in mV for voltage measurement. This value is used for pass/fail judgment and is set to the PPMU hardware.
+Specifies the higher pass limit of the DC test with par2 in µA for current measurement, or in mV for voltage measurement. This value is used for pass/fail judgment and is set to the PPMU hardware.
 
  |
  |
@@ -59993,7 +59993,7 @@ ICPL
 
  |
 
-Specifies the clamp low current with par2 in 碌A.
+Specifies the clamp low current with par2 in µA.
 
  |
  |
@@ -60002,7 +60002,7 @@ ICPH
 
  |
 
-Specifies the clamp high current with par2 in 碌A.
+Specifies the clamp high current with par2 in µA.
 
  |
  |
@@ -60313,7 +60313,7 @@ The command additionally stores a global pass/fail result for all active sites. 
  |   |   | If not specified, the measurement results are returned only for the site in result focus. The command returns individual results for the measurements defined by parameter spec and for the pins defined by pinlist. A following PRLT? query will return an error message. |
  | spec  | The mandatory parameter defines the test specification that can be: |
  | Fo_Se  | to check that the force/sense lines are correctly wired on your DUT board. This measurement must be made in disconnected state. |
- | Ma_S1  | to check the force connections on the ganging line. The force of master and all forces of slaves must be connected within a resistant of 20 惟. PASS is returned if pin is not in ganging mode.
+ | Ma_S1  | to check the force connections on the ganging line. The force of master and all forces of slaves must be connected within a resistant of 20 Ω. PASS is returned if pin is not in ganging mode.
 
 Only supported with the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`）.
 
@@ -61173,7 +61173,7 @@ The following options are supported:
 
  | DIODE |
 
-The internal force to sense connections are made via anti鈥憄arallel diodes.
+The internal force to sense connections are made via anti‑parallel diodes.
 
 This is the default state if the parameter is not defined.
 
@@ -61197,7 +61197,7 @@ This parameter is supported only by the `DC Scale XPS256 card`（raw: `../02.05_
  |
  | force_drop |
 
-The optional parameter forces a channel to be disconnected if a user鈥慸efined voltage drop on the force lines is reached, which means that the absolute voltage is higher than the defined threshold.
+The optional parameter forces a channel to be disconnected if a user‑defined voltage drop on the force lines is reached, which means that the absolute voltage is higher than the defined threshold.
 
 The `DC Scale UHC4T card`（raw: `../02.05_Test_Head_Cards/02.05.05.02_DC_Scale_UHC4T_card.md`） and the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`） can measure the voltage drop of the force line on the DUT board.
 
@@ -61264,7 +61264,7 @@ The extra parameter specifies whether a pulldown resistor is active after discon
  |
  | pinlist |
 
-The mandatory comma鈥憇eparated list of pins.
+The mandatory comma‑separated list of pins.
 
 The @ character can be used to specify all applicable pins.
 
@@ -68499,15 +68499,15 @@ DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
 
 Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with a comma.
 
-In the five鈥慸igit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+In the five‑digit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-The legacy three鈥慸igit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
+The legacy three‑digit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
 
 The last two digits specify the channel number 01 ... 32 of the utility line.
 
 On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
 
-When reading the defined utility lines with the DFUP? command, the data returned always have the five鈥慸igit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
+When reading the defined utility lines with the DFUP? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
 
 The channel numbers 16515 and 16516 should not be used. They should only be accessed with the `I2CA`（raw: `02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md`）or the `BDID`（raw: `02.06.02.02.09_BDID__BDID__-__BoarD_ID.md`）firmware command.
 
@@ -68579,15 +68579,15 @@ DFUT {ch_No}, {type}, {(util_name)}
 
 Channel number of the utility line specified with five or three digits.
 
-In the five鈥慸igit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+In the five‑digit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-In the legacy three鈥慸igit format, the first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
+In the legacy three‑digit format, the first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
 
 The last two digits specify the channel number 01 ... 32 of the utility line.
 
 On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
 
-When reading the defined utility lines with the DFUT? command, the data returned always have the five鈥慸igit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
+When reading the defined utility lines with the DFUT? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
 
 For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）
 
@@ -68600,7 +68600,7 @@ Specifies the operating mode of the utility line with the following specifiers:
 - R: Read-Only
 - RW: Read-Write
 
-Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware鈥慶ontrolled shutdown of XPS256 pins:
+Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware‑controlled shutdown of XPS256 pins:
 
 - TRIGGER_IF_HIGH: Safety line
 - TRIGGER_IF_LOW: Safety line
@@ -69003,9 +69003,9 @@ utility_group
 
 This parameter specifies the utility pogo block.
 
-The pogo block is defined by a three鈥慸igit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-The legacy single鈥慸igit format 1 ... 8 is also supported, but the query always returns the three鈥慸igit format.
+The legacy single‑digit format 1 ... 8 is also supported, but the query always returns the three‑digit format.
 
 For the query, ALL can be entered to specify all utility blocks.
 
@@ -69022,7 +69022,7 @@ The returned integer word.
 
 This integer word must be translated to binary code to get the state of each utility line in the utility line block specified in the query.
 
-The range is 0 ... 4鈥?94鈥?67鈥?95 for a 4鈥憆ow utility block.
+The range is 0 ... 4鈥?94鈥?67鈥?95 for a 4‑row utility block.
 
  |
 
@@ -69080,9 +69080,9 @@ UTOT {utility_group}, [mask], {word}
 
 This parameter specifies the utility pogo block.
 
-The pogo block is defined by a three鈥慸igit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-The legacy single鈥慸igit format 1 ... 8 is also supported, but the query always returns the three 鈥慸igit format.
+The legacy single‑digit format 1 ... 8 is also supported, but the query always returns the three ‑digit format.
 
 For the UTOT? query, the parameter can be set to ALL to specify all utility blocks.
 
@@ -69105,7 +69105,7 @@ If the mask parameter is not specified, then all the utility lines in the select
  |
  | value |
 
-This parameter can be entered either as string in the form of a hex word (0 ... FFFF鈥疐FFF), or in the form of an integer word (0 ... 4鈥?94鈥?67鈥?95).
+This parameter can be entered either as string in the form of a hex word (0 ... FFFF FFFF), or in the form of an integer word (0 ... 4鈥?94鈥?67鈥?95).
 
 Utility lines are basically low side switches. Therefore, the utility lines are set to the inverse of the binary equivalent of the specified value. For example, let us assume the value is 12. This equals to 1100 in binary, its inverse is 0011. Therefore, the first and the second utility line (URW00 and URW01) will be set to high, while all others on this block are set to low.
 
@@ -69262,9 +69262,9 @@ UTSC {(word)}, {mode} [, maskMode]
 
 One unique utility pogo block number or a list enclosed in brackets containing utility pogo blocks separated by commas.
 
-The pogo block or the list of pogo blocks uses three鈥慸igit numbers. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+The pogo block or the list of pogo blocks uses three‑digit numbers. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-The legacy single鈥慸igit format 1 ... 8 is also supported, but the query always returns the three鈥慸igit format.
+The legacy single‑digit format 1 ... 8 is also supported, but the query always returns the three‑digit format.
 
  |
  | ALL  | Keyword to use all available utility blocks with the given mode. |

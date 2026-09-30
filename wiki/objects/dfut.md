@@ -48,15 +48,15 @@ DFUT {ch_No}, {type}, {(util_name)}
 
 Channel number of the utility line specified with five or three digits.
 
-In the five鈥慸igit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
+In the five‑digit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
-In the legacy three鈥慸igit format, the first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
+In the legacy three‑digit format, the first digit (1 ... 8) specifies the utility pogo block UTIL鈥? ... UTIL鈥?.
 
 The last two digits specify the channel number 01 ... 32 of the utility line.
 
 On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
 
-When reading the defined utility lines with the DFUT? command, the data returned always have the five鈥慸igit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
+When reading the defined utility lines with the DFUT? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
 
 For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）
 
@@ -69,7 +69,7 @@ Specifies the operating mode of the utility line with the following specifiers:
 - R: Read-Only
 - RW: Read-Write
 
-Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware鈥慶ontrolled shutdown of XPS256 pins:
+Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware‑controlled shutdown of XPS256 pins:
 
 - TRIGGER_IF_HIGH: Safety line
 - TRIGGER_IF_LOW: Safety line
@@ -362,7 +362,7 @@ DFUT 16504,w,(filter)
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md`
-（TDC `98560.htm`；**md 4,539 字节 / 106 行**，上游 htm 9,925 字节）。**整篇读完。**
+（TDC `98560.htm`；**md 4,531 字节 / 106 行**，上游 htm 9,925 字节）。**整篇读完。**
 
 **本页没做的**：
 

@@ -393,20 +393,20 @@ At 7 V, each channel can source or sink 0.5 A.
 
 Ten channels will be set to the 1.5A clamp range, 22 channels will be detached.
 
-### Example 3: 7 V, 100 碌A（取自子主题 Level setup related use cases › Setting up the Device Power Supply › Using the UNGANG connect state with DC Scale DPS cards）
+### Example 3: 7 V, 100 µA（取自子主题 Level setup related use cases › Setting up the Device Power Supply › Using the UNGANG connect state with DC Scale DPS cards）
 
 ```
-vout_frc_rng = 7V, iout_clamp_rng = 100碌A
+vout_frc_rng = 7V, iout_clamp_rng = 100µA
 ```
 
 At 7 V, each channel can source or sink 0.5 A.
 
- |   | Number of channels  | = ceil(100碌A / 0.5A) = 1 |
- |   | Current per channel  | = 100碌A / 1 = 100碌A |
+ |   | Number of channels  | = ceil(100µA / 0.5A) = 1 |
+ |   | Current per channel  | = 100µA / 1 = 100µA |
 
-One channel will be set to the 100 碌A clamp range, 31 channels will be detached.
+One channel will be set to the 100 µA clamp range, 31 channels will be detached.
 
-The 100 碌A current clamp range is allowed, because only one channel remains active so this is effectively a single channel and no longer a gang.
+The 100 µA current clamp range is allowed, because only one channel remains active so this is effectively a single channel and no longer a gang.
 
 <!-- 语法节 end -->
 

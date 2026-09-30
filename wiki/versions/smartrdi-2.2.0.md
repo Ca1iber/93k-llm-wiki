@@ -47,8 +47,8 @@ verified: doc-only
 - [write()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.10.06_write.md>) —— SmartRDI 2.2.0: Removed the functionality of burst write.
 - [SmartRDI: DC resource AWG/DGT usage](<02_System_reference/02.07_Test_Method_Reference/02.07.13.11_SmartRDI__DC_resource_AWG_DGT_usage.md>) —— SmartRDI 2.2.0: Supports using the DC Scale resource as a digitizer while sourcing a waveform on the same pin.
 - [relay()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01.17_relay.md>) —— SmartRDI 2.2.0: Supports the syntax relay(TA::PPMU_RELAY_ACTION rly_before)
-- [valueMode()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01.18_valueMode.md>) —— SmartRDI 2.2.0: Supports switching AMUX in the pattern鈥慴ased mode when measuring with board ADC on PS1600.
-- [Setting up Board ADC with SmartRDI](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.02_Setting_up_Board_ADC_with_SmartRDI.md>) —— SmartRDI 2.2.0: Supports switching AMUX on PS1600 in the pattern鈥慴ased mode.
+- [valueMode()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01.18_valueMode.md>) —— SmartRDI 2.2.0: Supports switching AMUX in the pattern‑based mode when measuring with board ADC on PS1600.
+- [Setting up Board ADC with SmartRDI](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.02_Setting_up_Board_ADC_with_SmartRDI.md>) —— SmartRDI 2.2.0: Supports switching AMUX on PS1600 in the pattern‑based mode.
 - [Setting up DC Scale pins with SmartRDI](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md>) —— SmartRDI 2.2.0: New function preCharge().
 
 
@@ -76,11 +76,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 21 条**，涉及 **21 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **2 处**「`鈥`」字样：`鈥慴`（2 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

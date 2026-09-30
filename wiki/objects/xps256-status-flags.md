@@ -70,7 +70,7 @@ verified: doc-only
  | Action:  | The hardware settings are not changed. The flag represents the test result of the surge tracker. |
  | Availability:  | The flag is available per channel. |
  | API:  | `DPS_AUX_TASK.getSurgeTrackerStatus()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.43.05_DPS_AUX_TASK.getSurgeTrackerStatus.md`） |
- | Measurement range change failed  | Trigger:  | Automatic down鈥憆anging in DC measurement cannot set the target current measurement range. |
+ | Measurement range change failed  | Trigger:  | Automatic down‑ranging in DC measurement cannot set the target current measurement range. |
  | Action:  | A warning is shown in the UI report window. |
  | Availability:  | The flag is available per channel. |
  | API:  | `DPS_AUX_TASK.getRangeError()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.43.07.02_DPS_AUX_TASK.getRangeError.md`） |
@@ -278,7 +278,7 @@ verified: doc-only
 ## 出处
 
 - 定义文档：`02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.02_XPS256_status_flags.md`
-  （TDC `354167.htm`，28,952 字节，431 行）
+  （TDC `354167.htm`，28,949 字节，431 行）
 - **入边 79 条 / 22 篇**（`inline` 口径）——**本页的入边里有大量锚点**
   （`#_354167__r_…` 这种指到「某一个标志」的深层链接），
   这是它入边数高的一大原因：**同一篇文档会为每个标志各留一条链接**。

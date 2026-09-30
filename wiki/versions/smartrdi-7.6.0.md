@@ -63,7 +63,7 @@ verified: doc-only
 - [rdi.func().startVec()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.17.01.11_rdi.func__.startVec.md>) —— SmartRDI 7.6.0: startVec() and stopVec() support the emap() class.
 - [rdi.func().stopVec()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.17.01.12_rdi.func__.stopVec.md>) —— SmartRDI 7.6.0: startVec() and stopVec() support the emap() class.
 - [Sequencer-controlled searching with cogo](<02_System_reference/02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md>) —— SmartRDI 7.6.0: Linear search is supported with one subroutine for all search steps.
-- [Sequencer Controlled Utility Mask with SmartRDI](<02_System_reference/02.07_Test_Method_Reference/02.07.13.23.04_Sequencer_Controlled_Utility_Mask_with_SmartRDI.md>) —— SmartRDI 7.6.0: Wait time can be added to pins in Pin Configuration for sequencer鈥慶ontrolled utility pattern.
+- [Sequencer Controlled Utility Mask with SmartRDI](<02_System_reference/02.07_Test_Method_Reference/02.07.13.23.04_Sequencer_Controlled_Utility_Mask_with_SmartRDI.md>) —— SmartRDI 7.6.0: Wait time can be added to pins in Pin Configuration for sequencer‑controlled utility pattern.
 - [comment()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md>) —— SmartRDI 7.6.0: SMV_IGNORE_COMMENT in the RDI_Configure file can be used to globally allow comments output in pattern.
 
 
@@ -99,11 +99,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 33 条**，涉及 **33 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **1 处**「`鈥`」字样：`鈥慶`（1 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

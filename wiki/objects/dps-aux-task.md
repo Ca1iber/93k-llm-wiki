@@ -105,9 +105,9 @@ switch (surgeTrackerStatus)
 };
 ```
 
-### Example 2: Site鈥憇pecific thresholds for XPS256
+### Example 2: Site‑specific thresholds for XPS256
 
-The example activates both the voltage surge tracker and the current surge tracker of an `XPS256`（raw: `../02.02_Specifications/02.02.05.03_DC_Scale_XPS256_Universal_DPS_VI_Card.md`） pin. Common thresholds are defined in the `ON_FIRST_INVOCATION`（raw: `02.07.04.01.138_ON_FIRST_INVOCATION_BEGIN.md`） block and replaced with site鈥憇pecific thresholds in the `FOR_EACH_SITE`（raw: `02.07.04.01.70_FOR_EACH_SITE_BEGIN.md`） loop.
+The example activates both the voltage surge tracker and the current surge tracker of an `XPS256`（raw: `../02.02_Specifications/02.02.05.03_DC_Scale_XPS256_Universal_DPS_VI_Card.md`） pin. Common thresholds are defined in the `ON_FIRST_INVOCATION`（raw: `02.07.04.01.138_ON_FIRST_INVOCATION_BEGIN.md`） block and replaced with site‑specific thresholds in the `FOR_EACH_SITE`（raw: `02.07.04.01.70_FOR_EACH_SITE_BEGIN.md`） loop.
 
 To prevent `DPS_AUX_PIN_TASK.setMode()`（raw: `02.07.04.01.43.01.07_DPS_AUX_PIN_TASK.setMode.md`） from issuing a warning, this function is called only outside the FOR_EACH_SITE loop. `RDI_INIT()`（raw: `02.07.13.08.01.06_RDI_INIT.md`） is used at the very beginning as a prerequisite of the `SmartRDI`（raw: `02.07.13_SmartRDI.md`） code to be implemented for the DUT test. The surge tracker results are read within another FOR_EACH_SITE loop to comply with requirements of SmartRDI.
 

@@ -40,7 +40,7 @@ verified: doc-only
  | Ground plane clearance or antipad:  | variable |
  | Power plane clearance or antipad:  | >= ground plane clearance |
  | Ground via thermal straps:  | No (direct connect to ground plane) |
- | Hard Au plating  | Min. 30 碌inches, Knoop hardness 130-200 |
+ | Hard Au plating  | Min. 30 µinches, Knoop hardness 130-200 |
 
 <!-- 语法节 end -->
 
@@ -153,7 +153,7 @@ verified: doc-only
 ## 出处
 
 - 定义文档：`02_System_reference/02.03_DUT_board_design_reference/02.03.07.07_Pogo_pad_and_via_design.md`
-  （TDC `91610.htm`，3,203 字节，54 行）
+  （TDC `91610.htm`，3,202 字节，54 行）
 - **入边 55 条 / 33 篇文档**：`extract/pack/05-pogo-pad-and-via-design.md`
   （55 是边数，33 是去重后的文档数；口径同 `hubs-dedup.csv`：**只算 `inline` 边**。）
 - 所属：**DUT board design reference**（`02.03`）

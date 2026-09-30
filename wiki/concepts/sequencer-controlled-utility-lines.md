@@ -37,8 +37,8 @@ UTILITY_SEQ_MODE        utiSeqModeOff;
 ON_FIRST_INVOCATION_BEGIN();
 
     //
-    // Set utility block 1      in sequencer鈥慶ontrolled masked reading and writing mode.
-    // Set utility block 2 to 5 in sequencer鈥慶ontrolled masked reading mode.
+    // Set utility block 1      in sequencer‑controlled masked reading and writing mode.
+    // Set utility block 2 to 5 in sequencer‑controlled masked reading mode.
     //
     utiSeqModeOn.pogoBlock(1).mode(TM::SEQ_POGO_MASK_MODE_RW );
     utiSeqModeOn.pogoBlock(2,5).mode(TM::SEQ_POGO_MASK_MODE_RD );
@@ -50,7 +50,7 @@ ON_FIRST_INVOCATION_BEGIN();
     FUNCTIONAL_TEST();
 
     //
-    // Disable the sequencer鈥慶ontrolled mode of all utility blocks
+    // Disable the sequencer‑controlled mode of all utility blocks
     //
     utiSeqModeOff.pogoBlock().mode(TM::SEQ_POGO_MODE_OFF);
     utiSeqModeOff.execute();
@@ -70,8 +70,8 @@ UTILITY_SEQ_STATIC_MASK utilitySeqStaticMask;
 ON_FIRST_INVOCATION_BEGIN();
 
     //
-    // Set utility block 1      in sequencer鈥慶ontrolled masked reading and writing mode.
-    // Set utility block 2 to 5 in sequencer鈥慶ontrolled masked reading mode.
+    // Set utility block 1      in sequencer‑controlled masked reading and writing mode.
+    // Set utility block 2 to 5 in sequencer‑controlled masked reading mode.
     //
     utiSeqModeOn.pogoBlock(1).mode(TM::SEQ_POGO_MASK_MODE_RW );
     utiSeqModeOn.pogoBlock(2,5).mode(TM::SEQ_POGO_MASK_MODE_RD );
@@ -90,7 +90,7 @@ ON_FIRST_INVOCATION_BEGIN();
     FUNCTIONAL_TEST();
 
     //
-    // Disable the sequencer鈥慶ontrolled mode of all utility blocks
+    // Disable the sequencer‑controlled mode of all utility blocks
     //
     utiSeqModeOff.pogoBlock().mode(TM::SEQ_POGO_MODE_OFF);
     utiSeqModeOff.execute();
@@ -224,7 +224,7 @@ ON_FIRST_INVOCATION_BEGIN();
     FUNCTIONAL_TEST();
 
     //
-    // Disable the sequencer鈥慶ontrolled mode of all utility blocks
+    // Disable the sequencer‑controlled mode of all utility blocks
     //
     utiSeqModeOff.pogoBlock().mode(TM::SEQ_POGO_MODE_OFF);
     utiSeqModeOff.execute();

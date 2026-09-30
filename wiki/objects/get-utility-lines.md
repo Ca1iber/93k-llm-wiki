@@ -45,9 +45,9 @@ The utility pogo block to query.
 
 The valid value is from 0 to 8.
 
-If the three鈥慸igit format for pogo blocks is used, the valid range is 165 ... 172.
+If the three‑digit format for pogo blocks is used, the valid range is 165 ... 172.
 
-For the second optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） of EXA Scale systems, the utility pogo blocks can be defined using only the three鈥慸igit format. The valid range for the second card is `265` ... `272`.
+For the second optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） of EXA Scale systems, the utility pogo blocks can be defined using only the three‑digit format. The valid range for the second card is `265` ... `272`.
 
 See also `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
 
@@ -253,7 +253,7 @@ get utility block 1             =01111100101110100100010010011010
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.05_GetUtilityLines.md`
-（TDC `111063.htm`，**3,351 字节 / 81 行**）。**整篇读完**——本页引文全部来自这一篇 + `edges.jsonl` 里带原句的边。
+（TDC `111063.htm`，**3,345 字节 / 81 行**）。**整篇读完**——本页引文全部来自这一篇 + `edges.jsonl` 里带原句的边。
 
 **入边 7 条 / 5 篇**（`inline` + `toc` 口径）：
 `02.07.05.04_Miscellaneous_test_methods__miscellaneous_tml`（2 条）、

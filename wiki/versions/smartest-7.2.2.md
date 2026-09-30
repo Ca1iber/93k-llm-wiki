@@ -63,32 +63,32 @@ verified: doc-only
 - [Creating a new device](<01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01_Creating_a_new_device.md>) —— SmarTest 7.2.2: New parameter: Result Area Size
 - [E8023PA pogo cable assembly: 8 HD pogo blocks (Standard)](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
 - [E8023PG pogo cable assembly: 4 MS-DPS style pogo blocks (DPS64 only)](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.07_E8023PG_pogo_cable_assembly__4_MS-DPS_style_pogo_blocks__DPS64_only.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1.
-- [DPS128鈥?鈥奃PS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥? DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
 - [Pogocabling entries for various card types](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.01_Pogocabling_entries_for_various_card_types.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
 - [Pogocabling entries for various card types](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.01_Pogocabling_entries_for_various_card_types.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1
 - [DPS section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.06_DPS_section.md>) —— SmarTest 7.2.2: DPS128-HC/HV supported.
 - [DPS section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.06_DPS_section.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1.
 - [PS1600 DC value measurements](<02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03.04_PS1600_DC_value_measurements.md>) —— SmarTest 7.2.2: Added test method: PPMU_BADC_MEASURE
-- [DPS128鈥?鈥奃PS64 specifications](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02_DPS128____PS64_specifications.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
-- [DPS128鈥?鈥奃PS64 functionality and features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
-- [DPS128鈥?鈥奃PS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
-- [DPS128鈥?鈥奃PS64 power budget](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
-- [DPS128鈥?鈥奃PS64 in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.06_DPS128____PS64_in_DPS_operating_mode.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
-- [DPS128鈥?鈥奃PS64 in PMU operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.07_DPS128____PS64_in_PMU_operating_mode.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥? DPS64 specifications](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02_DPS128____PS64_specifications.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥? DPS64 functionality and features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥? DPS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥? DPS64 power budget](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥? DPS64 in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.06_DPS128____PS64_in_DPS_operating_mode.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥? DPS64 in PMU operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.07_DPS128____PS64_in_PMU_operating_mode.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
 - [E8023PA pogo cable assembly: 8 HD pogo blocks (Standard)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
 - [E8023PG pogo cable assembly: 4 MS-DPS style pogo blocks (DPS64 only)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.07_E8023PG_pogo_cable_assembly__4_MS-DPS_style_pogo_blocks__DPS64_only.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1.
-- [DPS128鈥?鈥奃PS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥? DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
 - [DPS128 and DPS64 pogo cabling and model file configuration](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
 - [DPS128 and DPS64 pogo cabling and model file configuration](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1
-- [DPS128鈥?鈥奃PS64 specific setup tasks](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09_DPS128____PS64_specific_setup_tasks.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
-- [DPS128鈥?鈥奃PS64 specific setup tasks](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09_DPS128____PS64_specific_setup_tasks.md>) —— SmarTest 7.2.2: New test method API: EVENT_IC_HAC
+- [DPS128鈥? DPS64 specific setup tasks](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09_DPS128____PS64_specific_setup_tasks.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128鈥? DPS64 specific setup tasks](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09_DPS128____PS64_specific_setup_tasks.md>) —— SmarTest 7.2.2: New test method API: EVENT_IC_HAC
 - [DC Scale DPS128/DPS64 cards](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01_DC_Scale_DPS128_DPS64_cards.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
 - [FFCI? - (First Failed Cycle Information)](<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>) —— SmarTest 7.2.2: FFPM introduced
 - [NOOP, NOOP? - (NO OPeration)](<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>) —— SmarTest 7.2.2: Number of characters for string_1 tostring_4 changed
 - [DCVH - (DC Voltage measurement High precision pmu)](<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>) —— SmarTest 7.2.2: Additional executionMode parameter options: SER_HAC, PAR_HAC
 - [FFCI? - (First Failed Cycle Information)](<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>) —— SmarTest 7.2.2: FFPM introduced
 - [ANALOG_WAVEFORM](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.05_ANALOG_WAVEFORM.md>) —— SmarTest 7.2.2: Analog waveform name (or, label) can be up to 256 characters long
-- [CCTsetExecMode](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.33_CCTsetExecMode.md>) —— SmarTest 7.2.2: New execution mode EXM_SYNC_DC to support dynamic (sequencer鈥慶ontrolled) DC test.
+- [CCTsetExecMode](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.33_CCTsetExecMode.md>) —— SmarTest 7.2.2: New execution mode EXM_SYNC_DC to support dynamic (sequencer‑controlled) DC test.
 - [CCTsetResultArea](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.35_CCTsetResultArea.md>) —— SmarTest 7.2.2: New parameter resultType.
 - [SET_MULTIBIN](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.212_SET_MULTIBIN.md>) —— SmarTest 7.2.2: Patch1 - New testflow flag multibin_mode
 - [SET_TESTFLOW_FLAG()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.217_SET_TESTFLOW_FLAG.md>) —— SmarTest 7.2.2: Patch1 - New testflow flag multibin_mode
@@ -354,11 +354,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 288 条**，涉及 **242 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **1 处**「`鈥`」字样：`鈥慶`（1 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

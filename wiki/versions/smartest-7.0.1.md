@@ -194,12 +194,12 @@ verified: doc-only
 - [Special requirements for freezing the tracker](<02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.01.01_Special_requirements_for_freezing_the_tracker.md>) —— Introduced in SmarTest 7.0.1
 - [Defining waveforms for a protocol engine test](<02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.01_Defining_waveforms_for_a_protocol_engine_test.md>) —— Introduced in SmarTest 7.0.1
 - [Defining the wavetable for a PRBS test](<02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.02_Defining_the_wavetable_for_a_PRBS_test.md>) —— Introduced in SmarTest 7.0.1
-- [Defining the wavetable for a pattern鈥慴ased SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md>) —— Introduced in SmarTest 7.0.1
+- [Defining the wavetable for a pattern‑based SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md>) —— Introduced in SmarTest 7.0.1
 - [Defining waveform shapes for Smart Scale pins](<02_System_reference/02.06_Command_Reference/02.06.06.01.03.02_Defining_waveform_shapes_for_Smart_Scale_pins.md>) —— Introduced in SmarTest 7.0.1
 - [Period resolution for a multi-port setup (Smart Scale)](<02_System_reference/02.06_Command_Reference/02.06.06.01.04.01.02.04_Period_resolution_for_a_multi-port_setup__Smart_Scale.md>) —— Introduced in SmarTest 7.0.1
 - [Defining edge delays and period length for a protocol engine test](<02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.01_Defining_edge_delays_and_period_length_for_a_protocol_engine_test.md>) —— Introduced in SmarTest 7.0.1
 - [Defining edge delays for a PRBS test](<02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.02_Defining_edge_delays_for_a_PRBS_test.md>) —— Introduced in SmarTest 7.0.1
-- [Defining edge delays for a pattern鈥慴ased SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md>) —— Introduced in SmarTest 7.0.1
+- [Defining edge delays for a pattern‑based SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md>) —— Introduced in SmarTest 7.0.1
 - [Defining edge delays for Smart Scale pins](<02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03_Defining_edge_delays_for_Smart_Scale_pins.md>) —— Introduced in SmarTest 7.0.1
 - [From global to port specific vector areas: Migration and compatibility](<02_System_reference/02.06_Command_Reference/02.06.07.01.03.01_From_global_to_port_specific_vector_areas__Migration_and_compatibility.md>) —— Introduced in SmarTest 7.0.1
 - [Missing vector data and migration from 6.5 to 7.x](<02_System_reference/02.06_Command_Reference/02.06.07.01.03.02_Missing_vector_data_and_migration_from_6.5_to_7.x.md>) —— Introduced in SmarTest 7.0.1
@@ -216,7 +216,7 @@ verified: doc-only
 - [Skipping idle tokens](<02_System_reference/02.06_Command_Reference/02.06.15.01.02.02_Skipping_idle_tokens.md>) —— Introduced in SmarTest 7.0.1
 - [Pattern matching](<02_System_reference/02.06_Command_Reference/02.06.15.01.02_Pattern_matching.md>) —— Introduced in SmarTest 7.0.1
 - [Overview of the protocol engine per pin](<02_System_reference/02.06_Command_Reference/02.06.15.01_Overview_of_the_protocol_engine_per_pin.md>) —— Introduced in SmarTest 7.0.1
-- [Combining transition tracking with a PRBS or pattern鈥慴ased SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.15.02.01_Combining_transition_tracking_with_a_PRBS_or_pattern__ased_SmartLoop_tes.md>) —— Introduced in SmarTest 7.0.1
+- [Combining transition tracking with a PRBS or pattern‑based SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.15.02.01_Combining_transition_tracking_with_a_PRBS_or_pattern__ased_SmartLoop_tes.md>) —— Introduced in SmarTest 7.0.1
 - [How to set up and execute a protocol engine test](<02_System_reference/02.06_Command_Reference/02.06.15.02_How_to_set_up_and_execute_a_protocol_engine_test.md>) —— Introduced in SmarTest 7.0.1
 - [CFCF, CFCF? - (Clock Forwarding ConFiguration)](<02_System_reference/02.06_Command_Reference/02.06.15.03.01_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>) —— Introduced in SmarTest 7.0.1
 - [CFDF, CFDF? - (Clock Forwarding Set DeFinition)](<02_System_reference/02.06_Command_Reference/02.06.15.03.02_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>) —— Introduced in SmarTest 7.0.1
@@ -238,7 +238,7 @@ verified: doc-only
 - [Overview of pseudo random bit sequences](<02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md>) —— Introduced in SmarTest 7.0.1
 - [Generating and checking pseudo random bit sequences](<02_System_reference/02.06_Command_Reference/02.06.17.02_Generating_and_checking_pseudo_random_bit_sequences.md>) —— Introduced in SmarTest 7.0.1
 - [How to set up and execute a PRBS test](<02_System_reference/02.06_Command_Reference/02.06.17.03_How_to_set_up_and_execute_a_PRBS_test.md>) —— Introduced in SmarTest 7.0.1
-- [Executing a pattern鈥慴ased SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.17.04_Executing_a_pattern__ased_SmartLoop_test.md>) —— Introduced in SmarTest 7.0.1
+- [Executing a pattern‑based SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.17.04_Executing_a_pattern__ased_SmartLoop_test.md>) —— Introduced in SmarTest 7.0.1
 - [LBMD? - (LoopBack MoDe)](<02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md>) —— Introduced in SmarTest 7.0.1
 - [LBRT? - (LoopBack RouTing)](<02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md>) —— Introduced in SmarTest 7.0.1
 - [PRCF, PRCF? - (Pseudo Random bit sequence ConFiguration)](<02_System_reference/02.06_Command_Reference/02.06.17.05.03_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>) —— Introduced in SmarTest 7.0.1
@@ -287,12 +287,12 @@ verified: doc-only
 - [Special requirements for freezing the tracker](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.01.01_Special_requirements_for_freezing_the_tracker.md>) —— Introduced in SmarTest 7.0.1
 - [Defining waveforms for a protocol engine test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.01_Defining_waveforms_for_a_protocol_engine_test.md>) —— Introduced in SmarTest 7.0.1
 - [Defining the wavetable for a PRBS test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.02_Defining_the_wavetable_for_a_PRBS_test.md>) —— Introduced in SmarTest 7.0.1
-- [Defining the wavetable for a pattern鈥慴ased SmartLoop test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md>) —— Introduced in SmarTest 7.0.1
+- [Defining the wavetable for a pattern‑based SmartLoop test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md>) —— Introduced in SmarTest 7.0.1
 - [Defining waveform shapes for Smart Scale pins](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02_Defining_waveform_shapes_for_Smart_Scale_pins.md>) —— Introduced in SmarTest 7.0.1
 - [Period resolution for a multi-port setup (Smart Scale)](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.01.02.04_Period_resolution_for_a_multi-port_setup__Smart_Scale.md>) —— Introduced in SmarTest 7.0.1
 - [Defining edge delays and period length for a protocol engine test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.01_Defining_edge_delays_and_period_length_for_a_protocol_engine_test.md>) —— Introduced in SmarTest 7.0.1
 - [Defining edge delays for a PRBS test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.02_Defining_edge_delays_for_a_PRBS_test.md>) —— Introduced in SmarTest 7.0.1
-- [Defining edge delays for a pattern鈥慴ased SmartLoop test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md>) —— Introduced in SmarTest 7.0.1
+- [Defining edge delays for a pattern‑based SmartLoop test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md>) —— Introduced in SmarTest 7.0.1
 - [Defining edge delays for Smart Scale pins](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03_Defining_edge_delays_for_Smart_Scale_pins.md>) —— Introduced in SmarTest 7.0.1
 - [CDataEyeAlign](<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.31.01_CDataEyeAlign.md>) —— Introduced in SmarTest 7.0.1
 - [CSearchTask](<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.31.02_CSearchTask.md>) —— Introduced in SmarTest 7.0.1

@@ -42,7 +42,7 @@ This API is defined in the header file /opt/hp93000/soc/prod_com/include/MAPI/SM
 
 The time in seconds after which a thread should be canceled and SMC_SYNCHRONIZE() should not wait for its completion.
 
-Resolution: 1 碌s
+Resolution: 1 µs
 
 The accuracy of this parameter is influenced by the overhead time of the operating system.
 

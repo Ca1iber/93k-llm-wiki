@@ -59,8 +59,8 @@ verified: doc-only
 - [PS1600 DC value measurements](<02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03.04_PS1600_DC_value_measurements.md>) —— SmarTest 7.1.2: Added functions: badcSetting.xxx and badcMeasure.xxx
 - [DFPN, DFPN? - (DeFine Pin Name)](<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>) —— SmarTest 7.1.2: For 64-bit systems: Number of of characters for pinName extended.
 - [DFPN, DFPN? - (DeFine Pin Name)](<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>) —— SmarTest 7.1.2: For 64-bit systems: Number of of characters for pinName extended.
-- [Defining the wavetable for a pattern鈥慴ased SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md>) —— SmarTest 7.1.2: All x-modes are now supported. Pattern鈥慴ased SmartLoop can now also be combined with transition tracking in x6-mode.
-- [Defining edge delays for a pattern鈥慴ased SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md>) —— SmarTest 7.1.2: Pattern鈥慴ased SmartLoop can now also be combined with transition tracking in x6-mode.
+- [Defining the wavetable for a pattern‑based SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md>) —— SmarTest 7.1.2: All x-modes are now supported. Pattern‑based SmartLoop can now also be combined with transition tracking in x6-mode.
+- [Defining edge delays for a pattern‑based SmartLoop test](<02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md>) —— SmarTest 7.1.2: Pattern‑based SmartLoop can now also be combined with transition tracking in x6-mode.
 - [Retrieving AC Test Results](<02_System_reference/02.07_Test_Method_Reference/02.07.03.03.05_Retrieving_AC_Test_Results.md>) —— SmarTest 7.1.2: Support of MBAV8+.
 - [Error Handling on Missing Trigger Input](<02_System_reference/02.07_Test_Method_Reference/02.07.03.16.03_Error_Handling_on_Missing_Trigger_Input.md>) —— SmarTest 7.1.2: Support of MBAV8+.
 - [BADC_PIN_MEASURE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md>) —— SmarTest 7.1.2: Reduced to numberOfSamples() function
@@ -85,8 +85,8 @@ verified: doc-only
 - [Testflow flags](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.07.02_Testflow_flags.md>) —— SmarTest 7.1.2: Removed rf_cal_enable flag
 - [Loop configuration settings](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03.01_Loop_configuration_settings.md>) —— SmarTest 7.1.2: Stop on Fail now stops when any test suite in a sequence has an overall fail result and Stop on Pass now stops when all of the test suites in a sequence pass.
 - [Running a testflow](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03_Running_a_testflow.md>) —— SmarTest 7.1.2: Stop on Fail now stops when any test suite in a sequence has an overall fail result and Stop on Pass now stops when all of the test suites in a sequence pass.
-- [Defining the wavetable for a pattern鈥慴ased SmartLoop test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md>) —— SmarTest 7.1.2: All x-modes are now supported. Pattern鈥慴ased SmartLoop can now also be combined with transition tracking in x6-mode.
-- [Defining edge delays for a pattern鈥慴ased SmartLoop test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md>) —— SmarTest 7.1.2: Pattern鈥慴ased SmartLoop can now also be combined with transition tracking in x6-mode.
+- [Defining the wavetable for a pattern‑based SmartLoop test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md>) —— SmarTest 7.1.2: All x-modes are now supported. Pattern‑based SmartLoop can now also be combined with transition tracking in x6-mode.
+- [Defining edge delays for a pattern‑based SmartLoop test](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md>) —— SmarTest 7.1.2: Pattern‑based SmartLoop can now also be combined with transition tracking in x6-mode.
 - [Communication with a GPIB interface](<02_System_reference/02.09_Test_Program_Management/02.09.01.03.01.02_Communication_with_a_GPIB_interface.md>) —— SmarTest 7.1.2: PoE LAN switch E7033B for gateway E7032A (E5810A) introduced
 - [LotSummaryGenerator](<02_System_reference/02.10_Data_Logging/02.10.01.07_LotSummaryGenerator.md>) —— SmarTest 7.1.2: New application variable LOT_SUMMNARY_PATH_NAME and FORCE_SUMMARY_GENERATION_FOR_LEVEL
 - [LotSummaryGenerator](<02_System_reference/02.10_Data_Logging/02.10.01.07_LotSummaryGenerator.md>) —— SmarTest 7.1.2: Support generating lot summary for incomplete data collection file
@@ -156,11 +156,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 90 条**，涉及 **84 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **4 处**「`鈥`」字样：`鈥慴`（4 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

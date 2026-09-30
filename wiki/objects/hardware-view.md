@@ -38,7 +38,7 @@ The Profile button at the bottom is marked in red and opens the DPS Profile dial
 
   !`DPS profile with`（raw: `../../../../raw/353741.png`）
 
-You can define the configuration of sequencer鈥慶ontrolled utility lines, which is programmed to hardware before any pattern execution.
+You can define the configuration of sequencer‑controlled utility lines, which is programmed to hardware before any pattern execution.
 
 The UTSC firmware syntax is one of the following:
 

@@ -51,7 +51,7 @@ verified: doc-only
 - [portSync()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.02_portSync.md>) —— SmartRDI 2.4.5: New parameter TA::CTIM for exact port synchronization.
 - [rdi.hiddenUpload()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.19.02.03_rdi.hiddenUpload.md>) —— SmartRDI 2.4.5: Combined use of SMC_DISABLE(true) with rdi.hiddenUpload(TA::ALL) no more reports an error.
 - [rdi.site()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.19.02.04_rdi.site.md>) —— SmartRDI 2.4.5: rdi.site().id().getXXX() can be called anywhere inside a test method's run() function; the error map result supports common thread SMC.
-- [loadCap()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.26_loadCap.md>) —— SmartRDI 2.4.5: Minimum load capacity allowed changes from 1 uF to 1 nF, for better support of pattern鈥慴ased mode for AVI64.
+- [loadCap()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.26_loadCap.md>) —— SmartRDI 2.4.5: Minimum load capacity allowed changes from 1 uF to 1 nF, for better support of pattern‑based mode for AVI64.
 - [emapLocation()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.16.02_emapLocation.md>) —— SmartRDI 2.4.5: Default error map location changes from TA::TP (test processor) to TA::RAM (unused vector memory on the tester).
 - [burstLabel()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md>) —— SmartRDI 2.4.5: burstLabel() supports multiple ports, and can be used in combination with portSync().
 - [labelName()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md>) —— SmartRDI 2.4.5: A label name with or without an MD5 postfix option.
@@ -81,11 +81,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 24 条**，涉及 **23 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **1 处**「`鈥`」字样：`鈥慴`（1 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

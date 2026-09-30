@@ -71,22 +71,22 @@ verified: doc-only
 - [SmarTest character and number limits](<01_Getting_started/01.05_SmarTest_character_and_number_limits/01.05_SmarTest_character_and_number_limits.md>) —— SmarTest 7.2.0: Removed 32 bit SmarTest version
 - [SmarTest character and number limits](<01_Getting_started/01.05_SmarTest_character_and_number_limits/01.05_SmarTest_character_and_number_limits.md>) —— SmarTest 7.2.0: Max number of ports increased to 256
 - [Weights and dimensions](<02_System_reference/02.02_Specifications/02.02.02.09_Weights_and_dimensions.md>) —— SmarTest 7.2.0: Updated all test head weights and dimensions
-- [Utility line assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Utility line assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
 - [Utility line assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md>) —— SmarTest 7.2.0: External utility power introduced on ATH/CTH/STH DUT Scale and on LTH
-- [Utility line characteristics](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Utility line characteristics](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
 - [Utility line example circuits](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.03.03_Utility_line_example_circuits.md>) —— SmarTest 7.2.0: External utility power introduced
-- [Serial interface for sequencer-controlled utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.01_Serial_interface_for_sequencer-controlled_utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
-- [Specifications for the serial interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.02_Specifications_for_the_serial_interface.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
-- [Ganging utility blocks](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.03_Ganging_utility_blocks.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
-- [Setting up sequencer control of utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Serial interface for sequencer-controlled utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.01_Serial_interface_for_sequencer-controlled_utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Specifications for the serial interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.02_Specifications_for_the_serial_interface.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Ganging utility blocks](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.03_Ganging_utility_blocks.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Setting up sequencer control of utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
 - [Sequencer-controlled utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05_Sequencer-controlled_utility_lines.md>) —— SmarTest 7.2.0: External utility power introduced on ATH/CTH/STH DUT Scale and on LTH
-- [Designing compatible utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.07.01_Designing_compatible_utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
-- [Utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Designing compatible utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04.07.01_Designing_compatible_utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
 - [Utility lines](<02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md>) —— SmarTest 7.2.0: External utility power introduced on ATH/CTH/STH DUT Scale and on LTH
 - [Utility pogo block - LTH large DUT interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.03_Utility_pogo_block_-_LTH_large_DUT_interface.md>) —— SmarTest 7.2.0: 256 utility lines on 4-row utility pogo blocks introduced
-- [Utility pogo block - LTH large DUT interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.03_Utility_pogo_block_-_LTH_large_DUT_interface.md>) —— SmarTest 7.2.0: Sequencer鈥慶ontrolled utility lines introduced
+- [Utility pogo block - LTH large DUT interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.03_Utility_pogo_block_-_LTH_large_DUT_interface.md>) —— SmarTest 7.2.0: Sequencer‑controlled utility lines introduced
 - [Utility pogo block - STH DUT Scale interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.04_Utility_pogo_block_-_STH_DUT_Scale_interface.md>) —— SmarTest 7.2.0: 256 utility lines on 4-row utility pogo blocks introduced
-- [Utility pogo block - STH DUT Scale interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.04_Utility_pogo_block_-_STH_DUT_Scale_interface.md>) —— SmarTest 7.2.0: Sequencer鈥慶ontrolled utility lines introduced
+- [Utility pogo block - STH DUT Scale interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.04_Utility_pogo_block_-_STH_DUT_Scale_interface.md>) —— SmarTest 7.2.0: Sequencer‑controlled utility lines introduced
 - [Utility pogo block - CTH DUT Scale interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.05_Utility_pogo_block_-_CTH_DUT_Scale_interface.md>) —— SmarTest 7.2.0: 256 utility lines on 4-row utility pogo blocks introduced
 - [GLOBAL section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md>) —— SmarTest 7.2.0: New definition: utility_lines
 - [IOCHANNEL section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.03_IOCHANNEL_section.md>) —— SmarTest 7.2.0: New card:PS1600-ME, allowed as alternative card with 7.2.0.5
@@ -108,7 +108,7 @@ verified: doc-only
 - [TSRW? - (TMU Set RaW results)](<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>) —— SmarTest 7.2.0: New parameters: site_selector, sitenumber, resultAreaName
 - [TSRW? - (TMU Set RaW results)](<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>) —— SmarTest 7.2.0: New options for execution_control parameter
 - [UPTD, UPTD? - (UP To Date)](<02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md>) —— SmarTest 7.2.0: Removed the SHMO parameter
-- [UTOT, UTOT? - (UTility line OuTputs)](<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>) —— SmarTest 7.2.0: Sequencer鈥慶ontrolled utility lines introduced.
+- [UTOT, UTOT? - (UTility line OuTputs)](<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>) —— SmarTest 7.2.0: Sequencer‑controlled utility lines introduced.
 - [CHIN? - (CHannel INformation)](<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>) —— SmarTest 7.2.0: New card PS1600ME
 - [PSLV, PSLV? - (Power Supply LeVel)](<02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md>) —— SmarTest 7.2.0: New parameter: sink_current
 - [UPTD, UPTD? - (UP To Date)](<02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md>) —— SmarTest 7.2.0: Removed the SHMO parameter
@@ -122,7 +122,7 @@ verified: doc-only
 - [Using embedded timing and level search on a Smart Scale system](<02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>) —— SmarTest 7.2.0: New search mode FASTSTOP
 - [TOCF, TOCF? - (Timing/Level Offset search ConFiguration)](<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>) —— SmarTest 7.2.0: New FASTSTOP mode
 - [MSET, MSET? - (definition of Measurement SET)](<02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md>) —— SmarTest 7.2.0: in patch 4, supports new parameter waveformSize and samplePeriod for measurement VMUM with board ADC.
-- [UTOT, UTOT? - (UTility line OuTputs)](<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>) —— SmarTest 7.2.0: Sequencer鈥慶ontrolled utility lines introduced.
+- [UTOT, UTOT? - (UTility line OuTputs)](<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>) —— SmarTest 7.2.0: Sequencer‑controlled utility lines introduced.
 - [TSRS? - (TMU Set ReSults)](<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>) —— SmarTest 7.2.0: New parameter: resultAreaName
 - [TSRS? - (TMU Set ReSults)](<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>) —— SmarTest 7.2.0: New options for site_selector and execution_control parameters
 - [TSRW? - (TMU Set RaW results)](<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>) —— SmarTest 7.2.0: New parameters: site_selector, sitenumber, resultAreaName
@@ -132,7 +132,7 @@ verified: doc-only
 - [Linear search modes](<02_System_reference/02.07_Test_Method_Reference/02.07.03.03.08.02.01_Linear_search_modes.md>) —— SmarTest 7.2.0: New FASTSTOP mode
 - [Using embedded timing and level search on a Smart Scale system](<02_System_reference/02.07_Test_Method_Reference/02.07.03.03.08.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>) —— SmarTest 7.2.0: New search mode FASTSTOP
 - [addParameter](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.03_addParameter.md>) —— SmarTest 7.2.0: Supports the parameter type ContextPins and OptionList
-- [BADC_PIN_MEASURE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md>) —— SmarTest 7.2.0: One-time overhead of 18.5 渭s per measurement by the PS1600 Board ADC reduced to 14.5 渭s.
+- [BADC_PIN_MEASURE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md>) —— SmarTest 7.2.0: One-time overhead of 18.5 μs per measurement by the PS1600 Board ADC reduced to 14.5 μs.
 - [BADC_PIN_MEASURE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md>) —— SmarTest 7.2.0: in patch 4, supports new member function waveformSize().
 - [BADC_PIN_MEASURE](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.08.01_BADC_PIN_MEASURE.md>) —— SmarTest 7.2.0: in patch 4, supports new member function waveformSamplePeriod().
 - [PATTERN](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.142.01_PATTERN.md>) —— SmarTest 7.2.0: Additional member function for assigning DC waveform: add().
@@ -256,10 +256,10 @@ verified: doc-only
 - [CI Calls for Multisite Testing](<03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.03.02_CI_Calls_for_Multisite_Testing.md>) —— SmarTest 7.2.0: Removed *CI_DATALOG_TO_PRINTER constant
 - [CI Calls for Multisite Testing](<03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.03.02_CI_Calls_for_Multisite_Testing.md>) —— SmarTest 7.2.0: Removed *CI_DATALOG_TO_REPORT_WINDOW constant
 - [Configuring Ports, Pins, Timing, Vectors and Test Methods](<03_Use_cases_and_application_papers/03.03_How_to_use_Multiport_for_specific_Applications/03.03.06.02.01_Configuring_Ports__Pins__Timing__Vectors_and_Test_Methods.md>) —— SmarTest 7.2.0: Max number of ports increased to 256
-- [Serial interface for sequencer-controlled utility lines](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.01_Serial_interface_for_sequencer-controlled_utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
-- [Specifications for the serial interface](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.02_Specifications_for_the_serial_interface.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
-- [Ganging utility blocks](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.03_Ganging_utility_blocks.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
-- [Setting up sequencer control of utility lines](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.05_Setting_up_sequencer_control_of_utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer鈥慶ontrolled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Serial interface for sequencer-controlled utility lines](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.01_Serial_interface_for_sequencer-controlled_utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Specifications for the serial interface](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.02_Specifications_for_the_serial_interface.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Ganging utility blocks](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.03_Ganging_utility_blocks.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
+- [Setting up sequencer control of utility lines](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.05_Setting_up_sequencer_control_of_utility_lines.md>) —— SmarTest 7.2.0: 256 sequencer‑controlled utility lines introduced on ATH/CTH/STH DUT Scale and on LTH
 - [Sequencer-controlled utility lines](<03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md>) —— SmarTest 7.2.0: External utility power introduced on ATH/CTH/STH DUT Scale and on LTH
 
 
@@ -543,11 +543,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 477 条**，涉及 **404 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **16 处**「`鈥`」字样：`鈥慶`（16 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

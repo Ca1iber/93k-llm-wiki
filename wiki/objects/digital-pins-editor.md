@@ -306,7 +306,7 @@ specifying the utility block of the card cage.`
 
 `sources:` 一篇：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md`
-（`105634.htm`，8,972 字节，200 行）——**整篇读完**。
+（`105634.htm`，8,966 字节，200 行）——**整篇读完**。
 
 **本页做了什么（2026-09-20 更新，「两张图都没看」那条是错的，已删）**：
 

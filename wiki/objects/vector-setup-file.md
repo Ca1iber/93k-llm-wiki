@@ -441,9 +441,9 @@ The following figure shows phase synchronization after the internal CTIM at test
 
 j, k, m, n, x, y are integers.
 
-Since the start of the user vectors of port A is delayed by a multiple of pB, and k 脳 pA + FA + m 脳 8 脳 pA is also a multiple of pB by
+Since the start of the user vectors of port A is delayed by a multiple of pB, and k × pA + FA + m × 8 × pA is also a multiple of pB by
 
-k 脳 pA + FA + m 脳 8 脳 pA = k 脳 pB + n 脳 8 脳 pB,
+k × pA + FA + m × 8 × pA = k × pB + n × 8 × pB,
 
 the first user vector of port A in the figure above is still synchronous with some user vector of port B.
 
