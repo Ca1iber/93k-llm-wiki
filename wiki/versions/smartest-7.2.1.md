@@ -328,7 +328,7 @@ verified: doc-only
 - [E8023PE pogo cable assembly: 8 MS-DPS style pogo blocks (DPS128-HC only)](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.05_E8023PE_pogo_cable_assembly__8_MS-DPS_style_pogo_blocks__DPS128-HC_only.md>) —— Introduced in SmarTest 7.2.1
 - [E8023PF pogo cable assembly: 2 MS-DPS style pogo blocks (DPS64 only)](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.06_E8023PF_pogo_cable_assembly__2_MS-DPS_style_pogo_blocks__DPS64_only.md>) —— Introduced in SmarTest 7.2.1
 - [E8023PG pogo cable assembly: 4 MS-DPS style pogo blocks (DPS64 only)](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.07_E8023PG_pogo_cable_assembly__4_MS-DPS_style_pogo_blocks__DPS64_only.md>) —— Introduced in SmarTest 7.2.1
-- [DPS128鈥? DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— Introduced in SmarTest 7.2.1
+- [DPS128… DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— Introduced in SmarTest 7.2.1
 - [DC Scale DPS128 / DPS64 card](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.02_DC_Scale_DPS128___DPS64_card.md>) —— Introduced in SmarTest 7.2.1
 - [Real capacitors](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.04.02_Real_capacitors.md>) —— Introduced in SmarTest 7.2.1
 - [Step 1: Calculate the required total capacitance](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.03.01_Step_1__Calculate_the_required_total_capacitance.md>) —— Introduced in SmarTest 7.2.1
@@ -365,7 +365,7 @@ verified: doc-only
 - [DPS128鈥? DPS64 specifications](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02_DPS128____PS64_specifications.md>) —— Introduced in SmarTest 7.2.1
 - [DPS128鈥? DPS64 functionality and features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md>) —— Introduced in SmarTest 7.2.1
 - [DPS128鈥? DPS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— Introduced in SmarTest 7.2.1
-- [DPS128鈥? DPS64 power budget](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md>) —— Introduced in SmarTest 7.2.1
+- [DPS128… DPS64 power budget](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md>) —— Introduced in SmarTest 7.2.1
 - [DPS128鈥? DPS64 in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.06_DPS128____PS64_in_DPS_operating_mode.md>) —— Introduced in SmarTest 7.2.1
 - [DPS128鈥? DPS64 in PMU operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.07_DPS128____PS64_in_PMU_operating_mode.md>) —— Introduced in SmarTest 7.2.1
 - [E8023PA pogo cable assembly: 8 HD pogo blocks (Standard)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md>) —— Introduced in SmarTest 7.2.1
@@ -374,9 +374,9 @@ verified: doc-only
 - [E8023PE pogo cable assembly: 8 MS-DPS style pogo blocks (DPS128-HC only)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.05_E8023PE_pogo_cable_assembly__8_MS-DPS_style_pogo_blocks__DPS128-HC_only.md>) —— Introduced in SmarTest 7.2.1
 - [E8023PF pogo cable assembly: 2 MS-DPS style pogo blocks (DPS64 only)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.06_E8023PF_pogo_cable_assembly__2_MS-DPS_style_pogo_blocks__DPS64_only.md>) —— Introduced in SmarTest 7.2.1
 - [E8023PG pogo cable assembly: 4 MS-DPS style pogo blocks (DPS64 only)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.07_E8023PG_pogo_cable_assembly__4_MS-DPS_style_pogo_blocks__DPS64_only.md>) —— Introduced in SmarTest 7.2.1
-- [DPS128鈥? DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— Introduced in SmarTest 7.2.1
+- [DPS128… DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— Introduced in SmarTest 7.2.1
 - [DPS128 and DPS64 pogo cabling and model file configuration](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md>) —— Introduced in SmarTest 7.2.1
-- [DPS128鈥? DPS64 specific setup tasks](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09_DPS128____PS64_specific_setup_tasks.md>) —— Introduced in SmarTest 7.2.1
+- [DPS128… DPS64 specific setup tasks](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09_DPS128____PS64_specific_setup_tasks.md>) —— Introduced in SmarTest 7.2.1
 - [DC Scale DPS128/DPS64 cards](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01_DC_Scale_DPS128_DPS64_cards.md>) —— Introduced in SmarTest 7.2.1
 - [PSSL, PSSL? (Power Supply Safety Limits)](<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>) —— Introduced in SmarTest 7.2.1
 - [RRSU? (Result Retention area Select for Upload)](<02_System_reference/02.06_Command_Reference/02.06.02.02.212_RRSU___Result_Retention_area_Select_for_Upload.md>) —— Introduced in SmarTest 7.2.1

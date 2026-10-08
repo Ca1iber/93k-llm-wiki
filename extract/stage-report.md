@@ -1701,7 +1701,7 @@
 | 22 | DPS128鈥? DPS64 hardware overview | `wiki/objects/dps128-dps64-cards.md` |
 | 22 | Setting up DC Scale pins with SmartRDI | `wiki/concepts/setting-up-dc-scale-pins-with-smartrdi.md` |
 | 22 | Opening TP360 | `wiki/objects/tp360.md` |
-| 22 | DPS128鈥? DPS64 power budget | `wiki/objects/dps128-dps64-cards.md` |
+| 22 | DPS128… DPS64 power budget | `wiki/objects/dps128-dps64-cards.md` |
 | 22 | TimeStampAttrType | `wiki/objects/timestamp-attr-type.md` |
 | 22 | GLOBAL section | `wiki/objects/global-section.md` |
 | 22 | DFPN, DFPN? - (DeFine Pin Name) | `wiki/constraints/pin-config-requires-sequencer-off.md` |
@@ -2309,7 +2309,7 @@
 > - **没自称逐字 = 转述，对不上是正常的。** 只提示，不判错。
 >
 > **另一档，与上面两档都不同：疑似自加结构 —— 本次共 20 处。**
-> **本类主动排除：`<!-- 语法节 begin -->`…`<!-- 语法节 end -->` 之间那一段，本次涉及 322 页、共 3703367 字符。**
+> **本类主动排除：`<!-- 语法节 begin -->`…`<!-- 语法节 end -->` 之间那一段，本次涉及 322 页、共 3703283 字符。**
 > 那一段由 `objscaffold.py` 写（§4），段内语料链接被机械改写成 ``文本``（raw: `路径`），**按设计就不是逐字的**——不排除它，本类会稳定地报一条自己造成的「对不上」。
 > **它没有被放过，是被更硬的口径接管了**：第十二类查的是「页面与脚本当前产出**逐字节一致**」。两个检查管同一段时，弱的那条只产生噪声。
 > 形状判据三条：引文单元**以 `- ` 开头**、**中间含 ` - `**、或**含 `…` / `...`**，**且对不上原文**。
@@ -2342,7 +2342,7 @@
 ## 第八类 · 链接目标可达（**抓断链；排除项是名字白名单两项，行内代码跨度里的 wikilink 照样算**）
 
 - 内容页共 **505** 页，引用 **521** 个目标，其中 **16** 个找不到对应页。
-- 口径指纹：内容页 505 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 1ad6ba2e43f8`。
+- 口径指纹：内容页 505 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = eb6915d2c3ae`。
 
 > **这不是页面的缺陷，是建页 backlog。** 它列的是**脊椎已经要求**的页——
 > 比按 `in_src` 排的「125 个高入度对象」更有用：那些只是"语料里常出现"，

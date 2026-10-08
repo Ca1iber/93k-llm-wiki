@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **12,276 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md>` 及其子主题 `<02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.04_Mask_mode_of_sequencer-controlled_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.05_Galvanic_separation_between_utility_line_serial_interface_and_digital_pi.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.07.01_Designing_compatible_utility_lines.md>`。**不是转述。**
+> 本节 **12,275 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md>` 及其子主题 `<02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.04_Mask_mode_of_sequencer-controlled_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.05_Galvanic_separation_between_utility_line_serial_interface_and_digital_pi.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.07.01_Designing_compatible_utility_lines.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -28,7 +28,7 @@ verified: doc-only
 
 ### Example 1: Utility line circuitry (Active wiring board of V93000 systems)（取自子主题 Utility line characteristics）
 
-The diagram shows the typical utility line interface circuitry on a system fitted with the active wiring board.Note Utility lines URW00 鈥?nbsp;URW15 feature an additional pull-up resistor to +5 V on some utility pogo blocks. For devices with higher input impedance, we therefore strongly recommend adding an external pull-up resistor in the region of several hundred Ohms, depending on the type of device used. For more information, refer to table `Internal pull‑up resistor of utility lines`（raw: `02.03.04.02_Utility_line_characteristics.md#_21418__s_Pull-up_resistor_of_utility_lines_V93000_systems`） above.!`Utility read/write line - active wiring board`（raw: `../../../../raw/136929.png`）
+The diagram shows the typical utility line interface circuitry on a system fitted with the active wiring board.Note Utility lines URW00 …nbsp;URW15 feature an additional pull-up resistor to +5 V on some utility pogo blocks. For devices with higher input impedance, we therefore strongly recommend adding an external pull-up resistor in the region of several hundred Ohms, depending on the type of device used. For more information, refer to table `Internal pull‑up resistor of utility lines`（raw: `02.03.04.02_Utility_line_characteristics.md#_21418__s_Pull-up_resistor_of_utility_lines_V93000_systems`） above.!`Utility read/write line - active wiring board`（raw: `../../../../raw/136929.png`）
 
 "+5V" is the `Internal utility power supply (V93000 systems)`（raw: `02.03.05.05_Internal_utility_power_supply__V93000_systems.md`） that is available at pogo pins "UP5V" of all utility pogo blocks.
 

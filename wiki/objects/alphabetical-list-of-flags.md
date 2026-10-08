@@ -210,7 +210,7 @@ verified: doc-only
 
 `sources:` 一篇：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.07.01_Alphabetical_list_of_flags.md`
-（`342556.htm`，**37,008 字节 / 624 行——本批 12 页里最长的一篇**，整篇读完）。
+（`342556.htm`，**37,000 字节 / 624 行——本批 12 页里最长的一篇**，整篇读完）。
 
 **本页没做的：**
 

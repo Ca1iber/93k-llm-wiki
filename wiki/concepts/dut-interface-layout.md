@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **6,634 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md>`。**不是转述。**
+> 本节 **6,630 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -67,8 +67,8 @@ verified: doc-only
  | 409, 410, 411, 412, 413, 414, 415, 416  | S2 pogo blocks of group 6 |
  | 417, 418, 419, 420, 421, 422, 423, 424  | S2 pogo blocks of group 7 |
  | 425, 426, 427, 428, 429, 430, 431, 432  | S2 pogo blocks of group 8 |
- | Alternate designation of UTIL 1 鈥?nbsp;8 and DPS 1 鈥?nbsp;8 pogo blocks of the V93000 EXA Scale system.  | 165, 166, 167, 168, 169, 170, 171, 172  | Alternate designation for UTIL 1 鈥?UTIL 8. |
- | 265, 266, 267, 268, 269, 270, 271, 272  | Alternate designation for DPS 1 鈥?DPS 8`3)`（raw: `#fntarg_3`）. |
+ | Alternate designation of UTIL 1 …nbsp;8 and DPS 1 …nbsp;8 pogo blocks of the V93000 EXA Scale system.  | 165, 166, 167, 168, 169, 170, 171, 172  | Alternate designation for UTIL 1 …UTIL 8. |
+ | 265, 266, 267, 268, 269, 270, 271, 272  | Alternate designation for DPS 1 …DPS 8`3)`（raw: `#fntarg_3`）. |
  | `MUX cards`（raw: `02.03.06.05_Pogo_pin_assignment_-_MUX_cards.md`） in the central area of the DUT interface. For the pogo block numbering, refer to `MUX cards pogo block numbering`（raw: `02.03.06.05.03_MUX_cards_pogo_block_numbering.md`）.  | 881, 883, 885, 887, 889, 891, 893, 895  | Block A of cards 05, 06, 07, 08, 11, 12, 15, 16 in the left frame |
  | 882, 884, 886, 888, 890, 892, 894, 896  | Block B of cards 05, 06, 07, 08, 11, 12, 15, 16 in the left frame |
  | 865, 867, 869, 871, 873, 875, 877, 879  | Block A of cards 01, 02, 03, 04, 09, 10, 13, 14 in the right frame |

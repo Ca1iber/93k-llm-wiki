@@ -53,12 +53,12 @@ verified: doc-only
 
 格式：**出处文档 —— 语料原条目**。条目本身带 `SmarTest 7.4.4:` 前缀，**那是原文的一部分，没有去掉**。
 
-- [DPS128鈥? DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.4.4: Support of E8023PH pogo cable assembly
+- [DPS128… DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.4.4: Support of E8023PH pogo cable assembly
 - [Direct-Probe stiffener](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.02_Direct-Probe_stiffener.md>) —— SmarTest 7.4.4: New drawing for V93000 Direct-Probe probe card specifications N2360-90117_C
 - [GLOBAL section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md>) —— SmarTest 7.4.4: New optional parameter diag_behavior of definition mux_boards
 - [Pogocabling entries for various card types](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.01_Pogocabling_entries_for_various_card_types.md>) —— SmarTest 7.4.4: Support of E8023PH pogo assembly for DPS64
 - [DPS section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.06_DPS_section.md>) —— SmarTest 7.4.4: Support of E8023PH pogo assembly.
-- [DPS128鈥? DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.4.4: Support of E8023PH pogo cable assembly
+- [DPS128… DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.4.4: Support of E8023PH pogo cable assembly
 - [DPS128 and DPS64 pogo cabling and model file configuration](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md>) —— SmarTest 7.4.4: E8023PH cable assembly for DPS64-HC
 - [Connecting and disconnecting in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.04.02.01_Connecting_and_disconnecting_in_DPS_operating_mode.md>) —— SmarTest 7.4.4: AVI64 supports force range changes in connected state.
 - [Standard DPS functionality of DC Scale cards in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.04.02_Standard_DPS_functionality_of_DC_Scale_cards_in_DPS_operating_mode.md>) —— SmarTest 7.4.4: AVI64 supports force range changes in connected state.

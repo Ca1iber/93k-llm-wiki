@@ -1,0 +1,2462 @@
+[
+{
+"md": "01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.04_Utility_Line_view.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.05_Using_the_Utility_Line_View.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "01_Getting_started/01.02_SmarTest_workstation_administration/01.02.01.01_SmarTest_Prerequisites.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "01_Getting_started/01.02_SmarTest_workstation_administration/01.02.01.02_Using_the_Advantest_Software_Center.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "01_Getting_started/01.02_SmarTest_workstation_administration/01.02.01.03_Downloading_and_installing_the_SmartInstall_add-on.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "01_Getting_started/01.02_SmarTest_workstation_administration/01.02.01.04_Downloading_and_installing_SmarTest_software.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.01.07_Environmental.md",
+"bad": "鈩?",
+"good": "℃"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.01.07_Environmental.md",
+"bad": "鈩?",
+"good": "℉"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.01.01_PS1600_overview.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.01.01_PS1600_overview.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.01.06.01_PS1600_Voltage_force_and_measure.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.01.06.01_PS1600_Voltage_force_and_measure.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.01.06.02_PS1600_Current_force_and_measure.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈩?",
+"good": "K"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈩?",
+"good": "℃"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈩?",
+"good": "℉"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.02_Pin_Scale_5000_vector_memory.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.03_Pin_Scale_5000_timing.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.03_Pin_Scale_5000_timing.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.04_Pin_Scale_5000_driver.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.04_Pin_Scale_5000_driver.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.05_Pin_Scale_5000_receiver.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.05_Pin_Scale_5000_receiver.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.09_Pin_Scale_5000_parametric_measurement_unit.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.09_Pin_Scale_5000_parametric_measurement_unit.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.11_Pin_Scale_5000_high_voltage_protection.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.11_Pin_Scale_5000_high_voltage_protection.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03.14_Pin_Scale_5000_terms.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.04.03_PS5000_specifications.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.05.01_DC_Scale_DPS128_Device_Power_Supply__E8023CS_E8023CSH__-_high_current_sp.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.05.02_DC_Scale_UHC4T_Device_Power_Supply__E8024UH.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.05.03.01_XPS256_overview.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.05.03.02_XPS256_voltage_specifications.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.05.03.03_XPS256_current_specifications.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.05.03.04_XPS256_voltage_and_current_capability_specifications.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.05.03.07_XPS256_other_performance_characteristics.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.05.03.08_XPS256_pogo_block_specifications.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.02_Specifications/02.02.05.03.08_XPS256_pogo_block_specifications.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.01.01_Release_information.md",
+"bad": "锛?",
+"good": "："
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.04.05_Sequencer-controlled_utility_lines.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.05.06.02_External_utility_power_supply_-_Configuration_and_DUT_board_design.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01_AVI64_pogo_pin_assignment.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01_AVI64_pogo_pin_assignment.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.02_E8023PB_pogo_cable_assembly__2_VHD_pogo_blocks.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.02_E8023PB_pogo_cable_assembly__2_VHD_pogo_blocks.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.03_E8023PC_pogo_cable_assembly__4_HD_pogo_blocks__DPS128-HC_only.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.03_E8023PC_pogo_cable_assembly__4_HD_pogo_blocks__DPS128-HC_only.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.04_E8023PD_pogo_cable_assembly__2_HD_pogo_blocks__DPS64_only.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.04_E8023PD_pogo_cable_assembly__2_HD_pogo_blocks__DPS64_only.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.05_E8023PE_pogo_cable_assembly__8_MS-DPS_style_pogo_blocks__DPS128-HC_only.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.05_E8023PE_pogo_cable_assembly__8_MS-DPS_style_pogo_blocks__DPS128-HC_only.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.06_E8023PF_pogo_cable_assembly__2_MS-DPS_style_pogo_blocks__DPS64_only.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.06_E8023PF_pogo_cable_assembly__2_MS-DPS_style_pogo_blocks__DPS64_only.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.07_E8023PG_pogo_cable_assembly__4_MS-DPS_style_pogo_blocks__DPS64_only.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.08_E8023PH_pogo_cable_assembly__4_HD_pogo_blocks__DPS64_standard.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.08_E8023PH_pogo_cable_assembly__4_HD_pogo_blocks__DPS64_standard.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.09_E8023PK_pogo_cable_assembly__4_VHD_pogo_blocks__DPS128.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02.09_E8023PK_pogo_cable_assembly__4_VHD_pogo_blocks__DPS128.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.02_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.04_FVI16_pogo_pin_assignment.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.04_FVI16_pogo_pin_assignment.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.05_PVI8_pogo_pin_assignment.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.05_PVI8_pogo_pin_assignment.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.07_XPS256_pogo_pin_assignment.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.07_XPS256_pogo_pin_assignment.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.03_PS1600_pogo_pin_assignment.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.03_PS1600_pogo_pin_assignment.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.03_PS1600_pogo_pin_assignment.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.05_PS5000_pogo_pin_assignment.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.05_PS5000_pogo_pin_assignment.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.06_PS9G_pogo_cable_assembly__pogo_pin_layout_and_model_file_configuration.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.11_Link_Scale_USB3_pogo_pin_assignment.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.11_Link_Scale_USB3_pogo_pin_assignment.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.05.01_PMUX01_Power_MUX_pogo_pin_assignment.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.05.02_MUX_cards_filling_rules.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.07.02.01.01_WSMM_Card_Cage_RFIM18___RFIM6_channel_transformation.md",
+"bad": "鈥?",
+"good": "‑"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.07.02.01.01_WSMM_Card_Cage_RFIM18___RFIM6_channel_transformation.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.07.02.01_WSMM_Card_Cage_DUT_Interface.md",
+"bad": "鈥?",
+"good": "‑"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.07.02.02.02_WSMM_Family_Board_E8027FAA_pogo_pin_mapping.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.07.04_Wave_Scale_RF_pogo_pin_assignment__10_MHz_clock.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.01_Utility_pogo_block_-_Basic_configuration__V93000_EXA_Scale_systems.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.03_Utility_pogo_block_-_LTH_large_DUT_interface.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.04_Utility_pogo_block_-_STH_DUT_Scale_interface.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.05_Utility_pogo_block_-_CTH_DUT_Scale_interface.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.06_Utility_pogo_block_-_ATH_DUT_Scale_interface.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.07_Utility_pogo_block_-_STH_small_DUT_interface.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.08_Utility_pogo_block_-_CTH_small_DUT_interface.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.09_Utility_pogo_block_-_ATH_small_DUT_interface.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.07.04.04_Maintaining_signal_quality_in_mixed-signal_testing.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.07.04.07_Grounding_concept_for_power_applications.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.04_AVI64_channel_group_and_differential_compare_assignment.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.04.03_FVI16_safety_pogo_pins.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.04.04_FVI16_ganged_wiring.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.01_UHC4___UHC4T_recommendations_for_use.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.04.02_Real_capacitors.md",
+"bad": "鈥?",
+"good": "’"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.03.04.01_Recipe_for_1_Volt__40_Amp_step_application.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.03.04.02_Recipe_for_2_Volt__20_Amp_step_application.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.06.05.04.01_Power_planes_stack-up.md",
+"bad": "鈥?",
+"good": "’"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07.01_XPS256_pogo_pins.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07.06_DPS128_and_UHC4_migration_to_XPS256.md",
+"bad": "鈫?",
+"good": "→"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07.06_DPS128_and_UHC4_migration_to_XPS256.md",
+"bad": "鈫?",
+"good": "←"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07.06_DPS128_and_UHC4_migration_to_XPS256.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07.06_DPS128_and_UHC4_migration_to_XPS256.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.07_DC_Scale_XPS256_card.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.03.01.04_PS5000_ground_sensing.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.03.03_Link_Scale_USB3_card.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.04.04_MUX_cards_design_data.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.05.03.04.05_Twinning_family_board_design_for_Direct-Probe.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.08.05.03.05.03_Twinning_DUT_board_design_for_Direct-Probe.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.01_Direct-Probe_probe_card_specifications.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.02.01_Direct-Probe_PSRF_tower_connection_specifications.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.02.02_RF_interface_port_assignment_for_Direct-Probe.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.02.03_Direct-Probe_RF_Interconnect_Board.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.02_Direct-Probe_PSRF_probe_card_specifications.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.03.01_Direct-Probe_products_from_vendors.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.03.05.01_Step_1__Check_stiffener_specification.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.03.05.03_Step_3__Backer_height_measurement.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.03_Direct-Probe_design_specifications.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.04.01_Bridge_Beam_Direct_Probe_for_Digital_and_Mixed_Signal__E8016BBD.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.04.02_Bridge_Beam_Direct_Probe_for_PSRF__E8016BBRF.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.04.03_Bridge_Beam_Direct_Probe_for_WSRF_and_PMUX__E8016BBWS.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.04.03_Bridge_Beam_Direct_Probe_for_WSRF_and_PMUX__E8016BBWS.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.04.04_Bridge_Beam_Direct_Probe_for_special_WSRF__PMUX_and_WSMM__E8016BBMM.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.04_Direct-Probe_bridge_beams.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.05.03.01_Test_head_alignment_for_probing_with_the_Wave_Scale_Millimeter_solution.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.01_Hiding_the_wafer_prober_chuck.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.03.01_Bridge_beam_installation_on_Accretech_UF3000_EX_-_Phase_1.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.03.03_Bridge_beam_installation_on_Accretech_UF3000_EX_-_Phase_2.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.03.04.01_Verification_Phase_2_-_Stage_1.md",
+"bad": "鈥?",
+"good": "”"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.04_Loading_a_DUT_board_on_the_Accretech_UF3000_EX_wafer_prober.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07_Interfacing_the_test_system_to_Accretech_UF3000_EX_wafer_prober.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.08.01_Protecting_the_chuck_on_the_wafer_prober.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.08.02_Installing_Direct-Probe_bridge_beam_on_TEL_Precio_wafer_prober.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.08_Interfacing_the_test_system_to_TEL_Precio_wafer_prober.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11.01_Direct-Probe_interface.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.11_Wafer_prober_interfaces.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.01_Direct-Probe_probe_card_layout_information.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.02_Direct-Probe_stiffener.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.11_MUX_cards_design_data.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.23_Wave_Scale_RF_PCB_layout_and_stiffener_info_for_Direct-Probe.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.24_Wave_Scale_RF_PCB_layout_and_stiffener_info_for_final_test.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.01.02_CARD_CONFIGURATION_section.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.01_Model_file_reference__tester.model.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02.01_Pogocabling_entries_for_various_card_types.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.03_IOCHANNEL_section.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.04_Model_File_and_Licensing/02.04.08.01.04_Entitlements.md",
+"bad": "鈥?",
+"good": "–"
+},
+{
+"md": "02_System_reference/02.04_Model_File_and_Licensing/02.04.08.01.05_Renewing_your_licenses.md",
+"bad": "鈥?",
+"good": "–"
+},
+{
+"md": "02_System_reference/02.04_Model_File_and_Licensing/02.04.10.03_Adding_entitlement_IDs_and_organization_to_a_user_account.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.04_Model_File_and_Licensing/02.04.13.03.02_Advantest_FlexNet_Embedded_license_server_tools.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.04_Model_File_and_Licensing/02.04.13_FlexNet_Embedded_licensing.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.01.04_Pogo_mapping.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.02.01_PS1600_overview.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.02.01_PS1600_overview.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.02.06.01_PS1600_Voltage_force_and_measure.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.02.06.01_PS1600_Voltage_force_and_measure.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.02.06.02_PS1600_Current_force_and_measure.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03.06_PS1600_SmartLoop__loopback_testing.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03_PS1600_functionality_and_features.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.04.01_Identifying_Pin_Scale_vs._Smart_Scale_test_systems.md",
+"bad": "鈼?",
+"good": "○"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.04.01_Identifying_Pin_Scale_vs._Smart_Scale_test_systems.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.06_PS1600_pogo_pin_assignment.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.06_PS1600_pogo_pin_assignment.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.06_PS1600_pogo_pin_assignment.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.07.01.01_PS1600_DC_offset.md",
+"bad": "鈮?",
+"good": "≠"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.07.01_Pull-down_function.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.01.07.02_PS1600_card_configuration_in_the_model_file.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.01_Pin_Scale_5000_sitemap.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈩?",
+"good": "K"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈩?",
+"good": "℃"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.01_Pin_Scale_5000_basic_parameters.md",
+"bad": "鈩?",
+"good": "℉"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.02_Pin_Scale_5000_vector_memory.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.03_Pin_Scale_5000_timing.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.03_Pin_Scale_5000_timing.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.04_Pin_Scale_5000_driver.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.04_Pin_Scale_5000_driver.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.05_Pin_Scale_5000_receiver.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.05_Pin_Scale_5000_receiver.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.09_Pin_Scale_5000_parametric_measurement_unit.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.09_Pin_Scale_5000_parametric_measurement_unit.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.11_Pin_Scale_5000_high_voltage_protection.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.11_Pin_Scale_5000_high_voltage_protection.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02.14_Pin_Scale_5000_terms.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.02_PS5000_specifications.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.06_Pin_Scale_5000_pogo_pin_assignment.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.06_Pin_Scale_5000_pogo_pin_assignment.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.07.01_Pull-down_function.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02.07.03.01_Pin_Scale_5000_card_configuration_in_the_model_file.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.04.02_Pin_Scale_5000_card.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02.01_DC_Scale_DPS128_Device_Power_Supply__E8023CS_E8023CSH__-_high_current_sp.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.02_E8023PB_pogo_cable_assembly__2_VHD_pogo_blocks.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.02_E8023PB_pogo_cable_assembly__2_VHD_pogo_blocks.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.03_E8023PC_pogo_cable_assembly__4_HD_pogo_blocks__DPS128-HC_only.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.03_E8023PC_pogo_cable_assembly__4_HD_pogo_blocks__DPS128-HC_only.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.04_E8023PD_pogo_cable_assembly__2_HD_pogo_blocks__DPS64_only.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.04_E8023PD_pogo_cable_assembly__2_HD_pogo_blocks__DPS64_only.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.05_E8023PE_pogo_cable_assembly__8_MS-DPS_style_pogo_blocks__DPS128-HC_only.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.05_E8023PE_pogo_cable_assembly__8_MS-DPS_style_pogo_blocks__DPS128-HC_only.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.06_E8023PF_pogo_cable_assembly__2_MS-DPS_style_pogo_blocks__DPS64_only.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.06_E8023PF_pogo_cable_assembly__2_MS-DPS_style_pogo_blocks__DPS64_only.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.07_E8023PG_pogo_cable_assembly__4_MS-DPS_style_pogo_blocks__DPS64_only.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.08_E8023PH_pogo_cable_assembly__4_HD_pogo_blocks__DPS64_standard.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.08_E8023PH_pogo_cable_assembly__4_HD_pogo_blocks__DPS64_standard.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.09_E8023PK_pogo_cable_assembly__4_VHD_pogo_blocks__DPS128.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.09_E8023PK_pogo_cable_assembly__4_VHD_pogo_blocks__DPS128.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09_DPS128____PS64_specific_setup_tasks.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.02.02_UHC4T_specifications.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.02.06_UHC4___UHC4T_recommendations_for_use.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.02.01.01_XPS256_overview.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.02.01.02_XPS256_voltage_specifications.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.02.01.03_XPS256_current_specifications.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.02.01.04_XPS256_voltage_and_current_capability_specifications.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.02.01.07_XPS256_other_performance_characteristics.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.02.01.08_XPS256_pogo_block_specifications.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.02.01.08_XPS256_pogo_block_specifications.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.02_XPS256_specifications.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.03_XPS256_functionality_and_features.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.04_XPS256_pogo_pin_assignment.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.04_XPS256_pogo_pin_assignment.md",
+"bad": "鈼?",
+"good": "●"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.06.01_XPS256_force_and_clamp_voltages.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.09_XPS256_load_step_response.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.01.01_Timing_of_DC_events_-_XPS256.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.01.01_Timing_of_DC_events_-_XPS256.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.01_XPS256_specific_setup_tasks.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.05_XPS256_programming_-_Default_values.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.20_XPS256_programming_-_DPS128_and_UHC4_migration_to_XPS256.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.20_XPS256_programming_-_DPS128_and_UHC4_migration_to_XPS256.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.05_Test_Head_Cards/02.05.08.01.02_External_utility_power_supply_-_Configuration_and_DUT_board_design.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.153_LBRT__-__LoopBack_RouTing.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.235_SQLA__SQLA__-__SeQuencer_Label_Attribute.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.260_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md",
+"bad": "鈥?",
+"good": "‑"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md",
+"bad": "鈥?",
+"good": "‑"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.03.01.05_Defining_a_utility_line.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md",
+"bad": "鈥?",
+"good": "‑"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md",
+"bad": "鈥?",
+"good": "‑"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.05.01.05.06_Pull-down_function.md",
+"bad": "鈩?",
+"good": "Ω"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.06.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.06.01.04.01.02.01_Automatic_calculation_of_period_resolution_for_single-port_setups.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.06.01.04.01.02.01_Automatic_calculation_of_period_resolution_for_single-port_setups.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.06.01.04.01.02.03_Period_resolution__clock_resolution__and_master_clock_period.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.06.01.04.01.02.04_Period_resolution_for_a_multi-port_setup__Smart_Scale.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.01_Defining_the_edge_delays_for_Pin_Scale_standard_pins.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.01_Defining_edge_delays_and_period_length_for_a_protocol_engine_test.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.06.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.07.01.04.02_Memory_pooling_within_channel_groups.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.07.01.08.06_Instructions_for_PRBS_and_SmartLoop_tests.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.07.02.26_SQLA__SQLA__-__SeQuencer_Label_Attribute.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.11.01.02.01.02.07_Compression_factor_for_overview_Error_Map.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.11.02.10_DCRM__DCRM__-__Digital_Compare_Result_Mode.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md",
+"bad": "鈥?",
+"good": "‑"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md",
+"bad": "鈥?",
+"good": "‑"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.13.01.02_Starting_a_TMU_measurement.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.15.01.02.02_Skipping_idle_tokens.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.15.02.01_Combining_transition_tracking_with_a_PRBS_or_pattern__ased_SmartLoop_tes.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.17.02_Generating_and_checking_pseudo_random_bit_sequences.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.17.04_Executing_a_pattern__ased_SmartLoop_test.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.02.03.03_How_to_call_the_functions_in_one_test_method_library_from_another_test_m.md",
+"bad": "鈥?",
+"good": "’"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.03.03.02.03_Changing_and_obtaining_conditions_for_digital_capture_test.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.108_GET_UTILITY_LINES_STATUS.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.02_HW_STATE.checkKelvinStatus.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.03_HW_STATE.checkKelvinStatusParallel.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.04_HW_STATE.checkGangConnection.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.05_HW_STATE.checkGangConnectionParallel.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.128_LOOPBACK_OPERATION_TASK.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.12_CALC_COHERENCY.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.190.01.03_RESULT_AREA_CONFIG_PINS.setResultRetentionEnabled.md",
+"bad": "鈥?",
+"good": "’"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.190.01.07_RESULT_AREA_CONFIG_PINS.isResultRetentionEnabled.md",
+"bad": "鈥?",
+"good": "’"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.199.01_SEARCH_FUNC_PIN_TASK.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.27_SMC_PIN_ERROR_MAP.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.09_SPMU_PIN_TASK.forceDropMax.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.19_SPMU_PIN_TASK.loadCap.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.19_SPMU_PIN_TASK.loadCap.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.25_SPMU_PIN_TASK.openLoopProtection.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.29_SPMU_PIN_TASK.returnDropMax.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.257.01_TRANSITION_TEST_PINS.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.265.02_UTILITY_SEQ_MODE.pogoBlock.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.266.02_UTILITY_SEQ_STATIC_MASK.pogoBlock.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.270_VEC_TRANSFER_TASK.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.270_VEC_TRANSFER_TASK.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.273_Wave.md",
+"bad": "鈮?",
+"good": "≠"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.273_Wave.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.52_DRAM_ADDRESS_MAPPER.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.01_DSP_ABS_MINMAX.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.02_DSP_ABS_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.03_DSP_ADC_HISTOGRAM.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.06_DSP_ADD_SCL.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.07_DSP_ADD_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.08_DSP_A_DECODE.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.09_DSP_A_ENCODE.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.101_DSP_SUB_SCL.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.102_DSP_SUB_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.103_DSP_SUM.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.104_DSP_TAN_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.105_DSP_THD.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.106_DSP_TH_QUANTIZE.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.106_DSP_TH_QUANTIZE.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.107_DSP_TRANS_MAT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.108_DSP_UNIT_MAT.md",
+"bad": "鈮?",
+"good": "≠"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.108_DSP_UNIT_MAT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.109_DSP_XOR_SCL.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.10_DSP_AND_SCL.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.110_DSP_XOR_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.11_DSP_AND_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.12_DSP_AREA.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.12_DSP_AREA.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.13_DSP_ASSIGN_FILTER.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.14_DSP_BLOCK_FFT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.15_DSP_COMBINE_BIT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.16_DSP_COMPRESS.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.17_DSP_CONCAT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.18_DSP_CONV_D_x.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.19_DSP_CONV_I_x.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.20_DSP_CONVOL.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.21_DSP_CORREL.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.22_DSP_COS_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.23_DSP_DFT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.24_DSP_DGDP.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.25_DSP_DIFF.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.27_DSP_DIV_SCL.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.28_DSP_DIV_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.29_DSP_EDGE.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.30_DSP_EXP10_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.31_DSP_EXPAND.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.32_DSP_EXP_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.33_DSP_EXTRACT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.34_DSP_FFT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.35_DSP_FILL_SCL.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.36_DSP_FIR_FILTER1.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.37_DSP_HISTOGRAM.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.38_DSP_IFFT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.39_DSP_IFFT_POLAR.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.43_DSP_LINEAR.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.44_DSP_LOG10_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.45_DSP_LOG_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.46_DSP_MEAN.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.47_DSP_MINMAX.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.48_DSP_MEDIAN.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.49_DSP_MOVAVG.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.51_DSP_MU_DECODE.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.52_DSP_MU_ENCODE.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.53_DSP_MUL_MAT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.54_DSP_MUL_SCL.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.55_DSP_MUL_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.56_DSP_OR_SCL.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.57_DSP_OR_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.58_DSP_PARA_SERI.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.58_DSP_PARA_SERI.md",
+"bad": "鈭?",
+"good": "∞"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.58_DSP_PARA_SERI.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.59_DSP_POL_RECT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.60_DSP_POWER_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.61_DSP_RECT_POL.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.62_DSP_REG1.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.63_DSP_REG2.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.65_DSP_RESPONSE.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.85_DSP_RMS.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.86_DSP_SEARCH_PARA.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.87_DSP_SEARCH_SERI.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.88_DSP_SERI_PARA.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.88_DSP_SERI_PARA.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.89_DSP_SETTLING.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.90_DSP_SFDR.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.91_DSP_SHIFT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.92_DSP_SHUFFLE.md",
+"bad": "鈮?",
+"good": "≠"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.92_DSP_SHUFFLE.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.93_DSP_SINFIT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.94_DSP_SIN_VEC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.95_DSP_SND.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.96_DSP_SNR.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.98_DSP_SORT.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.99_DSP_SPECTRUM.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.99_DSP_SPECTRUM.md",
+"bad": "鈮?",
+"good": "≠"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01.02_Timing_of_DC_events_-_XPS256.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.01.02_Timing_of_DC_events_-_XPS256.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.04.03_Encoding_Decoding_Table_for_A-Law__-Law.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.05.02.09_OutputDC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.05.02.09_OutputDC.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.05.03.07_OutputDC.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.05.03.07_OutputDC.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.10.02.01.02_SmartCalc_common_thread_example.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.11.01.09.08.01_Using_pin_role_groups_for_parallel_protocols.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.11.01.09.08.01_Using_pin_role_groups_for_parallel_protocols.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.11.01.11.05.02_Parameter_reconstruction.md",
+"bad": "鈥?",
+"good": "‘"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.13.08.20.03.01.09_The__rfm__element.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.26_loadCap.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.26_loadCap.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.07_Test_Method_Reference/02.07.13.15.01.03_Routing_Tools_-_Utility_Lines_Config_editor.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.03_Technology_file_for_a_device.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.03.03_Technology_file_for_a_device.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.06.02.02.01_Estimate_the_time_shift_between_two_swings.md",
+"bad": "鈮?",
+"good": "≈"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15.03_Technology_file_for_a_device.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.15.03_Technology_file_for_a_device.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.04.03_STATEMAP_section_of_the_wavetable.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.05_Virtual_sequencer_instructions_for_protocol_patterns.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.04_Utility_Pins_editor.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.07.01_Alphabetical_list_of_flags.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.03.02.03_Defining_the_wavetable_for_a_pattern__ased_SmartLoop_test.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.01.02.01_Automatic_calculation_of_period_resolution_for_single-port_setups.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.01.02.01_Automatic_calculation_of_period_resolution_for_single-port_setups.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.01.02.03_Period_resolution__clock_resolution__and_master_clock_period.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.01.02.04_Period_resolution_for_a_multi-port_setup__Smart_Scale.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.01_Defining_the_edge_delays_for_Pin_Scale_standard_pins.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.01_Defining_edge_delays_and_period_length_for_a_protocol_engine_test.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.04.02.03.03_Defining_edge_delays_for_a_pattern__ased_SmartLoop_test.md",
+"bad": "鈩?",
+"good": "™"
+},
+{
+"md": "02_System_reference/02.09_Test_Program_Management/02.09.01.02.05.02.05_BrdTemp_check.md",
+"bad": "鈩?",
+"good": "℃"
+},
+{
+"md": "02_System_reference/02.09_Test_Program_Management/02.09.01.02.05.02.05_BrdTemp_check.md",
+"bad": "鈩?",
+"good": "℉"
+},
+{
+"md": "02_System_reference/02.10_Data_Logging/02.10.01.06.05.29_PassRangeAttrType.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.10_Data_Logging/02.10.03.05.28_Activity_Trace_Event_Record__ATER.md",
+"bad": "鈥?",
+"good": "​"
+},
+{
+"md": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.02.01.01.01_The_Input_Columns.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.02.01.01.01_The_Input_Columns.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.02.02.01.03_Defining_the_Clock_for_Fast_Differential_Receive_Pins__ssb_on_off.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.02.03.01_The_Structure_of_the_X-Mode_Control_File.md",
+"bad": "鈥?",
+"good": "‘"
+},
+{
+"md": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.02.03.07_Controlling_the_Waveforms_for_Differential_Pins.md",
+"bad": "鈥?",
+"good": "‘"
+},
+{
+"md": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.02.06.01.04_Generating_the_Wavetable_and_Timing_Map_File.md",
+"bad": "鈥?",
+"good": "‘"
+},
+{
+"md": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.03.02.02.02_The_ASCII_Vector_Row.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.03.02.03_Translating_ASCII_Vectors_with_Differential_Pins.md",
+"bad": "鈥?",
+"good": "‘"
+},
+{
+"md": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.03.03.03.03_Defining_the_Scan_Instances.md",
+"bad": "鈥?",
+"good": "‘"
+},
+{
+"md": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.03.03.07.02_Synchronizing_Scan_and_Parallel_Ports_with_Different_X-Mode_Factors.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "02_System_reference/02.11_Data_Conversion_and_Bridges/02.11.02.03.04.01_Structure_of_a_Timing_Map_File_Block.md",
+"bad": "鈥?",
+"good": "‘"
+},
+{
+"md": "02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.07.09.11_SharedLeakageParallel_test_method.md",
+"bad": "鈥?",
+"good": "‘"
+},
+{
+"md": "02_System_reference/02.16_ACS_TE-Cloud/02.16.03.08_Transmitting_files_between_Linux_machines_with_command_line.md",
+"bad": "锛?",
+"good": "："
+},
+{
+"md": "02_System_reference/02.16_ACS_TE-Cloud/02.16.04.05_Transmitting_files_to_the_tester.md",
+"bad": "锛?",
+"good": "："
+},
+{
+"md": "03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.02.04_Tools_to_analyze_the_situation.md",
+"bad": "鈥?",
+"good": "‘"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.03_How_to_use_Multiport_for_specific_Applications/03.03.05.09.01_Using_the_CCT_Multi-Port_Sequencer_Synchronizer_API.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.08_How_to_set_up_a_multiport_EPRC_match_loop/03.08_How_to_set_up_a_multiport_EPRC_match_loop.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md",
+"bad": "鈥?",
+"good": "…"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.01.01_TP360_3.7.0.md",
+"bad": "锛?",
+"good": "？"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.07.17_CSV_rule_file_for_checking_voltage_current_risks.md",
+"bad": "鈥?",
+"good": "–"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.07.18_CSV_rule_file_for_flow_execution.md",
+"bad": "鈥?",
+"good": "–"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.10.01_Generating_failure_mode_error_analyzer_reports.md",
+"bad": "锛?",
+"good": "，"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04.10.02_Preference_of_Failure_Mode_Error_Analyzer.md",
+"bad": "銆?",
+"good": "。"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.04_Using_TP360.md",
+"bad": "鈥?",
+"good": "–"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13_Test_Program_360_Cookbook.md",
+"bad": "鈥?",
+"good": "–"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.06.08_X-Mode_Pattern_Synchronization_to_Free_Running_Bit_Streams.md",
+"bad": "鈮?",
+"good": "≥"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.06.11_ATE_solutions_to_3D-IC_test_challenges__The_readiness_of_Advantest_s_V93.md",
+"bad": "鈥?",
+"good": "–"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.08.08_Choosing_the_Dielectric_Material_for_a_V93000_DUT_Loadboard.md",
+"bad": "鈮?",
+"good": "≤"
+},
+{
+"md": "03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.08.10_Verigy_V93000_Direct-Probe__Evolution_of_the_Verigy_V93000_SOC_Tester_in.md",
+"bad": "鈩?",
+"good": "™"
+}
+]

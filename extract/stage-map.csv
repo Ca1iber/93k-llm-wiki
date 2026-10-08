@@ -99,7 +99,7 @@ object:mappings/mapping-timing,"Using the Timing Diagram Tool",02_System_referen
 object:objects/dps128-dps64-cards,"DPS128鈥? DPS64 hardware overview",02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md,22,page
 object:concepts/setting-up-dc-scale-pins-with-smartrdi,"Setting up DC Scale pins with SmartRDI",02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md,22,page
 object:objects/tp360,"Opening TP360",03_Use_cases_and_application_papers/03.13_Test_Program_360_Cookbook/03.13.03_Opening_TP360.md,22,page
-object:objects/dps128-dps64-cards,"DPS128鈥? DPS64 power budget",02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md,22,page
+object:objects/dps128-dps64-cards,"DPS128… DPS64 power budget",02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md,22,page
 object:objects/timestamp-attr-type,"TimeStampAttrType",02_System_reference/02.10_Data_Logging/02.10.01.06.05.65_TimeStampAttrType.md,22,page
 object:objects/global-section,"GLOBAL section",02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md,22,page
 object:constraints/pin-config-requires-sequencer-off,"DFPN, DFPN? - (DeFine Pin Name)",02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md,22,page
