@@ -272,7 +272,7 @@ SpecVariable, PinString`——**即：6.5.0 同时给了类型和注册它的入
 ## 出处
 
 `sources:` 一篇：`02_System_reference/02.07_Test_Method_Reference/02.07.02.13.04_SpecVariable.md`
-（TDC `115042.htm`，4,334 字节 / 145 行）——**整篇读完**。
+（TDC `115042.htm`，4,330 字节 / 145 行）——**整篇读完**。
 
 **「语法 / 参数」节只收了原文的 `## Example` 一节**（2,014 字符）。
 **`## Member function`（572 字符）整节在上表中由本页逐条写出**——

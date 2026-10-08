@@ -398,95 +398,21 @@ Each of the optional keywords can have a tilde character (~) as a placeholder in
 
 These keywords let you specify parameters for use in the program and device access files (see :programParameter:, above):
 
- |
-
-Keyword
-
- |
-
-Parameters and descriptions
-
- |
- |
-
-:name:
-
- |
-
-<paramName>: The name of the parameter.
-
- |
- |
-
-:value:
-
- |
-
-<paramValue>: The value of theB parameter.
-
-To specify a hexadecimal number, prefix it with `0x`. For values larger than 64 bits, see `Expressions with more than 64 bits`（raw: `02.12.03.04.15_Expressions_with_more_than_64_bits.md`）.
-
-You can specify floating-point numbers as the value; such values are truncated when they are passed to other files.
-
-You can also specify the value as an expression. This expression can include other parameters and all operators (see `Operators`（raw: `02.12.03.03.03.01.01_Operators.md`）), except assignment and increment operators.
-
-Device parameters can be used in program parameter definitions.
-
- |
+| Keyword | Parameters and descriptions |
+|---|---|
+| :name: | <paramName>: The name of the parameter. |
+| :value: | <paramValue>: The value of theB parameter.<br><br>To specify a hexadecimal number, prefix it with `0x`. For values larger than 64 bits, see `Expressions with more than 64 bits`（raw: `02.12.03.04.15_Expressions_with_more_than_64_bits.md`）.<br><br>You can specify floating-point numbers as the value; such values are truncated when they are passed to other files.<br><br>You can also specify the value as an expression. This expression can include other parameters and all operators (see `Operators`（raw: `02.12.03.03.03.01.01_Operators.md`）), except assignment and increment operators.<br><br>Device parameters can be used in program parameter definitions. |
 
 ## Timing keywords
 
 These keywords let you specify timing settings (see :timing:, above):
 
- |
-
-Keyword
-
- |
-
-Parameters and descriptions
-
- |
- |
-
-:file:
-
- |
-
-<timingFilePath>: The name of the SmarTest `Timing file`（raw: `02.12.03.03.09.02_Timing_file.md`） to be used.
-
- |
- |
-
-:eqns:
-
- |
-
-<equationSet>: The equation set in the specified timing file that is to be used. You can specify the equation set using its number or its name.
-
-If multiple timing sets are specified for multiport operation, the entry for the equation set is ignored.
-
- |
- |
-
-:tims:
-
- |
-
-<timingSet>: The timing set in the specified timing file that is to be used. You can specify the timing set using its number or its name.
-
-There are special conventions for multiport operation, as described in `Multiport timing conventions`（raw: `02.12.03.04.14.01_Multiport_timing_conventions.md`）.
-
- |
- |
-
-:spec:
-
- |
-
-<specSet>: The spec set in the specified timing file that is to be used. You can specify the spec set using its number or its name.
-
- |
+| Keyword | Parameters and descriptions |
+|---|---|
+| :file: | <timingFilePath>: The name of the SmarTest `Timing file`（raw: `02.12.03.03.09.02_Timing_file.md`） to be used. |
+| :eqns: | <equationSet>: The equation set in the specified timing file that is to be used. You can specify the equation set using its number or its name.<br><br>If multiple timing sets are specified for multiport operation, the entry for the equation set is ignored. |
+| :tims: | <timingSet>: The timing set in the specified timing file that is to be used. You can specify the timing set using its number or its name.<br><br>There are special conventions for multiport operation, as described in `Multiport timing conventions`（raw: `02.12.03.04.14.01_Multiport_timing_conventions.md`）. |
+| :spec: | <specSet>: The spec set in the specified timing file that is to be used. You can specify the spec set using its number or its name. |
 
 ### Example
 

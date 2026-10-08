@@ -649,7 +649,7 @@ WAVE? {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {(pinlist)}
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`
-  （frontmatter 的 `source_topic` 是 `98869.htm`；**9,048 字节 / 384 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98869.htm`；**8,965 字节 / 384 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 

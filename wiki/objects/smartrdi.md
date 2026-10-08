@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **112,533 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13_SmartRDI.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.01_Example_of_keyword_setups_in_the_RDI_Configure_file.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.02_getRdiConfig.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.06.01_rdi.getInfoLevel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.06.02_rdi.setInfoLevel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.02_execute.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.03_id.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.04_RDI_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.05_RDI_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.06_RDI_INIT.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.07_RDI_UNIT_INIT.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.08_RDI_WAIT_TEST_DONE.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.02_Changing_the_default_pin_status_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.03_Changing_the_parameter_value_at_runtime_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.04.01_digCapBurstSiteUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.01_fastSyncOff.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.02_fastSyncOn.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.03_fastSyncPortNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.01_getBuildDate.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.02_Macros_to_get_the_SmartRDI_version_number.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.03_rdi.getActiveRdiRev.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.04_rdi.getCompileRdiRev.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.07.01_Automatic_masking_on_inactive_sites.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.07.02_Active_site_on_hold.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.01_port.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.02_portSync.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.03_RDI_PORT_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.04_RDI_PORT_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.09_Pass_Fail_per_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.10.01_burstPostfix.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.11.01_rdi.pureGenerationMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.12_Register_Access_library.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.13.04_RDI_SEMI_PARALLEL_TEST_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.13.05_RDI_SEMI_PARALLEL_TEST_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.14_Setting_and_retrieving_the_setup_name_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.16.01_rdi.disableWarning.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.16.02_rdi.enableWarning.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.17_Sync_group_support_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.19.01_Using_hidden_upload_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.20_Using_Offline_Result_Emulation_in_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.21.01_wait.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.21.02_waitCycle.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.09.01_Alarm_setup_file.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.09.02_Alarm_handling_commands.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.10_SmartRDI__d2s-like_protocol_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.01_Using_a_DC_resource_as_an_AWG_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.02_Runtime_DC_waveform.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.03_DC_waveforms_per_site.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.04_Using_a_DC_resource_as_a_digitizer_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.05_Using_a_DC_Scale_resource_as_a_digitizer_while_sourcing_a_waveform_on_th.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.06_Serial_Semi-parallel_execution_of_BADC_as_digitizer_over_sites.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.07_DC_waveform_and_sampling_in_parallel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.08_Parallel_pulse_actions_with_measurement_and_sampling.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01_Setting_up_PPMU_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.02_Setting_up_Board_ADC_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.03_Setting_up_SPMU_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.01_Generating_a_new_digital_capture_pattern_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.02_Inserting_digital_capture_actions_in_an_existing_pattern_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.03_Using_Immediate_Upload_in_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.04_addVecRange.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.05_bitPerWord.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.06_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.07_capMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.08_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.09_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.10_format.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.11_initDiscard.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.12_interSkip.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.13_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.14_pin.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.15_samples.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.16_vecVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.17_vecVarOnly.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.18_getVector.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.19_getVectorBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.20_rdi.id__.getVectorFromVV.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.21_getVecVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.14_SmartRDI__Digital_channel_relay_control.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.01.01_Routing_Tools_-_Global_Setup_editor.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.01.04_Routing_Tools_-_State_Setup_editor.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.05_rdi.route.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.16_SmartRDI__Error_map_results_from_user_patterns.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.17_Functional_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.18_SmartRDI__Level_and_timing_set_changes.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.19.01_Structures_of_multiple_cogo___nodes.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.20.03_postBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.21_SmartRDI__TMU_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.01_getLabelCycleNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.02.01_setGlobalVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.02.02_getGlobalVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.03_dtos.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.04_itos.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.05_itos_hex.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.06_reverseBits.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.07_getCommentCycleNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.08_getCommentVectorNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.23_SmartRDI__Utility_lines_control.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.02_bitLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.04_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.06_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.07_defaultBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.08_defaultVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.09_download.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.10_emapLocation.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.11_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.12_expectBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.13_expectData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.16_failNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.18_fillBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.19_fillVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.20_insertJmpe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.21_insertSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.22_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.25_passNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.26_pMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.27_pModeStrobe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.28_readBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.29_readData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.30_rdi.smartVec__.readMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.31_repeat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.32_repeatSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.33_rdi.smartVec__.vecEditMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.34_vecLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.35_writeBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.36_writeData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.37_writeDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.38_writeParData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.39_writeParDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.40_writePat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.41_writeVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.43_getFailCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.44_getFailCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.45_getFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.46_rdi.id__.getMultiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.47_getReadBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.48_getReadData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.03_Retrieving_match_loop_results.md>`。**不是转述。**
+> 本节 **112,061 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13_SmartRDI.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.01_Example_of_keyword_setups_in_the_RDI_Configure_file.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.02_getRdiConfig.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.06.01_rdi.getInfoLevel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.06.02_rdi.setInfoLevel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.02_execute.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.03_id.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.04_RDI_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.05_RDI_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.06_RDI_INIT.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.07_RDI_UNIT_INIT.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.08_RDI_WAIT_TEST_DONE.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.02_Changing_the_default_pin_status_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.03_Changing_the_parameter_value_at_runtime_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.04.01_digCapBurstSiteUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.01_fastSyncOff.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.02_fastSyncOn.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.03_fastSyncPortNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.01_getBuildDate.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.02_Macros_to_get_the_SmartRDI_version_number.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.03_rdi.getActiveRdiRev.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.04_rdi.getCompileRdiRev.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.07.01_Automatic_masking_on_inactive_sites.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.07.02_Active_site_on_hold.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.01_port.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.02_portSync.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.03_RDI_PORT_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.04_RDI_PORT_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.09_Pass_Fail_per_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.10.01_burstPostfix.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.11.01_rdi.pureGenerationMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.12_Register_Access_library.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.13.04_RDI_SEMI_PARALLEL_TEST_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.13.05_RDI_SEMI_PARALLEL_TEST_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.14_Setting_and_retrieving_the_setup_name_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.16.01_rdi.disableWarning.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.16.02_rdi.enableWarning.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.17_Sync_group_support_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.19.01_Using_hidden_upload_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.20_Using_Offline_Result_Emulation_in_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.21.01_wait.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.21.02_waitCycle.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.09.01_Alarm_setup_file.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.09.02_Alarm_handling_commands.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.10_SmartRDI__d2s-like_protocol_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.01_Using_a_DC_resource_as_an_AWG_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.02_Runtime_DC_waveform.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.03_DC_waveforms_per_site.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.04_Using_a_DC_resource_as_a_digitizer_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.05_Using_a_DC_Scale_resource_as_a_digitizer_while_sourcing_a_waveform_on_th.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.06_Serial_Semi-parallel_execution_of_BADC_as_digitizer_over_sites.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.07_DC_waveform_and_sampling_in_parallel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.08_Parallel_pulse_actions_with_measurement_and_sampling.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01_Setting_up_PPMU_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.02_Setting_up_Board_ADC_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.03_Setting_up_SPMU_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.01_Generating_a_new_digital_capture_pattern_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.02_Inserting_digital_capture_actions_in_an_existing_pattern_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.03_Using_Immediate_Upload_in_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.04_addVecRange.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.05_bitPerWord.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.06_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.07_capMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.08_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.09_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.10_format.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.11_initDiscard.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.12_interSkip.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.13_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.14_pin.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.15_samples.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.16_vecVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.17_vecVarOnly.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.18_getVector.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.19_getVectorBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.20_rdi.id__.getVectorFromVV.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.21_getVecVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.14_SmartRDI__Digital_channel_relay_control.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.01.01_Routing_Tools_-_Global_Setup_editor.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.01.04_Routing_Tools_-_State_Setup_editor.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.05_rdi.route.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.16_SmartRDI__Error_map_results_from_user_patterns.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.17_Functional_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.18_SmartRDI__Level_and_timing_set_changes.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.19.01_Structures_of_multiple_cogo___nodes.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.20.03_postBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.21_SmartRDI__TMU_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.01_getLabelCycleNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.02.01_setGlobalVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.02.02_getGlobalVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.03_dtos.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.04_itos.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.05_itos_hex.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.06_reverseBits.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.07_getCommentCycleNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.08_getCommentVectorNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.23_SmartRDI__Utility_lines_control.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.02_bitLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.04_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.06_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.07_defaultBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.08_defaultVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.09_download.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.10_emapLocation.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.11_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.12_expectBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.13_expectData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.16_failNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.18_fillBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.19_fillVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.20_insertJmpe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.21_insertSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.22_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.25_passNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.26_pMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.27_pModeStrobe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.28_readBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.29_readData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.30_rdi.smartVec__.readMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.31_repeat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.32_repeatSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.33_rdi.smartVec__.vecEditMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.34_vecLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.35_writeBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.36_writeData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.37_writeDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.38_writeParData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.39_writeParDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.40_writePat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.41_writeVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.43_getFailCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.44_getFailCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.45_getFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.46_rdi.id__.getMultiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.47_getReadBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.48_getReadData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.03_Retrieving_match_loop_results.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -105,24 +105,9 @@ string rdi.getRdiConfig(string optionName);
 ```
 
 Parameter
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-optionName
-
- |
-
-The option name to be queried.
-
- |
+| Parameter | Description |
+|---|---|
+| optionName | The option name to be queried. |
 
 ### Return Value（取自子主题 RDI Configure file › getRdiConfig）
 
@@ -437,24 +422,9 @@ RDI_UNIT_INIT(const string &sName);
 ```
 
 Parameter
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-sName
-
- |
-
-A string as an identifier.
-
- |
+| Parameter | Description |
+|---|---|
+| sName | A string as an identifier. |
 
 For a "live-branch" case, the `RDI_UNIT_INIT(string)` is for this purpose.
 
@@ -662,55 +632,15 @@ digCapBurstSiteUpload(bool digCapBurstSiteUpload);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-digCapBurstSiteUpload
-
- |
-
-Whether to use burst site upload for the following digital capture test. It can be true or false. The default value is false.
-
-If it is set to true, the maximum sample number is 8192.
-
- |
+| Parameter | Description |
+|---|---|
+| digCapBurstSiteUpload | Whether to use burst site upload for the following digital capture test. It can be true or false. The default value is false.<br><br>If it is set to true, the maximum sample number is 8192. |
 
 List of available options of parameter: hwDecimation
- |
-
-Option
-
- |
-
-Description
-
- |
- |
-
-true
-
- |
-
-Use burst site upload.
-
- |
- |
-
-false
-
- |
-
-Do not use burst site upload.
-
- |
+| Option | Description |
+|---|---|
+| true | Use burst site upload. |
+| false | Do not use burst site upload. |
 
 ### Example（取自子主题 SmartRDI  General topics and functions › Controlling burst site upload › digCapBurstSiteUpload）
 
@@ -849,24 +779,9 @@ port(const string& sPort);
 ```
 
 Parameter List
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-sPort
-
- |
-
-The port name.
-
- |
+| Parameter | Description |
+|---|---|
+| sPort | The port name. |
 
 ### Example（取自子主题 SmartRDI  General topics and functions › Multiport handling › port）
 
@@ -883,39 +798,10 @@ portSync(mode);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-port
-
- |
-
-The ports to be synchronized, separated by comma.
-
-If not specified, the patterns of all ports will be synchronized.
-
- |
- |
-
-mode
-
- |
-
-The execution mode.
-
-TA::CTIM: Used to insert patterns with `CTIM (Change TIMing)`（raw: `../02.06_Command_Reference/02.06.07.01.08.03.01_Changing_the_timing_set__CTIM.md`） instructions for multiple ports synchronization.
-
-The CTIM instructions change test setup to the current timing set and achieve port synchronization.
-
- |
+| Parameter | Description |
+|---|---|
+| port | The ports to be synchronized, separated by comma.<br><br>If not specified, the patterns of all ports will be synchronized. |
+| mode | The execution mode.<br><br>TA::CTIM: Used to insert patterns with `CTIM (Change TIMing)`（raw: `../02.06_Command_Reference/02.06.07.01.08.03.01_Changing_the_timing_set__CTIM.md`） instructions for multiple ports synchronization.<br><br>The CTIM instructions change test setup to the current timing set and achieve port synchronization. |
 
 ### Example 1（取自子主题 SmartRDI  General topics and functions › Multiport handling › portSync）
 
@@ -986,24 +872,9 @@ RDI_PORT_BEGIN(const string& sPort);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-sPort
-
- |
-
-The port to set up.
-
- |
+| Parameter | Description |
+|---|---|
+| sPort | The port to set up. |
 
 ### Example（取自子主题 SmartRDI  General topics and functions › Multiport handling › RDI PORT BEGIN）
 
@@ -1171,24 +1042,9 @@ RDI_SEMI_PARALLEL_TEST_BEGIN(SEMI_PARALLEL_CONFIG &semiParallelConfig);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-semiParallelConfig
-
- |
-
-The semi-parallel group to be executed in the semi-parallel testing block.
-
- |
+| Parameter | Description |
+|---|---|
+| semiParallelConfig | The semi-parallel group to be executed in the semi-parallel testing block. |
 
 ### Example（取自子主题 SmartRDI  General topics and functions › Semi-parallel tests with SmartRDI › RDI SEMI PARALLEL TEST BEGIN）
 
@@ -1453,89 +1309,19 @@ wait(const TA::WAIT_ACTION& waitAction);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-dWait
-
- |
-
-The time period to wait.
-
- |
- |
-
-waitAction
-
- |
-
-The action to wait.
-
- |
+| Parameter | Description |
+|---|---|
+| dWait | The time period to wait. |
+| waitAction | The action to wait. |
 
 List of available options of parameter: waitAction
- |
-
-Option
-
- |
-
-Description
-
- |
- |
-
-TA::WAIT_DGT
-
- |
-
-Wait for the digitizer to finish.
-
- |
- |
-
-TA::WAIT_AWG
-
- |
-
-Wait for the AWG to finish.
-
- |
- |
-
-TA::WAIT_RFAWG
-
- |
-
-Wait for the RF source waveform to finish.
-
- |
- |
-
-TA::WAIT_RFDGT
-
- |
-
-Wait for the RF measurement to finish.
-
- |
- |
-
-TA::WAIT_DCDGT
-
- |
-
-Wait for DC-DGT to finish.
-
- |
+| Option | Description |
+|---|---|
+| TA::WAIT_DGT | Wait for the digitizer to finish. |
+| TA::WAIT_AWG | Wait for the AWG to finish. |
+| TA::WAIT_RFAWG | Wait for the RF source waveform to finish. |
+| TA::WAIT_RFDGT | Wait for the RF measurement to finish. |
+| TA::WAIT_DCDGT | Wait for DC-DGT to finish. |
 
 ### Example（取自子主题 SmartRDI  General topics and functions › Wait time in SmartRDI › wait）
 
@@ -1551,24 +1337,9 @@ void waitCycle(unsigned long long iCycle);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-iCycle
-
- |
-
-The number of cycles.
-
- |
+| Parameter | Description |
+|---|---|
+| iCycle | The number of cycles. |
 
 ### Example（取自子主题 SmartRDI  General topics and functions › Wait time in SmartRDI › waitCycle）
 
@@ -2039,33 +1810,10 @@ addVecRange(int iRangeBf, int iRangeAft);
 ```
 
 Parameter List
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-iRangeBf
-
- |
-
-The start vector to do the digital capture.
-
- |
- |
-
-iRangeAft
-
- |
-
-The end vector to do the digital capture.
-
- |
+| Parameter | Description |
+|---|---|
+| iRangeBf | The start vector to do the digital capture. |
+| iRangeAft | The end vector to do the digital capture. |
 
 ### Examples（取自子主题 SmartRDI  Digital capture test setup › addVecRange）
 
@@ -2111,24 +1859,9 @@ bitPerWord(int iBit);
 ```
 
 Parameter List
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-iBit
-
- |
-
-The number of bits. The default value is 32.
-
- |
+| Parameter | Description |
+|---|---|
+| iBit | The number of bits. The default value is 32. |
 
 ### Example（取自子主题 SmartRDI  Digital capture test setup › bitPerWord）
 
@@ -2197,57 +1930,15 @@ capMode(TA::DCAP_MODE mode);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-mode
-
- |
-
-The digital capture mode.
-
- |
+| Parameter | Description |
+|---|---|
+| mode | The digital capture mode. |
 
 List of available options of parameter: mode
- |
-
-Option
-
- |
-
-Description
-
- |
- |
-
-TA::SER
-
- |
-
-The serial digital capture mode.
-
-A vector variable is created for each capture pin with the specified number of bits per word.
-
- |
- |
-
-TA::PAR
-
- |
-
-The parallel digital capture mode.
-
-A vector variable is created for all capture pins with one sample per word.
-
- |
+| Option | Description |
+|---|---|
+| TA::SER | The serial digital capture mode.<br><br>A vector variable is created for each capture pin with the specified number of bits per word. |
+| TA::PAR | The parallel digital capture mode.<br><br>A vector variable is created for all capture pins with one sample per word. |
 
 ### Example（取自子主题 SmartRDI  Digital capture test setup › capMode）
 
@@ -2315,30 +2006,9 @@ format(enum format);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-format
-
- |
-
-A data format to be used in a digital capture test.
-
-The data format can be one of:
-
-BIN, COMP1, COMP2, MOD_COMP1, SYMM, MOD_SYMM, GRAY, BCD, ALAW, MOD_ALAW, and MSB.
-
-For more information about the format definition, see `Code Format Tables`（raw: `02.07.04.04_Code_Format_Tables.md`）.
-
- |
+| Parameter | Description |
+|---|---|
+| format | A data format to be used in a digital capture test.<br><br>The data format can be one of:<br><br>BIN, COMP1, COMP2, MOD_COMP1, SYMM, MOD_SYMM, GRAY, BCD, ALAW, MOD_ALAW, and MSB.<br><br>For more information about the format definition, see `Code Format Tables`（raw: `02.07.04.04_Code_Format_Tables.md`）. |
 
 ### Example（取自子主题 SmartRDI  Digital capture test setup › format）
 
@@ -2358,29 +2028,9 @@ initDiscard(long iInitSkipSamples);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-iInitSkipSamples
-
- |
-
-The number of initial samples to be skipped.
-
- For different types of cores, default values are different:
-
-- LF core: Default value is 64.
-- VHF or IQ core: With oversampling, the default value 64; without oversampling, the default value is 0.
-- Other cores: Default value is 0.
- |
+| Parameter | Description |
+|---|---|
+| iInitSkipSamples | The number of initial samples to be skipped.<br><br>For different types of cores, default values are different:<br><br>- LF core: Default value is 64.<br>- VHF or IQ core: With oversampling, the default value 64; without oversampling, the default value is 0.<br>- Other cores: Default value is 0. |
 
 ### Example（取自子主题 SmartRDI  Digital capture test setup › initDiscard）
 
@@ -2395,33 +2045,10 @@ interSkip(int iBlockLength ,int iInterSkipSamples);
 ```
 
 Parameter List
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-iBlockLength
-
- |
-
-The number of samples to capture
-
- |
- |
-
-iInterSkipSamples
-
- |
-
-The number of samples to discard
-
- |
+| Parameter | Description |
+|---|---|
+| iBlockLength | The number of samples to capture |
+| iInterSkipSamples | The number of samples to discard |
 
 ### Example（取自子主题 SmartRDI  Digital capture test setup › interSkip）
 
@@ -2436,24 +2063,9 @@ label(const string& sLabelName);
 ```
 
 Parameter List
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-sLabelName
-
- |
-
-The label name
-
- |
+| Parameter | Description |
+|---|---|
+| sLabelName | The label name |
 
 ### Example（取自子主题 SmartRDI  Digital capture test setup › label）
 
@@ -2470,24 +2082,9 @@ pin(const string& sPin);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-sPin
-
- |
-
-The digital capture pin.
-
- |
+| Parameter | Description |
+|---|---|
+| sPin | The digital capture pin. |
 
 ### Example（取自子主题 SmartRDI  Digital capture test setup › pin）
 
@@ -2502,24 +2099,9 @@ samples(long iSamples);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-iSamples
-
- |
-
-The number of samples.
-
- |
+| Parameter | Description |
+|---|---|
+| iSamples | The number of samples. |
 
 ```
 
@@ -2570,24 +2152,9 @@ ARRAY_I& getVector(const string& pin);
 ```
 
 Parameter
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-pin
-
- |
-
-The pin to query.
-
- |
+| Parameter | Description |
+|---|---|
+| pin | The pin to query. |
 
 ### Return value（取自子主题 SmartRDI  Digital capture test setup › getVector）
 
@@ -2617,24 +2184,9 @@ ARRAY_I& getVectorBit(const string& pin);
 ```
 
 Parameter List
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-pin
-
- |
-
-The pin to retrieve.
-
- |
+| Parameter | Description |
+|---|---|
+| pin | The pin to retrieve. |
 
 ### Example（取自子主题 SmartRDI  Digital capture test setup › getVectorBit）
 
@@ -2667,24 +2219,9 @@ string getVecVar(const string& pin);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-pin
-
- |
-
-The pin to query.
-
- |
+| Parameter | Description |
+|---|---|
+| pin | The pin to query. |
 
 ### Example（取自子主题 SmartRDI  Digital capture test setup › getVecVar）
 
@@ -2760,11 +2297,8 @@ The following code shows the contents of an XML file that has been generated by 
 
 ### Example 2: shortcut menu - Fill data（取自子主题 SmartRDI  DUT board connections control by Routing Tools › Routing Tools editors › Routing Tools - State Setup editor）
 
-|
-
-!`Routing Tools - State Setup editor Context menus Fill states`（raw: `../../../../raw/343031.png`）
-
-  | To select multiple cells: Click the upper left cell, press Shift and click the lower right cell. |
+| !`Routing Tools - State Setup editor Context menus Fill states`（raw: `../../../../raw/343031.png`） | To select multiple cells: Click the upper left cell, press Shift and click the lower right cell. |
+|---|---|
 
 ### Example 3: shortcut menu - Move column（取自子主题 SmartRDI  DUT board connections control by Routing Tools › Routing Tools editors › Routing Tools - State Setup editor）
 
@@ -3064,24 +2598,9 @@ int getLabelCycleNum(string Label);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-Label
-
- |
-
-A single label's name.
-
- |
+| Parameter | Description |
+|---|---|
+| Label | A single label's name. |
 
 Return value
 
@@ -3102,39 +2621,10 @@ void rdi.setGlobalVar(variable_name, value)
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-variable_name
-
- |
-
-The name of the variable to which you want to assign the value. A string.
-
- |
- |
-
-value
-
- |
-
-The value to assign to the variable. The value must have one of these data types:
-
-- int
-- double
-- ARRAY_I
-- ARRAY_D
-- vector<ARRAY_I>
-- vector<ARRAY_D>
- |
+| Parameter | Description |
+|---|---|
+| variable_name | The name of the variable to which you want to assign the value. A string. |
+| value | The value to assign to the variable. The value must have one of these data types:<br><br>- int<br>- double<br>- ARRAY_I<br>- ARRAY_D<br>- vector<ARRAY_I><br>- vector<ARRAY_D> |
 
 ### Example（取自子主题 SmartRDI  Tool functions › Global variables › setGlobalVar）
 
@@ -3152,39 +2642,10 @@ bool rdi.getGlobalVar(variable_name,value);
 ```
 
 Parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-variable_name
-
- |
-
-The name of the variable to which you want to assign the value. A string.
-
- |
- |
-
-value
-
- |
-
-The value to assign to the variable. The value must have one of these data types:
-
-- int
-- double
-- ARRAY_I
-- ARRAY_D
-- vector<ARRAY_I>
-- vector<ARRAY_D>
- |
+| Parameter | Description |
+|---|---|
+| variable_name | The name of the variable to which you want to assign the value. A string. |
+| value | The value to assign to the variable. The value must have one of these data types:<br><br>- int<br>- double<br>- ARRAY_I<br>- ARRAY_D<br>- vector<ARRAY_I><br>- vector<ARRAY_D> |
 
 ### Return Value（取自子主题 SmartRDI  Tool functions › Global variables › getGlobalVar）
 
@@ -3235,24 +2696,9 @@ long long rdi.reverseBits(long long data, int bitLen);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-bitLen
-
- |
-
-Bit length.
-
- |
+| Parameter | Description |
+|---|---|
+| bitLen | Bit length. |
 
 ### Syntax（取自子主题 SmartRDI  Tool functions › getCommentCycleNum）
 
@@ -3261,33 +2707,10 @@ int& rdi.getCommentCycleNum(string labelName,string comment);
 ```
 
 Parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-labelName
-
- |
-
-The name of the pattern in which you want to retrieve a comment's cycle number. A string.
-
- |
- |
-
-comment
-
- |
-
-The string of the comment for which you want to retrieve its cycle number in the pattern specified with labelName.
-
- |
+| Parameter | Description |
+|---|---|
+| labelName | The name of the pattern in which you want to retrieve a comment's cycle number. A string. |
+| comment | The string of the comment for which you want to retrieve its cycle number in the pattern specified with labelName. |
 
 ### Return Value（取自子主题 SmartRDI  Tool functions › getCommentCycleNum）
 
@@ -3316,33 +2739,10 @@ int& rdi.getCommentVectorNum(string labelName,string comment);
 ```
 
 Parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-labelName
-
- |
-
-The name of the pattern in which you want to retrieve a comment's vector number. A string.
-
- |
- |
-
-comment
-
- |
-
-The string of the comment for which you want to retrieve its vector number in the pattern specified with labelName.
-
- |
+| Parameter | Description |
+|---|---|
+| labelName | The name of the pattern in which you want to retrieve a comment's vector number. A string. |
+| comment | The string of the comment for which you want to retrieve its vector number in the pattern specified with labelName. |
 
 ### Return Value（取自子主题 SmartRDI  Tool functions › getCommentVectorNum）
 
@@ -3493,68 +2893,16 @@ burstLabel(const string &labelName,TA::MD5_OPTION);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-labelName
-
- |
-
-The specified name of the big label.
-
-The label name can be as long as 128 characters at maximum.
-
- |
- |
-
-TA::MD5_OPTION
-
- |
-
-The option which defines to use an MD5 postfix string or not in the label name.
-
- |
+| Parameter | Description |
+|---|---|
+| labelName | The specified name of the big label.<br><br>The label name can be as long as 128 characters at maximum. |
+| TA::MD5_OPTION | The option which defines to use an MD5 postfix string or not in the label name. |
 
 List of available options of parameter: <TA::MD5_OPTION>
- |
-
-Option
-
- |
-
-Description
-
- |
- |
-
-TA::MD5_ON
-
- |
-
-With an MD5 postfix string in the label name. This is the default value.
-
-With MD5_ON, the maximum length of a valid "targetLabelName" in the generated pattern name is 74.
-
- |
- |
-
-TA::MD5_OFF
-
- |
-
-Withou an MD5 postfix string in the label name.
-
-With MD5_OFF, the maximum length of a valid "targetLabelName" in the generated pattern name is 111.
-
- |
+| Option | Description |
+|---|---|
+| TA::MD5_ON | With an MD5 postfix string in the label name. This is the default value.<br><br>With MD5_ON, the maximum length of a valid "targetLabelName" in the generated pattern name is 74. |
+| TA::MD5_OFF | Withou an MD5 postfix string in the label name.<br><br>With MD5_OFF, the maximum length of a valid "targetLabelName" in the generated pattern name is 111. |
 
 ### Example 1（取自子主题 SmartRDI  Vector and protocol programming › burstLabel）
 
@@ -3687,33 +3035,10 @@ comment(const string &comment, int vecNum);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-comment
-
- |
-
-The content to be added.
-
- |
- |
-
-vecNum
-
- |
-
-The position of the vector.
-
- |
+| Parameter | Description |
+|---|---|
+| comment | The content to be added. |
+| vecNum | The position of the vector. |
 
 See `SMV_IGNORE_COMMENT`（raw: `02.07.13.04_RDI_Configure_file.md#_146692__row_SMV_IGNORE_COMMENT`）, which can be used in the `RDI_Configure file`（raw: `02.07.13.04_RDI_Configure_file.md`） to globally disable comment output in pattern generation.
 
@@ -3768,24 +3093,9 @@ defaultBit(string bit);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-bit
-
- |
-
-The bit or string you want to write into the pattern.
-
- |
+| Parameter | Description |
+|---|---|
+| bit | The bit or string you want to write into the pattern. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › defaultBit）
 
@@ -3811,33 +3121,10 @@ defaultVec(string dvc);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-index
-
- |
-
-The physical index you want to write to the pattern .
-
- |
- |
-
-dvc
-
- |
-
-The device cycle you want to write to the pattern.
-
- |
+| Parameter | Description |
+|---|---|
+| index | The physical index you want to write to the pattern . |
+| dvc | The device cycle you want to write to the pattern. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › defaultVec）
 
@@ -3928,53 +3215,15 @@ emapLocation(TA::EMAP_LOCATION loc);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-TA::EMAP_LOCATION loc
-
- |
-
-The location where error maps are stored.
-
- |
+| Parameter | Description |
+|---|---|
+| TA::EMAP_LOCATION loc | The location where error maps are stored. |
 
 List of available options of parameter: <TA::EMAP_LOCATION loc>
- |
-
-Option
-
- |
-
-Description
-
- |
- |
-
-TA::TP
-
- |
-
-The location is the test processor on the card. The default value.
-
- |
- |
-
-TA::RAM
-
- |
-
-The location is the unused vector memory on the tester.
-
- |
+| Option | Description |
+|---|---|
+| TA::TP | The location is the test processor on the card. The default value. |
+| TA::RAM | The location is the unused vector memory on the tester. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › emapLocation）
 
@@ -4019,42 +3268,11 @@ Relationship of bit to DVC:
   SmartRDI always deals with 0, 1, and 2 for DVC "L", "H", and "X".
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-bitStream
-
- |
-
-The expected bit stream you need to get from the captured pin.
-
- |
- |
-
-startBit
-
- |
-
-The starting position of the bits to be compared. If the startBit parameter is not specified, the default value is 0.
-
- |
- |
-
-rtv
-
- |
-
-The value to be used at runtime.
-
- |
+| Parameter | Description |
+|---|---|
+| bitStream | The expected bit stream you need to get from the captured pin. |
+| startBit | The starting position of the bits to be compared. If the startBit parameter is not specified, the default value is 0. |
+| rtv | The value to be used at runtime. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › expectBit）
 
@@ -4084,51 +3302,12 @@ expectData(string rtv, int bitLength, int startBit=0);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-data
-
- |
-
-The expected data you want to get from the captured pin.
-
- |
- |
-
-bitLength
-
- |
-
-The length of the bits (data will be automatically converted into bits) to be written.
-
- |
- |
-
-startBit
-
- |
-
-The starting position of the bits to be compared. If the startBit parameter missing, the default value is 0.
-
- |
- |
-
-rtv
-
- |
-
-The value to be used at runtime.
-
- |
+| Parameter | Description |
+|---|---|
+| data | The expected data you want to get from the captured pin. |
+| bitLength | The length of the bits (data will be automatically converted into bits) to be written. |
+| startBit | The starting position of the bits to be compared. If the startBit parameter missing, the default value is 0. |
+| rtv | The value to be used at runtime. |
 
 ### Example 1（取自子主题 SmartRDI  Vector and protocol programming › expectData）
 
@@ -4163,33 +3342,10 @@ failCount();
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-startCyc
-
- |
-
-Start cycle.
-
- |
- |
-
-cycRange
-
- |
-
-Cycle range.
-
- |
+| Parameter | Description |
+|---|---|
+| startCyc | Start cycle. |
+| cycRange | Cycle range. |
 
 Return value
 
@@ -4211,33 +3367,10 @@ failCyc();
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-startCyc
-
- |
-
-Start cycle.
-
- |
- |
-
-cycRange
-
- |
-
-Cycle range.
-
- |
+| Parameter | Description |
+|---|---|
+| startCyc | Start cycle. |
+| cycRange | Cycle range. |
 
 Return value
 
@@ -4283,28 +3416,9 @@ FFC();
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-startCyc
-
- |
-
-The number of the first cycle in a cycle range in which fails are counted.
-
-An integer. Cycle counting starts from zero.
-
-This is an optional parameter. If it is omitted, the cycle range starts with the first cycle.
-
- |
+| Parameter | Description |
+|---|---|
+| startCyc | The number of the first cycle in a cycle range in which fails are counted.<br><br>An integer. Cycle counting starts from zero.<br><br>This is an optional parameter. If it is omitted, the cycle range starts with the first cycle. |
 
 Return value
 
@@ -4325,42 +3439,11 @@ fillBit(const string bit,int bitLength,int startBit);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-bit
-
- |
-
-The bit or string that you want to write to the pattern.
-
- |
- |
-
-bitlength
-
- |
-
-The length of the bits to be filled.
-
- |
- |
-
-startBit
-
- |
-
-The starting position of the bit to be written. If you do not specify a starting position, the default value is 0.
-
- |
+| Parameter | Description |
+|---|---|
+| bit | The bit or string that you want to write to the pattern. |
+| bitlength | The length of the bits to be filled. |
+| startBit | The starting position of the bit to be written. If you do not specify a starting position, the default value is 0. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › fillBit）
 
@@ -4452,35 +3535,10 @@ insertJmpe(int vecLine, int level);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-vecLine
-
- |
-
-Number of the vector line where you want to insert the subroutine.
-
- |
- |
-
-level
-
- |
-
-Subroutine level. This refers to the target level at which you want to insert a new subroutine.
-
-The default value is 1, which means the first level subroutine and actually refers to the main pattern. To insert a subroutine into another subroutine, you should specify a level larger than 1.
-
- |
+| Parameter | Description |
+|---|---|
+| vecLine | Number of the vector line where you want to insert the subroutine. |
+| level | Subroutine level. This refers to the target level at which you want to insert a new subroutine.<br><br>The default value is 1, which means the first level subroutine and actually refers to the main pattern. To insert a subroutine into another subroutine, you should specify a level larger than 1. |
 
 Return value
 
@@ -4556,35 +3614,10 @@ insertSub(int vecLine, int level);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-vecLine
-
- |
-
-Number of the vector line where you want to insert the subroutine.
-
- |
- |
-
-level
-
- |
-
-Subroutine level. This refers to the target level at which you want to insert a new subroutine.
-
-The default value is 1, which means the first level subroutine and actually refers to the main pattern. To insert a subroutine into another subroutine, you should specify a level larger than 1.
-
- |
+| Parameter | Description |
+|---|---|
+| vecLine | Number of the vector line where you want to insert the subroutine. |
+| level | Subroutine level. This refers to the target level at which you want to insert a new subroutine.<br><br>The default value is 1, which means the first level subroutine and actually refers to the main pattern. To insert a subroutine into another subroutine, you should specify a level larger than 1. |
 
 Return value
 
@@ -4663,24 +3696,9 @@ label(const string& sLabelName);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-sLabelName
-
- |
-
-The label to be executed / pattern on which measurement is performed.
-
- |
+| Parameter | Description |
+|---|---|
+| sLabelName | The label to be executed / pattern on which measurement is performed. |
 
 Return value
 
@@ -4704,64 +3722,16 @@ labelName(const string &name, TA::MD5_OPTION);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-name
-
- |
-
-User specified name for the label.
-
- |
- |
-
-TA::MD5_OPTION
-
- |
-
-The option which defines to use an MD5 postfix string or not.
-
- |
+| Parameter | Description |
+|---|---|
+| name | User specified name for the label. |
+| TA::MD5_OPTION | The option which defines to use an MD5 postfix string or not. |
 
 List of available options of parameter: <TA::MD5_OPTION>
- |
-
-Option
-
- |
-
-Description
-
- |
- |
-
-TA::MD5_ON
-
-   | With an MD5 postfix string in the label name.
-
-With MD5_ON, the maximum length of a valid "targetLabelName" in the generated pattern name is 74.
-
- |
- |
-
-TA::MD5_OFF
-
- |
-
-Without an MD5 postfix string in the label name. This is the default value.
-
-With MD5_OFF, the maximum length of a valid "targetLabelName" in the generated pattern name is 111.
-
- |
+| Option | Description |
+|---|---|
+| TA::MD5_ON | With an MD5 postfix string in the label name.<br><br>With MD5_ON, the maximum length of a valid "targetLabelName" in the generated pattern name is 74. |
+| TA::MD5_OFF | Without an MD5 postfix string in the label name. This is the default value.<br><br>With MD5_OFF, the maximum length of a valid "targetLabelName" in the generated pattern name is 111. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › labelName）
 
@@ -4847,24 +3817,9 @@ pMode(int Pmode);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-Pmode
-
- |
-
-The number of tester cycles per device cycle.
-
- |
+| Parameter | Description |
+|---|---|
+| Pmode | The number of tester cycles per device cycle. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › pMode）
 
@@ -4884,24 +3839,9 @@ pModeStrobe(int strobePos);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-strobePos
-
- |
-
-The strobe position within pMode cycles.
-
- |
+| Parameter | Description |
+|---|---|
+| strobePos | The strobe position within pMode cycles. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › pModeStrobe）
 
@@ -4928,33 +3868,10 @@ readBit(int bitLength,int startBit);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-bitLength
-
- |
-
-The length of the bits to be read
-
- |
- |
-
-startBit
-
- |
-
-The starting position of the bits to be read. If the "startBit" parameter missing, the default value is 0.
-
- |
+| Parameter | Description |
+|---|---|
+| bitLength | The length of the bits to be read |
+| startBit | The starting position of the bits to be read. If the "startBit" parameter missing, the default value is 0. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › readBit）
 
@@ -4971,33 +3888,10 @@ readData(int bitLength,int startBit);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-bitLength
-
- |
-
-The length of the bits (data will be automatically converted into bits) to be read.
-
- |
- |
-
-startBit
-
- |
-
-The starting position of the bits to be read. If the startBit parameter missing, the default value is 0.
-
- |
+| Parameter | Description |
+|---|---|
+| bitLength | The length of the bits (data will be automatically converted into bits) to be read. |
+| startBit | The starting position of the bits to be read. If the startBit parameter missing, the default value is 0. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › readData）
 
@@ -5016,24 +3910,9 @@ readMode(TA::MEAS_TYPE mode);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-mode
-
- |
-
-The read mode.
-
- |
+| Parameter | Description |
+|---|---|
+| mode | The read mode. |
 
 List of available options of parameter: <mode>
  |
@@ -5088,42 +3967,11 @@ repeat(int rptNum, int vecSize, int startVec); // relevant only for the Vector c
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-rptNum
-
- |
-
-The loop / repeat number.
-
- |
- |
-
-vecSize
-
- |
-
-Only Vector class: Vector size. Used together with startVec to define the sector for repetition.
-
- |
- |
-
-startVec
-
- |
-
-Only Vector class: Start vector. Used together with vecSize to define the sector for repetition.
-
- |
+| Parameter | Description |
+|---|---|
+| rptNum | The loop / repeat number. |
+| vecSize | Only Vector class: Vector size. Used together with startVec to define the sector for repetition. |
+| startVec | Only Vector class: Start vector. Used together with vecSize to define the sector for repetition. |
 
 ### Example 1（取自子主题 SmartRDI  Vector and protocol programming › repeat）
 
@@ -5157,24 +4005,9 @@ repeatSub(int repeatNum);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-repeatNum
-
- |
-
-number of repeated subroutine calls.
-
- |
+| Parameter | Description |
+|---|---|
+| repeatNum | number of repeated subroutine calls. |
 
 Return value
 
@@ -5200,53 +4033,15 @@ rdi.smartVec().vecEditMode(TA::Mode);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-TA::Mode
-
- |
-
-The mode to be used for one piece of pattern.
-
- |
+| Parameter | Description |
+|---|---|
+| TA::Mode | The mode to be used for one piece of pattern. |
 
 List of available options of parameter: <TA::Mode>
- |
-
-Option
-
- |
-
-Description
-
- |
- |
-
-TA::VECD
-
- |
-
-The VECD firmware command mode, which calls the VECD FW command for vector editing.
-
- |
- |
-
-TA::VTT
-
- |
-
-The VEC_TRANSFER_TASK API mode.
-
- |
+| Option | Description |
+|---|---|
+| TA::VECD | The VECD firmware command mode, which calls the VECD FW command for vector editing. |
+| TA::VTT | The VEC_TRANSFER_TASK API mode. |
 
 ### Example 1（取自子主题 SmartRDI  Vector and protocol programming › rdi.smartVec  .vecEditMode）
 
@@ -5343,45 +4138,12 @@ For pattern generation with bit streams per site, the sizes of all elements in A
 For more information about bits versus DVCs, see `Relationship between bits and device cycles`（raw: `02.07.13.24.01_Relationship_between_bits_and_device_cycles.md`）.
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-bitStream
-
- |
-
-The bit stream to be written to the pattern.
-
- |
- |
-
-sData
-
- |
-
-The sData of the parameter that can be changed at runtime.
-
- |
- |
-
-startBit
-
- |
-
-The bit position in pattern, starting from which the specified bit stream or sData to be written on.
-
-If the startBit parameter is not specified, the default value is 0.
-
- |
- | perSiteBitStream  | The bit stream per site. |
+| Parameter | Description |
+|---|---|
+| bitStream | The bit stream to be written to the pattern. |
+| sData | The sData of the parameter that can be changed at runtime. |
+| startBit | The bit position in pattern, starting from which the specified bit stream or sData to be written on.<br><br>If the startBit parameter is not specified, the default value is 0. |
+| perSiteBitStream | The bit stream per site. |
 
 ### Examples（取自子主题 SmartRDI  Vector and protocol programming › writeBit）
 
@@ -5452,52 +4214,13 @@ writeData(ARRAY_LL perSiteData, int bitLength, int startBit); // values for all 
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-data
-
- |
-
-The data block you want to write to the pattern.
-
- |
- |
-
-bitLength
-
- |
-
-The length of the bits (data will be automatically converted into bits) to be written.
-
- |
- |
-
-sData
-
- |
-
-The sData of the parameter that can be changed at runtime.
-
- |
- |
-
-startBit
-
- |
-
-The starting position of the bits to be written. If the startBit parameter is not specified, the default value is 0.
-
- |
- | perSiteData  | The array of data. |
+| Parameter | Description |
+|---|---|
+| data | The data block you want to write to the pattern. |
+| bitLength | The length of the bits (data will be automatically converted into bits) to be written. |
+| sData | The sData of the parameter that can be changed at runtime. |
+| startBit | The starting position of the bits to be written. If the startBit parameter is not specified, the default value is 0. |
+| perSiteData | The array of data. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › writeData）
 
@@ -5549,51 +4272,12 @@ writeDataBurst(ARRAY_LL data, int bitLength); // startBit =0,bitDistance=bitLeng
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-data
-
- |
-
-The array of data you want to write to the pattern.
-
- |
- |
-
-bitLength
-
- |
-
-The length of the bits (data will be automatically converted into bits) to be written.
-
- |
- |
-
-bitDistance
-
- |
-
-The bit distance between one data and the next data.
-
- |
- |
-
-startBit
-
- |
-
-The starting position of the bits to be written. If the startBit parameter missing, the default value is 0.
-
- |
+| Parameter | Description |
+|---|---|
+| data | The array of data you want to write to the pattern. |
+| bitLength | The length of the bits (data will be automatically converted into bits) to be written. |
+| bitDistance | The bit distance between one data and the next data. |
+| startBit | The starting position of the bits to be written. If the startBit parameter missing, the default value is 0. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › writeDataBurst）
 
@@ -5638,43 +4322,12 @@ writeParData(ARRAY_LL perSiteData, int startBit);
 For pattern generation with different data per site, values for all sites must be different each other and cannot be changed at runtime.
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-data
-
- |
-
-The array of data you want to write to the pattern.
-
- |
- |
-
-sData
-
- |
-
-The sData of the parameter that can be changed at run-time.
-
- |
- |
-
-startBit
-
- |
-
-The starting position of the bits to be written. If the startBit parameter is not specified, the default value is 0.
-
- |
- | perSiteData  | The array of data. |
+| Parameter | Description |
+|---|---|
+| data | The array of data you want to write to the pattern. |
+| sData | The sData of the parameter that can be changed at run-time. |
+| startBit | The starting position of the bits to be written. If the startBit parameter is not specified, the default value is 0. |
+| perSiteData | The array of data. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › writeParData）
 
@@ -5724,42 +4377,11 @@ writeParDataBurst(ARRAY_LL data);// bitDistance=1, startBit=0
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-data
-
- |
-
-The array of data you want to write to the pattern.
-
- |
- |
-
-bitDistance
-
- |
-
-The bit distance between one data and the next data.
-
- |
- |
-
-startBit
-
- |
-
-The starting position of the bits to be written. If the startBit parameter missing, the default value is 0.
-
- |
+| Parameter | Description |
+|---|---|
+| data | The array of data you want to write to the pattern. |
+| bitDistance | The bit distance between one data and the next data. |
+| startBit | The starting position of the bits to be written. If the startBit parameter missing, the default value is 0. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › writeParDataBurst）
 
@@ -5791,33 +4413,10 @@ writePat(const string &dvc,int startVec);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-dvc
-
- |
-
-The device cycle you want to write into the pattern.
-
- |
- |
-
-startVec
-
- |
-
-The starting position of the vector to be written. If the startVec parameter missing, the default value is 0.
-
- |
+| Parameter | Description |
+|---|---|
+| dvc | The device cycle you want to write into the pattern. |
+| startVec | The starting position of the vector to be written. If the startVec parameter missing, the default value is 0. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › writePat）
 
@@ -5840,53 +4439,14 @@ writeVec(vector<vector<string>> perSiteDvc, int startVec);
 For pattern generation with per-site data, the sizes of all elements in ARRAY_I or vector<string> must be the same. The value for a site can be different from the value for another site. The values for all sites cannot be changed at runtime.
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-dvcList
-
- |
-
-The device cycle list you want to write to the pattern.
-
- |
- |
-
-indexList
-
- |
-
-The physical index list you want to write to the pattern.
-
- |
- |
-
-sData
-
- |
-
-The sData of the parameter that can be changed at runtime.
-
- |
- |
-
-startVec
-
- |
-
-The starting position of the vector to be written. If the startVec parameter is not specified, the default value is 0.
-
- |
- | perSiteIndex  | The index list per site. |
- | perSiteDvc  | The device cycle list per site. |
+| Parameter | Description |
+|---|---|
+| dvcList | The device cycle list you want to write to the pattern. |
+| indexList | The physical index list you want to write to the pattern. |
+| sData | The sData of the parameter that can be changed at runtime. |
+| startVec | The starting position of the vector to be written. If the startVec parameter is not specified, the default value is 0. |
+| perSiteIndex | The index list per site. |
+| perSiteDvc | The device cycle list per site. |
 
 ### Examples（取自子主题 SmartRDI  Vector and protocol programming › writeVec）
 
@@ -6041,24 +4601,9 @@ int getFailCount(string pin);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-pin
-
- |
-
-Specifies a pin for which to get the fail count.
-
- |
+| Parameter | Description |
+|---|---|
+| pin | Specifies a pin for which to get the fail count. |
 
 ### Return value（取自子主题 SmartRDI  Vector and protocol programming › getFailCount）
 
@@ -6085,24 +4630,9 @@ ARRAY_LL getFailCyc(string pin);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-pin
-
- |
-
-Specifies a pin for which to get all failing cycles' positions.
-
- |
+| Parameter | Description |
+|---|---|
+| pin | Specifies a pin for which to get all failing cycles' positions. |
 
 ### Return value（取自子主题 SmartRDI  Vector and protocol programming › getFailCyc）
 
@@ -6115,24 +4645,9 @@ int getFFC(string pin);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-pin
-
- |
-
-Specifies a pin for which to get the first failing cycle.
-
- |
+| Parameter | Description |
+|---|---|
+| pin | Specifies a pin for which to get the first failing cycle. |
 
 ### Return value（取自子主题 SmartRDI  Vector and protocol programming › getFFC）
 
@@ -6206,24 +4721,9 @@ ARRAY_LL  getReadData(const string &pin);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-pin
-
- |
-
-The pin to query.
-
- |
+| Parameter | Description |
+|---|---|
+| pin | The pin to query. |
 
 ### Example（取自子主题 SmartRDI  Vector and protocol programming › getReadData）
 

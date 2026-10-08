@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,541,116 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.01.02_Firmware_view.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.03_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.04_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.05_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.06_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.07_BCMD__BCMD__-_Binding_CoMmanD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.08_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.101_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.104_EMBS__Error_Map_Block_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.105_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.106_EPRC__-__Error_Propagation_Repetition_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.108_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.10_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.113_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.116_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.119_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.11_BSVE_-__Bulk_Set_Value_Evaluation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.120_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.121_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.123_FLBL__-__Failing_LaBeLs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.127_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.12_BSVR__BSVR___Bulk_Set_Value_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.131_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.132_GETL__-__GET_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.136_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.137_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.138_HREX__-__High_Resolution_EXecution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.139_HRIT__HRIT__-__High_Resolution_Interval_of_Time.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.143_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.144_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.145_INST__-__INSTrument_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.150_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.151_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.153_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.154_LBUD__LBUD__-__LaBel_User_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.156_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.157_LTDE__LTDE__-__Load_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.158_MCNT__-__Match_loop_CouNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.159_MEAR__retrieve_MEAsurement_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.160_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.161_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.163_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.165_MVCU_-__Modify_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.168_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.16_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.170_OUTS__-__OUTput_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.174_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.176_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.179_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.17_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.180_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.181_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.182_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.184_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.185_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.187_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.18_CFPR__CFPR__-__Clock_Forwarding_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.19_CFUD_-__Clock_Forwarding_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.201_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.202_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.205_RDGC_-__Reset_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.206_RLYC__RLYC__-__ReLaY_Control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.207_RRDF_-__Result_Retention_area_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.208_RRSC_-__Result_Retention_area_Select_for_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.209_RRUD_-__Result_Retention_area_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.20_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.211_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.212_RRSU___Result_Retention_area_Select_for_Upload.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.213_RVCU_-__Remove_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.214_RVVA_-__Remove_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.215_RVVC_-__Remove_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.217_SATR__SATR__-__System_ATtRibutes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.218_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.21_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.221_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.224_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.225_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.226_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.227_SPOP__SPOP__Set_Performance_Optimization_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.229_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.230_SQBV__SQBV__-__SeQuencer_Break_Vector_insertion.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.233_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.234_SQIT__-__SeQuencer_InterRupt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.235_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.238_SQRC_-__SeQuencer_Remove_execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.239_SQRP__SQRP__-__SeQuencer_Reference_Port.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.23_CHRS__CHRS__-__CHeck_Routing_Set_globally.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.242_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.243_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.244_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.247_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.248_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.249_STDE_-__Save_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.255_TDEX__Test_Data_Extension.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.256_TEMP__-__read_TEMPerature.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.258_TMUD__Tester_Memory_Utilization_set_Default_values.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.259_TMUL___Tester_Memory_Utilization_Log.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.25_CLKC.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.260_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.261_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.262_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.263_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.264_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.265_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.266_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.267_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.269_TPSP__TPSP__-__TestPoint_SuPpression.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.270_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.271_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.272_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.273_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.274_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.275_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.276_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.27_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.280_TSST__-__TeSt_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.282_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.284_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.285_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.287_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.28_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.290_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.293_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.294_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.299_UDPT_-__UnDefine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.29_CNCT_-_CoNneCT_disCoNneCT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.300_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.302_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.307_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.308_UTDE_-__Unload_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.309_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.30_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.314_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.315_VALC__-__VALid_Cycle_range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.317_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.318_VCAT__VCAT__-__VeCtor_ATtachment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.319_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.322_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.323_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.326_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.328_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.329_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.332_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.339_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.340_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.343_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.345_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.34_CTST__-__Continuity_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.37_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.38_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.39_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.41_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.42_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.43_DCEX_-__DC_set_EXecute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.45_DCRE__-__DC_set_REsult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.48_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.49_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.50_DCST__-__DC_SeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.51_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.55_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.57_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.58_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.61_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.71_DGCM__-__DiGital_Capture_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.72_DGCS__DGCC___DiGital_Capture_aSynchronous.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.73_DGCT__-__DiGital_Capture_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.74_DIAG_-__DIAGnostics.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.76_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.77_DLSO__Driver_Level_Switch_Off.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.78_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.80_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.81_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.84_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.87_DQUE__-__show_Data_QUEue_low_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.88_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.93_DTCP__DTCP__-__Define_Technology_Control_Parameters.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.94_DVVA__DVVA__-__Define_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.06_Defining_pin_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.07_Defining_ports.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.02_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.03_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.04_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.06_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.07_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.10_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.14_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.15_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.16_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.17_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.18_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.19_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.20_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.22_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.23_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.25_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.28_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.29_UDVP_-__UnDefine_Virtual_Pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.30_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.31_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.32_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.33_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.34_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.36_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.37_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.02_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.03_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.03_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.04_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.07_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.11_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.13_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.14_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.19_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.21_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.27_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.28_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.02_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.03_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.04_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.05_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.06_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.07_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.09_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.11_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.12_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.13_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.14_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.15_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.16_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.19_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.20_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.21_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.22_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.23_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.24_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.26_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.27_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.29_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.30_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.31_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.32_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.34_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.36_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.37_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.01_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.03_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.06_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.07_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.09_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.11_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.12_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.15_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.18_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.19_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.20_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.21_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.22_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.23_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.24_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.01.05_DC_measurements_using_a_PPMU_and_a_DC_Scale_DPS.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.02_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.03_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.04_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.05_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.06_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.07_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.10_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.13_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.15_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.02_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.03_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.05_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.06_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.07_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.08_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.09_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.10_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.12_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.13_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.17_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.19_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.21_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.25_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.26_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.29_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.30_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.32_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.34_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.36_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.37_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.04_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.05_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.06_UPOW__UPOW__-__Utility_POWer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.07_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.08_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.09_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.10_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.12_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.13_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.14_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.01_TMU_per_Pin_overview.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.03_Storing_the_results_of_more_than_one_TMU_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.01_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.02_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.03_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.04_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.05_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.06_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.07_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.08_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.11_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.12_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.01.01_Principles_of_source_synchronous_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.03_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.04_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.01.01_Drift_and_transition_tracking.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.01_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.02_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.04_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.05_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.07_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.08_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.09_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.10_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.01_Principles_of_jitter_injection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.01_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.03_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.04_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.05_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.08_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.03_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.04_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.05_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.06_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.07_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.01_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.02_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.03_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.05_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.06_SATR__SATR__-__System_ATtRibutes.md>`。**不是转述。**
+> 本节 **1,541,730 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.01.02_Firmware_view.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.03_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.04_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.05_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.06_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.07_BCMD__BCMD__-_Binding_CoMmanD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.08_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.101_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.104_EMBS__Error_Map_Block_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.105_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.106_EPRC__-__Error_Propagation_Repetition_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.108_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.10_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.113_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.116_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.119_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.11_BSVE_-__Bulk_Set_Value_Evaluation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.120_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.121_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.123_FLBL__-__Failing_LaBeLs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.127_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.12_BSVR__BSVR___Bulk_Set_Value_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.131_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.132_GETL__-__GET_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.136_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.137_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.138_HREX__-__High_Resolution_EXecution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.139_HRIT__HRIT__-__High_Resolution_Interval_of_Time.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.143_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.144_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.145_INST__-__INSTrument_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.150_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.151_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.153_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.154_LBUD__LBUD__-__LaBel_User_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.156_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.157_LTDE__LTDE__-__Load_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.158_MCNT__-__Match_loop_CouNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.159_MEAR__retrieve_MEAsurement_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.160_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.161_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.163_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.165_MVCU_-__Modify_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.168_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.16_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.170_OUTS__-__OUTput_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.174_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.176_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.179_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.17_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.180_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.181_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.182_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.184_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.185_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.187_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.18_CFPR__CFPR__-__Clock_Forwarding_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.19_CFUD_-__Clock_Forwarding_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.201_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.202_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.205_RDGC_-__Reset_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.206_RLYC__RLYC__-__ReLaY_Control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.207_RRDF_-__Result_Retention_area_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.208_RRSC_-__Result_Retention_area_Select_for_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.209_RRUD_-__Result_Retention_area_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.20_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.211_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.212_RRSU___Result_Retention_area_Select_for_Upload.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.213_RVCU_-__Remove_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.214_RVVA_-__Remove_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.215_RVVC_-__Remove_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.217_SATR__SATR__-__System_ATtRibutes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.218_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.21_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.221_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.224_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.225_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.226_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.227_SPOP__SPOP__Set_Performance_Optimization_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.229_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.230_SQBV__SQBV__-__SeQuencer_Break_Vector_insertion.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.233_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.234_SQIT__-__SeQuencer_InterRupt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.235_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.238_SQRC_-__SeQuencer_Remove_execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.239_SQRP__SQRP__-__SeQuencer_Reference_Port.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.23_CHRS__CHRS__-__CHeck_Routing_Set_globally.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.242_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.243_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.244_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.247_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.248_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.249_STDE_-__Save_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.255_TDEX__Test_Data_Extension.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.256_TEMP__-__read_TEMPerature.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.258_TMUD__Tester_Memory_Utilization_set_Default_values.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.259_TMUL___Tester_Memory_Utilization_Log.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.25_CLKC.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.260_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.261_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.262_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.263_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.264_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.265_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.266_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.267_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.269_TPSP__TPSP__-__TestPoint_SuPpression.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.270_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.271_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.272_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.273_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.274_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.275_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.276_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.27_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.280_TSST__-__TeSt_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.282_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.284_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.285_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.287_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.28_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.290_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.293_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.294_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.299_UDPT_-__UnDefine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.29_CNCT_-_CoNneCT_disCoNneCT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.300_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.302_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.307_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.308_UTDE_-__Unload_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.309_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.30_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.314_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.315_VALC__-__VALid_Cycle_range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.317_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.318_VCAT__VCAT__-__VeCtor_ATtachment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.319_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.322_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.323_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.326_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.328_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.329_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.332_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.339_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.340_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.343_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.345_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.34_CTST__-__Continuity_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.37_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.38_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.39_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.41_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.42_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.43_DCEX_-__DC_set_EXecute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.45_DCRE__-__DC_set_REsult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.48_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.49_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.50_DCST__-__DC_SeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.51_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.55_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.57_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.58_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.61_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.71_DGCM__-__DiGital_Capture_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.72_DGCS__DGCC___DiGital_Capture_aSynchronous.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.73_DGCT__-__DiGital_Capture_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.74_DIAG_-__DIAGnostics.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.76_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.77_DLSO__Driver_Level_Switch_Off.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.78_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.80_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.81_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.84_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.87_DQUE__-__show_Data_QUEue_low_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.88_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.93_DTCP__DTCP__-__Define_Technology_Control_Parameters.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.94_DVVA__DVVA__-__Define_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.06_Defining_pin_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.07_Defining_ports.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.02_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.03_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.04_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.06_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.07_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.10_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.14_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.15_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.16_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.17_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.18_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.19_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.20_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.22_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.23_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.25_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.28_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.29_UDVP_-__UnDefine_Virtual_Pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.30_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.31_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.32_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.33_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.34_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.36_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.37_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.02_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.03_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.03_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.04_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.07_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.11_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.13_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.14_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.19_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.21_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.27_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.28_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.02_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.03_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.04_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.05_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.06_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.07_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.09_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.11_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.12_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.13_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.14_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.15_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.16_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.19_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.20_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.21_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.22_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.23_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.24_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.26_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.27_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.29_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.30_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.31_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.32_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.34_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.36_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.37_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.01_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.03_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.06_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.07_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.09_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.11_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.12_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.15_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.18_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.19_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.20_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.21_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.22_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.23_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.24_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.01.05_DC_measurements_using_a_PPMU_and_a_DC_Scale_DPS.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.02_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.03_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.04_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.05_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.06_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.07_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.10_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.13_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.15_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.02_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.03_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.05_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.06_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.07_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.08_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.09_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.10_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.12_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.13_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.17_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.19_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.21_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.25_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.26_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.29_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.30_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.32_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.34_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.36_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.37_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.04_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.05_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.06_UPOW__UPOW__-__Utility_POWer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.07_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.08_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.09_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.10_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.12_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.13_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.14_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.01_TMU_per_Pin_overview.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.03_Storing_the_results_of_more_than_one_TMU_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.01_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.02_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.03_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.04_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.05_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.06_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.07_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.08_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.11_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.12_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.01.01_Principles_of_source_synchronous_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.03_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.04_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.01.01_Drift_and_transition_tracking.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.01_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.02_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.04_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.05_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.07_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.08_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.09_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.10_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.01_Principles_of_jitter_injection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.01_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.03_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.04_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.05_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.08_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.03_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.04_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.05_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.06_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.07_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.01_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.02_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.03_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.05_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.06_SATR__SATR__-__System_ATtRibutes.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -42,24 +42,9 @@ APDV {cmd_No}, {vect_length}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › APDV -  APpenD Vectors）
 
-|
-
-cmd_No
-
- |
-
-A number that identifies the command within the sequencer area of the port to which the label belongs. Enter the command number of a GENV or RPTV instruction within the selected label.
-
- |
- |
-
-vect_length
-
- |
-
-The number of vectors you wish to append. Enter an integer in the range 0 to the maximum vector length.
-
- |
+| cmd_No | A number that identifies the command within the sequencer area of the port to which the label belongs. Enter the command number of a GENV or RPTV instruction within the selected label. |
+|---|---|
+| vect_length | The number of vectors you wish to append. Enter an integer in the range 0 to the maximum vector length. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › APDV -  APpenD Vectors）
 
@@ -254,35 +239,10 @@ ASWE {waveform_set|specset_id}, {enable_status}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › ASWE  ASWE  -  Auto SWing Enable）
 
-|
-
-waveform_set
-
- |
-
-Specifies the number of a waveform set for non-equation based testing. Enter PRM for the Primary Waveform Set, ALL for all waveform sets, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-specset_id
-
- |
-
-Specifies a spec set ID for equation based testing. The specset_id is derived as follows:
-
-`100 *` equation_set_no `+ ` specset_no
-
- |
- |
-
-enable_status
-
- |
-
-Enter ON to switch automatic swing modification on. Enter OFF to switch automatic swing modification off.
-
- |
+| waveform_set | Specifies the number of a waveform set for non-equation based testing. Enter PRM for the Primary Waveform Set, ALL for all waveform sets, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| specset_id | Specifies a spec set ID for equation based testing. The specset_id is derived as follows:<br><br>`100 *` equation_set_no `+ ` specset_no |
+| enable_status | Enter ON to switch automatic swing modification on. Enter OFF to switch automatic swing modification off. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ASWE  ASWE  -  Auto SWing Enable）
 
@@ -409,54 +369,11 @@ BCMD? "InstanceName","parameter"
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › BCMD  BCMD  - Binding CoMmanD）
 
-|
-
-InstanceName
-
- |
-
-User-defined unique name to identify what type of binding instance is being controlled. It is a string without a ".".
-
- |
- |
-
-Set
-
-Reset
-
-Action
-
- |
-
-Set is the function used to assign values to the runtime properties of an object.
-
-Reset is the function used to restore the runtime properties of the resource, which is the current focus of the binding, to their initial values.
-
-Action is the function used to drive the hardware associated with a binding instance.
-
- |
- |
-
-parameter
-
- |
-
-This is a case-sensitive, predefined keyword. The available types are Configuration settings and Initial Runtime settings.
-
-Configuration: Configurations used to define the resource.
-
-Initial Runtime: Initial Runtime settings are the default values the binding should be set to at the start of a DUT test. These values can be changed at runtime with the BCMD command.
-
- |
- |
-
-value
-
- |
-
-This can be a list of elements separated by a space or spaces, or a predefined function. All functions must be placed in quotes.
-
- |
+| InstanceName | User-defined unique name to identify what type of binding instance is being controlled. It is a string without a ".". |
+|---|---|
+| Set<br><br>Reset<br><br>Action | Set is the function used to assign values to the runtime properties of an object.<br><br>Reset is the function used to restore the runtime properties of the resource, which is the current focus of the binding, to their initial values.<br><br>Action is the function used to drive the hardware associated with a binding instance. |
+| parameter | This is a case-sensitive, predefined keyword. The available types are Configuration settings and Initial Runtime settings.<br><br>Configuration: Configurations used to define the resource.<br><br>Initial Runtime: Initial Runtime settings are the default values the binding should be set to at the start of a DUT test. These values can be changed at runtime with the BCMD command. |
+| value | This can be a list of elements separated by a space or spaces, or a predefined function. All functions must be placed in quotes. |
 
 ### BCMT（取自子主题 Commands in alphabetical order › List of commands › BCMT  BCMT  -  Binary CoMmenT）
 
@@ -719,15 +636,8 @@ BSVE {spec_value_set_no}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › BSVE -  Bulk Set Value Evaluation）
 
-|
-
-spec_value_set_no
-
- |
-
-Number of a spec value set.
-
- |
+| spec_value_set_no | Number of a spec value set. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › BSVE -  Bulk Set Value Evaluation）
 
@@ -743,51 +653,12 @@ BSVR {spec_value_set_no}, {"spec_name"|"spec_name@port_name"}, {value}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › BSVR  BSVR   Bulk Set Value at Runtime）
 
-|
-
-spec_value_set_no
-
- |
-
-Number of a spec value set. The set must have been defined with DSVS.
-
- |
- |
-
-number
-
- |
-
-Variable number in a given range. One of two possible options for the second, optional parameter.
-
- |
- |
-
-spec_name
-
- |
-
-The name of a spec (base) variable. The variable must have been declared in the equation set of the specification to which the spec value set belongs. Note however that this is not checked by BSVR, but only by BSVE.
-
- |
- |
-
-spec_name`@`port_name
-
- |
-
-If the spec value set is associated with a multi-port timing specification, and the variable is declared in the equation sets of several ports, you can restrict the value change to one port by adding the port name. Note that this has a bearing on the scope of the variable (see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）).
-
- |
- |
-
-value
-
- |
-
-The new value of the variable.
-
- |
+| spec_value_set_no | Number of a spec value set. The set must have been defined with DSVS. |
+|---|---|
+| number | Variable number in a given range. One of two possible options for the second, optional parameter. |
+| spec_name | The name of a spec (base) variable. The variable must have been declared in the equation set of the specification to which the spec value set belongs. Note however that this is not checked by BSVR, but only by BSVE. |
+| spec_name`@`port_name | If the spec value set is associated with a multi-port timing specification, and the variable is declared in the equation sets of several ports, you can restrict the value change to one port by adding the port name. Note that this has a bearing on the scope of the variable (see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）). |
+| value | The new value of the variable. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › BSVR  BSVR   Bulk Set Value at Runtime）
 
@@ -985,88 +856,15 @@ BWDS {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, [break_waveform_in
 ```
 
 Parameters
- |
-
-wvf_set
-
- |
-
-Waveform Set Number (range 1 to maximum). Enter ALL for all waveform sets. Enter PRM for the Primary waveform set. The maximum number is determined by the command `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. wavetable_name can only be specified in the query.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-100 * equation_set_no + specset_no
-
-specset_id can only be specified in the query.
-
- |
- |
-
-multi-port_spec
-
- |
-
-To query a multi-port specification, enter the name of the specification.
-
- |
- |
-
-break_waveform_index
-
- |
-
-Enter DEF for the default break waveform or an integer in the range 0 to 3. This parameter is optional in release 2.0 and can only be used to select the default break waveform (DEF).
-
- |
- |
-
-mode
-
- |
-
-NOT USED.
-
- |
- |
-
-definition_string
-
- |
-
-The definition string consists of a sequence of items each of which associates a drive action with a drive edge.
-
-Receive edge are always denoted by rn.
-
-All edges which are not explicitly specified are set to N. In the query only those edges that are used are printed.
-
-For details of the syntax see `WFDS, WFDS? - (WaveForm Definition String)`（raw: `02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`）.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
+| wvf_set | Waveform Set Number (range 1 to maximum). Enter ALL for all waveform sets. Enter PRM for the Primary waveform set. The maximum number is determined by the command `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. wavetable_name can only be specified in the query. |
+| specset_id | Derived as follows:<br><br>100 * equation_set_no + specset_no<br><br>specset_id can only be specified in the query. |
+| multi-port_spec | To query a multi-port specification, enter the name of the specification. |
+| break_waveform_index | Enter DEF for the default break waveform or an integer in the range 0 to 3. This parameter is optional in release 2.0 and can only be used to select the default break waveform (DEF). |
+| mode | NOT USED. |
+| definition_string | The definition string consists of a sequence of items each of which associates a drive action with a drive edge.<br><br>Receive edge are always denoted by rn.<br><br>All edges which are not explicitly specified are set to N. In the query only those edges that are used are printed.<br><br>For details of the syntax see `WFDS, WFDS? - (WaveForm Definition String)`（raw: `02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`）. |
+| pinlist | The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › BWDS  BWDS  -  Break Waveform Definition String）
 
@@ -1341,51 +1139,12 @@ CFCF {"cf_name"}, {(source_pin)}, {(sink_pins)} [, speed]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CFCF  CFCF  -  Clock Forwarding ConFiguration）
 
-|
-
-cf_name
-
- |
-
-Specifies the name of a clock forwarding set that must have been defined with CFDF.
-
- |
- |
-
-source_pin
-
- |
-
-Specifies the pin whose tracking behavior is to be transferred.
-
- |
- |
-
-sink_pins
-
- |
-
-Specifies the pins that are to make use of the tracking behavior of the source pin.
-
- |
- |
-
-speed
-
- |
-
-Defines the maximum expected shift per ns. This can be used to determine the maximum supported shift. See `Implementation details of clock forwarding`（raw: `02.06.15.01.01.05.01_Implementation_details_of_clock_forwarding.md`）.
-
- |
- |
-
-pinlist
-
- |
-
-This query parameter specifies the pins whose role in the specified clock forwarding set is to be retrieved.
-
- |
+| cf_name | Specifies the name of a clock forwarding set that must have been defined with CFDF. |
+|---|---|
+| source_pin | Specifies the pin whose tracking behavior is to be transferred. |
+| sink_pins | Specifies the pins that are to make use of the tracking behavior of the source pin. |
+| speed | Defines the maximum expected shift per ns. This can be used to determine the maximum supported shift. See `Implementation details of clock forwarding`（raw: `02.06.15.01.01.05.01_Implementation_details_of_clock_forwarding.md`）. |
+| pinlist | This query parameter specifies the pins whose role in the specified clock forwarding set is to be retrieved. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CFCF  CFCF  -  Clock Forwarding ConFiguration）
 
@@ -1420,24 +1179,9 @@ CFDF {"cf_set_name"} [, "mode_context"]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CFDF  CFDF  -  Clock Forwarding Set DeFinition）
 
-|
-
-cf_set_name
-
- |
-
-In the command, this is the name of a new clock forwarding set. In the query, it is a name of an existing clock forwarding set. If you omit this parameter in the query, CFDF? will return the names of all user defined clock forwarding sets.
-
- |
- |
-
-mode_context
-
- |
-
-The mode context with which the clock forwarding set is associated. If this parameter is omitted, the DEFAULT context is assumed.
-
- |
+| cf_set_name | In the command, this is the name of a new clock forwarding set. In the query, it is a name of an existing clock forwarding set. If you omit this parameter in the query, CFDF? will return the names of all user defined clock forwarding sets. |
+|---|---|
+| mode_context | The mode context with which the clock forwarding set is associated. If this parameter is omitted, the DEFAULT context is assumed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CFDF  CFDF  -  Clock Forwarding Set DeFinition）
 
@@ -1472,15 +1216,8 @@ CFPR {"cf_set_name"}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CFPR  CFPR  -  Clock Forwarding PRimary set）
 
-|
-
-cf_set_name
-
- |
-
-Specifies the name of an existing clock forwarding set. Specify an empty string to inactivate the current primary set and thus to disable clock forwarding.
-
- |
+| cf_set_name | Specifies the name of an existing clock forwarding set. Specify an empty string to inactivate the current primary set and thus to disable clock forwarding. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CFPR  CFPR  -  Clock Forwarding PRimary set）
 
@@ -1496,24 +1233,9 @@ CFUD {"cf_set_name"}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CFUD -  Clock Forwarding set UnDefine）
 
-|
-
-cf_set_name
-
- |
-
-Specifies the name of an existing clock forwarding set.
-
- |
- |
-
-ALL
-
- |
-
-Remove all existing transition tests sets
-
- |
+| cf_set_name | Specifies the name of an existing clock forwarding set. |
+|---|---|
+| ALL | Remove all existing transition tests sets |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CFUD -  Clock Forwarding set UnDefine）
 
@@ -1929,24 +1651,9 @@ CHRS {ON|OFF}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CHRS  CHRS  -  CHeck Routing Set globally）
 
-|
-
-OFF
-
- |
-
-SmarTest tries to fulfill an inconsistent request as well as possible. This is the default.
-
- |
- |
-
-ON
-
- |
-
-SmarTest issues an error message when a routing request is inconsistent, and retains the previous routing status
-
- |
+| OFF | SmarTest tries to fulfill an inconsistent request as well as possible. This is the default. |
+|---|---|
+| ON | SmarTest issues an error message when a routing request is inconsistent, and retains the previous routing status |
 
 ### CLKR（取自子主题 Commands in alphabetical order › List of commands › CLKR  CLKR  -  CLocK Resolution）
 
@@ -1968,77 +1675,14 @@ CLKR {waveform_set|specset_id|"multi-port_spec"}, [ref_period],{period_res|clock
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CLKR  CLKR  -  CLocK Resolution）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-To set or query the resolution of a multi-port timing specification, specify the name of the specification.
-
- |
- |
-
-ref_period
-
- |
-
-Not used. (Ignored)
-
- |
- |
-
-period_res
-
- |
-
-The period resolution (in ns) for the specified specification or waveform set.
-
-If necessary, period_res is rounded to nine digits after the decimal point. The allowable maximum period resolution is the maximum tester period value. The minimum period resolution is determined by the hardware (see `Automatic calculation of period resolution for single-port setups`（raw: `02.06.06.01.04.01.02.01_Automatic_calculation_of_period_resolution_for_single-port_setups.md`）).
-
- |
- |
-
-type
-
- |
-
-In the query, the type parameter specifies which resolution is queried. The allowed values are:
-
-VIRTUAL: The period resolution (period_res) is queried. This is the default.
-
-EXACT: The clock resolution (clock_res) is queried.
-
- |
- |
-
-clock_res
-
- |
-
-In the answer to the query, the clock resolution is returned if type is set to EXACT in the query.
-
- |
+| waveform_set | Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Derived as follows:<br><br>100 * equation_set_no + specset_no |
+| multi-port_spec | To set or query the resolution of a multi-port timing specification, specify the name of the specification. |
+| ref_period | Not used. (Ignored) |
+| period_res | The period resolution (in ns) for the specified specification or waveform set.<br><br>If necessary, period_res is rounded to nine digits after the decimal point. The allowable maximum period resolution is the maximum tester period value. The minimum period resolution is determined by the hardware (see `Automatic calculation of period resolution for single-port setups`（raw: `02.06.06.01.04.01.02.01_Automatic_calculation_of_period_resolution_for_single-port_setups.md`）). |
+| type | In the query, the type parameter specifies which resolution is queried. The allowed values are:<br><br>VIRTUAL: The period resolution (period_res) is queried. This is the default.<br><br>EXACT: The clock resolution (clock_res) is queried. |
+| clock_res | In the answer to the query, the clock resolution is returned if type is set to EXACT in the query. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CLKR  CLKR  -  CLocK Resolution）
 
@@ -2071,33 +1715,10 @@ CLKC <spscset | specificationName>, mater_clock_ns, edge_clock_ns, (portName)
 ```
 
 Parameters
- |
-
-specset
-
- |
-
-The required specification set.
-
- |
- |
-
-specificationName
-
- |
-
-The name of the required specification.
-
- |
- |
-
-portName
-
- |
-
-The port name. This can be either a specific port, or all ports. For all ports, you can use @@ if this is a multiport, or only @ to specify all pins if this is not a multiport.
-
- |
+| specset | The required specification set. |
+|---|---|
+| specificationName | The name of the required specification. |
+| portName | The port name. This can be either a specific port, or all ports. For all ports, you can use @@ if this is a multiport, or only @ to specify all pins if this is not a multiport. |
 
 ### CLMP（取自子主题 Commands in alphabetical order › List of commands › CLMP  CLMP  -  CLaMP level）
 
@@ -2216,46 +1837,11 @@ CMNT {act_vect_of_port}, {"text"}[, (port)]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CMNT  CMNT  -  CoMmeNT）
 
-|
-
-act_vect_of_port
-
- |
-
-Specifies the active vector of the referenced port at which the comment is to be inserted, or, in the query, the first vector of which the comment is to be displayed.
-
-Note that you must count the active vectors of the port consecutively across all of its labels, starting from 0. Suppose, for example, that two labels, test_1 and test_2, are associated with the port, where test_1 has 8 active vectors, and test_2 has 3. Then, to insert a comment at the second vector of test_2, you must enter 9.
-
- |
- |
-
-text
-
- |
-
-A string of up to 250 characters. The string must be enclosed with double quotes.
-
-Comments can contain any characters with ASCII codes from 32 to 126, that is, all printable ASCII characters. To put a double quote character (", ASCII 34) into a comment, enter two double quote characters.
-
- |
- |
-
-vect_length
-
- |
-
-In the query, the range of active vectors to be displayed, starting from act_vect_of_port. It can cross label boundaries.
-
- |
- |
-
-port
-
- |
-
-Specifies the port to which the active vectors associated with the comments belong. If you do not specify a port, the comments to the active vectors of the default port @ are set or read.
-
- |
+| act_vect_of_port | Specifies the active vector of the referenced port at which the comment is to be inserted, or, in the query, the first vector of which the comment is to be displayed.<br><br>Note that you must count the active vectors of the port consecutively across all of its labels, starting from 0. Suppose, for example, that two labels, test_1 and test_2, are associated with the port, where test_1 has 8 active vectors, and test_2 has 3. Then, to insert a comment at the second vector of test_2, you must enter 9. |
+|---|---|
+| text | A string of up to 250 characters. The string must be enclosed with double quotes.<br><br>Comments can contain any characters with ASCII codes from 32 to 126, that is, all printable ASCII characters. To put a double quote character (", ASCII 34) into a comment, enter two double quote characters. |
+| vect_length | In the query, the range of active vectors to be displayed, starting from act_vect_of_port. It can cross label boundaries. |
+| port | Specifies the port to which the active vectors associated with the comments belong. If you do not specify a port, the comments to the active vectors of the default port @ are set or read. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CMNT  CMNT  -  CoMmeNT）
 
@@ -2294,33 +1880,10 @@ CMVC {src_vec_No}, {dst_vec_No}, {vect_length}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CMVC -  Clear and MoVe Comments）
 
-|
-
-src_vec_No
-
- |
-
-The logical vector number that determines the start of the source range.
-
- |
- |
-
-dst_vec_No
-
- |
-
-The logical vector number that determines the start of the destination range.
-
- |
- |
-
-vect_length
-
- |
-
-The vector range from which comments are to be moved. Specify 0 in order to simply delete the vectors between the source and the destination number.
-
- |
+| src_vec_No | The logical vector number that determines the start of the source range. |
+|---|---|
+| dst_vec_No | The logical vector number that determines the start of the destination range. |
+| vect_length | The vector range from which comments are to be moved. Specify 0 in order to simply delete the vectors between the source and the destination number. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CMVC -  Clear and MoVe Comments）
 
@@ -2349,24 +1912,9 @@ CNCT {mode}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CNCT - CoNneCT disCoNneCT）
 
-| mode |
-
-OFF: Disconnects all pins in the specified modules.
-
-CNCT? always returns OFF as mode.
-
- |
- | pinlist |
-
-Pin names.
-
-Multiple pin names must be separated with a comma.
-
-The @ symbol specifies all modules that have a pin for which a pin name has been defined.
-
-You do not need to specify more than one pin in one PPS module.
-
- |
+| mode | OFF: Disconnects all pins in the specified modules.<br><br>CNCT? always returns OFF as mode. |
+|---|---|
+| pinlist | Pin names.<br><br>Multiple pin names must be separated with a comma.<br><br>The @ symbol specifies all modules that have a pin for which a pin name has been defined.<br><br>You do not need to specify more than one pin in one PPS module. |
 
 CNCT disconnects the pins immediately.
 
@@ -2392,15 +1940,8 @@ CNGV {(cmd_No)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CNGV -  CoNnect Generate Vectors）
 
-|
-
-cmd_No
-
- |
-
-The command number which references the first of the two consecutive GENV sequencer constructs.
-
- |
+| cmd_No | The command number which references the first of the two consecutive GENV sequencer constructs. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CNGV -  CoNnect Generate Vectors）
 
@@ -2523,42 +2064,11 @@ CPYV {src_vec_No}, {dst_vec_No}, {vect_length}, {(pinlist)}
 ```
 
 Parameters
- |
-
-src_vec_No
-
- |
-
-The logical vector number that determines the start of the source range.
-
- |
- |
-
-dst_vec_No
-
- |
-
-The logical vector number that determines the start of the destination range.
-
- |
- |
-
-vect_length
-
- |
-
-The length of the vector range to be copied.
-
- |
- |
-
-pinlist
-
- |
-
-The pins for which vectors are to be copied. If more than one pin is required, the names must be separated with a comma. The @ character can be used to modify the vectors of all configured pins.
-
- |
+| src_vec_No | The logical vector number that determines the start of the source range. |
+|---|---|
+| dst_vec_No | The logical vector number that determines the start of the destination range. |
+| vect_length | The length of the vector range to be copied. |
+| pinlist | The pins for which vectors are to be copied. If more than one pin is required, the names must be separated with a comma. The @ character can be used to modify the vectors of all configured pins. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CPYV -  CopY Vectors）
 
@@ -2643,19 +2153,20 @@ status
 
    | If mask is ALL, you need to translate the hex value (hexadecimal representation of the status bits) to its binary form as follows:
 
- | Bit 0:  | High voltage or current of surge tracker exceeded |
- | Bit 1:  | Low voltage or current of surge tracker exceeded |
- | Bit 2:  | 0 |
- | Bit 3:  | Measurement range change failed |
- | Bit 4:  | Clamp current correction failed |
- | Bit 5:  | Battery full |
- | Bit 6:  | Power budget 1 |
- | Bit 7:  | Power budget 2 |
- | Bit 8:  | Power budget 3 |
- | Bit 9:  | High voltage of surge tracker reached |
- | Bit 10:  | Low voltage of surge tracker reached |
- | Bit 11:  | High current of surge tracker reached |
- | Bit 12:  | Low current of surge tracker reached |
+| Bit 0: | High voltage or current of surge tracker exceeded |
+|---|---|
+| Bit 1: | Low voltage or current of surge tracker exceeded |
+| Bit 2: | 0 |
+| Bit 3: | Measurement range change failed |
+| Bit 4: | Clamp current correction failed |
+| Bit 5: | Battery full |
+| Bit 6: | Power budget 1 |
+| Bit 7: | Power budget 2 |
+| Bit 8: | Power budget 3 |
+| Bit 9: | High voltage of surge tracker reached |
+| Bit 10: | Low voltage of surge tracker reached |
+| Bit 11: | High current of surge tracker reached |
+| Bit 12: | Low current of surge tracker reached |
 
 If mask is specified as an integer bit-mask:
 
@@ -3669,50 +3180,11 @@ This example returns result information (on the cycle level) for 2 cycles and 2 
 
 The binary data reports the device cycle names, which in this example are different for each pin and cycle. The waveform offsets are zero. The reported drive/expected/received data are:
 
- |
-
-dvc_01:
-
- |
-
-DD1 = F00, DD2 = F10, ED1 = FX, ED2 = F0
-
-error: high received on edge 3 (param E2)
-
- |
- |
-
-dvc_02:
-
- |
-
-DD1 = F00, DD2 = N, ED1 = N, ED2 = N
-
-no error
-
- |
- |
-
-dvc_03:
-
- |
-
-DD1 = N, DD2 = N, ED1 = FU, ED2 = N
-
-error: high received on edge 5 (param E1)
-
- |
- |
-
-dvc_04:
-
- |
-
-DD1 = N, DD2 = N, ED1 = N, ED2 = N
-
-error: unstable received on edge 1 (FIX)
-
- |
+| dvc_01: | DD1 = F00, DD2 = F10, ED1 = FX, ED2 = F0<br><br>error: high received on edge 3 (param E2) |
+|---|---|
+| dvc_02: | DD1 = F00, DD2 = N, ED1 = N, ED2 = N<br><br>no error |
+| dvc_03: | DD1 = N, DD2 = N, ED1 = FU, ED2 = N<br><br>error: high received on edge 5 (param E1) |
+| dvc_04: | DD1 = N, DD2 = N, ED1 = N, ED2 = N<br><br>error: unstable received on edge 1 (FIX) |
 
 ### CYRM（取自子主题 Commands in alphabetical order › List of commands › CYRM  CYRM  -  CYcle Resolution Mode）
 
@@ -3959,18 +3431,9 @@ This is an optional parameter.
  |
  | forceMode  | This extra parameter specifies the force mode:
 
- |   | I  | Specifies the force current mode.
-
-Parameter forceValue is to be defined in µA (Microampere).
-
- |
- |   | V  | Specifies the force voltage mode.
-
-Parameter forceValue is to be defined in mV (Millivolt).
-
-This is the default force mode.
-
- |
+|  | I | Specifies the force current mode.<br><br>Parameter forceValue is to be defined in µA (Microampere). |
+|---|---|---|
+|  | V | Specifies the force voltage mode.<br><br>Parameter forceValue is to be defined in mV (Millivolt).<br><br>This is the default force mode. |
 
 The force current mode is currently supported only by the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`）.
 
@@ -4083,57 +3546,12 @@ The type and unit of the value depends on the value of the forceMode parameter:
  |   | V  | The clamp current range is to be specified in µA (Microampere).  | |
  | relayAction  | This parameter defines the termination mode of the measurement. The mode can be:
 
- | |
-
-NTBBM
-
- |
-
-No-Termination-Break-Before-Measure.
-
-Relay action:
-
-- For digital DC pins:
-
-Non-terminated measurement: Causes all pins in the pin list to be disconnected from the pin electronics (AC relay open).
-
- |
- |   | NTMBB |
-
-No-Termination-Measure-Before-Break.
-
-Relay action:
-
-- For digital DC pins:
-
-Non-terminated measurement: Causes all pins in the pin list to be disconnected from the pin electronics (AC relay open). Relay switching order is changed to MBB.
-
- |
- |   | TERM  | Relay action:
-
-- For digital DC pins:
-
-Terminated Measurement: Causes all pins in the pin list, which are already connected to the pin electronics (AC relay closed) to remain connected during measurement. The state of the AC relay is not changed.
-
- |
- |   | NO |
-
-NO relay action: No relays are switched during the measurement.
-
- |
- | |
-
-NT
-
- |
-
-Not terminated.
-
-- For DC Scale pins:
-
-Supported only in PMU operating mode. For more information, see `SPMU_PIN_TASK.relay()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.234.01.28_SPMU_PIN_TASK.relay.md`）.
-
- |
+|  | NTBBM | No-Termination-Break-Before-Measure.<br><br>Relay action:<br><br>- For digital DC pins:<br><br>Non-terminated measurement: Causes all pins in the pin list to be disconnected from the pin electronics (AC relay open). |
+|---|---|---|
+|  | NTMBB | No-Termination-Measure-Before-Break.<br><br>Relay action:<br><br>- For digital DC pins:<br><br>Non-terminated measurement: Causes all pins in the pin list to be disconnected from the pin electronics (AC relay open). Relay switching order is changed to MBB. |
+|  | TERM | Relay action:<br><br>- For digital DC pins:<br><br>Terminated Measurement: Causes all pins in the pin list, which are already connected to the pin electronics (AC relay closed) to remain connected during measurement. The state of the AC relay is not changed. |
+|  | NO | NO relay action: No relays are switched during the measurement. |
+|  | NT | Not terminated.<br><br>- For DC Scale pins:<br><br>Supported only in PMU operating mode. For more information, see `SPMU_PIN_TASK.relay()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.234.01.28_SPMU_PIN_TASK.relay.md`）. |
 
 See also `SPMU_PIN_TASK.relay()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.234.01.28_SPMU_PIN_TASK.relay.md`）.
 
@@ -5190,16 +4608,9 @@ DCST? ALL
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DCST  -  DC SeT）
 
-|
-
-setNr
-
- |
-
-The DC set identification number, starting with 1.
-
- |
- | ALL  | Selects all available DC sets. |
+| setNr | The DC set identification number, starting with 1. |
+|---|---|
+| ALL | Selects all available DC sets. |
 
 The query returns the DC set definition with the syntax as described for `DCCH`（raw: `02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md`） and `DCVH`（raw: `02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md`）.
 
@@ -5255,33 +4666,10 @@ DCUD {waveform_set},{"dev_cyc_name"},{(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DCUD -  Device Cycle UnDefine）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-dev_cyc_name
-
- |
-
-The device cycle name. Enter a string of up to 16 alphanumeric characters (upper or lower case) enclosed in double quotes. Enter ALL for the removal of all device cycles from the device cycle table.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which device cycle definitions are to be deleted. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
+| waveform_set | Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| dev_cyc_name | The device cycle name. Enter a string of up to 16 alphanumeric characters (upper or lower case) enclosed in double quotes. Enter ALL for the removal of all device cycles from the device cycle table. |
+| pinlist | The name of the pin or pins for which device cycle definitions are to be deleted. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DCUD -  Device Cycle UnDefine）
 
@@ -5311,22 +4699,9 @@ This is an optional parameter.
  |
  | forceMode  | This extra parameter specifies the force mode:
 
- |   | I |
-
-Specifies the force current mode.
-
-Parameter forceValue is to be defined in µA (Microampere).
-
-This is the default force mode.
-
- |
- |   | V |
-
-Specifies the force voltage mode.
-
-Parameter forceValue is to be defined in mV (Millivolt).
-
- |
+|  | I | Specifies the force current mode.<br><br>Parameter forceValue is to be defined in µA (Microampere).<br><br>This is the default force mode. |
+|---|---|---|
+|  | V | Specifies the force voltage mode.<br><br>Parameter forceValue is to be defined in mV (Millivolt). |
 
 The force current mode is only supported by the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`）.
 
@@ -5337,8 +4712,9 @@ The force value parameter specifies the force current in µA (Microampere) or th
 
 The type and unit of the value depends on the value of the forceMode parameter:
 
- |   | I  | The force value is to be specified as current in µA (Microampere). |
- |   | V  | The force value is to be specified as voltage in mV (Millivolt). |
+|  | I | The force value is to be specified as current in µA (Microampere). |
+|---|---|---|
+|  | V | The force value is to be specified as voltage in mV (Millivolt). |
 
 The valid range for the force value depends on the hardware.
 
@@ -5351,14 +4727,9 @@ The optional clamp value parameter specifies the output clamp voltage in mV (Mil
 
 The type and unit of the value depends on the value of the forceMode parameter:
 
- |   | I |
-
-The clamp value is to be specified as output clamp voltage in mV (Millivolt).
-
-This is the default mode.
-
- |
- |   | V  | The clamp value is to be specified as output clamp current in µA (Microampere). |
+|  | I | The clamp value is to be specified as output clamp voltage in mV (Millivolt).<br><br>This is the default mode. |
+|---|---|---|
+|  | V | The clamp value is to be specified as output clamp current in µA (Microampere). |
 
 The parameter may be defined as floating-point number or as string.
 
@@ -5366,9 +4737,10 @@ The string format supports different values for the upper (or positive) clamp va
 
 The string must be defined with pairs of properties and values in the format "property1:value1 property2:value2 ...":
 
- | Property  | Value type  | Description |
- | lowLimit  | float  | The lower (or negative) clamp value. The value must be less than 0.0. |
- | highLimit  | float  | The upper (or positive) clamp value. The value must be higher than 0.0. |
+| Property | Value type | Description |
+|---|---|---|
+| lowLimit | float | The lower (or negative) clamp value. The value must be less than 0.0. |
+| highLimit | float | The upper (or positive) clamp value. The value must be higher than 0.0. |
 
 In the query answer the lower clamp value is returned only if it is not symmetrical to the upper clamp value.
 
@@ -5473,49 +4845,12 @@ The type and unit of the value depends on the value of the forceMode parameter:
  |   | V  | The clamp current range is to be specified in µA (Microampere).  | |
  | relayAction  | This parameter defines the termination mode of the measurement. The mode can be:
 
- |   | NTBBM |
-
-No-Termination-Break-Before-Measure.
-
-Relay action:
-
-- For digital DC pins:
-
-Non-terminated measurement: Causes all pins in the pin list to be disconnected from the pin electronics (AC relay open).
-
- |
- |   | NTMBB |
-
-No-Termination-Measure-Before-Break.
-
-Relay action:
-
-- For digital DC pins:
-
-Non-terminated measurement: Causes all pins in the pin list to be disconnected from the pin electronics (AC relay open). Relay switching order is changed to MBB.
-
- |
- |   | TERM  | Relay action:
-
-- For digital DC pins:
-
-Terminated Measurement: Causes all pins in the pin list, which are already connected to the pin electronics (AC relay closed) to remain connected during measurement. The state of the AC relay is not changed.
-
- |
- |   | NO |
-
-NO relay action: No relays are switched during the measurement.
-
- |
- |   | NT |
-
-Not terminated.
-
-- For DC Scale pins:
-
-Supported only in PMU operating mode. For more information, see `SPMU_PIN_TASK.relay()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.234.01.28_SPMU_PIN_TASK.relay.md`）.
-
- |
+|  | NTBBM | No-Termination-Break-Before-Measure.<br><br>Relay action:<br><br>- For digital DC pins:<br><br>Non-terminated measurement: Causes all pins in the pin list to be disconnected from the pin electronics (AC relay open). |
+|---|---|---|
+|  | NTMBB | No-Termination-Measure-Before-Break.<br><br>Relay action:<br><br>- For digital DC pins:<br><br>Non-terminated measurement: Causes all pins in the pin list to be disconnected from the pin electronics (AC relay open). Relay switching order is changed to MBB. |
+|  | TERM | Relay action:<br><br>- For digital DC pins:<br><br>Terminated Measurement: Causes all pins in the pin list, which are already connected to the pin electronics (AC relay closed) to remain connected during measurement. The state of the AC relay is not changed. |
+|  | NO | NO relay action: No relays are switched during the measurement. |
+|  | NT | Not terminated.<br><br>- For DC Scale pins:<br><br>Supported only in PMU operating mode. For more information, see `SPMU_PIN_TASK.relay()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.234.01.28_SPMU_PIN_TASK.relay.md`）. |
 
 See also `SPMU_PIN_TASK.relay()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.234.01.28_SPMU_PIN_TASK.relay.md`）.
 
@@ -5929,24 +5264,9 @@ DELI {cmd_No}, {count}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DELI -  DELete Instruction）
 
-|
-
-cmd_No
-
- |
-
-The command number which references the first sequencer instruction to be deleted.
-
- |
- |
-
-count
-
- |
-
-This parameter defines the total number of instructions to be deleted.
-
- |
+| cmd_No | The command number which references the first sequencer instruction to be deleted. |
+|---|---|
+| count | This parameter defines the total number of instructions to be deleted. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DELI -  DELete Instruction）
 
@@ -5979,24 +5299,9 @@ DELV {cmd_No}, {vect_length}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DELV -  DELete Vectors）
 
-|
-
-cmd_No
-
- |
-
-The command number which references the sequencer construct where vectors are to be deleted. The instruction of the construct must be GENV (GENerate Vectors) or RPTV (RePeaT Vectors)
-
- |
- |
-
-vect_length
-
- |
-
-The number of active vectors to be deleted at the end of the referenced sequencer construct.
-
- |
+| cmd_No | The command number which references the sequencer construct where vectors are to be deleted. The instruction of the construct must be GENV (GENerate Vectors) or RPTV (RePeaT Vectors) |
+|---|---|
+| vect_length | The number of active vectors to be deleted at the end of the referenced sequencer construct. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DELV -  DELete Vectors）
 
@@ -6043,24 +5348,9 @@ DFCR {source_group},{dest_group}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFCR  DFCR  -  DeFine Clock Routing）
 
-|
-
-source_group
-
- |
-
-specifies the hardware group whose local clock is to be routed to dest_group. The format is Gx, where x is the group number.
-
- |
- |
-
-dest_group
-
- |
-
-specifies the hardware group whose inherited clock is to be changed.
-
- |
+| source_group | specifies the hardware group whose local clock is to be routed to dest_group. The format is Gx, where x is the group number. |
+|---|---|
+| dest_group | specifies the hardware group whose inherited clock is to be changed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DFCR  DFCR  -  DeFine Clock Routing）
 
@@ -6584,35 +5874,10 @@ DFPC {(pin)}, {"comment"}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFPC  DFPC  -  DeFine Pin Comment）
 
-|
-
-pin
-
- |
-
-In the command, this is the pin to which a comment is to be added. In the query reply, it is the pin whose comment is returned.
-
- |
- |
-
-pinlist
-
- |
-
-A query parameter that specifies the pins for which the comments are to be returned. You can also specify @ for all configured pins.
-
-Pins for which no comments have been defined are ignored.
-
- |
- |
-
-comment
-
- |
-
-The comment to the pin. The maximal length of the comment string is 2048 characters.
-
- |
+| pin | In the command, this is the pin to which a comment is to be added. In the query reply, it is the pin whose comment is returned. |
+|---|---|
+| pinlist | A query parameter that specifies the pins for which the comments are to be returned. You can also specify @ for all configured pins.<br><br>Pins for which no comments have been defined are ignored. |
+| comment | The comment to the pin. The maximal length of the comment string is 2048 characters. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DFPC  DFPC  -  DeFine Pin Comment）
 
@@ -6644,88 +5909,13 @@ DFPN {channelNo_1|(list_of_DC_scale_channels)}, ["pinNo"], {(pinName)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFPN  DFPN  -  DeFine Pin Name）
 
-|
-
-connectionSet
-
- |
-
-This parameter is currently not used.
-
-This extra string parameter adds the ability to define several pins containing the same DC Scale channel in PMU mode. A multiple defined DC Scale channel can be sequentially reused as single pin or in ganging groups. Note: The documentation for supported DC Scale cards knows this feature also as "Ganging on the fly".
-
-Default connection set: The default connection set is defined if this extra parameter is not used or if an empty string is programmed. A DC Scale pin can be defined in only one default connection set.
-
-All traces that are needed for a cross-card ganging group and are defined by the `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`） command and the DFPN command must have the same connectionSet defined. Recommendation: If the DUT trace can be activated by utility lines, name it like the utility line (see DFUP command).
-
-There can be several pin definitions containing the same channel:
-
-Adding a different ganging combination (new pin), does not invalidate the setups for the existing pins.
-
-The different pins containing the same channel must be part of the same ports.
-
-The patterns, events and DC-setups of these pins do not overlap.
-
- |
- | channelNo_1 |
-
-The test system channel number of the channel to which the specified device pin is connected (five digits), or the utility block number of the specified card cage (three digit).
-
-Digital or DC Scale channel
-
-For a digital channel this is a five digit number. The first three digits specify the pogo block number, and the fourth and fifth digits specify the pin number in the pogo block. The first digit is 1 to 4, the second and third digits is 01 to 32, and the final two digits is 01 to 16. For example, 10105 is the digital channel whose pogo pin number is 05 in the pogo block 101.
-
-Each pogo block contains 16 digital channels. The pogo block numbers are determined by the slots in which the channel boards are installed.
-
-The first three digits are also called the board number of the logical channel board, and the last two digits are a channel number in the logical channel board, where each logical channel board contains 16 channels
-
-Utility DC channel
-
-For the utility DC pins, this is a three digit number, specifying the utility block of the card cage. The referenced utility pogo must be one which can be connected to the DC rail of the card-cage. To get the utility block number, add 164 (264 for the second utility line card on EXA Scale test systems) to the desired utility line block, such that for example utility block 4 has number 168. For compatibility with SmarTest 7.6x, "HPMU1" now maps to "UTIDC165" and so on (for Smart Scale test systems only).
-
-For more information, see subtopics in `Pogo pin assignment - Utility pogo blocks`（raw: `../02.03_DUT_board_design_reference/02.03.06.08_Pogo_pin_assignment_-_Utility_pogo_blocks.md`）.
-
-The hardware knows 4 Utility DC channels (pogo pins): DC-force, DC-sense, ground-sense, and guard. But because they are referenced as a group, one pin name is sufficient to reflect all 4 channels.
-
- |
- |
-
-DC_channel_list
-
- |
-
-You can define ganging for a set of DC Scale channels in PMU mode by specifying a list of DC Scale channels, separated by commas and enclosed by parentheses. The channels must be physically adjacent on the same board.
-
-Before cross-card ganging can be used, the connection must be enabled by command `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）.
-
- |
- |
-
-pinNo
-
- |
-
-This is the device pin number which is allocated to the specified channel. The number must be enclosed in double quotes.
-
- |
- |
-
-pinName
-
- |
-
-The name to be allocated to the pin. Maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest.
-
- |
- |
-
-pinlist
-
- |
-
-This query parameter specifies the pins whose definitions are to be retrieved. The symbol @ can be used with the DFPN? query to list all pins previously defined by the DFPN command. If a list of more than one pin is required, the pin names must be separated by a comma. If you query a non-existent pin, the system returns nothing.
-
- |
+| connectionSet | This parameter is currently not used.<br><br>This extra string parameter adds the ability to define several pins containing the same DC Scale channel in PMU mode. A multiple defined DC Scale channel can be sequentially reused as single pin or in ganging groups. Note: The documentation for supported DC Scale cards knows this feature also as "Ganging on the fly".<br><br>Default connection set: The default connection set is defined if this extra parameter is not used or if an empty string is programmed. A DC Scale pin can be defined in only one default connection set.<br><br>All traces that are needed for a cross-card ganging group and are defined by the `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`） command and the DFPN command must have the same connectionSet defined. Recommendation: If the DUT trace can be activated by utility lines, name it like the utility line (see DFUP command).<br><br>There can be several pin definitions containing the same channel:<br><br>Adding a different ganging combination (new pin), does not invalidate the setups for the existing pins.<br><br>The different pins containing the same channel must be part of the same ports.<br><br>The patterns, events and DC-setups of these pins do not overlap. |
+|---|---|
+| channelNo_1 | The test system channel number of the channel to which the specified device pin is connected (five digits), or the utility block number of the specified card cage (three digit).<br><br>Digital or DC Scale channel<br><br>For a digital channel this is a five digit number. The first three digits specify the pogo block number, and the fourth and fifth digits specify the pin number in the pogo block. The first digit is 1 to 4, the second and third digits is 01 to 32, and the final two digits is 01 to 16. For example, 10105 is the digital channel whose pogo pin number is 05 in the pogo block 101.<br><br>Each pogo block contains 16 digital channels. The pogo block numbers are determined by the slots in which the channel boards are installed.<br><br>The first three digits are also called the board number of the logical channel board, and the last two digits are a channel number in the logical channel board, where each logical channel board contains 16 channels<br><br>Utility DC channel<br><br>For the utility DC pins, this is a three digit number, specifying the utility block of the card cage. The referenced utility pogo must be one which can be connected to the DC rail of the card-cage. To get the utility block number, add 164 (264 for the second utility line card on EXA Scale test systems) to the desired utility line block, such that for example utility block 4 has number 168. For compatibility with SmarTest 7.6x, "HPMU1" now maps to "UTIDC165" and so on (for Smart Scale test systems only).<br><br>For more information, see subtopics in `Pogo pin assignment - Utility pogo blocks`（raw: `../02.03_DUT_board_design_reference/02.03.06.08_Pogo_pin_assignment_-_Utility_pogo_blocks.md`）.<br><br>The hardware knows 4 Utility DC channels (pogo pins): DC-force, DC-sense, ground-sense, and guard. But because they are referenced as a group, one pin name is sufficient to reflect all 4 channels. |
+| DC_channel_list | You can define ganging for a set of DC Scale channels in PMU mode by specifying a list of DC Scale channels, separated by commas and enclosed by parentheses. The channels must be physically adjacent on the same board.<br><br>Before cross-card ganging can be used, the connection must be enabled by command `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）. |
+| pinNo | This is the device pin number which is allocated to the specified channel. The number must be enclosed in double quotes. |
+| pinName | The name to be allocated to the pin. Maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest. |
+| pinlist | This query parameter specifies the pins whose definitions are to be retrieved. The symbol @ can be used with the DFPN? query to list all pins previously defined by the DFPN command. If a list of more than one pin is required, the pin names must be separated by a comma. If you query a non-existent pin, the system returns nothing. |
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › DFPN  DFPN  -  DeFine Pin Name）
 
@@ -6765,48 +5955,11 @@ DFPR "alias_set_name", "pin_alias", (package_pin_name)
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFPR  DFPR  -  DeFine Pin Role）
 
-|
-
-alias_set_name
-
- |
-
-The alias set name.
-
-If you assign a pair of pin alias and package pin name to a nonexistent alias set, an alias set is created named with this parameter.
-
-In the query, you can define multiple alias sets or use the symbol @ to list all the defined pin alias sets.
-
- |
- |
-
-pin_alias
-
- |
-
-The pin alias.
-
- |
- |
-
-package_pin_name
-
- |
-
-The package pin name.
-
- |
- |
-
-DEF|ALL
-
- |
-
-If you select `ALL` in the query, for the pins without aliases, the package pin names are returned.
-
-If `DEF` is chosen in the query, only the defined pin aliases are returned.
-
- |
+| alias_set_name | The alias set name.<br><br>If you assign a pair of pin alias and package pin name to a nonexistent alias set, an alias set is created named with this parameter.<br><br>In the query, you can define multiple alias sets or use the symbol @ to list all the defined pin alias sets. |
+|---|---|
+| pin_alias | The pin alias. |
+| package_pin_name | The package pin name. |
+| DEF\|ALL | If you select `ALL` in the query, for the pins without aliases, the package pin names are returned.<br><br>If `DEF` is chosen in the query, only the defined pin aliases are returned. |
 
 ### Examples（取自子主题 Commands in alphabetical order › List of commands › DFPR  DFPR  -  DeFine Pin Role）
 
@@ -6816,54 +5969,16 @@ The pin configuration file includes three pins: `CP`, `S0`, and `S1`. There are 
 
 FUNC
 
- |
-
-Alias
-
- |
-
-Pin
-
- |
- |
-
-CLK
-
- |
-
-CP
-
- |
+| Alias | Pin |
+|---|---|
+| CLK | CP |
 
 TRANS
 
- |
-
-Alias
-
- |
-
-Pin
-
- |
- |
-
-Read
-
- |
-
-S0
-
- |
- |
-
-Write
-
- |
-
-S1
-
- |
+| Alias | Pin |
+|---|---|
+| Read | S0 |
+| Write | S1 |
 
 The following examples are the operations of these sets.
 
@@ -6939,42 +6054,11 @@ DFPR "TRANS","CLK",(CP)
 
 This example adds the package pin `CP` and its alias `CLK` to the alias set `TRANS`. Now the alias set `TRANS` is as the following.
 
- |
-
-Alias
-
- |
-
-Pin
-
- |
- |
-
-Read
-
- |
-
-S0
-
- |
- |
-
-Write
-
- |
-
-S1
-
- |
- |
-
-CLK
-
- |
-
-CP
-
- |
+| Alias | Pin |
+|---|---|
+| Read | S0 |
+| Write | S1 |
+| CLK | CP |
 
 ### DFPS（取自子主题 Commands in alphabetical order › List of commands › DFPS  DFPS  -  DeFine Power Supply）
 
@@ -7153,33 +6237,10 @@ DFPT {(pinlist)}, {(port)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFPT  DFPT  -  DeFine PorT）
 
-|
-
-pinlist
-
- |
-
-Pin name or names. If more than one pin is required, the names must be separated with a comma. The @ character can be used to refer to all configured pins. The pin list can contain digital or DC Scale pins, or a combination of both.
-
- |
- |
-
-port
-
- |
-
-The name of the port to which the pins are associated. The maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest.
-
- |
- |
-
-portlist
-
- |
-
-List of ports for which the associated pins are to be displayed. Specify `(@@)` to retrieve the definitions of all ports.
-
- |
+| pinlist | Pin name or names. If more than one pin is required, the names must be separated with a comma. The @ character can be used to refer to all configured pins. The pin list can contain digital or DC Scale pins, or a combination of both. |
+|---|---|
+| port | The name of the port to which the pins are associated. The maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest. |
+| portlist | List of ports for which the associated pins are to be displayed. Specify `(@@)` to retrieve the definitions of all ports. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DFPT  DFPT  -  DeFine PorT）
 
@@ -7216,20 +6277,14 @@ DFSP [meas_resource,] {measure_type}, {measure_range},{sampling_rate}, [average_
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFSP  DFSP  -  DeFine Sampling Profile）
 
-| meas_resource  | The measurement resource. It can be:
-
-- PMU - The default value
- |
- | measure_type  | The measurement type. It can be:
-
-- VOLT - for voltage measurements, or
-- CURR - for current measurements.
- |
- | measure_range  | This parameter corresponds to the voltage/current measure range. |
- | sampling_rate  | Specifies the sampling rate in microseconds. |
- | average_factor  | The number of measurements per sample. |
- | keep_range  | Specifies whether the range used by current profiling should be kept. Default is to restore last measure range before doing the profiling. |
- | pinlist  | This parameter specifies the pins to be used for the measurements. |
+| meas_resource | The measurement resource. It can be:<br><br>- PMU - The default value |
+|---|---|
+| measure_type | The measurement type. It can be:<br><br>- VOLT - for voltage measurements, or<br>- CURR - for current measurements. |
+| measure_range | This parameter corresponds to the voltage/current measure range. |
+| sampling_rate | Specifies the sampling rate in microseconds. |
+| average_factor | The number of measurements per sample. |
+| keep_range | Specifies whether the range used by current profiling should be kept. Default is to restore last measure range before doing the profiling. |
+| pinlist | This parameter specifies the pins to be used for the measurements. |
 
 ### Example 1: Current measurements（取自子主题 Commands in alphabetical order › List of commands › DFSP  DFSP  -  DeFine Sampling Profile）
 
@@ -7359,66 +6414,17 @@ LEV:<variable_name>
 These references will be resolved from the primary level set with which the element is executed.
 
 Attributes for element "lastMeasure":
- | Attribute  | Type  | Value  | Comment |
- | maskPassFail  | boolean |
-
-true, false
-
-default: false
-
- |
-
-Defines if the PASS/FAIL result of the measurement contributes to the global test result.
-
-Note that there are errors that cannot be masked with this flag, namely
-
-- too small a distance between two consecutive measurements
-- mismatch between measurement type and active measurement range.
-
-Supported only by XPS256.
-
- |
- | type  | enum  | voltage,
-
-current,
-
-forceDrop,
-
-returnDrop,
-
-battLevel
-
-  | Beside voltage and current measurements, the voltage drop on the force and return line could be measured. Also the battery level can be measured.
-
-Supported only by XPS256.
-
- |
- | limitLow  | double  | |
-
-Optional: If specified, the result will be FAIL if
-
-measured value < limitLow
-
-and failBelowLowLimit of the previously performed measurement has been set to true (not supported for current measurements with ganged channels).
-
-Supported only by XPS256.
-
- |
- | limitHigh  | double  | |
-
-Optional: If specified, the result will be FAIL if
-
-measured value > limitHigh
-
-and failAboveHighLimit of the previously performed measurement has been set to true (not supported for current measurements with ganged channels).
-
-Supported only by XPS256.
-
- |
+| Attribute | Type | Value | Comment |
+|---|---|---|---|
+| maskPassFail | boolean | true, false<br><br>default: false | Defines if the PASS/FAIL result of the measurement contributes to the global test result.<br><br>Note that there are errors that cannot be masked with this flag, namely<br><br>- too small a distance between two consecutive measurements<br>- mismatch between measurement type and active measurement range.<br><br>Supported only by XPS256. |
+| type | enum | voltage,<br><br>current,<br><br>forceDrop,<br><br>returnDrop,<br><br>battLevel | Beside voltage and current measurements, the voltage drop on the force and return line could be measured. Also the battery level can be measured.<br><br>Supported only by XPS256. |
+| limitLow | double |  | Optional: If specified, the result will be FAIL if<br><br>measured value < limitLow<br><br>and failBelowLowLimit of the previously performed measurement has been set to true (not supported for current measurements with ganged channels).<br><br>Supported only by XPS256. |
+| limitHigh | double |  | Optional: If specified, the result will be FAIL if<br><br>measured value > limitHigh<br><br>and failAboveHighLimit of the previously performed measurement has been set to true (not supported for current measurements with ganged channels).<br><br>Supported only by XPS256. |
 
 Attributes for element "matchCmp":
- | Attribute  | Type  | Value  | Comment |
- | type  | enum  | high, low  | Used for match loops to compare against low or high value. |
+| Attribute | Type | Value | Comment |
+|---|---|---|---|
+| type | enum | high, low | Used for match loops to compare against low or high value. |
 
 Attributes for element "measure":
  | Attribute  | Type  | Value  | Comment |
@@ -7531,106 +6537,35 @@ default: false
    | Optional: FAIL on high clamp violation if set to true |
 
 Attributes for element "restoreMeasureRange":
- | Attribute  | Type  | Value  | Comment |
- | type  | enum  | current  | Restores the range prior to pattern execution. |
+| Attribute | Type | Value | Comment |
+|---|---|---|---|
+| type | enum | current | Restores the range prior to pattern execution. |
 
 Attributes for element "setCompliance":
- | Attribute  | Type  | Value  | Comment |
- | value  | double  |   | Set the compliance value.`1)`（raw: `#fntarg_1`）Note The force value can not be programmed higher that the compliance value.Note The compliance is independent of the voltage force range (i.e. it could be programmed higher that the force range). |
+| Attribute | Type | Value | Comment |
+|---|---|---|---|
+| value | double |  | Set the compliance value.`1)`（raw: `#fntarg_1`）Note The force value can not be programmed higher that the compliance value.Note The compliance is independent of the voltage force range (i.e. it could be programmed higher that the force range). |
 
 Attributes for element "setFilterValue":
- | Attribute  | Type  | Value  | Comment |
- | type  | enum |
-
-currentBandwidth
-
-currentSlew
-
-loadCap
-
-loadstepMode
-
-measureFilter
-
-voltageBandwidth
-
-voltageSlew
-
- |
-
-Value loadstepMode is supported only by XPS256.
-
- |
- | value  | double  | |
-
-For type = loadCap the value in Farad [F].
-
-For type = currentSlew the value in A/s.
-
-For type = voltageSlew the value in V/s.
-
-For type = currentBandwidth the value in Hz.
-
-For type = voltageBandwidth the value in Hz.
-
-For type = measureFilter the value in Hz.
-
-For type = loadstepMode enum value of "standard, fast, or veryFast.
-
- |
+| Attribute | Type | Value | Comment |
+|---|---|---|---|
+| type | enum | currentBandwidth<br><br>currentSlew<br><br>loadCap<br><br>loadstepMode<br><br>measureFilter<br><br>voltageBandwidth<br><br>voltageSlew | Value loadstepMode is supported only by XPS256. |
+| value | double |  | For type = loadCap the value in Farad [F].<br><br>For type = currentSlew the value in A/s.<br><br>For type = voltageSlew the value in V/s.<br><br>For type = currentBandwidth the value in Hz.<br><br>For type = voltageBandwidth the value in Hz.<br><br>For type = measureFilter the value in Hz.<br><br>For type = loadstepMode enum value of "standard, fast, or veryFast. |
 
 Attributes for element "setForceRange":
- | Attribute  | Type  | Value  | Comment |
- | type  | enum  | voltage, current |
-
-Setting voltage ranges is not supported by the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`）.
-
- |
- | minValue  | double  |   | Lower value of range; unit is derived from type. |
- | maxValue  | double  |   | Upper value of range; unit is derived from type. |
+| Attribute | Type | Value | Comment |
+|---|---|---|---|
+| type | enum | voltage, current | Setting voltage ranges is not supported by the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`）. |
+| minValue | double |  | Lower value of range; unit is derived from type. |
+| maxValue | double |  | Upper value of range; unit is derived from type. |
 
 Attributes for element "setForceValue":
- | Attribute  | Type  | Value  | Comment |
- | type  | enum |
-
-voltage,
-
-voltage_x4,
-
-currentClamp,
-
-current,
-
-voltageClamp,
-
-currentClampHac
-
-   | |
- | value  | double  | |
-
-For type="voltage" the value in [V].
-
-For type="current" the value in [A].
-
- |
- | minValue  | double  | |
-
-For type="currentClamp" the minimum value in in [A].
-
-For type="voltageClamp" the minimum value in [V].
-
-- For DPS128/64 and UHC4T specify either the min or the max value (not both).
-- For type="currentClampHac" specify either the minValue or the maxValue (not both).
- |
- | maxValue  | double  | |
-
-For type="currentClamp" the maximum value in [A].
-
-For type="voltageClamp" the maximum value in [V].
-
-- For DPS128/64 and UHC4T specify either the min or the max value (not both).
-- For type="currentClampHac" specify either the minValue or the maxValue (not both).
- |
+| Attribute | Type | Value | Comment |
+|---|---|---|---|
+| type | enum | voltage,<br><br>voltage_x4,<br><br>currentClamp,<br><br>current,<br><br>voltageClamp,<br><br>currentClampHac |  |
+| value | double |  | For type="voltage" the value in [V].<br><br>For type="current" the value in [A]. |
+| minValue | double |  | For type="currentClamp" the minimum value in in [A].<br><br>For type="voltageClamp" the minimum value in [V].<br><br>- For DPS128/64 and UHC4T specify either the min or the max value (not both).<br>- For type="currentClampHac" specify either the minValue or the maxValue (not both). |
+| maxValue | double |  | For type="currentClamp" the maximum value in [A].<br><br>For type="voltageClamp" the maximum value in [V].<br><br>- For DPS128/64 and UHC4T specify either the min or the max value (not both).<br>- For type="currentClampHac" specify either the minValue or the maxValue (not both). |
 
 Attributes for element "setMeasureRange":
  | Attribute  | Type  | Value  | Comment |
@@ -7654,8 +6589,9 @@ If standard is set, the attribute will not be reported in DFTD?.
    | Note that setMeasureRange is not allowed for DC Scale UHC4T, if connect_state (set with `PSLR`（raw: `02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md`）) is hdig or norm_hdig.
 
 Attributes for element "setTmuArming":
- | Attribute  | Type  | Value  | Comment |
- | This element uses no attributes.  | n/a  | n/a  | The element is used to arm the TMU. |
+| Attribute | Type | Value | Comment |
+|---|---|---|---|
+| This element uses no attributes. | n/a | n/a | The element is used to arm the TMU. |
 
 Attributes for element "setTmuConfigure":
  | Attribute  | Type  | Value  | Comment |
@@ -8038,23 +6974,8 @@ DGCC {result_flag}
 ```
 
 Parameters
- |
-
-result_flag
-
- |
-
-The result returned by DGCC?.
-
-P (for Pass) is returned if received and expected data match.
-
-F (for Fail) is returned if received and expected data do not match.
-
-F (for Fail) is returned if In a standard digital capture test a high is received, which means it does not match the functional test result (refer to `Combining selective digital capture with a functional test`（raw: `02.06.06.01.03.01.03_Combining_selective_digital_capture_with_a_functional_test.md`） to learn about using the HRPF keyword).
-
-Note that the result flag refers to the functional test, and does not say anything about the success of the digital capture. Rather, when the functional test returns P, this may imply that something went wrong with digital capture. Thus, if the received values are compared against 0, which is recommended, P can indicate that no data was captured.
-
- |
+| result_flag | The result returned by DGCC?.<br><br>P (for Pass) is returned if received and expected data match.<br><br>F (for Fail) is returned if received and expected data do not match.<br><br>F (for Fail) is returned if In a standard digital capture test a high is received, which means it does not match the functional test result (refer to `Combining selective digital capture with a functional test`（raw: `02.06.06.01.03.01.03_Combining_selective_digital_capture_with_a_functional_test.md`） to learn about using the HRPF keyword).<br><br>Note that the result flag refers to the functional test, and does not say anything about the success of the digital capture. Rather, when the functional test returns P, this may imply that something went wrong with digital capture. Thus, if the received values are compared against 0, which is recommended, P can indicate that no data was captured. |
+|---|---|
 
 ### Examples（取自子主题 Commands in alphabetical order › List of commands › DGCS  DGCC   DiGital Capture aSynchronous）
 
@@ -8085,30 +7006,9 @@ DGCT {result_flag}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DGCT  -  DiGital Capture Test）
 
-|
-
-exec_context
-
- |
-
-An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .
-
- |
- |
-
-result_flag
-
- |
-
-The result returned by DGCT?.
-
-P (for Pass) is returned if received and expected data match.
-
-F (for Fail) is returned if received and expected data do not match.
-
-Note that the result flag refers to the functional test, and does not say anything about the success of the digital capture. Rather, when the functional test returns P, this may imply that something went wrong with digital capture. Thus, if the received values are compared against 0, which is recommended, P can indicate that no data was captured.
-
- |
+| exec_context | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） . |
+|---|---|
+| result_flag | The result returned by DGCT?.<br><br>P (for Pass) is returned if received and expected data match.<br><br>F (for Fail) is returned if received and expected data do not match.<br><br>Note that the result flag refers to the functional test, and does not say anything about the success of the digital capture. Rather, when the functional test returns P, this may imply that something went wrong with digital capture. Thus, if the received values are compared against 0, which is recommended, P can indicate that no data was captured. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DGCT  -  DiGital Capture Test）
 
@@ -8179,143 +7079,17 @@ DIDT {"var_name"}, [code_format], [code_input_mode], [byte_order], [code_width],
 ```
 
 Parameters
- |
-
-var_name
-
- |
-
-This is a unique name string for the vector variable that defines the filtering conditions.
-
- |
- |
-
-area-id
-
- |
-
-Selects a specific result retention area by ID to upload from. The corresponding result retention configuration must have been configured and valid results must have been recorded into the area by a previously executed digital capture test.
-
- |
- |
-
-code_format
-
- |
-
-Output format of the DUT, which is the input format for DIDT?. The possible values are:
-
-- BIN
-- COMP1
-- COMP2
-- MOD_COMP1
-- GRAY
-- BCD
-- SYMM
-- MOD_SYMM
-- ALAW
-- MOD_ALAW
-- MSB
-
-The default value is BIN. If you specify another DUT format, DIDT? takes an end segment of the sample with length code_width (see below) to be a code in that format and converts it into binary format before the sample is returned.
-
-MSB causes the bit order of the sample segment to be reversed, that is, if the segment length is m, then the nth input bit will be the (m-n+1)th output bit. The maximum segment length is 32.
-
-For example, 010011 will become 110010.
-
- |
- |
-
-code_input_mode
-
- |
-
-Defines the input mode of the data.
-
-Code formats specified by the code_format and code_input_mode parameters determine how the data will be decoded for digital source memory downloads with the DIDT command or encoded during digital capture uploads with the DIDT? query.
-
-The possible modes are:
-
-- NORM (normal)
-- COMP (complementary)
-
-The default is NORM (assumed if not specified).
-
-For details, see `Code Format Tables`（raw: `../02.07_Test_Method_Reference/02.07.04.04_Code_Format_Tables.md`） from the related VECTOR test method API `inputMode()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.269_VECTOR.md#_29830__dle_inputMode`） and `getInputMode()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.269_VECTOR.md#_29830__dle_getInputMode`）.
-
- |
- |
-
-byte_order
-
- |
-
-Specifies the byte order of the device. Allowed values are:
-
-- BIG_ENDIAN: The high-order byte is most significant.
-- LITTLE_ENDIAN: The low-order byte is most significant.
- |
- |
-
-code_width
-
- |
-
-The width of that end segment of the sample that is considered as a code. It is this segment which is converted. The default width for Digital Capture variable type is determined as follows:
-
-- If the xfer_mode parameter of the specified vector variable has been set to PARA, the default value of code_width is the number of pins that are associated with the vector variable.
-- If xfer_mode is set to SERI, the default width is the value of the nr_vec_per_sample parameter of the vector variable.
- |
- |
-
-offset
-
- |
-
-This parameter can be used to further reduce the size of the data returned. This offset starts from the position specified by the init_discard parameter of the vector variable. The default is 0. This usage of offset is only supported for Digital Capture variables (defined with DVVA).
-
- |
- |
-
-nr_vectors
-
- |
-
-The number of vectors that are to be downloaded or uploaded, starting from offset. The Digital Capture variable type default is
-
-nr_of_ frames × nr_vec_per_frame
-
-where nr_of_ frames and nr_vec_per_frame are parameters of the vector variable.
-
-This parameter determines the number n of samples that are returned when uploading. n will be
-
-nr_vectors / nr_vec_per_sample [+1],
-
-where 1 is added if nr_vectors is not an integer multiple of the vector variable parameter nr_vec_per_sample.
-
- |
- |
-
-comment
-
- |
-
-String that can be used for equation algorithm of the downloaded arbitrary waveform. For example, sin(x)+sin(2x). This is not needed for Digital Capture upload.
-
- |
- |
-
-data
-
- |
-
-The waveform data described by using the binary data standard format. It consists of a standard header followed by the actual data (32 bit integer format). The format is:
-
-#Nn1n2n...nNdata_stream
-
-where the digit N defines the number of the digits ni that specify the length of data_stream in bytes.
-
- |
+| var_name | This is a unique name string for the vector variable that defines the filtering conditions. |
+|---|---|
+| area-id | Selects a specific result retention area by ID to upload from. The corresponding result retention configuration must have been configured and valid results must have been recorded into the area by a previously executed digital capture test. |
+| code_format | Output format of the DUT, which is the input format for DIDT?. The possible values are:<br><br>- BIN<br>- COMP1<br>- COMP2<br>- MOD_COMP1<br>- GRAY<br>- BCD<br>- SYMM<br>- MOD_SYMM<br>- ALAW<br>- MOD_ALAW<br>- MSB<br><br>The default value is BIN. If you specify another DUT format, DIDT? takes an end segment of the sample with length code_width (see below) to be a code in that format and converts it into binary format before the sample is returned.<br><br>MSB causes the bit order of the sample segment to be reversed, that is, if the segment length is m, then the nth input bit will be the (m-n+1)th output bit. The maximum segment length is 32.<br><br>For example, 010011 will become 110010. |
+| code_input_mode | Defines the input mode of the data.<br><br>Code formats specified by the code_format and code_input_mode parameters determine how the data will be decoded for digital source memory downloads with the DIDT command or encoded during digital capture uploads with the DIDT? query.<br><br>The possible modes are:<br><br>- NORM (normal)<br>- COMP (complementary)<br><br>The default is NORM (assumed if not specified).<br><br>For details, see `Code Format Tables`（raw: `../02.07_Test_Method_Reference/02.07.04.04_Code_Format_Tables.md`） from the related VECTOR test method API `inputMode()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.269_VECTOR.md#_29830__dle_inputMode`） and `getInputMode()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.269_VECTOR.md#_29830__dle_getInputMode`）. |
+| byte_order | Specifies the byte order of the device. Allowed values are:<br><br>- BIG_ENDIAN: The high-order byte is most significant.<br>- LITTLE_ENDIAN: The low-order byte is most significant. |
+| code_width | The width of that end segment of the sample that is considered as a code. It is this segment which is converted. The default width for Digital Capture variable type is determined as follows:<br><br>- If the xfer_mode parameter of the specified vector variable has been set to PARA, the default value of code_width is the number of pins that are associated with the vector variable.<br>- If xfer_mode is set to SERI, the default width is the value of the nr_vec_per_sample parameter of the vector variable. |
+| offset | This parameter can be used to further reduce the size of the data returned. This offset starts from the position specified by the init_discard parameter of the vector variable. The default is 0. This usage of offset is only supported for Digital Capture variables (defined with DVVA). |
+| nr_vectors | The number of vectors that are to be downloaded or uploaded, starting from offset. The Digital Capture variable type default is<br><br>nr_of_ frames × nr_vec_per_frame<br><br>where nr_of_ frames and nr_vec_per_frame are parameters of the vector variable.<br><br>This parameter determines the number n of samples that are returned when uploading. n will be<br><br>nr_vectors / nr_vec_per_sample [+1],<br><br>where 1 is added if nr_vectors is not an integer multiple of the vector variable parameter nr_vec_per_sample. |
+| comment | String that can be used for equation algorithm of the downloaded arbitrary waveform. For example, sin(x)+sin(2x). This is not needed for Digital Capture upload. |
+| data | The waveform data described by using the binary data standard format. It consists of a standard header followed by the actual data (32 bit integer format). The format is:<br><br>#Nn1n2n...nNdata_stream<br><br>where the digit N defines the number of the digits ni that specify the length of data_stream in bytes. |
 
 ### Example 1 - Digital capture（取自子主题 Commands in alphabetical order › List of commands › DIDT  DIDT  -  upload DIgital DaTa）
 
@@ -8370,15 +7144,8 @@ DLPP {label}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DLPP -  DeLete Per Pin Subroutine）
 
-|
-
-label
-
- |
-
-Specifies the name of the per-pin subroutine to be deleted.
-
- |
+| label | Specifies the name of the per-pin subroutine to be deleted. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DLPP -  DeLete Per Pin Subroutine）
 
@@ -8396,15 +7163,8 @@ DLSO{(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DLSO  Driver Level Switch Off）
 
-|
-
-pinlist
-
- |
-
-Pin or pins for which the channels are to be set to high impedance as defined by level set 0. You can specify @ for all pins, and @NONSHARED@ for the resources that are not shared between configured sites in a multi-site test.
-
- |
+| pinlist | Pin or pins for which the channels are to be set to high impedance as defined by level set 0. You can specify @ for all pins, and @NONSHARED@ for the resources that are not shared between configured sites in a multi-site test. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DLSO  Driver Level Switch Off）
 
@@ -8429,24 +7189,9 @@ DLTS {"label"}[, (port)]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DLTS -  DeLete TeSt）
 
-|
-
-label
-
- |
-
-Specifies the label to be deleted.
-
- |
- |
-
-port
-
- |
-
-This parameter is only relevant for multi-port burst labels. If you call DLTS with a multi-port burst label and you do not specify a port, the label is deleted for all ports. If you specify a port, the label is only deleted for this port.
-
- |
+| label | Specifies the label to be deleted. |
+|---|---|
+| port | This parameter is only relevant for multi-port burst labels. If you call DLTS with a multi-port burst label and you do not specify a port, the label is deleted for all ports. If you specify a port, the label is only deleted for this port. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DLTS -  DeLete TeSt）
 
@@ -9087,26 +7832,9 @@ DPPS {name}, {cycle_len}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DPPS  DPPS  -  Define Per Pin Subroutine label）
 
-|
-
-name
-
- |
-
-Per-pin Subroutine name. This parameter can be used to call the subroutine from a parallel sequencer program.
-
-For the query, you can also enter ALL to return all per pin subroutine label names
-
- |
- |
-
-cycle_len
-
- |
-
-Per-pin cycle length.
-
- |
+| name | Per-pin Subroutine name. This parameter can be used to call the subroutine from a parallel sequencer program.<br><br>For the query, you can also enter ALL to return all per pin subroutine label names |
+|---|---|
+| cycle_len | Per-pin cycle length. |
 
 ### DPRL（取自子主题 Commands in alphabetical order › List of commands › DPRL  DPRL  -  Default PRimary Level sets）
 
@@ -9258,68 +7986,13 @@ DPRT {"multi-port_spec"}, {timing_set_no|"timing_set_list"}[,(port)]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DPRT  DPRT  -  Default PRimary Timing sets）
 
-|
-
-waveform_set
-
- |
-
-Waveform set number.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-100 * equation_set_no + spec_set_no
-
-Note that the spec set ID identifies the primary wavetable in equation based testing.
-
- |
- |
-
-multi-port_spec
-
- |
-
-In a multi-port setup, a primary multiport specification can be specified.
-
- |
- |
-
-timing_set
-
- |
-
-The identification number of the timing set. Enter an integer in the range 1 to the maximum number of allowed timing sets (of the selected waveform set or timing specification). The maximum number is determined by `TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by DSCP).
-
-In a multiport setup, the timing set number applies to all ports of the specification if no port is specified. Otherwise, the number applies to the specified port.
-
- |
- |
-
-timing_set_list
-
- |
-
-In a multi-port setup, you can specify primary timing sets for all ports of the specification by entering a list of numbers separated by commas.
-
-In the query, the numbers of the primary timing sets are returned in a list for all ports of the primary specification unless the numbers are identical for all ports or a port has been specified in the query.
-
- |
- |
-
-port
-
- |
-
-In a multi-port setup, you can specify a port of the specification that was entered as the first parameter. In this case, the timing set number specified as the second parameter will only be applied to the specified port. The port parameter is ignored if a timing set list is specified.
-
- |
+| waveform_set | Waveform set number. |
+|---|---|
+| specset_id | Derived as follows:<br><br>100 * equation_set_no + spec_set_no<br><br>Note that the spec set ID identifies the primary wavetable in equation based testing. |
+| multi-port_spec | In a multi-port setup, a primary multiport specification can be specified. |
+| timing_set | The identification number of the timing set. Enter an integer in the range 1 to the maximum number of allowed timing sets (of the selected waveform set or timing specification). The maximum number is determined by `TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by DSCP).<br><br>In a multiport setup, the timing set number applies to all ports of the specification if no port is specified. Otherwise, the number applies to the specified port. |
+| timing_set_list | In a multi-port setup, you can specify primary timing sets for all ports of the specification by entering a list of numbers separated by commas.<br><br>In the query, the numbers of the primary timing sets are returned in a list for all ports of the primary specification unless the numbers are identical for all ports or a port has been specified in the query. |
+| port | In a multi-port setup, you can specify a port of the specification that was entered as the first parameter. In this case, the timing set number specified as the second parameter will only be applied to the specified port. The port parameter is ignored if a timing set list is specified. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DPRT  DPRT  -  Default PRimary Timing sets）
 
@@ -9355,35 +8028,10 @@ DPSA {name}, {address}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DPSA  DPSA  -  Define per Pin Subroutine Address）
 
-|
-
-name
-
- |
-
-Per-pin Subroutine name. This parameter can be used to call the subroutine from a parallel sequencer program.
-
-For the query, you can also enter ALL to return all per-pin subroutine label names.
-
- |
- |
-
-address
-
- |
-
-Per-pin Sequencer subroutine entry address.
-
- |
- |
-
-pinlist
-
- |
-
-Pins for which a per-pin subroutine is valid.
-
- |
+| name | Per-pin Subroutine name. This parameter can be used to call the subroutine from a parallel sequencer program.<br><br>For the query, you can also enter ALL to return all per-pin subroutine label names. |
+|---|---|
+| address | Per-pin Sequencer subroutine entry address. |
+| pinlist | Pins for which a per-pin subroutine is valid. |
 
 ### DPSE（取自子主题 Commands in alphabetical order › List of commands › DPSE  DPSE  -  Define Power Supply External trigger measurement）
 
@@ -9776,26 +8424,9 @@ DQUE {dqueue_level}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DQUE  -  show Data QUEue low level）
 
-|
-
-dqueue_level
-
- |
-
-A reply parameter specifying the smallest number of 8-vector blocks that was left in the data queue during the last sequencer run for the specified pins
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which the lowest data queue level is queried or returned.
-
-Use the @ character to query all pins.
-
- |
+| dqueue_level | A reply parameter specifying the smallest number of 8-vector blocks that was left in the data queue during the last sequencer run for the specified pins |
+|---|---|
+| pinlist | The name of the pin or pins for which the lowest data queue level is queried or returned.<br><br>Use the @ character to query all pins. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DQUE  -  show Data QUEue low level）
 
@@ -10002,85 +8633,14 @@ DRLV {level_set | level_set_id}, [logic_0_level], [logic_1_level], [v3h_level | 
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DRLV  DRLV  -  DRive LeVel）
 
-|
-
-level_set_no
-
- |
-
-The identification number of the level set (fixed levels) in which you want the levels to be included. The number must not exceed the maximum number of level sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command). Typing ALL in this field sets the levels for all existing level sets. Typing PRM sets the drive voltage levels for the primary level set.
-
- |
- |
-
-level_set_id
-
- |
-
-Used in equation based level setup. It is derived as follows:
-
-100000 * equation_set_no + 1000 * specset_no + level_set_no
-
-Note that if you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set.
-
- |
- |
-
-logic_0_level
-
- |
-
-An integer (in mV) which sets the low level voltage for the drive amplifier.
-
- |
- |
-
-logic_1_level
-
- |
-
-An integer (in mV) which sets the high level voltage for the drive amplifier.
-
- |
- |
-
-v3h_level
-
- |
-
-Input (drive) 3rd level definition (high level voltage shift). The expression of this extra parameter must define a value in millivolts (mV).
-
-This parameter is no longer used.
-
- |
- |
-
-range
-
- |
-
-This extra parameter selects the drive range in mV:
-
-- -8000.0 ... 8000.0 selects the 8 V range
-- -30000.0 ... 30000.0 selects the 30 V range
-- all other values select the -40 V ... +80 V range
-
-If not specified the best fit range will be selected based on logic_0_level and logic_1_level.
-
-This parameter is currently not available.
-
-The query returns the parameter only if it is defined for the queried level set.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins whose levels you want to set. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. If more than one pin is to be included, the names must be separated with a comma. The symbol @ sets or reads the drive levels of all input pins in the level set. You can include I and IO pin types in pinlist.
-
- |
+| level_set_no | The identification number of the level set (fixed levels) in which you want the levels to be included. The number must not exceed the maximum number of level sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command). Typing ALL in this field sets the levels for all existing level sets. Typing PRM sets the drive voltage levels for the primary level set. |
+|---|---|
+| level_set_id | Used in equation based level setup. It is derived as follows:<br><br>100000 * equation_set_no + 1000 * specset_no + level_set_no<br><br>Note that if you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set. |
+| logic_0_level | An integer (in mV) which sets the low level voltage for the drive amplifier. |
+| logic_1_level | An integer (in mV) which sets the high level voltage for the drive amplifier. |
+| v3h_level | Input (drive) 3rd level definition (high level voltage shift). The expression of this extra parameter must define a value in millivolts (mV).<br><br>This parameter is no longer used. |
+| range | This extra parameter selects the drive range in mV:<br><br>- -8000.0 ... 8000.0 selects the 8 V range<br>- -30000.0 ... 30000.0 selects the 30 V range<br>- all other values select the -40 V ... +80 V range<br><br>If not specified the best fit range will be selected based on logic_0_level and logic_1_level.<br><br>This parameter is currently not available.<br><br>The query returns the parameter only if it is defined for the queried level set. |
+| pinlist | The name of the pin or pins whose levels you want to set. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. If more than one pin is to be included, the names must be separated with a comma. The symbol @ sets or reads the drive levels of all input pins in the level set. You can include I and IO pin types in pinlist. |
 
 For card specifications, like level ranges, see `Digital Cards`（raw: `../02.02_Specifications/02.02.04_Digital_Cards.md`）, for example:
 
@@ -10127,95 +8687,16 @@ DSCP {device_cycle}, {waveform_set}, {timing_set}, {level_set}, {dps_set},
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DSCP  DSCP  -  Define System Control Parameter）
 
-| device_cycle  | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.
-
-Default: 256
-
-Maximum: 16384
-
-Note that the total number of device cycles gets evenly divided between the combined number of waveform sets and wavetables. If you use the default values, then 256 device cycles divides into the total number of 32 `waveform sets and wavetables`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） to give you 8 device cycles per waveform set/wavetable. If you choose values that do not divide evenly, then the number of device cycles will be rounded up to the next multiple of the `waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） parameter.
-
- |
- | devicecycle_set |
-
-The devicecycle_set parameter is an integer that defines the maximum number of device cycle sets that you can create. Device cycle sets are needed for selective digital capture.
-
-Default: 1
-
-Maximum: 128
-
- |
- | dps_set |
-
-The dps_set parameter is an integer that defines the maximum number of DPS sets you can create.
-
-Default: 32
-
-Maximum: 256
-
- |
- | level_set |
-
-The level_set parameter is an integer that defines the combined total of level sets for fixed and equation based levels that you can create.
-
-Default: 32
-
-Maximum: 256
-
- |
- | period_res_prec |
-
-This parameter defines the precision with which the period resolution is calculated by the system. It has no effect on a user defined period resolution (using, for example, the period_res keyword in the equation set).
-
-The default is 4, if the .technology file does not contain this parameter.
-
-If it does, the value of the .technology file is the default.
-
-This value is set to 9, the greatest possible value, when a device is created.
-
- |
- |
-
-pmu_set
-
- |
-
-The pmu_set parameter is an integer that defines the maximum number of actions that can be contained in all measurement sets of all PPMU DC sets.
-
-Default: 1024
-
-Maximum: 12800
-
- |
- | routing_set |
-
-Defines the number of routing sets managed by the firmware, provided by the MCD.
-
-Default: 256
-
-Maximum: 512
-
- |
- | timing_set |
-
-The timing_set parameter is an integer that defines the maximum combined total of timing sets for fixed and equation based timing you can create.
-
-Default: 256
-
-Maximum: 999
-
-The number of timing sets must be equal to or greater than the number of waveform sets, as there must be at least one timing set per waveform set.
-
- |
- | waveform_set |
-
-The waveform_set parameter defines the maximum combined total of waveform sets (fixed timing) and wavetables (equation based timing) you can create. Thus, if you specify a value of 32, you could, for example, create 10 waveform sets and 22 wavetables.
-
-Default: 32
-
-Maximum: 128
-
- |
+| device_cycle | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.<br><br>Default: 256<br><br>Maximum: 16384<br><br>Note that the total number of device cycles gets evenly divided between the combined number of waveform sets and wavetables. If you use the default values, then 256 device cycles divides into the total number of 32 `waveform sets and wavetables`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） to give you 8 device cycles per waveform set/wavetable. If you choose values that do not divide evenly, then the number of device cycles will be rounded up to the next multiple of the `waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） parameter. |
+|---|---|
+| devicecycle_set | The devicecycle_set parameter is an integer that defines the maximum number of device cycle sets that you can create. Device cycle sets are needed for selective digital capture.<br><br>Default: 1<br><br>Maximum: 128 |
+| dps_set | The dps_set parameter is an integer that defines the maximum number of DPS sets you can create.<br><br>Default: 32<br><br>Maximum: 256 |
+| level_set | The level_set parameter is an integer that defines the combined total of level sets for fixed and equation based levels that you can create.<br><br>Default: 32<br><br>Maximum: 256 |
+| period_res_prec | This parameter defines the precision with which the period resolution is calculated by the system. It has no effect on a user defined period resolution (using, for example, the period_res keyword in the equation set).<br><br>The default is 4, if the .technology file does not contain this parameter.<br><br>If it does, the value of the .technology file is the default.<br><br>This value is set to 9, the greatest possible value, when a device is created. |
+| pmu_set | The pmu_set parameter is an integer that defines the maximum number of actions that can be contained in all measurement sets of all PPMU DC sets.<br><br>Default: 1024<br><br>Maximum: 12800 |
+| routing_set | Defines the number of routing sets managed by the firmware, provided by the MCD.<br><br>Default: 256<br><br>Maximum: 512 |
+| timing_set | The timing_set parameter is an integer that defines the maximum combined total of timing sets for fixed and equation based timing you can create.<br><br>Default: 256<br><br>Maximum: 999<br><br>The number of timing sets must be equal to or greater than the number of waveform sets, as there must be at least one timing set per waveform set. |
+| waveform_set | The waveform_set parameter defines the maximum combined total of waveform sets (fixed timing) and wavetables (equation based timing) you can create. Thus, if you specify a value of 32, you could, for example, create 10 waveform sets and 22 wavetables.<br><br>Default: 32<br><br>Maximum: 128 |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DSCP  DSCP  -  Define System Control Parameter）
 
@@ -10243,17 +8724,8 @@ DSUS {ds_No}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DSUS  DSUS  -  Dps Sets USed）
 
-|
-
-ds_No
-
- |
-
-DPS Set Number. This is the highest number currently allocated to a DPS set, or the highest number of set you want to load. The number you type must not exceed the maximum number of DPS sets allowed (defined by the DSCP command).
-
-This number is automatically updated to include any new DPS set as it is created. At power-on only one DPS set (containing the default values) is available.
-
- |
+| ds_No | DPS Set Number. This is the highest number currently allocated to a DPS set, or the highest number of set you want to load. The number you type must not exceed the maximum number of DPS sets allowed (defined by the DSCP command).<br><br>This number is automatically updated to include any new DPS set as it is created. At power-on only one DPS set (containing the default values) is available. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DSUS  DSUS  -  Dps Sets USed）
 
@@ -10284,73 +8756,14 @@ DSVS {spec_value_set_id}, ["description"], {"spec_type"}, [equ_set_no|PRM], [spe
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DSVS  DSVS  -  Define Spec Value Set）
 
-|
-
-spec_value_set_id
-
- |
-
-This must be an integer between 1 and 2^16-1.
-
- |
- |
-
-description
-
- |
-
-A description of the spec value set.
-
- |
- |
-
-spec_type
-
- |
-
-The specification type. Possible values are:
-
-- TIM: Timing specification
-- LEV: Level specification
- |
- |
-
-equ_set_no
-
- |
-
-An equation set number, which together with a spec set number identifies a (single-port) specification.
-
- |
- |
-
-PRM
-
- |
-
-Instead of an equation set number, you can also specify the keyword PRM, which refers to the current (single- or multi-port) primary specification.
-
-If the primary specification is not equation based, equation set 1 and spec set 1 are used.
-
- |
- |
-
-spec_set_no
-
- |
-
-A spec set number, which together with an equation set number identifies a (single-port) specification.
-
- |
- |
-
-multi-port_spec
-
- |
-
-Instead of a spec set number, you can also specify the name of a multi-port timing specification. In this case the equ_set_no parameter must be left empty.
-
- |
+| spec_value_set_id | This must be an integer between 1 and 2^16-1. |
+|---|---|
+| description | A description of the spec value set. |
+| spec_type | The specification type. Possible values are:<br><br>- TIM: Timing specification<br>- LEV: Level specification |
+| equ_set_no | An equation set number, which together with a spec set number identifies a (single-port) specification. |
+| PRM | Instead of an equation set number, you can also specify the keyword PRM, which refers to the current (single- or multi-port) primary specification.<br><br>If the primary specification is not equation based, equation set 1 and spec set 1 are used. |
+| spec_set_no | A spec set number, which together with an equation set number identifies a (single-port) specification. |
+| multi-port_spec | Instead of a spec set number, you can also specify the name of a multi-port timing specification. In this case the equ_set_no parameter must be left empty. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DSVS  DSVS  -  Define Spec Value Set）
 
@@ -10437,169 +8850,22 @@ DVVA {"name"}, {type}, {"vector_label"}, {xfer_mode}, [device_cycle], [start_vec
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DVVA  DVVA  -  Define Vector VAriable）
 
-|
-
-name
-
- |
-
-Name of the vector variable to be defined. The name must be unique across vector labels. If the identifier ALL is used in the query, all those vector variables will be returned that were defined for vector labels of the specified ports.
-
- |
- |
-
-type
-
- |
-
-Type of vector variable. Currently, only the type DIGCAPT is supported.
-
- |
- |
-
-vector_label
-
- |
-
-Name of a vector label. Only main vector labels are supported.
-
- |
- |
-
-xfer_mode
-
- |
-
-Optional parameter that determines the transfer mode. The options available are:
-
-PARA Parallel. This is the default.
-
-SERI Serial
-
-Note that you cannot select SERI if the vector variable is associated with more than one pin.
-
- |
- |
-
-device_cycle
-
- |
-
-CURRENTLY NOT USED.
-
- |
- |
-
-start_vector_nr
-
- |
-
-CURRENTLY NOT USED.
-
- |
- |
-
-capt_label
-
- |
-
-This parameter describes a label reference to a capture block within a vector label which has been set aside for digital capture. If this parameter is specified, the vector variable is defined with respect to this capture area. If it is not specified, the capture label references the entire pattern.
-
-CURRENTLY NOT USED, DO NOT SPECIFY.
-
- |
- |
-
-init_discard
-
- |
-
-The offset relative to the start location of a capture block within the capture memory. The vectors before this offset will not be uploaded.
-
-The default value is 0.
-
- |
- |
-
-nr_vec_per_frame
-
- |
-
-The number of relevant vectors within a frame.
-
- |
- |
-
-nr_vec_per_sample
-
- |
-
-The number of (relevant) vectors that are contained in one sample.
-
-The suitable values for this parameter depend on the selected transfer mode (xfer_mode parameter).
-
-- For transfer mode PARA, this parameter must be set to 1 (the default value).
-- For SERI, the maximum number is 32. The bigger the number is, the faster the upload will be. For example, if one frame contains 5 relevant vectors, you could set nr_vec_per_sample to 30 in order to put 6 frames into one sample.
- |
- |
-
-nr_vector_interdisc
-
- |
-
-Defines the length of irrelevant vector blocks within a frame. These will be discarded in step 2 of the extraction process. If set to 2, for example, only the first and then every third vector will be extracted within a frame.
-
-The default value is 0, in which case no vectors within a frame will be discarded.
-
- |
- |
-
-nr_of_frames
-
- |
-
-The number of frames that are to be extracted, starting from the first frame.
-
-The default value is 1.
-
- |
- |
-
-nr_frame_interdisc
-
- |
-
-The number of irrelevant vectors between frames. These will be discarded in step 2 of the extraction process.
-
-The default value is 0.
-
- |
- |
-
-pinlist
-
- |
-
-List of pins for which the vector variable is defined. The pins specified here should also be associated with the vector label referenced by the vector_label parameter. Only then will the digital data of these pins be retrieved by DIDT?, if DIDT? is called with the actual vector variable.
-
-If the list contains more than one element, the element names must be separated with a comma. Up to 32 pins can be associated with one vector variable.
-
-If you have set the xfer_mode parameter to SERI, specify only one pin.
-
-If you have set xfer_mode to PARA, the LSB of the sample will be assigned to the last pin of the pin list.
-
- |
- |
-
-portlist
-
- |
-
-If you specify ALL for name in the query, the vector variables of those vector labels will be returned that are associated with the ports specified here. The default for this parameter is the default port @ to which all pins belong.
-
-Specify @@ to display all vector variables for all labels of all ports.
-
- |
+| name | Name of the vector variable to be defined. The name must be unique across vector labels. If the identifier ALL is used in the query, all those vector variables will be returned that were defined for vector labels of the specified ports. |
+|---|---|
+| type | Type of vector variable. Currently, only the type DIGCAPT is supported. |
+| vector_label | Name of a vector label. Only main vector labels are supported. |
+| xfer_mode | Optional parameter that determines the transfer mode. The options available are:<br><br>PARA Parallel. This is the default.<br><br>SERI Serial<br><br>Note that you cannot select SERI if the vector variable is associated with more than one pin. |
+| device_cycle | CURRENTLY NOT USED. |
+| start_vector_nr | CURRENTLY NOT USED. |
+| capt_label | This parameter describes a label reference to a capture block within a vector label which has been set aside for digital capture. If this parameter is specified, the vector variable is defined with respect to this capture area. If it is not specified, the capture label references the entire pattern.<br><br>CURRENTLY NOT USED, DO NOT SPECIFY. |
+| init_discard | The offset relative to the start location of a capture block within the capture memory. The vectors before this offset will not be uploaded.<br><br>The default value is 0. |
+| nr_vec_per_frame | The number of relevant vectors within a frame. |
+| nr_vec_per_sample | The number of (relevant) vectors that are contained in one sample.<br><br>The suitable values for this parameter depend on the selected transfer mode (xfer_mode parameter).<br><br>- For transfer mode PARA, this parameter must be set to 1 (the default value).<br>- For SERI, the maximum number is 32. The bigger the number is, the faster the upload will be. For example, if one frame contains 5 relevant vectors, you could set nr_vec_per_sample to 30 in order to put 6 frames into one sample. |
+| nr_vector_interdisc | Defines the length of irrelevant vector blocks within a frame. These will be discarded in step 2 of the extraction process. If set to 2, for example, only the first and then every third vector will be extracted within a frame.<br><br>The default value is 0, in which case no vectors within a frame will be discarded. |
+| nr_of_frames | The number of frames that are to be extracted, starting from the first frame.<br><br>The default value is 1. |
+| nr_frame_interdisc | The number of irrelevant vectors between frames. These will be discarded in step 2 of the extraction process.<br><br>The default value is 0. |
+| pinlist | List of pins for which the vector variable is defined. The pins specified here should also be associated with the vector label referenced by the vector_label parameter. Only then will the digital data of these pins be retrieved by DIDT?, if DIDT? is called with the actual vector variable.<br><br>If the list contains more than one element, the element names must be separated with a comma. Up to 32 pins can be associated with one vector variable.<br><br>If you have set the xfer_mode parameter to SERI, specify only one pin.<br><br>If you have set xfer_mode to PARA, the LSB of the sample will be assigned to the last pin of the pin list. |
+| portlist | If you specify ALL for name in the query, the vector variables of those vector labels will be returned that are associated with the ports specified here. The default for this parameter is the default port @ to which all pins belong.<br><br>Specify @@ to display all vector variables for all labels of all ports. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DVVA  DVVA  -  Define Vector VAriable）
 
@@ -10634,28 +8900,9 @@ DVVC {name}, {#data}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DVVC  DVVC  -  Define Vector Variable Configuration）
 
-|
-
-name
-
- |
-
-The configuration name. This can also be ALL.
-
- |
- |
-
-#data
-
- |
-
-A configuration file in binary (BIN) format. This parameter allows you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:
-
-- # to mark the start of the data block.
-- One digit indicating how many digits make up the data length specifier.
-- A number of digits indicate the length (in bytes) of the data to follow.
-- A number of characters which make up the specified VVC based testing file. This stream of characters must be terminated with the @ character.
- |
+| name | The configuration name. This can also be ALL. |
+|---|---|
+| #data | A configuration file in binary (BIN) format. This parameter allows you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:<br><br>- # to mark the start of the data block.<br>- One digit indicating how many digits make up the data length specifier.<br>- A number of digits indicate the length (in bytes) of the data to follow.<br>- A number of characters which make up the specified VVC based testing file. This stream of characters must be terminated with the @ character. |
 
 ### DVCU（取自子主题 Commands in alphabetical order › List of commands › DVCU  DVCU  -  Define Vector variable Configuration Usage）
 
@@ -10671,85 +8918,14 @@ DVCU? {label_name}, {VVC_name}, {vector_offset}
 ```
 
 Parameters
- |
-
-label_name
-
- |
-
-Name of the label for which usage is to be created.
-
-In the query, label_name can also be ALL.
-
- |
- |
-
-VVC_name
-
- |
-
-Name of the Vector Variable Configuration. For more information, refer to `DVVC, DVVC? - (Define Vector Variable Configuration)`（raw: `02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md`）.
-
-In the query, VVC_name can also be ALL.
-
- |
- |
-
-vector_offset
-
- |
-
-vector_offset is the offset in the source label where the first frame of the usage is to be created. vector_offset is the logical vector number in the label. The first usage for a source label should start at 0.
-
-The query also accepts ALL.
-
- |
- |
-
-init_discard_frames
-
- |
-
-Not in use at this time. This is a reserved parameter.
-
- |
- |
-
-number_of_frames
-
- |
-
-Number of frames this usage is to create in the source label.
-
- |
- |
-
-var_name_def
-
- |
-
-This parameter specifies the vector variable names for the variable names defined in VVC. This parameter is a string.
-
-Syntax:
-
-`"`VVC_NAME_1`=`VEC_VAR_NAME_1`[,`VVC_NAME_2`=`VEC_VAR_NAME_2`[,.....]]"`
-
-The vector variable name can be identical with the VVC variable name. But notice that the vector variable names must be unique in the vector setup.
-
- |
- |
-
-init_static_data
-
- |
-
-This parameter is either TRUE or FALSE.
-
-TRUE: Static data, as defined in the VVC, will be downloaded on definition of usage.
-
-FALSE: Static data will not be downloaded.
-
- |
+| label_name | Name of the label for which usage is to be created.<br><br>In the query, label_name can also be ALL. |
+|---|---|
+| VVC_name | Name of the Vector Variable Configuration. For more information, refer to `DVVC, DVVC? - (Define Vector Variable Configuration)`（raw: `02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md`）.<br><br>In the query, VVC_name can also be ALL. |
+| vector_offset | vector_offset is the offset in the source label where the first frame of the usage is to be created. vector_offset is the logical vector number in the label. The first usage for a source label should start at 0.<br><br>The query also accepts ALL. |
+| init_discard_frames | Not in use at this time. This is a reserved parameter. |
+| number_of_frames | Number of frames this usage is to create in the source label. |
+| var_name_def | This parameter specifies the vector variable names for the variable names defined in VVC. This parameter is a string.<br><br>Syntax:<br><br>`"`VVC_NAME_1`=`VEC_VAR_NAME_1`[,`VVC_NAME_2`=`VEC_VAR_NAME_2`[,.....]]"`<br><br>The vector variable name can be identical with the VVC variable name. But notice that the vector variable names must be unique in the vector setup. |
+| init_static_data | This parameter is either TRUE or FALSE.<br><br>TRUE: Static data, as defined in the VVC, will be downloaded on definition of usage.<br><br>FALSE: Static data will not be downloaded. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DVCU  DVCU  -  Define Vector variable Configuration Usage）
 
@@ -11620,24 +9796,9 @@ for each group of consecutive pins having the same result.
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › EDGE  -  EDGE errors）
 
-|
-
-pinlist
-
- |
-
-The name of the pin or pins for which edge direction definitions are to be read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
- |
-
-fail_string
-
- |
-
-One character per edge. F means failed and . means not failed.
-
- |
+| pinlist | The name of the pin or pins for which edge direction definitions are to be read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma. |
+|---|---|
+| fail_string | One character per edge. F means failed and . means not failed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › EDGE  -  EDGE errors）
 
@@ -11675,114 +9836,17 @@ EDSP , , {edge_number}, , {dc_ref}, ,{(pinlist)}
 ```
 
 Parameters
- |
-
-waveform_set
-
- |
-
-Specifies a waveform set number for a fixed timing setup.
-
- |
- |
-
-specset_id
-
- |
-
-Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-Specifies the name of a multiport specification for a multi-port setup. PRM is the default value.
-
- |
- |
-
-timing_set
-
- |
-
-Specifies the number of the a timing set. PRM is the default value.
-
- |
- |
-
-edge_spec
-
- |
-
-The edge specifier can either be a physical edge (d1 through d8 or r1 through r8), or one of the data parameters D1, D2, C1, C2 (drive parameters) or E1, E2 (receive parameters).
-
- |
- |
-
-edge_number
-
- |
-
-In the query reply, this parameter contains the edge that is used as leading or trailing edge.
-
- |
- |
-
-dev_cyc_name
-
- |
-
-Specifies the name of a logical device cycle that uses the data parameter given as the edge_spec. It must be defined for all pins in pinlist. If you do not enter a name in this parameter, the first device cycle in the device cycle table is used.
-
- |
- |
-
-dc_ref
-
- |
-
-This parameter specifies the input edge. The input edge determines the algorithm according to which the trailing edge is selected. The two options are LE (for "leading edge") and TE (for "trailing edge").
-
-The leading edge will always be the first edge that is associated with the specified data parameter within the specified device cycle, regardless of whether LE or TE is specified.
-
-For the trailing edge the following rules apply:
-
-- When you specify LE, trailing and leading edge will be identical.
-- When you specify TE, then drive parameters and receive parameters are treated differently.
-
-  - Drive parameter: The trailing edge will be the first drive edge after the leading edge thats performs a data or tri-state action. Note that this trailing edge need not be associated in any way with the data parameter of the leading edge.
-  - Receive parameter: If the action of the leading edge is an edge compare, leading and trailing edge will be identical. If it is the start action of a window compare, then the associated window close edge will be the trailing edge.
-
-For both cases, see the example below.
-
-In the query, you can also specify both. In this case both the leading and the trailing edge will be returned for the pins in pinlist.
-
- |
- |
-
-direction
-
- |
-
-This parameter can be in or out. If in is selected to define an input edge, then the edge_spec parameter must be D1, D2, C1, or C2. If out is selected to define a receiver edge, then the edge_spec parameter must be E1 or E2. If either in or out is selected along with an edge_spec parameter of 1,2...6, then a check is performed to ensure that the edges of all pins are in the required direction. If no entry is made in this parameter, the measuring edges of the pin in pinlist can have any direction or be unused.
-
- |
- |
-
-pinlist
-
- |
-
-The parameters of the EDSP command are applied to all pins named in this parameter. If more than one pin is used, the names must be separated by a comma.
-
-In a multi-port setup, all pins must belong to the same port of the specification that was entered as the first parameter.
-
- |
+| waveform_set | Specifies a waveform set number for a fixed timing setup. |
+|---|---|
+| specset_id | Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:<br><br>100 * equation_set_no + specset_no |
+| multi-port_spec | Specifies the name of a multiport specification for a multi-port setup. PRM is the default value. |
+| timing_set | Specifies the number of the a timing set. PRM is the default value. |
+| edge_spec | The edge specifier can either be a physical edge (d1 through d8 or r1 through r8), or one of the data parameters D1, D2, C1, C2 (drive parameters) or E1, E2 (receive parameters). |
+| edge_number | In the query reply, this parameter contains the edge that is used as leading or trailing edge. |
+| dev_cyc_name | Specifies the name of a logical device cycle that uses the data parameter given as the edge_spec. It must be defined for all pins in pinlist. If you do not enter a name in this parameter, the first device cycle in the device cycle table is used. |
+| dc_ref | This parameter specifies the input edge. The input edge determines the algorithm according to which the trailing edge is selected. The two options are LE (for "leading edge") and TE (for "trailing edge").<br><br>The leading edge will always be the first edge that is associated with the specified data parameter within the specified device cycle, regardless of whether LE or TE is specified.<br><br>For the trailing edge the following rules apply:<br><br>- When you specify LE, trailing and leading edge will be identical.<br>- When you specify TE, then drive parameters and receive parameters are treated differently.<br><br>- Drive parameter: The trailing edge will be the first drive edge after the leading edge thats performs a data or tri-state action. Note that this trailing edge need not be associated in any way with the data parameter of the leading edge.<br>- Receive parameter: If the action of the leading edge is an edge compare, leading and trailing edge will be identical. If it is the start action of a window compare, then the associated window close edge will be the trailing edge.<br><br>For both cases, see the example below.<br><br>In the query, you can also specify both. In this case both the leading and the trailing edge will be returned for the pins in pinlist. |
+| direction | This parameter can be in or out. If in is selected to define an input edge, then the edge_spec parameter must be D1, D2, C1, or C2. If out is selected to define a receiver edge, then the edge_spec parameter must be E1 or E2. If either in or out is selected along with an edge_spec parameter of 1,2...6, then a check is performed to ensure that the edges of all pins are in the required direction. If no entry is made in this parameter, the measuring edges of the pin in pinlist can have any direction or be unused. |
+| pinlist | The parameters of the EDSP command are applied to all pins named in this parameter. If more than one pin is used, the names must be separated by a comma.<br><br>In a multi-port setup, all pins must belong to the same port of the specification that was entered as the first parameter. |
 
 ### Syntax（取自子主题 Commands in alphabetical order › List of commands › EMAP  -  Error MAP）
 
@@ -12317,26 +10381,9 @@ EMBS? {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › EMBS  Error Map Block Size）
 
-|
-
-Block_size
-
- |
-
-Minimum 8 bytes up to a maximum of 16 MB. Resolution of the block size is 1 byte.
-
-The EMBS STRD command must be used to switch back to default size.
-
- |
- |
-
-pinlist
-
- |
-
-List of pins that the action will take place on. If more than one pin list is included, the names must be separated by a comma.
-
- |
+| Block_size | Minimum 8 bytes up to a maximum of 16 MB. Resolution of the block size is 1 byte.<br><br>The EMBS STRD command must be used to switch back to default size. |
+|---|---|
+| pinlist | List of pins that the action will take place on. If more than one pin list is included, the names must be separated by a comma. |
 
 ### ENSP（取自子主题 Commands in alphabetical order › List of commands › ENSP  ENSP  -  ENable Sampling Profile）
 
@@ -12358,24 +10405,9 @@ ENSP {operation_state},{(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › ENSP  ENSP  -  ENable Sampling Profile）
 
-|
-
-operation_state
-
- |
-
-Specifies the operation state (ON|OFF)
-
- |
- |
-
-pinlist
-
- |
-
-This parameter specifies the pins to be enabled or disabled for the `DFSP, DFSP? - (DeFine Sampling Profile)`（raw: `02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md`） command.
-
- |
+| operation_state | Specifies the operation state (ON\|OFF) |
+|---|---|
+| pinlist | This parameter specifies the pins to be enabled or disabled for the `DFSP, DFSP? - (DeFine Sampling Profile)`（raw: `02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md`） command. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ENSP  ENSP  -  ENable Sampling Profile）
 
@@ -12409,42 +10441,11 @@ EPRC {no_of_vectors}, {no_of_repetitions}, {(port)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › EPRC  -  Error Propagation Repetition Count）
 
-|
-
-no_of_vectors
-
- |
-
-Specifies the size of the vector block that is to be repeated.
-
- |
- |
-
-no_of_repetitions
-
- |
-
-This reply parameter specifies how many times no_of_vectors must be repeated to ensure that the error flag has been set correctly. The calculation is based on the current primaries, including the currently active timing set
-
- |
- |
-
-port_list
-
- |
-
-In the query, you can specify a port list. If you specify @@, EPRC? will return the settings for all ports of the current specification.
-
- |
- |
-
-port
-
- |
-
-In the reply, a separate answer is given for every port.
-
- |
+| no_of_vectors | Specifies the size of the vector block that is to be repeated. |
+|---|---|
+| no_of_repetitions | This reply parameter specifies how many times no_of_vectors must be repeated to ensure that the error flag has been set correctly. The calculation is based on the current primaries, including the currently active timing set |
+| port_list | In the query, you can specify a port list. If you specify @@, EPRC? will return the settings for all ports of the current specification. |
+| port | In the reply, a separate answer is given for every port. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › EPRC  -  Error Propagation Repetition Count）
 
@@ -12472,242 +10473,33 @@ EQFC? {level_set_no|level_set_id|ALL|PRM} ,{filter_parameter|ALL_specifier|ALL},
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › EQFC  EQFC  -  EQualization and Filter Configuration）
 
-| level_set_no |
-
-The identification number of the level set (fixed levels) in which you want the filter/equalization values to be included. The number must not exceed the maximum number of level sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).
-
- |
- |
-
-level_set_id
-
- |
-
-Used in equation based level setup. It is derived as follows:
-
-`100000 *` equation_set_no `+ 1000 * ` specset_no `+ ` level_set_no
-
-If you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set
-
- |
- |
-
-ALL
-
- |
-
-Sets the given parameters for all existing level sets.
-
- |
- |
-
-PRM
-
- |
-
-Sets the equalization for the primary level set.
-
- |
- |
-
-filter_parameter
-
- |
-
-See table below: `Impact and characteristics of the equalization parameter filter_parameter`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_filter_parameter_710x`）.
-
- |
- |
-
-ALL_specifier
-
- |
-
-Modify multiple parameters by one command, see table below: `Possible values for ALL_specifier`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_all_specifier`）.
-
- |
- |
-
-ALL
-
- |
-
-Selects all low pass filter and equalization parameters.
-
-Query only.
-
- |
- |
-
-offset_value
-
-filter_value
-
- |
-
-Defines the value for the specified filter_parameter, see table below: `Valid ranges for the equalization parameters (set value using "offset_value")`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_offset_value_710x`）.
-
-Time constants (risetime) for the filters are specified in nanoseconds (ns).
-
-If you try to set a value that is out of range, in the Console view, SmarTest issues an error message including the corresponding limit.
-
- |
- |
-
-pinList
-
- |
-
-List of pin names to which the command is applied. If a list of more than one pin is required, the names must be separated with a comma.
-
- |
+| level_set_no | The identification number of the level set (fixed levels) in which you want the filter/equalization values to be included. The number must not exceed the maximum number of level sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command). |
+|---|---|
+| level_set_id | Used in equation based level setup. It is derived as follows:<br><br>`100000 *` equation_set_no `+ 1000 * ` specset_no `+ ` level_set_no<br><br>If you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set |
+| ALL | Sets the given parameters for all existing level sets. |
+| PRM | Sets the equalization for the primary level set. |
+| filter_parameter | See table below: `Impact and characteristics of the equalization parameter filter_parameter`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_filter_parameter_710x`）. |
+| ALL_specifier | Modify multiple parameters by one command, see table below: `Possible values for ALL_specifier`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_all_specifier`）. |
+| ALL | Selects all low pass filter and equalization parameters.<br><br>Query only. |
+| offset_value<br><br>filter_value | Defines the value for the specified filter_parameter, see table below: `Valid ranges for the equalization parameters (set value using "offset_value")`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_offset_value_710x`）.<br><br>Time constants (risetime) for the filters are specified in nanoseconds (ns).<br><br>If you try to set a value that is out of range, in the Console view, SmarTest issues an error message including the corresponding limit. |
+| pinList | List of pin names to which the command is applied. If a list of more than one pin is required, the names must be separated with a comma. |
 
 Impact and characteristics of the equalization parameter filter_parameter
- |
-
-Value
-
- |
-
-Description
-
- |
-
-PS1600
-
-   | PS5000 |
- |
-
-EQI1
-
- |
-
-Equalization offset for first interpolation point for driver
-
- |
-
-~6.5 ns
-
-   | n/a |
- |
-
-EQI2
-
- |
-
-Equalization offset for second interpolation point for driver
-
- |
-
-n/a
-
-   | ~200 ps |
- |
-
-EQI3
-
- |
-
-Equalization offset for third interpolation point for driver
-
- |
-
-n/a
-
-   | ~2 ns |
- |
-
-EQO1
-
- |
-
-Equalization offset for first interpolation point for receiver
-
- |
-
-~4 ns
-
-   | n/a |
- |
-
-EQO2
-
- |
-
-Equalization offset for second interpolation point for receiver
-
- |
-
-n/a
-
-   | ~200 ps |
- |
-
-EQO3
-
- |
-
-Equalization offset for third interpolation point for receiver
-
- |
-
-n/a
-
-   | ~2 ns |
+| Value | Description | PS1600 | PS5000 |
+|---|---|---|---|
+| EQI1 | Equalization offset for first interpolation point for driver | ~6.5 ns | n/a |
+| EQI2 | Equalization offset for second interpolation point for driver | n/a | ~200 ps |
+| EQI3 | Equalization offset for third interpolation point for driver | n/a | ~2 ns |
+| EQO1 | Equalization offset for first interpolation point for receiver | ~4 ns | n/a |
+| EQO2 | Equalization offset for second interpolation point for receiver | n/a | ~200 ps |
+| EQO3 | Equalization offset for third interpolation point for receiver | n/a | ~2 ns |
 
 Possible values for ALL_specifier
- |
-
-Value
-
- |
-
-Description
-
- |
-
-Modified parameter
-
- |
- |
-
-ALL_EQI
-
- |
-
-Selects all the EQI<n> properties
-
- |
-
-EQI1, EQI2, EQI3
-
- |
- |
-
-ALL_EQO
-
- |
-
-Selects all the EQO<n> properties
-
- |
-
-EQO1, EQO2, EQO3
-
- |
- |
-
-ALL_EQ
-
- |
-
-Selects all equalization parameters
-
- |
-
-EQO1,.., EQO3,EQI1,..,EQI3
-
- |
+| Value | Description | Modified parameter |
+|---|---|---|
+| ALL_EQI | Selects all the EQI<n> properties | EQI1, EQI2, EQI3 |
+| ALL_EQO | Selects all the EQO<n> properties | EQO1, EQO2, EQO3 |
+| ALL_EQ | Selects all equalization parameters | EQO1,.., EQO3,EQI1,..,EQI3 |
 
 Valid ranges for the equalization parameters (set value using "offset_value")
  |
@@ -12930,51 +10722,10 @@ EQSP {spec_type}, {part}, {#spec(data)}
 if these are not empty, for backward compatibility.
 
 Parameters
- |
-
-spec_type
-
- |
-
-The mandatory parameter defines which specification type to use.
-
-Use:
-
-- LEV to specify levels
-- TIM to specify timing
- |
- |
-
-part
-
- |
-
-The mandatory parameter defines which part of the specification type to use.
-
-Use:
-
-- EQN to specify equations
-- SPS to specify specs
-- WVT to specify a wavetable
-
-part can only be set to WVT, EQN, or CLK if spec_type is set to TIM.
-
- |
- |
-
-#spec(data)
-
- |
-
-An equation based set of data (for example wavetables) in binary format.
-
-This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:
-
-- A # to mark the start of the data block.
-- One digit indicating how many digits make up the data length specifier.
-- A number of digits indicating the length (in bytes) of the data to follow.
-- A number of characters which make up the specified equation based testing file. This stream of characters must be terminated with a @ character.
- |
+| spec_type | The mandatory parameter defines which specification type to use.<br><br>Use:<br><br>- LEV to specify levels<br>- TIM to specify timing |
+|---|---|
+| part | The mandatory parameter defines which part of the specification type to use.<br><br>Use:<br><br>- EQN to specify equations<br>- SPS to specify specs<br>- WVT to specify a wavetable<br><br>part can only be set to WVT, EQN, or CLK if spec_type is set to TIM. |
+| #spec(data) | An equation based set of data (for example wavetables) in binary format.<br><br>This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:<br><br>- A # to mark the start of the data block.<br>- One digit indicating how many digits make up the data length specifier.<br>- A number of digits indicating the length (in bytes) of the data to follow.<br>- A number of characters which make up the specified equation based testing file. This stream of characters must be terminated with a @ character. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › EQSP  EQSP  -  EQuation SPecification transfer）
 
@@ -14282,33 +12033,10 @@ ESGB [lin_step], [lin_bin_step], [min_pulse]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › ESGB  ESGB  -  Edge Search GloBal）
 
-|
-
-lin_step
-
- |
-
-The lin_step parameter defines the step width (in ns) to be used for the linear searches which can be initiated by the TTRS? query. Any negative number entered in this parameter results in tests only being performed at the specified start and stop values. The default value for the linear_step is -1.000.
-
- |
- |
-
-lin_bin_step
-
- |
-
-The lin_bin_step parameter defines the step width (in ns) to be used for the combined linear and binary searches which can be initiated by the TTRS?, and TSUP? command queries. Any negative number entered in this parameter results in tests only being performed at the specified start and stop values. The default value for the lin_bin_step is 0.500.
-
- |
- |
-
-min_pulse
-
- |
-
-The min_pulse parameter defines the minimum pulse width (in ns) which can be used for the input pin searches initiated by the TSUP? and THLD? queries. The default value for the min_pulse is 0.000.
-
- |
+| lin_step | The lin_step parameter defines the step width (in ns) to be used for the linear searches which can be initiated by the TTRS? query. Any negative number entered in this parameter results in tests only being performed at the specified start and stop values. The default value for the linear_step is -1.000. |
+|---|---|
+| lin_bin_step | The lin_bin_step parameter defines the step width (in ns) to be used for the combined linear and binary searches which can be initiated by the TTRS?, and TSUP? command queries. Any negative number entered in this parameter results in tests only being performed at the specified start and stop values. The default value for the lin_bin_step is 0.500. |
+| min_pulse | The min_pulse parameter defines the minimum pulse width (in ns) which can be used for the input pin searches initiated by the TSUP? and THLD? queries. The default value for the min_pulse is 0.000. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ESGB  ESGB  -  Edge Search GloBal）
 
@@ -14332,112 +12060,15 @@ ETDS {waveform_set|specset_id|"multi-port_spec"}, {timing_set}, [mode], {definit
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › ETDS  ETDS  -  Edge Timing Definition String）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 *`equation_set_no `+ `specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-For a multi-port setup, specify the name of a multi-port specification.
-
-Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification.
-
- |
- |
-
-timing_set
-
- |
-
-Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by TSUS.
-
- |
- |
-
-mode
-
- |
-
-The operating mode. For the query, you can enter ALL for all modes or BIDIR for bidirectional mode, that is, for edges that serve both as drive and receive edges.
-
-With fast pins, you can specify the mode DELTA for both the command and the query. In this mode, the delays specified for edges with an index > 1 are interpreted as offsets from the calculated default values.
-
- |
- |
-
-definition_string
-
- |
-
-The definition string consists of a sequence of items each of which associates a delay with a drive or compare edge. On Pin Scale 800/3600 boards, drive edges are denoted by dn. On Pin Scale 9G boards, there are two kinds of drive edges, which are denoted by fn and sn, respectively; for details see `Defining waveforms for Pin Scale 9G pins`（raw: `02.06.06.01.03.02_Defining_waveform_shapes_for_Smart_Scale_pins.md`）. You can also use the dn notation for Pin Scale 9G channels, but mixing both notations in one string is not allowed. Receive edges are always denoted by rn.
-
-Unless you employ the pdiv statement for fast pins (see below), all edges which are not explicitly set remain unchanged.
-
-The range of the edge delay is -8000 ns to +24000 ns (or -4 to +12 test system periods) for the Pin Scale 3600/800.
-
-On Pin Scale 800/3600 boards, the restrictions for edge ordering must be observed both in fixed and equation based timing. For example, you cannot assign a greater delay to d1 than to d3 if d1 precedes d3 in a waveform definition. For more information, see `Selecting and ordering edges`（raw: `02.06.06.01.03.01.02_Selecting_and_ordering_edges.md`）.
-
-Note that with equation based timing, ETDS returns no error message when the edge order restrictions are violated.
-
-On Pin Scale 9G boards, ordering of drive edges is not restricted in any way.
-
- |
- |
-
- |
-
-Special Rules for Fast Pins:
-
-If a pin is configured as a fast pin in the context of the specification given by the first parameter, you can specify the period divider at the start of the definition string. The format is pdiv:n, where n must be the same value as the period_div value of the pins in pinlist within the timing set specified by the timing_set parameter.
-
-If you specify pdiv:nand a delay for the first edge, ETDS calculates delays for the following n-1 edges except those that are specified explicitly in the string. Note that for n = 3, the edges with index 1, 3, 5 are used for internal reasons.
-
-If you omit either pdiv or the first edge, only the specified edges are modified. However, with receive edges this is only possible for r1.
-
-The calculated delays are determined for the ith edge by the following formula:
-
- 1st_edge_delay + (i-1) * (period/pdiv)
-
-1st_edge_delay is the delay specified for the first edge (d1 or r1; the generic notation e1 is not allowed for fast pins). If the first edge is not specified in the string, its delay is set to 0. An example for the calculation will be given below.
-
-Note that when both the period divider and a delay for the first edge are present in the definition string, then the delays for all the edges required by the period divider will be overwritten.
-
-When a delay is explicitly specified for one of the edges, this delay overrides the calculated default. There are two formats to specify overrides. You can either define absolute delays or the offsets from the default delays.
-
-If you want to use the second, relative format, you must specify DELTA for the modeparameter. Note that you can also specify negative offsets in the DELTA mode.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which edge delays are to be set or read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
-
-In a multi-port setup, every pin must belong to a port of the specified specification.
-
- |
+| waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Derived as follows:<br><br>`100 *`equation_set_no `+ `specset_no |
+| multi-port_spec | For a multi-port setup, specify the name of a multi-port specification.<br><br>Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification. |
+| timing_set | Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by TSUS. |
+| mode | The operating mode. For the query, you can enter ALL for all modes or BIDIR for bidirectional mode, that is, for edges that serve both as drive and receive edges.<br><br>With fast pins, you can specify the mode DELTA for both the command and the query. In this mode, the delays specified for edges with an index > 1 are interpreted as offsets from the calculated default values. |
+| definition_string | The definition string consists of a sequence of items each of which associates a delay with a drive or compare edge. On Pin Scale 800/3600 boards, drive edges are denoted by dn. On Pin Scale 9G boards, there are two kinds of drive edges, which are denoted by fn and sn, respectively; for details see `Defining waveforms for Pin Scale 9G pins`（raw: `02.06.06.01.03.02_Defining_waveform_shapes_for_Smart_Scale_pins.md`）. You can also use the dn notation for Pin Scale 9G channels, but mixing both notations in one string is not allowed. Receive edges are always denoted by rn.<br><br>Unless you employ the pdiv statement for fast pins (see below), all edges which are not explicitly set remain unchanged.<br><br>The range of the edge delay is -8000 ns to +24000 ns (or -4 to +12 test system periods) for the Pin Scale 3600/800.<br><br>On Pin Scale 800/3600 boards, the restrictions for edge ordering must be observed both in fixed and equation based timing. For example, you cannot assign a greater delay to d1 than to d3 if d1 precedes d3 in a waveform definition. For more information, see `Selecting and ordering edges`（raw: `02.06.06.01.03.01.02_Selecting_and_ordering_edges.md`）.<br><br>Note that with equation based timing, ETDS returns no error message when the edge order restrictions are violated.<br><br>On Pin Scale 9G boards, ordering of drive edges is not restricted in any way. |
+|  | Special Rules for Fast Pins:<br><br>If a pin is configured as a fast pin in the context of the specification given by the first parameter, you can specify the period divider at the start of the definition string. The format is pdiv:n, where n must be the same value as the period_div value of the pins in pinlist within the timing set specified by the timing_set parameter.<br><br>If you specify pdiv:nand a delay for the first edge, ETDS calculates delays for the following n-1 edges except those that are specified explicitly in the string. Note that for n = 3, the edges with index 1, 3, 5 are used for internal reasons.<br><br>If you omit either pdiv or the first edge, only the specified edges are modified. However, with receive edges this is only possible for r1.<br><br>The calculated delays are determined for the ith edge by the following formula:<br><br>1st_edge_delay + (i-1) * (period/pdiv)<br><br>1st_edge_delay is the delay specified for the first edge (d1 or r1; the generic notation e1 is not allowed for fast pins). If the first edge is not specified in the string, its delay is set to 0. An example for the calculation will be given below.<br><br>Note that when both the period divider and a delay for the first edge are present in the definition string, then the delays for all the edges required by the period divider will be overwritten.<br><br>When a delay is explicitly specified for one of the edges, this delay overrides the calculated default. There are two formats to specify overrides. You can either define absolute delays or the offsets from the default delays.<br><br>If you want to use the second, relative format, you must specify DELTA for the modeparameter. Note that you can also specify negative offsets in the DELTA mode. |
+| pinlist | The name of the pin or pins for which edge delays are to be set or read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.<br><br>In a multi-port setup, every pin must belong to a port of the specified specification. |
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › ETDS  ETDS  -  Edge Timing Definition String）
 
@@ -14517,53 +12148,12 @@ ETIM {specset_id}, {timing_set_no}, [t1], [t2], [t3], [t4], [t5], [t6],{(pinlist
 ```
 
 Parameters
- |
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 *`equation_set_no `+ `specset_no
-
- |
- |
-
-timing_set
-
- |
-
-Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by TSUS.
-
- |
- |
-
-t1..t6
-
- |
-
-Edge delay in ns. Note that the positions of some edges may be affected by the use and position of previously defined edges as explained in "Restrictions" in `ETIM, ETIM? - (Edge TIMing)`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which edge delays are to be set or read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
+| waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Derived as follows:<br><br>`100 *`equation_set_no `+ `specset_no |
+| timing_set | Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by TSUS. |
+| t1..t6 | Edge delay in ns. Note that the positions of some edges may be affected by the use and position of previously defined edges as explained in "Restrictions" in `ETIM, ETIM? - (Edge TIMing)`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）. |
+| pinlist | The name of the pin or pins for which edge delays are to be set or read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ETIM  ETIM  -  Edge TIMing）
 
@@ -14680,42 +12270,11 @@ EVCK {"multi-port_spec"}, event_clock_per, {(port)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › EVCK  -  EVent ClocK）
 
-|
-
-multi-port_spec
-
- |
-
-Name of a multi-port timing specification.
-
- |
- |
-
-port_list
-
- |
-
-This query parameter specifies a list of ports that belong to the respective multi-port timing specification.
-
- |
- |
-
-port
-
- |
-
-This reply parameter specifies a port that belongs to the respective multi-port timing specification.
-
- |
- |
-
-event_clock_per
-
- |
-
-This reply parameter returns the event clock period of the respective port.
-
- |
+| multi-port_spec | Name of a multi-port timing specification. |
+|---|---|
+| port_list | This query parameter specifies a list of ports that belong to the respective multi-port timing specification. |
+| port | This reply parameter specifies a port that belongs to the respective multi-port timing specification. |
+| event_clock_per | This reply parameter returns the event clock period of the respective port. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › EVCK  -  EVent ClocK）
 
@@ -14738,15 +12297,8 @@ EXSR{set_nr}
 ```
 
 Parameter
- |
-
-set_nr
-
- |
-
-Specifies the number of the search set which is to be executed.
-
- |
+| set_nr | Specifies the number of the search set which is to be executed. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › EXSR -  EXecute SeaRch）
 
@@ -15105,17 +12657,8 @@ FLSH {MUX}, {"init_flags"}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › FLSH -  FLuSH buffered commands）
 
-|
-
-MUX
-
- |
-
-The optional MUX parameter is designed to be used as an execution code of a testflow that is generated by the system software for disconnecting the particular sites (not for user programming).
-
-Do not use this parameter for programming a user procedure or executing the FLSH command from the hpt.
-
- |
+| MUX | The optional MUX parameter is designed to be used as an execution code of a testflow that is generated by the system software for disconnecting the particular sites (not for user programming).<br><br>Do not use this parameter for programming a user procedure or executing the FLSH command from the hpt. |
+|---|---|
 
 ### Syntax（取自子主题 Commands in alphabetical order › List of commands › FTCG  FTCG  -  Functional Test ConfiGure）
 
@@ -15358,28 +12901,9 @@ FXDL {channel}, {fixture_delay}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › FXDL  FXDL  -  FiXture DeLay）
 
-|
-
-channel
-
- |
-
-The test system channel number of the digital channel. This is a five digit field. See `DFPN, DFPN? - (DeFine Pin Name)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） for the number. You can type ALL to set the attributes for all installed channels. For the query, you can type CFG to query only configured channels.
-
- |
- |
-
-fixture_delay
-
- |
-
-The fixture_delay represents the delay (in ns) of the lines on the DUT board. The range of the admissible values depends on the test system type as follows:
-
-- PS1600: Between -0.015 and +26.4 ns
-
-The default value is 0. The maximum number of digits after the decimal point is 3.
-
- |
+| channel | The test system channel number of the digital channel. This is a five digit field. See `DFPN, DFPN? - (DeFine Pin Name)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） for the number. You can type ALL to set the attributes for all installed channels. For the query, you can type CFG to query only configured channels. |
+|---|---|
+| fixture_delay | The fixture_delay represents the delay (in ns) of the lines on the DUT board. The range of the admissible values depends on the test system type as follows:<br><br>- PS1600: Between -0.015 and +26.4 ns<br><br>The default value is 0. The maximum number of digits after the decimal point is 3. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › FXDL  FXDL  -  FiXture DeLay）
 
@@ -15613,24 +13137,9 @@ GETC {(cycle_no)}
 ```
 
 Parameters
- |
-
-vector_no
-
- |
-
-The vector number for which you want to obtain the matching cycle number. vector_no must be a positive integer that does not exceed the maximum vector address allowed by the system.
-
- |
- |
-
-cycle_no
-
- |
-
-The number of the cycle that results when the vector at vector_no is executed. The cycle numbers do not always linearly follow the vector numbers. The relationship between the two depends on the sequencer program. The system returns a cycle_no in the range of 0 to 2^48.
-
- |
+| vector_no | The vector number for which you want to obtain the matching cycle number. vector_no must be a positive integer that does not exceed the maximum vector address allowed by the system. |
+|---|---|
+| cycle_no | The number of the cycle that results when the vector at vector_no is executed. The cycle numbers do not always linearly follow the vector numbers. The relationship between the two depends on the sequencer program. The system returns a cycle_no in the range of 0 to 2^48. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › GETC  -  GET Cycles）
 
@@ -15672,69 +13181,14 @@ GETL {index_of_call},{label_name}, [start_cycle], [number_of_cycles], {(pin_or_p
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › GETL  -  GET Label）
 
-|
-
-index_first_call
-
- |
-
-Specifies the index of the first label call within the burst for which the name is requested.
-
- |
- |
-
-number_of_calls
-
- |
-
-The number of label calls for which the name is requested.
-
- |
- |
-
-index_of_call
-
- |
-
-This reply parameter specifies the index of the call for which the label name is returned.
-
- |
- |
-
-label_name
-
- |
-
-This reply parameter specifies the name of the label that was called at the position index_of_call.
-
- |
- |
-
-start_cycle
-
- |
-
-This reply parameter specifies the start cycle of the label within the burst. It is omitted if reconstruction of the label is not possible.
-
- |
- |
-
-number_of_cycles
-
- |
-
-This reply parameter specifies the number of cycles of the label. It is omitted if reconstruction of the label is not possible.
-
- |
- |
-
-pin_or_port
-
- |
-
-Specifies the pin or port for which label information is requested.
-
- |
+| index_first_call | Specifies the index of the first label call within the burst for which the name is requested. |
+|---|---|
+| number_of_calls | The number of label calls for which the name is requested. |
+| index_of_call | This reply parameter specifies the index of the call for which the label name is returned. |
+| label_name | This reply parameter specifies the name of the label that was called at the position index_of_call. |
+| start_cycle | This reply parameter specifies the start cycle of the label within the burst. It is omitted if reconstruction of the label is not possible. |
+| number_of_cycles | This reply parameter specifies the number of cycles of the label. It is omitted if reconstruction of the label is not possible. |
+| pin_or_port | Specifies the pin or port for which label information is requested. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › GETL  -  GET Label）
 
@@ -15767,66 +13221,13 @@ GETN? {range_type}, {index}, {testdata_name}, {identifier}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › GETN  -  GEt Testdata Name）
 
-|
-
-range_type
-
- |
-
-This parameter determines how the index and length parameters are to be interpreted. Possible options are:
-
-CYCL index and length refer to cycles
-
-RSLT index and length refer to results
-
- |
- |
-
-start_index
-
- |
-
-In the query, this parameter specifies the start of the range to be scanned. In the reply, it specifies the index of the event whose name is reported.
-
- Depending on the range_type parameter, this is a cycle or a result index.
-
- |
- |
-
-length
-
- |
-
-Specifies the length of the area to be scanned. Depending on the range_type parameter, this is a number of cycles or of results.
-
- |
- |
-
-name_space
-
- |
-
-This reply parameter specifies the name space of the respective event, as defined with DFTD.
-
- |
- |
-
-identifier
-
- |
-
-This reply parameter specifies the identifier of the respective event, as defined with DFTD.
-
- |
- |
-
-pinlist
-
- |
-
-Only DC Scale pins are taken into account.
-
- |
+| range_type | This parameter determines how the index and length parameters are to be interpreted. Possible options are:<br><br>CYCL index and length refer to cycles<br><br>RSLT index and length refer to results |
+|---|---|
+| start_index | In the query, this parameter specifies the start of the range to be scanned. In the reply, it specifies the index of the event whose name is reported.<br><br>Depending on the range_type parameter, this is a cycle or a result index. |
+| length | Specifies the length of the area to be scanned. Depending on the range_type parameter, this is a number of cycles or of results. |
+| name_space | This reply parameter specifies the name space of the respective event, as defined with DFTD. |
+| identifier | This reply parameter specifies the identifier of the respective event, as defined with DFTD. |
+| pinlist | Only DC Scale pins are taken into account. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › GETN  -  GEt Testdata Name）
 
@@ -15861,64 +13262,13 @@ GETS {start_cycle}, {no_of_cycles}, {timing_set}, {level_set}, {(pinlist)}
 ```
 
 Parameters
- |
-
-start_cycle
-
- |
-
-The start cycle is an integer that defines the first cycle to be reported. The start cycle is in the range 0 to 2^48 when the sequencer runs in the Start Analysis mode, or -2^48 to -1 when the sequencer runs in the Stop Analysis mode. If a positive number is entered, cycles are counted from 0 upwards. If a negative value is entered, the cycles are counted from the end of the test at -1. The start cycle returned by the system may be different from the start cycle entered for the query.
-
- |
- |
-
-no_of_cycles
-
- |
-
-In the command, this parameter defines the number of cycles to be reported. The integer must be in the range 0 to 2147483648.
-
-In the reply, the parameter specifies the number of cycles that are generated with the timing and levels sets specified by the timing_set and level_set parameters. 0 is returned if a CLEV and a CTIM instruction follow each other immediately.
-
- |
- |
-
-pinlist
-
- |
-
-Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated with a comma. You can type the character @ to return the sequencer instructions for all pins.
-
- |
- |
-
-timing_set
-
- |
-
-This parameter is an integer that represents the timing set used in the given cycle range.
-
- |
- |
-
-level_set
-
- |
-
-This parameter is an integer that represents the level set used in the given cycle range.
-
- |
- |
-
-level_set_id
-
- |
-
-Derived as follows:
-
-`100000 *`equation_set_no `+ 1000 * `specset_no `+ `level_set_no
-
- |
+| start_cycle | The start cycle is an integer that defines the first cycle to be reported. The start cycle is in the range 0 to 2^48 when the sequencer runs in the Start Analysis mode, or -2^48 to -1 when the sequencer runs in the Stop Analysis mode. If a positive number is entered, cycles are counted from 0 upwards. If a negative value is entered, the cycles are counted from the end of the test at -1. The start cycle returned by the system may be different from the start cycle entered for the query. |
+|---|---|
+| no_of_cycles | In the command, this parameter defines the number of cycles to be reported. The integer must be in the range 0 to 2147483648.<br><br>In the reply, the parameter specifies the number of cycles that are generated with the timing and levels sets specified by the timing_set and level_set parameters. 0 is returned if a CLEV and a CTIM instruction follow each other immediately. |
+| pinlist | Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated with a comma. You can type the character @ to return the sequencer instructions for all pins. |
+| timing_set | This parameter is an integer that represents the timing set used in the given cycle range. |
+| level_set | This parameter is an integer that represents the level set used in the given cycle range. |
+| level_set_id | Derived as follows:<br><br>`100000 *`equation_set_no `+ 1000 * `specset_no `+ `level_set_no |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › GETS  -  GET Sets）
 
@@ -16360,51 +13710,12 @@ GNOS {NumberOfOccupiedSets},{MaxNumberOfSets},{NrOfOccupiedMSetActions},{MaxNumb
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › GNOS  -  GetNumberofOccupiedSets）
 
-|
-
-set_type
-
- |
-
-Must be MSET
-
- |
- |
-
-NumberOfOccupiedSets
-
- |
-
-Number of the current sets
-
- |
- |
-
-MaxNumberOfSets
-
- |
-
-Maximum allowed number of sets
-
- |
- |
-
-NrOfOccupiedMSetActions
-
- |
-
-Number ot the current set actions
-
- |
- |
-
-MaxNumberOfMSETActions
-
- |
-
-Maximum number of actions (pmu_set)
-
- |
+| set_type | Must be MSET |
+|---|---|
+| NumberOfOccupiedSets | Number of the current sets |
+| MaxNumberOfSets | Maximum allowed number of sets |
+| NrOfOccupiedMSetActions | Number ot the current set actions |
+| MaxNumberOfMSETActions | Maximum number of actions (pmu_set) |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › GNOS  -  GetNumberofOccupiedSets）
 
@@ -16518,136 +13829,19 @@ HRIT {task}, {param}[, start_offs] [, stop_cyc][, stop_offs][, samples][, (ref_p
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › HRIT  HRIT  -  High Resolution Interval of Time）
 
-|
-
-HRES
-
- |
-
-Indicates the start of a high resolution measurement sequence.
-
- |
- |
-
-SCOP
-
- |
-
-Indicates the start of a scope measurement sequence.
-
- |
- |
-
-END
-
- |
-
-Indicates the end of a measurement sequence.
-
- |
- |
-
-task
-
- |
-
-One of the three HRES, SCOP, or END.
-
- |
- |
-
-start_cyc
-
- |
-
-In the command, this is the first cycle of the reference port that is to be displayed.
-
-In the query reply, the parameter contains the (defined or calculated) start cycle of the specified port.
-
- |
- |
-
-start_offs
-
- |
-
-In the command, this is a delay (specified in ns) relative to the start of the cycle defined by start_cyc. This allows you to start the measurement in the middle of a cycle of the reference port.
-
-In the query reply, the parameter contains the (defined or calculated) start delay of the specified port.
-
- |
- |
-
-stop_cyc
-
- |
-
-In the command, this is the first cycle of the reference port that is to not to be displayed any more.
-
-In the query reply, the parameter contains the (defined or calculated) stop cycle of the specified port.
-
- |
- |
-
-stop_offs
-
- |
-
-In the command, this is a delay (specified in ns) relative to the start of the cycle defined by stop_cyc. This allows you to stop the measurement in the middle of a cycle of the reference port.
-
-In the query reply, the parameter contains the (defined or calculated) stop delay of the specified port.
-
- |
- |
-
-samples
-
- |
-
-Specifies the number of measurement points for the display interval.
-
- |
- |
-
-ref_port
-
- |
-
-Defines the port to which the start and stop cycle refer. The time interval to be displayed will be (if the offsets are 0)
-
- (stop_cyc - start_cyc) * ref_port-period.
-
-For the other port of the same sequencing group, this may mean that the diagram starts or/and stops in the middle of a cycle.
-
- |
- |
-
-port
-
- |
-
-The port for which information is requested. If it is the reference port, the parameters specified in the command (HRES or SCOP) are returned. If it is another port of the same sequencing group, the answer will be how many cycles of this port fit into the display interval.
-
- |
- |
-
-param
-
- |
-
-This parameter is used in the answer for different purposes:
-
-If the measurement sequence is active it will contain the start cycle of the specified port.
-
-If the measurement sequence was terminated correctly or aborted because of an error, it will contain an error code as follows:
-
-0: No closing action necessary
-
-1: Error. Closing action (HRIT END) required
-
--1: Severe Error. Closing action required
-
- |
+| HRES | Indicates the start of a high resolution measurement sequence. |
+|---|---|
+| SCOP | Indicates the start of a scope measurement sequence. |
+| END | Indicates the end of a measurement sequence. |
+| task | One of the three HRES, SCOP, or END. |
+| start_cyc | In the command, this is the first cycle of the reference port that is to be displayed.<br><br>In the query reply, the parameter contains the (defined or calculated) start cycle of the specified port. |
+| start_offs | In the command, this is a delay (specified in ns) relative to the start of the cycle defined by start_cyc. This allows you to start the measurement in the middle of a cycle of the reference port.<br><br>In the query reply, the parameter contains the (defined or calculated) start delay of the specified port. |
+| stop_cyc | In the command, this is the first cycle of the reference port that is to not to be displayed any more.<br><br>In the query reply, the parameter contains the (defined or calculated) stop cycle of the specified port. |
+| stop_offs | In the command, this is a delay (specified in ns) relative to the start of the cycle defined by stop_cyc. This allows you to stop the measurement in the middle of a cycle of the reference port.<br><br>In the query reply, the parameter contains the (defined or calculated) stop delay of the specified port. |
+| samples | Specifies the number of measurement points for the display interval. |
+| ref_port | Defines the port to which the start and stop cycle refer. The time interval to be displayed will be (if the offsets are 0)<br><br>(stop_cyc - start_cyc) * ref_port-period.<br><br>For the other port of the same sequencing group, this may mean that the diagram starts or/and stops in the middle of a cycle. |
+| port | The port for which information is requested. If it is the reference port, the parameters specified in the command (HRES or SCOP) are returned. If it is another port of the same sequencing group, the answer will be how many cycles of this port fit into the display interval. |
+| param | This parameter is used in the answer for different purposes:<br><br>If the measurement sequence is active it will contain the start cycle of the specified port.<br><br>If the measurement sequence was terminated correctly or aborted because of an error, it will contain an error code as follows:<br><br>0: No closing action necessary<br><br>1: Error. Closing action (HRIT END) required<br><br>-1: Severe Error. Closing action required |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › HRIT  HRIT  -  High Resolution Interval of Time）
 
@@ -16905,50 +14099,11 @@ I2CA {address}, {offset}, {#spec(data)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › I2CA  I2CA  -  I2CA bus）
 
-|
-
-address
-
- |
-
-The mandatory parameter specifies the physical address of the EEPROM.
-
-For the X24C04 EEPROM, this would be 160, 168, or 172 (164 is reserved for the DUT board interface EEPROM). The address 160 is the address of the DUT board EEPROM.
-
- |
- |
-
-offset
-
- |
-
-The mandatory parameter specifies the offset for the read or write operation.
-
- |
- |
-
-#spec(data)
-
- |
-
-The binary data to be written from the EEPROM.
-
-This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:
-
-- A # to mark the start of the data block.
-- One digit indicating how many digits make up the data length specifier.
-- A number of digits indicating the length (in bytes) of the data to follow.
-- A number of characters which make up the binary data.
- |
- |
-
-size
-
- |
-
-The size of data to be read from the EEPROM in bytes.
-
- |
+| address | The mandatory parameter specifies the physical address of the EEPROM.<br><br>For the X24C04 EEPROM, this would be 160, 168, or 172 (164 is reserved for the DUT board interface EEPROM). The address 160 is the address of the DUT board EEPROM. |
+|---|---|
+| offset | The mandatory parameter specifies the offset for the read or write operation. |
+| #spec(data) | The binary data to be written from the EEPROM.<br><br>This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:<br><br>- A # to mark the start of the data block.<br>- One digit indicating how many digits make up the data length specifier.<br>- A number of digits indicating the length (in bytes) of the data to follow.<br>- A number of characters which make up the binary data. |
+| size | The size of data to be read from the EEPROM in bytes. |
 
 ### Syntax（取自子主题 Commands in alphabetical order › List of commands › INGV -  INsert Generate Vectors）
 
@@ -16958,24 +14113,9 @@ INGV{cmd_No}, {num_vec}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › INGV -  INsert Generate Vectors）
 
-|
-
-cmd_No
-
- |
-
-The command number before which the GENV instruction is to be inserted.
-
- |
- |
-
-num_vec
-
- |
-
-The number of vectors that are to be generated by the GENV sequencer instruction.
-
- |
+| cmd_No | The command number before which the GENV instruction is to be inserted. |
+|---|---|
+| num_vec | The number of vectors that are to be generated by the GENV sequencer instruction. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › INGV -  INsert Generate Vectors）
 
@@ -17009,24 +14149,9 @@ INSI {cmd_No}, {count}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › INSI -  INsert Instructions）
 
-|
-
-cmd_No
-
- |
-
-The command number before which instructions are to be inserted.
-
- |
- |
-
-count
-
- |
-
-This parameter defines the number of NOP instructions to be inserted.
-
- |
+| cmd_No | The command number before which instructions are to be inserted. |
+|---|---|
+| count | This parameter defines the number of NOP instructions to be inserted. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › INSI -  INsert Instructions）
 
@@ -17084,15 +14209,8 @@ JRST {(pin_list)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › JRST -  Jitter modulator ReseT）
 
-|
-
-pin_list
-
- |
-
-The pins for which the jitter modulator is to be reset. Typically, this must be done for all configured pins, so that you will usually specify @ for the pin list.
-
- |
+| pin_list | The pins for which the jitter modulator is to be reset. Typically, this must be done for all configured pins, so that you will usually specify @ for the pin list. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › JRST -  Jitter modulator ReseT）
 
@@ -17122,60 +14240,13 @@ JSCF {"jitter_set_name"}, {"property"}, {"property_value"}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › JSCF  JSCF  -  Jitter Set ConFiguration）
 
-|
-
-jitter_set_name
-
- |
-
-Specifies the name of a jitter set that must have been defined with JSDF.
-
- |
- |
-
-property
-
- |
-
-Specifies a property of the jitter set. For a list see the table below.
-
- |
- |
-
-ALL
-
- |
-
-This value can be specified in the query to retrieve the configuration data of all jitter sets.
-
- |
- |
-
-PRM
-
- |
-
-This value can be specified in the query to retrieve the configuration of the current primary jitter set.
-
- |
- |
-
-property_value
-
- |
-
-Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins to which this configuration is to be applied.
-
- |
+| jitter_set_name | Specifies the name of a jitter set that must have been defined with JSDF. |
+|---|---|
+| property | Specifies a property of the jitter set. For a list see the table below. |
+| ALL | This value can be specified in the query to retrieve the configuration data of all jitter sets. |
+| PRM | This value can be specified in the query to retrieve the configuration of the current primary jitter set. |
+| property_value | Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below. |
+| pinlist | Specifies the pins to which this configuration is to be applied. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › JSCF  JSCF  -  Jitter Set ConFiguration）
 
@@ -17190,33 +14261,10 @@ This example defines a simple sawtooth waveform with a peak-to-peak value of 200
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › JSDF  JSDF  -  Jitter Set DeFinition）
 
-|
-
-js_set_name
-
- |
-
-In the command, this is the name of a new jitter set. In the query, it is a name of an existing jitter set. If you omit this parameter in the query, JSDF? will return the names of all user defined jitter sets.
-
- |
- |
-
-mode_context
-
- |
-
-The mode context with which the jitter set is associated. If this parameter is omitted, the DEFAULT context is assumed.
-
- |
- |
-
-ALL
-
- |
-
-With this parameter, the query returns all existing jitter sets.
-
- |
+| js_set_name | In the command, this is the name of a new jitter set. In the query, it is a name of an existing jitter set. If you omit this parameter in the query, JSDF? will return the names of all user defined jitter sets. |
+|---|---|
+| mode_context | The mode context with which the jitter set is associated. If this parameter is omitted, the DEFAULT context is assumed. |
+| ALL | With this parameter, the query returns all existing jitter sets. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › JSDF  JSDF  -  Jitter Set DeFinition）
 
@@ -17252,15 +14300,8 @@ JSPR {"js_set_name"|""}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › JSPR  JSPR  -  Jitter Set PRimary set）
 
-|
-
-js_set_name
-
- |
-
-Specifies the name of an existing jitter set. Specify an empty string to inactivate the current primary set and thus to disable jitter injection.
-
- |
+| js_set_name | Specifies the name of an existing jitter set. Specify an empty string to inactivate the current primary set and thus to disable jitter injection. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › JSPR  JSPR  -  Jitter Set PRimary set）
 
@@ -17276,24 +14317,9 @@ JSUD {"js_set_name"|ALL}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › JSUD -  Jitter Set UnDefine）
 
-|
-
-js_set_name
-
- |
-
-Specifies the name of an existing jitter set.
-
- |
- |
-
-ALL
-
- |
-
-This option removes all defined jitter sets.
-
- |
+| js_set_name | Specifies the name of an existing jitter set. |
+|---|---|
+| ALL | This option removes all defined jitter sets. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › JSUD -  Jitter Set UnDefine）
 
@@ -17315,46 +14341,11 @@ JSWF {"jitter_set_name"}, {"offset_sequence"}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › JSWF  -  Jitter Set WaveForm）
 
-|
-
-jitter_set_name
-
- |
-
-Specifies the name of a jitter set that must have been defined with JSDF.
-
- |
- |
-
-clock_resolution
-
- |
-
-Specifies the clock resolution on which the calculation will be based. The admitted range is between 880 and 1750 ps.
-
-You can retrieve the clock resolution for a specification with the CLKR? EXACT query.
-
-Note that the unit is pico seconds, not nano seconds.
-
- |
- |
-
-offset_sequence
-
- |
-
-The list of the calculated offsets that is returned.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins for which the offset sequence is calculated.
-
- |
+| jitter_set_name | Specifies the name of a jitter set that must have been defined with JSDF. |
+|---|---|
+| clock_resolution | Specifies the clock resolution on which the calculation will be based. The admitted range is between 880 and 1750 ps.<br><br>You can retrieve the clock resolution for a specification with the CLKR? EXACT query.<br><br>Note that the unit is pico seconds, not nano seconds. |
+| offset_sequence | The list of the calculated offsets that is returned. |
+| pinlist | Specifies the pins for which the offset sequence is calculated. |
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › JSWF  -  Jitter Set WaveForm）
 
@@ -17521,33 +14512,10 @@ LBRT {(pin1)}, {(pin2)}
 ```
 
 Parameters
- |
-
-pinlist
-
- |
-
-Specifies the pins for which the partner pin is to be retrieved.
-
- |
- |
-
-pin1
-
- |
-
-Specifies a pin of pinlist.
-
- |
- |
-
-pin2
-
- |
-
-Specifies the pin which is mapped to the partner channel of the channel for pin1.
-
- |
+| pinlist | Specifies the pins for which the partner pin is to be retrieved. |
+|---|---|
+| pin1 | Specifies a pin of pinlist. |
+| pin2 | Specifies the pin which is mapped to the partner channel of the channel for pin1. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › LBRT  -  LoopBack RouTing）
 
@@ -17570,59 +14538,12 @@ LBUD? [ALL|{"UserDefinedKey"}], [ALL|{"LabelName"}] [, (port)]
 ```
 
 Parameters
- |
-
-UserDefinedKey
-
- |
-
-A string to identify a specific category of user defined data, for example, MD5 checksum. The maximum length is 40 bytes.
-
- |
- |
-
-LabelName
-
- |
-
-A string identifier of a label.
-
- |
- |
-
-DELETE_AT_EDIT|PRESERVE_AT_EDIT
-
- |
-
-An enumeration type parameter which is optional.
-
-DELETE_AT_EDIT: Editing the pattern will remove the attached data on demand.
-
-PRESERVE_AT_EDIT: Editing the pattern will not remove the attached data on demand.
-
-The default value is DELETE_AT_EDIT.
-
- |
- |
-
-port
-
- |
-
-The port. Specifies one port at a time.
-
- |
- |
-
-#value
-
- |
-
-User defined data to be attached to the pattern, in binary code.
-
-To remove the attached user data manually from a label, just run an LBUD command with the user defined key to be deleted and the label identifier with empty binary data. See example below.
-
- |
+| UserDefinedKey | A string to identify a specific category of user defined data, for example, MD5 checksum. The maximum length is 40 bytes. |
+|---|---|
+| LabelName | A string identifier of a label. |
+| DELETE_AT_EDIT\|PRESERVE_AT_EDIT | An enumeration type parameter which is optional.<br><br>DELETE_AT_EDIT: Editing the pattern will remove the attached data on demand.<br><br>PRESERVE_AT_EDIT: Editing the pattern will not remove the attached data on demand.<br><br>The default value is DELETE_AT_EDIT. |
+| port | The port. Specifies one port at a time. |
+| #value | User defined data to be attached to the pattern, in binary code.<br><br>To remove the attached user data manually from a label, just run an LBUD command with the user defined key to be deleted and the label identifier with empty binary data. See example below. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › LBUD  LBUD  -  LaBel User Data）
 
@@ -17684,26 +14605,9 @@ LSUS {level_set_no}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › LSUS  LSUS  -  Level Sets USed）
 
-|
-
-level_set_no
-
- |
-
-Level Set Number. This is the highest number currently allocated to a level set or the highest number of set you want to load. The number you type must not exceed the maximum number of level sets allowed (defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).
-
-This number is automatically updated to include any new level set as it is created. At power-on only one level set (containing the default values) is available.
-
- |
- |
-
-equation_set_no
-
- |
-
-The level equation set number for which the number of currently defined level sets is to be determined. Enter an integer in the range 1 to 99. Valid for Equation based testing only.
-
- |
+| level_set_no | Level Set Number. This is the highest number currently allocated to a level set or the highest number of set you want to load. The number you type must not exceed the maximum number of level sets allowed (defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).<br><br>This number is automatically updated to include any new level set as it is created. At power-on only one level set (containing the default values) is available. |
+|---|---|
+| equation_set_no | The level equation set number for which the number of currently defined level sets is to be determined. Enter an integer in the range 1 to 99. Valid for Equation based testing only. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › LSUS  LSUS  -  Level Sets USed）
 
@@ -17783,17 +14687,8 @@ LTDE?
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › LTDE  LTDE  -  Load Test Data Entity）
 
-|
-
-tde_name
-
- |
-
-The name of the protocol test data entity (TDE) file. This is the file name including the extension that specifies the type of the TDE.
-
-The file must be located at the path specified with the `PTDE`（raw: `02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md`） command.
-
- |
+| tde_name | The name of the protocol test data entity (TDE) file. This is the file name including the extension that specifies the type of the TDE.<br><br>The file must be located at the path specified with the `PTDE`（raw: `02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md`） command. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › LTDE  LTDE  -  Load Test Data Entity）
 
@@ -17816,24 +14711,9 @@ MCNT {match_count},{(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › MCNT  -  Match loop CouNT）
 
-|
-
-match_count
-
- |
-
-Specifies the number of the pass after which the match condition was met.
-
- |
- |
-
-pinlist
-
- |
-
-Pin name or names. If more than one pin is required, the names must be separated with a comma. The @ character can be used to read all configured pins.
-
- |
+| match_count | Specifies the number of the pass after which the match condition was met. |
+|---|---|
+| pinlist | Pin name or names. If more than one pin is required, the names must be separated with a comma. The @ character can be used to read all configured pins. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › MCNT  -  Match loop CouNT）
 
@@ -17852,41 +14732,10 @@ MEAR{type}, [no_of_samples], {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › MEAR  retrieve MEAsurement Results）
 
-|
-
-type
-
- |
-
-Data type to be measured. The following specifiers can be set:
-
-VMUM: Per pin parallel value retrieval from PPMU measurement (successive approximation).
-
-VAL: Per pin value measurement with BADC.
-
-PF: Per pin pass fail result.
-
-GPF: Global pass fail result.
-
- |
- |
-
-no_of_samples
-
- |
-
-Determines the number of samples that are taken if the type parameter is set to VAL. For the other types, it is ignored. The default is 1.
-
- |
- |
-
-pinlist
-
- |
-
-Target pin or pins to be measured
-
- |
+| type | Data type to be measured. The following specifiers can be set:<br><br>VMUM: Per pin parallel value retrieval from PPMU measurement (successive approximation).<br><br>VAL: Per pin value measurement with BADC.<br><br>PF: Per pin pass fail result.<br><br>GPF: Global pass fail result. |
+|---|---|
+| no_of_samples | Determines the number of samples that are taken if the type parameter is set to VAL. For the other types, it is ignored. The default is 1. |
+| pinlist | Target pin or pins to be measured |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › MEAR  retrieve MEAsurement Results）
 
@@ -17913,24 +14762,9 @@ MEAS {id_dc}, {id_mset}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › MEAS -  execute a MEASurement set）
 
-|
-
-id_dc
-
- |
-
-The DC set identification number to be executed.
-
- |
- |
-
-id_mset
-
- |
-
-The measurement set identification number to be executed.
-
- |
+| id_dc | The DC set identification number to be executed. |
+|---|---|
+| id_mset | The measurement set identification number to be executed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › MEAS -  execute a MEASurement set）
 
@@ -17962,20 +14796,9 @@ MERL [error_limit], [message_limit]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › MERL  MERL  -  Message ERror Limits）
 
-| error_limit |
-
-The maximum number of errors that will be logged. An integer in the range 1 to 30000.
-
-Default value is 10.
-
- |
- | message_limit |
-
-The maximum number of messages that will be logged. An integer in the range 1 to 30000.
-
-Default value is 40.
-
- |
+| error_limit | The maximum number of errors that will be logged. An integer in the range 1 to 30000.<br><br>Default value is 10. |
+|---|---|
+| message_limit | The maximum number of messages that will be logged. An integer in the range 1 to 30000.<br><br>Default value is 40. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › MERL  MERL  -  Message ERror Limits）
 
@@ -18003,42 +14826,11 @@ MSCF {"modulation_set_name"}, {"property"}, {"property_value"}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › MSCF  MSCF  -  Modulation Set ConFiguration）
 
-|
-
-modulation_set_name
-
- |
-
-Specifies the name of a modulation set that must have been defined with MSDF.
-
- |
- |
-
-property
-
- |
-
-Specifies a property of the modulation set. For a list see the table below.
-
- |
- |
-
-ALL
-
- |
-
-This value can be specified in the query to retrieve the configuration data of all modulation sets.
-
- |
- |
-
-property_value
-
- |
-
-Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below.
-
- |
+| modulation_set_name | Specifies the name of a modulation set that must have been defined with MSDF. |
+|---|---|
+| property | Specifies a property of the modulation set. For a list see the table below. |
+| ALL | This value can be specified in the query to retrieve the configuration data of all modulation sets. |
+| property_value | Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › MSCF  MSCF  -  Modulation Set ConFiguration）
 
@@ -18052,33 +14844,10 @@ Specifies the value for the specified property. The values that are admitted for
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › MSDF  MSDF  -  Modulation Set DeFinition）
 
-|
-
-ms_set_name
-
- |
-
-In the command, this is the name of a new modulation set. In the query, it is a name of an existing modulation set. If you omit this parameter in the query, MSDF? will return the names of all user defined modulation sets.
-
- |
- |
-
-modulation_type
-
- |
-
-Currently, the only allowed modulation type is TIM (for "timing").
-
- |
- |
-
-ALL
-
- |
-
-With this parameter, the query returns all existing modulation sets.
-
- |
+| ms_set_name | In the command, this is the name of a new modulation set. In the query, it is a name of an existing modulation set. If you omit this parameter in the query, MSDF? will return the names of all user defined modulation sets. |
+|---|---|
+| modulation_type | Currently, the only allowed modulation type is TIM (for "timing"). |
+| ALL | With this parameter, the query returns all existing modulation sets. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › MSDF  MSDF  -  Modulation Set DeFinition）
 
@@ -18737,79 +15506,14 @@ MVCU {label name}, {VVC name}, {vector offset}, {Init Discard Frames}, {Number O
 ```
 
 Parameters
- |
-
-label name
-
- |
-
-Name of the label for which usage is to be modified.
-
- |
- |
-
-VVC name
-
- |
-
-Name of the Vector Variable configuration. Refer to `DVVC, DVVC? - (Define Vector Variable Configuration)`（raw: `02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md`） for more information.
-
- |
- |
-
-Vector offset
-
- |
-
-This is the offset in the label where usage needs to be modified. Vector offset is the logical vector number in the label. A usage with this combination of parameters {label name, VVC name, Vector offset} should already exist in the system, when defined by DVCU.
-
- |
- |
-
-Init Discard Frames
-
- |
-
-This is a reserved parameter. For future use.
-
- |
- |
-
-Number Of Frames
-
- |
-
-Number Of Frames to which this usage refers. If the label is DSRC, usage allocates this many frames. If the label is a main label, usage refers to this many frames.
-
- |
- |
-
-VarNameDef
-
- |
-
-This parameter specifies the vector variable names for the variable names defined in VVC. This parameter is a string.
-
-Syntax:
-
-`"VVC_NAME=VEC_VAR_NAME[,VVC_NAME=VEC_VAR_NAME[,.....]]"`
-
-There is no need to have aliases (vector variable names) for all the variables in VVC.
-
- |
- |
-
-InitStaticData
-
- |
-
-This parameter is either TRUE or FALSE.
-
-TRUE: Static data will be downloaded on definition of usage.
-
-FALSE: Static data will not be downloaded.
-
- |
+| label name | Name of the label for which usage is to be modified. |
+|---|---|
+| VVC name | Name of the Vector Variable configuration. Refer to `DVVC, DVVC? - (Define Vector Variable Configuration)`（raw: `02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md`） for more information. |
+| Vector offset | This is the offset in the label where usage needs to be modified. Vector offset is the logical vector number in the label. A usage with this combination of parameters {label name, VVC name, Vector offset} should already exist in the system, when defined by DVCU. |
+| Init Discard Frames | This is a reserved parameter. For future use. |
+| Number Of Frames | Number Of Frames to which this usage refers. If the label is DSRC, usage allocates this many frames. If the label is a main label, usage refers to this many frames. |
+| VarNameDef | This parameter specifies the vector variable names for the variable names defined in VVC. This parameter is a string.<br><br>Syntax:<br><br>`"VVC_NAME=VEC_VAR_NAME[,VVC_NAME=VEC_VAR_NAME[,.....]]"`<br><br>There is no need to have aliases (vector variable names) for all the variables in VVC. |
+| InitStaticData | This parameter is either TRUE or FALSE.<br><br>TRUE: Static data will be downloaded on definition of usage.<br><br>FALSE: Static data will not be downloaded. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › MVCU -  Modify Vector variable Configuration Usage）
 
@@ -18995,15 +15699,8 @@ NODV {num_vec}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › NODV  -  Number Of Displayable Vectors）
 
-|
-
-num_vec
-
- |
-
-returns the number of active vectors.
-
- |
+| num_vec | returns the number of active vectors. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › NODV  -  Number Of Displayable Vectors）
 
@@ -19039,24 +15736,9 @@ NOOP["string_1"|no_1],["string_2"|no_2],["string_3"|no_3],["string_4"|no_4]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › NOOP  NOOP  -  NO OPeration）
 
-|
-
-string_1 to string_4
-
- |
-
-A string of up to 128 characters
-
- |
- |
-
-no_1 to no_4
-
- |
-
-An integer
-
- |
+| string_1 to string_4 | A string of up to 128 characters |
+|---|---|
+| no_1 to no_4 | An integer |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › NOOP  NOOP  -  NO OPeration）
 
@@ -19366,53 +16048,12 @@ PADS [mode], {definition_string}, [drv_adj], [rec_adj], {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PADS  PADS  -  Pin Attributes Definition String）
 
-|
-
-mode
-
- |
-
-Currently not used.
-
- |
- |
-
-definition_string
-
- |
-
-Edge delay definition string which consists of delay adjustments for up to all available edges. The valid range (in ns) is from -8 to 8.
-
-All edges which are not explicitly set are not changed but stay at the same value as before.
-
- |
- |
-
-drv_adj
-
- |
-
-The driver adjustment contains the sum of any additional driver offset delays that you want to include. The delay (in ns) must be between -5 and +5 and contain a maximum of three digits after the decimal point. The default value is 0.
-
- |
- |
-
-rec_adj
-
- |
-
-The receiver adjustment contains the sum of any additional receiver offset delays that you want to include. The delay (in ns) must be between -5 and +5 and contain a maximum of three digits after the decimal point. The default value is 0.
-
- |
- |
-
-pinlist
-
- |
-
-The pinlist must include all pins to which the given attributes apply. If more than one pin is to be entered, the names must be separated with a comma. All pins in pinlist must be I, O, or IO pin types.
-
- |
+| mode | Currently not used. |
+|---|---|
+| definition_string | Edge delay definition string which consists of delay adjustments for up to all available edges. The valid range (in ns) is from -8 to 8.<br><br>All edges which are not explicitly set are not changed but stay at the same value as before. |
+| drv_adj | The driver adjustment contains the sum of any additional driver offset delays that you want to include. The delay (in ns) must be between -5 and +5 and contain a maximum of three digits after the decimal point. The default value is 0. |
+| rec_adj | The receiver adjustment contains the sum of any additional receiver offset delays that you want to include. The delay (in ns) must be between -5 and +5 and contain a maximum of three digits after the decimal point. The default value is 0. |
+| pinlist | The pinlist must include all pins to which the given attributes apply. If more than one pin is to be entered, the names must be separated with a comma. All pins in pinlist must be I, O, or IO pin types. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PADS  PADS  -  Pin Attributes Definition String）
 
@@ -19444,74 +16085,13 @@ PALS {site}, {channel_1|(DC_scale_channels_list)}, [channel_2], {(pin)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PALS  PALS  -  Pin ALlocation for multiple Sites）
 
-|
-
-site
-
- |
-
-The site parameter is an integer that defines the number of the site where the channels are to be defined.
-
-The integer must be greater than 1 (channels for site 1 are defined by the command `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`）.
-
-When specified as part of the PALS? query, you can use the parameter ALL to read the channel allocation for all sites or the parameter PEND to read the pending channel allocation.
-
- |
- |
-
-channel_1
-
- |
-
-This parameter specifies the test system channel used in the specified site for the pin.
-
-For a digital or DC Scale channel, specify it with the test system channel number, which is five digits.
-
-See `DFPN, DFPN? - (DeFine Pin Name)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） for the channel number.
-
-For utility lines, see `DFUT, DFUT? - (DeFine UTility line)`（raw: `02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md`） for the channel number.
-
- |
- |
-
-DC_scale_channels_list
-
- |
-
-You can define a Master/Slave configuration for DC Scale channels by specifying a list of DC Scale channels, separated by commas and enclosed by parentheses. The first channel is the master.
-
-For UHC4 / UHC4T the channels must be physically adjacent on the same board, or be the last (the 4th) channel of a board and the first of another UHC4 / UHC4T board. You cannot gang UHC4 and UHC4T boards. Before ganging between boards can be used, the connection must be enabled by `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）.
-
- |
- |
-
-channel_2
-
- |
-
-The optional parameter is currently not used.
-
- |
- |
-
-pin
-
- |
-
-This defines the name of the pin.
-
- |
- |
-
-pinlist
-
- |
-
-The names of the pins to be allocated to the pin.
-
-The query returns the name of the pin allocated to each channel. The symbol @ can be used with the PALS? command to list all pins previously defined by the PALS command. If a list of more than one pin is required, the pin names must be separated with a comma. If you query a non-existent pinlist, the system returns nothing.
-
- |
+| site | The site parameter is an integer that defines the number of the site where the channels are to be defined.<br><br>The integer must be greater than 1 (channels for site 1 are defined by the command `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`）.<br><br>When specified as part of the PALS? query, you can use the parameter ALL to read the channel allocation for all sites or the parameter PEND to read the pending channel allocation. |
+|---|---|
+| channel_1 | This parameter specifies the test system channel used in the specified site for the pin.<br><br>For a digital or DC Scale channel, specify it with the test system channel number, which is five digits.<br><br>See `DFPN, DFPN? - (DeFine Pin Name)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） for the channel number.<br><br>For utility lines, see `DFUT, DFUT? - (DeFine UTility line)`（raw: `02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md`） for the channel number. |
+| DC_scale_channels_list | You can define a Master/Slave configuration for DC Scale channels by specifying a list of DC Scale channels, separated by commas and enclosed by parentheses. The first channel is the master.<br><br>For UHC4 / UHC4T the channels must be physically adjacent on the same board, or be the last (the 4th) channel of a board and the first of another UHC4 / UHC4T board. You cannot gang UHC4 and UHC4T boards. Before ganging between boards can be used, the connection must be enabled by `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）. |
+| channel_2 | The optional parameter is currently not used. |
+| pin | This defines the name of the pin. |
+| pinlist | The names of the pins to be allocated to the pin.<br><br>The query returns the name of the pin allocated to each channel. The symbol @ can be used with the PALS? command to list all pins previously defined by the PALS command. If a list of more than one pin is required, the pin names must be separated with a comma. If you query a non-existent pinlist, the system returns nothing. |
 
 ### Examples（取自子主题 Commands in alphabetical order › List of commands › PALS  PALS  -  Pin ALlocation for multiple Sites）
 
@@ -19715,86 +16295,15 @@ PCLK {specset_id|"multi-port_spec"}, {timing_set}, {period}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PCLK  PCLK  -  Pin CLocK）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Used for equation based timing. It is derived as follows:
-
-100 * equation_set_no + specset_no
-
-Note that if you change the period for an equation based timing setup, PCLK will only change the runtime value, not the setup value specified in the timing set.
-
- |
- |
-
-multi-port_spec
-
- |
-
-In the command, you cannot enter a multi-port specification unless the specification is associated with the default port, and no other ports are configured. This restriction does not apply to the query.
-
- |
- |
-
-timing_set
-
- |
-
-Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by `TSUS`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）.
-
- |
- |
-
-period
-
- |
-
-Enter the test system period in ns. The period range depends on the model. For the Pin Scale 800, the range is 2.5 ns to 31250 ns. All values entered (or queried regardless of query_mode) are in ns and will be rounded to nine digits after the decimal point (atto-seconds) according to the accuracy of the firmware. The power-on default value for all configured pins also depends on the model.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins whose period you want to define or read back. This parameter can also include groups previously created by `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to set or read the periods for all configured pins. If you do not use @, the firmware assumes asynchronous operation.
-
- |
- |
-
-portlist
-
- |
-
-In the query, you must specify a list of ports, if you have specified a multi-port specification for the first parameter.
-
- |
- |
-
-query_mode
-
- |
-
-In the query, you can specify whether the period specified by the user or the corrected period calculated by the system is to be returned. The allowed values are:
-
-WANT: The period defined by the user is returned. This is also the default.
-
-EXACT: The period calculated by the system is returned.
-
- |
+| waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Used for equation based timing. It is derived as follows:<br><br>100 * equation_set_no + specset_no<br><br>Note that if you change the period for an equation based timing setup, PCLK will only change the runtime value, not the setup value specified in the timing set. |
+| multi-port_spec | In the command, you cannot enter a multi-port specification unless the specification is associated with the default port, and no other ports are configured. This restriction does not apply to the query. |
+| timing_set | Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by `TSUS`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. |
+| period | Enter the test system period in ns. The period range depends on the model. For the Pin Scale 800, the range is 2.5 ns to 31250 ns. All values entered (or queried regardless of query_mode) are in ns and will be rounded to nine digits after the decimal point (atto-seconds) according to the accuracy of the firmware. The power-on default value for all configured pins also depends on the model. |
+| pinlist | The name of the pin or pins whose period you want to define or read back. This parameter can also include groups previously created by `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to set or read the periods for all configured pins. If you do not use @, the firmware assumes asynchronous operation. |
+| portlist | In the query, you must specify a list of ports, if you have specified a multi-port specification for the first parameter. |
+| query_mode | In the query, you can specify whether the period specified by the user or the corrected period calculated by the system is to be returned. The allowed values are:<br><br>WANT: The period defined by the user is returned. This is also the default.<br><br>EXACT: The period calculated by the system is returned. |
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › PCLK  PCLK  -  Pin CLocK）
 
@@ -20046,33 +16555,10 @@ PFND {group_type}, {(list)}, {(pin)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PFND  -  Pin FiND）
 
-|
-
-group_type
-
- |
-
-The group type can be PRT (for "port") or DIFF (for "differential pair"). PRT is the default.
-
- |
- |
-
-pin
-
- |
-
-The name of the pin about which information is to be retrieved.
-
- |
- |
-
-list
-
- |
-
-List of the ports that contain the pin, or the differential pair to which the specified pin belongs.
-
- |
+| group_type | The group type can be PRT (for "port") or DIFF (for "differential pair"). PRT is the default. |
+|---|---|
+| pin | The name of the pin about which information is to be retrieved. |
+| list | List of the ports that contain the pin, or the differential pair to which the specified pin belongs. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PFND  -  Pin FiND）
 
@@ -20219,15 +16705,8 @@ PQFC?
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PQFC  PQFC  -  Parallel Query FoCus）
 
-|
-
-site
-
- |
-
-The site parameter is single integer representing the number of the site that has or shall have the query focus.
-
- |
+| site | The site parameter is single integer representing the number of the site that has or shall have the query focus. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PQFC  PQFC  -  Parallel Query FoCus）
 
@@ -20372,24 +16851,9 @@ PRDF {"prbs_set_name"} [, "mode_context"]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PRDF  PRDF  -  PRBS set DeFinition）
 
-|
-
-prbs_set_name
-
- |
-
-In the command, this is the name of a new PRBS set. In the query, it is a name of an existing PRBS set. If you omit this parameter in the query, PRDF? will return the names of all user defined PRBS sets.
-
- |
- |
-
-mode_context
-
- |
-
-The mode context with which the PRBS set is associated. If this parameter is omitted, the DEFAULT context is assumed.
-
- |
+| prbs_set_name | In the command, this is the name of a new PRBS set. In the query, it is a name of an existing PRBS set. If you omit this parameter in the query, PRDF? will return the names of all user defined PRBS sets. |
+|---|---|
+| mode_context | The mode context with which the PRBS set is associated. If this parameter is omitted, the DEFAULT context is assumed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PRDF  PRDF  -  PRBS set DeFinition）
 
@@ -20610,15 +17074,8 @@ PRPR {"prbs_set_name"}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PRPR  PRPR  -  PRBS PRimary set）
 
-|
-
-prbs_set_name
-
- |
-
-Specifies the name of an existing PRBS set. If you specify "", the defaults will be restored.
-
- |
+| prbs_set_name | Specifies the name of an existing PRBS set. If you specify "", the defaults will be restored. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PRPR  PRPR  -  PRBS PRimary set）
 
@@ -20632,24 +17089,9 @@ PRUD {"prbs_set_name"|ALL}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PRUD -  PRBS set UnDefine）
 
-|
-
-prbs_set_name
-
- |
-
-Specifies the name of an existing PRBS set.
-
- |
- |
-
-ALL
-
- |
-
-Remove all existing transition tests sets
-
- |
+| prbs_set_name | Specifies the name of an existing PRBS set. |
+|---|---|
+| ALL | Remove all existing transition tests sets |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PRUD -  PRBS set UnDefine）
 
@@ -20811,44 +17253,11 @@ PSEE [setnr], [current_range], [samples], {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSEE -  Power Supply External trigger measurement Execute）
 
-|
-
-setnr
-
- |
-
-The set number of the external trigger measurement. (The range is 1 to 256). When this parameter is specified the corresponding set must have already been defined.
-
- |
- |
-
-current_range
-
- |
-
-If the setnr parameter is specified, the range in which the executed measurement will be made will be determined from the maximum value of the limits defined with the `DPSE`（raw: `02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md`） command, and this parameter will be ignored.
-
-If the setnr parameter is not specified, you must specify the range with a value. In this case, the measurement will be executed in the smallest range that can measure the given value. The unit is Ampere [A].
-
- |
- |
-
-samples
-
- |
-
-This parameter specifies the number of measurements. After the measurements are completed, the average of the measurements will be calculated.
-
- |
- |
-
-pinlist
-
- |
-
-This parameter will be ignored if setnr is specified.
-
- |
+| setnr | The set number of the external trigger measurement. (The range is 1 to 256). When this parameter is specified the corresponding set must have already been defined. |
+|---|---|
+| current_range | If the setnr parameter is specified, the range in which the executed measurement will be made will be determined from the maximum value of the limits defined with the `DPSE`（raw: `02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md`） command, and this parameter will be ignored.<br><br>If the setnr parameter is not specified, you must specify the range with a value. In this case, the measurement will be executed in the smallest range that can measure the given value. The unit is Ampere [A]. |
+| samples | This parameter specifies the number of measurements. After the measurements are completed, the average of the measurements will be calculated. |
+| pinlist | This parameter will be ignored if setnr is specified. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PSEE -  Power Supply External trigger measurement Execute）
 
@@ -21115,98 +17524,15 @@ PSIE [setnr], [current_range] [,{keep_range|"RSTO"}] [,{all_sampler|"CH_ALL"}] [
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSIE -  Power Supply Internal trigger Execute）
 
-|
-
-setnr
-
- |
-
-The set number defined by the `DPSE`（raw: `02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md`） command. (The range is 1 to 256). This set contains the limits of the measurement point for pass/fail judgment. When this parameter is specified, the corresponding set must already have been defined.
-
-When the setnr parameter is omitted, the current and the pinlist parameters must be specified.
-
- |
- |
-
-current_range
-
- |
-
-If the setnr parameter is specified, this parameter will be ignored.
-
-If the setnr parameter is not specified, you must specify the range with a value. In this case, the measurement will be executed in the smallest range that can measure the given value. The unit is Ampere [A].
-
- |
- |
-
-keep_range
-
- |
-
-No longer supported.
-
-The measurement range is kept per default.
-
-For DPS128 and XPS256, the parameter is silently ignored and the measurement range is restored to the force or clamp range.
-
- |
- |
-
-all_sampler
-
- |
-
-To upload the results of all channels in the gang with sampler connected, and store them, specify CH_ALL. This option can be selected only for DC Scale UHC4 / UHC4T channels.
-
-If called without the all_sampler parameter, the command will upload only the value of the master channel, even if the measurement was done over the sampler, or if a voltage drop on DUT was measured.
-
- |
- |
-
-primary_act
-
- |
-
-The conditional primary activation is default.
-
-To avoid the conditional primary activation, specify NPRM.
-
- |
- |
-
-samples
-
- |
-
-(Optional) This parameter specifies how often the measurement will be performed under the same test conditions. The default is 1.
-
-For details see the table above.
-
-The value that will be stored is the average of all these measurements.
-
-This parameter can be used both for measurements defined with DPSE and for measurements defined directly with PSIE.
-
- |
- |
-
-settl_time
-
- |
-
-The system must wait the settling time before the measurement is executed. If the force range is switched, for example, "unganging during measurement", to avoid glitches the settling time is waited before the small force range is active.
-
-The unit is milliseconds (ms).
-
- |
- |
-
-pinlist
-
- |
-
-Names of pins to which this command is applied. The character @ can be used to specify all DPS pins. This parameter will be ignored if setnr is specified.
-
- |
+| setnr | The set number defined by the `DPSE`（raw: `02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md`） command. (The range is 1 to 256). This set contains the limits of the measurement point for pass/fail judgment. When this parameter is specified, the corresponding set must already have been defined.<br><br>When the setnr parameter is omitted, the current and the pinlist parameters must be specified. |
+|---|---|
+| current_range | If the setnr parameter is specified, this parameter will be ignored.<br><br>If the setnr parameter is not specified, you must specify the range with a value. In this case, the measurement will be executed in the smallest range that can measure the given value. The unit is Ampere [A]. |
+| keep_range | No longer supported.<br><br>The measurement range is kept per default.<br><br>For DPS128 and XPS256, the parameter is silently ignored and the measurement range is restored to the force or clamp range. |
+| all_sampler | To upload the results of all channels in the gang with sampler connected, and store them, specify CH_ALL. This option can be selected only for DC Scale UHC4 / UHC4T channels.<br><br>If called without the all_sampler parameter, the command will upload only the value of the master channel, even if the measurement was done over the sampler, or if a voltage drop on DUT was measured. |
+| primary_act | The conditional primary activation is default.<br><br>To avoid the conditional primary activation, specify NPRM. |
+| samples | (Optional) This parameter specifies how often the measurement will be performed under the same test conditions. The default is 1.<br><br>For details see the table above.<br><br>The value that will be stored is the average of all these measurements.<br><br>This parameter can be used both for measurements defined with DPSE and for measurements defined directly with PSIE. |
+| settl_time | The system must wait the settling time before the measurement is executed. If the force range is switched, for example, "unganging during measurement", to avoid glitches the settling time is waited before the small force range is active.<br><br>The unit is milliseconds (ms). |
+| pinlist | Names of pins to which this command is applied. The character @ can be used to specify all DPS pins. This parameter will be ignored if setnr is specified. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PSIE -  Power Supply Internal trigger Execute）
 
@@ -21240,35 +17566,10 @@ PSLC {value}, [DCS_value,] {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSLC  PSLC  -  Power Supply Load Capacitance）
 
-|
-
-value
-
- |
-
-The value of the load capacitor (capacitance) in μF in the range of 0.0 ... 214748364.6.
-
- |
- |
-
-DCS_value
-
- |
-
-Capacitance for DPS128 HC. This value must be set to 0, if there is no capacitance on the DUT board. Otherwise it must be set to the capacitance value of the DUT board.
-
-The range is: `2147 μF *` number_of_ganged_channels
-
- |
- |
-
-pinlist
-
- |
-
-pinlist contains the DPS pins whose capacitive load range you want to set or read. Note that pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If more than one pin is specified, the names must be separated by a comma.
-
- |
+| value | The value of the load capacitor (capacitance) in μF in the range of 0.0 ... 214748364.6. |
+|---|---|
+| DCS_value | Capacitance for DPS128 HC. This value must be set to 0, if there is no capacitance on the DUT board. Otherwise it must be set to the capacitance value of the DUT board.<br><br>The range is: `2147 μF *` number_of_ganged_channels |
+| pinlist | pinlist contains the DPS pins whose capacitive load range you want to set or read. Note that pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If more than one pin is specified, the names must be separated by a comma. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PSLC  PSLC  -  Power Supply Load Capacitance）
 
@@ -21626,51 +17927,12 @@ PSSL [min_voltage | OFF], [max_voltage | OFF], [max_source_current | OFF], [max_
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSSL  PSSL   Power Supply Safety Limits）
 
-|
-
-min_voltage
-
- |
-
-Lowest allowed voltage in V. Must be ≤0.
-
- |
- |
-
-max_voltage
-
- |
-
-Highest allowed voltage in V. Must be ≥0.
-
- |
- |
-
-max_source_current
-
- |
-
-Highest allowed source current in A. Must be > 0.
-
- |
- |
-
-max_sink_current
-
- |
-
-Highest allowed sink current in A. Must be > 0.
-
- |
- |
-
-pin_list
-
- |
-
-Comma separated list of DPS power pins, previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command, and of DC signal (PMU) pins defined by the `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） command.
-
- |
+| min_voltage | Lowest allowed voltage in V. Must be ≤0. |
+|---|---|
+| max_voltage | Highest allowed voltage in V. Must be ≥0. |
+| max_source_current | Highest allowed source current in A. Must be > 0. |
+| max_sink_current | Highest allowed sink current in A. Must be > 0. |
+| pin_list | Comma separated list of DPS power pins, previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command, and of DC signal (PMU) pins defined by the `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） command. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PSSL  PSSL   Power Supply Safety Limits）
 
@@ -21690,143 +17952,18 @@ PSSR {dps_No|dps_set_id}, [rise_tm_per_v], [rise_settm], [fall_tm_per_v], [fall_
 
 Note The rise_... and fall_... parameters of the PSSR command and the settling time parameter (setup_time) of the `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`） command exclude each other. This also applies to the t_ms equation parameter (see `DPSPINS`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07_DPSPINS.md`） and `DPSPINS resources`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md`）). Note All time values have a resolution of microseconds (floating point values are rounded to three decimal places).
 
- |
-
-dps_No
-
- |
-
-Needed for non-equation-based setup.
-
-The identification number of the DPS set which you want to modify. The number must not exceed the maximum number allowed (as defined by the DSCP (Define System Control Parameter) command). Entering ALL modifies all the existing fixed DPS sets. Entering PRM modifies the primary DPS set. Entering ACT (only for PSSR?) displays the settings of the actual enabled DPS set.
-
- |
- |
-
-dps_set_id
-
- |
-
-Needed for equation-based setup.
-
-This parameter is derived as follows:
-
-`100000*equation_set_no + 1000*specset_no+1`
-
- |
- |
-
-rise_tm_per_v
-
- |
-
-Sets the inverse slew rate for the rising edge in ms/V.
-
-The allowed range is 0 to 10000 ms/V.
-
- |
- |
-
-rise_settm
-
- |
-
-Sets the settling time for the rising edge in ms.
-
-The allowed range is 0 to 10000 ms.
-
- |
- |
-
-fall_tm_per_v
-
- |
-
-Sets the inverse slew rate for the falling edge in ms/V.
-
-The allowed range is 0 to 10000 ms/V.
-
- |
- |
-
-fall_settm
-
- |
-
-Sets the settling time for the falling edge in ms.
-
-The allowed range is 0 to 10000 ms.
-
- |
- |
-
-rise_t_per_v_c2c
-
- |
-
-Sets the inverse slew rate for the rising edge. expression must define a value in ms/V.
-
-The allowed range is 0 to 10000 ms/V.
-
-The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_rise_t_ms_per_volt parameter is used instead.
-
-This parameter is for both DPS-slot DPS and DC Scale pins.
-
- |
- |
-
-rise_setup_t_c2c
-
- |
-
-Sets the settling time for the rising edge. expression must define a value in ms.
-
-The allowed range is -10000 to 10000 ms.
-
-The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_rise_settling_t_ms parameter is used instead.
-
-This parameter is for both DPS-slot DPS and DC Scale pins.
-
- |
- |
-
-fall_t_per_v_c2c
-
- |
-
-Sets the inverse slew rate for the falling edge. expression must define a value in ms/V.
-
-The allowed range is 0 to 10000 ms/V.
-
-The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_fall_t_ms_per_volt parameter is used instead.
-
-This parameter is for both DPS-slot DPS and DC Scale pins.
-
- |
- |
-
-fall_setup_t_c2c
-
- |
-
-Sets the settling time for the falling edge. expression must define a value in ms.
-
-The allowed range is -10000 to 10000 ms.
-
-The parameter is optional. If specified, it is used for "connect-to-connect" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_fall_settling_t_ms parameter is used instead.
-
-This parameter is for both DPS-slot DPS and DC Scale pins.
-
- |
- |
-
-pinlist
-
- |
-
-pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If a pin is associated with a DPS-slot DPS, it is ignored. @ refers to all pins that are associated with a DC Scale channel.
-
- |
+| dps_No | Needed for non-equation-based setup.<br><br>The identification number of the DPS set which you want to modify. The number must not exceed the maximum number allowed (as defined by the DSCP (Define System Control Parameter) command). Entering ALL modifies all the existing fixed DPS sets. Entering PRM modifies the primary DPS set. Entering ACT (only for PSSR?) displays the settings of the actual enabled DPS set. |
+|---|---|
+| dps_set_id | Needed for equation-based setup.<br><br>This parameter is derived as follows:<br><br>`100000*equation_set_no + 1000*specset_no+1` |
+| rise_tm_per_v | Sets the inverse slew rate for the rising edge in ms/V.<br><br>The allowed range is 0 to 10000 ms/V. |
+| rise_settm | Sets the settling time for the rising edge in ms.<br><br>The allowed range is 0 to 10000 ms. |
+| fall_tm_per_v | Sets the inverse slew rate for the falling edge in ms/V.<br><br>The allowed range is 0 to 10000 ms/V. |
+| fall_settm | Sets the settling time for the falling edge in ms.<br><br>The allowed range is 0 to 10000 ms. |
+| rise_t_per_v_c2c | Sets the inverse slew rate for the rising edge. expression must define a value in ms/V.<br><br>The allowed range is 0 to 10000 ms/V.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_rise_t_ms_per_volt parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
+| rise_setup_t_c2c | Sets the settling time for the rising edge. expression must define a value in ms.<br><br>The allowed range is -10000 to 10000 ms.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_rise_settling_t_ms parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
+| fall_t_per_v_c2c | Sets the inverse slew rate for the falling edge. expression must define a value in ms/V.<br><br>The allowed range is 0 to 10000 ms/V.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_fall_t_ms_per_volt parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
+| fall_setup_t_c2c | Sets the settling time for the falling edge. expression must define a value in ms.<br><br>The allowed range is -10000 to 10000 ms.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_fall_settling_t_ms parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
+| pinlist | pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If a pin is associated with a DPS-slot DPS, it is ignored. @ refers to all pins that are associated with a DC Scale channel. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PSSR  PSSR  - Power Supply Slew Rate）
 
@@ -21945,27 +18082,10 @@ PSTE {sites|"site_string"}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSTE  PSTE  -  Parallel SiTe Enable）
 
-| sites |
-
-The sites parameter is an integer that specifies the number of sites (to be) configured. The maximum is 1024.
-
-For more information, refer to `Number of sites`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md#_116532__r_numberOfSites`） in `SmarTest system parameters - default values and limits`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md`）.
-
- |
- | site_string |
-
-A string consisting of "0" and "1". The length of the string corresponds to the number of the configured sites. The nth character of this string stands for site n.
-
-"0" indicates that the respective site uses a channel that is listed in the MCDIgnore file, and that this site therefore cannot be used for testing. "1" indicates that the site can be used.
-
- |
- | STR |
-
-If you specify this optional keyword in the query, PSTE? will return a site string.
-
-If this parameter is omitted, PSTE? will return the number of sites that are configured in the pin configuration.
-
- |
+| sites | The sites parameter is an integer that specifies the number of sites (to be) configured. The maximum is 1024.<br><br>For more information, refer to `Number of sites`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md#_116532__r_numberOfSites`） in `SmarTest system parameters - default values and limits`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md`）. |
+|---|---|
+| site_string | A string consisting of "0" and "1". The length of the string corresponds to the number of the configured sites. The nth character of this string stands for site n.<br><br>"0" indicates that the respective site uses a channel that is listed in the MCDIgnore file, and that this site therefore cannot be used for testing. "1" indicates that the site can be used. |
+| STR | If you specify this optional keyword in the query, PSTE? will return a site string.<br><br>If this parameter is omitted, PSTE? will return the number of sites that are configured in the pin configuration. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PSTE  PSTE  -  Parallel SiTe Enable）
 
@@ -21992,37 +18112,10 @@ PTDE?
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PTDE  PTDE  -  Path for Test Data Entities）
 
-|
-
-device_directory
-
- |
-
-The path to the device directory in which the test data entities (TDEs) are located.
-
- |
- |
-
-domain
-
- |
-
-The name of the domain in the specified device directory that contains the test data entities (TDE).
-
-The domain is one of the subdirectories of the device directory. It bundles all related TDEs.
-
- |
- |
-
-TDE_directory
-
- |
-
-The name of the directory in the domain that contains the test data entities (TDE).
-
-This name is usually the name of the firmware command file to which the directory belongs, with a .files extension.
-
- |
+| device_directory | The path to the device directory in which the test data entities (TDEs) are located. |
+|---|---|
+| domain | The name of the domain in the specified device directory that contains the test data entities (TDE).<br><br>The domain is one of the subdirectories of the device directory. It bundles all related TDEs. |
+| TDE_directory | The name of the directory in the domain that contains the test data entities (TDE).<br><br>This name is usually the name of the firmware command file to which the directory belongs, with a .files extension. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PTDE  PTDE  -  Path for Test Data Entities）
 
@@ -22227,19 +18320,8 @@ RCLK {clock_string}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › RCLK  -  Reference CLocK source）
 
-|
-
-clock_string
-
- |
-
-The string shows which clock source is used as reference clock. Possible values are:
-
-EXTERNAL
-
-INTERNAL
-
- |
+| clock_string | The string shows which clock source is used as reference clock. Possible values are:<br><br>EXTERNAL<br><br>INTERNAL |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › RCLK  -  Reference CLocK source）
 
@@ -22444,97 +18526,14 @@ RCLV {level_set | level_set_id}, [vth | logic_0_level], [logic_1_level], [range,
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › RCLV  RCLV  -  ReCeive LeVel）
 
-|
-
-level_set
-
- |
-
-The identification number of the level set in which you want the low and high threshold levels to be included. The number must not exceed the maximum number of level sets allowed (as defined by `DSCP, DSCP? - (Define System Control Parameter)`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）). If you enter a level set number that is outside the used range of sets defined by the LSUS command, a new level set is created. Typing ALL in this field sets the low and high threshold levels for all existing level sets (except level set 0). Typing PRM sets the low and high threshold levels for the primary level set.
-
-Standard level sets have a number greater than 0. Level set 0 is a dedicated level set for sequencer state OFF. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）.
-
- |
- |
-
-level_set_id
-
- |
-
-Used in equation based level setup. It is derived as follows:
-
-100000 * equation_set_no + 1000 * specset_no + level_set_no
-
-Note that if you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set.
-
- |
- |
-
-vth
-
- |
-
-Output threshold for FAST comparator (single threshold as opposed to high and low). The expression must define a value in millivolts (mV).
-
- |
- |
-
-logic_0_level
-
- |
-
-An integer (in mV) which sets the logic 0 threshold level of the comparator. This parameter represents the point where the comparator distinguishes between logic 0 and an intermediate level.
-
- |
- |
-
-logic_1_level
-
- |
-
-An integer (in mV) which sets the logic 1 threshold level of the comparator. This parameter represents the point where the comparator distinguishes between logic 1 and an intermediate level.
-
- |
- |
-
-range
-
- |
-
-This extra parameter selects the receive range in mV.
-
-This parameter is currently not available.
-
-Ranges of the high-speed voltage comparator:
-
-- -8000.0 ... 8000.0 selects the 8 V range
-- -40000.0 ... 80000.0 selects the -40 V ... +80 V range
-
-Ranges of the high-resolution voltage comparator:
-
-- -3000.0 ... 3000.0 selects the 3 V range
-- -10000.0 ... 10000.0 selects the 10 V range
-- -30000.0 ... 30000.0 selects the 30 V range
-- -40000.0 ... 80000.0 selects the -40 V ... +80 V range
-
-If not specified the best fit range will be selected based on logic_0_level and logic_1_level if a voltage comparator is selected.
-
-Range of the high-resolution current comparator:
-
-- A fixed range of 200 mA is set.
-
-The query returns the parameter only if it is defined for the queried level set.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins whose threshold level you want to set. This parameter can also include groups previously created by the command `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ sets or reads the threshold levels for all output pins. You can include O or IO pins in pinlist.
-
- |
+| level_set | The identification number of the level set in which you want the low and high threshold levels to be included. The number must not exceed the maximum number of level sets allowed (as defined by `DSCP, DSCP? - (Define System Control Parameter)`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）). If you enter a level set number that is outside the used range of sets defined by the LSUS command, a new level set is created. Typing ALL in this field sets the low and high threshold levels for all existing level sets (except level set 0). Typing PRM sets the low and high threshold levels for the primary level set.<br><br>Standard level sets have a number greater than 0. Level set 0 is a dedicated level set for sequencer state OFF. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）. |
+|---|---|
+| level_set_id | Used in equation based level setup. It is derived as follows:<br><br>100000 * equation_set_no + 1000 * specset_no + level_set_no<br><br>Note that if you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set. |
+| vth | Output threshold for FAST comparator (single threshold as opposed to high and low). The expression must define a value in millivolts (mV). |
+| logic_0_level | An integer (in mV) which sets the logic 0 threshold level of the comparator. This parameter represents the point where the comparator distinguishes between logic 0 and an intermediate level. |
+| logic_1_level | An integer (in mV) which sets the logic 1 threshold level of the comparator. This parameter represents the point where the comparator distinguishes between logic 1 and an intermediate level. |
+| range | This extra parameter selects the receive range in mV.<br><br>This parameter is currently not available.<br><br>Ranges of the high-speed voltage comparator:<br><br>- -8000.0 ... 8000.0 selects the 8 V range<br>- -40000.0 ... 80000.0 selects the -40 V ... +80 V range<br><br>Ranges of the high-resolution voltage comparator:<br><br>- -3000.0 ... 3000.0 selects the 3 V range<br>- -10000.0 ... 10000.0 selects the 10 V range<br>- -30000.0 ... 30000.0 selects the 30 V range<br>- -40000.0 ... 80000.0 selects the -40 V ... +80 V range<br><br>If not specified the best fit range will be selected based on logic_0_level and logic_1_level if a voltage comparator is selected.<br><br>Range of the high-resolution current comparator:<br><br>- A fixed range of 200 mA is set.<br><br>The query returns the parameter only if it is defined for the queried level set. |
+| pinlist | The name of the pin or pins whose threshold level you want to set. This parameter can also include groups previously created by the command `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ sets or reads the threshold levels for all output pins. You can include O or IO pins in pinlist. |
 
 For card specifications, like level ranges, see `Digital Cards`（raw: `../02.02_Specifications/02.02.04_Digital_Cards.md`）, for example:
 
@@ -22566,26 +18565,9 @@ RDGC {"vector_label"|ALL}[,(portlist)]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › RDGC -  Reset DiGital Capture）
 
-|
-
-vector_label
-
- |
-
-Vector main label. You can specify ALL to dissolve the associations for all vector labels of one or more ports.
-
- |
- |
-
-portlist
-
- |
-
-If you specify ALL for vector_label, the association is dissolved for all vector labels of the ports specified here. The default for this parameter is the default port @ to which all pins belong.
-
-Specify @@ to remove the association for all label of all ports.
-
- |
+| vector_label | Vector main label. You can specify ALL to dissolve the associations for all vector labels of one or more ports. |
+|---|---|
+| portlist | If you specify ALL for vector_label, the association is dissolved for all vector labels of the ports specified here. The default for this parameter is the default port @ to which all pins belong.<br><br>Specify @@ to remove the association for all label of all ports. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › RDGC -  Reset DiGital Capture）
 
@@ -22803,41 +18785,10 @@ RRDF {area-id}, {size}[, (pinlist)]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › RRDF -  Result Retention area DeFinition）
 
-|
-
-area-id
-
- |
-
-A unique string for identifying the result retention area.
-
-The area is referenced when being selected by its ID for result acquisition or upload.
-
-The area ID must be globally unique - it is not allowed to define two result areas on different pin lists with the same ID.
-
-Any number of areas may be added for the same pins until the available result memory is consumed. The required size is specified in bytes (analogous to `DMAS`（raw: `02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md`）) but is internally rounded to a multiple of 1 KB.
-
- |
- |
-
-size
-
- |
-
-The required size of the result retention area in bytes.
-
- |
- |
-
-pinlist
-
- |
-
-A list of pins for which to create the result area.
-
-The pinlist must either match exactly one already defined result retention area or must be disjoint (may not overlap with any other pin list).
-
- |
+| area-id | A unique string for identifying the result retention area.<br><br>The area is referenced when being selected by its ID for result acquisition or upload.<br><br>The area ID must be globally unique - it is not allowed to define two result areas on different pin lists with the same ID.<br><br>Any number of areas may be added for the same pins until the available result memory is consumed. The required size is specified in bytes (analogous to `DMAS`（raw: `02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md`）) but is internally rounded to a multiple of 1 KB. |
+|---|---|
+| size | The required size of the result retention area in bytes. |
+| pinlist | A list of pins for which to create the result area.<br><br>The pinlist must either match exactly one already defined result retention area or must be disjoint (may not overlap with any other pin list). |
 
 ### Syntax（取自子主题 Commands in alphabetical order › List of commands › RRSC -  Result Retention area Select for Capture）
 
@@ -23211,33 +19162,10 @@ RVCU {label name}, {VVC name}, vector offset
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › RVCU -  Remove Vector variable Configuration Usage）
 
-|
-
-label name
-
- |
-
-Name of the label for which usage is to be modified.
-
- |
- |
-
-VVC name
-
- |
-
-Name of the vector variable configuration. Refer to `DVVC, DVVC? - (Define Vector Variable Configuration)`（raw: `02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md`） for more information.
-
- |
- |
-
-Vector offset
-
- |
-
-This is the offset in the label where usage needs to be modified. Vector offset is the logical vector number in the label. A usage with this combination of parameters {label name, VVC name, Vector offset} should already exist in the system as defined by `DVCU`（raw: `02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md`）. Refer to `DVCU, DVCU? - (Define Vector variable Configuration Usage)`（raw: `02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md`）.
-
- |
+| label name | Name of the label for which usage is to be modified. |
+|---|---|
+| VVC name | Name of the vector variable configuration. Refer to `DVVC, DVVC? - (Define Vector Variable Configuration)`（raw: `02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md`） for more information. |
+| Vector offset | This is the offset in the label where usage needs to be modified. Vector offset is the logical vector number in the label. A usage with this combination of parameters {label name, VVC name, Vector offset} should already exist in the system as defined by `DVCU`（raw: `02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md`）. Refer to `DVCU, DVCU? - (Define Vector variable Configuration Usage)`（raw: `02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md`）. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › RVCU -  Remove Vector variable Configuration Usage）
 
@@ -23253,28 +19181,9 @@ RVVA {"name"|ALL}[, (portlist)]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › RVVA -  Remove Vector VAriable）
 
-|
-
-name
-
- |
-
-Name of the vector variable to be deleted. ALL can be used to remove all vector variables that are associated with the vector labels of one or more ports.
-
- |
- |
-
-portlist
-
- |
-
-This parameter is evaluated according to the following rules:
-
-- If a vector variable is specified for name, the parameter is ignored.
-- If you set name to ALL and specify a port list, all vector variables will be deleted that are associated with the vector labels of these ports.
-- If you set name to ALL and do not specify a port list, all vector variables will be deleted that are associated with the vector labels of the default port.
-- If you set name to ALL and specify @@, all vector variables of all ports will be deleted.
- |
+| name | Name of the vector variable to be deleted. ALL can be used to remove all vector variables that are associated with the vector labels of one or more ports. |
+|---|---|
+| portlist | This parameter is evaluated according to the following rules:<br><br>- If a vector variable is specified for name, the parameter is ignored.<br>- If you set name to ALL and specify a port list, all vector variables will be deleted that are associated with the vector labels of these ports.<br>- If you set name to ALL and do not specify a port list, all vector variables will be deleted that are associated with the vector labels of the default port.<br>- If you set name to ALL and specify @@, all vector variables of all ports will be deleted. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › RVVA -  Remove Vector VAriable）
 
@@ -23302,15 +19211,8 @@ RVVC {VVC name}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › RVVC -  Remove Vector Variable Configuration）
 
-|
-
-VVC name
-
- |
-
-Name of the vector variable configuration to be removed.
-
- |
+| VVC name | Name of the vector variable configuration to be removed. |
+|---|---|
 
 ### SAOF（取自子主题 Commands in alphabetical order › List of commands › SAOF  SAOF  -  Set Alternating Operation Features）
 
@@ -23434,15 +19336,8 @@ SATR {comm_rec_delay}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SATR  SATR  -  System ATtRibutes）
 
-|
-
-comm_rec_delay
-
- |
-
-The common receiver delay represents the adjustment to the round-trip delay between the drivers and receivers. The delay is in [ns] and must be in the range -50 to +50. Three digits are allowed after the decimal point. The default value is 0.
-
- |
+| comm_rec_delay | The common receiver delay represents the adjustment to the round-trip delay between the drivers and receivers. The delay is in [ns] and must be in the range -50 to +50. Three digits are allowed after the decimal point. The default value is 0. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SATR  SATR  -  System ATtRibutes）
 
@@ -23466,62 +19361,13 @@ SCLK {wf_set|specset_id|"multi-port_spec"} {sclk_val}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SCLK  -  System CLocK query）
 
-|
-
-wf_set
-
- |
-
-Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 *`equation_set_no `+ `specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-To query a multi-port specification, enter the name of the specification.
-
- |
- |
-
-sclk_val
-
- |
-
-The SCLK period of the respective setup in ns.
-
- |
- |
-
-ALL
-
- |
-
-Returns the SCLK values for all waveform sets.
-
- |
- |
-
-PRM
-
- |
-
-Returns the value for the primary waveform set or specification (set by SPRM).
-
- |
+| wf_set | Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| specset_id | Derived as follows:<br><br>`100 *`equation_set_no `+ `specset_no |
+| multi-port_spec | To query a multi-port specification, enter the name of the specification. |
+| sclk_val | The SCLK period of the respective setup in ns. |
+| ALL | Returns the SCLK values for all waveform sets. |
+| PRM | Returns the value for the primary waveform set or specification (set by SPRM). |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SCLK  -  System CLocK query）
 
@@ -23550,54 +19396,11 @@ SDGC {"vector_label"},[res_mode],{(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SDGC  SDGC  -  Setup DiGital Capture）
 
-|
-
-vector_label
-
- |
-
-The vector label that is to be activated for digital capture. It must be a main label, and the sequencer memory must have been specified as the location of the input vectors.
-
-For the query, you can type ALL to list all the activated vector labels of one or more ports.
-
- |
- |
-
-res_mode
-
- |
-
-Capture resolution mode. Valid modes are:
-
-STD: standard mode
-
-DBL: double high resolution mode
-
-Note that the hardware will always operate in double high resolution mode. Therefore the resolution mode specified here is important only for data reconstruction. You will notice that this implies that only the high resolution comparator is used for the data capture action.
-
- |
- |
-
-pinlist
-
- |
-
-List of pins that are to be activated for digital capture. If the list contains more than one element, the names must be separated with a comma.
-
-All the specified pins must be contained in the port with which the specified vector label is associated.
-
- |
- |
-
-portlist
-
- |
-
-If you call the query for all vector labels (ALL for vector_label) and specify a port list, the settings will be returned for the specified ports. The default for this parameter is the default port @ to which all pins belong.
-
-Specify @@ to display the activated labels of all ports.
-
- |
+| vector_label | The vector label that is to be activated for digital capture. It must be a main label, and the sequencer memory must have been specified as the location of the input vectors.<br><br>For the query, you can type ALL to list all the activated vector labels of one or more ports. |
+|---|---|
+| res_mode | Capture resolution mode. Valid modes are:<br><br>STD: standard mode<br><br>DBL: double high resolution mode<br><br>Note that the hardware will always operate in double high resolution mode. Therefore the resolution mode specified here is important only for data reconstruction. You will notice that this implies that only the high resolution comparator is used for the data capture action. |
+| pinlist | List of pins that are to be activated for digital capture. If the list contains more than one element, the names must be separated with a comma.<br><br>All the specified pins must be contained in the port with which the specified vector label is associated. |
+| portlist | If you call the query for all vector labels (ALL for vector_label) and specify a port list, the settings will be returned for the specified ports. The default for this parameter is the default port @ to which all pins belong.<br><br>Specify @@ to display the activated labels of all ports. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SDGC  SDGC  -  Setup DiGital Capture）
 
@@ -24199,28 +20002,9 @@ SHVL [value_1], [value_2]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SHVL  SHVL  -  SHmoo spec VaLues）
 
-|
-
-value_1
-
- |
-
-A double float defining the new value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.
-
-Or use RSTO to restore the original value.
-
- |
- |
-
-value_2
-
- |
-
-A double float defining the new value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.
-
-Or use RSTO to restore the original value.
-
- |
+| value_1 | A double float defining the new value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>Or use RSTO to restore the original value. |
+|---|---|
+| value_2 | A double float defining the new value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>Or use RSTO to restore the original value. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SHVL  SHVL  -  SHmoo spec VaLues）
 
@@ -24349,24 +20133,9 @@ SPCP {"multi-port_spec"}, {(portlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SPCP  -  SPeCification Port list）
 
-|
-
-multi-port_spec
-
- |
-
-Defines the multi-port specification for which the ports are to be queried. You can enter ALL in order to display the ports for all defined multi-port specifications.
-
- |
- |
-
-portlist
-
- |
-
-Displays the ports to which the specification applies.
-
- |
+| multi-port_spec | Defines the multi-port specification for which the ports are to be queried. You can enter ALL in order to display the ports for all defined multi-port specifications. |
+|---|---|
+| portlist | Displays the ports to which the specification applies. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SPCP  -  SPeCification Port list）
 
@@ -24497,15 +20266,8 @@ SPGV {vec_No}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SPGV -  SPlit Generate Vectors）
 
-|
-
-vec_No
-
- |
-
-The logical vector number at which a GENV sequencer construct is to be split.
-
- |
+| vec_No | The logical vector number at which a GENV sequencer construct is to be split. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SPGV -  SPlit Generate Vectors）
 
@@ -24541,28 +20303,9 @@ SPOP {keyword}, {value}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SPOP  SPOP  Set Performance Optimization Parameter）
 
-|
-
-keyword
-
- |
-
-Specifies the parameter for which performance optimization is to be changed or queried. Currently, the only possible value is:
-
-- SVLR_CACHE_DEPTH: Defines the number of timing sets which will be cached for searches and `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`） TIM commands.
-
-For Pin Scale systems, the default is 10, the minmum is 1, and the maximum is 30. For P/C systems, the only possible value is 1.
-
- |
- |
-
-value
-
- |
-
-Specifies the value for the optimization parameter.
-
- |
+| keyword | Specifies the parameter for which performance optimization is to be changed or queried. Currently, the only possible value is:<br><br>- SVLR_CACHE_DEPTH: Defines the number of timing sets which will be cached for searches and `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`） TIM commands.<br><br>For Pin Scale systems, the default is 10, the minmum is 1, and the maximum is 30. For P/C systems, the only possible value is 1. |
+|---|---|
+| value | Specifies the value for the optimization parameter. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SPOP  SPOP  Set Performance Optimization Parameter）
 
@@ -24622,108 +20365,17 @@ SPRM {"multi-port_spec"}, {timing_set_no|"timing_set_list"}, {level_set_id|level
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SPRM  SPRM  -  Set PRiMary sets）
 
-|
-
-waveform_set_no
-
- |
-
-The identification number of the waveform set. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of waveform sets allowed - as defined by `CONF, CONF? - (CONFiguration)`（raw: `02.06.02.02.31_CONF__CONF__-__CONFiguration.md`）.
-
- |
- |
-
-timing_specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
-Note that the spec set ID also identifies the primary wavetable in equation based testing.
-
- |
- |
-
-multi-port_spec
-
- |
-
-For a multi-port setup, specify a primary multi-port specification.
-
- |
- |
-
-timing_set_no
-
- |
-
-The identification number of the timing set. Enter an integer in the range 1 to the maximum number of allowed timing sets (of the selected waveform set or timing specification). The maximum number is determined by `TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).
-
-In a multiport setup, the timing set number applies to all ports of the specification if you do not specify a port. If you do, the number applies to the specified port.
-
- |
- |
-
-timing_set_list
-
- |
-
-In a multi-port setup, you can specify primary timing sets for all ports of the specification by entering a list of numbers separated by commas. The order of the timing sets must correspond to the order of the ports in the multi-port timing specification.
-
-In the query, the numbers of the primary timing sets are returned in a list for all ports of the primary specification unless the numbers are identical for all ports or a port has been specified in the query.
-
- |
- |
-
-level_set_no
-
- |
-
-The identification number of the level set. Enter an integer in the range 1 to the maximum number of allowed level sets. The maximum number is determined by `LSUS, LSUS? - (Level Sets USed)`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).
-
- |
- |
-
-dps_set_no
-
- |
-
-The identification number of the DPS set. Enter an integer in the range 1 to the maximum number of allowed DPS sets. The maximum number is determined by `DSUS, DSUS? - (Dps Sets USed)`（raw: `02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md`）. The number you enter must be less than or equal to the maximum number of DPS sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).
-
- |
- |
-
-level_set_id
-
- |
-
-Derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + level_set_no`
-
- |
- |
-
-dps_set_id
-
- |
-
-Derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + 1`
-
- |
- |
-
-port
-
- |
-
-In a multiport setup, you can specify a port of the specification that was entered as the first parameter. In this case, the timing set number specified as the second parameter will only be applied to the specified port. The port parameter is ignored if a timing set list is specified.
-
- |
+| waveform_set_no | The identification number of the waveform set. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of waveform sets allowed - as defined by `CONF, CONF? - (CONFiguration)`（raw: `02.06.02.02.31_CONF__CONF__-__CONFiguration.md`）. |
+|---|---|
+| timing_specset_id | Derived as follows:<br><br>`100 * equation_set_no + specset_no`<br><br>Note that the spec set ID also identifies the primary wavetable in equation based testing. |
+| multi-port_spec | For a multi-port setup, specify a primary multi-port specification. |
+| timing_set_no | The identification number of the timing set. Enter an integer in the range 1 to the maximum number of allowed timing sets (of the selected waveform set or timing specification). The maximum number is determined by `TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).<br><br>In a multiport setup, the timing set number applies to all ports of the specification if you do not specify a port. If you do, the number applies to the specified port. |
+| timing_set_list | In a multi-port setup, you can specify primary timing sets for all ports of the specification by entering a list of numbers separated by commas. The order of the timing sets must correspond to the order of the ports in the multi-port timing specification.<br><br>In the query, the numbers of the primary timing sets are returned in a list for all ports of the primary specification unless the numbers are identical for all ports or a port has been specified in the query. |
+| level_set_no | The identification number of the level set. Enter an integer in the range 1 to the maximum number of allowed level sets. The maximum number is determined by `LSUS, LSUS? - (Level Sets USed)`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）). |
+| dps_set_no | The identification number of the DPS set. Enter an integer in the range 1 to the maximum number of allowed DPS sets. The maximum number is determined by `DSUS, DSUS? - (Dps Sets USed)`（raw: `02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md`）. The number you enter must be less than or equal to the maximum number of DPS sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）). |
+| level_set_id | Derived as follows:<br><br>`100000 * equation_set_no + 1000 * specset_no + level_set_no` |
+| dps_set_id | Derived as follows:<br><br>`100000 * equation_set_no + 1000 * specset_no + 1` |
+| port | In a multiport setup, you can specify a port of the specification that was entered as the first parameter. In this case, the timing set number specified as the second parameter will only be applied to the specified port. The port parameter is ignored if a timing set list is specified. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SPRM  SPRM  -  Set PRiMary sets）
 
@@ -24843,214 +20495,23 @@ For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all 
  |
 
 Status bits for the status parameter
- |
-
-Bit
-
- |
-
-Description
-
- |
-
-Value
-
- |
- |
-
-0
-
- |
-
-Not available/defined.
-
- |
-
-1
-
- |
- |
-
-1
-
- |
-
-Drive 1 period limit violation.
-
- |
-
-2
-
- |
- |
-
-2
-
- |
-
-Receive 1 period limit violation.
-
- |
-
-4
-
- |
- |
-
-3
-
- |
-
-Drive 2 period limit violation.
-
- |
-
-8
-
- |
- |
-
-4
-
- |
-
-Receive 2 period limit violation.
-
- |
-
-16
-
- |
- |
-
-5
-
- |
-
-Drive edge order violation.
-
- |
-
-32
-
- |
- |
-
-6
-
- |
-
-Tri-state edge order violation.
-
- |
-
-64
-
- |
- |
-
-7
-
- |
-
-Window edge order violation.
-
- |
-
-128
-
- |
- |
-
-8
-
- |
-
-It is possible to modify the timing or level data with `ETIM`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）(`ETDS`（raw: `02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`）), `PCLK`（raw: `02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`）, `CLKR`（raw: `02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md`）, `DRLV`（raw: `02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`）, `RCLV`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`）, `TERM`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`）, and `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`）. If any of these commands are executed, this bit is set automatically for the affected specset, and the restore should bring back the original SPST status.
-
- |
-
-256
-
- |
- |
-
-9
-
- |
-
-Modified with `SHVL`（raw: `02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md`）.
-
- |
-
-512
-
- |
- |
-
-10
-
- |
-
-Modified with `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`）.
-
- |
-
-1024
-
- |
- |
-
-12
-
- |
-
-Absolute range violation.
-
- |
-
-2048
-
- |
- |
-
-13
-
- |
-
-Relative range violation
-
- |
-
-4096
-
- |
- |
-
-14
-
- |
-
-Drive 10 period limit violation
-
- |
-
-8192
-
- |
- |
-
-15
-
- |
-
-Receive 10 period limit violation
-
- |
-
-16384
-
- |
+| Bit | Description | Value |
+|---|---|---|
+| 0 | Not available/defined. | 1 |
+| 1 | Drive 1 period limit violation. | 2 |
+| 2 | Receive 1 period limit violation. | 4 |
+| 3 | Drive 2 period limit violation. | 8 |
+| 4 | Receive 2 period limit violation. | 16 |
+| 5 | Drive edge order violation. | 32 |
+| 6 | Tri-state edge order violation. | 64 |
+| 7 | Window edge order violation. | 128 |
+| 8 | It is possible to modify the timing or level data with `ETIM`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）(`ETDS`（raw: `02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`）), `PCLK`（raw: `02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`）, `CLKR`（raw: `02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md`）, `DRLV`（raw: `02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`）, `RCLV`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`）, `TERM`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`）, and `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`）. If any of these commands are executed, this bit is set automatically for the affected specset, and the restore should bring back the original SPST status. | 256 |
+| 9 | Modified with `SHVL`（raw: `02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md`）. | 512 |
+| 10 | Modified with `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`）. | 1024 |
+| 12 | Absolute range violation. | 2048 |
+| 13 | Relative range violation | 4096 |
+| 14 | Drive 10 period limit violation | 8192 |
+| 15 | Receive 10 period limit violation | 16384 |
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SPST  -  SPecset STatus）
 
@@ -25242,33 +20703,10 @@ SQEC {"context_name"}, {(port_list)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQEC  SQEC  -  SeQuencer Execution Context）
 
-|
-
-context_name
-
- |
-
-The name of the context. If a context with this name already exists, the previous definition will be overwritten.
-
- |
- |
-
-ALL
-
- |
-
-In the query, you can specify ALL in order to retrieve the definitions of all executuion contexts
-
- |
- |
-
-port_list
-
- |
-
-The list of the ports that are to run in this execution context.
-
- |
+| context_name | The name of the context. If a context with this name already exists, the previous definition will be overwritten. |
+|---|---|
+| ALL | In the query, you can specify ALL in order to retrieve the definitions of all executuion contexts |
+| port_list | The list of the ports that are to run in this execution context. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SQEC  SQEC  -  SeQuencer Execution Context）
 
@@ -25495,70 +20933,13 @@ SQIB {BANDWIDTH|TIMEOUT}, {ERIM|ERRQ|FLIM|FLRQ}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQIB  SQIB  -  SeQuencer Interrupt Behavior）
 
-|
-
-BANDWIDTH
-
- |
-
-This refers to the behavior when the detailed error map is located in the external memory, and result recording was aborted due to a bandwidth overflow of the memory.
-
- |
- |
-
-TIMEOUT
-
- |
-
-This refers to the behavior in case of a sequencer timeout.
-
- |
- |
-
-ERIM
-
- |
-
-SmarTest issues an error message immediately after completion of the test. In case of a recording abort, this message reports the channels, pins, and sites of all channel groups on which recording was aborted.
-
-In case of a sequencer timeout, a list of those channels is returned on which the timeout occurred.
-
- |
- |
-
-FLIM
-
- |
-
-This option is only allowed with TIMEOUT.
-
-SmarTest reports the test as failed, that is, FTST? returns F. This is the default for TIMEOUT.
-
- |
- |
-
-ERRQ
-
- |
-
-This option is only allowed with BANDWIDTH.
-
-SmarTest does not issue an error message immediately after completion of the test, but only if a channel which is involved in a recording abort is queried for result data. In this case again, the channels, pins, and sites of all channel groups on which recording was aborted will be reported. This is the default for BANDWIDTH.
-
- |
- |
-
-FLRQ
-
- |
-
-This option is only allowed with BANDWIDTH.
-
-SmarTest does not issue any error message. If a channel of a group on which recording was aborted is queried for result data, all its cycles will be reported as failing.
-
-This option can be used in a production environment if the result data is recorded in acquire failure mode, since if any data is recorded with this recording mode, the device must in fact have failed. Actually, recording will only be aborted in case of a massive fail on several pins.
-
- |
+| BANDWIDTH | This refers to the behavior when the detailed error map is located in the external memory, and result recording was aborted due to a bandwidth overflow of the memory. |
+|---|---|
+| TIMEOUT | This refers to the behavior in case of a sequencer timeout. |
+| ERIM | SmarTest issues an error message immediately after completion of the test. In case of a recording abort, this message reports the channels, pins, and sites of all channel groups on which recording was aborted.<br><br>In case of a sequencer timeout, a list of those channels is returned on which the timeout occurred. |
+| FLIM | This option is only allowed with TIMEOUT.<br><br>SmarTest reports the test as failed, that is, FTST? returns F. This is the default for TIMEOUT. |
+| ERRQ | This option is only allowed with BANDWIDTH.<br><br>SmarTest does not issue an error message immediately after completion of the test, but only if a channel which is involved in a recording abort is queried for result data. In this case again, the channels, pins, and sites of all channel groups on which recording was aborted will be reported. This is the default for BANDWIDTH. |
+| FLRQ | This option is only allowed with BANDWIDTH.<br><br>SmarTest does not issue any error message. If a channel of a group on which recording was aborted is queried for result data, all its cycles will be reported as failing.<br><br>This option can be used in a production environment if the result data is recorded in acquire failure mode, since if any data is recorded with this recording mode, the device must in fact have failed. Actually, recording will only be aborted in case of a massive fail on several pins. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SQIB  SQIB  -  SeQuencer Interrupt Behavior）
 
@@ -25588,60 +20969,13 @@ SQIT {BANDWIDTH|TIMEOUT|OTHER}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQIT  -  SeQuencer InterRupt）
 
-|
-
-context
-
- |
-
-The name of an execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）.
-
- |
- |
-
-NO
-
- |
-
-No interrupt occurred during execution of the last test.
-
- |
- |
-
-BANDWIDTH
-
- |
-
-An interrupt occurred due to a bandwidth error.
-
- |
- |
-
-TIMEOUT
-
- |
-
-An interrupt occurred due to a timeout error.
-
- |
- |
-
-OTHER
-
- |
-
-An interrupt occurred due to an error that was neither a bandwidth nor a timeout error..
-
- |
- |
-
-pinlist
-
- |
-
-The pins on which the specified interrupt was observed.
-
- |
+| context | The name of an execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）. |
+|---|---|
+| NO | No interrupt occurred during execution of the last test. |
+| BANDWIDTH | An interrupt occurred due to a bandwidth error. |
+| TIMEOUT | An interrupt occurred due to a timeout error. |
+| OTHER | An interrupt occurred due to an error that was neither a bandwidth nor a timeout error.. |
+| pinlist | The pins on which the specified interrupt was observed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SQIT  -  SeQuencer InterRupt）
 
@@ -26681,24 +22015,9 @@ SQRC {"context_name"|ALL}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQRC -  SeQuencer Remove execution Context）
 
-|
-
-context_name
-
- |
-
-The name of the context to be removed.
-
- |
- |
-
-ALL
-
- |
-
-With this option, all existing contexts will be removed.
-
- |
+| context_name | The name of the context to be removed. |
+|---|---|
+| ALL | With this option, all existing contexts will be removed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SQRC -  SeQuencer Remove execution Context）
 
@@ -26726,15 +22045,8 @@ SQRP {(port)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQRP  SQRP  -  SeQuencer Reference Port）
 
-|
-
-port
-
- |
-
-This parameter specifies the reference port.
-
- |
+| port | This parameter specifies the reference port. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SQRP  SQRP  -  SeQuencer Reference Port）
 
@@ -26814,66 +22126,13 @@ SQSL {"label"}, {"site_string"}, {type}, {(portlist)}
 ```
 
 Parameters
- |
-
-label
-
- |
-
-The name of a sequencer start label. In the command, you can enter an empty string ("") to deactivate the current start label.
-
- |
- |
-
-site|"site_string"
-
- |
-
-In the command, you can either specify a number to identify a single site, or a string of 1's and 0's. The length of the string must correspond to the number of the configured sites. The nth character of this string stands for site n.
-
-"1" means that the specified label is to be assigned as the new start label to the respective site, "0" means that the current start label is not changed.
-
-If you omit this parameter, the specified label will be made the start label of all sites.
-
-When ALL was specified in the query, a site string is returned.
-
- |
- |
-
-TYPE
-
- |
-
-If you issue SQSL? without any parameter, the query will return the name of the current start label for the site that has the query focus. If you add TYPE, not only the name, but also the type and the associated ports of this label will be returned.
-
- |
- |
-
-ALL
-
- |
-
-If you specify this keyword in the query, SQSL? will return the start labels of all sites, including their type and associated ports.
-
- |
- |
-
-type
-
- |
-
-The type of the label. For an explanation of the possible types, see the SQLB command.
-
- |
- |
-
-portlist
-
- |
-
-This can be the default port @ which comprises all configured pins, or, in the case of a multi-port burst, the ports with which the label is associated.
-
- |
+| label | The name of a sequencer start label. In the command, you can enter an empty string ("") to deactivate the current start label. |
+|---|---|
+| site\|"site_string" | In the command, you can either specify a number to identify a single site, or a string of 1's and 0's. The length of the string must correspond to the number of the configured sites. The nth character of this string stands for site n.<br><br>"1" means that the specified label is to be assigned as the new start label to the respective site, "0" means that the current start label is not changed.<br><br>If you omit this parameter, the specified label will be made the start label of all sites.<br><br>When ALL was specified in the query, a site string is returned. |
+| TYPE | If you issue SQSL? without any parameter, the query will return the name of the current start label for the site that has the query focus. If you add TYPE, not only the name, but also the type and the associated ports of this label will be returned. |
+| ALL | If you specify this keyword in the query, SQSL? will return the start labels of all sites, including their type and associated ports. |
+| type | The type of the label. For an explanation of the possible types, see the SQLB command. |
+| portlist | This can be the default port @ which comprises all configured pins, or, in the case of a multi-port burst, the ports with which the label is associated. |
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SQSL  SQSL  -  SeQuencer Start Label）
 
@@ -27038,15 +22297,8 @@ SQTO {timeout}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SQTO  SQTO  -  SeQuencer TimeOut）
 
-|
-
-timeout
-
- |
-
-Defines the time (in seconds) that the sequencer runs. The default value is 900 and the range is 0.001 to 2147483.
-
- |
+| timeout | Defines the time (in seconds) that the sequencer runs. The default value is 900 and the range is 0.001 to 2147483. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SQTO  SQTO  -  SeQuencer TimeOut）
 
@@ -27147,17 +22399,8 @@ SRPR?
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SRPR  SRPR  -  Set Routing PRimary）
 
-|
-
-set
-
- |
-
-An identification number of the routing set. This is an integer from 1 to the maximum number defined by the DSCP command.
-
-If the NONE specifier is specified, no routing statements will be executed by the next command.
-
- |
+| set | An identification number of the routing set. This is an integer from 1 to the maximum number defined by the DSCP command.<br><br>If the NONE specifier is specified, no routing statements will be executed by the next command. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SRPR  SRPR  -  Set Routing PRimary）
 
@@ -27425,15 +22668,8 @@ SSRC {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SSRC -  Source Synchronous testing  Remove Configurations）
 
-|
-
-pinlist
-
- |
-
-The pins whose buffer configurations are to be removed. Pins for which no buffer configuration exists are ignored.
-
- |
+| pinlist | The pins whose buffer configurations are to be removed. Pins for which no buffer configuration exists are ignored. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SSRC -  Source Synchronous testing  Remove Configurations）
 
@@ -27602,42 +22838,11 @@ STME {ON|OFF|FAST),
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › STME  STME  -  SiTe Match Enable）
 
-|
-
-ON
-
- |
-
-Turns the site match function on.
-
- |
- |
-
-OFF
-
- |
-
-Turns the site match function off.
-
- |
- |
-
-AUTO
-
- |
-
-Starting the sites successively affects the test negatively if the pin configuration contains at least one shared digital channel for triggering an analog module. The AUTO option checks if such a shared channel exists. If it does, the match site function is set to OFF; if not, it is set to ON. AUTO is the default.
-
- |
- |
-
-FAST
-
- |
-
-Activates the `Fast Sync`（raw: `02.06.07.01.08.04.03.03_Fast_Sync.md`） feature (local synchronization) of the test processor. After setting this option," STME ON" is required to turn on the site match function.
-
- |
+| ON | Turns the site match function on. |
+|---|---|
+| OFF | Turns the site match function off. |
+| AUTO | Starting the sites successively affects the test negatively if the pin configuration contains at least one shared digital channel for triggering an analog module. The AUTO option checks if such a shared channel exists. If it does, the match site function is set to OFF; if not, it is set to ON. AUTO is the default. |
+| FAST | Activates the `Fast Sync`（raw: `02.06.07.01.08.04.03.03_Fast_Sync.md`） feature (local synchronization) of the test processor. After setting this option," STME ON" is required to turn on the site match function. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › STME  STME  -  SiTe Match Enable）
 
@@ -27672,165 +22877,20 @@ STRS {res_spec}, [pass_meas_value], [fail_meas_value], [(pinlist)]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › STRS  -  Spec TRansition Search）
 
-|
-
-exec_context
-
- |
-
-An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .
-
- |
- |
-
-start
-
- |
-
-Double float with up to 5 digits after the decimal point defining the value of spec_name at the start of the search. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the minimum value as defined in the spec set will be used.
-
-The start value can be greater than the stop value. In this case the search will be in the negative direction.
-
- |
- |
-
-stop
-
- |
-
-Double float with up to 5 digits after the decimal point defining the value of spec_name where you want the search to end. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the maximum value as defined in the spec set will be used.
-
-The stop value can be smaller than the start value. In this case the search will be in the negative direction.
-
- |
- |
-
-mode
-
- |
-
-Search mode. Use:
-
-L to specify a linear search,
-
-LB to specify linear/binary search,
-
-B to specify a binary search.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which the value of the spec variable is to be modified. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） command. If more than one pin is to be included, the names must be separated with a comma.
-
-The @ character indicates all pins. This is the default.
-
- |
- |
-
-spec_type
-
- |
-
-Which specification type to use. Use :
-
-LEV to specify levels, or
-
-TIM to specify timing.
-
- |
- |
-
-spec_name
-
- |
-
-A string of up to 64 alphanumeric characters (upper or lower case) enclosed in double quotes.
-
-If you use the option @port`[`@UNCHANGED`]`, (see the port parameter), you must include this extension in the double quotes, too.
-
- |
- |
-
-port
-
- |
-
-In a multi-port setup, you can add a port name to the spec variable. This will have the effect that the value of the variable will be modified only for pins belonging to this port. This holds even if the variable has global scope for this port in the timing specification.
-
-If you specify the spec variable without a port in a multi-port setup, its value will only be modified for a pin whose port has the spec variable set to global scope.
-
-For more information on the scope of a variable see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）.
-
-Note that if a port that is specified with the name of the variable it is this port on which the value of the variable will be modified. The setup pins have no influence on this.
-
-On a Pin Scale system, the specification of a port will have an additional effect:
-
-If spec_name is used in the definition of the port period, this port will be temporarily used as the primary port. For more information see `Modifying the period for a search or shmoo in a multi-port setup`（raw: `02.06.09.01.01.01_Modifying_the_period_for_a_search_or_shmoo_in_a_multi-port_setup__Pin_Sc.md`）.
-
-This switch can be suppressed by adding @UNCHANGED to the port name.
-
- |
- |
-
-stepwidth
-
- |
-
-The search step width in the unit specified with the corresponding spec. This is optional if mode is B.
-
- |
- |
-
-resolution
-
- |
-
-The smallest step size to be used in the search. Especially useful in a binary search of a range of floating point numbers, where the number of values between start and stop is infinite. The unit must be the same as defined with the spec.
-
- |
- |
-
-res_spec
-
- |
-
-LT (less than)
-
-LE (less than or equal to)
-
-EQ (equal to)
-
-GE (greater than or equal to)
-
-GT (greater than).
-
- |
- |
-
-pass_meas_value
-
- |
-
-A double float defining the passed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.
-
-This parameter contains the last (in a PASS/FAIL transition) or the first (in a FAIL/PASS transition) value where the test passed.
-
- |
- |
-
-fail_meas_value
-
- |
-
-A double float defining the failed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.
-
-This parameter contains the first (in a PASS/FAIL transition) or the last (in a FAIL/PASS transition) value where the test failed.
-
- |
+| exec_context | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） . |
+|---|---|
+| start | Double float with up to 5 digits after the decimal point defining the value of spec_name at the start of the search. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the minimum value as defined in the spec set will be used.<br><br>The start value can be greater than the stop value. In this case the search will be in the negative direction. |
+| stop | Double float with up to 5 digits after the decimal point defining the value of spec_name where you want the search to end. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the maximum value as defined in the spec set will be used.<br><br>The stop value can be smaller than the start value. In this case the search will be in the negative direction. |
+| mode | Search mode. Use:<br><br>L to specify a linear search,<br><br>LB to specify linear/binary search,<br><br>B to specify a binary search. |
+| pinlist | The name of the pin or pins for which the value of the spec variable is to be modified. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） command. If more than one pin is to be included, the names must be separated with a comma.<br><br>The @ character indicates all pins. This is the default. |
+| spec_type | Which specification type to use. Use :<br><br>LEV to specify levels, or<br><br>TIM to specify timing. |
+| spec_name | A string of up to 64 alphanumeric characters (upper or lower case) enclosed in double quotes.<br><br>If you use the option @port`[`@UNCHANGED`]`, (see the port parameter), you must include this extension in the double quotes, too. |
+| port | In a multi-port setup, you can add a port name to the spec variable. This will have the effect that the value of the variable will be modified only for pins belonging to this port. This holds even if the variable has global scope for this port in the timing specification.<br><br>If you specify the spec variable without a port in a multi-port setup, its value will only be modified for a pin whose port has the spec variable set to global scope.<br><br>For more information on the scope of a variable see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）.<br><br>Note that if a port that is specified with the name of the variable it is this port on which the value of the variable will be modified. The setup pins have no influence on this.<br><br>On a Pin Scale system, the specification of a port will have an additional effect:<br><br>If spec_name is used in the definition of the port period, this port will be temporarily used as the primary port. For more information see `Modifying the period for a search or shmoo in a multi-port setup`（raw: `02.06.09.01.01.01_Modifying_the_period_for_a_search_or_shmoo_in_a_multi-port_setup__Pin_Sc.md`）.<br><br>This switch can be suppressed by adding @UNCHANGED to the port name. |
+| stepwidth | The search step width in the unit specified with the corresponding spec. This is optional if mode is B. |
+| resolution | The smallest step size to be used in the search. Especially useful in a binary search of a range of floating point numbers, where the number of values between start and stop is infinite. The unit must be the same as defined with the spec. |
+| res_spec | LT (less than)<br><br>LE (less than or equal to)<br><br>EQ (equal to)<br><br>GE (greater than or equal to)<br><br>GT (greater than). |
+| pass_meas_value | A double float defining the passed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>This parameter contains the last (in a PASS/FAIL transition) or the first (in a FAIL/PASS transition) value where the test passed. |
+| fail_meas_value | A double float defining the failed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>This parameter contains the first (in a PASS/FAIL transition) or the last (in a FAIL/PASS transition) value where the test failed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › STRS  -  Spec TRansition Search）
 
@@ -28074,35 +23134,10 @@ returns a comment text for each TCMT in the range vect_addr to vect_addr `+`vect
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TCMT  TCMT  -  Test CoMment Transfer）
 
-|
-
-vect_addr
-
- |
-
-The logical number of the vector at which the comment is to be inserted or read. The specified number range must not exceed the maximum vector address allowed by the system.
-
- |
- |
-
-text
-
- |
-
-A string of up to 250 characters. The string must be enclosed with double quotes.
-
-Comments can contain any characters with ASCII codes from 32 to 126, that is, all printable ASCII characters. To put a double quote character (", ASCII 34) into a comment, enter two double quote characters.
-
- |
- |
-
-vect_length
-
- |
-
-The vector range forwards from vect_addr.
-
- |
+| vect_addr | The logical number of the vector at which the comment is to be inserted or read. The specified number range must not exceed the maximum vector address allowed by the system. |
+|---|---|
+| text | A string of up to 250 characters. The string must be enclosed with double quotes.<br><br>Comments can contain any characters with ASCII codes from 32 to 126, that is, all printable ASCII characters. To put a double quote character (", ASCII 34) into a comment, enter two double quote characters. |
+| vect_length | The vector range forwards from vect_addr. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TCMT  TCMT  -  Test CoMment Transfer）
 
@@ -28120,179 +23155,19 @@ Italic text in the syntax descriptions below indicates meta-syntax, as described
 
 The attributes used in the XML data, grouped by element (elements are in alphabetical order):
 
- |
-
-apgFile
-
- |
-
-name: <apgFilePath>, a string, is the path to the compiled `APG program file`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.03_APG_program_file.md`）.
-
- |
- |
-
-bitInversion
-
- |
-
-name: <bitInversionName>, a string, is the name of the bit inversion setting used.
-
-See the discussion of :bitInversion: in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details.
-
- |
- |
-
-bitOrdering
-
- |
-
-name: <bitOderingName>, a string, is the name of the bit oderingsetting used.
-
-See the discussion of :bitOrdering: in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details.
-
- |
- |
-
-crc
-
- |
-
-name: <crcName>, a string, is the name of the cyclic redundancy check setting used.
-
-See the discussion of :crc: in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details.
-
- |
- |
-
-dbi
-
- |
-
-name: <dbiName>, a string, is the name of the data bus inversion setting used.
-
-See the discussion of :dbi: in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details.
-
- |
- |
-
-digital
-
- |
-
-refInsertionCtrl: <refreshType>, a string, is the type of refresh insertion control on the pin. Supported types include:
-
-- SEQ
-- SEQUENCER
-- VEC
-- VECTOR
-
-For an explanation of the refresh insertion control types, see the discussion of using interrupCtrl in `Pin mapping file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.06.01_Pin_mapping_file_syntax.md`）.
-
- |
- |
-
-layer
-
- |
-
-- id: <layerId>, an integer, is the unique ID of the layer being defined.
-- type: <layerType>, a string, is the type of operation applied by the layer, crc (cyclic redundancy check) or dbi (data bus inversion).
-
-See `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details.
-
-The order of the layer elements within the errorCorrection element determines the order in which the error correction operations are applied.
-
- |
- |
-
-options
-
- |
-
-- expansionSize: <expansionSize>, an integer, is the expansion size setting used for the compilation.
-
-See the description of the -e option in `apgc command syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.02.05.01_apgc_command_syntax.md`） for details.
-
-- limitVariableScope: <limitScope>, a boolean, is the setting of the variable scope limitation:
-
-  - "true": Limited variable scope was active for compilation.
-  - "false": Extended variable scope was active for compilation.
-
-See the description of the -evs and -lvs options in `apgc command syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.02.05.01_apgc_command_syntax.md`） for details.
-
-- reconstructionLevel: <reconstructionLevel>, a string, is the reconstruction level with which the label was compiled.
-
-See the description of the -r0, r1, and r2 options in `apgc command syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.02.05.01_apgc_command_syntax.md`） for details.
-
-- reusableMaintenance: <reuse>, a boolean, is the setting whether the label has been compiled as a reusable maintenance operation.
-
-See the description of the -m option in `apgc command syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.02.05.01_apgc_command_syntax.md`） for details.
-
-- wavetableGeneration: <generateWavetable>, a boolean, is the setting whether new waveforms have been generated during the compilation.
-
-See the description of the -w option in `apgc command syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.02.05.01_apgc_command_syntax.md`） for details.
-
- |
- |
-
-pin
-
- |
-
-- id: <pinId>, an integer, is the unique ID of the pin being defined or referenced. If this <pin> element is a reference, the value of the id attribute must match one of the pins defined in the <pinMap> element.
-- name: <pinName>, a string, is the name of the pin being defined. This attribute is optional.
-- xmode: <pinXmode>, a string, is the xmode of the pin being defined. This attribute is optional.
-
-See the description of the xmode pin attribute in `Pin mapping file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.06.01_Pin_mapping_file_syntax.md`） for details.
-
-- system: <value> can be true or false. The default value is false. If system = true, SmarTest will generate corresponding programs for those pins (system generated). No vector data will be generated for those pins by MTP.
-- optional: <value> can be true or false. The default value is false. If optional = true, even this pin is not defined in the pin configuration file, SmarTest will skip this pin and run the relative MTL patterns without warning.
- |
- |
-
-scramble
-
- |
-
-name: <scrambleName>, a string, is the name of the scrambling setting used.
-
-See the discussion of :scramble: in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details.
-
- |
- |
-
-sequencerProgram
-
- |
-
-checkSum: <checkSum>, an integer, contains the checksum of the label as calculated by the MTL compiler.
-
- |
- |
-
-timer
-
- |
-
-- id: <timerId>, an integer, is the unique ID of the maintenance settings being defined.
-- timerMode: <timerMode>, a string, is the name of the pin being defined. This attribute is optional.
-
-See the description of the :timerMode: keyword in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details
-
-- intervalMode: <intervalMode>, a string, is the interval mode defined for this refresh operation setting.
-
-See the description of the :intervalMode: keyword in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details
-
-- refreshCtrl: <refreshCtrl>, a string, reflects the refresh control settings with which the label has been compiled:
-
-  - start: The REFRESH_CTRL(START) command has been used.
-  - none: The REFRESH_CTRL(START) command has not been used, but refresh is enabled.
-
-If refresh has been disabled and the REFRESH_CTRL(START) command has not been used, there is no refreshCtrl attribute at all.
-
-The REFRESH_CTRL function is described in `Macros and functions in program files`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.03.01.08_Macros_and_functions_in_program_files.md`）.
-
- |
+| apgFile | name: <apgFilePath>, a string, is the path to the compiled `APG program file`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.03_APG_program_file.md`）. |
+|---|---|
+| bitInversion | name: <bitInversionName>, a string, is the name of the bit inversion setting used.<br><br>See the discussion of :bitInversion: in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details. |
+| bitOrdering | name: <bitOderingName>, a string, is the name of the bit oderingsetting used.<br><br>See the discussion of :bitOrdering: in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details. |
+| crc | name: <crcName>, a string, is the name of the cyclic redundancy check setting used.<br><br>See the discussion of :crc: in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details. |
+| dbi | name: <dbiName>, a string, is the name of the data bus inversion setting used.<br><br>See the discussion of :dbi: in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details. |
+| digital | refInsertionCtrl: <refreshType>, a string, is the type of refresh insertion control on the pin. Supported types include:<br><br>- SEQ<br>- SEQUENCER<br>- VEC<br>- VECTOR<br><br>For an explanation of the refresh insertion control types, see the discussion of using interrupCtrl in `Pin mapping file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.06.01_Pin_mapping_file_syntax.md`）. |
+| layer | - id: <layerId>, an integer, is the unique ID of the layer being defined.<br>- type: <layerType>, a string, is the type of operation applied by the layer, crc (cyclic redundancy check) or dbi (data bus inversion).<br><br>See `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details.<br><br>The order of the layer elements within the errorCorrection element determines the order in which the error correction operations are applied. |
+| options | - expansionSize: <expansionSize>, an integer, is the expansion size setting used for the compilation.<br><br>See the description of the -e option in `apgc command syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.02.05.01_apgc_command_syntax.md`） for details.<br><br>- limitVariableScope: <limitScope>, a boolean, is the setting of the variable scope limitation:<br><br>- "true": Limited variable scope was active for compilation.<br>- "false": Extended variable scope was active for compilation.<br><br>See the description of the -evs and -lvs options in `apgc command syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.02.05.01_apgc_command_syntax.md`） for details.<br><br>- reconstructionLevel: <reconstructionLevel>, a string, is the reconstruction level with which the label was compiled.<br><br>See the description of the -r0, r1, and r2 options in `apgc command syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.02.05.01_apgc_command_syntax.md`） for details.<br><br>- reusableMaintenance: <reuse>, a boolean, is the setting whether the label has been compiled as a reusable maintenance operation.<br><br>See the description of the -m option in `apgc command syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.02.05.01_apgc_command_syntax.md`） for details.<br><br>- wavetableGeneration: <generateWavetable>, a boolean, is the setting whether new waveforms have been generated during the compilation.<br><br>See the description of the -w option in `apgc command syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.02.05.01_apgc_command_syntax.md`） for details. |
+| pin | - id: <pinId>, an integer, is the unique ID of the pin being defined or referenced. If this <pin> element is a reference, the value of the id attribute must match one of the pins defined in the <pinMap> element.<br>- name: <pinName>, a string, is the name of the pin being defined. This attribute is optional.<br>- xmode: <pinXmode>, a string, is the xmode of the pin being defined. This attribute is optional.<br><br>See the description of the xmode pin attribute in `Pin mapping file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.06.01_Pin_mapping_file_syntax.md`） for details.<br><br>- system: <value> can be true or false. The default value is false. If system = true, SmarTest will generate corresponding programs for those pins (system generated). No vector data will be generated for those pins by MTP.<br>- optional: <value> can be true or false. The default value is false. If optional = true, even this pin is not defined in the pin configuration file, SmarTest will skip this pin and run the relative MTL patterns without warning. |
+| scramble | name: <scrambleName>, a string, is the name of the scrambling setting used.<br><br>See the discussion of :scramble: in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details. |
+| sequencerProgram | checkSum: <checkSum>, an integer, contains the checksum of the label as calculated by the MTL compiler. |
+| timer | - id: <timerId>, an integer, is the unique ID of the maintenance settings being defined.<br>- timerMode: <timerMode>, a string, is the name of the pin being defined. This attribute is optional.<br><br>See the description of the :timerMode: keyword in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details<br><br>- intervalMode: <intervalMode>, a string, is the interval mode defined for this refresh operation setting.<br><br>See the description of the :intervalMode: keyword in `Device architecture file syntax`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`） for details<br><br>- refreshCtrl: <refreshCtrl>, a string, reflects the refresh control settings with which the label has been compiled:<br><br>- start: The REFRESH_CTRL(START) command has been used.<br>- none: The REFRESH_CTRL(START) command has not been used, but refresh is enabled.<br><br>If refresh has been disabled and the REFRESH_CTRL(START) command has not been used, there is no refreshCtrl attribute at all.<br><br>The REFRESH_CTRL function is described in `Macros and functions in program files`（raw: `../02.12_Memory_Test_Plus_7.10.2/02.12.03.03.03.01.08_Macros_and_functions_in_program_files.md`）. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TDEX  Test Data Extension）
 
@@ -28481,128 +23356,17 @@ TERM {level_set_no | level_set_id}, {term_mode}, [term_pulldown,] [param_1], [pa
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TERM  TERM  -  TERMination mode）
 
-|
-
-level_set_no
-
- |
-
-The identification number of the level set in which you want the definitions to be included. The number must not exceed the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）) and the level sets used (as defined by `LSUS`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）). Entering ALL in this field sets the termination mode for all existing level sets (except level set 0). Entering PRM in this field defines the termination mode for the primary level set.
-
-Standard level sets have a number > 0. Level set 0 is a dedicated level set for digital pins in high-Z state. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）.
-
- |
- |
-
-level_set_id
-
- |
-
-Derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + level_set_no`
-
- |
- |
-
-term_mode
-
- |
-
-The termination mode has dependencies to pin types and to the parameters (term_pulldown and param_1 to param_3 - see the syntax). The allowed combinations are shown in the Termination modes table, below.
-
-Level set 0 only supports the termination modes OFF (the default), T, C, and A.
-
- |
- |
-
-term_pulldown
-
- |
-
-Extra parameter that defines the pull down mode. For more information refer to column term_mode of table Termination modes below.
-
-The query returns the parameter only if it is defined for the queried level set.
-
- |
- |
-
-param_1
-
- |
-
-The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_1 gives the termination voltage, active load commutation voltage, or the clamp low level voltage. The units are mV.
-
- |
- |
-
-param_2
-
- |
-
-The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_2 defines the active load Iol current, or the clamp high level voltage. The units are mA or mV respectively.
-
-When used, param_2 defines either
-
-- the active load Iol current in µA,
-- the clamp high level voltage in mV, or
-- the receiver swing voltage in mV.
-
-For the NP termination modes SP, SM, SEP, or SEM, param_2 defines the receiver threshold in mV.
-
- |
- |
-
-param_3
-
- |
-
-The use of this parameter depends on the termination mode as shown in the Termination modes table, below:
-
-- For term_mode = A, param_3 defines the active load Ioh current. The units are µA.
-- For term_mode = CT, param_3 defines the receiver offset in mV.
-- For term_mode = bidir_receiver, param_3 defines the receiver offset in mV.
- |
- |
-
-l_range
-
- |
-
-For term_mode `=`A the low level current range.
-
-This parameter can be
-
-- I5E3: Defines the low current range of 0 to 5 mA.
-- I3E4: Defines the high current range of 0 to 30 mA.
-- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range.
-
-This parameter is not supported for AVI64.
-
- |
- |
-
-h_range
-
- |
-
-For term_mode `=`A the high level current range.
-
-This parameter can be
-
-- I5E3: Defines the low current range of 0 to 5 mA.
-- I3E4: Defines the high current range of 0 to 30 mA.
-- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range.
- |
- |
-
-pinlist
-
- |
-
-The pin name or names of those power supply outputs which have already been defined. If more than one pin is required, the names must be separated with a comma. The @ character can be used to read all configured power supply pins.
-
- |
+| level_set_no | The identification number of the level set in which you want the definitions to be included. The number must not exceed the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）) and the level sets used (as defined by `LSUS`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）). Entering ALL in this field sets the termination mode for all existing level sets (except level set 0). Entering PRM in this field defines the termination mode for the primary level set.<br><br>Standard level sets have a number > 0. Level set 0 is a dedicated level set for digital pins in high-Z state. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）. |
+|---|---|
+| level_set_id | Derived as follows:<br><br>`100000 * equation_set_no + 1000 * specset_no + level_set_no` |
+| term_mode | The termination mode has dependencies to pin types and to the parameters (term_pulldown and param_1 to param_3 - see the syntax). The allowed combinations are shown in the Termination modes table, below.<br><br>Level set 0 only supports the termination modes OFF (the default), T, C, and A. |
+| term_pulldown | Extra parameter that defines the pull down mode. For more information refer to column term_mode of table Termination modes below.<br><br>The query returns the parameter only if it is defined for the queried level set. |
+| param_1 | The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_1 gives the termination voltage, active load commutation voltage, or the clamp low level voltage. The units are mV. |
+| param_2 | The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_2 defines the active load Iol current, or the clamp high level voltage. The units are mA or mV respectively.<br><br>When used, param_2 defines either<br><br>- the active load Iol current in µA,<br>- the clamp high level voltage in mV, or<br>- the receiver swing voltage in mV.<br><br>For the NP termination modes SP, SM, SEP, or SEM, param_2 defines the receiver threshold in mV. |
+| param_3 | The use of this parameter depends on the termination mode as shown in the Termination modes table, below:<br><br>- For term_mode = A, param_3 defines the active load Ioh current. The units are µA.<br>- For term_mode = CT, param_3 defines the receiver offset in mV.<br>- For term_mode = bidir_receiver, param_3 defines the receiver offset in mV. |
+| l_range | For term_mode `=`A the low level current range.<br><br>This parameter can be<br><br>- I5E3: Defines the low current range of 0 to 5 mA.<br>- I3E4: Defines the high current range of 0 to 30 mA.<br>- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range.<br><br>This parameter is not supported for AVI64. |
+| h_range | For term_mode `=`A the high level current range.<br><br>This parameter can be<br><br>- I5E3: Defines the low current range of 0 to 5 mA.<br>- I3E4: Defines the high current range of 0 to 30 mA.<br>- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range. |
+| pinlist | The pin name or names of those power supply outputs which have already been defined. If more than one pin is required, the names must be separated with a comma. The @ character can be used to read all configured power supply pins. |
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › TERM  TERM  -  TERMination mode）
 
@@ -28815,79 +23579,12 @@ returns
 TMUL {client}, {type}, {"reportString"}, {(portlist)}
 
 Parameter
- |
-
-Name
-
- |
-
-Description
-
- |
- |
-
-client
-
- |
-
-Use either of:
-
-PROTOCOLTEST - to query protocol test clients only
-
-ALL - to query all supported clients
-
- |
- |
-
-type
-
- |
-
-Use either of:
-
-CACHE - to query cache related information only
-
-SIZE - to query size related information only
-
-ALL - to query all supported types
-
- |
- |
-
-portList
-
- |
-
-Is a comma separated list of ports.
-
-To query all ports, use @@
-
- |
- |
-
-reportString
-
- |
-
-Contains the information queried in string format.
-
-The output will differ depending on the type queried:
-
-- Output for type CACHE: {number of hits}, {number of misses}, {number of removed entries}
-
-  - number of hits: Number of times an entry had been found in the cache.
-  - number of misses: Number of times a new entry had been added to cache because the entry was not found in cache already.
-  - number of removed entries: Number of entries removed from cache because an entry should be added, but no sufficient space was available
-
-- Output for type SIZE in bytes: {min memory mark}, {high memory mark}, {limit}
-
-  - min memory mark: The minimum memory size (in bytes) required to store generated data.
-  - high memory mark: The maximum memory size (in bytes) that has been utilized during testing.
-  - limit: Specified size limit (in bytes).
-
-If no limit is specified, the system will either return "AUTO", if no limit had been specified at all, or the limit specified by `PROTOCOL_TEST::reserveTransactionMemory()`.
-
- |
+| Name | Description |
+|---|---|
+| client | Use either of:<br><br>PROTOCOLTEST - to query protocol test clients only<br><br>ALL - to query all supported clients |
+| type | Use either of:<br><br>CACHE - to query cache related information only<br><br>SIZE - to query size related information only<br><br>ALL - to query all supported types |
+| portList | Is a comma separated list of ports.<br><br>To query all ports, use @@ |
+| reportString | Contains the information queried in string format.<br><br>The output will differ depending on the type queried:<br><br>- Output for type CACHE: {number of hits}, {number of misses}, {number of removed entries}<br><br>- number of hits: Number of times an entry had been found in the cache.<br>- number of misses: Number of times a new entry had been added to cache because the entry was not found in cache already.<br>- number of removed entries: Number of entries removed from cache because an entry should be added, but no sufficient space was available<br><br>- Output for type SIZE in bytes: {min memory mark}, {high memory mark}, {limit}<br><br>- min memory mark: The minimum memory size (in bytes) required to store generated data.<br>- high memory mark: The maximum memory size (in bytes) that has been utilized during testing.<br>- limit: Specified size limit (in bytes).<br><br>If no limit is specified, the system will either return "AUTO", if no limit had been specified at all, or the limit specified by `PROTOCOL_TEST::reserveTransactionMemory()`. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TMUL   Tester Memory Utilization Log）
 
@@ -29332,35 +24029,10 @@ TOCR {(result_pinlist)}, {(setup_pin)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TOCR  TOCR  -  Timing level Offset Configure Result pins）
 
-|
-
-result_pinlist
-
- |
-
-In the command, this parameter specifies the result pins for the setup pin specified with setup_pin. It can be omitted for O or IO setup pins. In this case the result pin will be identical with the setup pin.
-
-In the query, it lists the result pins for which the associated setup pins are to be retrieved.
-
- |
- |
-
-setup_pin
-
- |
-
-The setup pin for which the result pins are to be defined.
-
- |
- |
-
-setup_pinlist
-
- |
-
-This query parameter lists the setup pins, for which the associated result pins are to be retrieved.
-
- |
+| result_pinlist | In the command, this parameter specifies the result pins for the setup pin specified with setup_pin. It can be omitted for O or IO setup pins. In this case the result pin will be identical with the setup pin.<br><br>In the query, it lists the result pins for which the associated setup pins are to be retrieved. |
+|---|---|
+| setup_pin | The setup pin for which the result pins are to be defined. |
+| setup_pinlist | This query parameter lists the setup pins, for which the associated result pins are to be retrieved. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TOCR  TOCR  -  Timing level Offset Configure Result pins）
 
@@ -29379,141 +24051,20 @@ This example queries the result pins for Pin1 and Pin5. No reply is given for se
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TORC -  Timing level Offset Result Copy）
 
-|
-
-source_waveform_set
-
- |
-
-Number of the source waveform set. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets.
-
- |
- |
-
-source_specset_id
-
- |
-
-The source specification ID (single port). It is derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-source_multi-port_spec
-
- |
-
-Name of the source multi-port specification.
-
-Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification.
-
- |
- |
-
-source_level_set_id
-
- |
-
-The source level set ID. It can be:
-
-- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets allowed, which is defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.
-- An equation based level set ID, which derived as follows:
-
-eqnset * 100000 + specset * 1000 + level_set_no
-
- |
- |
-
-source_timing_set
-
- |
-
-The source timing set.
-
- |
- |
-
-dest_waveform_set
-
- |
-
-Number of the destination waveform set. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets.
-
- |
- |
-
-dest_specset_id
-
- |
-
-The destination specification ID (single port). It is derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-dest_multi-port_spec
-
- |
-
-Name of the destination multi-port specification.
-
-Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification.
-
- |
- |
-
-dest_timing_set
-
- |
-
-The destination timing set.
-
- |
- |
-
-dest_level_set_id
-
- |
-
-The destination level set ID. It can be:
-
-- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets allowed, which is defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.
-- An equation based level set ID, which derived as follows:
-
-eqnset * 100000 + specset * 1000 + level_set_no
-
- |
- |
-
-PRM
-
- |
-
-This refers to the primary waveform set/specification or to the primary timing set or to the primary level set, all as defined with `SPRM`（raw: `02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md`）.
-
- |
- |
-
-ALL
-
- |
-
-The specified source offsets are copied to all specifications or timing sets or level sets.
-
- |
- |
-
-pinlist
-
- |
-
-The pins on which the copy action is to be executed.
-
- |
+| source_waveform_set | Number of the source waveform set. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets. |
+|---|---|
+| source_specset_id | The source specification ID (single port). It is derived as follows:<br><br>100 * equation_set_no + specset_no |
+| source_multi-port_spec | Name of the source multi-port specification.<br><br>Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification. |
+| source_level_set_id | The source level set ID. It can be:<br><br>- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets allowed, which is defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.<br>- An equation based level set ID, which derived as follows:<br><br>eqnset * 100000 + specset * 1000 + level_set_no |
+| source_timing_set | The source timing set. |
+| dest_waveform_set | Number of the destination waveform set. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets. |
+| dest_specset_id | The destination specification ID (single port). It is derived as follows:<br><br>100 * equation_set_no + specset_no |
+| dest_multi-port_spec | Name of the destination multi-port specification.<br><br>Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification. |
+| dest_timing_set | The destination timing set. |
+| dest_level_set_id | The destination level set ID. It can be:<br><br>- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets allowed, which is defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.<br>- An equation based level set ID, which derived as follows:<br><br>eqnset * 100000 + specset * 1000 + level_set_no |
+| PRM | This refers to the primary waveform set/specification or to the primary timing set or to the primary level set, all as defined with `SPRM`（raw: `02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md`）. |
+| ALL | The specified source offsets are copied to all specifications or timing sets or level sets. |
+| pinlist | The pins on which the copy action is to be executed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TORC -  Timing level Offset Result Copy）
 
@@ -29615,89 +24166,15 @@ The search was canceled by the user.
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TORR  Timing level Offset Reset Result）
 
-|
-
-waveform_set
-
- |
-
-Number of a waveform set. Enter PRM for the primary waveform set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-specset_id
-
- |
-
-The source specification ID (single port). It is derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multiport_spec
-
- |
-
-Name of a multiport specification.
-
-Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification.
-
- |
- |
-
-level_set_id
-
- |
-
-A level set ID. It can be:
-
-- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets which is defined with the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.
-- An equation based level set ID, which is derived as follows:
-
-eqnset * 100000 + specset * 1000 + level_set_no
-
- |
- |
-
-timing_set
-
- |
-
-A timing set number.
-
- |
- |
-
-PRM
-
- |
-
-This refers to the primary waveform set/specification, or to the primary timing set, or to the primary level set, all as defined with SPRM.
-
- |
- |
-
-ALL
-
- |
-
-This refers to all fixed waveform sets, timing sets or level sets.
-
-Note that ALL does not apply to equation based timing or level sets.
-
- |
- |
-
-pinlist
-
- |
-
-The pins on which the reset action is to be executed.
-
- |
+| waveform_set | Number of a waveform set. Enter PRM for the primary waveform set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| specset_id | The source specification ID (single port). It is derived as follows:<br><br>100 * equation_set_no + specset_no |
+| multiport_spec | Name of a multiport specification.<br><br>Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification. |
+| level_set_id | A level set ID. It can be:<br><br>- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets which is defined with the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.<br>- An equation based level set ID, which is derived as follows:<br><br>eqnset * 100000 + specset * 1000 + level_set_no |
+| timing_set | A timing set number. |
+| PRM | This refers to the primary waveform set/specification, or to the primary timing set, or to the primary level set, all as defined with SPRM. |
+| ALL | This refers to all fixed waveform sets, timing sets or level sets.<br><br>Note that ALL does not apply to equation based timing or level sets. |
+| pinlist | The pins on which the reset action is to be executed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TORR  Timing level Offset Reset Result）
 
@@ -29709,141 +24186,19 @@ This example resets the offsets for all timing sets of the current primary speci
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TORS  -  Timing level Offset ReSult）
 
-|
-
-waveform_set
-
- |
-
-Number of a waveform set. Enter PRM for the primary waveform set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-A specification ID (single port). It is derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-Name of a multiport specification.
-
-Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification.
-
- |
- |
-
-level_set_id
-
- |
-
-A level set ID. It can be:
-
-- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets defined with the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.
-- An equation based level set ID, which is derived as follows:
-
-eqnset * 100000 + specset * 1000 + level_set_no
-
- |
- |
-
-timing_set
-
- |
-
-The timing set.
-
- |
- |
-
-PRM
-
- |
-
-This refers to the primary waveform set or specification, or to the primary timing set, both as defined with SPRM.
-
-For level offset earch, This refers to primary level set.
-
- |
- |
-
-ALL
-
- |
-
-The offsets are returned for all fixed specifications, timing sets or level sets.
-
- |
- |
-
-edge_type
-
- |
-
-Possible values are:
-
-- F: Fast drive edges
-- S: Slow drive edges
-- R: Receive edges
- |
- |
-
-level_type
-
- |
-
-Possible values are:
-
-- VIH: High driver levels
-- VIL: Low driver levels
-- VISWING: Driver swings
-- VOH: High receiver levels
-- VOL: Low receiver levels
-- VTH: Receiver thresholds
-- VIOFFSET: Driver offsets (Both the driver high and low levels will be moved by the same values.)
-- VOOFFSET: Receiver offsets (Both the receiver high and low levels will be moved by the same values.)
-- VOSWING: Receiver swings
- |
- |
-
-offset
-
- |
-
-The offset for the respective type (edge type or level type) and pin. The offset is 0 if no search was executed or no value stored.
-
-The units for voltage resources are [mV].
-
-The units for timing resources are [ns].
-
- |
- |
-
-pin
-
- |
-
-A reply parameter. The pin for which the offsets are returned
-
- |
- |
-
-pinlist
-
- |
-
-A query parameter. The pins for which the offsets are to be retrieved.
-
- |
+| waveform_set | Number of a waveform set. Enter PRM for the primary waveform set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | A specification ID (single port). It is derived as follows:<br><br>100 * equation_set_no + specset_no |
+| multi-port_spec | Name of a multiport specification.<br><br>Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification. |
+| level_set_id | A level set ID. It can be:<br><br>- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets defined with the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.<br>- An equation based level set ID, which is derived as follows:<br><br>eqnset * 100000 + specset * 1000 + level_set_no |
+| timing_set | The timing set. |
+| PRM | This refers to the primary waveform set or specification, or to the primary timing set, both as defined with SPRM.<br><br>For level offset earch, This refers to primary level set. |
+| ALL | The offsets are returned for all fixed specifications, timing sets or level sets. |
+| edge_type | Possible values are:<br><br>- F: Fast drive edges<br>- S: Slow drive edges<br>- R: Receive edges |
+| level_type | Possible values are:<br><br>- VIH: High driver levels<br>- VIL: Low driver levels<br>- VISWING: Driver swings<br>- VOH: High receiver levels<br>- VOL: Low receiver levels<br>- VTH: Receiver thresholds<br>- VIOFFSET: Driver offsets (Both the driver high and low levels will be moved by the same values.)<br>- VOOFFSET: Receiver offsets (Both the receiver high and low levels will be moved by the same values.)<br>- VOSWING: Receiver swings |
+| offset | The offset for the respective type (edge type or level type) and pin. The offset is 0 if no search was executed or no value stored.<br><br>The units for voltage resources are [mV].<br><br>The units for timing resources are [ns]. |
+| pin | A reply parameter. The pin for which the offsets are returned |
+| pinlist | A query parameter. The pins for which the offsets are to be retrieved. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TORS  -  Timing level Offset ReSult）
 
@@ -29890,50 +24245,11 @@ TORT {left_boundary|NOT_FOUND}, {right_boundary|NOT_FOUND}, {(pinlist)}
 Note The returned transition value is the latest passing value near to the transition.
 
 Parameters
- |
-
-left_boundary
-
- |
-
-The offet of the left boundary or lower level of the pass area found by the last timing or level search, where the fail-pass transition was found.
-
-Units for timing searches are [ns].
-
-Units for voltage searches are [mV].
-
- |
- |
-
-right_boundary
-
- |
-
-The offset of the right boundary or upper level of the pass area found by the last timing or level search, where the pass-fail transition was found.
-
-Units for timing searches are [ns].
-
-Units for voltage searches are [mV].
-
- |
- |
-
-NOT_FOUND
-
- |
-
-This is returned if no search was executed, the search results were reset, or the search was aborted.
-
- |
- |
-
-pinlist
-
- |
-
-The pins for which the offsets are to be returned.
-
- |
+| left_boundary | The offet of the left boundary or lower level of the pass area found by the last timing or level search, where the fail-pass transition was found.<br><br>Units for timing searches are [ns].<br><br>Units for voltage searches are [mV]. |
+|---|---|
+| right_boundary | The offset of the right boundary or upper level of the pass area found by the last timing or level search, where the pass-fail transition was found.<br><br>Units for timing searches are [ns].<br><br>Units for voltage searches are [mV]. |
+| NOT_FOUND | This is returned if no search was executed, the search results were reset, or the search was aborted. |
+| pinlist | The pins for which the offsets are to be returned. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TORT  -  Timing Level Offset search Result Transitions）
 
@@ -29950,15 +24266,8 @@ TOUD {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TOUD -  Timing Offset UnDefine）
 
-|
-
-pinlist
-
- |
-
-The pins for which the embedded timing search configuration is to be removed.
-
- |
+| pinlist | The pins for which the embedded timing search configuration is to be removed. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TOUD -  Timing Offset UnDefine）
 
@@ -30243,69 +24552,14 @@ TSCF {"ts_name"}, {property}, {property_value}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSCF  TSCF  -  TMU Set ConFiguration）
 
-|
-
-ts_name
-
- |
-
-Specifies the name of a TMU set that must have been defined with TSDF.
-
- |
- |
-
-property
-
- |
-
-Specifies a property of the TMU test. For a list see the table below. If this parameter is omitted in the query, all defined properties will be returned.
-
- |
- |
-
-ALL
-
- |
-
-This value can be specified in the query to retrieve the configuration data of all TMU sets.
-
- |
- |
-
-PRM
-
- |
-
-This value can be specified to modify or retrieve the configuration of the current primary TMU set.
-
- |
- |
-
-property_value
-
- |
-
-Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below.
-
- |
- |
-
-RESET
-
- |
-
-If you specify this keyword instead of a property value, the property will be deleted in the specified TMU set.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins to which this configuration is to be applied.
-
- |
+| ts_name | Specifies the name of a TMU set that must have been defined with TSDF. |
+|---|---|
+| property | Specifies a property of the TMU test. For a list see the table below. If this parameter is omitted in the query, all defined properties will be returned. |
+| ALL | This value can be specified in the query to retrieve the configuration data of all TMU sets. |
+| PRM | This value can be specified to modify or retrieve the configuration of the current primary TMU set. |
+| property_value | Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below. |
+| RESET | If you specify this keyword instead of a property value, the property will be deleted in the specified TMU set. |
+| pinlist | Specifies the pins to which this configuration is to be applied. |
 
 Properties and their values
  |
@@ -30498,24 +24752,9 @@ TSDF {"TMU_set_name"} [, "mode_context"]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSDF  TSDF  -  TMU Set DeFinition）
 
-|
-
-TMU_set_name
-
- |
-
-In the command, this is the name of a new TMU set. In the query, it is a name of an existing TMU set. If you omit this parameter in the query, TSDF? will return the names of all user defined TMU sets.
-
- |
- |
-
-mode_context
-
- |
-
-The mode context with which the TMU set is associated. If this parameter is omitted, the DEFAULT context is assumed.
-
- |
+| TMU_set_name | In the command, this is the name of a new TMU set. In the query, it is a name of an existing TMU set. If you omit this parameter in the query, TSDF? will return the names of all user defined TMU sets. |
+|---|---|
+| mode_context | The mode context with which the TMU set is associated. If this parameter is omitted, the DEFAULT context is assumed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSDF  TSDF  -  TMU Set DeFinition）
 
@@ -30545,60 +24784,13 @@ TSER {VDL_OVERRUN|ARM_OVERRUN|OUT_OF_MEMORY|GLITCH_OVERRUN|NOT_FINISHED}, {(pinl
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSER  -  TMU Set ERror）
 
-|
-
-VDL_OVERRUN
-
- |
-
-The sample rate of the TMU is exceeded.
-
- |
- |
-
-ARM_OVERRUN
-
- |
-
-The TMU is re-armed before all the requested samples have been taken in the preceding measurement execution.
-
- |
- |
-
-OUT_OF_MEMORY
-
- |
-
-The embedded processor has run out of memory.
-
- |
- |
-
-GLITCH_OVERRUN
-
- |
-
-An event that should appear in the prescaler output occurs before the positive pulse representing the previous such event is terminated. See `Dealing with very high frequencies`（raw: `02.06.13.01.05_Dealing_with_very_high_data_rates.md`）.
-
- |
- |
-
-NOT_FINISHED
-
- |
-
-The measurement has not been finished.
-
- |
- |
-
-pinlist
-
- |
-
-The pins for which the state of the TMU measurement is to be returned.
-
- |
+| VDL_OVERRUN | The sample rate of the TMU is exceeded. |
+|---|---|
+| ARM_OVERRUN | The TMU is re-armed before all the requested samples have been taken in the preceding measurement execution. |
+| OUT_OF_MEMORY | The embedded processor has run out of memory. |
+| GLITCH_OVERRUN | An event that should appear in the prescaler output occurs before the positive pulse representing the previous such event is terminated. See `Dealing with very high frequencies`（raw: `02.06.13.01.05_Dealing_with_very_high_data_rates.md`）. |
+| NOT_FINISHED | The measurement has not been finished. |
+| pinlist | The pins for which the state of the TMU measurement is to be returned. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSER  -  TMU Set ERror）
 
@@ -30619,53 +24811,12 @@ TSHA {specset_id|"multi-port_spec"},{TRUE|FALSE}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSHA  -  Timing Setup Has Arming）
 
-|
-
-specset_id
-
- |
-
-Derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-To query a multi-port timing specification, specify the name of the specification.
-
- |
- |
-
-TRUE
-
- |
-
-The wavetable of at least one of the pins in the pin list contains the ARM action.
-
- |
- |
-
-FALSE
-
- |
-
-No wavetable of any pin in the pin list contains the ARM action.
-
- |
- |
-
-pinlist
-
- |
-
-The pins whose associated wavetable is to be checked.
-
- |
+| specset_id | Derived as follows:<br><br>100 * equation_set_no + specset_no |
+|---|---|
+| multi-port_spec | To query a multi-port timing specification, specify the name of the specification. |
+| TRUE | The wavetable of at least one of the pins in the pin list contains the ARM action. |
+| FALSE | No wavetable of any pin in the pin list contains the ARM action. |
+| pinlist | The pins whose associated wavetable is to be checked. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSHA  -  Timing Setup Has Arming）
 
@@ -30686,60 +24837,13 @@ TSRH {REQUEST|SELECT|RELEASE}, {"handle_name"}, {SUCCEED|FAILED}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSRH  -  TMU Set Result Handle）
 
-|
-
-REQUEST
-
- |
-
-Defines a handle. If the request is successful, the new handle will be the active handle.
-
- |
- |
-
-SELECT
-
- |
-
-Selects an existing handle as the active handle.
-
- |
- |
-
-RELEASE
-
- |
-
-Releases (deletes) an existing handle.
-
- |
- |
-
-handle_name
-
- |
-
-The name of the handle to be requested, selected, or released.
-
- |
- |
-
-SUCCEED
-
- |
-
-The requested action was successful.
-
- |
- |
-
-FAILED
-
- |
-
-The requested action failed.
-
- |
+| REQUEST | Defines a handle. If the request is successful, the new handle will be the active handle. |
+|---|---|
+| SELECT | Selects an existing handle as the active handle. |
+| RELEASE | Releases (deletes) an existing handle. |
+| handle_name | The name of the handle to be requested, selected, or released. |
+| SUCCEED | The requested action was successful. |
+| FAILED | The requested action failed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSRH  -  TMU Set Result Handle）
 
@@ -30758,42 +24862,11 @@ TSMD {FINISHED|NOT_FINISHED}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSMD  -  TMU Set Measurement Done）
 
-|
-
-FORCE
-
- |
-
-If this extra parameter is specified in the query The TMU measurement will be stopped even if it is not yet finished.
-
- |
- |
-
-FINISHED
-
- |
-
-The measurement has finished.
-
- |
- |
-
-NOT_FINISHED
-
- |
-
-The measurement is still running.
-
- |
- |
-
-pinlist
-
- |
-
-The pins for which the state of the TMU measurement is to be returned.
-
- |
+| FORCE | If this extra parameter is specified in the query The TMU measurement will be stopped even if it is not yet finished. |
+|---|---|
+| FINISHED | The measurement has finished. |
+| NOT_FINISHED | The measurement is still running. |
+| pinlist | The pins for which the state of the TMU measurement is to be returned. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSMD  -  TMU Set Measurement Done）
 
@@ -30822,24 +24895,9 @@ TSPR {"TMU_set_name"|""}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSPR  TSPR  -  TMU Set PRimary set）
 
-|
-
-TMU_set_name
-
- |
-
-Specifies the name of an existing TMU set.
-
- |
- |
-
-""
-
- |
-
-By specifying the empty name, you undefine the current primary TMU set.
-
- |
+| TMU_set_name | Specifies the name of an existing TMU set. |
+|---|---|
+| "" | By specifying the empty name, you undefine the current primary TMU set. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSPR  TSPR  -  TMU Set PRimary set）
 
@@ -31511,24 +25569,9 @@ TSTL {"label"}, {(port)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSTL  TSTL  -  TeST Label）
 
-|
-
-label
-
- |
-
-Defines the label you wish to edit. Enter an alphanumeric string, 1 to 128 characters long, enclosed in double quotes. You can deactivate the currently selected label by specifying an empty string ("").
-
- |
- |
-
-port
-
- |
-
-This parameter is ignored in the command. In the query reply, it specifies the port to which the active label belongs.
-
- |
+| label | Defines the label you wish to edit. Enter an alphanumeric string, 1 to 128 characters long, enclosed in double quotes. You can deactivate the currently selected label by specifying an empty string (""). |
+|---|---|
+| port | This parameter is ignored in the command. In the query reply, it specifies the port to which the active label belongs. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSTL  TSTL  -  TeST Label）
 
@@ -31546,24 +25589,9 @@ TSUD {"TMU_set_name"|ALL}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSUD -  TMU Set UnDefine）
 
-|
-
-TMU_set_name
-
- |
-
-Specifies the name of an existing TMU set.
-
- |
- |
-
-ALL
-
- |
-
-This option removes all defined TMU sets.
-
- |
+| TMU_set_name | Specifies the name of an existing TMU set. |
+|---|---|
+| ALL | This option removes all defined TMU sets. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSUD -  TMU Set UnDefine）
 
@@ -31615,51 +25643,12 @@ TSUS {"multiport_spec"},{timing_set}[,(port)]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSUS  TSUS  -  Timing Sets USed）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows: `100 * `equation_set_no `+ `specset_no
-
- |
- |
-
-multiport_spec
-
- |
-
-To query a multiport specification, enter the name of the specification.
-
- |
- |
-
-timing_set
-
- |
-
-Timing set number. This is the highest number currently allocated to a timing set or the highest number of timing set you want to associate with a given waveform set. The number you enter must be less than or equal to the maximum number of timing sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command). This number is automatically updated to include any new timing set as it is created. At power-on only one timing set (containing the default values and belonging to the single waveform set) is available.
-
- |
- |
-
-portlist
-
- |
-
-For multiport specifications, you can specify a list of the ports for which the number of the timing sets used is to be displayed.
-
- |
+| waveform_set | Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Derived as follows: `100 * `equation_set_no `+ `specset_no |
+| multiport_spec | To query a multiport specification, enter the name of the specification. |
+| timing_set | Timing set number. This is the highest number currently allocated to a timing set or the highest number of timing set you want to associate with a given waveform set. The number you enter must be less than or equal to the maximum number of timing sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command). This number is automatically updated to include any new timing set as it is created. At power-on only one timing set (containing the default values and belonging to the single waveform set) is available. |
+| portlist | For multiport specifications, you can specify a list of the ports for which the number of the timing sets used is to be displayed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSUS  TSUS  -  Timing Sets USed）
 
@@ -31749,71 +25738,14 @@ TSVD? {waveform_set|specset_id|"multi-port_spec"|PRM}, {"TMU_set"|PRM}, {VALID|E
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSVD  -  TimStamper ValiD）
 
-|
-
-waveform_set
-
- |
-
-Specifies a waveform set number for a fixed timing setup.
-
- |
- |
-
-specset_id
-
- |
-
-Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-Specifies the name of a multiport specification for a multi-port setup.
-
- |
- |
-
-TMU_set
-
- |
-
-The TMU set that is to be checked.
-
- |
- |
-
-PRM
-
- |
-
-Refers to the current primary timing specification or the current primary TMU set.
-
- |
- |
-
-VALID
-
- |
-
-Timing specification and TMU set are consistent.
-
- |
- |
-
-ERROR
-
- |
-
-Timing specification and TMU set are not consistent.
-
- |
+| waveform_set | Specifies a waveform set number for a fixed timing setup. |
+|---|---|
+| specset_id | Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:<br><br>100 * equation_set_no + specset_no |
+| multi-port_spec | Specifies the name of a multiport specification for a multi-port setup. |
+| TMU_set | The TMU set that is to be checked. |
+| PRM | Refers to the current primary timing specification or the current primary TMU set. |
+| VALID | Timing specification and TMU set are consistent. |
+| ERROR | Timing specification and TMU set are not consistent. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSVD  -  TimStamper ValiD）
 
@@ -31844,69 +25776,14 @@ TTCF {"tt_name"}, {property}, {property_value}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TTCF  TTCF  -  Transition Test ConFiguration）
 
-|
-
-tt_name
-
- |
-
-Specifies the name of a transition test set that must have been defined with `TTDF`（raw: `02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md`）.
-
- |
- |
-
-property
-
- |
-
-Specifies a property of the transition test set. For a list, see the Properties and their values table below.
-
- |
- |
-
-ALL
-
- |
-
-This value can be specified in the query to retrieve the configuration data of all transition test sets.
-
- |
- |
-
-PRM
-
- |
-
-This value can be specified to modify or retrieve the configuration of the current primary transition test set.
-
- |
- |
-
-DEFAULT
-
- |
-
-This value can be specified in the query to retrieve the configuration of the predefined transition test set DEFAULT. Note that the DEFAULT set cannot be changed, it can only be queried.
-
- |
- |
-
-property_value
-
- |
-
-Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins to which this configuration is to be applied.
-
- |
+| tt_name | Specifies the name of a transition test set that must have been defined with `TTDF`（raw: `02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md`）. |
+|---|---|
+| property | Specifies a property of the transition test set. For a list, see the Properties and their values table below. |
+| ALL | This value can be specified in the query to retrieve the configuration data of all transition test sets. |
+| PRM | This value can be specified to modify or retrieve the configuration of the current primary transition test set. |
+| DEFAULT | This value can be specified in the query to retrieve the configuration of the predefined transition test set DEFAULT. Note that the DEFAULT set cannot be changed, it can only be queried. |
+| property_value | Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below. |
+| pinlist | Specifies the pins to which this configuration is to be applied. |
 
 Properties and their values
  |
@@ -32440,51 +26317,12 @@ TTDB {type}, [sub_type], {value}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TTDB  -  Transition Test DeBug information）
 
-|
-
-type
-
- |
-
-Specifies the information type. For a list, see the Information types and subtypes table below.
-
- |
- |
-
-ALL
-
- |
-
-All information types are returned.
-
- |
- |
-
-sub_type
-
- |
-
-Specifies a subtype of the information type. The subtypes for every type are listed in the Information types and subtypes table below.
-
- |
- |
-
-value
-
- |
-
-Specifies the value for the specified combination of type and subtype. For more explanation see the Information types and subtypes table below.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins for which debug information is to be retrieved.
-
- |
+| type | Specifies the information type. For a list, see the Information types and subtypes table below. |
+|---|---|
+| ALL | All information types are returned. |
+| sub_type | Specifies a subtype of the information type. The subtypes for every type are listed in the Information types and subtypes table below. |
+| value | Specifies the value for the specified combination of type and subtype. For more explanation see the Information types and subtypes table below. |
+| pinlist | Specifies the pins for which debug information is to be retrieved. |
 
 Information types and subtypes
  |
@@ -32713,24 +26551,9 @@ TTDF {"tt_set_name"} [, "mode_context"]
 ```
 
 Parameters
- |
-
-tt_set_name
-
- |
-
-In the command, this is the name of a new transition test set. In the query, it is a name of an existing transition test set. If you omit this parameter in the query, TTDF? will return the names of all user defined transition test sets.
-
- |
- |
-
-mode_context
-
- |
-
-The mode context with which the transition test set is associated. If this parameter is omitted, the DEFAULT context is assumed.
-
- |
+| tt_set_name | In the command, this is the name of a new transition test set. In the query, it is a name of an existing transition test set. If you omit this parameter in the query, TTDF? will return the names of all user defined transition test sets. |
+|---|---|
+| mode_context | The mode context with which the transition test set is associated. If this parameter is omitted, the DEFAULT context is assumed. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TTDF  TTDF  -  Transition Test set DeFinition）
 
@@ -32872,24 +26695,9 @@ TTPR {"tt_set_name"}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TTPR  TTPR  -  Transition Test PRimary set）
 
-|
-
-tt_set_name
-
- |
-
-Specifies the name of an existing transition test set.
-
- |
- |
-
-DEFAULT
-
- |
-
-This is a predefined transition test set.
-
- |
+| tt_set_name | Specifies the name of an existing transition test set. |
+|---|---|
+| DEFAULT | This is a predefined transition test set. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TTPR  TTPR  -  Transition Test PRimary set）
 
@@ -33487,24 +27295,9 @@ TTUD {"tt_set_name"}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TTUD -  Transition Test UnDefine）
 
-|
-
-tt_set_name
-
- |
-
-Specifies the name of an existing transition test set.
-
- |
- |
-
-ALL
-
- |
-
-Remove all existing transition tests sets
-
- |
+| tt_set_name | Specifies the name of an existing transition test set. |
+|---|---|
+| ALL | Remove all existing transition tests sets |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TTUD -  Transition Test UnDefine）
 
@@ -33526,42 +27319,11 @@ TTVD {"tt_name"}, {VALID|INVALID}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TTVD  -  Transition Test ValiDate）
 
-|
-
-tt_name
-
- |
-
-Specifies the name of a transition test set that must have been defined with `TTDF`（raw: `02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md`）.
-
- |
- |
-
-ALL
-
- |
-
-All transition test sets are checked.
-
- |
- |
-
-PRM
-
- |
-
-The current primary transition test set is checked.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins to which this configuration is to be applied.
-
- |
+| tt_name | Specifies the name of a transition test set that must have been defined with `TTDF`（raw: `02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md`）. |
+|---|---|
+| ALL | All transition test sets are checked. |
+| PRM | The current primary transition test set is checked. |
+| pinlist | Specifies the pins to which this configuration is to be applied. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TTVD  -  Transition Test ValiDate）
 
@@ -33579,15 +27341,8 @@ UDEF {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UDEF -  UnDEFine pin）
 
-|
-
-pinlist
-
- |
-
-Consists of single or multiple pin names or the symbol @ which removes all pins. If more than one pin is required, the names must be separated with a comma.
-
- |
+| pinlist | Consists of single or multiple pin names or the symbol @ which removes all pins. If more than one pin is required, the names must be separated with a comma. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UDEF -  UnDEFine pin）
 
@@ -33605,15 +27360,8 @@ UDGP {(group)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UDGP -  UnDefine GrouP）
 
-|
-
-group
-
- |
-
-Defines the name of the group of pins to be removed. The symbol @ can be used to dismantle all groups. If more than one group is to be removed, the names must be separated by a comma.
-
- |
+| group | Defines the name of the group of pins to be removed. The symbol @ can be used to dismantle all groups. If more than one group is to be removed, the names must be separated by a comma. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UDGP -  UnDefine GrouP）
 
@@ -33631,39 +27379,10 @@ UDPR "alias_set_name"|@,"pin_alias",(package_pin_name|@)
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UDPR -  UnDefine Pin Role）
 
-|
-
-alias_set_name
-
- |
-
-The alias set name.
-
-The alias of the pin (specified by the pin name parameter) defined in this alias set is deleted.
-
-The symbol @ can be used to list all the required alias set names.
-
- |
- |
-
-pin_alias
-
- |
-
-The pin alias.
-
- |
- |
-
-package_pin_name
-
- |
-
-The package pin name.
-
-The symbol @ can be used to list all the required package pin names.
-
- |
+| alias_set_name | The alias set name.<br><br>The alias of the pin (specified by the pin name parameter) defined in this alias set is deleted.<br><br>The symbol @ can be used to list all the required alias set names. |
+|---|---|
+| pin_alias | The pin alias. |
+| package_pin_name | The package pin name.<br><br>The symbol @ can be used to list all the required package pin names. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UDPR -  UnDefine Pin Role）
 
@@ -33693,15 +27412,8 @@ UDPS {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UDPS -  Undefine DPS pin）
 
-|
-
-pinlist
-
- |
-
-Consists of single or multiple pin names or the symbol @ which undefines all DPS pins. If more than one pin is to be removed, the names must be separated with a comma.
-
- |
+| pinlist | Consists of single or multiple pin names or the symbol @ which undefines all DPS pins. If more than one pin is to be removed, the names must be separated with a comma. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UDPS -  Undefine DPS pin）
 
@@ -33719,15 +27431,8 @@ UDPT {(portlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UDPT -  UnDefine PorT）
 
-|
-
-portlist
-
- |
-
-List of port names or the symbol @@, which undefines all ports. If more than one port is to be removed, the names must be separated with a comma.
-
- |
+| portlist | List of port names or the symbol @@, which undefines all ports. If more than one port is to be removed, the names must be separated with a comma. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UDPT -  UnDefine PorT）
 
@@ -33745,17 +27450,8 @@ UDRS {set}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UDRS -  UnDefine Routing Set）
 
-|
-
-set
-
- |
-
-An identification number of the routing set. This is an integer from 1 to the maximum number defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.
-
-If the ALL specifier is specified, the command deletes all routing sets.
-
- |
+| set | An identification number of the routing set. This is an integer from 1 to the maximum number defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.<br><br>If the ALL specifier is specified, the command deletes all routing sets. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UDRS -  UnDefine Routing Set）
 
@@ -33854,24 +27550,9 @@ This parameter is supported only by the `DC Scale XPS256 card`（raw: `../02.05_
  | reserved_param  | The optional parameter is reserved and required for compatibility. |
  | clamp_mode  | The optional parameter defines the clamp mode:
 
- | limit |
-
-The clamp is active forever (the delay value is ignored).
-
-This is the default value.
-
- |
- | `<delay>` |
-
-Switch off at overcurrent after a delay.
-
-<delay> is a time in milliseconds [ms].
-
-For `<delay>`, the clamp is active until the channel switches off.
-
-In case the channel is switched off, a disconnect/connect sequence is required (`PSST`（raw: `02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md`） OFF/ON).
-
- |
+| limit | The clamp is active forever (the delay value is ignored).<br><br>This is the default value. |
+|---|---|
+| `<delay>` | Switch off at overcurrent after a delay.<br><br><delay> is a time in milliseconds [ms].<br><br>For `<delay>`, the clamp is active until the channel switches off.<br><br>In case the channel is switched off, a disconnect/connect sequence is required (`PSST`（raw: `02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md`） OFF/ON). |
 
 See also `ms_const_curr_disconnect`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md#_16887__ms_const_curr_disconnect`） in `DPSPINS resources`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md`）.
 
@@ -34020,37 +27701,10 @@ UPAS {site}, "{setting}", {(purpose_name)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
 
-| site |
-
-The site parameter is an integer that defines the number of the site where the channels are to be defined.
-
-The integer must be greater than 1.
-
-When specified as part of the UPAS? query, you can use the parameter ALL to read the standard output states for all sites.
-
- |
- | setting |
-
-Output states for each member of the utility purpose on the specified site.
-
-Set the output state of each utility line with the following specifiers:
-
-- 0: Sets the corresponding (write) channel to high (high impedance state)
-- 1: Sets the corresponding (write) channel to low
-- X (x): No action
-
-The number and order of characters must correspond to the ch_No_list parameter of the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.
-
-If this parameter is omitted, the specified site is set to the same states as site 1.
-
- |
- | purpose_name |
-
-Name of a utility purpose defined by the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.
-
-In the query, the symbol @ can be used to list all defined utility purposes.
-
- |
+| site | The site parameter is an integer that defines the number of the site where the channels are to be defined.<br><br>The integer must be greater than 1.<br><br>When specified as part of the UPAS? query, you can use the parameter ALL to read the standard output states for all sites. |
+|---|---|
+| setting | Output states for each member of the utility purpose on the specified site.<br><br>Set the output state of each utility line with the following specifiers:<br><br>- 0: Sets the corresponding (write) channel to high (high impedance state)<br>- 1: Sets the corresponding (write) channel to low<br>- X (x): No action<br><br>The number and order of characters must correspond to the ch_No_list parameter of the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.<br><br>If this parameter is omitted, the specified site is set to the same states as site 1. |
+| purpose_name | Name of a utility purpose defined by the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.<br><br>In the query, the symbol @ can be used to list all defined utility purposes. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
 
@@ -34223,28 +27877,9 @@ UTDE "<file_name>" | ALL
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UTDE -  Unload Test Data Entity）
 
-|
-
-file_name
-
- |
-
-The file name of the protocol test data entity (TDE) to unload.
-
-The specified TDE must belong to the directory specified with the `PTDE`（raw: `02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md`） `` command.
-
- |
- |
-
-ALL
-
- |
-
-Unloads all test data entities.
-
-Only test data entities belonging to the directory specified with the `PTDE`（raw: `02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md`） `` command will be unloaded.
-
- |
+| file_name | The file name of the protocol test data entity (TDE) to unload.<br><br>The specified TDE must belong to the directory specified with the `PTDE`（raw: `02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md`） `` command. |
+|---|---|
+| ALL | Unloads all test data entities.<br><br>Only test data entities belonging to the directory specified with the `PTDE`（raw: `02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md`） `` command will be unloaded. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UTDE -  Unload Test Data Entity）
 
@@ -34438,74 +28073,11 @@ UTOT 165,16383,12345
 
 This code sets the first sixteen utility lines of the first block, except those used for the addressing of EEPROMs related to the DUT interface. These are URW14 and URW15. URW0 to URW13 are set to the inverse of 12345. 12345 in decimal equals 0011000000111001 in binary. Inverted, this is 53190 in decimal or 1100111111000110 in binary. Thus the lines will have these states:
 
- |
-
-URW00 = low
-
- |
-
-URW04 = low
-
- |
-
-URW08 = high
-
- |
-
-URW12 = low
-
- |
- |
-
-URW01 = high
-
- |
-
-URW05 = low
-
- |
-
-URW09 = high
-
- |
-
-URW13 = low
-
- |
- |
-
-URW02 = high
-
- |
-
-URW06 = high
-
- |
-
-URW10 = high
-
- |
-
-URW14 = high
-
- |
- |
-
-URW03 = low
-
- |
-
-URW07 = high
-
- |
-
-URW11 = high
-
- |
-
-URW15 = high
-
- |
+| URW00 = low | URW04 = low | URW08 = high | URW12 = low |
+|---|---|---|---|
+| URW01 = high | URW05 = low | URW09 = high | URW13 = low |
+| URW02 = high | URW06 = high | URW10 = high | URW14 = high |
+| URW03 = low | URW07 = high | URW11 = high | URW15 = high |
 
 For the utility lines required to address EEPROMs related to the DUT interface see `Utility lines and DUT board EEPROMs`（raw: `../02.03_DUT_board_design_reference/02.03.04.06_Utility_lines_and_DUT_board_EEPROMs.md`）.
 
@@ -34803,45 +28375,11 @@ VALC {map_state}, {start_cycle}, {no_of_cycles}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › VALC  -  VALid Cycle range）
 
-|
-
-map_state
-
- |
-
-Returns the current state of the error map. The state can be:
-
-- INVL: Invalid - no error map details are available. (The setup has been changed, but no functional test has been performed.)
-- INCS: Inconsistent - the contents of the error map are inconsistent with the current setup.
-- CONS: Consistent - a functional test has been performed and the contents of the error map are consistent with the current setup.
- |
- |
-
-start_cycle
-
- |
-
-The first recorded cycle.
-
- |
- |
-
-no_of_cycles
-
- |
-
-The number of recorded cycles.
-
- |
- |
-
-pinlist
-
- |
-
-List of DC Scale pins. The pins must belong to the same port.
-
- |
+| map_state | Returns the current state of the error map. The state can be:<br><br>- INVL: Invalid - no error map details are available. (The setup has been changed, but no functional test has been performed.)<br>- INCS: Inconsistent - the contents of the error map are inconsistent with the current setup.<br>- CONS: Consistent - a functional test has been performed and the contents of the error map are consistent with the current setup. |
+|---|---|
+| start_cycle | The first recorded cycle. |
+| no_of_cycles | The number of recorded cycles. |
+| pinlist | List of DC Scale pins. The pins must belong to the same port. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VALC  -  VALid Cycle range）
 
@@ -35019,36 +28557,10 @@ VALR {map_state}, {no_of_results}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › VALR  -  VALid Range）
 
-|
-
-map_state
-
- |
-
-Returns the current state of the error map. The state can be:
-
-- INVL: Invalid - no error map details are available. (The setup has been changed, but no functional test has been performed.)
-- INCS: Inconsistent - the contents of the error map are inconsistent with the current setup.
-- CONS: Consistent - a functional test has been performed and the contents of the error map are consistent with the current setup.
- |
- |
-
-no_of_results
-
- |
-
-Integer indicating the number of results recorded.
-
- |
- |
-
-pinlist
-
- |
-
-List of DC Scale pins.
-
- |
+| map_state | Returns the current state of the error map. The state can be:<br><br>- INVL: Invalid - no error map details are available. (The setup has been changed, but no functional test has been performed.)<br>- INCS: Inconsistent - the contents of the error map are inconsistent with the current setup.<br>- CONS: Consistent - a functional test has been performed and the contents of the error map are consistent with the current setup. |
+|---|---|
+| no_of_results | Integer indicating the number of results recorded. |
+| pinlist | List of DC Scale pins. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VALR  -  VALid Range）
 
@@ -35839,55 +29351,12 @@ VDCN {vec_No}, {"dev_cyc_name"}, {dev_cyc_len}, {repeat_count}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › VDCN -  Vector Device Cycle Name）
 
-|
-
-vec_No
-
- |
-
-A logical vector number of the selected label. Logical vector numbers count the active vectors of one label. The first active vector of a label has the logical vector number 0 (zero).
-
- |
- |
-
-dev_cyc_name
-
- |
-
-The device cycle name. Enter a string of up to 16 alphanumeric characters (upper or lower case) enclosed in double quotes.
-
-Alternatively, enter FDC for the first device cycle name in the device cycle table.
-
- |
- |
-
-dev_cyc_len
-
- |
-
-Length of the device cycle that is being downloaded.
-
-This is always 1. (For SmarTest 7.10, only 1 waveform per device cycle is possible.)
-
- |
- |
-
-repeat_count
-
- |
-
-Determines how many times the device cycle is to be downloaded.
-
- |
- |
-
-pinlist
-
- |
-
-The pin name or names for which vectors are to be downloaded. If more than one pin is required, the names must be separated with a comma. The @ character can be used to download to all configured pins.
-
- |
+| vec_No | A logical vector number of the selected label. Logical vector numbers count the active vectors of one label. The first active vector of a label has the logical vector number 0 (zero). |
+|---|---|
+| dev_cyc_name | The device cycle name. Enter a string of up to 16 alphanumeric characters (upper or lower case) enclosed in double quotes.<br><br>Alternatively, enter FDC for the first device cycle name in the device cycle table. |
+| dev_cyc_len | Length of the device cycle that is being downloaded.<br><br>This is always 1. (For SmarTest 7.10, only 1 waveform per device cycle is possible.) |
+| repeat_count | Determines how many times the device cycle is to be downloaded. |
+| pinlist | The pin name or names for which vectors are to be downloaded. If more than one pin is required, the names must be separated with a comma. The @ character can be used to download to all configured pins. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VDCN -  Vector Device Cycle Name）
 
@@ -35903,133 +29372,16 @@ VDCP {vec_no}, {"dev_cyc_name"}, {dev_cyc_len}, [ed_comp], {DD1}, {DD2}, {ED1}, 
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › VDCP  VDCP   Vector Device Cycle Parameter）
 
-|
-
-vec_No
-
- |
-
-A logical vector number of the selected label. For the command, it determines the first active vector that will be overwritten.
-
-For the query, this parameter specifies the vector at which analysis of the vector area starts (see also the description of the strt_disp parameter below).
-
- |
- |
-
-dev_cyc_name
-
- |
-
-Possible values are:
-
-- The name of a defined device cycle.
-- FDC: The first device cycle specifier. It indicates that the first device cycle in the device cycle table for the pins in pinlist is to be taken. If the length of this device cycle is not equal to the length parameter dev_cyc_len, an error is reported in the report window and the pins with this error are not set.
-
-This specifier should be used only if you are working with device cycles consisting of just one test system cycle. The specifier gives you a shortcut to a device cycle name, where all device cycles have the same length (of 1).
-
- |
- |
-
-dev_cyc_len
-
- |
-
-The length of the specified device cycle.
-
-For the query, the length specifies the analyzed range of active vectors, starting at the vector number vec_No. Enter an integer in the range 0 to 256 (see also the description of the disp_length parameter below).
-
- |
- |
-
-ed_comp
-
- |
-
-The edit component. This parameter is optional. It specifies which direction parameter (either Dx for drive or EDx for expected data, where x is 1 or 2) is being edited. The direction parameter being edited is fixed, and the system can, if necessary, auto-correct the other direction parameter.
-
-The edit component can take the following values:
-
-- dd1d: Drive data 1, drive value
-- dd1z: Drive data 1, high-Z value
-- dd2d: Drive data 2, drive value
-- dd2z: Drive data 2, high-Z value
-- ed1: Expected data 1 value
-- ed2: Expected data 2 value
-
-If the edit component is one of dd1d, dd1z, dd2d, or dd2z, then both the DD1 and DD2 parameters are fixed, and the ED1 and ED2 parameters can be auto-corrected to yield a consistent physical waveform sequence.
-
-If the edit component is ed1 or ed2, then the ED1 and ED2 parameters are fixed, and the DD1 and DD2 parameters can be auto-corrected.
-
-If no edit component parameter is specified, then all four direction parameters are fixed.
-
- |
- |
-
-DD1
-
-DD2
-
- |
-
-Drive data parameters. They contain values for both drive data and tri-state. The values you can define are:
-
-- F00: Drive 0, tri-state off
-- F10: Drive 1, tri-state off
-- F0Z: Drive 0, tri-state on
-- F1Z: Drive 1, tri-state on
-- N: Not used. Enter it if you do not want to set a drive data parameter to a drive and tri-state value.
-- UC: Unclear. You must not enter this parameter value. The system may return this value as an answer to your query, to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. This response from the system is possible only if you do not use the Timing Setup to generate your device cycles.
-
-The drive data parameters F0N, F1N, FN0, and FNZ, which set just the drive value or just the tri-state value (as is the case with the WAVE command), cannot be used here
-
- |
- |
-
-ED1
-
-ED2
-
- |
-
-Expected data parameters. The values you can define are:
-
-- F0: Compare to 0
-- F1: Compare to 1
-- FI: Compare to intermediate
-- FX: Compare to mask
-- FU: Compare to unstable
-- N: Not used. Enter it if you do not want to set an expected data parameter to a compare value.
-- UC: Unclear. You must not enter this parameter value. The system may return this value as an answer to your query, to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. This response from the system is possible only if you do not use the Timing Setup to generate your device cycles.
- |
- |
-
-strt_disp
-
- |
-
-This parameter defines the offset of your range of interest from vec_No. The actual display starts with the last device cycle that does not begin before vec_No and does not end before vec_No + strt_disp.
-
-The purpose of this construction is to enable a correct device cycle reconstruction even if the first vector you are interested in does not lie at a device cycle boundary (a device cycle can span up to 16 vectors).
-
- |
- |
-
-disp_length
-
- |
-
-Specifies the display length in vectors. This parameter determines the end of your range of interest. The actual display ends with the last device cycle that starts before vec_No + strt_disp + disp_length.
-
- |
- |
-
-pinlist
-
- |
-
-The pin name or names for which a vector data transfer is to be made. If more than one pin is required, the names must be separated with a comma. Pins that do not belong to the port of the label are ignored.
-
- |
+| vec_No | A logical vector number of the selected label. For the command, it determines the first active vector that will be overwritten.<br><br>For the query, this parameter specifies the vector at which analysis of the vector area starts (see also the description of the strt_disp parameter below). |
+|---|---|
+| dev_cyc_name | Possible values are:<br><br>- The name of a defined device cycle.<br>- FDC: The first device cycle specifier. It indicates that the first device cycle in the device cycle table for the pins in pinlist is to be taken. If the length of this device cycle is not equal to the length parameter dev_cyc_len, an error is reported in the report window and the pins with this error are not set.<br><br>This specifier should be used only if you are working with device cycles consisting of just one test system cycle. The specifier gives you a shortcut to a device cycle name, where all device cycles have the same length (of 1). |
+| dev_cyc_len | The length of the specified device cycle.<br><br>For the query, the length specifies the analyzed range of active vectors, starting at the vector number vec_No. Enter an integer in the range 0 to 256 (see also the description of the disp_length parameter below). |
+| ed_comp | The edit component. This parameter is optional. It specifies which direction parameter (either Dx for drive or EDx for expected data, where x is 1 or 2) is being edited. The direction parameter being edited is fixed, and the system can, if necessary, auto-correct the other direction parameter.<br><br>The edit component can take the following values:<br><br>- dd1d: Drive data 1, drive value<br>- dd1z: Drive data 1, high-Z value<br>- dd2d: Drive data 2, drive value<br>- dd2z: Drive data 2, high-Z value<br>- ed1: Expected data 1 value<br>- ed2: Expected data 2 value<br><br>If the edit component is one of dd1d, dd1z, dd2d, or dd2z, then both the DD1 and DD2 parameters are fixed, and the ED1 and ED2 parameters can be auto-corrected to yield a consistent physical waveform sequence.<br><br>If the edit component is ed1 or ed2, then the ED1 and ED2 parameters are fixed, and the DD1 and DD2 parameters can be auto-corrected.<br><br>If no edit component parameter is specified, then all four direction parameters are fixed. |
+| DD1<br><br>DD2 | Drive data parameters. They contain values for both drive data and tri-state. The values you can define are:<br><br>- F00: Drive 0, tri-state off<br>- F10: Drive 1, tri-state off<br>- F0Z: Drive 0, tri-state on<br>- F1Z: Drive 1, tri-state on<br>- N: Not used. Enter it if you do not want to set a drive data parameter to a drive and tri-state value.<br>- UC: Unclear. You must not enter this parameter value. The system may return this value as an answer to your query, to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. This response from the system is possible only if you do not use the Timing Setup to generate your device cycles.<br><br>The drive data parameters F0N, F1N, FN0, and FNZ, which set just the drive value or just the tri-state value (as is the case with the WAVE command), cannot be used here |
+| ED1<br><br>ED2 | Expected data parameters. The values you can define are:<br><br>- F0: Compare to 0<br>- F1: Compare to 1<br>- FI: Compare to intermediate<br>- FX: Compare to mask<br>- FU: Compare to unstable<br>- N: Not used. Enter it if you do not want to set an expected data parameter to a compare value.<br>- UC: Unclear. You must not enter this parameter value. The system may return this value as an answer to your query, to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. This response from the system is possible only if you do not use the Timing Setup to generate your device cycles. |
+| strt_disp | This parameter defines the offset of your range of interest from vec_No. The actual display starts with the last device cycle that does not begin before vec_No and does not end before vec_No + strt_disp.<br><br>The purpose of this construction is to enable a correct device cycle reconstruction even if the first vector you are interested in does not lie at a device cycle boundary (a device cycle can span up to 16 vectors). |
+| disp_length | Specifies the display length in vectors. This parameter determines the end of your range of interest. The actual display ends with the last device cycle that starts before vec_No + strt_disp + disp_length. |
+| pinlist | The pin name or names for which a vector data transfer is to be made. If more than one pin is required, the names must be separated with a comma. Pins that do not belong to the port of the label are ignored. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VDCP  VDCP   Vector Device Cycle Parameter）
 
@@ -36414,42 +29766,11 @@ VPAR {cmd_No}, [frst_used_vec]
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › VPAR  -  Vectors in PARallel）
 
-|
-
-start_vec_No
-
- |
-
-Defines the offset of the first vector to be searched from the start vector of the currently selected label. The specified address must not exceed the maximum vector address allowed by the system.
-
- |
- |
-
-stop_vec_No
-
- |
-
-Defines the last vector in the search range. The specified address must not exceed the maximum vector address allowed by the system.
-
- |
- |
-
-cmd_No
-
- |
-
-In the reply, the number of the command within the sequencer area, or NISQ - see below.
-
- |
- |
-
-frst_used_vec
-
- |
-
-Returns the logical address of the first vector affected by the sequencer instruction.
-
- |
+| start_vec_No | Defines the offset of the first vector to be searched from the start vector of the currently selected label. The specified address must not exceed the maximum vector address allowed by the system. |
+|---|---|
+| stop_vec_No | Defines the last vector in the search range. The specified address must not exceed the maximum vector address allowed by the system. |
+| cmd_No | In the reply, the number of the command within the sequencer area, or NISQ - see below. |
+| frst_used_vec | Returns the logical address of the first vector affected by the sequencer instruction. |
 
 NISQ (Non-Interpretable SeQuence) indicates that the sequencer program does not respect its context conditions. This means, there is non-linear use of vectors, or there are partial "Match Begin" or "Match End" sequences (for example a WTER without its MBGN, a MJPE without its MEND - see the SQPG command). The label is no longer displayable by the Vector Setup in this case. No frst_used_vec parameter is returned when the parameter cmd_No is NISQ.
 
@@ -36836,66 +30157,13 @@ VWFG {status}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › VWFG  -  Verify WaveForms in Groups）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes.
-
- |
- |
-
-dev_cyc_name
-
- |
-
-If you specify the name of a device cycle, only this device cycle will be checked. Enter ALL for all device cycle names in the device cycle table.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins whose definitions you want to check. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to check all configured pins.
-
- |
- |
-
-status
-
- |
-
-The system returns:
-
-0: The definitions are not the same.
-
-1: The definitions are the same.
-
- |
+| waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| specset_id | Derived as follows:<br><br>`100 * equation_set_no + specset_no` |
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. |
+| dev_cyc_name | If you specify the name of a device cycle, only this device cycle will be checked. Enter ALL for all device cycle names in the device cycle table. |
+| pinlist | The name of the pin or pins whose definitions you want to check. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to check all configured pins. |
+| status | The system returns:<br><br>0: The definitions are not the same.<br><br>1: The definitions are the same. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VWFG  -  Verify WaveForms in Groups）
 
@@ -36992,15 +30260,8 @@ WAIT {time}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › WAIT -  WAIT）
 
-|
-
-time
-
- |
-
-Enter a time in µs.
-
- |
+| time | Enter a time in µs. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › WAIT -  WAIT）
 
@@ -38474,75 +31735,14 @@ WFUD {specset_id|"multiport_spec"}, {wfIndex}, [mode], {definition_string}, {(pi
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › WFUD -  WaveForm UnDefine）
 
-|
-
-wvf_set
-
- |
-
-Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 *`equation_set_no `+ `specset_no
-
- |
- |
-
-multiport_spec
-
- |
-
-To change or query a multiport specification, enter the name of the specification.
-
- |
- |
-
-wfIndex
-
- |
-
-Logical waveform index. Enter an integer between 0 and 31 (255 on Pin Scale systems).
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which the waveform is to be deleted. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured input pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
- |
-
-ALLOW_EQ
-
- |
-
-This extra parameter allows you to delete a logical waveform for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.
-
-Note also the following:
-
-- Every runtime change will affect all specifications that use the respective wavetable.
-- Since the new or changed waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
- |
+| wvf_set | Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. |
+| specset_id | Derived as follows:<br><br>`100 *`equation_set_no `+ `specset_no |
+| multiport_spec | To change or query a multiport specification, enter the name of the specification. |
+| wfIndex | Logical waveform index. Enter an integer between 0 and 31 (255 on Pin Scale systems). |
+| pinlist | The name of the pin or pins for which the waveform is to be deleted. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured input pins. If more than one pin is to be included, the names must be separated with a comma. |
+| ALLOW_EQ | This extra parameter allows you to delete a logical waveform for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new or changed waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › WFUD -  WaveForm UnDefine）
 
@@ -38560,15 +31760,8 @@ WRST {waveform_set}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › WRST -  Waveform ReSeT）
 
-|
-
-waveform_set
-
- |
-
-Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
+| waveform_set | Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › WRST -  Waveform ReSeT）
 
@@ -38703,17 +31896,8 @@ WSUS {waveform_set}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › WSUS  WSUS  -  Waveform Sets USed）
 
-|
-
-waveform_set
-
- |
-
-Waveform set number. This is the highest number currently allocated to a waveform set or the highest number of a set you want to load. The number you enter must not exceed the maximum number of waveform sets allowed (defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).
-
-This number is automatically updated to include any new waveform set as it is created. At power-on, only one waveform set (containing one timing set and default values) is available.
-
- |
+| waveform_set | Waveform set number. This is the highest number currently allocated to a waveform set or the highest number of a set you want to load. The number you enter must not exceed the maximum number of waveform sets allowed (defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).<br><br>This number is automatically updated to include any new waveform set as it is created. At power-on, only one waveform set (containing one timing set and default values) is available. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › WSUS  WSUS  -  Waveform Sets USed）
 
@@ -38737,15 +31921,8 @@ returns:
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › IDN  -  IDeNtify）
 
-|
-
-id_string
-
- |
-
-The string contains the model, the firmware revision number, and the revision date.
-
- |
+| id_string | The string contains the model, the firmware revision number, and the revision date. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › IDN  -  IDeNtify）
 
@@ -38772,116 +31949,14 @@ returns:
 ```
 
 Parameters
- | hardware_type  | Returns type of the test head:
-
-- PS_2CC or CS_2CC
-
-  - Compact test head containing two card cages.
-
-- PS_4CC or CS_4CC
-
-  - Small test head containing four card cages.
-
-- PS_8CC or CS_8CC
-
-  - Large test head containing eight card cages.
-
-- JN_S
-
-  - 256 pin test head (MCU)
-
- |
- | board_no  | Returns the position of the installed card or the logical board number:
-
-- The position of the card is determined by the slot in which the card is installed.
-The following ranges are applicable for board_no:
-
-- Control board:
-
-  - Control segment number; two digits (CS); 1 to 16
-
-- Clock board:
-
-  - Board number of the clock board; two digits (CSCLK): 11, 12, 21, 22, ..., 41, 42
-
-- Pin Scale 1600 channel cards and all DC Scale cards:
-
-  - Board number (physical or virtual pogo block number) of the logical board; triple digit; range for physical pogo blocks 101 to 132, 201 to 232, 301 to 332, and 401 to 432.
-
-- PPS modules:
-
-  - Board number (pogo block number or slot number) of the PPS module; triple digit; range 101 to 132 and 201 to 232
-
-- DPS cards:
-
-  - DPS card number (DPS pogo block number) of the DPS card; single digit; 1 to 8
-
- |
- | board_type |
-
-Returns the type of board or card. This may be:
-
-- CNTR: Control board
-- CLK: Clock board
-- CPIO: Channel card - Pin Scale 1600
-- JNIO: Channel board - MCU
-- PPS: Precision Parallel Source
-- HVP: High-Voltage PMU
-- SWA: Switch matrix
-
-DPS-slot device power supplies:
-
-- SE-UDPS: Internal Utility Power Supply
-
-DC Scale cards:
-
-- DPS128HC: DC Scale DPS128/64-HC
-- UHC4T: DC Scale UHC4T
-- XPS256 DC Scale XPS256
- |
- | board_id |
-
-As defined in the file /opt/hp93000/soc/pws/data/board_ids.
-
- |
- | phys_location |
-
-Returns the physical location of the board. Format: TCSS.
-
-- T: Test head (Always 1 for V93000 systems)
-- C: Card cage; single digit; range 1 to 8
-- SS: Slot in the card cage; two digits; range 01 to 14.
-
-For details on the mapping of card slots see Mapping of physical resources.
-
- |
- | clk_board  | Board number of the clock board in the card cage to which the board belongs. |
- | chan_x_info_y |
-
-Channel information. For each channel on the board, the system can return two terms: chan_x_info_1 and chan_x_info_2, where x is the channel number in the range 1 to 16 decimal.
-
-- Digital channels
-
-  - chan_x_info_1: For each of the 16 channels on the channel card, chan_x_info_1 returns the sequencer memory (SM) depth in blocks of 128K vectors (or 0.125M vectors).
-  - chan_x_info_2: For each of the 16 channels on the channel card, chan_x_info_2 returns the vector memory (VM) depth in blocks of 128K vectors (or 0.125M vectors).
-
-- Fast differential channels
-
-chan_x_info_1:
-
-I: Input channel
-
-O: Output channel
-
-- PPS channels
-
-  - chan_x_info_1: Returns the size of installed pattern memory in blocks of 1K words (16 bit).
-
-- HVP channels
-
-  - chan_x_info_1: Returns the size of installed DAC/ADC RAM in blocks of 1K words (16 bit).
-
- |
+| hardware_type | Returns type of the test head:<br><br>- PS_2CC or CS_2CC<br><br>- Compact test head containing two card cages.<br><br>- PS_4CC or CS_4CC<br><br>- Small test head containing four card cages.<br><br>- PS_8CC or CS_8CC<br><br>- Large test head containing eight card cages.<br><br>- JN_S<br><br>- 256 pin test head (MCU) |
+|---|---|
+| board_no | Returns the position of the installed card or the logical board number:<br><br>- The position of the card is determined by the slot in which the card is installed.<br>The following ranges are applicable for board_no:<br><br>- Control board:<br><br>- Control segment number; two digits (CS); 1 to 16<br><br>- Clock board:<br><br>- Board number of the clock board; two digits (CSCLK): 11, 12, 21, 22, ..., 41, 42<br><br>- Pin Scale 1600 channel cards and all DC Scale cards:<br><br>- Board number (physical or virtual pogo block number) of the logical board; triple digit; range for physical pogo blocks 101 to 132, 201 to 232, 301 to 332, and 401 to 432.<br><br>- PPS modules:<br><br>- Board number (pogo block number or slot number) of the PPS module; triple digit; range 101 to 132 and 201 to 232<br><br>- DPS cards:<br><br>- DPS card number (DPS pogo block number) of the DPS card; single digit; 1 to 8 |
+| board_type | Returns the type of board or card. This may be:<br><br>- CNTR: Control board<br>- CLK: Clock board<br>- CPIO: Channel card - Pin Scale 1600<br>- JNIO: Channel board - MCU<br>- PPS: Precision Parallel Source<br>- HVP: High-Voltage PMU<br>- SWA: Switch matrix<br><br>DPS-slot device power supplies:<br><br>- SE-UDPS: Internal Utility Power Supply<br><br>DC Scale cards:<br><br>- DPS128HC: DC Scale DPS128/64-HC<br>- UHC4T: DC Scale UHC4T<br>- XPS256 DC Scale XPS256 |
+| board_id | As defined in the file /opt/hp93000/soc/pws/data/board_ids. |
+| phys_location | Returns the physical location of the board. Format: TCSS.<br><br>- T: Test head (Always 1 for V93000 systems)<br>- C: Card cage; single digit; range 1 to 8<br>- SS: Slot in the card cage; two digits; range 01 to 14.<br><br>For details on the mapping of card slots see Mapping of physical resources. |
+| clk_board | Board number of the clock board in the card cage to which the board belongs. |
+| chan_x_info_y | Channel information. For each channel on the board, the system can return two terms: chan_x_info_1 and chan_x_info_2, where x is the channel number in the range 1 to 16 decimal.<br><br>- Digital channels<br><br>- chan_x_info_1: For each of the 16 channels on the channel card, chan_x_info_1 returns the sequencer memory (SM) depth in blocks of 128K vectors (or 0.125M vectors).<br>- chan_x_info_2: For each of the 16 channels on the channel card, chan_x_info_2 returns the vector memory (VM) depth in blocks of 128K vectors (or 0.125M vectors).<br><br>- Fast differential channels<br><br>chan_x_info_1:<br><br>I: Input channel<br><br>O: Output channel<br><br>- PPS channels<br><br>- chan_x_info_1: Returns the size of installed pattern memory in blocks of 1K words (16 bit).<br><br>- HVP channels<br><br>- chan_x_info_1: Returns the size of installed DAC/ADC RAM in blocks of 1K words (16 bit). |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › OPT  -  hardware OPTions）
 
@@ -39774,35 +32849,10 @@ DFPC {(pin)}, {"comment"}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFPC  DFPC  -  DeFine Pin Comment）
 
-|
-
-pin
-
- |
-
-In the command, this is the pin to which a comment is to be added. In the query reply, it is the pin whose comment is returned.
-
- |
- |
-
-pinlist
-
- |
-
-A query parameter that specifies the pins for which the comments are to be returned. You can also specify @ for all configured pins.
-
-Pins for which no comments have been defined are ignored.
-
- |
- |
-
-comment
-
- |
-
-The comment to the pin. The maximal length of the comment string is 2048 characters.
-
- |
+| pin | In the command, this is the pin to which a comment is to be added. In the query reply, it is the pin whose comment is returned. |
+|---|---|
+| pinlist | A query parameter that specifies the pins for which the comments are to be returned. You can also specify @ for all configured pins.<br><br>Pins for which no comments have been defined are ignored. |
+| comment | The comment to the pin. The maximal length of the comment string is 2048 characters. |
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › DFPC  DFPC  -  DeFine Pin Comment）
 
@@ -39834,88 +32884,13 @@ DFPN {channelNo_1|(list_of_DC_scale_channels)}, ["pinNo"], {(pinName)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFPN  DFPN  -  DeFine Pin Name）
 
-|
-
-connectionSet
-
- |
-
-This parameter is currently not used.
-
-This extra string parameter adds the ability to define several pins containing the same DC Scale channel in PMU mode. A multiple defined DC Scale channel can be sequentially reused as single pin or in ganging groups. Note: The documentation for supported DC Scale cards knows this feature also as "Ganging on the fly".
-
-Default connection set: The default connection set is defined if this extra parameter is not used or if an empty string is programmed. A DC Scale pin can be defined in only one default connection set.
-
-All traces that are needed for a cross-card ganging group and are defined by the `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`） command and the DFPN command must have the same connectionSet defined. Recommendation: If the DUT trace can be activated by utility lines, name it like the utility line (see DFUP command).
-
-There can be several pin definitions containing the same channel:
-
-Adding a different ganging combination (new pin), does not invalidate the setups for the existing pins.
-
-The different pins containing the same channel must be part of the same ports.
-
-The patterns, events and DC-setups of these pins do not overlap.
-
- |
- | channelNo_1 |
-
-The test system channel number of the channel to which the specified device pin is connected (five digits), or the utility block number of the specified card cage (three digit).
-
-Digital or DC Scale channel
-
-For a digital channel this is a five digit number. The first three digits specify the pogo block number, and the fourth and fifth digits specify the pin number in the pogo block. The first digit is 1 to 4, the second and third digits is 01 to 32, and the final two digits is 01 to 16. For example, 10105 is the digital channel whose pogo pin number is 05 in the pogo block 101.
-
-Each pogo block contains 16 digital channels. The pogo block numbers are determined by the slots in which the channel boards are installed.
-
-The first three digits are also called the board number of the logical channel board, and the last two digits are a channel number in the logical channel board, where each logical channel board contains 16 channels
-
-Utility DC channel
-
-For the utility DC pins, this is a three digit number, specifying the utility block of the card cage. The referenced utility pogo must be one which can be connected to the DC rail of the card-cage. To get the utility block number, add 164 (264 for the second utility line card on EXA Scale test systems) to the desired utility line block, such that for example utility block 4 has number 168. For compatibility with SmarTest 7.6x, "HPMU1" now maps to "UTIDC165" and so on (for Smart Scale test systems only).
-
-For more information, see subtopics in `Pogo pin assignment - Utility pogo blocks`（raw: `../02.03_DUT_board_design_reference/02.03.06.08_Pogo_pin_assignment_-_Utility_pogo_blocks.md`）.
-
-The hardware knows 4 Utility DC channels (pogo pins): DC-force, DC-sense, ground-sense, and guard. But because they are referenced as a group, one pin name is sufficient to reflect all 4 channels.
-
- |
- |
-
-DC_channel_list
-
- |
-
-You can define ganging for a set of DC Scale channels in PMU mode by specifying a list of DC Scale channels, separated by commas and enclosed by parentheses. The channels must be physically adjacent on the same board.
-
-Before cross-card ganging can be used, the connection must be enabled by command `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）.
-
- |
- |
-
-pinNo
-
- |
-
-This is the device pin number which is allocated to the specified channel. The number must be enclosed in double quotes.
-
- |
- |
-
-pinName
-
- |
-
-The name to be allocated to the pin. Maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest.
-
- |
- |
-
-pinlist
-
- |
-
-This query parameter specifies the pins whose definitions are to be retrieved. The symbol @ can be used with the DFPN? query to list all pins previously defined by the DFPN command. If a list of more than one pin is required, the pin names must be separated by a comma. If you query a non-existent pin, the system returns nothing.
-
- |
+| connectionSet | This parameter is currently not used.<br><br>This extra string parameter adds the ability to define several pins containing the same DC Scale channel in PMU mode. A multiple defined DC Scale channel can be sequentially reused as single pin or in ganging groups. Note: The documentation for supported DC Scale cards knows this feature also as "Ganging on the fly".<br><br>Default connection set: The default connection set is defined if this extra parameter is not used or if an empty string is programmed. A DC Scale pin can be defined in only one default connection set.<br><br>All traces that are needed for a cross-card ganging group and are defined by the `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`） command and the DFPN command must have the same connectionSet defined. Recommendation: If the DUT trace can be activated by utility lines, name it like the utility line (see DFUP command).<br><br>There can be several pin definitions containing the same channel:<br><br>Adding a different ganging combination (new pin), does not invalidate the setups for the existing pins.<br><br>The different pins containing the same channel must be part of the same ports.<br><br>The patterns, events and DC-setups of these pins do not overlap. |
+|---|---|
+| channelNo_1 | The test system channel number of the channel to which the specified device pin is connected (five digits), or the utility block number of the specified card cage (three digit).<br><br>Digital or DC Scale channel<br><br>For a digital channel this is a five digit number. The first three digits specify the pogo block number, and the fourth and fifth digits specify the pin number in the pogo block. The first digit is 1 to 4, the second and third digits is 01 to 32, and the final two digits is 01 to 16. For example, 10105 is the digital channel whose pogo pin number is 05 in the pogo block 101.<br><br>Each pogo block contains 16 digital channels. The pogo block numbers are determined by the slots in which the channel boards are installed.<br><br>The first three digits are also called the board number of the logical channel board, and the last two digits are a channel number in the logical channel board, where each logical channel board contains 16 channels<br><br>Utility DC channel<br><br>For the utility DC pins, this is a three digit number, specifying the utility block of the card cage. The referenced utility pogo must be one which can be connected to the DC rail of the card-cage. To get the utility block number, add 164 (264 for the second utility line card on EXA Scale test systems) to the desired utility line block, such that for example utility block 4 has number 168. For compatibility with SmarTest 7.6x, "HPMU1" now maps to "UTIDC165" and so on (for Smart Scale test systems only).<br><br>For more information, see subtopics in `Pogo pin assignment - Utility pogo blocks`（raw: `../02.03_DUT_board_design_reference/02.03.06.08_Pogo_pin_assignment_-_Utility_pogo_blocks.md`）.<br><br>The hardware knows 4 Utility DC channels (pogo pins): DC-force, DC-sense, ground-sense, and guard. But because they are referenced as a group, one pin name is sufficient to reflect all 4 channels. |
+| DC_channel_list | You can define ganging for a set of DC Scale channels in PMU mode by specifying a list of DC Scale channels, separated by commas and enclosed by parentheses. The channels must be physically adjacent on the same board.<br><br>Before cross-card ganging can be used, the connection must be enabled by command `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）. |
+| pinNo | This is the device pin number which is allocated to the specified channel. The number must be enclosed in double quotes. |
+| pinName | The name to be allocated to the pin. Maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest. |
+| pinlist | This query parameter specifies the pins whose definitions are to be retrieved. The symbol @ can be used with the DFPN? query to list all pins previously defined by the DFPN command. If a list of more than one pin is required, the pin names must be separated by a comma. If you query a non-existent pin, the system returns nothing. |
 
 ### Example 1（取自子主题 Pin configuration setup commands › List of configuration commands › DFPN  DFPN  -  DeFine Pin Name）
 
@@ -40112,33 +33087,10 @@ DFPT {(pinlist)}, {(port)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFPT  DFPT  -  DeFine PorT）
 
-|
-
-pinlist
-
- |
-
-Pin name or names. If more than one pin is required, the names must be separated with a comma. The @ character can be used to refer to all configured pins. The pin list can contain digital or DC Scale pins, or a combination of both.
-
- |
- |
-
-port
-
- |
-
-The name of the port to which the pins are associated. The maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest.
-
- |
- |
-
-portlist
-
- |
-
-List of ports for which the associated pins are to be displayed. Specify `(@@)` to retrieve the definitions of all ports.
-
- |
+| pinlist | Pin name or names. If more than one pin is required, the names must be separated with a comma. The @ character can be used to refer to all configured pins. The pin list can contain digital or DC Scale pins, or a combination of both. |
+|---|---|
+| port | The name of the port to which the pins are associated. The maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest. |
+| portlist | List of ports for which the associated pins are to be displayed. Specify `(@@)` to retrieve the definitions of all ports. |
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › DFPT  DFPT  -  DeFine PorT）
 
@@ -40330,95 +33282,16 @@ DSCP {device_cycle}, {waveform_set}, {timing_set}, {level_set}, {dps_set},
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DSCP  DSCP  -  Define System Control Parameter）
 
-| device_cycle  | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.
-
-Default: 256
-
-Maximum: 16384
-
-Note that the total number of device cycles gets evenly divided between the combined number of waveform sets and wavetables. If you use the default values, then 256 device cycles divides into the total number of 32 `waveform sets and wavetables`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） to give you 8 device cycles per waveform set/wavetable. If you choose values that do not divide evenly, then the number of device cycles will be rounded up to the next multiple of the `waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） parameter.
-
- |
- | devicecycle_set |
-
-The devicecycle_set parameter is an integer that defines the maximum number of device cycle sets that you can create. Device cycle sets are needed for selective digital capture.
-
-Default: 1
-
-Maximum: 128
-
- |
- | dps_set |
-
-The dps_set parameter is an integer that defines the maximum number of DPS sets you can create.
-
-Default: 32
-
-Maximum: 256
-
- |
- | level_set |
-
-The level_set parameter is an integer that defines the combined total of level sets for fixed and equation based levels that you can create.
-
-Default: 32
-
-Maximum: 256
-
- |
- | period_res_prec |
-
-This parameter defines the precision with which the period resolution is calculated by the system. It has no effect on a user defined period resolution (using, for example, the period_res keyword in the equation set).
-
-The default is 4, if the .technology file does not contain this parameter.
-
-If it does, the value of the .technology file is the default.
-
-This value is set to 9, the greatest possible value, when a device is created.
-
- |
- |
-
-pmu_set
-
- |
-
-The pmu_set parameter is an integer that defines the maximum number of actions that can be contained in all measurement sets of all PPMU DC sets.
-
-Default: 1024
-
-Maximum: 12800
-
- |
- | routing_set |
-
-Defines the number of routing sets managed by the firmware, provided by the MCD.
-
-Default: 256
-
-Maximum: 512
-
- |
- | timing_set |
-
-The timing_set parameter is an integer that defines the maximum combined total of timing sets for fixed and equation based timing you can create.
-
-Default: 256
-
-Maximum: 999
-
-The number of timing sets must be equal to or greater than the number of waveform sets, as there must be at least one timing set per waveform set.
-
- |
- | waveform_set |
-
-The waveform_set parameter defines the maximum combined total of waveform sets (fixed timing) and wavetables (equation based timing) you can create. Thus, if you specify a value of 32, you could, for example, create 10 waveform sets and 22 wavetables.
-
-Default: 32
-
-Maximum: 128
-
- |
+| device_cycle | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.<br><br>Default: 256<br><br>Maximum: 16384<br><br>Note that the total number of device cycles gets evenly divided between the combined number of waveform sets and wavetables. If you use the default values, then 256 device cycles divides into the total number of 32 `waveform sets and wavetables`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） to give you 8 device cycles per waveform set/wavetable. If you choose values that do not divide evenly, then the number of device cycles will be rounded up to the next multiple of the `waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） parameter. |
+|---|---|
+| devicecycle_set | The devicecycle_set parameter is an integer that defines the maximum number of device cycle sets that you can create. Device cycle sets are needed for selective digital capture.<br><br>Default: 1<br><br>Maximum: 128 |
+| dps_set | The dps_set parameter is an integer that defines the maximum number of DPS sets you can create.<br><br>Default: 32<br><br>Maximum: 256 |
+| level_set | The level_set parameter is an integer that defines the combined total of level sets for fixed and equation based levels that you can create.<br><br>Default: 32<br><br>Maximum: 256 |
+| period_res_prec | This parameter defines the precision with which the period resolution is calculated by the system. It has no effect on a user defined period resolution (using, for example, the period_res keyword in the equation set).<br><br>The default is 4, if the .technology file does not contain this parameter.<br><br>If it does, the value of the .technology file is the default.<br><br>This value is set to 9, the greatest possible value, when a device is created. |
+| pmu_set | The pmu_set parameter is an integer that defines the maximum number of actions that can be contained in all measurement sets of all PPMU DC sets.<br><br>Default: 1024<br><br>Maximum: 12800 |
+| routing_set | Defines the number of routing sets managed by the firmware, provided by the MCD.<br><br>Default: 256<br><br>Maximum: 512 |
+| timing_set | The timing_set parameter is an integer that defines the maximum combined total of timing sets for fixed and equation based timing you can create.<br><br>Default: 256<br><br>Maximum: 999<br><br>The number of timing sets must be equal to or greater than the number of waveform sets, as there must be at least one timing set per waveform set. |
+| waveform_set | The waveform_set parameter defines the maximum combined total of waveform sets (fixed timing) and wavetables (equation based timing) you can create. Thus, if you specify a value of 32, you could, for example, create 10 waveform sets and 22 wavetables.<br><br>Default: 32<br><br>Maximum: 128 |
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › DSCP  DSCP  -  Define System Control Parameter）
 
@@ -40749,74 +33622,13 @@ PALS {site}, {channel_1|(DC_scale_channels_list)}, [channel_2], {(pin)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › PALS  PALS  -  Pin ALlocation for multiple Sites）
 
-|
-
-site
-
- |
-
-The site parameter is an integer that defines the number of the site where the channels are to be defined.
-
-The integer must be greater than 1 (channels for site 1 are defined by the command `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`）.
-
-When specified as part of the PALS? query, you can use the parameter ALL to read the channel allocation for all sites or the parameter PEND to read the pending channel allocation.
-
- |
- |
-
-channel_1
-
- |
-
-This parameter specifies the test system channel used in the specified site for the pin.
-
-For a digital or DC Scale channel, specify it with the test system channel number, which is five digits.
-
-See `DFPN, DFPN? - (DeFine Pin Name)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） for the channel number.
-
-For utility lines, see `DFUT, DFUT? - (DeFine UTility line)`（raw: `02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md`） for the channel number.
-
- |
- |
-
-DC_scale_channels_list
-
- |
-
-You can define a Master/Slave configuration for DC Scale channels by specifying a list of DC Scale channels, separated by commas and enclosed by parentheses. The first channel is the master.
-
-For UHC4 / UHC4T the channels must be physically adjacent on the same board, or be the last (the 4th) channel of a board and the first of another UHC4 / UHC4T board. You cannot gang UHC4 and UHC4T boards. Before ganging between boards can be used, the connection must be enabled by `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）.
-
- |
- |
-
-channel_2
-
- |
-
-The optional parameter is currently not used.
-
- |
- |
-
-pin
-
- |
-
-This defines the name of the pin.
-
- |
- |
-
-pinlist
-
- |
-
-The names of the pins to be allocated to the pin.
-
-The query returns the name of the pin allocated to each channel. The symbol @ can be used with the PALS? command to list all pins previously defined by the PALS command. If a list of more than one pin is required, the pin names must be separated with a comma. If you query a non-existent pinlist, the system returns nothing.
-
- |
+| site | The site parameter is an integer that defines the number of the site where the channels are to be defined.<br><br>The integer must be greater than 1 (channels for site 1 are defined by the command `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`）.<br><br>When specified as part of the PALS? query, you can use the parameter ALL to read the channel allocation for all sites or the parameter PEND to read the pending channel allocation. |
+|---|---|
+| channel_1 | This parameter specifies the test system channel used in the specified site for the pin.<br><br>For a digital or DC Scale channel, specify it with the test system channel number, which is five digits.<br><br>See `DFPN, DFPN? - (DeFine Pin Name)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） for the channel number.<br><br>For utility lines, see `DFUT, DFUT? - (DeFine UTility line)`（raw: `02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md`） for the channel number. |
+| DC_scale_channels_list | You can define a Master/Slave configuration for DC Scale channels by specifying a list of DC Scale channels, separated by commas and enclosed by parentheses. The first channel is the master.<br><br>For UHC4 / UHC4T the channels must be physically adjacent on the same board, or be the last (the 4th) channel of a board and the first of another UHC4 / UHC4T board. You cannot gang UHC4 and UHC4T boards. Before ganging between boards can be used, the connection must be enabled by `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）. |
+| channel_2 | The optional parameter is currently not used. |
+| pin | This defines the name of the pin. |
+| pinlist | The names of the pins to be allocated to the pin.<br><br>The query returns the name of the pin allocated to each channel. The symbol @ can be used with the PALS? command to list all pins previously defined by the PALS command. If a list of more than one pin is required, the pin names must be separated with a comma. If you query a non-existent pinlist, the system returns nothing. |
 
 ### Examples（取自子主题 Pin configuration setup commands › List of configuration commands › PALS  PALS  -  Pin ALlocation for multiple Sites）
 
@@ -40868,33 +33680,10 @@ PFND {group_type}, {(list)}, {(pin)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › PFND  -  Pin FiND）
 
-|
-
-group_type
-
- |
-
-The group type can be PRT (for "port") or DIFF (for "differential pair"). PRT is the default.
-
- |
- |
-
-pin
-
- |
-
-The name of the pin about which information is to be retrieved.
-
- |
- |
-
-list
-
- |
-
-List of the ports that contain the pin, or the differential pair to which the specified pin belongs.
-
- |
+| group_type | The group type can be PRT (for "port") or DIFF (for "differential pair"). PRT is the default. |
+|---|---|
+| pin | The name of the pin about which information is to be retrieved. |
+| list | List of the ports that contain the pin, or the differential pair to which the specified pin belongs. |
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › PFND  -  Pin FiND）
 
@@ -40919,15 +33708,8 @@ PQFC?
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › PQFC  PQFC  -  Parallel Query FoCus）
 
-|
-
-site
-
- |
-
-The site parameter is single integer representing the number of the site that has or shall have the query focus.
-
- |
+| site | The site parameter is single integer representing the number of the site that has or shall have the query focus. |
+|---|---|
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › PQFC  PQFC  -  Parallel Query FoCus）
 
@@ -40977,51 +33759,12 @@ PSSL [min_voltage | OFF], [max_voltage | OFF], [max_source_current | OFF], [max_
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › PSSL  PSSL   Power Supply Safety Limits）
 
-|
-
-min_voltage
-
- |
-
-Lowest allowed voltage in V. Must be ≤0.
-
- |
- |
-
-max_voltage
-
- |
-
-Highest allowed voltage in V. Must be ≥0.
-
- |
- |
-
-max_source_current
-
- |
-
-Highest allowed source current in A. Must be > 0.
-
- |
- |
-
-max_sink_current
-
- |
-
-Highest allowed sink current in A. Must be > 0.
-
- |
- |
-
-pin_list
-
- |
-
-Comma separated list of DPS power pins, previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command, and of DC signal (PMU) pins defined by the `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） command.
-
- |
+| min_voltage | Lowest allowed voltage in V. Must be ≤0. |
+|---|---|
+| max_voltage | Highest allowed voltage in V. Must be ≥0. |
+| max_source_current | Highest allowed source current in A. Must be > 0. |
+| max_sink_current | Highest allowed sink current in A. Must be > 0. |
+| pin_list | Comma separated list of DPS power pins, previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command, and of DC signal (PMU) pins defined by the `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） command. |
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › PSSL  PSSL   Power Supply Safety Limits）
 
@@ -41051,27 +33794,10 @@ PSTE {sites|"site_string"}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › PSTE  PSTE  -  Parallel SiTe Enable）
 
-| sites |
-
-The sites parameter is an integer that specifies the number of sites (to be) configured. The maximum is 1024.
-
-For more information, refer to `Number of sites`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md#_116532__r_numberOfSites`） in `SmarTest system parameters - default values and limits`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md`）.
-
- |
- | site_string |
-
-A string consisting of "0" and "1". The length of the string corresponds to the number of the configured sites. The nth character of this string stands for site n.
-
-"0" indicates that the respective site uses a channel that is listed in the MCDIgnore file, and that this site therefore cannot be used for testing. "1" indicates that the site can be used.
-
- |
- | STR |
-
-If you specify this optional keyword in the query, PSTE? will return a site string.
-
-If this parameter is omitted, PSTE? will return the number of sites that are configured in the pin configuration.
-
- |
+| sites | The sites parameter is an integer that specifies the number of sites (to be) configured. The maximum is 1024.<br><br>For more information, refer to `Number of sites`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md#_116532__r_numberOfSites`） in `SmarTest system parameters - default values and limits`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md`）. |
+|---|---|
+| site_string | A string consisting of "0" and "1". The length of the string corresponds to the number of the configured sites. The nth character of this string stands for site n.<br><br>"0" indicates that the respective site uses a channel that is listed in the MCDIgnore file, and that this site therefore cannot be used for testing. "1" indicates that the site can be used. |
+| STR | If you specify this optional keyword in the query, PSTE? will return a site string.<br><br>If this parameter is omitted, PSTE? will return the number of sites that are configured in the pin configuration. |
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › PSTE  PSTE  -  Parallel SiTe Enable）
 
@@ -41106,42 +33832,11 @@ STME {ON|OFF|FAST),
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › STME  STME  -  SiTe Match Enable）
 
-|
-
-ON
-
- |
-
-Turns the site match function on.
-
- |
- |
-
-OFF
-
- |
-
-Turns the site match function off.
-
- |
- |
-
-AUTO
-
- |
-
-Starting the sites successively affects the test negatively if the pin configuration contains at least one shared digital channel for triggering an analog module. The AUTO option checks if such a shared channel exists. If it does, the match site function is set to OFF; if not, it is set to ON. AUTO is the default.
-
- |
- |
-
-FAST
-
- |
-
-Activates the `Fast Sync`（raw: `02.06.07.01.08.04.03.03_Fast_Sync.md`） feature (local synchronization) of the test processor. After setting this option," STME ON" is required to turn on the site match function.
-
- |
+| ON | Turns the site match function on. |
+|---|---|
+| OFF | Turns the site match function off. |
+| AUTO | Starting the sites successively affects the test negatively if the pin configuration contains at least one shared digital channel for triggering an analog module. The AUTO option checks if such a shared channel exists. If it does, the match site function is set to OFF; if not, it is set to ON. AUTO is the default. |
+| FAST | Activates the `Fast Sync`（raw: `02.06.07.01.08.04.03.03_Fast_Sync.md`） feature (local synchronization) of the test processor. After setting this option," STME ON" is required to turn on the site match function. |
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › STME  STME  -  SiTe Match Enable）
 
@@ -41170,15 +33865,8 @@ UDEF {(pinlist)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UDEF -  UnDEFine pin）
 
-|
-
-pinlist
-
- |
-
-Consists of single or multiple pin names or the symbol @ which removes all pins. If more than one pin is required, the names must be separated with a comma.
-
- |
+| pinlist | Consists of single or multiple pin names or the symbol @ which removes all pins. If more than one pin is required, the names must be separated with a comma. |
+|---|---|
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › UDEF -  UnDEFine pin）
 
@@ -41196,15 +33884,8 @@ UDGP {(group)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UDGP -  UnDefine GrouP）
 
-|
-
-group
-
- |
-
-Defines the name of the group of pins to be removed. The symbol @ can be used to dismantle all groups. If more than one group is to be removed, the names must be separated by a comma.
-
- |
+| group | Defines the name of the group of pins to be removed. The symbol @ can be used to dismantle all groups. If more than one group is to be removed, the names must be separated by a comma. |
+|---|---|
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › UDGP -  UnDefine GrouP）
 
@@ -41222,15 +33903,8 @@ UDPS {(pinlist)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UDPS -  Undefine DPS pin）
 
-|
-
-pinlist
-
- |
-
-Consists of single or multiple pin names or the symbol @ which undefines all DPS pins. If more than one pin is to be removed, the names must be separated with a comma.
-
- |
+| pinlist | Consists of single or multiple pin names or the symbol @ which undefines all DPS pins. If more than one pin is to be removed, the names must be separated with a comma. |
+|---|---|
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › UDPS -  Undefine DPS pin）
 
@@ -41350,37 +34024,10 @@ UPAS {site}, "{setting}", {(purpose_name)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
 
-| site |
-
-The site parameter is an integer that defines the number of the site where the channels are to be defined.
-
-The integer must be greater than 1.
-
-When specified as part of the UPAS? query, you can use the parameter ALL to read the standard output states for all sites.
-
- |
- | setting |
-
-Output states for each member of the utility purpose on the specified site.
-
-Set the output state of each utility line with the following specifiers:
-
-- 0: Sets the corresponding (write) channel to high (high impedance state)
-- 1: Sets the corresponding (write) channel to low
-- X (x): No action
-
-The number and order of characters must correspond to the ch_No_list parameter of the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.
-
-If this parameter is omitted, the specified site is set to the same states as site 1.
-
- |
- | purpose_name |
-
-Name of a utility purpose defined by the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.
-
-In the query, the symbol @ can be used to list all defined utility purposes.
-
- |
+| site | The site parameter is an integer that defines the number of the site where the channels are to be defined.<br><br>The integer must be greater than 1.<br><br>When specified as part of the UPAS? query, you can use the parameter ALL to read the standard output states for all sites. |
+|---|---|
+| setting | Output states for each member of the utility purpose on the specified site.<br><br>Set the output state of each utility line with the following specifiers:<br><br>- 0: Sets the corresponding (write) channel to high (high impedance state)<br>- 1: Sets the corresponding (write) channel to low<br>- X (x): No action<br><br>The number and order of characters must correspond to the ch_No_list parameter of the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.<br><br>If this parameter is omitted, the specified site is set to the same states as site 1. |
+| purpose_name | Name of a utility purpose defined by the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.<br><br>In the query, the symbol @ can be used to list all defined utility purposes. |
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
 
@@ -41696,15 +34343,8 @@ returns:
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › IDN  -  IDeNtify）
 
-|
-
-id_string
-
- |
-
-The string contains the model, the firmware revision number, and the revision date.
-
- |
+| id_string | The string contains the model, the firmware revision number, and the revision date. |
+|---|---|
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › IDN  -  IDeNtify）
 
@@ -41731,116 +34371,14 @@ returns:
 ```
 
 Parameters
- | hardware_type  | Returns type of the test head:
-
-- PS_2CC or CS_2CC
-
-  - Compact test head containing two card cages.
-
-- PS_4CC or CS_4CC
-
-  - Small test head containing four card cages.
-
-- PS_8CC or CS_8CC
-
-  - Large test head containing eight card cages.
-
-- JN_S
-
-  - 256 pin test head (MCU)
-
- |
- | board_no  | Returns the position of the installed card or the logical board number:
-
-- The position of the card is determined by the slot in which the card is installed.
-The following ranges are applicable for board_no:
-
-- Control board:
-
-  - Control segment number; two digits (CS); 1 to 16
-
-- Clock board:
-
-  - Board number of the clock board; two digits (CSCLK): 11, 12, 21, 22, ..., 41, 42
-
-- Pin Scale 1600 channel cards and all DC Scale cards:
-
-  - Board number (physical or virtual pogo block number) of the logical board; triple digit; range for physical pogo blocks 101 to 132, 201 to 232, 301 to 332, and 401 to 432.
-
-- PPS modules:
-
-  - Board number (pogo block number or slot number) of the PPS module; triple digit; range 101 to 132 and 201 to 232
-
-- DPS cards:
-
-  - DPS card number (DPS pogo block number) of the DPS card; single digit; 1 to 8
-
- |
- | board_type |
-
-Returns the type of board or card. This may be:
-
-- CNTR: Control board
-- CLK: Clock board
-- CPIO: Channel card - Pin Scale 1600
-- JNIO: Channel board - MCU
-- PPS: Precision Parallel Source
-- HVP: High-Voltage PMU
-- SWA: Switch matrix
-
-DPS-slot device power supplies:
-
-- SE-UDPS: Internal Utility Power Supply
-
-DC Scale cards:
-
-- DPS128HC: DC Scale DPS128/64-HC
-- UHC4T: DC Scale UHC4T
-- XPS256 DC Scale XPS256
- |
- | board_id |
-
-As defined in the file /opt/hp93000/soc/pws/data/board_ids.
-
- |
- | phys_location |
-
-Returns the physical location of the board. Format: TCSS.
-
-- T: Test head (Always 1 for V93000 systems)
-- C: Card cage; single digit; range 1 to 8
-- SS: Slot in the card cage; two digits; range 01 to 14.
-
-For details on the mapping of card slots see Mapping of physical resources.
-
- |
- | clk_board  | Board number of the clock board in the card cage to which the board belongs. |
- | chan_x_info_y |
-
-Channel information. For each channel on the board, the system can return two terms: chan_x_info_1 and chan_x_info_2, where x is the channel number in the range 1 to 16 decimal.
-
-- Digital channels
-
-  - chan_x_info_1: For each of the 16 channels on the channel card, chan_x_info_1 returns the sequencer memory (SM) depth in blocks of 128K vectors (or 0.125M vectors).
-  - chan_x_info_2: For each of the 16 channels on the channel card, chan_x_info_2 returns the vector memory (VM) depth in blocks of 128K vectors (or 0.125M vectors).
-
-- Fast differential channels
-
-chan_x_info_1:
-
-I: Input channel
-
-O: Output channel
-
-- PPS channels
-
-  - chan_x_info_1: Returns the size of installed pattern memory in blocks of 1K words (16 bit).
-
-- HVP channels
-
-  - chan_x_info_1: Returns the size of installed DAC/ADC RAM in blocks of 1K words (16 bit).
-
- |
+| hardware_type | Returns type of the test head:<br><br>- PS_2CC or CS_2CC<br><br>- Compact test head containing two card cages.<br><br>- PS_4CC or CS_4CC<br><br>- Small test head containing four card cages.<br><br>- PS_8CC or CS_8CC<br><br>- Large test head containing eight card cages.<br><br>- JN_S<br><br>- 256 pin test head (MCU) |
+|---|---|
+| board_no | Returns the position of the installed card or the logical board number:<br><br>- The position of the card is determined by the slot in which the card is installed.<br>The following ranges are applicable for board_no:<br><br>- Control board:<br><br>- Control segment number; two digits (CS); 1 to 16<br><br>- Clock board:<br><br>- Board number of the clock board; two digits (CSCLK): 11, 12, 21, 22, ..., 41, 42<br><br>- Pin Scale 1600 channel cards and all DC Scale cards:<br><br>- Board number (physical or virtual pogo block number) of the logical board; triple digit; range for physical pogo blocks 101 to 132, 201 to 232, 301 to 332, and 401 to 432.<br><br>- PPS modules:<br><br>- Board number (pogo block number or slot number) of the PPS module; triple digit; range 101 to 132 and 201 to 232<br><br>- DPS cards:<br><br>- DPS card number (DPS pogo block number) of the DPS card; single digit; 1 to 8 |
+| board_type | Returns the type of board or card. This may be:<br><br>- CNTR: Control board<br>- CLK: Clock board<br>- CPIO: Channel card - Pin Scale 1600<br>- JNIO: Channel board - MCU<br>- PPS: Precision Parallel Source<br>- HVP: High-Voltage PMU<br>- SWA: Switch matrix<br><br>DPS-slot device power supplies:<br><br>- SE-UDPS: Internal Utility Power Supply<br><br>DC Scale cards:<br><br>- DPS128HC: DC Scale DPS128/64-HC<br>- UHC4T: DC Scale UHC4T<br>- XPS256 DC Scale XPS256 |
+| board_id | As defined in the file /opt/hp93000/soc/pws/data/board_ids. |
+| phys_location | Returns the physical location of the board. Format: TCSS.<br><br>- T: Test head (Always 1 for V93000 systems)<br>- C: Card cage; single digit; range 1 to 8<br>- SS: Slot in the card cage; two digits; range 01 to 14.<br><br>For details on the mapping of card slots see Mapping of physical resources. |
+| clk_board | Board number of the clock board in the card cage to which the board belongs. |
+| chan_x_info_y | Channel information. For each channel on the board, the system can return two terms: chan_x_info_1 and chan_x_info_2, where x is the channel number in the range 1 to 16 decimal.<br><br>- Digital channels<br><br>- chan_x_info_1: For each of the 16 channels on the channel card, chan_x_info_1 returns the sequencer memory (SM) depth in blocks of 128K vectors (or 0.125M vectors).<br>- chan_x_info_2: For each of the 16 channels on the channel card, chan_x_info_2 returns the vector memory (VM) depth in blocks of 128K vectors (or 0.125M vectors).<br><br>- Fast differential channels<br><br>chan_x_info_1:<br><br>I: Input channel<br><br>O: Output channel<br><br>- PPS channels<br><br>- chan_x_info_1: Returns the size of installed pattern memory in blocks of 1K words (16 bit).<br><br>- HVP channels<br><br>- chan_x_info_1: Returns the size of installed DAC/ADC RAM in blocks of 1K words (16 bit). |
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › OPT  -  hardware OPTions）
 
@@ -41878,95 +34416,16 @@ DSCP {device_cycle}, {waveform_set}, {timing_set}, {level_set}, {dps_set},
 
 ### Parameters（取自子主题 Routing Setup Commands › List of routing setup commands › DSCP  DSCP  -  Define System Control Parameter）
 
-| device_cycle  | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.
-
-Default: 256
-
-Maximum: 16384
-
-Note that the total number of device cycles gets evenly divided between the combined number of waveform sets and wavetables. If you use the default values, then 256 device cycles divides into the total number of 32 `waveform sets and wavetables`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） to give you 8 device cycles per waveform set/wavetable. If you choose values that do not divide evenly, then the number of device cycles will be rounded up to the next multiple of the `waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） parameter.
-
- |
- | devicecycle_set |
-
-The devicecycle_set parameter is an integer that defines the maximum number of device cycle sets that you can create. Device cycle sets are needed for selective digital capture.
-
-Default: 1
-
-Maximum: 128
-
- |
- | dps_set |
-
-The dps_set parameter is an integer that defines the maximum number of DPS sets you can create.
-
-Default: 32
-
-Maximum: 256
-
- |
- | level_set |
-
-The level_set parameter is an integer that defines the combined total of level sets for fixed and equation based levels that you can create.
-
-Default: 32
-
-Maximum: 256
-
- |
- | period_res_prec |
-
-This parameter defines the precision with which the period resolution is calculated by the system. It has no effect on a user defined period resolution (using, for example, the period_res keyword in the equation set).
-
-The default is 4, if the .technology file does not contain this parameter.
-
-If it does, the value of the .technology file is the default.
-
-This value is set to 9, the greatest possible value, when a device is created.
-
- |
- |
-
-pmu_set
-
- |
-
-The pmu_set parameter is an integer that defines the maximum number of actions that can be contained in all measurement sets of all PPMU DC sets.
-
-Default: 1024
-
-Maximum: 12800
-
- |
- | routing_set |
-
-Defines the number of routing sets managed by the firmware, provided by the MCD.
-
-Default: 256
-
-Maximum: 512
-
- |
- | timing_set |
-
-The timing_set parameter is an integer that defines the maximum combined total of timing sets for fixed and equation based timing you can create.
-
-Default: 256
-
-Maximum: 999
-
-The number of timing sets must be equal to or greater than the number of waveform sets, as there must be at least one timing set per waveform set.
-
- |
- | waveform_set |
-
-The waveform_set parameter defines the maximum combined total of waveform sets (fixed timing) and wavetables (equation based timing) you can create. Thus, if you specify a value of 32, you could, for example, create 10 waveform sets and 22 wavetables.
-
-Default: 32
-
-Maximum: 128
-
- |
+| device_cycle | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.<br><br>Default: 256<br><br>Maximum: 16384<br><br>Note that the total number of device cycles gets evenly divided between the combined number of waveform sets and wavetables. If you use the default values, then 256 device cycles divides into the total number of 32 `waveform sets and wavetables`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） to give you 8 device cycles per waveform set/wavetable. If you choose values that do not divide evenly, then the number of device cycles will be rounded up to the next multiple of the `waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） parameter. |
+|---|---|
+| devicecycle_set | The devicecycle_set parameter is an integer that defines the maximum number of device cycle sets that you can create. Device cycle sets are needed for selective digital capture.<br><br>Default: 1<br><br>Maximum: 128 |
+| dps_set | The dps_set parameter is an integer that defines the maximum number of DPS sets you can create.<br><br>Default: 32<br><br>Maximum: 256 |
+| level_set | The level_set parameter is an integer that defines the combined total of level sets for fixed and equation based levels that you can create.<br><br>Default: 32<br><br>Maximum: 256 |
+| period_res_prec | This parameter defines the precision with which the period resolution is calculated by the system. It has no effect on a user defined period resolution (using, for example, the period_res keyword in the equation set).<br><br>The default is 4, if the .technology file does not contain this parameter.<br><br>If it does, the value of the .technology file is the default.<br><br>This value is set to 9, the greatest possible value, when a device is created. |
+| pmu_set | The pmu_set parameter is an integer that defines the maximum number of actions that can be contained in all measurement sets of all PPMU DC sets.<br><br>Default: 1024<br><br>Maximum: 12800 |
+| routing_set | Defines the number of routing sets managed by the firmware, provided by the MCD.<br><br>Default: 256<br><br>Maximum: 512 |
+| timing_set | The timing_set parameter is an integer that defines the maximum combined total of timing sets for fixed and equation based timing you can create.<br><br>Default: 256<br><br>Maximum: 999<br><br>The number of timing sets must be equal to or greater than the number of waveform sets, as there must be at least one timing set per waveform set. |
+| waveform_set | The waveform_set parameter defines the maximum combined total of waveform sets (fixed timing) and wavetables (equation based timing) you can create. Thus, if you specify a value of 32, you could, for example, create 10 waveform sets and 22 wavetables.<br><br>Default: 32<br><br>Maximum: 128 |
 
 ### Example（取自子主题 Routing Setup Commands › List of routing setup commands › DSCP  DSCP  -  Define System Control Parameter）
 
@@ -41986,17 +34445,8 @@ SRPR?
 
 ### Parameters（取自子主题 Routing Setup Commands › List of routing setup commands › SRPR  SRPR  -  Set Routing PRimary）
 
-|
-
-set
-
- |
-
-An identification number of the routing set. This is an integer from 1 to the maximum number defined by the DSCP command.
-
-If the NONE specifier is specified, no routing statements will be executed by the next command.
-
- |
+| set | An identification number of the routing set. This is an integer from 1 to the maximum number defined by the DSCP command.<br><br>If the NONE specifier is specified, no routing statements will be executed by the next command. |
+|---|---|
 
 ### Example（取自子主题 Routing Setup Commands › List of routing setup commands › SRPR  SRPR  -  Set Routing PRimary）
 
@@ -42014,17 +34464,8 @@ UDRS {set}
 
 ### Parameters（取自子主题 Routing Setup Commands › List of routing setup commands › UDRS -  UnDefine Routing Set）
 
-|
-
-set
-
- |
-
-An identification number of the routing set. This is an integer from 1 to the maximum number defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.
-
-If the ALL specifier is specified, the command deletes all routing sets.
-
- |
+| set | An identification number of the routing set. This is an integer from 1 to the maximum number defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.<br><br>If the ALL specifier is specified, the command deletes all routing sets. |
+|---|---|
 
 ### Example（取自子主题 Routing Setup Commands › List of routing setup commands › UDRS -  UnDefine Routing Set）
 
@@ -42167,20 +34608,14 @@ DFSP [meas_resource,] {measure_type}, {measure_range},{sampling_rate}, [average_
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › DFSP  DFSP  -  DeFine Sampling Profile）
 
-| meas_resource  | The measurement resource. It can be:
-
-- PMU - The default value
- |
- | measure_type  | The measurement type. It can be:
-
-- VOLT - for voltage measurements, or
-- CURR - for current measurements.
- |
- | measure_range  | This parameter corresponds to the voltage/current measure range. |
- | sampling_rate  | Specifies the sampling rate in microseconds. |
- | average_factor  | The number of measurements per sample. |
- | keep_range  | Specifies whether the range used by current profiling should be kept. Default is to restore last measure range before doing the profiling. |
- | pinlist  | This parameter specifies the pins to be used for the measurements. |
+| meas_resource | The measurement resource. It can be:<br><br>- PMU - The default value |
+|---|---|
+| measure_type | The measurement type. It can be:<br><br>- VOLT - for voltage measurements, or<br>- CURR - for current measurements. |
+| measure_range | This parameter corresponds to the voltage/current measure range. |
+| sampling_rate | Specifies the sampling rate in microseconds. |
+| average_factor | The number of measurements per sample. |
+| keep_range | Specifies whether the range used by current profiling should be kept. Default is to restore last measure range before doing the profiling. |
+| pinlist | This parameter specifies the pins to be used for the measurements. |
 
 ### Example 1: Current measurements（取自子主题 Level Setup Commands › List of level setup commands › DFSP  DFSP  -  DeFine Sampling Profile）
 
@@ -42319,85 +34754,14 @@ DRLV {level_set | level_set_id}, [logic_0_level], [logic_1_level], [v3h_level | 
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › DRLV  DRLV  -  DRive LeVel）
 
-|
-
-level_set_no
-
- |
-
-The identification number of the level set (fixed levels) in which you want the levels to be included. The number must not exceed the maximum number of level sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command). Typing ALL in this field sets the levels for all existing level sets. Typing PRM sets the drive voltage levels for the primary level set.
-
- |
- |
-
-level_set_id
-
- |
-
-Used in equation based level setup. It is derived as follows:
-
-100000 * equation_set_no + 1000 * specset_no + level_set_no
-
-Note that if you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set.
-
- |
- |
-
-logic_0_level
-
- |
-
-An integer (in mV) which sets the low level voltage for the drive amplifier.
-
- |
- |
-
-logic_1_level
-
- |
-
-An integer (in mV) which sets the high level voltage for the drive amplifier.
-
- |
- |
-
-v3h_level
-
- |
-
-Input (drive) 3rd level definition (high level voltage shift). The expression of this extra parameter must define a value in millivolts (mV).
-
-This parameter is no longer used.
-
- |
- |
-
-range
-
- |
-
-This extra parameter selects the drive range in mV:
-
-- -8000.0 ... 8000.0 selects the 8 V range
-- -30000.0 ... 30000.0 selects the 30 V range
-- all other values select the -40 V ... +80 V range
-
-If not specified the best fit range will be selected based on logic_0_level and logic_1_level.
-
-This parameter is currently not available.
-
-The query returns the parameter only if it is defined for the queried level set.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins whose levels you want to set. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. If more than one pin is to be included, the names must be separated with a comma. The symbol @ sets or reads the drive levels of all input pins in the level set. You can include I and IO pin types in pinlist.
-
- |
+| level_set_no | The identification number of the level set (fixed levels) in which you want the levels to be included. The number must not exceed the maximum number of level sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command). Typing ALL in this field sets the levels for all existing level sets. Typing PRM sets the drive voltage levels for the primary level set. |
+|---|---|
+| level_set_id | Used in equation based level setup. It is derived as follows:<br><br>100000 * equation_set_no + 1000 * specset_no + level_set_no<br><br>Note that if you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set. |
+| logic_0_level | An integer (in mV) which sets the low level voltage for the drive amplifier. |
+| logic_1_level | An integer (in mV) which sets the high level voltage for the drive amplifier. |
+| v3h_level | Input (drive) 3rd level definition (high level voltage shift). The expression of this extra parameter must define a value in millivolts (mV).<br><br>This parameter is no longer used. |
+| range | This extra parameter selects the drive range in mV:<br><br>- -8000.0 ... 8000.0 selects the 8 V range<br>- -30000.0 ... 30000.0 selects the 30 V range<br>- all other values select the -40 V ... +80 V range<br><br>If not specified the best fit range will be selected based on logic_0_level and logic_1_level.<br><br>This parameter is currently not available.<br><br>The query returns the parameter only if it is defined for the queried level set. |
+| pinlist | The name of the pin or pins whose levels you want to set. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. If more than one pin is to be included, the names must be separated with a comma. The symbol @ sets or reads the drive levels of all input pins in the level set. You can include I and IO pin types in pinlist. |
 
 For card specifications, like level ranges, see `Digital Cards`（raw: `../02.02_Specifications/02.02.04_Digital_Cards.md`）, for example:
 
@@ -42440,17 +34804,8 @@ DSUS {ds_No}
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › DSUS  DSUS  -  Dps Sets USed）
 
-|
-
-ds_No
-
- |
-
-DPS Set Number. This is the highest number currently allocated to a DPS set, or the highest number of set you want to load. The number you type must not exceed the maximum number of DPS sets allowed (defined by the DSCP command).
-
-This number is automatically updated to include any new DPS set as it is created. At power-on only one DPS set (containing the default values) is available.
-
- |
+| ds_No | DPS Set Number. This is the highest number currently allocated to a DPS set, or the highest number of set you want to load. The number you type must not exceed the maximum number of DPS sets allowed (defined by the DSCP command).<br><br>This number is automatically updated to include any new DPS set as it is created. At power-on only one DPS set (containing the default values) is available. |
+|---|---|
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › DSUS  DSUS  -  Dps Sets USed）
 
@@ -42480,24 +34835,9 @@ ENSP {operation_state},{(pinlist)}
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › ENSP  ENSP  -  ENable Sampling Profile）
 
-|
-
-operation_state
-
- |
-
-Specifies the operation state (ON|OFF)
-
- |
- |
-
-pinlist
-
- |
-
-This parameter specifies the pins to be enabled or disabled for the `DFSP, DFSP? - (DeFine Sampling Profile)`（raw: `02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md`） command.
-
- |
+| operation_state | Specifies the operation state (ON\|OFF) |
+|---|---|
+| pinlist | This parameter specifies the pins to be enabled or disabled for the `DFSP, DFSP? - (DeFine Sampling Profile)`（raw: `02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md`） command. |
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › ENSP  ENSP  -  ENable Sampling Profile）
 
@@ -42531,242 +34871,33 @@ EQFC? {level_set_no|level_set_id|ALL|PRM} ,{filter_parameter|ALL_specifier|ALL},
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › EQFC  EQFC  -  EQualization and Filter Configuration）
 
-| level_set_no |
-
-The identification number of the level set (fixed levels) in which you want the filter/equalization values to be included. The number must not exceed the maximum number of level sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).
-
- |
- |
-
-level_set_id
-
- |
-
-Used in equation based level setup. It is derived as follows:
-
-`100000 *` equation_set_no `+ 1000 * ` specset_no `+ ` level_set_no
-
-If you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set
-
- |
- |
-
-ALL
-
- |
-
-Sets the given parameters for all existing level sets.
-
- |
- |
-
-PRM
-
- |
-
-Sets the equalization for the primary level set.
-
- |
- |
-
-filter_parameter
-
- |
-
-See table below: `Impact and characteristics of the equalization parameter filter_parameter`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_filter_parameter_710x`）.
-
- |
- |
-
-ALL_specifier
-
- |
-
-Modify multiple parameters by one command, see table below: `Possible values for ALL_specifier`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_all_specifier`）.
-
- |
- |
-
-ALL
-
- |
-
-Selects all low pass filter and equalization parameters.
-
-Query only.
-
- |
- |
-
-offset_value
-
-filter_value
-
- |
-
-Defines the value for the specified filter_parameter, see table below: `Valid ranges for the equalization parameters (set value using "offset_value")`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_offset_value_710x`）.
-
-Time constants (risetime) for the filters are specified in nanoseconds (ns).
-
-If you try to set a value that is out of range, in the Console view, SmarTest issues an error message including the corresponding limit.
-
- |
- |
-
-pinList
-
- |
-
-List of pin names to which the command is applied. If a list of more than one pin is required, the names must be separated with a comma.
-
- |
+| level_set_no | The identification number of the level set (fixed levels) in which you want the filter/equalization values to be included. The number must not exceed the maximum number of level sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command). |
+|---|---|
+| level_set_id | Used in equation based level setup. It is derived as follows:<br><br>`100000 *` equation_set_no `+ 1000 * ` specset_no `+ ` level_set_no<br><br>If you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set |
+| ALL | Sets the given parameters for all existing level sets. |
+| PRM | Sets the equalization for the primary level set. |
+| filter_parameter | See table below: `Impact and characteristics of the equalization parameter filter_parameter`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_filter_parameter_710x`）. |
+| ALL_specifier | Modify multiple parameters by one command, see table below: `Possible values for ALL_specifier`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_all_specifier`）. |
+| ALL | Selects all low pass filter and equalization parameters.<br><br>Query only. |
+| offset_value<br><br>filter_value | Defines the value for the specified filter_parameter, see table below: `Valid ranges for the equalization parameters (set value using "offset_value")`（raw: `02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md#_112905__table_offset_value_710x`）.<br><br>Time constants (risetime) for the filters are specified in nanoseconds (ns).<br><br>If you try to set a value that is out of range, in the Console view, SmarTest issues an error message including the corresponding limit. |
+| pinList | List of pin names to which the command is applied. If a list of more than one pin is required, the names must be separated with a comma. |
 
 Impact and characteristics of the equalization parameter filter_parameter
- |
-
-Value
-
- |
-
-Description
-
- |
-
-PS1600
-
-   | PS5000 |
- |
-
-EQI1
-
- |
-
-Equalization offset for first interpolation point for driver
-
- |
-
-~6.5 ns
-
-   | n/a |
- |
-
-EQI2
-
- |
-
-Equalization offset for second interpolation point for driver
-
- |
-
-n/a
-
-   | ~200 ps |
- |
-
-EQI3
-
- |
-
-Equalization offset for third interpolation point for driver
-
- |
-
-n/a
-
-   | ~2 ns |
- |
-
-EQO1
-
- |
-
-Equalization offset for first interpolation point for receiver
-
- |
-
-~4 ns
-
-   | n/a |
- |
-
-EQO2
-
- |
-
-Equalization offset for second interpolation point for receiver
-
- |
-
-n/a
-
-   | ~200 ps |
- |
-
-EQO3
-
- |
-
-Equalization offset for third interpolation point for receiver
-
- |
-
-n/a
-
-   | ~2 ns |
+| Value | Description | PS1600 | PS5000 |
+|---|---|---|---|
+| EQI1 | Equalization offset for first interpolation point for driver | ~6.5 ns | n/a |
+| EQI2 | Equalization offset for second interpolation point for driver | n/a | ~200 ps |
+| EQI3 | Equalization offset for third interpolation point for driver | n/a | ~2 ns |
+| EQO1 | Equalization offset for first interpolation point for receiver | ~4 ns | n/a |
+| EQO2 | Equalization offset for second interpolation point for receiver | n/a | ~200 ps |
+| EQO3 | Equalization offset for third interpolation point for receiver | n/a | ~2 ns |
 
 Possible values for ALL_specifier
- |
-
-Value
-
- |
-
-Description
-
- |
-
-Modified parameter
-
- |
- |
-
-ALL_EQI
-
- |
-
-Selects all the EQI<n> properties
-
- |
-
-EQI1, EQI2, EQI3
-
- |
- |
-
-ALL_EQO
-
- |
-
-Selects all the EQO<n> properties
-
- |
-
-EQO1, EQO2, EQO3
-
- |
- |
-
-ALL_EQ
-
- |
-
-Selects all equalization parameters
-
- |
-
-EQO1,.., EQO3,EQI1,..,EQI3
-
- |
+| Value | Description | Modified parameter |
+|---|---|---|
+| ALL_EQI | Selects all the EQI<n> properties | EQI1, EQI2, EQI3 |
+| ALL_EQO | Selects all the EQO<n> properties | EQO1, EQO2, EQO3 |
+| ALL_EQ | Selects all equalization parameters | EQO1,.., EQO3,EQI1,..,EQI3 |
 
 Valid ranges for the equalization parameters (set value using "offset_value")
  |
@@ -42989,51 +35120,10 @@ EQSP {spec_type}, {part}, {#spec(data)}
 if these are not empty, for backward compatibility.
 
 Parameters
- |
-
-spec_type
-
- |
-
-The mandatory parameter defines which specification type to use.
-
-Use:
-
-- LEV to specify levels
-- TIM to specify timing
- |
- |
-
-part
-
- |
-
-The mandatory parameter defines which part of the specification type to use.
-
-Use:
-
-- EQN to specify equations
-- SPS to specify specs
-- WVT to specify a wavetable
-
-part can only be set to WVT, EQN, or CLK if spec_type is set to TIM.
-
- |
- |
-
-#spec(data)
-
- |
-
-An equation based set of data (for example wavetables) in binary format.
-
-This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:
-
-- A # to mark the start of the data block.
-- One digit indicating how many digits make up the data length specifier.
-- A number of digits indicating the length (in bytes) of the data to follow.
-- A number of characters which make up the specified equation based testing file. This stream of characters must be terminated with a @ character.
- |
+| spec_type | The mandatory parameter defines which specification type to use.<br><br>Use:<br><br>- LEV to specify levels<br>- TIM to specify timing |
+|---|---|
+| part | The mandatory parameter defines which part of the specification type to use.<br><br>Use:<br><br>- EQN to specify equations<br>- SPS to specify specs<br>- WVT to specify a wavetable<br><br>part can only be set to WVT, EQN, or CLK if spec_type is set to TIM. |
+| #spec(data) | An equation based set of data (for example wavetables) in binary format.<br><br>This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:<br><br>- A # to mark the start of the data block.<br>- One digit indicating how many digits make up the data length specifier.<br>- A number of digits indicating the length (in bytes) of the data to follow.<br>- A number of characters which make up the specified equation based testing file. This stream of characters must be terminated with a @ character. |
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › EQSP  EQSP  -  EQuation SPecification transfer）
 
@@ -43190,26 +35280,9 @@ LSUS {level_set_no}
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › LSUS  LSUS  -  Level Sets USed）
 
-|
-
-level_set_no
-
- |
-
-Level Set Number. This is the highest number currently allocated to a level set or the highest number of set you want to load. The number you type must not exceed the maximum number of level sets allowed (defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).
-
-This number is automatically updated to include any new level set as it is created. At power-on only one level set (containing the default values) is available.
-
- |
- |
-
-equation_set_no
-
- |
-
-The level equation set number for which the number of currently defined level sets is to be determined. Enter an integer in the range 1 to 99. Valid for Equation based testing only.
-
- |
+| level_set_no | Level Set Number. This is the highest number currently allocated to a level set or the highest number of set you want to load. The number you type must not exceed the maximum number of level sets allowed (defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).<br><br>This number is automatically updated to include any new level set as it is created. At power-on only one level set (containing the default values) is available. |
+|---|---|
+| equation_set_no | The level equation set number for which the number of currently defined level sets is to be determined. Enter an integer in the range 1 to 99. Valid for Equation based testing only. |
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › LSUS  LSUS  -  Level Sets USed）
 
@@ -43295,20 +35368,9 @@ MERL [error_limit], [message_limit]
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › MERL  MERL  -  Message ERror Limits）
 
-| error_limit |
-
-The maximum number of errors that will be logged. An integer in the range 1 to 30000.
-
-Default value is 10.
-
- |
- | message_limit |
-
-The maximum number of messages that will be logged. An integer in the range 1 to 30000.
-
-Default value is 40.
-
- |
+| error_limit | The maximum number of errors that will be logged. An integer in the range 1 to 30000.<br><br>Default value is 10. |
+|---|---|
+| message_limit | The maximum number of messages that will be logged. An integer in the range 1 to 30000.<br><br>Default value is 40. |
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › MERL  MERL  -  Message ERror Limits）
 
@@ -43497,143 +35559,18 @@ PSSR {dps_No|dps_set_id}, [rise_tm_per_v], [rise_settm], [fall_tm_per_v], [fall_
 
 Note The rise_... and fall_... parameters of the PSSR command and the settling time parameter (setup_time) of the `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`） command exclude each other. This also applies to the t_ms equation parameter (see `DPSPINS`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07_DPSPINS.md`） and `DPSPINS resources`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md`）). Note All time values have a resolution of microseconds (floating point values are rounded to three decimal places).
 
- |
-
-dps_No
-
- |
-
-Needed for non-equation-based setup.
-
-The identification number of the DPS set which you want to modify. The number must not exceed the maximum number allowed (as defined by the DSCP (Define System Control Parameter) command). Entering ALL modifies all the existing fixed DPS sets. Entering PRM modifies the primary DPS set. Entering ACT (only for PSSR?) displays the settings of the actual enabled DPS set.
-
- |
- |
-
-dps_set_id
-
- |
-
-Needed for equation-based setup.
-
-This parameter is derived as follows:
-
-`100000*equation_set_no + 1000*specset_no+1`
-
- |
- |
-
-rise_tm_per_v
-
- |
-
-Sets the inverse slew rate for the rising edge in ms/V.
-
-The allowed range is 0 to 10000 ms/V.
-
- |
- |
-
-rise_settm
-
- |
-
-Sets the settling time for the rising edge in ms.
-
-The allowed range is 0 to 10000 ms.
-
- |
- |
-
-fall_tm_per_v
-
- |
-
-Sets the inverse slew rate for the falling edge in ms/V.
-
-The allowed range is 0 to 10000 ms/V.
-
- |
- |
-
-fall_settm
-
- |
-
-Sets the settling time for the falling edge in ms.
-
-The allowed range is 0 to 10000 ms.
-
- |
- |
-
-rise_t_per_v_c2c
-
- |
-
-Sets the inverse slew rate for the rising edge. expression must define a value in ms/V.
-
-The allowed range is 0 to 10000 ms/V.
-
-The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_rise_t_ms_per_volt parameter is used instead.
-
-This parameter is for both DPS-slot DPS and DC Scale pins.
-
- |
- |
-
-rise_setup_t_c2c
-
- |
-
-Sets the settling time for the rising edge. expression must define a value in ms.
-
-The allowed range is -10000 to 10000 ms.
-
-The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_rise_settling_t_ms parameter is used instead.
-
-This parameter is for both DPS-slot DPS and DC Scale pins.
-
- |
- |
-
-fall_t_per_v_c2c
-
- |
-
-Sets the inverse slew rate for the falling edge. expression must define a value in ms/V.
-
-The allowed range is 0 to 10000 ms/V.
-
-The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_fall_t_ms_per_volt parameter is used instead.
-
-This parameter is for both DPS-slot DPS and DC Scale pins.
-
- |
- |
-
-fall_setup_t_c2c
-
- |
-
-Sets the settling time for the falling edge. expression must define a value in ms.
-
-The allowed range is -10000 to 10000 ms.
-
-The parameter is optional. If specified, it is used for "connect-to-connect" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_fall_settling_t_ms parameter is used instead.
-
-This parameter is for both DPS-slot DPS and DC Scale pins.
-
- |
- |
-
-pinlist
-
- |
-
-pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If a pin is associated with a DPS-slot DPS, it is ignored. @ refers to all pins that are associated with a DC Scale channel.
-
- |
+| dps_No | Needed for non-equation-based setup.<br><br>The identification number of the DPS set which you want to modify. The number must not exceed the maximum number allowed (as defined by the DSCP (Define System Control Parameter) command). Entering ALL modifies all the existing fixed DPS sets. Entering PRM modifies the primary DPS set. Entering ACT (only for PSSR?) displays the settings of the actual enabled DPS set. |
+|---|---|
+| dps_set_id | Needed for equation-based setup.<br><br>This parameter is derived as follows:<br><br>`100000*equation_set_no + 1000*specset_no+1` |
+| rise_tm_per_v | Sets the inverse slew rate for the rising edge in ms/V.<br><br>The allowed range is 0 to 10000 ms/V. |
+| rise_settm | Sets the settling time for the rising edge in ms.<br><br>The allowed range is 0 to 10000 ms. |
+| fall_tm_per_v | Sets the inverse slew rate for the falling edge in ms/V.<br><br>The allowed range is 0 to 10000 ms/V. |
+| fall_settm | Sets the settling time for the falling edge in ms.<br><br>The allowed range is 0 to 10000 ms. |
+| rise_t_per_v_c2c | Sets the inverse slew rate for the rising edge. expression must define a value in ms/V.<br><br>The allowed range is 0 to 10000 ms/V.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_rise_t_ms_per_volt parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
+| rise_setup_t_c2c | Sets the settling time for the rising edge. expression must define a value in ms.<br><br>The allowed range is -10000 to 10000 ms.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_rise_settling_t_ms parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
+| fall_t_per_v_c2c | Sets the inverse slew rate for the falling edge. expression must define a value in ms/V.<br><br>The allowed range is 0 to 10000 ms/V.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_fall_t_ms_per_volt parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
+| fall_setup_t_c2c | Sets the settling time for the falling edge. expression must define a value in ms.<br><br>The allowed range is -10000 to 10000 ms.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_fall_settling_t_ms parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
+| pinlist | pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If a pin is associated with a DPS-slot DPS, it is ignored. @ refers to all pins that are associated with a DC Scale channel. |
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › PSSR  PSSR  - Power Supply Slew Rate）
 
@@ -43839,97 +35776,14 @@ RCLV {level_set | level_set_id}, [vth | logic_0_level], [logic_1_level], [range,
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › RCLV  RCLV  -  ReCeive LeVel）
 
-|
-
-level_set
-
- |
-
-The identification number of the level set in which you want the low and high threshold levels to be included. The number must not exceed the maximum number of level sets allowed (as defined by `DSCP, DSCP? - (Define System Control Parameter)`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）). If you enter a level set number that is outside the used range of sets defined by the LSUS command, a new level set is created. Typing ALL in this field sets the low and high threshold levels for all existing level sets (except level set 0). Typing PRM sets the low and high threshold levels for the primary level set.
-
-Standard level sets have a number greater than 0. Level set 0 is a dedicated level set for sequencer state OFF. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）.
-
- |
- |
-
-level_set_id
-
- |
-
-Used in equation based level setup. It is derived as follows:
-
-100000 * equation_set_no + 1000 * specset_no + level_set_no
-
-Note that if you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set.
-
- |
- |
-
-vth
-
- |
-
-Output threshold for FAST comparator (single threshold as opposed to high and low). The expression must define a value in millivolts (mV).
-
- |
- |
-
-logic_0_level
-
- |
-
-An integer (in mV) which sets the logic 0 threshold level of the comparator. This parameter represents the point where the comparator distinguishes between logic 0 and an intermediate level.
-
- |
- |
-
-logic_1_level
-
- |
-
-An integer (in mV) which sets the logic 1 threshold level of the comparator. This parameter represents the point where the comparator distinguishes between logic 1 and an intermediate level.
-
- |
- |
-
-range
-
- |
-
-This extra parameter selects the receive range in mV.
-
-This parameter is currently not available.
-
-Ranges of the high-speed voltage comparator:
-
-- -8000.0 ... 8000.0 selects the 8 V range
-- -40000.0 ... 80000.0 selects the -40 V ... +80 V range
-
-Ranges of the high-resolution voltage comparator:
-
-- -3000.0 ... 3000.0 selects the 3 V range
-- -10000.0 ... 10000.0 selects the 10 V range
-- -30000.0 ... 30000.0 selects the 30 V range
-- -40000.0 ... 80000.0 selects the -40 V ... +80 V range
-
-If not specified the best fit range will be selected based on logic_0_level and logic_1_level if a voltage comparator is selected.
-
-Range of the high-resolution current comparator:
-
-- A fixed range of 200 mA is set.
-
-The query returns the parameter only if it is defined for the queried level set.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins whose threshold level you want to set. This parameter can also include groups previously created by the command `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ sets or reads the threshold levels for all output pins. You can include O or IO pins in pinlist.
-
- |
+| level_set | The identification number of the level set in which you want the low and high threshold levels to be included. The number must not exceed the maximum number of level sets allowed (as defined by `DSCP, DSCP? - (Define System Control Parameter)`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）). If you enter a level set number that is outside the used range of sets defined by the LSUS command, a new level set is created. Typing ALL in this field sets the low and high threshold levels for all existing level sets (except level set 0). Typing PRM sets the low and high threshold levels for the primary level set.<br><br>Standard level sets have a number greater than 0. Level set 0 is a dedicated level set for sequencer state OFF. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）. |
+|---|---|
+| level_set_id | Used in equation based level setup. It is derived as follows:<br><br>100000 * equation_set_no + 1000 * specset_no + level_set_no<br><br>Note that if you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set. |
+| vth | Output threshold for FAST comparator (single threshold as opposed to high and low). The expression must define a value in millivolts (mV). |
+| logic_0_level | An integer (in mV) which sets the logic 0 threshold level of the comparator. This parameter represents the point where the comparator distinguishes between logic 0 and an intermediate level. |
+| logic_1_level | An integer (in mV) which sets the logic 1 threshold level of the comparator. This parameter represents the point where the comparator distinguishes between logic 1 and an intermediate level. |
+| range | This extra parameter selects the receive range in mV.<br><br>This parameter is currently not available.<br><br>Ranges of the high-speed voltage comparator:<br><br>- -8000.0 ... 8000.0 selects the 8 V range<br>- -40000.0 ... 80000.0 selects the -40 V ... +80 V range<br><br>Ranges of the high-resolution voltage comparator:<br><br>- -3000.0 ... 3000.0 selects the 3 V range<br>- -10000.0 ... 10000.0 selects the 10 V range<br>- -30000.0 ... 30000.0 selects the 30 V range<br>- -40000.0 ... 80000.0 selects the -40 V ... +80 V range<br><br>If not specified the best fit range will be selected based on logic_0_level and logic_1_level if a voltage comparator is selected.<br><br>Range of the high-resolution current comparator:<br><br>- A fixed range of 200 mA is set.<br><br>The query returns the parameter only if it is defined for the queried level set. |
+| pinlist | The name of the pin or pins whose threshold level you want to set. This parameter can also include groups previously created by the command `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ sets or reads the threshold levels for all output pins. You can include O or IO pins in pinlist. |
 
 For card specifications, like level ranges, see `Digital Cards`（raw: `../02.02_Specifications/02.02.04_Digital_Cards.md`）, for example:
 
@@ -44750,108 +36604,17 @@ SPRM {"multi-port_spec"}, {timing_set_no|"timing_set_list"}, {level_set_id|level
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › SPRM  SPRM  -  Set PRiMary sets）
 
-|
-
-waveform_set_no
-
- |
-
-The identification number of the waveform set. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of waveform sets allowed - as defined by `CONF, CONF? - (CONFiguration)`（raw: `02.06.02.02.31_CONF__CONF__-__CONFiguration.md`）.
-
- |
- |
-
-timing_specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
-Note that the spec set ID also identifies the primary wavetable in equation based testing.
-
- |
- |
-
-multi-port_spec
-
- |
-
-For a multi-port setup, specify a primary multi-port specification.
-
- |
- |
-
-timing_set_no
-
- |
-
-The identification number of the timing set. Enter an integer in the range 1 to the maximum number of allowed timing sets (of the selected waveform set or timing specification). The maximum number is determined by `TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).
-
-In a multiport setup, the timing set number applies to all ports of the specification if you do not specify a port. If you do, the number applies to the specified port.
-
- |
- |
-
-timing_set_list
-
- |
-
-In a multi-port setup, you can specify primary timing sets for all ports of the specification by entering a list of numbers separated by commas. The order of the timing sets must correspond to the order of the ports in the multi-port timing specification.
-
-In the query, the numbers of the primary timing sets are returned in a list for all ports of the primary specification unless the numbers are identical for all ports or a port has been specified in the query.
-
- |
- |
-
-level_set_no
-
- |
-
-The identification number of the level set. Enter an integer in the range 1 to the maximum number of allowed level sets. The maximum number is determined by `LSUS, LSUS? - (Level Sets USed)`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).
-
- |
- |
-
-dps_set_no
-
- |
-
-The identification number of the DPS set. Enter an integer in the range 1 to the maximum number of allowed DPS sets. The maximum number is determined by `DSUS, DSUS? - (Dps Sets USed)`（raw: `02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md`）. The number you enter must be less than or equal to the maximum number of DPS sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).
-
- |
- |
-
-level_set_id
-
- |
-
-Derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + level_set_no`
-
- |
- |
-
-dps_set_id
-
- |
-
-Derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + 1`
-
- |
- |
-
-port
-
- |
-
-In a multiport setup, you can specify a port of the specification that was entered as the first parameter. In this case, the timing set number specified as the second parameter will only be applied to the specified port. The port parameter is ignored if a timing set list is specified.
-
- |
+| waveform_set_no | The identification number of the waveform set. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of waveform sets allowed - as defined by `CONF, CONF? - (CONFiguration)`（raw: `02.06.02.02.31_CONF__CONF__-__CONFiguration.md`）. |
+|---|---|
+| timing_specset_id | Derived as follows:<br><br>`100 * equation_set_no + specset_no`<br><br>Note that the spec set ID also identifies the primary wavetable in equation based testing. |
+| multi-port_spec | For a multi-port setup, specify a primary multi-port specification. |
+| timing_set_no | The identification number of the timing set. Enter an integer in the range 1 to the maximum number of allowed timing sets (of the selected waveform set or timing specification). The maximum number is determined by `TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).<br><br>In a multiport setup, the timing set number applies to all ports of the specification if you do not specify a port. If you do, the number applies to the specified port. |
+| timing_set_list | In a multi-port setup, you can specify primary timing sets for all ports of the specification by entering a list of numbers separated by commas. The order of the timing sets must correspond to the order of the ports in the multi-port timing specification.<br><br>In the query, the numbers of the primary timing sets are returned in a list for all ports of the primary specification unless the numbers are identical for all ports or a port has been specified in the query. |
+| level_set_no | The identification number of the level set. Enter an integer in the range 1 to the maximum number of allowed level sets. The maximum number is determined by `LSUS, LSUS? - (Level Sets USed)`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）). |
+| dps_set_no | The identification number of the DPS set. Enter an integer in the range 1 to the maximum number of allowed DPS sets. The maximum number is determined by `DSUS, DSUS? - (Dps Sets USed)`（raw: `02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md`）. The number you enter must be less than or equal to the maximum number of DPS sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）). |
+| level_set_id | Derived as follows:<br><br>`100000 * equation_set_no + 1000 * specset_no + level_set_no` |
+| dps_set_id | Derived as follows:<br><br>`100000 * equation_set_no + 1000 * specset_no + 1` |
+| port | In a multiport setup, you can specify a port of the specification that was entered as the first parameter. In this case, the timing set number specified as the second parameter will only be applied to the specified port. The port parameter is ignored if a timing set list is specified. |
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › SPRM  SPRM  -  Set PRiMary sets）
 
@@ -44971,214 +36734,23 @@ For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all 
  |
 
 Status bits for the status parameter
- |
-
-Bit
-
- |
-
-Description
-
- |
-
-Value
-
- |
- |
-
-0
-
- |
-
-Not available/defined.
-
- |
-
-1
-
- |
- |
-
-1
-
- |
-
-Drive 1 period limit violation.
-
- |
-
-2
-
- |
- |
-
-2
-
- |
-
-Receive 1 period limit violation.
-
- |
-
-4
-
- |
- |
-
-3
-
- |
-
-Drive 2 period limit violation.
-
- |
-
-8
-
- |
- |
-
-4
-
- |
-
-Receive 2 period limit violation.
-
- |
-
-16
-
- |
- |
-
-5
-
- |
-
-Drive edge order violation.
-
- |
-
-32
-
- |
- |
-
-6
-
- |
-
-Tri-state edge order violation.
-
- |
-
-64
-
- |
- |
-
-7
-
- |
-
-Window edge order violation.
-
- |
-
-128
-
- |
- |
-
-8
-
- |
-
-It is possible to modify the timing or level data with `ETIM`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）(`ETDS`（raw: `02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`）), `PCLK`（raw: `02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`）, `CLKR`（raw: `02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md`）, `DRLV`（raw: `02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`）, `RCLV`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`）, `TERM`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`）, and `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`）. If any of these commands are executed, this bit is set automatically for the affected specset, and the restore should bring back the original SPST status.
-
- |
-
-256
-
- |
- |
-
-9
-
- |
-
-Modified with `SHVL`（raw: `02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md`）.
-
- |
-
-512
-
- |
- |
-
-10
-
- |
-
-Modified with `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`）.
-
- |
-
-1024
-
- |
- |
-
-12
-
- |
-
-Absolute range violation.
-
- |
-
-2048
-
- |
- |
-
-13
-
- |
-
-Relative range violation
-
- |
-
-4096
-
- |
- |
-
-14
-
- |
-
-Drive 10 period limit violation
-
- |
-
-8192
-
- |
- |
-
-15
-
- |
-
-Receive 10 period limit violation
-
- |
-
-16384
-
- |
+| Bit | Description | Value |
+|---|---|---|
+| 0 | Not available/defined. | 1 |
+| 1 | Drive 1 period limit violation. | 2 |
+| 2 | Receive 1 period limit violation. | 4 |
+| 3 | Drive 2 period limit violation. | 8 |
+| 4 | Receive 2 period limit violation. | 16 |
+| 5 | Drive edge order violation. | 32 |
+| 6 | Tri-state edge order violation. | 64 |
+| 7 | Window edge order violation. | 128 |
+| 8 | It is possible to modify the timing or level data with `ETIM`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）(`ETDS`（raw: `02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`）), `PCLK`（raw: `02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`）, `CLKR`（raw: `02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md`）, `DRLV`（raw: `02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`）, `RCLV`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`）, `TERM`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`）, and `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`）. If any of these commands are executed, this bit is set automatically for the affected specset, and the restore should bring back the original SPST status. | 256 |
+| 9 | Modified with `SHVL`（raw: `02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md`）. | 512 |
+| 10 | Modified with `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`）. | 1024 |
+| 12 | Absolute range violation. | 2048 |
+| 13 | Relative range violation | 4096 |
+| 14 | Drive 10 period limit violation | 8192 |
+| 15 | Receive 10 period limit violation | 16384 |
 
 ### Example 1（取自子主题 Level Setup Commands › List of level setup commands › SPST  -  SPecset STatus）
 
@@ -45439,128 +37011,17 @@ TERM {level_set_no | level_set_id}, {term_mode}, [term_pulldown,] [param_1], [pa
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › TERM  TERM  -  TERMination mode）
 
-|
-
-level_set_no
-
- |
-
-The identification number of the level set in which you want the definitions to be included. The number must not exceed the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）) and the level sets used (as defined by `LSUS`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）). Entering ALL in this field sets the termination mode for all existing level sets (except level set 0). Entering PRM in this field defines the termination mode for the primary level set.
-
-Standard level sets have a number > 0. Level set 0 is a dedicated level set for digital pins in high-Z state. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）.
-
- |
- |
-
-level_set_id
-
- |
-
-Derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + level_set_no`
-
- |
- |
-
-term_mode
-
- |
-
-The termination mode has dependencies to pin types and to the parameters (term_pulldown and param_1 to param_3 - see the syntax). The allowed combinations are shown in the Termination modes table, below.
-
-Level set 0 only supports the termination modes OFF (the default), T, C, and A.
-
- |
- |
-
-term_pulldown
-
- |
-
-Extra parameter that defines the pull down mode. For more information refer to column term_mode of table Termination modes below.
-
-The query returns the parameter only if it is defined for the queried level set.
-
- |
- |
-
-param_1
-
- |
-
-The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_1 gives the termination voltage, active load commutation voltage, or the clamp low level voltage. The units are mV.
-
- |
- |
-
-param_2
-
- |
-
-The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_2 defines the active load Iol current, or the clamp high level voltage. The units are mA or mV respectively.
-
-When used, param_2 defines either
-
-- the active load Iol current in µA,
-- the clamp high level voltage in mV, or
-- the receiver swing voltage in mV.
-
-For the NP termination modes SP, SM, SEP, or SEM, param_2 defines the receiver threshold in mV.
-
- |
- |
-
-param_3
-
- |
-
-The use of this parameter depends on the termination mode as shown in the Termination modes table, below:
-
-- For term_mode = A, param_3 defines the active load Ioh current. The units are µA.
-- For term_mode = CT, param_3 defines the receiver offset in mV.
-- For term_mode = bidir_receiver, param_3 defines the receiver offset in mV.
- |
- |
-
-l_range
-
- |
-
-For term_mode `=`A the low level current range.
-
-This parameter can be
-
-- I5E3: Defines the low current range of 0 to 5 mA.
-- I3E4: Defines the high current range of 0 to 30 mA.
-- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range.
-
-This parameter is not supported for AVI64.
-
- |
- |
-
-h_range
-
- |
-
-For term_mode `=`A the high level current range.
-
-This parameter can be
-
-- I5E3: Defines the low current range of 0 to 5 mA.
-- I3E4: Defines the high current range of 0 to 30 mA.
-- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range.
- |
- |
-
-pinlist
-
- |
-
-The pin name or names of those power supply outputs which have already been defined. If more than one pin is required, the names must be separated with a comma. The @ character can be used to read all configured power supply pins.
-
- |
+| level_set_no | The identification number of the level set in which you want the definitions to be included. The number must not exceed the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）) and the level sets used (as defined by `LSUS`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）). Entering ALL in this field sets the termination mode for all existing level sets (except level set 0). Entering PRM in this field defines the termination mode for the primary level set.<br><br>Standard level sets have a number > 0. Level set 0 is a dedicated level set for digital pins in high-Z state. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）. |
+|---|---|
+| level_set_id | Derived as follows:<br><br>`100000 * equation_set_no + 1000 * specset_no + level_set_no` |
+| term_mode | The termination mode has dependencies to pin types and to the parameters (term_pulldown and param_1 to param_3 - see the syntax). The allowed combinations are shown in the Termination modes table, below.<br><br>Level set 0 only supports the termination modes OFF (the default), T, C, and A. |
+| term_pulldown | Extra parameter that defines the pull down mode. For more information refer to column term_mode of table Termination modes below.<br><br>The query returns the parameter only if it is defined for the queried level set. |
+| param_1 | The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_1 gives the termination voltage, active load commutation voltage, or the clamp low level voltage. The units are mV. |
+| param_2 | The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_2 defines the active load Iol current, or the clamp high level voltage. The units are mA or mV respectively.<br><br>When used, param_2 defines either<br><br>- the active load Iol current in µA,<br>- the clamp high level voltage in mV, or<br>- the receiver swing voltage in mV.<br><br>For the NP termination modes SP, SM, SEP, or SEM, param_2 defines the receiver threshold in mV. |
+| param_3 | The use of this parameter depends on the termination mode as shown in the Termination modes table, below:<br><br>- For term_mode = A, param_3 defines the active load Ioh current. The units are µA.<br>- For term_mode = CT, param_3 defines the receiver offset in mV.<br>- For term_mode = bidir_receiver, param_3 defines the receiver offset in mV. |
+| l_range | For term_mode `=`A the low level current range.<br><br>This parameter can be<br><br>- I5E3: Defines the low current range of 0 to 5 mA.<br>- I3E4: Defines the high current range of 0 to 30 mA.<br>- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range.<br><br>This parameter is not supported for AVI64. |
+| h_range | For term_mode `=`A the high level current range.<br><br>This parameter can be<br><br>- I5E3: Defines the low current range of 0 to 5 mA.<br>- I3E4: Defines the high current range of 0 to 30 mA.<br>- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range. |
+| pinlist | The pin name or names of those power supply outputs which have already been defined. If more than one pin is required, the names must be separated with a comma. The @ character can be used to read all configured power supply pins. |
 
 ### Example 1（取自子主题 Level Setup Commands › List of level setup commands › TERM  TERM  -  TERMination mode）
 
@@ -45638,15 +37099,8 @@ WAIT {time}
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › WAIT -  WAIT）
 
-|
-
-time
-
- |
-
-Enter a time in µs.
-
- |
+| time | Enter a time in µs. |
+|---|---|
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › WAIT -  WAIT）
 
@@ -45929,88 +37383,15 @@ BWDS {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, [break_waveform_in
 ```
 
 Parameters
- |
-
-wvf_set
-
- |
-
-Waveform Set Number (range 1 to maximum). Enter ALL for all waveform sets. Enter PRM for the Primary waveform set. The maximum number is determined by the command `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. wavetable_name can only be specified in the query.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-100 * equation_set_no + specset_no
-
-specset_id can only be specified in the query.
-
- |
- |
-
-multi-port_spec
-
- |
-
-To query a multi-port specification, enter the name of the specification.
-
- |
- |
-
-break_waveform_index
-
- |
-
-Enter DEF for the default break waveform or an integer in the range 0 to 3. This parameter is optional in release 2.0 and can only be used to select the default break waveform (DEF).
-
- |
- |
-
-mode
-
- |
-
-NOT USED.
-
- |
- |
-
-definition_string
-
- |
-
-The definition string consists of a sequence of items each of which associates a drive action with a drive edge.
-
-Receive edge are always denoted by rn.
-
-All edges which are not explicitly specified are set to N. In the query only those edges that are used are printed.
-
-For details of the syntax see `WFDS, WFDS? - (WaveForm Definition String)`（raw: `02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`）.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
+| wvf_set | Waveform Set Number (range 1 to maximum). Enter ALL for all waveform sets. Enter PRM for the Primary waveform set. The maximum number is determined by the command `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. wavetable_name can only be specified in the query. |
+| specset_id | Derived as follows:<br><br>100 * equation_set_no + specset_no<br><br>specset_id can only be specified in the query. |
+| multi-port_spec | To query a multi-port specification, enter the name of the specification. |
+| break_waveform_index | Enter DEF for the default break waveform or an integer in the range 0 to 3. This parameter is optional in release 2.0 and can only be used to select the default break waveform (DEF). |
+| mode | NOT USED. |
+| definition_string | The definition string consists of a sequence of items each of which associates a drive action with a drive edge.<br><br>Receive edge are always denoted by rn.<br><br>All edges which are not explicitly specified are set to N. In the query only those edges that are used are printed.<br><br>For details of the syntax see `WFDS, WFDS? - (WaveForm Definition String)`（raw: `02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`）. |
+| pinlist | The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › BWDS  BWDS  -  Break Waveform Definition String）
 
@@ -46285,77 +37666,14 @@ CLKR {waveform_set|specset_id|"multi-port_spec"}, [ref_period],{period_res|clock
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › CLKR  CLKR  -  CLocK Resolution）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-To set or query the resolution of a multi-port timing specification, specify the name of the specification.
-
- |
- |
-
-ref_period
-
- |
-
-Not used. (Ignored)
-
- |
- |
-
-period_res
-
- |
-
-The period resolution (in ns) for the specified specification or waveform set.
-
-If necessary, period_res is rounded to nine digits after the decimal point. The allowable maximum period resolution is the maximum tester period value. The minimum period resolution is determined by the hardware (see `Automatic calculation of period resolution for single-port setups`（raw: `02.06.06.01.04.01.02.01_Automatic_calculation_of_period_resolution_for_single-port_setups.md`）).
-
- |
- |
-
-type
-
- |
-
-In the query, the type parameter specifies which resolution is queried. The allowed values are:
-
-VIRTUAL: The period resolution (period_res) is queried. This is the default.
-
-EXACT: The clock resolution (clock_res) is queried.
-
- |
- |
-
-clock_res
-
- |
-
-In the answer to the query, the clock resolution is returned if type is set to EXACT in the query.
-
- |
+| waveform_set | Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Derived as follows:<br><br>100 * equation_set_no + specset_no |
+| multi-port_spec | To set or query the resolution of a multi-port timing specification, specify the name of the specification. |
+| ref_period | Not used. (Ignored) |
+| period_res | The period resolution (in ns) for the specified specification or waveform set.<br><br>If necessary, period_res is rounded to nine digits after the decimal point. The allowable maximum period resolution is the maximum tester period value. The minimum period resolution is determined by the hardware (see `Automatic calculation of period resolution for single-port setups`（raw: `02.06.06.01.04.01.02.01_Automatic_calculation_of_period_resolution_for_single-port_setups.md`）). |
+| type | In the query, the type parameter specifies which resolution is queried. The allowed values are:<br><br>VIRTUAL: The period resolution (period_res) is queried. This is the default.<br><br>EXACT: The clock resolution (clock_res) is queried. |
+| clock_res | In the answer to the query, the clock resolution is returned if type is set to EXACT in the query. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › CLKR  CLKR  -  CLocK Resolution）
 
@@ -46404,33 +37722,10 @@ DCUD {waveform_set},{"dev_cyc_name"},{(pinlist)}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › DCUD -  Device Cycle UnDefine）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-dev_cyc_name
-
- |
-
-The device cycle name. Enter a string of up to 16 alphanumeric characters (upper or lower case) enclosed in double quotes. Enter ALL for the removal of all device cycles from the device cycle table.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which device cycle definitions are to be deleted. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
+| waveform_set | Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| dev_cyc_name | The device cycle name. Enter a string of up to 16 alphanumeric characters (upper or lower case) enclosed in double quotes. Enter ALL for the removal of all device cycles from the device cycle table. |
+| pinlist | The name of the pin or pins for which device cycle definitions are to be deleted. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › DCUD -  Device Cycle UnDefine）
 
@@ -46460,24 +37755,9 @@ DFCR {source_group},{dest_group}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › DFCR  DFCR  -  DeFine Clock Routing）
 
-|
-
-source_group
-
- |
-
-specifies the hardware group whose local clock is to be routed to dest_group. The format is Gx, where x is the group number.
-
- |
- |
-
-dest_group
-
- |
-
-specifies the hardware group whose inherited clock is to be changed.
-
- |
+| source_group | specifies the hardware group whose local clock is to be routed to dest_group. The format is Gx, where x is the group number. |
+|---|---|
+| dest_group | specifies the hardware group whose inherited clock is to be changed. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › DFCR  DFCR  -  DeFine Clock Routing）
 
@@ -46554,68 +37834,13 @@ DPRT {"multi-port_spec"}, {timing_set_no|"timing_set_list"}[,(port)]
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › DPRT  DPRT  -  Default PRimary Timing sets）
 
-|
-
-waveform_set
-
- |
-
-Waveform set number.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-100 * equation_set_no + spec_set_no
-
-Note that the spec set ID identifies the primary wavetable in equation based testing.
-
- |
- |
-
-multi-port_spec
-
- |
-
-In a multi-port setup, a primary multiport specification can be specified.
-
- |
- |
-
-timing_set
-
- |
-
-The identification number of the timing set. Enter an integer in the range 1 to the maximum number of allowed timing sets (of the selected waveform set or timing specification). The maximum number is determined by `TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by DSCP).
-
-In a multiport setup, the timing set number applies to all ports of the specification if no port is specified. Otherwise, the number applies to the specified port.
-
- |
- |
-
-timing_set_list
-
- |
-
-In a multi-port setup, you can specify primary timing sets for all ports of the specification by entering a list of numbers separated by commas.
-
-In the query, the numbers of the primary timing sets are returned in a list for all ports of the primary specification unless the numbers are identical for all ports or a port has been specified in the query.
-
- |
- |
-
-port
-
- |
-
-In a multi-port setup, you can specify a port of the specification that was entered as the first parameter. In this case, the timing set number specified as the second parameter will only be applied to the specified port. The port parameter is ignored if a timing set list is specified.
-
- |
+| waveform_set | Waveform set number. |
+|---|---|
+| specset_id | Derived as follows:<br><br>100 * equation_set_no + spec_set_no<br><br>Note that the spec set ID identifies the primary wavetable in equation based testing. |
+| multi-port_spec | In a multi-port setup, a primary multiport specification can be specified. |
+| timing_set | The identification number of the timing set. Enter an integer in the range 1 to the maximum number of allowed timing sets (of the selected waveform set or timing specification). The maximum number is determined by `TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by DSCP).<br><br>In a multiport setup, the timing set number applies to all ports of the specification if no port is specified. Otherwise, the number applies to the specified port. |
+| timing_set_list | In a multi-port setup, you can specify primary timing sets for all ports of the specification by entering a list of numbers separated by commas.<br><br>In the query, the numbers of the primary timing sets are returned in a list for all ports of the primary specification unless the numbers are identical for all ports or a port has been specified in the query. |
+| port | In a multi-port setup, you can specify a port of the specification that was entered as the first parameter. In this case, the timing set number specified as the second parameter will only be applied to the specified port. The port parameter is ignored if a timing set list is specified. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › DPRT  DPRT  -  Default PRimary Timing sets）
 
@@ -46655,95 +37880,16 @@ DSCP {device_cycle}, {waveform_set}, {timing_set}, {level_set}, {dps_set},
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › DSCP  DSCP  -  Define System Control Parameter）
 
-| device_cycle  | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.
-
-Default: 256
-
-Maximum: 16384
-
-Note that the total number of device cycles gets evenly divided between the combined number of waveform sets and wavetables. If you use the default values, then 256 device cycles divides into the total number of 32 `waveform sets and wavetables`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） to give you 8 device cycles per waveform set/wavetable. If you choose values that do not divide evenly, then the number of device cycles will be rounded up to the next multiple of the `waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） parameter.
-
- |
- | devicecycle_set |
-
-The devicecycle_set parameter is an integer that defines the maximum number of device cycle sets that you can create. Device cycle sets are needed for selective digital capture.
-
-Default: 1
-
-Maximum: 128
-
- |
- | dps_set |
-
-The dps_set parameter is an integer that defines the maximum number of DPS sets you can create.
-
-Default: 32
-
-Maximum: 256
-
- |
- | level_set |
-
-The level_set parameter is an integer that defines the combined total of level sets for fixed and equation based levels that you can create.
-
-Default: 32
-
-Maximum: 256
-
- |
- | period_res_prec |
-
-This parameter defines the precision with which the period resolution is calculated by the system. It has no effect on a user defined period resolution (using, for example, the period_res keyword in the equation set).
-
-The default is 4, if the .technology file does not contain this parameter.
-
-If it does, the value of the .technology file is the default.
-
-This value is set to 9, the greatest possible value, when a device is created.
-
- |
- |
-
-pmu_set
-
- |
-
-The pmu_set parameter is an integer that defines the maximum number of actions that can be contained in all measurement sets of all PPMU DC sets.
-
-Default: 1024
-
-Maximum: 12800
-
- |
- | routing_set |
-
-Defines the number of routing sets managed by the firmware, provided by the MCD.
-
-Default: 256
-
-Maximum: 512
-
- |
- | timing_set |
-
-The timing_set parameter is an integer that defines the maximum combined total of timing sets for fixed and equation based timing you can create.
-
-Default: 256
-
-Maximum: 999
-
-The number of timing sets must be equal to or greater than the number of waveform sets, as there must be at least one timing set per waveform set.
-
- |
- | waveform_set |
-
-The waveform_set parameter defines the maximum combined total of waveform sets (fixed timing) and wavetables (equation based timing) you can create. Thus, if you specify a value of 32, you could, for example, create 10 waveform sets and 22 wavetables.
-
-Default: 32
-
-Maximum: 128
-
- |
+| device_cycle | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.<br><br>Default: 256<br><br>Maximum: 16384<br><br>Note that the total number of device cycles gets evenly divided between the combined number of waveform sets and wavetables. If you use the default values, then 256 device cycles divides into the total number of 32 `waveform sets and wavetables`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） to give you 8 device cycles per waveform set/wavetable. If you choose values that do not divide evenly, then the number of device cycles will be rounded up to the next multiple of the `waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） parameter. |
+|---|---|
+| devicecycle_set | The devicecycle_set parameter is an integer that defines the maximum number of device cycle sets that you can create. Device cycle sets are needed for selective digital capture.<br><br>Default: 1<br><br>Maximum: 128 |
+| dps_set | The dps_set parameter is an integer that defines the maximum number of DPS sets you can create.<br><br>Default: 32<br><br>Maximum: 256 |
+| level_set | The level_set parameter is an integer that defines the combined total of level sets for fixed and equation based levels that you can create.<br><br>Default: 32<br><br>Maximum: 256 |
+| period_res_prec | This parameter defines the precision with which the period resolution is calculated by the system. It has no effect on a user defined period resolution (using, for example, the period_res keyword in the equation set).<br><br>The default is 4, if the .technology file does not contain this parameter.<br><br>If it does, the value of the .technology file is the default.<br><br>This value is set to 9, the greatest possible value, when a device is created. |
+| pmu_set | The pmu_set parameter is an integer that defines the maximum number of actions that can be contained in all measurement sets of all PPMU DC sets.<br><br>Default: 1024<br><br>Maximum: 12800 |
+| routing_set | Defines the number of routing sets managed by the firmware, provided by the MCD.<br><br>Default: 256<br><br>Maximum: 512 |
+| timing_set | The timing_set parameter is an integer that defines the maximum combined total of timing sets for fixed and equation based timing you can create.<br><br>Default: 256<br><br>Maximum: 999<br><br>The number of timing sets must be equal to or greater than the number of waveform sets, as there must be at least one timing set per waveform set. |
+| waveform_set | The waveform_set parameter defines the maximum combined total of waveform sets (fixed timing) and wavetables (equation based timing) you can create. Thus, if you specify a value of 32, you could, for example, create 10 waveform sets and 22 wavetables.<br><br>Default: 32<br><br>Maximum: 128 |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › DSCP  DSCP  -  Define System Control Parameter）
 
@@ -46791,114 +37937,17 @@ EDSP , , {edge_number}, , {dc_ref}, ,{(pinlist)}
 ```
 
 Parameters
- |
-
-waveform_set
-
- |
-
-Specifies a waveform set number for a fixed timing setup.
-
- |
- |
-
-specset_id
-
- |
-
-Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-Specifies the name of a multiport specification for a multi-port setup. PRM is the default value.
-
- |
- |
-
-timing_set
-
- |
-
-Specifies the number of the a timing set. PRM is the default value.
-
- |
- |
-
-edge_spec
-
- |
-
-The edge specifier can either be a physical edge (d1 through d8 or r1 through r8), or one of the data parameters D1, D2, C1, C2 (drive parameters) or E1, E2 (receive parameters).
-
- |
- |
-
-edge_number
-
- |
-
-In the query reply, this parameter contains the edge that is used as leading or trailing edge.
-
- |
- |
-
-dev_cyc_name
-
- |
-
-Specifies the name of a logical device cycle that uses the data parameter given as the edge_spec. It must be defined for all pins in pinlist. If you do not enter a name in this parameter, the first device cycle in the device cycle table is used.
-
- |
- |
-
-dc_ref
-
- |
-
-This parameter specifies the input edge. The input edge determines the algorithm according to which the trailing edge is selected. The two options are LE (for "leading edge") and TE (for "trailing edge").
-
-The leading edge will always be the first edge that is associated with the specified data parameter within the specified device cycle, regardless of whether LE or TE is specified.
-
-For the trailing edge the following rules apply:
-
-- When you specify LE, trailing and leading edge will be identical.
-- When you specify TE, then drive parameters and receive parameters are treated differently.
-
-  - Drive parameter: The trailing edge will be the first drive edge after the leading edge thats performs a data or tri-state action. Note that this trailing edge need not be associated in any way with the data parameter of the leading edge.
-  - Receive parameter: If the action of the leading edge is an edge compare, leading and trailing edge will be identical. If it is the start action of a window compare, then the associated window close edge will be the trailing edge.
-
-For both cases, see the example below.
-
-In the query, you can also specify both. In this case both the leading and the trailing edge will be returned for the pins in pinlist.
-
- |
- |
-
-direction
-
- |
-
-This parameter can be in or out. If in is selected to define an input edge, then the edge_spec parameter must be D1, D2, C1, or C2. If out is selected to define a receiver edge, then the edge_spec parameter must be E1 or E2. If either in or out is selected along with an edge_spec parameter of 1,2...6, then a check is performed to ensure that the edges of all pins are in the required direction. If no entry is made in this parameter, the measuring edges of the pin in pinlist can have any direction or be unused.
-
- |
- |
-
-pinlist
-
- |
-
-The parameters of the EDSP command are applied to all pins named in this parameter. If more than one pin is used, the names must be separated by a comma.
-
-In a multi-port setup, all pins must belong to the same port of the specification that was entered as the first parameter.
-
- |
+| waveform_set | Specifies a waveform set number for a fixed timing setup. |
+|---|---|
+| specset_id | Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:<br><br>100 * equation_set_no + specset_no |
+| multi-port_spec | Specifies the name of a multiport specification for a multi-port setup. PRM is the default value. |
+| timing_set | Specifies the number of the a timing set. PRM is the default value. |
+| edge_spec | The edge specifier can either be a physical edge (d1 through d8 or r1 through r8), or one of the data parameters D1, D2, C1, C2 (drive parameters) or E1, E2 (receive parameters). |
+| edge_number | In the query reply, this parameter contains the edge that is used as leading or trailing edge. |
+| dev_cyc_name | Specifies the name of a logical device cycle that uses the data parameter given as the edge_spec. It must be defined for all pins in pinlist. If you do not enter a name in this parameter, the first device cycle in the device cycle table is used. |
+| dc_ref | This parameter specifies the input edge. The input edge determines the algorithm according to which the trailing edge is selected. The two options are LE (for "leading edge") and TE (for "trailing edge").<br><br>The leading edge will always be the first edge that is associated with the specified data parameter within the specified device cycle, regardless of whether LE or TE is specified.<br><br>For the trailing edge the following rules apply:<br><br>- When you specify LE, trailing and leading edge will be identical.<br>- When you specify TE, then drive parameters and receive parameters are treated differently.<br><br>- Drive parameter: The trailing edge will be the first drive edge after the leading edge thats performs a data or tri-state action. Note that this trailing edge need not be associated in any way with the data parameter of the leading edge.<br>- Receive parameter: If the action of the leading edge is an edge compare, leading and trailing edge will be identical. If it is the start action of a window compare, then the associated window close edge will be the trailing edge.<br><br>For both cases, see the example below.<br><br>In the query, you can also specify both. In this case both the leading and the trailing edge will be returned for the pins in pinlist. |
+| direction | This parameter can be in or out. If in is selected to define an input edge, then the edge_spec parameter must be D1, D2, C1, or C2. If out is selected to define a receiver edge, then the edge_spec parameter must be E1 or E2. If either in or out is selected along with an edge_spec parameter of 1,2...6, then a check is performed to ensure that the edges of all pins are in the required direction. If no entry is made in this parameter, the measuring edges of the pin in pinlist can have any direction or be unused. |
+| pinlist | The parameters of the EDSP command are applied to all pins named in this parameter. If more than one pin is used, the names must be separated by a comma.<br><br>In a multi-port setup, all pins must belong to the same port of the specification that was entered as the first parameter. |
 
 ### Syntax（取自子主题 Timing Setup Commands › List of timing setup commands › EQFS -  EQuation FileS command transfer）
 
@@ -47032,51 +38081,10 @@ EQSP {spec_type}, {part}, {#spec(data)}
 if these are not empty, for backward compatibility.
 
 Parameters
- |
-
-spec_type
-
- |
-
-The mandatory parameter defines which specification type to use.
-
-Use:
-
-- LEV to specify levels
-- TIM to specify timing
- |
- |
-
-part
-
- |
-
-The mandatory parameter defines which part of the specification type to use.
-
-Use:
-
-- EQN to specify equations
-- SPS to specify specs
-- WVT to specify a wavetable
-
-part can only be set to WVT, EQN, or CLK if spec_type is set to TIM.
-
- |
- |
-
-#spec(data)
-
- |
-
-An equation based set of data (for example wavetables) in binary format.
-
-This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:
-
-- A # to mark the start of the data block.
-- One digit indicating how many digits make up the data length specifier.
-- A number of digits indicating the length (in bytes) of the data to follow.
-- A number of characters which make up the specified equation based testing file. This stream of characters must be terminated with a @ character.
- |
+| spec_type | The mandatory parameter defines which specification type to use.<br><br>Use:<br><br>- LEV to specify levels<br>- TIM to specify timing |
+|---|---|
+| part | The mandatory parameter defines which part of the specification type to use.<br><br>Use:<br><br>- EQN to specify equations<br>- SPS to specify specs<br>- WVT to specify a wavetable<br><br>part can only be set to WVT, EQN, or CLK if spec_type is set to TIM. |
+| #spec(data) | An equation based set of data (for example wavetables) in binary format.<br><br>This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:<br><br>- A # to mark the start of the data block.<br>- One digit indicating how many digits make up the data length specifier.<br>- A number of digits indicating the length (in bytes) of the data to follow.<br>- A number of characters which make up the specified equation based testing file. This stream of characters must be terminated with a @ character. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › EQSP  EQSP  -  EQuation SPecification transfer）
 
@@ -47109,112 +38117,15 @@ ETDS {waveform_set|specset_id|"multi-port_spec"}, {timing_set}, [mode], {definit
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › ETDS  ETDS  -  Edge Timing Definition String）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 *`equation_set_no `+ `specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-For a multi-port setup, specify the name of a multi-port specification.
-
-Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification.
-
- |
- |
-
-timing_set
-
- |
-
-Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by TSUS.
-
- |
- |
-
-mode
-
- |
-
-The operating mode. For the query, you can enter ALL for all modes or BIDIR for bidirectional mode, that is, for edges that serve both as drive and receive edges.
-
-With fast pins, you can specify the mode DELTA for both the command and the query. In this mode, the delays specified for edges with an index > 1 are interpreted as offsets from the calculated default values.
-
- |
- |
-
-definition_string
-
- |
-
-The definition string consists of a sequence of items each of which associates a delay with a drive or compare edge. On Pin Scale 800/3600 boards, drive edges are denoted by dn. On Pin Scale 9G boards, there are two kinds of drive edges, which are denoted by fn and sn, respectively; for details see `Defining waveforms for Pin Scale 9G pins`（raw: `02.06.06.01.03.02_Defining_waveform_shapes_for_Smart_Scale_pins.md`）. You can also use the dn notation for Pin Scale 9G channels, but mixing both notations in one string is not allowed. Receive edges are always denoted by rn.
-
-Unless you employ the pdiv statement for fast pins (see below), all edges which are not explicitly set remain unchanged.
-
-The range of the edge delay is -8000 ns to +24000 ns (or -4 to +12 test system periods) for the Pin Scale 3600/800.
-
-On Pin Scale 800/3600 boards, the restrictions for edge ordering must be observed both in fixed and equation based timing. For example, you cannot assign a greater delay to d1 than to d3 if d1 precedes d3 in a waveform definition. For more information, see `Selecting and ordering edges`（raw: `02.06.06.01.03.01.02_Selecting_and_ordering_edges.md`）.
-
-Note that with equation based timing, ETDS returns no error message when the edge order restrictions are violated.
-
-On Pin Scale 9G boards, ordering of drive edges is not restricted in any way.
-
- |
- |
-
- |
-
-Special Rules for Fast Pins:
-
-If a pin is configured as a fast pin in the context of the specification given by the first parameter, you can specify the period divider at the start of the definition string. The format is pdiv:n, where n must be the same value as the period_div value of the pins in pinlist within the timing set specified by the timing_set parameter.
-
-If you specify pdiv:nand a delay for the first edge, ETDS calculates delays for the following n-1 edges except those that are specified explicitly in the string. Note that for n = 3, the edges with index 1, 3, 5 are used for internal reasons.
-
-If you omit either pdiv or the first edge, only the specified edges are modified. However, with receive edges this is only possible for r1.
-
-The calculated delays are determined for the ith edge by the following formula:
-
- 1st_edge_delay + (i-1) * (period/pdiv)
-
-1st_edge_delay is the delay specified for the first edge (d1 or r1; the generic notation e1 is not allowed for fast pins). If the first edge is not specified in the string, its delay is set to 0. An example for the calculation will be given below.
-
-Note that when both the period divider and a delay for the first edge are present in the definition string, then the delays for all the edges required by the period divider will be overwritten.
-
-When a delay is explicitly specified for one of the edges, this delay overrides the calculated default. There are two formats to specify overrides. You can either define absolute delays or the offsets from the default delays.
-
-If you want to use the second, relative format, you must specify DELTA for the modeparameter. Note that you can also specify negative offsets in the DELTA mode.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which edge delays are to be set or read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
-
-In a multi-port setup, every pin must belong to a port of the specified specification.
-
- |
+| waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Derived as follows:<br><br>`100 *`equation_set_no `+ `specset_no |
+| multi-port_spec | For a multi-port setup, specify the name of a multi-port specification.<br><br>Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification. |
+| timing_set | Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by TSUS. |
+| mode | The operating mode. For the query, you can enter ALL for all modes or BIDIR for bidirectional mode, that is, for edges that serve both as drive and receive edges.<br><br>With fast pins, you can specify the mode DELTA for both the command and the query. In this mode, the delays specified for edges with an index > 1 are interpreted as offsets from the calculated default values. |
+| definition_string | The definition string consists of a sequence of items each of which associates a delay with a drive or compare edge. On Pin Scale 800/3600 boards, drive edges are denoted by dn. On Pin Scale 9G boards, there are two kinds of drive edges, which are denoted by fn and sn, respectively; for details see `Defining waveforms for Pin Scale 9G pins`（raw: `02.06.06.01.03.02_Defining_waveform_shapes_for_Smart_Scale_pins.md`）. You can also use the dn notation for Pin Scale 9G channels, but mixing both notations in one string is not allowed. Receive edges are always denoted by rn.<br><br>Unless you employ the pdiv statement for fast pins (see below), all edges which are not explicitly set remain unchanged.<br><br>The range of the edge delay is -8000 ns to +24000 ns (or -4 to +12 test system periods) for the Pin Scale 3600/800.<br><br>On Pin Scale 800/3600 boards, the restrictions for edge ordering must be observed both in fixed and equation based timing. For example, you cannot assign a greater delay to d1 than to d3 if d1 precedes d3 in a waveform definition. For more information, see `Selecting and ordering edges`（raw: `02.06.06.01.03.01.02_Selecting_and_ordering_edges.md`）.<br><br>Note that with equation based timing, ETDS returns no error message when the edge order restrictions are violated.<br><br>On Pin Scale 9G boards, ordering of drive edges is not restricted in any way. |
+|  | Special Rules for Fast Pins:<br><br>If a pin is configured as a fast pin in the context of the specification given by the first parameter, you can specify the period divider at the start of the definition string. The format is pdiv:n, where n must be the same value as the period_div value of the pins in pinlist within the timing set specified by the timing_set parameter.<br><br>If you specify pdiv:nand a delay for the first edge, ETDS calculates delays for the following n-1 edges except those that are specified explicitly in the string. Note that for n = 3, the edges with index 1, 3, 5 are used for internal reasons.<br><br>If you omit either pdiv or the first edge, only the specified edges are modified. However, with receive edges this is only possible for r1.<br><br>The calculated delays are determined for the ith edge by the following formula:<br><br>1st_edge_delay + (i-1) * (period/pdiv)<br><br>1st_edge_delay is the delay specified for the first edge (d1 or r1; the generic notation e1 is not allowed for fast pins). If the first edge is not specified in the string, its delay is set to 0. An example for the calculation will be given below.<br><br>Note that when both the period divider and a delay for the first edge are present in the definition string, then the delays for all the edges required by the period divider will be overwritten.<br><br>When a delay is explicitly specified for one of the edges, this delay overrides the calculated default. There are two formats to specify overrides. You can either define absolute delays or the offsets from the default delays.<br><br>If you want to use the second, relative format, you must specify DELTA for the modeparameter. Note that you can also specify negative offsets in the DELTA mode. |
+| pinlist | The name of the pin or pins for which edge delays are to be set or read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.<br><br>In a multi-port setup, every pin must belong to a port of the specified specification. |
 
 ### Example 1（取自子主题 Timing Setup Commands › List of timing setup commands › ETDS  ETDS  -  Edge Timing Definition String）
 
@@ -47294,53 +38205,12 @@ ETIM {specset_id}, {timing_set_no}, [t1], [t2], [t3], [t4], [t5], [t6],{(pinlist
 ```
 
 Parameters
- |
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 *`equation_set_no `+ `specset_no
-
- |
- |
-
-timing_set
-
- |
-
-Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by TSUS.
-
- |
- |
-
-t1..t6
-
- |
-
-Edge delay in ns. Note that the positions of some edges may be affected by the use and position of previously defined edges as explained in "Restrictions" in `ETIM, ETIM? - (Edge TIMing)`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which edge delays are to be set or read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
+| waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Derived as follows:<br><br>`100 *`equation_set_no `+ `specset_no |
+| timing_set | Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by TSUS. |
+| t1..t6 | Edge delay in ns. Note that the positions of some edges may be affected by the use and position of previously defined edges as explained in "Restrictions" in `ETIM, ETIM? - (Edge TIMing)`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）. |
+| pinlist | The name of the pin or pins for which edge delays are to be set or read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › ETIM  ETIM  -  Edge TIMing）
 
@@ -47457,42 +38327,11 @@ EVCK {"multi-port_spec"}, event_clock_per, {(port)}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › EVCK  -  EVent ClocK）
 
-|
-
-multi-port_spec
-
- |
-
-Name of a multi-port timing specification.
-
- |
- |
-
-port_list
-
- |
-
-This query parameter specifies a list of ports that belong to the respective multi-port timing specification.
-
- |
- |
-
-port
-
- |
-
-This reply parameter specifies a port that belongs to the respective multi-port timing specification.
-
- |
- |
-
-event_clock_per
-
- |
-
-This reply parameter returns the event clock period of the respective port.
-
- |
+| multi-port_spec | Name of a multi-port timing specification. |
+|---|---|
+| port_list | This query parameter specifies a list of ports that belong to the respective multi-port timing specification. |
+| port | This reply parameter specifies a port that belongs to the respective multi-port timing specification. |
+| event_clock_per | This reply parameter returns the event clock period of the respective port. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › EVCK  -  EVent ClocK）
 
@@ -47656,86 +38495,15 @@ PCLK {specset_id|"multi-port_spec"}, {timing_set}, {period}, {(pinlist)}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › PCLK  PCLK  -  Pin CLocK）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Used for equation based timing. It is derived as follows:
-
-100 * equation_set_no + specset_no
-
-Note that if you change the period for an equation based timing setup, PCLK will only change the runtime value, not the setup value specified in the timing set.
-
- |
- |
-
-multi-port_spec
-
- |
-
-In the command, you cannot enter a multi-port specification unless the specification is associated with the default port, and no other ports are configured. This restriction does not apply to the query.
-
- |
- |
-
-timing_set
-
- |
-
-Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by `TSUS`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）.
-
- |
- |
-
-period
-
- |
-
-Enter the test system period in ns. The period range depends on the model. For the Pin Scale 800, the range is 2.5 ns to 31250 ns. All values entered (or queried regardless of query_mode) are in ns and will be rounded to nine digits after the decimal point (atto-seconds) according to the accuracy of the firmware. The power-on default value for all configured pins also depends on the model.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins whose period you want to define or read back. This parameter can also include groups previously created by `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to set or read the periods for all configured pins. If you do not use @, the firmware assumes asynchronous operation.
-
- |
- |
-
-portlist
-
- |
-
-In the query, you must specify a list of ports, if you have specified a multi-port specification for the first parameter.
-
- |
- |
-
-query_mode
-
- |
-
-In the query, you can specify whether the period specified by the user or the corrected period calculated by the system is to be returned. The allowed values are:
-
-WANT: The period defined by the user is returned. This is also the default.
-
-EXACT: The period calculated by the system is returned.
-
- |
+| waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Used for equation based timing. It is derived as follows:<br><br>100 * equation_set_no + specset_no<br><br>Note that if you change the period for an equation based timing setup, PCLK will only change the runtime value, not the setup value specified in the timing set. |
+| multi-port_spec | In the command, you cannot enter a multi-port specification unless the specification is associated with the default port, and no other ports are configured. This restriction does not apply to the query. |
+| timing_set | Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by `TSUS`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. |
+| period | Enter the test system period in ns. The period range depends on the model. For the Pin Scale 800, the range is 2.5 ns to 31250 ns. All values entered (or queried regardless of query_mode) are in ns and will be rounded to nine digits after the decimal point (atto-seconds) according to the accuracy of the firmware. The power-on default value for all configured pins also depends on the model. |
+| pinlist | The name of the pin or pins whose period you want to define or read back. This parameter can also include groups previously created by `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to set or read the periods for all configured pins. If you do not use @, the firmware assumes asynchronous operation. |
+| portlist | In the query, you must specify a list of ports, if you have specified a multi-port specification for the first parameter. |
+| query_mode | In the query, you can specify whether the period specified by the user or the corrected period calculated by the system is to be returned. The allowed values are:<br><br>WANT: The period defined by the user is returned. This is also the default.<br><br>EXACT: The period calculated by the system is returned. |
 
 ### Example 1（取自子主题 Timing Setup Commands › List of timing setup commands › PCLK  PCLK  -  Pin CLocK）
 
@@ -47867,19 +38635,8 @@ RCLK {clock_string}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › RCLK  -  Reference CLocK source）
 
-|
-
-clock_string
-
- |
-
-The string shows which clock source is used as reference clock. Possible values are:
-
-EXTERNAL
-
-INTERNAL
-
- |
+| clock_string | The string shows which clock source is used as reference clock. Possible values are:<br><br>EXTERNAL<br><br>INTERNAL |
+|---|---|
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › RCLK  -  Reference CLocK source）
 
@@ -48086,62 +38843,13 @@ SCLK {wf_set|specset_id|"multi-port_spec"} {sclk_val}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › SCLK  -  System CLocK query）
 
-|
-
-wf_set
-
- |
-
-Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 *`equation_set_no `+ `specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-To query a multi-port specification, enter the name of the specification.
-
- |
- |
-
-sclk_val
-
- |
-
-The SCLK period of the respective setup in ns.
-
- |
- |
-
-ALL
-
- |
-
-Returns the SCLK values for all waveform sets.
-
- |
- |
-
-PRM
-
- |
-
-Returns the value for the primary waveform set or specification (set by SPRM).
-
- |
+| wf_set | Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| specset_id | Derived as follows:<br><br>`100 *`equation_set_no `+ `specset_no |
+| multi-port_spec | To query a multi-port specification, enter the name of the specification. |
+| sclk_val | The SCLK period of the respective setup in ns. |
+| ALL | Returns the SCLK values for all waveform sets. |
+| PRM | Returns the value for the primary waveform set or specification (set by SPRM). |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › SCLK  -  System CLocK query）
 
@@ -48628,24 +39336,9 @@ SPCP {"multi-port_spec"}, {(portlist)}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › SPCP  -  SPeCification Port list）
 
-|
-
-multi-port_spec
-
- |
-
-Defines the multi-port specification for which the ports are to be queried. You can enter ALL in order to display the ports for all defined multi-port specifications.
-
- |
- |
-
-portlist
-
- |
-
-Displays the ports to which the specification applies.
-
- |
+| multi-port_spec | Defines the multi-port specification for which the ports are to be queried. You can enter ALL in order to display the ports for all defined multi-port specifications. |
+|---|---|
+| portlist | Displays the ports to which the specification applies. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › SPCP  -  SPeCification Port list）
 
@@ -48818,108 +39511,17 @@ SPRM {"multi-port_spec"}, {timing_set_no|"timing_set_list"}, {level_set_id|level
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › SPRM  SPRM  -  Set PRiMary sets）
 
-|
-
-waveform_set_no
-
- |
-
-The identification number of the waveform set. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of waveform sets allowed - as defined by `CONF, CONF? - (CONFiguration)`（raw: `02.06.02.02.31_CONF__CONF__-__CONFiguration.md`）.
-
- |
- |
-
-timing_specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
-Note that the spec set ID also identifies the primary wavetable in equation based testing.
-
- |
- |
-
-multi-port_spec
-
- |
-
-For a multi-port setup, specify a primary multi-port specification.
-
- |
- |
-
-timing_set_no
-
- |
-
-The identification number of the timing set. Enter an integer in the range 1 to the maximum number of allowed timing sets (of the selected waveform set or timing specification). The maximum number is determined by `TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).
-
-In a multiport setup, the timing set number applies to all ports of the specification if you do not specify a port. If you do, the number applies to the specified port.
-
- |
- |
-
-timing_set_list
-
- |
-
-In a multi-port setup, you can specify primary timing sets for all ports of the specification by entering a list of numbers separated by commas. The order of the timing sets must correspond to the order of the ports in the multi-port timing specification.
-
-In the query, the numbers of the primary timing sets are returned in a list for all ports of the primary specification unless the numbers are identical for all ports or a port has been specified in the query.
-
- |
- |
-
-level_set_no
-
- |
-
-The identification number of the level set. Enter an integer in the range 1 to the maximum number of allowed level sets. The maximum number is determined by `LSUS, LSUS? - (Level Sets USed)`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).
-
- |
- |
-
-dps_set_no
-
- |
-
-The identification number of the DPS set. Enter an integer in the range 1 to the maximum number of allowed DPS sets. The maximum number is determined by `DSUS, DSUS? - (Dps Sets USed)`（raw: `02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md`）. The number you enter must be less than or equal to the maximum number of DPS sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).
-
- |
- |
-
-level_set_id
-
- |
-
-Derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + level_set_no`
-
- |
- |
-
-dps_set_id
-
- |
-
-Derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + 1`
-
- |
- |
-
-port
-
- |
-
-In a multiport setup, you can specify a port of the specification that was entered as the first parameter. In this case, the timing set number specified as the second parameter will only be applied to the specified port. The port parameter is ignored if a timing set list is specified.
-
- |
+| waveform_set_no | The identification number of the waveform set. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of waveform sets allowed - as defined by `CONF, CONF? - (CONFiguration)`（raw: `02.06.02.02.31_CONF__CONF__-__CONFiguration.md`）. |
+|---|---|
+| timing_specset_id | Derived as follows:<br><br>`100 * equation_set_no + specset_no`<br><br>Note that the spec set ID also identifies the primary wavetable in equation based testing. |
+| multi-port_spec | For a multi-port setup, specify a primary multi-port specification. |
+| timing_set_no | The identification number of the timing set. Enter an integer in the range 1 to the maximum number of allowed timing sets (of the selected waveform set or timing specification). The maximum number is determined by `TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）).<br><br>In a multiport setup, the timing set number applies to all ports of the specification if you do not specify a port. If you do, the number applies to the specified port. |
+| timing_set_list | In a multi-port setup, you can specify primary timing sets for all ports of the specification by entering a list of numbers separated by commas. The order of the timing sets must correspond to the order of the ports in the multi-port timing specification.<br><br>In the query, the numbers of the primary timing sets are returned in a list for all ports of the primary specification unless the numbers are identical for all ports or a port has been specified in the query. |
+| level_set_no | The identification number of the level set. Enter an integer in the range 1 to the maximum number of allowed level sets. The maximum number is determined by `LSUS, LSUS? - (Level Sets USed)`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）). |
+| dps_set_no | The identification number of the DPS set. Enter an integer in the range 1 to the maximum number of allowed DPS sets. The maximum number is determined by `DSUS, DSUS? - (Dps Sets USed)`（raw: `02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md`）. The number you enter must be less than or equal to the maximum number of DPS sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）). |
+| level_set_id | Derived as follows:<br><br>`100000 * equation_set_no + 1000 * specset_no + level_set_no` |
+| dps_set_id | Derived as follows:<br><br>`100000 * equation_set_no + 1000 * specset_no + 1` |
+| port | In a multiport setup, you can specify a port of the specification that was entered as the first parameter. In this case, the timing set number specified as the second parameter will only be applied to the specified port. The port parameter is ignored if a timing set list is specified. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › SPRM  SPRM  -  Set PRiMary sets）
 
@@ -49039,214 +39641,23 @@ For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all 
  |
 
 Status bits for the status parameter
- |
-
-Bit
-
- |
-
-Description
-
- |
-
-Value
-
- |
- |
-
-0
-
- |
-
-Not available/defined.
-
- |
-
-1
-
- |
- |
-
-1
-
- |
-
-Drive 1 period limit violation.
-
- |
-
-2
-
- |
- |
-
-2
-
- |
-
-Receive 1 period limit violation.
-
- |
-
-4
-
- |
- |
-
-3
-
- |
-
-Drive 2 period limit violation.
-
- |
-
-8
-
- |
- |
-
-4
-
- |
-
-Receive 2 period limit violation.
-
- |
-
-16
-
- |
- |
-
-5
-
- |
-
-Drive edge order violation.
-
- |
-
-32
-
- |
- |
-
-6
-
- |
-
-Tri-state edge order violation.
-
- |
-
-64
-
- |
- |
-
-7
-
- |
-
-Window edge order violation.
-
- |
-
-128
-
- |
- |
-
-8
-
- |
-
-It is possible to modify the timing or level data with `ETIM`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）(`ETDS`（raw: `02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`）), `PCLK`（raw: `02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`）, `CLKR`（raw: `02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md`）, `DRLV`（raw: `02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`）, `RCLV`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`）, `TERM`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`）, and `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`）. If any of these commands are executed, this bit is set automatically for the affected specset, and the restore should bring back the original SPST status.
-
- |
-
-256
-
- |
- |
-
-9
-
- |
-
-Modified with `SHVL`（raw: `02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md`）.
-
- |
-
-512
-
- |
- |
-
-10
-
- |
-
-Modified with `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`）.
-
- |
-
-1024
-
- |
- |
-
-12
-
- |
-
-Absolute range violation.
-
- |
-
-2048
-
- |
- |
-
-13
-
- |
-
-Relative range violation
-
- |
-
-4096
-
- |
- |
-
-14
-
- |
-
-Drive 10 period limit violation
-
- |
-
-8192
-
- |
- |
-
-15
-
- |
-
-Receive 10 period limit violation
-
- |
-
-16384
-
- |
+| Bit | Description | Value |
+|---|---|---|
+| 0 | Not available/defined. | 1 |
+| 1 | Drive 1 period limit violation. | 2 |
+| 2 | Receive 1 period limit violation. | 4 |
+| 3 | Drive 2 period limit violation. | 8 |
+| 4 | Receive 2 period limit violation. | 16 |
+| 5 | Drive edge order violation. | 32 |
+| 6 | Tri-state edge order violation. | 64 |
+| 7 | Window edge order violation. | 128 |
+| 8 | It is possible to modify the timing or level data with `ETIM`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）(`ETDS`（raw: `02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`）), `PCLK`（raw: `02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`）, `CLKR`（raw: `02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md`）, `DRLV`（raw: `02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`）, `RCLV`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`）, `TERM`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`）, and `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`）. If any of these commands are executed, this bit is set automatically for the affected specset, and the restore should bring back the original SPST status. | 256 |
+| 9 | Modified with `SHVL`（raw: `02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md`）. | 512 |
+| 10 | Modified with `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`）. | 1024 |
+| 12 | Absolute range violation. | 2048 |
+| 13 | Relative range violation | 4096 |
+| 14 | Drive 10 period limit violation | 8192 |
+| 15 | Receive 10 period limit violation | 16384 |
 
 ### Example 1（取自子主题 Timing Setup Commands › List of timing setup commands › SPST  -  SPecset STatus）
 
@@ -49286,165 +39697,20 @@ STRS {res_spec}, [pass_meas_value], [fail_meas_value], [(pinlist)]
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › STRS  -  Spec TRansition Search）
 
-|
-
-exec_context
-
- |
-
-An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .
-
- |
- |
-
-start
-
- |
-
-Double float with up to 5 digits after the decimal point defining the value of spec_name at the start of the search. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the minimum value as defined in the spec set will be used.
-
-The start value can be greater than the stop value. In this case the search will be in the negative direction.
-
- |
- |
-
-stop
-
- |
-
-Double float with up to 5 digits after the decimal point defining the value of spec_name where you want the search to end. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the maximum value as defined in the spec set will be used.
-
-The stop value can be smaller than the start value. In this case the search will be in the negative direction.
-
- |
- |
-
-mode
-
- |
-
-Search mode. Use:
-
-L to specify a linear search,
-
-LB to specify linear/binary search,
-
-B to specify a binary search.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which the value of the spec variable is to be modified. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） command. If more than one pin is to be included, the names must be separated with a comma.
-
-The @ character indicates all pins. This is the default.
-
- |
- |
-
-spec_type
-
- |
-
-Which specification type to use. Use :
-
-LEV to specify levels, or
-
-TIM to specify timing.
-
- |
- |
-
-spec_name
-
- |
-
-A string of up to 64 alphanumeric characters (upper or lower case) enclosed in double quotes.
-
-If you use the option @port`[`@UNCHANGED`]`, (see the port parameter), you must include this extension in the double quotes, too.
-
- |
- |
-
-port
-
- |
-
-In a multi-port setup, you can add a port name to the spec variable. This will have the effect that the value of the variable will be modified only for pins belonging to this port. This holds even if the variable has global scope for this port in the timing specification.
-
-If you specify the spec variable without a port in a multi-port setup, its value will only be modified for a pin whose port has the spec variable set to global scope.
-
-For more information on the scope of a variable see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）.
-
-Note that if a port that is specified with the name of the variable it is this port on which the value of the variable will be modified. The setup pins have no influence on this.
-
-On a Pin Scale system, the specification of a port will have an additional effect:
-
-If spec_name is used in the definition of the port period, this port will be temporarily used as the primary port. For more information see `Modifying the period for a search or shmoo in a multi-port setup`（raw: `02.06.09.01.01.01_Modifying_the_period_for_a_search_or_shmoo_in_a_multi-port_setup__Pin_Sc.md`）.
-
-This switch can be suppressed by adding @UNCHANGED to the port name.
-
- |
- |
-
-stepwidth
-
- |
-
-The search step width in the unit specified with the corresponding spec. This is optional if mode is B.
-
- |
- |
-
-resolution
-
- |
-
-The smallest step size to be used in the search. Especially useful in a binary search of a range of floating point numbers, where the number of values between start and stop is infinite. The unit must be the same as defined with the spec.
-
- |
- |
-
-res_spec
-
- |
-
-LT (less than)
-
-LE (less than or equal to)
-
-EQ (equal to)
-
-GE (greater than or equal to)
-
-GT (greater than).
-
- |
- |
-
-pass_meas_value
-
- |
-
-A double float defining the passed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.
-
-This parameter contains the last (in a PASS/FAIL transition) or the first (in a FAIL/PASS transition) value where the test passed.
-
- |
- |
-
-fail_meas_value
-
- |
-
-A double float defining the failed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.
-
-This parameter contains the first (in a PASS/FAIL transition) or the last (in a FAIL/PASS transition) value where the test failed.
-
- |
+| exec_context | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） . |
+|---|---|
+| start | Double float with up to 5 digits after the decimal point defining the value of spec_name at the start of the search. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the minimum value as defined in the spec set will be used.<br><br>The start value can be greater than the stop value. In this case the search will be in the negative direction. |
+| stop | Double float with up to 5 digits after the decimal point defining the value of spec_name where you want the search to end. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the maximum value as defined in the spec set will be used.<br><br>The stop value can be smaller than the start value. In this case the search will be in the negative direction. |
+| mode | Search mode. Use:<br><br>L to specify a linear search,<br><br>LB to specify linear/binary search,<br><br>B to specify a binary search. |
+| pinlist | The name of the pin or pins for which the value of the spec variable is to be modified. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） command. If more than one pin is to be included, the names must be separated with a comma.<br><br>The @ character indicates all pins. This is the default. |
+| spec_type | Which specification type to use. Use :<br><br>LEV to specify levels, or<br><br>TIM to specify timing. |
+| spec_name | A string of up to 64 alphanumeric characters (upper or lower case) enclosed in double quotes.<br><br>If you use the option @port`[`@UNCHANGED`]`, (see the port parameter), you must include this extension in the double quotes, too. |
+| port | In a multi-port setup, you can add a port name to the spec variable. This will have the effect that the value of the variable will be modified only for pins belonging to this port. This holds even if the variable has global scope for this port in the timing specification.<br><br>If you specify the spec variable without a port in a multi-port setup, its value will only be modified for a pin whose port has the spec variable set to global scope.<br><br>For more information on the scope of a variable see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）.<br><br>Note that if a port that is specified with the name of the variable it is this port on which the value of the variable will be modified. The setup pins have no influence on this.<br><br>On a Pin Scale system, the specification of a port will have an additional effect:<br><br>If spec_name is used in the definition of the port period, this port will be temporarily used as the primary port. For more information see `Modifying the period for a search or shmoo in a multi-port setup`（raw: `02.06.09.01.01.01_Modifying_the_period_for_a_search_or_shmoo_in_a_multi-port_setup__Pin_Sc.md`）.<br><br>This switch can be suppressed by adding @UNCHANGED to the port name. |
+| stepwidth | The search step width in the unit specified with the corresponding spec. This is optional if mode is B. |
+| resolution | The smallest step size to be used in the search. Especially useful in a binary search of a range of floating point numbers, where the number of values between start and stop is infinite. The unit must be the same as defined with the spec. |
+| res_spec | LT (less than)<br><br>LE (less than or equal to)<br><br>EQ (equal to)<br><br>GE (greater than or equal to)<br><br>GT (greater than). |
+| pass_meas_value | A double float defining the passed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>This parameter contains the last (in a PASS/FAIL transition) or the first (in a FAIL/PASS transition) value where the test passed. |
+| fail_meas_value | A double float defining the failed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>This parameter contains the first (in a PASS/FAIL transition) or the last (in a FAIL/PASS transition) value where the test failed. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › STRS  -  Spec TRansition Search）
 
@@ -49715,51 +39981,12 @@ TSUS {"multiport_spec"},{timing_set}[,(port)]
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › TSUS  TSUS  -  Timing Sets USed）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows: `100 * `equation_set_no `+ `specset_no
-
- |
- |
-
-multiport_spec
-
- |
-
-To query a multiport specification, enter the name of the specification.
-
- |
- |
-
-timing_set
-
- |
-
-Timing set number. This is the highest number currently allocated to a timing set or the highest number of timing set you want to associate with a given waveform set. The number you enter must be less than or equal to the maximum number of timing sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command). This number is automatically updated to include any new timing set as it is created. At power-on only one timing set (containing the default values and belonging to the single waveform set) is available.
-
- |
- |
-
-portlist
-
- |
-
-For multiport specifications, you can specify a list of the ports for which the number of the timing sets used is to be displayed.
-
- |
+| waveform_set | Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Derived as follows: `100 * `equation_set_no `+ `specset_no |
+| multiport_spec | To query a multiport specification, enter the name of the specification. |
+| timing_set | Timing set number. This is the highest number currently allocated to a timing set or the highest number of timing set you want to associate with a given waveform set. The number you enter must be less than or equal to the maximum number of timing sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command). This number is automatically updated to include any new timing set as it is created. At power-on only one timing set (containing the default values and belonging to the single waveform set) is available. |
+| portlist | For multiport specifications, you can specify a list of the ports for which the number of the timing sets used is to be displayed. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › TSUS  TSUS  -  Timing Sets USed）
 
@@ -50253,66 +40480,13 @@ VWFG {status}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › VWFG  -  Verify WaveForms in Groups）
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes.
-
- |
- |
-
-dev_cyc_name
-
- |
-
-If you specify the name of a device cycle, only this device cycle will be checked. Enter ALL for all device cycle names in the device cycle table.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins whose definitions you want to check. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to check all configured pins.
-
- |
- |
-
-status
-
- |
-
-The system returns:
-
-0: The definitions are not the same.
-
-1: The definitions are the same.
-
- |
+| waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| specset_id | Derived as follows:<br><br>`100 * equation_set_no + specset_no` |
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. |
+| dev_cyc_name | If you specify the name of a device cycle, only this device cycle will be checked. Enter ALL for all device cycle names in the device cycle table. |
+| pinlist | The name of the pin or pins whose definitions you want to check. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to check all configured pins. |
+| status | The system returns:<br><br>0: The definitions are not the same.<br><br>1: The definitions are the same. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › VWFG  -  Verify WaveForms in Groups）
 
@@ -51128,75 +41302,14 @@ WFUD {specset_id|"multiport_spec"}, {wfIndex}, [mode], {definition_string}, {(pi
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › WFUD -  WaveForm UnDefine）
 
-|
-
-wvf_set
-
- |
-
-Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 *`equation_set_no `+ `specset_no
-
- |
- |
-
-multiport_spec
-
- |
-
-To change or query a multiport specification, enter the name of the specification.
-
- |
- |
-
-wfIndex
-
- |
-
-Logical waveform index. Enter an integer between 0 and 31 (255 on Pin Scale systems).
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which the waveform is to be deleted. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured input pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
- |
-
-ALLOW_EQ
-
- |
-
-This extra parameter allows you to delete a logical waveform for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.
-
-Note also the following:
-
-- Every runtime change will affect all specifications that use the respective wavetable.
-- Since the new or changed waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
- |
+| wvf_set | Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. |
+| specset_id | Derived as follows:<br><br>`100 *`equation_set_no `+ `specset_no |
+| multiport_spec | To change or query a multiport specification, enter the name of the specification. |
+| wfIndex | Logical waveform index. Enter an integer between 0 and 31 (255 on Pin Scale systems). |
+| pinlist | The name of the pin or pins for which the waveform is to be deleted. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured input pins. If more than one pin is to be included, the names must be separated with a comma. |
+| ALLOW_EQ | This extra parameter allows you to delete a logical waveform for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new or changed waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow. |
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WFUD -  WaveForm UnDefine）
 
@@ -51214,15 +41327,8 @@ WRST {waveform_set}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › WRST -  Waveform ReSeT）
 
-|
-
-waveform_set
-
- |
-
-Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
+| waveform_set | Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WRST -  Waveform ReSeT）
 
@@ -51344,17 +41450,8 @@ WSUS {waveform_set}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › WSUS  WSUS  -  Waveform Sets USed）
 
-|
-
-waveform_set
-
- |
-
-Waveform set number. This is the highest number currently allocated to a waveform set or the highest number of a set you want to load. The number you enter must not exceed the maximum number of waveform sets allowed (defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).
-
-This number is automatically updated to include any new waveform set as it is created. At power-on, only one waveform set (containing one timing set and default values) is available.
-
- |
+| waveform_set | Waveform set number. This is the highest number currently allocated to a waveform set or the highest number of a set you want to load. The number you enter must not exceed the maximum number of waveform sets allowed (defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).<br><br>This number is automatically updated to include any new waveform set as it is created. At power-on, only one waveform set (containing one timing set and default values) is available. |
+|---|---|
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WSUS  WSUS  -  Waveform Sets USed）
 
@@ -51476,24 +41573,9 @@ APDV {cmd_No}, {vect_length}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › APDV -  APpenD Vectors）
 
-|
-
-cmd_No
-
- |
-
-A number that identifies the command within the sequencer area of the port to which the label belongs. Enter the command number of a GENV or RPTV instruction within the selected label.
-
- |
- |
-
-vect_length
-
- |
-
-The number of vectors you wish to append. Enter an integer in the range 0 to the maximum vector length.
-
- |
+| cmd_No | A number that identifies the command within the sequencer area of the port to which the label belongs. Enter the command number of a GENV or RPTV instruction within the selected label. |
+|---|---|
+| vect_length | The number of vectors you wish to append. Enter an integer in the range 0 to the maximum vector length. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › APDV -  APpenD Vectors）
 
@@ -51836,46 +41918,11 @@ CMNT {act_vect_of_port}, {"text"}[, (port)]
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › CMNT  CMNT  -  CoMmeNT）
 
-|
-
-act_vect_of_port
-
- |
-
-Specifies the active vector of the referenced port at which the comment is to be inserted, or, in the query, the first vector of which the comment is to be displayed.
-
-Note that you must count the active vectors of the port consecutively across all of its labels, starting from 0. Suppose, for example, that two labels, test_1 and test_2, are associated with the port, where test_1 has 8 active vectors, and test_2 has 3. Then, to insert a comment at the second vector of test_2, you must enter 9.
-
- |
- |
-
-text
-
- |
-
-A string of up to 250 characters. The string must be enclosed with double quotes.
-
-Comments can contain any characters with ASCII codes from 32 to 126, that is, all printable ASCII characters. To put a double quote character (", ASCII 34) into a comment, enter two double quote characters.
-
- |
- |
-
-vect_length
-
- |
-
-In the query, the range of active vectors to be displayed, starting from act_vect_of_port. It can cross label boundaries.
-
- |
- |
-
-port
-
- |
-
-Specifies the port to which the active vectors associated with the comments belong. If you do not specify a port, the comments to the active vectors of the default port @ are set or read.
-
- |
+| act_vect_of_port | Specifies the active vector of the referenced port at which the comment is to be inserted, or, in the query, the first vector of which the comment is to be displayed.<br><br>Note that you must count the active vectors of the port consecutively across all of its labels, starting from 0. Suppose, for example, that two labels, test_1 and test_2, are associated with the port, where test_1 has 8 active vectors, and test_2 has 3. Then, to insert a comment at the second vector of test_2, you must enter 9. |
+|---|---|
+| text | A string of up to 250 characters. The string must be enclosed with double quotes.<br><br>Comments can contain any characters with ASCII codes from 32 to 126, that is, all printable ASCII characters. To put a double quote character (", ASCII 34) into a comment, enter two double quote characters. |
+| vect_length | In the query, the range of active vectors to be displayed, starting from act_vect_of_port. It can cross label boundaries. |
+| port | Specifies the port to which the active vectors associated with the comments belong. If you do not specify a port, the comments to the active vectors of the default port @ are set or read. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › CMNT  CMNT  -  CoMmeNT）
 
@@ -51914,33 +41961,10 @@ CMVC {src_vec_No}, {dst_vec_No}, {vect_length}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › CMVC -  Clear and MoVe Comments）
 
-|
-
-src_vec_No
-
- |
-
-The logical vector number that determines the start of the source range.
-
- |
- |
-
-dst_vec_No
-
- |
-
-The logical vector number that determines the start of the destination range.
-
- |
- |
-
-vect_length
-
- |
-
-The vector range from which comments are to be moved. Specify 0 in order to simply delete the vectors between the source and the destination number.
-
- |
+| src_vec_No | The logical vector number that determines the start of the source range. |
+|---|---|
+| dst_vec_No | The logical vector number that determines the start of the destination range. |
+| vect_length | The vector range from which comments are to be moved. Specify 0 in order to simply delete the vectors between the source and the destination number. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › CMVC -  Clear and MoVe Comments）
 
@@ -51969,15 +41993,8 @@ CNGV {(cmd_No)}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › CNGV -  CoNnect Generate Vectors）
 
-|
-
-cmd_No
-
- |
-
-The command number which references the first of the two consecutive GENV sequencer constructs.
-
- |
+| cmd_No | The command number which references the first of the two consecutive GENV sequencer constructs. |
+|---|---|
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › CNGV -  CoNnect Generate Vectors）
 
@@ -52004,42 +42021,11 @@ CPYV {src_vec_No}, {dst_vec_No}, {vect_length}, {(pinlist)}
 ```
 
 Parameters
- |
-
-src_vec_No
-
- |
-
-The logical vector number that determines the start of the source range.
-
- |
- |
-
-dst_vec_No
-
- |
-
-The logical vector number that determines the start of the destination range.
-
- |
- |
-
-vect_length
-
- |
-
-The length of the vector range to be copied.
-
- |
- |
-
-pinlist
-
- |
-
-The pins for which vectors are to be copied. If more than one pin is required, the names must be separated with a comma. The @ character can be used to modify the vectors of all configured pins.
-
- |
+| src_vec_No | The logical vector number that determines the start of the source range. |
+|---|---|
+| dst_vec_No | The logical vector number that determines the start of the destination range. |
+| vect_length | The length of the vector range to be copied. |
+| pinlist | The pins for which vectors are to be copied. If more than one pin is required, the names must be separated with a comma. The @ character can be used to modify the vectors of all configured pins. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › CPYV -  CopY Vectors）
 
@@ -52082,24 +42068,9 @@ DELI {cmd_No}, {count}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › DELI -  DELete Instruction）
 
-|
-
-cmd_No
-
- |
-
-The command number which references the first sequencer instruction to be deleted.
-
- |
- |
-
-count
-
- |
-
-This parameter defines the total number of instructions to be deleted.
-
- |
+| cmd_No | The command number which references the first sequencer instruction to be deleted. |
+|---|---|
+| count | This parameter defines the total number of instructions to be deleted. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › DELI -  DELete Instruction）
 
@@ -52132,24 +42103,9 @@ DELV {cmd_No}, {vect_length}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › DELV -  DELete Vectors）
 
-|
-
-cmd_No
-
- |
-
-The command number which references the sequencer construct where vectors are to be deleted. The instruction of the construct must be GENV (GENerate Vectors) or RPTV (RePeaT Vectors)
-
- |
- |
-
-vect_length
-
- |
-
-The number of active vectors to be deleted at the end of the referenced sequencer construct.
-
- |
+| cmd_No | The command number which references the sequencer construct where vectors are to be deleted. The instruction of the construct must be GENV (GENerate Vectors) or RPTV (RePeaT Vectors) |
+|---|---|
+| vect_length | The number of active vectors to be deleted at the end of the referenced sequencer construct. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › DELV -  DELete Vectors）
 
@@ -52184,15 +42140,8 @@ DLPP {label}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › DLPP -  DeLete Per Pin Subroutine）
 
-|
-
-label
-
- |
-
-Specifies the name of the per-pin subroutine to be deleted.
-
- |
+| label | Specifies the name of the per-pin subroutine to be deleted. |
+|---|---|
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › DLPP -  DeLete Per Pin Subroutine）
 
@@ -52210,24 +42159,9 @@ DLTS {"label"}[, (port)]
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › DLTS -  DeLete TeSt）
 
-|
-
-label
-
- |
-
-Specifies the label to be deleted.
-
- |
- |
-
-port
-
- |
-
-This parameter is only relevant for multi-port burst labels. If you call DLTS with a multi-port burst label and you do not specify a port, the label is deleted for all ports. If you specify a port, the label is only deleted for this port.
-
- |
+| label | Specifies the label to be deleted. |
+|---|---|
+| port | This parameter is only relevant for multi-port burst labels. If you call DLTS with a multi-port burst label and you do not specify a port, the label is deleted for all ports. If you specify a port, the label is only deleted for this port. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › DLTS -  DeLete TeSt）
 
@@ -52868,26 +42802,9 @@ DPPS {name}, {cycle_len}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › DPPS  DPPS  -  Define Per Pin Subroutine label）
 
-|
-
-name
-
- |
-
-Per-pin Subroutine name. This parameter can be used to call the subroutine from a parallel sequencer program.
-
-For the query, you can also enter ALL to return all per pin subroutine label names
-
- |
- |
-
-cycle_len
-
- |
-
-Per-pin cycle length.
-
- |
+| name | Per-pin Subroutine name. This parameter can be used to call the subroutine from a parallel sequencer program.<br><br>For the query, you can also enter ALL to return all per pin subroutine label names |
+|---|---|
+| cycle_len | Per-pin cycle length. |
 
 ### DPSA（取自子主题 Vector Setup Commands › List of vector setup commands › DPSA  DPSA  -  Define per Pin Subroutine Address）
 
@@ -52909,35 +42826,10 @@ DPSA {name}, {address}, {(pinlist)}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › DPSA  DPSA  -  Define per Pin Subroutine Address）
 
-|
-
-name
-
- |
-
-Per-pin Subroutine name. This parameter can be used to call the subroutine from a parallel sequencer program.
-
-For the query, you can also enter ALL to return all per-pin subroutine label names.
-
- |
- |
-
-address
-
- |
-
-Per-pin Sequencer subroutine entry address.
-
- |
- |
-
-pinlist
-
- |
-
-Pins for which a per-pin subroutine is valid.
-
- |
+| name | Per-pin Subroutine name. This parameter can be used to call the subroutine from a parallel sequencer program.<br><br>For the query, you can also enter ALL to return all per-pin subroutine label names. |
+|---|---|
+| address | Per-pin Sequencer subroutine entry address. |
+| pinlist | Pins for which a per-pin subroutine is valid. |
 
 ### Syntax（取自子主题 Vector Setup Commands › List of vector setup commands › FTSM  FTSM  -  Functional Test Set Mask）
 
@@ -53127,24 +43019,9 @@ INGV{cmd_No}, {num_vec}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › INGV -  INsert Generate Vectors）
 
-|
-
-cmd_No
-
- |
-
-The command number before which the GENV instruction is to be inserted.
-
- |
- |
-
-num_vec
-
- |
-
-The number of vectors that are to be generated by the GENV sequencer instruction.
-
- |
+| cmd_No | The command number before which the GENV instruction is to be inserted. |
+|---|---|
+| num_vec | The number of vectors that are to be generated by the GENV sequencer instruction. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › INGV -  INsert Generate Vectors）
 
@@ -53178,24 +43055,9 @@ INSI {cmd_No}, {count}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › INSI -  INsert Instructions）
 
-|
-
-cmd_No
-
- |
-
-The command number before which instructions are to be inserted.
-
- |
- |
-
-count
-
- |
-
-This parameter defines the number of NOP instructions to be inserted.
-
- |
+| cmd_No | The command number before which instructions are to be inserted. |
+|---|---|
+| count | This parameter defines the number of NOP instructions to be inserted. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › INSI -  INsert Instructions）
 
@@ -53220,15 +43082,8 @@ NODV {num_vec}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › NODV  -  Number Of Displayable Vectors）
 
-|
-
-num_vec
-
- |
-
-returns the number of active vectors.
-
- |
+| num_vec | returns the number of active vectors. |
+|---|---|
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › NODV  -  Number Of Displayable Vectors）
 
@@ -53535,15 +43390,8 @@ SPGV {vec_No}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › SPGV -  SPlit Generate Vectors）
 
-|
-
-vec_No
-
- |
-
-The logical vector number at which a GENV sequencer construct is to be split.
-
- |
+| vec_No | The logical vector number at which a GENV sequencer construct is to be split. |
+|---|---|
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › SPGV -  SPlit Generate Vectors）
 
@@ -54830,66 +44678,13 @@ SQSL {"label"}, {"site_string"}, {type}, {(portlist)}
 ```
 
 Parameters
- |
-
-label
-
- |
-
-The name of a sequencer start label. In the command, you can enter an empty string ("") to deactivate the current start label.
-
- |
- |
-
-site|"site_string"
-
- |
-
-In the command, you can either specify a number to identify a single site, or a string of 1's and 0's. The length of the string must correspond to the number of the configured sites. The nth character of this string stands for site n.
-
-"1" means that the specified label is to be assigned as the new start label to the respective site, "0" means that the current start label is not changed.
-
-If you omit this parameter, the specified label will be made the start label of all sites.
-
-When ALL was specified in the query, a site string is returned.
-
- |
- |
-
-TYPE
-
- |
-
-If you issue SQSL? without any parameter, the query will return the name of the current start label for the site that has the query focus. If you add TYPE, not only the name, but also the type and the associated ports of this label will be returned.
-
- |
- |
-
-ALL
-
- |
-
-If you specify this keyword in the query, SQSL? will return the start labels of all sites, including their type and associated ports.
-
- |
- |
-
-type
-
- |
-
-The type of the label. For an explanation of the possible types, see the SQLB command.
-
- |
- |
-
-portlist
-
- |
-
-This can be the default port @ which comprises all configured pins, or, in the case of a multi-port burst, the ports with which the label is associated.
-
- |
+| label | The name of a sequencer start label. In the command, you can enter an empty string ("") to deactivate the current start label. |
+|---|---|
+| site\|"site_string" | In the command, you can either specify a number to identify a single site, or a string of 1's and 0's. The length of the string must correspond to the number of the configured sites. The nth character of this string stands for site n.<br><br>"1" means that the specified label is to be assigned as the new start label to the respective site, "0" means that the current start label is not changed.<br><br>If you omit this parameter, the specified label will be made the start label of all sites.<br><br>When ALL was specified in the query, a site string is returned. |
+| TYPE | If you issue SQSL? without any parameter, the query will return the name of the current start label for the site that has the query focus. If you add TYPE, not only the name, but also the type and the associated ports of this label will be returned. |
+| ALL | If you specify this keyword in the query, SQSL? will return the start labels of all sites, including their type and associated ports. |
+| type | The type of the label. For an explanation of the possible types, see the SQLB command. |
+| portlist | This can be the default port @ which comprises all configured pins, or, in the case of a multi-port burst, the ports with which the label is associated. |
 
 ### Example 1（取自子主题 Vector Setup Commands › List of vector setup commands › SQSL  SQSL  -  SeQuencer Start Label）
 
@@ -55054,15 +44849,8 @@ SQTO {timeout}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › SQTO  SQTO  -  SeQuencer TimeOut）
 
-|
-
-timeout
-
- |
-
-Defines the time (in seconds) that the sequencer runs. The default value is 900 and the range is 0.001 to 2147483.
-
- |
+| timeout | Defines the time (in seconds) that the sequencer runs. The default value is 900 and the range is 0.001 to 2147483. |
+|---|---|
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › SQTO  SQTO  -  SeQuencer TimeOut）
 
@@ -55168,35 +44956,10 @@ returns a comment text for each TCMT in the range vect_addr to vect_addr `+`vect
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › TCMT  TCMT  -  Test CoMment Transfer）
 
-|
-
-vect_addr
-
- |
-
-The logical number of the vector at which the comment is to be inserted or read. The specified number range must not exceed the maximum vector address allowed by the system.
-
- |
- |
-
-text
-
- |
-
-A string of up to 250 characters. The string must be enclosed with double quotes.
-
-Comments can contain any characters with ASCII codes from 32 to 126, that is, all printable ASCII characters. To put a double quote character (", ASCII 34) into a comment, enter two double quote characters.
-
- |
- |
-
-vect_length
-
- |
-
-The vector range forwards from vect_addr.
-
- |
+| vect_addr | The logical number of the vector at which the comment is to be inserted or read. The specified number range must not exceed the maximum vector address allowed by the system. |
+|---|---|
+| text | A string of up to 250 characters. The string must be enclosed with double quotes.<br><br>Comments can contain any characters with ASCII codes from 32 to 126, that is, all printable ASCII characters. To put a double quote character (", ASCII 34) into a comment, enter two double quote characters. |
+| vect_length | The vector range forwards from vect_addr. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › TCMT  TCMT  -  Test CoMment Transfer）
 
@@ -55226,24 +44989,9 @@ TSTL {"label"}, {(port)}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › TSTL  TSTL  -  TeST Label）
 
-|
-
-label
-
- |
-
-Defines the label you wish to edit. Enter an alphanumeric string, 1 to 128 characters long, enclosed in double quotes. You can deactivate the currently selected label by specifying an empty string ("").
-
- |
- |
-
-port
-
- |
-
-This parameter is ignored in the command. In the query reply, it specifies the port to which the active label belongs.
-
- |
+| label | Defines the label you wish to edit. Enter an alphanumeric string, 1 to 128 characters long, enclosed in double quotes. You can deactivate the currently selected label by specifying an empty string (""). |
+|---|---|
+| port | This parameter is ignored in the command. In the query reply, it specifies the port to which the active label belongs. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › TSTL  TSTL  -  TeST Label）
 
@@ -55386,55 +45134,12 @@ VDCN {vec_No}, {"dev_cyc_name"}, {dev_cyc_len}, {repeat_count}, {(pinlist)}
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › VDCN -  Vector Device Cycle Name）
 
-|
-
-vec_No
-
- |
-
-A logical vector number of the selected label. Logical vector numbers count the active vectors of one label. The first active vector of a label has the logical vector number 0 (zero).
-
- |
- |
-
-dev_cyc_name
-
- |
-
-The device cycle name. Enter a string of up to 16 alphanumeric characters (upper or lower case) enclosed in double quotes.
-
-Alternatively, enter FDC for the first device cycle name in the device cycle table.
-
- |
- |
-
-dev_cyc_len
-
- |
-
-Length of the device cycle that is being downloaded.
-
-This is always 1. (For SmarTest 7.10, only 1 waveform per device cycle is possible.)
-
- |
- |
-
-repeat_count
-
- |
-
-Determines how many times the device cycle is to be downloaded.
-
- |
- |
-
-pinlist
-
- |
-
-The pin name or names for which vectors are to be downloaded. If more than one pin is required, the names must be separated with a comma. The @ character can be used to download to all configured pins.
-
- |
+| vec_No | A logical vector number of the selected label. Logical vector numbers count the active vectors of one label. The first active vector of a label has the logical vector number 0 (zero). |
+|---|---|
+| dev_cyc_name | The device cycle name. Enter a string of up to 16 alphanumeric characters (upper or lower case) enclosed in double quotes.<br><br>Alternatively, enter FDC for the first device cycle name in the device cycle table. |
+| dev_cyc_len | Length of the device cycle that is being downloaded.<br><br>This is always 1. (For SmarTest 7.10, only 1 waveform per device cycle is possible.) |
+| repeat_count | Determines how many times the device cycle is to be downloaded. |
+| pinlist | The pin name or names for which vectors are to be downloaded. If more than one pin is required, the names must be separated with a comma. The @ character can be used to download to all configured pins. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › VDCN -  Vector Device Cycle Name）
 
@@ -55450,133 +45155,16 @@ VDCP {vec_no}, {"dev_cyc_name"}, {dev_cyc_len}, [ed_comp], {DD1}, {DD2}, {ED1}, 
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › VDCP  VDCP   Vector Device Cycle Parameter）
 
-|
-
-vec_No
-
- |
-
-A logical vector number of the selected label. For the command, it determines the first active vector that will be overwritten.
-
-For the query, this parameter specifies the vector at which analysis of the vector area starts (see also the description of the strt_disp parameter below).
-
- |
- |
-
-dev_cyc_name
-
- |
-
-Possible values are:
-
-- The name of a defined device cycle.
-- FDC: The first device cycle specifier. It indicates that the first device cycle in the device cycle table for the pins in pinlist is to be taken. If the length of this device cycle is not equal to the length parameter dev_cyc_len, an error is reported in the report window and the pins with this error are not set.
-
-This specifier should be used only if you are working with device cycles consisting of just one test system cycle. The specifier gives you a shortcut to a device cycle name, where all device cycles have the same length (of 1).
-
- |
- |
-
-dev_cyc_len
-
- |
-
-The length of the specified device cycle.
-
-For the query, the length specifies the analyzed range of active vectors, starting at the vector number vec_No. Enter an integer in the range 0 to 256 (see also the description of the disp_length parameter below).
-
- |
- |
-
-ed_comp
-
- |
-
-The edit component. This parameter is optional. It specifies which direction parameter (either Dx for drive or EDx for expected data, where x is 1 or 2) is being edited. The direction parameter being edited is fixed, and the system can, if necessary, auto-correct the other direction parameter.
-
-The edit component can take the following values:
-
-- dd1d: Drive data 1, drive value
-- dd1z: Drive data 1, high-Z value
-- dd2d: Drive data 2, drive value
-- dd2z: Drive data 2, high-Z value
-- ed1: Expected data 1 value
-- ed2: Expected data 2 value
-
-If the edit component is one of dd1d, dd1z, dd2d, or dd2z, then both the DD1 and DD2 parameters are fixed, and the ED1 and ED2 parameters can be auto-corrected to yield a consistent physical waveform sequence.
-
-If the edit component is ed1 or ed2, then the ED1 and ED2 parameters are fixed, and the DD1 and DD2 parameters can be auto-corrected.
-
-If no edit component parameter is specified, then all four direction parameters are fixed.
-
- |
- |
-
-DD1
-
-DD2
-
- |
-
-Drive data parameters. They contain values for both drive data and tri-state. The values you can define are:
-
-- F00: Drive 0, tri-state off
-- F10: Drive 1, tri-state off
-- F0Z: Drive 0, tri-state on
-- F1Z: Drive 1, tri-state on
-- N: Not used. Enter it if you do not want to set a drive data parameter to a drive and tri-state value.
-- UC: Unclear. You must not enter this parameter value. The system may return this value as an answer to your query, to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. This response from the system is possible only if you do not use the Timing Setup to generate your device cycles.
-
-The drive data parameters F0N, F1N, FN0, and FNZ, which set just the drive value or just the tri-state value (as is the case with the WAVE command), cannot be used here
-
- |
- |
-
-ED1
-
-ED2
-
- |
-
-Expected data parameters. The values you can define are:
-
-- F0: Compare to 0
-- F1: Compare to 1
-- FI: Compare to intermediate
-- FX: Compare to mask
-- FU: Compare to unstable
-- N: Not used. Enter it if you do not want to set an expected data parameter to a compare value.
-- UC: Unclear. You must not enter this parameter value. The system may return this value as an answer to your query, to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. This response from the system is possible only if you do not use the Timing Setup to generate your device cycles.
- |
- |
-
-strt_disp
-
- |
-
-This parameter defines the offset of your range of interest from vec_No. The actual display starts with the last device cycle that does not begin before vec_No and does not end before vec_No + strt_disp.
-
-The purpose of this construction is to enable a correct device cycle reconstruction even if the first vector you are interested in does not lie at a device cycle boundary (a device cycle can span up to 16 vectors).
-
- |
- |
-
-disp_length
-
- |
-
-Specifies the display length in vectors. This parameter determines the end of your range of interest. The actual display ends with the last device cycle that starts before vec_No + strt_disp + disp_length.
-
- |
- |
-
-pinlist
-
- |
-
-The pin name or names for which a vector data transfer is to be made. If more than one pin is required, the names must be separated with a comma. Pins that do not belong to the port of the label are ignored.
-
- |
+| vec_No | A logical vector number of the selected label. For the command, it determines the first active vector that will be overwritten.<br><br>For the query, this parameter specifies the vector at which analysis of the vector area starts (see also the description of the strt_disp parameter below). |
+|---|---|
+| dev_cyc_name | Possible values are:<br><br>- The name of a defined device cycle.<br>- FDC: The first device cycle specifier. It indicates that the first device cycle in the device cycle table for the pins in pinlist is to be taken. If the length of this device cycle is not equal to the length parameter dev_cyc_len, an error is reported in the report window and the pins with this error are not set.<br><br>This specifier should be used only if you are working with device cycles consisting of just one test system cycle. The specifier gives you a shortcut to a device cycle name, where all device cycles have the same length (of 1). |
+| dev_cyc_len | The length of the specified device cycle.<br><br>For the query, the length specifies the analyzed range of active vectors, starting at the vector number vec_No. Enter an integer in the range 0 to 256 (see also the description of the disp_length parameter below). |
+| ed_comp | The edit component. This parameter is optional. It specifies which direction parameter (either Dx for drive or EDx for expected data, where x is 1 or 2) is being edited. The direction parameter being edited is fixed, and the system can, if necessary, auto-correct the other direction parameter.<br><br>The edit component can take the following values:<br><br>- dd1d: Drive data 1, drive value<br>- dd1z: Drive data 1, high-Z value<br>- dd2d: Drive data 2, drive value<br>- dd2z: Drive data 2, high-Z value<br>- ed1: Expected data 1 value<br>- ed2: Expected data 2 value<br><br>If the edit component is one of dd1d, dd1z, dd2d, or dd2z, then both the DD1 and DD2 parameters are fixed, and the ED1 and ED2 parameters can be auto-corrected to yield a consistent physical waveform sequence.<br><br>If the edit component is ed1 or ed2, then the ED1 and ED2 parameters are fixed, and the DD1 and DD2 parameters can be auto-corrected.<br><br>If no edit component parameter is specified, then all four direction parameters are fixed. |
+| DD1<br><br>DD2 | Drive data parameters. They contain values for both drive data and tri-state. The values you can define are:<br><br>- F00: Drive 0, tri-state off<br>- F10: Drive 1, tri-state off<br>- F0Z: Drive 0, tri-state on<br>- F1Z: Drive 1, tri-state on<br>- N: Not used. Enter it if you do not want to set a drive data parameter to a drive and tri-state value.<br>- UC: Unclear. You must not enter this parameter value. The system may return this value as an answer to your query, to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. This response from the system is possible only if you do not use the Timing Setup to generate your device cycles.<br><br>The drive data parameters F0N, F1N, FN0, and FNZ, which set just the drive value or just the tri-state value (as is the case with the WAVE command), cannot be used here |
+| ED1<br><br>ED2 | Expected data parameters. The values you can define are:<br><br>- F0: Compare to 0<br>- F1: Compare to 1<br>- FI: Compare to intermediate<br>- FX: Compare to mask<br>- FU: Compare to unstable<br>- N: Not used. Enter it if you do not want to set an expected data parameter to a compare value.<br>- UC: Unclear. You must not enter this parameter value. The system may return this value as an answer to your query, to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. This response from the system is possible only if you do not use the Timing Setup to generate your device cycles. |
+| strt_disp | This parameter defines the offset of your range of interest from vec_No. The actual display starts with the last device cycle that does not begin before vec_No and does not end before vec_No + strt_disp.<br><br>The purpose of this construction is to enable a correct device cycle reconstruction even if the first vector you are interested in does not lie at a device cycle boundary (a device cycle can span up to 16 vectors). |
+| disp_length | Specifies the display length in vectors. This parameter determines the end of your range of interest. The actual display ends with the last device cycle that starts before vec_No + strt_disp + disp_length. |
+| pinlist | The pin name or names for which a vector data transfer is to be made. If more than one pin is required, the names must be separated with a comma. Pins that do not belong to the port of the label are ignored. |
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › VDCP  VDCP   Vector Device Cycle Parameter）
 
@@ -55925,42 +45513,11 @@ VPAR {cmd_No}, [frst_used_vec]
 
 ### Parameters（取自子主题 Vector Setup Commands › List of vector setup commands › VPAR  -  Vectors in PARallel）
 
-|
-
-start_vec_No
-
- |
-
-Defines the offset of the first vector to be searched from the start vector of the currently selected label. The specified address must not exceed the maximum vector address allowed by the system.
-
- |
- |
-
-stop_vec_No
-
- |
-
-Defines the last vector in the search range. The specified address must not exceed the maximum vector address allowed by the system.
-
- |
- |
-
-cmd_No
-
- |
-
-In the reply, the number of the command within the sequencer area, or NISQ - see below.
-
- |
- |
-
-frst_used_vec
-
- |
-
-Returns the logical address of the first vector affected by the sequencer instruction.
-
- |
+| start_vec_No | Defines the offset of the first vector to be searched from the start vector of the currently selected label. The specified address must not exceed the maximum vector address allowed by the system. |
+|---|---|
+| stop_vec_No | Defines the last vector in the search range. The specified address must not exceed the maximum vector address allowed by the system. |
+| cmd_No | In the reply, the number of the command within the sequencer area, or NISQ - see below. |
+| frst_used_vec | Returns the logical address of the first vector affected by the sequencer instruction. |
 
 NISQ (Non-Interpretable SeQuence) indicates that the sequencer program does not respect its context conditions. This means, there is non-linear use of vectors, or there are partial "Match Begin" or "Match End" sequences (for example a WTER without its MBGN, a MJPE without its MEND - see the SQPG command). The label is no longer displayable by the Vector Setup in this case. No frst_used_vec parameter is returned when the parameter cmd_No is NISQ.
 
@@ -56495,114 +46052,17 @@ EDSP , , {edge_number}, , {dc_ref}, ,{(pinlist)}
 ```
 
 Parameters
- |
-
-waveform_set
-
- |
-
-Specifies a waveform set number for a fixed timing setup.
-
- |
- |
-
-specset_id
-
- |
-
-Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-Specifies the name of a multiport specification for a multi-port setup. PRM is the default value.
-
- |
- |
-
-timing_set
-
- |
-
-Specifies the number of the a timing set. PRM is the default value.
-
- |
- |
-
-edge_spec
-
- |
-
-The edge specifier can either be a physical edge (d1 through d8 or r1 through r8), or one of the data parameters D1, D2, C1, C2 (drive parameters) or E1, E2 (receive parameters).
-
- |
- |
-
-edge_number
-
- |
-
-In the query reply, this parameter contains the edge that is used as leading or trailing edge.
-
- |
- |
-
-dev_cyc_name
-
- |
-
-Specifies the name of a logical device cycle that uses the data parameter given as the edge_spec. It must be defined for all pins in pinlist. If you do not enter a name in this parameter, the first device cycle in the device cycle table is used.
-
- |
- |
-
-dc_ref
-
- |
-
-This parameter specifies the input edge. The input edge determines the algorithm according to which the trailing edge is selected. The two options are LE (for "leading edge") and TE (for "trailing edge").
-
-The leading edge will always be the first edge that is associated with the specified data parameter within the specified device cycle, regardless of whether LE or TE is specified.
-
-For the trailing edge the following rules apply:
-
-- When you specify LE, trailing and leading edge will be identical.
-- When you specify TE, then drive parameters and receive parameters are treated differently.
-
-  - Drive parameter: The trailing edge will be the first drive edge after the leading edge thats performs a data or tri-state action. Note that this trailing edge need not be associated in any way with the data parameter of the leading edge.
-  - Receive parameter: If the action of the leading edge is an edge compare, leading and trailing edge will be identical. If it is the start action of a window compare, then the associated window close edge will be the trailing edge.
-
-For both cases, see the example below.
-
-In the query, you can also specify both. In this case both the leading and the trailing edge will be returned for the pins in pinlist.
-
- |
- |
-
-direction
-
- |
-
-This parameter can be in or out. If in is selected to define an input edge, then the edge_spec parameter must be D1, D2, C1, or C2. If out is selected to define a receiver edge, then the edge_spec parameter must be E1 or E2. If either in or out is selected along with an edge_spec parameter of 1,2...6, then a check is performed to ensure that the edges of all pins are in the required direction. If no entry is made in this parameter, the measuring edges of the pin in pinlist can have any direction or be unused.
-
- |
- |
-
-pinlist
-
- |
-
-The parameters of the EDSP command are applied to all pins named in this parameter. If more than one pin is used, the names must be separated by a comma.
-
-In a multi-port setup, all pins must belong to the same port of the specification that was entered as the first parameter.
-
- |
+| waveform_set | Specifies a waveform set number for a fixed timing setup. |
+|---|---|
+| specset_id | Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:<br><br>100 * equation_set_no + specset_no |
+| multi-port_spec | Specifies the name of a multiport specification for a multi-port setup. PRM is the default value. |
+| timing_set | Specifies the number of the a timing set. PRM is the default value. |
+| edge_spec | The edge specifier can either be a physical edge (d1 through d8 or r1 through r8), or one of the data parameters D1, D2, C1, C2 (drive parameters) or E1, E2 (receive parameters). |
+| edge_number | In the query reply, this parameter contains the edge that is used as leading or trailing edge. |
+| dev_cyc_name | Specifies the name of a logical device cycle that uses the data parameter given as the edge_spec. It must be defined for all pins in pinlist. If you do not enter a name in this parameter, the first device cycle in the device cycle table is used. |
+| dc_ref | This parameter specifies the input edge. The input edge determines the algorithm according to which the trailing edge is selected. The two options are LE (for "leading edge") and TE (for "trailing edge").<br><br>The leading edge will always be the first edge that is associated with the specified data parameter within the specified device cycle, regardless of whether LE or TE is specified.<br><br>For the trailing edge the following rules apply:<br><br>- When you specify LE, trailing and leading edge will be identical.<br>- When you specify TE, then drive parameters and receive parameters are treated differently.<br><br>- Drive parameter: The trailing edge will be the first drive edge after the leading edge thats performs a data or tri-state action. Note that this trailing edge need not be associated in any way with the data parameter of the leading edge.<br>- Receive parameter: If the action of the leading edge is an edge compare, leading and trailing edge will be identical. If it is the start action of a window compare, then the associated window close edge will be the trailing edge.<br><br>For both cases, see the example below.<br><br>In the query, you can also specify both. In this case both the leading and the trailing edge will be returned for the pins in pinlist. |
+| direction | This parameter can be in or out. If in is selected to define an input edge, then the edge_spec parameter must be D1, D2, C1, or C2. If out is selected to define a receiver edge, then the edge_spec parameter must be E1 or E2. If either in or out is selected along with an edge_spec parameter of 1,2...6, then a check is performed to ensure that the edges of all pins are in the required direction. If no entry is made in this parameter, the measuring edges of the pin in pinlist can have any direction or be unused. |
+| pinlist | The parameters of the EDSP command are applied to all pins named in this parameter. If more than one pin is used, the names must be separated by a comma.<br><br>In a multi-port setup, all pins must belong to the same port of the specification that was entered as the first parameter. |
 
 ### ESGB（取自子主题 AC Testing Commands › List of AC test function commands › ESGB  ESGB  -  Edge Search GloBal）
 
@@ -56624,33 +46084,10 @@ ESGB [lin_step], [lin_bin_step], [min_pulse]
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › ESGB  ESGB  -  Edge Search GloBal）
 
-|
-
-lin_step
-
- |
-
-The lin_step parameter defines the step width (in ns) to be used for the linear searches which can be initiated by the TTRS? query. Any negative number entered in this parameter results in tests only being performed at the specified start and stop values. The default value for the linear_step is -1.000.
-
- |
- |
-
-lin_bin_step
-
- |
-
-The lin_bin_step parameter defines the step width (in ns) to be used for the combined linear and binary searches which can be initiated by the TTRS?, and TSUP? command queries. Any negative number entered in this parameter results in tests only being performed at the specified start and stop values. The default value for the lin_bin_step is 0.500.
-
- |
- |
-
-min_pulse
-
- |
-
-The min_pulse parameter defines the minimum pulse width (in ns) which can be used for the input pin searches initiated by the TSUP? and THLD? queries. The default value for the min_pulse is 0.000.
-
- |
+| lin_step | The lin_step parameter defines the step width (in ns) to be used for the linear searches which can be initiated by the TTRS? query. Any negative number entered in this parameter results in tests only being performed at the specified start and stop values. The default value for the linear_step is -1.000. |
+|---|---|
+| lin_bin_step | The lin_bin_step parameter defines the step width (in ns) to be used for the combined linear and binary searches which can be initiated by the TTRS?, and TSUP? command queries. Any negative number entered in this parameter results in tests only being performed at the specified start and stop values. The default value for the lin_bin_step is 0.500. |
+| min_pulse | The min_pulse parameter defines the minimum pulse width (in ns) which can be used for the input pin searches initiated by the TSUP? and THLD? queries. The default value for the min_pulse is 0.000. |
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › ESGB  ESGB  -  Edge Search GloBal）
 
@@ -56667,15 +46104,8 @@ EXSR{set_nr}
 ```
 
 Parameter
- |
-
-set_nr
-
- |
-
-Specifies the number of the search set which is to be executed.
-
- |
+| set_nr | Specifies the number of the search set which is to be executed. |
+|---|---|
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › EXSR -  EXecute SeaRch）
 
@@ -57208,28 +46638,9 @@ SHVL [value_1], [value_2]
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › SHVL  SHVL  -  SHmoo spec VaLues）
 
-|
-
-value_1
-
- |
-
-A double float defining the new value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.
-
-Or use RSTO to restore the original value.
-
- |
- |
-
-value_2
-
- |
-
-A double float defining the new value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.
-
-Or use RSTO to restore the original value.
-
- |
+| value_1 | A double float defining the new value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>Or use RSTO to restore the original value. |
+|---|---|
+| value_2 | A double float defining the new value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>Or use RSTO to restore the original value. |
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › SHVL  SHVL  -  SHmoo spec VaLues）
 
@@ -57530,165 +46941,20 @@ STRS {res_spec}, [pass_meas_value], [fail_meas_value], [(pinlist)]
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › STRS  -  Spec TRansition Search）
 
-|
-
-exec_context
-
- |
-
-An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .
-
- |
- |
-
-start
-
- |
-
-Double float with up to 5 digits after the decimal point defining the value of spec_name at the start of the search. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the minimum value as defined in the spec set will be used.
-
-The start value can be greater than the stop value. In this case the search will be in the negative direction.
-
- |
- |
-
-stop
-
- |
-
-Double float with up to 5 digits after the decimal point defining the value of spec_name where you want the search to end. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the maximum value as defined in the spec set will be used.
-
-The stop value can be smaller than the start value. In this case the search will be in the negative direction.
-
- |
- |
-
-mode
-
- |
-
-Search mode. Use:
-
-L to specify a linear search,
-
-LB to specify linear/binary search,
-
-B to specify a binary search.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which the value of the spec variable is to be modified. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） command. If more than one pin is to be included, the names must be separated with a comma.
-
-The @ character indicates all pins. This is the default.
-
- |
- |
-
-spec_type
-
- |
-
-Which specification type to use. Use :
-
-LEV to specify levels, or
-
-TIM to specify timing.
-
- |
- |
-
-spec_name
-
- |
-
-A string of up to 64 alphanumeric characters (upper or lower case) enclosed in double quotes.
-
-If you use the option @port`[`@UNCHANGED`]`, (see the port parameter), you must include this extension in the double quotes, too.
-
- |
- |
-
-port
-
- |
-
-In a multi-port setup, you can add a port name to the spec variable. This will have the effect that the value of the variable will be modified only for pins belonging to this port. This holds even if the variable has global scope for this port in the timing specification.
-
-If you specify the spec variable without a port in a multi-port setup, its value will only be modified for a pin whose port has the spec variable set to global scope.
-
-For more information on the scope of a variable see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）.
-
-Note that if a port that is specified with the name of the variable it is this port on which the value of the variable will be modified. The setup pins have no influence on this.
-
-On a Pin Scale system, the specification of a port will have an additional effect:
-
-If spec_name is used in the definition of the port period, this port will be temporarily used as the primary port. For more information see `Modifying the period for a search or shmoo in a multi-port setup`（raw: `02.06.09.01.01.01_Modifying_the_period_for_a_search_or_shmoo_in_a_multi-port_setup__Pin_Sc.md`）.
-
-This switch can be suppressed by adding @UNCHANGED to the port name.
-
- |
- |
-
-stepwidth
-
- |
-
-The search step width in the unit specified with the corresponding spec. This is optional if mode is B.
-
- |
- |
-
-resolution
-
- |
-
-The smallest step size to be used in the search. Especially useful in a binary search of a range of floating point numbers, where the number of values between start and stop is infinite. The unit must be the same as defined with the spec.
-
- |
- |
-
-res_spec
-
- |
-
-LT (less than)
-
-LE (less than or equal to)
-
-EQ (equal to)
-
-GE (greater than or equal to)
-
-GT (greater than).
-
- |
- |
-
-pass_meas_value
-
- |
-
-A double float defining the passed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.
-
-This parameter contains the last (in a PASS/FAIL transition) or the first (in a FAIL/PASS transition) value where the test passed.
-
- |
- |
-
-fail_meas_value
-
- |
-
-A double float defining the failed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.
-
-This parameter contains the first (in a PASS/FAIL transition) or the last (in a FAIL/PASS transition) value where the test failed.
-
- |
+| exec_context | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） . |
+|---|---|
+| start | Double float with up to 5 digits after the decimal point defining the value of spec_name at the start of the search. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the minimum value as defined in the spec set will be used.<br><br>The start value can be greater than the stop value. In this case the search will be in the negative direction. |
+| stop | Double float with up to 5 digits after the decimal point defining the value of spec_name where you want the search to end. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the maximum value as defined in the spec set will be used.<br><br>The stop value can be smaller than the start value. In this case the search will be in the negative direction. |
+| mode | Search mode. Use:<br><br>L to specify a linear search,<br><br>LB to specify linear/binary search,<br><br>B to specify a binary search. |
+| pinlist | The name of the pin or pins for which the value of the spec variable is to be modified. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） command. If more than one pin is to be included, the names must be separated with a comma.<br><br>The @ character indicates all pins. This is the default. |
+| spec_type | Which specification type to use. Use :<br><br>LEV to specify levels, or<br><br>TIM to specify timing. |
+| spec_name | A string of up to 64 alphanumeric characters (upper or lower case) enclosed in double quotes.<br><br>If you use the option @port`[`@UNCHANGED`]`, (see the port parameter), you must include this extension in the double quotes, too. |
+| port | In a multi-port setup, you can add a port name to the spec variable. This will have the effect that the value of the variable will be modified only for pins belonging to this port. This holds even if the variable has global scope for this port in the timing specification.<br><br>If you specify the spec variable without a port in a multi-port setup, its value will only be modified for a pin whose port has the spec variable set to global scope.<br><br>For more information on the scope of a variable see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）.<br><br>Note that if a port that is specified with the name of the variable it is this port on which the value of the variable will be modified. The setup pins have no influence on this.<br><br>On a Pin Scale system, the specification of a port will have an additional effect:<br><br>If spec_name is used in the definition of the port period, this port will be temporarily used as the primary port. For more information see `Modifying the period for a search or shmoo in a multi-port setup`（raw: `02.06.09.01.01.01_Modifying_the_period_for_a_search_or_shmoo_in_a_multi-port_setup__Pin_Sc.md`）.<br><br>This switch can be suppressed by adding @UNCHANGED to the port name. |
+| stepwidth | The search step width in the unit specified with the corresponding spec. This is optional if mode is B. |
+| resolution | The smallest step size to be used in the search. Especially useful in a binary search of a range of floating point numbers, where the number of values between start and stop is infinite. The unit must be the same as defined with the spec. |
+| res_spec | LT (less than)<br><br>LE (less than or equal to)<br><br>EQ (equal to)<br><br>GE (greater than or equal to)<br><br>GT (greater than). |
+| pass_meas_value | A double float defining the passed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>This parameter contains the last (in a PASS/FAIL transition) or the first (in a FAIL/PASS transition) value where the test passed. |
+| fail_meas_value | A double float defining the failed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>This parameter contains the first (in a PASS/FAIL transition) or the last (in a FAIL/PASS transition) value where the test failed. |
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › STRS  -  Spec TRansition Search）
 
@@ -58118,35 +47384,10 @@ TOCR {(result_pinlist)}, {(setup_pin)}
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › TOCR  TOCR  -  Timing level Offset Configure Result pins）
 
-|
-
-result_pinlist
-
- |
-
-In the command, this parameter specifies the result pins for the setup pin specified with setup_pin. It can be omitted for O or IO setup pins. In this case the result pin will be identical with the setup pin.
-
-In the query, it lists the result pins for which the associated setup pins are to be retrieved.
-
- |
- |
-
-setup_pin
-
- |
-
-The setup pin for which the result pins are to be defined.
-
- |
- |
-
-setup_pinlist
-
- |
-
-This query parameter lists the setup pins, for which the associated result pins are to be retrieved.
-
- |
+| result_pinlist | In the command, this parameter specifies the result pins for the setup pin specified with setup_pin. It can be omitted for O or IO setup pins. In this case the result pin will be identical with the setup pin.<br><br>In the query, it lists the result pins for which the associated setup pins are to be retrieved. |
+|---|---|
+| setup_pin | The setup pin for which the result pins are to be defined. |
+| setup_pinlist | This query parameter lists the setup pins, for which the associated result pins are to be retrieved. |
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › TOCR  TOCR  -  Timing level Offset Configure Result pins）
 
@@ -58165,141 +47406,20 @@ This example queries the result pins for Pin1 and Pin5. No reply is given for se
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › TORC -  Timing level Offset Result Copy）
 
-|
-
-source_waveform_set
-
- |
-
-Number of the source waveform set. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets.
-
- |
- |
-
-source_specset_id
-
- |
-
-The source specification ID (single port). It is derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-source_multi-port_spec
-
- |
-
-Name of the source multi-port specification.
-
-Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification.
-
- |
- |
-
-source_level_set_id
-
- |
-
-The source level set ID. It can be:
-
-- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets allowed, which is defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.
-- An equation based level set ID, which derived as follows:
-
-eqnset * 100000 + specset * 1000 + level_set_no
-
- |
- |
-
-source_timing_set
-
- |
-
-The source timing set.
-
- |
- |
-
-dest_waveform_set
-
- |
-
-Number of the destination waveform set. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets.
-
- |
- |
-
-dest_specset_id
-
- |
-
-The destination specification ID (single port). It is derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-dest_multi-port_spec
-
- |
-
-Name of the destination multi-port specification.
-
-Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification.
-
- |
- |
-
-dest_timing_set
-
- |
-
-The destination timing set.
-
- |
- |
-
-dest_level_set_id
-
- |
-
-The destination level set ID. It can be:
-
-- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets allowed, which is defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.
-- An equation based level set ID, which derived as follows:
-
-eqnset * 100000 + specset * 1000 + level_set_no
-
- |
- |
-
-PRM
-
- |
-
-This refers to the primary waveform set/specification or to the primary timing set or to the primary level set, all as defined with `SPRM`（raw: `02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md`）.
-
- |
- |
-
-ALL
-
- |
-
-The specified source offsets are copied to all specifications or timing sets or level sets.
-
- |
- |
-
-pinlist
-
- |
-
-The pins on which the copy action is to be executed.
-
- |
+| source_waveform_set | Number of the source waveform set. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets. |
+|---|---|
+| source_specset_id | The source specification ID (single port). It is derived as follows:<br><br>100 * equation_set_no + specset_no |
+| source_multi-port_spec | Name of the source multi-port specification.<br><br>Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification. |
+| source_level_set_id | The source level set ID. It can be:<br><br>- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets allowed, which is defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.<br>- An equation based level set ID, which derived as follows:<br><br>eqnset * 100000 + specset * 1000 + level_set_no |
+| source_timing_set | The source timing set. |
+| dest_waveform_set | Number of the destination waveform set. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets. |
+| dest_specset_id | The destination specification ID (single port). It is derived as follows:<br><br>100 * equation_set_no + specset_no |
+| dest_multi-port_spec | Name of the destination multi-port specification.<br><br>Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification. |
+| dest_timing_set | The destination timing set. |
+| dest_level_set_id | The destination level set ID. It can be:<br><br>- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets allowed, which is defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.<br>- An equation based level set ID, which derived as follows:<br><br>eqnset * 100000 + specset * 1000 + level_set_no |
+| PRM | This refers to the primary waveform set/specification or to the primary timing set or to the primary level set, all as defined with `SPRM`（raw: `02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md`）. |
+| ALL | The specified source offsets are copied to all specifications or timing sets or level sets. |
+| pinlist | The pins on which the copy action is to be executed. |
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › TORC -  Timing level Offset Result Copy）
 
@@ -58401,89 +47521,15 @@ The search was canceled by the user.
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › TORR  Timing level Offset Reset Result）
 
-|
-
-waveform_set
-
- |
-
-Number of a waveform set. Enter PRM for the primary waveform set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-specset_id
-
- |
-
-The source specification ID (single port). It is derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multiport_spec
-
- |
-
-Name of a multiport specification.
-
-Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification.
-
- |
- |
-
-level_set_id
-
- |
-
-A level set ID. It can be:
-
-- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets which is defined with the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.
-- An equation based level set ID, which is derived as follows:
-
-eqnset * 100000 + specset * 1000 + level_set_no
-
- |
- |
-
-timing_set
-
- |
-
-A timing set number.
-
- |
- |
-
-PRM
-
- |
-
-This refers to the primary waveform set/specification, or to the primary timing set, or to the primary level set, all as defined with SPRM.
-
- |
- |
-
-ALL
-
- |
-
-This refers to all fixed waveform sets, timing sets or level sets.
-
-Note that ALL does not apply to equation based timing or level sets.
-
- |
- |
-
-pinlist
-
- |
-
-The pins on which the reset action is to be executed.
-
- |
+| waveform_set | Number of a waveform set. Enter PRM for the primary waveform set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| specset_id | The source specification ID (single port). It is derived as follows:<br><br>100 * equation_set_no + specset_no |
+| multiport_spec | Name of a multiport specification.<br><br>Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification. |
+| level_set_id | A level set ID. It can be:<br><br>- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets which is defined with the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.<br>- An equation based level set ID, which is derived as follows:<br><br>eqnset * 100000 + specset * 1000 + level_set_no |
+| timing_set | A timing set number. |
+| PRM | This refers to the primary waveform set/specification, or to the primary timing set, or to the primary level set, all as defined with SPRM. |
+| ALL | This refers to all fixed waveform sets, timing sets or level sets.<br><br>Note that ALL does not apply to equation based timing or level sets. |
+| pinlist | The pins on which the reset action is to be executed. |
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › TORR  Timing level Offset Reset Result）
 
@@ -58495,141 +47541,19 @@ This example resets the offsets for all timing sets of the current primary speci
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › TORS  -  Timing level Offset ReSult）
 
-|
-
-waveform_set
-
- |
-
-Number of a waveform set. Enter PRM for the primary waveform set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-A specification ID (single port). It is derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-Name of a multiport specification.
-
-Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification.
-
- |
- |
-
-level_set_id
-
- |
-
-A level set ID. It can be:
-
-- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets defined with the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.
-- An equation based level set ID, which is derived as follows:
-
-eqnset * 100000 + specset * 1000 + level_set_no
-
- |
- |
-
-timing_set
-
- |
-
-The timing set.
-
- |
- |
-
-PRM
-
- |
-
-This refers to the primary waveform set or specification, or to the primary timing set, both as defined with SPRM.
-
-For level offset earch, This refers to primary level set.
-
- |
- |
-
-ALL
-
- |
-
-The offsets are returned for all fixed specifications, timing sets or level sets.
-
- |
- |
-
-edge_type
-
- |
-
-Possible values are:
-
-- F: Fast drive edges
-- S: Slow drive edges
-- R: Receive edges
- |
- |
-
-level_type
-
- |
-
-Possible values are:
-
-- VIH: High driver levels
-- VIL: Low driver levels
-- VISWING: Driver swings
-- VOH: High receiver levels
-- VOL: Low receiver levels
-- VTH: Receiver thresholds
-- VIOFFSET: Driver offsets (Both the driver high and low levels will be moved by the same values.)
-- VOOFFSET: Receiver offsets (Both the receiver high and low levels will be moved by the same values.)
-- VOSWING: Receiver swings
- |
- |
-
-offset
-
- |
-
-The offset for the respective type (edge type or level type) and pin. The offset is 0 if no search was executed or no value stored.
-
-The units for voltage resources are [mV].
-
-The units for timing resources are [ns].
-
- |
- |
-
-pin
-
- |
-
-A reply parameter. The pin for which the offsets are returned
-
- |
- |
-
-pinlist
-
- |
-
-A query parameter. The pins for which the offsets are to be retrieved.
-
- |
+| waveform_set | Number of a waveform set. Enter PRM for the primary waveform set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | A specification ID (single port). It is derived as follows:<br><br>100 * equation_set_no + specset_no |
+| multi-port_spec | Name of a multiport specification.<br><br>Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification. |
+| level_set_id | A level set ID. It can be:<br><br>- A fixed level set ID, which is an integer in the range of 1 to the maximum number of level sets defined with the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command.<br>- An equation based level set ID, which is derived as follows:<br><br>eqnset * 100000 + specset * 1000 + level_set_no |
+| timing_set | The timing set. |
+| PRM | This refers to the primary waveform set or specification, or to the primary timing set, both as defined with SPRM.<br><br>For level offset earch, This refers to primary level set. |
+| ALL | The offsets are returned for all fixed specifications, timing sets or level sets. |
+| edge_type | Possible values are:<br><br>- F: Fast drive edges<br>- S: Slow drive edges<br>- R: Receive edges |
+| level_type | Possible values are:<br><br>- VIH: High driver levels<br>- VIL: Low driver levels<br>- VISWING: Driver swings<br>- VOH: High receiver levels<br>- VOL: Low receiver levels<br>- VTH: Receiver thresholds<br>- VIOFFSET: Driver offsets (Both the driver high and low levels will be moved by the same values.)<br>- VOOFFSET: Receiver offsets (Both the receiver high and low levels will be moved by the same values.)<br>- VOSWING: Receiver swings |
+| offset | The offset for the respective type (edge type or level type) and pin. The offset is 0 if no search was executed or no value stored.<br><br>The units for voltage resources are [mV].<br><br>The units for timing resources are [ns]. |
+| pin | A reply parameter. The pin for which the offsets are returned |
+| pinlist | A query parameter. The pins for which the offsets are to be retrieved. |
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › TORS  -  Timing level Offset ReSult）
 
@@ -58676,50 +47600,11 @@ TORT {left_boundary|NOT_FOUND}, {right_boundary|NOT_FOUND}, {(pinlist)}
 Note The returned transition value is the latest passing value near to the transition.
 
 Parameters
- |
-
-left_boundary
-
- |
-
-The offet of the left boundary or lower level of the pass area found by the last timing or level search, where the fail-pass transition was found.
-
-Units for timing searches are [ns].
-
-Units for voltage searches are [mV].
-
- |
- |
-
-right_boundary
-
- |
-
-The offset of the right boundary or upper level of the pass area found by the last timing or level search, where the pass-fail transition was found.
-
-Units for timing searches are [ns].
-
-Units for voltage searches are [mV].
-
- |
- |
-
-NOT_FOUND
-
- |
-
-This is returned if no search was executed, the search results were reset, or the search was aborted.
-
- |
- |
-
-pinlist
-
- |
-
-The pins for which the offsets are to be returned.
-
- |
+| left_boundary | The offet of the left boundary or lower level of the pass area found by the last timing or level search, where the fail-pass transition was found.<br><br>Units for timing searches are [ns].<br><br>Units for voltage searches are [mV]. |
+|---|---|
+| right_boundary | The offset of the right boundary or upper level of the pass area found by the last timing or level search, where the pass-fail transition was found.<br><br>Units for timing searches are [ns].<br><br>Units for voltage searches are [mV]. |
+| NOT_FOUND | This is returned if no search was executed, the search results were reset, or the search was aborted. |
+| pinlist | The pins for which the offsets are to be returned. |
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › TORT  -  Timing Level Offset search Result Transitions）
 
@@ -58736,15 +47621,8 @@ TOUD {(pinlist)}
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › TOUD -  Timing Offset UnDefine）
 
-|
-
-pinlist
-
- |
-
-The pins for which the embedded timing search configuration is to be removed.
-
- |
+| pinlist | The pins for which the embedded timing search configuration is to be removed. |
+|---|---|
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › TOUD -  Timing Offset UnDefine）
 
@@ -58971,19 +47849,20 @@ status
 
    | If mask is ALL, you need to translate the hex value (hexadecimal representation of the status bits) to its binary form as follows:
 
- | Bit 0:  | High voltage or current of surge tracker exceeded |
- | Bit 1:  | Low voltage or current of surge tracker exceeded |
- | Bit 2:  | 0 |
- | Bit 3:  | Measurement range change failed |
- | Bit 4:  | Clamp current correction failed |
- | Bit 5:  | Battery full |
- | Bit 6:  | Power budget 1 |
- | Bit 7:  | Power budget 2 |
- | Bit 8:  | Power budget 3 |
- | Bit 9:  | High voltage of surge tracker reached |
- | Bit 10:  | Low voltage of surge tracker reached |
- | Bit 11:  | High current of surge tracker reached |
- | Bit 12:  | Low current of surge tracker reached |
+| Bit 0: | High voltage or current of surge tracker exceeded |
+|---|---|
+| Bit 1: | Low voltage or current of surge tracker exceeded |
+| Bit 2: | 0 |
+| Bit 3: | Measurement range change failed |
+| Bit 4: | Clamp current correction failed |
+| Bit 5: | Battery full |
+| Bit 6: | Power budget 1 |
+| Bit 7: | Power budget 2 |
+| Bit 8: | Power budget 3 |
+| Bit 9: | High voltage of surge tracker reached |
+| Bit 10: | Low voltage of surge tracker reached |
+| Bit 11: | High current of surge tracker reached |
+| Bit 12: | Low current of surge tracker reached |
 
 If mask is specified as an integer bit-mask:
 
@@ -59547,51 +48426,12 @@ GNOS {NumberOfOccupiedSets},{MaxNumberOfSets},{NrOfOccupiedMSetActions},{MaxNumb
 
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › GNOS  -  GetNumberofOccupiedSets）
 
-|
-
-set_type
-
- |
-
-Must be MSET
-
- |
- |
-
-NumberOfOccupiedSets
-
- |
-
-Number of the current sets
-
- |
- |
-
-MaxNumberOfSets
-
- |
-
-Maximum allowed number of sets
-
- |
- |
-
-NrOfOccupiedMSetActions
-
- |
-
-Number ot the current set actions
-
- |
- |
-
-MaxNumberOfMSETActions
-
- |
-
-Maximum number of actions (pmu_set)
-
- |
+| set_type | Must be MSET |
+|---|---|
+| NumberOfOccupiedSets | Number of the current sets |
+| MaxNumberOfSets | Maximum allowed number of sets |
+| NrOfOccupiedMSetActions | Number ot the current set actions |
+| MaxNumberOfMSETActions | Maximum number of actions (pmu_set) |
 
 ### Example（取自子主题 DC Measurement Commands › List of DC measurement commands › GNOS  -  GetNumberofOccupiedSets）
 
@@ -59620,24 +48460,9 @@ MEAS {id_dc}, {id_mset}
 
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › MEAS -  execute a MEASurement set）
 
-|
-
-id_dc
-
- |
-
-The DC set identification number to be executed.
-
- |
- |
-
-id_mset
-
- |
-
-The measurement set identification number to be executed.
-
- |
+| id_dc | The DC set identification number to be executed. |
+|---|---|
+| id_mset | The measurement set identification number to be executed. |
 
 ### Example（取自子主题 DC Measurement Commands › List of DC measurement commands › MEAS -  execute a MEASurement set）
 
@@ -60681,44 +49506,11 @@ PSEE [setnr], [current_range], [samples], {(pinlist)}
 
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › PSEE -  Power Supply External trigger measurement Execute）
 
-|
-
-setnr
-
- |
-
-The set number of the external trigger measurement. (The range is 1 to 256). When this parameter is specified the corresponding set must have already been defined.
-
- |
- |
-
-current_range
-
- |
-
-If the setnr parameter is specified, the range in which the executed measurement will be made will be determined from the maximum value of the limits defined with the `DPSE`（raw: `02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md`） command, and this parameter will be ignored.
-
-If the setnr parameter is not specified, you must specify the range with a value. In this case, the measurement will be executed in the smallest range that can measure the given value. The unit is Ampere [A].
-
- |
- |
-
-samples
-
- |
-
-This parameter specifies the number of measurements. After the measurements are completed, the average of the measurements will be calculated.
-
- |
- |
-
-pinlist
-
- |
-
-This parameter will be ignored if setnr is specified.
-
- |
+| setnr | The set number of the external trigger measurement. (The range is 1 to 256). When this parameter is specified the corresponding set must have already been defined. |
+|---|---|
+| current_range | If the setnr parameter is specified, the range in which the executed measurement will be made will be determined from the maximum value of the limits defined with the `DPSE`（raw: `02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md`） command, and this parameter will be ignored.<br><br>If the setnr parameter is not specified, you must specify the range with a value. In this case, the measurement will be executed in the smallest range that can measure the given value. The unit is Ampere [A]. |
+| samples | This parameter specifies the number of measurements. After the measurements are completed, the average of the measurements will be calculated. |
+| pinlist | This parameter will be ignored if setnr is specified. |
 
 ### Example（取自子主题 DC Measurement Commands › List of DC measurement commands › PSEE -  Power Supply External trigger measurement Execute）
 
@@ -60907,98 +49699,15 @@ PSIE [setnr], [current_range] [,{keep_range|"RSTO"}] [,{all_sampler|"CH_ALL"}] [
 
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › PSIE -  Power Supply Internal trigger Execute）
 
-|
-
-setnr
-
- |
-
-The set number defined by the `DPSE`（raw: `02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md`） command. (The range is 1 to 256). This set contains the limits of the measurement point for pass/fail judgment. When this parameter is specified, the corresponding set must already have been defined.
-
-When the setnr parameter is omitted, the current and the pinlist parameters must be specified.
-
- |
- |
-
-current_range
-
- |
-
-If the setnr parameter is specified, this parameter will be ignored.
-
-If the setnr parameter is not specified, you must specify the range with a value. In this case, the measurement will be executed in the smallest range that can measure the given value. The unit is Ampere [A].
-
- |
- |
-
-keep_range
-
- |
-
-No longer supported.
-
-The measurement range is kept per default.
-
-For DPS128 and XPS256, the parameter is silently ignored and the measurement range is restored to the force or clamp range.
-
- |
- |
-
-all_sampler
-
- |
-
-To upload the results of all channels in the gang with sampler connected, and store them, specify CH_ALL. This option can be selected only for DC Scale UHC4 / UHC4T channels.
-
-If called without the all_sampler parameter, the command will upload only the value of the master channel, even if the measurement was done over the sampler, or if a voltage drop on DUT was measured.
-
- |
- |
-
-primary_act
-
- |
-
-The conditional primary activation is default.
-
-To avoid the conditional primary activation, specify NPRM.
-
- |
- |
-
-samples
-
- |
-
-(Optional) This parameter specifies how often the measurement will be performed under the same test conditions. The default is 1.
-
-For details see the table above.
-
-The value that will be stored is the average of all these measurements.
-
-This parameter can be used both for measurements defined with DPSE and for measurements defined directly with PSIE.
-
- |
- |
-
-settl_time
-
- |
-
-The system must wait the settling time before the measurement is executed. If the force range is switched, for example, "unganging during measurement", to avoid glitches the settling time is waited before the small force range is active.
-
-The unit is milliseconds (ms).
-
- |
- |
-
-pinlist
-
- |
-
-Names of pins to which this command is applied. The character @ can be used to specify all DPS pins. This parameter will be ignored if setnr is specified.
-
- |
+| setnr | The set number defined by the `DPSE`（raw: `02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md`） command. (The range is 1 to 256). This set contains the limits of the measurement point for pass/fail judgment. When this parameter is specified, the corresponding set must already have been defined.<br><br>When the setnr parameter is omitted, the current and the pinlist parameters must be specified. |
+|---|---|
+| current_range | If the setnr parameter is specified, this parameter will be ignored.<br><br>If the setnr parameter is not specified, you must specify the range with a value. In this case, the measurement will be executed in the smallest range that can measure the given value. The unit is Ampere [A]. |
+| keep_range | No longer supported.<br><br>The measurement range is kept per default.<br><br>For DPS128 and XPS256, the parameter is silently ignored and the measurement range is restored to the force or clamp range. |
+| all_sampler | To upload the results of all channels in the gang with sampler connected, and store them, specify CH_ALL. This option can be selected only for DC Scale UHC4 / UHC4T channels.<br><br>If called without the all_sampler parameter, the command will upload only the value of the master channel, even if the measurement was done over the sampler, or if a voltage drop on DUT was measured. |
+| primary_act | The conditional primary activation is default.<br><br>To avoid the conditional primary activation, specify NPRM. |
+| samples | (Optional) This parameter specifies how often the measurement will be performed under the same test conditions. The default is 1.<br><br>For details see the table above.<br><br>The value that will be stored is the average of all these measurements.<br><br>This parameter can be used both for measurements defined with DPSE and for measurements defined directly with PSIE. |
+| settl_time | The system must wait the settling time before the measurement is executed. If the force range is switched, for example, "unganging during measurement", to avoid glitches the settling time is waited before the small force range is active.<br><br>The unit is milliseconds (ms). |
+| pinlist | Names of pins to which this command is applied. The character @ can be used to specify all DPS pins. This parameter will be ignored if setnr is specified. |
 
 ### Example（取自子主题 DC Measurement Commands › List of DC measurement commands › PSIE -  Power Supply Internal trigger Execute）
 
@@ -61134,24 +49843,9 @@ This parameter is supported only by the `DC Scale XPS256 card`（raw: `../02.05_
  | reserved_param  | The optional parameter is reserved and required for compatibility. |
  | clamp_mode  | The optional parameter defines the clamp mode:
 
- | limit |
-
-The clamp is active forever (the delay value is ignored).
-
-This is the default value.
-
- |
- | `<delay>` |
-
-Switch off at overcurrent after a delay.
-
-<delay> is a time in milliseconds [ms].
-
-For `<delay>`, the clamp is active until the channel switches off.
-
-In case the channel is switched off, a disconnect/connect sequence is required (`PSST`（raw: `02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md`） OFF/ON).
-
- |
+| limit | The clamp is active forever (the delay value is ignored).<br><br>This is the default value. |
+|---|---|
+| `<delay>` | Switch off at overcurrent after a delay.<br><br><delay> is a time in milliseconds [ms].<br><br>For `<delay>`, the clamp is active until the channel switches off.<br><br>In case the channel is switched off, a disconnect/connect sequence is required (`PSST`（raw: `02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md`） OFF/ON). |
 
 See also `ms_const_curr_disconnect`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md#_16887__ms_const_curr_disconnect`） in `DPSPINS resources`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md`）.
 
@@ -62474,50 +51168,11 @@ This example returns result information (on the cycle level) for 2 cycles and 2 
 
 The binary data reports the device cycle names, which in this example are different for each pin and cycle. The waveform offsets are zero. The reported drive/expected/received data are:
 
- |
-
-dvc_01:
-
- |
-
-DD1 = F00, DD2 = F10, ED1 = FX, ED2 = F0
-
-error: high received on edge 3 (param E2)
-
- |
- |
-
-dvc_02:
-
- |
-
-DD1 = F00, DD2 = N, ED1 = N, ED2 = N
-
-no error
-
- |
- |
-
-dvc_03:
-
- |
-
-DD1 = N, DD2 = N, ED1 = FU, ED2 = N
-
-error: high received on edge 5 (param E1)
-
- |
- |
-
-dvc_04:
-
- |
-
-DD1 = N, DD2 = N, ED1 = N, ED2 = N
-
-error: unstable received on edge 1 (FIX)
-
- |
+| dvc_01: | DD1 = F00, DD2 = F10, ED1 = FX, ED2 = F0<br><br>error: high received on edge 3 (param E2) |
+|---|---|
+| dvc_02: | DD1 = F00, DD2 = N, ED1 = N, ED2 = N<br><br>no error |
+| dvc_03: | DD1 = N, DD2 = N, ED1 = FU, ED2 = N<br><br>error: high received on edge 5 (param E1) |
+| dvc_04: | DD1 = N, DD2 = N, ED1 = N, ED2 = N<br><br>error: unstable received on edge 1 (FIX) |
 
 ### CYRM（取自子主题 Test Result Commands › List of test result commands › CYRM  CYRM  -  CYcle Resolution Mode）
 
@@ -64285,24 +52940,9 @@ for each group of consecutive pins having the same result.
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › EDGE  -  EDGE errors）
 
-|
-
-pinlist
-
- |
-
-The name of the pin or pins for which edge direction definitions are to be read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
- |
-
-fail_string
-
- |
-
-One character per edge. F means failed and . means not failed.
-
- |
+| pinlist | The name of the pin or pins for which edge direction definitions are to be read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma. |
+|---|---|
+| fail_string | One character per edge. F means failed and . means not failed. |
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › EDGE  -  EDGE errors）
 
@@ -66013,24 +54653,9 @@ GETC {(cycle_no)}
 ```
 
 Parameters
- |
-
-vector_no
-
- |
-
-The vector number for which you want to obtain the matching cycle number. vector_no must be a positive integer that does not exceed the maximum vector address allowed by the system.
-
- |
- |
-
-cycle_no
-
- |
-
-The number of the cycle that results when the vector at vector_no is executed. The cycle numbers do not always linearly follow the vector numbers. The relationship between the two depends on the sequencer program. The system returns a cycle_no in the range of 0 to 2^48.
-
- |
+| vector_no | The vector number for which you want to obtain the matching cycle number. vector_no must be a positive integer that does not exceed the maximum vector address allowed by the system. |
+|---|---|
+| cycle_no | The number of the cycle that results when the vector at vector_no is executed. The cycle numbers do not always linearly follow the vector numbers. The relationship between the two depends on the sequencer program. The system returns a cycle_no in the range of 0 to 2^48. |
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › GETC  -  GET Cycles）
 
@@ -66071,64 +54696,13 @@ GETS {start_cycle}, {no_of_cycles}, {timing_set}, {level_set}, {(pinlist)}
 ```
 
 Parameters
- |
-
-start_cycle
-
- |
-
-The start cycle is an integer that defines the first cycle to be reported. The start cycle is in the range 0 to 2^48 when the sequencer runs in the Start Analysis mode, or -2^48 to -1 when the sequencer runs in the Stop Analysis mode. If a positive number is entered, cycles are counted from 0 upwards. If a negative value is entered, the cycles are counted from the end of the test at -1. The start cycle returned by the system may be different from the start cycle entered for the query.
-
- |
- |
-
-no_of_cycles
-
- |
-
-In the command, this parameter defines the number of cycles to be reported. The integer must be in the range 0 to 2147483648.
-
-In the reply, the parameter specifies the number of cycles that are generated with the timing and levels sets specified by the timing_set and level_set parameters. 0 is returned if a CLEV and a CTIM instruction follow each other immediately.
-
- |
- |
-
-pinlist
-
- |
-
-Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated with a comma. You can type the character @ to return the sequencer instructions for all pins.
-
- |
- |
-
-timing_set
-
- |
-
-This parameter is an integer that represents the timing set used in the given cycle range.
-
- |
- |
-
-level_set
-
- |
-
-This parameter is an integer that represents the level set used in the given cycle range.
-
- |
- |
-
-level_set_id
-
- |
-
-Derived as follows:
-
-`100000 *`equation_set_no `+ 1000 * `specset_no `+ `level_set_no
-
- |
+| start_cycle | The start cycle is an integer that defines the first cycle to be reported. The start cycle is in the range 0 to 2^48 when the sequencer runs in the Start Analysis mode, or -2^48 to -1 when the sequencer runs in the Stop Analysis mode. If a positive number is entered, cycles are counted from 0 upwards. If a negative value is entered, the cycles are counted from the end of the test at -1. The start cycle returned by the system may be different from the start cycle entered for the query. |
+|---|---|
+| no_of_cycles | In the command, this parameter defines the number of cycles to be reported. The integer must be in the range 0 to 2147483648.<br><br>In the reply, the parameter specifies the number of cycles that are generated with the timing and levels sets specified by the timing_set and level_set parameters. 0 is returned if a CLEV and a CTIM instruction follow each other immediately. |
+| pinlist | Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated with a comma. You can type the character @ to return the sequencer instructions for all pins. |
+| timing_set | This parameter is an integer that represents the timing set used in the given cycle range. |
+| level_set | This parameter is an integer that represents the level set used in the given cycle range. |
+| level_set_id | Derived as follows:<br><br>`100000 *`equation_set_no `+ 1000 * `specset_no `+ `level_set_no |
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › GETS  -  GET Sets）
 
@@ -66901,70 +55475,13 @@ SQIB {BANDWIDTH|TIMEOUT}, {ERIM|ERRQ|FLIM|FLRQ}
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › SQIB  SQIB  -  SeQuencer Interrupt Behavior）
 
-|
-
-BANDWIDTH
-
- |
-
-This refers to the behavior when the detailed error map is located in the external memory, and result recording was aborted due to a bandwidth overflow of the memory.
-
- |
- |
-
-TIMEOUT
-
- |
-
-This refers to the behavior in case of a sequencer timeout.
-
- |
- |
-
-ERIM
-
- |
-
-SmarTest issues an error message immediately after completion of the test. In case of a recording abort, this message reports the channels, pins, and sites of all channel groups on which recording was aborted.
-
-In case of a sequencer timeout, a list of those channels is returned on which the timeout occurred.
-
- |
- |
-
-FLIM
-
- |
-
-This option is only allowed with TIMEOUT.
-
-SmarTest reports the test as failed, that is, FTST? returns F. This is the default for TIMEOUT.
-
- |
- |
-
-ERRQ
-
- |
-
-This option is only allowed with BANDWIDTH.
-
-SmarTest does not issue an error message immediately after completion of the test, but only if a channel which is involved in a recording abort is queried for result data. In this case again, the channels, pins, and sites of all channel groups on which recording was aborted will be reported. This is the default for BANDWIDTH.
-
- |
- |
-
-FLRQ
-
- |
-
-This option is only allowed with BANDWIDTH.
-
-SmarTest does not issue any error message. If a channel of a group on which recording was aborted is queried for result data, all its cycles will be reported as failing.
-
-This option can be used in a production environment if the result data is recorded in acquire failure mode, since if any data is recorded with this recording mode, the device must in fact have failed. Actually, recording will only be aborted in case of a massive fail on several pins.
-
- |
+| BANDWIDTH | This refers to the behavior when the detailed error map is located in the external memory, and result recording was aborted due to a bandwidth overflow of the memory. |
+|---|---|
+| TIMEOUT | This refers to the behavior in case of a sequencer timeout. |
+| ERIM | SmarTest issues an error message immediately after completion of the test. In case of a recording abort, this message reports the channels, pins, and sites of all channel groups on which recording was aborted.<br><br>In case of a sequencer timeout, a list of those channels is returned on which the timeout occurred. |
+| FLIM | This option is only allowed with TIMEOUT.<br><br>SmarTest reports the test as failed, that is, FTST? returns F. This is the default for TIMEOUT. |
+| ERRQ | This option is only allowed with BANDWIDTH.<br><br>SmarTest does not issue an error message immediately after completion of the test, but only if a channel which is involved in a recording abort is queried for result data. In this case again, the channels, pins, and sites of all channel groups on which recording was aborted will be reported. This is the default for BANDWIDTH. |
+| FLRQ | This option is only allowed with BANDWIDTH.<br><br>SmarTest does not issue any error message. If a channel of a group on which recording was aborted is queried for result data, all its cycles will be reported as failing.<br><br>This option can be used in a production environment if the result data is recorded in acquire failure mode, since if any data is recorded with this recording mode, the device must in fact have failed. Actually, recording will only be aborted in case of a massive fail on several pins. |
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › SQIB  SQIB  -  SeQuencer Interrupt Behavior）
 
@@ -67143,36 +55660,10 @@ VALR {map_state}, {no_of_results}, {(pinlist)}
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › VALR  -  VALid Range）
 
-|
-
-map_state
-
- |
-
-Returns the current state of the error map. The state can be:
-
-- INVL: Invalid - no error map details are available. (The setup has been changed, but no functional test has been performed.)
-- INCS: Inconsistent - the contents of the error map are inconsistent with the current setup.
-- CONS: Consistent - a functional test has been performed and the contents of the error map are consistent with the current setup.
- |
- |
-
-no_of_results
-
- |
-
-Integer indicating the number of results recorded.
-
- |
- |
-
-pinlist
-
- |
-
-List of DC Scale pins.
-
- |
+| map_state | Returns the current state of the error map. The state can be:<br><br>- INVL: Invalid - no error map details are available. (The setup has been changed, but no functional test has been performed.)<br>- INCS: Inconsistent - the contents of the error map are inconsistent with the current setup.<br>- CONS: Consistent - a functional test has been performed and the contents of the error map are consistent with the current setup. |
+|---|---|
+| no_of_results | Integer indicating the number of results recorded. |
+| pinlist | List of DC Scale pins. |
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › VALR  -  VALid Range）
 
@@ -68698,37 +57189,10 @@ UPAS {site}, "{setting}", {(purpose_name)}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
 
-| site |
-
-The site parameter is an integer that defines the number of the site where the channels are to be defined.
-
-The integer must be greater than 1.
-
-When specified as part of the UPAS? query, you can use the parameter ALL to read the standard output states for all sites.
-
- |
- | setting |
-
-Output states for each member of the utility purpose on the specified site.
-
-Set the output state of each utility line with the following specifiers:
-
-- 0: Sets the corresponding (write) channel to high (high impedance state)
-- 1: Sets the corresponding (write) channel to low
-- X (x): No action
-
-The number and order of characters must correspond to the ch_No_list parameter of the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.
-
-If this parameter is omitted, the specified site is set to the same states as site 1.
-
- |
- | purpose_name |
-
-Name of a utility purpose defined by the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.
-
-In the query, the symbol @ can be used to list all defined utility purposes.
-
- |
+| site | The site parameter is an integer that defines the number of the site where the channels are to be defined.<br><br>The integer must be greater than 1.<br><br>When specified as part of the UPAS? query, you can use the parameter ALL to read the standard output states for all sites. |
+|---|---|
+| setting | Output states for each member of the utility purpose on the specified site.<br><br>Set the output state of each utility line with the following specifiers:<br><br>- 0: Sets the corresponding (write) channel to high (high impedance state)<br>- 1: Sets the corresponding (write) channel to low<br>- X (x): No action<br><br>The number and order of characters must correspond to the ch_No_list parameter of the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.<br><br>If this parameter is omitted, the specified site is set to the same states as site 1. |
+| purpose_name | Name of a utility purpose defined by the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.<br><br>In the query, the symbol @ can be used to list all defined utility purposes. |
 
 ### Example（取自子主题 Utility Line Commands › List of utility line commands › UPAS  UPAS  -  Utility Purpose ASsignment for multi-site）
 
@@ -69131,74 +57595,11 @@ UTOT 165,16383,12345
 
 This code sets the first sixteen utility lines of the first block, except those used for the addressing of EEPROMs related to the DUT interface. These are URW14 and URW15. URW0 to URW13 are set to the inverse of 12345. 12345 in decimal equals 0011000000111001 in binary. Inverted, this is 53190 in decimal or 1100111111000110 in binary. Thus the lines will have these states:
 
- |
-
-URW00 = low
-
- |
-
-URW04 = low
-
- |
-
-URW08 = high
-
- |
-
-URW12 = low
-
- |
- |
-
-URW01 = high
-
- |
-
-URW05 = low
-
- |
-
-URW09 = high
-
- |
-
-URW13 = low
-
- |
- |
-
-URW02 = high
-
- |
-
-URW06 = high
-
- |
-
-URW10 = high
-
- |
-
-URW14 = high
-
- |
- |
-
-URW03 = low
-
- |
-
-URW07 = high
-
- |
-
-URW11 = high
-
- |
-
-URW15 = high
-
- |
+| URW00 = low | URW04 = low | URW08 = high | URW12 = low |
+|---|---|---|---|
+| URW01 = high | URW05 = low | URW09 = high | URW13 = low |
+| URW02 = high | URW06 = high | URW10 = high | URW14 = high |
+| URW03 = low | URW07 = high | URW11 = high | URW15 = high |
 
 For the utility lines required to address EEPROMs related to the DUT interface see `Utility lines and DUT board EEPROMs`（raw: `../02.03_DUT_board_design_reference/02.03.04.06_Utility_lines_and_DUT_board_EEPROMs.md`）.
 
@@ -69545,69 +57946,14 @@ TSCF {"ts_name"}, {property}, {property_value}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSCF  TSCF  -  TMU Set ConFiguration）
 
-|
-
-ts_name
-
- |
-
-Specifies the name of a TMU set that must have been defined with TSDF.
-
- |
- |
-
-property
-
- |
-
-Specifies a property of the TMU test. For a list see the table below. If this parameter is omitted in the query, all defined properties will be returned.
-
- |
- |
-
-ALL
-
- |
-
-This value can be specified in the query to retrieve the configuration data of all TMU sets.
-
- |
- |
-
-PRM
-
- |
-
-This value can be specified to modify or retrieve the configuration of the current primary TMU set.
-
- |
- |
-
-property_value
-
- |
-
-Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below.
-
- |
- |
-
-RESET
-
- |
-
-If you specify this keyword instead of a property value, the property will be deleted in the specified TMU set.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins to which this configuration is to be applied.
-
- |
+| ts_name | Specifies the name of a TMU set that must have been defined with TSDF. |
+|---|---|
+| property | Specifies a property of the TMU test. For a list see the table below. If this parameter is omitted in the query, all defined properties will be returned. |
+| ALL | This value can be specified in the query to retrieve the configuration data of all TMU sets. |
+| PRM | This value can be specified to modify or retrieve the configuration of the current primary TMU set. |
+| property_value | Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below. |
+| RESET | If you specify this keyword instead of a property value, the property will be deleted in the specified TMU set. |
+| pinlist | Specifies the pins to which this configuration is to be applied. |
 
 Properties and their values
  |
@@ -69800,24 +58146,9 @@ TSDF {"TMU_set_name"} [, "mode_context"]
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSDF  TSDF  -  TMU Set DeFinition）
 
-|
-
-TMU_set_name
-
- |
-
-In the command, this is the name of a new TMU set. In the query, it is a name of an existing TMU set. If you omit this parameter in the query, TSDF? will return the names of all user defined TMU sets.
-
- |
- |
-
-mode_context
-
- |
-
-The mode context with which the TMU set is associated. If this parameter is omitted, the DEFAULT context is assumed.
-
- |
+| TMU_set_name | In the command, this is the name of a new TMU set. In the query, it is a name of an existing TMU set. If you omit this parameter in the query, TSDF? will return the names of all user defined TMU sets. |
+|---|---|
+| mode_context | The mode context with which the TMU set is associated. If this parameter is omitted, the DEFAULT context is assumed. |
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSDF  TSDF  -  TMU Set DeFinition）
 
@@ -69847,60 +58178,13 @@ TSER {VDL_OVERRUN|ARM_OVERRUN|OUT_OF_MEMORY|GLITCH_OVERRUN|NOT_FINISHED}, {(pinl
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSER  -  TMU Set ERror）
 
-|
-
-VDL_OVERRUN
-
- |
-
-The sample rate of the TMU is exceeded.
-
- |
- |
-
-ARM_OVERRUN
-
- |
-
-The TMU is re-armed before all the requested samples have been taken in the preceding measurement execution.
-
- |
- |
-
-OUT_OF_MEMORY
-
- |
-
-The embedded processor has run out of memory.
-
- |
- |
-
-GLITCH_OVERRUN
-
- |
-
-An event that should appear in the prescaler output occurs before the positive pulse representing the previous such event is terminated. See `Dealing with very high frequencies`（raw: `02.06.13.01.05_Dealing_with_very_high_data_rates.md`）.
-
- |
- |
-
-NOT_FINISHED
-
- |
-
-The measurement has not been finished.
-
- |
- |
-
-pinlist
-
- |
-
-The pins for which the state of the TMU measurement is to be returned.
-
- |
+| VDL_OVERRUN | The sample rate of the TMU is exceeded. |
+|---|---|
+| ARM_OVERRUN | The TMU is re-armed before all the requested samples have been taken in the preceding measurement execution. |
+| OUT_OF_MEMORY | The embedded processor has run out of memory. |
+| GLITCH_OVERRUN | An event that should appear in the prescaler output occurs before the positive pulse representing the previous such event is terminated. See `Dealing with very high frequencies`（raw: `02.06.13.01.05_Dealing_with_very_high_data_rates.md`）. |
+| NOT_FINISHED | The measurement has not been finished. |
+| pinlist | The pins for which the state of the TMU measurement is to be returned. |
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSER  -  TMU Set ERror）
 
@@ -69921,53 +58205,12 @@ TSHA {specset_id|"multi-port_spec"},{TRUE|FALSE}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSHA  -  Timing Setup Has Arming）
 
-|
-
-specset_id
-
- |
-
-Derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-To query a multi-port timing specification, specify the name of the specification.
-
- |
- |
-
-TRUE
-
- |
-
-The wavetable of at least one of the pins in the pin list contains the ARM action.
-
- |
- |
-
-FALSE
-
- |
-
-No wavetable of any pin in the pin list contains the ARM action.
-
- |
- |
-
-pinlist
-
- |
-
-The pins whose associated wavetable is to be checked.
-
- |
+| specset_id | Derived as follows:<br><br>100 * equation_set_no + specset_no |
+|---|---|
+| multi-port_spec | To query a multi-port timing specification, specify the name of the specification. |
+| TRUE | The wavetable of at least one of the pins in the pin list contains the ARM action. |
+| FALSE | No wavetable of any pin in the pin list contains the ARM action. |
+| pinlist | The pins whose associated wavetable is to be checked. |
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSHA  -  Timing Setup Has Arming）
 
@@ -69986,42 +58229,11 @@ TSMD {FINISHED|NOT_FINISHED}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSMD  -  TMU Set Measurement Done）
 
-|
-
-FORCE
-
- |
-
-If this extra parameter is specified in the query The TMU measurement will be stopped even if it is not yet finished.
-
- |
- |
-
-FINISHED
-
- |
-
-The measurement has finished.
-
- |
- |
-
-NOT_FINISHED
-
- |
-
-The measurement is still running.
-
- |
- |
-
-pinlist
-
- |
-
-The pins for which the state of the TMU measurement is to be returned.
-
- |
+| FORCE | If this extra parameter is specified in the query The TMU measurement will be stopped even if it is not yet finished. |
+|---|---|
+| FINISHED | The measurement has finished. |
+| NOT_FINISHED | The measurement is still running. |
+| pinlist | The pins for which the state of the TMU measurement is to be returned. |
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSMD  -  TMU Set Measurement Done）
 
@@ -70042,60 +58254,13 @@ TSRH {REQUEST|SELECT|RELEASE}, {"handle_name"}, {SUCCEED|FAILED}
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSRH  -  TMU Set Result Handle）
 
-|
-
-REQUEST
-
- |
-
-Defines a handle. If the request is successful, the new handle will be the active handle.
-
- |
- |
-
-SELECT
-
- |
-
-Selects an existing handle as the active handle.
-
- |
- |
-
-RELEASE
-
- |
-
-Releases (deletes) an existing handle.
-
- |
- |
-
-handle_name
-
- |
-
-The name of the handle to be requested, selected, or released.
-
- |
- |
-
-SUCCEED
-
- |
-
-The requested action was successful.
-
- |
- |
-
-FAILED
-
- |
-
-The requested action failed.
-
- |
+| REQUEST | Defines a handle. If the request is successful, the new handle will be the active handle. |
+|---|---|
+| SELECT | Selects an existing handle as the active handle. |
+| RELEASE | Releases (deletes) an existing handle. |
+| handle_name | The name of the handle to be requested, selected, or released. |
+| SUCCEED | The requested action was successful. |
+| FAILED | The requested action failed. |
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSRH  -  TMU Set Result Handle）
 
@@ -70124,24 +58289,9 @@ TSPR {"TMU_set_name"|""}
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSPR  TSPR  -  TMU Set PRimary set）
 
-|
-
-TMU_set_name
-
- |
-
-Specifies the name of an existing TMU set.
-
- |
- |
-
-""
-
- |
-
-By specifying the empty name, you undefine the current primary TMU set.
-
- |
+| TMU_set_name | Specifies the name of an existing TMU set. |
+|---|---|
+| "" | By specifying the empty name, you undefine the current primary TMU set. |
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSPR  TSPR  -  TMU Set PRimary set）
 
@@ -70611,24 +58761,9 @@ TSUD {"TMU_set_name"|ALL}
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSUD -  TMU Set UnDefine）
 
-|
-
-TMU_set_name
-
- |
-
-Specifies the name of an existing TMU set.
-
- |
- |
-
-ALL
-
- |
-
-This option removes all defined TMU sets.
-
- |
+| TMU_set_name | Specifies the name of an existing TMU set. |
+|---|---|
+| ALL | This option removes all defined TMU sets. |
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSUD -  TMU Set UnDefine）
 
@@ -70650,71 +58785,14 @@ TSVD? {waveform_set|specset_id|"multi-port_spec"|PRM}, {"TMU_set"|PRM}, {VALID|E
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSVD  -  TimStamper ValiD）
 
-|
-
-waveform_set
-
- |
-
-Specifies a waveform set number for a fixed timing setup.
-
- |
- |
-
-specset_id
-
- |
-
-Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-Specifies the name of a multiport specification for a multi-port setup.
-
- |
- |
-
-TMU_set
-
- |
-
-The TMU set that is to be checked.
-
- |
- |
-
-PRM
-
- |
-
-Refers to the current primary timing specification or the current primary TMU set.
-
- |
- |
-
-VALID
-
- |
-
-Timing specification and TMU set are consistent.
-
- |
- |
-
-ERROR
-
- |
-
-Timing specification and TMU set are not consistent.
-
- |
+| waveform_set | Specifies a waveform set number for a fixed timing setup. |
+|---|---|
+| specset_id | Specifies a spec set ID for an equation based setup. The spec set ID is derived from an equation set number and a spec set number as follows:<br><br>100 * equation_set_no + specset_no |
+| multi-port_spec | Specifies the name of a multiport specification for a multi-port setup. |
+| TMU_set | The TMU set that is to be checked. |
+| PRM | Refers to the current primary timing specification or the current primary TMU set. |
+| VALID | Timing specification and TMU set are consistent. |
+| ERROR | Timing specification and TMU set are not consistent. |
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSVD  -  TimStamper ValiD）
 
@@ -70997,15 +59075,8 @@ SSRC {(pinlist)}
 
 ### Parameters（取自子主题 Commands for Processing Results of Source Synchronous Testing › List of commands for source synchronous testing › SSRC -  Source Synchronous testing  Remove Configurations）
 
-|
-
-pinlist
-
- |
-
-The pins whose buffer configurations are to be removed. Pins for which no buffer configuration exists are ignored.
-
- |
+| pinlist | The pins whose buffer configurations are to be removed. Pins for which no buffer configuration exists are ignored. |
+|---|---|
 
 ### Example（取自子主题 Commands for Processing Results of Source Synchronous Testing › List of commands for source synchronous testing › SSRC -  Source Synchronous testing  Remove Configurations）
 
@@ -71172,51 +59243,12 @@ CFCF {"cf_name"}, {(source_pin)}, {(sink_pins)} [, speed]
 
 ### Parameters（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › CFCF  CFCF  -  Clock Forwarding ConFiguration）
 
-|
-
-cf_name
-
- |
-
-Specifies the name of a clock forwarding set that must have been defined with CFDF.
-
- |
- |
-
-source_pin
-
- |
-
-Specifies the pin whose tracking behavior is to be transferred.
-
- |
- |
-
-sink_pins
-
- |
-
-Specifies the pins that are to make use of the tracking behavior of the source pin.
-
- |
- |
-
-speed
-
- |
-
-Defines the maximum expected shift per ns. This can be used to determine the maximum supported shift. See `Implementation details of clock forwarding`（raw: `02.06.15.01.01.05.01_Implementation_details_of_clock_forwarding.md`）.
-
- |
- |
-
-pinlist
-
- |
-
-This query parameter specifies the pins whose role in the specified clock forwarding set is to be retrieved.
-
- |
+| cf_name | Specifies the name of a clock forwarding set that must have been defined with CFDF. |
+|---|---|
+| source_pin | Specifies the pin whose tracking behavior is to be transferred. |
+| sink_pins | Specifies the pins that are to make use of the tracking behavior of the source pin. |
+| speed | Defines the maximum expected shift per ns. This can be used to determine the maximum supported shift. See `Implementation details of clock forwarding`（raw: `02.06.15.01.01.05.01_Implementation_details_of_clock_forwarding.md`）. |
+| pinlist | This query parameter specifies the pins whose role in the specified clock forwarding set is to be retrieved. |
 
 ### Example（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › CFCF  CFCF  -  Clock Forwarding ConFiguration）
 
@@ -71251,24 +59283,9 @@ CFDF {"cf_set_name"} [, "mode_context"]
 
 ### Parameters（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › CFDF  CFDF  -  Clock Forwarding Set DeFinition）
 
-|
-
-cf_set_name
-
- |
-
-In the command, this is the name of a new clock forwarding set. In the query, it is a name of an existing clock forwarding set. If you omit this parameter in the query, CFDF? will return the names of all user defined clock forwarding sets.
-
- |
- |
-
-mode_context
-
- |
-
-The mode context with which the clock forwarding set is associated. If this parameter is omitted, the DEFAULT context is assumed.
-
- |
+| cf_set_name | In the command, this is the name of a new clock forwarding set. In the query, it is a name of an existing clock forwarding set. If you omit this parameter in the query, CFDF? will return the names of all user defined clock forwarding sets. |
+|---|---|
+| mode_context | The mode context with which the clock forwarding set is associated. If this parameter is omitted, the DEFAULT context is assumed. |
 
 ### Example（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › CFDF  CFDF  -  Clock Forwarding Set DeFinition）
 
@@ -71303,69 +59320,14 @@ TTCF {"tt_name"}, {property}, {property_value}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTCF  TTCF  -  Transition Test ConFiguration）
 
-|
-
-tt_name
-
- |
-
-Specifies the name of a transition test set that must have been defined with `TTDF`（raw: `02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md`）.
-
- |
- |
-
-property
-
- |
-
-Specifies a property of the transition test set. For a list, see the Properties and their values table below.
-
- |
- |
-
-ALL
-
- |
-
-This value can be specified in the query to retrieve the configuration data of all transition test sets.
-
- |
- |
-
-PRM
-
- |
-
-This value can be specified to modify or retrieve the configuration of the current primary transition test set.
-
- |
- |
-
-DEFAULT
-
- |
-
-This value can be specified in the query to retrieve the configuration of the predefined transition test set DEFAULT. Note that the DEFAULT set cannot be changed, it can only be queried.
-
- |
- |
-
-property_value
-
- |
-
-Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins to which this configuration is to be applied.
-
- |
+| tt_name | Specifies the name of a transition test set that must have been defined with `TTDF`（raw: `02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md`）. |
+|---|---|
+| property | Specifies a property of the transition test set. For a list, see the Properties and their values table below. |
+| ALL | This value can be specified in the query to retrieve the configuration data of all transition test sets. |
+| PRM | This value can be specified to modify or retrieve the configuration of the current primary transition test set. |
+| DEFAULT | This value can be specified in the query to retrieve the configuration of the predefined transition test set DEFAULT. Note that the DEFAULT set cannot be changed, it can only be queried. |
+| property_value | Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below. |
+| pinlist | Specifies the pins to which this configuration is to be applied. |
 
 Properties and their values
  |
@@ -71899,51 +59861,12 @@ TTDB {type}, [sub_type], {value}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTDB  -  Transition Test DeBug information）
 
-|
-
-type
-
- |
-
-Specifies the information type. For a list, see the Information types and subtypes table below.
-
- |
- |
-
-ALL
-
- |
-
-All information types are returned.
-
- |
- |
-
-sub_type
-
- |
-
-Specifies a subtype of the information type. The subtypes for every type are listed in the Information types and subtypes table below.
-
- |
- |
-
-value
-
- |
-
-Specifies the value for the specified combination of type and subtype. For more explanation see the Information types and subtypes table below.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins for which debug information is to be retrieved.
-
- |
+| type | Specifies the information type. For a list, see the Information types and subtypes table below. |
+|---|---|
+| ALL | All information types are returned. |
+| sub_type | Specifies a subtype of the information type. The subtypes for every type are listed in the Information types and subtypes table below. |
+| value | Specifies the value for the specified combination of type and subtype. For more explanation see the Information types and subtypes table below. |
+| pinlist | Specifies the pins for which debug information is to be retrieved. |
 
 Information types and subtypes
  |
@@ -72172,24 +60095,9 @@ TTDF {"tt_set_name"} [, "mode_context"]
 ```
 
 Parameters
- |
-
-tt_set_name
-
- |
-
-In the command, this is the name of a new transition test set. In the query, it is a name of an existing transition test set. If you omit this parameter in the query, TTDF? will return the names of all user defined transition test sets.
-
- |
- |
-
-mode_context
-
- |
-
-The mode context with which the transition test set is associated. If this parameter is omitted, the DEFAULT context is assumed.
-
- |
+| tt_set_name | In the command, this is the name of a new transition test set. In the query, it is a name of an existing transition test set. If you omit this parameter in the query, TTDF? will return the names of all user defined transition test sets. |
+|---|---|
+| mode_context | The mode context with which the transition test set is associated. If this parameter is omitted, the DEFAULT context is assumed. |
 
 ### Example（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTDF  TTDF  -  Transition Test set DeFinition）
 
@@ -72331,24 +60239,9 @@ TTPR {"tt_set_name"}
 
 ### Parameters（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTPR  TTPR  -  Transition Test PRimary set）
 
-|
-
-tt_set_name
-
- |
-
-Specifies the name of an existing transition test set.
-
- |
- |
-
-DEFAULT
-
- |
-
-This is a predefined transition test set.
-
- |
+| tt_set_name | Specifies the name of an existing transition test set. |
+|---|---|
+| DEFAULT | This is a predefined transition test set. |
 
 ### Example（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTPR  TTPR  -  Transition Test PRimary set）
 
@@ -72785,24 +60678,9 @@ TTUD {"tt_set_name"}
 
 ### Parameters（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTUD -  Transition Test UnDefine）
 
-|
-
-tt_set_name
-
- |
-
-Specifies the name of an existing transition test set.
-
- |
- |
-
-ALL
-
- |
-
-Remove all existing transition tests sets
-
- |
+| tt_set_name | Specifies the name of an existing transition test set. |
+|---|---|
+| ALL | Remove all existing transition tests sets |
 
 ### Example（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTUD -  Transition Test UnDefine）
 
@@ -72824,42 +60702,11 @@ TTVD {"tt_name"}, {VALID|INVALID}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTVD  -  Transition Test ValiDate）
 
-|
-
-tt_name
-
- |
-
-Specifies the name of a transition test set that must have been defined with `TTDF`（raw: `02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md`）.
-
- |
- |
-
-ALL
-
- |
-
-All transition test sets are checked.
-
- |
- |
-
-PRM
-
- |
-
-The current primary transition test set is checked.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins to which this configuration is to be applied.
-
- |
+| tt_name | Specifies the name of a transition test set that must have been defined with `TTDF`（raw: `02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md`）. |
+|---|---|
+| ALL | All transition test sets are checked. |
+| PRM | The current primary transition test set is checked. |
+| pinlist | Specifies the pins to which this configuration is to be applied. |
 
 ### Example（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTVD  -  Transition Test ValiDate）
 
@@ -72883,15 +60730,8 @@ JRST {(pin_list)}
 
 ### Parameters（取自子主题 Commands for jitter injection › List of commands for jitter injection › JRST -  Jitter modulator ReseT）
 
-|
-
-pin_list
-
- |
-
-The pins for which the jitter modulator is to be reset. Typically, this must be done for all configured pins, so that you will usually specify @ for the pin list.
-
- |
+| pin_list | The pins for which the jitter modulator is to be reset. Typically, this must be done for all configured pins, so that you will usually specify @ for the pin list. |
+|---|---|
 
 ### Example（取自子主题 Commands for jitter injection › List of commands for jitter injection › JRST -  Jitter modulator ReseT）
 
@@ -72921,60 +60761,13 @@ JSCF {"jitter_set_name"}, {"property"}, {"property_value"}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSCF  JSCF  -  Jitter Set ConFiguration）
 
-|
-
-jitter_set_name
-
- |
-
-Specifies the name of a jitter set that must have been defined with JSDF.
-
- |
- |
-
-property
-
- |
-
-Specifies a property of the jitter set. For a list see the table below.
-
- |
- |
-
-ALL
-
- |
-
-This value can be specified in the query to retrieve the configuration data of all jitter sets.
-
- |
- |
-
-PRM
-
- |
-
-This value can be specified in the query to retrieve the configuration of the current primary jitter set.
-
- |
- |
-
-property_value
-
- |
-
-Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins to which this configuration is to be applied.
-
- |
+| jitter_set_name | Specifies the name of a jitter set that must have been defined with JSDF. |
+|---|---|
+| property | Specifies a property of the jitter set. For a list see the table below. |
+| ALL | This value can be specified in the query to retrieve the configuration data of all jitter sets. |
+| PRM | This value can be specified in the query to retrieve the configuration of the current primary jitter set. |
+| property_value | Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below. |
+| pinlist | Specifies the pins to which this configuration is to be applied. |
 
 ### Example（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSCF  JSCF  -  Jitter Set ConFiguration）
 
@@ -72989,33 +60782,10 @@ This example defines a simple sawtooth waveform with a peak-to-peak value of 200
 
 ### Parameters（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSDF  JSDF  -  Jitter Set DeFinition）
 
-|
-
-js_set_name
-
- |
-
-In the command, this is the name of a new jitter set. In the query, it is a name of an existing jitter set. If you omit this parameter in the query, JSDF? will return the names of all user defined jitter sets.
-
- |
- |
-
-mode_context
-
- |
-
-The mode context with which the jitter set is associated. If this parameter is omitted, the DEFAULT context is assumed.
-
- |
- |
-
-ALL
-
- |
-
-With this parameter, the query returns all existing jitter sets.
-
- |
+| js_set_name | In the command, this is the name of a new jitter set. In the query, it is a name of an existing jitter set. If you omit this parameter in the query, JSDF? will return the names of all user defined jitter sets. |
+|---|---|
+| mode_context | The mode context with which the jitter set is associated. If this parameter is omitted, the DEFAULT context is assumed. |
+| ALL | With this parameter, the query returns all existing jitter sets. |
 
 ### Example（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSDF  JSDF  -  Jitter Set DeFinition）
 
@@ -73051,15 +60821,8 @@ JSPR {"js_set_name"|""}
 
 ### Parameters（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSPR  JSPR  -  Jitter Set PRimary set）
 
-|
-
-js_set_name
-
- |
-
-Specifies the name of an existing jitter set. Specify an empty string to inactivate the current primary set and thus to disable jitter injection.
-
- |
+| js_set_name | Specifies the name of an existing jitter set. Specify an empty string to inactivate the current primary set and thus to disable jitter injection. |
+|---|---|
 
 ### Example（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSPR  JSPR  -  Jitter Set PRimary set）
 
@@ -73075,24 +60838,9 @@ JSUD {"js_set_name"|ALL}
 
 ### Parameters（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSUD -  Jitter Set UnDefine）
 
-|
-
-js_set_name
-
- |
-
-Specifies the name of an existing jitter set.
-
- |
- |
-
-ALL
-
- |
-
-This option removes all defined jitter sets.
-
- |
+| js_set_name | Specifies the name of an existing jitter set. |
+|---|---|
+| ALL | This option removes all defined jitter sets. |
 
 ### Example（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSUD -  Jitter Set UnDefine）
 
@@ -73114,46 +60862,11 @@ JSWF {"jitter_set_name"}, {"offset_sequence"}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSWF  -  Jitter Set WaveForm）
 
-|
-
-jitter_set_name
-
- |
-
-Specifies the name of a jitter set that must have been defined with JSDF.
-
- |
- |
-
-clock_resolution
-
- |
-
-Specifies the clock resolution on which the calculation will be based. The admitted range is between 880 and 1750 ps.
-
-You can retrieve the clock resolution for a specification with the CLKR? EXACT query.
-
-Note that the unit is pico seconds, not nano seconds.
-
- |
- |
-
-offset_sequence
-
- |
-
-The list of the calculated offsets that is returned.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins for which the offset sequence is calculated.
-
- |
+| jitter_set_name | Specifies the name of a jitter set that must have been defined with JSDF. |
+|---|---|
+| clock_resolution | Specifies the clock resolution on which the calculation will be based. The admitted range is between 880 and 1750 ps.<br><br>You can retrieve the clock resolution for a specification with the CLKR? EXACT query.<br><br>Note that the unit is pico seconds, not nano seconds. |
+| offset_sequence | The list of the calculated offsets that is returned. |
+| pinlist | Specifies the pins for which the offset sequence is calculated. |
 
 ### Example 1（取自子主题 Commands for jitter injection › List of commands for jitter injection › JSWF  -  Jitter Set WaveForm）
 
@@ -73203,42 +60916,11 @@ MSCF {"modulation_set_name"}, {"property"}, {"property_value"}
 
 ### Parameters（取自子主题 Commands for jitter injection › List of commands for jitter injection › MSCF  MSCF  -  Modulation Set ConFiguration）
 
-|
-
-modulation_set_name
-
- |
-
-Specifies the name of a modulation set that must have been defined with MSDF.
-
- |
- |
-
-property
-
- |
-
-Specifies a property of the modulation set. For a list see the table below.
-
- |
- |
-
-ALL
-
- |
-
-This value can be specified in the query to retrieve the configuration data of all modulation sets.
-
- |
- |
-
-property_value
-
- |
-
-Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below.
-
- |
+| modulation_set_name | Specifies the name of a modulation set that must have been defined with MSDF. |
+|---|---|
+| property | Specifies a property of the modulation set. For a list see the table below. |
+| ALL | This value can be specified in the query to retrieve the configuration data of all modulation sets. |
+| property_value | Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below. |
 
 ### Example（取自子主题 Commands for jitter injection › List of commands for jitter injection › MSCF  MSCF  -  Modulation Set ConFiguration）
 
@@ -73252,33 +60934,10 @@ Specifies the value for the specified property. The values that are admitted for
 
 ### Parameters（取自子主题 Commands for jitter injection › List of commands for jitter injection › MSDF  MSDF  -  Modulation Set DeFinition）
 
-|
-
-ms_set_name
-
- |
-
-In the command, this is the name of a new modulation set. In the query, it is a name of an existing modulation set. If you omit this parameter in the query, MSDF? will return the names of all user defined modulation sets.
-
- |
- |
-
-modulation_type
-
- |
-
-Currently, the only allowed modulation type is TIM (for "timing").
-
- |
- |
-
-ALL
-
- |
-
-With this parameter, the query returns all existing modulation sets.
-
- |
+| ms_set_name | In the command, this is the name of a new modulation set. In the query, it is a name of an existing modulation set. If you omit this parameter in the query, MSDF? will return the names of all user defined modulation sets. |
+|---|---|
+| modulation_type | Currently, the only allowed modulation type is TIM (for "timing"). |
+| ALL | With this parameter, the query returns all existing modulation sets. |
 
 ### Example（取自子主题 Commands for jitter injection › List of commands for jitter injection › MSDF  MSDF  -  Modulation Set DeFinition）
 
@@ -73502,33 +61161,10 @@ LBRT {(pin1)}, {(pin2)}
 ```
 
 Parameters
- |
-
-pinlist
-
- |
-
-Specifies the pins for which the partner pin is to be retrieved.
-
- |
- |
-
-pin1
-
- |
-
-Specifies a pin of pinlist.
-
- |
- |
-
-pin2
-
- |
-
-Specifies the pin which is mapped to the partner channel of the channel for pin1.
-
- |
+| pinlist | Specifies the pins for which the partner pin is to be retrieved. |
+|---|---|
+| pin1 | Specifies a pin of pinlist. |
+| pin2 | Specifies the pin which is mapped to the partner channel of the channel for pin1. |
 
 ### Example（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › LBRT  -  LoopBack RouTing）
 
@@ -73673,24 +61309,9 @@ PRDF {"prbs_set_name"} [, "mode_context"]
 
 ### Parameters（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRDF  PRDF  -  PRBS set DeFinition）
 
-|
-
-prbs_set_name
-
- |
-
-In the command, this is the name of a new PRBS set. In the query, it is a name of an existing PRBS set. If you omit this parameter in the query, PRDF? will return the names of all user defined PRBS sets.
-
- |
- |
-
-mode_context
-
- |
-
-The mode context with which the PRBS set is associated. If this parameter is omitted, the DEFAULT context is assumed.
-
- |
+| prbs_set_name | In the command, this is the name of a new PRBS set. In the query, it is a name of an existing PRBS set. If you omit this parameter in the query, PRDF? will return the names of all user defined PRBS sets. |
+|---|---|
+| mode_context | The mode context with which the PRBS set is associated. If this parameter is omitted, the DEFAULT context is assumed. |
 
 ### Example（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRDF  PRDF  -  PRBS set DeFinition）
 
@@ -73879,15 +61500,8 @@ PRPR {"prbs_set_name"}
 
 ### Parameters（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRPR  PRPR  -  PRBS PRimary set）
 
-|
-
-prbs_set_name
-
- |
-
-Specifies the name of an existing PRBS set. If you specify "", the defaults will be restored.
-
- |
+| prbs_set_name | Specifies the name of an existing PRBS set. If you specify "", the defaults will be restored. |
+|---|---|
 
 ### Example（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRPR  PRPR  -  PRBS PRimary set）
 
@@ -73901,24 +61515,9 @@ PRUD {"prbs_set_name"|ALL}
 
 ### Parameters（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRUD -  PRBS set UnDefine）
 
-|
-
-prbs_set_name
-
- |
-
-Specifies the name of an existing PRBS set.
-
- |
- |
-
-ALL
-
- |
-
-Remove all existing transition tests sets
-
- |
+| prbs_set_name | Specifies the name of an existing PRBS set. |
+|---|---|
+| ALL | Remove all existing transition tests sets |
 
 ### Example（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRUD -  PRBS set UnDefine）
 
@@ -73946,35 +61545,10 @@ ASWE {waveform_set|specset_id}, {enable_status}
 
 ### Parameters（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › ASWE  ASWE  -  Auto SWing Enable）
 
-|
-
-waveform_set
-
- |
-
-Specifies the number of a waveform set for non-equation based testing. Enter PRM for the Primary Waveform Set, ALL for all waveform sets, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-specset_id
-
- |
-
-Specifies a spec set ID for equation based testing. The specset_id is derived as follows:
-
-`100 *` equation_set_no `+ ` specset_no
-
- |
- |
-
-enable_status
-
- |
-
-Enter ON to switch automatic swing modification on. Enter OFF to switch automatic swing modification off.
-
- |
+| waveform_set | Specifies the number of a waveform set for non-equation based testing. Enter PRM for the Primary Waveform Set, ALL for all waveform sets, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| specset_id | Specifies a spec set ID for equation based testing. The specset_id is derived as follows:<br><br>`100 *` equation_set_no `+ ` specset_no |
+| enable_status | Enter ON to switch automatic swing modification on. Enter OFF to switch automatic swing modification off. |
 
 ### Example（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › ASWE  ASWE  -  Auto SWing Enable）
 
@@ -74107,28 +61681,9 @@ FXDL {channel}, {fixture_delay}
 
 ### Parameters（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › FXDL  FXDL  -  FiXture DeLay）
 
-|
-
-channel
-
- |
-
-The test system channel number of the digital channel. This is a five digit field. See `DFPN, DFPN? - (DeFine Pin Name)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） for the number. You can type ALL to set the attributes for all installed channels. For the query, you can type CFG to query only configured channels.
-
- |
- |
-
-fixture_delay
-
- |
-
-The fixture_delay represents the delay (in ns) of the lines on the DUT board. The range of the admissible values depends on the test system type as follows:
-
-- PS1600: Between -0.015 and +26.4 ns
-
-The default value is 0. The maximum number of digits after the decimal point is 3.
-
- |
+| channel | The test system channel number of the digital channel. This is a five digit field. See `DFPN, DFPN? - (DeFine Pin Name)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） for the number. You can type ALL to set the attributes for all installed channels. For the query, you can type CFG to query only configured channels. |
+|---|---|
+| fixture_delay | The fixture_delay represents the delay (in ns) of the lines on the DUT board. The range of the admissible values depends on the test system type as follows:<br><br>- PS1600: Between -0.015 and +26.4 ns<br><br>The default value is 0. The maximum number of digits after the decimal point is 3. |
 
 ### Example（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › FXDL  FXDL  -  FiXture DeLay）
 
@@ -74158,53 +61713,12 @@ PADS [mode], {definition_string}, [drv_adj], [rec_adj], {(pinlist)}
 
 ### Parameters（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › PADS  PADS  -  Pin Attributes Definition String）
 
-|
-
-mode
-
- |
-
-Currently not used.
-
- |
- |
-
-definition_string
-
- |
-
-Edge delay definition string which consists of delay adjustments for up to all available edges. The valid range (in ns) is from -8 to 8.
-
-All edges which are not explicitly set are not changed but stay at the same value as before.
-
- |
- |
-
-drv_adj
-
- |
-
-The driver adjustment contains the sum of any additional driver offset delays that you want to include. The delay (in ns) must be between -5 and +5 and contain a maximum of three digits after the decimal point. The default value is 0.
-
- |
- |
-
-rec_adj
-
- |
-
-The receiver adjustment contains the sum of any additional receiver offset delays that you want to include. The delay (in ns) must be between -5 and +5 and contain a maximum of three digits after the decimal point. The default value is 0.
-
- |
- |
-
-pinlist
-
- |
-
-The pinlist must include all pins to which the given attributes apply. If more than one pin is to be entered, the names must be separated with a comma. All pins in pinlist must be I, O, or IO pin types.
-
- |
+| mode | Currently not used. |
+|---|---|
+| definition_string | Edge delay definition string which consists of delay adjustments for up to all available edges. The valid range (in ns) is from -8 to 8.<br><br>All edges which are not explicitly set are not changed but stay at the same value as before. |
+| drv_adj | The driver adjustment contains the sum of any additional driver offset delays that you want to include. The delay (in ns) must be between -5 and +5 and contain a maximum of three digits after the decimal point. The default value is 0. |
+| rec_adj | The receiver adjustment contains the sum of any additional receiver offset delays that you want to include. The delay (in ns) must be between -5 and +5 and contain a maximum of three digits after the decimal point. The default value is 0. |
+| pinlist | The pinlist must include all pins to which the given attributes apply. If more than one pin is to be entered, the names must be separated with a comma. All pins in pinlist must be I, O, or IO pin types. |
 
 ### Example（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › PADS  PADS  -  Pin Attributes Definition String）
 
@@ -74417,15 +61931,8 @@ SATR {comm_rec_delay}
 
 ### Parameters（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › SATR  SATR  -  System ATtRibutes）
 
-|
-
-comm_rec_delay
-
- |
-
-The common receiver delay represents the adjustment to the round-trip delay between the drivers and receivers. The delay is in [ns] and must be in the range -50 to +50. Three digits are allowed after the decimal point. The default value is 0.
-
- |
+| comm_rec_delay | The common receiver delay represents the adjustment to the round-trip delay between the drivers and receivers. The delay is in [ns] and must be in the range -50 to +50. Three digits are allowed after the decimal point. The default value is 0. |
+|---|---|
 
 ### Example（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › SATR  SATR  -  System ATtRibutes）
 

@@ -1824,7 +1824,8 @@
 - ✅ `objects/apg-program-file.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/aprm.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/assign-value-node.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/begin-extension.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/begin-extension.md` — 引用块/代码块 15 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
+    - ⚠️ 未称逐字，覆盖率 40%｜`To make the extension block effective for sites 1 to 3 in four sites, STRING: "1…`
 - ✅ `objects/bin.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/built-in-functions.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/bwdf.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1979,7 +1980,8 @@
 - ✅ `objects/pattern-master-file.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pattern-object.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pattern-tool.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/pclk.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/pclk.md` — 引用块/代码块 15 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
+    - ⚠️ 未称逐字，覆盖率 67%｜`Used for equation based timing. It is derived as follows: 100 * equation_set_no …`
 - ✅ `objects/pdiv.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pfnd.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pin-configuration-file.md` — 引用块/代码块 18 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2012,10 +2014,12 @@
     - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
         - `previously defined by the DFGP, DFGP? - (DeFine`
         - `DFGP, DFGP? - (DeFine GrouP) command. The threshold`
-- ✅ `objects/rdi-configure-file.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-    - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
+- ✅ `objects/rdi-configure-file.md` — 引用块/代码块 17 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
+    - ⚠️ 未称逐字，覆盖率 69%｜`- TP indicates an error map location in the test processor memory of the channel…`
+    - 🟠 **疑似自加结构 3 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
         - `generate eight or more cycles […]. So when`
         - `cycles […]. So when this mode is enabled,`
+        - `of the channel. - RAM indicates that the`
 - ✅ `objects/report-window.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/result-configuration.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/rset.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2049,7 +2053,11 @@
 - ✅ `objects/spec-tool.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/spec-value.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/spec-variable.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/special-test-suites.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/special-test-suites.md` — 引用块/代码块 7 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
+    - ⚠️ 未称逐字，覆盖率 60%｜`If you use the DISCONNECT API in this test suite, then - if you defined a discon…`
+    - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
+        - `test suite, then - if you defined a`
+        - `will be executed; - if no disconnect sequence`
 - ✅ `objects/spmu-pin-task-mode.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/spmu-pin-task.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/spmu-task.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2093,7 +2101,8 @@
 - ✅ `objects/timing-equation-set.md` — 引用块/代码块 25 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-file.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-master-file.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/timing-set-selector.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/timing-set-selector.md` — 引用块/代码块 9 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
+    - ⚠️ 未称逐字，覆盖率 50%｜`In equation based timing setup, it is a timing specification ID calculated as fo…`
 - ✅ `objects/timing-setup-tool.md` — 引用块/代码块 43 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-spec.md` — 引用块/代码块 19 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-specification.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2103,9 +2112,14 @@
         - `getLimitRef(), getLimitObj() / load() (without parameters!). - The`
 - ✅ `objects/tp360.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；另有 1 处**忽略空白后才对上**（排版差异，不判错）
 - ✅ `objects/tpi-program-routines.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/tpt-generate-device-dir.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/tpt-import-from-device.md` — 引用块/代码块 10 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/tpt-generate-device-dir.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/tpt-import-from-device.md` — 引用块/代码块 10 处；对不上的 2 处，其中**页面自称「逐字」的 0 处**
+    - ⚠️ 未称逐字，覆盖率 79%｜`<overwrite_flag> specifies whether STPM may overwrite existing files in the test…`
     - ⚠️ 未称逐字，覆盖率 60%｜`<pre_proc> is a script that is executed before this command. <post_proc> is a sc…`
+    - 🟠 **疑似自加结构 3 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
+        - `in the test program template directory: - 0`
+        - `template directory: - 0 (default): No existing files`
+        - `and stops the conversion. - 1: STPM may`
 - ✅ `objects/tsus.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/tsux.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/udef.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2151,7 +2165,8 @@
 - ✅ `stages/pin.md` — 引用块/代码块 14 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `stages/project.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `stages/results.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `stages/run.md` — 引用块/代码块 58 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；另有 2 处**忽略空白后才对上**（排版差异，不判错）
+- ✅ `stages/run.md` — 引用块/代码块 58 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**；另有 2 处**忽略空白后才对上**（排版差异，不判错）
+    - ⚠️ 未称逐字，覆盖率 71%｜`When this option is enabled, a message is output to the report window at the beg…`
     - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
         - `system/testflow/testsuite flags. - Execute the test. Obtain the`
         - `flag settings. - Execute all tests. Obtain the`
@@ -2308,8 +2323,8 @@
 > - **自称「逐字」却没对上 = 硬错误。** 要么改回原文，要么把「逐字」二字删掉。
 > - **没自称逐字 = 转述，对不上是正常的。** 只提示，不判错。
 >
-> **另一档，与上面两档都不同：疑似自加结构 —— 本次共 20 处。**
-> **本类主动排除：`<!-- 语法节 begin -->`…`<!-- 语法节 end -->` 之间那一段，本次涉及 322 页、共 3703283 字符。**
+> **另一档，与上面两档都不同：疑似自加结构 —— 本次共 26 处。**
+> **本类主动排除：`<!-- 语法节 begin -->`…`<!-- 语法节 end -->` 之间那一段，本次涉及 322 页、共 3726365 字符。**
 > 那一段由 `objscaffold.py` 写（§4），段内语料链接被机械改写成 ``文本``（raw: `路径`），**按设计就不是逐字的**——不排除它，本类会稳定地报一条自己造成的「对不上」。
 > **它没有被放过，是被更硬的口径接管了**：第十二类查的是「页面与脚本当前产出**逐字节一致**」。两个检查管同一段时，弱的那条只产生噪声。
 > 形状判据三条：引文单元**以 `- ` 开头**、**中间含 ` - `**、或**含 `…` / `...`**，**且对不上原文**。
@@ -2342,7 +2357,7 @@
 ## 第八类 · 链接目标可达（**抓断链；排除项是名字白名单两项，行内代码跨度里的 wikilink 照样算**）
 
 - 内容页共 **505** 页，引用 **521** 个目标，其中 **16** 个找不到对应页。
-- 口径指纹：内容页 505 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = eb6915d2c3ae`。
+- 口径指纹：内容页 505 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 4b9c617da2b0`。
 
 > **这不是页面的缺陷，是建页 backlog。** 它列的是**脊椎已经要求**的页——
 > 比按 `in_src` 排的「125 个高入度对象」更有用：那些只是"语料里常出现"，

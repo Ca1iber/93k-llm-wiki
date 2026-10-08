@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **592 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`。**不是转述。**
+> 本节 **582 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -26,33 +26,10 @@ verified: doc-only
 
 ### Parameters
 
-|
-
-js_set_name
-
- |
-
-In the command, this is the name of a new jitter set. In the query, it is a name of an existing jitter set. If you omit this parameter in the query, JSDF? will return the names of all user defined jitter sets.
-
- |
- |
-
-mode_context
-
- |
-
-The mode context with which the jitter set is associated. If this parameter is omitted, the DEFAULT context is assumed.
-
- |
- |
-
-ALL
-
- |
-
-With this parameter, the query returns all existing jitter sets.
-
- |
+| js_set_name | In the command, this is the name of a new jitter set. In the query, it is a name of an existing jitter set. If you omit this parameter in the query, JSDF? will return the names of all user defined jitter sets. |
+|---|---|
+| mode_context | The mode context with which the jitter set is associated. If this parameter is omitted, the DEFAULT context is assumed. |
+| ALL | With this parameter, the query returns all existing jitter sets. |
 
 ### Example
 
@@ -255,7 +232,7 @@ JSDF {"js_set_name"} [, "mode_context"]
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md`
-（TDC `117922.htm`，87 行）
+（TDC `117922.htm`，64 行）
 
 **本页没做的**：
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **459 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`。**不是转述。**
+> 本节 **463 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,15 +32,8 @@ UDPS {(pinlist)}
 
 ### Parameters
 
-|
-
-pinlist
-
- |
-
-Consists of single or multiple pin names or the symbol @ which undefines all DPS pins. If more than one pin is to be removed, the names must be separated with a comma.
-
- |
+| pinlist | Consists of single or multiple pin names or the symbol @ which undefines all DPS pins. If more than one pin is to be removed, the names must be separated with a comma. |
+|---|---|
 
 ### Example
 
@@ -271,7 +264,7 @@ Several firmware commands can disable a device specific license lock, in other w
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md`
-（TDC `98823.htm`；**md 1,207 字节 / 42 行**，上游 htm 3,060 字节）。**整篇读完——本篇只有 42 行。**
+（TDC `98823.htm`；**md 1,203 字节 / 42 行**，上游 htm 3,060 字节）。**整篇读完——本篇只有 42 行。**
 
 **另外读了三篇 raw 全文 + 一篇 raw 的一句（本页 `sources:` 之外，逐条声明）：**
 
@@ -341,7 +334,7 @@ Several firmware commands can disable a device specific license lock, in other w
 >
 > **⑤ 本篇在语料里有**两份**投放，正文逐行完全相同。**
 > 另一份是 `02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md`
-> （`source_topic: "98823_2.htm"`，**1,208 字节**）。
+> （`source_topic: "98823_2.htm"`，**1,204 字节**）。
 > **实测 `diff`：两份的差别只有 frontmatter 的第 3、4 行**（`source_topic` / `source_html`），
 > 那 1 字节的差就是 `98823` → `98823_2`。**两份上游也各有一个 `.htm`，
 > 而且 `cmp` 报 `98823.htm` 与 `98823_2.htm` 完全一致**（都是 3,060 字节）——

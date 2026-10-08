@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,391 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.05_Utility_power_supplies.md>`。**不是转述。**
+> 本节 **2,389 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.05_Utility_power_supplies.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -26,11 +26,12 @@ verified: doc-only
 
 ### Tables（脚本逐字抽取，第 1 张）
 
- | Voltages  | Interface  | V93000 EXA Scale systems  | V93000 systems |
- | +5 V  | UP5V pin on all utility pogo blocks  | `Utility power supply - UP5V pins`（raw: `02.03.05.01_Utility_power_supply_-_UP5V_pins__V93000_EXA_Scale_systems.md`）  | `Internal utility power supply`（raw: `02.03.05.05_Internal_utility_power_supply__V93000_systems.md`） |
- | +5 V, +3.3 V, -5 V  | XP... pins on all 4-row utility pogo blocks  | `Utility power supply - XP pins`（raw: `02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md`）  | `External utility power supply`（raw: `02.03.05.06_External_utility_power_supply__V93000_systems.md`） |
- | +15 V, -15 V, 24 V floating  | UPP15V, UPM15V, F24V... pins on selected 4-row utility pogo blocks  | `Utility power supply - UPP15V / UPM15V / F24V pins`（raw: `02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`）  | n.a. |
- | +5 V, +12 V, +15 V, -15 V  | DPS pogo block (3 rows)  | `Internal Utility Power Option`（raw: `02.03.05.04_Internal_Utility_Power_Option__V93000_EXA_Scale_systems.md`）  | `Internal Utility Power Supply (SE-UDPS)`（raw: `02.03.05.07_Internal_Utility_Power_Supply__SE-UDPS___V93000_systems.md`） |
+| Voltages | Interface | V93000 EXA Scale systems | V93000 systems |
+|---|---|---|---|
+| +5 V | UP5V pin on all utility pogo blocks | `Utility power supply - UP5V pins`（raw: `02.03.05.01_Utility_power_supply_-_UP5V_pins__V93000_EXA_Scale_systems.md`） | `Internal utility power supply`（raw: `02.03.05.05_Internal_utility_power_supply__V93000_systems.md`） |
+| +5 V, +3.3 V, -5 V | XP... pins on all 4-row utility pogo blocks | `Utility power supply - XP pins`（raw: `02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md`） | `External utility power supply`（raw: `02.03.05.06_External_utility_power_supply__V93000_systems.md`） |
+| +15 V, -15 V, 24 V floating | UPP15V, UPM15V, F24V... pins on selected 4-row utility pogo blocks | `Utility power supply - UPP15V / UPM15V / F24V pins`（raw: `02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`） | n.a. |
+| +5 V, +12 V, +15 V, -15 V | DPS pogo block (3 rows) | `Internal Utility Power Option`（raw: `02.03.05.04_Internal_Utility_Power_Option__V93000_EXA_Scale_systems.md`） | `Internal Utility Power Supply (SE-UDPS)`（raw: `02.03.05.07_Internal_Utility_Power_Supply__SE-UDPS___V93000_systems.md`） |
 
 ### Tables（脚本逐字抽取，第 2 张）
 

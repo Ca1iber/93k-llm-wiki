@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,054 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`。**不是转述。**
+> 本节 **2,040 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,77 +44,14 @@ CLKR {waveform_set|specset_id|"multi-port_spec"}, [ref_period],{period_res|clock
 
 ### Parameters
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-100 * equation_set_no + specset_no
-
- |
- |
-
-multi-port_spec
-
- |
-
-To set or query the resolution of a multi-port timing specification, specify the name of the specification.
-
- |
- |
-
-ref_period
-
- |
-
-Not used. (Ignored)
-
- |
- |
-
-period_res
-
- |
-
-The period resolution (in ns) for the specified specification or waveform set.
-
-If necessary, period_res is rounded to nine digits after the decimal point. The allowable maximum period resolution is the maximum tester period value. The minimum period resolution is determined by the hardware (see `Automatic calculation of period resolution for single-port setups`（raw: `02.06.06.01.04.01.02.01_Automatic_calculation_of_period_resolution_for_single-port_setups.md`）).
-
- |
- |
-
-type
-
- |
-
-In the query, the type parameter specifies which resolution is queried. The allowed values are:
-
-VIRTUAL: The period resolution (period_res) is queried. This is the default.
-
-EXACT: The clock resolution (clock_res) is queried.
-
- |
- |
-
-clock_res
-
- |
-
-In the answer to the query, the clock resolution is returned if type is set to EXACT in the query.
-
- |
+| waveform_set | Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Derived as follows:<br><br>100 * equation_set_no + specset_no |
+| multi-port_spec | To set or query the resolution of a multi-port timing specification, specify the name of the specification. |
+| ref_period | Not used. (Ignored) |
+| period_res | The period resolution (in ns) for the specified specification or waveform set.<br><br>If necessary, period_res is rounded to nine digits after the decimal point. The allowable maximum period resolution is the maximum tester period value. The minimum period resolution is determined by the hardware (see `Automatic calculation of period resolution for single-port setups`（raw: `02.06.06.01.04.01.02.01_Automatic_calculation_of_period_resolution_for_single-port_setups.md`）). |
+| type | In the query, the type parameter specifies which resolution is queried. The allowed values are:<br><br>VIRTUAL: The period resolution (period_res) is queried. This is the default.<br><br>EXACT: The clock resolution (clock_res) is queried. |
+| clock_res | In the answer to the query, the clock resolution is returned if type is set to EXACT in the query. |
 
 ### Example
 
@@ -308,7 +245,7 @@ An error is generated if:
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md`
-（TDC `98504.htm`，3,592 字节，142 行）。**整篇读完。**
+（TDC `98504.htm`，3,514 字节，79 行）。**整篇读完。**
 
 **本页没做的**：
 

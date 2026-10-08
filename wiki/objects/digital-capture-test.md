@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,759 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.35_DIGITAL_CAPTURE_TEST.md>`。**不是转述。**
+> 本节 **3,809 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.35_DIGITAL_CAPTURE_TEST.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -47,99 +47,12 @@ void DIGITAL_CAPTURE_TEST(DOUBLE timeout, const TM::WAIT_ACTION& wait_action,
 ```
 
 Parameters
- |
-
-I/O
-
- |
-
-Parameter
-
- |
-
-Description/Range
-
- |
- |
-
-I
-
- |
-
-timeout
-
- |
-
-Timeout time of the measurement (test).
-
-Unit: s
-
-If you omit this parameter, the default timeout is 360000 s.
-
- |
- |
-
-I
-
- |
-
-wait_action
-
- |
-
-This parameter allows you to select which sequencer's completion the API waits for, from the following hardware categories that are represented by the constant variables. It is also valid for combination of them by using "|" (use bitwise OR to select multiple ones). For example, if you make this API waited until AWGs and digitizers/samplers complete the current sequencer programs, specify TM::WAIT_AWG|TM::WAIT_DGT to this parameter.
-
-- TM::WAIT_ALL:
-
-waits until all used digital channels, AWGs, digitizers/samplers, and TIAs complete their tasks.
-
-- TM::WAIT_DIGITAL (default):
-
-waits until all used digital channels complete the current sequencer program.
-
-- TM::WAIT_AWG:
-
-waits until all used AWGs complete the current sequencer programs.
-
-- TM::WAIT_DGT:
-
-waits until all used digitizers and samplers complete the current sequencer programs.
-
-- TM::WAIT_TIA:
-
-waits until all used TIAs complete the current measurements.
-
- |
- |
-
-I
-
- |
-
-resultAreaId
-
- |
-
-The name of a result retention area for background processing. See `RESULT_AREA_CONFIG`（raw: `02.07.04.01.190_RESULT_AREA_CONFIG_SET.md`） API.
-
-For sequencer context executions without using a result area use an empty string for the resultAreaId, and specify both this and the context parameter. See also example below.
-
- |
- |
-
-I
-
- |
-
-context
-
- |
-
-Name of an execution context. The ports of the context must be included in the current start label (which must be a multiport burst). For more information on execution contexts see `Using execution contexts`（raw: `../02.06_Command_Reference/02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .
-
-The context must have been defined on the firmware level (with the SQEC command), or as a SEQUENCER_CONTEXT_ITEM object. In the latter case this object must have been included in a SEQUENCER_CONTEXT object, and must also have been activated on the firmware level with the apply() function of this SEQUENCER_CONTEXT object. If the context has been defined as a SEQUENCER_CONTEXT_ITEM object, you must use the name specified for its name parameter.
-
- |
+| I/O | Parameter | Description/Range |
+|---|---|---|
+| I | timeout | Timeout time of the measurement (test).<br><br>Unit: s<br><br>If you omit this parameter, the default timeout is 360000 s. |
+| I | wait_action | This parameter allows you to select which sequencer's completion the API waits for, from the following hardware categories that are represented by the constant variables. It is also valid for combination of them by using "\|" (use bitwise OR to select multiple ones). For example, if you make this API waited until AWGs and digitizers/samplers complete the current sequencer programs, specify TM::WAIT_AWG\|TM::WAIT_DGT to this parameter.<br><br>- TM::WAIT_ALL:<br><br>waits until all used digital channels, AWGs, digitizers/samplers, and TIAs complete their tasks.<br><br>- TM::WAIT_DIGITAL (default):<br><br>waits until all used digital channels complete the current sequencer program.<br><br>- TM::WAIT_AWG:<br><br>waits until all used AWGs complete the current sequencer programs.<br><br>- TM::WAIT_DGT:<br><br>waits until all used digitizers and samplers complete the current sequencer programs.<br><br>- TM::WAIT_TIA:<br><br>waits until all used TIAs complete the current measurements. |
+| I | resultAreaId | The name of a result retention area for background processing. See `RESULT_AREA_CONFIG`（raw: `02.07.04.01.190_RESULT_AREA_CONFIG_SET.md`） API.<br><br>For sequencer context executions without using a result area use an empty string for the resultAreaId, and specify both this and the context parameter. See also example below. |
+| I | context | Name of an execution context. The ports of the context must be included in the current start label (which must be a multiport burst). For more information on execution contexts see `Using execution contexts`（raw: `../02.06_Command_Reference/02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .<br><br>The context must have been defined on the firmware level (with the SQEC command), or as a SEQUENCER_CONTEXT_ITEM object. In the latter case this object must have been included in a SEQUENCER_CONTEXT object, and must also have been activated on the firmware level with the apply() function of this SEQUENCER_CONTEXT object. If the context has been defined as a SEQUENCER_CONTEXT_ITEM object, you must use the name specified for its name parameter. |
 
 ### Example
 
@@ -331,7 +244,7 @@ DIGITAL_CAPTURE_TEST(defaultResultAreaId, contextName);
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.35_DIGITAL_CAPTURE_TEST.md`
-（TDC `28758.htm`，174 行 / 6,349 字节）。**整篇读完**。
+（TDC `28758.htm`，87 行 / 6,349 字节）。**整篇读完**。
 
 **本页没做的**：
 

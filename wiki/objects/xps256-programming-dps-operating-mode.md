@@ -22,17 +22,6 @@ verified: doc-only
 这类**段标记**，跟着 `Subtopics` 找一层也没有。
 **所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
-> ⚠️ **本文档里有 4 处「未加标记的参数清单」**（形状像参数名的一串列表项）。**脚本不收录它们**，但也不许假装它们不存在：
-
-> | 上文 | 条数 | 例 |
-> |---|---|---|
-> | Current: | 5 | `ilimit`、`ilimit_sink`、`ilimit_source` |
-> | Constant current check: | 3 | `disable_const_curr_check`、`ms_const_curr_disconnect`、`ms_const_curr_time_to_alarm` |
-> | Maximum voltage drop: | 4 | `max_voltage_drop_force`、`max_voltage_drop_return`、`warn_voltage_drop_force` |
-> | Voltage slew rate: | 5 | `vout_rise_t_ms_per_volt`、`vout_rise_t_ms_per_volt_c2c`、`vout_fall_t_ms_per_volt` |
-
-> **要看这些参数的正规定义，回 raw 读本文档**；要参数的含义与取值，查它们链接到的资源页。
-
 <!-- 语法节 end -->
 
 ## 是什么
@@ -167,7 +156,7 @@ results table**。
 ## 出处
 
 - 定义文档：`02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.07_XPS256_programming_-_DPS_operating_mode.md`
-  （TDC `354249.htm`，13,031 字节，187 行）
+  （TDC `354249.htm`，13,143 字节，119 行）
 - **入边 42 条 / 20 篇**（`inline` 口径；其中 3 条是本文档自己指向自己的锚点链接，
   已从「篇」里扣掉——**自引不算被引用**）
 - 所属：**Test Head Cards → XPS256**（`02.05.05.03`）

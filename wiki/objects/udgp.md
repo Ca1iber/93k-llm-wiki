@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **292 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`。**不是转述。**
+> 本节 **296 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,15 +32,8 @@ UDGP {(group)}
 
 ### Parameters
 
-|
-
-group
-
- |
-
-Defines the name of the group of pins to be removed. The symbol @ can be used to dismantle all groups. If more than one group is to be removed, the names must be separated by a comma.
-
- |
+| group | Defines the name of the group of pins to be removed. The symbol @ can be used to dismantle all groups. If more than one group is to be removed, the names must be separated by a comma. |
+|---|---|
 
 ### Example
 
@@ -198,12 +191,12 @@ UDGP (Qout)
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md`
-（TDC `98822.htm`，**974 字节 / 43 行**）。**整篇读完**——它是本页四篇 raw 里最短的一篇，
+（TDC `98822.htm`，**970 字节 / 43 行**）。**整篇读完**——它是本页四篇 raw 里最短的一篇，
 本页引文全部来自这一篇 + `edges.jsonl` 里带原句的边。
 
 > **它是同一篇的第二次投放。** 同一篇还以
 > `02_System_reference/02.06_Command_Reference/02.06.03.02.25_UDGP_-__UnDefine_GrouP.md` 存在
-> （`source_topic` 分别是 `98822.htm` 与 `98822_2.htm`，975 字节）。
+> （`source_topic` 分别是 `98822.htm` 与 `98822_2.htm`，971 字节）。
 > **本页把两份逐字节比过：正文完全相同，唯一差别在 frontmatter 的 `source_topic` / `source_html` 两行**
 > （逐行 `diff` 只有那两行，+1 字节就是文件名长了 1 个字符）。
 > **所以本页的文档号只写了一个，不是漏列**；**数入度时两条要当一篇看**（§10 的「重复投放」）。

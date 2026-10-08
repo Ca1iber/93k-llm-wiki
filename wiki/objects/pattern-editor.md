@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **10,757 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02_Pattern_Editor.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.01_Collapsed_and_expanded_mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.02_Signal_and_pin_group_representations.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.03_Pattern_editor_properties_view.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.04.03_STATEMAP_section_of_the_wavetable.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.01_Inserting_counted_match_loops.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.16_Creating_a_Digital_Source_setup.md>`。**不是转述。**
+> 本节 **10,675 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02_Pattern_Editor.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.01_Collapsed_and_expanded_mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.02_Signal_and_pin_group_representations.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.03_Pattern_editor_properties_view.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.04.03_STATEMAP_section_of_the_wavetable.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.01_Inserting_counted_match_loops.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.16_Creating_a_Digital_Source_setup.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -58,150 +58,15 @@ The vector properties view always shows the physical waveform. Drive edges and r
 
 Any abbreviations you may use in your wavetables, are translated into the proper action code for `drive edges`（raw: `../02.06_Command_Reference/02.06.06.01.03.01.01.01_Drive_actions.md`） and `receive edges`（raw: `../02.06_Command_Reference/02.06.06.01.03.01.01.02_Receive_actions.md`）.
 
- |
-
-Drive edges
-
- |
-
- |
-
- |
-
-Receive edges
-
- |
-
- |
- |
-
-Abbreviation
-
- |
-
-Action code
-
- |
-
- |
-
-Abbreviation
-
- |
-
-Action code
-
- |
- |
-
-0
-
- |
-
-F00
-
- |
-
- |
-
-L
-
- |
-
-E0
-
- |
- |
-
-1
-
- |
-
-F10
-
- |
-
- |
-
-H
-
- |
-
-E1
-
- |
- |
-
-!Z
-
- |
-
-FN0
-
- |
-
- |
-
-M
-
- |
-
-EI
-
- |
- |
-
-Z
-
- |
-
-FNZ
-
- |
-
- |
-
-U
-
- |
-
-EU
-
- |
- |
-
-. (period)
-
- |
-
-N
-
- |
-
- |
-
-X
-
- |
-
-EX
-
- |
- |
-
- |
-
- |
-
- |
-
-. (period)
-
- |
-
-N
-
- |
+| Drive edges |  |  | Receive edges |  |
+|---|---|---|---|---|
+| Abbreviation | Action code |  | Abbreviation | Action code |
+| 0 | F00 |  | L | E0 |
+| 1 | F10 |  | H | E1 |
+| !Z | FN0 |  | M | EI |
+| Z | FNZ |  | U | EU |
+| . (period) | N |  | X | EX |
+|  |  |  | . (period) | N |
 
 ### Test point properties
 
@@ -1027,7 +892,7 @@ MAPPING
 
 - 定义文档（本页 `sources:` 唯一一篇，**整篇读过**）：
   `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02_Pattern_Editor.md`
-  （TDC `99157.htm`，5,427 字节 / 137 行）。
+  （TDC `99157.htm`，5,287 字节 / 137 行）。
 - **本篇没有重复投放**：全语料按 `source_topic` 查 `99157.htm`，**只有这一个文件**。
 
 ### 本页「语法 / 参数」节的来源（**那一节不是本页写的，也不来自定义文档**）

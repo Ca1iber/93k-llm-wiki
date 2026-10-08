@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **288 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.02_CCTchangeLevelSpec.md>`。**不是转述。**
+> 本节 **277 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.02_CCTchangeLevelSpec.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -31,33 +31,10 @@ void CCTchangeLevelSpec(const string& old_spec, DOUBLE value);
 ```
 
 Parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-old_spec
-
- |
-
-The name of the spec to change
-
- |
- |
-
-value
-
- |
-
-The value to use
-
- |
+| Parameter | Description |
+|---|---|
+| old_spec | The name of the spec to change |
+| value | The value to use |
 
 Return value
 
@@ -196,7 +173,7 @@ CCTchangeLevelSpec("spec1", 1.2);
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.14.02_CCTchangeLevelSpec.md`
-（TDC `136736.htm`，60 行 / 841 字节）。**整篇读完**——**这页之所以短，是因为它本来就短**。
+（TDC `136736.htm`，37 行 / 841 字节）。**整篇读完**——**这页之所以短，是因为它本来就短**。
 
 **本页没做的：**
 

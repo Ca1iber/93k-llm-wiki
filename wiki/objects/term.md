@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,689 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`。**不是转述。**
+> 本节 **4,734 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -46,128 +46,17 @@ TERM {level_set_no | level_set_id}, {term_mode}, [term_pulldown,] [param_1], [pa
 
 ### Parameters
 
-|
-
-level_set_no
-
- |
-
-The identification number of the level set in which you want the definitions to be included. The number must not exceed the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）) and the level sets used (as defined by `LSUS`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）). Entering ALL in this field sets the termination mode for all existing level sets (except level set 0). Entering PRM in this field defines the termination mode for the primary level set.
-
-Standard level sets have a number > 0. Level set 0 is a dedicated level set for digital pins in high-Z state. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）.
-
- |
- |
-
-level_set_id
-
- |
-
-Derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + level_set_no`
-
- |
- |
-
-term_mode
-
- |
-
-The termination mode has dependencies to pin types and to the parameters (term_pulldown and param_1 to param_3 - see the syntax). The allowed combinations are shown in the Termination modes table, below.
-
-Level set 0 only supports the termination modes OFF (the default), T, C, and A.
-
- |
- |
-
-term_pulldown
-
- |
-
-Extra parameter that defines the pull down mode. For more information refer to column term_mode of table Termination modes below.
-
-The query returns the parameter only if it is defined for the queried level set.
-
- |
- |
-
-param_1
-
- |
-
-The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_1 gives the termination voltage, active load commutation voltage, or the clamp low level voltage. The units are mV.
-
- |
- |
-
-param_2
-
- |
-
-The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_2 defines the active load Iol current, or the clamp high level voltage. The units are mA or mV respectively.
-
-When used, param_2 defines either
-
-- the active load Iol current in µA,
-- the clamp high level voltage in mV, or
-- the receiver swing voltage in mV.
-
-For the NP termination modes SP, SM, SEP, or SEM, param_2 defines the receiver threshold in mV.
-
- |
- |
-
-param_3
-
- |
-
-The use of this parameter depends on the termination mode as shown in the Termination modes table, below:
-
-- For term_mode = A, param_3 defines the active load Ioh current. The units are µA.
-- For term_mode = CT, param_3 defines the receiver offset in mV.
-- For term_mode = bidir_receiver, param_3 defines the receiver offset in mV.
- |
- |
-
-l_range
-
- |
-
-For term_mode `=`A the low level current range.
-
-This parameter can be
-
-- I5E3: Defines the low current range of 0 to 5 mA.
-- I3E4: Defines the high current range of 0 to 30 mA.
-- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range.
-
-This parameter is not supported for AVI64.
-
- |
- |
-
-h_range
-
- |
-
-For term_mode `=`A the high level current range.
-
-This parameter can be
-
-- I5E3: Defines the low current range of 0 to 5 mA.
-- I3E4: Defines the high current range of 0 to 30 mA.
-- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range.
- |
- |
-
-pinlist
-
- |
-
-The pin name or names of those power supply outputs which have already been defined. If more than one pin is required, the names must be separated with a comma. The @ character can be used to read all configured power supply pins.
-
- |
+| level_set_no | The identification number of the level set in which you want the definitions to be included. The number must not exceed the maximum number of level sets allowed (as defined by `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）) and the level sets used (as defined by `LSUS`（raw: `02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`）). Entering ALL in this field sets the termination mode for all existing level sets (except level set 0). Entering PRM in this field defines the termination mode for the primary level set.<br><br>Standard level sets have a number > 0. Level set 0 is a dedicated level set for digital pins in high-Z state. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）. |
+|---|---|
+| level_set_id | Derived as follows:<br><br>`100000 * equation_set_no + 1000 * specset_no + level_set_no` |
+| term_mode | The termination mode has dependencies to pin types and to the parameters (term_pulldown and param_1 to param_3 - see the syntax). The allowed combinations are shown in the Termination modes table, below.<br><br>Level set 0 only supports the termination modes OFF (the default), T, C, and A. |
+| term_pulldown | Extra parameter that defines the pull down mode. For more information refer to column term_mode of table Termination modes below.<br><br>The query returns the parameter only if it is defined for the queried level set. |
+| param_1 | The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_1 gives the termination voltage, active load commutation voltage, or the clamp low level voltage. The units are mV. |
+| param_2 | The use of this parameter depends on the termination mode as shown in the Termination modes table, below. When used, param_2 defines the active load Iol current, or the clamp high level voltage. The units are mA or mV respectively.<br><br>When used, param_2 defines either<br><br>- the active load Iol current in µA,<br>- the clamp high level voltage in mV, or<br>- the receiver swing voltage in mV.<br><br>For the NP termination modes SP, SM, SEP, or SEM, param_2 defines the receiver threshold in mV. |
+| param_3 | The use of this parameter depends on the termination mode as shown in the Termination modes table, below:<br><br>- For term_mode = A, param_3 defines the active load Ioh current. The units are µA.<br>- For term_mode = CT, param_3 defines the receiver offset in mV.<br>- For term_mode = bidir_receiver, param_3 defines the receiver offset in mV. |
+| l_range | For term_mode `=`A the low level current range.<br><br>This parameter can be<br><br>- I5E3: Defines the low current range of 0 to 5 mA.<br>- I3E4: Defines the high current range of 0 to 30 mA.<br>- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range.<br><br>This parameter is not supported for AVI64. |
+| h_range | For term_mode `=`A the high level current range.<br><br>This parameter can be<br><br>- I5E3: Defines the low current range of 0 to 5 mA.<br>- I3E4: Defines the high current range of 0 to 30 mA.<br>- AUTO: Lets the firmware automatically select the correct range. Whenever possible, the system selects the lower range. |
+| pinlist | The pin name or names of those power supply outputs which have already been defined. If more than one pin is required, the names must be separated with a comma. The @ character can be used to read all configured power supply pins. |
 
 ### Example 1
 
@@ -500,7 +389,7 @@ A warning is generated if:
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`
-（TDC `98771.htm`，11,651 字节，556 行）。**整篇读完。**
+（TDC `98771.htm`，11,584 字节，445 行）。**整篇读完。**
 
 **本页没做的**：
 

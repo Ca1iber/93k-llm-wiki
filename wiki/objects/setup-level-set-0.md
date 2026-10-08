@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,602 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.06_SetupLevelSet0.md>`。**不是转述。**
+> 本节 **1,609 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.06_SetupLevelSet0.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -26,134 +26,15 @@ verified: doc-only
 
 ### Parameters
 
-|
-
-Pins[]
-
- |
-
-string
-
- |
-
-array of pins
-
-Separate pins with semicolon (;). Valid pin types include I, O, or IO digital pin.
-
- |
- |
-
-ClampVoltage.Mode[]
-
- |
-
-string
-
- |
-
-array of clamp mode. It can be:
-
-ON: Clamp is set to on with low/high voltage.
-
-OFF: Clamp is set to off.
-
-To specify different configuration for different pins, separate the values with semicolon (;).
-
- |
- |
-
-ClampVoltage.Low_V[]
-
- |
-
-string
-
- |
-
-array of low clamp voltage in unit [V]
-
-To specify different configuration for different pins, separate the values with semicolon (;).
-
- |
- |
-
-ClampVoltage.High_V[]
-
- |
-
-string
-
- |
-
-array of high clamp voltage in unit [V]
-
-To specify different configuration for different pins, separate the values with semicolon (;).
-
- |
- |
-
-ActiveLoad.Mode[]
-
- |
-
-string
-
- |
-
-array of active load mode. It can be:
-
-ON: set up active load setting, Vt, Iol and Ioh
-
-OFF: turn off active load
-
-To specify different configuration for different pins, separate the values with semicolon (;).
-
- |
- |
-
-ActiveLoad.CommutationVoltage_V[]
-
- |
-
-string
-
- |
-
-array of commutation voltage (Vcom), in unit [V]
-
-To specify different configuration for different pins, separate the values with semicolon (;).
-
- |
- |
-
-ActiveLoad.SourceCurrent_A[]
-
- |
-
-string
-
- |
-
-array of active load source current (Ioh), in unit [A]
-
-To specify different configuration for different pins, separate the values with semicolon (;).
-
- |
- |
-
-ActiveLoad.SinkCurrent_A[]
-
- |
-
-string
-
- |
-
-array of active load sink current (Iol), in unit [A]
-
-To specify different configuration for different pins, separate the values with semicolon (;).
-
- |
+| Pins[] | string | array of pins<br><br>Separate pins with semicolon (;). Valid pin types include I, O, or IO digital pin. |
+|---|---|---|
+| ClampVoltage.Mode[] | string | array of clamp mode. It can be:<br><br>ON: Clamp is set to on with low/high voltage.<br><br>OFF: Clamp is set to off.<br><br>To specify different configuration for different pins, separate the values with semicolon (;). |
+| ClampVoltage.Low_V[] | string | array of low clamp voltage in unit [V]<br><br>To specify different configuration for different pins, separate the values with semicolon (;). |
+| ClampVoltage.High_V[] | string | array of high clamp voltage in unit [V]<br><br>To specify different configuration for different pins, separate the values with semicolon (;). |
+| ActiveLoad.Mode[] | string | array of active load mode. It can be:<br><br>ON: set up active load setting, Vt, Iol and Ioh<br><br>OFF: turn off active load<br><br>To specify different configuration for different pins, separate the values with semicolon (;). |
+| ActiveLoad.CommutationVoltage_V[] | string | array of commutation voltage (Vcom), in unit [V]<br><br>To specify different configuration for different pins, separate the values with semicolon (;). |
+| ActiveLoad.SourceCurrent_A[] | string | array of active load source current (Ioh), in unit [A]<br><br>To specify different configuration for different pins, separate the values with semicolon (;). |
+| ActiveLoad.SinkCurrent_A[] | string | array of active load sink current (Iol), in unit [A]<br><br>To specify different configuration for different pins, separate the values with semicolon (;). |
 
 <!-- 语法节 end -->
 
@@ -373,7 +254,7 @@ END-IF
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.06_SetupLevelSet0.md`
-（TDC `121827.htm`，284 行 / 4,160 字节）。**整篇读完。**
+（TDC `121827.htm`，102 行 / 4,160 字节）。**整篇读完。**
 
 **本页没做的：**
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **17,358 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04_Device_access_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04.01_Device_access_file_syntax.md>`。**不是转述。**
+> 本节 **17,438 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04_Device_access_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04.01_Device_access_file_syntax.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -105,155 +105,25 @@ Italic text indicates meta-syntax, as described in `Syntax conventions`（raw: `
 
 These are the keywords and their parameters in alphabetical order:
 
- |
-
-Keyword
-
- |
-
-Parameters and descriptions
-
- |
- |
-
-:apgAccess:
-
- |
-
-Defines a device access call for use in the `APG program`（raw: `02.12.03.03.03_APG_program_file.md`） code.
-
-A device access definition describes a way of accessing a device. Access definitions describe the actions that occur on each pin of the device in order to perform a particular access of the device (for example, read or write).
-
-See the "APG access keywords" table below for details.
-
- |
- |
-
-:constants:
-
- |
-
-Defines constants (that is, named values) that can be used in the access definitions.
-
-This section is optional, but it is good practice to store important and often-used parameters in these constants for easier maintenance.
-
-See the "Constants keywords" table below for details.
-
- |
- |
-
-:deviceAccess:
-
- |
-
-This keyword is required at the start of the file.
-
- |
- |
-
-:deviceParam:
-
- |
-
-<deviceParamName>: The name of a device parameter that is to be used in the device access file.
-
-The parameter must be specified in the `Device architecture file`（raw: `02.12.03.03.05_Device_architecture_file.md`）. All parameters imported via this keyword can be used like constants in device accesses.
-
-You can specify multiple device parameters; separate them with spaces.
-
- |
- |
-
-:groups:
-
- |
-
-Declares groups of pins that have been specified in the `Pin configuration file`（raw: `02.12.03.03.09.01_Pin_configuration_file.md`）. Once declared, the groups can be used in device accesses.
-
-See the "Groups keywords" table below for details.
-
-The buses that you can configure in the pin mapping file fulfill the same purpose as groups and subgroups and are easier to use. We recommend that you use them and stop using groups. See the configure bus keyword in `Pin mapping file syntax`（raw: `02.12.03.03.06.01_Pin_mapping_file_syntax.md`） for details.
-
- |
- |
-
-:subGroups:
-
- |
-
-Defines pin subgroups.
-
-Subgroups are subsets of groups (see the :groups: keyword, above) that simplify access in cases when only parts of groups are relevant and let you easily reorder pins.
-
-See the "Subgroup keywords" table below for details.
-
-The buses that you can configure in the pin mapping file fulfill the same purpose as groups and subgroups and are easier to use. We recommend that you use them and stop using groups. See the configure bus keyword in `Pin mapping file syntax`（raw: `02.12.03.03.06.01_Pin_mapping_file_syntax.md`） for details.
-
- |
- |
-
-:version:
-
- |
-
-<deviceAccessVersion>: Any string describing the version of the device access file.
-
-This keyword is optional.
-
- |
+| Keyword | Parameters and descriptions |
+|---|---|
+| :apgAccess: | Defines a device access call for use in the `APG program`（raw: `02.12.03.03.03_APG_program_file.md`） code.<br><br>A device access definition describes a way of accessing a device. Access definitions describe the actions that occur on each pin of the device in order to perform a particular access of the device (for example, read or write).<br><br>See the "APG access keywords" table below for details. |
+| :constants: | Defines constants (that is, named values) that can be used in the access definitions.<br><br>This section is optional, but it is good practice to store important and often-used parameters in these constants for easier maintenance.<br><br>See the "Constants keywords" table below for details. |
+| :deviceAccess: | This keyword is required at the start of the file. |
+| :deviceParam: | <deviceParamName>: The name of a device parameter that is to be used in the device access file.<br><br>The parameter must be specified in the `Device architecture file`（raw: `02.12.03.03.05_Device_architecture_file.md`）. All parameters imported via this keyword can be used like constants in device accesses.<br><br>You can specify multiple device parameters; separate them with spaces. |
+| :groups: | Declares groups of pins that have been specified in the `Pin configuration file`（raw: `02.12.03.03.09.01_Pin_configuration_file.md`）. Once declared, the groups can be used in device accesses.<br><br>See the "Groups keywords" table below for details.<br><br>The buses that you can configure in the pin mapping file fulfill the same purpose as groups and subgroups and are easier to use. We recommend that you use them and stop using groups. See the configure bus keyword in `Pin mapping file syntax`（raw: `02.12.03.03.06.01_Pin_mapping_file_syntax.md`） for details. |
+| :subGroups: | Defines pin subgroups.<br><br>Subgroups are subsets of groups (see the :groups: keyword, above) that simplify access in cases when only parts of groups are relevant and let you easily reorder pins.<br><br>See the "Subgroup keywords" table below for details.<br><br>The buses that you can configure in the pin mapping file fulfill the same purpose as groups and subgroups and are easier to use. We recommend that you use them and stop using groups. See the configure bus keyword in `Pin mapping file syntax`（raw: `02.12.03.03.06.01_Pin_mapping_file_syntax.md`） for details. |
+| :version: | <deviceAccessVersion>: Any string describing the version of the device access file.<br><br>This keyword is optional. |
 
 ## APG access keywords
 
 These keywords let you specify device accesses for use in the program file (see :apgAccess:, above):
 
- |
-
-Keyword
-
- |
-
-Parameters and descriptions
-
- |
- |
-
-:interface:
-
- |
-
-Declares the interface parameter of an APG access so that you can pass values to the APG access when calling it in an `APG program file`（raw: `02.12.03.03.03_APG_program_file.md`）.
-
-In this row, you put interface parameters into {} and separate each with a space. Values that can be transferred with interface parameters are data, key, and string.
-
-Those parameters will be used in the `macros`（raw: `02.12.03.03.04.02_Macros_and_functions_in_device_accesses.md`）, `control instructions`（raw: `02.12.03.03.04.03_Control_instructions_in_device_accesses.md`）, and :states: in this APG access. They can also be declared but not used at all in this APG access.
-
-Note that:
-
-- The :name: keyword of the device access corresponds to a function name in standard C syntax
-- The parameters declared in the :interface: keyword correspond to C function parameters.
- |
- |
-
-:name:
-
- |
-
-The name of the device access by which it is called from the APG program code.
-
-See `Naming rules and conventions`（raw: `02.12.03.02.03_Naming_rules_and_conventions.md`） for naming restrictions.
-
- |
- |
-
-:table:
-
- |
-
-The data that is sent to the individual pins when the device access is called from the APG program.
-
-See the following table for details.
-
- |
+| Keyword | Parameters and descriptions |
+|---|---|
+| :interface: | Declares the interface parameter of an APG access so that you can pass values to the APG access when calling it in an `APG program file`（raw: `02.12.03.03.03_APG_program_file.md`）.<br><br>In this row, you put interface parameters into {} and separate each with a space. Values that can be transferred with interface parameters are data, key, and string.<br><br>Those parameters will be used in the `macros`（raw: `02.12.03.03.04.02_Macros_and_functions_in_device_accesses.md`）, `control instructions`（raw: `02.12.03.03.04.03_Control_instructions_in_device_accesses.md`）, and :states: in this APG access. They can also be declared but not used at all in this APG access.<br><br>Note that:<br><br>- The :name: keyword of the device access corresponds to a function name in standard C syntax<br>- The parameters declared in the :interface: keyword correspond to C function parameters. |
+| :name: | The name of the device access by which it is called from the APG program code.<br><br>See `Naming rules and conventions`（raw: `02.12.03.02.03_Naming_rules_and_conventions.md`） for naming restrictions. |
+| :table: | The data that is sent to the individual pins when the device access is called from the APG program.<br><br>See the following table for details. |
 
 The :table: element contains these keywords:
 
@@ -433,111 +303,26 @@ Note Counted match padding is available only in MTP on SOC.
 
 These keywords let you define padding setups that are referenced in the APG pattern file (see :countedMatchPad:, above).
 
- |
-
-Keyword
-
- |
-
-Parameters and descriptions
-
- |
- |
-
-:name:
-
- |
-
-The name of the padding setup by which it is specified in the APG file.
-
-See `Naming rules and conventions`（raw: `02.12.03.02.03_Naming_rules_and_conventions.md`） for naming restrictions.
-
- |
- |
-
-:table:
-
- |
-
-The references to padding routines and, optionally, ports to which to apply the padding.
-
-See the following table for details.
-
- |
+| Keyword | Parameters and descriptions |
+|---|---|
+| :name: | The name of the padding setup by which it is specified in the APG file.<br><br>See `Naming rules and conventions`（raw: `02.12.03.02.03_Naming_rules_and_conventions.md`） for naming restrictions. |
+| :table: | The references to padding routines and, optionally, ports to which to apply the padding.<br><br>See the following table for details. |
 
 The :table: element contains these keywords:
 
- |
-
-Keyword
-
- |
-
-Parameters and descriptions
-
- |
- |
-
-:subroutine:
-
- |
-
-<paddingRoutine>: The name of a padding routine defined in the `APG program file`（raw: `02.12.03.03.03_APG_program_file.md`）.
-
- |
- |
-
-:port:
-
- |
-
-<port>: The port that the relative padding routine will apply to. This port must be one of those ports in the `pin mapping file`（raw: `02.12.03.03.06.01_Pin_mapping_file_syntax.md`） specified by "using port".
-
-If the port column is omitted, the padding routine will apply to all ports. In this case, only one padding routine can be specified in the subroutine column.
-
-One port accepts only one padding routine.
-
- |
+| Keyword | Parameters and descriptions |
+|---|---|
+| :subroutine: | <paddingRoutine>: The name of a padding routine defined in the `APG program file`（raw: `02.12.03.03.03_APG_program_file.md`）. |
+| :port: | <port>: The port that the relative padding routine will apply to. This port must be one of those ports in the `pin mapping file`（raw: `02.12.03.03.06.01_Pin_mapping_file_syntax.md`） specified by "using port".<br><br>If the port column is omitted, the padding routine will apply to all ports. In this case, only one padding routine can be specified in the subroutine column.<br><br>One port accepts only one padding routine. |
 
 ## Groups keywords
 
 These keywords let you define groups of pins (see :groups:, in the topmost table above):
 
- |
-
-Keyword
-
- |
-
-Parameters and descriptions
-
- |
- |
-
-:name:
-
- |
-
-The name of the group.
-
-The pins of the group must be included in the `Pin mapping file`（raw: `02.12.03.03.06_Pin_mapping_file.md`）; for example, if the group is named "DQ" and specified as having eight pins, the pin mapping file must define the pins DQ.000 through DQ.007.
-
-If the pin mapping file does not define these pins, pins with these name must be specified in the SmarTest pin configuration file.
-
-If the pins are not found there either, an error results.
-
- |
- |
-
-:size:
-
- |
-
-The number of pins in the APG pin group.
-
-Note that pin 0 of the group is the most significant bit.
-
- |
+| Keyword | Parameters and descriptions |
+|---|---|
+| :name: | The name of the group.<br><br>The pins of the group must be included in the `Pin mapping file`（raw: `02.12.03.03.06_Pin_mapping_file.md`）; for example, if the group is named "DQ" and specified as having eight pins, the pin mapping file must define the pins DQ.000 through DQ.007.<br><br>If the pin mapping file does not define these pins, pins with these name must be specified in the SmarTest pin configuration file.<br><br>If the pins are not found there either, an error results. |
+| :size: | The number of pins in the APG pin group.<br><br>Note that pin 0 of the group is the most significant bit. |
 
 We recommend that you no longer use groups and instead use buses. See `Buses`（raw: `02.12.03.03.06.02_Buses.md`） for more information.
 
@@ -545,65 +330,12 @@ We recommend that you no longer use groups and instead use buses. See `Buses`（
 
 These keywords let you specify subgroup, that is, subsets of groups that you can address together (see :subGroups:, in the topmost table above):
 
- |
-
-Keyword
-
- |
-
-Parameters and descriptions
-
- |
- |
-
-:baseGroup:
-
- |
-
-The name of the pin group of which this group is a subset.
-
-The group must be declared in the :groups: section of the device access file.
-
- |
- |
-
-:bits:
-
- |
-
-The bits of the group that are to belong to the subgroup, enclosed in square brackets.
-
-Bit specifications can contain ranges as well as lists of pins.
-
-For example: `[0..8,10,12]` which indicates pins 0 through 8, pin 10, and pin 12. The order of the bits is significant, that is `[0,1,2,3]` is a different subgroup from `[3,2,1,0]`.
-
-If a range lists the higher number first, the order of most and least significant bits is reversed: Specifying bits `[15..0]` is an easy way of making bit 0 the least significant bit.
-
- |
- |
-
-:context:
-
- |
-
-The context of a APG pin subgroup.
-
-All bits or pins belonging to the same context of a base group must be defined, with each pin belonging to exactly one subgroup. (Each pin must belong to a subgroup, no pin may belong to more than one subgroup.)
-
-If a device access uses one subgroup of a context, it must use all subgroups of that context.
-
- |
- |
-
-:name:
-
- |
-
-The name of the subgroup
-
-The name can be any text that follows the `naming conventions`（raw: `02.12.03.02.03_Naming_rules_and_conventions.md`）. It must be unique per context.
-
- |
+| Keyword | Parameters and descriptions |
+|---|---|
+| :baseGroup: | The name of the pin group of which this group is a subset.<br><br>The group must be declared in the :groups: section of the device access file. |
+| :bits: | The bits of the group that are to belong to the subgroup, enclosed in square brackets.<br><br>Bit specifications can contain ranges as well as lists of pins.<br><br>For example: `[0..8,10,12]` which indicates pins 0 through 8, pin 10, and pin 12. The order of the bits is significant, that is `[0,1,2,3]` is a different subgroup from `[3,2,1,0]`.<br><br>If a range lists the higher number first, the order of most and least significant bits is reversed: Specifying bits `[15..0]` is an easy way of making bit 0 the least significant bit. |
+| :context: | The context of a APG pin subgroup.<br><br>All bits or pins belonging to the same context of a base group must be defined, with each pin belonging to exactly one subgroup. (Each pin must belong to a subgroup, no pin may belong to more than one subgroup.)<br><br>If a device access uses one subgroup of a context, it must use all subgroups of that context. |
+| :name: | The name of the subgroup<br><br>The name can be any text that follows the `naming conventions`（raw: `02.12.03.02.03_Naming_rules_and_conventions.md`）. It must be unique per context. |
 
 We recommend that you no longer use subgroups and instead use buses. See `Buses`（raw: `02.12.03.03.06.02_Buses.md`） for more information.
 

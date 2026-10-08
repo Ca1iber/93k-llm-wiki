@@ -317,7 +317,7 @@ resultIMeasXPS256 = spmuTask_measure.getValue("XPS256_PMU_1");
 ## 出处
 
 - 定义文档：`02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.15_XPS256_programming_-_PMU_operating_mode.md`
-  （TDC `354253.htm`，19,176 字节）
+  （TDC `354253.htm`，19,193 字节）
 - **入边 57 条 / 29 篇**（含自身 1 篇 / 15 条文内锚点）：`extract/pack/06-xps256-programming-pmu-operating-mode.md`
   口径同 `hubs-dedup.csv`：**只算 `inline` 边**。
 - 所属：**Test Head Cards**（`02.05`）→ XPS256（DC Scale 系列）

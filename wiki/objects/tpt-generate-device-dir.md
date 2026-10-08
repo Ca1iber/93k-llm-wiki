@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,832 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.03.16_tpt_generate_device_dir.md>`。**不是转述。**
+> 本节 **1,849 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.03.16_tpt_generate_device_dir.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -40,65 +40,12 @@ post_proc = <post_proc>]
 
 The parameters in the order in which they are listed above:
 
- |
-
-tpt_dir
-
- |
-
-<tpt_directory> (string) is the name and path of the directory containing the TPT files from which the device directory is to be generated.
-
-The path can be either absolute or relative to the current working directory.
-
- |
- |
-
-device_dir
-
- |
-
-<directory> (string) is the path, including the name, where the new device directory is created. The directory must either not exist yet (in which case STPM creates it) or it must be empty.
-
-The path can be either absolute or relative to the current working directory.
-
- |
- |
-
-device_name
-
- |
-
-<device_name> (string) is the name for the newly created device.
-
-This parameter is optional. If it is omitted, "device" is used.
-
- |
- |
-
-pre_proc
-
- |
-
-<pre_proc> is a script that is executed before this command.
-
-The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.
-
-This is an optional parameter.
-
- |
- |
-
-post_proc
-
- |
-
-<post_proc> is a script that is executed after this command.
-
-The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.
-
-This is an optional parameter.
-
- |
+| tpt_dir | <tpt_directory> (string) is the name and path of the directory containing the TPT files from which the device directory is to be generated.<br><br>The path can be either absolute or relative to the current working directory. |
+|---|---|
+| device_dir | <directory> (string) is the path, including the name, where the new device directory is created. The directory must either not exist yet (in which case STPM creates it) or it must be empty.<br><br>The path can be either absolute or relative to the current working directory. |
+| device_name | <device_name> (string) is the name for the newly created device.<br><br>This parameter is optional. If it is omitted, "device" is used. |
+| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
 
 ### Example
 
@@ -163,8 +110,12 @@ generate 这一步**只是把它们复制过去**，**自己没有开关**。
 原文对这两个参数各只有一句，且都指向同一篇：
 
 > 「`<pre_proc>` is a script that is executed before this command.」
->
+
 > 「The syntax of the parameter value is described in Preprocessing and postprocessing scripts.」
+
+（两句在原格里是**两段**，之间隔着换行；语料里那个换行现在写作 `<br>`。
+**所以它们不是一段连续文字，必须分成两个引文块**——并成一个，
+第七类会算「丢字符」。见 `schema.md` §11.1。）
 
 （第二句里的文档名在原文里是一个**语料内部链接**，指向
 raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`；

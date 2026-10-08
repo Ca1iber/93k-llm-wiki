@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **427 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`。**不是转述。**
+> 本节 **431 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,15 +32,8 @@ UDEF {(pinlist)}
 
 ### Parameters
 
-|
-
-pinlist
-
- |
-
-Consists of single or multiple pin names or the symbol @ which removes all pins. If more than one pin is required, the names must be separated with a comma.
-
- |
+| pinlist | Consists of single or multiple pin names or the symbol @ which removes all pins. If more than one pin is required, the names must be separated with a comma. |
+|---|---|
 
 ### Example
 
@@ -257,7 +250,7 @@ An error is generated if you attempt to undefine pins while the sequencer is in 
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md`
-（TDC `98821.htm`；**md 1,209 字节 / 46 行**，上游 htm 3,270 字节）。**整篇读完——本篇只有 46 行。**
+（TDC `98821.htm`；**md 1,205 字节 / 46 行**，上游 htm 3,270 字节）。**整篇读完——本篇只有 46 行。**
 
 **本页没做的**：
 
@@ -322,7 +315,7 @@ An error is generated if you attempt to undefine pins while the sequencer is in 
 >
 > **⑤ 同一篇文档在语料里投放了两份，本页只用了其中一份。**
 > 另一份是 `02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md`
-> （`source_topic: "98821_2.htm"`，**1,210 字节**）。
+> （`source_topic: "98821_2.htm"`，**1,206 字节**）。
 > **实测 `diff`：两份正文逐行完全相同，差别只有 frontmatter 的第 3、4 行
 > （`source_topic` / `source_html`）**，那 1 字节的差就是 `98821` → `98821_2`。
 > **两份上游也各有一个 `.htm`，而且 `cmp` 报 `98821.htm` 与 `98821_2.htm` 完全一致**

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **20,233 字符逐字取自** `<02_System_reference/02.10_Data_Logging/02.10.01.04_Data_Retrieval_Library.md>` 及其子主题 `<02_System_reference/02.10_Data_Logging/02.10.01.04.01.01_DRLEventAvailable.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.02_DRLEventGetAttribute.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.03_DRLEventGetFirstAttributeByType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.04_DRLEventGetNextAttributeByType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.05_DRLEventGetNoOfAttributes.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.06_DRLEventGetType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.07_DRLFreeEvent.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.08_DRLGetEventMask.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.09_DRLGetNextUnmaskedEvent.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.10_DRLKeepEvent.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.11_DRLNumberOfPinGroups.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.12_DRLNumberOfPins.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.13_DRLNumberOfSites.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.14_DRLPinGroupIndexToName.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.15_DRLPinGroupIndexToPins.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.16_DRLPinGroupNameToIndex.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.17_DRLPinIndexToChannel.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.18_DRLPinIndexToName.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.19_DRLPinIndexToNumber.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.20_DRLSave.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.21_DRLSetEventMask.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.22_DRLStart.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.23_DRLStop.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.24_DRLTruncate.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.03_DRLAttributeRec.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.05_DRLBankSpecificCounts.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.08_DRLBitFailMapDescAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.15_DRLErrorMapAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.16_DRLErrorOverviewAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.17_DRLEventMask.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.22_DRLFailingAddressCountAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.23_DRLFailingAdresses.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.24_DRLFailingAddressesAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.29_DRLLabelDescriptorAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.30_DRLLabelListAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.42_DRLPatternLabelAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.51_DRLPinSpecificAddresses.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.52_DRLPinSpecificCounts.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.53_DRLPinType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.60_DRLRARepairResult.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.61_DRLRARepairResultsAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.62_DRLResultPinName.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.63_DRLScanInstanceDescriptorAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.64_DRLScanInstanceListAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.65_DRLShmooAxisData.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.72_DRLShmooHXInstrumentType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.73_DRLShmooHXResourceType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.75_DRLShmooSpecVariableType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.77_DRLShmooTestCellAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.78_DRLShmooTestCellData.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.79_DRLShmooTestInfoAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.80_DRLShmooUserDefinedParamType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.83_DRLSiteSetAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.86_DRLTestConditionAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.87_DRLTestCondition.md>`。**不是转述。**
+> 本节 **20,155 字符逐字取自** `<02_System_reference/02.10_Data_Logging/02.10.01.04_Data_Retrieval_Library.md>` 及其子主题 `<02_System_reference/02.10_Data_Logging/02.10.01.04.01.01_DRLEventAvailable.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.02_DRLEventGetAttribute.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.03_DRLEventGetFirstAttributeByType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.04_DRLEventGetNextAttributeByType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.05_DRLEventGetNoOfAttributes.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.06_DRLEventGetType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.07_DRLFreeEvent.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.08_DRLGetEventMask.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.09_DRLGetNextUnmaskedEvent.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.10_DRLKeepEvent.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.11_DRLNumberOfPinGroups.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.12_DRLNumberOfPins.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.13_DRLNumberOfSites.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.14_DRLPinGroupIndexToName.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.15_DRLPinGroupIndexToPins.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.16_DRLPinGroupNameToIndex.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.17_DRLPinIndexToChannel.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.18_DRLPinIndexToName.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.19_DRLPinIndexToNumber.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.20_DRLSave.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.21_DRLSetEventMask.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.22_DRLStart.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.23_DRLStop.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.01.24_DRLTruncate.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.03_DRLAttributeRec.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.05_DRLBankSpecificCounts.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.08_DRLBitFailMapDescAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.15_DRLErrorMapAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.16_DRLErrorOverviewAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.17_DRLEventMask.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.22_DRLFailingAddressCountAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.23_DRLFailingAdresses.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.24_DRLFailingAddressesAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.29_DRLLabelDescriptorAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.30_DRLLabelListAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.42_DRLPatternLabelAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.51_DRLPinSpecificAddresses.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.52_DRLPinSpecificCounts.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.53_DRLPinType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.60_DRLRARepairResult.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.61_DRLRARepairResultsAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.62_DRLResultPinName.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.63_DRLScanInstanceDescriptorAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.64_DRLScanInstanceListAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.65_DRLShmooAxisData.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.72_DRLShmooHXInstrumentType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.73_DRLShmooHXResourceType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.75_DRLShmooSpecVariableType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.77_DRLShmooTestCellAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.78_DRLShmooTestCellData.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.79_DRLShmooTestInfoAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.80_DRLShmooUserDefinedParamType.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.83_DRLSiteSetAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.86_DRLTestConditionAttr.md>`、`<02_System_reference/02.10_Data_Logging/02.10.01.04.02.87_DRLTestCondition.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -359,69 +359,14 @@ typedef struct _DRLBankSpecificCounts {
 ```
 
 Failure code values
- |
-
-Value
-
- |
-
-Description
-
- |
- |
-
--2= DRLFailureCode_Fatal
-
- |
-
-test method execution incomplete or test method crashed
-
- |
- |
-
--1= DRLFailureCode_NA
-
- |
-
-no pass/fail result determined
-
- |
- |
-
-0 = DRLFailureCode_Pass
-
- |
-
-passed
-
- |
- |
-
-1 = DRLFailureCode_Fail
-
- |
-
-failed
-
- |
- |
-
-2 = DRLFailureCode_Error
-
- |
-
-error
-
- |
- |
-
-3 = DRLFailureCode_Bypass
-
- |
-
-bypassed (this applies only to test suites)
-
- |
+| Value | Description |
+|---|---|
+| -2= DRLFailureCode_Fatal | test method execution incomplete or test method crashed |
+| -1= DRLFailureCode_NA | no pass/fail result determined |
+| 0 = DRLFailureCode_Pass | passed |
+| 1 = DRLFailureCode_Fail | failed |
+| 2 = DRLFailureCode_Error | error |
+| 3 = DRLFailureCode_Bypass | bypassed (this applies only to test suites) |
 
 ### Syntax（取自子主题 DRL data types › DRLBitFailMapDescAttr）
 
@@ -609,69 +554,14 @@ typedef struct _DRLPinSpecificCounts {
 ```
 
 Failure code values
- |
-
-Value
-
- |
-
-Description
-
- |
- |
-
--2= DRLFailureCode_Fatal
-
- |
-
-test method execution incomplete or test method crashed
-
- |
- |
-
--1= DRLFailureCode_NA
-
- |
-
-no pass/fail result determined
-
- |
- |
-
-0 = DRLFailureCode_Pass
-
- |
-
-passed
-
- |
- |
-
-1 = DRLFailureCode_Fail
-
- |
-
-failed
-
- |
- |
-
-2 = DRLFailureCode_Error
-
- |
-
-error
-
- |
- |
-
-3 = DRLFailureCode_Bypass
-
- |
-
-bypassed (this applies only to test suites)
-
- |
+| Value | Description |
+|---|---|
+| -2= DRLFailureCode_Fatal | test method execution incomplete or test method crashed |
+| -1= DRLFailureCode_NA | no pass/fail result determined |
+| 0 = DRLFailureCode_Pass | passed |
+| 1 = DRLFailureCode_Fail | failed |
+| 2 = DRLFailureCode_Error | error |
+| 3 = DRLFailureCode_Bypass | bypassed (this applies only to test suites) |
 
 ### Example（取自子主题 DRL data types › DRLPinType）
 

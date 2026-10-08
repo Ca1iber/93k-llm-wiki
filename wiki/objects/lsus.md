@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **936 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`。**不是转述。**
+> 本节 **939 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -56,26 +56,9 @@ LSUS {level_set_no}
 
 ### Parameters
 
-|
-
-level_set_no
-
- |
-
-Level Set Number. This is the highest number currently allocated to a level set or the highest number of set you want to load. The number you type must not exceed the maximum number of level sets allowed (defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).
-
-This number is automatically updated to include any new level set as it is created. At power-on only one level set (containing the default values) is available.
-
- |
- |
-
-equation_set_no
-
- |
-
-The level equation set number for which the number of currently defined level sets is to be determined. Enter an integer in the range 1 to 99. Valid for Equation based testing only.
-
- |
+| level_set_no | Level Set Number. This is the highest number currently allocated to a level set or the highest number of set you want to load. The number you type must not exceed the maximum number of level sets allowed (defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).<br><br>This number is automatically updated to include any new level set as it is created. At power-on only one level set (containing the default values) is available. |
+|---|---|
+| equation_set_no | The level equation set number for which the number of currently defined level sets is to be determined. Enter an integer in the range 1 to 99. Valid for Equation based testing only. |
 
 ### Example
 
@@ -236,7 +219,7 @@ LSUS 4
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md`
-（TDC `98641.htm`，2,498 字节，89 行）。**整篇读完。**
+（TDC `98641.htm`，2,483 字节，72 行）。**整篇读完。**
 
 **本页没做的**：
 

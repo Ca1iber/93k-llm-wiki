@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,097 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.11.01.05.03_Wavetable_file.md>`。**不是转述。**
+> 本节 **1,092 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.11.01.05.03_Wavetable_file.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -29,35 +29,10 @@ verified: doc-only
 USE_PROTOCOL "<protocolName>" [<portList>] for wavetables
 
 Parameter
- |
-
-Parameter
-
- |
-
-Description/Range
-
- |
- |
-
-protocolName
-
- |
-
-The name of the protocol to use.
-
- |
- |
-
-portList
-
- |
-
-(optional) List of protocol ports.
-
-If omitted, all ports assigned to the protocol specified by protocolName. will be used..
-
- |
+| Parameter | Description/Range |
+|---|---|
+| protocolName | The name of the protocol to use. |
+| portList | (optional) List of protocol ports.<br><br>If omitted, all ports assigned to the protocol specified by protocolName. will be used.. |
 
 ### Example
 
@@ -288,7 +263,7 @@ USE_PROTOCOL "<protocolName>:<timingSegmentName>" <protocolPort>
 `sources:` **一篇**：
 
 - `02_System_reference/02.07_Test_Method_Reference/02.07.11.01.05.03_Wavetable_file.md`
-  （TDC `126387.htm`，2,570 字节 / 106 行，**整篇读完**）
+  （TDC `126387.htm`，2,540 字节 / 106 行，**整篇读完**）
 - 本页的「语法 / 参数」节是脚本从这一篇的 `## Syntax` / `## Example` 两段逐字抽的
   （**本页一个字没动**）。**本篇有 `## Syntax` 段，所以语法节里有那行签名**——
   这一点和 [[dfps]]（签名挂在自定段名下、语法节里没有）不同。

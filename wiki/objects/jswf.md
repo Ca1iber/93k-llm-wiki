@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,757 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`。**不是转述。**
+> 本节 **1,752 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -38,46 +38,11 @@ JSWF {"jitter_set_name"}, {"offset_sequence"}, {(pinlist)}
 
 ### Parameters
 
-|
-
-jitter_set_name
-
- |
-
-Specifies the name of a jitter set that must have been defined with JSDF.
-
- |
- |
-
-clock_resolution
-
- |
-
-Specifies the clock resolution on which the calculation will be based. The admitted range is between 880 and 1750 ps.
-
-You can retrieve the clock resolution for a specification with the CLKR? EXACT query.
-
-Note that the unit is pico seconds, not nano seconds.
-
- |
- |
-
-offset_sequence
-
- |
-
-The list of the calculated offsets that is returned.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins for which the offset sequence is calculated.
-
- |
+| jitter_set_name | Specifies the name of a jitter set that must have been defined with JSDF. |
+|---|---|
+| clock_resolution | Specifies the clock resolution on which the calculation will be based. The admitted range is between 880 and 1750 ps.<br><br>You can retrieve the clock resolution for a specification with the CLKR? EXACT query.<br><br>Note that the unit is pico seconds, not nano seconds. |
+| offset_sequence | The list of the calculated offsets that is returned. |
+| pinlist | Specifies the pins for which the offset sequence is calculated. |
 
 ### Example 1
 
@@ -326,7 +291,7 @@ seconds, but that JSWF? expects it to be specified as pico seconds.`）
 `sources:` **一篇**：
 
 - `02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md`
-  （frontmatter 的 `source_topic` 是 **`119599_2.htm`**，**3,529 字节 / 116 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 **`119599_2.htm`**，**3,488 字节 / 116 行，整篇读完**——
   按 §11.5 口径：字节是 `st_size`，行数是 `wc -l`）
 - 本页的「语法 / 参数」节是脚本从这一篇抽的（**本页一个字没动**）：
   抽的是 `## Syntax` / `## Parameters` / `## Examples` 三段。

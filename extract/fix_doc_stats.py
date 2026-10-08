@@ -40,6 +40,23 @@ def in_generated(text, pos):
     return depth > 0
 
 
+def _renumber(s, unit, new_val):
+    """把 `s` 里第一处 `<数字> <unit>` 的数字改成 `new_val`，
+    **保留页面原有的千位分隔写法**（`1,007 行` 就用逗号，`874 行` 就不用）。
+
+    ★ **2026-10-08 修**：原来写的是 `new.replace(f'{n} 行', f'{nn} 行')`——
+    生成的是 `1007 行`（无逗号），而页面写的是 `1,007 行`（有逗号），
+    **替换成了空操作**：`plan()` 报「要改 1 处」，写完页面一个字没动，
+    于是 `check_doc_stats` 那边红着、这边报「已改」。**两个数打架。**
+    字节那支同理（`f'{b:,}'` 强制加逗号，页面不带逗号时一样失效）。
+    这个 bug 一直蛰伏，是因为以前那些数字本来就是对的不需要改；
+    本次表格修复把一处行数从 1,007 压到 874，才第一次需要改 ≥4 位的行数。
+    """
+    def sub(m):
+        return f'{new_val:{"," if "," in m.group(1) else ""}}' + m.group(2)
+    return re.sub(r'([0-9][0-9,]*)(\s*' + unit + r')', sub, s, count=1)
+
+
 def plan():
     """→ `[(页面, 原文命中, 改后, 理由, 偏移)]`。
 
@@ -72,9 +89,9 @@ def plan():
             old = r['hit_raw']          # **原样那份**，不是归一过的 `hit`
             new = old
             if nb != b:
-                new = new.replace(f'{b:,} 字节', f'{nb:,} 字节')
+                new = _renumber(new, '字节', nb)
             if nn != n:
-                new = new.replace(f'{n} 行', f'{nn} 行')
+                new = _renumber(new, '行', nn)
             out.append((C.BASE / r['page'], old, new, '；'.join(why), 0))
     return out
 

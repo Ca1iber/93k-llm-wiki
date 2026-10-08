@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **15,751 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16_Pattern_Tools.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.06_Cloning_a_pattern.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.07_Moving_or_copying_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.08_Deleting_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.14.01_Moving_vectors_to_another_memory_type.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.01_Collapsed_and_expanded_mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.02_Signal_and_pin_group_representations.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.03_Pattern_editor_properties_view.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.04.03_STATEMAP_section_of_the_wavetable.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.16_Creating_a_Digital_Source_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.04.05.01_Function_of_the_base_wavetable.md>`。**不是转述。**
+> 本节 **15,669 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16_Pattern_Tools.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.06_Cloning_a_pattern.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.07_Moving_or_copying_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.08_Deleting_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.14.01_Moving_vectors_to_another_memory_type.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.01_Collapsed_and_expanded_mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.02_Signal_and_pin_group_representations.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.03_Pattern_editor_properties_view.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.04.03_STATEMAP_section_of_the_wavetable.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.16_Creating_a_Digital_Source_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.04.05.01_Function_of_the_base_wavetable.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -189,150 +189,15 @@ The vector properties view always shows the physical waveform. Drive edges and r
 
 Any abbreviations you may use in your wavetables, are translated into the proper action code for `drive edges`（raw: `../02.06_Command_Reference/02.06.06.01.03.01.01.01_Drive_actions.md`） and `receive edges`（raw: `../02.06_Command_Reference/02.06.06.01.03.01.01.02_Receive_actions.md`）.
 
- |
-
-Drive edges
-
- |
-
- |
-
- |
-
-Receive edges
-
- |
-
- |
- |
-
-Abbreviation
-
- |
-
-Action code
-
- |
-
- |
-
-Abbreviation
-
- |
-
-Action code
-
- |
- |
-
-0
-
- |
-
-F00
-
- |
-
- |
-
-L
-
- |
-
-E0
-
- |
- |
-
-1
-
- |
-
-F10
-
- |
-
- |
-
-H
-
- |
-
-E1
-
- |
- |
-
-!Z
-
- |
-
-FN0
-
- |
-
- |
-
-M
-
- |
-
-EI
-
- |
- |
-
-Z
-
- |
-
-FNZ
-
- |
-
- |
-
-U
-
- |
-
-EU
-
- |
- |
-
-. (period)
-
- |
-
-N
-
- |
-
- |
-
-X
-
- |
-
-EX
-
- |
- |
-
- |
-
- |
-
- |
-
-. (period)
-
- |
-
-N
-
- |
+| Drive edges |  |  | Receive edges |  |
+|---|---|---|---|---|
+| Abbreviation | Action code |  | Abbreviation | Action code |
+| 0 | F00 |  | L | E0 |
+| 1 | F10 |  | H | E1 |
+| !Z | FN0 |  | M | EI |
+| Z | FNZ |  | U | EU |
+| . (period) | N |  | X | EX |
+|  |  |  | . (period) | N |
 
 ### Test point properties
 

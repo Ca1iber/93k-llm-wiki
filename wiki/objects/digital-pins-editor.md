@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **399 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md>`。**不是转述。**
+> 本节 **408 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -30,9 +30,10 @@ verified: doc-only
 
 The following table shows an example configuration for DC Scale pins in PMU mode.
 
- | Name  | Type  | Mode  | HW  | Connection Set  | Comment  | Tester Channel |
- | Vdd_1  | dc  | SIG  | DCS-DPS128HC  |   |   | 10104 |
- | Vdd_2  | dc  | SIG  | DCS-DPS128HC  |   |   | 10105-10106 |
+| Name | Type | Mode | HW | Connection Set | Comment | Tester Channel |
+|---|---|---|---|---|---|---|
+| Vdd_1 | dc | SIG | DCS-DPS128HC |  |  | 10104 |
+| Vdd_2 | dc | SIG | DCS-DPS128HC |  |  | 10105-10106 |
 
 ### Utility DC pin setup
 
@@ -306,7 +307,7 @@ specifying the utility block of the card cage.`
 
 `sources:` 一篇：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md`
-（`105634.htm`，8,966 字节，200 行）——**整篇读完**。
+（`105634.htm`，8,979 字节，190 行）——**整篇读完**。
 
 **本页做了什么（2026-09-20 更新，「两张图都没看」那条是错的，已删）**：
 

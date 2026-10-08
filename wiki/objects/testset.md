@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **12,896 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md>`。**不是转述。**
+> 本节 **12,854 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -394,100 +394,18 @@ TESTSET().cont(true).judgeAndLog_ParametricTest(pin,"param2",tmLimits,value2);
 
 with
 
- |
-
-Test name
-
- |
-
-Bin_s_num
-
- |
-
-Bin_h_num
-
- |
- |
-
-param1
-
- |
-
-22
-
- |
-
-2
-
- |
- |
-
-param2
-
- |
-
-33
-
- |
-
-3
-
- |
+| Test name | Bin_s_num | Bin_h_num |
+|---|---|---|
+| param1 | 22 | 2 |
+| param2 | 33 | 3 |
 
 Final bin depending on the parameters results:
 
- |
-
-param1 result
-
- |
-
-param2 result
-
- |
-
-Final bin (software / hardware bin)
-
- |
- |
-
-Pass
-
- |
-
-Fail
-
- |
-
-33/3
-
- |
- |
-
-Fail
-
- |
-
-Pass
-
- |
-
-22/2
-
- |
- |
-
-Fail
-
- |
-
-Fail
-
- |
-
-22/2
-
- |
+| param1 result | param2 result | Final bin (software / hardware bin) |
+|---|---|---|
+| Pass | Fail | 33/3 |
+| Fail | Pass | 22/2 |
+| Fail | Fail | 22/2 |
 
 The following example logs the result of a group of pins in one MPR if the STDF configuration option `enableMPR` is set to True (See the description of `enableMPR` in `Configuring the contents of an STDF file`（raw: `../02.10_Data_Logging/02.10.03.04.03_Configuring_the_contents_of_the_STDF_file.md`）).
 
@@ -909,7 +827,7 @@ When using cout in a background process, you have to expect a mix up of the outp
 
 ## 出处
 
-`sources:` 一篇：`02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md`（TDC `58886.htm`，33,103 字节，1,007 行）。**整篇读完。**
+`sources:` 一篇：`02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md`（TDC `58886.htm`，33,061 字节，874 行）。**整篇读完。**
 
 **本页做了什么**
 

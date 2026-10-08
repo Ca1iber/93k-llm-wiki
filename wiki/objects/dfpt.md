@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **833 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`。**不是转述。**
+> 本节 **823 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -38,33 +38,10 @@ DFPT {(pinlist)}, {(port)}
 
 ### Parameters
 
-|
-
-pinlist
-
- |
-
-Pin name or names. If more than one pin is required, the names must be separated with a comma. The @ character can be used to refer to all configured pins. The pin list can contain digital or DC Scale pins, or a combination of both.
-
- |
- |
-
-port
-
- |
-
-The name of the port to which the pins are associated. The maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest.
-
- |
- |
-
-portlist
-
- |
-
-List of ports for which the associated pins are to be displayed. Specify `(@@)` to retrieve the definitions of all ports.
-
- |
+| pinlist | Pin name or names. If more than one pin is required, the names must be separated with a comma. The @ character can be used to refer to all configured pins. The pin list can contain digital or DC Scale pins, or a combination of both. |
+|---|---|
+| port | The name of the port to which the pins are associated. The maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest. |
+| portlist | List of ports for which the associated pins are to be displayed. Specify `(@@)` to retrieve the definitions of all ports. |
 
 ### Example
 

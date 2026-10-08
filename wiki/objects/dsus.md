@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **531 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`。**不是转述。**
+> 本节 **541 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,17 +44,8 @@ DSUS {ds_No}
 
 ### Parameters
 
-|
-
-ds_No
-
- |
-
-DPS Set Number. This is the highest number currently allocated to a DPS set, or the highest number of set you want to load. The number you type must not exceed the maximum number of DPS sets allowed (defined by the DSCP command).
-
-This number is automatically updated to include any new DPS set as it is created. At power-on only one DPS set (containing the default values) is available.
-
- |
+| ds_No | DPS Set Number. This is the highest number currently allocated to a DPS set, or the highest number of set you want to load. The number you type must not exceed the maximum number of DPS sets allowed (defined by the DSCP command).<br><br>This number is automatically updated to include any new DPS set as it is created. At power-on only one DPS set (containing the default values) is available. |
+|---|---|
 
 ### Example
 

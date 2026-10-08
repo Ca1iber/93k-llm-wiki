@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **10,009 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.06_Pin_mapping_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.06.01_Pin_mapping_file_syntax.md>`。**不是转述。**
+> 本节 **10,124 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.06_Pin_mapping_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.06.01_Pin_mapping_file_syntax.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -66,255 +66,29 @@ Italic text indicates meta-syntax, as described in `Syntax conventions`（raw: `
 
 These are the keywords and their parameters in alphabetical order:
 
- |
-
-Keyword
-
- |
-
-Parameters and descriptions
-
- |
- |
-
-using defaultxmode
-
- |
-
-<defaultXmode>: The default `x-mode`（raw: `02.12.03.04.02_Transparent_x-modes.md`） to be used for all pins.
-
-Supported values include:
-
-- For normal operation: 1, 2, 3, 4, 6, 8
-
-You can override the default x-mode for individual pins or pin groups using the xmode pin attribute.
-
-This parameter overrides the :xModeDefinition: parameter from the `Device access file`（raw: `02.12.03.03.04_Device_access_file.md`）, if both are used. This parameter was supported in earlier versions of MTL and should no longer be used.
-
- |
- |
-
-using interruptCtrl
-
- |
-
-<refreshMode>: The default refresh mode for all pins that have not been assigned a mode using the interruptCtrl pin attribute (see Pin attributes, below):
-
-VEC or VECTOR: Refreshes (maintenance operations) are triggered at runtime by counters. They occur at the next interruptible waveform (that is, a waveform with an index below 0x80) in the pattern stream.
-
- |
- |
-
-using modecontext
-
- |
-
-<modeContext>: The SmarTest context from the timing equation set and wavetable in which the test will be executed (see `Automatic waveform generation`（raw: `02.12.03.04.03.03_Automatic_waveform_generation.md`） for further information).
-
-This parameter is optional; it is required for automatic waveform generation and for creating a test label.
-
-The `using modecontext` statement overrides the :modeContext: parameter from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`）, if both are used.
-
- |
- |
-
-using pinconfig
-
- |
-
-<pinConfigFile>: The `Pin configuration file`（raw: `02.12.03.03.09.01_Pin_configuration_file.md`） to be used.
-
-This parameter is optional; it is required whenever the `using port` statement is used, for example, for automatic waveform generation.
-
-The `using pinconfig` statement overrides the :pinConfig: parameter from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`）, if both are used.
-
- |
- |
-
-using port
-
- |
-
-<portName>: The name of a port that is to be used for `multiport operations`（raw: `02.12.03.04.14_Multiport_operation.md`）.
-
-This keyword is optional, which is only required in multiport operations. When using "using port", you must specify the pin configuration file (see above).
-
-You can specify multiple "using port<portName>" in your pin mapping file. However, those specified ports must not overlap with each other.
-
-When the "using port" statement is configured in the pin mapping file, the pins which have been defined in the file but do not belong to any ports will not be compiled with vectors. During the compilation, no warnings or error messages will be issued, but error messages may show up in the Error Log view when the vector files are bing loaded in SmarTest.
-
- |
- |
-
-using protocol
-
- |
-
-Currently no cards use protocol-aware transaction.
-
- |
- |
-
-(individual pins)
-
- |
-
-<mtlPinName>: The name of the pin as it is to be used in the `Device access file`（raw: `02.12.03.03.04_Device_access_file.md`）.
-
-<refPinName>: The MTL name of a pin (called reference pin) to which the pin being defined is to be aligned. Aligning pins to reference pins is required for DC Scale pins to be mapped to specific tester cycles. See `Reference pins`（raw: `02.12.03.03.06.03_Reference_pins.md`） for details.
-
-<smartestPinName>: The name of a SmarTest pin from the `Pin configuration file`（raw: `02.12.03.03.09.01_Pin_configuration_file.md`）. This pin is mapped to the MTL pin being defined, that is, whenever the MTL pin is used in the program, the resulting waveforms are sent to the specified SmarTest pin.
-
-<pinAtt>: An attribute for the MTL pin being defined. See the "Pin attributes" table, below, for a list of available attributes.
-
-<attValue>: The value for the pin attribute. See the "Pin attributes" table, below, for a discussion of the values that each attribute supports.
-
- |
- |
-
-(pin groups)
-
- |
-
-<mtlPingroupName>: The name of the pin group as it is to be used in the `Device access file`（raw: `02.12.03.03.04_Device_access_file.md`）.
-
-<smartestPingroupName>: The name of a SmarTest pin group from the `Pin configuration file`（raw: `02.12.03.03.09.01_Pin_configuration_file.md`）.
-
-<nnn>: A three-digit number specifying an individual pin from a pin group.
-
-<smartestPinName>: The name of a SmarTest pin from the `Pin configuration file`（raw: `02.12.03.03.09.01_Pin_configuration_file.md`）. (See "individual pins", above.)
-
-<pinAtt>: See "individual pins", above.
-
-<attValue>: See "individual pins", above.
-
- |
- |
-
-configure bus
-
- |
-
-<busName>: The name of the bus as it is to be used in the `Device access file`（raw: `02.12.03.03.04_Device_access_file.md`）. The name must not contain a space.
-
-<pinList>: A list of the pin that belong to the bus. The list must contain the MTL pin names (not the SmarTest pin names); the pin names must be separated by commas.
-
-List the pins in their bit order: The most significant bit first and the least significant bit last.
-
-See `Buses`（raw: `02.12.03.03.06.02_Buses.md`） for details.
-
- |
+| Keyword | Parameters and descriptions |
+|---|---|
+| using defaultxmode | <defaultXmode>: The default `x-mode`（raw: `02.12.03.04.02_Transparent_x-modes.md`） to be used for all pins.<br><br>Supported values include:<br><br>- For normal operation: 1, 2, 3, 4, 6, 8<br><br>You can override the default x-mode for individual pins or pin groups using the xmode pin attribute.<br><br>This parameter overrides the :xModeDefinition: parameter from the `Device access file`（raw: `02.12.03.03.04_Device_access_file.md`）, if both are used. This parameter was supported in earlier versions of MTL and should no longer be used. |
+| using interruptCtrl | <refreshMode>: The default refresh mode for all pins that have not been assigned a mode using the interruptCtrl pin attribute (see Pin attributes, below):<br><br>VEC or VECTOR: Refreshes (maintenance operations) are triggered at runtime by counters. They occur at the next interruptible waveform (that is, a waveform with an index below 0x80) in the pattern stream. |
+| using modecontext | <modeContext>: The SmarTest context from the timing equation set and wavetable in which the test will be executed (see `Automatic waveform generation`（raw: `02.12.03.04.03.03_Automatic_waveform_generation.md`） for further information).<br><br>This parameter is optional; it is required for automatic waveform generation and for creating a test label.<br><br>The `using modecontext` statement overrides the :modeContext: parameter from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`）, if both are used. |
+| using pinconfig | <pinConfigFile>: The `Pin configuration file`（raw: `02.12.03.03.09.01_Pin_configuration_file.md`） to be used.<br><br>This parameter is optional; it is required whenever the `using port` statement is used, for example, for automatic waveform generation.<br><br>The `using pinconfig` statement overrides the :pinConfig: parameter from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`）, if both are used. |
+| using port | <portName>: The name of a port that is to be used for `multiport operations`（raw: `02.12.03.04.14_Multiport_operation.md`）.<br><br>This keyword is optional, which is only required in multiport operations. When using "using port", you must specify the pin configuration file (see above).<br><br>You can specify multiple "using port<portName>" in your pin mapping file. However, those specified ports must not overlap with each other.<br><br>When the "using port" statement is configured in the pin mapping file, the pins which have been defined in the file but do not belong to any ports will not be compiled with vectors. During the compilation, no warnings or error messages will be issued, but error messages may show up in the Error Log view when the vector files are bing loaded in SmarTest. |
+| using protocol | Currently no cards use protocol-aware transaction. |
+| (individual pins) | <mtlPinName>: The name of the pin as it is to be used in the `Device access file`（raw: `02.12.03.03.04_Device_access_file.md`）.<br><br><refPinName>: The MTL name of a pin (called reference pin) to which the pin being defined is to be aligned. Aligning pins to reference pins is required for DC Scale pins to be mapped to specific tester cycles. See `Reference pins`（raw: `02.12.03.03.06.03_Reference_pins.md`） for details.<br><br><smartestPinName>: The name of a SmarTest pin from the `Pin configuration file`（raw: `02.12.03.03.09.01_Pin_configuration_file.md`）. This pin is mapped to the MTL pin being defined, that is, whenever the MTL pin is used in the program, the resulting waveforms are sent to the specified SmarTest pin.<br><br><pinAtt>: An attribute for the MTL pin being defined. See the "Pin attributes" table, below, for a list of available attributes.<br><br><attValue>: The value for the pin attribute. See the "Pin attributes" table, below, for a discussion of the values that each attribute supports. |
+| (pin groups) | <mtlPingroupName>: The name of the pin group as it is to be used in the `Device access file`（raw: `02.12.03.03.04_Device_access_file.md`）.<br><br><smartestPingroupName>: The name of a SmarTest pin group from the `Pin configuration file`（raw: `02.12.03.03.09.01_Pin_configuration_file.md`）.<br><br><nnn>: A three-digit number specifying an individual pin from a pin group.<br><br><smartestPinName>: The name of a SmarTest pin from the `Pin configuration file`（raw: `02.12.03.03.09.01_Pin_configuration_file.md`）. (See "individual pins", above.)<br><br><pinAtt>: See "individual pins", above.<br><br><attValue>: See "individual pins", above. |
+| configure bus | <busName>: The name of the bus as it is to be used in the `Device access file`（raw: `02.12.03.03.04_Device_access_file.md`）. The name must not contain a space.<br><br><pinList>: A list of the pin that belong to the bus. The list must contain the MTL pin names (not the SmarTest pin names); the pin names must be separated by commas.<br><br>List the pins in their bit order: The most significant bit first and the least significant bit last.<br><br>See `Buses`（raw: `02.12.03.03.06.02_Buses.md`） for details. |
 
 Pin attributes
- |
-
-Attribute
-
- |
-
-Description
-
- |
- |
-
-bitseq
-
- |
-
-This attribute always has the value of `copy`.
-
-This attribute-value combination causes the compiler to copy the compiled vector for the reference pin to the MTL pin, thereby speeding up the compilation process.
-
-See `Copying vectors`（raw: `02.12.03.03.06.04_Copying_vectors.md`） for details.
-
- |
- |
-
-cycleratio
-
- |
-
-The ratio of the specified pin's base rate to the standard base rate. Supported ratios are `1:1`, `1:2`, and `1:4`.
-
-If no ratio is specified, the pin ratio is `1:1`.
-
-Pins that are used as reference pins (that is, pins that are specified in parentheses after a pin name, as described in (individual pin), above) must have a pin ratio of 1:1.
-
-We recommend to always run DC Scale pins at a ratio of 1:4. (This requires setting up a separate port for these pins.)
-
-When no reference pins are specified in the file, the cycle ratio is determined by the default standard base rate or default xMode.
-
- |
- |
-
-exps
-
- |
-
-The expansion size for the pin.
-
-Larger expansion sizes decrease the risk of Data Queue Empty errors at the expense of requiring more vector memory. The expansion size value is proportional to the loop lengths and can range from 60 to 1,000,000.
-
-If this attribute is set, it overrides the `-e` compiler switch (see `Starting the MTL compiler from the command line`（raw: `02.12.03.02.05_Using_the_MTL_compiler_from_the_command_line.md`）) for this pin.
-
- |
- |
-
-interruptCtrl
-
- |
-
-The refresh mode:
-
-- VEC or VECTOR: Same as for the using interruptCtrl statement. (See Keywords and parameters, above.)
-
-If the interruptCtrl attribute is not specified, the pin has the refresh mode specified by the using interruptCtrl statement. (If that statement is not present, the default is VEC.
-
- |
- |
-
-type
-
- |
-
-The type of the specified pin.
-
-Currently, the types `dcscale` (for DC Scale pins) and `digital` (for standard data pins) are supported. If no pin type is specified, the type is assumed to be `digital`.
-
- |
- |
-
-xmode
-
- |
-
-The x-mode for this pin.
-
-If this attribute is set, it overrides for this pin both the `using defaultxmode` statement (see above) and any :xModeDefinition: settings from the device access file.
-
- |
- |
-
-system
-
- |
-
-Value for it is true or false. The default value is false.
-
-When system = true, SmarTest will generate corresponding programs for those pins (system generated). No vector data will be generated for those pins by MTP.
-
- |
- |
-
-optional
-
- |
-
-Value for it is true or false. The default value is false.
-
-When optional = true, even these pins are missed in the pin configuration file, SmarTest will skip these pins and run the relative patterns without warning.
-
- |
+| Attribute | Description |
+|---|---|
+| bitseq | This attribute always has the value of `copy`.<br><br>This attribute-value combination causes the compiler to copy the compiled vector for the reference pin to the MTL pin, thereby speeding up the compilation process.<br><br>See `Copying vectors`（raw: `02.12.03.03.06.04_Copying_vectors.md`） for details. |
+| cycleratio | The ratio of the specified pin's base rate to the standard base rate. Supported ratios are `1:1`, `1:2`, and `1:4`.<br><br>If no ratio is specified, the pin ratio is `1:1`.<br><br>Pins that are used as reference pins (that is, pins that are specified in parentheses after a pin name, as described in (individual pin), above) must have a pin ratio of 1:1.<br><br>We recommend to always run DC Scale pins at a ratio of 1:4. (This requires setting up a separate port for these pins.)<br><br>When no reference pins are specified in the file, the cycle ratio is determined by the default standard base rate or default xMode. |
+| exps | The expansion size for the pin.<br><br>Larger expansion sizes decrease the risk of Data Queue Empty errors at the expense of requiring more vector memory. The expansion size value is proportional to the loop lengths and can range from 60 to 1,000,000.<br><br>If this attribute is set, it overrides the `-e` compiler switch (see `Starting the MTL compiler from the command line`（raw: `02.12.03.02.05_Using_the_MTL_compiler_from_the_command_line.md`）) for this pin. |
+| interruptCtrl | The refresh mode:<br><br>- VEC or VECTOR: Same as for the using interruptCtrl statement. (See Keywords and parameters, above.)<br><br>If the interruptCtrl attribute is not specified, the pin has the refresh mode specified by the using interruptCtrl statement. (If that statement is not present, the default is VEC. |
+| type | The type of the specified pin.<br><br>Currently, the types `dcscale` (for DC Scale pins) and `digital` (for standard data pins) are supported. If no pin type is specified, the type is assumed to be `digital`. |
+| xmode | The x-mode for this pin.<br><br>If this attribute is set, it overrides for this pin both the `using defaultxmode` statement (see above) and any :xModeDefinition: settings from the device access file. |
+| system | Value for it is true or false. The default value is false.<br><br>When system = true, SmarTest will generate corresponding programs for those pins (system generated). No vector data will be generated for those pins by MTP. |
+| optional | Value for it is true or false. The default value is false.<br><br>When optional = true, even these pins are missed in the pin configuration file, SmarTest will skip these pins and run the relative patterns without warning. |
 
 ### Example
 

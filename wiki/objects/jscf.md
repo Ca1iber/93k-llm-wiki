@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,211 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`。**不是转述。**
+> 本节 **1,180 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,60 +44,13 @@ JSCF {"jitter_set_name"}, {"property"}, {"property_value"}, {(pinlist)}
 
 ### Parameters
 
-|
-
-jitter_set_name
-
- |
-
-Specifies the name of a jitter set that must have been defined with JSDF.
-
- |
- |
-
-property
-
- |
-
-Specifies a property of the jitter set. For a list see the table below.
-
- |
- |
-
-ALL
-
- |
-
-This value can be specified in the query to retrieve the configuration data of all jitter sets.
-
- |
- |
-
-PRM
-
- |
-
-This value can be specified in the query to retrieve the configuration of the current primary jitter set.
-
- |
- |
-
-property_value
-
- |
-
-Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins to which this configuration is to be applied.
-
- |
+| jitter_set_name | Specifies the name of a jitter set that must have been defined with JSDF. |
+|---|---|
+| property | Specifies a property of the jitter set. For a list see the table below. |
+| ALL | This value can be specified in the query to retrieve the configuration data of all jitter sets. |
+| PRM | This value can be specified in the query to retrieve the configuration of the current primary jitter set. |
+| property_value | Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below. |
+| pinlist | Specifies the pins to which this configuration is to be applied. |
 
 ### Example
 
@@ -327,7 +280,7 @@ JSCF {"jitter_set_name"}, {"property"}, {"property_value"}, {(pinlist)}
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md`
-（TDC `116890.htm`，309 行）
+（TDC `116890.htm`，262 行）
 
 **本页没做的**：
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **515 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`。**不是转述。**
+> 本节 **505 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -38,33 +38,10 @@ PFND {group_type}, {(list)}, {(pin)}
 
 ### Parameters
 
-|
-
-group_type
-
- |
-
-The group type can be PRT (for "port") or DIFF (for "differential pair"). PRT is the default.
-
- |
- |
-
-pin
-
- |
-
-The name of the pin about which information is to be retrieved.
-
- |
- |
-
-list
-
- |
-
-List of the ports that contain the pin, or the differential pair to which the specified pin belongs.
-
- |
+| group_type | The group type can be PRT (for "port") or DIFF (for "differential pair"). PRT is the default. |
+|---|---|
+| pin | The name of the pin about which information is to be retrieved. |
+| list | List of the ports that contain the pin, or the differential pair to which the specified pin belongs. |
 
 ### Example
 
@@ -229,7 +206,7 @@ PFND {group_type}, {(list)}, {(pin)}
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md`
-（TDC `98686.htm`，**1,135 字节 / 67 行**）。**整篇读完**——本页引文全部来自这一篇；
+（TDC `98686.htm`，**1,101 字节 / 67 行**）。**整篇读完**——本页引文全部来自这一篇；
 另**核对过上游 `raw/98686.htm`**（下面 ⚠️ 两条注明了核对结论）。
 
 **入边 2 条 / 2 篇、出边 1 条**（`edges.jsonl` 原始行数）：

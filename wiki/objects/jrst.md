@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **315 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`。**不是转述。**
+> 本节 **319 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,15 +32,8 @@ JRST {(pin_list)}
 
 ### Parameters
 
-|
-
-pin_list
-
- |
-
-The pins for which the jitter modulator is to be reset. Typically, this must be done for all configured pins, so that you will usually specify @ for the pin list.
-
- |
+| pin_list | The pins for which the jitter modulator is to be reset. Typically, this must be done for all configured pins, so that you will usually specify @ for the pin list. |
+|---|---|
 
 ### Example
 
@@ -183,7 +176,7 @@ JRST (@)
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md`
-  （frontmatter 的 `source_topic` 是 `119634.htm`；**1,172 字节 / 44 行，整篇读完**）
+  （frontmatter 的 `source_topic` 是 `119634.htm`；**1,168 字节 / 44 行，整篇读完**）
 - 本页的「语法 / 参数」节是脚本从这一篇抽的（**本页一个字没动**）。
 
 **本页没做的**：

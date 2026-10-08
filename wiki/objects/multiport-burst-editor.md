@@ -18,9 +18,20 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
-这类**段标记**，跟着 `Subtopics` 找一层也没有。
-**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
+> 本节 **1,268 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.03_Multiport_Burst_Editor.md>`。**不是转述。**
+> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
+> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
+> 改写参数表就是把文档事实降级成我的转述（§11）。
+> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
+
+### Tables（脚本逐字抽取，第 1 张）
+
+| Icon | Function |
+|---|---|
+| !`Expand/collapse button`（raw: `../../../../raw/99926.png`） | Expands / collapses the current editor page. The other pages of the editor are not affected. The expanded mode shows<br><br>- the number of cycles per port burst on the Overview page.<br>- the Vector#, Instruction, and Comment column on a port burst page.<br>- the vectors of a sync group aligned in timeline.<br>- fail information per pattern on the Overview and the sync pages.<br><br>To activate the icon you must execute the testflow. |
+| !`Enable expand selection mode`（raw: `../../../../raw/129178.png`） | Available only for the burst pages of a multiport burst editor.<br><br>Enables / disables the expanding (!`Expand/collapse button`（raw: `../../../../raw/99926.png`）) of only the selected CALL instructions of a port burst (`or burst`（raw: `02.08.04.16.02_Pattern_Editor.md`）). If enabled, the expanded port burst page will show the "Expand Selection Mode" entry. |
+| !`Hide/Show all Sync Group Tabs`（raw: `../../../../raw/128933.png`） | Hides / shows (toggles) the sync group tabs (pages) on the current multiport burst editor. |
+| !`Hide/Show all PortBurst tabs`（raw: `../../../../raw/128934.png`） | Hides / shows (toggles) the port burst tabs (pages) on the current multiport burst editor. |
 
 <!-- 语法节 end -->
 

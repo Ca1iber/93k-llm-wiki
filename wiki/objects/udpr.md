@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **704 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`。**不是转述。**
+> 本节 **712 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,39 +32,10 @@ UDPR "alias_set_name"|@,"pin_alias",(package_pin_name|@)
 
 ### Parameters
 
-|
-
-alias_set_name
-
- |
-
-The alias set name.
-
-The alias of the pin (specified by the pin name parameter) defined in this alias set is deleted.
-
-The symbol @ can be used to list all the required alias set names.
-
- |
- |
-
-pin_alias
-
- |
-
-The pin alias.
-
- |
- |
-
-package_pin_name
-
- |
-
-The package pin name.
-
-The symbol @ can be used to list all the required package pin names.
-
- |
+| alias_set_name | The alias set name.<br><br>The alias of the pin (specified by the pin name parameter) defined in this alias set is deleted.<br><br>The symbol @ can be used to list all the required alias set names. |
+|---|---|
+| pin_alias | The pin alias. |
+| package_pin_name | The package pin name.<br><br>The symbol @ can be used to list all the required package pin names. |
 
 ### Example
 
@@ -304,7 +275,7 @@ raw 里三个 pin 名是带反引号的，本页按 §11.1 ③ 去掉）。
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md`
-（TDC `112438.htm`；**md 1,346 字节 / 82 行**，上游 htm 3,423 字节）。**整篇读完——本篇只有 82 行。**
+（TDC `112438.htm`；**md 1,324 字节 / 82 行**，上游 htm 3,423 字节）。**整篇读完——本篇只有 82 行。**
 
 **另读了两篇 raw 全文 + 一篇 raw 的三处片段（本页 `sources:` 之外，逐条声明）：**
 

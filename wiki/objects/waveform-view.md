@@ -18,9 +18,21 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
-这类**段标记**，跟着 `Subtopics` 找一层也没有。
-**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
+> 本节 **1,617 字符逐字取自** `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.12_Waveform_View.md>`。**不是转述。**
+> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
+> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
+> 改写参数表就是把文档事实降级成我的转述（§11）。
+> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
+
+### Tables（脚本逐字抽取，第 1 张）
+
+| Icon | Command | Description |
+|---|---|---|
+| !`icon - Clear Quick Viewer`（raw: `../../../../raw/107074.png`） | Clear Waveform | Clear the displayed waveform data with the headline in this view. |
+| !`icon - Run Signal Analyzer`（raw: `../../../../raw/107075.png`） | Show Waveform on Signal Analyzer | Launch up the Signal Analyzer tool, and the waveform is shown in the tool to analysis the waveform. |
+| !`icon - menu`（raw: `../../../../raw/64022.png`） | Menu | Click the triangle icon to open a menu of items specific to this view. You can select a menu item from a shortcut menu. In this view you can choose Save Trace As or Save Graph As.<br><br>- Save Trace as...<br><br>Save the displayed waveform into an ASCII file. This file format is the same as `Save Trace As...`（raw: `../../02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.26.02.05.01.01_Save_Trace_As.md`） of the Signal Analyzer tool. The ASCII file can be opened in waveform view for later usage. (See Displaying the ASCII waveform file in the waveform view.)<br><br>If more than one waveform is displayed (i.e. an ARRAY_COMPLEX) the user first has to select which one of the traces should be saved. To do that, a dialog with a selection list containing all traces is presented before the usual file dialog [see screenshot below].<br><br>- Save Graph As... Save the displayed graph into a XML file containing the waveform and metadata as the heading, legend etc. This file format is the same as the graph file of the Signal Analyzer |
+|  | Minimize | Minimizes this view. |
+| !`Maximize button`（raw: `../../../../raw/107035.png`） | Maximize | Maximizes this view. |
 
 <!-- 语法节 end -->
 
@@ -293,7 +305,7 @@ dialog`）。**图证**：`raw/141206.png` 里就是那个 `Select Target Trace`
 `sources:` 一篇：
 
 - `01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.12_Waveform_View.md`
-  （frontmatter 的 `source_topic` 是 `107073.htm`；**4,342 字节 / 124 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `107073.htm`；**4,271 字节 / 124 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节是脚本从这一篇抽的，**它这一节是空的**——
   本篇没有 `Syntax` / `Parameters` / `Example` 这类**段标记**，所以脚本一个字都不收。

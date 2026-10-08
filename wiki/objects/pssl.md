@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **774 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`。**不是转述。**
+> 本节 **750 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,51 +32,12 @@ PSSL [min_voltage | OFF], [max_voltage | OFF], [max_source_current | OFF], [max_
 
 ### Parameters
 
-|
-
-min_voltage
-
- |
-
-Lowest allowed voltage in V. Must be ≤0.
-
- |
- |
-
-max_voltage
-
- |
-
-Highest allowed voltage in V. Must be ≥0.
-
- |
- |
-
-max_source_current
-
- |
-
-Highest allowed source current in A. Must be > 0.
-
- |
- |
-
-max_sink_current
-
- |
-
-Highest allowed sink current in A. Must be > 0.
-
- |
- |
-
-pin_list
-
- |
-
-Comma separated list of DPS power pins, previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command, and of DC signal (PMU) pins defined by the `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） command.
-
- |
+| min_voltage | Lowest allowed voltage in V. Must be ≤0. |
+|---|---|
+| max_voltage | Highest allowed voltage in V. Must be ≥0. |
+| max_source_current | Highest allowed source current in A. Must be > 0. |
+| max_sink_current | Highest allowed sink current in A. Must be > 0. |
+| pin_list | Comma separated list of DPS power pins, previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command, and of DC signal (PMU) pins defined by the `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） command. |
 
 ### Example
 

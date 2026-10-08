@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,584 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`。**不是转述。**
+> 本节 **1,601 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,27 +44,10 @@ PSTE {sites|"site_string"}
 
 ### Parameters
 
-| sites |
-
-The sites parameter is an integer that specifies the number of sites (to be) configured. The maximum is 1024.
-
-For more information, refer to `Number of sites`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md#_116532__r_numberOfSites`） in `SmarTest system parameters - default values and limits`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md`）.
-
- |
- | site_string |
-
-A string consisting of "0" and "1". The length of the string corresponds to the number of the configured sites. The nth character of this string stands for site n.
-
-"0" indicates that the respective site uses a channel that is listed in the MCDIgnore file, and that this site therefore cannot be used for testing. "1" indicates that the site can be used.
-
- |
- | STR |
-
-If you specify this optional keyword in the query, PSTE? will return a site string.
-
-If this parameter is omitted, PSTE? will return the number of sites that are configured in the pin configuration.
-
- |
+| sites | The sites parameter is an integer that specifies the number of sites (to be) configured. The maximum is 1024.<br><br>For more information, refer to `Number of sites`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md#_116532__r_numberOfSites`） in `SmarTest system parameters - default values and limits`（raw: `../../01_Getting_started/01.04_SmarTest_system_parameters_-_default_values_and_limits/01.04_SmarTest_system_parameters_-_default_values_and_limits.md`）. |
+|---|---|
+| site_string | A string consisting of "0" and "1". The length of the string corresponds to the number of the configured sites. The nth character of this string stands for site n.<br><br>"0" indicates that the respective site uses a channel that is listed in the MCDIgnore file, and that this site therefore cannot be used for testing. "1" indicates that the site can be used. |
+| STR | If you specify this optional keyword in the query, PSTE? will return a site string.<br><br>If this parameter is omitted, PSTE? will return the number of sites that are configured in the pin configuration. |
 
 ### Example
 
@@ -339,7 +322,7 @@ PSTE? STR              ← 回读："101" 之类的串，看哪几个真的能�
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md`
-（TDC `98711.htm`，90 行）
+（TDC `98711.htm`，73 行）
 
 **本页没做的**：
 

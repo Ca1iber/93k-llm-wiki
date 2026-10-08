@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,259 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.05_GetUtilityLines.md>`。**不是转述。**
+> 本节 **2,289 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.05.04.05_GetUtilityLines.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -26,34 +26,9 @@ verified: doc-only
 
 ### Parameters
 
-|
-
-Parameter
-
- |
-
-Type
-
- |
-
-Description
-
- |
- | blockId  | INT |
-
-The utility pogo block to query.
-
-The valid value is from 0 to 8.
-
-If the three‑digit format for pogo blocks is used, the valid range is 165 ... 172.
-
-For the second optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） of EXA Scale systems, the utility pogo blocks can be defined using only the three‑digit format. The valid range for the second card is `265` ... `272`.
-
-See also `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-0 means all utility line blocks and other valid number means the specified utility block.
-
- |
+| Parameter | Type | Description |
+|---|---|---|
+| blockId | INT | The utility pogo block to query.<br><br>The valid value is from 0 to 8.<br><br>If the three‑digit format for pogo blocks is used, the valid range is 165 ... 172.<br><br>For the second optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） of EXA Scale systems, the utility pogo blocks can be defined using only the three‑digit format. The valid range for the second card is `265` ... `272`.<br><br>See also `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.<br><br>0 means all utility line blocks and other valid number means the specified utility block. |
 
 ### Example
 
@@ -253,7 +228,7 @@ get utility block 1             =01111100101110100100010010011010
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.05_GetUtilityLines.md`
-（TDC `111063.htm`，**3,345 字节 / 81 行**）。**整篇读完**——本页引文全部来自这一篇 + `edges.jsonl` 里带原句的边。
+（TDC `111063.htm`，**3,349 字节 / 81 行**）。**整篇读完**——本页引文全部来自这一篇 + `edges.jsonl` 里带原句的边。
 
 **入边 7 条 / 5 篇**（`inline` + `toc` 口径）：
 `02.07.05.04_Miscellaneous_test_methods__miscellaneous_tml`（2 条）、

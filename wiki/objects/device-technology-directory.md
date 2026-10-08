@@ -18,9 +18,50 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
-这类**段标记**，跟着 `Subtopics` 找一层也没有。
-**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
+> 本节 **1,711 字符逐字取自** `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.01_Device_Technology_Directory.md>`。**不是转述。**
+> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
+> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
+> 改写参数表就是把文档事实降级成我的转述（§11）。
+> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
+
+### Tables（脚本逐字抽取，第 1 张）
+
+| Subdirectory | Contains |
+|---|---|
+| .project | Configuration of the device project |
+| .settings/vectors | Layout data for the Pattern Debug Tool and Pattern Explorer |
+| .technology | See `Technology file for a device`（raw: `01.01.07.02.01.02_Technology_file_for_a_device.md`） for details. |
+| analog_control | Analog setup file |
+| applicat | Application data for production mode |
+| calibration | Calibration data. For the ACTCatr file, see `ACTCatr`（raw: `../../02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.04.01.01_ACTCatr.md`）. |
+| ch_attributes | See `Channel attributes files`（raw: `../../02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.04.01_Channel_attributes_files.md`） for details. |
+| configuration | Pin file |
+| data_set | (Reserved) |
+| di_report | (Reserved) |
+| error_map | Exported error maps in ASCII format |
+| format | Pin display information for GUI tools |
+| levels | Level file |
+| license | License file |
+| lock_file | Lock file for the device |
+| pin_attributes | Edge delays for each pin, used for calibration |
+| profiles | Date logging configuration |
+| report | Log file |
+| routing | Analog and relay routing information |
+| scan_res | (Reserved) |
+| shmoo | Shmoo setup and result files |
+| testflow | Testflow file |
+| testfunc | Customer-defined connect and disconnect sequences |
+| testmethod | Test method file |
+| testprog | Test program file |
+| testtable | Test table file |
+| timing | Timing file |
+| timing_dgrm | (Reserved |
+| vectors | Vector file |
+| vectors/.cache | Cached pattern file dependencies |
+| wafertyp | Wafer description file |
+| waste | Default temporary directory |
+| waveform | Waveform file |
+| waveform/.result | Result waveform file |
 
 <!-- 语法节 end -->
 

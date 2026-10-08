@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **8,192 字符逐字取自** `<02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.02_XPS256_status_flags.md>`。**不是转述。**
+> 本节 **8,185 字符逐字取自** `<02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.02_XPS256_status_flags.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -157,13 +157,14 @@ verified: doc-only
 
 ### Tables（脚本逐字抽取，第 18 张）
 
- | Bit  | Flag  | Description |
- | 0 (LSB)  | Current sink limit is reached  | Set to 1 if current sink limit is reached (Clamp low) for at least one measurement. |
- | 1  | Current source limit  | Set to 1 if current source limit is reached (Clamp high) for at least one measurement. |
- | 2  | Clamp low was reached  | Set to 1 if clamp low was reached during the test for a DC Scale pin where no measurement was executed. |
- | 3  | Clamp high was reached  | Set to 1 if clamp high was reached during the test for a DC Scale pin where no measurement was executed. |
- | 4  | Range underflow  | Set to 1 in case of a range underflow has been detected for at least one measurement. |
- | 5  | Range overflow  | Set to 1 in case of a range underflow or a range overflow has been detected for at least one measurement. |
+| Bit | Flag | Description |
+|---|---|---|
+| 0 (LSB) | Current sink limit is reached | Set to 1 if current sink limit is reached (Clamp low) for at least one measurement. |
+| 1 | Current source limit | Set to 1 if current source limit is reached (Clamp high) for at least one measurement. |
+| 2 | Clamp low was reached | Set to 1 if clamp low was reached during the test for a DC Scale pin where no measurement was executed. |
+| 3 | Clamp high was reached | Set to 1 if clamp high was reached during the test for a DC Scale pin where no measurement was executed. |
+| 4 | Range underflow | Set to 1 in case of a range underflow has been detected for at least one measurement. |
+| 5 | Range overflow | Set to 1 in case of a range underflow or a range overflow has been detected for at least one measurement. |
 
 <!-- 语法节 end -->
 
@@ -278,7 +279,7 @@ verified: doc-only
 ## 出处
 
 - 定义文档：`02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.02_XPS256_status_flags.md`
-  （TDC `354167.htm`，28,949 字节，431 行）
+  （TDC `354167.htm`，28,949 字节，398 行）
 - **入边 79 条 / 22 篇**（`inline` 口径）——**本页的入边里有大量锚点**
   （`#_354167__r_…` 这种指到「某一个标志」的深层链接），
   这是它入边数高的一大原因：**同一篇文档会为每个标志各留一条链接**。

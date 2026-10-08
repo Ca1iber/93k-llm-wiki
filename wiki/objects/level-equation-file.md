@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **942 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.11.01.05.01_Level_equation_file.md>`。**不是转述。**
+> 本节 **936 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.11.01.05.01_Level_equation_file.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -29,46 +29,11 @@ verified: doc-only
 USE_PROTOCOL "<protocolName:<levelSegmentName>" [<portList>]
 
 Parameter
- |
-
-Parameter
-
- |
-
-Description/Range
-
- |
- |
-
-protocolName
-
- |
-
-The name of the protocol to use.
-
- |
- |
-
-levelSegmentName
-
- |
-
-Name of the level segment to be used.
-
-Must be defined for the protocol specified by protocolName.
-
- |
- |
-
-portList
-
- |
-
-(optional) List of protocol ports.
-
-If omitted, all ports assigned to the protocol specified by protocolName. will be used.
-
- |
+| Parameter | Description/Range |
+|---|---|
+| protocolName | The name of the protocol to use. |
+| levelSegmentName | Name of the level segment to be used.<br><br>Must be defined for the protocol specified by protocolName. |
+| portList | (optional) List of protocol ports.<br><br>If omitted, all ports assigned to the protocol specified by protocolName. will be used. |
 
 ### Example
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,665 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`。**不是转述。**
+> 本节 **3,519 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -127,214 +127,23 @@ For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all 
  |
 
 Status bits for the status parameter
- |
-
-Bit
-
- |
-
-Description
-
- |
-
-Value
-
- |
- |
-
-0
-
- |
-
-Not available/defined.
-
- |
-
-1
-
- |
- |
-
-1
-
- |
-
-Drive 1 period limit violation.
-
- |
-
-2
-
- |
- |
-
-2
-
- |
-
-Receive 1 period limit violation.
-
- |
-
-4
-
- |
- |
-
-3
-
- |
-
-Drive 2 period limit violation.
-
- |
-
-8
-
- |
- |
-
-4
-
- |
-
-Receive 2 period limit violation.
-
- |
-
-16
-
- |
- |
-
-5
-
- |
-
-Drive edge order violation.
-
- |
-
-32
-
- |
- |
-
-6
-
- |
-
-Tri-state edge order violation.
-
- |
-
-64
-
- |
- |
-
-7
-
- |
-
-Window edge order violation.
-
- |
-
-128
-
- |
- |
-
-8
-
- |
-
-It is possible to modify the timing or level data with `ETIM`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）(`ETDS`（raw: `02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`）), `PCLK`（raw: `02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`）, `CLKR`（raw: `02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md`）, `DRLV`（raw: `02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`）, `RCLV`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`）, `TERM`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`）, and `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`）. If any of these commands are executed, this bit is set automatically for the affected specset, and the restore should bring back the original SPST status.
-
- |
-
-256
-
- |
- |
-
-9
-
- |
-
-Modified with `SHVL`（raw: `02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md`）.
-
- |
-
-512
-
- |
- |
-
-10
-
- |
-
-Modified with `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`）.
-
- |
-
-1024
-
- |
- |
-
-12
-
- |
-
-Absolute range violation.
-
- |
-
-2048
-
- |
- |
-
-13
-
- |
-
-Relative range violation
-
- |
-
-4096
-
- |
- |
-
-14
-
- |
-
-Drive 10 period limit violation
-
- |
-
-8192
-
- |
- |
-
-15
-
- |
-
-Receive 10 period limit violation
-
- |
-
-16384
-
- |
+| Bit | Description | Value |
+|---|---|---|
+| 0 | Not available/defined. | 1 |
+| 1 | Drive 1 period limit violation. | 2 |
+| 2 | Receive 1 period limit violation. | 4 |
+| 3 | Drive 2 period limit violation. | 8 |
+| 4 | Receive 2 period limit violation. | 16 |
+| 5 | Drive edge order violation. | 32 |
+| 6 | Tri-state edge order violation. | 64 |
+| 7 | Window edge order violation. | 128 |
+| 8 | It is possible to modify the timing or level data with `ETIM`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）(`ETDS`（raw: `02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`）), `PCLK`（raw: `02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`）, `CLKR`（raw: `02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md`）, `DRLV`（raw: `02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`）, `RCLV`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`）, `TERM`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`）, and `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`）. If any of these commands are executed, this bit is set automatically for the affected specset, and the restore should bring back the original SPST status. | 256 |
+| 9 | Modified with `SHVL`（raw: `02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md`）. | 512 |
+| 10 | Modified with `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`）. | 1024 |
+| 12 | Absolute range violation. | 2048 |
+| 13 | Relative range violation | 4096 |
+| 14 | Drive 10 period limit violation | 8192 |
+| 15 | Receive 10 period limit violation | 16384 |
 
 ### Example 1
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,100 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`。**不是转述。**
+> 本节 **4,198 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -48,95 +48,16 @@ DSCP {device_cycle}, {waveform_set}, {timing_set}, {level_set}, {dps_set},
 
 ### Parameters
 
-| device_cycle  | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.
-
-Default: 256
-
-Maximum: 16384
-
-Note that the total number of device cycles gets evenly divided between the combined number of waveform sets and wavetables. If you use the default values, then 256 device cycles divides into the total number of 32 `waveform sets and wavetables`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） to give you 8 device cycles per waveform set/wavetable. If you choose values that do not divide evenly, then the number of device cycles will be rounded up to the next multiple of the `waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） parameter.
-
- |
- | devicecycle_set |
-
-The devicecycle_set parameter is an integer that defines the maximum number of device cycle sets that you can create. Device cycle sets are needed for selective digital capture.
-
-Default: 1
-
-Maximum: 128
-
- |
- | dps_set |
-
-The dps_set parameter is an integer that defines the maximum number of DPS sets you can create.
-
-Default: 32
-
-Maximum: 256
-
- |
- | level_set |
-
-The level_set parameter is an integer that defines the combined total of level sets for fixed and equation based levels that you can create.
-
-Default: 32
-
-Maximum: 256
-
- |
- | period_res_prec |
-
-This parameter defines the precision with which the period resolution is calculated by the system. It has no effect on a user defined period resolution (using, for example, the period_res keyword in the equation set).
-
-The default is 4, if the .technology file does not contain this parameter.
-
-If it does, the value of the .technology file is the default.
-
-This value is set to 9, the greatest possible value, when a device is created.
-
- |
- |
-
-pmu_set
-
- |
-
-The pmu_set parameter is an integer that defines the maximum number of actions that can be contained in all measurement sets of all PPMU DC sets.
-
-Default: 1024
-
-Maximum: 12800
-
- |
- | routing_set |
-
-Defines the number of routing sets managed by the firmware, provided by the MCD.
-
-Default: 256
-
-Maximum: 512
-
- |
- | timing_set |
-
-The timing_set parameter is an integer that defines the maximum combined total of timing sets for fixed and equation based timing you can create.
-
-Default: 256
-
-Maximum: 999
-
-The number of timing sets must be equal to or greater than the number of waveform sets, as there must be at least one timing set per waveform set.
-
- |
- | waveform_set |
-
-The waveform_set parameter defines the maximum combined total of waveform sets (fixed timing) and wavetables (equation based timing) you can create. Thus, if you specify a value of 32, you could, for example, create 10 waveform sets and 22 wavetables.
-
-Default: 32
-
-Maximum: 128
-
- |
+| device_cycle | The device_cycle parameter is an integer that defines the absolute maximum number of device cycles that you can create for one pin.<br><br>Default: 256<br><br>Maximum: 16384<br><br>Note that the total number of device cycles gets evenly divided between the combined number of waveform sets and wavetables. If you use the default values, then 256 device cycles divides into the total number of 32 `waveform sets and wavetables`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） to give you 8 device cycles per waveform set/wavetable. If you choose values that do not divide evenly, then the number of device cycles will be rounded up to the next multiple of the `waveform_set`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md#_98578__row_waveform_set`） parameter. |
+|---|---|
+| devicecycle_set | The devicecycle_set parameter is an integer that defines the maximum number of device cycle sets that you can create. Device cycle sets are needed for selective digital capture.<br><br>Default: 1<br><br>Maximum: 128 |
+| dps_set | The dps_set parameter is an integer that defines the maximum number of DPS sets you can create.<br><br>Default: 32<br><br>Maximum: 256 |
+| level_set | The level_set parameter is an integer that defines the combined total of level sets for fixed and equation based levels that you can create.<br><br>Default: 32<br><br>Maximum: 256 |
+| period_res_prec | This parameter defines the precision with which the period resolution is calculated by the system. It has no effect on a user defined period resolution (using, for example, the period_res keyword in the equation set).<br><br>The default is 4, if the .technology file does not contain this parameter.<br><br>If it does, the value of the .technology file is the default.<br><br>This value is set to 9, the greatest possible value, when a device is created. |
+| pmu_set | The pmu_set parameter is an integer that defines the maximum number of actions that can be contained in all measurement sets of all PPMU DC sets.<br><br>Default: 1024<br><br>Maximum: 12800 |
+| routing_set | Defines the number of routing sets managed by the firmware, provided by the MCD.<br><br>Default: 256<br><br>Maximum: 512 |
+| timing_set | The timing_set parameter is an integer that defines the maximum combined total of timing sets for fixed and equation based timing you can create.<br><br>Default: 256<br><br>Maximum: 999<br><br>The number of timing sets must be equal to or greater than the number of waveform sets, as there must be at least one timing set per waveform set. |
+| waveform_set | The waveform_set parameter defines the maximum combined total of waveform sets (fixed timing) and wavetables (equation based timing) you can create. Thus, if you specify a value of 32, you could, for example, create 10 waveform sets and 22 wavetables.<br><br>Default: 32<br><br>Maximum: 128 |
 
 ### Example
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,794 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`。**不是转述。**
+> 本节 **1,781 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -42,66 +42,13 @@ VWFG {status}
 
 ### Parameters
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes.
-
- |
- |
-
-dev_cyc_name
-
- |
-
-If you specify the name of a device cycle, only this device cycle will be checked. Enter ALL for all device cycle names in the device cycle table.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins whose definitions you want to check. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to check all configured pins.
-
- |
- |
-
-status
-
- |
-
-The system returns:
-
-0: The definitions are not the same.
-
-1: The definitions are the same.
-
- |
+| waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| specset_id | Derived as follows:<br><br>`100 * equation_set_no + specset_no` |
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. |
+| dev_cyc_name | If you specify the name of a device cycle, only this device cycle will be checked. Enter ALL for all device cycle names in the device cycle table. |
+| pinlist | The name of the pin or pins whose definitions you want to check. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to check all configured pins. |
+| status | The system returns:<br><br>0: The definitions are not the same.<br><br>1: The definitions are the same. |
 
 ### Example
 
@@ -345,7 +292,7 @@ VWFG? {wavetable_name}, ["dev_cyc_name"], {(pinlist)}
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md`
-  （frontmatter 的 `source_topic` 是 `98863.htm`；**4,054 字节 / 132 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98863.htm`；**3,987 字节 / 132 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 - **上游 `.htm` 核过**：`raw/98863.htm`（**9,671 字节**）。核的是下面 ⚠️ ① 那一条。

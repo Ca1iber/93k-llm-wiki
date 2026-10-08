@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,051 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md>`。**不是转述。**
+> 本节 **2,871 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -34,260 +34,35 @@ pre_proc = '<script>[&mdir][&sdir][&mtp_tf][&mtp_pmf][&mtp_conf][&mtp_tim][&mtp_
 
 The available script parameters in the order in which they are listed above:
 
- |
-
-<script>
-
- |
-
-The name and path of the script file to call.
-
-The path can be absolute or relative. If it is a relative path, the base directory is the current working directory at the time STPM was called.
-
- |
- |
-
-&mdir
-
- |
-
-Full path to the MTP directory.
-
- |
- |
-
-&sdir
-
- |
-
-Full path to the STP directory.
-
- |
- |
-
-&mtp_tf
-
- |
-
-Full path to the MTP testflow file.
-
- |
- |
-
-&mtp_pmf
-
- |
-
-Full path to the MTP pattern master file.
-
- |
- |
-
-&mtp_conf
-
- |
-
-Full path to the MTP configuration file.
-
- |
- |
-
-&mtp_tim
-
- |
-
-Full path to the MTP timing file.
-
- |
- |
-
-&mtp_lev
-
- |
-
-Full path to the MTP levels file.
-
- |
- |
-
-&mtp_tt
-
- |
-
-Full path to the MTP test table file.
-
- |
- |
-
-&mtp_rout
-
- |
-
-Full path to the MTP routing file.
-
- |
- |
-
-&mtp_wf
-
- |
-
-Full path to the MTP waveform file.
-
- |
- |
-
-&mtp_anctrl
-
- |
-
-Full path to the MTP analog control file.
-
- |
- |
-
-&mtp_chatt
-
- |
-
-Full path to the MTP channel attributes file.
-
- |
- |
-
-&mtp_prot
-
- |
-
-Full path to the MTP protocols file.
-
- |
- |
-
-&mtp_att
-
- |
-
-Full path to the MTP pin attributes file.
-
- |
- |
-
-&stp_tf
-
- |
-
-Full path to the STP testflow file.
-
- |
- |
-
-&stp_pmf
-
- |
-
-Full path to the STP pattern master file.
-
- |
- |
-
-&stp_conf
-
- |
-
-Full path to the STP configuration file.
-
- |
- |
-
-&stp_tim
-
- |
-
-Full path to the STP timing file.
-
- |
- |
-
-&stp_lev
-
- |
-
-Full path to the STP levels file.
-
- |
- |
-
-&stp_tt
-
- |
-
-Full path to the STP test table file.
-
- |
- |
-
-&stp_rout
-
- |
-
-Full path to the STP routing file.
-
- |
- |
-
-&stp_wf
-
- |
-
-Full path to the STP waveform file.
-
- |
- |
-
-&stp_anctrl
-
- |
-
-Full path to the STP analog control file.
-
- |
- |
-
-&stp_chatt
-
- |
-
-Full path to the STP channel attributes file.
-
- |
- |
-
-&stp_prot
-
- |
-
-Full path to the STP protocols file.
-
- |
- |
-
-&stp_att
-
- |
-
-Full path to the STP pin attributes file.
-
- |
- |
-
-<user_parameters>
-
- |
-
-Text that is passed unchanged to the script. This text must not contain any words that begin with &.
-
- |
+| <script> | The name and path of the script file to call.<br><br>The path can be absolute or relative. If it is a relative path, the base directory is the current working directory at the time STPM was called. |
+|---|---|
+| &mdir | Full path to the MTP directory. |
+| &sdir | Full path to the STP directory. |
+| &mtp_tf | Full path to the MTP testflow file. |
+| &mtp_pmf | Full path to the MTP pattern master file. |
+| &mtp_conf | Full path to the MTP configuration file. |
+| &mtp_tim | Full path to the MTP timing file. |
+| &mtp_lev | Full path to the MTP levels file. |
+| &mtp_tt | Full path to the MTP test table file. |
+| &mtp_rout | Full path to the MTP routing file. |
+| &mtp_wf | Full path to the MTP waveform file. |
+| &mtp_anctrl | Full path to the MTP analog control file. |
+| &mtp_chatt | Full path to the MTP channel attributes file. |
+| &mtp_prot | Full path to the MTP protocols file. |
+| &mtp_att | Full path to the MTP pin attributes file. |
+| &stp_tf | Full path to the STP testflow file. |
+| &stp_pmf | Full path to the STP pattern master file. |
+| &stp_conf | Full path to the STP configuration file. |
+| &stp_tim | Full path to the STP timing file. |
+| &stp_lev | Full path to the STP levels file. |
+| &stp_tt | Full path to the STP test table file. |
+| &stp_rout | Full path to the STP routing file. |
+| &stp_wf | Full path to the STP waveform file. |
+| &stp_anctrl | Full path to the STP analog control file. |
+| &stp_chatt | Full path to the STP channel attributes file. |
+| &stp_prot | Full path to the STP protocols file. |
+| &stp_att | Full path to the STP pin attributes file. |
+| <user_parameters> | Text that is passed unchanged to the script. This text must not contain any words that begin with &. |
 
 Except for the name of the script file, all elements are optional.
 

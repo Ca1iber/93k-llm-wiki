@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,374 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`。**不是转述。**
+> 本节 **3,353 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -66,86 +66,15 @@ PCLK {specset_id|"multi-port_spec"}, {timing_set}, {period}, {(pinlist)}
 
 ### Parameters
 
-|
-
-waveform_set
-
- |
-
-Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Used for equation based timing. It is derived as follows:
-
-100 * equation_set_no + specset_no
-
-Note that if you change the period for an equation based timing setup, PCLK will only change the runtime value, not the setup value specified in the timing set.
-
- |
- |
-
-multi-port_spec
-
- |
-
-In the command, you cannot enter a multi-port specification unless the specification is associated with the default port, and no other ports are configured. This restriction does not apply to the query.
-
- |
- |
-
-timing_set
-
- |
-
-Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by `TSUS`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）.
-
- |
- |
-
-period
-
- |
-
-Enter the test system period in ns. The period range depends on the model. For the Pin Scale 800, the range is 2.5 ns to 31250 ns. All values entered (or queried regardless of query_mode) are in ns and will be rounded to nine digits after the decimal point (atto-seconds) according to the accuracy of the firmware. The power-on default value for all configured pins also depends on the model.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins whose period you want to define or read back. This parameter can also include groups previously created by `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to set or read the periods for all configured pins. If you do not use @, the firmware assumes asynchronous operation.
-
- |
- |
-
-portlist
-
- |
-
-In the query, you must specify a list of ports, if you have specified a multi-port specification for the first parameter.
-
- |
- |
-
-query_mode
-
- |
-
-In the query, you can specify whether the period specified by the user or the corrected period calculated by the system is to be returned. The allowed values are:
-
-WANT: The period defined by the user is returned. This is also the default.
-
-EXACT: The period calculated by the system is returned.
-
- |
+| waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|
+| specset_id | Used for equation based timing. It is derived as follows:<br><br>100 * equation_set_no + specset_no<br><br>Note that if you change the period for an equation based timing setup, PCLK will only change the runtime value, not the setup value specified in the timing set. |
+| multi-port_spec | In the command, you cannot enter a multi-port specification unless the specification is associated with the default port, and no other ports are configured. This restriction does not apply to the query. |
+| timing_set | Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by `TSUS`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. |
+| period | Enter the test system period in ns. The period range depends on the model. For the Pin Scale 800, the range is 2.5 ns to 31250 ns. All values entered (or queried regardless of query_mode) are in ns and will be rounded to nine digits after the decimal point (atto-seconds) according to the accuracy of the firmware. The power-on default value for all configured pins also depends on the model. |
+| pinlist | The name of the pin or pins whose period you want to define or read back. This parameter can also include groups previously created by `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ can be used to set or read the periods for all configured pins. If you do not use @, the firmware assumes asynchronous operation. |
+| portlist | In the query, you must specify a list of ports, if you have specified a multi-port specification for the first parameter. |
+| query_mode | In the query, you can specify whether the period specified by the user or the corrected period calculated by the system is to be returned. The allowed values are:<br><br>WANT: The period defined by the user is returned. This is also the default.<br><br>EXACT: The period calculated by the system is returned. |
 
 ### Example 1
 
@@ -437,7 +366,7 @@ PCLK 101,1,40,(S1)
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`
-  （frontmatter 的 `source_topic` 是 `98682.htm`；**5,800 字节 / 173 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98682.htm`；**5,707 字节 / 173 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 

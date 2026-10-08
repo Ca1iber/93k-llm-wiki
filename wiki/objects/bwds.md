@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,097 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`。**不是转述。**
+> 本节 **2,081 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -43,88 +43,15 @@ BWDS {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, [break_waveform_in
 ```
 
 Parameters
- |
-
-wvf_set
-
- |
-
-Waveform Set Number (range 1 to maximum). Enter ALL for all waveform sets. Enter PRM for the Primary waveform set. The maximum number is determined by the command `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. wavetable_name can only be specified in the query.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-100 * equation_set_no + specset_no
-
-specset_id can only be specified in the query.
-
- |
- |
-
-multi-port_spec
-
- |
-
-To query a multi-port specification, enter the name of the specification.
-
- |
- |
-
-break_waveform_index
-
- |
-
-Enter DEF for the default break waveform or an integer in the range 0 to 3. This parameter is optional in release 2.0 and can only be used to select the default break waveform (DEF).
-
- |
- |
-
-mode
-
- |
-
-NOT USED.
-
- |
- |
-
-definition_string
-
- |
-
-The definition string consists of a sequence of items each of which associates a drive action with a drive edge.
-
-Receive edge are always denoted by rn.
-
-All edges which are not explicitly specified are set to N. In the query only those edges that are used are printed.
-
-For details of the syntax see `WFDS, WFDS? - (WaveForm Definition String)`（raw: `02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`）.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
+| wvf_set | Waveform Set Number (range 1 to maximum). Enter ALL for all waveform sets. Enter PRM for the Primary waveform set. The maximum number is determined by the command `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. wavetable_name can only be specified in the query. |
+| specset_id | Derived as follows:<br><br>100 * equation_set_no + specset_no<br><br>specset_id can only be specified in the query. |
+| multi-port_spec | To query a multi-port specification, enter the name of the specification. |
+| break_waveform_index | Enter DEF for the default break waveform or an integer in the range 0 to 3. This parameter is optional in release 2.0 and can only be used to select the default break waveform (DEF). |
+| mode | NOT USED. |
+| definition_string | The definition string consists of a sequence of items each of which associates a drive action with a drive edge.<br><br>Receive edge are always denoted by rn.<br><br>All edges which are not explicitly specified are set to N. In the query only those edges that are used are printed.<br><br>For details of the syntax see `WFDS, WFDS? - (WaveForm Definition String)`（raw: `02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`）. |
+| pinlist | The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 ### Example
 
@@ -413,7 +340,7 @@ In the query only those edges that are used are printed.`
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md`
-  （frontmatter 的 `source_topic` 是 `98498.htm`；**3,858 字节 / 140 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98498.htm`；**3,769 字节 / 140 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 - **本页「语法 / 参数」节里 `Parameters` 是一个裸行**——**原文那一行就没有 `##`**
