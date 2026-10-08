@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,058 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`。**不是转述。**
+> 本节 **1,713 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,73 +44,17 @@ DFGP {pin_type}, {(pinlist)}, {(pin_group)}
 
 ### Parameters
 
-|
+| pin_type | Defines the type of pins in the group. This can be: | Defines the type of pins in the group. This can be: |
+|---|---|---|
+| pin_type | I | Identifies a group of device input pins. |
+| pin_type | O | Identifies a group of device output pins. |
+| pin_type | DC | Identifies a group of DC type pins. |
+| pin_type | X | Identifies a group that may contain pins of any type. |
+| pinlist | The names of the pins to be included in the group. All pin names must be separated with a comma. | The names of the pins to be included in the group. All pin names must be separated with a comma. |
+| pin_group | The name assigned to the pin group. You can use the same name for groups of different type.<br><br>The symbol @ can be used with the DFGP? query to list all groups previously defined using the DFGP command. If you query a non-existent group, the system returns nothing.<br><br>Maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest. | The name assigned to the pin group. You can use the same name for groups of different type.<br><br>The symbol @ can be used with the DFGP? query to list all groups previously defined using the DFGP command. If you query a non-existent group, the system returns nothing.<br><br>Maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest. |
 
-pin_type
-
- |
-
-Defines the type of pins in the group. This can be:
-
- |
- |
-
-I
-
- |
-
-Identifies a group of device input pins.
-
- |
- |
-
-O
-
- |
-
-Identifies a group of device output pins.
-
- |
- |
-
-DC
-
- |
-
-Identifies a group of DC type pins.
-
- |
- |
-
-X
-
- |
-
-Identifies a group that may contain pins of any type.
-
- |
- |
-
-pinlist
-
- |
-
-The names of the pins to be included in the group. All pin names must be separated with a comma.
-
- |
- |
-
-pin_group
-
- |
-
-The name assigned to the pin group. You can use the same name for groups of different type.
-
-The symbol @ can be used with the DFGP? query to list all groups previously defined using the DFGP command. If you query a non-existent group, the system returns nothing.
-
-Maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest.
-
- |
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98546.htm`。
 
 ### Example
 
@@ -312,7 +256,7 @@ DFGP? {(pin_group)}
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`
-（TDC `98546.htm`，2,561 字节，132 行）。**整篇读完**，本页引文全部来自这一篇。
+（TDC `98546.htm`，3,275 字节，76 行）。**整篇读完**，本页引文全部来自这一篇。
 
 > **它是同一篇的第二次投放。** 同一篇还以 `02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md`
 > 存在（`source_topic` 分别是 `98546.htm` 与 `98546_2.htm`）。**本页把两份逐字节比过**：

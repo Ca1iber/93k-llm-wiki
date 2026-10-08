@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,719 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`。**不是转述。**
+> 本节 **4,591 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -36,206 +36,34 @@ CHIN {channel_nr}, {channel_type}, [phys_location], {board_no}, [clk_board], [ch
 
 ### Parameters
 
-|
-
-channel_nr
-
- |
-
-The number that identifies the channel.
-
-Specify ALL if you want information about all channels.
-
-For a digital channel, specify it with the test system channel number, which is five digits (see `DFPN, DFPN? - (DeFine Pin Name) for the number)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`）.
-
-For a DPS channel, specify it with the test system channel number, which is two digits (see `DFPS, DFPS? - (DeFine Power Supply)`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） for the number).
-
- |
- |
-
-channel_type
-
- |
-
-Returns the type of the channel. It can be:
-
- |
- |
-
-CPIO
-
- |
-
-Pin Scale 1600 digital channel
-
- |
- | PYIO  | Pin Scale 5000 digital channel |
- |
-
-WZ_FDIFF_I
-
- |
-
-Fast differential input channel
-
- |
- |
-
-WZ_FDIFF_O
-
- |
-
-Fast differential output channel
-
- |
- |
-
-PPS
-
- |
-
-Precision Parallel Source channel
-
- |
- |
-
-HVP
-
- |
-
-High Voltage PMU
-
- |
- |
-
-DPS128HC
-
- |
-
-DC Scale DPS128-HC or DPS64-HC
-
- |
- | XPS256  | DC Scale XPS256 |
- |  UHC4T  | DC Scale UHC4T |
- |
-
-phys_location
-
- |
-
-The channel's physical location.
-
-NOTE: For PS1600 and DPS128 SmarTest returns always "-1"!
-
-This format is TCSSPP.
-
-Where:
-
- |
- |
-
-T
-
- |
-
-test head (1)
-
- |
- |
-
-C
-
- |
-
-card cage (1 - 8)
-
- |
- |
-
-SS
-
- |
-
-slot (01 - 18) in the card cage
-
- |
- |
-
-PP
-
- |
-
-hardware pin number of the digital channel
-
-For DPS, this is the channel number in the DPS board.
-
- |
- |
-
-board_no
-
- |
-
-Board number of the board to which the channel belongs. For the DPS, this is the DPS board number. For details, see the board_no parameter in `*OPT? - (hardware OPTions)`（raw: `02.06.02.02.344_OPT__-__hardware_OPTions.md`）.
-
- |
- |
-
-clk_board
-
- |
-
-Board number of the clock board in the card cage to which the channel belongs.
-
- |
- |
-
-chan_info_1
-
- |
-
-First information of the channel.
-
- |
- |
-
-For digital channels:
-
-Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors).
-
-DC Scale DPS channels behave like a digital channel and return the sequencer memory depth.
-
- |
- |
-
-For PPS channels:
-
-Pattern memory depth in blocks of 1k words (16 bit).
-
- |
- |
-
-For HVP channels:
-
-DAC/ADC RAM depth in blocks of 1k words (16 bit).
-
- |
- |
-
-chan_info_2
-
- |
-
-Second information of the channel.
-
- |
- |
-
-For digital channels:
-
-Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors).
-
- |
+| channel_nr | The number that identifies the channel.<br><br>Specify ALL if you want information about all channels.<br><br>For a digital channel, specify it with the test system channel number, which is five digits (see `DFPN, DFPN? - (DeFine Pin Name) for the number)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`）.<br><br>For a DPS channel, specify it with the test system channel number, which is two digits (see `DFPS, DFPS? - (DeFine Power Supply)`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） for the number). | The number that identifies the channel.<br><br>Specify ALL if you want information about all channels.<br><br>For a digital channel, specify it with the test system channel number, which is five digits (see `DFPN, DFPN? - (DeFine Pin Name) for the number)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`）.<br><br>For a DPS channel, specify it with the test system channel number, which is two digits (see `DFPS, DFPS? - (DeFine Power Supply)`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） for the number). |
+|---|---|---|
+| channel_type | Returns the type of the channel. It can be: | Returns the type of the channel. It can be: |
+| channel_type | CPIO | Pin Scale 1600 digital channel |
+| channel_type | PYIO | Pin Scale 5000 digital channel |
+| channel_type | WZ_FDIFF_I | Fast differential input channel |
+| channel_type | WZ_FDIFF_O | Fast differential output channel |
+| channel_type | PPS | Precision Parallel Source channel |
+| channel_type | HVP | High Voltage PMU |
+| channel_type | DPS128HC | DC Scale DPS128-HC or DPS64-HC |
+| channel_type | XPS256 | DC Scale XPS256 |
+| channel_type | UHC4T | DC Scale UHC4T |
+| phys_location | The channel's physical location.<br><br>NOTE: For PS1600 and DPS128 SmarTest returns always "-1"!<br><br>This format is TCSSPP.<br><br>Where: | The channel's physical location.<br><br>NOTE: For PS1600 and DPS128 SmarTest returns always "-1"!<br><br>This format is TCSSPP.<br><br>Where: |
+| phys_location | T | test head (1) |
+| phys_location | C | card cage (1 - 8) |
+| phys_location | SS | slot (01 - 18) in the card cage |
+| phys_location | PP | hardware pin number of the digital channel<br><br>For DPS, this is the channel number in the DPS board. |
+| board_no | Board number of the board to which the channel belongs. For the DPS, this is the DPS board number. For details, see the board_no parameter in `*OPT? - (hardware OPTions)`（raw: `02.06.02.02.344_OPT__-__hardware_OPTions.md`）. | Board number of the board to which the channel belongs. For the DPS, this is the DPS board number. For details, see the board_no parameter in `*OPT? - (hardware OPTions)`（raw: `02.06.02.02.344_OPT__-__hardware_OPTions.md`）. |
+| clk_board | Board number of the clock board in the card cage to which the channel belongs. | Board number of the clock board in the card cage to which the channel belongs. |
+| chan_info_1 | First information of the channel. | First information of the channel. |
+| chan_info_1 | For digital channels:<br><br>Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors).<br><br>DC Scale DPS channels behave like a digital channel and return the sequencer memory depth. | For digital channels:<br><br>Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors).<br><br>DC Scale DPS channels behave like a digital channel and return the sequencer memory depth. |
+| chan_info_1 | For PPS channels:<br><br>Pattern memory depth in blocks of 1k words (16 bit). | For PPS channels:<br><br>Pattern memory depth in blocks of 1k words (16 bit). |
+| chan_info_1 | For HVP channels:<br><br>DAC/ADC RAM depth in blocks of 1k words (16 bit). | For HVP channels:<br><br>DAC/ADC RAM depth in blocks of 1k words (16 bit). |
+| chan_info_2 | Second information of the channel. | Second information of the channel. |
+| chan_info_2 | For digital channels:<br><br>Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors). | For digital channels:<br><br>Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors). |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98502.htm`。
 
 ### Examples
 
@@ -586,7 +414,7 @@ CHIN {channel_nr}, {channel_type}, [phys_location], {board_no}, [clk_board], [ch
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md`
-（TDC `98502.htm`；**md 4,126 字节 / 276 行**，上游 htm 11,096 字节）。**整篇读完。**
+（TDC `98502.htm`；**md 5,941 字节 / 276 行**，上游 htm 11,096 字节）。**整篇读完。**
 
 **本页没做的**：
 
@@ -672,7 +500,7 @@ CHIN {channel_nr}, {channel_type}, [phys_location], {board_no}, [clk_board], [ch
 >
 > **⑦ 同一篇文档在语料里投放了两份，本页只用了其中一份。**
 > 另一份是 `02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md`
-> （`source_topic: "98502_2.htm"`，**4,128 字节**）。
+> （`source_topic: "98502_2.htm"`，**5,945 字节**）。
 > **实测 `diff`：两份正文逐行完全相同，差别只有 frontmatter 的第 3、4 行
 > （`source_topic` / `source_html`）**。
 > **两份上游也各有一个 `.htm`，而且 `cmp` 报 `98502.htm` 与 `98502_2.htm` 完全一致**

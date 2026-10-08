@@ -399,7 +399,7 @@ EQSP?{spec_type}, {part}
 
 | 打开的是 | 读了多少 | 本页从它那里拿到了什么 |
 |---|---|---|
-| `02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md`（TDC `98592_2.htm`，1,700 字节，135 行） | 整篇 | 只核了「它是 load/save、两端是临时文件、调用者是编辑器工具与 Spec tool」 |
+| `02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md`（TDC `98592_2.htm`，2,237 字节，55 行） | 整篇 | 只核了「它是 load/save、两端是临时文件、调用者是编辑器工具与 Spec tool」 |
 | `02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md`（TDC `112905_2.htm`，5,950 字节，167 行） | 整篇 | 只核了「它的 `EQ` 是 `EQualization`，与 equation 无关」 |
 
 **处置与 `mapping-timing.md` 的「出处」节同一套**：那页也用过一篇「只 `grep` 看过一行、

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **607 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`。**不是转述。**
+> 本节 **1,207 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -38,52 +38,14 @@ HWTY {machine}, {testhead}, {dut_if}
 
 ### Parameters
 
-|
+| machine | Returns PS | Returns PS |
+|---|---|---|
+| testhead | Returns type of the test head. Options are:<br><br>TH_1CC for the A-test head or CX test head (containing one card cage)<br><br>TH_2CC for the compact test head or SX test head (containing two card cages)<br><br>TH_3CC for the LX test head (containing three card cages)<br><br>TH_4CC for the small test head (containing four card cages)<br><br>TH_8CC for the large test head (containing eight card cages). | Returns type of the test head. Options are:<br><br>TH_1CC for the A-test head or CX test head (containing one card cage)<br><br>TH_2CC for the compact test head or SX test head (containing two card cages)<br><br>TH_3CC for the LX test head (containing three card cages)<br><br>TH_4CC for the small test head (containing four card cages)<br><br>TH_8CC for the large test head (containing eight card cages). |
+| dut_if | Specifies the DUT interface type | Specifies the DUT interface type |
+| dut_if | SOC | SOC |
 
-machine
-
- |
-
-Returns PS
-
- |
- |
-
-testhead
-
- |
-
-Returns type of the test head. Options are:
-
-TH_1CC for the A-test head or CX test head (containing one card cage)
-
-TH_2CC for the compact test head or SX test head (containing two card cages)
-
-TH_3CC for the LX test head (containing three card cages)
-
-TH_4CC for the small test head (containing four card cages)
-
-TH_8CC for the large test head (containing eight card cages).
-
- |
- |
-
-dut_if
-
- |
-
-Specifies the DUT interface type
-
- |
- |
-
-SOC
-
- |
-
-SOC
-
- |
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98636.htm`。
 
 ### Example
 
@@ -238,7 +200,7 @@ HWTY {machine}, {testhead}, {dut_if}
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md`
-（TDC `98636.htm`，**1,186 字节 / 82 行**）。**整篇读完**——本页引文全部来自这一篇；
+（TDC `98636.htm`，**1,863 字节 / 82 行**）。**整篇读完**——本页引文全部来自这一篇；
 另**核对过上游 `raw/98636.htm`**（下面 ⚠️ ①②③ 都注明了核对结论）。
 
 **入边 2 条 / 2 篇，出边 0 条**（`edges.jsonl` 原始行数）：

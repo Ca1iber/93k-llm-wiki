@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **5,330 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`。**不是转述。**
+> 本节 **9,214 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -26,172 +26,26 @@ verified: doc-only
 
 ### Parameters
 
-|
-
-spec_type
-
- |
-
-Which specification type to use. Use:
-
- |
- |
-
-LEV
-
- |
-
-to specify levels, or
-
- |
- |
-
-TIM
-
- |
-
-to specify timing.
-
- |
- |
-
-equation_set_no
-
- |
-
-Equation set number. An integer in the range 1 to 99.
-
-Use PRM to specify the primary equation set, or, in a multi-port setup, the primary specification as defined with SPRM. In this case, the specset_no parameter is ignored.
-
-In the query, use ALL to display all equation sets.
-
-This parameter must be omitted if a multi-port specification is specified for the thirdparameter.
-
- |
- |
-
-specset_no
-
- |
-
-Specset number. An integer in the range of 1 to 99. In the query, use ALL to select all defined specsets.
-
-If specset_no is not set, and equation_set_no is set to ALL or a number, only the spec names in the specified equation sets, but no values are returned.
-
- |
- |
-
-multi-port_spec
-
- |
-
-In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the secondparameter must be left empty.
-
- |
- |
-
-spec_name
-
- |
-
-The name of a base (spec) variable. In a multi-port setup, the same variable name can occur among the spec variables of more than one port within the same specification. In this case, you can qualify the variable name by a port name in the following format
-
-<spec_name>@<port_name>,
-
-if you want to modify the variable on that port only.
-
-Note, however, that the scope of the variable will be set to local for the port in question after such a modification (even if it is set to global in the setup), until the setup is downloaded again.
-
-Note also that in a multi-port setup, you cannot change the value of a variable globally (that is, without specifying a port) unless at least one of the variable instances has its scope set to global in the setup. For basic information on the local and global scope of spec variables in a multi-port setup see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）.
-
- |
- |
-
-spec_or_equ_name
-
- |
-
-The name of a base (spec) or derived (equation) variable. An equation variable cannot be specified in the command or in a query which uses the extra parameter.
-
- |
- |
-
-ALL
-
- |
-
-Requires that the actual values of both base and derived variables are returned.
-
- |
- |
-
-EQUA
-
- |
-
-Requires that the actual values of only the derived (equation) variables are returned.
-
- |
- |
-
-MAX
-
- |
-
-Requires that the maximum values of all the base (spec) variables are returned.
-
-This keyword can also be specified as an extra parameter in combination with the spec_name parameter to retrieve only the maximum value of the specified spec variable.
-
- |
- |
-
-MIN
-
- |
-
-Requires that the maximum of all the base (spec) variables are returned.
-
-This keyword can also be specified as an extra parameter in combination with the spec_name parameter to retrieve only the minimum value of the specified spec variable.
-
- |
- |
-
-SPEC
-
- |
-
-Requires that the actual values of only the base (spec) variables are returned.
-
- |
- |
-
-UNIT
-
- |
-
-Requires that the units of all the base (spec) variables are returned.
-
-This keyword can also be specified as an extra parameter in combination with the spec_name parameter to retrieve only the unit of the specified spec variable.
-
- |
- |
-
-value
-
- |
-
-Float with 5 possible decimal places.
-
- |
- |
-
-pinlist
-
- |
-
-By this extra parameter, you can modify the runtime definitions for an individual pin. Note that you cannot retrieve the pin specific values with SVLR?.
-
- Note You can use the pinlist parameter to modify the value of a spec variable of an individual pin, temporarily. If you make a new modification on a different spec variable, only the last modification is kept while the previous spec variable is reset to the setup value defined in the spec file. To make a permanent modification on a spec variable, specify all pins (that is, @) as the pinlist. Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset. |
+| spec_type | Which specification type to use. Use: | Which specification type to use. Use: |
+|---|---|---|
+| spec_type | LEV | to specify levels, or |
+| spec_type | TIM | to specify timing. |
+| equation_set_no | Equation set number. An integer in the range 1 to 99.<br><br>Use PRM to specify the primary equation set, or, in a multi-port setup, the primary specification as defined with SPRM. In this case, the specset_no parameter is ignored.<br><br>In the query, use ALL to display all equation sets.<br><br>This parameter must be omitted if a multi-port specification is specified for the thirdparameter. | Equation set number. An integer in the range 1 to 99.<br><br>Use PRM to specify the primary equation set, or, in a multi-port setup, the primary specification as defined with SPRM. In this case, the specset_no parameter is ignored.<br><br>In the query, use ALL to display all equation sets.<br><br>This parameter must be omitted if a multi-port specification is specified for the thirdparameter. |
+| specset_no | Specset number. An integer in the range of 1 to 99. In the query, use ALL to select all defined specsets.<br><br>If specset_no is not set, and equation_set_no is set to ALL or a number, only the spec names in the specified equation sets, but no values are returned. | Specset number. An integer in the range of 1 to 99. In the query, use ALL to select all defined specsets.<br><br>If specset_no is not set, and equation_set_no is set to ALL or a number, only the spec names in the specified equation sets, but no values are returned. |
+| multi-port_spec | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the secondparameter must be left empty. | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the secondparameter must be left empty. |
+| spec_name | The name of a base (spec) variable. In a multi-port setup, the same variable name can occur among the spec variables of more than one port within the same specification. In this case, you can qualify the variable name by a port name in the following format<br><br><spec_name>@<port_name>,<br><br>if you want to modify the variable on that port only.<br><br>Note, however, that the scope of the variable will be set to local for the port in question after such a modification (even if it is set to global in the setup), until the setup is downloaded again.<br><br>Note also that in a multi-port setup, you cannot change the value of a variable globally (that is, without specifying a port) unless at least one of the variable instances has its scope set to global in the setup. For basic information on the local and global scope of spec variables in a multi-port setup see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）. | The name of a base (spec) variable. In a multi-port setup, the same variable name can occur among the spec variables of more than one port within the same specification. In this case, you can qualify the variable name by a port name in the following format<br><br><spec_name>@<port_name>,<br><br>if you want to modify the variable on that port only.<br><br>Note, however, that the scope of the variable will be set to local for the port in question after such a modification (even if it is set to global in the setup), until the setup is downloaded again.<br><br>Note also that in a multi-port setup, you cannot change the value of a variable globally (that is, without specifying a port) unless at least one of the variable instances has its scope set to global in the setup. For basic information on the local and global scope of spec variables in a multi-port setup see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）. |
+| spec_or_equ_name | The name of a base (spec) or derived (equation) variable. An equation variable cannot be specified in the command or in a query which uses the extra parameter. | The name of a base (spec) or derived (equation) variable. An equation variable cannot be specified in the command or in a query which uses the extra parameter. |
+| ALL | Requires that the actual values of both base and derived variables are returned. | Requires that the actual values of both base and derived variables are returned. |
+| EQUA | Requires that the actual values of only the derived (equation) variables are returned. | Requires that the actual values of only the derived (equation) variables are returned. |
+| MAX | Requires that the maximum values of all the base (spec) variables are returned.<br><br>This keyword can also be specified as an extra parameter in combination with the spec_name parameter to retrieve only the maximum value of the specified spec variable. | Requires that the maximum values of all the base (spec) variables are returned.<br><br>This keyword can also be specified as an extra parameter in combination with the spec_name parameter to retrieve only the maximum value of the specified spec variable. |
+| MIN | Requires that the maximum of all the base (spec) variables are returned.<br><br>This keyword can also be specified as an extra parameter in combination with the spec_name parameter to retrieve only the minimum value of the specified spec variable. | Requires that the maximum of all the base (spec) variables are returned.<br><br>This keyword can also be specified as an extra parameter in combination with the spec_name parameter to retrieve only the minimum value of the specified spec variable. |
+| SPEC | Requires that the actual values of only the base (spec) variables are returned. | Requires that the actual values of only the base (spec) variables are returned. |
+| UNIT | Requires that the units of all the base (spec) variables are returned.<br><br>This keyword can also be specified as an extra parameter in combination with the spec_name parameter to retrieve only the unit of the specified spec variable. | Requires that the units of all the base (spec) variables are returned.<br><br>This keyword can also be specified as an extra parameter in combination with the spec_name parameter to retrieve only the unit of the specified spec variable. |
+| value | Float with 5 possible decimal places. | Float with 5 possible decimal places. |
+| pinlist | By this extra parameter, you can modify the runtime definitions for an individual pin. Note that you cannot retrieve the pin specific values with SVLR?.<br><br>Note You can use the pinlist parameter to modify the value of a spec variable of an individual pin, temporarily. If you make a new modification on a different spec variable, only the last modification is kept while the previous spec variable is reset to the setup value defined in the spec file. To make a permanent modification on a spec variable, specify all pins (that is, @) as the pinlist. Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset. | By this extra parameter, you can modify the runtime definitions for an individual pin. Note that you cannot retrieve the pin specific values with SVLR?.<br><br>Note You can use the pinlist parameter to modify the value of a spec variable of an individual pin, temporarily. If you make a new modification on a different spec variable, only the last modification is kept while the previous spec variable is reset to the setup value defined in the spec file. To make a permanent modification on a spec variable, specify all pins (that is, @) as the pinlist. Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98764_2.htm`。
 
 ### Example 1
 
@@ -480,7 +334,7 @@ An error is generated if:
 
 - 定义文档（本页 `sources:` 唯一一篇，**整篇读过**）：
   `02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`
-  （TDC `98764_2.htm`，9,835 字节 / 310 行）。
+  （TDC `98764_2.htm`，13,688 字节 / 310 行）。
 - **本页「语法 / 参数」节的来源就是这一篇自己**（节首没有「取自子主题」后缀），
   节里那 5,330 字符就是原文的 `## Parameters` 表与三个 `### Example`。
 

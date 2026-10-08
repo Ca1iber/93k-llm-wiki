@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,930 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`。**不是转述。**
+> 本节 **2,341 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,168 +32,20 @@ RSET {specifier}
 
 ### Parameters
 
-|
-
-specifier
-
- |
-
-The specifier can be:
-
- |
- |
-
-DPS
-
- |
-
-Loads the default power supply setup for standard DPSs.
-
- |
- |
-
-FCR
-
- |
-
-Loads the default clock routing.
-
- |
- |
-
-LEV
-
- |
-
-Loads the default power supply setup for standard DPSs.
-
-Level: 0 V
-
-Current: 50 mA
-
-Off state: minimum current
-
-Setup time: 0 ms
-
-This default states are:
-
-UHC4T
-
-- Connect state: normal
-- Level: 0 V
-- Range: 4 V
-- Clamp: 4 A
-- Clamp-Range: 40 A
-- Disconnect state: HIZ
-- Voltage drop force: 250 mV
-- Voltage drop return: 250 mV
-- Clamp mode: limit (see `UHCM`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md`）)
-- DUT capacitor mode: off
-
-Fast preload: 0 ms
-
- |
- |
-
-TIM
-
- |
-
-Loads the default timing setup. The settings are:
-
-Timing Sets
-
-- Defined Timing Sets: 1
-- Allowed Timing Sets: 256
-
-Waveform Sets
-
-- Defined Waveform Sets: 1
-- Allowed Waveform Sets: 16
-
-Waveforms: not defined
-
-Breakwaveform: defined
-
-Events
-
-- Action: NOP
-- Timing: 0 ns
-
-Min Period: 4 ns
-
-- This is dependent on the test system hardware configuration.
-
-Device Cycles: not defined
-
-Default Device Cycle: ""
-
- |
- |
-
-VEC
-
- |
-
-Loads the default vector setup. The Vector Memory contains:
-
-No vectors
-
-No tests (and therefore no labels)
-
-No comments
-
-No sequencer programs (no instructions)
-
- |
- |
-
-ATR
-
- |
-
-Loads the default edge attributes.
-
-Pin attribute: set to 0
-
- |
- |
-
-PDL
-
- |
-
-Loads the default path delay attributes.
-
-Cable assembly delay attribute: set to 0
-
-Fixture delay attribute: set to 0
-
-System attribute: set to 0
-
- |
- |
-
-CAL
-
- |
-
-Loads the default calibration data.
-
-Level calibration data
-
-Timing calibration data
-
- |
- |
-
-MTPP
-
- |
-
-Resets memory test and per-pin sequencer subroutine data.
-
- |
+| specifier | The specifier can be: | The specifier can be: |
+|---|---|---|
+| specifier | DPS | Loads the default power supply setup for standard DPSs. |
+| specifier | FCR | Loads the default clock routing. |
+| specifier | LEV | Loads the default power supply setup for standard DPSs.<br><br>Level: 0 V<br><br>Current: 50 mA<br><br>Off state: minimum current<br><br>Setup time: 0 ms<br><br>This default states are:<br><br>UHC4T<br><br>- Connect state: normal<br>- Level: 0 V<br>- Range: 4 V<br>- Clamp: 4 A<br>- Clamp-Range: 40 A<br>- Disconnect state: HIZ<br>- Voltage drop force: 250 mV<br>- Voltage drop return: 250 mV<br>- Clamp mode: limit (see `UHCM`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md`）)<br>- DUT capacitor mode: off<br><br>Fast preload: 0 ms |
+| specifier | TIM | Loads the default timing setup. The settings are:<br><br>Timing Sets<br><br>- Defined Timing Sets: 1<br>- Allowed Timing Sets: 256<br><br>Waveform Sets<br><br>- Defined Waveform Sets: 1<br>- Allowed Waveform Sets: 16<br><br>Waveforms: not defined<br><br>Breakwaveform: defined<br><br>Events<br><br>- Action: NOP<br>- Timing: 0 ns<br><br>Min Period: 4 ns<br><br>- This is dependent on the test system hardware configuration.<br><br>Device Cycles: not defined<br><br>Default Device Cycle: "" |
+| specifier | VEC | Loads the default vector setup. The Vector Memory contains:<br><br>No vectors<br><br>No tests (and therefore no labels)<br><br>No comments<br><br>No sequencer programs (no instructions) |
+| specifier | ATR | Loads the default edge attributes.<br><br>Pin attribute: set to 0 |
+| specifier | PDL | Loads the default path delay attributes.<br><br>Cable assembly delay attribute: set to 0<br><br>Fixture delay attribute: set to 0<br><br>System attribute: set to 0 |
+| specifier | CAL | Loads the default calibration data.<br><br>Level calibration data<br><br>Timing calibration data |
+| specifier | MTPP | Resets memory test and per-pin sequencer subroutine data. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98723.htm`。
 
 ### Example
 

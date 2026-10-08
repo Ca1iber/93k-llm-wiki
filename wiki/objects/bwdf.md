@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,820 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`。**不是转述。**
+> 本节 **2,772 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,143 +44,25 @@ BWDF {wvf_set|"wavetable_name"|specset_id|"multiport_spec"}, {a1}, {a2}, {a3}, {
 
 ### Parameters
 
-|
+| wvf_set | Waveform Set Number. Enter ALL for all waveform sets, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by the command `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. | Waveform Set Number. Enter ALL for all waveform sets, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by the command `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. |
+|---|---|---|
+| specset_id | Derived as follows:<br><br>`100 *` equation_set_no `+ ` specset_no | Derived as follows:<br><br>`100 *` equation_set_no `+ ` specset_no |
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes. |
+| multiport_spec | To query a multi-port specification, enter the name of the specification. | To query a multi-port specification, enter the name of the specification. |
+| a1..a6 | Edge action. The actions you can define are: | Edge action. The actions you can define are: |
+| a1..a6 | N | no action |
+| a1..a6 | F0N | drive 0, no tri-state action |
+| a1..a6 | F1N | drive 1, no tri-state action |
+| a1..a6 | FN0 | no drive action, tri-state off |
+| a1..a6 | FNZ | no drive action, tri-state on |
+| a1..a6 | F00 | drive 0, tri-state off |
+| a1..a6 | F0Z | drive 0, tri-state on |
+| a1..a6 | F10 | drive 1, tri-state off |
+| a1..a6 | F1Z | drive 1, tri-state on |
+| pinlist | The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. | The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. |
 
-wvf_set
-
- |
-
-Waveform Set Number. Enter ALL for all waveform sets, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by the command `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 *` equation_set_no `+ ` specset_no
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed in double quotes.
-
- |
- |
-
-multiport_spec
-
- |
-
-To query a multi-port specification, enter the name of the specification.
-
- |
- |
-
-a1..a6
-
- |
-
-Edge action. The actions you can define are:
-
- |
- |
-
-N
-
- |
-
-no action
-
- |
- |
-
-F0N
-
- |
-
-drive 0, no tri-state action
-
- |
- |
-
-F1N
-
- |
-
-drive 1, no tri-state action
-
- |
- |
-
-FN0
-
- |
-
-no drive action, tri-state off
-
- |
- |
-
-FNZ
-
- |
-
-no drive action, tri-state on
-
- |
- |
-
-F00
-
- |
-
-drive 0, tri-state off
-
- |
- |
-
-F0Z
-
- |
-
-drive 0, tri-state on
-
- |
- |
-
-F10
-
- |
-
-drive 1, tri-state off
-
- |
- |
-
-F1Z
-
- |
-
-drive 1, tri-state on
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98497.htm`。
 
 ### Example
 
@@ -434,7 +316,7 @@ BWDF 1,N,N,N,F1N,F0N,N,(D0,D1,D2,D3)
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md`
-  （frontmatter 的 `source_topic` 是 `98497.htm`；**3,796 字节 / 193 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98497.htm`；**4,745 字节 / 193 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 

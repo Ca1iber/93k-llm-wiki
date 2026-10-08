@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,487 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`。**不是转述。**
+> 本节 **1,834 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,93 +32,19 @@ SLDO {order}, [report]
 
 ### Parameters
 
-|
+| order | This parameter sets the switching order mode: | This parameter sets the switching order mode: |
+|---|---|---|
+| order | FDSL | First DPS, second levels. If this parameter is specified, the DPS voltage values are always switched before the voltage values of the levels. |
+| order | CVDL | There are three possibilities:<br><br>1. If DPS voltage values are increasing or stable, DPS voltages are switched before level voltages.<br><br>2. If DPS voltage values are decreasing or stable, level voltages are switched before DPS voltages.<br><br>3. If the voltages of some DPS pins are decreasing while the voltages of others are increasing (ambiguous case), DPS voltages are always switched first. |
+| report | This parameter sets the report mode, which can be one of the following: | This parameter sets the report mode, which can be one of the following: |
+| report | ALL | Reports a change in the switching order from DPS voltages (first) to level voltages (first) and vice versa. |
+| report | FLSD | First levels, second DPS. Reports a change in the switching order to switching level voltages first. |
+| report | AMBI | Ambiguous case. Reports an ambiguous case. |
+| report | NONE | Nothing is reported. This is the default report mode. |
+| operation | This is the mode of operation. SAVE returns values for everything that can be set. | This is the mode of operation. SAVE returns values for everything that can be set. |
 
-order
-
- |
-
-This parameter sets the switching order mode:
-
- |
- |
-
-FDSL
-
- |
-
-First DPS, second levels. If this parameter is specified, the DPS voltage values are always switched before the voltage values of the levels.
-
- |
- |
-
-CVDL
-
- |
-
-There are three possibilities:
-
-1. If DPS voltage values are increasing or stable, DPS voltages are switched before level voltages.
-
-2. If DPS voltage values are decreasing or stable, level voltages are switched before DPS voltages.
-
-3. If the voltages of some DPS pins are decreasing while the voltages of others are increasing (ambiguous case), DPS voltages are always switched first.
-
- |
- |
-
-report
-
- |
-
-This parameter sets the report mode, which can be one of the following:
-
- |
- |
-
-ALL
-
- |
-
-Reports a change in the switching order from DPS voltages (first) to level voltages (first) and vice versa.
-
- |
- |
-
-FLSD
-
- |
-
-First levels, second DPS. Reports a change in the switching order to switching level voltages first.
-
- |
- |
-
-AMBI
-
- |
-
-Ambiguous case. Reports an ambiguous case.
-
- |
- |
-
-NONE
-
- |
-
-Nothing is reported. This is the default report mode.
-
- |
- |
-
-operation
-
- |
-
-This is the mode of operation. SAVE returns values for everything that can be set.
-
- |
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98735.htm`。
 
 ### Example
 
@@ -332,7 +258,7 @@ SLDO CVDL, AMBI
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md`
-（TDC `98735.htm`；**md 2,411 字节 / 136 行**，上游 htm 5,763 字节）。**整篇读完。**
+（TDC `98735.htm`；**md 2,799 字节 / 136 行**，上游 htm 5,763 字节）。**整篇读完。**
 
 **本页没做的**：
 
