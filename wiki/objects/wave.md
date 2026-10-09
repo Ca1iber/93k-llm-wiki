@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **7,863 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`。**不是转述。**
+> 本节 **7,856 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -74,7 +74,7 @@ WAVE {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {wfIndex}, [DD1], 
 | ALLOW_EQ | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98869.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98869.htm`。
 
 ### Example
 
@@ -440,7 +440,7 @@ WAVE? {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {(pinlist)}
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`
-  （frontmatter 的 `source_topic` 是 `98869.htm`；**12,059 字节 / 384 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98869.htm`；**12,052 字节 / 384 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 

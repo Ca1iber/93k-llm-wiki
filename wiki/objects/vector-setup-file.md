@@ -19,7 +19,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **13,730 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.07.01_Concepts_of_vector_setup.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.07.01.01.01_The_label_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.01.02_The_vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.03.02_Deleting_a_sequencer_instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.04_Executing_a_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.01_Vector_generating_instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.02_Address_instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.03.01_Changing_the_timing_set__CTIM.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.04.01_Endless_loops.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.04.02_Counted_loops.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.05.02_SVEC_subroutines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.06_Instructions_for_PRBS_and_SmartLoop_tests.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.09.01_Data_transfer_from_the_vector_area_to_the_data_queue.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.01_Synchronization_within_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.02_De-coupling_ports_by_separate_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.03_Phase_synchronization_across_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.04_Defining_sequencing_groups.md>`。**不是转述。**
+> 本节 **13,667 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.07.01_Concepts_of_vector_setup.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.07.01.01.01_The_label_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.01.02_The_vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.03.02_Deleting_a_sequencer_instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.07.04_Executing_a_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.01_Vector_generating_instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.02_Address_instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.03.01_Changing_the_timing_set__CTIM.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.04.01_Endless_loops.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.04.02_Counted_loops.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.05.02_SVEC_subroutines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.08.06_Instructions_for_PRBS_and_SmartLoop_tests.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.09.01_Data_transfer_from_the_vector_area_to_the_data_queue.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.01_Synchronization_within_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.02_De-coupling_ports_by_separate_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.03_Phase_synchronization_across_sequencing_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.10.04_Defining_sequencing_groups.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -42,7 +42,7 @@ Both labels are associated with the default port, that is, they can be executed 
 
 The following figure shows the left upper corner of the index array for the label test_1 of the standard example:
 
- !`Array of physical waveform DC/DC power units`（raw: `../../../../agent-html/10526.png`）
+ !`Array of physical waveform DC/DC power units`（raw: `../../../../raw/10526.png`）
 
 The vector numbers in the first column count the parallel vectors. They are logical vector numbers (for details see `Addressing the vector areas`（raw: `02.06.07.01.04_Addressing_the_vector_areas.md`）).
 
@@ -50,7 +50,7 @@ The vector numbers in the first column count the parallel vectors. They are logi
 
 The following figure shows the label definitions of the standard example and the corresponding sections of the sequencer area for the default port @:
 
- !`Label Definitions and Sequencer Area`（raw: `../../../../agent-html/120222.png`）
+ !`Label Definitions and Sequencer Area`（raw: `../../../../raw/120222.png`）
 
 Since the default port contains all configured pins, the sequencer area on the right side of this figure is stored in the memory of all pins.
 
@@ -58,7 +58,7 @@ Since the default port contains all configured pins, the sequencer area on the r
 
 The following figure illustrates the case where one pin belongs to more than one port:
 
- !`Vector areas for pin belonging to two ports`（raw: `../../../../agent-html/114615.png`）
+ !`Vector areas for pin belonging to two ports`（raw: `../../../../raw/114615.png`）
 
 Observe the following points in this figure:
 
@@ -71,7 +71,7 @@ Observe the following points in this figure:
 
 The following figure displays the relations between the sequencer program and the vector areas of the standard example, and also illustrates the various concepts introduced to describe the structure of these areas:
 
- !`Vector areas`（raw: `../../../../agent-html/120207.png`）
+ !`Vector areas`（raw: `../../../../raw/120207.png`）
 
 The left side of the figure shows a section of the sequencer area for the default port @. It contains the sequencer programs for two labels (command line 4 through 8 and line 9 through 12). The right side displays the associated segments of the vector areas for the pins IN1 and OUT1.
 
@@ -398,7 +398,7 @@ This example combines a SmartLoop™test with a TMU per pin measurement.
 
 The following figure illustrates the transfer process for one pin:
 
- !`Transferring waveform DC/DC power units into the data queue`（raw: `../../../../agent-html/120209.png`）
+ !`Transferring waveform DC/DC power units into the data queue`（raw: `../../../../raw/120209.png`）
 
 Note the following points in the figure:
 
@@ -409,7 +409,7 @@ Note the following points in the figure:
 
 The following figure illustrates the algorithm by a sequencing group consisting of two ports:
 
- !`Synchronization After CTIM Within One Sequencing Group`（raw: `../../../../agent-html/104692.png`）
+ !`Synchronization After CTIM Within One Sequencing Group`（raw: `../../../../raw/104692.png`）
 
 The variables j, k, m, n, are integers.
 
@@ -417,7 +417,7 @@ Observe that the synchronization is based on the simultaneous change to the new 
 
 The following figure shows a "macroscopic" view of a multi-port burst for three ports that belong to the same sequencing group:
 
- !`Execution of CTIM commands within a sequencing group`（raw: `../../../../agent-html/104678.png`）
+ !`Execution of CTIM commands within a sequencing group`（raw: `../../../../raw/104678.png`）
 
 Observe that the user vectors start synchronously not only at the start of the testsuite, but also after the CTIM instruction that occurs in the sequencer programs of all three ports.
 
@@ -425,7 +425,7 @@ Observe that the user vectors start synchronously not only at the start of the t
 
 The following figure shows two testsuites for three ports belonging to two sequencing groups:
 
- !`Port Patterns in Different Sequencing Groups`（raw: `../../../../agent-html/54320.png`）
+ !`Port Patterns in Different Sequencing Groups`（raw: `../../../../raw/54320.png`）
 
 Observe the following points in the figure:
 
@@ -437,7 +437,7 @@ Observe the following points in the figure:
 
 The following figure shows phase synchronization after the internal CTIM at test start for the two ports of the figure in `Synchronization within sequencing groups`（raw: `02.06.07.01.10.01_Synchronization_within_sequencing_groups.md`）, which are now supposed to belong to different sequencing groups and to have the PHASE flag set:
 
- !`Phase Synchronization After Internal CTIM at Test Start`（raw: `../../../../agent-html/104693.png`）
+ !`Phase Synchronization After Internal CTIM at Test Start`（raw: `../../../../raw/104693.png`）
 
 j, k, m, n, x, y are integers.
 

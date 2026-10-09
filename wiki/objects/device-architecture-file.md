@@ -540,7 +540,7 @@ APG pattern file 是**选哪张表**的地方。改错了地方会很难查。
 ## 出处
 
 - 定义文档：`02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05_Device_architecture_file.md`
-  （TDC `68405.htm`，3,999 字节）
+  （TDC `68405.htm`，3,992 字节）
 - **语法子主题**：`02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md`
   （23,466 字节，961 行）
 - **入边 50 条 / 32 篇文档**：`extract/pack/04-device-architecture-file.md`

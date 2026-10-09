@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **141,163 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34_Timing_Setup_Tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.01_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.05.01_Master_file_format_for_timing_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.06_Using_the_Timing_Setup_Tool.md>`。**不是转述。**
+> 本节 **141,002 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34_Timing_Setup_Tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.01_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.05.01_Master_file_format_for_timing_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.06_Using_the_Timing_Setup_Tool.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -30,7 +30,7 @@ verified: doc-only
 
 The following figure exemplifies the structure of equation based timing by a schematic setup:
 
- !`Timing Specifications`（raw: `../../../../agent-html/10596.png`）
+ !`Timing Specifications`（raw: `../../../../raw/10596.png`）
 
 ### Example（取自子主题 Timing Setup Commands › Concepts of timing setup › Defining the timing specification）
 
@@ -64,7 +64,7 @@ APRM {mode}
 | mode | CNL | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98485_4.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98485_4.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › APRM -  Activate PRiMary sets）
 
@@ -110,7 +110,7 @@ BWDF {wvf_set|"wavetable_name"|specset_id|"multiport_spec"}, {a1}, {a2}, {a3}, {
 | pinlist | The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. | The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98497_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98497_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › BWDF  BWDF  -  Break Waveform DeFinition）
 
@@ -197,7 +197,7 @@ CDCP {cycle}, {dev_cyc_name}, {dev_cyc_len}, {DD1}, {DD2}, {ED1}, {ED2}, {(pinli
 | ED1 and ED2 | UC | Unclear. The system may return this value to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98499_4.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98499_4.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › CDCP  -  Cycle Device Cycle Parameter）
 
@@ -540,7 +540,7 @@ EQFS {spec_type}, {part}, {operation},{"eqn_filename"}, ["error_filename"]
 | error_filename | The absolute filename of the file to which error reports are written.<br><br>Use UI_REPORT to direct error reports to the report window.<br><br>If this parameter is not specified, only a summarized error message is reported. | The absolute filename of the file to which error reports are written.<br><br>Use UI_REPORT to direct error reports to the report window.<br><br>If this parameter is not specified, only a summarized error message is reported. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98592_4.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98592_4.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › EQFS -  EQuation FileS command transfer）
 
@@ -735,7 +735,7 @@ EUDS {waveform_set}, {definition_string}, {(pinlist)}
 | pinlist | The name of the pin or pins for which edge usage definitions are to be read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98601_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98601_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › EUDS  -  Edge Usage Definition String）
 
@@ -810,7 +810,7 @@ FTCG {parameter}, {mode}, {(portlist)}
 | portlist | In the command, specify a list of ports, separated by commas. Note that the ports are treated as representatives of their sequencing groups. Activation will be suppressed, allowed, or enforced not only for the specified ports, but for all member ports of the sequencing groups to which the specified ports belong in the current setup.<br><br>In the query, specify @@, which stands for all ports. | In the command, specify a list of ports, separated by commas. Note that the ports are treated as representatives of their sequencing groups. Activation will be suppressed, allowed, or enforced not only for the specified ports, but for all member ports of the sequencing groups to which the specified ports belong in the current setup.<br><br>In the query, specify @@, which stands for all ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98606_4.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98606_4.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › FTCG  FTCG  -  Functional Test ConfiGure）
 
@@ -932,7 +932,7 @@ PDIV {specset_id|"multi-port_spec"}, {period_div}
 | pinlist | This parameter is only applicable to fast pins. For standard pins,`-1` is returned. | This parameter is only applicable to fast pins. For standard pins,`-1` is returned. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98684_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98684_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › PDIV  -  Period DIVider）
 
@@ -993,7 +993,7 @@ RSET {specifier}
 | specifier | MTPP | Resets memory test and per-pin sequencer subroutine data. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98723_5.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98723_5.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › RSET -  ReSET）
 
@@ -1081,7 +1081,7 @@ Parameters
 | portlist | With multi-port specifications, you can specify a list of ports. If you do, only those components will be displayed that are associated with one of the specified ports.<br><br>If you specify a port list, the setup_comp_1 parameter will be ignored. | With multi-port specifications, you can specify a list of ports. If you do, only those components will be displayed that are associated with one of the specified ports.<br><br>If you specify a port list, the setup_comp_1 parameter will be ignored. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98729_4.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98729_4.htm`。
 
 The following table explains the interpretation of the setup_comp_1 and setup_comp_2 parameters for every accepted value pair of the spec_type and type parameters:
 
@@ -1101,7 +1101,7 @@ The following table explains the interpretation of the setup_comp_1 and setup_co
 | ANA | RSET | Not allowed | routing set |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98729_4.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98729_4.htm`。
 
 ### Example 1（取自子主题 Timing Setup Commands › List of timing setup commands › SDSC  -  Set number DeSCriptions）
 
@@ -1384,7 +1384,7 @@ SPST {spec_type},, {"multi-port_spec"}, {status}
 | status | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98743_4.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98743_4.htm`。
 
 Status bits for the status parameter
 | Bit | Description | Value |
@@ -1491,7 +1491,7 @@ STRS GE,2,,
 | pinlist | By this extra parameter, you can modify the runtime definitions for an individual pin. Note that you cannot retrieve the pin specific values with SVLR?.<br><br>Note You can use the pinlist parameter to modify the value of a spec variable of an individual pin, temporarily. If you make a new modification on a different spec variable, only the last modification is kept while the previous spec variable is reset to the setup value defined in the spec file. To make a permanent modification on a spec variable, specify all pins (that is, @) as the pinlist. Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset. | By this extra parameter, you can modify the runtime definitions for an individual pin. Note that you cannot retrieve the pin specific values with SVLR?.<br><br>Note You can use the pinlist parameter to modify the value of a spec variable of an individual pin, temporarily. If you make a new modification on a different spec variable, only the last modification is kept while the previous spec variable is reset to the setup value defined in the spec file. To make a permanent modification on a spec variable, specify all pins (that is, @) as the pinlist. Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98764_4.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98764_4.htm`。
 
 ### Example 1（取自子主题 Timing Setup Commands › List of timing setup commands › SVLR  SVLR  -  Spec VaLues at Runtime）
 
@@ -1632,7 +1632,7 @@ TSUX {waveform_set},{timing_set}
 | timing_set | NONE | This command parameter sets the value of TSUX back to 1 for the specified waveform set. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98818_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98818_3.htm`。
 
 ### UPTD（取自子主题 Timing Setup Commands › List of timing setup commands › UPTD  UPTD  -  UP To Date）
 
@@ -1690,7 +1690,7 @@ VCLK {autocorrect}
 | autocorrect | 1 | Auto-correction will occur. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98844_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98844_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › VCLK  -  Verify CLocK）
 
@@ -1753,7 +1753,7 @@ VDCG {wavetable_name}, {dev_cyc_name}, {dev_cyc_len}
 | dev_cyc_len | Always 1 for SmarTest 7.10. | Always 1 for SmarTest 7.10. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98846_4.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98846_4.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › VDCG  -  Verify Device Cycle for Group）
 
@@ -1794,7 +1794,7 @@ VTIM {status}
 | status | 1 | The timing is the same. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98862_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98862_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › VTIM  -  Verify TIMing）
 
@@ -1895,7 +1895,7 @@ VWFS {status}, {(pinlist)}
 |  | 1 | The waveform sets are compatible. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98864_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98864_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › VWFS  -  Verify WaveForm Sets）
 
@@ -1959,7 +1959,7 @@ WAVE {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {wfIndex}, [DD1], 
 | ALLOW_EQ | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98869_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98869_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WAVE  WAVE  -  WAVEform）
 
@@ -2005,7 +2005,7 @@ Parameters
 | pinlist | The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `../02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with commas. | The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `../02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with commas. | The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `../02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with commas. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98871_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98871_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WFDF  WFDF  -  WaveForm DeFinition）
 
@@ -2319,7 +2319,7 @@ WSDM {waveform_set}, {display_mode}
 | portlist | For multiport specifications, you can specify the ports for which the vector setup display mode is to be returned. | For multiport specifications, you can specify the ports for which the vector setup display mode is to be returned. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98877_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98877_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WSDM  WSDM  -  Waveform Set Display Mode）
 
@@ -2365,7 +2365,7 @@ This example sets the number of used waveform sets to 3.
 
 The following figure exemplifies the structure of equation based timing by a schematic setup:
 
- !`Timing Specifications`（raw: `../../../../agent-html/10596.png`）
+ !`Timing Specifications`（raw: `../../../../raw/10596.png`）
 
 ### Example（取自子主题 Equation based timing setup › Timing setup master file › Master file format for timing setup）
 
@@ -2393,7 +2393,7 @@ In the assembled level setup file `demo.tim`, the alias set `usb_set` is used in
 
 A chip has the following timing relationship between some of its pins:
 
- !`Timing Relationship in Example Device`（raw: `../../../../agent-html/17831.png`）
+ !`Timing Relationship in Example Device`（raw: `../../../../raw/17831.png`）
 
 where,
 

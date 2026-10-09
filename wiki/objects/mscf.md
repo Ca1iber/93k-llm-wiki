@@ -288,7 +288,7 @@ An error is generated if no modulation set with the specified name exists.
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md`
-  （frontmatter 的 `source_topic` 是 `143671.htm`；**7,018 字节 / 196 行，整篇读完**）
+  （frontmatter 的 `source_topic` 是 `143671.htm`；**7,011 字节 / 196 行，整篇读完**）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 
 **本页没做的**：

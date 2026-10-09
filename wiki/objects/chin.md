@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,598 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`。**不是转述。**
+> 本节 **4,591 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -63,7 +63,7 @@ CHIN {channel_nr}, {channel_type}, [phys_location], {board_no}, [clk_board], [ch
 | chan_info_2 | For digital channels:<br><br>Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors). | For digital channels:<br><br>Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors). |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98502.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98502.htm`。
 
 ### Examples
 
@@ -414,7 +414,7 @@ CHIN {channel_nr}, {channel_type}, [phys_location], {board_no}, [clk_board], [ch
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md`
-（TDC `98502.htm`；**md 5,948 字节 / 276 行**，上游 htm 11,096 字节）。**整篇读完。**
+（TDC `98502.htm`；**md 5,941 字节 / 276 行**，上游 htm 11,096 字节）。**整篇读完。**
 
 **本页没做的**：
 
@@ -500,7 +500,7 @@ CHIN {channel_nr}, {channel_type}, [phys_location], {board_no}, [clk_board], [ch
 >
 > **⑦ 同一篇文档在语料里投放了两份，本页只用了其中一份。**
 > 另一份是 `02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md`
-> （`source_topic: "98502_2.htm"`，**5,952 字节**）。
+> （`source_topic: "98502_2.htm"`，**5,945 字节**）。
 > **实测 `diff`：两份正文逐行完全相同，差别只有 frontmatter 的第 3、4 行
 > （`source_topic` / `source_html`）**。
 > **两份上游也各有一个 `.htm`，而且 `cmp` 报 `98502.htm` 与 `98502_2.htm` 完全一致**

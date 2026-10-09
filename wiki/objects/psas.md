@@ -426,7 +426,7 @@ PSAS {status}, {(pinlist)}
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md`
-（TDC `98691_2.htm`，15,944 字节，257 行）。**整篇读完**，本页引文全部来自这一篇。
+（TDC `98691_2.htm`，15,937 字节，257 行）。**整篇读完**，本页引文全部来自这一篇。
 
 > **它是同一篇的第二次投放。** 同一篇还以 `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md`
 > 存在（`source_topic` 分别是 `98691_2.htm` 与 `98691.htm`）。**本页把两份逐字节比过**：

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,485 字符逐字取自** `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.13_Report_window.md>` 及其子主题 `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.13.03_Configuring_the_messages_printed_in_the_Report_Window.md>`。**不是转述。**
+> 本节 **1,464 字符逐字取自** `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.13_Report_window.md>` 及其子主题 `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.13.03_Configuring_the_messages_printed_in_the_Report_Window.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -40,7 +40,7 @@ This example shows how you can configure the .testflow.ReportUiOutput.user_def f
 
 The messages that are printed in the Report Window are as in the following figure:
 
-!`Printing messages for passed and failed sites in the Report Window`（raw: `../../../../agent-html/345529.png`）
+!`Printing messages for passed and failed sites in the Report Window`（raw: `../../../../raw/345529.png`）
 
 ### Printing messages for failed sites only in the Report Window
 
@@ -50,7 +50,7 @@ This example shows how you can configure the .testflow.ReportUiOutput.user_def s
 <failed>Site : %site -> Bin: %bin -> FAIL (Bad)
 ```
 
-!`Printing messages for failed sites only in the Report Window`（raw: `../../../../agent-html/345530.png`）
+!`Printing messages for failed sites only in the Report Window`（raw: `../../../../raw/345530.png`）
 
 ### Printing messages in the Report Window for the failed sites after a test suite is executed
 
@@ -60,7 +60,7 @@ This example shows how you can configure your .testflow.ReportUiOutput.user_def 
 <failed>TestSuite: %testSuiteName -> Site: %site -> FAIL
 ```
 
-!`Printing messages in the Report Window for failed sites only after a test suite is executed`（raw: `../../../../agent-html/345531.png`）
+!`Printing messages in the Report Window for failed sites only after a test suite is executed`（raw: `../../../../raw/345531.png`）
 
 <!-- 语法节 end -->
 

@@ -140,7 +140,7 @@ Note 的两句是一对，第一句给入口，第二句把入口砍掉一半：
 
 ## 出处
 
-**`sources:` 一篇**：`02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.06_Flags_page.md`（TDC `99273.htm`；**1,085 字节 / 19 行**——**本 wiki 里最薄的源文档之一**）。
+**`sources:` 一篇**：`02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.06_Flags_page.md`（TDC `99273.htm`；**1,078 字节 / 19 行**——**本 wiki 里最薄的源文档之一**）。
 
 **本页有两个证据面，分开记**：
 

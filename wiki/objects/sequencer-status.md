@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,917 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.204_SEQUENCER_STATUS_-__Sequencer.md>`。**不是转述。**
+> 本节 **2,910 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.204_SEQUENCER_STATUS_-__Sequencer.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -48,7 +48,7 @@ Parameters
 
 Given the following pattern, the member functions `stopVector` and `stopCycle` behave as follows.
 
- !`Pattern tool_SEQUENCER_STATUS`（raw: `../../../../agent-html/144837.png`）
+ !`Pattern tool_SEQUENCER_STATUS`（raw: `../../../../raw/144837.png`）
 
 - `Sequencer.stopCycle(13).run();`
 

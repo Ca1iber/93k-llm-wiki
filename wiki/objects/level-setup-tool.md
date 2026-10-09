@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **11,312 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14_Level_setup_tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.02.01_Syntax_of_expression.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.05_Pin_alias_set__PIN_ALIAS_SET.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07_DPSPINS.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.05.01_Master_file_format_for_level_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.02_Specifying_the_context_for_levels.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.03_How_to_create_an_equation_set_using_the_Equation_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.04_Creating_new_specification_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.06.01.03_Using_the_UNGANG_connect_state_with_DC_Scale_DPS_cards.md>`。**不是转述。**
+> 本节 **11,277 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14_Level_setup_tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.02.01_Syntax_of_expression.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.05_Pin_alias_set__PIN_ALIAS_SET.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07_DPSPINS.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.05.01_Master_file_format_for_level_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.02_Specifying_the_context_for_levels.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.03_How_to_create_an_equation_set_using_the_Equation_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.04_Creating_new_specification_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.06.01.03_Using_the_UNGANG_connect_state_with_DC_Scale_DPS_cards.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -38,7 +38,7 @@ shsp18sp19>shsp32+ct3?shsp18sp19:shsp32+ct3
 
 ### Syntax（取自子主题 Equation based level setup › Structure of an equation based level setup › Pin alias set  PIN ALIAS SET）
 
-!`PIN_ALIAS_SET`（raw: `../../../../agent-html/112434.png`）
+!`PIN_ALIAS_SET`（raw: `../../../../raw/112434.png`）
 
  |
 
@@ -177,7 +177,7 @@ The level equation set shown in the figure below defines the levels for the cont
 
 This level equation set represents a DEFAULT context, and it defines the levels for all std mode pins without any FAST mode pins in a single-ended configuration.
 
- !`Standard-Level Setup for Single-Ended Pins (DEFAULT Context)`（raw: `../../../../agent-html/55992.png`）
+ !`Standard-Level Setup for Single-Ended Pins (DEFAULT Context)`（raw: `../../../../raw/55992.png`）
 
 ### Context "differential"
 
@@ -185,7 +185,7 @@ The name differential is an arbitrary context name given here to describe a diff
 
 The level setup for this example includes differential pins in FAST mode and a termination chosen to be center_tap to set up a differential configuration.
 
- !`Level File: FAST mode, Differential Pins, Center Tap Termination`（raw: `../../../../agent-html/55993.png`）
+ !`Level File: FAST mode, Differential Pins, Center Tap Termination`（raw: `../../../../raw/55993.png`）
 
 ### Example（取自子主题 Opening and using the Level Setup Tool › How to create an equation set using the Equation editor）
 
@@ -251,7 +251,7 @@ PINS io_pins
   - In the Enter or select NEW file name window type the file name (for example: levels).
   - Click OK.
 
- !`Save Level setup`（raw: `../../../../agent-html/135366.png`）
+ !`Save Level setup`（raw: `../../../../raw/135366.png`）
 
 _Do not use the File > Save option of NEdit. In order to save your work you must first download the changed data, and then save them from the Test Program Explorer.
 
@@ -263,7 +263,7 @@ Alternatively you can go <93000> <Setup> <Spec Tool>.
 
 If the Select specification window opens:
 
-  !`Select specification`（raw: `../../../../agent-html/131014.png`）  In the window click done.
+  !`Select specification`（raw: `../../../../raw/131014.png`）  In the window click done.
 
 You access `The Spec Tool window`（raw: `02.08.04.30.01_The_Spec_Tool_window.md`）.
 

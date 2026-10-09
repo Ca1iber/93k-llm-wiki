@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,414 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`。**不是转述。**
+> 本节 **1,407 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -45,7 +45,7 @@ EQFS {spec_type}, {part}, {operation},{"eqn_filename"}, ["error_filename"]
 | error_filename | The absolute filename of the file to which error reports are written.<br><br>Use UI_REPORT to direct error reports to the report window.<br><br>If this parameter is not specified, only a summarized error message is reported. | The absolute filename of the file to which error reports are written.<br><br>Use UI_REPORT to direct error reports to the report window.<br><br>If this parameter is not specified, only a summarized error message is reported. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98592_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98592_2.htm`。
 
 ### Example
 
@@ -274,7 +274,7 @@ EQFS LEV,EQN,LOAD,"/tmp/level_equation",
 | `02.08_Setup_and_Result_Tools/02.08.04.34.02.02.13_EQFS_-__EQuation_FileS_command_transfer.md` | `98592_4.htm` |
 
 **核法与本页的结论**：四份**剥掉 frontmatter 之后逐字节相同**——
-**都是 2,255 字节**，`sha256` 同为 `7a5553affcdeb71122bd9db05ce99392e86a618bece3483ae8f570d5fa4559f9`。
+**都是 2,248 字节**，`sha256` 同为 `7a5553affcdeb71122bd9db05ce99392e86a618bece3483ae8f570d5fa4559f9`。
 判据是 §10 第 0 条：**`source_topic` 去掉 `_N` 后缀后相同 → 同一篇 TDC 页**。
 
 > **所以：`EQFS` 这一篇被投放了 4 次，不是 4 处独立证据。**

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **243 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.03_Port_Editor.md>`。**不是转述。**
+> 本节 **236 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.03_Port_Editor.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -30,7 +30,7 @@ The following picture shows a port Port_IO consisting of eight pins.
 
 In the Available Pin List, the "鈭? character preceding with the pin name means that this pin has been added to Port_IO.
 
- !`Port Example`（raw: `../../../../agent-html/97848.png`）
+ !`Port Example`（raw: `../../../../raw/97848.png`）
 
 <!-- 语法节 end -->
 

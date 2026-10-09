@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **5,941 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02_Equation_based_level_setup.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.02.01_Syntax_of_expression.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.05_Pin_alias_set__PIN_ALIAS_SET.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07_DPSPINS.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.05.01_Master_file_format_for_level_setup.md>`。**不是转述。**
+> 本节 **5,934 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02_Equation_based_level_setup.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.02.01_Syntax_of_expression.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.05_Pin_alias_set__PIN_ALIAS_SET.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07_DPSPINS.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.05.01_Master_file_format_for_level_setup.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -38,7 +38,7 @@ shsp18sp19>shsp32+ct3?shsp18sp19:shsp32+ct3
 
 ### Syntax（取自子主题 Structure of an equation based level setup › Pin alias set  PIN ALIAS SET）
 
-!`PIN_ALIAS_SET`（raw: `../../../../agent-html/112434.png`）
+!`PIN_ALIAS_SET`（raw: `../../../../raw/112434.png`）
 
  |
 

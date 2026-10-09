@@ -192,7 +192,7 @@ verified: doc-only
 
 `sources:` 一篇：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.09_Ground_sense_editor.md`
-（frontmatter `source_topic` = `355935.htm`；**973 字节 / 25 行**，**整篇读完**。
+（frontmatter `source_topic` = `355935.htm`；**966 字节 / 25 行**，**整篇读完**。
 口径按 §11.5：字节是 `st_size`，行数是 `wc -l`，本语料末行带换行，两者恒等）
 
 **本页读了的图**：本篇对 `raw/` 的引用**恰好一处**——

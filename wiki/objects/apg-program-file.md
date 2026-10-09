@@ -287,7 +287,7 @@ Device architecture file`，而本页推断「这个引用应该在 `.apg` 里�
 
 `sources:` 一篇：
 `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.03_APG_program_file.md`
-（`67572.htm`，2,978 字节，77 行）——**整篇读完**。
+（`67572.htm`，2,971 字节，77 行）——**整篇读完**。
 
 **本页做了什么、没做什么**：
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,547 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.04.12_Maintenance_operations.md>`。**不是转述。**
+> 本节 **1,533 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.04.12_Maintenance_operations.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -30,11 +30,11 @@ verified: doc-only
 
 This example assumes a maintenance operation period taken from the data sheet of a memory device with a maintenance operation period of 300 ns. The test system cycle period is 100 ns. This causes a maintenance operation subroutine to be called on test system cycles 3, 6, ... as shown in the example below.
 
- !`Maintenance operation example with test system cycle of 100ns`（raw: `../../../../agent-html/75962.png`）
+ !`Maintenance operation example with test system cycle of 100ns`（raw: `../../../../raw/75962.png`）
 
 If the test system cycle period is reduced to 50 ns and the maintenance operation period remains 300 ns long, the maintenance operation subroutine is called on test system cycle number 6 as shown in the example below.
 
- !`Maintenance operation example with test system cycle of 50ns`（raw: `../../../../agent-html/75963.png`） Note The maintenance operation period numbers in the above examples differ from the numbers for common memory devices. They are used just to explain the maintenance operation concept.
+ !`Maintenance operation example with test system cycle of 50ns`（raw: `../../../../raw/75963.png`） Note The maintenance operation period numbers in the above examples differ from the numbers for common memory devices. They are used just to explain the maintenance operation concept.
 
 ### Code example
 

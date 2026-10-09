@@ -19,7 +19,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **156 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.01_Data_organization_of_equation_based_timing.md>`。**不是转述。**
+> 本节 **149 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.01_Data_organization_of_equation_based_timing.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -29,7 +29,7 @@ verified: doc-only
 
 The following figure exemplifies the structure of equation based timing by a schematic setup:
 
- !`Timing Specifications`（raw: `../../../../agent-html/10596.png`）
+ !`Timing Specifications`（raw: `../../../../raw/10596.png`）
 
 <!-- 语法节 end -->
 

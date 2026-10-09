@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,160 字符逐字取自** `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03_Hardware_view.md>` 及其子主题 `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03.05_Profiling_of_DC_Scale_cards_with_Hardware_view.md>`。**不是转述。**
+> 本节 **1,146 字符逐字取自** `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03_Hardware_view.md>` 及其子主题 `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.05.03.05_Profiling_of_DC_Scale_cards_with_Hardware_view.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,11 +32,11 @@ verified: doc-only
 
 The following screen shot shows a part of the DPS128 Hardware view.
 
- !`Profiling in Hardware view`（raw: `../../../../agent-html/353618.png`）
+ !`Profiling in Hardware view`（raw: `../../../../raw/353618.png`）
 
 The Profile button at the bottom is marked in red and opens the DPS Profile dialog.
 
-  !`DPS profile with`（raw: `../../../../agent-html/353741.png`）
+  !`DPS profile with`（raw: `../../../../raw/353741.png`）
 
 You can define the configuration of sequencer‑controlled utility lines, which is programmed to hardware before any pattern execution.
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,817 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`。**不是转述。**
+> 本节 **1,810 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -46,7 +46,7 @@ VWFS {status}, {(pinlist)}
 |  | 1 | The waveform sets are compatible. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98864.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98864.htm`。
 
 ### Example
 
@@ -250,7 +250,7 @@ VWFS 1,(DATA)
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md`
-  （frontmatter 的 `source_topic` 是 `98864.htm`；**3,264 字节 / 100 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98864.htm`；**3,257 字节 / 100 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 - **上游 `.htm` 核过**：`raw/98864.htm`（**6,881 字节**）。核的是下面 ⚠️ ④ 那一条。

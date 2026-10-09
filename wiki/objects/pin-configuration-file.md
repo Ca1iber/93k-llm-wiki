@@ -19,7 +19,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,685 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.04_Pin_configuration_file.md>`。**不是转述。**
+> 本节 **1,664 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.04_Pin_configuration_file.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -27,7 +27,7 @@ verified: doc-only
 
 ### Example
 
-- The figures below show the pin setting and the contents of the related pin configuration file. !`A mixed-signal pin configuration example - digital pins`（raw: `../../../../agent-html/21671.png`）   !`A mixed-signal pin configuration example - DPS pins`（raw: `../../../../agent-html/105641.png`）   !`A mixed-signal pin configuration example - analog pins`（raw: `../../../../agent-html/105640.png`）
+- The figures below show the pin setting and the contents of the related pin configuration file. !`A mixed-signal pin configuration example - digital pins`（raw: `../../../../raw/21671.png`）   !`A mixed-signal pin configuration example - DPS pins`（raw: `../../../../raw/105641.png`）   !`A mixed-signal pin configuration example - analog pins`（raw: `../../../../raw/105640.png`）
 
 ```
 hp93000,config,0.1

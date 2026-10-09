@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **10,095 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18_Pin_configuration_tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.02.07.01_Virtual_pins.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.02.08.03_Editing_an_expression-based_group.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.01_Context_list.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.03_DPS_Pins_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.03_Port_Editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.13_Filter_line.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.14_Sorting_rows.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.04_Pin_configuration_file.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.05_Pin_configuration_master_file.md>`。**不是转述。**
+> 本节 **10,004 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18_Pin_configuration_tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.02.07.01_Virtual_pins.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.02.08.03_Editing_an_expression-based_group.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.01_Context_list.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.03_DPS_Pins_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.03_Port_Editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.13_Filter_line.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.14_Sorting_rows.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.04_Pin_configuration_file.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.05_Pin_configuration_master_file.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -217,19 +217,19 @@ A group contains all the input pins (all_in), without the pin I/O7. So the expre
 
 After selecting I type, the steps for building such expression are:
 
-- Click group all_in in the Available Group/Pin List and then click operator + Union. This results in the following group expression. !`Edit an Group Expression (1)`（raw: `../../../../agent-html/21668.png`）
-- Click pin I/O7 in the Available Group/Pin List and then click operator - Difference. This results in the final group expression. !`Edit an Group Expression (2)`（raw: `../../../../agent-html/21669.png`）
-- To evaluate the group expression, click Evaluate. The pins are printed to the Group Members area. !`Group Expression Result`（raw: `../../../../agent-html/21667.png`）
+- Click group all_in in the Available Group/Pin List and then click operator + Union. This results in the following group expression. !`Edit an Group Expression (1)`（raw: `../../../../raw/21668.png`）
+- Click pin I/O7 in the Available Group/Pin List and then click operator - Difference. This results in the final group expression. !`Edit an Group Expression (2)`（raw: `../../../../raw/21669.png`）
+- To evaluate the group expression, click Evaluate. The pins are printed to the Group Members area. !`Group Expression Result`（raw: `../../../../raw/21667.png`）
 
 ### Example（取自子主题 Elements of the Pin Configuration Tool › Pin setting editors › Context list）
 
 The figure below illustrates an invalid allocation of contexts which are mixed.
 
- !`Incorrect Allocation of Contexts - Invalid Setup`（raw: `../../../../agent-html/56188.png`）
+ !`Incorrect Allocation of Contexts - Invalid Setup`（raw: `../../../../raw/56188.png`）
 
 The figure below shows a valid context configuration where the context you allocated to the pins has also been allocated to the corresponding timing, level and vector label.
 
- !`Correct Allocation of Contexts - Valid Setup`（raw: `../../../../agent-html/56189.png`）
+ !`Correct Allocation of Contexts - Valid Setup`（raw: `../../../../raw/56189.png`）
 
 ### Examples（取自子主题 Elements of the Pin Configuration Tool › Pin setting editors › Digital Pins editor）
 
@@ -244,7 +244,7 @@ The following table shows an example configuration for DC Scale pins in PMU mode
 
 ### Utility DC pin setup
 
-  !`Utility DC pin setup`（raw: `../../../../agent-html/355197.png`）
+  !`Utility DC pin setup`（raw: `../../../../raw/355197.png`）
 
 ### Example（取自子主题 Elements of the Pin Configuration Tool › Pin setting editors › DPS Pins editor）
 
@@ -256,23 +256,23 @@ The following picture shows a port Port_IO consisting of eight pins.
 
 In the Available Pin List, the "鈭? character preceding with the pin name means that this pin has been added to Port_IO.
 
- !`Port Example`（raw: `../../../../agent-html/97848.png`）
+ !`Port Example`（raw: `../../../../raw/97848.png`）
 
 ### Example（取自子主题 Elements of the Pin Configuration Tool › Filter line）
 
 When you type I/O in the filter line of the Pin Name column, all the pins whose names include I/O are shown.
 
- !`Filter Example`（raw: `../../../../agent-html/97823.png`）
+ !`Filter Example`（raw: `../../../../raw/97823.png`）
 
 ### Example（取自子主题 Elements of the Pin Configuration Tool › Sorting rows）
 
 The following examples sort the Pin Name column in ascending and descending order.
 
- !`Sort in Ascending Order`（raw: `../../../../agent-html/97825.png`）  !`Sort in descending order`（raw: `../../../../agent-html/97826.png`）
+ !`Sort in Ascending Order`（raw: `../../../../raw/97825.png`）  !`Sort in descending order`（raw: `../../../../raw/97826.png`）
 
 ### Example（取自子主题 Pin configuration file）
 
-- The figures below show the pin setting and the contents of the related pin configuration file. !`A mixed-signal pin configuration example - digital pins`（raw: `../../../../agent-html/21671.png`）   !`A mixed-signal pin configuration example - DPS pins`（raw: `../../../../agent-html/105641.png`）   !`A mixed-signal pin configuration example - analog pins`（raw: `../../../../agent-html/105640.png`）
+- The figures below show the pin setting and the contents of the related pin configuration file. !`A mixed-signal pin configuration example - digital pins`（raw: `../../../../raw/21671.png`）   !`A mixed-signal pin configuration example - DPS pins`（raw: `../../../../raw/105641.png`）   !`A mixed-signal pin configuration example - analog pins`（raw: `../../../../raw/105640.png`）
 
 ```
 hp93000,config,0.1

@@ -467,7 +467,7 @@ cout << "Site " << CURRENT_SITE_NUMBER() << ", Current surge tracker: " << statu
 
 `sources:` 一篇：
 `02_System_reference/02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`
-（`350661.htm`，1,788 字节，33 行）——**整篇读完**。**这是本批最少的几篇之一。**
+（`350661.htm`，1,781 字节，33 行）——**整篇读完**。**这是本批最少的几篇之一。**
 
 **本页做了什么、没做什么**：
 

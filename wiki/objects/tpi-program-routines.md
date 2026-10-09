@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **35,391 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.01.09_TPI_Program_Routines.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.01.09.01_ChangeDevice.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.02_DataManager.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.03_ExecMonitor.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.04_GetConnectState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.05_GetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.06_GetAvailableSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.07_GetDevPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.08_GetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.09_GetEQVariableFromCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.10_GetEQVariableValue.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.11_GetFileState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.12_GetLoadedTestflowName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.13_GetNumberOfSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.14_GetSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.15_GetSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.16_GetTechPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.17_GetTestflowRevisionInfo.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.18_GetTmpPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.19_HpInit.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.20_HpTerm.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.21_HpFwTask.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.22_InsertEQVariableInCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.23_MonitorStatus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.24_ReportMessage.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.25_RestoreSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.26_SetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.27_SetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.28_SetErrorMapMode.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.29_SetSiteInFocus.md>`。**不是转述。**
+> 本节 **35,370 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.01.09_TPI_Program_Routines.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.01.09.01_ChangeDevice.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.02_DataManager.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.03_ExecMonitor.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.04_GetConnectState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.05_GetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.06_GetAvailableSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.07_GetDevPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.08_GetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.09_GetEQVariableFromCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.10_GetEQVariableValue.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.11_GetFileState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.12_GetLoadedTestflowName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.13_GetNumberOfSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.14_GetSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.15_GetSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.16_GetTechPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.17_GetTestflowRevisionInfo.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.18_GetTmpPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.19_HpInit.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.20_HpTerm.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.21_HpFwTask.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.22_InsertEQVariableInCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.23_MonitorStatus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.24_ReportMessage.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.25_RestoreSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.26_SetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.27_SetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.28_SetErrorMapMode.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.29_SetSiteInFocus.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -46,7 +46,7 @@ Parameters
 | return_state | 0 if an error occurred |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/26580.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/26580.htm`。
 
 ### Example（取自子主题 ChangeDevice）
 
@@ -1238,7 +1238,7 @@ Values for Parameter TstrOpState_p
 | TstrOpState_p | TM_OFFLINE_STATE | test system operation is not monitored, system software was started in OFFLINE mode. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/26690.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/26690.htm`。
 
 Values for Parameter StatusReg_p
 | Parameter | Description | Value |
@@ -1266,7 +1266,7 @@ Values for Parameter StatusReg_p
 | bits 10 ... 15: | unused |  |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/26690.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/26690.htm`。
 
 ### Example（取自子主题 MonitorStatus）
 

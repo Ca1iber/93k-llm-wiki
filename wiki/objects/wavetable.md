@@ -178,7 +178,7 @@ verified: doc-only
 `sources:` **一篇**：
 
 - `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.03.07_wavetable.md`
-  （frontmatter 的 `source_topic` 是 `16909.htm`，**751 字节 / 27 行，整篇读完**——按 §11.5 口径：
+  （frontmatter 的 `source_topic` 是 `16909.htm`，**744 字节 / 27 行，整篇读完**——按 §11.5 口径：
   字节是 `st_size`，行数是 `wc -l`，本语料末行带换行，两者恒等）
 - 本页的「语法 / 参数」节是脚本从这一篇抽的（**本页一个字没动**）。
   **它这一节是空的**，理由脚本自己写在节里：**本篇没有 `Syntax` / `Parameters` / `Example` 这类段标记**。
