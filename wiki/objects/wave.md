@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,675 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`。**不是转述。**
+> 本节 **7,856 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -45,245 +45,36 @@ WAVE {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {wfIndex}, [DD1], 
 
 ### Parameters
 
-|
-
-wvf_set
-
- |
-
-Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes.
-
- |
- |
-
-multiport_spec
-
- |
-
-To change or query a multiport specification, enter the name of the specification.
-
- |
- |
-
-wfIndex
-
- |
-
-Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform.
-
- |
- |
-
-DD1 and DD2
-
- |
-
-First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are:
-
- |
- |
-
-F0N
-
- |
-
-drive 0
-
- |
- |
-
-F1N
-
- |
-
-drive 1
-
- |
- |
-
-FN0
-
- |
-
-tri-state off
-
- |
- |
-
-FNZ
-
- |
-
-tri-state on
-
- |
- |
-
-F00
-
- |
-
-drive 0, tri-state off
-
- |
- |
-
-F0Z
-
- |
-
-drive 0, tri-state on
-
- |
- |
-
-F10
-
- |
-
-drive 1, tri-state off
-
- |
- |
-
-F1Z
-
- |
-
-drive 1, tri-state on
-
- |
- |
-
-ED1 and ED2
-
- |
-
-First and second receive data parameter. These are optional parameters. The values you can define are:
-
- |
- |
-
-F0
-
- |
-
-compare to 0
-
- |
- |
-
-F1
-
- |
-
-compare to 1
-
- |
- |
-
-FI
-
- |
-
-compare to intermediate
-
- |
- |
-
-FX
-
- |
-
-compare to mask
-
- |
- |
-
-FU
-
- |
-
-compare to unstable
-
- |
- |
-
-C
-
- |
-
-capture digital data
-
- |
- |
-
-D
-
- |
-
-do not capture digital data
-
- |
- |
-
-The values C and D are used for selective digital capture. The following rules apply to these values:
-
-- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.
-- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another.
- |
- |
-
-pwfIndex
-
- |
-
-Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas.
-
- |
- |
-
-ALLOW_EQ
-
- |
-
-This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.
-
-Note also the following:
-
-- Every runtime change will affect all specifications that use the respective wavetable.
-- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
-- The runtime definitions are not checked for consistency. It is up to the user to ensure this.
- |
+| wvf_set | Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. | Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|---|
+| specset_id | Derived as follows:<br><br>`100 * equation_set_no + specset_no` | Derived as follows:<br><br>`100 * equation_set_no + specset_no` |
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes. | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes. |
+| multiport_spec | To change or query a multiport specification, enter the name of the specification. | To change or query a multiport specification, enter the name of the specification. |
+| wfIndex | Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform. | Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform. |
+| DD1 and DD2 | First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are: | First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are: |
+| DD1 and DD2 | F0N | drive 0 |
+| DD1 and DD2 | F1N | drive 1 |
+| DD1 and DD2 | FN0 | tri-state off |
+| DD1 and DD2 | FNZ | tri-state on |
+| DD1 and DD2 | F00 | drive 0, tri-state off |
+| DD1 and DD2 | F0Z | drive 0, tri-state on |
+| DD1 and DD2 | F10 | drive 1, tri-state off |
+| DD1 and DD2 | F1Z | drive 1, tri-state on |
+| ED1 and ED2 | First and second receive data parameter. These are optional parameters. The values you can define are: | First and second receive data parameter. These are optional parameters. The values you can define are: |
+| ED1 and ED2 | F0 | compare to 0 |
+| ED1 and ED2 | F1 | compare to 1 |
+| ED1 and ED2 | FI | compare to intermediate |
+| ED1 and ED2 | FX | compare to mask |
+| ED1 and ED2 | FU | compare to unstable |
+| ED1 and ED2 | C | capture digital data |
+| ED1 and ED2 | D | do not capture digital data |
+| ED1 and ED2 | The values C and D are used for selective digital capture. The following rules apply to these values:<br><br>- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.<br>- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another. | The values C and D are used for selective digital capture. The following rules apply to these values:<br><br>- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.<br>- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another. |
+| pwfIndex | Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table. | Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table. |
+| pinlist | The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas. | The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas. |
+| ALLOW_EQ | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98869.htm`。
 
 ### Example
 
@@ -649,7 +440,7 @@ WAVE? {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {(pinlist)}
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`
-  （frontmatter 的 `source_topic` 是 `98869.htm`；**8,965 字节 / 384 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98869.htm`；**12,052 字节 / 384 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 

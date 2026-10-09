@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **6,677 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md>`。**不是转述。**
+> 本节 **8,825 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -172,31 +172,35 @@ verified: doc-only
 
 ### Tables（脚本逐字抽取，第 9 张）
 
-   | EXA Scale |
- | Utility block  |   | |
- | 1  |   | UTIL 1  | 165  |   | DPS 3  | 265 |
- | 2  |   | UTIL 2  | 166  |   | DPS 1  | 266 |
- | 3  |   | UTIL 3  | 167  |   | DPS 2  | 267 |
- | 4  |   | UTIL 4  | 168  |   | DPS 8  | 268 |
- | 5  |   | UTIL 5  | 169  |   | DPS 4  | 269 |
- | 6  |   | UTIL 6  | 170  |   | DPS 5  | 270 |
- | 7  |   | UTIL 7  | 171  |   | DPS 6  | 271 |
- | 8  |   | UTIL 8  | 172  |   | DPS 7  | 272 |
+|  |  | 1st Utility Card | 1st Utility Card |  | 2nd Utilty Card | 2nd Utilty Card |
+|---|---|---|---|---|---|---|
+| System: |  | Pin Scale<br><br>Smart Scale | EXA Scale |  | Pin Scale<br><br>Smart Scale | EXA Scale |
+| Utility block |  | Pin Scale<br><br>Smart Scale | EXA Scale |  | Pin Scale<br><br>Smart Scale | EXA Scale |
+| 1 |  | UTIL 1 | 165 |  | DPS 3 | 265 |
+| 2 |  | UTIL 2 | 166 |  | DPS 1 | 266 |
+| 3 |  | UTIL 3 | 167 |  | DPS 2 | 267 |
+| 4 |  | UTIL 4 | 168 |  | DPS 8 | 268 |
+| 5 |  | UTIL 5 | 169 |  | DPS 4 | 269 |
+| 6 |  | UTIL 6 | 170 |  | DPS 5 | 270 |
+| 7 |  | UTIL 7 | 171 |  | DPS 6 | 271 |
+| 8 |  | UTIL 8 | 172 |  | DPS 7 | 272 |
 
 ### Tables（脚本逐字抽取，第 10 张）
 
- | Supply  | Voltage  | Current  | Pins  | Block |
- | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8 |
- | `UP5V pins`（raw: `02.03.05.01_Utility_power_supply_-_UP5V_pins__V93000_EXA_Scale_systems.md`）  | +5.0 V  | 8.0 A  | UP5V  | X  | X  | X  | X  | X  | X  | X  | X |
- | `XP pins`（raw: `02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md`）  | +5.0 V  | 12.8 A  | XPP5V  | X  | X  | X  | X  | X  | X  | X  | X |
- | +3.3 V  | 6.0 A  | XPP3V3  | X  | X  | X  | X  | X  | X  | X  | X |
- | -5.0 V  | 6.0 A  | XPM5V  | X  | X  | X  | X  | X  | X  | X  | X |
- | `UPP15V UPM15V F24V pins`（raw: `02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`）  | +15.0 V  | 3.0 A  | UPP15V  |   | X  |   |   |   |   |   | X |
- | -15.0 V  | 3.0 A  | UPM15V  |   |   | X  |   | X  |   |   | |
- | 24 V  | 1.0 A  | F24VA  |   |   |   | X  |   |   |   | |
- | 24 V  | 1.0 A  | F24VB  |   |   |   |   |   | X  |   | |
- | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） |
- | 1st Utility Card |
+| Supply | Voltage | Current | Pins | Block | Block | Block | Block | Block | Block | Block | Block |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Supply | Voltage | Current | Pins | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+| `UP5V pins`（raw: `02.03.05.01_Utility_power_supply_-_UP5V_pins__V93000_EXA_Scale_systems.md`） | +5.0 V | 8.0 A | UP5V | X | X | X | X | X | X | X | X |
+| `XP pins`（raw: `02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md`） | +5.0 V | 12.8 A | XPP5V | X | X | X | X | X | X | X | X |
+| `XP pins`（raw: `02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md`） | +3.3 V | 6.0 A | XPP3V3 | X | X | X | X | X | X | X | X |
+| `XP pins`（raw: `02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md`） | -5.0 V | 6.0 A | XPM5V | X | X | X | X | X | X | X | X |
+| `UPP15V UPM15V F24V pins`（raw: `02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`） | +15.0 V | 3.0 A | UPP15V |  | X |  |  |  |  |  | X |
+| `UPP15V UPM15V F24V pins`（raw: `02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`） | -15.0 V | 3.0 A | UPM15V |  |  | X |  | X |  |  |  |
+| `UPP15V UPM15V F24V pins`（raw: `02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`） | 24 V | 1.0 A | F24VA |  |  |  | X |  |  |  |  |
+| `UPP15V UPM15V F24V pins`（raw: `02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`） | 24 V | 1.0 A | F24VB |  |  |  |  |  | X |  |  |
+| Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） | Utility pogo block on `DUT interface`（raw: `02.03.03.01_DUT_interface_layout.md`） |
+| 1st Utility Card | 1st Utility Card | 1st Utility Card | 1st Utility Card | 165<br><br>(UTIL 1) | 166<br><br>(UTIL 2) | 167<br><br>(UTIL 3) | 168<br><br>(UTIL 4) | 169<br><br>(UTIL 5) | 170<br><br>(UTIL 6) | 171<br><br>(UTIL 7) | 172<br><br>(UTIL 8) |
+| 2nd Utility Card | 2nd Utility Card | 2nd Utility Card | 2nd Utility Card | 265<br><br>(DPS 3) | 266<br><br>(DPS 1) | 267<br><br>(DPS 2) | 268<br><br>(DPS 8) | 269<br><br>(DPS 4) | 270<br><br>(DPS 5) | 271<br><br>(DPS 6) | 272<br><br>(DPS 7) |
 
 <!-- 语法节 end -->
 

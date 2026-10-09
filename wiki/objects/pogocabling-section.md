@@ -20,7 +20,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **5,426 字符逐字取自** `<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02_POGOCABLING_section.md>`。**不是转述。**
+> 本节 **6,082 字符逐字取自** `<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.02_POGOCABLING_section.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -33,56 +33,29 @@ verified: doc-only
 ```
 
 Parameters
- | <physical_location>  | Specifies the physical channel card position within the test head and the respective control segment. For more information regarding the control segments refer to `pogo mapping`（raw: `../02.05_Test_Head_Cards/02.05.01.04_Pogo_mapping.md`）.
-
-The format of the number is CSS:
-
-- C represents the control segment (1 to 4).
-- SS represents the control segment slot number (01 to 18).
-
-Refer to table `Card cage allocation based on test head type`（raw: `02.04.01.03.02.02_POGOCABLING_section.md#_106944__t_Card_cage_allocation`） below for the assignment of the control segment and the control segment slot number.
-
-SS=09 and SS=18 address the two slots reserved for the legacy DPS cards, such as the MS-DPS.
-
- |
- | pogoblocks  | Specifies the pogo pin blocks. <pogoblock_list> is a double quoted string defining the ordered list of pogo blocks or pogo block ranges. Use commas (,) to specify a list, like `"101, 103"`. Use hyphens (-) to specify a pogo block range, like `"101-104"`. You can also mix pogo blocks and pogo ranges, like `"101, 210-212"`.
-
-The total pogo block range is N MM, with N=1 to 8, MM=01 to 64. See also topic `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）.
-
-The physically addressable pogo block range depends on the selected pogo cable.
-
-Note The order of list must correspond to the structure of the pogo cable assembly. The first pogo block of the list defines always pogo block A of the cable. The last pogo block of the list defines always the last pogo block of the cable. |
- | type  | Specifies the pogo cable type.
-
-- SD is used for the standard pogo cable with 16 channels per pogo block. Depending on the channel card, one SD pogo cable ends in 1-8 pogo blocks with 16 channels each.
-- HD2x32 is presently not used by any channel card.
-- HD4x32 describes a pogo cable with 32 channels per pogo block. One HD4x32 pogo cable ends in 4 pogo blocks with 32 channels each.
-- VHD1x128 describes a PS1600 pogo cable with two VHD pogo blocks and 64 channels per pogo block that is to be used for special configurations only.
-- VHD4x32 is not yet used. It describes a DPS128 pogo cable with four pogo blocks and 32 channels per pogo block.
-- REDIRECT, subtype is used for special DPS pogo cables which shall work also on older software revisions.
-
-If the software detects a "redirect" statement, the software will start, even if the information following redirect is unknown to this software revision.
-
-The type parameter is optional. If not specified, the system defaults to SD. |
+| <physical_location> | Specifies the physical channel card position within the test head and the respective control segment. For more information regarding the control segments refer to `pogo mapping`（raw: `../02.05_Test_Head_Cards/02.05.01.04_Pogo_mapping.md`）.<br><br>The format of the number is CSS:<br><br>- C represents the control segment (1 to 4).<br>- SS represents the control segment slot number (01 to 18).<br><br>Refer to table `Card cage allocation based on test head type`（raw: `02.04.01.03.02.02_POGOCABLING_section.md#_106944__t_Card_cage_allocation`） below for the assignment of the control segment and the control segment slot number.<br><br>SS=09 and SS=18 address the two slots reserved for the legacy DPS cards, such as the MS-DPS. |
+|---|---|
+| pogoblocks | Specifies the pogo pin blocks. <pogoblock_list> is a double quoted string defining the ordered list of pogo blocks or pogo block ranges. Use commas (,) to specify a list, like `"101, 103"`. Use hyphens (-) to specify a pogo block range, like `"101-104"`. You can also mix pogo blocks and pogo ranges, like `"101, 210-212"`.<br><br>The total pogo block range is N MM, with N=1 to 8, MM=01 to 64. See also topic `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）.<br><br>The physically addressable pogo block range depends on the selected pogo cable.<br><br>Note The order of list must correspond to the structure of the pogo cable assembly. The first pogo block of the list defines always pogo block A of the cable. The last pogo block of the list defines always the last pogo block of the cable. |
+| type | Specifies the pogo cable type.<br><br>- SD is used for the standard pogo cable with 16 channels per pogo block. Depending on the channel card, one SD pogo cable ends in 1-8 pogo blocks with 16 channels each.<br>- HD2x32 is presently not used by any channel card.<br>- HD4x32 describes a pogo cable with 32 channels per pogo block. One HD4x32 pogo cable ends in 4 pogo blocks with 32 channels each.<br>- VHD1x128 describes a PS1600 pogo cable with two VHD pogo blocks and 64 channels per pogo block that is to be used for special configurations only.<br>- VHD4x32 is not yet used. It describes a DPS128 pogo cable with four pogo blocks and 32 channels per pogo block.<br>- REDIRECT, subtype is used for special DPS pogo cables which shall work also on older software revisions.<br><br>If the software detects a "redirect" statement, the software will start, even if the information following redirect is unknown to this software revision.<br><br>The type parameter is optional. If not specified, the system defaults to SD. |
 
 The following table shows the location of digital logical boards and DPS card based on the POGOCABLING syntax.
 
 Card cage allocation based on test head type
- | Control segment  | Card cages (cc), physical locations (CSS-CSS)  |   | Default location for DPS |
- | LTH  | STH  | CTH  | ATH  | LTH  | STH  | CTH  | ATH |
- | Card cage  | Location  | Card cage  | Location  | Card cage  | Location  | Card cage  | Location |
- | 1  | 5  | 101-109  | 1  | 101-109  | 1  | 101-109  | 1  | 101-109  |   | 4  | 3  | 1  | 1 |
- | 1 |
+| Control segment | Card cages (cc), physical locations (CSS-CSS) | Card cages (cc), physical locations (CSS-CSS) | Card cages (cc), physical locations (CSS-CSS) | Card cages (cc), physical locations (CSS-CSS) | Card cages (cc), physical locations (CSS-CSS) | Card cages (cc), physical locations (CSS-CSS) | Card cages (cc), physical locations (CSS-CSS) | Card cages (cc), physical locations (CSS-CSS) |  | Default location for DPS | Default location for DPS | Default location for DPS | Default location for DPS |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Control segment | LTH | LTH | STH | STH | CTH | CTH | ATH | ATH |  | LTH | STH | CTH | ATH |
+| Control segment | Card cage | Location | Card cage | Location | Card cage | Location | Card cage | Location |  | LTH | STH | CTH | ATH |
+| 1 | 5 | 101-109 | 1 | 101-109 | 1 | 101-109 | 1 | 101-109 |  | 4 | 3 | 1 | 1 |
+| 1 | 1 | 110-118 | 3 | 110-118 | 2 | 110-118 |  |  |  | 3 | 1 | 2 |  |
+| 2 | 2 | 201-209 | 2 | 201-209 |  |  |  |  |  | 8 | 2 |  |  |
+| 2 | 6 | 210-218 | 4 | 210-218 |  |  |  |  |  | 7 | 8 |  |  |
+| 3 | 3 | 301-309 |  |  |  |  |  |  |  | 1 |  |  |  |
+| 3 | 7 | 310-318 |  |  |  |  |  |  |  | 5 |  |  |  |
+| 4 | 8 | 401-409 |  |  |  |  |  |  |  | 6 |  |  |  |
+| 4 | 4 | 410-418 |  |  |  |  |  |  |  | 2 |  |  |  |
 
-110-118
-
-   | 3  | 110-118  | 2  | 110-118  |   |   |   | 3  | 1  | 2  | |
- | 2  | 2  | 201-209  | 2  | 201-209  |   |   |   |   |   | 8  | 2  |   | |
- | 6  | 210-218  | 4  | 210-218  |   |   |   |   |   | 7  | 8  |   | |
- | 3  | 3  | 301-309  |   |   |   |   |   |   |   | 1  |   |   | |
- | 7  | 310-318  |   |   |   |   |   |   |   | 5  |   |   | |
- | 4  | 8  | 401-409  |   |   |   |   |   |   |   | 6  |   |   | |
- | 4  | 410-418  |   |   |   |   |   |   |   | 2  |   |   | |
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/106944.htm`。
 
 For more information refer to parameter `physical_location`（raw: `02.04.01.03.02.02_POGOCABLING_section.md#_106944__row_Physical_location`） in table `Parameters`（raw: `02.04.01.03.02.02_POGOCABLING_section.md#_106944__t_Parameters`） above.
 

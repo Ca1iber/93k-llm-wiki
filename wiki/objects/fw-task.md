@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,805 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.77_FW_TASK.md>`。**不是转述。**
+> 本节 **4,807 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.77_FW_TASK.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -61,10 +61,11 @@ A reference to an existing object of type FW_ResultData. The function fills this
 
 The FW_ResultData object provides the following parameters:
 
- | Parameter  | Type  | Description |
- | Answer  | String  | The FW answer string without the binary data part |
- | BinaryDataLength  | unsigned int  | The data length |
- | BinaryData  | char*  | The data string |
+| Parameter | Type | Description |
+|---|---|---|
+| Answer | String | The FW answer string without the binary data part |
+| BinaryDataLength | unsigned int | The data length |
+| BinaryData | char* | The data string |
 
 See also `Example 3: Retrieve DPS current measurement results`（raw: `02.07.04.01.77_FW_TASK.md#_29362__ex_retrive_binary_data`） below.
 

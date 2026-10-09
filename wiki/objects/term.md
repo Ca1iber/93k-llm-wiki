@@ -389,7 +389,7 @@ A warning is generated if:
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`
-（TDC `98771.htm`，11,584 字节，445 行）。**整篇读完。**
+（TDC `98771.htm`，11,613 字节，163 行）。**整篇读完。**
 
 **本页没做的**：
 

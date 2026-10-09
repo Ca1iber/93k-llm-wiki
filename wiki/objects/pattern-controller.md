@@ -293,7 +293,7 @@ For DC value measurement examples using the PS1600 pin PMU (PPMU) and board ADC 
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.142_PATTERN_CONTROLLER.md`
-（TDC `71357.htm`，252 行 / 13,417 字节）。**整篇读完**。
+（TDC `71357.htm`，256 行 / 13,417 字节）。**整篇读完**。
 
 **本页没做的**：
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,519 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`。**不是转述。**
+> 本节 **4,740 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -56,75 +56,17 @@ SPST {spec_type},, {"multi-port_spec"}, {status}
 
 ### Parameters
 
-|
+| spec_type | Which specification type to use. Use: | Which specification type to use. Use: |
+|---|---|---|
+| spec_type | LEV | to specify levels, or |
+| spec_type | TIM | to specify timing. |
+| equation_set_no | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. |
+| specset_no | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. |
+| multi-port_spec | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. |
+| status | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. |
 
-spec_type
-
- |
-
-Which specification type to use. Use:
-
- |
- |
-
-LEV
-
- |
-
-to specify levels, or
-
- |
- |
-
-TIM
-
- |
-
-to specify timing.
-
- |
- |
-
-equation_set_no
-
- |
-
-Equation set number. An integer in the range 0 to 256.
-
-Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.
-
-Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set.
-
- |
- |
-
-specset_no
-
- |
-
-Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets.
-
- |
- |
-
-multi-port_spec
-
- |
-
-In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty.
-
- |
- |
-
-status
-
- |
-
-An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.
-
-For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared.
-
- |
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98743_2.htm`。
 
 Status bits for the status parameter
 | Bit | Description | Value |

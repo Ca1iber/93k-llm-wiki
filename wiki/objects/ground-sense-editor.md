@@ -18,9 +18,17 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
-这类**段标记**，跟着 `Subtopics` 找一层也没有。
-**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
+> 本节 **322 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.09_Ground_sense_editor.md>`。**不是转述。**
+> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
+> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
+> 改写参数表就是把文档事实降级成我的转述（§11）。
+> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
+
+### Tables（脚本逐字抽取，第 1 张）
+
+| Site(s) | Test site(s). |
+|---|---|
+| Ground Sense Pogo(s) | Channel ID.<br><br>Pin number 17 is the ground pin of SD and HD pogo blocks, while pin number 33 is the ground pin of VHD pogo blocks, see `Pin Scale 5000 pogo pin assignment`（raw: `../02.05_Test_Head_Cards/02.05.04.02.06_Pin_Scale_5000_pogo_pin_assignment.md`）. |
 
 <!-- 语法节 end -->
 
@@ -184,7 +192,7 @@ verified: doc-only
 
 `sources:` 一篇：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.09_Ground_sense_editor.md`
-（frontmatter `source_topic` = `355935.htm`；**959 字节 / 25 行**，**整篇读完**。
+（frontmatter `source_topic` = `355935.htm`；**966 字节 / 25 行**，**整篇读完**。
 口径按 §11.5：字节是 `st_size`，行数是 `wc -l`，本语料末行带换行，两者恒等）
 
 **本页读了的图**：本篇对 `raw/` 的引用**恰好一处**——

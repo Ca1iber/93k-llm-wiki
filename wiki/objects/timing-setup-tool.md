@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **136,370 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34_Timing_Setup_Tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.01_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.05.01_Master_file_format_for_timing_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.06_Using_the_Timing_Setup_Tool.md>`。**不是转述。**
+> 本节 **141,002 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34_Timing_Setup_Tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.02.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.03.01_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.04.05.01_Master_file_format_for_timing_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.34.06_Using_the_Timing_Setup_Tool.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -58,9 +58,13 @@ APRM {mode}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › APRM -  Activate PRiMary sets）
 
-| mode  | Selects the activation mode: |
- | FRC  | Forced activation. Primary sets are always activated. |
- | CNL  | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
+| mode | Selects the activation mode: | Selects the activation mode: |
+|---|---|---|
+| mode | FRC | Forced activation. Primary sets are always activated. |
+| mode | CNL | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98485_4.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › APRM -  Activate PRiMary sets）
 
@@ -1370,75 +1374,17 @@ SPST {spec_type},, {"multi-port_spec"}, {status}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › SPST  -  SPecset STatus）
 
-|
+| spec_type | Which specification type to use. Use: | Which specification type to use. Use: |
+|---|---|---|
+| spec_type | LEV | to specify levels, or |
+| spec_type | TIM | to specify timing. |
+| equation_set_no | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. |
+| specset_no | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. |
+| multi-port_spec | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. |
+| status | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. |
 
-spec_type
-
- |
-
-Which specification type to use. Use:
-
- |
- |
-
-LEV
-
- |
-
-to specify levels, or
-
- |
- |
-
-TIM
-
- |
-
-to specify timing.
-
- |
- |
-
-equation_set_no
-
- |
-
-Equation set number. An integer in the range 0 to 256.
-
-Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.
-
-Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set.
-
- |
- |
-
-specset_no
-
- |
-
-Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets.
-
- |
- |
-
-multi-port_spec
-
- |
-
-In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty.
-
- |
- |
-
-status
-
- |
-
-An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.
-
-For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared.
-
- |
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98743_4.htm`。
 
 Status bits for the status parameter
 | Bit | Description | Value |
@@ -1984,245 +1930,36 @@ WAVE {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {wfIndex}, [DD1], 
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › WAVE  WAVE  -  WAVEform）
 
-|
-
-wvf_set
-
- |
-
-Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `../02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes.
-
- |
- |
-
-multiport_spec
-
- |
-
-To change or query a multiport specification, enter the name of the specification.
-
- |
- |
-
-wfIndex
-
- |
-
-Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform.
-
- |
- |
-
-DD1 and DD2
-
- |
-
-First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are:
-
- |
- |
-
-F0N
-
- |
-
-drive 0
-
- |
- |
-
-F1N
-
- |
-
-drive 1
-
- |
- |
-
-FN0
-
- |
-
-tri-state off
-
- |
- |
-
-FNZ
-
- |
-
-tri-state on
-
- |
- |
-
-F00
-
- |
-
-drive 0, tri-state off
-
- |
- |
-
-F0Z
-
- |
-
-drive 0, tri-state on
-
- |
- |
-
-F10
-
- |
-
-drive 1, tri-state off
-
- |
- |
-
-F1Z
-
- |
-
-drive 1, tri-state on
-
- |
- |
-
-ED1 and ED2
-
- |
-
-First and second receive data parameter. These are optional parameters. The values you can define are:
-
- |
- |
-
-F0
-
- |
-
-compare to 0
-
- |
- |
-
-F1
-
- |
-
-compare to 1
-
- |
- |
-
-FI
-
- |
-
-compare to intermediate
-
- |
- |
-
-FX
-
- |
-
-compare to mask
-
- |
- |
-
-FU
-
- |
-
-compare to unstable
-
- |
- |
-
-C
-
- |
-
-capture digital data
-
- |
- |
-
-D
-
- |
-
-do not capture digital data
-
- |
- |
-
-The values C and D are used for selective digital capture. The following rules apply to these values:
-
-- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.
-- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another.
- |
- |
-
-pwfIndex
-
- |
-
-Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `../02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas.
-
- |
- |
-
-ALLOW_EQ
-
- |
-
-This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.
-
-Note also the following:
-
-- Every runtime change will affect all specifications that use the respective wavetable.
-- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
-- The runtime definitions are not checked for consistency. It is up to the user to ensure this.
- |
+| wvf_set | Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `../02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. | Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `../02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|---|
+| specset_id | Derived as follows:<br><br>`100 * equation_set_no + specset_no` | Derived as follows:<br><br>`100 * equation_set_no + specset_no` |
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes. | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes. |
+| multiport_spec | To change or query a multiport specification, enter the name of the specification. | To change or query a multiport specification, enter the name of the specification. |
+| wfIndex | Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform. | Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform. |
+| DD1 and DD2 | First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are: | First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are: |
+| DD1 and DD2 | F0N | drive 0 |
+| DD1 and DD2 | F1N | drive 1 |
+| DD1 and DD2 | FN0 | tri-state off |
+| DD1 and DD2 | FNZ | tri-state on |
+| DD1 and DD2 | F00 | drive 0, tri-state off |
+| DD1 and DD2 | F0Z | drive 0, tri-state on |
+| DD1 and DD2 | F10 | drive 1, tri-state off |
+| DD1 and DD2 | F1Z | drive 1, tri-state on |
+| ED1 and ED2 | First and second receive data parameter. These are optional parameters. The values you can define are: | First and second receive data parameter. These are optional parameters. The values you can define are: |
+| ED1 and ED2 | F0 | compare to 0 |
+| ED1 and ED2 | F1 | compare to 1 |
+| ED1 and ED2 | FI | compare to intermediate |
+| ED1 and ED2 | FX | compare to mask |
+| ED1 and ED2 | FU | compare to unstable |
+| ED1 and ED2 | C | capture digital data |
+| ED1 and ED2 | D | do not capture digital data |
+| ED1 and ED2 | The values C and D are used for selective digital capture. The following rules apply to these values:<br><br>- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.<br>- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another. | The values C and D are used for selective digital capture. The following rules apply to these values:<br><br>- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.<br>- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another. |
+| pwfIndex | Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table. | Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table. |
+| pinlist | The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `../02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas. | The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `../02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas. |
+| ALLOW_EQ | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98869_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WAVE  WAVE  -  WAVEform）
 

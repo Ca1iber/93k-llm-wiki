@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,389 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.05_Utility_power_supplies.md>`。**不是转述。**
+> 本节 **8,564 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.05_Utility_power_supplies.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -35,29 +35,30 @@ verified: doc-only
 
 ### Tables（脚本逐字抽取，第 2 张）
 
- | XP... pins on all 4-row utility pogo blocks |
- | UPP15V, UPM15V, F24V... pins on selected 4-row utility pogo blocks  | `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）  | n.a. |
- | DPS pogo block (3 rows)  | `Internal Utility Power Option pogo pin assignments (V93000 EXA Scale systems)`（raw: `02.03.06.09.01_Internal_Utility_Power_Option_pogo_pin_assignments__V93000_EXA_Scale_sys.md`）  | `SE-UDPS pogo pin assignments`（raw: `02.03.06.09.02_Internal_Utility_Power_Supply__SE-UDPS__pogo_pin_assignments.md`） |
+| Interface | V93000 EXA Scale systems | V93000 systems |
+|---|---|---|
+| UP5V pin on all utility pogo blocks | `Utility pogo block - Basic configuration (V93000 EXA Scale systems)`（raw: `02.03.06.08.01_Utility_pogo_block_-_Basic_configuration__V93000_EXA_Scale_systems.md`）<br><br>`Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`） | `Utility pogo block - LTH large DUT interface`（raw: `02.03.06.08.03_Utility_pogo_block_-_LTH_large_DUT_interface.md`）<br><br>`Utility pogo block - STH DUT Scale interface`（raw: `02.03.06.08.04_Utility_pogo_block_-_STH_DUT_Scale_interface.md`）<br><br>`Utility pogo block - CTH DUT Scale interface`（raw: `02.03.06.08.05_Utility_pogo_block_-_CTH_DUT_Scale_interface.md`）<br><br>`Utility pogo block - ATH DUT Scale interface`（raw: `02.03.06.08.06_Utility_pogo_block_-_ATH_DUT_Scale_interface.md`）<br><br>`Utility pogo block - STH small DUT interface`（raw: `02.03.06.08.07_Utility_pogo_block_-_STH_small_DUT_interface.md`）<br><br>`Utility pogo block - CTH small DUT interface`（raw: `02.03.06.08.08_Utility_pogo_block_-_CTH_small_DUT_interface.md`）<br><br>`Utility pogo block - ATH small DUT interface`（raw: `02.03.06.08.09_Utility_pogo_block_-_ATH_small_DUT_interface.md`） |
+| XP... pins on all 4-row utility pogo blocks | `Utility pogo block - Basic configuration (V93000 EXA Scale systems)`（raw: `02.03.06.08.01_Utility_pogo_block_-_Basic_configuration__V93000_EXA_Scale_systems.md`）<br><br>`Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`） | `Utility pogo block - LTH large DUT interface`（raw: `02.03.06.08.03_Utility_pogo_block_-_LTH_large_DUT_interface.md`）<br><br>`Utility pogo block - STH DUT Scale interface`（raw: `02.03.06.08.04_Utility_pogo_block_-_STH_DUT_Scale_interface.md`）<br><br>`Utility pogo block - CTH DUT Scale interface`（raw: `02.03.06.08.05_Utility_pogo_block_-_CTH_DUT_Scale_interface.md`）<br><br>`Utility pogo block - ATH DUT Scale interface`（raw: `02.03.06.08.06_Utility_pogo_block_-_ATH_DUT_Scale_interface.md`）<br><br>`Utility pogo block - STH small DUT interface`（raw: `02.03.06.08.07_Utility_pogo_block_-_STH_small_DUT_interface.md`）<br><br>`Utility pogo block - CTH small DUT interface`（raw: `02.03.06.08.08_Utility_pogo_block_-_CTH_small_DUT_interface.md`）<br><br>`Utility pogo block - ATH small DUT interface`（raw: `02.03.06.08.09_Utility_pogo_block_-_ATH_small_DUT_interface.md`） |
+| UPP15V, UPM15V, F24V... pins on selected 4-row utility pogo blocks | `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`） | n.a. |
+| DPS pogo block (3 rows) | `Internal Utility Power Option pogo pin assignments (V93000 EXA Scale systems)`（raw: `02.03.06.09.01_Internal_Utility_Power_Option_pogo_pin_assignments__V93000_EXA_Scale_sys.md`） | `SE-UDPS pogo pin assignments`（raw: `02.03.06.09.02_Internal_Utility_Power_Supply__SE-UDPS__pogo_pin_assignments.md`） |
 
 ### Tables（脚本逐字抽取，第 3 张）
 
- | Supply |
- |   | V93000 EXA Scale systems  | V93000 Pin Scale and Smart Scale systems |
- | UP5V pin on all utility pogo blocks |
- | |
-
-### Tables（脚本逐字抽取，第 4 张）
-
- | With an overload condition detected, the supply is automatically switched off. It must be enabled again using the API.  | With an overload condition detected, the supply is automatically switched off. It must be enabled again using the API. |
- | UPP15V, UPM15V, F24V... pins on selected 4-row utility pogo blocks |
- | |
-
-### Tables（脚本逐字抽取，第 5 张）
-
-   | n.a. |
- | With an overload condition detected, the supply is automatically switched off. It must be enabled again using the API.  | n.a. |
- | DPS pogo block (3 rows) |
- | |
+| Supply | Supply | Supply |
+|---|---|---|
+|  | V93000 EXA Scale systems | V93000 Pin Scale and Smart Scale systems |
+| UP5V pin on all utility pogo blocks | UP5V pin on all utility pogo blocks | UP5V pin on all utility pogo blocks |
+|  | `Utility power supply - UP5V pins`（raw: `02.03.05.01_Utility_power_supply_-_UP5V_pins__V93000_EXA_Scale_systems.md`）<br><br>The output of the utility supply can be switched on or off simultaneously on all utility pogo blocks of the Utility card or (for the internal utility resources) of the card cage using an API of SmarTest.<br><br>With compatibility settings for Pin Scale and Smart Scale systems enabled, the UP5V output of the first card cage or of the first Utility Card is switched on by default`1)`（raw: `#_346875__d2258e635`）. With standard settings for V93000 EXA Scale systems selected, the outputs of the utility power supply are disabled by default. | `Internal utility power supply`（raw: `02.03.05.05_Internal_utility_power_supply__V93000_systems.md`）<br><br>The UPV5 supply is automatically switched on as soon as the test head is powered up and SmarTest is loaded. |
+|  | The supply is automatically switched off if an overload condition is detected and is automatically switched on as soon as the faulty condition has been corrected. | The supply is automatically switched off if an overload condition is detected and is automatically switched on as soon as the faulty condition has been corrected.<br><br>When reloading SmarTest or resetting the system, the supply is switched off for a short time. |
+| XP... pins on all 4-row utility pogo blocks | XP... pins on all 4-row utility pogo blocks | XP... pins on all 4-row utility pogo blocks |
+|  | `Utility power supply - XP pins`（raw: `02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md`）<br><br>The three outputs of the utility power supply can be switched on or off individually and per Utility card using an API of SmarTest.<br><br>With compatibility settings for Pin Scale and Smart Scale systems enabled, the three outputs can be controlled only as group`1)`（raw: `#_346875__d2258e635`）.<br><br>By default, the outputs of the utility power supply are disabled. | `External utility power supply`（raw: `02.03.05.06_External_utility_power_supply__V93000_systems.md`）<br><br>The outputs of the utility power supply can be switched on or off only as group using an API of SmarTest.<br><br>By default, the outputs of the utility power supply are disabled. |
+|  | With an overload condition detected, the supply is automatically switched off. It must be enabled again using the API. | With an overload condition detected, the supply is automatically switched off. It must be enabled again using the API. |
+| UPP15V, UPM15V, F24V... pins on selected 4-row utility pogo blocks | UPP15V, UPM15V, F24V... pins on selected 4-row utility pogo blocks | UPP15V, UPM15V, F24V... pins on selected 4-row utility pogo blocks |
+|  | `Utility power supply - UPP15V / UPM15V / F24V pins`（raw: `02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`）<br><br>The four outputs of the utility power supply can be switched on or off individually and per Utility card using an API of SmarTest.<br><br>By default, the outputs of the utility power supply are disabled. | n.a. |
+|  | With an overload condition detected, the supply is automatically switched off. It must be enabled again using the API. | n.a. |
+| DPS pogo block (3 rows) | DPS pogo block (3 rows) | DPS pogo block (3 rows) |
+|  | `Internal Utility Power Option (V93000 EXA Scale systems)`（raw: `02.03.05.04_Internal_Utility_Power_Option__V93000_EXA_Scale_systems.md`）<br><br>The outputs of the utility power supply can be switched on or off only as group and per Utility card using an API of SmarTest.<br><br>By default, the outputs of the utility power supply are disabled. | `Internal Utility Power Supply (SE-UDPS)`（raw: `02.03.05.07_Internal_Utility_Power_Supply__SE-UDPS___V93000_systems.md`）<br><br>The three outputs are automatically switched on as soon as a connection from the force pins P# to the sense inputs PS# is established with docked DUT board. |
+|  | With an overload condition detected, the supply is automatically switched off. It must be enabled again using the API. | The supply is automatically switched off if an overload condition is detected and is automatically switched on as soon as the faulty condition has been corrected. |
 
 <!-- 语法节 end -->
 

@@ -23,7 +23,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **560 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.07.07_Pogo_pad_and_via_design.md>`。**不是转述。**
+> 本节 **884 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.07.07_Pogo_pad_and_via_design.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -31,16 +31,18 @@ verified: doc-only
 
 ### Tables（脚本逐字抽取，第 1 张）
 
- | Signal pogo via drill size:  | 26 + 1/-3 mil finished hole size (~0.7 mm) |
- | Minimum pogo via length:  | 13 mil (~0.33 mm) |
- | Number of adjacent ground pogo vias:  | 4 |
- | Signal via to ground via pitch:  | 100 mil |
- | Removal of non-functional pads:  | Yes / No |
- | Back drilling:  | Yes / No |
- | Ground plane clearance or antipad:  | variable |
- | Power plane clearance or antipad:  | >= ground plane clearance |
- | Ground via thermal straps:  | No (direct connect to ground plane) |
- | Hard Au plating  | Min. 30 µinches, Knoop hardness 130-200 |
+| Minimum pad size: | 56 mil (~1.4 mm)<br><br>Recommendation: For pogo pin landing holes of digital and analog channels use a pad size of at least 1.4 mm to 1.5 mm, for utility and DPS channels at least 1.6 mm to 1.8 mm, with a maximum hole diameter of 0.7 mm. A smaller pad size will cause contact problems with the DUT interface. |
+|---|---|
+| Signal pogo via drill size: | 26 + 1/-3 mil finished hole size (~0.7 mm) |
+| Minimum pogo via length: | 13 mil (~0.33 mm) |
+| Number of adjacent ground pogo vias: | 4 |
+| Signal via to ground via pitch: | 100 mil |
+| Removal of non-functional pads: | Yes / No |
+| Back drilling: | Yes / No |
+| Ground plane clearance or antipad: | variable |
+| Power plane clearance or antipad: | >= ground plane clearance |
+| Ground via thermal straps: | No (direct connect to ground plane) |
+| Hard Au plating | Min. 30 µinches, Knoop hardness 130-200 |
 
 <!-- 语法节 end -->
 
@@ -153,7 +155,7 @@ verified: doc-only
 ## 出处
 
 - 定义文档：`02_System_reference/02.03_DUT_board_design_reference/02.03.07.07_Pogo_pad_and_via_design.md`
-  （TDC `91610.htm`，3,202 字节，54 行）
+  （TDC `91610.htm`，3,189 字节，49 行）
 - **入边 55 条 / 33 篇文档**：`extract/pack/05-pogo-pad-and-via-design.md`
   （55 是边数，33 是去重后的文档数；口径同 `hubs-dedup.csv`：**只算 `inline` 边**。）
 - 所属：**DUT board design reference**（`02.03`）

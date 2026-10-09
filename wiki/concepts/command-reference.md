@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,785,698 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.01.02_Firmware_view.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.03_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.04_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.05_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.06_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.07_BCMD__BCMD__-_Binding_CoMmanD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.08_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.101_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.104_EMBS__Error_Map_Block_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.105_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.106_EPRC__-__Error_Propagation_Repetition_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.108_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.10_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.113_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.116_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.119_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.11_BSVE_-__Bulk_Set_Value_Evaluation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.120_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.121_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.123_FLBL__-__Failing_LaBeLs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.127_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.12_BSVR__BSVR___Bulk_Set_Value_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.131_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.132_GETL__-__GET_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.136_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.137_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.138_HREX__-__High_Resolution_EXecution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.139_HRIT__HRIT__-__High_Resolution_Interval_of_Time.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.143_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.144_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.145_INST__-__INSTrument_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.150_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.151_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.153_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.154_LBUD__LBUD__-__LaBel_User_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.156_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.157_LTDE__LTDE__-__Load_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.158_MCNT__-__Match_loop_CouNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.159_MEAR__retrieve_MEAsurement_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.160_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.161_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.163_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.165_MVCU_-__Modify_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.168_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.16_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.170_OUTS__-__OUTput_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.174_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.176_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.179_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.17_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.180_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.181_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.182_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.184_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.185_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.187_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.18_CFPR__CFPR__-__Clock_Forwarding_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.19_CFUD_-__Clock_Forwarding_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.201_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.202_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.205_RDGC_-__Reset_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.206_RLYC__RLYC__-__ReLaY_Control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.207_RRDF_-__Result_Retention_area_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.208_RRSC_-__Result_Retention_area_Select_for_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.209_RRUD_-__Result_Retention_area_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.20_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.211_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.212_RRSU___Result_Retention_area_Select_for_Upload.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.213_RVCU_-__Remove_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.214_RVVA_-__Remove_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.215_RVVC_-__Remove_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.217_SATR__SATR__-__System_ATtRibutes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.218_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.21_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.221_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.224_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.225_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.226_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.227_SPOP__SPOP__Set_Performance_Optimization_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.229_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.230_SQBV__SQBV__-__SeQuencer_Break_Vector_insertion.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.233_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.234_SQIT__-__SeQuencer_InterRupt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.235_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.238_SQRC_-__SeQuencer_Remove_execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.239_SQRP__SQRP__-__SeQuencer_Reference_Port.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.23_CHRS__CHRS__-__CHeck_Routing_Set_globally.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.242_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.243_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.244_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.247_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.248_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.249_STDE_-__Save_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.255_TDEX__Test_Data_Extension.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.256_TEMP__-__read_TEMPerature.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.258_TMUD__Tester_Memory_Utilization_set_Default_values.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.259_TMUL___Tester_Memory_Utilization_Log.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.25_CLKC.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.260_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.261_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.262_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.263_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.264_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.265_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.266_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.267_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.269_TPSP__TPSP__-__TestPoint_SuPpression.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.270_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.271_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.272_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.273_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.274_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.275_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.276_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.27_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.280_TSST__-__TeSt_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.282_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.284_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.285_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.287_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.28_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.290_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.293_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.294_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.299_UDPT_-__UnDefine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.29_CNCT_-_CoNneCT_disCoNneCT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.300_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.302_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.307_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.308_UTDE_-__Unload_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.309_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.30_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.314_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.315_VALC__-__VALid_Cycle_range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.317_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.318_VCAT__VCAT__-__VeCtor_ATtachment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.319_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.322_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.323_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.326_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.328_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.329_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.332_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.339_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.340_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.343_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.345_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.34_CTST__-__Continuity_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.37_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.38_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.39_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.41_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.42_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.43_DCEX_-__DC_set_EXecute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.45_DCRE__-__DC_set_REsult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.48_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.49_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.50_DCST__-__DC_SeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.51_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.55_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.57_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.58_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.61_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.71_DGCM__-__DiGital_Capture_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.72_DGCS__DGCC___DiGital_Capture_aSynchronous.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.73_DGCT__-__DiGital_Capture_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.74_DIAG_-__DIAGnostics.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.76_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.77_DLSO__Driver_Level_Switch_Off.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.78_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.80_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.81_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.84_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.87_DQUE__-__show_Data_QUEue_low_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.88_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.93_DTCP__DTCP__-__Define_Technology_Control_Parameters.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.94_DVVA__DVVA__-__Define_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.06_Defining_pin_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.07_Defining_ports.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.02_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.03_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.04_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.06_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.07_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.10_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.14_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.15_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.16_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.17_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.18_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.19_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.20_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.22_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.23_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.25_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.28_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.29_UDVP_-__UnDefine_Virtual_Pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.30_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.31_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.32_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.33_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.34_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.36_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.37_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.02_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.03_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.03_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.04_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.07_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.11_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.13_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.14_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.19_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.21_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.27_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.28_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.02_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.03_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.04_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.05_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.06_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.07_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.09_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.11_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.12_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.13_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.14_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.15_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.16_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.19_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.20_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.21_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.22_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.23_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.24_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.26_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.27_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.29_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.30_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.31_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.32_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.34_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.36_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.37_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.01_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.03_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.06_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.07_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.09_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.11_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.12_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.15_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.18_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.19_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.20_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.21_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.22_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.23_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.24_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.01.05_DC_measurements_using_a_PPMU_and_a_DC_Scale_DPS.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.02_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.03_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.04_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.05_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.06_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.07_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.10_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.13_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.15_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.02_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.03_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.05_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.06_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.07_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.08_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.09_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.10_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.12_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.13_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.17_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.19_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.21_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.25_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.26_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.29_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.30_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.32_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.34_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.36_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.37_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.04_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.05_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.06_UPOW__UPOW__-__Utility_POWer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.07_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.08_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.09_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.10_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.12_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.13_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.14_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.01_TMU_per_Pin_overview.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.03_Storing_the_results_of_more_than_one_TMU_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.01_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.02_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.03_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.04_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.05_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.06_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.07_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.08_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.11_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.12_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.01.01_Principles_of_source_synchronous_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.03_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.04_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.01.01_Drift_and_transition_tracking.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.01_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.02_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.04_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.05_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.07_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.08_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.09_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.10_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.01_Principles_of_jitter_injection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.01_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.03_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.04_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.05_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.08_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.03_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.04_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.05_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.06_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.07_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.01_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.02_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.03_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.05_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.06_SATR__SATR__-__System_ATtRibutes.md>`。**不是转述。**
+> 本节 **1,815,379 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.01.02_Firmware_view.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.03_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.04_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.05_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.06_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.07_BCMD__BCMD__-_Binding_CoMmanD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.08_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.101_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.104_EMBS__Error_Map_Block_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.105_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.106_EPRC__-__Error_Propagation_Repetition_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.108_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.10_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.113_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.116_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.119_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.11_BSVE_-__Bulk_Set_Value_Evaluation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.120_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.121_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.123_FLBL__-__Failing_LaBeLs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.127_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.12_BSVR__BSVR___Bulk_Set_Value_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.131_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.132_GETL__-__GET_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.136_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.137_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.138_HREX__-__High_Resolution_EXecution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.139_HRIT__HRIT__-__High_Resolution_Interval_of_Time.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.143_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.144_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.145_INST__-__INSTrument_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.150_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.151_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.153_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.154_LBUD__LBUD__-__LaBel_User_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.156_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.157_LTDE__LTDE__-__Load_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.158_MCNT__-__Match_loop_CouNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.159_MEAR__retrieve_MEAsurement_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.160_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.161_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.163_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.165_MVCU_-__Modify_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.168_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.16_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.170_OUTS__-__OUTput_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.174_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.176_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.179_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.17_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.180_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.181_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.182_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.184_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.185_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.187_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.18_CFPR__CFPR__-__Clock_Forwarding_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.19_CFUD_-__Clock_Forwarding_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.201_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.202_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.205_RDGC_-__Reset_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.206_RLYC__RLYC__-__ReLaY_Control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.207_RRDF_-__Result_Retention_area_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.208_RRSC_-__Result_Retention_area_Select_for_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.209_RRUD_-__Result_Retention_area_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.20_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.211_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.212_RRSU___Result_Retention_area_Select_for_Upload.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.213_RVCU_-__Remove_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.214_RVVA_-__Remove_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.215_RVVC_-__Remove_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.217_SATR__SATR__-__System_ATtRibutes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.218_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.21_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.221_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.224_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.225_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.226_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.227_SPOP__SPOP__Set_Performance_Optimization_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.229_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.230_SQBV__SQBV__-__SeQuencer_Break_Vector_insertion.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.233_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.234_SQIT__-__SeQuencer_InterRupt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.235_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.238_SQRC_-__SeQuencer_Remove_execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.239_SQRP__SQRP__-__SeQuencer_Reference_Port.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.23_CHRS__CHRS__-__CHeck_Routing_Set_globally.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.242_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.243_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.244_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.247_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.248_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.249_STDE_-__Save_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.255_TDEX__Test_Data_Extension.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.256_TEMP__-__read_TEMPerature.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.258_TMUD__Tester_Memory_Utilization_set_Default_values.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.259_TMUL___Tester_Memory_Utilization_Log.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.25_CLKC.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.260_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.261_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.262_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.263_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.264_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.265_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.266_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.267_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.269_TPSP__TPSP__-__TestPoint_SuPpression.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.270_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.271_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.272_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.273_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.274_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.275_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.276_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.27_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.280_TSST__-__TeSt_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.282_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.284_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.285_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.287_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.28_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.290_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.293_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.294_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.299_UDPT_-__UnDefine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.29_CNCT_-_CoNneCT_disCoNneCT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.300_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.302_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.307_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.308_UTDE_-__Unload_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.309_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.30_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.314_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.315_VALC__-__VALid_Cycle_range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.317_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.318_VCAT__VCAT__-__VeCtor_ATtachment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.319_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.322_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.323_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.326_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.328_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.329_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.332_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.339_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.340_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.343_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.345_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.34_CTST__-__Continuity_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.37_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.38_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.39_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.41_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.42_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.43_DCEX_-__DC_set_EXecute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.45_DCRE__-__DC_set_REsult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.48_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.49_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.50_DCST__-__DC_SeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.51_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.55_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.57_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.58_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.61_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.71_DGCM__-__DiGital_Capture_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.72_DGCS__DGCC___DiGital_Capture_aSynchronous.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.73_DGCT__-__DiGital_Capture_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.74_DIAG_-__DIAGnostics.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.76_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.77_DLSO__Driver_Level_Switch_Off.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.78_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.80_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.81_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.84_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.87_DQUE__-__show_Data_QUEue_low_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.88_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.93_DTCP__DTCP__-__Define_Technology_Control_Parameters.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.94_DVVA__DVVA__-__Define_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.06_Defining_pin_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.07_Defining_ports.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.02_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.03_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.04_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.06_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.07_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.10_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.14_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.15_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.16_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.17_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.18_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.19_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.20_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.22_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.23_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.25_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.28_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.29_UDVP_-__UnDefine_Virtual_Pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.30_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.31_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.32_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.33_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.34_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.36_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.37_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.02_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.03_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.03_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.04_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.07_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.11_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.13_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.14_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.19_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.21_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.27_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.28_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.02_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.03_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.04_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.05_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.06_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.07_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.09_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.11_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.12_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.13_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.14_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.15_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.16_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.19_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.20_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.21_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.22_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.23_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.24_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.26_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.27_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.29_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.30_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.31_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.32_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.34_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.36_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.37_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.01_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.03_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.06_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.07_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.09_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.11_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.12_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.15_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.18_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.19_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.20_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.21_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.22_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.23_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.24_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.01.05_DC_measurements_using_a_PPMU_and_a_DC_Scale_DPS.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.02_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.03_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.04_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.05_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.06_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.07_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.10_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.13_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.15_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.02_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.03_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.05_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.06_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.07_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.08_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.09_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.10_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.12_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.13_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.17_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.19_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.21_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.25_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.26_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.29_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.30_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.32_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.34_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.36_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.37_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.04_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.05_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.06_UPOW__UPOW__-__Utility_POWer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.07_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.08_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.09_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.10_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.12_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.13_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.14_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.01_TMU_per_Pin_overview.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.03_Storing_the_results_of_more_than_one_TMU_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.01_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.02_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.03_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.04_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.05_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.06_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.07_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.08_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.11_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.12_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.01.01_Principles_of_source_synchronous_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.03_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.04_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.01.01_Drift_and_transition_tracking.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.01_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.02_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.04_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.05_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.07_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.08_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.09_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.10_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.01_Principles_of_jitter_injection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.01_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.03_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.04_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.05_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.08_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.03_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.04_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.05_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.06_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.07_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.01_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.02_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.03_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.05_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.06_SATR__SATR__-__System_ATtRibutes.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -77,9 +77,13 @@ APRM {mode}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › APRM -  Activate PRiMary sets）
 
-| mode  | Selects the activation mode: |
- | FRC  | Forced activation. Primary sets are always activated. |
- | CNL  | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
+| mode | Selects the activation mode: | Selects the activation mode: |
+|---|---|---|
+| mode | FRC | Forced activation. Primary sets are always activated. |
+| mode | CNL | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98485.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › APRM -  Activate PRiMary sets）
 
@@ -2768,13 +2772,17 @@ DCEL? {DCRT}, {parameter}, {action}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DCEL  DCEL  -  Digital Compare Exception List）
 
-| DCRT  | The command for which an exception list is to be created. Currently, DCRT is the only allowed command. |
- | TP   | The option of the command specified in the first parameter. Currently TP is the only allowed value. |
- | parameter  | This query parameter can be TP or ALL. |
- | action  | This can be one of the following: |
- | SET  | Add the specified pins to the exception list related to the command in the first parameter. |
- | DEL  | Delete the specified pins from the exception list related to the command in the first parameter. |
- | pinlist  | In the command, these are the pins that are to be added to or deleted from the exception list. In the query, DCEL? returns the subset of the specified pins that is included in the exception list. Instead of a pin list, you can also specify one or more pin groups. |
+| DCRT | The command for which an exception list is to be created. Currently, DCRT is the only allowed command. | The command for which an exception list is to be created. Currently, DCRT is the only allowed command. |
+|---|---|---|
+| TP | The option of the command specified in the first parameter. Currently TP is the only allowed value. | The option of the command specified in the first parameter. Currently TP is the only allowed value. |
+| parameter | This query parameter can be TP or ALL. | This query parameter can be TP or ALL. |
+| action | This can be one of the following: | This can be one of the following: |
+| action | SET | Add the specified pins to the exception list related to the command in the first parameter. |
+| action | DEL | Delete the specified pins from the exception list related to the command in the first parameter. |
+| pinlist | In the command, these are the pins that are to be added to or deleted from the exception list. In the query, DCEL? returns the subset of the specified pins that is included in the exception list. Instead of a pin list, you can also specify one or more pin groups. | In the command, these are the pins that are to be added to or deleted from the exception list. In the query, DCEL? returns the subset of the specified pins that is included in the exception list. Instead of a pin list, you can also specify one or more pin groups. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/128210.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DCEL  DCEL  -  Digital Compare Exception List）
 
@@ -5148,114 +5156,22 @@ Attributes for element "matchCmp":
 | type | enum | high, low | Used for match loops to compare against low or high value. |
 
 Attributes for element "measure":
- | Attribute  | Type  | Value  | Comment |
- | maskPassFail  | boolean |
+| Attribute | Type | Value | Comment |
+|---|---|---|---|
+| maskPassFail | boolean | true, false<br><br>default: false | Defines if the PASS/FAIL result of the measurement contributes to the global test result.<br><br>Note that there are errors that cannot be masked with this flag, namely<br><br>- too small a distance between two consecutive measurements<br>- mismatch between measurement type and active measurement range. |
+| type | enum | voltage,<br><br>current |  |
+| type | enum | forceDrop,<br><br>returnDrop,<br><br>battLevel |  |
+| samples | integer | default: 1 | Optional: Number of samples taken and averaged.<br><br>The number of samples must be a power of 2 (2^n).<br><br>This limitation does not apply for XPS256. |
+| limitLow | double |  | Optional: If specified, the result will be FAIL if<br><br>measured value < limitLow<br><br>and failBelowLowLimit is set to true (not supported for current measurements with ganged channels). |
+| limitHigh | double |  | Optional: If specified, the result will be FAIL if<br><br>measured value > limitHigh<br><br>and failAboveHighLimit is set to true (not supported for current measurements with ganged channels). |
+| failBelowLowLimit | boolean | true, false<br><br>default: true | Optional: FAIL if set to true and measured value < low limit as specified in limitLow.<br><br>Note Setting this flag to false affects not only the PASS / FAIL result of the measurement but also the corresponding measurement flag (see command `ERRE`（raw: `02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md`）): The corresponding measurement flag will not be set if failBelowLowLimit is set to false. |
+| failAboveHighLimit | boolean | true, false<br><br>default: true | Optional: FAIL if f set to true and measured value > high limit as specified in limitHigh.<br><br>Note Setting this flag to false affects not only the PASS / FAIL result of the measurement but also the corresponding measurement flag (see command `ERRE`（raw: `02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md`）): The corresponding measurement flag will not be set if failAboveHighLimit is set to false. |
+| failOnOutOfRange | boolean | true, false<br><br>default: true | Optional: FAIL if set to true and<br><br>measurement range is exceeded. |
+| failOnLowClamp | boolean | true, false<br><br>default: false | Optional: FAIL on low clamp violation if set to true |
+| failOnHighClamp | boolean | true, false<br><br>default: false | Optional: FAIL on high clamp violation if set to true |
 
-true, false
-
-default: false
-
- |
-
-Defines if the PASS/FAIL result of the measurement contributes to the global test result.
-
-Note that there are errors that cannot be masked with this flag, namely
-
-- too small a distance between two consecutive measurements
-- mismatch between measurement type and active measurement range.
- |
- | type  | enum  | voltage,
-
-current
-
-  | |
- | forceDrop,
-
-returnDrop,
-
-battLevel
-
-  | |
- | samples  | integer |
-
-default: 1
-
- |
-
-Optional: Number of samples taken and averaged.
-
-The number of samples must be a power of 2 (2^n).
-
-This limitation does not apply for XPS256.
-
- |
- | limitLow  | double  | |
-
-Optional: If specified, the result will be FAIL if
-
-measured value < limitLow
-
-and failBelowLowLimit is set to true (not supported for current measurements with ganged channels).
-
- |
- | limitHigh  | double  | |
-
-Optional: If specified, the result will be FAIL if
-
-measured value > limitHigh
-
-and failAboveHighLimit is set to true (not supported for current measurements with ganged channels).
-
- |
- | failBelowLowLimit  | boolean |
-
-true, false
-
-default: true
-
- |
-
-Optional: FAIL if set to true and measured value < low limit as specified in limitLow.
-
- Note Setting this flag to false affects not only the PASS / FAIL result of the measurement but also the corresponding measurement flag (see command `ERRE`（raw: `02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md`）): The corresponding measurement flag will not be set if failBelowLowLimit is set to false. |
- | failAboveHighLimit  | boolean |
-
-true, false
-
-default: true
-
- |
-
-Optional: FAIL if f set to true and measured value > high limit as specified in limitHigh.
-
- Note Setting this flag to false affects not only the PASS / FAIL result of the measurement but also the corresponding measurement flag (see command `ERRE`（raw: `02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md`）): The corresponding measurement flag will not be set if failAboveHighLimit is set to false. |
- | failOnOutOfRange  | boolean |
-
-true, false
-
-default: true
-
- |
-
-Optional: FAIL if set to true and
-
-measurement range is exceeded.
-
- |
- | failOnLowClamp  | boolean |
-
-true, false
-
-default: false
-
-   | Optional: FAIL on low clamp violation if set to true |
- | failOnHighClamp  | boolean |
-
-true, false
-
-default: false
-
-   | Optional: FAIL on high clamp violation if set to true |
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/100076.htm`。
 
 Attributes for element "restoreMeasureRange":
 | Attribute | Type | Value | Comment |
@@ -6972,14 +6888,9 @@ DTCP {"key"}, {"value"}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DTCP  DTCP  -  Define Technology Control Parameters）
 
-| key  | The string specifies the system control parameter.
-
-Currently, the only supported control parameters are testpoints and extended_dram_factor.
-
-For more information, refer to `testpoints`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md#_49363__row_testpoints`） and `extended_dram_factor`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md#_49363__row_extended_dram_factor`） in `Technology file for a device`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md`）.
-
- |
- | value   | The value to be set as string. |
+| key | The string specifies the system control parameter.<br><br>Currently, the only supported control parameters are testpoints and extended_dram_factor.<br><br>For more information, refer to `testpoints`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md#_49363__row_testpoints`） and `extended_dram_factor`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md#_49363__row_extended_dram_factor`） in `Technology file for a device`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md`）. |
+|---|---|
+| value | The value to be set as string. |
 
 ### Examples（取自子主题 Commands in alphabetical order › List of commands › DTCP  DTCP  -  Define Technology Control Parameters）
 
@@ -8876,166 +8787,20 @@ ERRE {type}, {resultIndex}, {numResults}, {data_format}, {rep_mode}, [error_stat
 ```
 
 Parameters
- |
-
-type
-
- |
-
-The supported types are:
-
-- RCV
-
-Requests received data only.
-
-Can only be requested if a test point pattern has been executed for DC Scale pins, or a DC pattern was executed for digital pins.
-
-- EXP
-
-Requests expected data of only those test point events that generate a result.
-
-This type is only allowed for test point patterns, not for DC patterns.
-
-- ALL
-
-Requests both expected and received data.
-
-This type is only allowed for test points patterns, not for DC patterns.
-
- |
- |
-
-resultIndex
-
- |
-
-The index of the first result to be read. Only test point operations (MEAS instructions) that provide a result are counted, starting from 0.
-
- |
- |
-
-numResults
-
- |
-
-The number of results to be retrieved.
-
- |
- |
-
-data_format
-
- |
-
-Specifies the binary data format of #spec(data). The DC Scale cards DPS32, VI32, and UHC4 / UHC4T, as well as DC patterns, support both formats.
-
-- `0`
-
-This format contains PASS/FAIL and status information for every measurement. It can be used for status analysis where expected data and measurement values are not required. This format is only available for type RCV.
-
-- `1`
-
-For test point events, this format can return both received and expected data. Expected data are not available for DC patterns.
-
-The received data of format 1 not only contains PASS/FAIL and status information for every measurement, but also the measurement type and value.
-
-The expected data contains all the setup information of an event (td element) that contains a Measure operation.
-
-Format 1 is available for all three types.
-
- |
- |
-
-rep_mode
-
- |
-
-Specifies the reporting mode. Possible values are:
-
-- ALL:Reports all results within the selected area.
-- EOLY: Reports only failed results including measurement errors (that is, too small a distance between two measurements, or type mismatch between measurement and range). This mode is not available for type EXP.
- |
- |
-
-byte_max
-
- |
-
-In the query, this parameter specifies the maximum number of bytes that may be returned. This option can be used for the reporting mode EOLY, where the size of the data that will be returned cannot be calculated beforehand.
-
-In the reply, this parameter is used to indicate the reason in case that not all the requested results can be returned:
-
-- EOB
-
-The number of requested results exceeds the maximum buffer length specified with byte_max.
-
-- EOF
-
-The result range of the query exceeds the length of the test.
-
-- EOM
-
-This code is returned if the size of the answer exceeds the available storage capacity.
-
- |
- |
-
-gang_index
-
- |
-
-The index within the ganged channels for which data will be
-
-answered. If this parameter is used, the connect_state (set with `PSLR`（raw: `02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md`）) must be hdig or norm_hdig.
-
-This only applies to test point measurements.
-
- |
- |
-
-pinlist
-
- |
-
-DC Scale pins for which no test point pattern has been executed and digital pins for which no DC pattern has been executed will be ignored.
-
- |
- |
-
-#spec(data)
-
- |
-
-The binary data that are returned. The general format is:
-
-#Nn1n2n...nNdata_stream
-
-The N digit defines the number of the digits ni (1 ≤ i ≤N) that specify the length of data_stream in bytes.
-
-The data stream itself consists of a stream header and one or more answers (only one answer for data formats 0 and 1), where every answer contains the same number of data blocks.
-
-The stream header defines
-
-- the number of answers (4 long bytes, big-endian encoded)
-- the number of data blocks per answer (4 long bytes, big-endian encoded).
-
-Every data block consists of a block header and one or more data units each of which contains the result of one test point measurement or MEAS instruction (DC pattern).
-
-The block header defines
-
-- the index of the first result (4 long bytes, big-endian encoded)
-- the number of successive results (4 long bytes, big-endian encoded).
-
-If rep_mode is set to ALL, there will be only one block; if it is set to EOLY, there can be more than one.
-
-The length of the data units depends on the selected format and on the selected type. If type is set to ALL, each data unit consists of the expected data and the received data in this order.
-
-Graphically, the structure can be illustrated by a simple example of the EOLY reporting mode with type RCV as follows:
-
- |
- |  !`Format of data stream`（raw: `../../../../raw/101276.png`）
-
- |
+| type | The supported types are:<br><br>- RCV<br><br>Requests received data only.<br><br>Can only be requested if a test point pattern has been executed for DC Scale pins, or a DC pattern was executed for digital pins.<br><br>- EXP<br><br>Requests expected data of only those test point events that generate a result.<br><br>This type is only allowed for test point patterns, not for DC patterns.<br><br>- ALL<br><br>Requests both expected and received data.<br><br>This type is only allowed for test points patterns, not for DC patterns. |
+|---|---|
+| resultIndex | The index of the first result to be read. Only test point operations (MEAS instructions) that provide a result are counted, starting from 0. |
+| numResults | The number of results to be retrieved. |
+| data_format | Specifies the binary data format of #spec(data). The DC Scale cards DPS32, VI32, and UHC4 / UHC4T, as well as DC patterns, support both formats.<br><br>- `0`<br><br>This format contains PASS/FAIL and status information for every measurement. It can be used for status analysis where expected data and measurement values are not required. This format is only available for type RCV.<br><br>- `1`<br><br>For test point events, this format can return both received and expected data. Expected data are not available for DC patterns.<br><br>The received data of format 1 not only contains PASS/FAIL and status information for every measurement, but also the measurement type and value.<br><br>The expected data contains all the setup information of an event (td element) that contains a Measure operation.<br><br>Format 1 is available for all three types. |
+| rep_mode | Specifies the reporting mode. Possible values are:<br><br>- ALL:Reports all results within the selected area.<br>- EOLY: Reports only failed results including measurement errors (that is, too small a distance between two measurements, or type mismatch between measurement and range). This mode is not available for type EXP. |
+| byte_max | In the query, this parameter specifies the maximum number of bytes that may be returned. This option can be used for the reporting mode EOLY, where the size of the data that will be returned cannot be calculated beforehand.<br><br>In the reply, this parameter is used to indicate the reason in case that not all the requested results can be returned:<br><br>- EOB<br><br>The number of requested results exceeds the maximum buffer length specified with byte_max.<br><br>- EOF<br><br>The result range of the query exceeds the length of the test.<br><br>- EOM<br><br>This code is returned if the size of the answer exceeds the available storage capacity. |
+| gang_index | The index within the ganged channels for which data will be<br><br>answered. If this parameter is used, the connect_state (set with `PSLR`（raw: `02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md`）) must be hdig or norm_hdig.<br><br>This only applies to test point measurements. |
+| pinlist | DC Scale pins for which no test point pattern has been executed and digital pins for which no DC pattern has been executed will be ignored. |
+| #spec(data) | The binary data that are returned. The general format is:<br><br>#Nn1n2n...nNdata_stream<br><br>The N digit defines the number of the digits ni (1 ≤ i ≤N) that specify the length of data_stream in bytes.<br><br>The data stream itself consists of a stream header and one or more answers (only one answer for data formats 0 and 1), where every answer contains the same number of data blocks.<br><br>The stream header defines<br><br>- the number of answers (4 long bytes, big-endian encoded)<br>- the number of data blocks per answer (4 long bytes, big-endian encoded).<br><br>Every data block consists of a block header and one or more data units each of which contains the result of one test point measurement or MEAS instruction (DC pattern).<br><br>The block header defines<br><br>- the index of the first result (4 long bytes, big-endian encoded)<br>- the number of successive results (4 long bytes, big-endian encoded).<br><br>If rep_mode is set to ALL, there will be only one block; if it is set to EOLY, there can be more than one.<br><br>The length of the data units depends on the selected format and on the selected type. If type is set to ALL, each data unit consists of the expected data and the received data in this order.<br><br>Graphically, the structure can be illustrated by a simple example of the EOLY reporting mode with type RCV as follows: |
+| !`Format of data stream`（raw: `../../../../raw/101276.png`） | !`Format of data stream`（raw: `../../../../raw/101276.png`） |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/97182.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ERRE  -  Expected and Received Results of Events）
 
@@ -9306,40 +9071,11 @@ FFCI {(no_ffcyc)}, {no_pins}, {#spec(data)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › FFCI  -  First Failed Cycle Information）
 
-| no_ffcyc  | Number of first failed cycles to be reported. |
- | port  | Specifies the port for the pins for which information is to be returned. If you omit this parameter information will be returned for the default port @ to which all configured pins belong. |
- | no_pins  | The number of O and IO pins. |
- | #spec(data) |
-
-Prefix and pin error data in binary format:
-
-- The prefix is defined as follows:
-
-  - The number sign # marks the start of the data block.
-  - One digit follows, indicating how many digits make up the following data length specifier.
-  - A number of digits indicating the length (in bytes) of the data to follow.
-
-- Binary data are available per reported cycle. The data for each cycle consists of two parts, the number of the failing cycle and the pin data, which indicates the failing pins of that cycle:
-
-  - Cycle number:
-
-The length of the cycle number is always 8 bytes.
-
-  - Pin data:
-
-The pin data consists of one byte per eight pins that belong to the specified port:
-
-    - Each pin is represented by one bit.
-    - An error on a particular pin is denoted by a 1, an error free pin by a 0.
-    - Bits of the pin data are filled starting from the left (MSB) side.
-    - If the number of configured channels of the specified port is not divisible by 8, the last byte of pin data contains unused bits on the right (LSB) side.
-
-Mapping of the bits in the pin data block to the individual pins:
-
-- The I / IO pins are sorted based on their pogo number defined for the first site.
-- The sorted pins are mapped starting on the left (MSB) side of the first byte of the pin data block.
-- The information how the pins are mapped can be read by command `FFPM? (First Failing cycle information Pin Mapping)`（raw: `02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md`）.
- |
+| no_ffcyc | Number of first failed cycles to be reported. |
+|---|---|
+| port | Specifies the port for the pins for which information is to be returned. If you omit this parameter information will be returned for the default port @ to which all configured pins belong. |
+| no_pins | The number of O and IO pins. |
+| #spec(data) | Prefix and pin error data in binary format:<br><br>- The prefix is defined as follows:<br><br>- The number sign # marks the start of the data block.<br>- One digit follows, indicating how many digits make up the following data length specifier.<br>- A number of digits indicating the length (in bytes) of the data to follow.<br><br>- Binary data are available per reported cycle. The data for each cycle consists of two parts, the number of the failing cycle and the pin data, which indicates the failing pins of that cycle:<br><br>- Cycle number:<br><br>The length of the cycle number is always 8 bytes.<br><br>- Pin data:<br><br>The pin data consists of one byte per eight pins that belong to the specified port:<br><br>- Each pin is represented by one bit.<br>- An error on a particular pin is denoted by a 1, an error free pin by a 0.<br>- Bits of the pin data are filled starting from the left (MSB) side.<br>- If the number of configured channels of the specified port is not divisible by 8, the last byte of pin data contains unused bits on the right (LSB) side.<br><br>Mapping of the bits in the pin data block to the individual pins:<br><br>- The I / IO pins are sorted based on their pogo number defined for the first site.<br>- The sorted pins are mapped starting on the left (MSB) side of the first byte of the pin data block.<br>- The information how the pins are mapped can be read by command `FFPM? (First Failing cycle information Pin Mapping)`（raw: `02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md`）. |
 
 ### Example 1: Firmware view（取自子主题 Commands in alphabetical order › List of commands › FFCI  -  First Failed Cycle Information）
 
@@ -10582,8 +10318,9 @@ INST {status}, {pinlist}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › INST  -  INSTrument query）
 
-| status  | A list of instrument parameter values. See the example below for an incomplete list of possible parameters (not all cards support all parameters). |
- | pinlist  | Specifies the pin(s) for which to show the instrument status. If more than one pin is included, the names must be separated with a comma. |
+| status | A list of instrument parameter values. See the example below for an incomplete list of possible parameters (not all cards support all parameters). |
+|---|---|
+| pinlist | Specifies the pin(s) for which to show the instrument status. If more than one pin is included, the names must be separated with a comma. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › INST  -  INSTrument query）
 
@@ -11508,7 +11245,8 @@ NIFE {number}
 
   Parameters
 
- | number  | Specifies the maximum number of independent Fast Sync ports. It can be [1,...,8]. |
+| number | Specifies the maximum number of independent Fast Sync ports. It can be [1,...,8]. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › NIFE  NIFE  -  Number of Independent Fast Error）
 
@@ -12340,9 +12078,10 @@ PRLT {site}, {"result"}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PRLT  -  request Parallel ResuLTs）
 
-| exec_context  | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）. |
- | site  | The site parameter is number A single integer representing the site number. ALL Means that all the results of all configured sites are returned. |
- | result  | The result parameter is a string containing one character for every site. The nth character stands for site n. Possible characters are: P If the last test passed on all pins. F If the last test failed at any pin. 0 If the site was masked during the last test. |
+| exec_context | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）. |
+|---|---|
+| site | The site parameter is number A single integer representing the site number. ALL Means that all the results of all configured sites are returned. |
+| result | The result parameter is a string containing one character for every site. The nth character stands for site n. Possible characters are: P If the last test passed on all pins. F If the last test failed at any pin. 0 If the site was masked during the last test. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PRLT  -  request Parallel ResuLTs）
 
@@ -14662,75 +14401,17 @@ SPST {spec_type},, {"multi-port_spec"}, {status}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › SPST  -  SPecset STatus）
 
-|
+| spec_type | Which specification type to use. Use: | Which specification type to use. Use: |
+|---|---|---|
+| spec_type | LEV | to specify levels, or |
+| spec_type | TIM | to specify timing. |
+| equation_set_no | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. |
+| specset_no | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. |
+| multi-port_spec | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. |
+| status | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. |
 
-spec_type
-
- |
-
-Which specification type to use. Use:
-
- |
- |
-
-LEV
-
- |
-
-to specify levels, or
-
- |
- |
-
-TIM
-
- |
-
-to specify timing.
-
- |
- |
-
-equation_set_no
-
- |
-
-Equation set number. An integer in the range 0 to 256.
-
-Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.
-
-Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set.
-
- |
- |
-
-specset_no
-
- |
-
-Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets.
-
- |
- |
-
-multi-port_spec
-
- |
-
-In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty.
-
- |
- |
-
-status
-
- |
-
-An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.
-
-For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared.
-
- |
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98743.htm`。
 
 Status bits for the status parameter
 | Bit | Description | Value |
@@ -17451,158 +17132,24 @@ TSCF {"ts_name"}, {property}, {property_value}, {(pinlist)}
 | pinlist | Specifies the pins to which this configuration is to be applied. |
 
 Properties and their values
- |
-
-Property
-
- |
-
-Explanation and values
-
- |
- |
-
-DATA_RATE
-
- |
-
-This property defines the data rate which is the smallest distance between two events. The unit is bits per second.
-
- |
- |
-
-EDGE_SELECT
-
- |
-
-This mandatory property defines which edges are the events to be sampled. Possible values are:
-
- |
- |
-
- |
-
-RISE
-
- |
-
-The events are rising edges.
-
- |
- |
-
- |
-
-FALL
-
- |
-
-The events are falling edges.
-
- |
- |
-
- |
-
-RISE_FALL
-
- |
-
-The events are alternately rising and falling edges. This option is used for pulse and jitter measurements. If this option is selected, the PRESCALER property must be set to a value > 1 and < 17.
-
- |
- |
-
-INITIAL_DISCARD
-
- |
-
-This optional property defines how many events are to be discarded before the first sample of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.
-
-If EDGE_SELECT is set to RISE_FALL, and INITIAL_DISCARD is set to an even number, the first sampled event will be a rising edge if INITIAL_DISCARD is set to an odd number, the first sampled event will be a falling edge.
-
-Note: Parameter INITIAL_DISCARD must be 0 for DC Scale pins.
-
- |
- |
-
-INTER_SAMPLE_DISCARD
-
- |
-
-This optional property defines how many events are to be discarded between two samples of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.
-
-If EDGE_SELECT is set to RISE_FALL, this property must be set to an even number (including 0). If it is set to an odd number, all sampled edges will be of the same type, all rising or all falling.
-
-Note: Parameter INTER_SAMPLE_DISCARD must be 0 for DC Scale pins.
-
- |
- |
-
-MEAS_PER_SHOT
-
- |
-
-This mandatory property must equal the number of armings in the pattern. A shot is one execution of the pattern. For certain measurements, two executions are required; see the NUM_SHOTS parameter.
-
-This is one of the three parameters by which the required size of the result area is determined. The others are SAMPLES_PER_MEAS and NUM_SHOTS.
-
- |
- |
-
-NUM_SHOTS
-
- |
-
-This optional property defines the number of shots (sequencer runs). It is used to calculate the size of the result area and to determine how the measurements are to be processed. The possible values are 1 or 2. Two shots are needed for rise time and fall time measurements. The default is 1.
-
- |
- |
-
-PRESCALER
-
- |
-
-This mandatory property defines how much the frequency of the signal is to be reduced before it is passed on to the event discarding block. This is required if the minimal distance of two consecutive events in the DUT signal can be smaller than the minimal distance that the event discarding block supports.
-
-Possible values for Smart Scale pins are 1 through 17. 1 means no prescaling. If EDGE_SELECT is set to RISE_FALL, the prescaler value must be < 17 and > 1.
-
- |
- |
-
-SAMPLES_PER_MEAS
-
- |
-
-This mandatory property defines the number of samples per measurement (arming). This is another parameter that contributes to the calculation of the result area size.
-
- |
- |
-
-THRESHOLD_A
-
- |
-
-This optional property defines a voltage threshold for the event to be sampled. It is only needed for (two shot) rise time and fall time measurements. The default is the voltage level as defined in the level setup.
-
-Note that if this property is defined, the level setup must be changed, and if the pins specified by pinlist are tested functionally in parallel with the TMU measurement, they will be tested with the modified voltage level.
-
-Note also that the original level setup is automatically restored after the measurement has been finished.
-
- |
- |
-
-THRESHOLD_B
-
- |
-
-This optional property defines the voltage threshold for a second shot. It is only needed for (two shot) rise time and fall time measurements.
-
-It must not be defined if NUM_SHOTS is set to 1.
-
-Note that the original level setup is automatically restored after the measurement has been finished.
-
- |
+| Property | Explanation and values | Explanation and values |
+|---|---|---|
+| DATA_RATE | This property defines the data rate which is the smallest distance between two events. The unit is bits per second. | This property defines the data rate which is the smallest distance between two events. The unit is bits per second. |
+| EDGE_SELECT | This mandatory property defines which edges are the events to be sampled. Possible values are: | This mandatory property defines which edges are the events to be sampled. Possible values are: |
+|  | RISE | The events are rising edges. |
+|  | FALL | The events are falling edges. |
+|  | RISE_FALL | The events are alternately rising and falling edges. This option is used for pulse and jitter measurements. If this option is selected, the PRESCALER property must be set to a value > 1 and < 17. |
+| INITIAL_DISCARD | This optional property defines how many events are to be discarded before the first sample of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.<br><br>If EDGE_SELECT is set to RISE_FALL, and INITIAL_DISCARD is set to an even number, the first sampled event will be a rising edge if INITIAL_DISCARD is set to an odd number, the first sampled event will be a falling edge.<br><br>Note: Parameter INITIAL_DISCARD must be 0 for DC Scale pins. | This optional property defines how many events are to be discarded before the first sample of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.<br><br>If EDGE_SELECT is set to RISE_FALL, and INITIAL_DISCARD is set to an even number, the first sampled event will be a rising edge if INITIAL_DISCARD is set to an odd number, the first sampled event will be a falling edge.<br><br>Note: Parameter INITIAL_DISCARD must be 0 for DC Scale pins. |
+| INTER_SAMPLE_DISCARD | This optional property defines how many events are to be discarded between two samples of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.<br><br>If EDGE_SELECT is set to RISE_FALL, this property must be set to an even number (including 0). If it is set to an odd number, all sampled edges will be of the same type, all rising or all falling.<br><br>Note: Parameter INTER_SAMPLE_DISCARD must be 0 for DC Scale pins. | This optional property defines how many events are to be discarded between two samples of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.<br><br>If EDGE_SELECT is set to RISE_FALL, this property must be set to an even number (including 0). If it is set to an odd number, all sampled edges will be of the same type, all rising or all falling.<br><br>Note: Parameter INTER_SAMPLE_DISCARD must be 0 for DC Scale pins. |
+| MEAS_PER_SHOT | This mandatory property must equal the number of armings in the pattern. A shot is one execution of the pattern. For certain measurements, two executions are required; see the NUM_SHOTS parameter.<br><br>This is one of the three parameters by which the required size of the result area is determined. The others are SAMPLES_PER_MEAS and NUM_SHOTS. | This mandatory property must equal the number of armings in the pattern. A shot is one execution of the pattern. For certain measurements, two executions are required; see the NUM_SHOTS parameter.<br><br>This is one of the three parameters by which the required size of the result area is determined. The others are SAMPLES_PER_MEAS and NUM_SHOTS. |
+| NUM_SHOTS | This optional property defines the number of shots (sequencer runs). It is used to calculate the size of the result area and to determine how the measurements are to be processed. The possible values are 1 or 2. Two shots are needed for rise time and fall time measurements. The default is 1. | This optional property defines the number of shots (sequencer runs). It is used to calculate the size of the result area and to determine how the measurements are to be processed. The possible values are 1 or 2. Two shots are needed for rise time and fall time measurements. The default is 1. |
+| PRESCALER | This mandatory property defines how much the frequency of the signal is to be reduced before it is passed on to the event discarding block. This is required if the minimal distance of two consecutive events in the DUT signal can be smaller than the minimal distance that the event discarding block supports.<br><br>Possible values for Smart Scale pins are 1 through 17. 1 means no prescaling. If EDGE_SELECT is set to RISE_FALL, the prescaler value must be < 17 and > 1. | This mandatory property defines how much the frequency of the signal is to be reduced before it is passed on to the event discarding block. This is required if the minimal distance of two consecutive events in the DUT signal can be smaller than the minimal distance that the event discarding block supports.<br><br>Possible values for Smart Scale pins are 1 through 17. 1 means no prescaling. If EDGE_SELECT is set to RISE_FALL, the prescaler value must be < 17 and > 1. |
+| SAMPLES_PER_MEAS | This mandatory property defines the number of samples per measurement (arming). This is another parameter that contributes to the calculation of the result area size. | This mandatory property defines the number of samples per measurement (arming). This is another parameter that contributes to the calculation of the result area size. |
+| THRESHOLD_A | This optional property defines a voltage threshold for the event to be sampled. It is only needed for (two shot) rise time and fall time measurements. The default is the voltage level as defined in the level setup.<br><br>Note that if this property is defined, the level setup must be changed, and if the pins specified by pinlist are tested functionally in parallel with the TMU measurement, they will be tested with the modified voltage level.<br><br>Note also that the original level setup is automatically restored after the measurement has been finished. | This optional property defines a voltage threshold for the event to be sampled. It is only needed for (two shot) rise time and fall time measurements. The default is the voltage level as defined in the level setup.<br><br>Note that if this property is defined, the level setup must be changed, and if the pins specified by pinlist are tested functionally in parallel with the TMU measurement, they will be tested with the modified voltage level.<br><br>Note also that the original level setup is automatically restored after the measurement has been finished. |
+| THRESHOLD_B | This optional property defines the voltage threshold for a second shot. It is only needed for (two shot) rise time and fall time measurements.<br><br>It must not be defined if NUM_SHOTS is set to 1.<br><br>Note that the original level setup is automatically restored after the measurement has been finished. | This optional property defines the voltage threshold for a second shot. It is only needed for (two shot) rise time and fall time measurements.<br><br>It must not be defined if NUM_SHOTS is set to 1.<br><br>Note that the original level setup is automatically restored after the measurement has been finished. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/125467.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSCF  TSCF  -  TMU Set ConFiguration）
 
@@ -19186,192 +18733,24 @@ TTDB {type}, [sub_type], {value}, {(pinlist)}
 | pinlist | Specifies the pins for which debug information is to be retrieved. |
 
 Information types and subtypes
- |
-
-Information type
-
- |
-
-Explanation and values
-
- |
- |
-
-MAX_DEVIATION
-
- |
-
-If the token size was > 0 during the last sequencer run, this item returns for this sequencer run:
-
-- The maximum number of UI by which the received data has fallen behind the exceeded the expected data (subtype DUT_BEHIND_ED)
-- The maximum number of UI by which the expected data has fallen behind the received data (subtype ED_BEHIND_DUT)
-
-The received data is shortened by skipping idle tokens, the expected data by removing X-tokens.
-
- |
- |
-
-TRK_FIRST_ADJUSTMENT
-
- |
-
-This item returns the adjustment that was determined by the first transition after test start.
-
- |
- |
-
-TRK_FIRST_ERR
-
- |
-
-This item returns the number of expected bits that had been processed when the first tracking error occurred.
-
- |
- |
-
-TRK_VALUES
-
- |
-
-This item returns information about the adjustment of the observation window. The unit is 0.25 UI (= 1 sample).
-
-There are three subtypes:
-
-- ACT returns the actual adjustment at the end of the test.
-- MIN returns the maximum adjustment to the left during the last test.
-- MAX returns the maximum adjustment to the right during the last test.
- |
- |
-
-TRK_STATUS
-
- |
-
-This item returns the transition patterns that were observed during the last test as a sequence of four-digit blocks.
-
-In order to understand this information, you must take into account that the observation window can only be adjusted after every three UI (see the discussion of the implementation parameters in `Drift and transition tracking`（raw: `02.06.15.01.01_Drift_and_transition_tracking.md`）). Thus, the observation window actually consists of three successive UI.
-
-The four-digit blocks encode the accumulated transitions for one such 3-UI window (subtype TRANS_COMPOSITE) or for two such windows (subtype TRANS_X). "1" indicates a transition, "0" indicates no transition. Every block starts with "1". This indicates that the observation window was adjusted successfully.
-
-As an example for the one window case, consider
-
-LLLL LHHH LLLH,
-
-where the second UI has an AB transition, and the third has a CD transition. This is encoded by
-
-1101,
-
-which says that an AB transition (second digit) and a CD transition (fourth digit), but no BC transition was observed in the 3-UI window.
-
-TRK_STATUS has three subtypes:
-
-- TRANS_X returns the transition patterns that occurred in the last 24 UI (= 8 windows, each of 3 UI). Each of the four blocks accumulates two windows (= 6 UI). The order of the blocks corresponds to the order of the test.
-- TRANS_COMPOSITE returns the transition patterns that occurred by accumulating the 3 UI of one window during the last sequencer run up to the first error. Since the first digit is always 1 (except when the window could not be adjusted) there are 8 possible patterns between 1000 (best) and 1111 (worst). The patterns that occurred are displayed.
-- TRANS_R returns 0 if the observation window could always be adjusted successfully. It returns 1 if this is not the case. This error should only occur if the observation window was adjusted more than 1 UI in the same direction within 24 UI (see the ERR_CNTADJOVR property of the TTCF command).
- |
- |
-
-LOCATION_FIRST_FAIL
-
- |
-
-This item returns the number of expected bits that had been processed when the first error of any kind occurred.
-
- |
- |
-
-REMOVED_IDLE
-
- |
-
-This item returns how often one of the 6 idle tokens that had been defined with TTCF IDLE_TOKEN_i occurred during the last sequencer run. The sub_type parameter specifies the number of the token.
-
- |
- |
-
-REMOVED_XTOKEN
-
- |
-
-This item returns how many X-tokens were removed. This only applies if X-token removal is activated with TTCF REMOVE_XTOKEN_MODE.
-
-REMOVED_XTOKEN has one subtype:
-
-- SEQUENCER_RUN returns the number of X-tokens that were removed on the last sequencer run
- |
- |
-
-STATUS
-
- |
-
-This item returns information about the state of the tracker after the test as a bit sequence. Most of these status bits can also be queried with TTST?. The individual bits stand for:
-
- |
- |
-
-- Bit1: An interrupt was generated.
-- Bit2: Break vectors entered the formatting block.
-- Bit3: The first match between expected and received data has occurred.
-- Bit4: Expected and received data are prepared for the first compare.
-- Bit5: The FIFO between tracking and pattern matching block is empty.
-- Bit6: The FIFO between expected data and pattern matching block is empty.
-- Bit7: The expected data window FIFO is empty.
-- Bit8: The expected data FIFO is empty.
-- Bit9: EXPECTED_FIFO_DUT_OVERFLOW
-- Bit10: ADJUSTMENT_ERROR
-- Bit11: Always 1
-- Bit12: DRIVE_BIT_IN_COMPARE_DATA
-- Bit13: DUT_FIFO_OVERFLOW
-- Bit14: ERR_XCNT
- |
-
-- Bit15: ERR_XMIN
-- Bit16: ERR_XMAX
-- Bit17: ERR_TRMCNT
-- Bit18: ERR_WRCMP
-- Bit19: ERR_COMPARE
-- Bit20: ERR_STO
-- Bit21: ERR_FTO
-- Bit22: ERR_STOP
-- Bit23: ERR_CNTLMT
-- Bit24: ERR_CNTADJOVR
-- Bit25: ERR_BADTRAN
-- Bit26: ERR_PULSE
-- Bit27: ERR_TRK
-- Bit28: ERR_JMP2
-- Bit29: ERR_TE4
-- Bit30: ERR_TE0
-- Bit31: ERR_TE2
-- Bit32: ERR_TE3
- |
- |
-
-The names specified for bits 9 through 32 refer to the possible errors returned by `TTST?`（raw: `02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md`）. For more explanations see this query and the `TTCF`（raw: `02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md`） command.
-
- |
- |
-
-REMOVED_XTOKEN_EMAP
-
- |
-
-This item returns how many x-tokens were removed with respect to start and stop of the error map.
-
-REMOVED_XTOKEN_EMAP has two subtypes:
-
-- START returns the number of removed X-tokens at the start of the error map.
-- STOP returns the number of removed X-tokens at the end of error map recording.
- |
- |
-
-SYNC_VALUES
-
- |
-
-This item returns how many received bits were skipped for initial synchronization at test start (subtype INITIAL) or after a switch of an IO pin from drive to receive mode (subtype SUBSEQUENT).
-
- |
+| Information type | Explanation and values | Explanation and values |
+|---|---|---|
+| MAX_DEVIATION | If the token size was > 0 during the last sequencer run, this item returns for this sequencer run:<br><br>- The maximum number of UI by which the received data has fallen behind the exceeded the expected data (subtype DUT_BEHIND_ED)<br>- The maximum number of UI by which the expected data has fallen behind the received data (subtype ED_BEHIND_DUT)<br><br>The received data is shortened by skipping idle tokens, the expected data by removing X-tokens. | If the token size was > 0 during the last sequencer run, this item returns for this sequencer run:<br><br>- The maximum number of UI by which the received data has fallen behind the exceeded the expected data (subtype DUT_BEHIND_ED)<br>- The maximum number of UI by which the expected data has fallen behind the received data (subtype ED_BEHIND_DUT)<br><br>The received data is shortened by skipping idle tokens, the expected data by removing X-tokens. |
+| TRK_FIRST_ADJUSTMENT | This item returns the adjustment that was determined by the first transition after test start. | This item returns the adjustment that was determined by the first transition after test start. |
+| TRK_FIRST_ERR | This item returns the number of expected bits that had been processed when the first tracking error occurred. | This item returns the number of expected bits that had been processed when the first tracking error occurred. |
+| TRK_VALUES | This item returns information about the adjustment of the observation window. The unit is 0.25 UI (= 1 sample).<br><br>There are three subtypes:<br><br>- ACT returns the actual adjustment at the end of the test.<br>- MIN returns the maximum adjustment to the left during the last test.<br>- MAX returns the maximum adjustment to the right during the last test. | This item returns information about the adjustment of the observation window. The unit is 0.25 UI (= 1 sample).<br><br>There are three subtypes:<br><br>- ACT returns the actual adjustment at the end of the test.<br>- MIN returns the maximum adjustment to the left during the last test.<br>- MAX returns the maximum adjustment to the right during the last test. |
+| TRK_STATUS | This item returns the transition patterns that were observed during the last test as a sequence of four-digit blocks.<br><br>In order to understand this information, you must take into account that the observation window can only be adjusted after every three UI (see the discussion of the implementation parameters in `Drift and transition tracking`（raw: `02.06.15.01.01_Drift_and_transition_tracking.md`）). Thus, the observation window actually consists of three successive UI.<br><br>The four-digit blocks encode the accumulated transitions for one such 3-UI window (subtype TRANS_COMPOSITE) or for two such windows (subtype TRANS_X). "1" indicates a transition, "0" indicates no transition. Every block starts with "1". This indicates that the observation window was adjusted successfully.<br><br>As an example for the one window case, consider<br><br>LLLL LHHH LLLH,<br><br>where the second UI has an AB transition, and the third has a CD transition. This is encoded by<br><br>1101,<br><br>which says that an AB transition (second digit) and a CD transition (fourth digit), but no BC transition was observed in the 3-UI window.<br><br>TRK_STATUS has three subtypes:<br><br>- TRANS_X returns the transition patterns that occurred in the last 24 UI (= 8 windows, each of 3 UI). Each of the four blocks accumulates two windows (= 6 UI). The order of the blocks corresponds to the order of the test.<br>- TRANS_COMPOSITE returns the transition patterns that occurred by accumulating the 3 UI of one window during the last sequencer run up to the first error. Since the first digit is always 1 (except when the window could not be adjusted) there are 8 possible patterns between 1000 (best) and 1111 (worst). The patterns that occurred are displayed.<br>- TRANS_R returns 0 if the observation window could always be adjusted successfully. It returns 1 if this is not the case. This error should only occur if the observation window was adjusted more than 1 UI in the same direction within 24 UI (see the ERR_CNTADJOVR property of the TTCF command). | This item returns the transition patterns that were observed during the last test as a sequence of four-digit blocks.<br><br>In order to understand this information, you must take into account that the observation window can only be adjusted after every three UI (see the discussion of the implementation parameters in `Drift and transition tracking`（raw: `02.06.15.01.01_Drift_and_transition_tracking.md`）). Thus, the observation window actually consists of three successive UI.<br><br>The four-digit blocks encode the accumulated transitions for one such 3-UI window (subtype TRANS_COMPOSITE) or for two such windows (subtype TRANS_X). "1" indicates a transition, "0" indicates no transition. Every block starts with "1". This indicates that the observation window was adjusted successfully.<br><br>As an example for the one window case, consider<br><br>LLLL LHHH LLLH,<br><br>where the second UI has an AB transition, and the third has a CD transition. This is encoded by<br><br>1101,<br><br>which says that an AB transition (second digit) and a CD transition (fourth digit), but no BC transition was observed in the 3-UI window.<br><br>TRK_STATUS has three subtypes:<br><br>- TRANS_X returns the transition patterns that occurred in the last 24 UI (= 8 windows, each of 3 UI). Each of the four blocks accumulates two windows (= 6 UI). The order of the blocks corresponds to the order of the test.<br>- TRANS_COMPOSITE returns the transition patterns that occurred by accumulating the 3 UI of one window during the last sequencer run up to the first error. Since the first digit is always 1 (except when the window could not be adjusted) there are 8 possible patterns between 1000 (best) and 1111 (worst). The patterns that occurred are displayed.<br>- TRANS_R returns 0 if the observation window could always be adjusted successfully. It returns 1 if this is not the case. This error should only occur if the observation window was adjusted more than 1 UI in the same direction within 24 UI (see the ERR_CNTADJOVR property of the TTCF command). |
+| LOCATION_FIRST_FAIL | This item returns the number of expected bits that had been processed when the first error of any kind occurred. | This item returns the number of expected bits that had been processed when the first error of any kind occurred. |
+| REMOVED_IDLE | This item returns how often one of the 6 idle tokens that had been defined with TTCF IDLE_TOKEN_i occurred during the last sequencer run. The sub_type parameter specifies the number of the token. | This item returns how often one of the 6 idle tokens that had been defined with TTCF IDLE_TOKEN_i occurred during the last sequencer run. The sub_type parameter specifies the number of the token. |
+| REMOVED_XTOKEN | This item returns how many X-tokens were removed. This only applies if X-token removal is activated with TTCF REMOVE_XTOKEN_MODE.<br><br>REMOVED_XTOKEN has one subtype:<br><br>- SEQUENCER_RUN returns the number of X-tokens that were removed on the last sequencer run | This item returns how many X-tokens were removed. This only applies if X-token removal is activated with TTCF REMOVE_XTOKEN_MODE.<br><br>REMOVED_XTOKEN has one subtype:<br><br>- SEQUENCER_RUN returns the number of X-tokens that were removed on the last sequencer run |
+| STATUS | This item returns information about the state of the tracker after the test as a bit sequence. Most of these status bits can also be queried with TTST?. The individual bits stand for: | This item returns information about the state of the tracker after the test as a bit sequence. Most of these status bits can also be queried with TTST?. The individual bits stand for: |
+| STATUS | - Bit1: An interrupt was generated.<br>- Bit2: Break vectors entered the formatting block.<br>- Bit3: The first match between expected and received data has occurred.<br>- Bit4: Expected and received data are prepared for the first compare.<br>- Bit5: The FIFO between tracking and pattern matching block is empty.<br>- Bit6: The FIFO between expected data and pattern matching block is empty.<br>- Bit7: The expected data window FIFO is empty.<br>- Bit8: The expected data FIFO is empty.<br>- Bit9: EXPECTED_FIFO_DUT_OVERFLOW<br>- Bit10: ADJUSTMENT_ERROR<br>- Bit11: Always 1<br>- Bit12: DRIVE_BIT_IN_COMPARE_DATA<br>- Bit13: DUT_FIFO_OVERFLOW<br>- Bit14: ERR_XCNT | - Bit15: ERR_XMIN<br>- Bit16: ERR_XMAX<br>- Bit17: ERR_TRMCNT<br>- Bit18: ERR_WRCMP<br>- Bit19: ERR_COMPARE<br>- Bit20: ERR_STO<br>- Bit21: ERR_FTO<br>- Bit22: ERR_STOP<br>- Bit23: ERR_CNTLMT<br>- Bit24: ERR_CNTADJOVR<br>- Bit25: ERR_BADTRAN<br>- Bit26: ERR_PULSE<br>- Bit27: ERR_TRK<br>- Bit28: ERR_JMP2<br>- Bit29: ERR_TE4<br>- Bit30: ERR_TE0<br>- Bit31: ERR_TE2<br>- Bit32: ERR_TE3 |
+| STATUS | The names specified for bits 9 through 32 refer to the possible errors returned by `TTST?`（raw: `02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md`）. For more explanations see this query and the `TTCF`（raw: `02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md`） command. | The names specified for bits 9 through 32 refer to the possible errors returned by `TTST?`（raw: `02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md`）. For more explanations see this query and the `TTCF`（raw: `02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md`） command. |
+| REMOVED_XTOKEN_EMAP | This item returns how many x-tokens were removed with respect to start and stop of the error map.<br><br>REMOVED_XTOKEN_EMAP has two subtypes:<br><br>- START returns the number of removed X-tokens at the start of the error map.<br>- STOP returns the number of removed X-tokens at the end of error map recording. | This item returns how many x-tokens were removed with respect to start and stop of the error map.<br><br>REMOVED_XTOKEN_EMAP has two subtypes:<br><br>- START returns the number of removed X-tokens at the start of the error map.<br>- STOP returns the number of removed X-tokens at the end of error map recording. |
+| SYNC_VALUES | This item returns how many received bits were skipped for initial synchronization at test start (subtype INITIAL) or after a switch of an IO pin from drive to receive mode (subtype SUBSEQUENT). | This item returns how many received bits were skipped for initial synchronization at test start (subtype INITIAL) or after a switch of an IO pin from drive to receive mode (subtype SUBSEQUENT). |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/116688.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TTDB  -  Transition Test DeBug information）
 
@@ -20136,15 +19515,8 @@ UDUP {(purpose_name)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UDUP -  UnDefine Utility Purpose）
 
-| purpose_name |
-
-Specifies the utility purpose name or names to be undefined.
-
-The symbol @ removes all utility purpose definitions.
-
-If more than one name is to be removed, the names must be separated by a comma.
-
- |
+| purpose_name | Specifies the utility purpose name or names to be undefined.<br><br>The symbol @ removes all utility purpose definitions.<br><br>If more than one name is to be removed, the names must be separated by a comma. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UDUP -  UnDefine Utility Purpose）
 
@@ -20162,15 +19534,8 @@ UDUT {(util_name)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UDUT -  UnDefine UTility line）
 
-| util_name |
-
-Specifies the utility line name or names to be undefined.
-
-The symbol @ removes all utility line definitions.
-
-If more than one name is to be removed, the names must be separated by a comma.
-
- |
+| util_name | Specifies the utility line name or names to be undefined.<br><br>The symbol @ removes all utility line definitions.<br><br>If more than one name is to be removed, the names must be separated by a comma. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UDUT -  UnDefine UTility line）
 
@@ -20570,13 +19935,8 @@ UTIN {data}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UTIN  -  UTility line INputs）
 
-| data |
-
-This parameter returns a decimal number that you must translate to binary.
-
-Ignore the most significant bit. The other bits give the state of the seven lines.
-
- |
+| data | This parameter returns a decimal number that you must translate to binary.<br><br>Ignore the most significant bit. The other bits give the state of the seven lines. |
+|---|---|
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UTIN  -  UTility line INputs）
 
@@ -20995,16 +20355,9 @@ UTTI {time}, {(util_name)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UTTI  UTTI  -  UTility line settling TIme）
 
-| time  | Specifies the wait time to change the utility line status using the `UTST`（raw: `02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） command (in ms). |
- | util_name |
-
-Specifies the utility line name or names for which the settling time is to be set.
-
-The symbol @ is used for all utility lines.
-
-If more than one name is required, the names must be separated with a comma.
-
- |
+| time | Specifies the wait time to change the utility line status using the `UTST`（raw: `02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） command (in ms). |
+|---|---|
+| util_name | Specifies the utility line name or names for which the settling time is to be set.<br><br>The symbol @ is used for all utility lines.<br><br>If more than one name is required, the names must be separated with a comma. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UTTI  UTTI  -  UTility line settling TIme）
 
@@ -21926,16 +21279,11 @@ VNEC {site_sel}, {(pin)}, {value_data}
 ```
 
 Parameters
- | site_sel  | Select sites. It can be a string of 1's and 0's; or "ALL" to specify all sites. The response is a string of 1's and 0's. |
- | value_format |
-
-Specify a data format. It can be ASC or BIN.
-
-SmarTest 7.5.0 supports the ASC mode only.
-
- |
- | pin  | Specify a pin. Only one pin is supported. It can be any pin that has been configured to I, O, IO, DC, and DPS types. |
- | value_data  | Hold the returned cycle numbers in ASCII format. The ASCII data consists of a list of cycle numbers separated by comma. Each cycle number is for each active and requested site. |
+| site_sel | Select sites. It can be a string of 1's and 0's; or "ALL" to specify all sites. The response is a string of 1's and 0's. |
+|---|---|
+| value_format | Specify a data format. It can be ASC or BIN.<br><br>SmarTest 7.5.0 supports the ASC mode only. |
+| pin | Specify a pin. Only one pin is supported. It can be any pin that has been configured to I, O, IO, DC, and DPS types. |
+| value_data | Hold the returned cycle numbers in ASCII format. The ASCII data consists of a list of cycle numbers separated by comma. Each cycle number is for each active and requested site. |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VNEC  -  Valid Number of Executed Cycles）
 
@@ -22219,245 +21567,36 @@ WAVE {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {wfIndex}, [DD1], 
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › WAVE  WAVE  -  WAVEform）
 
-|
-
-wvf_set
-
- |
-
-Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes.
-
- |
- |
-
-multiport_spec
-
- |
-
-To change or query a multiport specification, enter the name of the specification.
-
- |
- |
-
-wfIndex
-
- |
-
-Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform.
-
- |
- |
-
-DD1 and DD2
-
- |
-
-First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are:
-
- |
- |
-
-F0N
-
- |
-
-drive 0
-
- |
- |
-
-F1N
-
- |
-
-drive 1
-
- |
- |
-
-FN0
-
- |
-
-tri-state off
-
- |
- |
-
-FNZ
-
- |
-
-tri-state on
-
- |
- |
-
-F00
-
- |
-
-drive 0, tri-state off
-
- |
- |
-
-F0Z
-
- |
-
-drive 0, tri-state on
-
- |
- |
-
-F10
-
- |
-
-drive 1, tri-state off
-
- |
- |
-
-F1Z
-
- |
-
-drive 1, tri-state on
-
- |
- |
-
-ED1 and ED2
-
- |
-
-First and second receive data parameter. These are optional parameters. The values you can define are:
-
- |
- |
-
-F0
-
- |
-
-compare to 0
-
- |
- |
-
-F1
-
- |
-
-compare to 1
-
- |
- |
-
-FI
-
- |
-
-compare to intermediate
-
- |
- |
-
-FX
-
- |
-
-compare to mask
-
- |
- |
-
-FU
-
- |
-
-compare to unstable
-
- |
- |
-
-C
-
- |
-
-capture digital data
-
- |
- |
-
-D
-
- |
-
-do not capture digital data
-
- |
- |
-
-The values C and D are used for selective digital capture. The following rules apply to these values:
-
-- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.
-- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another.
- |
- |
-
-pwfIndex
-
- |
-
-Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas.
-
- |
- |
-
-ALLOW_EQ
-
- |
-
-This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.
-
-Note also the following:
-
-- Every runtime change will affect all specifications that use the respective wavetable.
-- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
-- The runtime definitions are not checked for consistency. It is up to the user to ensure this.
- |
+| wvf_set | Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. | Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|---|
+| specset_id | Derived as follows:<br><br>`100 * equation_set_no + specset_no` | Derived as follows:<br><br>`100 * equation_set_no + specset_no` |
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes. | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes. |
+| multiport_spec | To change or query a multiport specification, enter the name of the specification. | To change or query a multiport specification, enter the name of the specification. |
+| wfIndex | Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform. | Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform. |
+| DD1 and DD2 | First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are: | First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are: |
+| DD1 and DD2 | F0N | drive 0 |
+| DD1 and DD2 | F1N | drive 1 |
+| DD1 and DD2 | FN0 | tri-state off |
+| DD1 and DD2 | FNZ | tri-state on |
+| DD1 and DD2 | F00 | drive 0, tri-state off |
+| DD1 and DD2 | F0Z | drive 0, tri-state on |
+| DD1 and DD2 | F10 | drive 1, tri-state off |
+| DD1 and DD2 | F1Z | drive 1, tri-state on |
+| ED1 and ED2 | First and second receive data parameter. These are optional parameters. The values you can define are: | First and second receive data parameter. These are optional parameters. The values you can define are: |
+| ED1 and ED2 | F0 | compare to 0 |
+| ED1 and ED2 | F1 | compare to 1 |
+| ED1 and ED2 | FI | compare to intermediate |
+| ED1 and ED2 | FX | compare to mask |
+| ED1 and ED2 | FU | compare to unstable |
+| ED1 and ED2 | C | capture digital data |
+| ED1 and ED2 | D | do not capture digital data |
+| ED1 and ED2 | The values C and D are used for selective digital capture. The following rules apply to these values:<br><br>- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.<br>- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another. | The values C and D are used for selective digital capture. The following rules apply to these values:<br><br>- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.<br>- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another. |
+| pwfIndex | Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table. | Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table. |
+| pinlist | The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas. | The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas. |
+| ALLOW_EQ | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98869.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › WAVE  WAVE  -  WAVEform）
 
@@ -24414,9 +23553,10 @@ PRLT {site}, {"result"}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › PRLT  -  request Parallel ResuLTs）
 
-| exec_context  | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）. |
- | site  | The site parameter is number A single integer representing the site number. ALL Means that all the results of all configured sites are returned. |
- | result  | The result parameter is a string containing one character for every site. The nth character stands for site n. Possible characters are: P If the last test passed on all pins. F If the last test failed at any pin. 0 If the site was masked during the last test. |
+| exec_context | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）. |
+|---|---|
+| site | The site parameter is number A single integer representing the site number. ALL Means that all the results of all configured sites are returned. |
+| result | The result parameter is a string containing one character for every site. The nth character stands for site n. Possible characters are: P If the last test passed on all pins. F If the last test failed at any pin. 0 If the site was masked during the last test. |
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › PRLT  -  request Parallel ResuLTs）
 
@@ -24603,15 +23743,8 @@ UDUP {(purpose_name)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UDUP -  UnDefine Utility Purpose）
 
-| purpose_name |
-
-Specifies the utility purpose name or names to be undefined.
-
-The symbol @ removes all utility purpose definitions.
-
-If more than one name is to be removed, the names must be separated by a comma.
-
- |
+| purpose_name | Specifies the utility purpose name or names to be undefined.<br><br>The symbol @ removes all utility purpose definitions.<br><br>If more than one name is to be removed, the names must be separated by a comma. |
+|---|---|
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › UDUP -  UnDefine Utility Purpose）
 
@@ -24629,15 +23762,8 @@ UDUT {(util_name)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UDUT -  UnDefine UTility line）
 
-| util_name |
-
-Specifies the utility line name or names to be undefined.
-
-The symbol @ removes all utility line definitions.
-
-If more than one name is to be removed, the names must be separated by a comma.
-
- |
+| util_name | Specifies the utility line name or names to be undefined.<br><br>The symbol @ removes all utility line definitions.<br><br>If more than one name is to be removed, the names must be separated by a comma. |
+|---|---|
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › UDUT -  UnDefine UTility line）
 
@@ -24925,16 +24051,9 @@ UTTI {time}, {(util_name)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UTTI  UTTI  -  UTility line settling TIme）
 
-| time  | Specifies the wait time to change the utility line status using the `UTST`（raw: `02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） command (in ms). |
- | util_name |
-
-Specifies the utility line name or names for which the settling time is to be set.
-
-The symbol @ is used for all utility lines.
-
-If more than one name is required, the names must be separated with a comma.
-
- |
+| time | Specifies the wait time to change the utility line status using the `UTST`（raw: `02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） command (in ms). |
+|---|---|
+| util_name | Specifies the utility line name or names for which the settling time is to be set.<br><br>The symbol @ is used for all utility lines.<br><br>If more than one name is required, the names must be separated with a comma. |
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › UTTI  UTTI  -  UTility line settling TIme）
 
@@ -25154,9 +24273,13 @@ APRM {mode}
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › APRM -  Activate PRiMary sets）
 
-| mode  | Selects the activation mode: |
- | FRC  | Forced activation. Primary sets are always activated. |
- | CNL  | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
+| mode | Selects the activation mode: | Selects the activation mode: |
+|---|---|---|
+| mode | FRC | Forced activation. Primary sets are always activated. |
+| mode | CNL | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98485_2.htm`。
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › APRM -  Activate PRiMary sets）
 
@@ -26434,75 +25557,17 @@ SPST {spec_type},, {"multi-port_spec"}, {status}
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › SPST  -  SPecset STatus）
 
-|
+| spec_type | Which specification type to use. Use: | Which specification type to use. Use: |
+|---|---|---|
+| spec_type | LEV | to specify levels, or |
+| spec_type | TIM | to specify timing. |
+| equation_set_no | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. |
+| specset_no | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. |
+| multi-port_spec | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. |
+| status | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. |
 
-spec_type
-
- |
-
-Which specification type to use. Use:
-
- |
- |
-
-LEV
-
- |
-
-to specify levels, or
-
- |
- |
-
-TIM
-
- |
-
-to specify timing.
-
- |
- |
-
-equation_set_no
-
- |
-
-Equation set number. An integer in the range 0 to 256.
-
-Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.
-
-Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set.
-
- |
- |
-
-specset_no
-
- |
-
-Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets.
-
- |
- |
-
-multi-port_spec
-
- |
-
-In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty.
-
- |
- |
-
-status
-
- |
-
-An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.
-
-For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared.
-
- |
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98743_2.htm`。
 
 Status bits for the status parameter
 | Bit | Description | Value |
@@ -26790,9 +25855,13 @@ APRM {mode}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › APRM -  Activate PRiMary sets）
 
-| mode  | Selects the activation mode: |
- | FRC  | Forced activation. Primary sets are always activated. |
- | CNL  | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
+| mode | Selects the activation mode: | Selects the activation mode: |
+|---|---|---|
+| mode | FRC | Forced activation. Primary sets are always activated. |
+| mode | CNL | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98485_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › APRM -  Activate PRiMary sets）
 
@@ -28102,75 +27171,17 @@ SPST {spec_type},, {"multi-port_spec"}, {status}
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › SPST  -  SPecset STatus）
 
-|
+| spec_type | Which specification type to use. Use: | Which specification type to use. Use: |
+|---|---|---|
+| spec_type | LEV | to specify levels, or |
+| spec_type | TIM | to specify timing. |
+| equation_set_no | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. |
+| specset_no | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. |
+| multi-port_spec | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. |
+| status | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. |
 
-spec_type
-
- |
-
-Which specification type to use. Use:
-
- |
- |
-
-LEV
-
- |
-
-to specify levels, or
-
- |
- |
-
-TIM
-
- |
-
-to specify timing.
-
- |
- |
-
-equation_set_no
-
- |
-
-Equation set number. An integer in the range 0 to 256.
-
-Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.
-
-Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set.
-
- |
- |
-
-specset_no
-
- |
-
-Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets.
-
- |
- |
-
-multi-port_spec
-
- |
-
-In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty.
-
- |
- |
-
-status
-
- |
-
-An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.
-
-For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared.
-
- |
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98743_3.htm`。
 
 Status bits for the status parameter
 | Bit | Description | Value |
@@ -28716,245 +27727,36 @@ WAVE {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {wfIndex}, [DD1], 
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › WAVE  WAVE  -  WAVEform）
 
-|
-
-wvf_set
-
- |
-
-Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes.
-
- |
- |
-
-multiport_spec
-
- |
-
-To change or query a multiport specification, enter the name of the specification.
-
- |
- |
-
-wfIndex
-
- |
-
-Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform.
-
- |
- |
-
-DD1 and DD2
-
- |
-
-First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are:
-
- |
- |
-
-F0N
-
- |
-
-drive 0
-
- |
- |
-
-F1N
-
- |
-
-drive 1
-
- |
- |
-
-FN0
-
- |
-
-tri-state off
-
- |
- |
-
-FNZ
-
- |
-
-tri-state on
-
- |
- |
-
-F00
-
- |
-
-drive 0, tri-state off
-
- |
- |
-
-F0Z
-
- |
-
-drive 0, tri-state on
-
- |
- |
-
-F10
-
- |
-
-drive 1, tri-state off
-
- |
- |
-
-F1Z
-
- |
-
-drive 1, tri-state on
-
- |
- |
-
-ED1 and ED2
-
- |
-
-First and second receive data parameter. These are optional parameters. The values you can define are:
-
- |
- |
-
-F0
-
- |
-
-compare to 0
-
- |
- |
-
-F1
-
- |
-
-compare to 1
-
- |
- |
-
-FI
-
- |
-
-compare to intermediate
-
- |
- |
-
-FX
-
- |
-
-compare to mask
-
- |
- |
-
-FU
-
- |
-
-compare to unstable
-
- |
- |
-
-C
-
- |
-
-capture digital data
-
- |
- |
-
-D
-
- |
-
-do not capture digital data
-
- |
- |
-
-The values C and D are used for selective digital capture. The following rules apply to these values:
-
-- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.
-- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another.
- |
- |
-
-pwfIndex
-
- |
-
-Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas.
-
- |
- |
-
-ALLOW_EQ
-
- |
-
-This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.
-
-Note also the following:
-
-- Every runtime change will affect all specifications that use the respective wavetable.
-- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
-- The runtime definitions are not checked for consistency. It is up to the user to ensure this.
- |
+| wvf_set | Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. | Waveforms set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
+|---|---|---|
+| specset_id | Derived as follows:<br><br>`100 * equation_set_no + specset_no` | Derived as follows:<br><br>`100 * equation_set_no + specset_no` |
+| wavetable_name | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes. | The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes. |
+| multiport_spec | To change or query a multiport specification, enter the name of the specification. | To change or query a multiport specification, enter the name of the specification. |
+| wfIndex | Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform. | Logical waveform index. This index identifies the logical waveform for which a physical waveform is to be created. The values specified for the DD1, DD2, ED1, and ED2 parameters must be in accordance with the format of this logical waveform. |
+| DD1 and DD2 | First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are: | First and second drive data parameter. These are optional parameters and contain values for both drive data and tri-state. The values you can define are: |
+| DD1 and DD2 | F0N | drive 0 |
+| DD1 and DD2 | F1N | drive 1 |
+| DD1 and DD2 | FN0 | tri-state off |
+| DD1 and DD2 | FNZ | tri-state on |
+| DD1 and DD2 | F00 | drive 0, tri-state off |
+| DD1 and DD2 | F0Z | drive 0, tri-state on |
+| DD1 and DD2 | F10 | drive 1, tri-state off |
+| DD1 and DD2 | F1Z | drive 1, tri-state on |
+| ED1 and ED2 | First and second receive data parameter. These are optional parameters. The values you can define are: | First and second receive data parameter. These are optional parameters. The values you can define are: |
+| ED1 and ED2 | F0 | compare to 0 |
+| ED1 and ED2 | F1 | compare to 1 |
+| ED1 and ED2 | FI | compare to intermediate |
+| ED1 and ED2 | FX | compare to mask |
+| ED1 and ED2 | FU | compare to unstable |
+| ED1 and ED2 | C | capture digital data |
+| ED1 and ED2 | D | do not capture digital data |
+| ED1 and ED2 | The values C and D are used for selective digital capture. The following rules apply to these values:<br><br>- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.<br>- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another. | The values C and D are used for selective digital capture. The following rules apply to these values:<br><br>- A waveform that is used for selective digital capture cannot contain more than one compare action. Therefore, if you specify C or D for one of ED1 or ED2, you cannot specify a value for the other Expected Data parameter.<br>- If you issue more than one instance of the WAVE command for the same logical waveform, the values you specify for the same Expected Data parameter in these different WAVE instances must be homogeneous; that is, either all or none of them must be C or D. You cannot, for instance, set ED1 to C in one of these WAVE instances, and set it to F1 in another. |
+| pwfIndex | Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table. | Physical waveform index. Enter an integer between 0 and 31 (0 and 255 on the Pin Scale Digital systems) for each physical waveform . The index is stored in the vector area and references the physical waveform in the physical waveform table. |
+| pinlist | The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas. | The name of the pin or pins for which physical waveform states are to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by commas. |
+| ALLOW_EQ | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98869_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WAVE  WAVE  -  WAVEform）
 
@@ -35792,13 +34594,17 @@ DCEL? {DCRT}, {parameter}, {action}, {(pinlist)}
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › DCEL  DCEL  -  Digital Compare Exception List）
 
-| DCRT  | The command for which an exception list is to be created. Currently, DCRT is the only allowed command. |
- | TP   | The option of the command specified in the first parameter. Currently TP is the only allowed value. |
- | parameter  | This query parameter can be TP or ALL. |
- | action  | This can be one of the following: |
- | SET  | Add the specified pins to the exception list related to the command in the first parameter. |
- | DEL  | Delete the specified pins from the exception list related to the command in the first parameter. |
- | pinlist  | In the command, these are the pins that are to be added to or deleted from the exception list. In the query, DCEL? returns the subset of the specified pins that is included in the exception list. Instead of a pin list, you can also specify one or more pin groups. |
+| DCRT | The command for which an exception list is to be created. Currently, DCRT is the only allowed command. | The command for which an exception list is to be created. Currently, DCRT is the only allowed command. |
+|---|---|---|
+| TP | The option of the command specified in the first parameter. Currently TP is the only allowed value. | The option of the command specified in the first parameter. Currently TP is the only allowed value. |
+| parameter | This query parameter can be TP or ALL. | This query parameter can be TP or ALL. |
+| action | This can be one of the following: | This can be one of the following: |
+| action | SET | Add the specified pins to the exception list related to the command in the first parameter. |
+| action | DEL | Delete the specified pins from the exception list related to the command in the first parameter. |
+| pinlist | In the command, these are the pins that are to be added to or deleted from the exception list. In the query, DCEL? returns the subset of the specified pins that is included in the exception list. Instead of a pin list, you can also specify one or more pin groups. | In the command, these are the pins that are to be added to or deleted from the exception list. In the query, DCEL? returns the subset of the specified pins that is included in the exception list. Instead of a pin list, you can also specify one or more pin groups. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/128210_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › DCEL  DCEL  -  Digital Compare Exception List）
 
@@ -37571,40 +36377,11 @@ FFCI {(no_ffcyc)}, {no_pins}, {#spec(data)}
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › FFCI  -  First Failed Cycle Information）
 
-| no_ffcyc  | Number of first failed cycles to be reported. |
- | port  | Specifies the port for the pins for which information is to be returned. If you omit this parameter information will be returned for the default port @ to which all configured pins belong. |
- | no_pins  | The number of O and IO pins. |
- | #spec(data) |
-
-Prefix and pin error data in binary format:
-
-- The prefix is defined as follows:
-
-  - The number sign # marks the start of the data block.
-  - One digit follows, indicating how many digits make up the following data length specifier.
-  - A number of digits indicating the length (in bytes) of the data to follow.
-
-- Binary data are available per reported cycle. The data for each cycle consists of two parts, the number of the failing cycle and the pin data, which indicates the failing pins of that cycle:
-
-  - Cycle number:
-
-The length of the cycle number is always 8 bytes.
-
-  - Pin data:
-
-The pin data consists of one byte per eight pins that belong to the specified port:
-
-    - Each pin is represented by one bit.
-    - An error on a particular pin is denoted by a 1, an error free pin by a 0.
-    - Bits of the pin data are filled starting from the left (MSB) side.
-    - If the number of configured channels of the specified port is not divisible by 8, the last byte of pin data contains unused bits on the right (LSB) side.
-
-Mapping of the bits in the pin data block to the individual pins:
-
-- The I / IO pins are sorted based on their pogo number defined for the first site.
-- The sorted pins are mapped starting on the left (MSB) side of the first byte of the pin data block.
-- The information how the pins are mapped can be read by command `FFPM? (First Failing cycle information Pin Mapping)`（raw: `02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md`）.
- |
+| no_ffcyc | Number of first failed cycles to be reported. |
+|---|---|
+| port | Specifies the port for the pins for which information is to be returned. If you omit this parameter information will be returned for the default port @ to which all configured pins belong. |
+| no_pins | The number of O and IO pins. |
+| #spec(data) | Prefix and pin error data in binary format:<br><br>- The prefix is defined as follows:<br><br>- The number sign # marks the start of the data block.<br>- One digit follows, indicating how many digits make up the following data length specifier.<br>- A number of digits indicating the length (in bytes) of the data to follow.<br><br>- Binary data are available per reported cycle. The data for each cycle consists of two parts, the number of the failing cycle and the pin data, which indicates the failing pins of that cycle:<br><br>- Cycle number:<br><br>The length of the cycle number is always 8 bytes.<br><br>- Pin data:<br><br>The pin data consists of one byte per eight pins that belong to the specified port:<br><br>- Each pin is represented by one bit.<br>- An error on a particular pin is denoted by a 1, an error free pin by a 0.<br>- Bits of the pin data are filled starting from the left (MSB) side.<br>- If the number of configured channels of the specified port is not divisible by 8, the last byte of pin data contains unused bits on the right (LSB) side.<br><br>Mapping of the bits in the pin data block to the individual pins:<br><br>- The I / IO pins are sorted based on their pogo number defined for the first site.<br>- The sorted pins are mapped starting on the left (MSB) side of the first byte of the pin data block.<br>- The information how the pins are mapped can be read by command `FFPM? (First Failing cycle information Pin Mapping)`（raw: `02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md`）. |
 
 ### Example 1: Firmware view（取自子主题 Test Result Commands › List of test result commands › FFCI  -  First Failed Cycle Information）
 
@@ -37690,15 +36467,10 @@ FFPM {no_pins}, {Pinlist}
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › FFPM   First Failing cycle information Pin Mapping）
 
-| port  | Specifies the port for the pins for which information is to be returned. If you omit this parameter information will be returned for the default port @ to which all configured pins belong. |
- | no_pins  | The number of pins, which belong to the specified port. |
- | PinList |
-
-List of pin names, corresponding to the order in the `FFCI`（raw: `02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md`） pin result block (from MSB of first byte to LSB in the last byte).
-
-For more information, refer to the FFCI parameter description for `#spec(data)`（raw: `02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md#_98603__r_specData`）.
-
- |
+| port | Specifies the port for the pins for which information is to be returned. If you omit this parameter information will be returned for the default port @ to which all configured pins belong. |
+|---|---|
+| no_pins | The number of pins, which belong to the specified port. |
+| PinList | List of pin names, corresponding to the order in the `FFCI`（raw: `02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md`） pin result block (from MSB of first byte to LSB in the last byte).<br><br>For more information, refer to the FFCI parameter description for `#spec(data)`（raw: `02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md#_98603__r_specData`）. |
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › FFPM   First Failing cycle information Pin Mapping）
 
@@ -38740,16 +37512,11 @@ VNEC {site_sel}, {(pin)}, {value_data}
 ```
 
 Parameters
- | site_sel  | Select sites. It can be a string of 1's and 0's; or "ALL" to specify all sites. The response is a string of 1's and 0's. |
- | value_format |
-
-Specify a data format. It can be ASC or BIN.
-
-SmarTest 7.5.0 supports the ASC mode only.
-
- |
- | pin  | Specify a pin. Only one pin is supported. It can be any pin that has been configured to I, O, IO, DC, and DPS types. |
- | value_data  | Hold the returned cycle numbers in ASCII format. The ASCII data consists of a list of cycle numbers separated by comma. Each cycle number is for each active and requested site. |
+| site_sel | Select sites. It can be a string of 1's and 0's; or "ALL" to specify all sites. The response is a string of 1's and 0's. |
+|---|---|
+| value_format | Specify a data format. It can be ASC or BIN.<br><br>SmarTest 7.5.0 supports the ASC mode only. |
+| pin | Specify a pin. Only one pin is supported. It can be any pin that has been configured to I, O, IO, DC, and DPS types. |
+| value_data | Hold the returned cycle numbers in ASCII format. The ASCII data consists of a list of cycle numbers separated by comma. Each cycle number is for each active and requested site. |
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › VNEC  -  Valid Number of Executed Cycles）
 
@@ -39153,15 +37920,8 @@ UDUP {(purpose_name)}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UDUP -  UnDefine Utility Purpose）
 
-| purpose_name |
-
-Specifies the utility purpose name or names to be undefined.
-
-The symbol @ removes all utility purpose definitions.
-
-If more than one name is to be removed, the names must be separated by a comma.
-
- |
+| purpose_name | Specifies the utility purpose name or names to be undefined.<br><br>The symbol @ removes all utility purpose definitions.<br><br>If more than one name is to be removed, the names must be separated by a comma. |
+|---|---|
 
 ### Example（取自子主题 Utility Line Commands › List of utility line commands › UDUP -  UnDefine Utility Purpose）
 
@@ -39179,15 +37939,8 @@ UDUT {(util_name)}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UDUT -  UnDefine UTility line）
 
-| util_name |
-
-Specifies the utility line name or names to be undefined.
-
-The symbol @ removes all utility line definitions.
-
-If more than one name is to be removed, the names must be separated by a comma.
-
- |
+| util_name | Specifies the utility line name or names to be undefined.<br><br>The symbol @ removes all utility line definitions.<br><br>If more than one name is to be removed, the names must be separated by a comma. |
+|---|---|
 
 ### Example（取自子主题 Utility Line Commands › List of utility line commands › UDUT -  UnDefine UTility line）
 
@@ -39451,13 +38204,8 @@ UTIN {data}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UTIN  -  UTility line INputs）
 
-| data |
-
-This parameter returns a decimal number that you must translate to binary.
-
-Ignore the most significant bit. The other bits give the state of the seven lines.
-
- |
+| data | This parameter returns a decimal number that you must translate to binary.<br><br>Ignore the most significant bit. The other bits give the state of the seven lines. |
+|---|---|
 
 ### Example（取自子主题 Utility Line Commands › List of utility line commands › UTIN  -  UTility line INputs）
 
@@ -39876,16 +38624,9 @@ UTTI {time}, {(util_name)}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UTTI  UTTI  -  UTility line settling TIme）
 
-| time  | Specifies the wait time to change the utility line status using the `UTST`（raw: `02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） command (in ms). |
- | util_name |
-
-Specifies the utility line name or names for which the settling time is to be set.
-
-The symbol @ is used for all utility lines.
-
-If more than one name is required, the names must be separated with a comma.
-
- |
+| time | Specifies the wait time to change the utility line status using the `UTST`（raw: `02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） command (in ms). |
+|---|---|
+| util_name | Specifies the utility line name or names for which the settling time is to be set.<br><br>The symbol @ is used for all utility lines.<br><br>If more than one name is required, the names must be separated with a comma. |
 
 ### Example（取自子主题 Utility Line Commands › List of utility line commands › UTTI  UTTI  -  UTility line settling TIme）
 
@@ -39968,158 +38709,24 @@ TSCF {"ts_name"}, {property}, {property_value}, {(pinlist)}
 | pinlist | Specifies the pins to which this configuration is to be applied. |
 
 Properties and their values
- |
-
-Property
-
- |
-
-Explanation and values
-
- |
- |
-
-DATA_RATE
-
- |
-
-This property defines the data rate which is the smallest distance between two events. The unit is bits per second.
-
- |
- |
-
-EDGE_SELECT
-
- |
-
-This mandatory property defines which edges are the events to be sampled. Possible values are:
-
- |
- |
-
- |
-
-RISE
-
- |
-
-The events are rising edges.
-
- |
- |
-
- |
-
-FALL
-
- |
-
-The events are falling edges.
-
- |
- |
-
- |
-
-RISE_FALL
-
- |
-
-The events are alternately rising and falling edges. This option is used for pulse and jitter measurements. If this option is selected, the PRESCALER property must be set to a value > 1 and < 17.
-
- |
- |
-
-INITIAL_DISCARD
-
- |
-
-This optional property defines how many events are to be discarded before the first sample of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.
-
-If EDGE_SELECT is set to RISE_FALL, and INITIAL_DISCARD is set to an even number, the first sampled event will be a rising edge if INITIAL_DISCARD is set to an odd number, the first sampled event will be a falling edge.
-
-Note: Parameter INITIAL_DISCARD must be 0 for DC Scale pins.
-
- |
- |
-
-INTER_SAMPLE_DISCARD
-
- |
-
-This optional property defines how many events are to be discarded between two samples of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.
-
-If EDGE_SELECT is set to RISE_FALL, this property must be set to an even number (including 0). If it is set to an odd number, all sampled edges will be of the same type, all rising or all falling.
-
-Note: Parameter INTER_SAMPLE_DISCARD must be 0 for DC Scale pins.
-
- |
- |
-
-MEAS_PER_SHOT
-
- |
-
-This mandatory property must equal the number of armings in the pattern. A shot is one execution of the pattern. For certain measurements, two executions are required; see the NUM_SHOTS parameter.
-
-This is one of the three parameters by which the required size of the result area is determined. The others are SAMPLES_PER_MEAS and NUM_SHOTS.
-
- |
- |
-
-NUM_SHOTS
-
- |
-
-This optional property defines the number of shots (sequencer runs). It is used to calculate the size of the result area and to determine how the measurements are to be processed. The possible values are 1 or 2. Two shots are needed for rise time and fall time measurements. The default is 1.
-
- |
- |
-
-PRESCALER
-
- |
-
-This mandatory property defines how much the frequency of the signal is to be reduced before it is passed on to the event discarding block. This is required if the minimal distance of two consecutive events in the DUT signal can be smaller than the minimal distance that the event discarding block supports.
-
-Possible values for Smart Scale pins are 1 through 17. 1 means no prescaling. If EDGE_SELECT is set to RISE_FALL, the prescaler value must be < 17 and > 1.
-
- |
- |
-
-SAMPLES_PER_MEAS
-
- |
-
-This mandatory property defines the number of samples per measurement (arming). This is another parameter that contributes to the calculation of the result area size.
-
- |
- |
-
-THRESHOLD_A
-
- |
-
-This optional property defines a voltage threshold for the event to be sampled. It is only needed for (two shot) rise time and fall time measurements. The default is the voltage level as defined in the level setup.
-
-Note that if this property is defined, the level setup must be changed, and if the pins specified by pinlist are tested functionally in parallel with the TMU measurement, they will be tested with the modified voltage level.
-
-Note also that the original level setup is automatically restored after the measurement has been finished.
-
- |
- |
-
-THRESHOLD_B
-
- |
-
-This optional property defines the voltage threshold for a second shot. It is only needed for (two shot) rise time and fall time measurements.
-
-It must not be defined if NUM_SHOTS is set to 1.
-
-Note that the original level setup is automatically restored after the measurement has been finished.
-
- |
+| Property | Explanation and values | Explanation and values |
+|---|---|---|
+| DATA_RATE | This property defines the data rate which is the smallest distance between two events. The unit is bits per second. | This property defines the data rate which is the smallest distance between two events. The unit is bits per second. |
+| EDGE_SELECT | This mandatory property defines which edges are the events to be sampled. Possible values are: | This mandatory property defines which edges are the events to be sampled. Possible values are: |
+|  | RISE | The events are rising edges. |
+|  | FALL | The events are falling edges. |
+|  | RISE_FALL | The events are alternately rising and falling edges. This option is used for pulse and jitter measurements. If this option is selected, the PRESCALER property must be set to a value > 1 and < 17. |
+| INITIAL_DISCARD | This optional property defines how many events are to be discarded before the first sample of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.<br><br>If EDGE_SELECT is set to RISE_FALL, and INITIAL_DISCARD is set to an even number, the first sampled event will be a rising edge if INITIAL_DISCARD is set to an odd number, the first sampled event will be a falling edge.<br><br>Note: Parameter INITIAL_DISCARD must be 0 for DC Scale pins. | This optional property defines how many events are to be discarded before the first sample of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.<br><br>If EDGE_SELECT is set to RISE_FALL, and INITIAL_DISCARD is set to an even number, the first sampled event will be a rising edge if INITIAL_DISCARD is set to an odd number, the first sampled event will be a falling edge.<br><br>Note: Parameter INITIAL_DISCARD must be 0 for DC Scale pins. |
+| INTER_SAMPLE_DISCARD | This optional property defines how many events are to be discarded between two samples of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.<br><br>If EDGE_SELECT is set to RISE_FALL, this property must be set to an even number (including 0). If it is set to an odd number, all sampled edges will be of the same type, all rising or all falling.<br><br>Note: Parameter INTER_SAMPLE_DISCARD must be 0 for DC Scale pins. | This optional property defines how many events are to be discarded between two samples of a measurement set. This refers to the events as they occur in the output signal of the prescaler. The default is 0.<br><br>If EDGE_SELECT is set to RISE_FALL, this property must be set to an even number (including 0). If it is set to an odd number, all sampled edges will be of the same type, all rising or all falling.<br><br>Note: Parameter INTER_SAMPLE_DISCARD must be 0 for DC Scale pins. |
+| MEAS_PER_SHOT | This mandatory property must equal the number of armings in the pattern. A shot is one execution of the pattern. For certain measurements, two executions are required; see the NUM_SHOTS parameter.<br><br>This is one of the three parameters by which the required size of the result area is determined. The others are SAMPLES_PER_MEAS and NUM_SHOTS. | This mandatory property must equal the number of armings in the pattern. A shot is one execution of the pattern. For certain measurements, two executions are required; see the NUM_SHOTS parameter.<br><br>This is one of the three parameters by which the required size of the result area is determined. The others are SAMPLES_PER_MEAS and NUM_SHOTS. |
+| NUM_SHOTS | This optional property defines the number of shots (sequencer runs). It is used to calculate the size of the result area and to determine how the measurements are to be processed. The possible values are 1 or 2. Two shots are needed for rise time and fall time measurements. The default is 1. | This optional property defines the number of shots (sequencer runs). It is used to calculate the size of the result area and to determine how the measurements are to be processed. The possible values are 1 or 2. Two shots are needed for rise time and fall time measurements. The default is 1. |
+| PRESCALER | This mandatory property defines how much the frequency of the signal is to be reduced before it is passed on to the event discarding block. This is required if the minimal distance of two consecutive events in the DUT signal can be smaller than the minimal distance that the event discarding block supports.<br><br>Possible values for Smart Scale pins are 1 through 17. 1 means no prescaling. If EDGE_SELECT is set to RISE_FALL, the prescaler value must be < 17 and > 1. | This mandatory property defines how much the frequency of the signal is to be reduced before it is passed on to the event discarding block. This is required if the minimal distance of two consecutive events in the DUT signal can be smaller than the minimal distance that the event discarding block supports.<br><br>Possible values for Smart Scale pins are 1 through 17. 1 means no prescaling. If EDGE_SELECT is set to RISE_FALL, the prescaler value must be < 17 and > 1. |
+| SAMPLES_PER_MEAS | This mandatory property defines the number of samples per measurement (arming). This is another parameter that contributes to the calculation of the result area size. | This mandatory property defines the number of samples per measurement (arming). This is another parameter that contributes to the calculation of the result area size. |
+| THRESHOLD_A | This optional property defines a voltage threshold for the event to be sampled. It is only needed for (two shot) rise time and fall time measurements. The default is the voltage level as defined in the level setup.<br><br>Note that if this property is defined, the level setup must be changed, and if the pins specified by pinlist are tested functionally in parallel with the TMU measurement, they will be tested with the modified voltage level.<br><br>Note also that the original level setup is automatically restored after the measurement has been finished. | This optional property defines a voltage threshold for the event to be sampled. It is only needed for (two shot) rise time and fall time measurements. The default is the voltage level as defined in the level setup.<br><br>Note that if this property is defined, the level setup must be changed, and if the pins specified by pinlist are tested functionally in parallel with the TMU measurement, they will be tested with the modified voltage level.<br><br>Note also that the original level setup is automatically restored after the measurement has been finished. |
+| THRESHOLD_B | This optional property defines the voltage threshold for a second shot. It is only needed for (two shot) rise time and fall time measurements.<br><br>It must not be defined if NUM_SHOTS is set to 1.<br><br>Note that the original level setup is automatically restored after the measurement has been finished. | This optional property defines the voltage threshold for a second shot. It is only needed for (two shot) rise time and fall time measurements.<br><br>It must not be defined if NUM_SHOTS is set to 1.<br><br>Note that the original level setup is automatically restored after the measurement has been finished. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/125467_2.htm`。
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSCF  TSCF  -  TMU Set ConFiguration）
 
@@ -41741,192 +40348,24 @@ TTDB {type}, [sub_type], {value}, {(pinlist)}
 | pinlist | Specifies the pins for which debug information is to be retrieved. |
 
 Information types and subtypes
- |
-
-Information type
-
- |
-
-Explanation and values
-
- |
- |
-
-MAX_DEVIATION
-
- |
-
-If the token size was > 0 during the last sequencer run, this item returns for this sequencer run:
-
-- The maximum number of UI by which the received data has fallen behind the exceeded the expected data (subtype DUT_BEHIND_ED)
-- The maximum number of UI by which the expected data has fallen behind the received data (subtype ED_BEHIND_DUT)
-
-The received data is shortened by skipping idle tokens, the expected data by removing X-tokens.
-
- |
- |
-
-TRK_FIRST_ADJUSTMENT
-
- |
-
-This item returns the adjustment that was determined by the first transition after test start.
-
- |
- |
-
-TRK_FIRST_ERR
-
- |
-
-This item returns the number of expected bits that had been processed when the first tracking error occurred.
-
- |
- |
-
-TRK_VALUES
-
- |
-
-This item returns information about the adjustment of the observation window. The unit is 0.25 UI (= 1 sample).
-
-There are three subtypes:
-
-- ACT returns the actual adjustment at the end of the test.
-- MIN returns the maximum adjustment to the left during the last test.
-- MAX returns the maximum adjustment to the right during the last test.
- |
- |
-
-TRK_STATUS
-
- |
-
-This item returns the transition patterns that were observed during the last test as a sequence of four-digit blocks.
-
-In order to understand this information, you must take into account that the observation window can only be adjusted after every three UI (see the discussion of the implementation parameters in `Drift and transition tracking`（raw: `02.06.15.01.01_Drift_and_transition_tracking.md`）). Thus, the observation window actually consists of three successive UI.
-
-The four-digit blocks encode the accumulated transitions for one such 3-UI window (subtype TRANS_COMPOSITE) or for two such windows (subtype TRANS_X). "1" indicates a transition, "0" indicates no transition. Every block starts with "1". This indicates that the observation window was adjusted successfully.
-
-As an example for the one window case, consider
-
-LLLL LHHH LLLH,
-
-where the second UI has an AB transition, and the third has a CD transition. This is encoded by
-
-1101,
-
-which says that an AB transition (second digit) and a CD transition (fourth digit), but no BC transition was observed in the 3-UI window.
-
-TRK_STATUS has three subtypes:
-
-- TRANS_X returns the transition patterns that occurred in the last 24 UI (= 8 windows, each of 3 UI). Each of the four blocks accumulates two windows (= 6 UI). The order of the blocks corresponds to the order of the test.
-- TRANS_COMPOSITE returns the transition patterns that occurred by accumulating the 3 UI of one window during the last sequencer run up to the first error. Since the first digit is always 1 (except when the window could not be adjusted) there are 8 possible patterns between 1000 (best) and 1111 (worst). The patterns that occurred are displayed.
-- TRANS_R returns 0 if the observation window could always be adjusted successfully. It returns 1 if this is not the case. This error should only occur if the observation window was adjusted more than 1 UI in the same direction within 24 UI (see the ERR_CNTADJOVR property of the TTCF command).
- |
- |
-
-LOCATION_FIRST_FAIL
-
- |
-
-This item returns the number of expected bits that had been processed when the first error of any kind occurred.
-
- |
- |
-
-REMOVED_IDLE
-
- |
-
-This item returns how often one of the 6 idle tokens that had been defined with TTCF IDLE_TOKEN_i occurred during the last sequencer run. The sub_type parameter specifies the number of the token.
-
- |
- |
-
-REMOVED_XTOKEN
-
- |
-
-This item returns how many X-tokens were removed. This only applies if X-token removal is activated with TTCF REMOVE_XTOKEN_MODE.
-
-REMOVED_XTOKEN has one subtype:
-
-- SEQUENCER_RUN returns the number of X-tokens that were removed on the last sequencer run
- |
- |
-
-STATUS
-
- |
-
-This item returns information about the state of the tracker after the test as a bit sequence. Most of these status bits can also be queried with TTST?. The individual bits stand for:
-
- |
- |
-
-- Bit1: An interrupt was generated.
-- Bit2: Break vectors entered the formatting block.
-- Bit3: The first match between expected and received data has occurred.
-- Bit4: Expected and received data are prepared for the first compare.
-- Bit5: The FIFO between tracking and pattern matching block is empty.
-- Bit6: The FIFO between expected data and pattern matching block is empty.
-- Bit7: The expected data window FIFO is empty.
-- Bit8: The expected data FIFO is empty.
-- Bit9: EXPECTED_FIFO_DUT_OVERFLOW
-- Bit10: ADJUSTMENT_ERROR
-- Bit11: Always 1
-- Bit12: DRIVE_BIT_IN_COMPARE_DATA
-- Bit13: DUT_FIFO_OVERFLOW
-- Bit14: ERR_XCNT
- |
-
-- Bit15: ERR_XMIN
-- Bit16: ERR_XMAX
-- Bit17: ERR_TRMCNT
-- Bit18: ERR_WRCMP
-- Bit19: ERR_COMPARE
-- Bit20: ERR_STO
-- Bit21: ERR_FTO
-- Bit22: ERR_STOP
-- Bit23: ERR_CNTLMT
-- Bit24: ERR_CNTADJOVR
-- Bit25: ERR_BADTRAN
-- Bit26: ERR_PULSE
-- Bit27: ERR_TRK
-- Bit28: ERR_JMP2
-- Bit29: ERR_TE4
-- Bit30: ERR_TE0
-- Bit31: ERR_TE2
-- Bit32: ERR_TE3
- |
- |
-
-The names specified for bits 9 through 32 refer to the possible errors returned by `TTST?`（raw: `02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md`）. For more explanations see this query and the `TTCF`（raw: `02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md`） command.
-
- |
- |
-
-REMOVED_XTOKEN_EMAP
-
- |
-
-This item returns how many x-tokens were removed with respect to start and stop of the error map.
-
-REMOVED_XTOKEN_EMAP has two subtypes:
-
-- START returns the number of removed X-tokens at the start of the error map.
-- STOP returns the number of removed X-tokens at the end of error map recording.
- |
- |
-
-SYNC_VALUES
-
- |
-
-This item returns how many received bits were skipped for initial synchronization at test start (subtype INITIAL) or after a switch of an IO pin from drive to receive mode (subtype SUBSEQUENT).
-
- |
+| Information type | Explanation and values | Explanation and values |
+|---|---|---|
+| MAX_DEVIATION | If the token size was > 0 during the last sequencer run, this item returns for this sequencer run:<br><br>- The maximum number of UI by which the received data has fallen behind the exceeded the expected data (subtype DUT_BEHIND_ED)<br>- The maximum number of UI by which the expected data has fallen behind the received data (subtype ED_BEHIND_DUT)<br><br>The received data is shortened by skipping idle tokens, the expected data by removing X-tokens. | If the token size was > 0 during the last sequencer run, this item returns for this sequencer run:<br><br>- The maximum number of UI by which the received data has fallen behind the exceeded the expected data (subtype DUT_BEHIND_ED)<br>- The maximum number of UI by which the expected data has fallen behind the received data (subtype ED_BEHIND_DUT)<br><br>The received data is shortened by skipping idle tokens, the expected data by removing X-tokens. |
+| TRK_FIRST_ADJUSTMENT | This item returns the adjustment that was determined by the first transition after test start. | This item returns the adjustment that was determined by the first transition after test start. |
+| TRK_FIRST_ERR | This item returns the number of expected bits that had been processed when the first tracking error occurred. | This item returns the number of expected bits that had been processed when the first tracking error occurred. |
+| TRK_VALUES | This item returns information about the adjustment of the observation window. The unit is 0.25 UI (= 1 sample).<br><br>There are three subtypes:<br><br>- ACT returns the actual adjustment at the end of the test.<br>- MIN returns the maximum adjustment to the left during the last test.<br>- MAX returns the maximum adjustment to the right during the last test. | This item returns information about the adjustment of the observation window. The unit is 0.25 UI (= 1 sample).<br><br>There are three subtypes:<br><br>- ACT returns the actual adjustment at the end of the test.<br>- MIN returns the maximum adjustment to the left during the last test.<br>- MAX returns the maximum adjustment to the right during the last test. |
+| TRK_STATUS | This item returns the transition patterns that were observed during the last test as a sequence of four-digit blocks.<br><br>In order to understand this information, you must take into account that the observation window can only be adjusted after every three UI (see the discussion of the implementation parameters in `Drift and transition tracking`（raw: `02.06.15.01.01_Drift_and_transition_tracking.md`）). Thus, the observation window actually consists of three successive UI.<br><br>The four-digit blocks encode the accumulated transitions for one such 3-UI window (subtype TRANS_COMPOSITE) or for two such windows (subtype TRANS_X). "1" indicates a transition, "0" indicates no transition. Every block starts with "1". This indicates that the observation window was adjusted successfully.<br><br>As an example for the one window case, consider<br><br>LLLL LHHH LLLH,<br><br>where the second UI has an AB transition, and the third has a CD transition. This is encoded by<br><br>1101,<br><br>which says that an AB transition (second digit) and a CD transition (fourth digit), but no BC transition was observed in the 3-UI window.<br><br>TRK_STATUS has three subtypes:<br><br>- TRANS_X returns the transition patterns that occurred in the last 24 UI (= 8 windows, each of 3 UI). Each of the four blocks accumulates two windows (= 6 UI). The order of the blocks corresponds to the order of the test.<br>- TRANS_COMPOSITE returns the transition patterns that occurred by accumulating the 3 UI of one window during the last sequencer run up to the first error. Since the first digit is always 1 (except when the window could not be adjusted) there are 8 possible patterns between 1000 (best) and 1111 (worst). The patterns that occurred are displayed.<br>- TRANS_R returns 0 if the observation window could always be adjusted successfully. It returns 1 if this is not the case. This error should only occur if the observation window was adjusted more than 1 UI in the same direction within 24 UI (see the ERR_CNTADJOVR property of the TTCF command). | This item returns the transition patterns that were observed during the last test as a sequence of four-digit blocks.<br><br>In order to understand this information, you must take into account that the observation window can only be adjusted after every three UI (see the discussion of the implementation parameters in `Drift and transition tracking`（raw: `02.06.15.01.01_Drift_and_transition_tracking.md`）). Thus, the observation window actually consists of three successive UI.<br><br>The four-digit blocks encode the accumulated transitions for one such 3-UI window (subtype TRANS_COMPOSITE) or for two such windows (subtype TRANS_X). "1" indicates a transition, "0" indicates no transition. Every block starts with "1". This indicates that the observation window was adjusted successfully.<br><br>As an example for the one window case, consider<br><br>LLLL LHHH LLLH,<br><br>where the second UI has an AB transition, and the third has a CD transition. This is encoded by<br><br>1101,<br><br>which says that an AB transition (second digit) and a CD transition (fourth digit), but no BC transition was observed in the 3-UI window.<br><br>TRK_STATUS has three subtypes:<br><br>- TRANS_X returns the transition patterns that occurred in the last 24 UI (= 8 windows, each of 3 UI). Each of the four blocks accumulates two windows (= 6 UI). The order of the blocks corresponds to the order of the test.<br>- TRANS_COMPOSITE returns the transition patterns that occurred by accumulating the 3 UI of one window during the last sequencer run up to the first error. Since the first digit is always 1 (except when the window could not be adjusted) there are 8 possible patterns between 1000 (best) and 1111 (worst). The patterns that occurred are displayed.<br>- TRANS_R returns 0 if the observation window could always be adjusted successfully. It returns 1 if this is not the case. This error should only occur if the observation window was adjusted more than 1 UI in the same direction within 24 UI (see the ERR_CNTADJOVR property of the TTCF command). |
+| LOCATION_FIRST_FAIL | This item returns the number of expected bits that had been processed when the first error of any kind occurred. | This item returns the number of expected bits that had been processed when the first error of any kind occurred. |
+| REMOVED_IDLE | This item returns how often one of the 6 idle tokens that had been defined with TTCF IDLE_TOKEN_i occurred during the last sequencer run. The sub_type parameter specifies the number of the token. | This item returns how often one of the 6 idle tokens that had been defined with TTCF IDLE_TOKEN_i occurred during the last sequencer run. The sub_type parameter specifies the number of the token. |
+| REMOVED_XTOKEN | This item returns how many X-tokens were removed. This only applies if X-token removal is activated with TTCF REMOVE_XTOKEN_MODE.<br><br>REMOVED_XTOKEN has one subtype:<br><br>- SEQUENCER_RUN returns the number of X-tokens that were removed on the last sequencer run | This item returns how many X-tokens were removed. This only applies if X-token removal is activated with TTCF REMOVE_XTOKEN_MODE.<br><br>REMOVED_XTOKEN has one subtype:<br><br>- SEQUENCER_RUN returns the number of X-tokens that were removed on the last sequencer run |
+| STATUS | This item returns information about the state of the tracker after the test as a bit sequence. Most of these status bits can also be queried with TTST?. The individual bits stand for: | This item returns information about the state of the tracker after the test as a bit sequence. Most of these status bits can also be queried with TTST?. The individual bits stand for: |
+| STATUS | - Bit1: An interrupt was generated.<br>- Bit2: Break vectors entered the formatting block.<br>- Bit3: The first match between expected and received data has occurred.<br>- Bit4: Expected and received data are prepared for the first compare.<br>- Bit5: The FIFO between tracking and pattern matching block is empty.<br>- Bit6: The FIFO between expected data and pattern matching block is empty.<br>- Bit7: The expected data window FIFO is empty.<br>- Bit8: The expected data FIFO is empty.<br>- Bit9: EXPECTED_FIFO_DUT_OVERFLOW<br>- Bit10: ADJUSTMENT_ERROR<br>- Bit11: Always 1<br>- Bit12: DRIVE_BIT_IN_COMPARE_DATA<br>- Bit13: DUT_FIFO_OVERFLOW<br>- Bit14: ERR_XCNT | - Bit15: ERR_XMIN<br>- Bit16: ERR_XMAX<br>- Bit17: ERR_TRMCNT<br>- Bit18: ERR_WRCMP<br>- Bit19: ERR_COMPARE<br>- Bit20: ERR_STO<br>- Bit21: ERR_FTO<br>- Bit22: ERR_STOP<br>- Bit23: ERR_CNTLMT<br>- Bit24: ERR_CNTADJOVR<br>- Bit25: ERR_BADTRAN<br>- Bit26: ERR_PULSE<br>- Bit27: ERR_TRK<br>- Bit28: ERR_JMP2<br>- Bit29: ERR_TE4<br>- Bit30: ERR_TE0<br>- Bit31: ERR_TE2<br>- Bit32: ERR_TE3 |
+| STATUS | The names specified for bits 9 through 32 refer to the possible errors returned by `TTST?`（raw: `02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md`）. For more explanations see this query and the `TTCF`（raw: `02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md`） command. | The names specified for bits 9 through 32 refer to the possible errors returned by `TTST?`（raw: `02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md`）. For more explanations see this query and the `TTCF`（raw: `02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md`） command. |
+| REMOVED_XTOKEN_EMAP | This item returns how many x-tokens were removed with respect to start and stop of the error map.<br><br>REMOVED_XTOKEN_EMAP has two subtypes:<br><br>- START returns the number of removed X-tokens at the start of the error map.<br>- STOP returns the number of removed X-tokens at the end of error map recording. | This item returns how many x-tokens were removed with respect to start and stop of the error map.<br><br>REMOVED_XTOKEN_EMAP has two subtypes:<br><br>- START returns the number of removed X-tokens at the start of the error map.<br>- STOP returns the number of removed X-tokens at the end of error map recording. |
+| SYNC_VALUES | This item returns how many received bits were skipped for initial synchronization at test start (subtype INITIAL) or after a switch of an IO pin from drive to receive mode (subtype SUBSEQUENT). | This item returns how many received bits were skipped for initial synchronization at test start (subtype INITIAL) or after a switch of an IO pin from drive to receive mode (subtype SUBSEQUENT). |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/116688_2.htm`。
 
 ### Example（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTDB  -  Transition Test DeBug information）
 

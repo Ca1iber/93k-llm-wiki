@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **278 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`。**不是转述。**
+> 本节 **452 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,9 +32,13 @@ APRM {mode}
 
 ### Parameters
 
-| mode  | Selects the activation mode: |
- | FRC  | Forced activation. Primary sets are always activated. |
- | CNL  | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
+| mode | Selects the activation mode: | Selects the activation mode: |
+|---|---|---|
+| mode | FRC | Forced activation. Primary sets are always activated. |
+| mode | CNL | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
+
+> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98485_2.htm`。
 
 ### Example
 
@@ -171,7 +175,7 @@ APRM CNL
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md`
-（TDC `98485_2.htm`，1,405 字节 / 43 行）——**整篇读完**。
+（TDC `98485_2.htm`，1,698 字节 / 43 行）——**整篇读完**。
 
 **「语法 / 参数」节收了 `## Syntax` / `## Parameters` / `## Example` 三节**（278 字符）。
 **`## Mode of operation`（481 字符）、`## Application`（93 字符）与开头那段导语都不在里面**——

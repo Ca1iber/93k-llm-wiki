@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **11,253 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14_Level_setup_tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.02.01_Syntax_of_expression.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.05_Pin_alias_set__PIN_ALIAS_SET.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07_DPSPINS.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.05.01_Master_file_format_for_level_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.02_Specifying_the_context_for_levels.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.03_How_to_create_an_equation_set_using_the_Equation_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.04_Creating_new_specification_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.06.01.03_Using_the_UNGANG_connect_state_with_DC_Scale_DPS_cards.md>`。**不是转述。**
+> 本节 **11,277 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14_Level_setup_tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.02.01_Syntax_of_expression.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.05_Pin_alias_set__PIN_ALIAS_SET.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07_DPSPINS.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.02.05.01_Master_file_format_for_level_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.02_Specifying_the_context_for_levels.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.03_How_to_create_an_equation_set_using_the_Equation_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.04.04_Creating_new_specification_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.14.06.01.03_Using_the_UNGANG_connect_state_with_DC_Scale_DPS_cards.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -329,8 +329,9 @@ vout_frc_rng = 2.5V, iout_clamp_rng = 5A
 
 At 2.5 V, each channel can source or sink 1.0 A.
 
- |   | Number of channels  | = ceil(5A / 1.0A) = 5 |
- |   | Current per channel  | = 5A / 5 = 1.0A |
+|  | Number of channels | = ceil(5A / 1.0A) = 5 |
+|---|---|---|
+|  | Current per channel | = 5A / 5 = 1.0A |
 
 Five channels will be set to the 1.0 A clamp range, 27 channels will be detached.
 
@@ -342,8 +343,9 @@ vout_frc_rng = 7V, iout_clamp_rng = 5A
 
 At 7 V, each channel can source or sink 0.5 A.
 
- |   | Number of channels  | = ceil(5A / 0.5A) = 10 |
- |   | Current per channel  | = 5A / 10 = 0.5A |
+|  | Number of channels | = ceil(5A / 0.5A) = 10 |
+|---|---|---|
+|  | Current per channel | = 5A / 10 = 0.5A |
 
 Ten channels will be set to the 1.5A clamp range, 22 channels will be detached.
 
@@ -355,8 +357,9 @@ vout_frc_rng = 7V, iout_clamp_rng = 100µA
 
 At 7 V, each channel can source or sink 0.5 A.
 
- |   | Number of channels  | = ceil(100µA / 0.5A) = 1 |
- |   | Current per channel  | = 100µA / 1 = 100µA |
+|  | Number of channels | = ceil(100µA / 0.5A) = 1 |
+|---|---|---|
+|  | Current per channel | = 100µA / 1 = 100µA |
 
 One channel will be set to the 100 µA clamp range, 31 channels will be detached.
 

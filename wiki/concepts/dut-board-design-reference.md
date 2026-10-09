@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **14,690 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03_DUT_board_design_reference.md>` 及其子主题 `<02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.04_Mask_mode_of_sequencer-controlled_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.05_Galvanic_separation_between_utility_line_serial_interface_and_digital_pi.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.07.01_Designing_compatible_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.07_PSSL_pogo_cable_assembly__pogo_pin_layout_and_model_file_configuration.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.07.01.04_DPS_layout_rules_for_high_frequency_designs.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.07.08.02_Leakage_and_crosstalk_of_RF_signals.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.02_Direct-Probe_PSRF_probe_card_specifications.md>`。**不是转述。**
+> 本节 **14,689 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03_DUT_board_design_reference.md>` 及其子主题 `<02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.04_Mask_mode_of_sequencer-controlled_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.05_Galvanic_separation_between_utility_line_serial_interface_and_digital_pi.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.07.01_Designing_compatible_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.06.03.07_PSSL_pogo_cable_assembly__pogo_pin_layout_and_model_file_configuration.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.07.01.04_DPS_layout_rules_for_high_frequency_designs.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.07.08.02_Leakage_and_crosstalk_of_RF_signals.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.02_Direct-Probe_PSRF_probe_card_specifications.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -135,11 +135,12 @@ The following example sets up three digital pins named D1, D2 and D3 to act as s
 Pin D4 is a receive pin. It is also set up in the pin configuration but is not used in the rest of the example. The example programs utility lines 1, 3, and 15 on utility block 1 to turn on LEDs connected to these lines.Note This example uses 2-row pogo blocks.
 
 Serial pins for sequencer control of utility lines
- | Digital pin  | Serial pin description  | Direction |
- | SCLK  | Serial clock  | Input |
- | FRAMn  | Serial frame enable  | Input |
- | SINP  | Serial data in  | Input |
- | SOUT  | Serial data out  | Output |
+| Digital pin | Serial pin description | Direction |
+|---|---|---|
+| SCLK | Serial clock | Input |
+| FRAMn | Serial frame enable | Input |
+| SINP | Serial data in | Input |
+| SOUT | Serial data out | Output |
 
 -  Make the following entry in the `GLOBAL section`（raw: `../02.04_Model_File_and_Licensing/02.04.01.03.02.01_GLOBAL_section.md`） of the SmarTest 7 model file:
 
