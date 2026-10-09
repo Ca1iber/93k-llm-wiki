@@ -322,7 +322,7 @@ TESTSET().testname("Sample_test");
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244.23_TESTSET__.testname.md`
-（TDC `127794.htm`，69 行 / 2,853 字节）。**整篇读完。**
+（TDC `127794.htm`，72 行 / 2,853 字节）。**整篇读完。**
 
 **本页没做的：**
 

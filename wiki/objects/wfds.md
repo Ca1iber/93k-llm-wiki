@@ -631,7 +631,7 @@ alphanumeric characters (upper or lower case) enclosed by double quotes.`——
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`
-  （frontmatter 的 `source_topic` 是 `98872.htm`；**9,026 字节 / 288 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98872.htm`；**9,260 字节 / 288 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
   **本篇没有 `## Syntax` 段**——它的两段语法挂在 `## WFDS` 与 `## WFDS?` 两个标题下，

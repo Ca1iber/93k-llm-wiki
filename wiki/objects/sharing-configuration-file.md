@@ -619,7 +619,7 @@ configuration file apply"*（但**不做 pin substitution**）。
 ## 出处
 
 - 定义文档：`02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.02.05.06.07.07.02_Sharing_configuration_file.md`
-  （TDC `96971.htm`，10,983 字节）
+  （TDC `96971.htm`，11,205 字节）
 - 入边 39 篇的来源与原句：`extract/pack/03-sharing-configuration-file.md`
 - 所属：**Memory Test Plus**（`02.12`），不是通用 93K 功能
 - 本页 `verified: doc-only` —— 只在 TDC 文档里确认存在，未在真实机台上写过这份文件。

@@ -344,7 +344,7 @@ FLUSH;
 `sources:` **一篇**：
 
 - `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.249_TIMING_SPEC.md`
-  （TDC `29809.htm`，12,980 字节 / 251 行，**整篇读完**）
+  （TDC `29809.htm`，13,187 字节 / 251 行，**整篇读完**）
 - 本页的「语法 / 参数」节是脚本从这一篇的 `## Examples` 段逐字抽的（**本页一个字没动**）。
   本页**没有核实**它抽全了没有——**但从内容看，这一篇的 `## Class definition` 与
   `## Member functions` 两段（构造签名 + 五个成员签名）不在那个节里**（raw 里它们不叫 `## Syntax`），

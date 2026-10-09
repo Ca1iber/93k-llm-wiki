@@ -49,8 +49,11 @@ import fix_corpus_tables_merged as G
 import fix_corpus_tables_v2 as V
 
 WIKI, CORPUS, MD, RAW = F.WIKI, F.CORPUS, F.MD, F.RAW
-EVID = WIKI / 'extract' / 'findings-corpus-ptr-evidence.md'
-ASSIGN = WIKI / 'extract' / '_assign_ptr.json'
+# ★ 第八批（第一批指针）用的是 `…-corpus-ptr-evidence.md` / `_assign_ptr.json`。
+#   这一批（第二批指针：补上"表前散文够不着"的那些）**另开两个文件** ——
+#   否则空跑会把上一批 1,325 条的记录覆盖掉。**两批的记录都要留。**
+EVID = WIKI / 'extract' / 'findings-corpus-ptr2-evidence.md'
+ASSIGN = WIKI / 'extract' / '_assign_ptr2.json'
 
 APPLY = '--apply' in sys.argv
 LIMIT = int(sys.argv[sys.argv.index('--limit') + 1]) if '--limit' in sys.argv else None
@@ -157,6 +160,32 @@ def pre_table_paras(topic, idx, want=3):
 
 # ------------------------------------------------------------------ 定位
 
+def post_table_paras(topic, idx, want=3):
+    """上游第 idx 个表**之后**最近的几段可见文字（由近到远），**剔掉落在别的表里的**。
+
+    用在「表前面没有可用散文」的场合 —— 那时只能从**表的后面**认它。
+    插法也不同：认出来的是表**后面**那行，指针就插在它**上方**（即压平块的下方）。"""
+    got = table_spans(topic)
+    if not got:
+        return []
+    spans, lines = got
+    if idx > len(spans):
+        return []
+    end = spans[idx - 1][1]
+    inside = set()
+    for a, b in spans:
+        if a > end:
+            inside.update(range(max(a, end), min(b, end + 400) + 1))
+    txt_lines = [lines[i - 1] for i in range(end + 1, min(len(lines), end + 400) + 1)
+                 if i not in inside]
+    joined = '\n'.join(txt_lines)
+    joined = re.sub(r'(?i)</(p|li|h[1-6]|div|figcaption)>', '\n', joined)
+    txt = _html.unescape(TAG.sub(' ', joined))
+    paras = [re.sub(r'\s+', ' ', p).strip() for p in txt.split('\n')]
+    paras = [p for p in paras if len(p) >= 12]
+    return paras[:want]
+
+
 def line_of_unique(md_lines, nm_lines, needle):
     """`needle`（已归一）在 md 里唯一命中时，返回那个行号；否则 None。"""
     hits = [i for i, x in enumerate(nm_lines) if needle and needle in x]
@@ -170,14 +199,19 @@ def line_of_prose(nm_lines, prose):
     if not prose:
         return None
     flat = F._flatten(prose)
-    for L in (60, 40, 25):
+    for L in (60, 40, 25, 15):
         tail = flat[-L:]
-        if len(tail) < 20:
+        if len(tail) < 12:
             continue
         hits = [i for i, x in enumerate(nm_lines) if x.endswith(tail)]
         if len(hits) == 1:
             return hits[0]
         hits = [i for i, x in enumerate(nm_lines) if tail in x]
+        if len(hits) == 1:
+            return hits[0]
+    head = flat[:60]                      # 尾部对不上时，拿**开头**再试一次
+    if len(head) >= 20:
+        hits = [i for i, x in enumerate(nm_lines) if x.startswith(head)]
         if len(hits) == 1:
             return hits[0]
     return None
@@ -188,7 +222,9 @@ def main():
         return verify_only()
 
     fixed = set()
-    for f in ('_assign_tables.json', '_assign_tables_merged.json', '_assign_tables_v2.json'):
+    # ★ 必须含**自己的**清单 `_assign_ptr.json` —— 漏了它，重跑会把已经插过指针的表再插一遍。
+    for f in ('_assign_tables.json', '_assign_tables_merged.json', '_assign_tables_v2.json',
+              '_assign_ptr.json'):
         fp = WIKI / 'extract' / f
         if fp.exists():
             for x in json.loads(fp.read_text(encoding='utf-8')):
@@ -220,11 +256,20 @@ def main():
         ups, why = F.upstream_tables(topic)
         if not ups:
             continue
+        # ★ 「这张表已经有指针了没」**直接从语料里认**，不看清单 ——
+        #   清单在空跑时就会被重写，拿它当"已做"会把空跑的产物当成既成事实。
+        #   ★ 必须**在同一块指针内部**配对：`真表见 …` 之后**换行**、紧跟一行以 `> ` 开头、
+        #   含「第 N 个」。原来用 `[\s\S]{0,120}?` 太松 —— 一篇里有多个指针时会张冠李戴
+        #   （读到 A 的「真表见」配上了 B 的「第 N 个」），凭空多认出一批"已挂过"。
+        already = {(t, int(n)) for t, n in re.findall(
+            r'真表见 `tdc-html/raw/([^`]+?)\.htm`\r?\n> [^\n]*?第 (\d+) 个有格子的', text)}
         md_lines = text.split(nl)
         nm_lines = [F.norm_md(l) for l in md_lines]
         for ui, u in enumerate(ups):
             if (rel, ui) in fixed or u['skip'] == '列数不齐':
                 continue
+            if (topic, ui + 1) in already:
+                continue                      # 语料里已经有它的指针了
             rows, R, C = u['rows'], len(u['rows']), len(u['rows'][0])
             blocked = []
             try:
@@ -264,6 +309,14 @@ def main():
                     ln = line_of_prose(nm_lines, prose)
                     if ln is not None:
                         anchor, kind = ln, '③ 表前散文（精确）'
+                        break
+            if anchor is None:
+                # 「表前散文」够不着时，从**表的后面**认它 —— 认出来的是表后那行，
+                # 指针就插在它**上方**（= 压平块的下方）。标签里标明，与"上方"区分。
+                for prose in post_table_paras(topic, ui + 1):
+                    ln = line_of_prose(nm_lines, prose)
+                    if ln is not None and ln >= 1:
+                        anchor, kind = ln - 1, '③b 表后散文（插在块下方）'
                         break
             if anchor is None:
                 # 退路：用格子文字找到"它在这一带"，再退回**本节小标题**（粗，但不会插错位置）

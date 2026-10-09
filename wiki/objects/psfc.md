@@ -378,7 +378,7 @@ PSFC ALL              ← 收工：把所有可用 site 的 focus 打开，别�
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md`
-（TDC `98698.htm`，110 行）
+（TDC `98698.htm`，113 行）
 
 **本页没做的**：
 

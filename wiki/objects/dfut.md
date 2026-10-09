@@ -362,7 +362,7 @@ DFUT 16504,w,(filter)
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md`
-（TDC `98560.htm`；**md 4,530 字节 / 106 行**，上游 htm 9,925 字节）。**整篇读完。**
+（TDC `98560.htm`；**md 4,737 字节 / 106 行**，上游 htm 9,925 字节）。**整篇读完。**
 
 **本页没做的**：
 

@@ -322,7 +322,7 @@ FLUSH(flushType);
 
 - 定义文档（本页 `sources:` 唯一一篇，**整篇读过**）：
   `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.69_FLUSH.md`
-  （TDC `29338.htm`，7,420 字节 / 154 行）。
+  （TDC `29338.htm`，7,627 字节 / 154 行）。
 - **本篇没有重复投放**：全语料按 `source_topic` 查 `29338.htm`，**只有这一个文件**。
 - **本页「语法 / 参数」节的来源就是这一篇自己**（节首没写「取自子主题」后缀），
   节里那 2,085 字符包括 7 个重载的 `Syntax` 块、`Parameters` 表、以及那个 `## Example` 的两个代码块。

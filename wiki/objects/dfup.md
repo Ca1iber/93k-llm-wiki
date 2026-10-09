@@ -371,7 +371,7 @@ Setting:     0      1      1      0
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`
-（TDC `98559.htm`，108 行 / 4,497 字节）。**整篇读完。**
+（TDC `98559.htm`，111 行 / 4,497 字节）。**整篇读完。**
 
 **本页没做的：**
 

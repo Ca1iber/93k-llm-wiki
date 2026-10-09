@@ -285,7 +285,7 @@ Primary.getLevelSpec().func();
 
 - 定义文档（本页 `sources:` 唯一一篇，**整篇读过**）：
   `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.124_LEVEL_SPEC.md`
-  （TDC `29495.htm`，7,039 字节 / 197 行）。
+  （TDC `29495.htm`，7,246 字节 / 197 行）。
 - **本页「语法 / 参数」节的来源就是这一篇自己**（节首没有「取自子主题」后缀），
   节里只有 `## Parameters` 的参数表与五个 `### Example`（外加各例的导语，**围栏块 8 个**）——
   **构造函数、`## Member functions`、三条 `Note` / `CAUTION` 都不在里面**

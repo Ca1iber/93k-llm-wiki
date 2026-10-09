@@ -342,7 +342,7 @@ An error is generated if:
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md`
-（TDC `98505.htm`；**4,233 字节 / 127 行**，全文 CRLF，末行带换行。
+（TDC `98505.htm`；**4,440 字节 / 127 行**，全文 CRLF，末行带换行。
 **本节的行数口径是 `wc -l`（= `splitlines()`），不加 1**，见 §11.5）。**整篇读完。**
 
 **本页没做的**：

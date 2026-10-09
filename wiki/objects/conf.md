@@ -316,7 +316,7 @@ for the default mode context.` ——**没写 context 就是 `DEFAULT`**。
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md`
-（`98510.htm`，4,984 字节，129 行）——**整篇读完**。
+（`98510.htm`，5,191 字节，132 行）——**整篇读完**。
 
 **本页没做的**：
 

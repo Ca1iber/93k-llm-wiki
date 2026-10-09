@@ -340,7 +340,7 @@ SMC_SYNCHRONIZE(10 ms, true);
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.43_SMC_SYNCHRONIZE.md`
-（TDC `120088.htm`，87 行 / 4,600 字节）。**整篇读完**——这篇短，
+（TDC `120088.htm`，90 行 / 4,600 字节）。**整篇读完**——这篇短，
 正文 + 语法 + 参数表 + 两个示例 + `## Related information` 就是它的全部。
 
 **本页另外读过的两份 wiki 文件（不是 raw，读了只为指路，一句不搬）**：

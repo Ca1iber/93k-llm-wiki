@@ -492,7 +492,7 @@ Pin Configuration window.` ——**四个类型（`i` / `o` / `io` / `dc`）**�
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.68_FLEX_RELAY.md`
-（`74892.htm`，335 行）——**整篇读完**。
+（`74892.htm`，338 行）——**整篇读完**。
 
 **本页做了什么**：
 

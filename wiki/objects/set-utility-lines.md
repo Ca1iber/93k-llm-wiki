@@ -312,7 +312,7 @@ For a coding example see the file /opt/hp93000/soc/testmethod/library/miscellane
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.07_SetUtilityLines.md`
-（TDC `111065.htm`，**3,861 字节 / 109 行**）。**整篇读完**——本页引文全部来自这一篇 + `edges.jsonl` 里带原句的边。
+（TDC `111065.htm`，**4,083 字节 / 109 行**）。**整篇读完**——本页引文全部来自这一篇 + `edges.jsonl` 里带原句的边。
 
 **入边 6 条 / 5 篇**（`inline` + `toc` 口径）：
 `02.07.05.04_Miscellaneous_test_methods__miscellaneous_tml`（2 条）、

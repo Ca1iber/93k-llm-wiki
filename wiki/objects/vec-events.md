@@ -395,7 +395,7 @@ For an example that shows how to program an setup per site by DC events, refer t
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.267_VEC_EVENTS.md`
-（TDC `116944.htm`，227 行 / 7,239 字节）。**整篇读完。**
+（TDC `116944.htm`，230 行 / 7,239 字节）。**整篇读完。**
 
 **本页没做的：**
 

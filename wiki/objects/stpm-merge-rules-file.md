@@ -24,7 +24,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **5,959 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.04_STPM_merge_rules_file.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.02.04.01_STPM_merge_rules_file_syntax.md>`。**不是转述。**
+> 本节 **6,105 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.04_STPM_merge_rules_file.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.02.04.01_STPM_merge_rules_file_syntax.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -34,6 +34,8 @@ verified: doc-only
 
 ### STPM merge rules file syntax（整篇，取自子主题）
 
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131150.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：34 行 × 3 列，含 colspan 与 rowspan。
 # STPM merge rules file syntax
 
 The STPM merge rules file contains a range of flags that specify the details of how SmarTest Program Manager (STPM) integrates source test programs (STPs) into the master test program (MTP).
