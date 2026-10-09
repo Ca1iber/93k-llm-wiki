@@ -270,7 +270,7 @@ In the assembled level setup file `demo.lev`, the alias set `usb_set` is used in
   （TDC `91598.htm`，**1,051 字节 / 22 行**）—— 定义文档。它的正文只有：`## Subtopics` 两项、
   上面引的那一段（三句）、`## Related information` 一项、`## Functional changes` 一条。
 - `01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.02.04.04_Creating_a_level_master_file.md`
-  （TDC `141711.htm`，**2,076 字节 / 45 行**）—— 创建流程。`## About this task` / `## Before you begin` /
+  （TDC `141711.htm`，**2,090 字节 / 45 行**）—— 创建流程。`## About this task` / `## Before you begin` /
   `## Procedure` / `## Results` / `## What to do next` / `## Related information` / `## Functional changes`。
 
 **本页「语法 / 参数」节那 568 字符不是来自定义文档自己**——段名里写着来源是子主题

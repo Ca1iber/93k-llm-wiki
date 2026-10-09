@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,475 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.27_Site_Control_Window.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.27.01_The_states_of_the_sites.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.27.02_Expanded_Site_Control_window.md>`。**不是转述。**
+> 本节 **2,496 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.27_Site_Control_Window.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.27.01_The_states_of_the_sites.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.27.02_Expanded_Site_Control_window.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -30,11 +30,11 @@ verified: doc-only
 
 The menu items of the Site Control window Action > Enable all and activate all only affect those sites which are available. The figure below shows an example, where the sites 2, 3, 6, 7, 9, 10, 13 and 14 are not available.
 
- !`Site Control window including the unavailable sites`（raw: `../../../../raw/42587.png`）
+ !`Site Control window including the unavailable sites`（raw: `../../../../agent-html/42587.png`）
 
 The following figure shows the indication behavior of the check boxes in the Site Control window during a semi-parallel test.
 
- !`Check Boxes in Site Control Window`（raw: `../../../../raw/47565.png`）
+ !`Check Boxes in Site Control Window`（raw: `../../../../agent-html/47565.png`）
 
 ### Example（取自子主题 Expanded Site Control window）
 
@@ -44,7 +44,7 @@ If test sites are added afterward, additional sites will be tested according to 
 
 The figure below shows three examples of the site test sequence settings including the above typical example.
 
- !`Size and Cycle Parameters`（raw: `../../../../raw/47559.png`）
+ !`Size and Cycle Parameters`（raw: `../../../../agent-html/47559.png`）
 
 You can also enter the order numbers directly into the Site Test Sequence field. Hence, you can set up a free site test sequence. In this case, if test sites are added afterward, additional sites will be tested in parallel after tests of the existing sites are completed.
 
@@ -237,7 +237,7 @@ TIP: You can also set up the site test sequence for all test suites in the Site 
 
 - 定义文档（本页 `sources:` 唯一一篇，**整篇读过**）：
   `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.27_Site_Control_Window.md`
-  （TDC `100118.htm`，**1,201 字节 / 24 行**——是本批对象页 sources 里最短的一篇）。
+  （TDC `100118.htm`，**1,208 字节 / 24 行**——是本批对象页 sources 里最短的一篇）。
 - **本篇没有重复投放**：全语料按 `source_topic` 查 `100118.htm`，**只有这一个文件**。
 
 ### 本页「语法 / 参数」节的来源（**那一节不是定义文档写的**）

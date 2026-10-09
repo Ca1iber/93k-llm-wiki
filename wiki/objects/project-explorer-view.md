@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **595 字符逐字取自** `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.02_Project_Explorer_view.md>`。**不是转述。**
+> 本节 **616 字符逐字取自** `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.02_Project_Explorer_view.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -28,9 +28,9 @@ verified: doc-only
 
 | Icon | Function |
 |---|---|
-| !`Navigator view - collapse button`（raw: `../../../../raw/91709.png`） | Collapses all file trees. |
-| !`Navigator view - link with editor button`（raw: `../../../../raw/91710.png`） | Toggles whether the Project Explorer view selection is linked to the active editor. When this option is selected, changing the active editor will automatically update the Project Explorer view selection to the resource being edited. |
-| !`Navigator view - menu button`（raw: `../../../../raw/91711.png`） | Provides menu items for sorting and filtering files, creating and selecting working sets. |
+| !`Navigator view - collapse button`（raw: `../../../../agent-html/91709.png`） | Collapses all file trees. |
+| !`Navigator view - link with editor button`（raw: `../../../../agent-html/91710.png`） | Toggles whether the Project Explorer view selection is linked to the active editor. When this option is selected, changing the active editor will automatically update the Project Explorer view selection to the resource being edited. |
+| !`Navigator view - menu button`（raw: `../../../../agent-html/91711.png`） | Provides menu items for sorting and filtering files, creating and selecting working sets. |
 
 <!-- 语法节 end -->
 

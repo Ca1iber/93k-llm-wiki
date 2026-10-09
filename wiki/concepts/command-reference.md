@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,815,379 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.01.02_Firmware_view.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.03_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.04_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.05_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.06_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.07_BCMD__BCMD__-_Binding_CoMmanD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.08_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.101_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.104_EMBS__Error_Map_Block_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.105_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.106_EPRC__-__Error_Propagation_Repetition_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.108_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.10_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.113_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.116_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.119_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.11_BSVE_-__Bulk_Set_Value_Evaluation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.120_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.121_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.123_FLBL__-__Failing_LaBeLs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.127_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.12_BSVR__BSVR___Bulk_Set_Value_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.131_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.132_GETL__-__GET_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.136_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.137_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.138_HREX__-__High_Resolution_EXecution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.139_HRIT__HRIT__-__High_Resolution_Interval_of_Time.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.143_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.144_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.145_INST__-__INSTrument_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.150_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.151_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.153_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.154_LBUD__LBUD__-__LaBel_User_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.156_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.157_LTDE__LTDE__-__Load_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.158_MCNT__-__Match_loop_CouNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.159_MEAR__retrieve_MEAsurement_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.160_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.161_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.163_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.165_MVCU_-__Modify_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.168_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.16_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.170_OUTS__-__OUTput_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.174_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.176_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.179_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.17_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.180_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.181_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.182_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.184_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.185_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.187_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.18_CFPR__CFPR__-__Clock_Forwarding_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.19_CFUD_-__Clock_Forwarding_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.201_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.202_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.205_RDGC_-__Reset_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.206_RLYC__RLYC__-__ReLaY_Control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.207_RRDF_-__Result_Retention_area_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.208_RRSC_-__Result_Retention_area_Select_for_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.209_RRUD_-__Result_Retention_area_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.20_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.211_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.212_RRSU___Result_Retention_area_Select_for_Upload.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.213_RVCU_-__Remove_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.214_RVVA_-__Remove_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.215_RVVC_-__Remove_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.217_SATR__SATR__-__System_ATtRibutes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.218_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.21_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.221_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.224_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.225_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.226_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.227_SPOP__SPOP__Set_Performance_Optimization_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.229_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.230_SQBV__SQBV__-__SeQuencer_Break_Vector_insertion.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.233_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.234_SQIT__-__SeQuencer_InterRupt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.235_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.238_SQRC_-__SeQuencer_Remove_execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.239_SQRP__SQRP__-__SeQuencer_Reference_Port.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.23_CHRS__CHRS__-__CHeck_Routing_Set_globally.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.242_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.243_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.244_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.247_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.248_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.249_STDE_-__Save_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.255_TDEX__Test_Data_Extension.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.256_TEMP__-__read_TEMPerature.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.258_TMUD__Tester_Memory_Utilization_set_Default_values.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.259_TMUL___Tester_Memory_Utilization_Log.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.25_CLKC.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.260_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.261_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.262_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.263_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.264_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.265_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.266_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.267_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.269_TPSP__TPSP__-__TestPoint_SuPpression.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.270_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.271_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.272_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.273_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.274_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.275_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.276_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.27_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.280_TSST__-__TeSt_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.282_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.284_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.285_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.287_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.28_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.290_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.293_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.294_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.299_UDPT_-__UnDefine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.29_CNCT_-_CoNneCT_disCoNneCT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.300_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.302_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.307_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.308_UTDE_-__Unload_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.309_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.30_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.314_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.315_VALC__-__VALid_Cycle_range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.317_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.318_VCAT__VCAT__-__VeCtor_ATtachment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.319_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.322_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.323_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.326_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.328_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.329_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.332_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.339_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.340_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.343_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.345_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.34_CTST__-__Continuity_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.37_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.38_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.39_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.41_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.42_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.43_DCEX_-__DC_set_EXecute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.45_DCRE__-__DC_set_REsult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.48_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.49_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.50_DCST__-__DC_SeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.51_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.55_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.57_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.58_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.61_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.71_DGCM__-__DiGital_Capture_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.72_DGCS__DGCC___DiGital_Capture_aSynchronous.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.73_DGCT__-__DiGital_Capture_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.74_DIAG_-__DIAGnostics.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.76_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.77_DLSO__Driver_Level_Switch_Off.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.78_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.80_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.81_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.84_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.87_DQUE__-__show_Data_QUEue_low_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.88_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.93_DTCP__DTCP__-__Define_Technology_Control_Parameters.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.94_DVVA__DVVA__-__Define_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.06_Defining_pin_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.07_Defining_ports.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.02_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.03_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.04_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.06_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.07_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.10_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.14_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.15_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.16_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.17_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.18_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.19_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.20_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.22_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.23_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.25_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.28_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.29_UDVP_-__UnDefine_Virtual_Pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.30_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.31_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.32_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.33_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.34_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.36_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.37_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.02_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.03_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.03_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.04_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.07_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.11_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.13_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.14_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.19_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.21_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.27_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.28_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.02_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.03_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.04_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.05_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.06_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.07_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.09_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.11_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.12_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.13_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.14_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.15_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.16_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.19_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.20_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.21_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.22_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.23_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.24_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.26_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.27_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.29_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.30_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.31_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.32_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.34_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.36_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.37_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.01_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.03_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.06_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.07_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.09_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.11_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.12_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.15_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.18_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.19_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.20_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.21_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.22_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.23_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.24_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.01.05_DC_measurements_using_a_PPMU_and_a_DC_Scale_DPS.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.02_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.03_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.04_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.05_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.06_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.07_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.10_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.13_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.15_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.02_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.03_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.05_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.06_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.07_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.08_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.09_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.10_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.12_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.13_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.17_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.19_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.21_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.25_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.26_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.29_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.30_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.32_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.34_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.36_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.37_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.04_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.05_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.06_UPOW__UPOW__-__Utility_POWer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.07_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.08_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.09_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.10_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.12_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.13_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.14_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.01_TMU_per_Pin_overview.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.03_Storing_the_results_of_more_than_one_TMU_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.01_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.02_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.03_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.04_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.05_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.06_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.07_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.08_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.11_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.12_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.01.01_Principles_of_source_synchronous_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.03_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.04_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.01.01_Drift_and_transition_tracking.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.01_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.02_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.04_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.05_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.07_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.08_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.09_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.10_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.01_Principles_of_jitter_injection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.01_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.03_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.04_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.05_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.08_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.03_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.04_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.05_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.06_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.07_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.01_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.02_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.03_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.05_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.06_SATR__SATR__-__System_ATtRibutes.md>`。**不是转述。**
+> 本节 **1,817,024 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.01.02_Firmware_view.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.03_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.04_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.05_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.06_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.07_BCMD__BCMD__-_Binding_CoMmanD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.08_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.101_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.104_EMBS__Error_Map_Block_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.105_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.106_EPRC__-__Error_Propagation_Repetition_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.108_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.10_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.113_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.116_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.119_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.11_BSVE_-__Bulk_Set_Value_Evaluation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.120_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.121_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.123_FLBL__-__Failing_LaBeLs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.127_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.12_BSVR__BSVR___Bulk_Set_Value_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.131_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.132_GETL__-__GET_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.136_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.137_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.138_HREX__-__High_Resolution_EXecution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.139_HRIT__HRIT__-__High_Resolution_Interval_of_Time.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.143_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.144_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.145_INST__-__INSTrument_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.150_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.151_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.153_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.154_LBUD__LBUD__-__LaBel_User_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.156_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.157_LTDE__LTDE__-__Load_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.158_MCNT__-__Match_loop_CouNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.159_MEAR__retrieve_MEAsurement_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.160_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.161_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.163_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.165_MVCU_-__Modify_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.168_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.16_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.170_OUTS__-__OUTput_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.174_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.176_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.179_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.17_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.180_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.181_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.182_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.184_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.185_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.187_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.18_CFPR__CFPR__-__Clock_Forwarding_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.19_CFUD_-__Clock_Forwarding_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.201_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.202_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.205_RDGC_-__Reset_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.206_RLYC__RLYC__-__ReLaY_Control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.207_RRDF_-__Result_Retention_area_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.208_RRSC_-__Result_Retention_area_Select_for_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.209_RRUD_-__Result_Retention_area_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.20_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.211_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.212_RRSU___Result_Retention_area_Select_for_Upload.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.213_RVCU_-__Remove_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.214_RVVA_-__Remove_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.215_RVVC_-__Remove_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.217_SATR__SATR__-__System_ATtRibutes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.218_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.21_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.221_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.224_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.225_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.226_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.227_SPOP__SPOP__Set_Performance_Optimization_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.229_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.230_SQBV__SQBV__-__SeQuencer_Break_Vector_insertion.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.233_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.234_SQIT__-__SeQuencer_InterRupt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.235_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.238_SQRC_-__SeQuencer_Remove_execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.239_SQRP__SQRP__-__SeQuencer_Reference_Port.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.23_CHRS__CHRS__-__CHeck_Routing_Set_globally.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.242_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.243_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.244_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.247_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.248_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.249_STDE_-__Save_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.255_TDEX__Test_Data_Extension.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.256_TEMP__-__read_TEMPerature.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.258_TMUD__Tester_Memory_Utilization_set_Default_values.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.259_TMUL___Tester_Memory_Utilization_Log.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.25_CLKC.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.260_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.261_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.262_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.263_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.264_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.265_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.266_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.267_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.269_TPSP__TPSP__-__TestPoint_SuPpression.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.270_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.271_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.272_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.273_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.274_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.275_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.276_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.27_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.280_TSST__-__TeSt_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.282_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.284_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.285_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.287_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.28_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.290_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.293_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.294_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.299_UDPT_-__UnDefine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.29_CNCT_-_CoNneCT_disCoNneCT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.300_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.302_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.307_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.308_UTDE_-__Unload_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.309_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.30_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.314_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.315_VALC__-__VALid_Cycle_range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.317_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.318_VCAT__VCAT__-__VeCtor_ATtachment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.319_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.322_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.323_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.326_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.328_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.329_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.332_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.339_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.340_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.343_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.345_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.34_CTST__-__Continuity_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.37_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.38_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.39_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.41_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.42_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.43_DCEX_-__DC_set_EXecute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.45_DCRE__-__DC_set_REsult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.48_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.49_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.50_DCST__-__DC_SeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.51_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.55_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.57_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.58_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.61_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.71_DGCM__-__DiGital_Capture_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.72_DGCS__DGCC___DiGital_Capture_aSynchronous.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.73_DGCT__-__DiGital_Capture_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.74_DIAG_-__DIAGnostics.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.76_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.77_DLSO__Driver_Level_Switch_Off.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.78_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.80_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.81_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.84_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.87_DQUE__-__show_Data_QUEue_low_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.88_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.93_DTCP__DTCP__-__Define_Technology_Control_Parameters.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.94_DVVA__DVVA__-__Define_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.06_Defining_pin_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.07_Defining_ports.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.02_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.03_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.04_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.06_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.07_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.10_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.14_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.15_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.16_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.17_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.18_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.19_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.20_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.22_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.23_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.25_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.28_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.29_UDVP_-__UnDefine_Virtual_Pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.30_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.31_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.32_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.33_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.34_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.36_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.37_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.02_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.03_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.03_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.04_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.07_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.11_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.13_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.14_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.19_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.21_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.27_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.28_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.02_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.03_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.04_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.05_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.06_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.07_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.09_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.11_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.12_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.13_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.14_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.15_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.16_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.19_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.20_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.21_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.22_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.23_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.24_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.26_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.27_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.29_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.30_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.31_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.32_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.34_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.36_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.37_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.01_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.03_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.06_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.07_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.09_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.11_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.12_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.15_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.18_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.19_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.20_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.21_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.22_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.23_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.24_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.01.05_DC_measurements_using_a_PPMU_and_a_DC_Scale_DPS.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.02_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.03_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.04_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.05_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.06_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.07_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.10_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.13_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.15_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.02_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.03_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.05_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.06_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.07_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.08_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.09_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.10_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.12_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.13_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.17_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.19_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.21_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.25_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.26_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.29_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.30_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.32_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.34_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.36_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.37_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.04_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.05_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.06_UPOW__UPOW__-__Utility_POWer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.07_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.08_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.09_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.10_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.12_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.13_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.14_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.01_TMU_per_Pin_overview.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.03_Storing_the_results_of_more_than_one_TMU_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.01_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.02_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.03_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.04_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.05_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.06_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.07_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.08_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.11_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.12_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.01.01_Principles_of_source_synchronous_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.03_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.04_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.01.01_Drift_and_transition_tracking.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.01_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.02_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.04_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.05_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.07_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.08_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.09_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.10_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.01_Principles_of_jitter_injection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.01_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.03_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.04_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.05_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.08_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.03_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.04_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.05_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.06_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.07_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.01_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.02_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.03_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.05_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.06_SATR__SATR__-__System_ATtRibutes.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,7 +32,7 @@ As the following example shows, the `VECD?` query returns vector data from the s
 
 Add the $ prefix to the query command to retrieve the binary data in a readable format.
 
- !`Executing the firmware command in the Firmware view`（raw: `../../../../raw/111040.png`）
+ !`Executing the firmware command in the Firmware view`（raw: `../../../../agent-html/111040.png`）
 
 ### Syntax（取自子主题 Commands in alphabetical order › List of commands › APDV -  APpenD Vectors）
 
@@ -83,7 +83,7 @@ APRM {mode}
 | mode | CNL | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98485.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98485.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › APRM -  Activate PRiMary sets）
 
@@ -112,7 +112,7 @@ APTS {"label"}, {type}, {base_wf_set|"wavetable"|specset_id|"multiport_spec"} [,
 | port | This parameter fulfills two functions. It primarily determines the port with which the label is to be associated. If you do not specify a port, the label is associated with the default port @.<br><br>If you have entered a multiport specification as the third parameter, the parameter also serves to identify uniquely the base wavetable for the label. | This parameter fulfills two functions. It primarily determines the port with which the label is to be associated. If you do not specify a port, the label is associated with the default port @.<br><br>If you have entered a multiport specification as the third parameter, the parameter also serves to identify uniquely the base wavetable for the label. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98316.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98316.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › APTS -  APpend TeSt）
 
@@ -205,7 +205,7 @@ ASWM {command}, {mode}
 | mode |  |  |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98487.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98487.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ASWM  ASWM  -  Auto SWing Mode）
 
@@ -351,7 +351,7 @@ Parameters
 | string | The string that is written to or read from the EEPROM. Its maximal length is 255 bytes. | The string that is written to or read from the EEPROM. Its maximal length is 255 bytes. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98489.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98489.htm`。
 
 ### BLUP（取自子主题 Commands in alphabetical order › List of commands › BLUP -  BLock UP to date）
 
@@ -370,7 +370,7 @@ BLUP {"name"}, {type}, {state},
 |  | CHNG | Label was changed. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98490.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98490.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › BLUP -  BLock UP to date）
 
@@ -461,7 +461,7 @@ BWDF {wvf_set|"wavetable_name"|specset_id|"multiport_spec"}, {a1}, {a2}, {a3}, {
 | pinlist | The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. | The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98497.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98497.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › BWDF  BWDF  -  Break Waveform DeFinition）
 
@@ -548,7 +548,7 @@ CDCP {cycle}, {dev_cyc_name}, {dev_cyc_len}, {DD1}, {DD2}, {ED1}, {ED2}, {(pinli
 | ED1 and ED2 | UC | Unclear. The system may return this value to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98499.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98499.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CDCP  -  Cycle Device Cycle Parameter）
 
@@ -713,7 +713,7 @@ CHER {res_flag}, [MUX,] {(pinlist)}
 | res_flag | P | The last functional test performed on the specified pins passed. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98500.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98500.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CHER  -  CHeck ERrors）
 
@@ -753,7 +753,7 @@ CHFA {res_flag}, [MUX,] {(pinlist)}
 | pinlist | List of pins. If more than one pin is included, the names must be separated by a comma. All pins in pinlist must be of O or IO type. | List of pins. If more than one pin is included, the names must be separated by a comma. All pins in pinlist must be of O or IO type. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98501.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98501.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CHFA  -  CHannel FAil flag）
 
@@ -806,7 +806,7 @@ CHIN {channel_nr}, {channel_type}, [phys_location], {board_no}, [clk_board], [ch
 | chan_info_2 | For digital channels:<br><br>Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors). | For digital channels:<br><br>Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors). |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98502.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98502.htm`。
 
 ### Examples（取自子主题 Commands in alphabetical order › List of commands › CHIN  -  CHannel INformation）
 
@@ -1452,7 +1452,7 @@ CTST {result},{(pinlist)}
 | pinlist | Must contain the names of pins previously defined by the DFCT command. If more than one pin is specified, the names must be separated by a comma. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98512.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98512.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CTST  -  Continuity TeST）
 
@@ -1500,7 +1500,7 @@ CTXT {DEFINE},{"name"}
 | name | The name of the mode context. If the action parameter is set to DELETE, you can also specify ALL to delete all mode contexts. | The name of the mode context. If the action parameter is set to DELETE, you can also specify ALL to delete all mode contexts. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98513.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98513.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CTXT  CTXT  -  ConTeXT）
 
@@ -2346,7 +2346,7 @@ CYRM {resolution_mode},[error_limit], {(pinlist)}
 | pinlist | The pin or pins to which this mode will be applied. You can also specify one or more pin groups or ports. | The pin or pins to which this mode will be applied. You can also specify one or more pin groups or ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98515.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98515.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CYRM  CYRM  -  CYcle Resolution Mode）
 
@@ -2379,7 +2379,7 @@ CYRP {recovery},{shots}
 | shots | MULT | Additional shots are allowed. This is the default. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98516.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98516.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CYRP  -  CYcle Resolution Parameter）
 
@@ -2404,7 +2404,7 @@ CYRS {result_state}, {(pinlist)}
 | pinlist | The pin or pin list for which the result state is to be returned. Only O or IO pins will be taken into consideration. | The pin or pin list for which the result state is to be returned. Only O or IO pins will be taken into consideration. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98517.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98517.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CYRS  -  CYcle Resolution State）
 
@@ -2782,7 +2782,7 @@ DCEL? {DCRT}, {parameter}, {action}, {(pinlist)}
 | pinlist | In the command, these are the pins that are to be added to or deleted from the exception list. In the query, DCEL? returns the subset of the specified pins that is included in the exception list. Instead of a pin list, you can also specify one or more pin groups. | In the command, these are the pins that are to be added to or deleted from the exception list. In the query, DCEL? returns the subset of the specified pins that is included in the exception list. Instead of a pin list, you can also specify one or more pin groups. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/128210.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/128210.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DCEL  DCEL  -  Digital Compare Exception List）
 
@@ -2819,7 +2819,7 @@ DCEX {setNr}, [mode]
 |  | FORCE_OFF | The relays are re-opened, so that the HPMU is no longer used as source.<br><br>This mode is not supported for HV pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98521.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98521.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DCEX -  DC set EXecute）
 
@@ -3183,7 +3183,7 @@ The default is 4096.
 | U | 01 | 10 | 11 | 00 |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98524.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98524.htm`。
 
 "I" stands for "Intermediate", and "U" stands for "Unstable". Note that you can reconstruct the received result from the expected result and the error code.
 
@@ -3272,7 +3272,7 @@ DCRP {error_map_pos},{(port)}
 |  | EXEC | The configuration of the last executed test is returned. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98525.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98525.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › DCRP  DCRP  -  Digital Compare Result Positioning）
 
@@ -3332,7 +3332,7 @@ Parameters
 | port_list | Specifies the ports for which the capacity of the Error Map is to be returned. If you specify @@, DCRS? will return the capacity for all ports. | Specifies the ports for which the capacity of the Error Map is to be returned. If you specify @@, DCRS? will return the capacity for all ports. | Specifies the ports for which the capacity of the Error Map is to be returned. If you specify @@, DCRS? will return the capacity for all ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98526.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98526.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DCRS  -  Digital Compare Result Size）
 
@@ -3391,7 +3391,7 @@ DCRT {target},{(port)}
 |  | EXEC | EXEC | The configuration of the last executed test is returned. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98527.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98527.htm`。
 
 ### Examples（取自子主题 Commands in alphabetical order › List of commands › DCRT  DCRT  -  Digital Compare Result Target）
 
@@ -4238,7 +4238,7 @@ This parameter specifies (in mV) the maximum pass value of the test. It defines 
 | pinlist | The parameters defined by the DFCT command are applied to all the pins named in pinlist. If more than one pin is to be included, the names must be separated with a comma. Pinlist can contain pins configured as O, I, IO, or DC pin types. The @ character can be used to specify all relevant pins. | The parameters defined by the DFCT command are applied to all the pins named in pinlist. If more than one pin is to be included, the names must be separated with a comma. Pinlist can contain pins configured as O, I, IO, or DC pin types. The @ character can be used to specify all relevant pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98542.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98542.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DFCT -  DeFine Continuity Test）
 
@@ -4443,7 +4443,7 @@ DFGP {pin_type}, {(pinlist)}, {(pin_group)}
 | pin_group | The name assigned to the pin group. You can use the same name for groups of different type.<br><br>The symbol @ can be used with the DFGP? query to list all groups previously defined using the DFGP command. If you query a non-existent group, the system returns nothing.<br><br>Maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest. | The name assigned to the pin group. You can use the same name for groups of different type.<br><br>The symbol @ can be used with the DFGP? query to list all groups previously defined using the DFGP command. If you query a non-existent group, the system returns nothing.<br><br>Maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98546.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98546.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DFGP  DFGP  -  DeFine GrouP）
 
@@ -5171,7 +5171,7 @@ Attributes for element "measure":
 | failOnHighClamp | boolean | true, false<br><br>default: false | Optional: FAIL on high clamp violation if set to true |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/100076.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/100076.htm`。
 
 Attributes for element "restoreMeasureRange":
 | Attribute | Type | Value | Comment |
@@ -5559,7 +5559,7 @@ DGCM {"vector_label"},{capt_mode}
 | capt_mode | SEL | Filtering is already done at capturing time. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/99055.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/99055.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DGCM  -  DiGital Capture Mode）
 
@@ -5642,7 +5642,7 @@ DIAG {option}
 | option | -44 | Starts to display the error and warning messages to the report window. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98562.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98562.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DIAG -  DIAGnostics）
 
@@ -5992,7 +5992,7 @@ DMAS MFRP, {SM|SMEXT}, {pool_size}, {(pool_channels)}
 | pool_channels | The channels of the pool to which the channels of those ports belong that are specified in the query. | The channels of the pool to which the channels of those ports belong that are specified in the query. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98566.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98566.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DMAS  DMAS  -  Define Memory Area Size）
 
@@ -6063,7 +6063,7 @@ DPPC {name}, {parameter}, [value], {(pinlist)}
 | pinlist | Pins for which a per-pin subroutine is valid. | Pins for which a per-pin subroutine is valid. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98567.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98567.htm`。
 
 ### DPPS（取自子主题 Commands in alphabetical order › List of commands › DPPS  DPPS  -  Define Per Pin Subroutine label）
 
@@ -6118,7 +6118,7 @@ DPRL {level_set}, {dps_set}, [screen_select]
 | screen_select | FST | FAST Eqn & Spec Results |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98569.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98569.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DPRL  DPRL  -  Default PRimary Level sets）
 
@@ -6674,7 +6674,7 @@ DRLS {value_specifier}, {result_value}
 | result_value | The result value is the level (in mV) of the last passed test. | The result value is the level (in mV) of the last passed test. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98576.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98576.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › DRLS  -  DRive Level Sensitivity）
 
@@ -7059,7 +7059,7 @@ EAEX {start_cycle}, {no_of_cycles}, {timing_set}, [err_type], {(pinlist)}, {#spe
 |  | Each of the following edge actions is described by two bytes:<br><br>- First byte, bit 7: Channel selector for differential pins. The first channel has the value 0, the second the value 1.<br>- First byte, bits 6, 5, 4, 3: Waveform index (0 - 9)<br>- First byte, bits 2, 1, 0: Edge index (0 - 7)<br>- Second byte, bit 7: Error flag<br><br>0: No error on receive edge, or a drive edge<br><br>1: Cannot occur since only expected data are reported<br><br>- Second byte, bits 6, 5: Data parameter<br><br>00: Fixed value<br><br>10: Data parameter 1<br><br>11: Data parameter 2<br><br>01: Reserved for future use<br><br>- Second byte, bit 4: Edge direction<br><br>0: Drive/tri-state edge<br><br>1: Receive edge<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 0, then drive/tri-state data:<br><br>Bits 3, 2: Tri-state data<br><br>00: Not used<br><br>10: Tri-state off<br><br>11: Tri-state on<br><br>01: Reserved for future use<br><br>Bits 1, 0: Drive data<br><br>00: Not used<br><br>10: Drive 0<br><br>11: Drive 1<br><br>01: Reserved for future use<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 1, then receive data compare method:<br><br>0001: Edge compare to intermediate<br><br>0010: Edge compare to 0<br><br>0011: Edge compare to 1<br><br>0100: Edge compare to mask<br><br>0101: Edge compare to unstable<br><br>1001: Window compare to intermediate<br><br>1010: Window compare to 0<br><br>1011: Window compare to 1<br><br>1100: Window compare to mask<br><br>1101: Window compare to unstable<br><br>1111: Window close<br><br>0000: Reserved for future use<br><br>0111: Reserved for future use<br><br>1000: Reserved for future use | Each of the following edge actions is described by two bytes:<br><br>- First byte, bit 7: Channel selector for differential pins. The first channel has the value 0, the second the value 1.<br>- First byte, bits 6, 5, 4, 3: Waveform index (0 - 9)<br>- First byte, bits 2, 1, 0: Edge index (0 - 7)<br>- Second byte, bit 7: Error flag<br><br>0: No error on receive edge, or a drive edge<br><br>1: Cannot occur since only expected data are reported<br><br>- Second byte, bits 6, 5: Data parameter<br><br>00: Fixed value<br><br>10: Data parameter 1<br><br>11: Data parameter 2<br><br>01: Reserved for future use<br><br>- Second byte, bit 4: Edge direction<br><br>0: Drive/tri-state edge<br><br>1: Receive edge<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 0, then drive/tri-state data:<br><br>Bits 3, 2: Tri-state data<br><br>00: Not used<br><br>10: Tri-state off<br><br>11: Tri-state on<br><br>01: Reserved for future use<br><br>Bits 1, 0: Drive data<br><br>00: Not used<br><br>10: Drive 0<br><br>11: Drive 1<br><br>01: Reserved for future use<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 1, then receive data compare method:<br><br>0001: Edge compare to intermediate<br><br>0010: Edge compare to 0<br><br>0011: Edge compare to 1<br><br>0100: Edge compare to mask<br><br>0101: Edge compare to unstable<br><br>1001: Window compare to intermediate<br><br>1010: Window compare to 0<br><br>1011: Window compare to 1<br><br>1100: Window compare to mask<br><br>1101: Window compare to unstable<br><br>1111: Window close<br><br>0000: Reserved for future use<br><br>0111: Reserved for future use<br><br>1000: Reserved for future use |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98581.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98581.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › EAEX  -  Edge Action EXpected data）
 
@@ -7129,7 +7129,7 @@ EARD {start_cycle}, {no_of_cycles}, {type}, [err_type], {(pinlist)}, [MUX,] {#sp
 |  |  |  | The codes for "reconstruction not possible" are only returned if the edge failed in single-ended standard mode with one bit results. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98582.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98582.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › EARD  -  Edge Action Result Data）
 
@@ -7151,7 +7151,7 @@ Byte A is the same for all edges and says that the edge is associated with a fix
 
 The EARD? answer will be split if the requested cycle range is greater than the available error map information, as shown below:
 
- !`Example`（raw: `../../../../raw/11910.png`）
+ !`Example`（raw: `../../../../agent-html/11910.png`）
 
 ```
 > EARD? 0,15000, (pin1)
@@ -7187,7 +7187,7 @@ EARE? {start_cycle}, {no_of_cycles}, {timing_set}, [err_type],{(pinlist)}, {#spe
 |  | Each of the following edge actions is described by two bytes:<br><br>- First byte, bit 7: Channel selector for differential pins. The first channel has the value 0, the second the value 1.<br>- First byte, bits 6, 5, 4, 3: Waveform index (always 0)<br>- First byte, bits 2, 1, 0: Edge index (0 - 7)<br>- Second byte, bit 7: Error flag<br><br>0: No error on receive edge, or a drive edge<br><br>1: Error on receive edge. (The system returns this only if err_type is ERON.) In case of a failing window compare, both the window open edge and the window close edge are marked.<br><br>- Second byte, bits 6, 5: Data parameter<br><br>00: Fixed value<br><br>10: Data parameter 1<br><br>11: Data parameter 2<br><br>01: Reserved for future use<br><br>- Second byte, bit 4: Edge direction<br><br>0: Drive/tri-state edge<br><br>1: Receive edge<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 0, then drive/tri-state data:<br><br>Bits 3, 2: Tri-state data<br><br>00: Not used<br><br>10: Tri-state off<br><br>11: Tri-state on<br><br>01: Reserved for future use<br><br>Bits 1, 0: Drive data<br><br>00: Not used<br><br>10: Drive 0<br><br>11: Drive 1<br><br>01: Reserved for future use<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 1, then receive data compare method:<br><br>0001: Edge compare to intermediate<br><br>0010: Edge compare to 0<br><br>0011: Edge compare to 1<br><br>0100: Edge compare to mask<br><br>0101: Edge compare to unstable<br><br>0110: Edge compare, reconstruction not possible<br><br>1001: Window compare to intermediate<br><br>1010: Window compare to 0<br><br>1011: Window compare to 1<br><br>1100: Window compare to mask<br><br>1101: Window compare to unstable<br><br>1110: Window compare, reconstruction not possible<br><br>1111: Window close<br><br>0000: Reserved for future use<br><br>0111: Reserved for future use<br><br>1000: Reserved for future use | Each of the following edge actions is described by two bytes:<br><br>- First byte, bit 7: Channel selector for differential pins. The first channel has the value 0, the second the value 1.<br>- First byte, bits 6, 5, 4, 3: Waveform index (always 0)<br>- First byte, bits 2, 1, 0: Edge index (0 - 7)<br>- Second byte, bit 7: Error flag<br><br>0: No error on receive edge, or a drive edge<br><br>1: Error on receive edge. (The system returns this only if err_type is ERON.) In case of a failing window compare, both the window open edge and the window close edge are marked.<br><br>- Second byte, bits 6, 5: Data parameter<br><br>00: Fixed value<br><br>10: Data parameter 1<br><br>11: Data parameter 2<br><br>01: Reserved for future use<br><br>- Second byte, bit 4: Edge direction<br><br>0: Drive/tri-state edge<br><br>1: Receive edge<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 0, then drive/tri-state data:<br><br>Bits 3, 2: Tri-state data<br><br>00: Not used<br><br>10: Tri-state off<br><br>11: Tri-state on<br><br>01: Reserved for future use<br><br>Bits 1, 0: Drive data<br><br>00: Not used<br><br>10: Drive 0<br><br>11: Drive 1<br><br>01: Reserved for future use<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 1, then receive data compare method:<br><br>0001: Edge compare to intermediate<br><br>0010: Edge compare to 0<br><br>0011: Edge compare to 1<br><br>0100: Edge compare to mask<br><br>0101: Edge compare to unstable<br><br>0110: Edge compare, reconstruction not possible<br><br>1001: Window compare to intermediate<br><br>1010: Window compare to 0<br><br>1011: Window compare to 1<br><br>1100: Window compare to mask<br><br>1101: Window compare to unstable<br><br>1110: Window compare, reconstruction not possible<br><br>1111: Window close<br><br>0000: Reserved for future use<br><br>0111: Reserved for future use<br><br>1000: Reserved for future use |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98583.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98583.htm`。
 
 If reconstruction is not possible (code 110 on bits 2, 1, 0), there has been more than one edge or window compare within a single test system cycle.
 
@@ -7218,7 +7218,7 @@ The device cycle contains 1 waveform with 4 edge actions. The edge actions are R
 
 The EARE? answer will be split if the requested cycle range is greater than the available error map information, as shown below:
 
- !`Example`（raw: `../../../../raw/11910.png`）
+ !`Example`（raw: `../../../../agent-html/11910.png`）
 
 ```
 EARE? 0,15000, (pin1)
@@ -7465,7 +7465,7 @@ In case of failure, a more detailed two bit code will be returned.
 
 The received data can be reconstructed from the expected data and the error code as follows:
 
-  !`Parameters`（raw: `../../../../raw/57171.png`）
+  !`Parameters`（raw: `../../../../agent-html/57171.png`）
 
 "I" stands for "Intermediate" and "U" for "Unstable".
 
@@ -7651,7 +7651,7 @@ This example shows the format of the binary data that is returned by EMAP?. The 
 | 2. block | 1F | 31 | 0B | 11 | For example:<br><br>edge 1 (80 = 10000000) in cycle 31<br><br>edges 1,3 (A0 = 10100000) in cycle 35 |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98590.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98590.htm`。
 
 For each cycle, all 8 edges are reported. The first block is closed because 13 passing cycles (= 13 bytes) lie between the failed cycle 17 and the next failed cycle 31.
 
@@ -7985,7 +7985,7 @@ EQFS {spec_type}, {part}, {operation},{"eqn_filename"}, ["error_filename"]
 | error_filename | The absolute filename of the file to which error reports are written.<br><br>Use UI_REPORT to direct error reports to the report window.<br><br>If this parameter is not specified, only a summarized error message is reported. | The absolute filename of the file to which error reports are written.<br><br>Use UI_REPORT to direct error reports to the report window.<br><br>If this parameter is not specified, only a summarized error message is reported. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98592.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98592.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › EQFS -  EQuation FileS command transfer）
 
@@ -8290,7 +8290,7 @@ The length of the data units depends on the selected format and on the selected 
 Graphically, the structure can be illustrated by a simple example with a cycle range from 100 through 500 as follows:
 
  |
- |   !`ERCE? binary data`（raw: `../../../../raw/118685.png`） |
+ |   !`ERCE? binary data`（raw: `../../../../agent-html/118685.png`） |
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ERCE  -  Expected and Received Cycle data of Events）
 
@@ -8350,7 +8350,7 @@ ERCT {type}, {valid_code}, {no_of_errors}, [map_mode], [MUX,] {(pinlist)}
 | pinlist | The command returns the error count only for pins specified in pinlist. If more than one pin is to be included, the names must be separated by a comma. All pins in pinlist must be O or IO types. | The command returns the error count only for pins specified in pinlist. If more than one pin is to be included, the names must be separated by a comma. All pins in pinlist must be O or IO types. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98595.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98595.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ERCT  -  ERror CounT）
 
@@ -8409,7 +8409,7 @@ Parameters
 | pinlist | The pin name or names for which error cycles are to be retrieved. If more than one pin is required, the names must be separated with a comma. The @ character can be used to retrieve the data for all configured pins. | The pin name or names for which error cycles are to be retrieved. If more than one pin is required, the names must be separated with a comma. The @ character can be used to retrieve the data for all configured pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98596.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98596.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ERCY  -  ERror CYcle）
 
@@ -8797,10 +8797,10 @@ Parameters
 | gang_index | The index within the ganged channels for which data will be<br><br>answered. If this parameter is used, the connect_state (set with `PSLR`（raw: `02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md`）) must be hdig or norm_hdig.<br><br>This only applies to test point measurements. |
 | pinlist | DC Scale pins for which no test point pattern has been executed and digital pins for which no DC pattern has been executed will be ignored. |
 | #spec(data) | The binary data that are returned. The general format is:<br><br>#Nn1n2n...nNdata_stream<br><br>The N digit defines the number of the digits ni (1 ≤ i ≤N) that specify the length of data_stream in bytes.<br><br>The data stream itself consists of a stream header and one or more answers (only one answer for data formats 0 and 1), where every answer contains the same number of data blocks.<br><br>The stream header defines<br><br>- the number of answers (4 long bytes, big-endian encoded)<br>- the number of data blocks per answer (4 long bytes, big-endian encoded).<br><br>Every data block consists of a block header and one or more data units each of which contains the result of one test point measurement or MEAS instruction (DC pattern).<br><br>The block header defines<br><br>- the index of the first result (4 long bytes, big-endian encoded)<br>- the number of successive results (4 long bytes, big-endian encoded).<br><br>If rep_mode is set to ALL, there will be only one block; if it is set to EOLY, there can be more than one.<br><br>The length of the data units depends on the selected format and on the selected type. If type is set to ALL, each data unit consists of the expected data and the received data in this order.<br><br>Graphically, the structure can be illustrated by a simple example of the EOLY reporting mode with type RCV as follows: |
-| !`Format of data stream`（raw: `../../../../raw/101276.png`） | !`Format of data stream`（raw: `../../../../raw/101276.png`） |
+| !`Format of data stream`（raw: `../../../../agent-html/101276.png`） | !`Format of data stream`（raw: `../../../../agent-html/101276.png`） |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/97182.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/97182.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ERRE  -  Expected and Received Results of Events）
 
@@ -8994,7 +8994,7 @@ EUDS {waveform_set}, {definition_string}, {(pinlist)}
 | pinlist | The name of the pin or pins for which edge usage definitions are to be read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98601.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98601.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › EUDS  -  Edge Usage Definition String）
 
@@ -9182,7 +9182,7 @@ FLBL {index_of_call},{label_name},{cycle_info}, [ffc_abs],[ffc_rel],[ffv], {(pin
 | pinlist | This reply parameter specifies the pins of the port which fail for the first time in the same cycle within the specified label. A pinlist is returned if cycle_info is not NONE. | This reply parameter specifies the pins of the port which fail for the first time in the same cycle within the specified label. A pinlist is returned if cycle_info is not NONE. | This reply parameter specifies the pins of the port which fail for the first time in the same cycle within the specified label. A pinlist is returned if cycle_info is not NONE. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98605.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98605.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › FLBL  -  Failing LaBeLs）
 
@@ -9245,7 +9245,7 @@ FTCG {parameter}, {mode}, {(portlist)}
 | portlist | In the command, specify a list of ports, separated by commas. Note that the ports are treated as representatives of their sequencing groups. Activation will be suppressed, allowed, or enforced not only for the specified ports, but for all member ports of the sequencing groups to which the specified ports belong in the current setup.<br><br>In the query, specify @@, which stands for all ports. | In the command, specify a list of ports, separated by commas. Note that the ports are treated as representatives of their sequencing groups. Activation will be suppressed, allowed, or enforced not only for the specified ports, but for all member ports of the sequencing groups to which the specified ports belong in the current setup.<br><br>In the query, specify @@, which stands for all ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98606.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98606.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › FTCG  FTCG  -  Functional Test ConfiGure）
 
@@ -9444,7 +9444,7 @@ GCTX {setup_type}{,setup_nr|"name"},"[context_name]"
 | context_name | The name of the mode context. If you specified CURR for the setup_type parameter, and the current mode context is not correct, GCTX? returns an empty string.<br><br>The context is only correct when all primary sets (defined by SPRM) and the current start label (defined by SQSL) are associated with the same mode context. Furthermore, if there exists a primary multi-port specification, the mode context must be the same for all ports of this specification. | The name of the mode context. If you specified CURR for the setup_type parameter, and the current mode context is not correct, GCTX? returns an empty string.<br><br>The context is only correct when all primary sets (defined by SPRM) and the current start label (defined by SQSL) are associated with the same mode context. Furthermore, if there exists a primary multi-port specification, the mode context must be the same for all ports of this specification. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98611.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98611.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › GCTX  -  Get ConTeXt）
 
@@ -9474,7 +9474,7 @@ GETA {type}, {param_1}, {param_2}, {applic}, {start_addr}, {length}, {(pinlist)}
 | length | A reply parameter. It returns an integer giving the remaining active vectors of the sequencer construct starting from the queried vector. | A reply parameter. It returns an integer giving the remaining active vectors of the sequencer construct starting from the queried vector. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98613.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98613.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › GETA  -  GET vector memory Address information）
 
@@ -9956,7 +9956,7 @@ GETX {type}, {label}, {vector}, {cycle}, [index], {(pinlist)}
 | pinlist | Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated with a comma. You can type the character @ to obtain data for all pins. | Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated with a comma. You can type the character @ to obtain data for all pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98618.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98618.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › GETX  -  GET eXtended vector information）
 
@@ -10172,7 +10172,7 @@ HROL {PINS|LEVP}, {param1}, [param2], {(pinlist)}
 | pinlist | The pins which are to be measured with the specified parameters. All these pins must be O or I/O pins. | The pins which are to be measured with the specified parameters. All these pins must be O or I/O pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98628.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98628.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › HROL  HROL  -  High Resolution Option and Level）
 
@@ -10211,7 +10211,7 @@ HWTY {machine}, {testhead}, {dut_if}
 | dut_if | SOC | SOC |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98636.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98636.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › HWTY  -  HardWare TYpe）
 
@@ -10540,7 +10540,7 @@ Parameters
 | pinlist | The name of the pin or pins for which the SmartLoop™configuration is to be retrieved. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. | The name of the pin or pins for which the SmartLoop™configuration is to be retrieved. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/118445.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/118445.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › LBMD  -  LoopBack MoDe）
 
@@ -10706,7 +10706,7 @@ LSUX {level_set_no}
 | level_set_no | NONE | This command parameter sets the value of LSUX back to 1. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98642.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98642.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › LSUX  LSUX  -  Level Sets Used eXtended）
 
@@ -10983,7 +10983,7 @@ Parameters
 | pinlist | Target pin or pins for act. If more than one pin is to be included, the names must be separated by a comma. pinlist can contain digital pins configured as O, I, IO, or DC pin types. | Target pin or pins for act. If more than one pin is to be included, the names must be separated by a comma. pinlist can contain digital pins configured as O, I, IO, or DC pin types. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98657.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98657.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › MSET  MSET  -  definition of Measurement SET）
 
@@ -11353,7 +11353,7 @@ OUTS {cycle_no}, {output_level}, {(pinlist)}
 | output_level | HIGH | This indicates that a logic 1 occurs at the given cycle. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98677.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98677.htm`。
 
 ### PACT（取自子主题 Commands in alphabetical order › List of commands › PACT  PACT  -  Parallel ACTivities control）
 
@@ -11397,7 +11397,7 @@ PACT {"site_string"}
 | STR | forces the query to return a site string instead of a single line for every site. | forces the query to return a site string instead of a single line for every site. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98678.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98678.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PACT  PACT  -  Parallel ACTivities control）
 
@@ -11575,7 +11575,7 @@ Note The result (pass or fail) is returned for each pin specified in pins indivi
 | res_flag | P | If this result is returned, all pins in pin_list or port passed the last test. In the case of per pin query (using PPIN command) , a pass is returned if the individual pin specified in pins passed the last test. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98681.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98681.htm`。
 
 Application
 
@@ -11698,7 +11698,7 @@ PDIV {specset_id|"multi-port_spec"}, {period_div}
 | pinlist | This parameter is only applicable to fast pins. For standard pins,`-1` is returned. | This parameter is only applicable to fast pins. For standard pins,`-1` is returned. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98684.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98684.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PDIV  -  Period DIVider）
 
@@ -11739,7 +11739,7 @@ Parameters
 | result | The result is P (pass), or F (fail) for a Fo_Se specification. | The result is P (pass), or F (fail) for a Fo_Se specification. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98685.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98685.htm`。
 
 ### Example 1: Test of the site in query focus（取自子主题 Commands in alphabetical order › List of commands › PDMM  -  PDps Miscellaneous Measurement）
 
@@ -12013,7 +12013,7 @@ PRCF {"PRBS_set_name"}, {property}, {"property_value"}, {(pinlist)}
 | pinlist | Specifies the pins to which pin this configuration is to be applied. | Specifies the pins to which pin this configuration is to be applied. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/118218.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/118218.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PRCF  PRCF  -  Pseudo Random bit sequence ConFiguration）
 
@@ -12127,7 +12127,7 @@ PRMD {wvf_set|"wavetable_name"|specset_id|"multi_port_spec"|PRM}, {prbs_mode}, [
 | pinlist | The name of the pin or pins for which the PRBS configuration is to be retrieved. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. | The name of the pin or pins for which the PRBS configuration is to be retrieved. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/118425.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/118425.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › PRMD  -  PRBS MoDe）
 
@@ -12393,7 +12393,7 @@ PSER [setnr], [result], {(pinlist)}, {binary_data}
 | binary_data | The binary data result string. The string starts with the '#' character, followed by a digit in the range 1 to 9 which stipulates how many digits are used in the data length specifier. The data length specifier is next - up to 9 digits determine how many bytes of data will follow. Then comes the actual data string which appears as a list of values separated by a "," (comma). The first byte of data is an identifier which defines the format of the following data. For a waveform the first byte is '\x00' with the waveform represented as FLOAT64 values. Each value is in Amps [A]. | The binary data result string. The string starts with the '#' character, followed by a digit in the range 1 to 9 which stipulates how many digits are used in the data length specifier. The data length specifier is next - up to 9 digits determine how many bytes of data will follow. Then comes the actual data string which appears as a list of values separated by a "," (comma). The first byte of data is an identifier which defines the format of the following data. For a waveform the first byte is '\x00' with the waveform represented as FLOAT64 values. Each value is in Amps [A]. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98697.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98697.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › PSER  -  Power Supply External trigger measurement Read results）
 
@@ -12800,11 +12800,11 @@ Note The settling time parameter (setup_time) of the PSLV command and the rise_.
 | source_current | The optional parameter defines the source current limit (ilimit_source) in [A]. The applicable value depends on the DPS type.<br><br>The parameter defines the source and the sink current limit if both values are equal.<br><br>The parameter defines only the source current limit if the sink_current parameter is used. | The optional parameter defines the source current limit (ilimit_source) in [A]. The applicable value depends on the DPS type.<br><br>The parameter defines the source and the sink current limit if both values are equal.<br><br>The parameter defines only the source current limit if the sink_current parameter is used. |
 | sink_current | The extra parameter defines the sink current limit (ilimit_sink) in [A].<br><br>The parameter is required only if the source and sink current limits are set to different values. This parameter defines then the sink current limit while the source current limit is defined by the above source_current parameter.<br><br>The parameter is not required if the current limits are programmed symmetrically to the same (absolute) value. Both, the source and the sink value are then defined by the source_current parameter.<br><br>The query answer shows the sink_current parameter only if the programmed sink current limit is not symmetrical to the source current limit. | The extra parameter defines the sink current limit (ilimit_sink) in [A].<br><br>The parameter is required only if the source and sink current limits are set to different values. This parameter defines then the sink current limit while the source current limit is defined by the above source_current parameter.<br><br>The parameter is not required if the current limits are programmed symmetrically to the same (absolute) value. Both, the source and the sink value are then defined by the source_current parameter.<br><br>The query answer shows the sink_current parameter only if the programmed sink current limit is not symmetrical to the source current limit. |
 | impedance | The optional parameter sets the DPS output impedance. You can select:<br><br>- LOZ sets the DPS output impedance to low when the test system is in the disconnect state. The current limit remains at the same level as in the active state, while the force voltage is set to 0 V.<br>- HIZ sets the DPS output to high impedance when the test system is in the disconnect state. This sets the channel to the minimum possible current limit. HIZ is the default state for DPS-slot types. If it is applied to DC Scale cards, HIZ_R is used instead of HIZ.<br>- HIZ_R sets the DPS output to high impedance by switching the output relay off when the test system is in the disconnect state.<br><br>Note that relay switching is slower than with HIZ.<br><br>- LOZ_HIZ combines LOZ with HIZ. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50 mV) or after a timeout of 1 second, the DPS pin is switched to high impedance. This combines the advantages of both modes. A capacitor on the load board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or DUT board after a disconnect.<br>- LOZ_HIZ_R combines LOZ with HIZ_R. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50mV) or after a timeout of 1 second, the DPS pin is switched to open. This combines the advantages of both modes. A capacitor on the DUT board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or the DUT board after a disconnect. | The optional parameter sets the DPS output impedance. You can select:<br><br>- LOZ sets the DPS output impedance to low when the test system is in the disconnect state. The current limit remains at the same level as in the active state, while the force voltage is set to 0 V.<br>- HIZ sets the DPS output to high impedance when the test system is in the disconnect state. This sets the channel to the minimum possible current limit. HIZ is the default state for DPS-slot types. If it is applied to DC Scale cards, HIZ_R is used instead of HIZ.<br>- HIZ_R sets the DPS output to high impedance by switching the output relay off when the test system is in the disconnect state.<br><br>Note that relay switching is slower than with HIZ.<br><br>- LOZ_HIZ combines LOZ with HIZ. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50 mV) or after a timeout of 1 second, the DPS pin is switched to high impedance. This combines the advantages of both modes. A capacitor on the load board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or DUT board after a disconnect.<br>- LOZ_HIZ_R combines LOZ with HIZ_R. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50mV) or after a timeout of 1 second, the DPS pin is switched to open. This combines the advantages of both modes. A capacitor on the DUT board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or the DUT board after a disconnect. |
-| setup_time | The optional parameter is an integer which specifies the settling time (in ms) of the DPS. All DPS's are synchronized so that they finish their settling periods at the same point in time. This is the point when the system is switched to the connect state. If there are, for example, two DPS's, one with a settling time of 10 ms, and the other with a settling time of 4 ms, then the second DPS will be started 6 ms after the first:<br><br>!`Synchronizing Different DPS Settling Times`（raw: `../../../../raw/93235.png`）<br><br>The range is from -2147483647 up to 2147483646 ms.<br><br>The default value is 0.Note setup_time has a resolution of ms (floating point values are rounded to nearest integer). | The optional parameter is an integer which specifies the settling time (in ms) of the DPS. All DPS's are synchronized so that they finish their settling periods at the same point in time. This is the point when the system is switched to the connect state. If there are, for example, two DPS's, one with a settling time of 10 ms, and the other with a settling time of 4 ms, then the second DPS will be started 6 ms after the first:<br><br>!`Synchronizing Different DPS Settling Times`（raw: `../../../../raw/93235.png`）<br><br>The range is from -2147483647 up to 2147483646 ms.<br><br>The default value is 0.Note setup_time has a resolution of ms (floating point values are rounded to nearest integer). |
+| setup_time | The optional parameter is an integer which specifies the settling time (in ms) of the DPS. All DPS's are synchronized so that they finish their settling periods at the same point in time. This is the point when the system is switched to the connect state. If there are, for example, two DPS's, one with a settling time of 10 ms, and the other with a settling time of 4 ms, then the second DPS will be started 6 ms after the first:<br><br>!`Synchronizing Different DPS Settling Times`（raw: `../../../../agent-html/93235.png`）<br><br>The range is from -2147483647 up to 2147483646 ms.<br><br>The default value is 0.Note setup_time has a resolution of ms (floating point values are rounded to nearest integer). | The optional parameter is an integer which specifies the settling time (in ms) of the DPS. All DPS's are synchronized so that they finish their settling periods at the same point in time. This is the point when the system is switched to the connect state. If there are, for example, two DPS's, one with a settling time of 10 ms, and the other with a settling time of 4 ms, then the second DPS will be started 6 ms after the first:<br><br>!`Synchronizing Different DPS Settling Times`（raw: `../../../../agent-html/93235.png`）<br><br>The range is from -2147483647 up to 2147483646 ms.<br><br>The default value is 0.Note setup_time has a resolution of ms (floating point values are rounded to nearest integer). |
 | pinlist | pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If more than one pin is specified, the names must be separated by commas. The character @ can be used to set the levels for all DPS pins. | pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If more than one pin is specified, the names must be separated by commas. The character @ can be used to set the levels for all DPS pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98702.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98702.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PSLV  PSLV  -  Power Supply LeVel）
 
@@ -12906,7 +12906,7 @@ PSST {state} [, (pinlist)]
 | pinlist | Specifies the pins for which the DPS is switched on/off. | Specifies the pins for which the DPS is switched on/off. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98710.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98710.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › PSST  PSST  -  Power Supply STatus）
 
@@ -13032,7 +13032,7 @@ PTDS {channelNo}, [EBT_specifier], {set_specifier}, {timing_set}, [tweaking_set]
 | definition_string | Definition string for the logical edges. | Definition string for the logical edges. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98713.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98713.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PTDS  PTDS  -  Pin attributes Tweaking Definition String）
 
@@ -13591,7 +13591,7 @@ RSET {specifier}
 | specifier | MTPP | Resets memory test and per-pin sequencer subroutine data. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98723.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98723.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › RSET -  ReSET）
 
@@ -13625,7 +13625,7 @@ Parameters
 | fail_value | The first (in a PASS/FAIL transition) or the last (in a FAIL/PASS transition) spec value or edge position where the test failed.<br><br>If only a fail value is returned, the test always failed. | The first (in a PASS/FAIL transition) or the last (in a FAIL/PASS transition) spec value or edge position where the test failed.<br><br>If only a fail value is returned, the test always failed. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98724.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98724.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › RSSR  -  Retrieve Spec Search Results）
 
@@ -13769,7 +13769,7 @@ SAOF {mode|"label"}
 | label | If you call SAOF with a label name, you can generate a vector file for this label only. | If you call SAOF with a label name, you can generate a vector file for this label only. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98726.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98726.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SAOF  SAOF  -  Set Alternating Operation Features）
 
@@ -13931,7 +13931,7 @@ Parameters
 | portlist | With multi-port specifications, you can specify a list of ports. If you do, only those components will be displayed that are associated with one of the specified ports.<br><br>If you specify a port list, the setup_comp_1 parameter will be ignored. | With multi-port specifications, you can specify a list of ports. If you do, only those components will be displayed that are associated with one of the specified ports.<br><br>If you specify a port list, the setup_comp_1 parameter will be ignored. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98729.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98729.htm`。
 
 The following table explains the interpretation of the setup_comp_1 and setup_comp_2 parameters for every accepted value pair of the spec_type and type parameters:
 
@@ -13951,7 +13951,7 @@ The following table explains the interpretation of the setup_comp_1 and setup_co
 | ANA | RSET | Not allowed | routing set |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98729.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98729.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SDSC  -  Set number DeSCriptions）
 
@@ -14004,7 +14004,7 @@ Parameters
 | pinlist_<number> | The name of the pin or pins to be applied. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）command. If more than one pin is to be included, the names must be separated with a comma. The @ character indicates all pins. | The name of the pin or pins to be applied. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）command. If more than one pin is to be included, the names must be separated with a comma. The @ character indicates all pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98732.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98732.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SHSP  SHSP  -  SHmoo SPecs）
 
@@ -14086,7 +14086,7 @@ SLDO {order}, [report]
 | operation | This is the mode of operation. SAVE returns values for everything that can be set. | This is the mode of operation. SAVE returns values for everything that can be set. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98735.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98735.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SLDO -  Switch Level and Dps Order）
 
@@ -14411,7 +14411,7 @@ SPST {spec_type},, {"multi-port_spec"}, {status}
 | status | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98743.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98743.htm`。
 
 Status bits for the status parameter
 | Bit | Description | Value |
@@ -14487,7 +14487,7 @@ Parameters
 | portlist | The ports for which the settings are to be returned. Specify @@ to retrieve the settings of all ports. | The ports for which the settings are to be returned. Specify @@ to retrieve the settings of all ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98745.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98745.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SQBV  SQBV  -  SeQuencer Break Vector insertion）
 
@@ -14594,7 +14594,7 @@ SQGB {mode}, [analyze_delay][, (port)]
 | port_list | If the current mode requires an analyze delay, you can specify a port list in the query. The reply will give the calculated analyze delays for those ports that are not used as the reference port. These delays are derived from the analyze delay of the reference port and the ratio between the period lengths of the reference port and the other port in the primary timing setup. If you specify @@, SQGB will return the settings for all ports of the current start label. | If the current mode requires an analyze delay, you can specify a port list in the query. The reply will give the calculated analyze delays for those ports that are not used as the reference port. These delays are derived from the analyze delay of the reference port and the ratio between the period lengths of the reference port and the other port in the primary timing setup. If you specify @@, SQGB will return the settings for all ports of the current start label. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98746.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98746.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SQGB  SQGB  -  SeQuencer GloBal）
 
@@ -14717,7 +14717,7 @@ SQLAtype, {"name"},{"attr_key_1=attr_val_1, attr_key_2=attr_val_2} [,attr_key_3=
 | port | This parameter is only evaluated if you specify ALL for the second parameter in the query. In this case, SQLA? will return the attributes of those labels that are associated with the ports specified here. The default for this parameter is the default port @ to which all pins belong.<br><br>Specify @@ to display attributes for all labels of all ports. | This parameter is only evaluated if you specify ALL for the second parameter in the query. In this case, SQLA? will return the attributes of those labels that are associated with the ports specified here. The default for this parameter is the default port @ to which all pins belong.<br><br>Specify @@ to display attributes for all labels of all ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/103621.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/103621.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SQLA  SQLA  -  SeQuencer Label Attribute）
 
@@ -14785,7 +14785,7 @@ Parameters
 | port | The name of the port for which the label is defined. If you do not specify a port, the label will be defined for the default port @, to which all pins belong. | The name of the port for which the label is defined. If you do not specify a port, the label will be defined for the default port @, to which all pins belong. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98748.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98748.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SQLB  SQLB  -  SeQuencer LaBel definition）
 
@@ -15664,7 +15664,7 @@ SQST {seq_state}
 | exec_context | An execution context. In the command, this parameter can only be added to the sequencer state RUN and the instruction ABRT. It must be added if ABRT is specified. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .<br><br>If the query is issued without a context, then RUN will be returned if there is at least one context that is in the RUN state. | An execution context. In the command, this parameter can only be added to the sequencer state RUN and the instruction ABRT. It must be added if ABRT is specified. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .<br><br>If the query is issued without a context, then RUN will be returned if there is at least one context that is in the RUN state. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98752.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98752.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SQST  SQST  -  SeQuencer STate）
 
@@ -15730,7 +15730,7 @@ Note Executing `SREC ACT,(@)` may cause excessive overhead. You can use the `UI_
 | pinlist | The name of the pin or pins to be masked. This parameter may also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） or by `DFGE, DFGE? - (DeFine Group Expressions)`（raw: `02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md`）. If more than one pin is to be included, the names must be separated with a comma. Pins in pinlist can be O or IO pin types. The @ character sets the mask for all pins of these types. | The name of the pin or pins to be masked. This parameter may also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） or by `DFGE, DFGE? - (DeFine Group Expressions)`（raw: `02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md`）. If more than one pin is to be included, the names must be separated with a comma. Pins in pinlist can be O or IO pin types. The @ character sets the mask for all pins of these types. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98754.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98754.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SREC  SREC  -  Set RECeiver mask）
 
@@ -15792,7 +15792,7 @@ SSAC {read_mode},[nr_of_results],[(ref_pin}],{(pinlist)}
 | pinlist | The pins that are to be configured as buffer pins. | The pins that are to be configured as buffer pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98755.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98755.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SSAC  SSAC  -  Source Synchronous testing  Add Configuration）
 
@@ -15848,7 +15848,7 @@ Parameters
 | source_pins | The pins whose results are to be combined. Note that the Error Map for these pins must be located in RDRAM (DCRT command). | The pins whose results are to be combined. Note that the Error Map for these pins must be located in RDRAM (DCRT command). |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98756.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98756.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SSCT  SSCT  -  Source Synchronous data  Combine and Transfer）
 
@@ -16138,7 +16138,7 @@ STRS GE,2,,
 | pinlist | By this extra parameter, you can modify the runtime definitions for an individual pin. Note that you cannot retrieve the pin specific values with SVLR?.<br><br>Note You can use the pinlist parameter to modify the value of a spec variable of an individual pin, temporarily. If you make a new modification on a different spec variable, only the last modification is kept while the previous spec variable is reset to the setup value defined in the spec file. To make a permanent modification on a spec variable, specify all pins (that is, @) as the pinlist. Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset. | By this extra parameter, you can modify the runtime definitions for an individual pin. Note that you cannot retrieve the pin specific values with SVLR?.<br><br>Note You can use the pinlist parameter to modify the value of a spec variable of an individual pin, temporarily. If you make a new modification on a different spec variable, only the last modification is kept while the previous spec variable is reset to the setup value defined in the spec file. To make a permanent modification on a spec variable, specify all pins (that is, @) as the pinlist. Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98764.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98764.htm`。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SVLR  SVLR  -  Spec VaLues at Runtime）
 
@@ -16384,7 +16384,7 @@ TEMP {cardType}, {cardId}, {temperature}
 | temperature | Returns the temperature (in Kelvin) for each card.<br><br>Default value in offline mode is 292.3 K. | Returns the temperature (in Kelvin) for each card.<br><br>Default value in offline mode is 292.3 K. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98770.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98770.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TEMP  -  read TEMPerature）
 
@@ -16488,7 +16488,7 @@ Parameter
 | portList | Is a comma separated list of ports.<br><br>To apply the command to all ports, use @@. | Is a comma separated list of ports.<br><br>To apply the command to all ports, use @@. | Is a comma separated list of ports.<br><br>To apply the command to all ports, use @@. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/125642.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/125642.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TMUD  Tester Memory Utilization set Default values）
 
@@ -16621,7 +16621,7 @@ TOCF {search_type} {resource_type}, {start}, {number_of_steps}, {step_width}, {r
 | setup_pinlist | This parameter defines the pins the edge positions of which are to be changed. If an input pin is specified, the O or IO pins on which the outcome of a search step is to depend must be defined with TOCR.<br><br>Note also that the edge type specified with the edge_type parameter must be in line with the pin type. | This parameter defines the pins the edge positions of which are to be changed. If an input pin is specified, the O or IO pins on which the outcome of a search step is to depend must be defined with TOCR.<br><br>Note also that the edge type specified with the edge_type parameter must be in line with the pin type. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/124942.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/124942.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TOCF  TOCF  -  Timing Level Offset search ConFiguration）
 
@@ -16737,7 +16737,7 @@ TORN {status}
 |  | ABORTED | The search was canceled by the user. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/125309.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/125309.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TORN  -  Timing level Offset search RuN）
 
@@ -17090,7 +17090,7 @@ TPSP {suppression_type}, {(pin_list)}
 | pin_list | The pin or pins to which this command is applied. To specify multiple pins, separate the names with a comma, or use @ to specify all pins. Pin groups can also be specified. Only pins that are associated with DCScale channels are taken into account. | The pin or pins to which this command is applied. To specify multiple pins, separate the names with a comma, or use @ to specify all pins. Pin groups can also be specified. Only pins that are associated with DCScale channels are taken into account. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/105537.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/105537.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TPSP  TPSP  -  TestPoint SuPpression）
 
@@ -17149,7 +17149,7 @@ Properties and their values
 | THRESHOLD_B | This optional property defines the voltage threshold for a second shot. It is only needed for (two shot) rise time and fall time measurements.<br><br>It must not be defined if NUM_SHOTS is set to 1.<br><br>Note that the original level setup is automatically restored after the measurement has been finished. | This optional property defines the voltage threshold for a second shot. It is only needed for (two shot) rise time and fall time measurements.<br><br>It must not be defined if NUM_SHOTS is set to 1.<br><br>Note that the original level setup is automatically restored after the measurement has been finished. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/125467.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/125467.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSCF  TSCF  -  TMU Set ConFiguration）
 
@@ -18130,7 +18130,7 @@ TSUX {waveform_set},{timing_set}
 | timing_set | NONE | This command parameter sets the value of TSUX back to 1 for the specified waveform set. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98818.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98818.htm`。
 
 ### Syntax（取自子主题 Commands in alphabetical order › List of commands › TSVD  -  TimStamper ValiD）
 
@@ -18750,7 +18750,7 @@ Information types and subtypes
 | SYNC_VALUES | This item returns how many received bits were skipped for initial synchronization at test start (subtype INITIAL) or after a switch of an IO pin from drive to receive mode (subtype SUBSEQUENT). | This item returns how many received bits were skipped for initial synchronization at test start (subtype INITIAL) or after a switch of an IO pin from drive to receive mode (subtype SUBSEQUENT). |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/116688.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/116688.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TTDB  -  Transition Test DeBug information）
 
@@ -18834,7 +18834,7 @@ TTMD {specset_id|"multi-port_spec"}, {timing_set}, {tt_mode}, [clk_fwd], {(pinli
 | pinlist | The name of the pin or pins for which the protocol engine mode is to be retrieved. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by a comma.<br><br>In a multiport setup, every pin must belong to a port of the specified specification. | The name of the pin or pins for which the protocol engine mode is to be retrieved. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by a comma.<br><br>In a multiport setup, every pin must belong to a port of the specified specification. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/116966.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/116966.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TTMD  -  Transition Test MoDe query）
 
@@ -18903,7 +18903,7 @@ TTRS {value_specifier}, [pass_value], [fail_value], {(pinlist)}
 | fail_value | The fail_value is the time (in ns) at which the last failed test occurs. A fail value is only returned for if value_specifier is EQ, LT, or GT. | The fail_value is the time (in ns) at which the last failed test occurs. A fail value is only returned for if value_specifier is EQ, LT, or GT. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98819.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98819.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TTRS  -  Time TRansition Search）
 
@@ -20177,7 +20177,7 @@ UTSC {(word)}, {mode} [, maskMode]
 | maskMode | MASK | Enables the mask mode. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/124715.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/124715.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UTSC  UTSC  -  UTility line Serial Configuration）
 
@@ -20425,7 +20425,7 @@ VALD {map_state}, {map_id}, {start}, {number}, {(pinlist)}
 | number | This is an integer that indicates the number of cycles recorded, or for the LMAP option of map_id, the number of label calls recorded. If ERRM, RECD or DERR have been selected, the range for this parameter depends on whether the internal or the external error map is used. For the internal error map, it is 0 to 8191; for the external error map the upper limit can be higher. When EOLY has been selected, the upper limit is 2^48.<br><br>For the `Pin Scale 5000 card`（raw: `../02.05_Test_Head_Cards/02.05.04.02_Pin_Scale_5000_card.md`）, the upper limit is 4096.<br><br>In the reply, this parameter indicates the number of cycles (or label calls) which have been read. If a 0 is returned, no data is available for the given range. | This is an integer that indicates the number of cycles recorded, or for the LMAP option of map_id, the number of label calls recorded. If ERRM, RECD or DERR have been selected, the range for this parameter depends on whether the internal or the external error map is used. For the internal error map, it is 0 to 8191; for the external error map the upper limit can be higher. When EOLY has been selected, the upper limit is 2^48.<br><br>For the `Pin Scale 5000 card`（raw: `../02.05_Test_Head_Cards/02.05.04.02_Pin_Scale_5000_card.md`）, the upper limit is 4096.<br><br>In the reply, this parameter indicates the number of cycles (or label calls) which have been read. If a 0 is returned, no data is available for the given range. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98841.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98841.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VALD  -  VALid Data）
 
@@ -20729,7 +20729,7 @@ VCLK {autocorrect}
 | autocorrect | 1 | Auto-correction will occur. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98844.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98844.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VCLK  -  Verify CLocK）
 
@@ -21095,7 +21095,7 @@ VDCG {wavetable_name}, {dev_cyc_name}, {dev_cyc_len}
 | dev_cyc_len | Always 1 for SmarTest 7.10. | Always 1 for SmarTest 7.10. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98846.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98846.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VDCG  -  Verify Device Cycle for Group）
 
@@ -21200,7 +21200,7 @@ Parameters
 | #spec(data) | Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:<br><br>Type # to mark the start of the data block.<br><br>Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.<br><br>The compressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character (`\x0A`). | Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:<br><br>Type # to mark the start of the data block.<br><br>Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.<br><br>The compressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character (`\x0A`). |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98850.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98850.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VECC  VECC  -  VECtor download Compressed）
 
@@ -21254,7 +21254,7 @@ Parameters
 | #spec(data) | Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:<br><br>Type # to mark the start of the data block.<br><br>Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.<br><br>The uncompressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character. One byte represents one vector. | Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:<br><br>Type # to mark the start of the data block.<br><br>Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.<br><br>The uncompressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character. One byte represents one vector. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98853.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98853.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VECD  VECD  -  VECtor Download）
 
@@ -21371,7 +21371,7 @@ Parameters
 | no_of_cycles | This parameter is an integer which defines the total number of valid cycles. | This parameter is an integer which defines the total number of valid cycles. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98861.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98861.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VRCS  -  Valid ReConStruction）
 
@@ -21412,7 +21412,7 @@ VTIM {status}
 | status | 1 | The timing is the same. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98862.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98862.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VTIM  -  Verify TIMing）
 
@@ -21513,7 +21513,7 @@ VWFS {status}, {(pinlist)}
 |  | 1 | The waveform sets are compatible. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98864.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98864.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › VWFS  -  Verify WaveForm Sets）
 
@@ -21596,7 +21596,7 @@ WAVE {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {wfIndex}, [DD1], 
 | ALLOW_EQ | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98869.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98869.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › WAVE  WAVE  -  WAVEform）
 
@@ -21642,7 +21642,7 @@ Parameters
 | pinlist | The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with commas. | The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with commas. | The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with commas. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98871.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98871.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › WFDF  WFDF  -  WaveForm DeFinition）
 
@@ -21947,7 +21947,7 @@ Parameters
 | #spec(data) | 111 | Window close |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98873.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98873.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › WFEX  -  WaveForm EXpected data）
 
@@ -22029,7 +22029,7 @@ Parameters
 | #spec(data) | 111 | Window close |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98874.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98874.htm`。
 
 If reconstruction is not possible (code 110 on bits 2, 1, 0), there has been more than one edge or window compare within a single test system cycle.
 
@@ -22060,7 +22060,7 @@ The edge actions are RZ on the drive edges 1 and 2 and a failed window compare (
 
 The WFRE? answer will be split if the requested cycle range is greater than the available error map information, as shown below:
 
- !`Example`（raw: `../../../../raw/23378.png`）
+ !`Example`（raw: `../../../../agent-html/23378.png`）
 
 ```
 WFRE? 0,15000, (pin1)
@@ -22133,7 +22133,7 @@ WSDM {waveform_set}, {display_mode}
 | portlist | For multiport specifications, you can specify the ports for which the vector setup display mode is to be returned. | For multiport specifications, you can specify the ports for which the vector setup display mode is to be returned. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98877.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98877.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › WSDM  WSDM  -  Waveform Set Display Mode）
 
@@ -22264,7 +22264,7 @@ The reply from the *OPT? query has been generated in offline mode. The board IDs
 | SWR | SWR | - All resources will be deleted<br>- All pin definitions will be deleted.<br>- The instrument will have its reset bit toggled.<br>- The instrument will be set to its default state. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98882.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98882.htm`。
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › RST -  ReSeT）
 
@@ -22333,7 +22333,7 @@ CHIN {channel_nr}, {channel_type}, [phys_location], {board_no}, [clk_board], [ch
 | chan_info_2 | For digital channels:<br><br>Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors). | For digital channels:<br><br>Sequencer memory (SM) depth in blocks of 128k vectors (or 0.125M vectors). |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98502_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98502_2.htm`。
 
 ### Examples（取自子主题 Pin configuration setup commands › List of configuration commands › CHIN  -  CHannel INformation）
 
@@ -22486,7 +22486,7 @@ CTXT {DEFINE},{"name"}
 | name | The name of the mode context. If the action parameter is set to DELETE, you can also specify ALL to delete all mode contexts. | The name of the mode context. If the action parameter is set to DELETE, you can also specify ALL to delete all mode contexts. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98513_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98513_2.htm`。
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › CTXT  CTXT  -  ConTeXT）
 
@@ -22683,7 +22683,7 @@ DFGP {pin_type}, {(pinlist)}, {(pin_group)}
 | pin_group | The name assigned to the pin group. You can use the same name for groups of different type.<br><br>The symbol @ can be used with the DFGP? query to list all groups previously defined using the DFGP command. If you query a non-existent group, the system returns nothing.<br><br>Maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest. | The name assigned to the pin group. You can use the same name for groups of different type.<br><br>The symbol @ can be used with the DFGP? query to list all groups previously defined using the DFGP command. If you query a non-existent group, the system returns nothing.<br><br>Maximum number of characters is 16 for 32-bit SmarTest and 64 for 64-bit SmarTest. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98546_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98546_2.htm`。
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › DFGP  DFGP  -  DeFine GrouP）
 
@@ -23318,7 +23318,7 @@ GCTX {setup_type}{,setup_nr|"name"},"[context_name]"
 | context_name | The name of the mode context. If you specified CURR for the setup_type parameter, and the current mode context is not correct, GCTX? returns an empty string.<br><br>The context is only correct when all primary sets (defined by SPRM) and the current start label (defined by SQSL) are associated with the same mode context. Furthermore, if there exists a primary multi-port specification, the mode context must be the same for all ports of this specification. | The name of the mode context. If you specified CURR for the setup_type parameter, and the current mode context is not correct, GCTX? returns an empty string.<br><br>The context is only correct when all primary sets (defined by SPRM) and the current start label (defined by SQSL) are associated with the same mode context. Furthermore, if there exists a primary multi-port specification, the mode context must be the same for all ports of this specification. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98611_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98611_2.htm`。
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › GCTX  -  Get ConTeXt）
 
@@ -23348,7 +23348,7 @@ HWTY {machine}, {testhead}, {dut_if}
 | dut_if | SOC | SOC |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98636_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98636_2.htm`。
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › HWTY  -  HardWare TYpe）
 
@@ -23399,7 +23399,7 @@ PACT {"site_string"}
 | STR | forces the query to return a site string instead of a single line for every site. | forces the query to return a site string instead of a single line for every site. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98678_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98678_2.htm`。
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › PACT  PACT  -  Parallel ACTivities control）
 
@@ -23785,7 +23785,7 @@ UDVP (pinlist)
 |---|---|
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/353743.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/353743.htm`。
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › UDVP -  UnDefine Virtual Pin）
 
@@ -24081,7 +24081,7 @@ VPIN? ([(pinlist) | @]}
 |---|---|
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/353731.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/353731.htm`。
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › VPIN  VPIN  -  Virtual PIN）
 
@@ -24279,7 +24279,7 @@ APRM {mode}
 | mode | CNL | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98485_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98485_2.htm`。
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › APRM -  Activate PRiMary sets）
 
@@ -24466,7 +24466,7 @@ DPRL {level_set}, {dps_set}, [screen_select]
 | screen_select | FST | FAST Eqn & Spec Results |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98569_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98569_2.htm`。
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › DPRL  DPRL  -  Default PRimary Level sets）
 
@@ -24757,7 +24757,7 @@ EQFS {spec_type}, {part}, {operation},{"eqn_filename"}, ["error_filename"]
 | error_filename | The absolute filename of the file to which error reports are written.<br><br>Use UI_REPORT to direct error reports to the report window.<br><br>If this parameter is not specified, only a summarized error message is reported. | The absolute filename of the file to which error reports are written.<br><br>Use UI_REPORT to direct error reports to the report window.<br><br>If this parameter is not specified, only a summarized error message is reported. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98592_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98592_2.htm`。
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › EQFS -  EQuation FileS command transfer）
 
@@ -24841,7 +24841,7 @@ FTCG {parameter}, {mode}, {(portlist)}
 | portlist | In the command, specify a list of ports, separated by commas. Note that the ports are treated as representatives of their sequencing groups. Activation will be suppressed, allowed, or enforced not only for the specified ports, but for all member ports of the sequencing groups to which the specified ports belong in the current setup.<br><br>In the query, specify @@, which stands for all ports. | In the command, specify a list of ports, separated by commas. Note that the ports are treated as representatives of their sequencing groups. Activation will be suppressed, allowed, or enforced not only for the specified ports, but for all member ports of the sequencing groups to which the specified ports belong in the current setup.<br><br>In the query, specify @@, which stands for all ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98606_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98606_2.htm`。
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › FTCG  FTCG  -  Functional Test ConfiGure）
 
@@ -24938,7 +24938,7 @@ LSUX {level_set_no}
 | level_set_no | NONE | This command parameter sets the value of LSUX back to 1. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98642_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98642_2.htm`。
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › LSUX  LSUX  -  Level Sets Used eXtended）
 
@@ -25015,11 +25015,11 @@ Note The settling time parameter (setup_time) of the PSLV command and the rise_.
 | source_current | The optional parameter defines the source current limit (ilimit_source) in [A]. The applicable value depends on the DPS type.<br><br>The parameter defines the source and the sink current limit if both values are equal.<br><br>The parameter defines only the source current limit if the sink_current parameter is used. | The optional parameter defines the source current limit (ilimit_source) in [A]. The applicable value depends on the DPS type.<br><br>The parameter defines the source and the sink current limit if both values are equal.<br><br>The parameter defines only the source current limit if the sink_current parameter is used. |
 | sink_current | The extra parameter defines the sink current limit (ilimit_sink) in [A].<br><br>The parameter is required only if the source and sink current limits are set to different values. This parameter defines then the sink current limit while the source current limit is defined by the above source_current parameter.<br><br>The parameter is not required if the current limits are programmed symmetrically to the same (absolute) value. Both, the source and the sink value are then defined by the source_current parameter.<br><br>The query answer shows the sink_current parameter only if the programmed sink current limit is not symmetrical to the source current limit. | The extra parameter defines the sink current limit (ilimit_sink) in [A].<br><br>The parameter is required only if the source and sink current limits are set to different values. This parameter defines then the sink current limit while the source current limit is defined by the above source_current parameter.<br><br>The parameter is not required if the current limits are programmed symmetrically to the same (absolute) value. Both, the source and the sink value are then defined by the source_current parameter.<br><br>The query answer shows the sink_current parameter only if the programmed sink current limit is not symmetrical to the source current limit. |
 | impedance | The optional parameter sets the DPS output impedance. You can select:<br><br>- LOZ sets the DPS output impedance to low when the test system is in the disconnect state. The current limit remains at the same level as in the active state, while the force voltage is set to 0 V.<br>- HIZ sets the DPS output to high impedance when the test system is in the disconnect state. This sets the channel to the minimum possible current limit. HIZ is the default state for DPS-slot types. If it is applied to DC Scale cards, HIZ_R is used instead of HIZ.<br>- HIZ_R sets the DPS output to high impedance by switching the output relay off when the test system is in the disconnect state.<br><br>Note that relay switching is slower than with HIZ.<br><br>- LOZ_HIZ combines LOZ with HIZ. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50 mV) or after a timeout of 1 second, the DPS pin is switched to high impedance. This combines the advantages of both modes. A capacitor on the load board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or DUT board after a disconnect.<br>- LOZ_HIZ_R combines LOZ with HIZ_R. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50mV) or after a timeout of 1 second, the DPS pin is switched to open. This combines the advantages of both modes. A capacitor on the DUT board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or the DUT board after a disconnect. | The optional parameter sets the DPS output impedance. You can select:<br><br>- LOZ sets the DPS output impedance to low when the test system is in the disconnect state. The current limit remains at the same level as in the active state, while the force voltage is set to 0 V.<br>- HIZ sets the DPS output to high impedance when the test system is in the disconnect state. This sets the channel to the minimum possible current limit. HIZ is the default state for DPS-slot types. If it is applied to DC Scale cards, HIZ_R is used instead of HIZ.<br>- HIZ_R sets the DPS output to high impedance by switching the output relay off when the test system is in the disconnect state.<br><br>Note that relay switching is slower than with HIZ.<br><br>- LOZ_HIZ combines LOZ with HIZ. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50 mV) or after a timeout of 1 second, the DPS pin is switched to high impedance. This combines the advantages of both modes. A capacitor on the load board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or DUT board after a disconnect.<br>- LOZ_HIZ_R combines LOZ with HIZ_R. First, the DPS is switched to 0 V with an unchanged current limit (just like in LOZ mode). After the output voltage has reached 0 V (±50mV) or after a timeout of 1 second, the DPS pin is switched to open. This combines the advantages of both modes. A capacitor on the DUT board is quickly discharged and then the DPS pin is switched to high impedance. This is safer when changing the DUT or the DUT board after a disconnect. |
-| setup_time | The optional parameter is an integer which specifies the settling time (in ms) of the DPS. All DPS's are synchronized so that they finish their settling periods at the same point in time. This is the point when the system is switched to the connect state. If there are, for example, two DPS's, one with a settling time of 10 ms, and the other with a settling time of 4 ms, then the second DPS will be started 6 ms after the first:<br><br>!`Synchronizing Different DPS Settling Times`（raw: `../../../../raw/93235.png`）<br><br>The range is from -2147483647 up to 2147483646 ms.<br><br>The default value is 0.Note setup_time has a resolution of ms (floating point values are rounded to nearest integer). | The optional parameter is an integer which specifies the settling time (in ms) of the DPS. All DPS's are synchronized so that they finish their settling periods at the same point in time. This is the point when the system is switched to the connect state. If there are, for example, two DPS's, one with a settling time of 10 ms, and the other with a settling time of 4 ms, then the second DPS will be started 6 ms after the first:<br><br>!`Synchronizing Different DPS Settling Times`（raw: `../../../../raw/93235.png`）<br><br>The range is from -2147483647 up to 2147483646 ms.<br><br>The default value is 0.Note setup_time has a resolution of ms (floating point values are rounded to nearest integer). |
+| setup_time | The optional parameter is an integer which specifies the settling time (in ms) of the DPS. All DPS's are synchronized so that they finish their settling periods at the same point in time. This is the point when the system is switched to the connect state. If there are, for example, two DPS's, one with a settling time of 10 ms, and the other with a settling time of 4 ms, then the second DPS will be started 6 ms after the first:<br><br>!`Synchronizing Different DPS Settling Times`（raw: `../../../../agent-html/93235.png`）<br><br>The range is from -2147483647 up to 2147483646 ms.<br><br>The default value is 0.Note setup_time has a resolution of ms (floating point values are rounded to nearest integer). | The optional parameter is an integer which specifies the settling time (in ms) of the DPS. All DPS's are synchronized so that they finish their settling periods at the same point in time. This is the point when the system is switched to the connect state. If there are, for example, two DPS's, one with a settling time of 10 ms, and the other with a settling time of 4 ms, then the second DPS will be started 6 ms after the first:<br><br>!`Synchronizing Different DPS Settling Times`（raw: `../../../../agent-html/93235.png`）<br><br>The range is from -2147483647 up to 2147483646 ms.<br><br>The default value is 0.Note setup_time has a resolution of ms (floating point values are rounded to nearest integer). |
 | pinlist | pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If more than one pin is specified, the names must be separated by commas. The character @ can be used to set the levels for all DPS pins. | pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If more than one pin is specified, the names must be separated by commas. The character @ can be used to set the levels for all DPS pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98702_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98702_2.htm`。
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › PSLV  PSLV  -  Power Supply LeVel）
 
@@ -25314,7 +25314,7 @@ RSET {specifier}
 | specifier | MTPP | Resets memory test and per-pin sequencer subroutine data. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98723_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98723_2.htm`。
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › RSET -  ReSET）
 
@@ -25373,7 +25373,7 @@ Parameters
 | portlist | With multi-port specifications, you can specify a list of ports. If you do, only those components will be displayed that are associated with one of the specified ports.<br><br>If you specify a port list, the setup_comp_1 parameter will be ignored. | With multi-port specifications, you can specify a list of ports. If you do, only those components will be displayed that are associated with one of the specified ports.<br><br>If you specify a port list, the setup_comp_1 parameter will be ignored. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98729_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98729_2.htm`。
 
 The following table explains the interpretation of the setup_comp_1 and setup_comp_2 parameters for every accepted value pair of the spec_type and type parameters:
 
@@ -25393,7 +25393,7 @@ The following table explains the interpretation of the setup_comp_1 and setup_co
 | ANA | RSET | Not allowed | routing set |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98729_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98729_2.htm`。
 
 ### Example 1（取自子主题 Level Setup Commands › List of level setup commands › SDSC  -  Set number DeSCriptions）
 
@@ -25438,7 +25438,7 @@ SLDO {order}, [report]
 | operation | This is the mode of operation. SAVE returns values for everything that can be set. | This is the mode of operation. SAVE returns values for everything that can be set. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98735_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98735_2.htm`。
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › SLDO -  Switch Level and Dps Order）
 
@@ -25567,7 +25567,7 @@ SPST {spec_type},, {"multi-port_spec"}, {status}
 | status | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98743_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98743_2.htm`。
 
 Status bits for the status parameter
 | Bit | Description | Value |
@@ -25633,7 +25633,7 @@ In this last example, a multi-port specification is queried. The answer says tha
 | pinlist | By this extra parameter, you can modify the runtime definitions for an individual pin. Note that you cannot retrieve the pin specific values with SVLR?.<br><br>Note You can use the pinlist parameter to modify the value of a spec variable of an individual pin, temporarily. If you make a new modification on a different spec variable, only the last modification is kept while the previous spec variable is reset to the setup value defined in the spec file. To make a permanent modification on a spec variable, specify all pins (that is, @) as the pinlist. Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset. | By this extra parameter, you can modify the runtime definitions for an individual pin. Note that you cannot retrieve the pin specific values with SVLR?.<br><br>Note You can use the pinlist parameter to modify the value of a spec variable of an individual pin, temporarily. If you make a new modification on a different spec variable, only the last modification is kept while the previous spec variable is reset to the setup value defined in the spec file. To make a permanent modification on a spec variable, specify all pins (that is, @) as the pinlist. Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98764_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98764_2.htm`。
 
 ### Example 1（取自子主题 Level Setup Commands › List of level setup commands › SVLR  SVLR  -  Spec VaLues at Runtime）
 
@@ -25813,7 +25813,7 @@ This example causes the MCD to wait 1 ms (1000 µs) for the PMU relay to close b
 | SWR | SWR | - All resources will be deleted<br>- All pin definitions will be deleted.<br>- The instrument will have its reset bit toggled.<br>- The instrument will be set to its default state. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98882_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98882_2.htm`。
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › RST -  ReSeT）
 
@@ -25827,7 +25827,7 @@ Resets the software and the hardware.
 
 The following figure exemplifies the structure of equation based timing by a schematic setup:
 
- !`Timing Specifications`（raw: `../../../../raw/10596.png`）
+ !`Timing Specifications`（raw: `../../../../agent-html/10596.png`）
 
 ### Example（取自子主题 Timing Setup Commands › Concepts of timing setup › Defining the timing specification）
 
@@ -25861,7 +25861,7 @@ APRM {mode}
 | mode | CNL | Conditional activation, depends on previous activation performed by APRM or by any of the commands in the second list above. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98485_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98485_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › APRM -  Activate PRiMary sets）
 
@@ -25907,7 +25907,7 @@ BWDF {wvf_set|"wavetable_name"|specset_id|"multiport_spec"}, {a1}, {a2}, {a3}, {
 | pinlist | The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. | The name of the pin or pins for which break waveform definitions are to be made or read back. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98497_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98497_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › BWDF  BWDF  -  Break Waveform DeFinition）
 
@@ -25994,7 +25994,7 @@ CDCP {cycle}, {dev_cyc_name}, {dev_cyc_len}, {DD1}, {DD2}, {ED1}, {ED2}, {(pinli
 | ED1 and ED2 | UC | Unclear. The system may return this value to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98499_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98499_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › CDCP  -  Cycle Device Cycle Parameter）
 
@@ -26337,7 +26337,7 @@ EQFS {spec_type}, {part}, {operation},{"eqn_filename"}, ["error_filename"]
 | error_filename | The absolute filename of the file to which error reports are written.<br><br>Use UI_REPORT to direct error reports to the report window.<br><br>If this parameter is not specified, only a summarized error message is reported. | The absolute filename of the file to which error reports are written.<br><br>Use UI_REPORT to direct error reports to the report window.<br><br>If this parameter is not specified, only a summarized error message is reported. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98592_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98592_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › EQFS -  EQuation FileS command transfer）
 
@@ -26532,7 +26532,7 @@ EUDS {waveform_set}, {definition_string}, {(pinlist)}
 | pinlist | The name of the pin or pins for which edge usage definitions are to be read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98601_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98601_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › EUDS  -  Edge Usage Definition String）
 
@@ -26607,7 +26607,7 @@ FTCG {parameter}, {mode}, {(portlist)}
 | portlist | In the command, specify a list of ports, separated by commas. Note that the ports are treated as representatives of their sequencing groups. Activation will be suppressed, allowed, or enforced not only for the specified ports, but for all member ports of the sequencing groups to which the specified ports belong in the current setup.<br><br>In the query, specify @@, which stands for all ports. | In the command, specify a list of ports, separated by commas. Note that the ports are treated as representatives of their sequencing groups. Activation will be suppressed, allowed, or enforced not only for the specified ports, but for all member ports of the sequencing groups to which the specified ports belong in the current setup.<br><br>In the query, specify @@, which stands for all ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98606_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98606_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › FTCG  FTCG  -  Functional Test ConfiGure）
 
@@ -26729,7 +26729,7 @@ PDIV {specset_id|"multi-port_spec"}, {period_div}
 | pinlist | This parameter is only applicable to fast pins. For standard pins,`-1` is returned. | This parameter is only applicable to fast pins. For standard pins,`-1` is returned. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98684_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98684_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › PDIV  -  Period DIVider）
 
@@ -26790,7 +26790,7 @@ RSET {specifier}
 | specifier | MTPP | Resets memory test and per-pin sequencer subroutine data. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98723_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98723_3.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › RSET -  ReSET）
 
@@ -26878,7 +26878,7 @@ Parameters
 | portlist | With multi-port specifications, you can specify a list of ports. If you do, only those components will be displayed that are associated with one of the specified ports.<br><br>If you specify a port list, the setup_comp_1 parameter will be ignored. | With multi-port specifications, you can specify a list of ports. If you do, only those components will be displayed that are associated with one of the specified ports.<br><br>If you specify a port list, the setup_comp_1 parameter will be ignored. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98729_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98729_3.htm`。
 
 The following table explains the interpretation of the setup_comp_1 and setup_comp_2 parameters for every accepted value pair of the spec_type and type parameters:
 
@@ -26898,7 +26898,7 @@ The following table explains the interpretation of the setup_comp_1 and setup_co
 | ANA | RSET | Not allowed | routing set |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98729_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98729_3.htm`。
 
 ### Example 1（取自子主题 Timing Setup Commands › List of timing setup commands › SDSC  -  Set number DeSCriptions）
 
@@ -27181,7 +27181,7 @@ SPST {spec_type},, {"multi-port_spec"}, {status}
 | status | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98743_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98743_3.htm`。
 
 Status bits for the status parameter
 | Bit | Description | Value |
@@ -27288,7 +27288,7 @@ STRS GE,2,,
 | pinlist | By this extra parameter, you can modify the runtime definitions for an individual pin. Note that you cannot retrieve the pin specific values with SVLR?.<br><br>Note You can use the pinlist parameter to modify the value of a spec variable of an individual pin, temporarily. If you make a new modification on a different spec variable, only the last modification is kept while the previous spec variable is reset to the setup value defined in the spec file. To make a permanent modification on a spec variable, specify all pins (that is, @) as the pinlist. Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset. | By this extra parameter, you can modify the runtime definitions for an individual pin. Note that you cannot retrieve the pin specific values with SVLR?.<br><br>Note You can use the pinlist parameter to modify the value of a spec variable of an individual pin, temporarily. If you make a new modification on a different spec variable, only the last modification is kept while the previous spec variable is reset to the setup value defined in the spec file. To make a permanent modification on a spec variable, specify all pins (that is, @) as the pinlist. Otherwise, to change the value of a spec variable of an individual pin permanently, you have to use a specset for each pin and modify the spec variable in that specset. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98764_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98764_3.htm`。
 
 ### Example 1（取自子主题 Timing Setup Commands › List of timing setup commands › SVLR  SVLR  -  Spec VaLues at Runtime）
 
@@ -27429,7 +27429,7 @@ TSUX {waveform_set},{timing_set}
 | timing_set | NONE | This command parameter sets the value of TSUX back to 1 for the specified waveform set. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98818_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98818_2.htm`。
 
 ### UPTD（取自子主题 Timing Setup Commands › List of timing setup commands › UPTD  UPTD  -  UP To Date）
 
@@ -27487,7 +27487,7 @@ VCLK {autocorrect}
 | autocorrect | 1 | Auto-correction will occur. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98844_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98844_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › VCLK  -  Verify CLocK）
 
@@ -27550,7 +27550,7 @@ VDCG {wavetable_name}, {dev_cyc_name}, {dev_cyc_len}
 | dev_cyc_len | Always 1 for SmarTest 7.10. | Always 1 for SmarTest 7.10. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98846_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98846_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › VDCG  -  Verify Device Cycle for Group）
 
@@ -27591,7 +27591,7 @@ VTIM {status}
 | status | 1 | The timing is the same. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98862_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98862_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › VTIM  -  Verify TIMing）
 
@@ -27692,7 +27692,7 @@ VWFS {status}, {(pinlist)}
 |  | 1 | The waveform sets are compatible. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98864_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98864_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › VWFS  -  Verify WaveForm Sets）
 
@@ -27756,7 +27756,7 @@ WAVE {wvf_set|"wavetable_name"|specset_id|"multi-port_spec"}, {wfIndex}, [DD1], 
 | ALLOW_EQ | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. | This extra parameter allows you to define physical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.<br><br>Note also the following:<br><br>- Every runtime change will affect all specifications that use the respective wavetable.<br>- Since the new waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.<br>- The runtime definitions are not checked for consistency. It is up to the user to ensure this. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98869_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98869_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WAVE  WAVE  -  WAVEform）
 
@@ -27802,7 +27802,7 @@ Parameters
 | pinlist | The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with commas. | The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with commas. | The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with commas. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98871_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98871_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WFDF  WFDF  -  WaveForm DeFinition）
 
@@ -28116,7 +28116,7 @@ WSDM {waveform_set}, {display_mode}
 | portlist | For multiport specifications, you can specify the ports for which the vector setup display mode is to be returned. | For multiport specifications, you can specify the ports for which the vector setup display mode is to be returned. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98877_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98877_2.htm`。
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WSDM  WSDM  -  Waveform Set Display Mode）
 
@@ -28162,7 +28162,7 @@ This example sets the number of used waveform sets to 3.
 
 The following figure shows the label definitions of the standard example and the corresponding sections of the sequencer area for the default port @:
 
- !`Label Definitions and Sequencer Area`（raw: `../../../../raw/120222.png`）
+ !`Label Definitions and Sequencer Area`（raw: `../../../../agent-html/120222.png`）
 
 Since the default port contains all configured pins, the sequencer area on the right side of this figure is stored in the memory of all pins.
 
@@ -28170,7 +28170,7 @@ Since the default port contains all configured pins, the sequencer area on the r
 
 The following figure illustrates the case where one pin belongs to more than one port:
 
- !`Vector areas for pin belonging to two ports`（raw: `../../../../raw/114615.png`）
+ !`Vector areas for pin belonging to two ports`（raw: `../../../../agent-html/114615.png`）
 
 Observe the following points in this figure:
 
@@ -28183,7 +28183,7 @@ Observe the following points in this figure:
 
 The following figure displays the relations between the sequencer program and the vector areas of the standard example, and also illustrates the various concepts introduced to describe the structure of these areas:
 
- !`Vector areas`（raw: `../../../../raw/120207.png`）
+ !`Vector areas`（raw: `../../../../agent-html/120207.png`）
 
 The left side of the figure shows a section of the sequencer area for the default port @. It contains the sequencer programs for two labels (command line 4 through 8 and line 9 through 12). The right side displays the associated segments of the vector areas for the pins IN1 and OUT1.
 
@@ -28318,7 +28318,7 @@ APTS {"label"}, {type}, {base_wf_set|"wavetable"|specset_id|"multiport_spec"} [,
 | port | This parameter fulfills two functions. It primarily determines the port with which the label is to be associated. If you do not specify a port, the label is associated with the default port @.<br><br>If you have entered a multiport specification as the third parameter, the parameter also serves to identify uniquely the base wavetable for the label. | This parameter fulfills two functions. It primarily determines the port with which the label is to be associated. If you do not specify a port, the label is associated with the default port @.<br><br>If you have entered a multiport specification as the third parameter, the parameter also serves to identify uniquely the base wavetable for the label. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98316_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98316_2.htm`。
 
 ### Example 1（取自子主题 Vector Setup Commands › List of vector setup commands › APTS -  APpend TeSt）
 
@@ -28453,7 +28453,7 @@ BLUP {"name"}, {type}, {state},
 |  | CHNG | Label was changed. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98490_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98490_2.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › BLUP -  BLock UP to date）
 
@@ -28922,7 +28922,7 @@ DMAS MFRP, {SM|SMEXT}, {pool_size}, {(pool_channels)}
 | pool_channels | The channels of the pool to which the channels of those ports belong that are specified in the query. | The channels of the pool to which the channels of those ports belong that are specified in the query. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98566_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98566_2.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › DMAS  DMAS  -  Define Memory Area Size）
 
@@ -28993,7 +28993,7 @@ DPPC {name}, {parameter}, [value], {(pinlist)}
 | pinlist | Pins for which a per-pin subroutine is valid. | Pins for which a per-pin subroutine is valid. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98567_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98567_2.htm`。
 
 ### DPPS（取自子主题 Vector Setup Commands › List of vector setup commands › DPPS  DPPS  -  Define Per Pin Subroutine label）
 
@@ -29146,7 +29146,7 @@ GETA {type}, {param_1}, {param_2}, {applic}, {start_addr}, {length}, {(pinlist)}
 | length | A reply parameter. It returns an integer giving the remaining active vectors of the sequencer construct starting from the queried vector. | A reply parameter. It returns an integer giving the remaining active vectors of the sequencer construct starting from the queried vector. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98613_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98613_2.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › GETA  -  GET vector memory Address information）
 
@@ -29273,7 +29273,7 @@ RSET {specifier}
 | specifier | MTPP | Resets memory test and per-pin sequencer subroutine data. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98723_4.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98723_4.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › RSET -  ReSET）
 
@@ -29313,7 +29313,7 @@ SAOF {mode|"label"}
 | label | If you call SAOF with a label name, you can generate a vector file for this label only. | If you call SAOF with a label name, you can generate a vector file for this label only. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98726_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98726_2.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › SAOF  SAOF  -  Set Alternating Operation Features）
 
@@ -29407,7 +29407,7 @@ SQGB {mode}, [analyze_delay][, (port)]
 | port_list | If the current mode requires an analyze delay, you can specify a port list in the query. The reply will give the calculated analyze delays for those ports that are not used as the reference port. These delays are derived from the analyze delay of the reference port and the ratio between the period lengths of the reference port and the other port in the primary timing setup. If you specify @@, SQGB will return the settings for all ports of the current start label. | If the current mode requires an analyze delay, you can specify a port list in the query. The reply will give the calculated analyze delays for those ports that are not used as the reference port. These delays are derived from the analyze delay of the reference port and the ratio between the period lengths of the reference port and the other port in the primary timing setup. If you specify @@, SQGB will return the settings for all ports of the current start label. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98746_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98746_2.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › SQGB  SQGB  -  SeQuencer GloBal）
 
@@ -29455,7 +29455,7 @@ SQLAtype, {"name"},{"attr_key_1=attr_val_1, attr_key_2=attr_val_2} [,attr_key_3=
 | port | This parameter is only evaluated if you specify ALL for the second parameter in the query. In this case, SQLA? will return the attributes of those labels that are associated with the ports specified here. The default for this parameter is the default port @ to which all pins belong.<br><br>Specify @@ to display attributes for all labels of all ports. | This parameter is only evaluated if you specify ALL for the second parameter in the query. In this case, SQLA? will return the attributes of those labels that are associated with the ports specified here. The default for this parameter is the default port @ to which all pins belong.<br><br>Specify @@ to display attributes for all labels of all ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/103621_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/103621_2.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › SQLA  SQLA  -  SeQuencer Label Attribute）
 
@@ -29523,7 +29523,7 @@ Parameters
 | port | The name of the port for which the label is defined. If you do not specify a port, the label will be defined for the default port @, to which all pins belong. | The name of the port for which the label is defined. If you do not specify a port, the label will be defined for the default port @, to which all pins belong. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98748_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98748_2.htm`。
 
 ### Example 1（取自子主题 Vector Setup Commands › List of vector setup commands › SQLB  SQLB  -  SeQuencer LaBel definition）
 
@@ -30326,7 +30326,7 @@ SQST {seq_state}
 | exec_context | An execution context. In the command, this parameter can only be added to the sequencer state RUN and the instruction ABRT. It must be added if ABRT is specified. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .<br><br>If the query is issued without a context, then RUN will be returned if there is at least one context that is in the RUN state. | An execution context. In the command, this parameter can only be added to the sequencer state RUN and the instruction ABRT. It must be added if ABRT is specified. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .<br><br>If the query is issued without a context, then RUN will be returned if there is at least one context that is in the RUN state. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98752_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98752_2.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › SQST  SQST  -  SeQuencer STate）
 
@@ -30392,7 +30392,7 @@ Note Executing `SREC ACT,(@)` may cause excessive overhead. You can use the `UI_
 | pinlist | The name of the pin or pins to be masked. This parameter may also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） or by `DFGE, DFGE? - (DeFine Group Expressions)`（raw: `02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md`）. If more than one pin is to be included, the names must be separated with a comma. Pins in pinlist can be O or IO pin types. The @ character sets the mask for all pins of these types. | The name of the pin or pins to be masked. This parameter may also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） or by `DFGE, DFGE? - (DeFine Group Expressions)`（raw: `02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md`）. If more than one pin is to be included, the names must be separated with a comma. Pins in pinlist can be O or IO pin types. The @ character sets the mask for all pins of these types. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98754_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98754_2.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › SREC  SREC  -  Set RECeiver mask）
 
@@ -30513,7 +30513,7 @@ VDCG {wavetable_name}, {dev_cyc_name}, {dev_cyc_len}
 | dev_cyc_len | Always 1 for SmarTest 7.10. | Always 1 for SmarTest 7.10. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98846_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98846_3.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › VDCG  -  Verify Device Cycle for Group）
 
@@ -30618,7 +30618,7 @@ Parameters
 | #spec(data) | Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:<br><br>Type # to mark the start of the data block.<br><br>Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.<br><br>The compressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character (`\x0A`). | Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:<br><br>Type # to mark the start of the data block.<br><br>Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.<br><br>The compressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character (`\x0A`). |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98850_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98850_2.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › VECC  VECC  -  VECtor download Compressed）
 
@@ -30672,7 +30672,7 @@ Parameters
 | #spec(data) | Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:<br><br>Type # to mark the start of the data block.<br><br>Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.<br><br>The uncompressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character. One byte represents one vector. | Vector data in binary format. This parameter allows you to define the length of data (in bytes) to be transferred and must be used as follows:<br><br>Type # to mark the start of the data block.<br><br>Type the number of digits for the length specifier (max. 9 digits) and then type the number of bytes to be transferred.<br><br>The uncompressed vector bytes are sent immediately after the length specifier and terminated by a linefeed character. One byte represents one vector. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98853_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98853_2.htm`。
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › VECD  VECD  -  VECtor Download）
 
@@ -30730,7 +30730,7 @@ This example displays the sequencer instructions of the selected label before ca
 
 The following example shows a binary search for the left boundary (FAIL/PASS transition) with a minimal pass count of 5 (a dot denotes PASS):
 
- !`Embedded timing search`（raw: `../../../../raw/124091.png`）
+ !`Embedded timing search`（raw: `../../../../agent-html/124091.png`）
 
 Note the following points in the graphic:
 
@@ -30774,7 +30774,7 @@ CYRM {resolution_mode},[error_limit], {(pinlist)}
 | pinlist | The pin or pins to which this mode will be applied. You can also specify one or more pin groups or ports. | The pin or pins to which this mode will be applied. You can also specify one or more pin groups or ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98515_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98515_2.htm`。
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › CYRM  CYRM  -  CYcle Resolution Mode）
 
@@ -31009,7 +31009,7 @@ DRLS {value_specifier}, {result_value}
 | result_value | The result value is the level (in mV) of the last passed test. | The result value is the level (in mV) of the last passed test. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98576_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98576_2.htm`。
 
 ### Example 1（取自子主题 AC Testing Commands › List of AC test function commands › DRLS  -  DRive Level Sensitivity）
 
@@ -31449,7 +31449,7 @@ Parameters
 | fail_value | The first (in a PASS/FAIL transition) or the last (in a FAIL/PASS transition) spec value or edge position where the test failed.<br><br>If only a fail value is returned, the test always failed. | The first (in a PASS/FAIL transition) or the last (in a FAIL/PASS transition) spec value or edge position where the test failed.<br><br>If only a fail value is returned, the test always failed. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98724_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98724_2.htm`。
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › RSSR  -  Retrieve Spec Search Results）
 
@@ -31490,7 +31490,7 @@ Parameters
 | pinlist_<number> | The name of the pin or pins to be applied. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）command. If more than one pin is to be included, the names must be separated with a comma. The @ character indicates all pins. | The name of the pin or pins to be applied. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）command. If more than one pin is to be included, the names must be separated with a comma. The @ character indicates all pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98732_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98732_2.htm`。
 
 ### Example 1（取自子主题 AC Testing Commands › List of AC test function commands › SHSP  SHSP  -  SHmoo SPecs）
 
@@ -31589,7 +31589,7 @@ SQGB {mode}, [analyze_delay][, (port)]
 | port_list | If the current mode requires an analyze delay, you can specify a port list in the query. The reply will give the calculated analyze delays for those ports that are not used as the reference port. These delays are derived from the analyze delay of the reference port and the ratio between the period lengths of the reference port and the other port in the primary timing setup. If you specify @@, SQGB will return the settings for all ports of the current start label. | If the current mode requires an analyze delay, you can specify a port list in the query. The reply will give the calculated analyze delays for those ports that are not used as the reference port. These delays are derived from the analyze delay of the reference port and the ratio between the period lengths of the reference port and the other port in the primary timing setup. If you specify @@, SQGB will return the settings for all ports of the current start label. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98746_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98746_3.htm`。
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › SQGB  SQGB  -  SeQuencer GloBal）
 
@@ -31632,7 +31632,7 @@ Note Executing `SREC ACT,(@)` may cause excessive overhead. You can use the `UI_
 | pinlist | The name of the pin or pins to be masked. This parameter may also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） or by `DFGE, DFGE? - (DeFine Group Expressions)`（raw: `02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md`）. If more than one pin is to be included, the names must be separated with a comma. Pins in pinlist can be O or IO pin types. The @ character sets the mask for all pins of these types. | The name of the pin or pins to be masked. This parameter may also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） or by `DFGE, DFGE? - (DeFine Group Expressions)`（raw: `02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md`）. If more than one pin is to be included, the names must be separated with a comma. Pins in pinlist can be O or IO pin types. The @ character sets the mask for all pins of these types. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98754_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98754_3.htm`。
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › SREC  SREC  -  Set RECeiver mask）
 
@@ -31741,7 +31741,7 @@ TOCF {search_type} {resource_type}, {start}, {number_of_steps}, {step_width}, {r
 | setup_pinlist | This parameter defines the pins the edge positions of which are to be changed. If an input pin is specified, the O or IO pins on which the outcome of a search step is to depend must be defined with TOCR.<br><br>Note also that the edge type specified with the edge_type parameter must be in line with the pin type. | This parameter defines the pins the edge positions of which are to be changed. If an input pin is specified, the O or IO pins on which the outcome of a search step is to depend must be defined with TOCR.<br><br>Note also that the edge type specified with the edge_type parameter must be in line with the pin type. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/124942_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/124942_2.htm`。
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › TOCF  TOCF  -  Timing Level Offset search ConFiguration）
 
@@ -31857,7 +31857,7 @@ TORN {status}
 |  | ABORTED | The search was canceled by the user. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/125309_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/125309_2.htm`。
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › TORN  -  Timing level Offset search RuN）
 
@@ -32009,7 +32009,7 @@ TTRS {value_specifier}, [pass_value], [fail_value], {(pinlist)}
 | fail_value | The fail_value is the time (in ns) at which the last failed test occurs. A fail value is only returned for if value_specifier is EQ, LT, or GT. | The fail_value is the time (in ns) at which the last failed test occurs. A fail value is only returned for if value_specifier is EQ, LT, or GT. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98819_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98819_2.htm`。
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › TTRS  -  Time TRansition Search）
 
@@ -32026,7 +32026,7 @@ The graphic below illustrates the recommended setup. The MSET WAIT parameter ext
 
 The amount of required waiting time must be optimized manually. It depends on the application (settling time, capacitors) and on the type of DC operation.
 
- !`DC measurement using PPMU and DPS`（raw: `../../../../raw/134900.png`）
+ !`DC measurement using PPMU and DPS`（raw: `../../../../agent-html/134900.png`）
 
 ### Syntax（取自子主题 DC Measurement Commands › List of DC measurement commands › CSAS  -  Channel Slot Accumulated Status）
 
@@ -32177,7 +32177,7 @@ CTXT {DEFINE},{"name"}
 | name | The name of the mode context. If the action parameter is set to DELETE, you can also specify ALL to delete all mode contexts. | The name of the mode context. If the action parameter is set to DELETE, you can also specify ALL to delete all mode contexts. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98513_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98513_3.htm`。
 
 ### Example（取自子主题 DC Measurement Commands › List of DC measurement commands › CTXT  CTXT  -  ConTeXT）
 
@@ -32377,7 +32377,7 @@ This parameter specifies (in mV) the maximum pass value of the test. It defines 
 | pinlist | The parameters defined by the DFCT command are applied to all the pins named in pinlist. If more than one pin is to be included, the names must be separated with a comma. Pinlist can contain pins configured as O, I, IO, or DC pin types. The @ character can be used to specify all relevant pins. | The parameters defined by the DFCT command are applied to all the pins named in pinlist. If more than one pin is to be included, the names must be separated with a comma. Pinlist can contain pins configured as O, I, IO, or DC pin types. The @ character can be used to specify all relevant pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98542_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98542_2.htm`。
 
 ### Example（取自子主题 DC Measurement Commands › List of DC measurement commands › DFCT -  DeFine Continuity Test）
 
@@ -32714,7 +32714,7 @@ Parameters
 | pinlist | Target pin or pins for act. If more than one pin is to be included, the names must be separated by a comma. pinlist can contain digital pins configured as O, I, IO, or DC pin types. | Target pin or pins for act. If more than one pin is to be included, the names must be separated by a comma. pinlist can contain digital pins configured as O, I, IO, or DC pin types. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98657_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98657_2.htm`。
 
 ### Example（取自子主题 DC Measurement Commands › List of DC measurement commands › MSET  MSET  -  definition of Measurement SET）
 
@@ -32833,7 +32833,7 @@ Parameters
 | result | The result is P (pass), or F (fail) for a Fo_Se specification. | The result is P (pass), or F (fail) for a Fo_Se specification. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98685_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98685_2.htm`。
 
 ### Example 1: Test of the site in query focus（取自子主题 DC Measurement Commands › List of DC measurement commands › PDMM  -  PDps Miscellaneous Measurement）
 
@@ -33226,7 +33226,7 @@ PSER [setnr], [result], {(pinlist)}, {binary_data}
 | binary_data | The binary data result string. The string starts with the '#' character, followed by a digit in the range 1 to 9 which stipulates how many digits are used in the data length specifier. The data length specifier is next - up to 9 digits determine how many bytes of data will follow. Then comes the actual data string which appears as a list of values separated by a "," (comma). The first byte of data is an identifier which defines the format of the following data. For a waveform the first byte is '\x00' with the waveform represented as FLOAT64 values. Each value is in Amps [A]. | The binary data result string. The string starts with the '#' character, followed by a digit in the range 1 to 9 which stipulates how many digits are used in the data length specifier. The data length specifier is next - up to 9 digits determine how many bytes of data will follow. Then comes the actual data string which appears as a list of values separated by a "," (comma). The first byte of data is an identifier which defines the format of the following data. For a waveform the first byte is '\x00' with the waveform represented as FLOAT64 values. Each value is in Amps [A]. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98697_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98697_2.htm`。
 
 ### Example 1（取自子主题 DC Measurement Commands › List of DC measurement commands › PSER  -  Power Supply External trigger measurement Read results）
 
@@ -33342,7 +33342,7 @@ PSST {state} [, (pinlist)]
 | pinlist | Specifies the pins for which the DPS is switched on/off. | Specifies the pins for which the DPS is switched on/off. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98710_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98710_2.htm`。
 
 ### Example 1（取自子主题 DC Measurement Commands › List of DC measurement commands › PSST  PSST  -  Power Supply STatus）
 
@@ -33577,7 +33577,7 @@ CDCP {cycle}, {dev_cyc_name}, {dev_cyc_len}, {DD1}, {DD2}, {ED1}, {ED2}, {(pinli
 | ED1 and ED2 | UC | Unclear. The system may return this value to indicate that the interpretation of the device cycle for that parameter is unclear, that is, the physical waveforms are inconsistent for the device cycle. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98499_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98499_3.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › CDCP  -  Cycle Device Cycle Parameter）
 
@@ -33618,7 +33618,7 @@ CHER {res_flag}, [MUX,] {(pinlist)}
 | res_flag | P | The last functional test performed on the specified pins passed. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98500_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98500_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › CHER  -  CHeck ERrors）
 
@@ -33658,7 +33658,7 @@ CHFA {res_flag}, [MUX,] {(pinlist)}
 | pinlist | List of pins. If more than one pin is included, the names must be separated by a comma. All pins in pinlist must be of O or IO type. | List of pins. If more than one pin is included, the names must be separated by a comma. All pins in pinlist must be of O or IO type. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98501_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98501_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › CHFA  -  CHannel FAil flag）
 
@@ -34507,7 +34507,7 @@ CYRM {resolution_mode},[error_limit], {(pinlist)}
 | pinlist | The pin or pins to which this mode will be applied. You can also specify one or more pin groups or ports. | The pin or pins to which this mode will be applied. You can also specify one or more pin groups or ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98515_3.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98515_3.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › CYRM  CYRM  -  CYcle Resolution Mode）
 
@@ -34540,7 +34540,7 @@ CYRP {recovery},{shots}
 | shots | MULT | Additional shots are allowed. This is the default. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98516_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98516_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › CYRP  -  CYcle Resolution Parameter）
 
@@ -34565,7 +34565,7 @@ CYRS {result_state}, {(pinlist)}
 | pinlist | The pin or pin list for which the result state is to be returned. Only O or IO pins will be taken into consideration. | The pin or pin list for which the result state is to be returned. Only O or IO pins will be taken into consideration. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98517_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98517_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › CYRS  -  CYcle Resolution State）
 
@@ -34604,7 +34604,7 @@ DCEL? {DCRT}, {parameter}, {action}, {(pinlist)}
 | pinlist | In the command, these are the pins that are to be added to or deleted from the exception list. In the query, DCEL? returns the subset of the specified pins that is included in the exception list. Instead of a pin list, you can also specify one or more pin groups. | In the command, these are the pins that are to be added to or deleted from the exception list. In the query, DCEL? returns the subset of the specified pins that is included in the exception list. Instead of a pin list, you can also specify one or more pin groups. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/128210_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/128210_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › DCEL  DCEL  -  Digital Compare Exception List）
 
@@ -34869,7 +34869,7 @@ The default is 4096.
 | U | 01 | 10 | 11 | 00 |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98524_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98524_2.htm`。
 
 "I" stands for "Intermediate", and "U" stands for "Unstable". Note that you can reconstruct the received result from the expected result and the error code.
 
@@ -34958,7 +34958,7 @@ DCRP {error_map_pos},{(port)}
 |  | EXEC | The configuration of the last executed test is returned. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98525_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98525_2.htm`。
 
 ### Example 1（取自子主题 Test Result Commands › List of test result commands › DCRP  DCRP  -  Digital Compare Result Positioning）
 
@@ -35018,7 +35018,7 @@ Parameters
 | port_list | Specifies the ports for which the capacity of the Error Map is to be returned. If you specify @@, DCRS? will return the capacity for all ports. | Specifies the ports for which the capacity of the Error Map is to be returned. If you specify @@, DCRS? will return the capacity for all ports. | Specifies the ports for which the capacity of the Error Map is to be returned. If you specify @@, DCRS? will return the capacity for all ports. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98526_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98526_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › DCRS  -  Digital Compare Result Size）
 
@@ -35077,7 +35077,7 @@ DCRT {target},{(port)}
 |  | EXEC | EXEC | The configuration of the last executed test is returned. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98527_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98527_2.htm`。
 
 ### Examples（取自子主题 Test Result Commands › List of test result commands › DCRT  DCRT  -  Digital Compare Result Target）
 
@@ -35126,7 +35126,7 @@ EAEX {start_cycle}, {no_of_cycles}, {timing_set}, [err_type], {(pinlist)}, {#spe
 |  | Each of the following edge actions is described by two bytes:<br><br>- First byte, bit 7: Channel selector for differential pins. The first channel has the value 0, the second the value 1.<br>- First byte, bits 6, 5, 4, 3: Waveform index (0 - 9)<br>- First byte, bits 2, 1, 0: Edge index (0 - 7)<br>- Second byte, bit 7: Error flag<br><br>0: No error on receive edge, or a drive edge<br><br>1: Cannot occur since only expected data are reported<br><br>- Second byte, bits 6, 5: Data parameter<br><br>00: Fixed value<br><br>10: Data parameter 1<br><br>11: Data parameter 2<br><br>01: Reserved for future use<br><br>- Second byte, bit 4: Edge direction<br><br>0: Drive/tri-state edge<br><br>1: Receive edge<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 0, then drive/tri-state data:<br><br>Bits 3, 2: Tri-state data<br><br>00: Not used<br><br>10: Tri-state off<br><br>11: Tri-state on<br><br>01: Reserved for future use<br><br>Bits 1, 0: Drive data<br><br>00: Not used<br><br>10: Drive 0<br><br>11: Drive 1<br><br>01: Reserved for future use<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 1, then receive data compare method:<br><br>0001: Edge compare to intermediate<br><br>0010: Edge compare to 0<br><br>0011: Edge compare to 1<br><br>0100: Edge compare to mask<br><br>0101: Edge compare to unstable<br><br>1001: Window compare to intermediate<br><br>1010: Window compare to 0<br><br>1011: Window compare to 1<br><br>1100: Window compare to mask<br><br>1101: Window compare to unstable<br><br>1111: Window close<br><br>0000: Reserved for future use<br><br>0111: Reserved for future use<br><br>1000: Reserved for future use | Each of the following edge actions is described by two bytes:<br><br>- First byte, bit 7: Channel selector for differential pins. The first channel has the value 0, the second the value 1.<br>- First byte, bits 6, 5, 4, 3: Waveform index (0 - 9)<br>- First byte, bits 2, 1, 0: Edge index (0 - 7)<br>- Second byte, bit 7: Error flag<br><br>0: No error on receive edge, or a drive edge<br><br>1: Cannot occur since only expected data are reported<br><br>- Second byte, bits 6, 5: Data parameter<br><br>00: Fixed value<br><br>10: Data parameter 1<br><br>11: Data parameter 2<br><br>01: Reserved for future use<br><br>- Second byte, bit 4: Edge direction<br><br>0: Drive/tri-state edge<br><br>1: Receive edge<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 0, then drive/tri-state data:<br><br>Bits 3, 2: Tri-state data<br><br>00: Not used<br><br>10: Tri-state off<br><br>11: Tri-state on<br><br>01: Reserved for future use<br><br>Bits 1, 0: Drive data<br><br>00: Not used<br><br>10: Drive 0<br><br>11: Drive 1<br><br>01: Reserved for future use<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 1, then receive data compare method:<br><br>0001: Edge compare to intermediate<br><br>0010: Edge compare to 0<br><br>0011: Edge compare to 1<br><br>0100: Edge compare to mask<br><br>0101: Edge compare to unstable<br><br>1001: Window compare to intermediate<br><br>1010: Window compare to 0<br><br>1011: Window compare to 1<br><br>1100: Window compare to mask<br><br>1101: Window compare to unstable<br><br>1111: Window close<br><br>0000: Reserved for future use<br><br>0111: Reserved for future use<br><br>1000: Reserved for future use |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98581_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98581_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › EAEX  -  Edge Action EXpected data）
 
@@ -35196,7 +35196,7 @@ EARD {start_cycle}, {no_of_cycles}, {type}, [err_type], {(pinlist)}, [MUX,] {#sp
 |  |  |  | The codes for "reconstruction not possible" are only returned if the edge failed in single-ended standard mode with one bit results. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98582_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98582_2.htm`。
 
 ### Example 1（取自子主题 Test Result Commands › List of test result commands › EARD  -  Edge Action Result Data）
 
@@ -35218,7 +35218,7 @@ Byte A is the same for all edges and says that the edge is associated with a fix
 
 The EARD? answer will be split if the requested cycle range is greater than the available error map information, as shown below:
 
- !`Example`（raw: `../../../../raw/11910.png`）
+ !`Example`（raw: `../../../../agent-html/11910.png`）
 
 ```
 > EARD? 0,15000, (pin1)
@@ -35254,7 +35254,7 @@ EARE? {start_cycle}, {no_of_cycles}, {timing_set}, [err_type],{(pinlist)}, {#spe
 |  | Each of the following edge actions is described by two bytes:<br><br>- First byte, bit 7: Channel selector for differential pins. The first channel has the value 0, the second the value 1.<br>- First byte, bits 6, 5, 4, 3: Waveform index (always 0)<br>- First byte, bits 2, 1, 0: Edge index (0 - 7)<br>- Second byte, bit 7: Error flag<br><br>0: No error on receive edge, or a drive edge<br><br>1: Error on receive edge. (The system returns this only if err_type is ERON.) In case of a failing window compare, both the window open edge and the window close edge are marked.<br><br>- Second byte, bits 6, 5: Data parameter<br><br>00: Fixed value<br><br>10: Data parameter 1<br><br>11: Data parameter 2<br><br>01: Reserved for future use<br><br>- Second byte, bit 4: Edge direction<br><br>0: Drive/tri-state edge<br><br>1: Receive edge<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 0, then drive/tri-state data:<br><br>Bits 3, 2: Tri-state data<br><br>00: Not used<br><br>10: Tri-state off<br><br>11: Tri-state on<br><br>01: Reserved for future use<br><br>Bits 1, 0: Drive data<br><br>00: Not used<br><br>10: Drive 0<br><br>11: Drive 1<br><br>01: Reserved for future use<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 1, then receive data compare method:<br><br>0001: Edge compare to intermediate<br><br>0010: Edge compare to 0<br><br>0011: Edge compare to 1<br><br>0100: Edge compare to mask<br><br>0101: Edge compare to unstable<br><br>0110: Edge compare, reconstruction not possible<br><br>1001: Window compare to intermediate<br><br>1010: Window compare to 0<br><br>1011: Window compare to 1<br><br>1100: Window compare to mask<br><br>1101: Window compare to unstable<br><br>1110: Window compare, reconstruction not possible<br><br>1111: Window close<br><br>0000: Reserved for future use<br><br>0111: Reserved for future use<br><br>1000: Reserved for future use | Each of the following edge actions is described by two bytes:<br><br>- First byte, bit 7: Channel selector for differential pins. The first channel has the value 0, the second the value 1.<br>- First byte, bits 6, 5, 4, 3: Waveform index (always 0)<br>- First byte, bits 2, 1, 0: Edge index (0 - 7)<br>- Second byte, bit 7: Error flag<br><br>0: No error on receive edge, or a drive edge<br><br>1: Error on receive edge. (The system returns this only if err_type is ERON.) In case of a failing window compare, both the window open edge and the window close edge are marked.<br><br>- Second byte, bits 6, 5: Data parameter<br><br>00: Fixed value<br><br>10: Data parameter 1<br><br>11: Data parameter 2<br><br>01: Reserved for future use<br><br>- Second byte, bit 4: Edge direction<br><br>0: Drive/tri-state edge<br><br>1: Receive edge<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 0, then drive/tri-state data:<br><br>Bits 3, 2: Tri-state data<br><br>00: Not used<br><br>10: Tri-state off<br><br>11: Tri-state on<br><br>01: Reserved for future use<br><br>Bits 1, 0: Drive data<br><br>00: Not used<br><br>10: Drive 0<br><br>11: Drive 1<br><br>01: Reserved for future use<br><br>- Second byte, bits 3, 2, 1, 0<br><br>If bit 4 is a 1, then receive data compare method:<br><br>0001: Edge compare to intermediate<br><br>0010: Edge compare to 0<br><br>0011: Edge compare to 1<br><br>0100: Edge compare to mask<br><br>0101: Edge compare to unstable<br><br>0110: Edge compare, reconstruction not possible<br><br>1001: Window compare to intermediate<br><br>1010: Window compare to 0<br><br>1011: Window compare to 1<br><br>1100: Window compare to mask<br><br>1101: Window compare to unstable<br><br>1110: Window compare, reconstruction not possible<br><br>1111: Window close<br><br>0000: Reserved for future use<br><br>0111: Reserved for future use<br><br>1000: Reserved for future use |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98583_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98583_2.htm`。
 
 If reconstruction is not possible (code 110 on bits 2, 1, 0), there has been more than one edge or window compare within a single test system cycle.
 
@@ -35285,7 +35285,7 @@ The device cycle contains 1 waveform with 4 edge actions. The edge actions are R
 
 The EARE? answer will be split if the requested cycle range is greater than the available error map information, as shown below:
 
- !`Example`（raw: `../../../../raw/11910.png`）
+ !`Example`（raw: `../../../../agent-html/11910.png`）
 
 ```
 EARE? 0,15000, (pin1)
@@ -35480,7 +35480,7 @@ In case of failure, a more detailed two bit code will be returned.
 
 The received data can be reconstructed from the expected data and the error code as follows:
 
-  !`Parameters`（raw: `../../../../raw/57171.png`）
+  !`Parameters`（raw: `../../../../agent-html/57171.png`）
 
 "I" stands for "Intermediate" and "U" for "Unstable".
 
@@ -35666,7 +35666,7 @@ This example shows the format of the binary data that is returned by EMAP?. The 
 | 2. block | 1F | 31 | 0B | 11 | For example:<br><br>edge 1 (80 = 10000000) in cycle 31<br><br>edges 1,3 (A0 = 10100000) in cycle 35 |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98590_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98590_2.htm`。
 
 For each cycle, all 8 edges are reported. The first block is closed because 13 passing cycles (= 13 bytes) lie between the failed cycle 17 and the next failed cycle 31.
 
@@ -35939,7 +35939,7 @@ ERCT {type}, {valid_code}, {no_of_errors}, [map_mode], [MUX,] {(pinlist)}
 | pinlist | The command returns the error count only for pins specified in pinlist. If more than one pin is to be included, the names must be separated by a comma. All pins in pinlist must be O or IO types. | The command returns the error count only for pins specified in pinlist. If more than one pin is to be included, the names must be separated by a comma. All pins in pinlist must be O or IO types. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98595_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98595_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › ERCT  -  ERror CounT）
 
@@ -35998,7 +35998,7 @@ Parameters
 | pinlist | The pin name or names for which error cycles are to be retrieved. If more than one pin is required, the names must be separated with a comma. The @ character can be used to retrieve the data for all configured pins. | The pin name or names for which error cycles are to be retrieved. If more than one pin is required, the names must be separated with a comma. The @ character can be used to retrieve the data for all configured pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98596_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98596_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › ERCY  -  ERror CYcle）
 
@@ -36930,7 +36930,7 @@ GETX {type}, {label}, {vector}, {cycle}, [index], {(pinlist)}
 | pinlist | Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated with a comma. You can type the character @ to obtain data for all pins. | Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated with a comma. You can type the character @ to obtain data for all pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98618_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98618_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › GETX  -  GET eXtended vector information）
 
@@ -37004,7 +37004,7 @@ Note The result (pass or fail) is returned for each pin specified in pins indivi
 | res_flag | P | If this result is returned, all pins in pin_list or port passed the last test. In the case of per pin query (using PPIN command) , a pass is returned if the individual pin specified in pins passed the last test. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98681_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98681_2.htm`。
 
 Application
 
@@ -37069,7 +37069,7 @@ SQGB {mode}, [analyze_delay][, (port)]
 | port_list | If the current mode requires an analyze delay, you can specify a port list in the query. The reply will give the calculated analyze delays for those ports that are not used as the reference port. These delays are derived from the analyze delay of the reference port and the ratio between the period lengths of the reference port and the other port in the primary timing setup. If you specify @@, SQGB will return the settings for all ports of the current start label. | If the current mode requires an analyze delay, you can specify a port list in the query. The reply will give the calculated analyze delays for those ports that are not used as the reference port. These delays are derived from the analyze delay of the reference port and the ratio between the period lengths of the reference port and the other port in the primary timing setup. If you specify @@, SQGB will return the settings for all ports of the current start label. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98746_4.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98746_4.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › SQGB  SQGB  -  SeQuencer GloBal）
 
@@ -37154,7 +37154,7 @@ VALD {map_state}, {map_id}, {start}, {number}, {(pinlist)}
 | number | This is an integer that indicates the number of cycles recorded, or for the LMAP option of map_id, the number of label calls recorded. If ERRM, RECD or DERR have been selected, the range for this parameter depends on whether the internal or the external error map is used. For the internal error map, it is 0 to 8191; for the external error map the upper limit can be higher. When EOLY has been selected, the upper limit is 2^48.<br><br>For the `Pin Scale 5000 card`（raw: `../02.05_Test_Head_Cards/02.05.04.02_Pin_Scale_5000_card.md`）, the upper limit is 4096.<br><br>In the reply, this parameter indicates the number of cycles (or label calls) which have been read. If a 0 is returned, no data is available for the given range. | This is an integer that indicates the number of cycles recorded, or for the LMAP option of map_id, the number of label calls recorded. If ERRM, RECD or DERR have been selected, the range for this parameter depends on whether the internal or the external error map is used. For the internal error map, it is 0 to 8191; for the external error map the upper limit can be higher. When EOLY has been selected, the upper limit is 2^48.<br><br>For the `Pin Scale 5000 card`（raw: `../02.05_Test_Head_Cards/02.05.04.02_Pin_Scale_5000_card.md`）, the upper limit is 4096.<br><br>In the reply, this parameter indicates the number of cycles (or label calls) which have been read. If a 0 is returned, no data is available for the given range. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98841_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98841_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › VALD  -  VALid Data）
 
@@ -37564,7 +37564,7 @@ Parameters
 | no_of_cycles | This parameter is an integer which defines the total number of valid cycles. | This parameter is an integer which defines the total number of valid cycles. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98861_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98861_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › VRCS  -  Valid ReConStruction）
 
@@ -37635,7 +37635,7 @@ Parameters
 | #spec(data) | 111 | Window close |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98873_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98873_2.htm`。
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › WFEX  -  WaveForm EXpected data）
 
@@ -37717,7 +37717,7 @@ Parameters
 | #spec(data) | 111 | Window close |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98874_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98874_2.htm`。
 
 If reconstruction is not possible (code 110 on bits 2, 1, 0), there has been more than one edge or window compare within a single test system cycle.
 
@@ -37748,7 +37748,7 @@ The edge actions are RZ on the drive edges 1 and 2 and a failed window compare (
 
 The WFRE? answer will be split if the requested cycle range is greater than the available error map information, as shown below:
 
- !`Example`（raw: `../../../../raw/23378.png`）
+ !`Example`（raw: `../../../../agent-html/23378.png`）
 
 ```
 WFRE? 0,15000, (pin1)
@@ -38446,7 +38446,7 @@ UTSC {(word)}, {mode} [, maskMode]
 | maskMode | MASK | Enables the mask mode. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/124715_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/124715_2.htm`。
 
 ### Example（取自子主题 Utility Line Commands › List of utility line commands › UTSC  UTSC  -  UTility line Serial Configuration）
 
@@ -38644,7 +38644,7 @@ The following figures show the basic principles for period and pulse width measu
 
 The second example illustrates a measurement where rising and falling edges are sampled alternately. This is the basis for measurements of the positive or negative pulse width. No discard before the first measurement has been defined. The graphic only illustrates the case of the positive pulse width.
 
- !`Pulse width measurement with the ppTMU`（raw: `../../../../raw/127185.png`）
+ !`Pulse width measurement with the ppTMU`（raw: `../../../../agent-html/127185.png`）
 
 Note the following points with respect to alternate sampling of rising and falling edges:
 
@@ -38726,7 +38726,7 @@ Properties and their values
 | THRESHOLD_B | This optional property defines the voltage threshold for a second shot. It is only needed for (two shot) rise time and fall time measurements.<br><br>It must not be defined if NUM_SHOTS is set to 1.<br><br>Note that the original level setup is automatically restored after the measurement has been finished. | This optional property defines the voltage threshold for a second shot. It is only needed for (two shot) rise time and fall time measurements.<br><br>It must not be defined if NUM_SHOTS is set to 1.<br><br>Note that the original level setup is automatically restored after the measurement has been finished. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/125467_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/125467_2.htm`。
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSCF  TSCF  -  TMU Set ConFiguration）
 
@@ -39426,7 +39426,7 @@ This example queries if the current primary timing is consistent to the TMU set 
 
 The following figure illustrates the principle by a very simple example with deterministic phase distortion (common mode drift):
 
- !`Pattern iteration for source-synchronous testing`（raw: `../../../../raw/84881.png`）
+ !`Pattern iteration for source-synchronous testing`（raw: `../../../../agent-html/84881.png`）
 
 In this example, the pattern is repeated eight times. This is a certain redundancy since every cycle has passed at least in one shot already after the third shot. If unnecessary shots are to be avoided, the overall result would have to be checked after each shot.
 
@@ -39465,7 +39465,7 @@ SSAC {read_mode},[nr_of_results],[(ref_pin}],{(pinlist)}
 | pinlist | The pins that are to be configured as buffer pins. | The pins that are to be configured as buffer pins. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98755_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98755_2.htm`。
 
 ### Example（取自子主题 Commands for Processing Results of Source Synchronous Testing › List of commands for source synchronous testing › SSAC  SSAC  -  Source Synchronous testing  Add Configuration）
 
@@ -39521,7 +39521,7 @@ Parameters
 | source_pins | The pins whose results are to be combined. Note that the Error Map for these pins must be located in RDRAM (DCRT command). | The pins whose results are to be combined. Note that the Error Map for these pins must be located in RDRAM (DCRT command). |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98756_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98756_2.htm`。
 
 ### Example（取自子主题 Commands for Processing Results of Source Synchronous Testing › List of commands for source synchronous testing › SSCT  SSCT  -  Source Synchronous data  Combine and Transfer）
 
@@ -39698,7 +39698,7 @@ Note that the result granularity has been set to 8, so that every bit of the SST
 
 ### Example（取自子主题 Commands for the protocol engine per pin › Overview of the protocol engine per pin › Drift and transition tracking）
 
-!`Transition tracking`（raw: `../../../../raw/146398.png`）
+!`Transition tracking`（raw: `../../../../agent-html/146398.png`）
 
 This example picks up the example of `Overview of the protocol engine per pin`（raw: `02.06.15.01_Overview_of_the_protocol_engine_per_pin.md`）. Five observation windows are shown. There are last CD transitions in the first and third window. The fourth window has its last internal transition between A and B in the third sub-window.
 
@@ -40365,7 +40365,7 @@ Information types and subtypes
 | SYNC_VALUES | This item returns how many received bits were skipped for initial synchronization at test start (subtype INITIAL) or after a switch of an IO pin from drive to receive mode (subtype SUBSEQUENT). | This item returns how many received bits were skipped for initial synchronization at test start (subtype INITIAL) or after a switch of an IO pin from drive to receive mode (subtype SUBSEQUENT). |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/116688_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/116688_2.htm`。
 
 ### Example（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTDB  -  Transition Test DeBug information）
 
@@ -40449,7 +40449,7 @@ TTMD {specset_id|"multi-port_spec"}, {timing_set}, {tt_mode}, [clk_fwd], {(pinli
 | pinlist | The name of the pin or pins for which the protocol engine mode is to be retrieved. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by a comma.<br><br>In a multiport setup, every pin must belong to a port of the specified specification. | The name of the pin or pins for which the protocol engine mode is to be retrieved. This parameter can also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated by a comma.<br><br>In a multiport setup, every pin must belong to a port of the specified specification. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/116966_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/116966_2.htm`。
 
 ### Example（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTMD  -  Transition Test MoDe query）
 
@@ -40955,7 +40955,7 @@ TTVD {"tt_name"}, {VALID|INVALID}, {(pinlist)}
 
 ### Example（取自子主题 Commands for jitter injection › Principles of jitter injection）
 
-!`Predefined jitter modulation waveforms`（raw: `../../../../raw/117826.png`）
+!`Predefined jitter modulation waveforms`（raw: `../../../../agent-html/117826.png`）
 
 These are three of the four predefined jitter modulation waveforms that are available on a Smart Scale system.
 
@@ -41194,7 +41194,7 @@ MSCF {"modulation_set_name"}, {"property"}, {"property_value"}
 
 The following example shows a Fibonacci and a Galois LFSR for the same connection polynomial 1 + x + x3 (which corresponds to the recurrence relation sn+3 = sn+2 + sn), and also the PRBSs that they create from the seed 001. The rightmost column displays the output sequence in both cases.
 
- !`Fibonacci and Galois LFSR`（raw: `../../../../raw/118399.png`）
+ !`Fibonacci and Galois LFSR`（raw: `../../../../agent-html/118399.png`）
 
 Both LFSRs create basically the same periodic PRBS. But in order to generate the same sequence right from the start, they must be initialized with different seeds. If the seed of the Fibonacci LFSR is 100 (in the output order), the seed of the Galois LFRS must be 110 in the output order.
 
@@ -41283,7 +41283,7 @@ Parameters
 | pinlist | The name of the pin or pins for which the SmartLoop™configuration is to be retrieved. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. | The name of the pin or pins for which the SmartLoop™configuration is to be retrieved. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/118445_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/118445_2.htm`。
 
 ### Example 1（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › LBMD  -  LoopBack MoDe）
 
@@ -41362,7 +41362,7 @@ PRCF {"PRBS_set_name"}, {property}, {"property_value"}, {(pinlist)}
 | pinlist | Specifies the pins to which pin this configuration is to be applied. | Specifies the pins to which pin this configuration is to be applied. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/118218_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/118218_2.htm`。
 
 ### Example（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRCF  PRCF  -  Pseudo Random bit sequence ConFiguration）
 
@@ -41443,7 +41443,7 @@ PRMD {wvf_set|"wavetable_name"|specset_id|"multi_port_spec"|PRM}, {prbs_mode}, [
 | pinlist | The name of the pin or pins for which the PRBS configuration is to be retrieved. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. | The name of the pin or pins for which the PRBS configuration is to be retrieved. The symbol @ can be used to specify all configured input and IO pins. If more than one pin is to be included, the names must be separated with a comma. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/118425_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/118425_2.htm`。
 
 ### Example 1（取自子主题 Commands for PRBS per pin tests and loopback tests › List of commands for PRBS per pin and loopback tests › PRMD  -  PRBS MoDe）
 
@@ -41570,7 +41570,7 @@ ASWM {command}, {mode}
 | mode |  |  |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98487_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98487_2.htm`。
 
 ### Example（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › ASWM  ASWM  -  Auto SWing Mode）
 
@@ -41689,7 +41689,7 @@ PTDS {channelNo}, [EBT_specifier], {set_specifier}, {timing_set}, [tweaking_set]
 | definition_string | Definition string for the logical edges. | Definition string for the logical edges. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98713_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98713_2.htm`。
 
 ### Example（取自子主题 Calibration and Attributes Commands › List of calibration and attributes commands › PTDS  PTDS  -  Pin attributes Tweaking Definition String）
 

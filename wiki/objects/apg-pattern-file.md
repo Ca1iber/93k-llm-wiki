@@ -641,7 +641,7 @@ the test pattern**」——**`.apg` 是「谁引用谁」那张图的顶点。**
 
 `sources:` 一篇：
 `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.02_APG_pattern_file.md`
-（`68403.htm`，3,197 字节，80 行）——**整篇读完**。
+（`68403.htm`，3,204 字节，80 行）——**整篇读完**。
 
 **本页做了什么、没做什么**：
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,879 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03_Running_a_testflow.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03.04_Measuring_the_test_time.md>`。**不是转述。**
+> 本节 **2,893 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03_Running_a_testflow.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.02.03.04_Measuring_the_test_time.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,7 +32,7 @@ A simple testflow comprises two test suites, cont and func, in this order. cont 
 
 When the testflow is not optimized, the output of the debug mode 3 is shown as below.
 
- !`Debug 3 Output for unoptimized testflow`（raw: `../../../../raw/94560.png`）
+ !`Debug 3 Output for unoptimized testflow`（raw: `../../../../agent-html/94560.png`）
 
 Observe the following points in the listing:
 
@@ -43,7 +43,7 @@ Observe the following points in the listing:
 
 The second figure displays the results after the testflow has been optimized:
 
- !`Debug mode 3 output for optimized testflow`（raw: `../../../../raw/94561.png`）
+ !`Debug mode 3 output for optimized testflow`（raw: `../../../../agent-html/94561.png`）
 
 Observe the following points in this listing:
 

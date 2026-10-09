@@ -200,7 +200,7 @@ D2S、BADC 不支持——**哪些组合能一起用，本页不推断**，需�
 ## 出处
 
 - 定义文档：`03_Use_cases_and_application_papers/03.03_How_to_use_Multiport_for_specific_Applications/03.03.05.09_CCT_Multiport_Sequencer_Synchronizer_API.md`
-  （TDC `148142.htm`，5,713 字节）
+  （TDC `148142.htm`，5,720 字节）
 - 入边 43 篇：`extract/pack/02-cct-multiport-sequencer-synchronizer-api.md`
 - ⚠️ **语法节的来历要更正**（2026-09-18）。本页初版这一节写的是
   **「这一页没有……定义文档里没有 `Syntax` / `Parameters` 段落，所以不写语法」**——

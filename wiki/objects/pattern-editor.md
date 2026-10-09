@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **10,675 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02_Pattern_Editor.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.01_Collapsed_and_expanded_mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.02_Signal_and_pin_group_representations.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.03_Pattern_editor_properties_view.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.04.03_STATEMAP_section_of_the_wavetable.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.01_Inserting_counted_match_loops.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.16_Creating_a_Digital_Source_setup.md>`。**不是转述。**
+> 本节 **10,752 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02_Pattern_Editor.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.01_Collapsed_and_expanded_mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.02_Signal_and_pin_group_representations.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.03_Pattern_editor_properties_view.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.04.03_STATEMAP_section_of_the_wavetable.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.10.01_Inserting_counted_match_loops.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.16_Creating_a_Digital_Source_setup.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -30,19 +30,19 @@ verified: doc-only
 
 The following two figures show the same pattern in collapsed mode and in expanded mode.
 
- !`Collapsed mode`（raw: `../../../../raw/101904.png`）
+ !`Collapsed mode`（raw: `../../../../agent-html/101904.png`）
 
 The pattern contains the sequencer instruction RPTV 3 2, which means the next three vectors are performed twice.
 
 In the figure below, which shows the same pattern in expanded mode, you can see the resolved sequencer instruction and the Cycle# column.
 
- !`Expanded mode`（raw: `../../../../raw/101911.png`）
+ !`Expanded mode`（raw: `../../../../agent-html/101911.png`）
 
 ### Example（取自子主题 Signal and pin group representations）
 
 The following figure shows the signals Pin 1, Pin 2 and Pin 3 in three different formats. The signal column headers contain the signal name (for example Pin 1) and the format (SC, DVC, PW).
 
- !`Pattern Editor showing xN example pattern`（raw: `../../../../raw/100465.png`）
+ !`Pattern Editor showing xN example pattern`（raw: `../../../../agent-html/100465.png`）
 
 ### Examples（取自子主题 Pattern editor properties view）
 
@@ -50,7 +50,7 @@ The following figure shows the signals Pin 1, Pin 2 and Pin 3 in three different
 
 The graphic below shows the properties of a vector in device cycle (DVC) format.
 
- !`Device cycle properties view`（raw: `../../../../raw/129366.png`）
+ !`Device cycle properties view`（raw: `../../../../agent-html/129366.png`）
 
 On vector properties views you cannot edit any parameters. Do this in the pattern editor.
 
@@ -72,17 +72,17 @@ Any abbreviations you may use in your wavetables, are translated into the proper
 
 The graphic below shows the properties of a test point, in this case the highlighting of a force value in a dynamic DC test setup.
 
- !`Specifying the Force Value in the Properties view`（raw: `../../../../raw/113304.png`）
+ !`Specifying the Force Value in the Properties view`（raw: `../../../../agent-html/113304.png`）
 
 The properties view of a dynamic DC measure test point will also show the measure result. See below:
 
- !`Pattern editor properties view example`（raw: `../../../../raw/114630.png`）
+ !`Pattern editor properties view example`（raw: `../../../../agent-html/114630.png`）
 
 ### Vector variable properties
 
 The properties view of a vector variable (see below) allows to edit for example, the assigned pins, the transfer mode, and other parameters. To display additional data upload formatting parameters (Upload Parameters) click the Show Advanced Properties icon. For a definition of the vector variable parameters see `Creating a Digital Capture setup`（raw: `02.08.01.02.07.02.05.01_Creating_a_Digital_Capture_setup.md`）.
 
- !`Vector variable properties view`（raw: `../../../../raw/116397.png`） Note The Upload Parameters shown here are the last which were used by the system. If you stop a testflow at a particular test suite and then open the pattern editor, the vector variable data is shown exactly as it was last uploaded from any test method or any command line operation.
+ !`Vector variable properties view`（raw: `../../../../agent-html/116397.png`） Note The Upload Parameters shown here are the last which were used by the system. If you stop a testflow at a particular test suite and then open the pattern editor, the vector variable data is shown exactly as it was last uploaded from any test method or any command line operation.
 
 ### Examples（取自子主题 DUT oriented view - xN and x1 N mode › STATEMAP section of the wavetable）
 
@@ -195,13 +195,13 @@ It allows to assign the same state character to different tester waveforms (wave
 
 Note that the compare event shown below in row 67, is supported by DPS128 only. In this example the Compare Type is set to High.
 
- !`Counted match loop in pattern editor`（raw: `../../../../raw/122707.png`）
+ !`Counted match loop in pattern editor`（raw: `../../../../agent-html/122707.png`）
 
 ### Examples（取自子主题 Pattern Editor tasks › Creating a Digital Source setup）
 
 ### Digital Source setup of audio device
 
- !`Data frame format of audio device`（raw: `../../../../raw/22434.png`）
+ !`Data frame format of audio device`（raw: `../../../../agent-html/22434.png`）
 
 Setup in the Setup Wizard
  |
@@ -342,7 +342,7 @@ The semicolon means only the bits of frame section #2 and #4 included in the sou
 
 ### VVC of video device
 
- !`Data frame format of video device`（raw: `../../../../raw/112781.png`）
+ !`Data frame format of video device`（raw: `../../../../agent-html/112781.png`）
 
 Setup in the Setup Wizard
  |
@@ -493,7 +493,7 @@ MAPPING
 
 ### VVC of parallel audio device
 
- !`Data frame format of parallel audio device`（raw: `../../../../raw/112784.png`）
+ !`Data frame format of parallel audio device`（raw: `../../../../agent-html/112784.png`）
 
 Setup in the Setup Wizard
  |
@@ -892,7 +892,7 @@ MAPPING
 
 - 定义文档（本页 `sources:` 唯一一篇，**整篇读过**）：
   `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02_Pattern_Editor.md`
-  （TDC `99157.htm`，5,287 字节 / 137 行）。
+  （TDC `99157.htm`，5,427 字节 / 137 行）。
 - **本篇没有重复投放**：全语料按 `source_topic` 查 `99157.htm`，**只有这一个文件**。
 
 ### 本页「语法 / 参数」节的来源（**那一节不是本页写的，也不来自定义文档**）

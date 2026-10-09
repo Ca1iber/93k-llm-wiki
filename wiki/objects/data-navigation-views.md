@@ -63,7 +63,7 @@ tab, the buttons are disabled."* —— **即：最前面的 tab 不是（动态
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,461 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02_Data_navigation_views.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.05_Software_bin_summary_tab.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.06_Table_filter.md>`。**不是转述。**
+> 本节 **1,468 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02_Data_navigation_views.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.05_Software_bin_summary_tab.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.06_Table_filter.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -75,7 +75,7 @@ tab, the buttons are disabled."* —— **即：最前面的 tab 不是（动态
 
 Depending on your preference settings, the bin summary could look like this:
 
- !`Data log summary view_SW Bin Summary`（raw: `../../../../raw/136421.png`）
+ !`Data log summary view_SW Bin Summary`（raw: `../../../../agent-html/136421.png`）
 
 ### Syntax（取自子主题 Table filter）
 
@@ -151,7 +151,7 @@ You can use both simple numbers and ranges. For example, 3~,3 finds all rows wit
 ## 出处
 
 - 定义文档：`02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02_Data_navigation_views.md`
-  （TDC `136308.htm`，5,687 字节）
+  （TDC `136308.htm`，5,757 字节）
 - 入边 45 篇的来源与原句：`extract/pack/01-data-navigation-views.md`
 - ⚠️ **语法节的来历要更正**（2026-09-18）。本页初版这一节写的是
   **「无。这是 GUI 视图，不是命令、不是 API，没有参数表」**——

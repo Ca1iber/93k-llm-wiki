@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **605 字符逐字取自** `<02_System_reference/02.10_Data_Logging/02.10.01.06_Event_Data_Logging_Format__EDF.md>` 及其子主题 `<02_System_reference/02.10_Data_Logging/02.10.01.06.05.54_TestConditionAttrType.md>`。**不是转述。**
+> 本节 **619 字符逐字取自** `<02_System_reference/02.10_Data_Logging/02.10.01.06_Event_Data_Logging_Format__EDF.md>` 及其子主题 `<02_System_reference/02.10_Data_Logging/02.10.01.06.05.54_TestConditionAttrType.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -28,7 +28,7 @@ verified: doc-only
 
 ### Syntax（取自子主题 Attribute types › TestConditionAttrType）
 
-!`TestConditionAttrType structure`（raw: `../../../../raw/127716.png`）
+!`TestConditionAttrType structure`（raw: `../../../../agent-html/127716.png`）
 
 | Field name | Data type | Description | Comments |
 |---|---|---|---|
@@ -39,7 +39,7 @@ verified: doc-only
 | Value | string | Value of the condition |  |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/127714.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/127714.htm`。
 
 <!-- 语法节 end -->
 

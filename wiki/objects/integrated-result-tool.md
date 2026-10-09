@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **11,013 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13_Integrated_Result_Tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.03_Merging_data_logs.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.04_Correlating_data_logs.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.06_Exporting_data_logs.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.01_Sorting_tables.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.03_Highlighting_specific_data.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.05_Separating_summary_results_by_wafer__site__or_pin.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.02_Excluding_data_from_evaluation.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.04_Examining_the_underlying_data_of_an_analysis_view.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.05_Software_bin_summary_tab.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.06_Table_filter.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.01_Alerts_preference_settings.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.06_CSV_Export_command_line_tool.md>`。**不是转述。**
+> 本节 **11,083 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13_Integrated_Result_Tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.03_Merging_data_logs.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.04_Correlating_data_logs.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.02.06_Exporting_data_logs.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.01_Sorting_tables.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.03_Highlighting_specific_data.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.03.05_Separating_summary_results_by_wafer__site__or_pin.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.02_Excluding_data_from_evaluation.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.02.04.04_Examining_the_underlying_data_of_an_analysis_view.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.05_Software_bin_summary_tab.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.02.06_Table_filter.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.05.01_Alerts_preference_settings.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.13.03.06_CSV_Export_command_line_tool.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -149,7 +149,7 @@ If you export CSV file from the data log mylog.stdf and specify in the Export Da
 
 The following screen shot shows an example of correctly exported raw data (when the All Raw Data option is selected before exporting data log).
 
-  !`Data Log Explorer view_Export RAW Data Example`（raw: `../../../../raw/353295.jpg`）
+  !`Data Log Explorer view_Export RAW Data Example`（raw: `../../../../agent-html/353295.jpg`）
 
 ### Examples（取自子主题 Using the Integrated Result Tool › Working with result data tables › Sorting tables）
 
@@ -157,7 +157,7 @@ The following screen shot shows an example of correctly exported raw data (when 
 
 Clicking the title of the Max column twice sorts the table in descending order by that column:
 
- !`Data log summary view_Sorting example`（raw: `../../../../raw/137064.png`）
+ !`Data log summary view_Sorting example`（raw: `../../../../agent-html/137064.png`）
 
 ### Sorting by multiple columns
 
@@ -165,23 +165,23 @@ To sort a table by the Device number column and sort all rows with the same devi
 
 - Click the title of the Device number column, so that it shows an upward-pointing triangle.
 - Click the title of the Time column, so that it, too, shows an upward-pointing triangle.
- !`Data log summary view_Sorting example, multiple columns`（raw: `../../../../raw/147881.png`）
+ !`Data log summary view_Sorting example, multiple columns`（raw: `../../../../agent-html/147881.png`）
 
 ### Example（取自子主题 Using the Integrated Result Tool › Working with result data tables › Highlighting specific data）
 
 If the display of fails in the left and right margins is switched on, the display of alerts is switched off, and this condition is defined:
 
- !`Preferences window_Alerts, sample condition`（raw: `../../../../raw/136455.png`）
+ !`Preferences window_Alerts, sample condition`（raw: `../../../../agent-html/136455.png`）
 
 Then a raw data view might look like this:
 
- !`Raw data view_Sample view`（raw: `../../../../raw/136456.png`）
+ !`Raw data view_Sample view`（raw: `../../../../agent-html/136456.png`）
 
 ### Example（取自子主题 Using the Integrated Result Tool › Working with result data tables › Separating summary results by wafer  site  or pin）
 
 In the following image of a test summary tab grouped by wafer, the two highlighted rows display results from the same test but for different wafers (1 and 3). In an ungrouped tab, these results would be displayed as a single row.
 
- !`Data log summary view_Grouping example`（raw: `../../../../raw/137405.png`）
+ !`Data log summary view_Grouping example`（raw: `../../../../agent-html/137405.png`）
 
 ### Example（取自子主题 Using the Integrated Result Tool › Analyzing test results › Excluding data from evaluation）
 
@@ -189,19 +189,19 @@ In the example below, all but one row in the raw data view for the selected row 
 
 The Integrated Result Tool behaves as if these rows were not present. For example, the Device# column shows just one device (instead of three).
 
- !`Data log summary view|Raw data view_Sample deselected data`（raw: `../../../../raw/137005.png`）
+ !`Data log summary view|Raw data view_Sample deselected data`（raw: `../../../../agent-html/137005.png`）
 
 ### Example（取自子主题 Using the Integrated Result Tool › Analyzing test results › Examining the underlying data of an analysis view）
 
 This image shows part of the underlying data of a trend graph.
 
- !`Trend Chart view_Sample statistics`（raw: `../../../../raw/137406.png`）
+ !`Trend Chart view_Sample statistics`（raw: `../../../../agent-html/137406.png`）
 
 ### Example（取自子主题 Integrated Result Tool reference › Data navigation views › Software bin summary tab）
 
 Depending on your preference settings, the bin summary could look like this:
 
- !`Data log summary view_SW Bin Summary`（raw: `../../../../raw/136421.png`）
+ !`Data log summary view_SW Bin Summary`（raw: `../../../../agent-html/136421.png`）
 
 ### Syntax（取自子主题 Integrated Result Tool reference › Data navigation views › Table filter）
 
@@ -238,7 +238,7 @@ Check Enable Condition in the Condition 1 section and specify this condition:
 - First drop-down list: Min
 - Second drop-down list: <
 - Text field: 2.4
-- Color: !`Preferences window_Alerts_color patch`（raw: `../../../../raw/136331.png`）
+- Color: !`Preferences window_Alerts_color patch`（raw: `../../../../agent-html/136331.png`）
 
 All rows in the summary view will be highlighted in orange that have a value below 2.4 in the Min column.
 

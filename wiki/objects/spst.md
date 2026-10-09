@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,740 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`。**不是转述。**
+> 本节 **4,747 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -66,7 +66,7 @@ SPST {spec_type},, {"multi-port_spec"}, {status}
 | status | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98743_2.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98743_2.htm`。
 
 Status bits for the status parameter
 | Bit | Description | Value |

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,965 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`。**不是转述。**
+> 本节 **2,972 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -73,7 +73,7 @@ VDCG {wavetable_name}, {dev_cyc_name}, {dev_cyc_len}
 | dev_cyc_len | Always 1 for SmarTest 7.10. | Always 1 for SmarTest 7.10. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98846.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98846.htm`。
 
 ### Example
 
@@ -300,7 +300,7 @@ VDCG 1,ALL,SLEN
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md`
-  （frontmatter 的 `source_topic` 是 `98846.htm`；**5,293 字节 / 168 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98846.htm`；**5,300 字节 / 168 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 

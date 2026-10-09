@@ -430,8 +430,8 @@ raw 第 34 行就是它：`  ![Level Setup Process](<../../../../raw/56944.png>)
 依据是同类文档里 `Note` 一律是独立标签。**原文就是黏的，本页不替它切开。**
 
 **⑤ 语料里有两篇同名的 `Structure of an equation based level setup`，不是同一篇的两个投放。**
-一篇是本页的第一个 `source`（`02_System_reference/02.06_Command_Reference/` 下的那一篇，TDC `56943.htm`，1,361 字节），
-另一篇在 `02_System_reference/02.08_Setup_and_Result_Tools/` 下（TDC `16878.htm`，2,643 字节）。
+一篇是本页的第一个 `source`（`02_System_reference/02.06_Command_Reference/` 下的那一篇，TDC `56943.htm`，1,368 字节），
+另一篇在 `02_System_reference/02.08_Setup_and_Result_Tools/` 下（TDC `16878.htm`，2,650 字节）。
 **判据**：`extract/docs.jsonl` 里两篇的 `source_topic` 不同（`56943.htm` / `16878.htm`），
 而 §10 的「同源」判据要求 `source_topic` 去掉后缀后相同——
 **所以这不是重复投放，是两篇不同的文档**（这一点与 [[mapping-level]]「对不上的地方」② 那批同源投放不是一回事）。

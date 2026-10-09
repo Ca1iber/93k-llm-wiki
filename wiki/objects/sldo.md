@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,834 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`。**不是转述。**
+> 本节 **1,841 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,7 +44,7 @@ SLDO {order}, [report]
 | operation | This is the mode of operation. SAVE returns values for everything that can be set. | This is the mode of operation. SAVE returns values for everything that can be set. |
 
 > ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98735.htm`。
+> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/agent-html/98735.htm`。
 
 ### Example
 
@@ -258,7 +258,7 @@ SLDO CVDL, AMBI
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md`
-（TDC `98735.htm`；**md 2,799 字节 / 136 行**，上游 htm 5,763 字节）。**整篇读完。**
+（TDC `98735.htm`；**md 2,806 字节 / 136 行**，上游 htm 5,763 字节）。**整篇读完。**
 
 **本页没做的**：
 

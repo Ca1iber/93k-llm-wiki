@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,423 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30_Spec_Tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30.02.01_Creating_new_specification_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30.02.16.01_Global_and_local_spec_values__scope_of_the_spec_variable.md>`。**不是转述。**
+> 本节 **3,430 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30_Spec_Tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30.02.01_Creating_new_specification_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30.02.16.01_Global_and_local_spec_values__scope_of_the_spec_variable.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -34,7 +34,7 @@ Alternatively you can go <93000> <Setup> <Spec Tool>.
 
 If the Select specification window opens:
 
-  !`Select specification`（raw: `../../../../raw/131014.png`）  In the window click done.
+  !`Select specification`（raw: `../../../../agent-html/131014.png`）  In the window click done.
 
 You access `The Spec Tool window`（raw: `02.08.04.30.01_The_Spec_Tool_window.md`）.
 

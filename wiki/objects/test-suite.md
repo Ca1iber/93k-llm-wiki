@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **737 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.01_Test_suites.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.01.04_Multibin_SmartDisconnect_test_suite.md>`。**不是转述。**
+> 本节 **744 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.01_Test_suites.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.01.04_Multibin_SmartDisconnect_test_suite.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,7 +32,7 @@ verified: doc-only
 
 The Multibin SmartDisconnect test suite is a combination of a `multibin node`（raw: `../../03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.02.06.07_Use_of_multibins.md`） and a test suite and therefore offers properties that are typical for a test suite:
 
- !`Multibin SmartDisconnect test suite properties`（raw: `../../../../raw/353652.png`）  Note You must choose the `wide selection`（raw: `02.08.04.32.02.01.11.01_Narrow_selection_and_wide_selection.md`） for the node in order to inspect or change the properties of the Multibin SmartDisconnect test suite. For the narrow selection, inspecting and changing the properties is possible only for the Run and Branch node.
+ !`Multibin SmartDisconnect test suite properties`（raw: `../../../../agent-html/353652.png`）  Note You must choose the `wide selection`（raw: `02.08.04.32.02.01.11.01_Narrow_selection_and_wide_selection.md`） for the node in order to inspect or change the properties of the Multibin SmartDisconnect test suite. For the narrow selection, inspecting and changing the properties is possible only for the Run and Branch node.
 
 <!-- 语法节 end -->
 

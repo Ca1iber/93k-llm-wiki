@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **12,274 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md>` 及其子主题 `<02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.04_Mask_mode_of_sequencer-controlled_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.05_Galvanic_separation_between_utility_line_serial_interface_and_digital_pi.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.07.01_Designing_compatible_utility_lines.md>`。**不是转述。**
+> 本节 **12,323 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.04_Utility_lines.md>` 及其子主题 `<02_System_reference/02.03_DUT_board_design_reference/02.03.04.02_Utility_line_characteristics.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.04_Mask_mode_of_sequencer-controlled_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.05_Galvanic_separation_between_utility_line_serial_interface_and_digital_pi.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.05.06_Setting_up_sequencer_control_of_utility_lines.md>`、`<02_System_reference/02.03_DUT_board_design_reference/02.03.04.07.01_Designing_compatible_utility_lines.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -28,7 +28,7 @@ verified: doc-only
 
 ### Example 1: Utility line circuitry (Active wiring board of V93000 systems)（取自子主题 Utility line characteristics）
 
-The diagram shows the typical utility line interface circuitry on a system fitted with the active wiring board.Note Utility lines URW00 …nbsp;URW15 feature an additional pull-up resistor to +5 V on some utility pogo blocks. For devices with higher input impedance, we therefore strongly recommend adding an external pull-up resistor in the region of several hundred Ohms, depending on the type of device used. For more information, refer to table `Internal pull‑up resistor of utility lines`（raw: `02.03.04.02_Utility_line_characteristics.md#_21418__s_Pull-up_resistor_of_utility_lines_V93000_systems`） above.!`Utility read/write line - active wiring board`（raw: `../../../../raw/136929.png`）
+The diagram shows the typical utility line interface circuitry on a system fitted with the active wiring board.Note Utility lines URW00 …nbsp;URW15 feature an additional pull-up resistor to +5 V on some utility pogo blocks. For devices with higher input impedance, we therefore strongly recommend adding an external pull-up resistor in the region of several hundred Ohms, depending on the type of device used. For more information, refer to table `Internal pull‑up resistor of utility lines`（raw: `02.03.04.02_Utility_line_characteristics.md#_21418__s_Pull-up_resistor_of_utility_lines_V93000_systems`） above.!`Utility read/write line - active wiring board`（raw: `../../../../agent-html/136929.png`）
 
 "+5V" is the `Internal utility power supply (V93000 systems)`（raw: `02.03.05.05_Internal_utility_power_supply__V93000_systems.md`） that is available at pogo pins "UP5V" of all utility pogo blocks.
 
@@ -36,7 +36,7 @@ The diagram shows the typical utility line interface circuitry on a system fitte
 
 The diagram shows the utility line interface circuitry on a system fitted with the passive wiring board.
 
- !`Utility read/write line - passive wiring board`（raw: `../../../../raw/74690.png`）
+ !`Utility read/write line - passive wiring board`（raw: `../../../../agent-html/74690.png`）
 
 "+5V" is the `Internal utility power supply (V93000 systems)`（raw: `02.03.05.05_Internal_utility_power_supply__V93000_systems.md`） that is available at pogo pins "UP5V" of all utility pogo blocks.
 
@@ -124,9 +124,9 @@ The following example circuits use the inverting FODM8071 optocoupler together w
 - For higher data rates, we recommend reducing the value of the series resistor. However, the maximum forward current of 16 mA of the optocoupler input must be observed.
 - This arrangement adds some propagation delay to the signals of the serial interface that have to be included in the timing setup for the SOUT line. Note that variances between the propagation delays of the different lines might lead to a degradation of the maximum data rates.
 
-!`Utility line serial interface ground isolation inputs`（raw: `../../../../raw/343163.png`）
+!`Utility line serial interface ground isolation inputs`（raw: `../../../../agent-html/343163.png`）
 
-!`Utility line serial interface ground isolation output`（raw: `../../../../raw/343164.png`）
+!`Utility line serial interface ground isolation output`（raw: `../../../../agent-html/343164.png`）
 
 ### Example 1: Setup for SmarTest 7（取自子主题 Sequencer-controlled utility lines › Setting up sequencer control of utility lines）
 
@@ -159,7 +159,7 @@ Alternatively you could edit the Utility Block Size entry in the Change Device d
 Refer also to `Configuration of 4-row or 2-row utility pogo blocks`（raw: `02.03.04.07.02_Configuration_of_4-row_or_2-row_utility_pogo_blocks.md`）.
 
 Note If you were to use 4-row utility pogo blocks, the value for utility_lines_per_pogo_block would need to double.
-- Set up the pins as shown:  !`Pin configuration for the serial interface`（raw: `../../../../raw/128789.png`）
+- Set up the pins as shown:  !`Pin configuration for the serial interface`（raw: `../../../../agent-html/128789.png`）
 - Use the following code to set up the levels.
 
 ```
@@ -218,7 +218,7 @@ WAVETBL drive
         4 "r1:X"
 ```
 
-- Assign the clocking frequency for the serial control lines to your equation set and wavetable.Note The utility line controller on the wiring board is able to handle a maximum frequency of 10 MHz. The clock input to the controller is filtered and higher frequencies are ignored.  !`Assign the frequency of 10 MHz for the serial control lines`（raw: `../../../../raw/128790.png`）
+- Assign the clocking frequency for the serial control lines to your equation set and wavetable.Note The utility line controller on the wiring board is able to handle a maximum frequency of 10 MHz. The clock input to the controller is filtered and higher frequencies are ignored.  !`Assign the frequency of 10 MHz for the serial control lines`（raw: `../../../../agent-html/128790.png`）
 - Enter the pattern shown below into the Pattern editor. It shifts 16 bits into the utility line shift register via SINP. Note that one bit is represented by two vectors in the pattern. Thus the waveform at SCLK (D1) requires a 0 and a 1 to generate a single cycle, see for example vectors 4 and 5.
 
 The whole pattern is surrounded by high-Z vectors. The pattern section required to drive the 16 utility lines present on a single block starts with vector 4 and ends with vector 35. During this period the signal on FRAMn (D2) is driven to 0.
@@ -227,7 +227,7 @@ Bit 0 of SINP specifies utility line 1, bit 15 specifies utility line 16. Thus t
 
 For the mapping of utility lines on utility blocks refer to the links in `step 2`（raw: `../../03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01.05_Setting_up_sequencer_control_of_utility_lines.md#_124758__cmd_Routing_of_digital_pins`） of the procedure above. SOUT (D4) is not used and is therefore set to high-Z for all vectors in the sequence.
 
-  !`Control pattern for a single utility line block`（raw: `../../../../raw/124940.png`）  Note If you were to use 4-row utility pogo blocks, the pattern would need to be extended to shift 32 bits into the utility line shift register instead of 16. Note Entering a pattern manually can be a tedious and error-prone method, but is the simplest way if controlling just one or two utility blocks. If you need many utility lines you may consider other methods such as `d2s`（raw: `../02.07_Test_Method_Reference/02.07.09_d2s-framework.md`） or `Protocol Aware`（raw: `../02.07_Test_Method_Reference/02.07.11_Protocol_Aware_ATE.md`）.
+  !`Control pattern for a single utility line block`（raw: `../../../../agent-html/124940.png`）  Note If you were to use 4-row utility pogo blocks, the pattern would need to be extended to shift 32 bits into the utility line shift register instead of 16. Note Entering a pattern manually can be a tedious and error-prone method, but is the simplest way if controlling just one or two utility blocks. If you need many utility lines you may consider other methods such as `d2s`（raw: `../02.07_Test_Method_Reference/02.07.09_d2s-framework.md`） or `Protocol Aware`（raw: `../02.07_Test_Method_Reference/02.07.11_Protocol_Aware_ATE.md`）.
 - Add the test method code to the test method class as shown below.
 
 ```

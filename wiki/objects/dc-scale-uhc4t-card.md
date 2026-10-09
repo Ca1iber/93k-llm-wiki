@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **950 字符逐字取自** `<02_System_reference/02.05_Test_Head_Cards/02.05.05.02_DC_Scale_UHC4T_card.md>` 及其子主题 `<02_System_reference/02.05_Test_Head_Cards/02.05.05.02.04_UHC4T_hardware_overview.md>`。**不是转述。**
+> 本节 **957 字符逐字取自** `<02_System_reference/02.05_Test_Head_Cards/02.05.05.02_DC_Scale_UHC4T_card.md>` 及其子主题 `<02_System_reference/02.05_Test_Head_Cards/02.05.05.02.04_UHC4T_hardware_overview.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,7 +32,7 @@ verified: doc-only
 
 Only the UHC4T supports the Curr Limiter protection option. Therefore, only the DCS-UHC4T hardware view shows this option and the Equation Set and Spec Set fields.
 
- !`UHC4-T hardware view`（raw: `../../../../raw/146923.png`）
+ !`UHC4-T hardware view`（raw: `../../../../agent-html/146923.png`）
 
 The hardware views are interactive.
 
@@ -219,7 +219,7 @@ XPS256 的硬件视图 `354251.png` 抬头只有 `Site` / `Pin` / `Channel` / `D
 
 `sources:` 一篇：
 `02_System_reference/02.05_Test_Head_Cards/02.05.05.02_DC_Scale_UHC4T_card.md`
-（`106867.htm`，2,211 字节，37 行）——**整篇读完**。
+（`106867.htm`，2,218 字节，37 行）——**整篇读完**。
 
 **本页做了什么、没做什么**：
 

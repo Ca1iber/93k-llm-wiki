@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **50,846 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24_SmartRDI__Vector_and_protocol_programming.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.02_bitLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.04_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.06_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.07_defaultBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.08_defaultVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.09_download.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.10_emapLocation.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.11_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.12_expectBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.13_expectData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.16_failNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.18_fillBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.19_fillVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.20_insertJmpe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.21_insertSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.22_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.25_passNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.26_pMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.27_pModeStrobe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.28_readBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.29_readData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.30_rdi.smartVec__.readMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.31_repeat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.32_repeatSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.33_rdi.smartVec__.vecEditMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.34_vecLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.35_writeBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.36_writeData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.37_writeDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.38_writeParData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.39_writeParDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.40_writePat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.41_writeVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.43_getFailCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.44_getFailCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.45_getFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.46_rdi.id__.getMultiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.47_getReadBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.48_getReadData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.01.01_instruction.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.01_matchBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.02_matchCycle.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.03_matchData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.03_Retrieving_match_loop_results.md>`。**不是转述。**
+> 本节 **50,888 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24_SmartRDI__Vector_and_protocol_programming.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.02_bitLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.04_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.06_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.07_defaultBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.08_defaultVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.09_download.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.10_emapLocation.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.11_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.12_expectBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.13_expectData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.16_failNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.18_fillBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.19_fillVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.20_insertJmpe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.21_insertSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.22_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.25_passNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.26_pMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.27_pModeStrobe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.28_readBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.29_readData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.30_rdi.smartVec__.readMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.31_repeat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.32_repeatSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.33_rdi.smartVec__.vecEditMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.34_vecLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.35_writeBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.36_writeData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.37_writeDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.38_writeParData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.39_writeParDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.40_writePat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.41_writeVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.43_getFailCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.44_getFailCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.45_getFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.46_rdi.id__.getMultiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.47_getReadBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.48_getReadData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.01.01_instruction.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.01_matchBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.02_matchCycle.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.03_matchData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.03_Retrieving_match_loop_results.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -172,7 +172,7 @@ Before SmartRDI 2.4.5, the `rdi.smartVec().burstLabel().begin()/rdi.smartVec().b
 
 SmartRDI 2.4.5 supports the combination of multiple parallel `execute()` commands for specified ports by `rdi.port().smartVec().burstLabel()`. It also supports the combined usage with `portSync()`. See example below.
 
- !`burstLabel()_for_ports_with_portSync()`（raw: `../../../../raw/153089.png`）
+ !`burstLabel()_for_ports_with_portSync()`（raw: `../../../../agent-html/153089.png`）
 
 ### Syntax（取自子主题 burstUpload）
 
@@ -729,7 +729,7 @@ RDI_END();
 
 This code example inserts two subroutines into the pattern at vector 2: one subroutine for pass node and the other for fail node. See the figure below.
 
- !`insertJmpe`（raw: `../../../../raw/152409.png`）
+ !`insertJmpe`（raw: `../../../../agent-html/152409.png`）
 
 ### Example 2（取自子主题 insertJmpe）
 
@@ -809,7 +809,7 @@ RDI_END();
 
 In the example above, subroutines A and B are inserted into the main pattern at vector lines 3 and 6. subroutine C is inserted into a level 2 subroutine at vector line 9. Because the insertion is always made in the closest label when multiple subroutines exist at the target insertion level, subrountine C is inserted into subroutine B which is closer than A. The created pattern structure is as follows.
 
- !`2016-11-09_16-28-25`（raw: `../../../../raw/152255.png`）
+ !`2016-11-09_16-28-25`（raw: `../../../../agent-html/152255.png`）
 
 ### Example 2（取自子主题 insertSub）
 
@@ -1198,7 +1198,7 @@ RDI_END();
 
 With the above code, you add the target subroutine at the vector 5 for five times, as the figure below shows.
 
- !`repeatSub`（raw: `../../../../raw/152408.png`）
+ !`repeatSub`（raw: `../../../../agent-html/152408.png`）
 
 ### Syntax（取自子主题 rdi.smartVec  .vecEditMode）
 
@@ -1752,7 +1752,7 @@ RDI_END();
 
 The result vector:
 
- !`xMode crossover borders`（raw: `../../../../raw/151539.png`）
+ !`xMode crossover borders`（raw: `../../../../agent-html/151539.png`）
 
 Supporting a string from `fillBit()`（raw: `02.07.13.24.18_fillBit.md`） and `defaultBit()`（raw: `02.07.13.24.07_defaultBit.md`）.
 
@@ -1766,7 +1766,7 @@ RDI_END();
 
 The result vector:
 
- !`string_support by fillbit and defaultBit`（raw: `../../../../raw/151540.png`） Note You must define device cycle names in the corresponding wavetable.
+ !`string_support by fillbit and defaultBit`（raw: `../../../../agent-html/151540.png`） Note You must define device cycle names in the corresponding wavetable.
 
 ### Syntax（取自子主题 getFailCount）
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,504 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.07.07.01_Pogo_block_compatibility.md>`。**不是转述。**
+> 本节 **1,539 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.07.07.01_Pogo_block_compatibility.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -28,14 +28,14 @@ verified: doc-only
 
 | Standard‑density (SD) | High‑density (HD) | Very‑high‑density (VHD) |
 |---|---|---|
-| !`Pogo block - Standard-density`（raw: `../../../../raw/350391.png`） | !`Pogo block - High-density`（raw: `../../../../raw/350390.png`） | !`Pogo block - Very-high-density`（raw: `../../../../raw/350392.png`） |
+| !`Pogo block - Standard-density`（raw: `../../../../agent-html/350391.png`） | !`Pogo block - High-density`（raw: `../../../../agent-html/350390.png`） | !`Pogo block - Very-high-density`（raw: `../../../../agent-html/350392.png`） |
 |  | This is the recommended layout if you expect that your standard‑density DUT board will also be installed on systems with high‑density pogo blocks. | Digital cards and DC Scale cards with higher channel count will use the very‑high‑density pogo blocks to minimize the number of required pogo blocks per test head card.Note If you expect your new DUT board to be installed on systems with very‑high‑density (VHD) pogo blocks, we strongly recommend using this layout, even if currently only lower density pogo blocks are configured. |
 
 ### Tables（脚本逐字抽取，第 2 张）
 
 | Standard-density (SD) | High-density (HD) |
 |---|---|
-| !`Pogo block - Standard-density`（raw: `../../../../raw/354972.png`） | !`Pogo block - High-density`（raw: `../../../../raw/354971.png`） |
+| !`Pogo block - Standard-density`（raw: `../../../../agent-html/354972.png`） | !`Pogo block - High-density`（raw: `../../../../agent-html/354971.png`） |
 | This is the recommended layout if you expect that your standard‑density (SD) DUT board will also be installed on systems with high‑density (HD) pogo blocks.<br><br>If you expect that you also need to install the DUT board on a test system that is equipped with VHD type pogo blocks, use the design for the HD pogo block shown on the right. | This is the recommended layout if you expect that your high‑density (HD) DUT board will also be installed on systems with very‑high‑density (VHD) pogo blocks. |
 
 <!-- 语法节 end -->
@@ -141,7 +141,7 @@ substrate, traces, the solder stop mask or other coatings of your DUT board."*
 ## 出处
 
 - 定义文档：`02_System_reference/02.03_DUT_board_design_reference/02.03.07.07.01_Pogo_block_compatibility.md`
-  （TDC `348112.htm`，3,624 字节，33 行）
+  （TDC `348112.htm`，3,659 字节，33 行）
 - **入边 44 条 / 24 篇**——口径同 `hubs-dedup.csv`，**只算 `inline` 边**
   （目录边 `toc` 不计入；本页没有目录边）
 - 所属：**DUT board design reference**（`02.03`）

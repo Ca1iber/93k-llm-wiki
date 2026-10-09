@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,555 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01_Pattern_Explorer.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.06_Cloning_a_pattern.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.07_Moving_or_copying_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.08_Deleting_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.14.01_Moving_vectors_to_another_memory_type.md>`。**不是转述。**
+> 本节 **3,569 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01_Pattern_Explorer.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.06_Cloning_a_pattern.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.07_Moving_or_copying_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.08_Deleting_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.14.01_Moving_vectors_to_another_memory_type.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -101,11 +101,11 @@ files:
 
 "Cannot delete ..." error message:
 
- !`Error: Cannot delete because referenced ...`（raw: `../../../../raw/129371.png`）
+ !`Error: Cannot delete because referenced ...`（raw: `../../../../agent-html/129371.png`）
 
 Confirmation dialog:
 
- !`Confirm Delete dialog`（raw: `../../../../raw/129372.png`）
+ !`Confirm Delete dialog`（raw: `../../../../agent-html/129372.png`）
 
 ### Usage（取自子主题 Editing properties in the Pattern Explorer › Moving vectors to another memory type）
 

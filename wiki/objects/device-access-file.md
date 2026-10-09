@@ -645,7 +645,7 @@ these constants for easier maintenance.`
 
 `sources:` 一篇：
 `02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04_Device_access_file.md`
-（`67571.htm`，3,476 字节，101 行）——**整篇读完**。
+（`67571.htm`，3,483 字节，101 行）——**整篇读完**。
 
 **本页做了什么、没做什么**：
 
