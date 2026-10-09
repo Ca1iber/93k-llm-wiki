@@ -18,13 +18,16 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,617 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`。**不是转述。**
+> 本节 **3,892 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
 > 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
 
 ### Syntax
+
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 2 列，含 colspan 与 rowspan。
 
 ```
 PSAS? [msMode ,] {mask}, {(pinlist)}
@@ -34,6 +37,9 @@ returns
 
 ```
 PSAS {status}, {(pinlist)}
+
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
 ```
 
 Parameters
@@ -426,7 +432,7 @@ PSAS {status}, {(pinlist)}
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md`
-（TDC `98691_2.htm`，15,937 字节，257 行）。**整篇读完**，本页引文全部来自这一篇。
+（TDC `98691_2.htm`，16,382 字节，263 行）。**整篇读完**，本页引文全部来自这一篇。
 
 > **它是同一篇的第二次投放。** 同一篇还以 `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md`
 > 存在（`source_topic` 分别是 `98691_2.htm` 与 `98691.htm`）。**本页把两份逐字节比过**：

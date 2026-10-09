@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **17,438 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04_Device_access_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04.01_Device_access_file_syntax.md>`。**不是转述。**
+> 本节 **17,690 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04_Device_access_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04.01_Device_access_file_syntax.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -119,6 +119,9 @@ These are the keywords and their parameters in alphabetical order:
 
 These keywords let you specify device accesses for use in the program file (see :apgAccess:, above):
 
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102365.htm`
+> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+
 | Keyword | Parameters and descriptions |
 |---|---|
 | :interface: | Declares the interface parameter of an APG access so that you can pass values to the APG access when calling it in an `APG program file`（raw: `02.12.03.03.03_APG_program_file.md`）.<br><br>In this row, you put interface parameters into {} and separate each with a space. Values that can be transferred with interface parameters are data, key, and string.<br><br>Those parameters will be used in the `macros`（raw: `02.12.03.03.04.02_Macros_and_functions_in_device_accesses.md`）, `control instructions`（raw: `02.12.03.03.04.03_Control_instructions_in_device_accesses.md`）, and :states: in this APG access. They can also be declared but not used at all in this APG access.<br><br>Note that:<br><br>- The :name: keyword of the device access corresponds to a function name in standard C syntax<br>- The parameters declared in the :interface: keyword correspond to C function parameters. |
@@ -128,6 +131,9 @@ These keywords let you specify device accesses for use in the program file (see 
 The :table: element contains these keywords:
 
  |
+
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102365.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 2 列。
 
 Keyword
 

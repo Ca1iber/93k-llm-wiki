@@ -133,8 +133,10 @@ def expand_from_md(cover, cells, R, C):
             for r in range(R)]
 
 
-def match_merged(text, allt, bol_idx, eol_idx, rows):
-    """返回 (候选列表, 跳过原因)。候选 = (start, end, cells, flat_up, R, C, expanded, placed)。"""
+def match_merged(text, allt, bol_idx, eol_idx, rows, blocked=None):
+    """返回 (候选列表, 跳过原因)。候选 = (start, end, cells, flat_up, R, C, expanded, placed)。
+
+    ★ `blocked` 传一个 list 时，被规则挡下的那次**也把区域交出来**（见 `F.match_table`）。"""
     n_i = [len(r) for r in rows]
     R = len(rows)
     P = sum(n_i) + R                       # ★ 每行各自的格子数 + 换行竖线
@@ -163,11 +165,21 @@ def match_merged(text, allt, bol_idx, eol_idx, rows):
         if [F.norm_md(c) for c in cells] != flat_up:
             continue
         expanded = expand_from_md(cover, cells, Rg, Cg)      # ★ 用 md 原文展开
+        cand1 = (start, end, cells, flat_up, Rg, Cg, expanded, placed)
         if any('```' in c for c in cells):
+            if blocked is not None:
+                blocked.append(cand1)
+                return blocked, '格内有代码围栏'
             return [], '格内有代码围栏'
         if sum(len(F.norm_md(c)) for c in cells) < F.MIN_CONTENT:
+            if blocked is not None:
+                blocked.append(cand1)
+                return blocked, '内容近于空'
             return [], '内容近于空'
         if Rg * Cg and (Rg * Cg - placed) / (Rg * Cg) > MAX_DUP_RATIO:
+            if blocked is not None:
+                blocked.append(cand1)
+                return blocked, f'重复格占比 >{MAX_DUP_RATIO:.0%}'
             return [], f'重复格占比 >{MAX_DUP_RATIO:.0%}'
         cands.append((start, end, cells, flat_up, Rg, Cg, expanded, placed))
     if cands:

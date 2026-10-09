@@ -268,7 +268,7 @@ verified: doc-only
 
 - 定义文档（本页 `sources:` 唯一一篇，**整篇读过**）：
   `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.04_Testflow_Properties_view.md`
-  （TDC `99279.htm`，6,538 字节 / 87 行）。
+  （TDC `99279.htm`，6,745 字节 / 87 行）。
 - **本篇没有重复投放**：全语料按 `source_topic` 查 `99279.htm`，**只有这一个文件**。
 - **本页「语法 / 参数」节：一个字都没有**——**原文没有 `Syntax` / `Parameters` / `Example`
   这类段标记**（脚本的判据，见上面那一节的话）。**本页不是 API 页，所以这不是缺陷**：

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **12,854 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md>`。**不是转述。**
+> 本节 **13,105 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -43,6 +43,9 @@ TestSet.TEST("Vcc","test3",dIdd3);
 ### Example 2: Generating test numbers
 
 The TESTSET class can be used as a programmable interface for generating test numbers for each test in a test suite by assigning offset and increment values that iterate based on the number of calls. The examples below use the offset and increment values as shown in the table below.
+
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/58886.htm`
+> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
 
  |
 
@@ -102,6 +105,9 @@ In this example the adc_1 test suite is assigned an offset of 777 and an increme
 ### Example 3: Test number related methods
 
 The following example shows how a sequence of tests in a test suite might be numbered using the TESTSET class API with test number member functions.
+
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/58886.htm`
+> 中**第 5 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：25 行 × 2 列。
 
  |
 
@@ -827,7 +833,7 @@ When using cout in a background process, you have to expect a mix up of the outp
 
 ## 出处
 
-`sources:` 一篇：`02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md`（TDC `58886.htm`，33,061 字节，874 行）。**整篇读完。**
+`sources:` 一篇：`02_System_reference/02.07_Test_Method_Reference/02.07.04.01.244_TESTSET.md`（TDC `58886.htm`，33,683 字节，883 行）。**整篇读完。**
 
 **本页做了什么**
 

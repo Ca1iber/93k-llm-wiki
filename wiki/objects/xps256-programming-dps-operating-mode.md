@@ -156,7 +156,7 @@ results table**。
 ## 出处
 
 - 定义文档：`02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.07_XPS256_programming_-_DPS_operating_mode.md`
-  （TDC `354249.htm`，13,143 字节，119 行）
+  （TDC `354249.htm`，13,351 字节，122 行）
 - **入边 42 条 / 20 篇**（`inline` 口径；其中 3 条是本文档自己指向自己的锚点链接，
   已从「篇」里扣掉——**自引不算被引用**）
 - 所属：**Test Head Cards → XPS256**（`02.05.05.03`）

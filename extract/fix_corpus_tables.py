@@ -312,11 +312,14 @@ def clean_cell(chunk):
     return body
 
 
-def match_table(text, allt, bol_idx, eol_idx, rows, R, C):
+def match_table(text, allt, bol_idx, eol_idx, rows, R, C, blocked=None):
     """在一篇 md 里找**这张**上游表的压平区域。
 
     返回 (候选列表, 跳过原因或 None)。候选是 (start, end, cells, flat_up)。
-    「整张不动」的两种情形（围栏 / 内容近于空）**一发现就作废全部候选**。"""
+    「整张不动」的两种情形（围栏 / 内容近于空）**一发现就作废全部候选**。
+
+    ★ `blocked` 传一个 list 时，被规则挡下的那次**也把区域交出来**
+    （`fix_corpus_ptr.py` 要靠它知道该把指针插在哪）—— **判据只有这一份，别另抄。**"""
     P = R * (C + 1)
     flat_up = [norm_up(''.join(c['txt'])) for r in rows for c in r]
     cands, fitted = [], False
@@ -334,8 +337,14 @@ def match_table(text, allt, bol_idx, eol_idx, rows, R, C):
         if [norm_md(c) for c in cells] != flat_up:
             continue
         if any('```' in c for c in cells):  # 围栏会撑破表格 → 整张不动
+            if blocked is not None:
+                blocked.append((start, end, cells, flat_up))
+                return blocked, '格内有代码围栏'
             return [], '格内有代码围栏'
         if sum(len(norm_md(c)) for c in cells) < MIN_CONTENT:
+            if blocked is not None:
+                blocked.append((start, end, cells, flat_up))
+                return blocked, '内容近于空（判据太弱）'
             return [], '内容近于空（判据太弱）'
         cands.append((start, end, cells, flat_up))
     if cands:
