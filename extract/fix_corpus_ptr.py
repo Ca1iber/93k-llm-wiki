@@ -58,6 +58,7 @@ ASSIGN = WIKI / 'extract' / '_assign_ptr2.json'
 APPLY = '--apply' in sys.argv
 LIMIT = int(sys.argv[sys.argv.index('--limit') + 1]) if '--limit' in sys.argv else None
 TAG = re.compile(r'(?s)<[^>]+>')
+ALPHA = re.compile(r'[^0-9A-Za-z]')
 
 
 def pointer_text(topic, idx, R, C, rows, nl):
@@ -266,8 +267,10 @@ def main():
         md_lines = text.split(nl)
         nm_lines = [F.norm_md(l) for l in md_lines]
         for ui, u in enumerate(ups):
-            if (rel, ui) in fixed or u['skip'] == '列数不齐':
+            if (rel, ui) in fixed:
                 continue
+            # ★ 不再跳过「列数不齐」—— 那条是**修表**的规矩（形状不齐就拼不出来），
+            #   对**挂路牌**没道理：路牌只需要知道表在哪，不需要形状对。
             if (topic, ui + 1) in already:
                 continue                      # 语料里已经有它的指针了
             rows, R, C = u['rows'], len(u['rows']), len(u['rows'][0])
@@ -318,6 +321,14 @@ def main():
                     if ln is not None and ln >= 1:
                         anchor, kind = ln - 1, '③b 表后散文（插在块下方）'
                         break
+            if anchor is None:
+                # 「表的第一行」当锚：第一行**就是块的顶**，找到它就知道块从哪开始。
+                #   （比用"最长那一格"强 —— 那个可能落在块中间。）
+                first = ALPHA.sub('', ''.join(F.norm_up(''.join(c['txt'])) for c in rows[0]))
+                if len(first) >= 15:
+                    k = line_of_unique(md_lines, nm_lines, first)
+                    if k is not None:
+                        anchor, kind = k, '⑤ 表的第一行'
             if anchor is None:
                 # 退路：用格子文字找到"它在这一带"，再退回**本节小标题**（粗，但不会插错位置）
                 cells = [F.norm_up(''.join(c['txt'])) for r in rows for c in r]
