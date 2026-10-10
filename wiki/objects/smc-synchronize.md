@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,284 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.43_SMC_SYNCHRONIZE.md>`。**不是转述。**
+> 本节 **1,631 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.43_SMC_SYNCHRONIZE.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -37,24 +37,9 @@ This API is defined in the header file /opt/hp93000/soc/prod_com/include/MAPI/SM
 
   Parameters
 
- | Parameter  | Description/Range |
- | timeout |
-
-The time in seconds after which a thread should be canceled and SMC_SYNCHRONIZE() should not wait for its completion.
-
-Resolution: 1 µs
-
-The accuracy of this parameter is influenced by the overhead time of the operating system.
-
-The default value is 0.0 seconds which means that no timeout is set.
-
- |
- | noOfSMCExecutedTests  | References a pointer to store the number of `SMC_TEST()`（raw: `02.07.04.01.231.45_SMC_TEST.md`） statements which have been executed during this synchronize operation per site. Note
-
-When using the class SMC_ARM_FOR_SITES() or SMC_ARM_OTHER_TS_FOR_SITES(), SMC_SYNCHRONIZE() does not not return a test count. As a result, noOfSMCExecutedTests is not incremented and does not count the number of calls to SMC_TEST().
-
- |
- | forceErrorExitOnFail |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/120088.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 Enables a forced exit on an error. If set to
 
@@ -340,7 +325,7 @@ SMC_SYNCHRONIZE(10 ms, true);
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.43_SMC_SYNCHRONIZE.md`
-（TDC `120088.htm`，90 行 / 4,600 字节）。**整篇读完**——这篇短，
+（TDC `120088.htm`，73 行 / 4,600 字节）。**整篇读完**——这篇短，
 正文 + 语法 + 参数表 + 两个示例 + `## Related information` 就是它的全部。
 
 **本页另外读过的两份 wiki 文件（不是 raw，读了只为指路，一句不搬）**：

@@ -265,7 +265,7 @@ DCDT "fast_ARM","Cycle",(ARMPort)
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.41_DCDT__DCDT__-__Device_Cycle_DefaulT.md`
-（TDC `98520.htm`；**4,100 字节 / 161 行**，全文 CRLF，末行带换行。
+（TDC `98520.htm`；**2,918 字节 / 161 行**，全文 CRLF，末行带换行。
 **本节的行数口径是 `wc -l`（= `splitlines()`），不加 1**，见 §11.5）。**整篇读完。**
 
 **本页没做的**：

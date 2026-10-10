@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **48,171 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24_SmartRDI__Vector_and_protocol_programming.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.02_bitLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.04_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.06_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.07_defaultBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.08_defaultVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.09_download.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.10_emapLocation.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.11_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.12_expectBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.13_expectData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.16_failNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.18_fillBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.19_fillVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.20_insertJmpe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.21_insertSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.22_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.25_passNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.26_pMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.27_pModeStrobe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.28_readBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.29_readData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.30_rdi.smartVec__.readMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.31_repeat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.32_repeatSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.33_rdi.smartVec__.vecEditMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.34_vecLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.35_writeBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.36_writeData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.37_writeDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.38_writeParData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.39_writeParDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.40_writePat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.41_writeVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.43_getFailCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.44_getFailCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.45_getFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.46_rdi.id__.getMultiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.47_getReadBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.48_getReadData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.01.01_instruction.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.01_matchBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.02_matchCycle.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.03_matchData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.03_Retrieving_match_loop_results.md>`。**不是转述。**
+> 本节 **48,194 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24_SmartRDI__Vector_and_protocol_programming.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.02_bitLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.04_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.06_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.07_defaultBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.08_defaultVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.09_download.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.10_emapLocation.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.11_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.12_expectBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.13_expectData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.16_failNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.18_fillBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.19_fillVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.20_insertJmpe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.21_insertSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.22_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.25_passNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.26_pMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.27_pModeStrobe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.28_readBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.29_readData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.30_rdi.smartVec__.readMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.31_repeat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.32_repeatSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.33_rdi.smartVec__.vecEditMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.34_vecLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.35_writeBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.36_writeData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.37_writeDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.38_writeParData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.39_writeParDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.40_writePat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.41_writeVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.43_getFailCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.44_getFailCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.45_getFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.46_rdi.id__.getMultiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.47_getReadBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.48_getReadData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.01.01_instruction.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.01_matchBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.02_matchCycle.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.03_matchData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.03_Retrieving_match_loop_results.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -33,20 +33,9 @@ bitLength(int length);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-length
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149048.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 The length of the bit stream.
 
@@ -625,56 +614,15 @@ You must define device cycles in the corresponding wavetable.
 
 ### Syntax（取自子主题 fillVec）
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149041.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
-
 ```
 fillVec(int index,int vecLength,int startVec);
 fillVec(string dvc,int vecLength,int startVec);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-index
-
- |
-
-The physical index you want to write to the pattern .
-
- |
- |
-
-dvc
-
- |
-
-The device cycle you want to write to the pattern.
-
- |
- |
-
-vecLength
-
- |
-
-The length of the vector to be filled.
-
- |
- |
-
-startVec
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149041.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 The starting position of the vector to be written. If the startVec parameter missing, the default value is 0.
 
@@ -1065,36 +1013,14 @@ readMode(TA::MEAS_TYPE mode);
 ```
 
 List of parameters
+
+List of available options of parameter: <mode>
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149061.htm`
 > 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
 > 首行（上游原文）：Parameter | Description
-
-List of available options of parameter: <mode>
- |
-
-Option
-
- |
-
-Description
-
- |
- |
-
-TA::EMAP
-
- |
-
-The error map as the read mode.
-
-In this mode, for each pin, the ERROR_MAP_TEST API is used to get all failed positions. A post processing is done afterward.
-
- |
- |
-
-TA::DIGCAP
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149061.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Option | Description
 
 The digital capture as the read mode.
 
@@ -1250,20 +1176,9 @@ vecLength(int length);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-length
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149043.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 The length of the pattern.
 
@@ -1653,28 +1568,14 @@ RDI_END();
 
 ### Syntax（取自子主题 xMode）
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149062.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
-
 ```
 xMode(int Xmode);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-Xmode
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149062.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 The number of device cycles in each tester cycle.
 
@@ -1819,20 +1720,9 @@ ARRAY_I getReadBit(const string &pin);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-pin
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149050.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 The pin to query.
 

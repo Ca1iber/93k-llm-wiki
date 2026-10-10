@@ -295,7 +295,7 @@ utility line 的**运行期状态**（谁开、谁关、什么时候开）不在
 
 `sources:` 一篇：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.04_Utility_Pins_editor.md`
-（`105637.htm`，104 行）——**整篇读完**。
+（`105637.htm`，29 行）——**整篇读完**。
 
 **本页做了什么**：
 

@@ -4,12 +4,12 @@
 {"detail": "文件首行不是 ---", "doc": "01_Getting_started/index.md", "kind": "no_frontmatter"}
 {"detail": "", "doc": "01_Getting_started/index.md", "kind": "not_in_catalog"}
 {"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.01_Opening_and_closing_connections.md", "kind": "no_h1"}
-{"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md", "kind": "no_h1"}
-{"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.03_Operations_specific_to_GPIB_devices.md", "kind": "no_h1"}
-{"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.04_Operations_specific_to_RS-232_devices.md", "kind": "no_h1"}
+{"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.02_Operations_applicable_to_diverse_interface_or_device_types.md", "kind": "no_headings"}
+{"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.03_Operations_specific_to_GPIB_devices.md", "kind": "no_headings"}
+{"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.04_Operations_specific_to_RS-232_devices.md", "kind": "no_headings"}
 {"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.05_Asynchronous_events.md", "kind": "no_h1"}
 {"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.06_Session_parameters.md", "kind": "no_h1"}
-{"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.07_Error_handling.md", "kind": "no_h1"}
+{"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.07_Error_handling.md", "kind": "no_headings"}
 {"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07.08_Formatted_I_O.md", "kind": "no_h1"}
 {"detail": "", "doc": "02_System_reference/02.13_Generic_Input_Output__GIO__API/02.13.07_GIO_API_reference.md", "kind": "no_headings"}
 {"detail": "", "doc": "02_System_reference/02.14_SmartProd/02.14.05_SmartProd_API_reference.md", "kind": "no_h1"}

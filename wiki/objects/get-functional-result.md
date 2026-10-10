@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **9,700 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.88_GET_FUNCTIONAL_RESULT.md>`。**不是转述。**
+> 本节 **6,452 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.88_GET_FUNCTIONAL_RESULT.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -59,97 +59,15 @@ void GET_FUNCTIONAL_RESULT(const STRING& port,
 
 This API is defined in the header file /opt/hp93000/soc/prod_com/include/MAPI/Execute.h.
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/29400.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：9 行 × 2 列。
 
   Parameters
 
- | Parameter  | Description |
- | pin
-
-port
-
-  | Defines the pin name of which the functional test result shall be retrieved.
-
-For multiport testing, a port name can be specified instead of a single pin.
-
-If this parameter is omitted (first syntax only), TRUE is returned only if all pins have passed, else FALSE is returned.
-
- |
- | portlist  | List of string elements defining ports and set up as `STRING_VECTOR`（raw: `02.07.04.02.15_STRING_VECTOR.md`）.
-
-The portlist is to be used if the functional test results for more than one port shall be retrieved.
-
- |
- | context  | The `execution context`（raw: `../02.06_Command_Reference/02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） of the last executed test for that context. |
- | sequencer_execution_context  | The sequencer execution context, see `SEQUENCER_CONTEXT`（raw: `02.07.04.01.201_SEQUENCER_CONTEXT.md`） and `SEQUENCER_CONTEXT_ITEM`（raw: `02.07.04.01.202_SEQUENCER_CONTEXT_ITEM.md`）. |
- | labelName  | Specifies the label of which the functional test result will be retrieved. |
- | type  | The value type FUNCIONAL_RESULT_TYPE defines the type of the functional result.Currently the type can only be TM::FTST_BURST for retrieving the burst result of the multiport test.
-
-```
-namespace TM
-
-    typedef enum
-    {
-        FTST_BURST
-
-    }FUNCTIONAL_RESULT_TYPE;
-```
-
- |
- | ret  | The result of type FUNC_TEST_BURST_RESULT containing the executed label, the start cycle, the pass/fail result and the optional fail cycles map of the execution.
-
-ret is an already defined vector of type TM::FUNC_TEST_BURST_RESULT that is handled as reference.
-
-TM::FUNC_TEST_BURST_RESULT is defined as follows:
-
-```
-typedef struct
-{
-    STRING labelname;
-    int id;
-    int startCyc;
-    int numberOfCycles;
-    bool result;
-    std::map<std::string, int> failCyclesMap;
-    int isFailCyclesValid;
-
-} FUNC_TEST_BURST_RESULT;
-```
-
- | Return value  | Description |
- | labelname  | The name of the executed label. |
- | id  | Index of the label within the burst. id is set to 0 for the first label. |
- | startCyc  | The start cycle of the label within the burst. |
- | numberOfCycles  | The number of cycles of the label. |
- | result |
-
-Returns a TRUE or FALSE.
-
-If multiple pins or a port has been passed all containing pins must pass to return a TRUE. If any of the pins fail a FALSE is returned.
-
- |
- | failCyclesMap  | A map containing the name of failing pins as string and the number of fail cycles as int.
-
-The map is filled only if parameter `bReadPinFailCycles`（raw: `02.07.04.01.88_GET_FUNCTIONAL_RESULT.md#_29400__r_bReadPinFailCycles`） has been set to TRUE.
-
- |
- | isFailCyclesValid |
-
-The parameter shows the state of filling the failCyclesMap:
-
--
-
--1: The pin fail cycles were not read. The function was called with parameter bReadPinFailCycles set to FALSE.
-
--
-
-0: The pin fail cycles were read but are not valid (`ERCC?`（raw: `../02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md`） valid_code flag was OVFL or LESS).
-
-1: The pin fail cycles were read successfully.
-
-   | |
- | bReadPinFailCycles  | The optional parameter initiates filling the failCyclesMap of parameter `ret`（raw: `02.07.04.01.88_GET_FUNCTIONAL_RESULT.md#_29400__r_ret`） if set to TRUE.The default value is FALSE.Note Use this parameter with caution. Filling the fail cycles map with data that must be read from the hardware may significantly increase the test time.  |   Return value There are two types of functions for this API:
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/29400.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：16 行 × 4 列，含嵌套表。
+> 首行（上游原文）：Parameter | Description
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/29400.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 2 列。
+> 首行（上游原文）：Return value | Description
 
 - Boolean
 

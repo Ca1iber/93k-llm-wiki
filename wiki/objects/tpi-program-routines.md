@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **27,634 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.01.09_TPI_Program_Routines.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.01.09.01_ChangeDevice.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.02_DataManager.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.03_ExecMonitor.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.04_GetConnectState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.05_GetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.06_GetAvailableSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.07_GetDevPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.08_GetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.09_GetEQVariableFromCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.10_GetEQVariableValue.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.11_GetFileState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.12_GetLoadedTestflowName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.13_GetNumberOfSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.14_GetSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.15_GetSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.16_GetTechPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.17_GetTestflowRevisionInfo.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.18_GetTmpPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.19_HpInit.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.20_HpTerm.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.21_HpFwTask.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.22_InsertEQVariableInCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.23_MonitorStatus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.24_ReportMessage.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.25_RestoreSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.26_SetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.27_SetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.28_SetErrorMapMode.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.29_SetSiteInFocus.md>`。**不是转述。**
+> 本节 **26,016 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.01.09_TPI_Program_Routines.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.01.09.01_ChangeDevice.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.02_DataManager.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.03_ExecMonitor.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.04_GetConnectState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.05_GetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.06_GetAvailableSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.07_GetDevPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.08_GetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.09_GetEQVariableFromCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.10_GetEQVariableValue.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.11_GetFileState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.12_GetLoadedTestflowName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.13_GetNumberOfSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.14_GetSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.15_GetSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.16_GetTechPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.17_GetTestflowRevisionInfo.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.18_GetTmpPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.19_HpInit.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.20_HpTerm.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.21_HpFwTask.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.22_InsertEQVariableInCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.23_MonitorStatus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.24_ReportMessage.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.25_RestoreSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.26_SetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.27_SetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.28_SetErrorMapMode.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.29_SetSiteInFocus.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -200,8 +200,6 @@ Monitor Type Parameters
 Monitor Settings Parameters
  |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26604.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：32 行 × 3 列，含 rowspan。
 
 Parameter
 
@@ -490,20 +488,9 @@ VOID GetActiveSites(MS_SITE_SET active_set);
 
 ### Parameters（取自子主题 GetActiveSites）
 
-|
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-active_set
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26623.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 A character array containing whether each site is activated or not. It is in the type of `MS_SITE_SET`.
 
@@ -543,20 +530,9 @@ GetActiveSites(active_sites);
 
 ### Parameters（取自子主题 GetAvailableSites）
 
-|
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-available_set
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/151833.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 A character array containing whether each site is available or not. It is in the type of `MS_SITE_SET`.
 
@@ -618,20 +594,9 @@ VOID GetEnabledSites(MS_SITE_SET enabled_set);
 
 ### Parameters（取自子主题 GetEnabledSites）
 
-|
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-enabled_set
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26631.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 A character array containing whether each site is enabled or not. It is in the type of `MS_SITE_SET`.
 
@@ -1218,33 +1183,10 @@ INT32     *return_state);
 
 ### Parameters（取自子主题 RestoreSiteState）
 
+Parameters for RestoreSiteState
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26705.htm`
 > 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
-
-Parameters for RestoreSiteState
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-site_state
-
- |
-
-Points to a structure of type MS_SITE_STATE containing information on the number of sites and on the sites currently enabled, active, and in focus. This structure usually is filled by a call to `GetSiteState`（raw: `02.09.01.09.15_GetSiteState.md`）.
-
- |
- |
-
-return_state
-
- |
+> 首行（上游原文）：Parameter | Description
 
 Status is set to 0 if execution was ok. Otherwise the site state could not be restored because the number of sites before and after restoring did not match.
 
@@ -1269,50 +1211,9 @@ VOID SetActiveSites(MS_SITE_SET active_set,
 
 ### Parameters（取自子主题 SetActiveSites）
 
-|
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-active_set
-
- |
-
-A character array containing whether each site is activated or not. It is in the type of `MS_SITE_SET`.
-
-- If active_set[i] is not 0, site i is activated.
-- If active_set[i] is 0, site i is deactivated.
-
-MS_SITE_SET is a character array with the length `MS_MAX_SITES+1`. It is used to access the status of all configured sites. Its element contains the status of the corresponding site.
-
-If you define the variable siteSet of type MS_SITE_SET, siteSet[i] will be used to contain the status of site i.
-
-The data type is defined as below:
-
-`typedef char MS_SITE_SET[MS_MAX_SITES+1];`
-
-MS_MAX_SITES is defined as follows for SmarTest 7.3.1 or higher versions:
-
-  - For 64-bit system: 1024
-  - For 32-bit system: 128
-
-MS_MAX_SITES is defined as follows for older versions of SmarTest:
-
-  - For 64-bit system: 256
-  - For 32-bit system: 128
-
- |
- |
-
-return_state
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26709.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Status is set to 0 if execution was ok. Otherwise an error occurred.
 
@@ -1341,50 +1242,9 @@ VOID SetEnabledSites(MS_SITE_SET enabled_set;
 
 ### Parameters（取自子主题 SetEnabledSites）
 
-|
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-enabled_set
-
- |
-
-A character array containing whether each site is enabled or not. It is in the type of `MS_SITE_SET`.
-
-- If enabled_set[i] is not 0, site i is enabled.
-- If enabled_set[i] is 0, site i is disabled.
-
-MS_SITE_SET is a character array with the length `MS_MAX_SITES+1`. It is used to access the status of all configured sites. Its element contains the status of the corresponding site.
-
-If you define the variable siteSet of type MS_SITE_SET, siteSet[i] will be used to contain the status of site i.
-
-The data type is defined as below:
-
-`typedef char MS_SITE_SET[MS_MAX_SITES+1];`
-
-MS_MAX_SITES is defined as follows for SmarTest 7.3.1 or higher versions:
-
-  - For 64-bit system: 1024
-  - For 32-bit system: 128
-
-MS_MAX_SITES is defined as follows for older versions of SmarTest:
-
-  - For 64-bit system: 256
-  - For 32-bit system: 128
-
- |
- |
-
-return_state
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26713.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Status is set to 0 if execution was ok. Otherwise an error occurred
 

@@ -18,16 +18,13 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,892 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`。**不是转述。**
+> 本节 **1,622 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
 > 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
 
 ### Syntax
-
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 2 列，含 colspan 与 rowspan。
 
 ```
 PSAS? [msMode ,] {mask}, {(pinlist)}
@@ -38,55 +35,18 @@ returns
 ```
 PSAS {status}, {(pinlist)}
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
 ```
 
 Parameters
- | msMode  | The extra parameter controls how the return value is created.
-
-The value of the parameter can be PQFC:
-
-- PQFC specified: The current query focus is respected and allows status query per site without affecting status bits of other sites.
-- PQFC not specified: The command reads (and clears) status bits of all enabled and active sites at a glance, ignoring the actual query focus.
-The parameter applies only to use of parameter mask as integer value. |
- | mask  | Integer bit mask or ALL.
-
--
-
-Integer bit mask: Integer value is used to mask out individual status bits. Each bit of mask is logically AND-ed with the corresponding bit of the DPS status. If one of the resulting bits is set, then F (Fail) is returned, otherwise P (Pass).
-
-It is used to check for an error condition. All bit positions of the status flags that should be checked, must be set to 1 in mask. If one of the selected status bits is set, then PSAS? returns F.
-
-- ALL: Hex value (hexadecimal representation of all status bits) is returned.
-For setting the integer bit mask or interpreting a returned hex value, refer to the `status`（raw: `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md#_98691__r_status`） parameter below. |
- | pinlist  | Comma separated list of DPS128/64 or XPS256 pins. The @ character can be used to read the status for all DPS pins. |
- | status  | If parameter mask is ALL, you need to translate the hex value (hexadecimal representation of the status bits) to its binary form as follows:
-
- | Bit 0 (LSB):  | Constant voltage |
- | Bit 1:  | Constant current |
- | Bit 2:  | Unregulated |
- | Bit 3:  | Overvoltage |
- | Bit 4:  | Overpower / Overcurrent / Power budget exceeded |
- | Bit 5:  | Overtemperature |
- | Bit 6:  | Voltage drop force |
- | Bit 7:  | Voltage drop return |
- | Bit 8:  | DUT board disconnect  | For the special mapping of bit 9 and 8 on UHC4 and UHC4T, refer to table `DPS flag description`（raw: `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md#_98691__s_DPS_flag_description`） below. |
- | Bit 9:  | Safety line |
- | Bit 10:  | Current limit disconnect |
- | Bit 11:  | Low headroom |
- | Bit 12:  | Current limiter protection detected |
- | Bit 13:  | Range overflow |
- | Bit 14 (MSB):  | Clamp distance too low |
- | Bit 15:  | Voltage drop force warning |
- | Bit 16:  | Voltage drop return warning  |  If parameter mask is specified as an integer bit-mask:
-
-- Pass: P
-- Fail: F
-
-Refer to table `DPS flag implementation`（raw: `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md#_98691__s_DPS_flag_implementation_710`） below for information regarding the card specific implementation of the bits or flags.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：20 行 × 5 列，含嵌套表。
+> 首行（上游原文）：msMode | The extra parameter controls how the return value is created.The value of the parameter can be PQFC: PQFC specified: The current query focus is respect…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 3 列。
+> 首行（上游原文）：Bit 0 (LSB): | Constant voltage
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
+> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：18 行 × 6 列。
+> 首行（上游原文）：Bit | Flag | DPS128DPS64 | UHC4T | XPS256
 
 ### Description
 
@@ -432,7 +392,7 @@ PSAS {status}, {(pinlist)}
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md`
-（TDC `98691_2.htm`，10,723 字节，230 行）。**整篇读完**，本页引文全部来自这一篇。
+（TDC `98691_2.htm`，8,205 字节，187 行）。**整篇读完**，本页引文全部来自这一篇。
 
 > **它是同一篇的第二次投放。** 同一篇还以 `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md`
 > 存在（`source_topic` 分别是 `98691_2.htm` 与 `98691.htm`）。**本页把两份逐字节比过**：

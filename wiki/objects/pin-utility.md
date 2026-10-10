@@ -454,7 +454,7 @@ order.` ——**即这个排序只对「来自 pin group 的针」有可分辨�
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.147_PIN_UTILITY.md`
-（`70858.htm`，462 行）——**整篇读完**。
+（`70858.htm`，247 行）——**整篇读完**。
 
 **本页做了什么**：
 

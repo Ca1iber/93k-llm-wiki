@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,680 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.24_SPMU_PIN_TASK.mode.md>`。**不是转述。**
+> 本节 **945 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.234.01.24_SPMU_PIN_TASK.mode.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -36,48 +36,9 @@ Parameter
 > 首行（上游原文）：Parameter | Description
 
 Available options of parameter: mode
- | mode  | Description |
- | "IFVM" |
-
-Force current and measure voltage.
-
-This mode is set so that voltage is forced and the required current is defined via symmetrical set current clamp values. Therefore, you must observe the minimum clamp current distance for setting the forced current in the "IFVM" mode.
-
-AVI64 and FVI16 support the real current forcing modes `"CFVM" and "CFIM"`（raw: `02.07.04.01.234.01.24_SPMU_PIN_TASK.mode.md#_131275__r_AVI64_FVI16`） in which the minimum clamp distance does not have to be observed.
-
- |
- | "VFIM"  | Force voltage and measure current. |
- | "VM_HIZ"  | High impedance voltage measurement. |
- | "VM_HIZ_HAC"  | High impedance voltage measure with high accuracy. The voltage range is selected via `SPMU_PIN_TASK.min()`（raw: `02.07.04.01.234.01.23_SPMU_PIN_TASK.min.md`） and `SPMU_PIN_TASK.max()`（raw: `02.07.04.01.234.01.21_SPMU_PIN_TASK.max.md`）. |
- | "IFVM_UNGANGED"  | Force current and measure voltage by temporarily separating ganged channels for this measurement.
-
-The ganged channels are temporarily unganged to the minimum number of channels that is required to force the programmed current. The voltage measurement is always performed on the first channel of the ganged group. Temporarily unganging for voltage measurements will improve the stability of the forced current and therefore improve the stability of the voltage measurement.
-
- |
- | "VFIM_UNGANGED"  | Force voltage and measure current by temporarily separating ganged channels for this measurement.
-
-See also `Number of channels in unganged mode`（raw: `02.07.04.01.234.01.24_SPMU_PIN_TASK.mode.md#_131275__s_Number_of_channels_unganged`） below.
-
-Note that on DPS128/64 and XPS256 you cannot execute a current compare on a ganged group of channels in unganged mode. Already activated comparators are silently disabled in unganged mode. A user notification (Error or warning) is omitted in this case, to avoid any interrupt in the testflow. The previous state of the comparators is automatically restored after the ganged group has been restored.
-
- |
- | "PPMU_BADC" |
-
-Connects the board ADC (BADC) with the pin PMU (PPMU) for static measurements.
-
-Mapped to "IFVM" for DC Scale cards without a separate board ADC.
-
- |
- | The following measurement modes are supported only for the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`）. |
- | "VFVM"  | Force voltage and measure voltage. |
- | "CFVM" |
-
-Force current directly and measure voltage or current.
-
-Both the lower and the upper clamp must be set by function `SPMU_PIN_TASK.clamp()`（raw: `02.07.04.01.234.01.01_SPMU_PIN_TASK.clamp.md`） if these modes are selected.
-
- |
- | "CFIM"  | Note If the `SPMU_PIN_TASK.iForce()`（raw: `02.07.04.01.234.01.14_SPMU_PIN_TASK.iForce.md`） or `SPMU_PIN_TASK.vForce()`（raw: `02.07.04.01.234.01.34_SPMU_PIN_TASK.vForce.md`） is used, the corresponding mode("IFVM" or "VFIM") is set automatically.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131275.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：12 行 × 2 列。
+> 首行（上游原文）：mode | Description
 
 ### Return value
 

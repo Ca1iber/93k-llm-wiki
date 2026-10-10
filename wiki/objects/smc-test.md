@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **16,667 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.45_SMC_TEST.md>`。**不是转述。**
+> 本节 **13,988 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.45_SMC_TEST.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -77,50 +77,9 @@ This API is defined in the header file /opt/hp93000/soc/prod_com/include/MAPI/SM
 
  Parameters
 
- | Parameter  | Description |
- | site  | The site number |
- | pin  | The pin name (single pin name). |
- | testname  | The test name that can be referred from the Properties view. |
- | tmLimit  | Specifies the `TMLimits`（raw: `02.07.04.01.250_TMLimits.md`）`object`（raw: `02.07.04.01.250_TMLimits.md`） which will be used to extract the data for testNumber, softbin, hardbin as well as the limit data. |
- | limit |
-
-The (optional) limit value to be used for the judgment. This parameter is a `LIMIT`（raw: `02.07.04.01.126_LIMIT.md`） API's class object. Hence, you can specify TM::Pass or TM::Fail to make the test result pass or fail intentionally.
-
-If the parameter limit is not specified, the limit values specified in the properties view of the test suite containing `SMC_SYNCHRONIZE()`（raw: `02.07.04.01.231.43_SMC_SYNCHRONIZE.md`） will be used.
-
-If you specify TM:Pass within the `LIMIT`（raw: `02.07.04.01.126_LIMIT.md`） class, the test alway will pass, regardless of the actual test result.
-
-If you specify TM:Fail within the `LIMIT`（raw: `02.07.04.01.126_LIMIT.md`） class, the test always will fail, regardless of the actual result.
-
- |
- | value  | The test result value. |
- | Continue |
-
-This optional parameter controls whether the test should be continued if SMC_TEST() evaluates to FAIL. If it is set to TRUE, the test is continued in spite of a real FAIL result. If it is set to FALSE (default), the test is terminated.
-
- Note The API behaves differently for the first site in a multi-site setup. In this special situation, the test is always continued, even if the TEST API returns FAIL and the continue parameter is set to FALSE. For the following sites, the test is terminated under these conditions. |
- | reliability |
-
-This optional parameter is used to indicate the reliability of the test result for data logging.
-
-To indicate the test is reliable, specify TM::RELIABLE.
-
-To indicate the test is unreliable, specify TM::UNRELIABLE.
-
-You can omit this parameter. If so, use the syntax without this parameter. At that time, it is the same as specifying TM::RELIABLE.
-
- Note SMC_TEST() does not log the reliable state even if the parameter is set to TM::RELIABLE. |
- | testNumber  | An integer value that you assign to directly generate a subtest test number in the EDL. Value must be >= 0. |
- | softbin  | The software bin number of the multibin. For details see the `SET_MULTIBIN`（raw: `02.07.04.01.212_SET_MULTIBIN.md`） API. |
- | hardbin  | The hardware bin number of the multibin. For details see the `SET_MULTIBIN`（raw: `02.07.04.01.212_SET_MULTIBIN.md`） API. |
- | logTestNumber |
-
-An optional test number.
-
-If this test number is provided, it overrides the actual test number. If it is not provided, the actual test number is logged.
-
- |
- | testtext  | Text be added to the data log stream for this SMC_TEST() call.  |    Return value There is no return value.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/120084.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：14 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example 1: General usage
 
@@ -586,7 +545,7 @@ SMC_TEST("dgtz_pin", "THD", thd_result);
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.231.45_SMC_TEST.md`
-（TDC `120084.htm`，375 行 / 21,816 字节）。**整篇读完**——**本篇长，是因为四个例子占了多半篇幅**，
+（TDC `120084.htm`，332 行 / 21,816 字节）。**整篇读完**——**本篇长，是因为四个例子占了多半篇幅**，
 而「语法 / 参数」节已经把签名与参数表逐字抄走了，**所以本页散文部分写的是机制与关系**。
 
 **本页另外读过的两份 wiki 文件（不是 raw，读了只为指路，一句不搬）**：

@@ -824,7 +824,6 @@ def cat7_quotes(pages):
         if isinstance(_src, str):
             _src = [_src]
         up_blob = _up_blob(_src)
-        up_wsfree = re.sub(r'\s+', '', up_blob) if up_blob else ''
         upn = [0]          # 在本篇上游里才找到的处数
         # **`<!-- 语法节 begin -->` 到 `end` 之间那一段不归本类管。**
         #
@@ -891,7 +890,9 @@ def cat7_quotes(pages):
                 bad, fmt, struct = [], 0, []
                 for u in units:
                     r = _hit(u, blob, wsfree)
-                    if r == 0 and up_blob and _hit(u, up_blob, up_wsfree):
+                    if r == 0 and up_blob[0] and (
+                            _hit(u, up_blob[0], up_blob[2])
+                            or _hit(u, up_blob[1], up_blob[3])):
                         # **只在语料里找不到时才回上游**（惰性）——
                         # 绝大多数字符串走不到这一步，开销几乎为零。
                         upn[0] += 1
@@ -1044,7 +1045,15 @@ WIN, STRIDE = 8, 4
 
 # ---------------- 第七类的第二搜索面：上游 raw/（2026-10-10 加，人批准）
 
-_up_cache = {}
+_up_cache = {}          # topic → (空格版, 删标签版, 空格版抹空白, 删标签版抹空白)
+
+
+def _mk(name, path):
+    try:
+        a, b = _norm_up(path.read_text(encoding='utf-8', errors='replace'))
+    except OSError:
+        a = b = ''
+    _up_cache[name] = (a, b, re.sub(r'\s+', '', a), re.sub(r'\s+', '', b))
 
 
 def _norm_up(html_text):
@@ -1056,8 +1065,19 @@ def _norm_up(html_text):
     """
     t = re.sub(r'<script\b.*?</script>', ' ', html_text, flags=re.S | re.I)
     t = re.sub(r'<style\b.*?</style>', ' ', t, flags=re.S | re.I)
+    # **`<li>` 要先还原成 `- `**：它在 markdown 里的样子就是列表符。
+    # 当成普通标签抹掉的话，页面引 `- triggerSiteIfHigh: Global shutdown line`
+    # 就永远对不上——**那是我的归一化丢了原文结构，不是页面加料**。
+    t = re.sub(r'<li\b[^>]*>', ' - ', t, flags=re.I)
     t = re.sub(r'<[^>]+>', ' ', t)
-    return _norm(html.unescape(t))
+    # 返回**两版**：标签换空格 / 标签直接删。都要 ——
+    # 只换空格会漏掉 `triggerSiteIfHigh</span>: Global` 这种标签两侧没空白的
+    # （变成 `triggerSiteIfHigh : Global`，多一个空格）；只删又会让
+    # `word</b><b>word` 粘成一个词。两版都试，取命中。
+    u = re.sub(r'<script\b.*?</script>', '', html_text, flags=re.S | re.I)
+    u = re.sub(r'<style\b.*?</style>', '', u, flags=re.S | re.I)
+    u = re.sub(r'<[^>]+>', '', u)
+    return _norm(html.unescape(t)), _norm(html.unescape(u))
 
 
 def _up_blob(sources):
@@ -1079,13 +1099,13 @@ def _up_blob(sources):
         if not m:
             continue
         topic = m.group(1)
+        hp = UPSTREAM / topic
         if topic not in _up_cache:
-            hp = UPSTREAM / topic
-            _up_cache[topic] = (_norm_up(hp.read_text(encoding='utf-8', errors='replace'))
-                                if hp.exists() else '')
-        if _up_cache[topic]:
+            _mk(topic, hp)
+        if _up_cache[topic][0]:
             parts.append(_up_cache[topic])
-    return '\x00'.join(parts)
+    return ('\x00'.join(p[0] for p in parts), '\x00'.join(p[1] for p in parts),
+            '\x00'.join(p[2] for p in parts), '\x00'.join(p[3] for p in parts))
 
 
 def _up_hit_anywhere(x):
@@ -1106,9 +1126,9 @@ def _up_hit_anywhere(x):
         if not hp.name.lower().endswith(('.htm', '.html')):
             continue
         if hp.name not in _up_cache:
-            _up_cache[hp.name] = _norm_up(hp.read_text(encoding='utf-8', errors='replace'))
-        t = _up_cache[hp.name]
-        if x in t or wsf in re.sub(r'\s+', '', t):
+            _mk(hp.name, hp)
+        a, b, wa, wb = _up_cache[hp.name]
+        if x in a or x in b or wsf in wa or wsf in wb:
             return True
     return False
 
