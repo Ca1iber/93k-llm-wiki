@@ -572,7 +572,22 @@ def scan5():
 
 # ---------------------------------------------------------------- 生成指针
 
-def pointer_block(t, rel_raw="tdc-html/raw"):
+LINK_RE = re.compile(r'(!?)\[([^\]]*)\]\(<([^>]+)>\)')
+
+
+def table_links(lines, a, b):
+    """表内的链接（**不含图片**）。§七①：删表会砍边，必须原样搬到指针块里。
+    它们是原文（链接文字 + 目标都是 md 里现成的），不违反 §1.3。"""
+    out, seen = [], set()
+    for m in LINK_RE.finditer('\n'.join(lines[a:b])):
+        if m.group(1) == '!': continue                     # 图片不算
+        txt, url = m.group(2).strip(), m.group(3)
+        if not txt or (txt, url) in seen: continue
+        seen.add((txt, url)); out.append(f'[{txt}](<{url}>)')
+    return out
+
+
+def pointer_block(t, links=None, rel_raw="tdc-html/raw"):
     """§三 定稿的指针块：固定措辞 + 上游照抄，无一句自撰。"""
     L = [f"> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。"
          f"真表见 `{rel_raw}/{t['topic']}`",
@@ -580,7 +595,12 @@ def pointer_block(t, rel_raw="tdc-html/raw"):
          f"{t['R']} 行 × {t['C']} 列" + ("，含嵌套表。" if t.get('nested') else "。")]
     if t.get('first'):
         L.append(f"> 首行（上游原文）：{t['first']}")
-    return '\n'.join('> ' + x[1:].lstrip() if x.startswith('>') else x for x in L)
+    if links:
+        N = 20
+        s = ' · '.join(links[:N])
+        L.append(f"> 表内引用（{len(links)} 条，供检索）：{s}"
+                 + ("…" if len(links) > N else ""))
+    return '\n'.join(L)
 
 
 def cells_of_region(lines, a, b):
@@ -635,3 +655,92 @@ def run(dry=True):
     c = collections.Counter(t['topic'].rsplit('.', 1)[-1] for k, t in up.items() if k in set(miss))
     print(f"    按后缀 {dict(c)}")
     return up, tabs_used, exc
+
+
+# ================================================================ ① 正常表块
+
+def split_lines(text):
+    """→ (lines, nl)。带保护：不处理混用换行的文件。"""
+    if re.search(r'\r(?!\n)', text): return None, None
+    nl = '\r\n' if '\r\n' in text else '\n'
+    return text.replace('\r\n', '\n').split('\n'), nl
+
+
+ANNO_KW = ('转录说明', '表格指针')       # 旧批次留下的批注
+
+
+def _is_anno(l):
+    return l.lstrip().startswith('>') and any(k in l for k in ANNO_KW)
+
+
+def extend_region(lines, a, b):
+    """把紧贴在表块前后的旧批注块（转录说明 / 旧表格指针）一并纳入删除范围。
+    表被拿掉之后，那些批注指的就是一张不存在的表 —— 会变成孤儿。"""
+    hi = b
+    while True:
+        j = hi
+        while j < len(lines) and not lines[j].strip(): j += 1
+        if j < len(lines) and _is_anno(lines[j]):
+            while j < len(lines) and lines[j].lstrip().startswith('>'): j += 1
+            hi = j; continue
+        break
+    lo = a
+    while True:
+        j = lo - 1
+        while j >= 0 and not lines[j].strip(): j -= 1
+        if j >= 0 and _is_anno(lines[j]):
+            while j >= 0 and lines[j].lstrip().startswith('>'): j -= 1
+            lo = j + 1; continue
+        break
+    return lo, hi
+
+
+def plan_l1():
+    """正常 markdown 表块 → 指针。只做【内容签名唯一命中】的。"""
+    up = enumerate_upstream()
+    f2t, t2f = topic_to_md()
+    bytopic = collections.defaultdict(list)
+    for k, t in up.items(): bytopic[t['topic']].append(t)
+
+    plan = []; exc = []
+    for p, topic in sorted(f2t.items()):
+        tabs = bytopic.get(topic, [])
+        if not tabs: continue
+        text = read(p)
+        lines, nl = split_lines(text)
+        if lines is None:
+            exc.append((p, '文件换行混用')); continue
+        sigs = {t['sig']: t for t in tabs}
+        for kind, a, b in md_blocks('\n'.join(lines)):
+            if kind != 'table': continue
+            sg = sig(block_cells(lines, 'table', a, b))
+            t = sigs.get(sg)
+            if t is None:
+                exc.append((p, f'第 {a+1} 行的表块对不上上游')); continue
+            a2, b2 = extend_region(lines, a, b)      # 顺手吃掉旧批注
+            lk = table_links(lines, a, b)            # §七①：表内引用要保住
+            plan.append((p, a2, b2, t, nl, lk))
+    return plan, exc
+
+
+def apply_plan(plan, dry=True, batch=None, log=None, assign_path=None):
+    """→ (改了哪些文件, 记录)。batch=(起,止) 只做这一段（每 100 张一次）。"""
+    from collections import defaultdict
+    if batch: plan = plan[batch[0]:batch[1]]
+    byfile = defaultdict(list)
+    for p, a, b, t, nl, lk in plan: byfile[p].append((a, b, t, nl, lk))
+    recs = []; n = 0
+    for p, items in sorted(byfile.items()):
+        text = read(p)
+        lines, nl = split_lines(text)
+        before = list(lines)
+        for a, b, t, _, lk in sorted(items, key=lambda x: -x[0]):   # 从后往前替换
+            lines[a:b] = pointer_block(t, lk).split('\n')
+        new = nl.join(lines)
+        recs.append(dict(md=os.path.relpath(p, MD).replace(os.sep, '/'),
+                         topic=t['topic'], tbl=t['idx'], R=t['R'], C=t['C'],
+                         sha1_before=hashlib.sha1(text.encode('utf-8')).hexdigest(),
+                         n=len(items)))
+        n += len(items)
+        if not dry: io.open(p, 'w', encoding='utf-8', newline='').write(new)
+    return recs, n
