@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **849 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`。**不是转述。**
+> 本节 **582 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -38,10 +38,10 @@ PRLT {site}, {"result"}
 
 ### Parameters
 
-| exec_context | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）. |
-|---|---|
-| site | The site parameter is number A single integer representing the site number. ALL Means that all the results of all configured sites are returned. |
-| result | The result parameter is a string containing one character for every site. The nth character stands for site n. Possible characters are: P If the last test passed on all pins. F If the last test failed at any pin. 0 If the site was masked during the last test. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98689.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：exec_context | An execution context. For more information on execution contexts see Using execution contexts.
+> 表内引用（1 条，供检索）：`Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）
 
 ### Example
 
@@ -233,7 +233,7 @@ PRLT ALL, "PF0"
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md`
-（TDC `98689.htm`；**md 2,481 字节 / 58 行**，上游 htm 6,683 字节）。**整篇读完。**
+（TDC `98689.htm`；**md 2,335 字节 / 58 行**，上游 htm 6,683 字节）。**整篇读完。**
 
 **本页没做的**：
 

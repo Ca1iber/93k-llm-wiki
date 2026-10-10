@@ -13,7 +13,6 @@ sources:
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.03.02_DUT_Scale_interface.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.02_AVI64_reverse_Kelvin_connection.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.04_AVI64_Force_only_connection.md
-  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01_AVI64_output_pogo_pins.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.01_Hiding_the_wafer_prober_chuck.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.03_Bridge_beam_installation_on_Accretech_UF3000_EX_prober_-_Overview.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.11.01.07.04_Loading_a_DUT_board_on_the_Accretech_UF3000_EX_wafer_prober.md
@@ -34,7 +33,8 @@ sources:
   - 02_System_reference/02.07_Test_Method_Reference/02.07.04.01.125.01_LEV_TRANSFER_PIN_TASK.md
   - 02_System_reference/02.07_Test_Method_Reference/02.07.04.01.125_LEV_TRANSFER_TASK.md
   - 02_System_reference/02.07_Test_Method_Reference/02.07.04.01.213_setSiteResult.md
-  # 本页共涉及 60 篇文档。上面只列了前 30 篇——**完整出处是正文每条后面的链接**，
+  - 02_System_reference/02.07_Test_Method_Reference/02.07.04.01.215_setStopSiteLoop.md
+  # 本页共涉及 59 篇文档。上面只列了前 30 篇——**完整出处是正文每条后面的链接**，
   # 机器可读全量见 extract/version-facts.csv（按 doc 列筛）。**这是有意的截断，不是漏列。**
 created: 2026-09-18
 updated: 2026-09-18
@@ -49,13 +49,12 @@ verified: doc-only
 > 因此本页只证明**「文档这么写」**，不证明**「机台这样」**（schema §11）。
 > **本页没有被人在真实机台上核对过**（`verified: doc-only`）。
 
-## 这一版改了什么（36 条）
+## 这一版改了什么（35 条）
 
 格式：**出处文档 —— 语料原条目**。条目本身带 `SmarTest 7.4.1:` 前缀，**那是原文的一部分，没有去掉**。
 
 - [Technology file for a device](<01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md>) —— SmarTest 7.4.1: New API LEV_TRANSFER_TASK that uses the fast_transfer_buffer_size.
 - [DUT Scale interface](<02_System_reference/02.03_DUT_board_design_reference/02.03.03.02_DUT_Scale_interface.md>) —— SmarTest 7.4.1: Support of Scalable A-Class.
-- [AVI64 output pogo pins](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01_AVI64_output_pogo_pins.md>) —— SmarTest 7.4.1 / 8.1.0: New connection schemes: Reverse Kelvin connection, Force only connection
 - [Direct-Probe stiffener](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.02_Direct-Probe_stiffener.md>) —— SmarTest 7.4.1: Update to Revision G of Direct Probe Universal Stiffener - 3rd Party Fabrication Package
 - [Direct-Probe stiffener](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.02_Direct-Probe_stiffener.md>) —— SmarTest 7.4.1: New drawing Direct Probe SECRON Direct Probe Digital Stiffener
 - [Docking handler info](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.03_Docking_handler_info.md>) —— SmarTest 7.4.1: D-E7015-23261-1S11G.pdf replaced with E7015-23261_H.zip
@@ -124,6 +123,6 @@ verified: doc-only
 
 ## 出处
 
-- 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 61 条**，涉及 **60 篇**文档。
+- 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 60 条**，涉及 **59 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。

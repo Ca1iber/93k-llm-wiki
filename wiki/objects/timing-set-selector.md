@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,572 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.02.17_TimingSetSelector.md>`。**不是转述。**
+> 本节 **1,726 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.02.17_TimingSetSelector.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -50,14 +50,9 @@ TimingSetSelector(const STRING& timingSelector);
 ```
 
 Parameters
-| Parameter | Description |
-|---|---|
-| rhs | The name of an existing TimingSetSelector object. |
-| multiportspec | The name of a multi-port specification, in a multi-port setup. |
-| waveformORspecId (INT) | In fixed timing setup, it is the waveform set number.<br><br>In equation based timing setup, it is a timing specification ID calculated as follows:<br><br>`100*equation_set_no + specset_no` |
-| waveformOrSpec (`DIGITAL_OFFSET_SEARCH::PRM_ALL`) | It can be:<br><br>- DIGITAL_OFFSET_SEARCH::PRM: Selects the primary specification<br>- DIGITAL_OFFSET_SEARCH::ALL: Selects all waveform sets in the fixed timing set.<br><br>Note that this option is only supported for waveform sets, not for specification ID's. |
-| timingset<br><br>(`INT`) | The timing set number to select. |
-| timingset<br><br>(`DIGITAL_OFFSET_SEARCH::PRM_ALL`) | It can be:<br><br>- DIGITAL_OFFSET_SEARCH::PRM: Selects the current primary timing set.<br>- DIGITAL_OFFSET_SEARCH::ALL: Selects all timing sets in a timing set group. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/141248.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Return value
 
@@ -304,7 +299,7 @@ DIGITAL_OFFSET_SEARCH::TimingSetSelector dest("multi_port", DIGITAL_OFFSET_SEARC
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.02.17_TimingSetSelector.md`
-（TDC `141248.htm`，80 行 / 3,882 字节）。**整篇读完。**
+（TDC `141248.htm`，75 行 / 3,882 字节）。**整篇读完。**
 
 **本页没做的：**
 

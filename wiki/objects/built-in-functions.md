@@ -18,35 +18,9 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,584 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.02.01_Built-in_functions.md>`。**不是转述。**
-> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
-> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
-> 改写参数表就是把文档事实降级成我的转述（§11）。
-> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
-
-### Tables（脚本逐字抽取，第 1 张）
-
-| tf_result(<test_suite_name>, <result_index>) | Access the result array of the given test suite and return the value of that array with the index result_index.<br><br>For example, `tf_result(hold_time,0)` returns the minimum measured hold time. |
-|---|---|
-| pass(<test_suite_name>) | Return 1, if the test suite has passed, otherwise return 0. |
-| fail(<test_suite_name>) | Return 1, if the test suite has failed, otherwise return 0. |
-| has_run(<test_suite_name>) | Return 1, if the test suite has already been executed during the current testflow execution, otherwise return 0. |
-| has_not_run(<test_suite_name>) | Return 1, if the test suite has not been executed during the current testflow execution, otherwise return 0. |
-
-### Tables（脚本逐字抽取，第 2 张）
-
-| lsus() | Return the number of level sets used. |
-|---|---|
-| dsus() | Return the number of DPS equation sets used. |
-| tsus(waveset_no) | Return the number of timing sets used.<br><br>`waveset_no` may also be an expression. |
-| wsus() | Return the number of waveform sets used. |
-| burstfirst(burstlabel) | Return a string that is the first label of `burstlabel`.<br><br>See `Identifying fail labels in a burst`（raw: `02.08.04.32.02.01.14_Identifying_fail_labels_in_a_burst.md`）. |
-| burstnext(burstlabel) | Return a string that is the next label of `burstlabel` in the current burst sequence, or an empty string if `burstlabel` is the last label in the sequence.<br><br>See `Identifying fail labels in a burst`（raw: `02.08.04.32.02.01.14_Identifying_fail_labels_in_a_burst.md`）. |
-| spst_timing(eqst_no, spst_no) | Return 1 if the equation set number `eqst_no` and the spec set number `spst_no` define a valid combination in the timing equation system, otherwise return 0.<br><br>`eqst_no` and `spst_no` may also be expressions. |
-| spst_level(eqst_no, spst_no) | Return 1 if the equation set number `eqst_no` and the spec set number `spst_no` define a valid combination in the level equation system, otherwise return 0.<br><br>`eqst_no` and `spst_no` may also be expressions. |
-| svlr_timing(eqst_no, spst_no, "variable_name") | Return the value of the timing equation variable specified by the equation set number `eqst_no`, the spec set number `spst_no` and `variable_name`. |
-| svlr_timing("specification", "variable_name@port") | Return the value of the timing equation variable specified by the multiport specification `specification` for the port `port`. |
-| svlr_level(eqst_no, spst_no, "variable_name") | Return the value of the level equation variable specified by the equation set number `eqst_no`, the spec set number `spst_no` and `variable_name`. |
+**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
+这类**段标记**，跟着 `Subtopics` 找一层也没有。
+**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
 <!-- 语法节 end -->
 
@@ -237,7 +211,7 @@ raw 里**没有 `## Syntax`、`## Parameters`、`## Example` 这类段标记**
 
 `sources:` 一篇：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.02.01_Built-in_functions.md`
-（TDC `16753.htm`；**3,558 字节 / 178 行**，全文 CRLF，末行带换行。
+（TDC `16753.htm`；**1,776 字节 / 178 行**，全文 CRLF，末行带换行。
 **本节的行数口径是 `wc -l`（= `splitlines()`），不加 1**，见 §11.5）。**整篇读完。**
 
 **本页没做的**：

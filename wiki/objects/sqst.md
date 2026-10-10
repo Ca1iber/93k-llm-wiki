@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,062 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`。**不是转述。**
+> 本节 **533 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -42,19 +42,10 @@ SQST {seq_state}
 
 ### Parameters
 
-| seq_state | Gives the state of the sequencer: | Gives the state of the sequencer: |
-|---|---|---|
-| seq_state | OFF | In the OFF state, both the sequencers and the clock are off. All pins go into the high-z state.<br><br>This option can only be applied to all execution contexts. |
-| seq_state | HALT | In the HALT state, both the sequencer and the clock are off, and the drivers keep their last level or remain in high-z state if already in high-z state.<br><br>Note that you cannot pass directly from HALT to OFF or from OFF to HALT. You must first pass to BRK in both cases.<br><br>This option can only be applied to all execution contexts. |
-| seq_state | BRK | In the BRK state, the clock is on and the break waveform is applied to the DUT.<br><br>This option can only be applied to all execution contexts. |
-| seq_state | ABRT | This is not a sequencer state, but an instruction to change the state of an execution context from RUN to BRK. ABRT requires that an execution context is specified. |
-| seq_state | CBRK | This is not a sequencer state, but a conditional instruction. If no context is in BRK or RUN state, the state of the global context will be changed to BRK. If any context is in BRK or RUN state, nothing will be done. |
-| seq_state | RUN | In the RUN state, the clock is on and the sequencer applies vectors to the DUT. This option can be applied to a specified execution context. |
-| seq_state | Note that if the sequencer state changes from OFF or BRK to RUN, the sequencer runs with the global settings that have previously been defined with `SQGB, SQGB? - (SeQuencer GloBal)`（raw: `02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md`）. | Note that if the sequencer state changes from OFF or BRK to RUN, the sequencer runs with the global settings that have previously been defined with `SQGB, SQGB? - (SeQuencer GloBal)`（raw: `02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md`）. |
-| exec_context | An execution context. In the command, this parameter can only be added to the sequencer state RUN and the instruction ABRT. It must be added if ABRT is specified. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .<br><br>If the query is issued without a context, then RUN will be returned if there is at least one context that is in the RUN state. | An execution context. In the command, this parameter can only be added to the sequencer state RUN and the instruction ABRT. It must be added if ABRT is specified. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） .<br><br>If the query is issued without a context, then RUN will be returned if there is at least one context that is in the RUN state. |
-
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98752.htm`。
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98752.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：9 行 × 3 列。
+> 首行（上游原文）：seq_state | Gives the state of the sequencer:
+> 表内引用（2 条，供检索）：`SQGB, SQGB? - (SeQuencer GloBal)`（raw: `02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md`） · `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）
 
 ### Example
 

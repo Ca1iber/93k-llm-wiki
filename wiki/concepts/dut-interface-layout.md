@@ -350,7 +350,7 @@ Smart Scale（SmarTest 8）上 `reserved for future use`。**查号之前先定�
 
 `sources:` 一篇：
 `02_System_reference/02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`
-（TDC `20811.htm`，**215 行**，**整篇读完**）
+（TDC `20811.htm`，**217 行**，**整篇读完**）
 
 **本页没做的（按缺口大小排）：**
 

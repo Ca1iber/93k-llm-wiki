@@ -265,7 +265,7 @@ REGISTER_TESTMETHOD("TestSpecValue", TestSpecValue);
 ## 出处
 
 `sources:` 一篇：`02_System_reference/02.07_Test_Method_Reference/02.07.02.13.03_SpecValue.md`
-（TDC `115043.htm`，6,113 字节 / 257 行）——**整篇读完**。
+（TDC `115043.htm`，6,769 字节 / 257 行）——**整篇读完**。
 
 **「语法 / 参数」节只收了原文的 `## Example` 一节**（1,233 字符）。
 **`## Member functions`（4,037 字符）整节在用上表中由本页逐条写出**——

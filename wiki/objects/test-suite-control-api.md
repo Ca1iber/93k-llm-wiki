@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **10,642 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.01.14_Test_Suite_Control_API.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.01.14.01_How_to_use_the_test_suite_control_API.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.01_TestsuiteProxy.attachTestmethod.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.02_TestsuiteProxy.executeActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.03_TestsuiteProxy.executeSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.04_TestsuiteProxy.getAnalogSet.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.05_TestsuiteProxy.getLevelEquation.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.06_TestsuiteProxy.getLevelSet.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.07_TestsuiteProxy.getLevelSpec.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.08_TestsuiteProxy.getName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.09_TestsuiteProxy.getSequencerLabel.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.10_TestsuiteProxy.getSiteMatch.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.11_TestsuiteProxy.getTestmethodDefaultLimitNames.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.12_TestsuiteProxy.getTestmethodLimitValue.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.13_TestsuiteProxy.getTestmethodName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.14_TestsuiteProxy.getTestmethodParameterNames.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.15_TestsuiteProxy.getTestmethodParameterValue.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.16_TestsuiteProxy.getTestmethodUserDefinedLimitNames.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.17_TestsuiteProxy.getTestsuiteFlag.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.18_TestsuiteProxy.getTimingEquation.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.19_TestsuiteProxy.getTimingSet.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.20_TestsuiteProxy.getTimingSpec.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.21_TestsuiteProxy.isExecuted.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.22_TestsuiteProxy.isMultiportTiming.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.23_TestsuiteProxy.isPass.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.24_TestsuiteProxy.setAnalogSet.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.25_TestsuiteProxy.setEquationBasedLevel.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.26_TestsuiteProxy.setEquationBasedTiming.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.27_TestsuiteProxy.setMultiportTiming.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.28_TestsuiteProxy.setName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.29_TestsuiteProxy.setSequencerLabel.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.30_TestsuiteProxy.setSiteMatch.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.31_TestsuiteProxy.setTestmethodLimits.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.32_TestsuiteProxy.setTestmethodParameterValues.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.33_TestsuiteProxy.setTestsuiteFlag.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.02_detachSession.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.03_exitProcess.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.04_initializeSession.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.05_getTestsuite.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.06_getAllTestsuiteNames.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.07_getSpecialTestsuite.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.08_createFloatingTestsuite.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.09_deleteFloatingTestsuite.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.10_selectTestmethodExecutor.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.11_getTestmethodExecutorIndex.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.12_setSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.13_getSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.14_setActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.15_getActiveSites.md>`。**不是转述。**
+> 本节 **11,856 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.01.14_Test_Suite_Control_API.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.01.14.01_How_to_use_the_test_suite_control_API.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.01_TestsuiteProxy.attachTestmethod.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.02_TestsuiteProxy.executeActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.03_TestsuiteProxy.executeSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.04_TestsuiteProxy.getAnalogSet.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.05_TestsuiteProxy.getLevelEquation.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.06_TestsuiteProxy.getLevelSet.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.07_TestsuiteProxy.getLevelSpec.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.08_TestsuiteProxy.getName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.09_TestsuiteProxy.getSequencerLabel.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.10_TestsuiteProxy.getSiteMatch.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.11_TestsuiteProxy.getTestmethodDefaultLimitNames.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.12_TestsuiteProxy.getTestmethodLimitValue.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.13_TestsuiteProxy.getTestmethodName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.14_TestsuiteProxy.getTestmethodParameterNames.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.15_TestsuiteProxy.getTestmethodParameterValue.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.16_TestsuiteProxy.getTestmethodUserDefinedLimitNames.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.17_TestsuiteProxy.getTestsuiteFlag.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.18_TestsuiteProxy.getTimingEquation.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.19_TestsuiteProxy.getTimingSet.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.20_TestsuiteProxy.getTimingSpec.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.21_TestsuiteProxy.isExecuted.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.22_TestsuiteProxy.isMultiportTiming.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.23_TestsuiteProxy.isPass.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.24_TestsuiteProxy.setAnalogSet.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.25_TestsuiteProxy.setEquationBasedLevel.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.26_TestsuiteProxy.setEquationBasedTiming.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.27_TestsuiteProxy.setMultiportTiming.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.28_TestsuiteProxy.setName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.29_TestsuiteProxy.setSequencerLabel.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.30_TestsuiteProxy.setSiteMatch.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.31_TestsuiteProxy.setTestmethodLimits.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.32_TestsuiteProxy.setTestmethodParameterValues.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.01.33_TestsuiteProxy.setTestsuiteFlag.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.02_detachSession.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.03_exitProcess.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.04_initializeSession.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.05_getTestsuite.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.06_getAllTestsuiteNames.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.07_getSpecialTestsuite.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.08_createFloatingTestsuite.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.09_deleteFloatingTestsuite.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.10_selectTestmethodExecutor.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.11_getTestmethodExecutorIndex.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.12_setSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.13_getSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.14_setActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.14.02.15_getActiveSites.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -185,8 +185,9 @@ bool attachTestmethod(const std::string& name);
 ```
 
 Parameters
-| name | The full name of the test method like "ac_tml.AcTest.FunctionalTest". |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130761.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：name | The full name of the test method like "ac_tml.AcTest.FunctionalTest".
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.executeActiveSites）
 
@@ -255,8 +256,9 @@ const LimitValue getTestmethodLimitValue(const std::string& name) const;
 ```
 
 Parameters
-| name | The limit name to query. If the name is invalid, empty `LimitValue ` will be returned with an error message sent out. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130768.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：name | The limit name to query. If the name is invalid, empty LimitValue will be returned with an error message sent out.
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.getTestmethodName）
 
@@ -277,8 +279,9 @@ const std::string getTestmethodParameterValue(const std::string& name) const;
 ```
 
 Parameters
-| name | The parameter to query. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130764.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：name | The parameter to query.
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.getTestmethodUserDefinedLimitNames）
 
@@ -293,8 +296,9 @@ int getTestsuiteFlag(const TestsuiteFlag name) const;
 ```
 
 Parameters
-| name | The test suite flag to query. It can be one of the options of `TestsuiteFlag` enumeration as defined in the above table. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130757.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：name | The test suite flag to query. It can be one of the options of TestsuiteFlag enumeration as defined in the above table.
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.getTimingEquation）
 
@@ -321,8 +325,9 @@ bool isExecuted(const int site);
 ```
 
 Parameters
-| site | The site to query. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130777.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：site | The site to query.
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.isMultiportTiming）
 
@@ -337,8 +342,9 @@ bool isPass(const int site) const;
 ```
 
 Parameters
-| site | The site to query. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130778.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：site | The site to query.
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.setAnalogSet）
 
@@ -347,8 +353,9 @@ bool setAnalogSet(const std::string& setName);
 ```
 
 Parameters
-| value | The analog set. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130754.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：value | The analog set.
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.setEquationBasedLevel）
 
@@ -359,10 +366,9 @@ const std::string& levelSet);
 ```
 
 Parameters
-| levelEquation | The level equation. |
-|---|---|
-| levelSpec | The level spec. |
-| levelSet | The level set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130746.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：levelEquation | The level equation.
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.setEquationBasedTiming）
 
@@ -373,10 +379,9 @@ const std::string& timingSet);
 ```
 
 Parameters
-| timingEquation | The timing equation. |
-|---|---|
-| timingSpec | The timing spec. |
-| timingSet | The timing set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130750.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：timingEquation | The timing equation.
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.setMultiportTiming）
 
@@ -385,9 +390,9 @@ bool setMultiportTiming(const std::string& multiportSpec, const std::string& tim
 ```
 
 Parameters
-| multiportSpec | The multi-port spec. |
-|---|---|
-| timingSet | The timing set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130751.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：multiportSpec | The multi-port spec.
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.setName）
 
@@ -396,8 +401,9 @@ bool setName(const std::string& name);
 ```
 
 Parameters
-| name | The test suite name. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130741.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：name | The test suite name.
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.setSequencerLabel）
 
@@ -406,8 +412,9 @@ bool setSequencerLabel(const std::string& value);
 ```
 
 Parameters
-| value | The sequencer label to use. It must be in the format of "\"label_name\"". |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130753.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：value | The sequencer label to use. It must be in the format of "\"label_name\"".
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.setSiteMatch）
 
@@ -416,8 +423,9 @@ bool setSiteMatch(const SiteMatchValue value);
 ```
 
 Parameters
-| value | The site match value. It can be one of the options of SiteMatchValue enumeration defined below:<br><br>`enum SiteMatchValue`<br><br>`{`<br><br>`SITEMATCH_OFF = 0,`<br><br>`SITEMATCH_ON,`<br><br>`SITEMATCH_AUTO,`<br><br>`SITEMATCH_UNDEFINED`<br><br>`};` |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130758.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：value | The site match value. It can be one of the options of SiteMatchValue enumeration defined below: enum SiteMatchValue { SITEMATCH_OFF = 0, SITEMATCH_ON, S…
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.setTestmethodLimits）
 
@@ -427,9 +435,9 @@ const LimitNameValueMap& defaultLimits = LimitNameValueMap ());
 ```
 
 Parameters
-| userDefinedLimits | The name-value pair for limits defined in test method source code. If the name does not exist, the pair will be ignored and a warning message will be sent out. |
-|---|---|
-| defaultLimits | The name-value pair for limits defined in test method API, for example `"DEFAULT FUNCTIONAL TEST"`, `"DEFAULT GENERAL TEST"`, `"DEFAULT PMUTEST"`, `"DEFAULT DPS TEST"`, `"DEFAULT SPEC SEARCH"` and `"DEFAULT TIA TEST"`.<br><br>If the limit is not used in the test suite, it will be added. If the limit does not exist, it will be ignored and a warning message will be sent out. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130765.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：userDefinedLimits | The name-value pair for limits defined in test method source code. If the name does not exist, the pair will be ignored and a warning messag…
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.setTestmethodParameterValues）
 
@@ -438,8 +446,9 @@ void setTestmethodParameterValues(const std::map<std::string, std::string>& para
 ```
 
 Parameters
-| params | The name-value pair of the test method parameters. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130762.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：params | The name-value pair of the test method parameters.
 
 ### Syntax（取自子主题 Test suite control API reference › TestsuiteProxy › TestsuiteProxy.setTestsuiteFlag）
 
@@ -448,9 +457,9 @@ bool setTestsuiteFlag(const TestsuiteFlag name, const int value);
 ```
 
 Parameters
-| name | The test suite flag name. It can be one of the options of `TestsuiteFlag` enumeration defined below :<br><br>`enum TestsuiteFlag`<br><br>`{`<br><br>`TESTSUITEFLAG_BYPASS = 0,`<br><br>`TESTSUITEFLAG_SET_PASS,`<br><br>`TESTSUITEFLAG_SET_FAIL,`<br><br>`TESTSUITEFLAG_HOLD,`<br><br>`TESTSUITEFLAG_HOLD_ON_FAIL,`<br><br>`TESTSUITEFLAG_OUTPUT_ON_PASS,`<br><br>`TESTSUITEFLAG_OUTPUT_ON_FAIL,`<br><br>`TESTSUITEFLAG_VALUE_ON_PASS,`<br><br>`TESTSUITEFLAG_VALUE_ON_FAIL,`<br><br>`TESTSUITEFLAG_PER_PIN_ON_PASS,`<br><br>`TESTSUITEFLAG_PER_PIN_ON_FAIL,`<br><br>`TESTSUITEFLAG_SET_BREAK_POINT,`<br><br>`TESTSUITEFLAG_FORCE_SERIAL,`<br><br>`TESTSUITEFLAG_LOG_MX_WAVEFORMS,`<br><br>`TESTSUITEFLAG_FAIL_PER_LABEL,`<br><br>`TESTSUITEFLAG_FFC_ENABLE,`<br><br>`TESTSUITEFLAG_FFC_SCAN_INFO_ENABLE,`<br><br>`TESTSUITEFLAG_LOG_FIRST,`<br><br>`TESTSUITEFLAG_FFV_ENABLE,`<br><br>`TESTSUITEFLAG_FRG_ENABLE,`<br><br>`TESTSUITEFLAG_FRG_SINGLE_SHOT,`<br><br>`TESTSUITEFLAG_HW_DSP_DISABLE,`<br><br>`TESTSUITEFLAG_TEST_LEVEL,`<br><br>`TESTSUITEFLAG_UNDEFINED`<br><br>`};` |
-|---|---|
-| value | The value to set. It must be 0 or 1 except for TESTSUITEFLAG_LOG_FIRST and TESTSUITEFLAG_TEST_LEVEL. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130756.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：name | The test suite flag name. It can be one of the options of TestsuiteFlag enumeration defined below : enum TestsuiteFlag { TESTSUITEFLAG_BYPASS = 0, TESTSU…
 
 ### Syntax（取自子主题 Test suite control API reference › detachSession）
 
@@ -465,8 +474,9 @@ void exitProcess(const int exitCode);
 ```
 
 Parameters
-| I | exitCode | The exit code of the process. It has the same meaning with the parameter status of exit(). (Type `man 3 exit` in the shell to see the details.) |
-|---|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125523.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 3 列。
+> 首行（上游原文）：I | exitCode | The exit code of the process. It has the same meaning with the parameter status of exit(). (Type man 3 exit in the shell to see the details.)
 
 ```
 
@@ -480,9 +490,9 @@ const int testmethodExecutor = 1);
 ```
 
 Parameters
-| sesionId | The ID of the SmarTest session to work with. Default value is empty, which means the API will automatically gets the SmarTest session ID of the current display. |
-|---|---|
-| TestmethodExecutor | The test method executor to be used for execution. Default is the first one. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/111202.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：sesionId | The ID of the SmarTest session to work with. Default value is empty, which means the API will automatically gets the SmarTest session ID of the curre…
 
 ### Syntax（取自子主题 Test suite control API reference › getTestsuite）
 
@@ -491,8 +501,9 @@ TestsuiteProxy getTestsuite(const std::string& name);
 ```
 
 Parameters
-| name | The test suite name. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/111206.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：name | The test suite name.
 
 ### Syntax（取自子主题 Test suite control API reference › getAllTestsuiteNames）
 
@@ -507,8 +518,9 @@ TestsuiteProxy getSpecialTestsuite (const std::string& name);
 ```
 
 Parameters
-| name | The name of the special test suite. It can be "init", "abort", "download", "pause", "reset", "exit", or "bin_disconnect". |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/111210.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：name | The name of the special test suite. It can be "init", "abort", "download", "pause", "reset", "exit", or "bin_disconnect".
 
 ### Syntax（取自子主题 Test suite control API reference › createFloatingTestsuite）
 
@@ -517,8 +529,9 @@ TestsuiteProxy createFloatingTestsuite(const std::string& testsuiteName);
 ```
 
 Parameters
-| testsuiteName | The test suite name. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/111212.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：testsuiteName | The test suite name.
 
 ### Syntax（取自子主题 Test suite control API reference › deleteFloatingTestsuite）
 
@@ -527,8 +540,9 @@ bool deleteFloatingTestsuite(const std::string& name);
 ```
 
 Parameters
-| name | The test suite to delete. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/111214.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：name | The test suite to delete.
 
 ### Syntax（取自子主题 Test suite control API reference › selectTestmethodExecutor）
 
@@ -537,8 +551,9 @@ bool selectTestmethodExecutor( const int executor);
 ```
 
 Parameters
-| executor | The index number of the UTM executor to use. It can be:<br><br>1: the first executor for production execution.<br><br>2: the second executor for debug purpose and non-production execution. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/111216.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：executor | The index number of the UTM executor to use. It can be: 1: the first executor for production execution. 2: the second executor for debug purpose and …
 
 ### Syntax（取自子主题 Test suite control API reference › getTestmethodExecutorIndex）
 
@@ -553,8 +568,9 @@ void setSiteInFocus(const int site);
 ```
 
 Parameters
-| site | The site to set in focus. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/111227.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：site | The site to set in focus.
 
 ### Syntax（取自子主题 Test suite control API reference › getSiteInFocus）
 
@@ -569,8 +585,9 @@ void setActiveSites(const std::set<int>& sites);
 ```
 
 Parameters
-| sites | The site number stored in `set<int>`. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/111231.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：sites | The site number stored in set<int>.
 
 ### Example（取自子主题 Test suite control API reference › setActiveSites）
 

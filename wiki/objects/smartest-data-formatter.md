@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **15,468 字符逐字取自** `<02_System_reference/02.10_Data_Logging/02.10.03_SmarTest_Data_Formatter.md>` 及其子主题 `<02_System_reference/02.10_Data_Logging/02.10.03.03.07_Reprobe_data.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.03.09.02_Logging_text_data_in_the_TEST_TXT_field.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.03.11_Force_closing_out_lot_or_wafer_level_in_application_model.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.05.05_Version_Update_Record__VUR.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.05.08_Site_Description_Record__SDR.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.05.12_Pattern_Sequence_Record__PSR.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.05.27_Generic_Data_Record__GDR.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.05.28_Activity_Trace_Event_Record__ATER.md>`。**不是转述。**
+> 本节 **7,568 字符逐字取自** `<02_System_reference/02.10_Data_Logging/02.10.03_SmarTest_Data_Formatter.md>` 及其子主题 `<02_System_reference/02.10_Data_Logging/02.10.03.03.07_Reprobe_data.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.03.09.02_Logging_text_data_in_the_TEST_TXT_field.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.03.11_Force_closing_out_lot_or_wafer_level_in_application_model.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.05.05_Version_Update_Record__VUR.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.05.08_Site_Description_Record__SDR.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.05.12_Pattern_Sequence_Record__PSR.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.05.27_Generic_Data_Record__GDR.md>`、`<02_System_reference/02.10_Data_Logging/02.10.03.05.28_Activity_Trace_Event_Record__ATER.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -91,40 +91,23 @@ To ensure that the log is properly closed before it is copied, FORCE_MODEL_LEVEL
 ### Syntax（取自子主题 Appendix A  STDF Record Types › Version Update Record  VUR）
 
 VUR in STDF V4/2007
-| VUR field name | Field description | Value | 93000 data source |
-|---|---|---|---|
-| UPD_NAM | The version after STDF V4 to which this data log conforms. | Variable-length character string.<br><br>Maximum 255 characters. | The content is taken from the `stdfVersion`（raw: `02.10.03.04.03_Configuring_the_contents_of_the_STDF_file.md#_70623__stdfVersion`） parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/123916.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 4 列。
+> 首行（上游原文）：VUR field name | Field description | Value | 93000 data source
+> 表内引用（1 条，供检索）：`stdfVersion`（raw: `02.10.03.04.03_Configuring_the_contents_of_the_STDF_file.md#_70623__stdfVersion`）
 
 VUR in STDF V4/2007.1
-| VUR field name | Field description | Value | 93000 data source |
-|---|---|---|---|
-| UPD_CNT | The number of UPD_NAM fields in this record. | One-byte unsigned integer. |  |
-| UPD_NAM | An array of versions after STDF V4 to which this data log conforms. | Array of variable-length character strings.<br><br>Each array element contains a maximum of 255 characters. | The content is based on the `stdfVersion`（raw: `02.10.03.04.03_Configuring_the_contents_of_the_STDF_file.md#_70623__stdfVersion`） parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/123916.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 4 列。
+> 首行（上游原文）：VUR field name | Field description | Value | 93000 data source
+> 表内引用（1 条，供检索）：`stdfVersion`（raw: `02.10.03.04.03_Configuring_the_contents_of_the_STDF_file.md#_70623__stdfVersion`）
 
 ### Syntax（取自子主题 Appendix A  STDF Record Types › Site Description Record  SDR）
 
-| SDR field name | Field description | Value | 93000 data source |
-|---|---|---|---|
-| HEAD_NUM | - Test head number | - One-byte unsigned integer<br>- Value = 1 | - Hard-coded value |
-| SITE_GRP`1)`（raw: `#fntarg_1`） | - Site group number<br><br>(station number)<br><br>If there are more than 255 sites, the group number indicates which set of 128 sites is described. | - One-byte unsigned integer<br>- 2 = Default | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>SITE_GRP<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| SITE_CNT | - Number of active sites described in this record | - One-byte unsigned integer | - Calls the DRLNumberOfSites() test method |
-| SITE_NUM | - Array of active site numbers in this record.<br><br>For tests with more than 255 sites (which produce multiple SDRs), the numbering restarts with 0 in each individual SDR. | - Array of one-byte unsigned integers | - The values for this are<br><br>0 to N-1 if using 0-based site numbers and 1 to N if using<br><br>1-based site numbers (where N is the number of sites). |
-| HAND_TYP | - Handler or prober type | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>HAND_TYP<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| HAND_ID | - Handler or prober ID | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>HAND_ID<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| CARD_TYP | - Probe card type | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>CARD_TYP<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| CARD_ID | - Probe card ID | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>CARD_ID<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| LOAD_TYP | - DUT board type | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>LOAD_TYP<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| LOAD_ID | - DUT board ID | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>LOAD_ID<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| DIB_TYP | - DIB board type | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable2:<br><br>DIB_TYP<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| DIB_ID | - DIB board ID | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>DIB_ID<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| CABL_TYP | - Interface cable type | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>CABL_TYP<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| CABL_ID | - Interface cable ID | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>CABL_ID<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| CONT_TYP | - Handler contactor type | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>CONT_TYP<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| CONT_ID | - Handler contactor ID | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>CONT_ID<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| LASR_TYP | - Laser type | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>LASR_TYP<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| LASR_ID | - Laser ID | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>LASR_ID<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| EXTR_TYP | - Extra equipment type | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>EXTR_TYP<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
-| EXTR_ID | - Extra equipment ID | - Variable length character string<br>- First byte is unsigned count of bytes to follow<br>- Maximum 255 bytes<br>- Length byte = 0 if missing or invalid data | - Application model variable`2)`（raw: `#_69127__fn2`）:<br><br>EXTR_ID<br><br>- Data source can also be a constant value in the configuration file or a system environment variable. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/69127.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：21 行 × 4 列。
+> 首行（上游原文）：SDR field name | Field description | Value | 93000 data source
+> 表内引用（2 条，供检索）：`1)`（raw: `#fntarg_1`） · `2)`（raw: `#_69127__fn2`）
 
 ### Syntax（取自子主题 Appendix A  STDF Record Types › Pattern Sequence Record  PSR）
 
@@ -470,24 +453,15 @@ Optional array of PatternInSrcFileIDs
 
 The following table describes a sample GDR that contains three data fields of different data types. We are assuming that numeric data of more than one byte must begin on an even boundary. Pad bytes are used to meet the requirements.
 
-| Data | Code | Alignment Requirement |
-|---|---|---|
-| "AB" | 10 | A variable-length character string can begin on any byte. This field will contain one data byte, one length byte, and two data bytes, for a total length of 4 bytes. Because this field begins on an even byte, the next field also begins on an even byte. |
-| 255 | 1 | A one-byte numeric value can begin on any byte. This field contains two bytes, so the next field also begins on an even byte. |
-| 510 | 5 | A two-byte numeric value must begin on an even byte. This GEN_DATA field would begin on an even byte; and, because the first byte is the data code, the actual numeric value would begin on an odd byte. This field must be preceded by a pad byte. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/68925.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 3 列。
+> 首行（上游原文）：Data | Code | Alignment Requirement
 
 The byte representation for this example GDR is shown below, and is shown for sample purposes only. The actual data representation differs between CPUs. The byte values are in hexadecimal, with the decimal equivalents given in the byte descriptions.
 
-| Even byte | Odd byte | Description (with decimal values) |
-|---|---|---|
-| 0c | 00 | Number of bytes following the header (12) |
-| 32 | 0a | Record type (50); record subtype (10) |
-| 04 | 00 | Number of data fields (4) |
-| 0a | 02 | Character string: code (10) and length (2) |
-| 41 | 42 | Character string: data bytes ("A" and "B") |
-| 01 | ff | One-byte integer: code (1) and data (255 = 0xff) |
-| 00 | 05 | Pad byte (0); code (5) for next field |
-| fe | 01 | Two-byte signed integer (510 = 0x01fe) |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/68925.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：9 行 × 3 列。
+> 首行（上游原文）：Even byte | Odd byte | Description (with decimal values)
 
 ### Example（取自子主题 Appendix A  STDF Record Types › Activity Trace Event Record  ATER）
 

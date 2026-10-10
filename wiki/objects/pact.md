@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,255 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`。**不是转述。**
+> 本节 **622 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -56,17 +56,9 @@ PACT {"site_string"}
 
 ### Parameters
 
-| control | The control parameter is: | The control parameter is: |
-|---|---|---|
-|  | ACTIVE | When a site is ACTIVE it receives all test data, and generates results for the tests. |
-|  | MASKED | When a site is MASKED, it receives all test data, as with the ACTIVE parameter. However, the receivers for the site are disabled and no result information is available. |
-| site | A single integer representing a site number. | A single integer representing a site number. |
-| site_string | A string consisting of "0" and "1". One character must be given for every site that is configured in the pin configuration. "0" indicates that the respective site is (to be) masked. "1" indicates that the respective site is (to be) activated. | A string consisting of "0" and "1". One character must be given for every site that is configured in the pin configuration. "0" indicates that the respective site is (to be) masked. "1" indicates that the respective site is (to be) activated. |
-| ALL | means that all configured sites that are available for testing (that is, do not use a channel that is inactivated in the MCDIgnore file) are to be activated or masked.<br><br>For the MCDIgnore file see MCDIgnore usage and restrictions in Service Guide Part 1. | means that all configured sites that are available for testing (that is, do not use a channel that is inactivated in the MCDIgnore file) are to be activated or masked.<br><br>For the MCDIgnore file see MCDIgnore usage and restrictions in Service Guide Part 1. |
-| STR | forces the query to return a site string instead of a single line for every site. | forces the query to return a site string instead of a single line for every site. |
-
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98678.htm`。
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98678.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
+> 首行（上游原文）：control | The control parameter is:
 
 ### Example
 
@@ -268,7 +260,7 @@ site 1 = `1` = ACTIVE、site 2 = `0` = MASKED、site 3 = `0` = MASKED。
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md`
-（TDC `98678.htm`，**3,756 字节 / 157 行**）。**整篇读完**——本页引文全部来自这一篇 ＋ `edges.jsonl` 里带原句的边（下面逐条注明）。
+（TDC `98678.htm`，**2,096 字节 / 157 行**）。**整篇读完**——本页引文全部来自这一篇 ＋ `edges.jsonl` 里带原句的边（下面逐条注明）。
 
 **入边 6 条 / 6 篇**（`inline` + `toc` 口径，`edges.jsonl` 原始行数）：
 `02.06.02.02.121_EXSR_-__EXecute_SeaRch`、`02.06.09.02.07_EXSR_-__EXecute_SeaRch`、

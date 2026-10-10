@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,471 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.22_Protocol_editor.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.22.02_Transaction_details.md>`。**不是转述。**
+> 本节 **721 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.22_Protocol_editor.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.22.02_Transaction_details.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -35,12 +35,9 @@ The order of the parameter definition has an impact to the corresponding transac
 The state character sequence representing a decoded field will be mapped back to transaction parameters during parameter reconstruction in order to be readable from test methods.
 
 Properties
-| Property | Description |
-|---|---|
-| Direction | Defines the direction from a DUT perspective.<br><br>IN - parameter values will be passed to the DUT<br><br>OUT - the DUT is passing parameter values to the application |
-| Length | Defines the length of this parameter in bits/state characters. |
-| Decode function | For input parameters the decode functions describes which field is used to fill in the parameter value.<br><br>For output parameters the decode function describes how the received bits/state character sequence (represented by the parameter value) is transferred back to fields. |
-| Display mode | Specifies the number format in which numerical parameter values are displayed in the TA column of the Pattern Debug Tool. Possible values are "BINARY", "DECIMAL", and "HEX". HEX is the default.<br><br>The property is ignored if the parameter value is specified as a state character sequence. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/126135.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Property | Description
 
 <!-- 语法节 end -->
 

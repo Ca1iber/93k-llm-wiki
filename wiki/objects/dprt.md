@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,301 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`。**不是转述。**
+> 本节 **964 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -81,13 +81,10 @@ DPRT {"multi-port_spec"}, {timing_set_no|"timing_set_list"}[,(port)]
 
 ### Parameters
 
-| waveform_set | Waveform set number. |
-|---|---|
-| specset_id | Derived as follows:<br><br>100 * equation_set_no + spec_set_no<br><br>Note that the spec set ID identifies the primary wavetable in equation based testing. |
-| multi-port_spec | In a multi-port setup, a primary multiport specification can be specified. |
-| timing_set | The identification number of the timing set. Enter an integer in the range 1 to the maximum number of allowed timing sets (of the selected waveform set or timing specification). The maximum number is determined by `TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）. The number you enter must also be less than or equal to the maximum number of timing sets allowed (as defined by DSCP).<br><br>In a multiport setup, the timing set number applies to all ports of the specification if no port is specified. Otherwise, the number applies to the specified port. |
-| timing_set_list | In a multi-port setup, you can specify primary timing sets for all ports of the specification by entering a list of numbers separated by commas.<br><br>In the query, the numbers of the primary timing sets are returned in a list for all ports of the primary specification unless the numbers are identical for all ports or a port has been specified in the query. |
-| port | In a multi-port setup, you can specify a port of the specification that was entered as the first parameter. In this case, the timing set number specified as the second parameter will only be applied to the specified port. The port parameter is ignored if a timing set list is specified. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98570.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：waveform_set | Waveform set number.
+> 表内引用（1 条，供检索）：`TSUS, TSUS? - (Timing Sets USed)`（raw: `02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`）
 
 ### Example
 
@@ -301,7 +298,7 @@ DPRT 3,4
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md`
-（TDC `98570.htm`，**3,177 字节 / 152 行**）。**整篇读完**——本页引文全部来自这一篇；
+（TDC `98570.htm`，**1,958 字节 / 152 行**）。**整篇读完**——本页引文全部来自这一篇；
 另**核对过上游 `raw/98570.htm`**（下面 ⚠️ 两条注明了核对结论）。
 
 **入边 2 条 / 2 篇、出边 1 条**（`edges.jsonl` 原始行数）：

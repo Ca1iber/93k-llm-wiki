@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,443 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`。**不是转述。**
+> 本节 **1,330 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -34,18 +34,10 @@ PSSR {dps_No|dps_set_id}, [rise_tm_per_v], [rise_settm], [fall_tm_per_v], [fall_
 
 Note The rise_... and fall_... parameters of the PSSR command and the settling time parameter (setup_time) of the `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`） command exclude each other. This also applies to the t_ms equation parameter (see `DPSPINS`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07_DPSPINS.md`） and `DPSPINS resources`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md`）). Note All time values have a resolution of microseconds (floating point values are rounded to three decimal places).
 
-| dps_No | Needed for non-equation-based setup.<br><br>The identification number of the DPS set which you want to modify. The number must not exceed the maximum number allowed (as defined by the DSCP (Define System Control Parameter) command). Entering ALL modifies all the existing fixed DPS sets. Entering PRM modifies the primary DPS set. Entering ACT (only for PSSR?) displays the settings of the actual enabled DPS set. |
-|---|---|
-| dps_set_id | Needed for equation-based setup.<br><br>This parameter is derived as follows:<br><br>`100000*equation_set_no + 1000*specset_no+1` |
-| rise_tm_per_v | Sets the inverse slew rate for the rising edge in ms/V.<br><br>The allowed range is 0 to 10000 ms/V. |
-| rise_settm | Sets the settling time for the rising edge in ms.<br><br>The allowed range is 0 to 10000 ms. |
-| fall_tm_per_v | Sets the inverse slew rate for the falling edge in ms/V.<br><br>The allowed range is 0 to 10000 ms/V. |
-| fall_settm | Sets the settling time for the falling edge in ms.<br><br>The allowed range is 0 to 10000 ms. |
-| rise_t_per_v_c2c | Sets the inverse slew rate for the rising edge. expression must define a value in ms/V.<br><br>The allowed range is 0 to 10000 ms/V.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_rise_t_ms_per_volt parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
-| rise_setup_t_c2c | Sets the settling time for the rising edge. expression must define a value in ms.<br><br>The allowed range is -10000 to 10000 ms.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_rise_settling_t_ms parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
-| fall_t_per_v_c2c | Sets the inverse slew rate for the falling edge. expression must define a value in ms/V.<br><br>The allowed range is 0 to 10000 ms/V.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect-" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_fall_t_ms_per_volt parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
-| fall_setup_t_c2c | Sets the settling time for the falling edge. expression must define a value in ms.<br><br>The allowed range is -10000 to 10000 ms.<br><br>The parameter is optional. If specified, it is used for "connect-to-connect" cases, that is for level changes caused by a reprogramming of the output voltage within one DPS set, or by a switch to another DPS set while the DPS is connected. If omitted, the above vout_fall_settling_t_ms parameter is used instead.<br><br>This parameter is for both DPS-slot DPS and DC Scale pins. |
-| pinlist | pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If a pin is associated with a DPS-slot DPS, it is ignored. @ refers to all pins that are associated with a DC Scale channel. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/120504.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：11 行 × 2 列。
+> 首行（上游原文）：dps_No | Needed for non-equation-based setup. The identification number of the DPS set which you want to modify. The number must not exceed the maximum number a…
+> 表内引用（1 条，供检索）：`DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`）
 
 ### Example
 
@@ -295,7 +287,7 @@ PSSR PRM,10,50,20,70,(Vcc)
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md`
-（TDC `120504.htm`，**6,007 字节 / 200 行**）。**整篇读完**——本页引文全部来自这一篇 ＋ `edges.jsonl` 里带原句的边。
+（TDC `120504.htm`，**3,009 字节 / 200 行**）。**整篇读完**——本页引文全部来自这一篇 ＋ `edges.jsonl` 里带原句的边。
 
 **入边 6 条 / 4 篇**（`inline` + `toc` 口径，`edges.jsonl` 原始行数）：
 `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel`（2 条）、

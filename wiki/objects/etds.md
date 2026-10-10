@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **6,724 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`。**不是转述。**
+> 本节 **2,412 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -38,15 +38,10 @@ ETDS {waveform_set|specset_id|"multi-port_spec"}, {timing_set}, [mode], {definit
 
 ### Parameters
 
-| waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query, you can also enter ALL for all waveform sets. |
-|---|---|
-| specset_id | Derived as follows:<br><br>`100 *`equation_set_no `+ `specset_no |
-| multi-port_spec | For a multi-port setup, specify the name of a multi-port specification.<br><br>Note that the multi-port specification uniquely determines an equation set for every pin of pinlist, because no pin can belong to more than one port within a multi-port specification. |
-| timing_set | Timing Set Number. Enter PRM for the Primary Timing Set, ALL for all timing sets, or an integer in the range 1 to the maximum number of allowed timing sets. The maximum number is determined by TSUS. |
-| mode | The operating mode. For the query, you can enter ALL for all modes or BIDIR for bidirectional mode, that is, for edges that serve both as drive and receive edges.<br><br>With fast pins, you can specify the mode DELTA for both the command and the query. In this mode, the delays specified for edges with an index > 1 are interpreted as offsets from the calculated default values. |
-| definition_string | The definition string consists of a sequence of items each of which associates a delay with a drive or compare edge. On Pin Scale 800/3600 boards, drive edges are denoted by dn. On Pin Scale 9G boards, there are two kinds of drive edges, which are denoted by fn and sn, respectively; for details see `Defining waveforms for Pin Scale 9G pins`（raw: `02.06.06.01.03.02_Defining_waveform_shapes_for_Smart_Scale_pins.md`）. You can also use the dn notation for Pin Scale 9G channels, but mixing both notations in one string is not allowed. Receive edges are always denoted by rn.<br><br>Unless you employ the pdiv statement for fast pins (see below), all edges which are not explicitly set remain unchanged.<br><br>The range of the edge delay is -8000 ns to +24000 ns (or -4 to +12 test system periods) for the Pin Scale 3600/800.<br><br>On Pin Scale 800/3600 boards, the restrictions for edge ordering must be observed both in fixed and equation based timing. For example, you cannot assign a greater delay to d1 than to d3 if d1 precedes d3 in a waveform definition. For more information, see `Selecting and ordering edges`（raw: `02.06.06.01.03.01.02_Selecting_and_ordering_edges.md`）.<br><br>Note that with equation based timing, ETDS returns no error message when the edge order restrictions are violated.<br><br>On Pin Scale 9G boards, ordering of drive edges is not restricted in any way. |
-|  | Special Rules for Fast Pins:<br><br>If a pin is configured as a fast pin in the context of the specification given by the first parameter, you can specify the period divider at the start of the definition string. The format is pdiv:n, where n must be the same value as the period_div value of the pins in pinlist within the timing set specified by the timing_set parameter.<br><br>If you specify pdiv:nand a delay for the first edge, ETDS calculates delays for the following n-1 edges except those that are specified explicitly in the string. Note that for n = 3, the edges with index 1, 3, 5 are used for internal reasons.<br><br>If you omit either pdiv or the first edge, only the specified edges are modified. However, with receive edges this is only possible for r1.<br><br>The calculated delays are determined for the ith edge by the following formula:<br><br>1st_edge_delay + (i-1) * (period/pdiv)<br><br>1st_edge_delay is the delay specified for the first edge (d1 or r1; the generic notation e1 is not allowed for fast pins). If the first edge is not specified in the string, its delay is set to 0. An example for the calculation will be given below.<br><br>Note that when both the period divider and a delay for the first edge are present in the definition string, then the delays for all the edges required by the period divider will be overwritten.<br><br>When a delay is explicitly specified for one of the edges, this delay overrides the calculated default. There are two formats to specify overrides. You can either define absolute delays or the offsets from the default delays.<br><br>If you want to use the second, relative format, you must specify DELTA for the modeparameter. Note that you can also specify negative offsets in the DELTA mode. |
-| pinlist | The name of the pin or pins for which edge delays are to be set or read back. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. The symbol @ can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.<br><br>In a multi-port setup, every pin must belong to a port of the specified specification. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98599.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 2 列。
+> 首行（上游原文）：waveform_set | Waveform Set Number. Enter PRM for the Primary Waveform Set, or an integer in the range 1 to the maximum number of allowed waveform sets. The max…
+> 表内引用（3 条，供检索）：`WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`） · `Defining waveforms for Pin Scale 9G pins`（raw: `02.06.06.01.03.02_Defining_waveform_shapes_for_Smart_Scale_pins.md`） · `Selecting and ordering edges`（raw: `02.06.06.01.03.01.02_Selecting_and_ordering_edges.md`）
 
 ### Example 1
 
@@ -485,7 +480,7 @@ multi-port 场合另加一条：
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`
-  （frontmatter 的 `source_topic` 是 `98599.htm`；**9,828 字节 / 211 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98599.htm`；**5,636 字节 / 211 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 

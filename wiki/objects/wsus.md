@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **686 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`。**不是转述。**
+> 本节 **538 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,8 +44,10 @@ WSUS {waveform_set}
 
 ### Parameters
 
-| waveform_set | Waveform set number. This is the highest number currently allocated to a waveform set or the highest number of a set you want to load. The number you enter must not exceed the maximum number of waveform sets allowed (defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command).<br><br>This number is automatically updated to include any new waveform set as it is created. At power-on, only one waveform set (containing one timing set and default values) is available. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98878.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：waveform_set | Waveform set number. This is the highest number currently allocated to a waveform set or the highest number of a set you want to load. The number…
+> 表内引用（1 条，供检索）：`DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）
 
 ### Example
 
@@ -220,7 +222,7 @@ WSUS 3
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`
-  （frontmatter 的 `source_topic` 是 `98878.htm`；**1,986 字节 / 67 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98878.htm`；**1,963 字节 / 67 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 

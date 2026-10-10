@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **24,347 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05_Device_architecture_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md>`。**不是转述。**
+> 本节 **11,099 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05_Device_architecture_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.05.01_Device_architecture_file_syntax.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -158,154 +158,126 @@ Italic text indicates meta-syntax, as described in `Syntax conventions`（raw: `
 
 These are the keywords and their parameters in alphabetical order:
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :bitInversion: | Specifies bit inversion tables, that is, tables that tell MTL for which bits to invert logical 0 and 1 under which conditions.<br><br>This keyword is optional; it is required only if bit inversion is to be used. You need to specify bit inversion to use data scrambling.<br><br>There can be any number of :bitInversion: statements in a device architecture file. You reference the desired one from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） using the :bitInversion: keyword.<br><br>See the "Bit inversion keywords" table below for details. |
-| :bitOrdering: | Specifies bit ordering tables, that is, tables that specify ways of reordering bits.<br><br>This keyword is optional; it is required only if bit reordering is to be used. You need to specify bit ordering to use data scrambling.<br><br>There can be any number of :bitOrdering: statements in a device architecture file.You reference the desired one from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） using the :bitOrdering: keyword.<br><br>See the "Bit ordering keywords" table below for details. |
-| :crc: | Specifies a named cyclic redundancy check (CRC) setting.<br><br>This keyword is optional; it is required only if you want to use CRC.<br><br>There can be any number of :crc: statements in a device architecture file. You reference the desired one from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） using the :crc: keyword.<br><br>See the "CRC keywords" table below for details. |
-| :dbi: | Specifies a named dynamic bus inversion (DBI) setting.<br><br>This keyword is optional; it is required only if you want to use DBI.<br><br>There can be any number of :dbi: statements in a device architecture file. You reference the desired one from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） using the :dbi: keyword.<br><br>See the "DBI keywords" table below for details. |
-| :deviceArchitecture: | This keyword is required at the start of the file. |
-| :deviceParam: | Specifies values for device parameters, that is, the number of x, y, and (optionally) z bits and the number of data bits. You can also define custom device parameters.<br><br>See the "Device parameter keywords" table below for details. |
-| :maintenanceOperation: | Specifies maintenance operation (refreshes).<br><br>This keyword is optional; it is required only if a device maintenance operation is to be used.<br><br>There can be any number of :maintenanceOperation: statements in a device architecture file. You reference the desired one from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） using the :maintenanceOperation: keyword.<br><br>See the "Maintenance operation keywords" table below for details. |
-| :operationOrder: | Specifies whether dynamic bus inversion or cyclic redundancy checks should be performed first:<br><br>- To perform the DBI first, specify `{ dbi crc }`.<br>- To perform the CRC first, specify `{ crc dbi }`. |
-| :scramble: | Specifies tables for recalculating addresses.<br><br>This keyword is optional; it is required only if address scrambling is to be used.<br><br>There can be any number of :scramble: statements in a device architecture file. You reference the desired one from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） using the :scramble: keyword.<br><br>See the "Scrambling keywords" table below for details. |
-| :version: | <deviceArchitectureVersion>: Any string describing the version of the device architecture file.<br><br>This keyword is optional. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：11 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
+> 表内引用（1 条，供检索）：`APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`）
 
 ## Bit inversion keywords
 
 These keywords let you specify bit inversion tables for referencing from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） (see :bitInversion:, above):
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <bitInversionTableName>: The name by which the table can be referenced. |
-| :table: | The bit inversion specification.<br><br>See the following table for details. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 The :table: element contains these keywords:
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :bit: | <bitInversionBits>: The bits that MTL is to invert.<br><br>Bit specifications can contain ranges as well as lists of pins.<br><br>For example: `[0..8,10,12]` which indicates pins 0 through 8, pin 10, and pin 12. The order of the bits is significant, that is `[0,1,2,3]` is a different subgroup from `[3,2,1,0]`.<br><br>If a range lists the higher number first, the order of most and least significant bits is reversed: Specifying bits `[15..0]` is an easy way of making bit 0 the least significant bit. |
-| :expression: | <bitInversionExpr>: An expression that controls whether the specified bits are inverted or not.<br><br>MTL calculates the value of the expression and uses the specified order only if the expression evaluates to logical 1.<br><br>Expressions can contain the `AND`, `OR`, `NOT`, and `XOR` logical operators. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 ## Bit ordering keywords
 
 These keywords let you specify bit ordering tables for referencing from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） (see :bitOrdering:, above):
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <bitOrderingTableName>: The name by which the table can be referenced. |
-| :table: | The bit ordering specification.<br><br>See the following table for details. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 The :table: element contains these keywords:
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :bit: | <bitOrderingBits>: The order in which MTL is to arrange the bits.<br><br>Bit specifications can contain ranges as well as lists of pins.<br><br>For example: `[0..8,10,12]` which indicates pins 0 through 8, pin 10, and pin 12. The order of the bits is significant, that is `[0,1,2,3]` is a different subgroup from `[3,2,1,0]`.<br><br>If a range lists the higher number first, the order of most and least significant bits is reversed: Specifying bits `[15..0]` is an easy way of making bit 0 the least significant bit. |
-| :expression: | <bitOrderingExpr>: An expression that controls whether the reordering is used or not.<br><br>MTL calculates the value of the expression and inverts the specified bits only if the expression evaluates to logical 1. There must always be paris of expressions (and accompanying entries in the :bits: column) that must be the logical inversions of each other (that is, one expression in the pair must evaluate to 1 exactly when the other evaluates to 0).<br><br>Expressions can contain the `AND`, `OR`, `NOT`, and `XOR` logical operators. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 5 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 ## CRC keywords
 
 These keywords let you specify CRC settings for referencing from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） (see :crc:, above):
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <crcName>: The name by which the CRC setting can be referenced. |
-| :bitExpression: | A specification to calculate the CRC bits.<br><br>There can be any number of :bitExpression: blocks in a :crc: block. See the Bit expression keywords section below for details. |
-| :bitSequence: | A specification of bits from which a CRC expression is to be calculated.<br><br>There can be any number of :bitSequence: blocks in a :crc: block. See the Bit sequence keywords section below for details. |
-| :configuration: | A named combination of a bit expression and a bit sequence.<br><br>There can be any number of :configuration: blocks in a :crc: block. See the Configuration keywords section below for details. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 6 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 ## Bit expression keywords
 
 The :bitExpression: element contains these keywords, either directly or within the subordinate :table: block:
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <bitExpressionName>: The name by which this bit expression can be referenced in a :configuration: block. |
-| :bit: | <bitNumber>: The number of the bit in the CRC word. |
-| :expression: | <bitExpression>: An expression that calculates the CRC bit.<br><br>The expression can access the bits of the bit sequence (the source data for calculating the CRC) using the e pseudo-variable. For example, to access bit 1 of the bit sequence, use `e[1]`.<br><br>If the result of the expression has more bits than there are pins in the pin list of the pin expression used (see below), only its least significant bits are assigned to the result bits. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 7 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 ## Bit sequence keywords
 
 The :bitSequence: element contains these keywords, either directly or within the subordinate :table: block:
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <bitSequenceName>: The name by which this bit sequence can be referenced in a :configuration: block. |
-| :pinList: | <pinName>: The name of a pin the edges of which are used to calculate the CRC.<br><br>There can be multiple pins in each :pinList: row. Each row must contain the same number of pins.<br><br>If rows contain multiple pins, the edges of each of these pins are handled in the same way when connecting a bit expression (see above). Each column of pins in the pin list result in one bit in the result of applying the crc macro. For example, if each row of the pin list contains four pins, the crc macro result has four bits. |
-| :sequence: | <sequenceOrder>: The bits of the expression e to which the edges of the device access on the pin are assigned.<br><br>Edges are assigned in order to the listed bits, that is, the first edge is assigned to the first listed bit, the second edge to the second bit, and so on.<br><br>Not all edges of an access need to be assigned to bits, but there must be an edge for every listed bit. In other words, a device access must contain at least as many edges as bits are listed. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 8 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 ## Configuration keywords
 
 The :configuration: element contains these keywords:
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <crcConfigurationName>: The name by which this CRC configuration can be referenced in a crc() macro.<br><br>See `Macros and functions in device accesses`（raw: `02.12.03.03.04.02_Macros_and_functions_in_device_accesses.md`） for more information on the crc() macro. |
-| :bitExpression: | <bitExpressionName>: The name of the bit expression that is to be used in this named CRC configuration.<br><br>The bit expression must be defined in the same :crc: block that contains this :configuration: block. |
-| :bitSequence: | <bitSequenceName>: The name of the bit sequence that is to be used in this named CRC configuration.<br><br>The bit sequence must be defined in the same :crc: block that contains this :configuration: block. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 9 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
+> 表内引用（1 条，供检索）：`Macros and functions in device accesses`（raw: `02.12.03.03.04.02_Macros_and_functions_in_device_accesses.md`）
 
 ## DBI keywords
 
 These keywords let you specify DBI settings for referencing from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） (see :dbi:, above):
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <dbiName>: The name by which the DBI setting can be referenced. |
-| :configuration: | A a combination of a condition for when to invert bits and a list of pins on which to invert the bits.<br><br>There can be any number of :configuration: blocks in a :dbi: block. See the Configuration keywords section below for details. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 10 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 ## Configuration keywords
 
 The :configuration: element contains these keywords, either directly or within the subordinate :table: block:
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <dbiConfigurationName>: The name by which this bit expression can be referenced in the :operation: column of a device access in a `Device access file`（raw: `02.12.03.03.04_Device_access_file.md`）. |
-| :condition: | <condition>: A specification of a condition under which the bus inversion is to be applied.<br><br>The condition must be a statement that evaluates to true or to false. If it evaluates to true, bus inversion is applied; if it does not, no bus inversion is applied.<br><br>The expression can use the e pseudo-variable that refers to all pins specified in the :bus: column (see below). You can access:<br><br>- Individual pins with expressions like `e[3]`<br>- Ranges of pins with expressions like `e[3..6]`<br>- All pins of the bus with `e[]`<br><br>You may want to use the bitCount function, which is described in `Macros and functions in device accesses`（raw: `02.12.03.03.04.02_Macros_and_functions_in_device_accesses.md`）. |
-| :bus: | <pinName>: A list of the pins that belong to the bus which is to be inverted.<br><br>There can be multiple rows, with each row linking a subset of the bus pins to a particular flag pin (see below). The bus to be inverted is the union of all rows.<br><br>Note that a device access that employs dynamic bus inversion (that is, that uses the `dbi` macro in the :operation: column) must use all pins of the bus, if it accesses the bus. It must not address only some pins of the bus. |
-| :flag: | <flagPinName>: A name of a flag pin outside of the bus itself. This pin is inverted whenever the section of the bus specified in the same row is inverted.<br><br>The flag pin must be a single pin.<br><br>A flag pin is only inverted when the associated section of the bus is inverted, which requires all pins in that section to be included in the :pin: column of the row of the device access in which the dbi macro is called. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 11 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
+> 表内引用（2 条，供检索）：`Device access file`（raw: `02.12.03.03.04_Device_access_file.md`） · `Macros and functions in device accesses`（raw: `02.12.03.03.04.02_Macros_and_functions_in_device_accesses.md`）
 
 ## Device parameter keywords
 
 These keywords let you specify parameters describing important architectural characteristics of the DUT (see :deviceParam:, above):
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <paramName>: The name of the device parameter you want to define:<br><br>- `xBits` to provide the number of x address bits<br>- `yBits` to provide the number of y address bits<br>- `zBits` to provide the number of z address bits<br>- `dBits` to provide the number of data bits.<br><br>Please note that these four words are built-in keywords words that you must use in this definition.<br><br>The `zBits` parameter is optional. You can use it if your device has several memory banks or the DUT is a memory SIMM.<br><br>You can also define additional parameters depending on your test. For example, in tests with burst mode, you can define a parameter burst length to enter the number of vectors in a burst. These additional parameters can be used in the `APG program file`（raw: `02.12.03.03.03_APG_program_file.md`） and `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`）.<br><br>You can use all operators (except assignment and increment operators) in defining device parameters. You cannot use program parameters in the definition of device parameters. |
-| :value: | <paramName>: The value that the parameter has for this device.<br><br>Hexadecimal values must be prefixed with `0x`. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 12 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
+> 表内引用（2 条，供检索）：`APG program file`（raw: `02.12.03.03.03_APG_program_file.md`） · `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`）
 
 ## Maintenance operation keywords
 
 These keywords let you specify maintenance (refresh) operations for referencing from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） (see :maintenanceOperation:, above):
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <maintenanceOperationTableName>: The name by which the table can be referenced. |
-| :table: | The maintenance operation specification. In this table:<br><br>- A row specifies a refresh's configuration.<br>- If the operation is a single refresh operation, this table contains only one row.<br>- If the operation is a multiple refreshes operation, this table contains multiple rows.<br><br>See the following table for details. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 13 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 The :table: element contains these keywords:
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :intervalMode: | <intervalMode>: `compensated` or `accumulated`.<br><br>If the interval mode is `compensated`, delays in executing a refresh operation caused by non-interruptible sequences are deducted from the next refresh interval. In effect, a refresh interval begins when the previous refresh should have happened (irrespective of when it actually happened).<br><br>If the interval mode is `accumulated`, a refresh interval always begins with the previous refresh. Any delays to one refresh cause all following refreshes to be pushed back by a similar amount.<br><br>If the :intervalMode: keyword is not used, the compensated mode is applied.<br><br>See `Maintenance operations`（raw: `02.12.03.04.12_Maintenance_operations.md`） for more information on interval modes. |
-| :operation: | <operationName>: The name of the maintenance operation configuration to be executed. The allowed keywords:<br><br>- maintop_time_a for single refresh operations.<br>- static_maintop_time_x (x can be any given letter) for multiple refreshes operations.<br><br>Each refresh is assigned with a static_maintop_time_x (x can be any given letter) keyword, where x must be different from the other refreshes'.<br><br>Note that these keywords must be identical with the keywords for the refresh-period names in the `Timing file`（raw: `02.12.03.03.09.02_Timing_file.md`）.<br><br>See `Enabling and disabling maintenance operations`（raw: `02.12.03.04.12.02_Enabling_and_disabling_maintenance_operations_in_APG_program_file.md`） for more information on controlling refreshes from a program. |
-| :subroutine: | <subroutineName>: The name of the subroutine from the `APG program file`（raw: `02.12.03.03.03_APG_program_file.md`） that is to executed as the maintenance operation. |
-| :timerMode: | <timerMode>: `dynamic` or `static`.<br><br>If the timer mode is `dynamic`, the refresh interval for device maintenance is specified in the SmarTest timing equation system. Refreshes are initiated by SmarTest and can occur only on tester cycle boundaries.<br><br>If the timer mode is `static`, device maintenance is predefined and inserted into the pattern during compilation. Refreshes can occur between tester cycle boundaries. A reference to the timing equation has to be added to the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`）. See `Maintenance operations`（raw: `02.12.03.04.12_Maintenance_operations.md`） for more information.<br><br>If the :timerMode: keyword is not used, the dynamic mode is applied.<br><br>The static timer mode is not compatible with multiport operation. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 14 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
+> 表内引用（5 条，供检索）：`Maintenance operations`（raw: `02.12.03.04.12_Maintenance_operations.md`） · `Timing file`（raw: `02.12.03.03.09.02_Timing_file.md`） · `Enabling and disabling maintenance operations`（raw: `02.12.03.04.12.02_Enabling_and_disabling_maintenance_operations_in_APG_program_file.md`） · `APG program file`（raw: `02.12.03.03.03_APG_program_file.md`） · `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`）
 
 ## Scrambling keywords
 
 These keywords let you specify maintenance (refresh) operations for referencing from the `APG pattern file`（raw: `02.12.03.03.02_APG_pattern_file.md`） (see :scramble:, above):
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <scramblingTableName>: The name by which the table can be referenced. |
-| :table: | The scrambling specification.<br><br>See the following table for details. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 15 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 The :table: element contains these keywords:
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :bit: | <scrambledBits>: A bit in the scrambled address (that is, the physical address).<br><br>To specify the bits, use the formats xan, yan, and zan, where n is the specific bit in the respective dimension. For example: xa0, xa1, ya0, za5. |
-| :expression: | <scramblingExpr>: A logical expression to calculate the value of the specified bit.<br><br>To calculate the expression, you can use the logical address bits x0, x1, y0, z0, etc. You can also use the `AND`, `OR`, `NOT`, and `XOR` logical operators. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102472.htm`
+> 中**第 16 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 ### Example
 

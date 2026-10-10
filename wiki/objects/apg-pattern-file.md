@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **14,313 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.02_APG_pattern_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.02.01_APG_pattern_file_syntax.md>`。**不是转述。**
+> 本节 **13,309 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.02_APG_pattern_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.02.01_APG_pattern_file_syntax.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -401,21 +401,19 @@ Each of the optional keywords can have a tilde character (~) as a placeholder in
 
 These keywords let you specify parameters for use in the program and device access files (see :programParameter:, above):
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :name: | <paramName>: The name of the parameter. |
-| :value: | <paramValue>: The value of theB parameter.<br><br>To specify a hexadecimal number, prefix it with `0x`. For values larger than 64 bits, see `Expressions with more than 64 bits`（raw: `02.12.03.04.15_Expressions_with_more_than_64_bits.md`）.<br><br>You can specify floating-point numbers as the value; such values are truncated when they are passed to other files.<br><br>You can also specify the value as an expression. This expression can include other parameters and all operators (see `Operators`（raw: `02.12.03.03.03.01.01_Operators.md`）), except assignment and increment operators.<br><br>Device parameters can be used in program parameter definitions. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102150.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
+> 表内引用（2 条，供检索）：`Expressions with more than 64 bits`（raw: `02.12.03.04.15_Expressions_with_more_than_64_bits.md`） · `Operators`（raw: `02.12.03.03.03.01.01_Operators.md`）
 
 ## Timing keywords
 
 These keywords let you specify timing settings (see :timing:, above):
 
-| Keyword | Parameters and descriptions |
-|---|---|
-| :file: | <timingFilePath>: The name of the SmarTest `Timing file`（raw: `02.12.03.03.09.02_Timing_file.md`） to be used. |
-| :eqns: | <equationSet>: The equation set in the specified timing file that is to be used. You can specify the equation set using its number or its name.<br><br>If multiple timing sets are specified for multiport operation, the entry for the equation set is ignored. |
-| :tims: | <timingSet>: The timing set in the specified timing file that is to be used. You can specify the timing set using its number or its name.<br><br>There are special conventions for multiport operation, as described in `Multiport timing conventions`（raw: `02.12.03.04.14.01_Multiport_timing_conventions.md`）. |
-| :spec: | <specSet>: The spec set in the specified timing file that is to be used. You can specify the spec set using its number or its name. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102150.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
+> 表内引用（2 条，供检索）：`Timing file`（raw: `02.12.03.03.09.02_Timing_file.md`） · `Multiport timing conventions`（raw: `02.12.03.04.14.01_Multiport_timing_conventions.md`）
 
 ### Example
 

@@ -18,23 +18,9 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,654 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.01.02_Special_test_suites.md>`。**不是转述。**
-> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
-> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
-> 改写参数表就是把文档事实降级成我的转述（§11）。
-> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
-
-### Tables（脚本逐字抽取，第 1 张）
-
-| Init | An optional test suite that gets an initial setting for the test system. It can be used to set testflow variables, external equipment to an initial state (by supporting the docking of a prober, for example), and etc.<br><br>The Init test suite is executed after the `Download`（raw: `02.08.04.32.01.02.01.02_Special_test_suites.md#_20281__r_Download`） test suite and before the testflow execution starts.<br><br>The following shows the position of the Init test suite in the testflow execution sequence:<br><br>- The test program is loaded.<br>- The testflow is loaded.<br>- The pin configuration is loaded.<br>- The `Download`（raw: `02.08.04.32.01.02.01.02_Special_test_suites.md#_20281__r_Download`） test suite is executed.<br>- The Init test suite is executed.<br>- The first run of the testflow begins.<br>- All setup files not yet loaded are downloaded.<br>- The first test suite is executed. |
-|---|---|
-| bin_disconnect | Executed when a device falls into a bin.<br><br>If you use the `DISCONNECT`（raw: `../02.07_Test_Method_Reference/02.07.04.01.41_DISCONNECT.md`） API in this test suite, then<br><br>- if you defined a disconnect sequence in the device, the disconnect sequence will be executed;<br>- if no disconnect sequence is defined, the standard disconnect sequence will be executed.<br><br>bin_disconnect is a legacy method of disconnecting failing devices. For new devices, we recommend using the `Multibin SmartDisconnect test suite`（raw: `02.08.04.32.01.02.01.04_Multibin_SmartDisconnect_test_suite.md`） that is a combination of a multibin node and a user defined test suite.<br><br>See also `Special test suite bin_disconnect`（raw: `../../03_Use_cases_and_application_papers/03.04_How_to_do_disconnect/03.04.01.04_Special_test_suite_bin_disconnect.md`）. |
-| Abort | Executed when the test system gets into the abort state.<br><br>This state is either chosen in the Operation Control Window (in any mode), or programmed; or occurs in cases of exception handling (test system, library or program errors). The abort state unloads the test program and disconnects the test system. It does not, however, reset the test system hardware. |
-| Reset | Executed when the test system gets into the reset state.<br><br>This state is either chosen in the `Operation Control Window`（raw: `../02.09_Test_Program_Management/02.09.01.07_Controlling_a_Production_Run.md`）, or programmed; or occurs in some cases of exception handling (test system, library or program errors). The reset state unloads the test program and puts the test system in an initialized (disconnected) state. The test system hardware is reset, so you must ensure you download the original settings again if you wish to restart. |
-| Pause | Executed when the test system gets into the pause state.<br><br>This state is either chosen in the `Operation Control Window`（raw: `../02.09_Test_Program_Management/02.09.01.07_Controlling_a_Production_Run.md`）, or programmed; or occurs in most cases of exception handling (test system, library or program errors). The pause suite is executed before the pause section in the application model. |
-| multi_bin_decision | Executed whenever one or more sites reach a multi_bin node in the testflow.<br><br>While binning you can decide which bin to be used in the multi_bin by using the `SET_MULTIBIN`（raw: `../02.07_Test_Method_Reference/02.07.04.01.212_SET_MULTIBIN.md`） API in the test method. |
-| Exit | Executed when the test system gets into the exit state.<br><br>This state is either chosen in the `Operation Control Window`（raw: `../02.09_Test_Program_Management/02.09.01.07_Controlling_a_Production_Run.md`）, or programmed; or occurs in cases of exception handling (test system, library or program errors). The exit suite is relevant only when the testflow was started from within a testprogram. The exit suite is executed before the testprogram terminates. |
-| Download | The Download test suite is executed after the testflow is loaded. You can use this test suite to load the pin configuration setup selected on the `Setups page`（raw: `02.08.04.32.03.01.07_Setups_page.md`） of the `Flow Data Editor`（raw: `02.08.04.32.03.01_Flow_Data_Editor.md`） or other setup files.<br><br>The following shows the position of the Download test suite in the testflow execution sequence:<br><br>1. The test program is loaded.<br><br>2. The testflow is loaded.<br><br>3. The pin configuration is loaded.<br><br>4. The Download test suite is executed.<br><br>5. The `Init`（raw: `02.08.04.32.01.02.01.02_Special_test_suites.md`） test suite is executed.<br><br>6. The first run of the testflow begins.<br><br>7. All setup files not yet loaded are downloaded.<br><br>8. The first test suite is executed. |
+**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
+这类**段标记**，跟着 `Subtopics` 找一层也没有。
+**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
 <!-- 语法节 end -->
 

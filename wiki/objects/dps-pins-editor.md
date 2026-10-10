@@ -196,7 +196,7 @@ See `DC Scale pin (DPS mode) setup`（raw: `02.08.04.18.03.01.03.01_DC_Scale_pin
 
 `sources:` 一篇：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.03_DPS_Pins_editor.md`
-（`105636.htm`，40 行）——**整篇读完**。
+（`105636.htm`，37 行）——**整篇读完**。
 
 **本页做了什么**：
 

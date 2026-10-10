@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,221 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`。**不是转述。**
+> 本节 **394 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -36,20 +36,9 @@ GCTX {setup_type}{,setup_nr|"name"},"[context_name]"
 
 ### Parameters
 
-| setup_type | The type of the setup component for which the mode context is queried. Possible values are: | The type of the setup component for which the mode context is queried. Possible values are: |
-|---|---|---|
-| setup_type | TIM | Timing equation set |
-| setup_type | LEV | Level equation set |
-| setup_type | WAVE | Wavetable |
-| setup_type | LBL | Sequencer label |
-| setup_type | SPCF | Multi-port specification |
-| setup_type | CURR | The mode context for the current primary sets (as defined with the SPRM command) and the current start label (as defined with the SQSL command). |
-| setup_nr | The number of a setup component. This parameter is ignored for setup type CURR. | The number of a setup component. This parameter is ignored for setup type CURR. |
-| name | The name of a wavetable, or the name of a multi-port specification. This parameter is ignored for setup type CURR. | The name of a wavetable, or the name of a multi-port specification. This parameter is ignored for setup type CURR. |
-| context_name | The name of the mode context. If you specified CURR for the setup_type parameter, and the current mode context is not correct, GCTX? returns an empty string.<br><br>The context is only correct when all primary sets (defined by SPRM) and the current start label (defined by SQSL) are associated with the same mode context. Furthermore, if there exists a primary multi-port specification, the mode context must be the same for all ports of this specification. | The name of the mode context. If you specified CURR for the setup_type parameter, and the current mode context is not correct, GCTX? returns an empty string.<br><br>The context is only correct when all primary sets (defined by SPRM) and the current start label (defined by SQSL) are associated with the same mode context. Furthermore, if there exists a primary multi-port specification, the mode context must be the same for all ports of this specification. |
-
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98611.htm`。
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98611.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：10 行 × 3 列。
+> 首行（上游原文）：setup_type | The type of the setup component for which the mode context is queried. Possible values are:
 
 ### Example
 
@@ -222,7 +211,7 @@ GCTX {setup_type}{,setup_nr|"name"},"[context_name]"
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md`
-  （frontmatter 的 `source_topic` 是 `98611.htm`；**2,807 字节 / 124 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98611.htm`；**950 字节 / 124 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节是脚本从这一篇抽的（**本页一个字没动**）。
 

@@ -18,20 +18,9 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,143 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.07.09.04_Grounding.md>`。**不是转述。**
-> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
-> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
-> 改写参数表就是把文档事实降级成我的转述（§11）。
-> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
-
-### Tables（脚本逐字抽取，第 1 张）
-
-| - Signal frequency: | Digital signals are broadband. |
-|---|---|
-| - Current amplitude: | The voltage drop is proportional to the signal current. |
-| - Noise voltage threshold: | The noise level a circuit can withstand or generate. For a cost effective design consider the acceptable noise level. |
-| - Return path: | At low frequencies current follows the path of least resistance. At high frequencies, current follows the path of least inductance (or, in more general terms: impedance).<br><br>Therefore you need to provide a direct low impedance / resistance return path, depending on high or low frequency requirements.<br><br>See also `Connecting the different grounds on the DUT board`（raw: `02.03.07.08.05.02_Connecting_the_different_grounds_on_the_DUT_board.md`）. |
-| - Multiple propagation paths | The return current is distributed inversely proportional to the impedance of each path. Therefore, make sure to always provide only one return path right underneath (or nearby) the signal path (see also `Signal return paths`（raw: `02.03.07.01.09_Signal_return_paths.md`）). This applies to both horizontal layer paths and vertical layer paths. |
+**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
+这类**段标记**，跟着 `Subtopics` 找一层也没有。
+**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
 <!-- 语法节 end -->
 

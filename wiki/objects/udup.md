@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **341 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`。**不是转述。**
+> 本节 **400 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,8 +32,9 @@ UDUP {(purpose_name)}
 
 ### Parameters
 
-| purpose_name | Specifies the utility purpose name or names to be undefined.<br><br>The symbol @ removes all utility purpose definitions.<br><br>If more than one name is to be removed, the names must be separated by a comma. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98830.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：purpose_name | Specifies the utility purpose name or names to be undefined. The symbol @ removes all utility purpose definitions. If more than one name is to be…
 
 ### Example
 
@@ -291,7 +292,7 @@ Several firmware commands can disable a device specific license lock, in other w
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md`
-（TDC `98830.htm`；**md 1,061 字节 / 46 行**，上游 htm 2,589 字节）。**整篇读完——本篇只有 46 行。**
+（TDC `98830.htm`；**md 1,220 字节 / 46 行**，上游 htm 2,589 字节）。**整篇读完——本篇只有 46 行。**
 
 **另外读了三篇 raw（本页 `sources:` 之外，逐条声明）：**
 
@@ -377,9 +378,9 @@ Several firmware commands can disable a device specific license lock, in other w
 >
 > **⑤ 本篇在语料里有**三份**投放，正文逐行完全相同。** 另两份是
 > `02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md`
-> （`source_topic: "98830_2.htm"`，1,062 字节）与
+> （`source_topic: "98830_2.htm"`，1,223 字节）与
 > `02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md`
-> （`source_topic: "98830_3.htm"`，1,062 字节）。
+> （`source_topic: "98830_3.htm"`，1,223 字节）。
 > **实测 `diff`：三份的差别只有 frontmatter 的第 3、4 行**（`source_topic` / `source_html`），
 > 那 1 字节的差就是 `98830` → `98830_2` / `98830_3`。
 > **三份上游 `.htm` 也都在，而且 `cmp` 报三个文件完全一致**（都是 2,589 字节）——

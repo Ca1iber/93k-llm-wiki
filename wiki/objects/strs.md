@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,760 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`。**不是转述。**
+> 本节 **995 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -38,20 +38,10 @@ STRS {res_spec}, [pass_meas_value], [fail_meas_value], [(pinlist)]
 
 ### Parameters
 
-| exec_context | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） . |
-|---|---|
-| start | Double float with up to 5 digits after the decimal point defining the value of spec_name at the start of the search. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the minimum value as defined in the spec set will be used.<br><br>The start value can be greater than the stop value. In this case the search will be in the negative direction. |
-| stop | Double float with up to 5 digits after the decimal point defining the value of spec_name where you want the search to end. The maximum valid range is -21474.83648 to +21474.83647, though this may be limited by the maximum and minimum values defined with the spec. If the parameter is omitted, the maximum value as defined in the spec set will be used.<br><br>The stop value can be smaller than the start value. In this case the search will be in the negative direction. |
-| mode | Search mode. Use:<br><br>L to specify a linear search,<br><br>LB to specify linear/binary search,<br><br>B to specify a binary search. |
-| pinlist | The name of the pin or pins for which the value of the spec variable is to be modified. This parameter may also include groups previously created by the `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） command. If more than one pin is to be included, the names must be separated with a comma.<br><br>The @ character indicates all pins. This is the default. |
-| spec_type | Which specification type to use. Use :<br><br>LEV to specify levels, or<br><br>TIM to specify timing. |
-| spec_name | A string of up to 64 alphanumeric characters (upper or lower case) enclosed in double quotes.<br><br>If you use the option @port`[`@UNCHANGED`]`, (see the port parameter), you must include this extension in the double quotes, too. |
-| port | In a multi-port setup, you can add a port name to the spec variable. This will have the effect that the value of the variable will be modified only for pins belonging to this port. This holds even if the variable has global scope for this port in the timing specification.<br><br>If you specify the spec variable without a port in a multi-port setup, its value will only be modified for a pin whose port has the spec variable set to global scope.<br><br>For more information on the scope of a variable see `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`）.<br><br>Note that if a port that is specified with the name of the variable it is this port on which the value of the variable will be modified. The setup pins have no influence on this.<br><br>On a Pin Scale system, the specification of a port will have an additional effect:<br><br>If spec_name is used in the definition of the port period, this port will be temporarily used as the primary port. For more information see `Modifying the period for a search or shmoo in a multi-port setup`（raw: `02.06.09.01.01.01_Modifying_the_period_for_a_search_or_shmoo_in_a_multi-port_setup__Pin_Sc.md`）.<br><br>This switch can be suppressed by adding @UNCHANGED to the port name. |
-| stepwidth | The search step width in the unit specified with the corresponding spec. This is optional if mode is B. |
-| resolution | The smallest step size to be used in the search. Especially useful in a binary search of a range of floating point numbers, where the number of values between start and stop is infinite. The unit must be the same as defined with the spec. |
-| res_spec | LT (less than)<br><br>LE (less than or equal to)<br><br>EQ (equal to)<br><br>GE (greater than or equal to)<br><br>GT (greater than). |
-| pass_meas_value | A double float defining the passed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>This parameter contains the last (in a PASS/FAIL transition) or the first (in a FAIL/PASS transition) value where the test passed. |
-| fail_meas_value | A double float defining the failed measured value, with up to 5 digits after the decimal point. Valid range is -21474.83648 to +21474.83647.<br><br>This parameter contains the first (in a PASS/FAIL transition) or the last (in a FAIL/PASS transition) value where the test failed. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98762.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：13 行 × 2 列。
+> 首行（上游原文）：exec_context | An execution context. For more information on execution contexts see Using execution contexts .
+> 表内引用（4 条，供检索）：`Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`） · `DFGP`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`） · `Global and local scope of base variables`（raw: `02.06.06.01.05.03.01_Global_and_local_scope_of_base_variables.md`） · `Modifying the period for a search or shmoo in a multi-port setup`（raw: `02.06.09.01.01.01_Modifying_the_period_for_a_search_or_shmoo_in_a_multi-port_setup__Pin_Sc.md`）
 
 ### Example
 
@@ -355,7 +345,7 @@ STRS GE,2,,
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md`
-  （frontmatter 的 `source_topic` 是 `98762.htm`；**7,064 字节 / 221 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98762.htm`；**3,413 字节 / 221 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节都是脚本从这一篇抽的（**本页一个字没动**）。
 - 本篇的节序（照 raw 的 `## ` 标题）：正文三段 → `Temporarily changing the primary port on a Pin Scale system`

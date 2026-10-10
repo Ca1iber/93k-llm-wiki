@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,700 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.240_TASK_LIST.md>`。**不是转述。**
+> 本节 **3,666 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.240_TASK_LIST.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -50,9 +50,9 @@ For downloading the settings in tasks and performing the tasks:
 <object>.execute();
 ```
 
-| <object> | Object name to be defined |
-|---|---|
-| task1-N | Object name of the PPMU_SETTING, PPMU_RELAY or PPMU_MEASURE class to specify a task to be performed. A task list can contain up to 10 tasks. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/29792.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：<object> | Object name to be defined
 
 ### Example
 

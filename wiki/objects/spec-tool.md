@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,423 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30_Spec_Tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30.02.01_Creating_new_specification_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30.02.16.01_Global_and_local_spec_values__scope_of_the_spec_variable.md>`。**不是转述。**
+> 本节 **3,035 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30_Spec_Tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30.02.01_Creating_new_specification_sets.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.30.02.16.01_Global_and_local_spec_values__scope_of_the_spec_variable.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -93,17 +93,9 @@ After you have defined the specifications:
 The following table illustrates an example with five ports and different settings of the scope attribute.
 
 Example for settings of the scope attribute
-| Spec | PORT 1 | PORT 2 | PORT 3 | PORT 4 | PORT 5 |
-|---|---|---|---|---|---|
-| f | local | local | local | global | global |
-| ts_Sx_CP | global | global | global | global | global |
-| th_CP_Sx | global | global | global | global | global |
-| ts_IOx_CP | local | local | local | local | local |
-| th_CP_IOx | local | local | local | local | local |
-| ts_DSx_CP | local | local | local | global | global |
-| th_CP_DSx | local | local | local | global | global |
-| tw_CP | global | global | global | global | global |
-| tw_MR | global | global | global | global | global |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/55272.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：10 行 × 6 列。
+> 首行（上游原文）：Spec | PORT 1 | PORT 2 | PORT 3 | PORT 4 | PORT 5
 
 For example, consider the spec "f" of the table above. It is local for PORT 1, PORT 2 and PORT 3 and global for Port 4 and Port 5.
 

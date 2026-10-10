@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,981 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.03.15_tpt_import_from_device.md>`。**不是转述。**
+> 本节 **1,478 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.03.15_tpt_import_from_device.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -41,15 +41,10 @@ device_test_flow = <testflow_file>,
 
 ### Parameters
 
-| device_test_flow | <testflow_file> (string) is the path of the testflow file from which the test program template is to be generated.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| tpt_dir | <location> (string) is the path, including the name, where the new template files and directories are created.<br><br>The path can be either absolute or relative to the current working directory.<br><br>If the directory does not yet exist, STPM creates it. If the directory already exists, it must either be empty or the allow_overwrite parameter (see below) must be set to 1. |
-| include_groups | <include_groups> (list of strings) is a list of groups in the specified testflow that are to be imported.<br><br>Each group name is a string enclosed in single or double quotes; groups are separated by commas, and the list is enclosed in square brackets.<br><br>You can use the ? and * wildcard characters in the group name strings. (See empty_groups, below, for details.)<br><br>This parameter is optional. If it is omitted, all groups are imported. |
-| empty_groups | <empty_groups> (list of strings) is a list of groups that are to be emptied.<br><br>An empty group is transferred to the test program template, but none of the test suites it contains are transferred. Empty groups are useful to preserve the structure of the testflow. They can be filled with new test suites later.<br><br>Each group name is a string enclosed in single or double quotes; groups are separated by commas, and the list is enclosed in square brackets.<br><br>You can use the ? and * wildcard characters in the group name strings; ? matches any single character and * matches zero or more characters.<br><br>For example, to empty all groups, you would specify `empty_groups = '*'`. To empty the group temp1 and all groups with the name "test" followed by a single character, you would specify `empty_groups = 'temp1', 'test?'`.<br><br>This parameter is optional. If it is omitted, no groups are emptied. |
-| copy_static_content | <copy_items> (list of strings) is a list of names of files or directories that are to be copied from the existing device directory to the TPT directory.<br><br>The list may contain only names (of files or directories), not paths. The named items must be located in the top level of the device directory. Each name is enclosed in quotes and separated by commas.<br><br>For example: `copy_static_content = ['my_notes.txt','Change log']`<br><br>If you include standard directories in this list (testflow, timing, levels, configuration, vectors, testtable), STPM generates a warning and does not copy the contents.<br><br>Any directories that are copied by means of this command will be included in the device directory generated with `tpt_generate_device_dir`（raw: `02.09.02.03.16_tpt_generate_device_dir.md`）.<br><br>This parameter is optional. If it is omitted, no additional content is copied. |
-| allow_overwrite | <overwrite_flag> specifies whether STPM may overwrite existing files in the test program template directory:<br><br>- 0 (default): No existing files or directories in the test program template directory may be overwritten. If this prevents STPM from saving a created file, it displays an error and stops the conversion.<br>- 1: STPM may overwrite existing files and directories.<br><br>This parameter is optional. If it is omitted, no files or directories are overwritten. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/132700.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 2 列。
+> 首行（上游原文）：device_test_flow | <testflow_file> (string) is the path of the testflow file from which the test program template is to be generated. The path can be either abs…
+> 表内引用（2 条，供检索）：`tpt_generate_device_dir`（raw: `02.09.02.03.16_tpt_generate_device_dir.md`） · `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Example
 

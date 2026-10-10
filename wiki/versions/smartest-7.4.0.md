@@ -14,7 +14,6 @@ sources:
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.07.03.03.02_HV_protection_-_Clamp_regulator.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.01_AVI64_Kelvin_connection.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.03_AVI64_Sense_only_connection.md
-  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01_AVI64_output_pogo_pins.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.02_AVI64_safety_pogo_pins.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.03_AVI64_ganged_wiring.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.04_AVI64_channel_group_and_differential_compare_assignment.md
@@ -34,7 +33,8 @@ sources:
   - 02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md
   - 02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md
   - 02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md
-  # 本页共涉及 278 篇文档。上面只列了前 30 篇——**完整出处是正文每条后面的链接**，
+  - 02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md
+  # 本页共涉及 277 篇文档。上面只列了前 30 篇——**完整出处是正文每条后面的链接**，
   # 机器可读全量见 extract/version-facts.csv（按 doc 列筛）。**这是有意的截断，不是漏列。**
 created: 2026-09-18
 updated: 2026-09-18
@@ -171,7 +171,7 @@ verified: doc-only
 - [User String](<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.06_User_String.md>) —— SmarTest 7.4.0: New function IsUserStringDefined().
 
 
-## 这一版新引入（191 条）
+## 这一版新引入（190 条）
 
 语料原句是 `Introduced in …`，说的是「**这篇文档描述的东西从这一版开始有**」。条目短，所以**文档放前面、原句放后面**：
 
@@ -180,7 +180,6 @@ verified: doc-only
 - [AVI64 pogo pin assignment](<02_System_reference/02.03_DUT_board_design_reference/02.03.06.02.01_AVI64_pogo_pin_assignment.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
 - [AVI64 Kelvin connection](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.01_AVI64_Kelvin_connection.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
 - [AVI64 Sense only connection](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.03_AVI64_Sense_only_connection.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
-- [AVI64 output pogo pins](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01_AVI64_output_pogo_pins.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
 - [AVI64 safety pogo pins](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.02_AVI64_safety_pogo_pins.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
 - [AVI64 ganged wiring](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.03_AVI64_ganged_wiring.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
 - [AVI64 channel group and differential compare assignment](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.04_AVI64_channel_group_and_differential_compare_assignment.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
@@ -370,6 +369,6 @@ verified: doc-only
 
 ## 出处
 
-- 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 307 条**，涉及 **278 篇**文档。
+- 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 306 条**，涉及 **277 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。

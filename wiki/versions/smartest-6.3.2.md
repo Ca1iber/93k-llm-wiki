@@ -49,7 +49,7 @@ verified: doc-only
 > 因此本页只证明**「文档这么写」**，不证明**「机台这样」**（schema §11）。
 > **本页没有被人在真实机台上核对过**（`verified: doc-only`）。
 
-> ⚠️ **本页末尾另有一批 `Introduced before SmarTest 6.3.2` 的条目（2,677 条），那批不是本版的变更。**读之前先看那一节的开头。
+> ⚠️ **本页末尾另有一批 `Introduced before SmarTest 6.3.2` 的条目（2,675 条），那批不是本版的变更。**读之前先看那一节的开头。
 
 ## 这一版改了什么（13 条）
 
@@ -96,16 +96,16 @@ verified: doc-only
 - [GetAvailableSites](<02_System_reference/02.09_Test_Program_Management/02.09.01.09.06_GetAvailableSites.md>) —— Introduced in SmarTest 6.3.2
 
 
-## ⚠️ 另一批：`Introduced before SmarTest 6.3.2`（2,677 条，**不是本版变更**）
+## ⚠️ 另一批：`Introduced before SmarTest 6.3.2`（2,675 条，**不是本版变更**）
 
-语料里有 **2,677 条**可用性行写的是同一个版本号，措辞都是 `Introduced before SmarTest 6.3.2`——**是 `before`，不是 `in`**。
+语料里有 **2,675 条**可用性行写的是同一个版本号，措辞都是 `Introduced before SmarTest 6.3.2`——**是 `before`，不是 `in`**。
 
 它的意思是「**在本文档集覆盖范围开始之前就已经有了**」，**不是「这个版本引入了它」**。这个版本号在这里是个**哨兵值**。
 
-**所以本节不逐条列出这 2,677 条。** 两个理由：
+**所以本节不逐条列出这 2,675 条。** 两个理由：
 
-1. 照字面列出来，就等于宣称「6.3.2 新增了 2,677 个功能」——**那是一条彻头彻尾的假信息，而且格式看着还挺齐整**，正是本 wiki 最该防的那种错（schema §11）。
-2. 这 2,677 条合起来约等于**整个产品的清点**（2,677 篇文档），逐条铺开就是把目录树镜像一遍，schema §3 明确不许。
+1. 照字面列出来，就等于宣称「6.3.2 新增了 2,675 个功能」——**那是一条彻头彻尾的假信息，而且格式看着还挺齐整**，正是本 wiki 最该防的那种错（schema §11）。
+2. 这 2,675 条合起来约等于**整个产品的清点**（2,675 篇文档），逐条铺开就是把目录树镜像一遍，schema §3 明确不许。
 
 **要查某篇文档「是不是在这个版本之前就有」**，用机器索引：`extract/version-facts.csv` 里 `kind=base` 的行，`doc` 列即文档路径。
 
@@ -115,6 +115,6 @@ verified: doc-only
 ## 出处
 
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 33 条**，涉及 **32 篇**文档。
-- 另有 `kind=base` 的 **2,677 条 / 2,677 篇**（`Introduced before 6.3.2`），**见上一节，正文里没有逐条列出**。
+- 另有 `kind=base` 的 **2,675 条 / 2,675 篇**（`Introduced before 6.3.2`），**见上一节，正文里没有逐条列出**。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。

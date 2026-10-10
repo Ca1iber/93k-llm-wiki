@@ -18,24 +18,9 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **710 字符逐字取自** `<03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.10.04_The_V93000_Data_Logging_Architecture.md>`。**不是转述。**
-> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
-> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
-> 改写参数表就是把文档事实降级成我的转述（§11）。
-> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
-
-### Tables（脚本逐字抽取，第 1 张）
-
-| Description | Description | Execution time (seconds) | Additional Overhead (%) |
-|---|---|---|---|
-| Production | Data log completely off 1 | 137 | -- |
-| Production | Event data log on, all testsuite flags off 2 | 137 | 0% |
-| Production | + output on pass / output on fail 3 | 139 | 1.46% |
-| Production | + per pin on pass / per pin on fail 4 | 147 | 7.30% |
-| Production | + value on pass / value on fail 5 | 153 | 11.68% |
-| Engineering<br><br>(Debug) | + 100 failing cycles (FFC) 6 | 569 | 415.33% |
-| Engineering<br><br>(Debug) | + 100 failing cycles + edge results (FRG) 7 | 883 | 544.53% |
-| Engineering<br><br>(Debug) | + 100 failing vectors (drive + expected + received) (FFV) 8 | 3943 | 2778.1% |
+**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
+这类**段标记**，跟着 `Subtopics` 找一层也没有。
+**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
 <!-- 语法节 end -->
 

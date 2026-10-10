@@ -18,24 +18,9 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **400 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.06.01.02.01_Timing_equation_set_reference.md>`。**不是转述。**
-> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
-> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
-> 改写参数表就是把文档事实降级成我的转述（§11）。
-> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
-
-### Tables（脚本逐字抽取，第 1 张）
-
-| ADJUST | LEVELSET | period_res |
-|---|---|---|
-| CHECK | master_clock`1)`（raw: `#fntarg_1`） | SPECIFICATION |
-| CLKSET | MODECONTEXT | SPECS |
-| clockSrc | MODULATION | SPECSET |
-| DEFINES | PDC`2)`（raw: `#_104187__fn1`） | SYNC |
-| DPSPINS | PHYDVCTBL`2)`（raw: `#_104187__fn1`） | TIMINGSET |
-| EQNSET | PINS | v3_delay_register_value`2)`（raw: `#_104187__fn1`） |
-| EQUATIONS | PORT | WAVETBL |
-| fract | period_div |  |
+**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
+这类**段标记**，跟着 `Subtopics` 找一层也没有。
+**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
 <!-- 语法节 end -->
 
@@ -271,7 +256,7 @@ d3= p/2 + D
 
 `sources:` 一篇，**整篇读完**：
 `02_System_reference/02.06_Command_Reference/02.06.06.01.02.01_Timing_equation_set_reference.md`
-（TDC `104187.htm`，**183 行 / 9,474 字节**）。**没有读 `sources` 之外的任何文档。**
+（TDC `104187.htm`，**177 行 / 9,474 字节**）。**没有读 `sources` 之外的任何文档。**
 
 **本页没做的：**
 

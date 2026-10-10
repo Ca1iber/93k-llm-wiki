@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **679 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`。**不是转述。**
+> 本节 **456 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,16 +44,9 @@ DPRL {level_set}, {dps_set}, [screen_select]
 
 ### Parameters
 
-| level_set | Level Set number. | Level Set number. |
-|---|---|---|
-| dps_set | DPS Set number. | DPS Set number. |
-| screen_select | LEV | level |
-| screen_select | DPS | DPS |
-| screen_select | DOV | DPS overvoltage |
-| screen_select | FST | FAST Eqn & Spec Results |
-
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98569.htm`。
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98569.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 3 列。
+> 首行（上游原文）：level_set | Level Set number.
 
 ### Example
 
@@ -195,7 +188,7 @@ On sending a query, the system reports that the default primary level set is 1 a
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md`
-（TDC `98569.htm`，**1,566 字节 / 115 行**）。**整篇读完**——本页引文全部来自这一篇 ＋ `edges.jsonl` 里带原句的边。
+（TDC `98569.htm`，**1,317 字节 / 115 行**）。**整篇读完**——本页引文全部来自这一篇 ＋ `edges.jsonl` 里带原句的边。
 
 **入边 2 条 / 2 篇**（`inline` + `toc` 口径，`edges.jsonl` 原始行数）：
 `02.06.02.02_List_of_commands` 与 `02_System_reference/index.md`。

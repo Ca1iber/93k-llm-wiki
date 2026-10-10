@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **35,631 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.01.09_TPI_Program_Routines.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.01.09.01_ChangeDevice.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.02_DataManager.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.03_ExecMonitor.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.04_GetConnectState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.05_GetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.06_GetAvailableSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.07_GetDevPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.08_GetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.09_GetEQVariableFromCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.10_GetEQVariableValue.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.11_GetFileState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.12_GetLoadedTestflowName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.13_GetNumberOfSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.14_GetSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.15_GetSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.16_GetTechPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.17_GetTestflowRevisionInfo.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.18_GetTmpPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.19_HpInit.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.20_HpTerm.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.21_HpFwTask.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.22_InsertEQVariableInCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.23_MonitorStatus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.24_ReportMessage.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.25_RestoreSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.26_SetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.27_SetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.28_SetErrorMapMode.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.29_SetSiteInFocus.md>`。**不是转述。**
+> 本节 **27,634 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.01.09_TPI_Program_Routines.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.01.09.01_ChangeDevice.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.02_DataManager.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.03_ExecMonitor.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.04_GetConnectState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.05_GetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.06_GetAvailableSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.07_GetDevPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.08_GetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.09_GetEQVariableFromCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.10_GetEQVariableValue.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.11_GetFileState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.12_GetLoadedTestflowName.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.13_GetNumberOfSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.14_GetSiteInFocus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.15_GetSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.16_GetTechPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.17_GetTestflowRevisionInfo.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.18_GetTmpPath.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.19_HpInit.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.20_HpTerm.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.21_HpFwTask.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.22_InsertEQVariableInCache.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.23_MonitorStatus.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.24_ReportMessage.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.25_RestoreSiteState.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.26_SetActiveSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.27_SetEnabledSites.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.28_SetErrorMapMode.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.09.29_SetSiteInFocus.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -37,16 +37,9 @@ VOID ChangeDevice(
 ```
 
 Parameters
-| Parameter | Description |
-|---|---|
-| device_path | path to device to change to (max. length: DM_MAX_DEVICE) |
-| device_name | name of device to change to (max. length: DM_MAX_FILE) |
-| force_change | 0 - change only if paths of actual and new device are different |
-| force_change | 1 - change even if paths of actual and new device are identical |
-| return_state | 0 if an error occurred |
-
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/26580.htm`。
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26580.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 ChangeDevice）
 
@@ -126,65 +119,19 @@ VOID DataManager(
 This parameter determines the type of file to operate on.
 
 Values for Parameter Fid
-| Value | Description |
-|---|---|
-| dm_applicat | application data file |
-| dm_applicmodel | application model file |
-| dm_attrib | pin attribute setup |
-| dm_bitmap | memory test - bitmap |
-| dm_catr | channel attributes |
-| dm_config | pin configuration setup |
-| dm_dataform | data bridge command set |
-| dm_emap | error map |
-| dm_fam | memory test - fail memory |
-| dm_hplib | prober and handler command set |
-| dm_level | level setup |
-| dm_procdata | execution input command set |
-| dm_report | report |
-| dm_set | data set |
-| dm_shmoo | shmoo |
-| dm_state | state list |
-| dm_scan_res | scan test - results |
-| dm_tdiag | timing diagram |
-| dm_testflow | testflow file |
-| dm_testprog | test program |
-| dm_timing | timing setup |
-| dm_userproc | user procedure command set |
-| dm_vector | vector setup<br><br>Note Use dm_vector also to save a pattern master file.<br><br>See also the note for dm_pattern_master_file. |
-| dm_wafertyp | wafer description file |
-| dm_mx_analog | analog setup file |
-| dm_mx_waveform | waveform file |
-| dm_mx_routing | routing setup file |
-| dm_pattern_master_file | pattern master file<br><br>Note Use dm_pattern_master_file only to save the updated patterns in in a new pattern master file. Using dm_pattern_master_file SmarTest does not save unchanged patterns.<br><br>To save data in existing files use dm_vector instead. |
-| dm_profile | data logging profile file |
-| dm_testtable | `test table`（raw: `../02.10_Data_Logging/02.10.01.08.03_Working_with_test_tables.md`） file |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26594.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：31 行 × 2 列。
+> 首行（上游原文）：Value | Description
+> 表内引用（1 条，供检索）：`test table`（raw: `../02.10_Data_Logging/02.10.01.08.03_Working_with_test_tables.md`）
 
 ### Opc (Operation)
 
 This parameter determines the operation to be performed.
 
 Values for Parameter Opc
-| Entry | Operation |
-|---|---|
-| dm_load | replace current setup by file |
-| dm_merge | merge a file (add additional pins) |
-| dm_append | append a file (add additional vectors) |
-| dm_save | save current setup to file |
-| dm_print | print file |
-| dm_copy_in | copy file from another device directory |
-| dm_delete | delete file |
-| dm_utd | return up to date status for the file specified by Fid |
-| dm_optimize | create an optimized testflow |
-| dm_del_optimize | delete a optimized testflow |
-| dm_optimize_utd | return up to date state of the optimized testflow |
-| dm_replace (obsolete) | nothing happens. |
-| dm_pload | load pattern master file |
-| dm_plinit | initialize pattern master file |
-| Dm_blload | load one label which should be in the current loaded pattern master file |
-| Dm_pldump | dump the contents of the pattern master file to a file |
-| Dm_ustate | query the firmware to get the label states and then updating the pattern master file with the returned states. |
-| Dm_unload | unload a library (user procedure, hplib, dataform, etc) in application model |
-| Dm_labsave | save the label to a file |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26594.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：20 行 × 2 列。
+> 首行（上游原文）：Entry | Operation
 
 ### Device
 
@@ -207,22 +154,19 @@ Note The tpi_c.h header file provides the external linkage that no manual linkag
 Specifies modifications to normal operation. A value of zero denotes normal (unmodified) operation. Flags can be bitwise OR'ed to combine several modifications.
 
 Values for Parameter Flags
-| Entry | Modification |
-|---|---|
-| DM_OWRT | Allows the Test Program Explorer process to overwrite an existing setup file. If the flag is not set and the save fails, the routine returns an error code to the test flow program and displays an error message in the report window. |
-| DM_FORCE | Defeats the optimizing operations of the Test Program Explorer process and always downloads a setup file. |
-| DM_SILENT | Defeats error messages to the report window; the Test Program Explorer process still returns an error code to the test flow program. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26594.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Entry | Modification
 
 ### State (return state)
 
 State reports the execution return state and can have the following values:
 
 Values for Parameter State
-| Value | Description |
-|---|---|
-| 1 | up-to-date for operation dm_utd |
-| 0 | not up-to-date for operation dm_utd;<br><br>ok for other operations |
-| < -1 | not ok (please refer to `Appendix A: Listing of Error Messages`（raw: `02.09.01.08.07.03_Appendix_A__Listing_of_Error_Messages.md`）) |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26594.htm`
+> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Value | Description
+> 表内引用（1 条，供检索）：`Appendix A: Listing of Error Messages`（raw: `02.09.01.08.07.03_Appendix_A__Listing_of_Error_Messages.md`）
 
 ### Example（取自子主题 DataManager）
 
@@ -244,29 +188,14 @@ VOID ExecMonitor(
 ### Parameters（取自子主题 ExecMonitor）
 
 Parameters for ExecMonitor
-| Parameter | Value | Description |
-|---|---|---|
-| FuncType | TM_CONTROL_MONITOR | Lets you program the Monitor. |
-|  | TM_RESET_MONITOR_<br><br>STATUS | Lets you reset the test system Operation state displayed in the report window. After reset the state is updated with the actual Monitor state. |
-|  | TM_UNLOCK_TESTER | Lets you unlock the test system. Executes Connect and Disconnect after you have locked the test system. |
-| Parameter |  | A string containing the information necessary to execute the required Monitor function. |
-|  | Monitor type | Specifies Monitor function (see the table below). |
-|  | Monitor settings | Settings you can make when programming the Monitor (see the table below). |
-| ExecReturn |  | Monitor function execution state. |
-|  | TM_SUCCEED | Monitor function successfully executed. |
-|  | TM_BAD_FUNC_TYPE | Incorrect function type entered. |
-|  | TM_BAD_PARAM_S_<br><br>SYNTAX | Incorrect parameter string syntax used. |
-|  | TM_PARAM_S_TOO_<br><br>LONG | Parameter string is too long. |
-|  | TM_POLL_TIME_OUT_OF_RANGE | Entered Poll Time is out of the allowed range. |
-|  | TM_SOFT_ALARM_OUT_OF_RANGE | Entered Soft Alarm is out of the allowed range. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26604.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：14 行 × 3 列。
+> 首行（上游原文）：Parameter | Value | Description
 
 Monitor Type Parameters
-| Parameter | Function |
-|---|---|
-| CalAge | Age of current calibration |
-| BoardTempr | IO Board temperature |
-| Diagnostic | Diagnostic finished |
-| DpsCurrent | DPS forced current |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26604.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Parameter | Function
 
 Monitor Settings Parameters
  |
@@ -753,15 +682,9 @@ VOID GetEQVariableFromCache(
 ### Parameters（取自子主题 GetEQVariableFromCache）
 
 Parameters of GetEQVariableFromCache
-| Parameter | Description | Range |
-|---|---|---|
-| equation_system | type of equation system | TIMING_EQ_SYSTEM or LEVEL_EQ_SYSTEM |
-| equation_set | equation set number | 1 ... 99 |
-| spec_set | spec set number | 1 ... 99 |
-| site_number | number of appropriate site | 1 ... MS_MAX_SITES |
-| variable_name | name of equation variable | null-terminated string |
-| value | on return: actual value of variable |  |
-| return_state | execution return state | 0 if successful |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26635.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 3 列。
+> 首行（上游原文）：Parameter | Description | Range
 
 ### Example（取自子主题 GetEQVariableFromCache）
 
@@ -787,15 +710,9 @@ VOID GetEQVariableValue(
 ### Parameters（取自子主题 GetEQVariableValue）
 
 Parameters of GetEQVariableValue
-| Parameter | Description | Range |
-|---|---|---|
-| equation_system | type of equation system | TIMING_EQ_SYSTEM or LEVEL_EQ_SYSTEM |
-| equation_set | equation set number | 1 ... 99 |
-| spec_set | spec set number | 1 ... 99 |
-| site_number | number of appropriate site | 1 ... MS_MAX_SITES |
-| variable_name | name of equation variable | null-terminated string |
-| value | on return: actual value of variable |  |
-| return_state | execution return state | 0 if successful |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26639.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 3 列。
+> 首行（上游原文）：Parameter | Description | Range
 
 ### Example（取自子主题 GetEQVariableValue）
 
@@ -942,10 +859,9 @@ int GetTestflowRevisionInfo(const CHAR *testflow, TESTFLOW_REVISION_INFO *revisi
 ```
 
 Parameters
-| Parameter | Description |
-|---|---|
-| testflow | A non-null string which indicates the full path of the testflow file. |
-| revision_info | A pointer to the TESTFLOW_REVISION_INFO structure which holds the following information:<br><br>CHAR description[TESTFLOW_REVISION_LEN]: The value of the description attribute defined in the testflow.<br><br>CHAR device_name[TESTFLOW_REVISION_LEN]: The value of the device_name attribute defined in the testflow.<br><br>CHAR device_revision[TESTFLOW_REVISION_LEN]: The value of the device_revision attribute defined in the testflow.<br><br>CHAR test_revision[TESTFLOW_REVISION_LEN]: The value of the test_revision attribute defined in the testflow. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150580.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Return value（取自子主题 GetTestflowRevisionInfo）
 
@@ -1129,13 +1045,10 @@ VOID HpFwTask(
 ### Parameters（取自子主题 HpFwTask）
 
 Parameters for HpFwTask
-| Parameter | Value |
-|---|---|
-| task_str | Command string with one or more commands, each limited by a newline (\n) or by a semicolon. It is an input parameter. |
-| task_len | Length of the command string. It is an input parameter. |
-| answ_str | Answer string. This is an output parameter. |
-| answ_len | As an input parameter: the dimensioned size of the answer string. As an output parameter: the length of the answer string. |
-| ret_state | Status (see `Appendix A: Listing of Error Messages`（raw: `02.09.01.08.07.03_Appendix_A__Listing_of_Error_Messages.md`）). This is an output parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26681.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：Parameter | Value
+> 表内引用（1 条，供检索）：`Appendix A: Listing of Error Messages`（raw: `02.09.01.08.07.03_Appendix_A__Listing_of_Error_Messages.md`）
 
 In order to optimize data transfer times, the size of the answer string should be determined in relation to the amount of data to be passed.
 
@@ -1206,13 +1119,9 @@ VOID InsertEQVariableInCache(
 ### Parameters（取自子主题 InsertEQVariableInCache）
 
 Parameters of InsertEQVariableInCache
-| Parameter | Description | Range |
-|---|---|---|
-| equation_system | type of equation system | TIMING_EQ_SYSTEM or LEVEL_EQ_SYSTEM |
-| equation_set | equation set number | 1 ... 99 |
-| spec_set | spec set number | 1 ... 99 |
-| variable_name | name of equation variable | null-terminated string |
-| return_state | execution return state | 0 if successful |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26686.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 3 列。
+> 首行（上游原文）：Parameter | Description | Range
 
 ### Example（取自子主题 InsertEQVariableInCache）
 
@@ -1232,44 +1141,14 @@ VOID MonitorStatus(
 ### Parameters（取自子主题 MonitorStatus）
 
 Values for Parameter TstrOpState_p
-| Parameter | Value | Description |
-|---|---|---|
-| TstrOpState_p | TM_GREEN_STATE | test system operation is "In Spec"; at least one monitor function is "In Spec" while the others are not being monitored (DISABLED). |
-| TstrOpState_p | TM_YELLOW_STATE | test system operation is "In Spec" (WARNING); at least one monitor function is "In Spec" (WARNING) while the others are not being monitored (DISABLED). |
-| TstrOpState_p | TM_RED_STATE | test system operation is "Out of Spec" (ALARM); at least one monitor function is "Out of Spec" (ALARM) while the others are "In Spec", "In Spec" (WARNING), or not being monitored (DISABLED). |
-| TstrOpState_p | TM_DISABLED_STATE | test system operation is not monitored. All monitor functions are DISABLED. |
-| TstrOpState_p | TM_OFFLINE_STATE | test system operation is not monitored, system software was started in OFFLINE mode. |
-
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/26690.htm`。
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26690.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 3 列。
+> 首行（上游原文）：Parameter | Value | Description
 
 Values for Parameter StatusReg_p
-| Parameter | Description | Value |
-|---|---|---|
-| StatusReg_p |  |  |
-| bits 0, 1: | Age of Calibration | 00 = test system Oper. In Spec |
-| bits 0, 1: | Age of Calibration | 01 = test system Oper. In Spec (WARNING) |
-| bits 0, 1: | Age of Calibration | 10 = test system Oper. Out of Spec (ALARM) |
-| bits 0, 1: | Age of Calibration | 11 = test system Oper. Not Monitored |
-| bits 0, 1: | Age of Calibration |  |
-| bits 2, 3: | Timing and Level Accuracy | 00 = test system Oper. In Spec |
-| bits 2, 3: | Timing and Level Accuracy | 01 = test system Oper. In Spec (WARNING) |
-| bits 2, 3: | Timing and Level Accuracy | 10 = test system Oper. Out of Spec (ALARM) |
-| bits 2, 3: | Timing and Level Accuracy | 11 = test system Oper. Not Monitored |
-| bits 2, 3: | Timing and Level Accuracy |  |
-| bits 4, 5: | Diagnostic Done | 00 = test system Oper. In Spec |
-| bits 4, 5: | Diagnostic Done | 01 = test system Oper. In Spec (WARNING) |
-| bits 4, 5: | Diagnostic Done | 10 = test system Oper. Out of Spec (ALARM) |
-| bits 4, 5: | Diagnostic Done | 11 = test system Oper. Not Monitored |
-| bits 6, 7: | unused |  |
-| bits 8, 9: | DPS Force Current | 00 = test system Oper. In Spec |
-| bits 8, 9: | DPS Force Current | 01 = test system Oper. In Spec (WARNING) |
-| bits 8, 9: | DPS Force Current | 10 = test system Oper. Out of Spec (ALARM) |
-| bits 8, 9: | DPS Force Current | 11 = test system Oper. Not Monitored |
-| bits 10 ... 15: | unused |  |
-
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/26690.htm`。
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26690.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：22 行 × 3 列。
+> 首行（上游原文）：Parameter | Description | Value
 
 ### Example（取自子主题 MonitorStatus）
 
@@ -1290,10 +1169,9 @@ VOID ReportMessage (
 ### Parameters（取自子主题 ReportMessage）
 
 Parameters of ReportMessage
-| Parameter | Description | Range |
-|---|---|---|
-| type | type of message to be printed | UI_MESSAGE, UI_WARNING, UI_ERROR, UI_FATAL |
-| message | message to be printed | null-terminated string |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26700.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Parameter | Description | Range
 
 The actual display depends on the type of message:
 
@@ -1562,10 +1440,9 @@ VOID SetSiteInFocus(
 ### Parameters（取自子主题 SetSiteInFocus）
 
 Parameters for SetSiteInFocus
-| Parameter | Description |
-|---|---|
-| site_in_focus | Specifies the number of the site to be focused. |
-| return_state | Status is set to 0 if execution was ok. Otherwise an error occurred. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/26732.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 SetSiteInFocus）
 
