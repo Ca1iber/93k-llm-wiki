@@ -47,6 +47,7 @@
 
 import csv
 import hashlib
+import html
 import json
 import re
 import sys
@@ -54,6 +55,7 @@ from collections import defaultdict
 from pathlib import Path
 
 WIKI = Path(r'F:\master-dev\understand-anything-wiki\wiki')
+UPSTREAM = Path(r'F:\master-dev\dorm-wsl-sytest\tdc-html\raw')
 OUTDIR = Path(r'F:\master-dev\understand-anything-wiki\extract')
 CORPUS = Path(r'F:\master-dev\dorm-wsl-sytest\tdc-html\agent-markdown\by-category')
 
@@ -771,7 +773,8 @@ def cat7_quotes(pages):
     n_skip = sum(1 for p in WIKI.rglob('*.md') if _skip_prose(p))
     w(f'> **范围：`wiki/` 下**除 `log.md` / `index.md` 和 §7 的子索引（`index-*.md`）**外的'
       f'全部页面**——本次跳过 **{n_skip} 个元文件**，逐个列在下面（本类曾只走九页，见下）。'
-      f'判据是「引用块能在 9,398 篇里找到完全子串」，不是「读起来像」。')
+      f'判据是「引用块能在 **9,398 篇 md + 本篇 sources 指向的上游 .htm** 里找到完全子串」，'
+      f'不是「读起来像」。')
     w()
     w('> 跳过的：' + '、'.join(f'`{p.relative_to(WIKI).as_posix()}`'
                               for p in sorted(WIKI.rglob('*.md')) if _skip_prose(p))
@@ -799,6 +802,7 @@ def cat7_quotes(pages):
     assert len(wsfree) > 1_000_000, f'语料没加载上（{len(wsfree)} 字符）——查了等于没查'
 
     ok = True
+    n_up_tot = [0]     # 只在**上游 raw/** 里对上的处数（跨页合计）
     n_struct_tot = 0   # 疑似自加结构的处数（跨页合计，**0 也要印出来**，见下）
     # 被切掉的「语法节」：页数与字符数。**0 也要印出来**（同上）。
     n_syn, n_syn_chars = 0, 0
@@ -814,7 +818,14 @@ def cat7_quotes(pages):
         if _skip_prose(p):
             continue              # 流水账 / 目录页，不是内容页
         s = str(p.relative_to(WIKI)).replace('\\', '/')
-        _, body = parse_page(p)
+        meta, body = parse_page(p)
+        # 第二搜索面：本篇 sources 指向的**上游 .htm**（见 `_up_blob` 的 docstring）。
+        _src = meta.get('sources') or []
+        if isinstance(_src, str):
+            _src = [_src]
+        up_blob = _up_blob(_src)
+        up_wsfree = re.sub(r'\s+', '', up_blob) if up_blob else ''
+        upn = [0]          # 在本篇上游里才找到的处数
         # **`<!-- 语法节 begin -->` 到 `end` 之间那一段不归本类管。**
         #
         # 那一段是 `objscaffold.py` 写的（§4），**它按设计就不是逐字的**：
@@ -880,6 +891,15 @@ def cat7_quotes(pages):
                 bad, fmt, struct = [], 0, []
                 for u in units:
                     r = _hit(u, blob, wsfree)
+                    if r == 0 and up_blob and _hit(u, up_blob, up_wsfree):
+                        # **只在语料里找不到时才回上游**（惰性）——
+                        # 绝大多数字符串走不到这一步，开销几乎为零。
+                        upn[0] += 1
+                        continue
+                    if r == 0 and _up_hit_anywhere(u):
+                        # 第三层：本篇 sources 没列到那一篇 —— 引文是真的，出处缺了。
+                        upn[0] += 1
+                        continue
                     if r == 0:
                         bad.append(u)
                         # **`…`（U+2026）和 `...`（三个 ASCII 点）都要查。**
@@ -914,7 +934,10 @@ def cat7_quotes(pages):
                 continue
             (hard if '逐字' in b['tail'] else soft).append(rec)
         mark = '✅' if not hard else '❌'
+        n_up_tot[0] += upn[0]
         extra = f'；另有 {n_fmt} 处**忽略空白后才对上**（排版差异，不判错）' if n_fmt else ''
+        if upn[0]:
+            extra += f'；{upn[0]} 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）'
         w(f'- {mark} `{s}` — 引用块/代码块 {len(blocks)} 处；'
           f'对不上的 {len(hard) + len(soft)} 处，其中'
           f'**页面自称「逐字」的 {len(hard)} 处**{extra}')
@@ -1017,6 +1040,77 @@ def _norm(s):
 
 
 WIN, STRIDE = 8, 4
+
+
+# ---------------- 第七类的第二搜索面：上游 raw/（2026-10-10 加，人批准）
+
+_up_cache = {}
+
+
+def _norm_up(html_text):
+    """上游 HTML → 可比的纯文本：去 script/style/标签 + 解实体 + 套 `_norm`。
+
+    ★ **标签一律换成空格**，不能删掉：上游的句子常常跨标签、跨换行、跨缩进，
+    比如 `…of the\\n\\t\\t\\t\\tlogical channel board…`。删标签会让
+    `by <code>protocolName</code>.` 变成 `byprotocolName.`，反而对不上。
+    """
+    t = re.sub(r'<script\b.*?</script>', ' ', html_text, flags=re.S | re.I)
+    t = re.sub(r'<style\b.*?</style>', ' ', t, flags=re.S | re.I)
+    t = re.sub(r'<[^>]+>', ' ', t)
+    return _norm(html.unescape(t))
+
+
+def _up_blob(sources):
+    """把页面 `sources:` 列出的 md 换成它们的**上游 .htm**，拼成一块可比文本。
+
+    取上游而不是 md，是因为 2026-10-10 起**md 里的表格已换成指针**（PLAN-表格指针化.md）：
+    md 从「忠实副本」变成「导航层」，被指针替掉的表格格子里的句子
+    **只在上游存在**。引文的上游仍是真实文本，本类照样抓编引文——
+    只是「真实」的范围从 md 扩到了 md + 上游。
+    """
+    parts = []
+    for rel in sources or []:
+        mp = CORPUS / rel
+        try:
+            txt = mp.read_text(encoding='utf-8', errors='replace')
+        except OSError:
+            continue
+        m = re.search(r'source_topic:\s*"([^"]+)"', txt[:400])
+        if not m:
+            continue
+        topic = m.group(1)
+        if topic not in _up_cache:
+            hp = UPSTREAM / topic
+            _up_cache[topic] = (_norm_up(hp.read_text(encoding='utf-8', errors='replace'))
+                                if hp.exists() else '')
+        if _up_cache[topic]:
+            parts.append(_up_cache[topic])
+    return '\x00'.join(parts)
+
+
+def _up_hit_anywhere(x):
+    """第三层（兜底）：在整个上游 raw/ 里找。
+
+    为什么需要：有些引文来自**页面 `sources:` 没列**的上游文件
+    （实测 2 处：`pin-configuration-tool` 的引文在 `105634.htm`、
+    `sharing-configuration` 的在 `131634.htm`，都不在它们的 sources 里）。
+    引文是真的，缺的是出处 —— 那是第三类该管的事，不该记成本类「编引文」。
+
+    **惰性**：只有前两层都找不到时才走到这里；`_up_cache` 逐篇缓存，
+    一次运行最多把上游全读一遍。
+    """
+    wsf = re.sub(r'\s+', '', x)
+    if not wsf:
+        return False
+    for hp in UPSTREAM.iterdir():
+        if not hp.name.lower().endswith(('.htm', '.html')):
+            continue
+        if hp.name not in _up_cache:
+            _up_cache[hp.name] = _norm_up(hp.read_text(encoding='utf-8', errors='replace'))
+        t = _up_cache[hp.name]
+        if x in t or wsf in re.sub(r'\s+', '', t):
+            return True
+    return False
 
 
 def _hit(x, normed, wsfree=''):

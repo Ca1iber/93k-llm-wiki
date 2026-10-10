@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,740 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`。**不是转述。**
+> 本节 **1,774 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -56,36 +56,15 @@ SPST {spec_type},, {"multi-port_spec"}, {status}
 
 ### Parameters
 
-| spec_type | Which specification type to use. Use: | Which specification type to use. Use: |
-|---|---|---|
-| spec_type | LEV | to specify levels, or |
-| spec_type | TIM | to specify timing. |
-| equation_set_no | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. | Equation set number. An integer in the range 0 to 256.<br><br>Use ALL to refer to all defined equation sets. Use PRM to specify the primary equation set. In the latter case, the specset_no parameter is ignored.<br><br>Equation set 0 is used for compatibility with a non-equation based testing environment. In this case, when equation set 0 is used and spec_type is LEV, specset_no is meaningless, while when equation set 0 is used and spec_type is TIM, specset_no is interpreted as the number of a waveform set. |
-| specset_no | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. | Spec set number. An integer in the range 1 to 99. Use ALL to refer to all defined spec sets. |
-| multi-port_spec | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. | In a multi-port setup, enter the name of a specification instead of a spec set number. In this case, the equation_set_no parameter must be left empty. |
-| status | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. | An integer that indicates the settings of the status bits. Every set bit is represented by a power of 2, as described in the table below. The integer is the sum of these powers.<br><br>For example, if 768 = 512 + 256 is returned, then bits 8 and 9 are set, and all other bits are cleared. |
-
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98743_2.htm`。
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98743_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
+> 首行（上游原文）：spec_type | Which specification type to use. Use:
 
 Status bits for the status parameter
-| Bit | Description | Value |
-|---|---|---|
-| 0 | Not available/defined. | 1 |
-| 1 | Drive 1 period limit violation. | 2 |
-| 2 | Receive 1 period limit violation. | 4 |
-| 3 | Drive 2 period limit violation. | 8 |
-| 4 | Receive 2 period limit violation. | 16 |
-| 5 | Drive edge order violation. | 32 |
-| 6 | Tri-state edge order violation. | 64 |
-| 7 | Window edge order violation. | 128 |
-| 8 | It is possible to modify the timing or level data with `ETIM`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`）(`ETDS`（raw: `02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`）), `PCLK`（raw: `02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`）, `CLKR`（raw: `02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md`）, `DRLV`（raw: `02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`）, `RCLV`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`）, `TERM`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`）, and `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`）. If any of these commands are executed, this bit is set automatically for the affected specset, and the restore should bring back the original SPST status. | 256 |
-| 9 | Modified with `SHVL`（raw: `02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md`）. | 512 |
-| 10 | Modified with `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`）. | 1024 |
-| 12 | Absolute range violation. | 2048 |
-| 13 | Relative range violation | 4096 |
-| 14 | Drive 10 period limit violation | 8192 |
-| 15 | Receive 10 period limit violation | 16384 |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98743_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：16 行 × 3 列。
+> 首行（上游原文）：Bit | Description | Value
+> 表内引用（10 条，供检索）：`ETIM`（raw: `02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md`） · `ETDS`（raw: `02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md`） · `PCLK`（raw: `02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md`） · `CLKR`（raw: `02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md`） · `DRLV`（raw: `02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md`） · `RCLV`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`） · `TERM`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`） · `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`） · `SHVL`（raw: `02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md`） · `SVLR`（raw: `02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md`）
 
 ### Example 1
 

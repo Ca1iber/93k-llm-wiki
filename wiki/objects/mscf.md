@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **812 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`。**不是转述。**
+> 本节 **574 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,11 +44,9 @@ MSCF {"modulation_set_name"}, {"property"}, {"property_value"}
 
 ### Parameters
 
-| modulation_set_name | Specifies the name of a modulation set that must have been defined with MSDF. |
-|---|---|
-| property | Specifies a property of the modulation set. For a list see the table below. |
-| ALL | This value can be specified in the query to retrieve the configuration data of all modulation sets. |
-| property_value | Specifies the value for the specified property. The values that are admitted for the individual properties are listed in the table below. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/143671.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：modulation_set_name | Specifies the name of a modulation set that must have been defined with MSDF.
 
 ### Example
 
@@ -288,7 +286,7 @@ An error is generated if no modulation set with the specified name exists.
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md`
-  （frontmatter 的 `source_topic` 是 `143671.htm`；**7,011 字节 / 196 行，整篇读完**）
+  （frontmatter 的 `source_topic` 是 `143671.htm`；**2,154 字节 / 196 行，整篇读完**）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
 
 **本页没做的**：

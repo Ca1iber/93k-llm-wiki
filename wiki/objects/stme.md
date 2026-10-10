@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,096 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`。**不是转述。**
+> 本节 **696 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -42,11 +42,10 @@ STME {ON|OFF|FAST),
 
 ### Parameters
 
-| ON | Turns the site match function on. |
-|---|---|
-| OFF | Turns the site match function off. |
-| AUTO | Starting the sites successively affects the test negatively if the pin configuration contains at least one shared digital channel for triggering an analog module. The AUTO option checks if such a shared channel exists. If it does, the match site function is set to OFF; if not, it is set to ON. AUTO is the default. |
-| FAST | Activates the `Fast Sync`（raw: `02.06.07.01.08.04.03.03_Fast_Sync.md`） feature (local synchronization) of the test processor. After setting this option," STME ON" is required to turn on the site match function. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98760.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：ON | Turns the site match function on.
+> 表内引用（1 条，供检索）：`Fast Sync`（raw: `02.06.07.01.08.04.03.03_Fast_Sync.md`）
 
 ### Example
 
@@ -246,7 +245,7 @@ This example configures the Fast Sync feature, and sets two independent Fast Syn
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md`
-（TDC `98760.htm`，**2,940 字节 / 107 行**）。**整篇读完**——本页引文全部来自这一篇 ＋ `edges.jsonl` 里带原句的边。
+（TDC `98760.htm`，**2,660 字节 / 107 行**）。**整篇读完**——本页引文全部来自这一篇 ＋ `edges.jsonl` 里带原句的边。
 
 **入边 11 条 / 10 篇**（`inline` + `toc` 口径，`edges.jsonl` 原始行数）。
 **其中 `SQSL`（`SeQuencer_Start_Label`）那两篇是同一条命令的两个投放副本**，引用句逐字相同。

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,054 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`。**不是转述。**
+> 本节 **1,610 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,14 +44,10 @@ RCLV {level_set | level_set_id}, [vth | logic_0_level], [logic_1_level], [range,
 
 ### Parameters
 
-| level_set | The identification number of the level set in which you want the low and high threshold levels to be included. The number must not exceed the maximum number of level sets allowed (as defined by `DSCP, DSCP? - (Define System Control Parameter)`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）). If you enter a level set number that is outside the used range of sets defined by the LSUS command, a new level set is created. Typing ALL in this field sets the low and high threshold levels for all existing level sets (except level set 0). Typing PRM sets the low and high threshold levels for the primary level set.<br><br>Standard level sets have a number greater than 0. Level set 0 is a dedicated level set for sequencer state OFF. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）. |
-|---|---|
-| level_set_id | Used in equation based level setup. It is derived as follows:<br><br>100000 * equation_set_no + 1000 * specset_no + level_set_no<br><br>Note that if you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set. |
-| vth | Output threshold for FAST comparator (single threshold as opposed to high and low). The expression must define a value in millivolts (mV). |
-| logic_0_level | An integer (in mV) which sets the logic 0 threshold level of the comparator. This parameter represents the point where the comparator distinguishes between logic 0 and an intermediate level. |
-| logic_1_level | An integer (in mV) which sets the logic 1 threshold level of the comparator. This parameter represents the point where the comparator distinguishes between logic 1 and an intermediate level. |
-| range | This extra parameter selects the receive range in mV.<br><br>This parameter is currently not available.<br><br>Ranges of the high-speed voltage comparator:<br><br>- -8000.0 ... 8000.0 selects the 8 V range<br>- -40000.0 ... 80000.0 selects the -40 V ... +80 V range<br><br>Ranges of the high-resolution voltage comparator:<br><br>- -3000.0 ... 3000.0 selects the 3 V range<br>- -10000.0 ... 10000.0 selects the 10 V range<br>- -30000.0 ... 30000.0 selects the 30 V range<br>- -40000.0 ... 80000.0 selects the -40 V ... +80 V range<br><br>If not specified the best fit range will be selected based on logic_0_level and logic_1_level if a voltage comparator is selected.<br><br>Range of the high-resolution current comparator:<br><br>- A fixed range of 200 mA is set.<br><br>The query returns the parameter only if it is defined for the queried level set. |
-| pinlist | The name of the pin or pins whose threshold level you want to set. This parameter can also include groups previously created by the command `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. If more than one pin is to be included, the names must be separated with a comma. The symbol @ sets or reads the threshold levels for all output pins. You can include O or IO pins in pinlist. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98717.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 2 列。
+> 首行（上游原文）：level_set | The identification number of the level set in which you want the low and high threshold levels to be included. The number must not exceed the maximu…
+> 表内引用（3 条，供检索）：`DSCP, DSCP? - (Define System Control Parameter)`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） · `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`） · `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）
 
 For card specifications, like level ranges, see `Digital Cards`（raw: `../02.02_Specifications/02.02.04_Digital_Cards.md`）, for example:
 

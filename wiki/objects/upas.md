@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,854 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`。**不是转述。**
+> 本节 **1,124 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,10 +44,10 @@ UPAS {site}, "{setting}", {(purpose_name)}
 
 ### Parameters
 
-| site | The site parameter is an integer that defines the number of the site where the channels are to be defined.<br><br>The integer must be greater than 1.<br><br>When specified as part of the UPAS? query, you can use the parameter ALL to read the standard output states for all sites. |
-|---|---|
-| setting | Output states for each member of the utility purpose on the specified site.<br><br>Set the output state of each utility line with the following specifiers:<br><br>- 0: Sets the corresponding (write) channel to high (high impedance state)<br>- 1: Sets the corresponding (write) channel to low<br>- X (x): No action<br><br>The number and order of characters must correspond to the ch_No_list parameter of the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.<br><br>If this parameter is omitted, the specified site is set to the same states as site 1. |
-| purpose_name | Name of a utility purpose defined by the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） command.<br><br>In the query, the symbol @ can be used to list all defined utility purposes. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98832.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：site | The site parameter is an integer that defines the number of the site where the channels are to be defined. The integer must be greater than 1. When speci…
+> 表内引用（1 条，供检索）：`DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`）
 
 ### Example
 
@@ -327,7 +327,7 @@ UPAS {site}, "{setting}", {(purpose_name)}
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md`
-（TDC `98832.htm`；**md 4,455 字节 / 106 行**，上游 htm 9,303 字节）。**整篇读完。**
+（TDC `98832.htm`；**md 3,848 字节 / 106 行**，上游 htm 9,303 字节）。**整篇读完。**
 
 **本页没做的**：
 

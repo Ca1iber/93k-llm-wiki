@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,849 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.03.16_tpt_generate_device_dir.md>`。**不是转述。**
+> 本节 **1,018 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.03.16_tpt_generate_device_dir.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -40,12 +40,10 @@ post_proc = <post_proc>]
 
 The parameters in the order in which they are listed above:
 
-| tpt_dir | <tpt_directory> (string) is the name and path of the directory containing the TPT files from which the device directory is to be generated.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| device_dir | <directory> (string) is the path, including the name, where the new device directory is created. The directory must either not exist yet (in which case STPM creates it) or it must be empty.<br><br>The path can be either absolute or relative to the current working directory. |
-| device_name | <device_name> (string) is the name for the newly created device.<br><br>This parameter is optional. If it is omitted, "device" is used. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/132751.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：tpt_dir | <tpt_directory> (string) is the name and path of the directory containing the TPT files from which the device directory is to be generated. The path c…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Example
 

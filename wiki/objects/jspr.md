@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **286 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`。**不是转述。**
+> 本节 **408 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,8 +44,9 @@ JSPR {"js_set_name"|""}
 
 ### Parameters
 
-| js_set_name | Specifies the name of an existing jitter set. Specify an empty string to inactivate the current primary set and thus to disable jitter injection. |
-|---|---|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/117945.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：js_set_name | Specifies the name of an existing jitter set. Specify an empty string to inactivate the current primary set and thus to disable jitter injection.
 
 ### Example
 
@@ -224,7 +225,7 @@ JSPR "js_set1"                    ← 指定为 primary（生效）
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md`
-（TDC `117945.htm`，54 行）
+（TDC `117945.htm`，55 行）
 
 **本页没做的**：
 

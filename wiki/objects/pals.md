@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,210 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`。**不是转述。**
+> 本节 **1,805 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,13 +44,10 @@ PALS {site}, {channel_1|(DC_scale_channels_list)}, [channel_2], {(pin)}
 
 ### Parameters
 
-| site | The site parameter is an integer that defines the number of the site where the channels are to be defined.<br><br>The integer must be greater than 1 (channels for site 1 are defined by the command `DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`）.<br><br>When specified as part of the PALS? query, you can use the parameter ALL to read the channel allocation for all sites or the parameter PEND to read the pending channel allocation. |
-|---|---|
-| channel_1 | This parameter specifies the test system channel used in the specified site for the pin.<br><br>For a digital or DC Scale channel, specify it with the test system channel number, which is five digits.<br><br>See `DFPN, DFPN? - (DeFine Pin Name)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） for the channel number.<br><br>For utility lines, see `DFUT, DFUT? - (DeFine UTility line)`（raw: `02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md`） for the channel number. |
-| DC_scale_channels_list | You can define a Master/Slave configuration for DC Scale channels by specifying a list of DC Scale channels, separated by commas and enclosed by parentheses. The first channel is the master.<br><br>For UHC4 / UHC4T the channels must be physically adjacent on the same board, or be the last (the 4th) channel of a board and the first of another UHC4 / UHC4T board. You cannot gang UHC4 and UHC4T boards. Before ganging between boards can be used, the connection must be enabled by `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）. |
-| channel_2 | The optional parameter is currently not used. |
-| pin | This defines the name of the pin. |
-| pinlist | The names of the pins to be allocated to the pin.<br><br>The query returns the name of the pin allocated to each channel. The symbol @ can be used with the PALS? command to list all pins previously defined by the PALS command. If a list of more than one pin is required, the pin names must be separated with a comma. If you query a non-existent pinlist, the system returns nothing. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98680.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：site | The site parameter is an integer that defines the number of the site where the channels are to be defined. The integer must be greater than 1 (channels f…
+> 表内引用（4 条，供检索）：`DFPN`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） · `DFPN, DFPN? - (DeFine Pin Name)`（raw: `02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md`） · `DFUT, DFUT? - (DeFine UTility line)`（raw: `02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md`） · `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）
 
 ### Examples
 

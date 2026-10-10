@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **272 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.02_addLimit.md>`。**不是转述。**
+> 本节 **337 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.02_addLimit.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -31,9 +31,9 @@ TestMethodLimitProxy& addLimit(const std::string& testName)
 ```
 
 Parameter
-| I/O | Parameter | Description |
-|---|---|---|
-| I | testName | A test name for the test method. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/99952.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
+> 首行（上游原文）：I/O | Parameter | Description
 
 ### Example
 

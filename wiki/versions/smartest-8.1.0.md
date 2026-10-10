@@ -13,7 +13,6 @@ sources:
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.02_AVI64_reverse_Kelvin_connection.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.03_AVI64_Sense_only_connection.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.04_AVI64_Force_only_connection.md
-  - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01_AVI64_output_pogo_pins.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.02_AVI64_safety_pogo_pins.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.03_AVI64_ganged_wiring.md
   - 02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.04_AVI64_channel_group_and_differential_compare_assignment.md
@@ -31,15 +30,14 @@ verified: doc-only
 > 因此本页只证明**「文档这么写」**，不证明**「机台这样」**（schema §11）。
 > **本页没有被人在真实机台上核对过**（`verified: doc-only`）。
 
-## 这一版改了什么（2 条）
+## 这一版改了什么（1 条）
 
 格式：**出处文档 —— 语料原条目**。条目本身带 `SmarTest 8.1.0:` 前缀，**那是原文的一部分，没有去掉**。
 
 - [Electrical design: General rules](<02_System_reference/02.03_DUT_board_design_reference/02.03.07_Electrical_design__General_rules.md>) —— SmarTest 7.3.1 / 8.1.0: New section "HV (High-Voltage) protection".
-- [AVI64 output pogo pins](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01_AVI64_output_pogo_pins.md>) —— SmarTest 7.4.1 / 8.1.0: New connection schemes: Reverse Kelvin connection, Force only connection
 
 
-## 这一版新引入（13 条）
+## 这一版新引入（12 条）
 
 语料原句是 `Introduced in …`，说的是「**这篇文档描述的东西从这一版开始有**」。条目短，所以**文档放前面、原句放后面**：
 
@@ -51,7 +49,6 @@ verified: doc-only
 - [AVI64 reverse Kelvin connection](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.02_AVI64_reverse_Kelvin_connection.md>) —— Introduced in SmarTest 7.4.1 / 8.1.0
 - [AVI64 Sense only connection](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.03_AVI64_Sense_only_connection.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
 - [AVI64 Force only connection](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01.04_AVI64_Force_only_connection.md>) —— Introduced in SmarTest 7.4.1 / 8.1.0
-- [AVI64 output pogo pins](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.01_AVI64_output_pogo_pins.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
 - [AVI64 safety pogo pins](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.02_AVI64_safety_pogo_pins.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
 - [AVI64 ganged wiring](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.03_AVI64_ganged_wiring.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
 - [AVI64 channel group and differential compare assignment](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.01.01.04_AVI64_channel_group_and_differential_compare_assignment.md>) —— Introduced in SmarTest 7.4.0 / 8.1.0
@@ -60,6 +57,6 @@ verified: doc-only
 
 ## 出处
 
-- 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 15 条**，涉及 **14 篇**文档。
+- 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 13 条**，涉及 **13 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。

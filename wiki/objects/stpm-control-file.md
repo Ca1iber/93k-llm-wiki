@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **96,111 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.03_STPM_control_file.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.02.03.01_Structure_of_an_STPM_control_file.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.02_File_and_parameter_settings.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.04_write_tp.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.05_add_test.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.06_add_burst.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.07_add_test_to_burst.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.08_add_empty_test_group.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.09_remove_test.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.10_replace_test.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.11_remove_label.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.12_add_pattern.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.13_replace_pattern.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.14_tpt_generate_template.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.15_tpt_import_from_device.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.16_tpt_generate_device_dir.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.17_tpt_merge.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.18_tpt_add_test.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.19_tpt_replace_test.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.20_tpt_generate_tp.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.21_tpt_compare_tp.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.22_tpt_generate_test_stages.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.23_extract_subflow.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.24_merge_subflow.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.25_remove_subflow.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.26_clear_duplicated.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.27_clear_unused.md>`。**不是转述。**
+> 本节 **24,593 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.02.03_STPM_control_file.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.02.03.01_Structure_of_an_STPM_control_file.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.02_File_and_parameter_settings.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.04_write_tp.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.05_add_test.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.06_add_burst.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.07_add_test_to_burst.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.08_add_empty_test_group.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.09_remove_test.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.10_replace_test.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.11_remove_label.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.12_add_pattern.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.13_replace_pattern.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.14_tpt_generate_template.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.15_tpt_import_from_device.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.16_tpt_generate_device_dir.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.17_tpt_merge.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.18_tpt_add_test.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.19_tpt_replace_test.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.20_tpt_generate_tp.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.21_tpt_compare_tp.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.22_tpt_generate_test_stages.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.23_extract_subflow.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.24_merge_subflow.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.25_remove_subflow.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.26_clear_duplicated.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.02.03.27_clear_unused.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -85,15 +85,9 @@ mtp_device_testflow = '<testflow_file>'
 
 The parameters of the commands in the order in which they are listed above:
 
-| mtp_device_testflow | <testflow_file> (string) is the name and path of the testflow file of the MTP which STPM is to modify or otherwise work with.<br><br>It can be an absolute or a relative path. If it is a relative path, the base directory is the current working directory at the time STPM was called. |
-|---|---|
-| mtp_template_dir | <tpt_dir> (string) is the name and path of the directory containing the test program template (TPT).<br><br>It can be an absolute or a relative path. If it is a relative path, the base directory is the current working directory at the time STPM was called.<br><br>This is an optional parameter. Note, however, that some commands require a valid TPT to be specified. This is noted in these commands' descriptions. |
-| merge_rules | <rules_file> (string) is the name and path of the merge rules file to use when adding or replacing tests.<br><br>It can be an absolute or a relative path. If it is a relative path, the base directory is the current working directory at the time STPM was called.<br><br>This is an optional parameter. If it is not specified, no merge rules file is used. |
-| ate_target | <platform> (string) indicates the type of V93000 architecture on which the test program will run:<br><br>- '93000SS': Smart Scale system |
-| ate_model | <model> (string) indicates the specific test system on which the test program will run.<br><br>The available settings depend on the specified ate_target.<br><br>For '93000SS', you can specify:<br><br>- 'PS1600'<br><br>This is an optional parameter. If it is omitted, the default used depends on the setting for ate_target: |
-| ate_version | <version> (string) is the release number of the SmarTest version under which the test program will be running.<br><br>This is an optional parameter. If it is omitted, "7.1.4" is used. |
-| temp_dir | <temp_dir> is the directory to which STPM writes temporary files.<br><br>It can be an absolute or a relative path. If it is a relative path, the base directory is the current working directory at the time STPM was called.<br><br>Make sure that the directory already exists and that STPM has write privileges in the specified directory.<br><br>This is an optional parameter. If it is omitted, /tmp is used (the tmp subdirectory of the root directory). |
-| enable_backup | <backup?> (number) specifies whether STPM generates a backup copy of each modified file:<br><br>- 0: No backups are generated.<br>- 1: Backups are generated.<br><br>When backup files are generated, they are stored in a subdirectory of the directory in which the original file is located; the subdirectory is named back.<br><br>The name of the backup file is the same as the original file name, with a timestamp in the form "_YYMMDD_HHMMSS" appended.<br><br>For example, the backup copy of a pin configuration file mypins.cfg that is created on 2 November 2012 at 21:43:23 is stored as <device_directory>/configuration/back/mypins_121102_214323.cfg.<br><br>This is an optional parameter. If it is omitted, 1 is used (that is, backups are generated). |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131038.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 2 列。
+> 首行（上游原文）：mtp_device_testflow | <testflow_file> (string) is the name and path of the testflow file of the MTP which STPM is to modify or otherwise work with. It can be an…
 
 ### Example（取自子主题 File and parameter settings）
 
@@ -109,35 +103,9 @@ pre_proc = '<script>[&mdir][&sdir][&mtp_tf][&mtp_pmf][&mtp_conf][&mtp_tim][&mtp_
 
 The available script parameters in the order in which they are listed above:
 
-| <script> | The name and path of the script file to call.<br><br>The path can be absolute or relative. If it is a relative path, the base directory is the current working directory at the time STPM was called. |
-|---|---|
-| &mdir | Full path to the MTP directory. |
-| &sdir | Full path to the STP directory. |
-| &mtp_tf | Full path to the MTP testflow file. |
-| &mtp_pmf | Full path to the MTP pattern master file. |
-| &mtp_conf | Full path to the MTP configuration file. |
-| &mtp_tim | Full path to the MTP timing file. |
-| &mtp_lev | Full path to the MTP levels file. |
-| &mtp_tt | Full path to the MTP test table file. |
-| &mtp_rout | Full path to the MTP routing file. |
-| &mtp_wf | Full path to the MTP waveform file. |
-| &mtp_anctrl | Full path to the MTP analog control file. |
-| &mtp_chatt | Full path to the MTP channel attributes file. |
-| &mtp_prot | Full path to the MTP protocols file. |
-| &mtp_att | Full path to the MTP pin attributes file. |
-| &stp_tf | Full path to the STP testflow file. |
-| &stp_pmf | Full path to the STP pattern master file. |
-| &stp_conf | Full path to the STP configuration file. |
-| &stp_tim | Full path to the STP timing file. |
-| &stp_lev | Full path to the STP levels file. |
-| &stp_tt | Full path to the STP test table file. |
-| &stp_rout | Full path to the STP routing file. |
-| &stp_wf | Full path to the STP waveform file. |
-| &stp_anctrl | Full path to the STP analog control file. |
-| &stp_chatt | Full path to the STP channel attributes file. |
-| &stp_prot | Full path to the STP protocols file. |
-| &stp_att | Full path to the STP pin attributes file. |
-| <user_parameters> | Text that is passed unchanged to the script. This text must not contain any words that begin with &. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/143913.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：28 行 × 2 列。
+> 首行（上游原文）：<script> | The name and path of the script file to call. The path can be absolute or relative. If it is a relative path, the base directory is the current worki…
 
 Except for the name of the script file, all elements are optional.
 
@@ -170,10 +138,10 @@ write_tp(
 
 The parameters in the order in which they are listed above:
 
-| path | <mtp_target_file> (string) is the name and location under which STPM saves the MTP (master test program) testflow file after it has modified it.<br><br>It can be an absolute or a relative path. If it is a relative path, the base directory is the current working directory at the time STPM was called.<br><br>You can specify the same file here as for mtp_device_testflow. In that case, the original file is modified in place.<br><br>(You can still have STPM automatically create a backup of the MTP; see `enable_backup`（raw: `02.09.02.03.02_File_and_parameter_settings.md`） for details.) |
-|---|---|
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/132794.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：path | <mtp_target_file> (string) is the name and location under which STPM saves the MTP (master test program) testflow file after it has modified it. It can b…
+> 表内引用（2 条，供检索）：`enable_backup`（raw: `02.09.02.03.02_File_and_parameter_settings.md`） · `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ```
 
@@ -213,26 +181,10 @@ test_flow_file = '<testflow_file>',
 
 The parameters in the order in which they are listed above:
 
-| test_flow_file | <testflow_file> (string) is the path, including the name, of the testflow file of the source test program (STP) that contains the test that you want to add to the MTP.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| test_source | <test_source> (string) is the name of the test from the STP that will be added to the MTP.<br><br>If the STP contains only a single test, the test_source parameter can be omitted. If the STP contains multiple tests, test_source is required. |
-| test_group | <test_group> (string) is the testflow group in which the test suite is generated.<br><br>If this parameter is not specified, the test suite is generated at the root of the MTP, at the end of the testflow. |
-| test | <test> is the name for the added test in the MTP.<br><br>If this parameter is omitted, the name is added to the MTP with the same name that it has in the STP.<br><br>If there is already a test with the same name in the MTP, the test from the STP is not added and an error is generated. (This applies in both cases, whether you have specified a name using the test parameter or whether the default name is used.) |
-| position | <position> (string) is the position within a test group where the new test is inserted.<br><br>The following values are available:<br><br>- optimal: STPM inserts the test in a position in the testflow group that requires the least amount of level and timing reloads during execution.<br>- first: The test suite is inserted as the first test in the testflow group.<br>- last: The test suite is inserted as the last in the testflow group.<br>- after:<test_name>: The test suite is inserted immediately after the test suite with the name <test_name> in the testflow group.<br>- before:<test_name>: The test suite is inserted immediately before the test suite with the name <test_name> in the testflow group.<br><br>If this parameter is omitted, optimal is used.<br><br>If the test_group parameter (see above) is omitted, the position parameter is ignored. |
-| tim_reuse | <timing_reuse> (string) is the way in which timing settings in the MTP are to be reused for the added test:<br><br>- auto: STPM tries to reuse an existing timing, merging the timing from the new test with it. If this is not possible, a new timing is created.<br>- test:<test-name>: The timing from the existing test suite with the name <test-name> is used for the added test.<br>- <primary-keys>: You can explicitly specify the timing to use. How to do this differs for single-port and multiport tests:<br><br>- Single-port timing: Specify the timing as a combination of indexes, separated by periods: <eqnset-index>`.`<timset-index>`.`<specset-index><br>- Multiport timing: Specify the name of the multiport specification to use.<br><br>- none: STPM will not try to reuse any timing. Instead, it always creates new timing for the added test.<br><br>If this parameter is omitted, none is used. |
-| lev_reuse | <level_reuse> (string) is the way in which level settings in the MTP are to be reused for the added test:<br><br>- auto: STPM tries to reuse existing levels, merging the levels from the new test with hem. If this is not possible, new levels are created.<br>- test:<test-name>: The levels from the existing test suite with the name <test-name> are used for the added test.<br>- <primary-keys>: You can explicitly specify the levels to use as a combination of indexes, separated by periods:<br><br><eqnset-index>`.`<levelset-index>`.`<specset-index><br><br>- none: STPM will not try to reuse any levels. Instead, it always creates new levels for the added test.<br><br>If this parameter is omitted, none is used. |
-| pat_reuse | <pattern_reuse> (string) is the way in which patterns in the MTP are to be reused for the added test:<br><br>- test:<test-name>: The patterns from the existing test suite with the name <test-name> are used for the added test.<br>- <pattern-label>: You can explicitly specify the patterns to use by providing the name of the pattern label.<br>- none: STPM will not try to reuse any patterns. Instead, it always creates new patterns for the added test.<br><br>If this parameter is omitted, none is used. |
-| reuse_scope | <scope> (string or list of strings) are the testflow groups that STPM is to analyze for purposes of merging or reusing primaries. STPM will ignore primaries from other testflow groups.<br><br>The scope can be:<br><br>- `"*all*"` to tell STPM to consider all groups<br>- A comma-separated list of testflow groups, enclosed in square brackets<br><br>If this parameter is not specified, the default is for STPM to consider the test suites in the testflow group specified in the test_group parameter (see above).<br><br>If test_group is not specified either, all groups are considered. |
-| pat_dir | <path> (string) is the path of the directory where STPM is to store patterns that it copies from the STP to the device directory.<br><br>The path is relative to the vectors subdirectory of the device directory.<br><br>If this parameter is omitted, patterns is used. (That is, the patterns are copied to the vectors/patterns/ subdirectory of the device directory.) |
-| test_flags | <test_flags> (list of strings) is a list of test suite flags that are enabled for the imported test. The list must be enclosed in square brackets.<br><br>Include in the list each test suite flag you want to be enabled for the test in the MTP, enclosed in quotes and separated by commas.<br><br>You can specify all flags supported in SmarTest. Use these spellings:<br><br>- bypass<br>- fail_per_label<br>- ffc_enable<br>- ffc_scan_enable<br>- ffv_enable<br>- frg_enable<br>- frg_single_shot<br>- hold<br>- hold_on_fail<br>- mx_waves_enable<br>- output_on_fail<br>- output_on_pass<br>- per_pin_on_fail<br>- per_pin_on_pass<br>- set_pass<br>- set_fail<br>- value_on_fail<br>- value_on_pass<br><br>For example: `test_flags = ['hold_on_fail','per_pin_on_fail']`<br><br>If this parameter is omitted, no flags are enabled for the test. |
-| test_method | <method> (string) is the class of the test method of the test being added (for example, "ac_tml.AcTest.FunctionalTest").<br><br>If this parameter is omitted, the test is added to the MTP with the same type that it has in the STP. |
-| test_params | <params> (list of name/value pairs) is a list of parameter values with which to call the test method.<br><br>This is a list of name/value pairs that are separated by commas; the entire list is wrapped in curly braces: {<name>':'<value>',...}<br><br>Each name and value is a string, both are separated by a colon:<br><br>- <name> is the name of a parameter that is known to the test method.<br>- <value> is the value that is passed into this parameter when the test method is called.<br><br>For example: `test_params = {'param1':'0','my_param':'CLK'}`<br><br>This is an optional parameter. If it is omitted, no parameters are passed to the test method. |
-| sbin_num | <sbin_num> (string) is the software bin ID of the bin associated with the added test.<br><br>To be compatible with the SmarTest Data Formatter, the number must be between 0 and 32767.<br><br>This is an optional parameter; if hbin_num (see below) is specified, it is required. If it is omitted, a "Run" node without any associated bin is inserted in the test flow. |
-| sbin_label | <description> (string) is a short text describing the purpose of the software bin. It is intended for human readers.<br><br>This is an optional parameter. If it is omitted, the bin remains unlabeled. |
-| hbin_num | <hbin_num> (number) is the ID of the hardware bin connected to the software bin you are defining.<br><br>This is an optional parameter. If sbin_num (see above) is not specified, the hbin_num parameter cannot be specified. |
-| hbin_label | <hbin_label> (string) is a short text describing the purpose of the hardware bin. It is intended for human readers.<br><br>This is an optional parameter. If it is omitted, the bin remains unlabeled. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130881.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：19 行 × 2 列。
+> 首行（上游原文）：test_flow_file | <testflow_file> (string) is the path, including the name, of the testflow file of the source test program (STP) that contains the test that you…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Example（取自子主题 add test）
 
@@ -253,11 +205,10 @@ name       = '<burst_name>',
 
 The parameters in the order in which they are listed above:
 
-| name | <testflow_file> (string) is the path, including the name, of the testflow file of the source test program (STP) that contains the test that you want to add to the MTP.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| ports | <ports> (list of strings) is a list of the ports for which the burst will be generated.<br><br>You can list any number of ports. Each port must be an individual string, the strings must be separated by commas, and the list must be enclosed in parentheses.<br><br>This parameter is optional. If it is not specified, STPM creates a single-port burst. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/138220.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：name | <testflow_file> (string) is the path, including the name, of the testflow file of the source test program (STP) that contains the test that you want to a…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 add test to burst）
 
@@ -278,15 +229,10 @@ test           = '<test>',
 
 The parameters in the order in which they are listed above:
 
-| test_flow_file | <testflow_file> (string) is the path (including the name) of the testflow file of the source test program (STP) that contains the test that you want to add to the test in the MTP.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| test_source | <test_source> (string) is the name of the test from the STP that will be added to the MTP.<br><br>If the STP contains only a single test, the test_source parameter can be omitted. If the STP contains multiple tests, test_source is required. |
-| test | <test> (string) is the name of the existing test in the MTP. The test from the STP is added to this test. |
-| position | <position> (string) is the position within the existing pattern burst where the new test is inserted.<br><br>The following values are available:<br><br>- first: STPM inserts the pattern from the STP at the beginning of the test (burst) in the MTP.<br>- last: The pattern from the STP is inserted at the end of the test (burst) in the MTP.<br>- after:<label_name>: The pattern from the STP is inserted immediately after the label with the name <label_name> in the test in the MTP.<br>- before:<label_name>: The pattern from the STP is inserted immediately before the label with the name <label_name> in the test in the MTP.<br><br>If this parameter is omitted, last is used. |
-| pat_dir | <path> (string) is the path of the directory where STPM is to store patterns that it copies from the STP to the device directory.<br><br>The path is relative to the vectors subdirectory of the device directory.<br><br>If this parameter is omitted, patterns is used. (That is, the patterns are copied to the vectors/patterns/ subdirectory of the device directory.) |
-| pat_reuse | <mode> (string) is the way in which patterns in the MTP are to be reused for the test that is added to the burst:<br><br>- test:<test-name>: The patterns from the existing test suite with the name <test-name> are used for the added test.<br>- <pattern-label>: You can explicitly specify the patterns to use by providing the name of the pattern label.<br>- none: STPM will not try to reuse any patterns. Instead, it always creates new patterns for the added test.<br><br>If this parameter is omitted, none is used. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131020.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 2 列。
+> 首行（上游原文）：test_flow_file | <testflow_file> (string) is the path (including the name) of the testflow file of the source test program (STP) that contains the test that you…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Example（取自子主题 add test to burst）
 
@@ -309,13 +255,10 @@ test_group  = '<test_group>',
 
 The parameters in the order in which they are listed above:
 
-| test_group | <test_group> (string) is the name of the new test group you want to create in the MTP. |
-|---|---|
-| description | <description> is a brief statement about the purpose of the new test group.<br><br>This parameter is intended just for humans; omitting it does not in any way affect the function of the test group.<br><br>This is an optional parameter. If it is omitted, no description is stored with the test group. |
-| parent | <parent> (string) is the name of the test group in which the new test group will be created.<br><br>The test group you name as the parent must already exist in the MTP.<br><br>This is an optional parameter. If it is not specified, the test group is created at the top level of the MTP. |
-| position | <position> (string) is the position within the parent where the new test group is created.<br><br>The following values are available:<br><br>- first: The test group is created at the beginning of the parent.<br>- last: The test group is created at the end of the parent.<br><br>If this parameter is omitted, last is used. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140643.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：test_group | <test_group> (string) is the name of the new test group you want to create in the MTP.
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 remove test）
 
@@ -336,15 +279,10 @@ test = '<test>',
 
 The parameters in the order in which they are listed above:
 
-| test | <test> (string) is the name of the test suite in the MTP that STPM should remove. |
-|---|---|
-| tim_remove | <timing_remove> is an instruction for STPM on how to remove the timing settings of the removed test:<br><br>- unused: STPM removes the settings if no other test uses them. (STPM may not be able to detect usage by tests that switch primaries in the C++ code.)<br>- none: The timing settings are not removed, even if no other test uses them.<br><br>If this parameter is omitted, unused is used. |
-| lev_remove | <level_remove> (string) is an instruction for STPM on how to remove the levels of the removed test:<br><br>- unused: STPM removes the levels if no other test uses them. (STPM may not be able to detect usage by tests that switch primaries in the C++ code.)<br>- none: The levels are not removed, even if no other test uses them.<br><br>If this parameter is omitted, unused is used. |
-| pat_remove | <pattern_remove> (string) is an instruction for STPM on how to remove the patterns of the removed test:<br><br>- unused: STPM removes the patterns if no other test uses them. (STPM may not be able to detect usage by tests that switch primaries in the C++ code.)<br>- none: The patterns are not removed, even if no other test uses them.<br><br>If this parameter is omitted, unused is used. |
-| test_remove | <test_remove> (number) specifies whether the test suite is removed from the MTP:<br><br>- 0: The test suite is not removed.<br>- 1: The test suite is removed.<br><br>You can still remove timing, level, or patterns as described above. Indexes in the test suite that point to removed primaries are reset.<br><br>This parameter is optional. If it is not specified, the test suite is removed (as if you had specified `test_remove = 1`.) |
-| keep_pat_label | <keep_label> (number) specifies whether the test suite labels in the MTP are kept when the test is removed:<br><br>- 0: The pattern labels are removed from the MTP.<br>- 1: The pattern labels are kept in the MTP.<br><br>This parameter is optional. If it is not specified, the labels are removed (as if you had specified `keep_pat_label = 0`.)<br><br>This parameter is ignored if `test_remove = 0` is specified |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130900.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 2 列。
+> 首行（上游原文）：test | <test> (string) is the name of the test suite in the MTP that STPM should remove.
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 replace test）
 
@@ -371,21 +309,10 @@ test = '<test>',
 
 The parameters in the order in which they are listed above:
 
-| test_flow_file | <testflow_file> (string) is the path (including the name) of the testflow file of the source test program (STP) that contains the test with which you want to replace an existing test in the MTP.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| test_source | <test_source> (string) is the name of the test from the STP that will be used to replace the existing test in the to the MTP.<br><br>If the MTP already contains a test by that name and the primaries are already set for that test, an error is generated and the test is not added to the MTP.<br><br>If the STP contains only a single test, the test_source parameter can be omitted. If the STP contains multiple tests, test_source is required. |
-| test | <test> (string) is the name of the test in the MTP that is to be replaced. |
-| tim_reuse | <timing_reuse> (string) is the way in which timing settings in the MTP are to be reused for the replacement test:<br><br>- auto: STPM tries to reuse an existing timing, merging the timing from the replacement test with it. If this is not possible, a new timing is created.<br>- test:<test-name>: The timing from the existing test suite with the name <test-name> is used for the replacement test.<br>- <primary-keys>: You can explicitly specify the timing to use. How to do this differs for single-port and multiport tests:<br><br>- Single-port timing: Specify the timing as a combination of indexes, separated by periods: <eqnset-index>`.`<timset-index>`.`<specset-index><br>- Multiport timing: Specify the name of the multiport timing set to use.<br><br>- none: STPM will not try to reuse any timing. Instead, it always creates new timing for the replacement test.<br><br>If this parameter is omitted, none is used. |
-| lev_reuse | <level_reuse> (string) is the way in which level settings in the MTP are to be reused for the replacement test:<br><br>- auto: STPM tries to reuse existing levels, merging the levels from the replacement test with them. If this is not possible, new levels are created.<br>- test:<test-name>: The levels from the existing test suite with the name <test-name> are used for the replacement test.<br>- <primary-keys>: You can explicitly specify the levels to use as a combination of indexes, separated by periods:<br><br><eqnset-index>`.`<levelset-index>`.`<specset-index><br><br>- none: STPM will not try to reuse any levels. Instead, it always creates new levels for the replacement test.<br><br>If this parameter is omitted, none is used. |
-| pat_reuse | <pattern_reuse> (string) is the way in which patterns in the MTP are to be reused for the replacement test:<br><br>- test:<test-name>: The patterns from the existing test suite with the name <test-name> are used for the replacement test.<br>- <pattern-label>: You can explicitly specify the patterns to use by providing the name of the pattern label.<br>- none: STPM will not try to reuse any patterns. Instead, it always creates new patterns for the replacement test.<br><br>If this parameter is omitted, none is used. |
-| reuse_scope | <scope> (string or list of strings) are the testflow groups that STPM is to analyze for purposes of merging or reusing primaries. STPM will ignore primaries from other testflow groups.<br><br>The scope can be:<br><br>- `"*all*"` to tell STPM to consider all groups<br>- A comma-separated list of testflow groups<br><br>If this parameter is not specified, the test suites in the testflow group containing the replaced test are considered. |
-| copy_test_method | <copy_tm_att> (0 or 1) specifies whether the attributes for the test method of the replaced test are copied from the STP or whether the attributes in the MTP are used:<br><br>- 0 (default): The attributes from the MTP are kept.<br>- 1: The attributes from the STP are copied to the MTP.<br><br>If this parameter is not specified, the attributes from the MTP are kept. |
-| tim_remove | <timing_remove> (string) is an instruction for STPM on how to remove the timing settings of the replaced test:<br><br>- unused: STPM removes the settings if no other test uses them. (STPM may not be able to detect usage by tests that switch primaries in the C++ code.)<br>- none: The timing settings are not removed, even if no other test uses them.<br><br>If this parameter is omitted, unused is used. |
-| lev_remove | <level_remove> (string) is an instruction for STPM on how to remove the levels of the replaced test:<br><br>- unused: STPM removes the levels if no other test uses them. (STPM may not be able to detect usage by tests that switch primaries in the C++ code.)<br>- none: The levels are not removed, even if no other test uses them.<br><br>If this parameter is omitted, unused is used. |
-| pat_remove | <pattern_remove> (string) is an instruction for STPM on how to remove the patterns of the replaced test:<br><br>- unused: STPM removes the patterns if no other test uses them. (STPM may not be able to detect usage by tests that switch primaries in the C++ code.)<br>- none: The patterns are not removed, even if no other test uses them.<br>- If this parameter is omitted, unused is used. |
-| pat_dir | <path> (string) is the path of the directory where STPM is to store patterns that it copies from the STP to the device directory.<br><br>The path is relative to the vectors subdirectory of the device directory.<br><br>If this parameter is omitted, patterns is used. (That is, the patterns are copied to the vectors/patterns/ subdirectory of the device directory.) |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/130985.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：14 行 × 2 列。
+> 首行（上游原文）：test_flow_file | <testflow_file> (string) is the path (including the name) of the testflow file of the source test program (STP) that contains the test with whi…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Example（取自子主题 replace test）
 
@@ -406,11 +333,10 @@ remove_label(
 
 The parameters in the order in which they are listed above:
 
-| label | <label_name> (string) is the name of the label that you want to remove from the MTP. |
-|---|---|
-| pmf_only | <pmf_flag> (0 or 1) specifies whether the pattern is deleted from the MTP or only its entry from the pattern master:<br><br>- 0 (default): The pattern is deleted from the MPT.<br>- 1: The pattern is kept in the MTP, but its entry is removed from the pattern master file<br><br>If this parameter is not specified, the pattern is deleted from the MTP. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140646.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：label | <label_name> (string) is the name of the label that you want to remove from the MTP.
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 add pattern）
 
@@ -428,12 +354,9 @@ context        = '<source>',
 
 The parameters in the order in which they are listed above:
 
-| test_flow_file | <testflow_file> (string) is the path (including the name) of the testflow file of the source test program (STP) that contains the pattern that you want to add to the MTP.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| context | <source> (string) describes the location of the desired pattern in the STP. There are two ways to specify the location:<br><br>- By providing the label name. For example: "pattern1".<br>- By providing the names of the test and the test suite, divided by a colon. For example: "mytest:ts3".<br><br>STPM will interpret any string without a colon as a label name and any string with a colon as the names of a test and a test suite. |
-| pat_dir | <path> (string) is the path of the directory where STPM is to store patterns that it copies from the STP to the device directory.<br><br>The path is relative to the vectors subdirectory of the device directory.<br><br>If this parameter is omitted, patterns is used. (That is, the patterns are copied to the vectors/patterns/ subdirectory of the device directory.) |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in Preprocessing and postprocessing scripts.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in Preprocessing and postprocessing scripts.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/143922.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：test_flow_file | <testflow_file> (string) is the path (including the name) of the testflow file of the source test program (STP) that contains the pattern that …
 
 ### Example（取自子主题 add pattern）
 
@@ -462,15 +385,10 @@ test                   = '<test_suite>',
 
 The parameters in the order in which they are listed above:
 
-| test_flow_file | <testflow_file> (string) is the path (including the name) of the testflow file of the source test program (STP) that contains the pattern that you want to add to the MTP.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| context | <source> (string) describes the location of the desired pattern in the STP. There are two ways to specify the location:<br><br>- By providing the label name. For example: "pattern1".<br>- By providing the names of the test and the test suite, divided by a colon. For example: "mytest:ts3".<br><br>STPM will interpret any string without a colon as a label name and any string with a colon as the names of a test and a test suite. |
-| test | <test_suite> (string) is the name of the MTP test suite in which you want to replace the pattern. |
-| pat_dir | <path> (string) is the path of the directory where STPM is to store patterns that it copies from the STP to the device directory.<br><br>The path is relative to the vectors subdirectory of the device directory.<br><br>If this parameter is omitted, patterns is used. (That is, the patterns are copied to the vectors/patterns/ subdirectory of the device directory.) |
-| pat_remove | <pat_remove> (string) specifies whether the old pattern from the MTP test suite is deleted from the MTP device directory:<br><br>- 'unused' (default): The pattern is deleted if no other test uses it.<br>- 'none': The pattern is not deleted.<br><br>If this parameter is not specified, the pattern is deleted if no other test uses it. |
-| waveforms_compare_mode | <compare_mode> (string) specifies whether the waveforms in the new pattern are compared to the waveforms in the old pattern:<br><br>- 'none' (default): The waveforms of the two patterns are not compared.<br>- 'error': The waveforms are compared and an error is generated if any differences are found.<br>- 'warning': The waveforms are compared and a warning is generated if any differences are found.<br><br>If this parameter is not specified, the waveforms are not compared. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/143923.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 2 列。
+> 首行（上游原文）：test_flow_file | <testflow_file> (string) is the path (including the name) of the testflow file of the source test program (STP) that contains the pattern that …
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Example（取自子主题 replace pattern）
 
@@ -494,10 +412,10 @@ tpt_dir    = <location>,
 
 The parameters in the order in which they are listed above:
 
-| tpt_dir | <location> (string) is the path, including the name, where the new template files and directories are created.<br><br>The path can be either absolute or relative to the current working directory.<br><br>If the directory does not yet exist, STPM creates it. |
-|---|---|
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/132698.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：tpt_dir | <location> (string) is the path, including the name, where the new template files and directories are created. The path can be either absolute or rela…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Example（取自子主题 tpt generate template）
 
@@ -526,15 +444,10 @@ device_test_flow = <testflow_file>,
 
 ### Parameters（取自子主题 tpt import from device）
 
-| device_test_flow | <testflow_file> (string) is the path of the testflow file from which the test program template is to be generated.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| tpt_dir | <location> (string) is the path, including the name, where the new template files and directories are created.<br><br>The path can be either absolute or relative to the current working directory.<br><br>If the directory does not yet exist, STPM creates it. If the directory already exists, it must either be empty or the allow_overwrite parameter (see below) must be set to 1. |
-| include_groups | <include_groups> (list of strings) is a list of groups in the specified testflow that are to be imported.<br><br>Each group name is a string enclosed in single or double quotes; groups are separated by commas, and the list is enclosed in square brackets.<br><br>You can use the ? and * wildcard characters in the group name strings. (See empty_groups, below, for details.)<br><br>This parameter is optional. If it is omitted, all groups are imported. |
-| empty_groups | <empty_groups> (list of strings) is a list of groups that are to be emptied.<br><br>An empty group is transferred to the test program template, but none of the test suites it contains are transferred. Empty groups are useful to preserve the structure of the testflow. They can be filled with new test suites later.<br><br>Each group name is a string enclosed in single or double quotes; groups are separated by commas, and the list is enclosed in square brackets.<br><br>You can use the ? and * wildcard characters in the group name strings; ? matches any single character and * matches zero or more characters.<br><br>For example, to empty all groups, you would specify `empty_groups = '*'`. To empty the group temp1 and all groups with the name "test" followed by a single character, you would specify `empty_groups = 'temp1', 'test?'`.<br><br>This parameter is optional. If it is omitted, no groups are emptied. |
-| copy_static_content | <copy_items> (list of strings) is a list of names of files or directories that are to be copied from the existing device directory to the TPT directory.<br><br>The list may contain only names (of files or directories), not paths. The named items must be located in the top level of the device directory. Each name is enclosed in quotes and separated by commas.<br><br>For example: `copy_static_content = ['my_notes.txt','Change log']`<br><br>If you include standard directories in this list (testflow, timing, levels, configuration, vectors, testtable), STPM generates a warning and does not copy the contents.<br><br>Any directories that are copied by means of this command will be included in the device directory generated with `tpt_generate_device_dir`（raw: `02.09.02.03.16_tpt_generate_device_dir.md`）.<br><br>This parameter is optional. If it is omitted, no additional content is copied. |
-| allow_overwrite | <overwrite_flag> specifies whether STPM may overwrite existing files in the test program template directory:<br><br>- 0 (default): No existing files or directories in the test program template directory may be overwritten. If this prevents STPM from saving a created file, it displays an error and stops the conversion.<br>- 1: STPM may overwrite existing files and directories.<br><br>This parameter is optional. If it is omitted, no files or directories are overwritten. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/132700.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 2 列。
+> 首行（上游原文）：device_test_flow | <testflow_file> (string) is the path of the testflow file from which the test program template is to be generated. The path can be either abs…
+> 表内引用（2 条，供检索）：`tpt_generate_device_dir`（raw: `02.09.02.03.16_tpt_generate_device_dir.md`） · `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Example（取自子主题 tpt import from device）
 
@@ -566,12 +479,10 @@ post_proc = <post_proc>]
 
 The parameters in the order in which they are listed above:
 
-| tpt_dir | <tpt_directory> (string) is the name and path of the directory containing the TPT files from which the device directory is to be generated.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| device_dir | <directory> (string) is the path, including the name, where the new device directory is created. The directory must either not exist yet (in which case STPM creates it) or it must be empty.<br><br>The path can be either absolute or relative to the current working directory. |
-| device_name | <device_name> (string) is the name for the newly created device.<br><br>This parameter is optional. If it is omitted, "device" is used. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/132751.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：tpt_dir | <tpt_directory> (string) is the name and path of the directory containing the TPT files from which the device directory is to be generated. The path c…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Example（取自子主题 tpt generate device dir）
 
@@ -600,11 +511,10 @@ source_tpts = [<tpt_list>],
 
 The parameters in the order in which they are listed above:
 
-| source_tpts | <tpt_file> (list of strings) is a list of TPT directories that you want to merge into a single TPT.<br><br>Include in the list the path of each TPT you want to merge, enclosed in quotes and separated by commas.<br><br>Paths can be either absolute or relative to the current working directory.<br><br>In case of conflicts, objects from any source TPT overwrite those in the target TPT and objects from source TPTs at the end of the list overwrite those from TPTs at the beginning of the list. |
-|---|---|
-| target_tpt | <directory> (string) is the path, including the name, where the merged device directory is created. The TPT must already exist.<br><br>The path can be either absolute or relative to the current working directory. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140674.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：source_tpts | <tpt_file> (list of strings) is a list of TPT directories that you want to merge into a single TPT. Include in the list the path of each TPT you w…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Example（取自子主题 tpt merge）
 
@@ -639,18 +549,10 @@ test_flow_file = '<testflow_file>',
 
 The parameters in the order in which they are listed above:
 
-| test_flow_file | <testflow_file> (string) is the path, including the name, of the testflow file of the source test program (STP) that contains the test that you want to add to the MTP.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| test_source | <test_source> (string) is the name of the test from the STP that will be added to the MTP. The test must be included in the `test suite table`（raw: `02.09.02.05.01_Test_suite_table_of_a_TPT.md`）.<br><br>If the STP contains only a single test, the test_source parameter can be omitted. If the STP contains multiple tests, test_source is required. |
-| test | <test> is the name for the added test in the MTP.<br><br>If this parameter is omitted, the name is added to the MTP with the name specified for it in the `test suite table`（raw: `02.09.02.05.01_Test_suite_table_of_a_TPT.md`）.<br><br>If there is already a test with the same name in the MTP, the test from the STP is not added and an error is generated. (This applies in both cases, whether you have specified a name using the test parameter or whether the default name is used.) |
-| position | <position> (string) is the position within a test group where the new test is inserted.<br><br>The following values are available:<br><br>- optimal: STPM inserts the test in a position in the testflow group that requires the least amount of level and timing reloads during execution.<br>- first: The test suite is inserted as the first test in the testflow group.<br>- last: The test suite is inserted as the last in the testflow group.<br>- after:<test_name>: The test suite is inserted immediately after the test suite with the name <test_name> in the testflow group.<br>- before:<test_name>: The test suite is inserted immediately before the test suite with the name <test_name> in the testflow group.<br><br>If this parameter is omitted, optimal is used. |
-| tim_reuse | <timing_reuse> (string) is the way in which timing settings in the MTP are to be reused for the added test:<br><br>- auto: STPM tries to reuse an existing timing, merging the timing from the new test with it. If this is not possible, a new timing is created.<br>- test:<test-name>: The timing from the existing test suite with the name <test-name> is used for the added test.<br>- <primary-keys>: You can explicitly specify the timing to use. How to do this differs for single-port and multiport tests:<br><br>- Single-port timing: Specify the timing as a combination of indexes, separated by periods:<br><br><eqnset-index>`.`<timset-index>`.`<specset-index><br><br>- Multiport timing: Specify the name of the multiport specification to use.<br><br>- none: STPM will not try to reuse any timing. Instead, it always creates new timing for the added test.<br><br>If this parameter is omitted, none is used. |
-| lev_reuse | <level_reuse> (string) is the way in which level settings in the MTP are to be reused for the added test:<br><br>- auto: STPM tries to reuse existing levels, merging the levels from the new test with hem. If this is not possible, new levels are created.<br>- test:<test-name>: The levels from the existing test suite with the name <test-name> are used for the added test.<br>- <primary-keys>: You can explicitly specify the levels to use as a combination of indexes, separated by periods:<br><br><eqnset-index>`.`<levelset-index>`.`<specset-index><br><br>- none: STPM will not try to reuse any levels. Instead, it always creates new levels for the added test.<br><br>If this parameter is omitted, none is used. |
-| pat_reuse | <pattern_reuse> (string) is the way in which patterns in the MTP are to be reused for the added test:<br><br>- test:<test-name>: The patterns from the existing test suite with the name <test-name> are used for the added test.<br>- <pattern-label>: You can explicitly specify the patterns to use by providing the name of the pattern label.<br>- none: STPM will not try to reuse any patterns. Instead, it always creates new patterns for the added test.<br><br>If this parameter is omitted, none is used. |
-| reuse_scope | <scope> (string or list of strings) are the testflow groups that STPM is to analyze for purposes of merging or reusing primaries. STPM will ignore primaries from other testflow groups.<br><br>The scope can be:<br><br>- `"*all*"` to tell STPM to consider all groups<br>- A comma-separated list of testflow groups, enclosed in square brackets<br><br>If this parameter is not specified, the default is for STPM to consider the test suites in the testflow group specified in the test_group parameter (see above).<br><br>If test_group is not specified either, all groups are considered. |
-| pat_dir | <path> (string) is the path of the directory where STPM is to store patterns that it copies from the STP to the device directory.<br><br>The path is relative to the vectors subdirectory of the device directory.<br><br>If this parameter is omitted, patterns is used. (That is, the patterns are copied to the vectors/patterns/ subdirectory of the device directory.) |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140657.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：11 行 × 2 列。
+> 首行（上游原文）：test_flow_file | <testflow_file> (string) is the path, including the name, of the testflow file of the source test program (STP) that contains the test that you…
+> 表内引用（2 条，供检索）：`test suite table`（raw: `02.09.02.05.01_Test_suite_table_of_a_TPT.md`） · `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Example（取自子主题 tpt add test）
 
@@ -680,20 +582,10 @@ test = '<test>',
 
 The parameters in the order in which they are listed above:
 
-| test_flow_file | <testflow_file> (string) is the path (including the name) of the testflow file of the source test program (STP) that contains the test with which you want to replace an existing test in the MTP.<br><br>The path can be either absolute or relative to the current working directory. |
-|---|---|
-| test_source | <test_source> (string) is the name of the test from the STP that will be used to replace the existing test in the to the MTP. The test must be included in the `test suite table`（raw: `02.09.02.05.01_Test_suite_table_of_a_TPT.md`）.<br><br>If the MTP already contains a test by that name and the primaries are already set for that test, an error is generated and the test is not added to the MTP.<br><br>If the STP contains only a single test, the test_source parameter can be omitted. If the STP contains multiple tests, test_source is required. |
-| test | <test> (string) is the name of the test in the MTP that is to be replaced. |
-| tim_reuse | <timing_reuse> (string) is the way in which timing settings in the MTP are to be reused for the replacement test:<br><br>- auto: STPM tries to reuse an existing timing, merging the timing from the replacement test with it. If this is not possible, a new timing is created.<br>- test:<test-name>: The timing from the existing test suite with the name <test-name> is used for the replacement test.<br>- <primary-keys>: You can explicitly specify the timing to use. How to do this differs for single-port and multiport tests:<br><br>- Single-port timing: Specify the timing as a combination of indexes, separated by periods:<br><br><eqnset-index>`.`<timset-index>`.`<specset-index><br><br>- Multiport timing: Specify the name of the multiport timing set to use.<br><br>- none: STPM will not try to reuse any timing. Instead, it always creates new timing for the replacement test.<br><br>If this parameter is omitted, none is used. |
-| lev_reuse | <level_reuse> (string) is the way in which level settings in the MTP are to be reused for the replacement test:<br><br>- auto: STPM tries to reuse existing levels, merging the levels from the replacement test with them. If this is not possible, new levels are created.<br>- test:<test-name>: The levels from the existing test suite with the name <test-name> are used for the replacement test.<br>- <primary-keys>: You can explicitly specify the levels to use as a combination of indexes, separated by periods:<br><br><eqnset-index>`.`<levelset-index>`.`<specset-index><br><br>- none: STPM will not try to reuse any levels. Instead, it always creates new levels for the replacement test.<br><br>If this parameter is omitted, none is used. |
-| pat_reuse | <pattern_reuse> (string) is the way in which patterns in the MTP are to be reused for the replacement test:<br><br>- test:<test-name>: The patterns from the existing test suite with the name <test-name> are used for the replacement test.<br>- <pattern-label>: You can explicitly specify the patterns to use by providing the name of the pattern label.<br>- none: STPM will not try to reuse any patterns. Instead, it always creates new patterns for the replacement test.<br><br>If this parameter is omitted, none is used. |
-| reuse_scope | <scope> (string or list of strings) are the testflow groups that STPM is to analyze for purposes of merging or reusing primaries. STPM will ignore primaries from other testflow groups.<br><br>The scope can be:<br><br>- `"*all*"` to tell STPM to consider all groups<br>- A comma-separated list of testflow groups<br><br>If this parameter is not specified, the test suites in the testflow group containing the replaced test are considered. |
-| tim_remove | <timing_remove> (string) is an instruction for STPM on how to remove the timing settings of the replaced test:<br><br>- unused: STPM removes the settings if no other test uses them. (STPM may not be able to detect usage by tests that switch primaries in the C++ code.)<br>- none: The timing settings are not removed, even if no other test uses them.<br><br>If this parameter is omitted, unused is used. |
-| lev_remove | <level_remove> (string) is an instruction for STPM on how to remove the levels of the replaced test:<br><br>- unused: STPM removes the levels if no other test uses them. (STPM may not be able to detect usage by tests that switch primaries in the C++ code.)<br>- none: The levels are not removed, even if no other test uses them.<br><br>If this parameter is omitted, unused is used. |
-| pat_remove | <pattern_remove> (string) is an instruction for STPM on how to remove the patterns of the replaced test:<br><br>- unused: STPM removes the patterns if no other test uses them. (STPM may not be able to detect usage by tests that switch primaries in the C++ code.)<br>- none: The patterns are not removed, even if no other test uses them.<br>- If this parameter is omitted, unused is used. |
-| pat_dir | <path> (string) is the path of the directory where STPM is to store patterns that it copies from the STP to the device directory.<br><br>The path is relative to the vectors subdirectory of the device directory.<br><br>If this parameter is omitted, patterns is used. (That is, the patterns are copied to the vectors/patterns/ subdirectory of the device directory.) |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140661.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：13 行 × 2 列。
+> 首行（上游原文）：test_flow_file | <testflow_file> (string) is the path (including the name) of the testflow file of the source test program (STP) that contains the test with whi…
+> 表内引用（2 条，供检索）：`test suite table`（raw: `02.09.02.05.01_Test_suite_table_of_a_TPT.md`） · `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 tpt generate tp）
 
@@ -709,12 +601,10 @@ tpt_generate_tp(
 
 ### Parameters（取自子主题 tpt generate tp）
 
-| generate_complete_device_directory | <complete_device_flag> specify whether a complete device directory or only a skeleton is generated:<br><br>- 0: The generated device directory contains only a testflow file. If the use of a test table is specified in the TPT, a test table is also generated.<br>- 1 (default): A complete device directory is generated.<br><br>If this parameter is omitted, 1 is used (a complete directory is generated). |
-|---|---|
-| error_on_non_existing_primaries | <missing_primaries_flag> specifies whether warnings are generated for missing primaries:<br><br>- 0: STPM generates no warning if a test suite refers to primaries that do not exist in the TPT.<br>- 1 (default): STPM generates warnings when non-existent primaries are referenced.<br><br>If this parameter is omitted, 1 is used (warnings are generated). |
-| ignore_empty_groups | <ignore_empty_groups_flag> specifies what happens with empty groups in the testflow of the TPT:<br><br>- 0: Empty groups are copied to the testflow of the output test program.<br>- 1 (default): Empty groups are not copied to the testflow of the output test program.<br><br>If this parameter is omitted, 1 is used (empty groups are not copied). |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140664.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：generate_complete_device_directory | <complete_device_flag> specify whether a complete device directory or only a skeleton is generated: 0: The generated device…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 tpt compare tp）
 
@@ -729,11 +619,10 @@ tpt_compare_tp(
 
 ### Parameters（取自子主题 tpt compare tp）
 
-| report_file_path | <report_file> (string) is the path (including the name) where the command is to store the report file.<br><br>If this parameter is omitted, the file is named compare_log.html and is stored in the current working directory. |
-|---|---|
-| include_groups | <include_groups> (list of strings) is a list of groups in the specified testflow that are to be compared.<br><br>Each group name is a string enclosed in single or double quotes; groups are separated by commas, and the list is enclosed in square brackets.<br><br>This parameter is optional. If it is omitted, the entire testflow is compared. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140668.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：report_file_path | <report_file> (string) is the path (including the name) where the command is to store the report file. If this parameter is omitted, the file…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 tpt generate test stages）
 
@@ -749,10 +638,10 @@ tpt_generate_test_stages(
 
 The parameters in the order in which they are listed above:
 
-| include_undefined_objects | <flag> (0 or 1) specifies how STPM treats undefined objects in the `test stage table`（raw: `02.09.02.05.06_Test_stage_table_of_a_TPT.md`）:<br><br>- 0: Undefined objects are not included in the data log profile.<br>- 1 (default): Undefined objects are treated as enabled.<br><br>An object is considered undefined for a test stage when the object's row contains neither Y nor N in the column for that test stage.<br><br>If this parameter is omitted, 1 is used. That is, undefined objects are considered to be enabled. |
-|---|---|
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140669.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：include_undefined_objects | <flag> (0 or 1) specifies how STPM treats undefined objects in the test stage table: 0: Undefined objects are not included in the da…
+> 表内引用（2 条，供检索）：`test stage table`（raw: `02.09.02.05.06_Test_stage_table_of_a_TPT.md`） · `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 extract subflow）
 
@@ -782,24 +671,10 @@ test_groups = [<group_list>],
 
 The parameters in the order in which they are listed above:
 
-| test_flow_file | <file_path> (string) is the name and path of the testflow file for the STP you want to generate.<br><br>It can be an absolute or a relative path. If it is a relative path, the base directory is the current working directory at the time STPM was called.<br><br>If folders specified in the path do not yet exist, STPM creates them. |
-|---|---|
-| test_groups | <group_list> (list of strings) is a list of test groups that are exported. The list must be enclosed in square brackets..<br><br>Include in the list each testflow group you want to export to the STP, enclosed in quotes and separated by commas.<br><br>For example: `test_groups = ['tg3','fail_tg']` |
-| levels_mode | <levels_mode> specifies the way in which level settings are extracted from the MTP:<br><br>- 'used' (default): Only level settings that are used by the extracted test groups are copied from the MTP to the STP.<br>- 'all': All level settings from the MTP are copied to the STP, even if none of the extracted test groups is using them.<br>- 'keep_file': No level settings are copied to the STP. Instead, the STP uses the level file of the MTP. This requires that the STP is located in the same directory as the MTP.<br><br>This parameter is optional. If it is omitted, only the level settings used in the subflow are copied. |
-| timing_mode | <timing_mode> specifies the way in which timing settings are extracted from the MTP:<br><br>- 'used' (default): Only timing settings that are used by the extracted test groups are copied from the MTP to the STP.<br>- 'all': All timing settings from the MTP are copied to the STP, even if none of the extracted test groups is using them.<br>- 'keep_file': No timing settings are copied to the STP. Instead, the STP uses the timing file of the MTP. This requires that the STP is located in the same directory as the MTP.<br><br>This parameter is optional. If it is omitted, only the timing settings used in the subflow are copied. |
-| pattern_mode | <pattern_mode> specifies the way in which patterns are extracted from the MTP:<br><br>- 'used' (default): Only patterns that are used by the extracted test groups are copied from the MTP to the STP.<br>- 'all': All patterns from the MTP are copied to the STP, even if none of the extracted test groups is using them.<br><br>This parameter is optional. If it is omitted, only the patterns used in the subflow are copied. |
-| config_mode | <config_mode> specifies the way in which configuration settings are extracted from the MTP:<br><br>- 'used': Only configuration settings that are used by the extracted test groups are copied from the MTP to the STP.<br>- 'all' (default): All configuration settings from the MTP are copied to the STP, even if none of the extracted test groups is using them.<br><br>This parameter is optional. If it is omitted, all config settings from the MTP are copied. |
-| keep_tim_eqnsets | <tim_eqnsets> is a list of timing equation sets that are extracted from the MTP even if they are not used by the extracted test groups.<br><br>The value is a list of equation set numbers separated by commas. For example: [1, 5, 9, 13]<br><br>This parameter is optional. |
-| keep_lev_eqnsets | <lev_eqnsets> is a list of level equation sets that are extracted from the MTP even if they are not used by the extracted test groups.<br><br>The value is a list of equation set numbers separated by commas. For example: [7,8]<br><br>This parameter is optional. |
-| keep_wavetables | <wavetables> is a list of wavetables that are extracted from the MTP even if they are not used by the extracted test groups.<br><br>The value is a list of wavetable names, enclosed in quotes and separated by commas. For example: ['mytable', 'wavetable2']<br><br>This parameter is optional. |
-| keep_specifications | <specifications> is a list of specifications that are extracted from the MTP even if they are not used by the extracted test groups.<br><br>The value is a list of specification names, enclosed in quotes and separated by commas. For example: ['spec5', 'spec5b']<br><br>This parameter is optional. |
-| keep_pattern_files | <pattern_files> is a list of level pattern files that are extracted from the MTP even if they are not used by the extracted test groups.<br><br>The value is a list of pattern file paths, enclosed in quotes and separated by commas. Paths can be absolute or relative to the directory of the MTP. For example: ['/home/johndoe/tps/init_pattern.bin l', 'device/vectors/pat3.binl'']<br><br>This parameter is optional. |
-| keep_setup_file_names | <keep_file_names_flag> specifies whether the names of setups are changed in the exported testflow:<br><br>- 0 (default): The names are changed to match the name of the extracted testflow.<br>- 1: The names remain the same as in the MTP.<br><br>This parameter is optional. If it is omitted, the names are changed. |
-| copy_static_content | <copy_items> (list of strings) specifies is a list of names of files or directories that are to be copied from the device directory of the MTP to the device directory of the extracted subflow.<br><br>The list may contain only names (of files or directories), not paths. The named items must be located in the top level of the device directory. Each name is enclosed in quotes and separated by commas.<br><br>These values are supported:<br><br>- A list of names of files or directories (but not paths). The named items must be located in the top level of the device directory. Each name is enclosed in quotes and separated by commas.<br><br>For example: `copy_static_content = ['my_notes.txt','Change log']`<br><br>If you include standard directories in this list (see below), STPM generates a warning and does not copy the contents.<br><br>- ['*all*'] (default): Every file and directory in the device directory is copied, except the standard directories testflow, timing, levels, configuration, vectors, and testtable.<br>- []: No additional files or directories are copied.<br><br>This parameter is optional. If it is omitted, all objects from the top level of the device directory are copied (as if ['*all*'] had been specified). |
-| copy_patterns | <copy_pattern_flag> specifies whether the patterns from the MTP are copied to the STP:<br><br>- 0: The patterns are not copied to the STP. The pattern master file of the STP refers to the patterns in the MTP.<br>- 1 (default): The patterns are copied to the STP. There are no references to the MTP patterns in the pattern master file of the STP.<br><br>This parameter is optional. If it is omitted, the patterns are copied. |
-| allow_overwrite | <overwrite_flag> specifies whether STPM may overwrite existing files in the STP directory:<br><br>- 0 (default): No existing files or directories in the device directory may be overwritten. If this prevents STPM from saving a created file, it displays an error and stops the conversion.<br>- 1: STPM may overwrite existing files and directories.<br><br>This parameter is optional. If it is omitted, no files or directories are overwritten. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140648.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 2 列。
+> 首行（上游原文）：test_flow_file | <file_path> (string) is the name and path of the testflow file for the STP you want to generate. It can be an absolute or a relative path. If i…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 merge subflow）
 
@@ -830,25 +705,10 @@ test_flow_file = '<file_path>',
 
 The parameters in the order in which they are listed above:
 
-| test_flow_file | <file_path> (string) is the name and path of the testflow file for the STP you want to merge into the MTP.<br><br>It can be an absolute or a relative path. If it is a relative path, the base directory is the current working directory at the time STPM was called. |
-|---|---|
-| include_groups | <include_group_list> (list of strings) is a list of testflow groups that STPM is to import. If you use this parameter, only those groups specified in the list are imported.<br><br>The list must be enclosed in square brackets. Each testflow group in the list must be enclosed in quotes and separated by commas.<br><br>For example: `test_groups = ['tg3','fail_tg']`<br><br>This parameter is optional. It cannot be used when you also specify exclude_groups (see below). |
-| exclude_groups | <exclude_group_list> (list of strings) is a list of testflow groups that STPM is to exclude from the merge process. If you use this parameter, all groups from the STP are merged, except those groups specified in the list.<br><br>The list must be enclosed in square brackets. Each testflow group in the list must be enclosed in quotes and separated by commas.<br><br>For example: `test_groups = ['tg3','fail_tg']`<br><br>This parameter is optional. It cannot be used when you also specify include_groups (see above). |
-| parent | <parent_group> (string) is the name of the test group into which the tests from the subflow will be inserted.<br><br>The test group you name as the parent must already exist in the MTP.<br><br>This is an optional parameter. If it is not specified, the subflow in imported into the top level of the MTP. |
-| position | <position> (string) is the position within the parent where the imported tests are inserted.<br><br>The following values are available:<br><br>- first: The tests are inserted at the beginning of the parent.<br>- last: The tests are inserted at the end of the parent.<br>- after:<test_name>: The test suite is inserted immediately after the test suite with the name <test_name> in the testflow group.<br>- before:<test_name>: The test suite is inserted immediately before the test suite with the name <test_name> in the testflow group.<br><br>If this parameter is omitted, last is used. |
-| tim_eqnset_index | <tim_index> (string) specifies how the timing equation set indexes are imported from the STP to the MTP:<br><br>- 'keep': The indexes are transferred unchanged.<br>- 'keep+<number>': <number> is added to each index that is imported.<br><br>This is an optional parameter. If it is not specified, 'keep' is used. |
-| lev_eqnset_index | <lev_index> (string) specifies how the level equation set indexes are imported from the STP to the MTP:<br><br>- 'keep': The indexes are transferred unchanged.<br>- 'keep+<number>': <number> is added to each index that is imported.<br><br>This is an optional parameter. If it is not specified, 'keep' is used. |
-| levels_mode | <levels_mode> specifies the way in which level settings are merged into the MTP:<br><br>- 'used' (default): Only level settings that are used by the merged subflow are copied from the STP to the MTP.<br>- 'all': All level settings from the STP are copied to the MTP, even if none of the merged test groups is using them.<br><br>This parameter is optional. If it is omitted, only the level settings used in the subflow are copied. |
-| timing_mode | <timing_mode> specifies the way in which timing settings are merged into the MTP:<br><br>- 'used' (default): Only timing settings that are used by the merged subflow are copied from the STP to the MTP.<br>- 'all': All timing settings from the STP are copied to the MTP, even if none of the merged test groups is using them.<br><br>This parameter is optional. If it is omitted, only the timing settings used in the subflow are copied. |
-| pattern_mode | <pattern_mode> specifies the way in which timing settings are merged into the MTP:<br><br>- 'used' (default): Only patterns that are used by the merged subflow are copied from the STP to the MTP.<br>- 'all': All patterns from the STP are copied to the MTP, even if none of the merged test groups is using them.<br><br>This parameter is optional. If it is omitted, only the patterns used in the subflow are copied. |
-| keep_tim_eqnsets | <tim_eqnsets> is a list of timing equation sets from the STP that are merged into the MTP even if they are not used by the merged test groups.<br><br>The value is a list of equation set numbers separated by commas. For example: [1, 5, 9, 13]<br><br>This parameter is optional. |
-| keep_lev_eqnsets | <lev_eqnsets> is a list of level equation sets from the STP that are merged into the MTP even if they are not used by the merged test groups.<br><br>The value is a list of equation set numbers separated by commas. For example: [7,8]<br><br>This parameter is optional. |
-| keep_wavetables | <wavetables> is a list of wavetables from the STP that are merged into the MTP even if they are not used by the merged test groups.<br><br>The value is a list of wavetable names, enclosed in quotes and separated by commas. For example: ['mytable', 'wavetable2']<br><br>This parameter is optional. |
-| keep_specifications | <specifications> is a list of specifications from the STP that are merged into the MTP even if they are not used by the merged test groups.<br><br>The value is a list of specification names, enclosed in quotes and separated by commas. For example: ['spec5', 'spec5b']<br><br>This parameter is optional. |
-| keep_pattern_files | <pattern_files> is a list of level pattern files from the STP that are merged into the MTP even if they are not used by the merged test groups.<br><br>The value is a list of pattern file paths, enclosed in quotes and separated by commas. Paths can be absolute or relative to the directory of the MTP. For example: ['/home/johndoe/tps/init_pattern.bin l', 'device/vectors/pat3.binl'']<br><br>This parameter is optional. |
-| copy_static_content | <copy_items> (list of strings) specifies is a list of names of files or directories that are to be copied from the device directory of the merged STP to the device directory of the MTP.<br><br>The list may contain only names (of files or directories), not paths. The named items must be located in the top level of the device directory. Each name is enclosed in quotes and separated by commas.<br><br>These values are supported:<br><br>- A list of names of files or directories (but not paths). The named items must be located in the top level of the device directory. Each name is enclosed in quotes and separated by commas.<br><br>For example: `copy_static_content = ['my_notes.txt','Change log']`<br><br>If you include standard directories in this list (see below), STPM generates a warning and does not copy the contents.<br><br>- ['*all*']: Every file and directory in the device directory is copied, except the standard directories testflow, timing, levels, configuration, vectors, and testtable.<br>- [] (default): No additional files or directories are copied.<br><br>This parameter is optional. If it is omitted, no additional content is copied (as if [] had been specified). |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140650.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：18 行 × 2 列。
+> 首行（上游原文）：test_flow_file | <file_path> (string) is the name and path of the testflow file for the STP you want to merge into the MTP. It can be an absolute or a relative …
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 remove subflow）
 
@@ -866,12 +726,10 @@ test_flow_file  = '<file_path>',
 
 The parameters in the order in which they are listed above:
 
-| test_flow_file | <file_path> (string) is the name and path of the testflow file for the STP. The tests that were imported from this STP will be removed from the MTP.<br><br>It can be an absolute or a relative path. If it is a relative path, the base directory is the current working directory at the time STPM was called. |
-|---|---|
-| include_groups | <include_group_list> (list of strings) is a list of testflow groups that STPM is to remove. If you use this parameter, only those groups specified in the list are removed from the MTP.<br><br>The list must be enclosed in square brackets. Each testflow group in the list must be enclosed in quotes and separated by commas.<br><br>For example: `test_groups = ['tg3','fail_tg']`<br><br>This parameter is optional. It cannot be used when you also specify exclude_groups (see below). |
-| exclude_groups | <exclude_group_list> (list of strings) is a list of testflow groups that STPM is to leave in the MTP. If you use this parameter, all groups in the STP are deleted from the MTP, except those groups specified in the list.<br><br>The list must be enclosed in square brackets. Each testflow group in the list must be enclosed in quotes and separated by commas.<br><br>For example: `test_groups = ['tg3','fail_tg']`<br><br>This parameter is optional. It cannot be used when you also specify include_groups (see above). |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140653.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：test_flow_file | <file_path> (string) is the name and path of the testflow file for the STP. The tests that were imported from this STP will be removed from the…
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 clear duplicated）
 
@@ -901,24 +759,10 @@ clear_duplicated(
 
 The parameters in the order in which they are listed above:
 
-| proc_wavetables | Whether duplicate wavetables are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-|---|---|
-| proc_tim_eqnsets | Whether duplicate timing equation sets are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-| proc_tim_sets | Whether duplicate timing sets are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-| proc_tim_specsets | Whether duplicate timing specifications are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-| proc_lev_eqnsets | Whether duplicate level equation sets are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-| proc_lev_sets | Whether duplicate level sets are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-| proc_lev_specsets | Whether duplicate level spec sets are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-| proc_specifications | Whether duplicate specifications are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-| proc_merge_pins | Whether definitions for similar pins are merged in the wavetable, timing set, level set, and DPS pins definitions:<br><br>- 0: They are not merged.<br>- 1: They are merged.<br><br>This parameter is optional, the default is 0. |
-| skip_wavetables | <wavetables> is a list of wavetables that are not removed from the MTP even if they are duplicates.<br><br>The value is a list of wavetable names, enclosed in quotes and separated by commas. For example: ['wt1', 'wt2', 'wt3']<br><br>This parameter is optional. |
-| skip_tim_eqnsets | <tim_eqnsets> is a list of timing equation sets that are not removed from the MTP even if they are duplicates.<br><br>The value is a list of equation set numbers separated by commas. For example: [1, 5, 9, 13]<br><br>This parameter is optional. |
-| skip_lev_eqnsets | <lev_eqnsets> is a list of level equation sets that are not removed from the MTP even if they are duplicates.<br><br>The value is a list of equation set numbers separated by commas. For example: [7,8]<br><br>This parameter is optional. |
-| skip_specifications | <specifications> is a list of specifications that are not removed from the MTP even if they are duplicates.<br><br>The value is a list of specification names, enclosed in quotes and separated by commas. For example: ['spec1', 'spec2', 'spec3']<br><br>This parameter is optional. |
-| analyze_only | <analyze_flag> specifies whether duplicate primaries are actually removed:<br><br>- 0: Any found duplicates are removed.<br>- 1: No primaries are removed but STPM generates a report of found duplicates.<br><br>This parameter is optional, the default is 0. |
-| analyzer_path | <path> is the name and location of the report file containing the result of the analysis.<br><br>If analyze_only (see above) is 0, this parameter is ignored. If analyze_only is 1, this parameter is observed.<br><br>This parameter is optional. If it is not specified, the default is <device directory>/reports/duplicated_report.csv. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/135018.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 2 列。
+> 首行（上游原文）：proc_wavetables | Whether duplicate wavetables are removed: 0: They are not removed. 1: They are removed. This parameter is optional, the default is 1.
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 ### Syntax（取自子主题 clear unused）
 
@@ -946,22 +790,10 @@ clear_unused(
 
 The parameters in the order in which they are listed above:
 
-| proc_timing | Whether unused wavetables, timing equation sets, timing sets, and timing spec sets are deleted from the MTP:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-|---|---|
-| proc_levels | Whether unused level equation sets, level sets, and level spec sets are deleted from the MTP:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-| proc_patterns | Whether unused pattern labels are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-| proc_ports | Whether unused ports are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-| proc_groups | Whether unused pin groups are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 1. |
-| proc_nonexistent_pins | Whether timing and level specifications for unused pins are removed:<br><br>- 0: They are not removed.<br>- 1: They are removed.<br><br>This parameter is optional, the default is 0. |
-| skip_wavetables | <wavetables> is a list of wavetables that are not removed from the MTP even if they are unused.<br><br>The value is a list of wavetable names, enclosed in quotes and separated by commas. For example: ['wt1', 'wt2', 'wt3']<br><br>This parameter is optional. |
-| skip_tim_eqnsets | <tim_eqnsets> is a list of timing equation sets that are not removed from the MTP even if they are unused.<br><br>The value is a list of equation set numbers separated by commas. For example: [1, 5, 9, 13]<br><br>This parameter is optional. |
-| skip_lev_eqnsets | <lev_eqnsets> is a list of level equation sets that are not removed from the MTP even if they are unused.<br><br>The value is a list of equation set numbers separated by commas. For example: [7,8]<br><br>This parameter is optional. |
-| skip_specifications | <specifications> is a list of specifications that are not removed from the MTP even if they are unused.<br><br>The value is a list of specification names, enclosed in quotes and separated by commas. For example: ['spec1', 'spec2', 'spec3']<br><br>This parameter is optional. |
-| skip_patterns | <patterns> is a list of pattern files that are not removed from the MTP even if they are unused.<br><br>The value is a list of paths of pattern files, enclosed in quotes and separated by commas. The paths can be either absolute or relative to current device directory (in which case they must include the name of the directory).<br><br>For example (assuming a device directory named mtp): ['/usr/engineer/pat.binl', 'mtp/vectors/DAC/pat.binl']<br><br>This parameter is optional. |
-| analyze_only | <analyze_flag> specifies whether duplicate primaries are actually removed:<br><br>- 0: Any found duplicates are removed.<br>- 1: No primaries are removed but STPM generates a report of found duplicates.<br><br>This parameter is optional, the default is 0. |
-| analyzer_path | <path> is the name and location of the report file containing the result of the analysis.<br><br>If analyze_only (see above) is 0, this parameter is ignored. If analyze_only is 1, this parameter is observed.<br><br>This parameter is optional. If it is not specified, the default is <device directory>/reports/unused_report.csv. |
-| pre_proc | <pre_proc> is a script that is executed before this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
-| post_proc | <post_proc> is a script that is executed after this command.<br><br>The syntax of the parameter value is described in `Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）.<br><br>This is an optional parameter. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/135019.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：15 行 × 2 列。
+> 首行（上游原文）：proc_timing | Whether unused wavetables, timing equation sets, timing sets, and timing spec sets are deleted from the MTP: 0: They are not removed. 1: They are …
+> 表内引用（1 条，供检索）：`Preprocessing and postprocessing scripts`（raw: `02.09.02.03.03_Preprocessing_and_postprocessing_scripts.md`）
 
 <!-- 语法节 end -->
 

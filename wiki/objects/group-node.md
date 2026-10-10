@@ -18,19 +18,9 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **506 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.05_Group_node.md>`。**不是转述。**
-> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
-> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
-> 改写参数表就是把文档事实降级成我的转述（§11）。
-> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
-
-### Tables（脚本逐字抽取，第 1 张）
-
-| Property | Description |
-|---|---|
-| Group Name | 256<br><br>Names with more than 19 characters abbreviated. The name is displayed in the group graphic with the first and last 9 characters separated by three dots (...). |
-| Group Comment | (More than 2056 characters allowed) |
-| Group Bypass | If selected SmarTest skips the group and its elements when running a testflow.<br><br>Note that if Group Bypass is selected the testflow (file) is not backward compatible with SmarTest versions before 7.1.3. |
+**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
+这类**段标记**，跟着 `Subtopics` 找一层也没有。
+**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
 <!-- 语法节 end -->
 
@@ -171,7 +161,7 @@ verified: doc-only
 
 `sources:` 一篇：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.01.02.05_Group_node.md`
-（TDC `20234.htm`，31 行 / 1,506 字节）。**整篇读完**——**这页之所以短，是因为它本来就短**。
+（TDC `20234.htm`，29 行 / 1,506 字节）。**整篇读完**——**这页之所以短，是因为它本来就短**。
 
 **本页没做的：**
 

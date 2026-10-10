@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **819 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`。**不是转述。**
+> 本节 **697 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -38,11 +38,9 @@ VPIN? ([(pinlist) | @]}
 
 ### Parameters
 
-| pinlist | The name to be allocated to the pin. The query returns the name of the virtual pins that have been defined. The @ symbol can be used with the VPIN? query to list all pins previously defined by the VPIN command. If you query a non-existent pin name, the system returns nothing. |
-|---|---|
-
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/353731.htm`。
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/353731.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 4 列。
+> 首行（上游原文）：pinlist | The name to be allocated to the pin. The query returns the name of the virtual pins that have been defined. The @ symbol can be used with the VPIN? qu…
 
 ### Example
 
@@ -337,7 +335,7 @@ An error occurs if:
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md`
-（TDC `353731.htm`；**md 2,007 字节 / 88 行**，上游 htm 4,587 字节）。**整篇读完——本篇只有 88 行。**
+（TDC `353731.htm`；**md 1,866 字节 / 88 行**，上游 htm 4,587 字节）。**整篇读完——本篇只有 88 行。**
 
 **本页没做的**：
 

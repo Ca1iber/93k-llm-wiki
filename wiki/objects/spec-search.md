@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,612 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.233_SPEC_SEARCH.md>`。**不是转述。**
+> 本节 **1,352 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.233_SPEC_SEARCH.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -50,13 +50,9 @@ For retrieving a result of the spec search test:
 variable = object.getXXX();
 ```
 
-| object | Class object name to be defined |
-|---|---|
-| specName | Target spec name |
-| specType | Specifies whether timing or level spec |
-| func1 to funcN | Member functions of the SPEC_SEARCH API |
-| variable | Variable to hold a result |
-| getXXX() | Member functions of the SPEC_SEARCH API for retrieving a result |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/29753.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：object | Class object name to be defined
 
 ### Example
 
@@ -83,14 +79,9 @@ break;
 
 This example defines the "search_1" object and defines conditions of the spec search as shown below:
 
-| Parameter | Value |
-|---|---|
-| Spec type | Timing spec (TM::TIM) |
-| Target pin | CPandMR |
-| Search method | Linear search (Linear) |
-| Search range | 50 Hz to 70 Hz |
-| Number of steps | 20 |
-| Resolution for the getPassVal or getFailVal member function | 0.01 |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/29753.htm`
+> 中**第 14 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 2 列。
+> 首行（上游原文）：Parameter | Value
 
 Then executes a spec search test and checks the transition type. Then retrieves a pass/fail transition value or displays an error message.
 
@@ -348,7 +339,7 @@ retrieve the transition value of the spec search test. See Example.」
 `sources:` **一篇**：
 
 - `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.233_SPEC_SEARCH.md`
-  （frontmatter 的 `source_topic` 是 `29753.htm`，**9,420 字节 / 547 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `29753.htm`，**11,281 字节 / 547 行，整篇读完**——
   按 §11.5 口径：字节是 `st_size`，行数是 `wc -l`）
 - **重复投放检查做过**（§10 第 0 步）：全语料里 `source_topic: "29753...` **只有这一份**，
   **没有第二投放**。

@@ -34,7 +34,7 @@ sources:
   - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.12_Pattern_Debug_Tool_preference_page.md
   - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.13_Pattern_Explorer_preference_page.md
   - 01_Getting_started/01.01_SmarTest_Work_Center/01.01.14.14_Pin_Browser_preference_page.md
-  # 本页共涉及 364 篇文档。上面只列了前 30 篇——**完整出处是正文每条后面的链接**，
+  # 本页共涉及 363 篇文档。上面只列了前 30 篇——**完整出处是正文每条后面的链接**，
   # 机器可读全量见 extract/version-facts.csv（按 doc 列筛）。**这是有意的截断，不是漏列。**
 created: 2026-09-18
 updated: 2026-09-18
@@ -49,7 +49,7 @@ verified: doc-only
 > 因此本页只证明**「文档这么写」**，不证明**「机台这样」**（schema §11）。
 > **本页没有被人在真实机台上核对过**（`verified: doc-only`）。
 
-## 这一版改了什么（185 条）
+## 这一版改了什么（184 条）
 
 格式：**出处文档 —— 语料原条目**。条目本身带 `SmarTest 6.5.2:` 前缀，**那是原文的一部分，没有去掉**。
 
@@ -127,7 +127,6 @@ verified: doc-only
 - [DSP_THD](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.105_DSP_THD.md>) —— SmarTest 6.5.2: The spurious free dynamic range (SFDR) can be calculated.
 - [DSP_THD](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.105_DSP_THD.md>) —— SmarTest 6.5.2: The size parameter is not restricted to the power of two.
 - [DSP_THD](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.105_DSP_THD.md>) —— SmarTest 6.5.2: The DYNPARtype result is introduced.
-- [DSP_BLOCK_FFT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.14_DSP_BLOCK_FFT.md>) —— SmarTest 6.5.2: The fft_size parameter is not restricted to the power of two.
 - [DSP_EXTRACT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.33_DSP_EXTRACT.md>) —— SmarTest 6.5.2: New added parameter: interdiscard
 - [DSP_EXTRACT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.33_DSP_EXTRACT.md>) —— SmarTest 6.5.2: The parameters src and result can be of the type ARRAY_COMPLEX or COMPLEX.
 - [DSP_FFT](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.53.34_DSP_FFT.md>) —— SmarTest 6.5.2: The size parameter is not restricted to the power of two.
@@ -468,6 +467,6 @@ verified: doc-only
 
 ## 出处
 
-- 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 405 条**，涉及 **364 篇**文档。
+- 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 404 条**，涉及 **363 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。

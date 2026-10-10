@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **27,844 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06_DPS_power_flags_-_get...___functions.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.01_DPS_AUX_TASK.getAllStatus.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.02_DPS_AUX_TASK.getStatusWithoutConstCur.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.03_DPS_AUX_TASK.getStatusWithoutConstVol.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.04_DPS_AUX_TASK.getClampDistanceTooLow.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.05_DPS_AUX_TASK.getConstantCurrent.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.06_DPS_AUX_TASK.getConstantCurrentLimitDisconnect.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.07_DPS_AUX_TASK.getConstantVoltage.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.08_DPS_AUX_TASK.getCurrentLimiterProtectionDetected.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.09_DPS_AUX_TASK.getDutBoardDisconnect.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.10_DPS_AUX_TASK.getLowHeadroom.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.11_DPS_AUX_TASK.getOvercurrent.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.12_DPS_AUX_TASK.getOvertemperature.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.13_DPS_AUX_TASK.getOvervoltage.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.14_DPS_AUX_TASK.getRangeOverflow.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.15_DPS_AUX_TASK.getSafetyLine.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.16_DPS_AUX_TASK.getUnregulated.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.17_DPS_AUX_TASK.getVoltageDropForce.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.18_DPS_AUX_TASK.getVoltageDropForceWarn.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.19_DPS_AUX_TASK.getVoltageDropReturn.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.20_DPS_AUX_TASK.getVoltageDropReturnWarn.md>`。**不是转述。**
+> 本节 **28,713 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06_DPS_power_flags_-_get...___functions.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.01_DPS_AUX_TASK.getAllStatus.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.02_DPS_AUX_TASK.getStatusWithoutConstCur.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.03_DPS_AUX_TASK.getStatusWithoutConstVol.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.04_DPS_AUX_TASK.getClampDistanceTooLow.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.05_DPS_AUX_TASK.getConstantCurrent.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.06_DPS_AUX_TASK.getConstantCurrentLimitDisconnect.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.07_DPS_AUX_TASK.getConstantVoltage.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.08_DPS_AUX_TASK.getCurrentLimiterProtectionDetected.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.09_DPS_AUX_TASK.getDutBoardDisconnect.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.10_DPS_AUX_TASK.getLowHeadroom.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.11_DPS_AUX_TASK.getOvercurrent.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.12_DPS_AUX_TASK.getOvertemperature.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.13_DPS_AUX_TASK.getOvervoltage.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.14_DPS_AUX_TASK.getRangeOverflow.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.15_DPS_AUX_TASK.getSafetyLine.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.16_DPS_AUX_TASK.getUnregulated.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.17_DPS_AUX_TASK.getVoltageDropForce.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.18_DPS_AUX_TASK.getVoltageDropForceWarn.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.19_DPS_AUX_TASK.getVoltageDropReturn.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.43.06.20_DPS_AUX_TASK.getVoltageDropReturnWarn.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -33,9 +33,9 @@ TM::DPS_POWER_FLAG_STATUS getAllStatus(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150033.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getAllStatus）
 
@@ -85,9 +85,9 @@ TM::DPS_POWER_FLAG_STATUS getStatusWithoutConstCur(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150037.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getStatusWithoutConstCur）
 
@@ -134,18 +134,17 @@ TM::DPS_POWER_FLAG_STATUS getStatusWithoutConstVol(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150036.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getStatusWithoutConstVol）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | None of the checked flags is set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | Minimum one of the checked flags is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150036.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -186,18 +185,17 @@ TM::DPS_POWER_FLAG_STATUS getClampDistanceTooLow(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150052.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getClampDistanceTooLow）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150052.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -238,18 +236,17 @@ TM::DPS_POWER_FLAG_STATUS getConstantCurrent(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150039.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getConstantCurrent）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150039.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -290,18 +287,17 @@ TM::DPS_POWER_FLAG_STATUS getConstantCurrentLimitDisconnect(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150048.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getConstantCurrentLimitDisconnect）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150048.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -345,9 +341,9 @@ TM::DPS_POWER_FLAG_STATUS getConstantVoltage(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150038.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getConstantVoltage）
 
@@ -394,18 +390,17 @@ TM::DPS_POWER_FLAG_STATUS getCurrentLimiterProtectionDetected(const STRING& pin)
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150050.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getCurrentLimiterProtectionDetected）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150050.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -446,18 +441,17 @@ TM::DPS_POWER_FLAG_STATUS getDutBoardDisconnect(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150046.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getDutBoardDisconnect）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flag |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150046.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flag
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -498,18 +492,17 @@ TM::DPS_POWER_FLAG_STATUS getLowHeadroom(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150049.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getLowHeadroom）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150049.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -550,18 +543,17 @@ TM::DPS_POWER_FLAG_STATUS getOvercurrent(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150042.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getOvercurrent）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150042.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -602,18 +594,17 @@ TM::DPS_POWER_FLAG_STATUS getOvertemperature(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150043.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getOvertemperature）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150043.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -654,18 +645,17 @@ TM::DPS_POWER_FLAG_STATUS getOvervoltage(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150041.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getOvervoltage）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150041.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -706,18 +696,17 @@ TM::DPS_POWER_FLAG_STATUS getRangeOverflow(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150051.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getRangeOverflow）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150051.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -758,18 +747,17 @@ TM::DPS_POWER_FLAG_STATUS getSafetyLine(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150047.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getSafetyLine）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150047.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -810,18 +798,17 @@ TM::DPS_POWER_FLAG_STATUS getUnregulated(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150040.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getUnregulated）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150040.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -862,18 +849,17 @@ TM::DPS_POWER_FLAG_STATUS getVoltageDropForce(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150044.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getVoltageDropForce）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150044.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -914,18 +900,17 @@ TM::DPS_POWER_FLAG_STATUS getVoltageDropForceWarn(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/354727.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getVoltageDropForceWarn）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/354727.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 ### Syntax（取自子主题 DPS AUX TASK.getVoltageDropReturn）
 
@@ -934,18 +919,17 @@ TM::DPS_POWER_FLAG_STATUS getVoltageDropReturn(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150045.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getVoltageDropReturn）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/150045.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 Return value in offline mode is TM::POWER_FLAG_STATUS_PASS.
 
@@ -986,18 +970,17 @@ TM::DPS_POWER_FLAG_STATUS getVoltageDropReturnWarn(const STRING& pin);
 ```
 
 Parameter
-| Parameter | Description/Range |
-|---|---|
-| pin | Single pin for which the status flags should be retrieved. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/354729.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description/Range
 
 ### Return value（取自子主题 DPS AUX TASK.getVoltageDropReturnWarn）
 
 The member function returns one of the following values of the enumerated type DPS_POWER_FLAG_STATUS:
 
-| Keyword | Value | State of the checked flags |
-|---|---|---|
-| TM::POWER_FLAG_STATUS_PASS | 0 | The checked flag is not set. |
-| TM::POWER_FLAG_STATUS_FAIL | 1 | The checked flag is set. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/354729.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
+> 首行（上游原文）：Keyword | Value | State of the checked flags
 
 <!-- 语法节 end -->
 

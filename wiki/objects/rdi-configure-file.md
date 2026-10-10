@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,011 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13.04_RDI_Configure_file.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.01_Example_of_keyword_setups_in_the_RDI_Configure_file.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.02_getRdiConfig.md>`。**不是转述。**
+> 本节 **2,085 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13.04_RDI_Configure_file.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.01_Example_of_keyword_setups_in_the_RDI_Configure_file.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.02_getRdiConfig.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -105,9 +105,9 @@ string rdi.getRdiConfig(string optionName);
 ```
 
 Parameter
-| Parameter | Description |
-|---|---|
-| optionName | The option name to be queried. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/151016.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Return Value（取自子主题 getRdiConfig）
 
@@ -403,7 +403,7 @@ string rdi.getRdiConfig(string optionName);
 `sources:` 一篇：
 
 `02_System_reference/02.07_Test_Method_Reference/02.07.13.04_RDI_Configure_file.md`
-（TDC `146692.htm`，共 335 行）
+（TDC `146692.htm`，共 321 行）
 
 **本页没做的**：
 

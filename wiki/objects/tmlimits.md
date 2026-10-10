@@ -435,7 +435,7 @@ SMC_ARM(XXX);
 `sources:` 一篇：
 
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.250_TMLimits.md`
-（TDC `110432.htm`，共 653 行）
+（TDC `110432.htm`，共 635 行）
 
 **本页没做的**：
 

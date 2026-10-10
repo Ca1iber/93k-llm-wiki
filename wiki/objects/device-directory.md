@@ -18,17 +18,9 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **184 字符逐字取自** `<01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01.01_Device_directory_structure.md>`。**不是转述。**
-> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
-> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
-> 改写参数表就是把文档事实降级成我的转述（§11）。
-> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
-
-### Tables（脚本逐字抽取，第 1 张）
-
-| Project Explorer view | Test Program Explorer view |
-|---|---|
-| !`Project Explorer view`（raw: `../../../../raw/91705.png`） | !`Test Program Explorer view`（raw: `../../../../raw/123063.png`） |
+**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
+这类**段标记**，跟着 `Subtopics` 找一层也没有。
+**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
 <!-- 语法节 end -->
 
@@ -196,7 +188,7 @@ technology 模板目录、临时目录）的异同，本页一个字都没有。
 
 `sources:` 一篇：
 `01_Getting_started/01.07_Testing_a_Basic_Digital_Device/01.07.01.01.01_Device_directory_structure.md`
-（TDC `130830.htm`，**3,795 字节 / 74 行**）。
+（TDC `130830.htm`，**3,894 字节 / 74 行**）。
 
 ### 「语法 / 参数」节是空的——**空 ≠ 没有内容**
 

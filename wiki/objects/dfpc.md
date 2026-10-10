@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **753 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`。**不是转述。**
+> 本节 **564 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,10 +44,9 @@ DFPC {(pin)}, {"comment"}
 
 ### Parameters
 
-| pin | In the command, this is the pin to which a comment is to be added. In the query reply, it is the pin whose comment is returned. |
-|---|---|
-| pinlist | A query parameter that specifies the pins for which the comments are to be returned. You can also specify @ for all configured pins.<br><br>Pins for which no comments have been defined are ignored. |
-| comment | The comment to the pin. The maximal length of the comment string is 2048 characters. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131109.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：pin | In the command, this is the pin to which a comment is to be added. In the query reply, it is the pin whose comment is returned.
 
 ### Example
 
@@ -192,7 +191,7 @@ Since no comment has been defined for pin `pin2`, it is ignored in the reply.
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md`
-（TDC `131109.htm`，**1,391 字节 / 82 行**）。**整篇读完**——本页引文全部来自这一篇；
+（TDC `131109.htm`，**1,298 字节 / 82 行**）。**整篇读完**——本页引文全部来自这一篇；
 另**核对过上游 `raw/131109.htm`**（下面 ⚠️ 三条都注明了核对结论）。
 
 **入边 2 条 / 2 篇**（`inline` + `toc` 口径，`edges.jsonl` 原始行数）：

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,831 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`。**不是转述。**
+> 本节 **1,085 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -68,12 +68,10 @@ TSUS {"multiport_spec"},{timing_set}[,(port)]
 
 ### Parameters
 
-| waveform_set | Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query command you can also enter ALL for all waveform sets. |
-|---|---|
-| specset_id | Derived as follows: `100 * `equation_set_no `+ `specset_no |
-| multiport_spec | To query a multiport specification, enter the name of the specification. |
-| timing_set | Timing set number. This is the highest number currently allocated to a timing set or the highest number of timing set you want to associate with a given waveform set. The number you enter must be less than or equal to the maximum number of timing sets allowed (as defined by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command). This number is automatically updated to include any new timing set as it is created. At power-on only one timing set (containing the default values and belonging to the single waveform set) is available. |
-| portlist | For multiport specifications, you can specify a list of the ports for which the number of the timing sets used is to be displayed. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98817.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：waveform_set | Waveform Set Number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by WSUS, WS…
+> 表内引用（2 条，供检索）：`WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`） · `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）
 
 ### Example
 
@@ -281,7 +279,7 @@ TSUS "spefc",3,(ARMPort)
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md`
-（TDC `98817.htm`，4,738 字节，108 行）。**整篇读完。**
+（TDC `98817.htm`，4,114 字节，106 行）。**整篇读完。**
 
 **本页没做的**：
 

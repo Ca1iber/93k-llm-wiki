@@ -143,7 +143,7 @@ EVENT_VALUE_DOUBLE eqnValue("LEV:frc1");
 
 ## 出处
 
-`sources:` 一篇：`02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.18_EVENT_VALUE_DOUBLE.md`（TDC `116913.htm`，3,990 字节，141 行）。**整篇读完。**
+`sources:` 一篇：`02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.18_EVENT_VALUE_DOUBLE.md`（TDC `116913.htm`，4,083 字节，140 行）。**整篇读完。**
 
 **本页做了什么**
 

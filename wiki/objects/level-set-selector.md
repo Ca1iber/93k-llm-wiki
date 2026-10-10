@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,703 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.123_LevelSetSelector.md>`。**不是转述。**
+> 本节 **1,304 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.123_LevelSetSelector.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -49,11 +49,9 @@ This constructor refers an existing level set, which can be a fixed level set or
 This constructor refers to either the primary level set or all fixed level sets.
 
 Parameters
-| Parameter | Description |
-|---|---|
-| rhs | An existing LevelSetSelector object |
-| levelSetId | For a fixed level setup, it is the level set number.<br><br>For an equation based level setup, the level set ID is calculated as follows:<br><br>equset * 100000 + specset * 1000 + level_set_no |
-| levelSet | DIGITAL_OFFSET_SEARCH::PRM or DIGITAL_OFFSET_SEARCH::ALL.<br><br>- DIGITAL_OFFSET_SEARCH::PRM: Refers to the primary level set, which is identical to the use of the default constructor.<br>- DIGITAL_OFFSET_SEARCH::ALL: Refer to all fixed level sets. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/141182.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Return value
 
@@ -246,7 +244,7 @@ DIGITAL_OFFSET_SEARCH::LevelSetSelector dest(DIGITAL_OFFSET_SEARCH::ALL);
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.123_LevelSetSelector.md`
-（TDC `141182.htm`，69 行 / 2,505 字节）。**整篇读完。**
+（TDC `141182.htm`，67 行 / 2,505 字节）。**整篇读完。**
 
 **本页没做的：**
 

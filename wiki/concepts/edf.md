@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **605 字符逐字取自** `<02_System_reference/02.10_Data_Logging/02.10.01.06_Event_Data_Logging_Format__EDF.md>` 及其子主题 `<02_System_reference/02.10_Data_Logging/02.10.01.06.05.54_TestConditionAttrType.md>`。**不是转述。**
+> 本节 **249 字符逐字取自** `<02_System_reference/02.10_Data_Logging/02.10.01.06_Event_Data_Logging_Format__EDF.md>` 及其子主题 `<02_System_reference/02.10_Data_Logging/02.10.01.06.05.54_TestConditionAttrType.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -30,16 +30,9 @@ verified: doc-only
 
 !`TestConditionAttrType structure`（raw: `../../../../raw/127716.png`）
 
-| Field name | Data type | Description | Comments |
-|---|---|---|---|
-| length | int | Attribute length | These fields form the attribute header. |
-| type | short | Attribute type | These fields form the attribute header. |
-| conditionCount | unsigned short | Number of conditions (pairs of a Key string and a Value string). |  |
-| Key | string | Name of the condition |  |
-| Value | string | Value of the condition |  |
-
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/127714.htm`。
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/127714.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 4 列。
+> 首行（上游原文）：Field name | Data type | Description | Comments
 
 <!-- 语法节 end -->
 

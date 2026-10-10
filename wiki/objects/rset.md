@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,341 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`。**不是转述。**
+> 本节 **507 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -32,20 +32,10 @@ RSET {specifier}
 
 ### Parameters
 
-| specifier | The specifier can be: | The specifier can be: |
-|---|---|---|
-| specifier | DPS | Loads the default power supply setup for standard DPSs. |
-| specifier | FCR | Loads the default clock routing. |
-| specifier | LEV | Loads the default power supply setup for standard DPSs.<br><br>Level: 0 V<br><br>Current: 50 mA<br><br>Off state: minimum current<br><br>Setup time: 0 ms<br><br>This default states are:<br><br>UHC4T<br><br>- Connect state: normal<br>- Level: 0 V<br>- Range: 4 V<br>- Clamp: 4 A<br>- Clamp-Range: 40 A<br>- Disconnect state: HIZ<br>- Voltage drop force: 250 mV<br>- Voltage drop return: 250 mV<br>- Clamp mode: limit (see `UHCM`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md`）)<br>- DUT capacitor mode: off<br><br>Fast preload: 0 ms |
-| specifier | TIM | Loads the default timing setup. The settings are:<br><br>Timing Sets<br><br>- Defined Timing Sets: 1<br>- Allowed Timing Sets: 256<br><br>Waveform Sets<br><br>- Defined Waveform Sets: 1<br>- Allowed Waveform Sets: 16<br><br>Waveforms: not defined<br><br>Breakwaveform: defined<br><br>Events<br><br>- Action: NOP<br>- Timing: 0 ns<br><br>Min Period: 4 ns<br><br>- This is dependent on the test system hardware configuration.<br><br>Device Cycles: not defined<br><br>Default Device Cycle: "" |
-| specifier | VEC | Loads the default vector setup. The Vector Memory contains:<br><br>No vectors<br><br>No tests (and therefore no labels)<br><br>No comments<br><br>No sequencer programs (no instructions) |
-| specifier | ATR | Loads the default edge attributes.<br><br>Pin attribute: set to 0 |
-| specifier | PDL | Loads the default path delay attributes.<br><br>Cable assembly delay attribute: set to 0<br><br>Fixture delay attribute: set to 0<br><br>System attribute: set to 0 |
-| specifier | CAL | Loads the default calibration data.<br><br>Level calibration data<br><br>Timing calibration data |
-| specifier | MTPP | Resets memory test and per-pin sequencer subroutine data. |
-
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/98723.htm`。
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98723.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：10 行 × 3 列。
+> 首行（上游原文）：specifier | The specifier can be:
+> 表内引用（1 条，供检索）：`UHCM`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md`）
 
 ### Example
 

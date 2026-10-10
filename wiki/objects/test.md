@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **10,093 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.241_TEST.md>`。**不是转述。**
+> 本节 **7,511 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.241_TEST.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -111,24 +111,10 @@ Boolean TEST(const STRING& port, const PPTIA_TASK& pptia, Boolean continue, TM::
 ```
 
 Parameters
-| I/O | Parameter | Description / Range |
-|---|---|---|
-| I | continue | (Option.) This parameter controls whether the test should be continued if the TEST API returns FAIL. If it is set to TRUE, the test is continued in spite of a FAIL result. If it is set to FALSE (this is the default), the test is terminated. Instead of TRUE or FALSE, you can also use the enumerator TM::CONTINUE. If the TEST API returns PASS, the test is always continued.<br><br>Note that the API behaves differently for the first site in a multi-site setup. In this special situation, the test is always continued, even if the TEST API returns FAIL and the continue parameter is set to FALSE. For the following sites, the test is terminated under these conditions.<br><br>You can omit this parameter. However, you must specify it if you also specify the reliability parameter. |
-| I | reliability | (Option.) This parameter is used to indicate the reliability of the test result for data logging. To indicate the test is reliable, specify TM::RELIABLE. To indicate the test is unreliable, specify TM::UNRELIABLE.<br><br>You can omit this parameter. If so, use the syntax without this parameter. At that time, it is the same as specifying TM::RELIABLE. |
-| I | port | For multi-port testing only. The port name whose functional test result or Flexible DC test result is judged and logged. Note that any pin group cannot be specified in the TEST API. |
-| I | pin | The pin name (single pin name). |
-| I | testname | The test name that can be referred from the Properties view. Test names can reference limits on the `Tests`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.32.03.01.03_Tests_page.md`） page. |
-| I | value | The test result value. |
-| I | limit | The optional limit value to be used for the judgment. This parameter is a `LIMIT`（raw: `02.07.04.01.126_LIMIT.md`） API's class object. Hence, you can specify TM::Pass or TM::Fail to make the test result pass or fail intentionally.<br><br>You can omit this parameter. |
-| I | logTestNumber | An optional test number.<br><br>If this test number is provided, it overrides the actual test number. If it is not provided, the actual test number is logged. |
-| I | softBin | The software bin number of the multibin. For details see the `SET_MULTIBIN`（raw: `02.07.04.01.212_SET_MULTIBIN.md`） API. |
-| I | hardBin | The hardware bin number of the multibin. For details see the `SET_MULTIBIN`（raw: `02.07.04.01.212_SET_MULTIBIN.md`） API. |
-| I | tmLimit | Specifies the optional `TMLimits`（raw: `02.07.04.01.250_TMLimits.md`）`object`（raw: `02.07.04.01.250_TMLimits.md`） from which the limit data are taken. |
-| I | dc | `PMU_IFVM`（raw: `02.07.04.01.151_PMU_IFVM.md`） or `PMU_VFIM`（raw: `02.07.04.01.152_PMU_VFIM.md`） constructor which specifies a DC test to be judged, or an object of `PPMU_MEASURE`（raw: `02.07.04.01.157_PPMU_MEASURE.md`） API which specifies a Flexible DC test to be judged and logged. |
-| I | dcResultAccessor | The `DC_RESULT_ACCESSOR`（raw: `02.07.04.01.28_DC_RESULT_ACCESSOR.md`） object from which the test data is taken. |
-| I | dps | `DPS_VFIM`（raw: `02.07.04.01.51_DPS_VFIM.md`） constructor which specifies a DC test to be judged. |
-| I | specSearch | The `SPEC_SEARCH`（raw: `02.07.04.01.233_SPEC_SEARCH.md`） API's class object to specify a spec search measurement to be judged. |
-| I | pptia | `PPTIA_TASK`（raw: `02.07.04.01.165_PPTIA_TASK.md`） object from which the test data is taken |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/29803.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 3 列。
+> 首行（上游原文）：I/O | Parameter | Description / Range
+> 表内引用（12 条，供检索）：`Tests`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.32.03.01.03_Tests_page.md`） · `LIMIT`（raw: `02.07.04.01.126_LIMIT.md`） · `SET_MULTIBIN`（raw: `02.07.04.01.212_SET_MULTIBIN.md`） · `TMLimits`（raw: `02.07.04.01.250_TMLimits.md`） · `object`（raw: `02.07.04.01.250_TMLimits.md`） · `PMU_IFVM`（raw: `02.07.04.01.151_PMU_IFVM.md`） · `PMU_VFIM`（raw: `02.07.04.01.152_PMU_VFIM.md`） · `PPMU_MEASURE`（raw: `02.07.04.01.157_PPMU_MEASURE.md`） · `DC_RESULT_ACCESSOR`（raw: `02.07.04.01.28_DC_RESULT_ACCESSOR.md`） · `DPS_VFIM`（raw: `02.07.04.01.51_DPS_VFIM.md`） · `SPEC_SEARCH`（raw: `02.07.04.01.233_SPEC_SEARCH.md`） · `PPTIA_TASK`（raw: `02.07.04.01.165_PPTIA_TASK.md`）
 
 ### Example 1
 

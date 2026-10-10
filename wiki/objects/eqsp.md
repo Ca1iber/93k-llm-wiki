@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,470 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`。**不是转述。**
+> 本节 **710 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -45,10 +45,9 @@ EQSP {spec_type}, {part}, {#spec(data)}
 if these are not empty, for backward compatibility.
 
 Parameters
-| spec_type | The mandatory parameter defines which specification type to use.<br><br>Use:<br><br>- LEV to specify levels<br>- TIM to specify timing |
-|---|---|
-| part | The mandatory parameter defines which part of the specification type to use.<br><br>Use:<br><br>- EQN to specify equations<br>- SPS to specify specs<br>- WVT to specify a wavetable<br><br>part can only be set to WVT, EQN, or CLK if spec_type is set to TIM. |
-| #spec(data) | An equation based set of data (for example wavetables) in binary format.<br><br>This parameter enables you to define the length of the data (in bytes) and the data itself to be transferred. It has the following format:<br><br>- A # to mark the start of the data block.<br>- One digit indicating how many digits make up the data length specifier.<br>- A number of digits indicating the length (in bytes) of the data to follow.<br>- A number of characters which make up the specified equation based testing file. This stream of characters must be terminated with a @ character. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98593_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：spec_type | The mandatory parameter defines which specification type to use. Use: LEV to specify levels TIM to specify timing
 
 ### Example
 
@@ -337,7 +336,7 @@ EQSP?{spec_type}, {part}
 
 ## 出处
 
-`sources:` 1 篇：`02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md`（TDC `98593_2.htm`，2,324 字节，62 行）。**整篇读完。**
+`sources:` 1 篇：`02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md`（TDC `98593_2.htm`，1,660 字节，61 行）。**整篇读完。**
 
 ### 数是怎么量的（§11.5 的口径）
 
@@ -399,8 +398,8 @@ EQSP?{spec_type}, {part}
 
 | 打开的是 | 读了多少 | 本页从它那里拿到了什么 |
 |---|---|---|
-| `02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md`（TDC `98592_2.htm`，2,237 字节，55 行） | 整篇 | 只核了「它是 load/save、两端是临时文件、调用者是编辑器工具与 Spec tool」 |
-| `02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md`（TDC `112905_2.htm`，6,160 字节，170 行） | 整篇 | 只核了「它的 `EQ` 是 `EQualization`，与 equation 无关」 |
+| `02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md`（TDC `98592_2.htm`，1,177 字节，44 行） | 整篇 | 只核了「它是 load/save、两端是临时文件、调用者是编辑器工具与 Spec tool」 |
+| `02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md`（TDC `112905_2.htm`，5,168 字节，157 行） | 整篇 | 只核了「它的 `EQ` 是 `EQualization`，与 equation 无关」 |
 
 **处置与 `mapping-timing.md` 的「出处」节同一套**：那页也用过一篇「只 `grep` 看过一行、
 因此没进 `sources:`」的文档，处置是**记下来，不冒充来源**。

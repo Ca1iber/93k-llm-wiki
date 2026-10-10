@@ -300,7 +300,7 @@ PMU 那个例子里**第一句 `vForce(2 V).vForceRange(25 V).iForceRange(100 uA
 
 `sources:` **一篇**：
 `02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md`
-（raw 的 `source_topic` 是 `141515.htm`）。**整篇读完**——全文 **174 行**。
+（raw 的 `source_topic` 是 `141515.htm`）。**整篇读完**——全文 **168 行**。
 
 **本页没做的**：
 

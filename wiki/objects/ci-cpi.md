@@ -20,7 +20,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,317 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05_Command_Set_Programming_Interface.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.03_System_Flag.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.07_Application_model_file_string.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.14_Command_Set_Message_File.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.19_Set_the_data_logging_profiles.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.23_Retrieve_the_Testsuite_Name.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.32_Retrieving_bin_statistics.md>`。**不是转述。**
+> 本节 **3,344 字符逐字取自** `<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05_Command_Set_Programming_Interface.md>` 及其子主题 `<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.03_System_Flag.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.07_Application_model_file_string.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.14_Command_Set_Message_File.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.19_Set_the_data_logging_profiles.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.23_Retrieve_the_Testsuite_Name.md>`、`<02_System_reference/02.09_Test_Program_Management/02.09.01.08.05.04.32_Retrieving_bin_statistics.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -105,9 +105,9 @@ on_profile and off_profile are profiles in the profiles subdirectory of the devi
 
 ### Parameters（取自子主题 Miscellaneous › Set the data logging profiles）
 
-| on_profile | The profile that is activated when a testflow execution is to be logged. |
-|---|---|
-| off_profile | The profile that is activated when a testflow execution is not to be logged. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/103746.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：on_profile | The profile that is activated when a testflow execution is to be logged.
 
 ### Syntax（取自子主题 Miscellaneous › Retrieve the Testsuite Name）
 

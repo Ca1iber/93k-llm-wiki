@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **51,098 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24_SmartRDI__Vector_and_protocol_programming.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.02_bitLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.04_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.06_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.07_defaultBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.08_defaultVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.09_download.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.10_emapLocation.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.11_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.12_expectBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.13_expectData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.16_failNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.18_fillBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.19_fillVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.20_insertJmpe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.21_insertSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.22_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.25_passNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.26_pMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.27_pModeStrobe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.28_readBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.29_readData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.30_rdi.smartVec__.readMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.31_repeat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.32_repeatSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.33_rdi.smartVec__.vecEditMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.34_vecLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.35_writeBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.36_writeData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.37_writeDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.38_writeParData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.39_writeParDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.40_writePat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.41_writeVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.43_getFailCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.44_getFailCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.45_getFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.46_rdi.id__.getMultiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.47_getReadBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.48_getReadData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.01.01_instruction.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.01_matchBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.02_matchCycle.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.03_matchData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.03_Retrieving_match_loop_results.md>`。**不是转述。**
+> 本节 **48,171 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24_SmartRDI__Vector_and_protocol_programming.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.02_bitLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.04_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.06_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.07_defaultBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.08_defaultVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.09_download.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.10_emapLocation.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.11_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.12_expectBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.13_expectData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.16_failNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.18_fillBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.19_fillVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.20_insertJmpe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.21_insertSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.22_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.25_passNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.26_pMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.27_pModeStrobe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.28_readBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.29_readData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.30_rdi.smartVec__.readMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.31_repeat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.32_repeatSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.33_rdi.smartVec__.vecEditMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.34_vecLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.35_writeBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.36_writeData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.37_writeDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.38_writeParData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.39_writeParDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.40_writePat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.41_writeVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.43_getFailCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.44_getFailCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.45_getFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.46_rdi.id__.getMultiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.47_getReadBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.48_getReadData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.01.01_instruction.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.01_matchBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.02_matchCycle.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.02.03_matchData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.03_Retrieving_match_loop_results.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -68,16 +68,14 @@ burstLabel(const string &labelName,TA::MD5_OPTION);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| labelName | The specified name of the big label.<br><br>The label name can be as long as 128 characters at maximum. |
-| TA::MD5_OPTION | The option which defines to use an MD5 postfix string or not in the label name. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149059.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 List of available options of parameter: <TA::MD5_OPTION>
-| Option | Description |
-|---|---|
-| TA::MD5_ON | With an MD5 postfix string in the label name. This is the default value.<br><br>With MD5_ON, the maximum length of a valid "targetLabelName" in the generated pattern name is 74. |
-| TA::MD5_OFF | Withou an MD5 postfix string in the label name.<br><br>With MD5_OFF, the maximum length of a valid "targetLabelName" in the generated pattern name is 111. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149059.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Option | Description
 
 ### Example 1（取自子主题 burstLabel）
 
@@ -210,10 +208,9 @@ comment(const string &comment, int vecNum);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| comment | The content to be added. |
-| vecNum | The position of the vector. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149064.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 See `SMV_IGNORE_COMMENT`（raw: `02.07.13.04_RDI_Configure_file.md#_146692__row_SMV_IGNORE_COMMENT`）, which can be used in the `RDI_Configure file`（raw: `02.07.13.04_RDI_Configure_file.md`） to globally disable comment output in pattern generation.
 
@@ -234,15 +231,14 @@ label("Label").copyLabel(boolVar);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| boolVar | Specifies whether to edit an existing pattern, or create a copy from an existing pattern and edit the copied pattern. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152252.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 List of available options of parameter: bool
-| Option | Description |
-|---|---|
-| true | Make a copy of an existing pattern and edit the copied pattern.<br><br>This is the default value. |
-| false | Edit an existing pattern. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152252.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Option | Description
 
 Return value
 
@@ -266,9 +262,9 @@ defaultBit(string bit);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| bit | The bit or string you want to write into the pattern. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149047.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 defaultBit）
 
@@ -294,10 +290,9 @@ defaultVec(string dvc);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| index | The physical index you want to write to the pattern . |
-| dvc | The device cycle you want to write to the pattern. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149042.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 defaultVec）
 
@@ -388,15 +383,14 @@ emapLocation(TA::EMAP_LOCATION loc);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| TA::EMAP_LOCATION loc | The location where error maps are stored. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149602.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 List of available options of parameter: <TA::EMAP_LOCATION loc>
-| Option | Description |
-|---|---|
-| TA::TP | The location is the test processor on the card. The default value. |
-| TA::RAM | The location is the unused vector memory on the tester. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149602.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Option | Description
 
 ### Example（取自子主题 emapLocation）
 
@@ -441,11 +435,9 @@ Relationship of bit to DVC:
   SmartRDI always deals with 0, 1, and 2 for DVC "L", "H", and "X".
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| bitStream | The expected bit stream you need to get from the captured pin. |
-| startBit | The starting position of the bits to be compared. If the startBit parameter is not specified, the default value is 0. |
-| rtv | The value to be used at runtime. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149046.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 expectBit）
 
@@ -475,12 +467,9 @@ expectData(string rtv, int bitLength, int startBit=0);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| data | The expected data you want to get from the captured pin. |
-| bitLength | The length of the bits (data will be automatically converted into bits) to be written. |
-| startBit | The starting position of the bits to be compared. If the startBit parameter missing, the default value is 0. |
-| rtv | The value to be used at runtime. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149056.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example 1（取自子主题 expectData）
 
@@ -515,10 +504,9 @@ failCount();
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| startCyc | Start cycle. |
-| cycRange | Cycle range. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152268.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Return value
 
@@ -540,10 +528,9 @@ failCyc();
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| startCyc | Start cycle. |
-| cycRange | Cycle range. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152272.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Return value
 
@@ -589,9 +576,9 @@ FFC();
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| startCyc | The number of the first cycle in a cycle range in which fails are counted.<br><br>An integer. Cycle counting starts from zero.<br><br>This is an optional parameter. If it is omitted, the cycle range starts with the first cycle. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152276.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Return value
 
@@ -612,11 +599,9 @@ fillBit(const string bit,int bitLength,int startBit);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| bit | The bit or string that you want to write to the pattern. |
-| bitlength | The length of the bits to be filled. |
-| startBit | The starting position of the bit to be written. If you do not specify a starting position, the default value is 0. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149045.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 fillBit）
 
@@ -711,10 +696,9 @@ insertJmpe(int vecLine, int level);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| vecLine | Number of the vector line where you want to insert the subroutine. |
-| level | Subroutine level. This refers to the target level at which you want to insert a new subroutine.<br><br>The default value is 1, which means the first level subroutine and actually refers to the main pattern. To insert a subroutine into another subroutine, you should specify a level larger than 1. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152258.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Return value
 
@@ -790,10 +774,9 @@ insertSub(int vecLine, int level);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| vecLine | Number of the vector line where you want to insert the subroutine. |
-| level | Subroutine level. This refers to the target level at which you want to insert a new subroutine.<br><br>The default value is 1, which means the first level subroutine and actually refers to the main pattern. To insert a subroutine into another subroutine, you should specify a level larger than 1. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152254.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Return value
 
@@ -872,9 +855,9 @@ label(const string& sLabelName);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| sLabelName | The label to be executed / pattern on which measurement is performed. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152250.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Return value
 
@@ -898,16 +881,14 @@ labelName(const string &name, TA::MD5_OPTION);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| name | User specified name for the label. |
-| TA::MD5_OPTION | The option which defines to use an MD5 postfix string or not. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149143.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 List of available options of parameter: <TA::MD5_OPTION>
-| Option | Description |
-|---|---|
-| TA::MD5_ON | With an MD5 postfix string in the label name.<br><br>With MD5_ON, the maximum length of a valid "targetLabelName" in the generated pattern name is 74. |
-| TA::MD5_OFF | Without an MD5 postfix string in the label name. This is the default value.<br><br>With MD5_OFF, the maximum length of a valid "targetLabelName" in the generated pattern name is 111. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149143.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Option | Description
 
 ### Example（取自子主题 labelName）
 
@@ -926,10 +907,9 @@ multiFFC(int startCycle, int FailNumber);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| startCycle | The number of the first cycle to start the action. |
-| FailNumber | The number of failing cycles within a pattern to acquire. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/345977_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Use the following functions to collect the result:
 
@@ -994,9 +974,9 @@ pMode(int Pmode);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| Pmode | The number of tester cycles per device cycle. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149063.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 pMode）
 
@@ -1016,9 +996,9 @@ pModeStrobe(int strobePos);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| strobePos | The strobe position within pMode cycles. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149319.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 pModeStrobe）
 
@@ -1045,10 +1025,9 @@ readBit(int bitLength,int startBit);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| bitLength | The length of the bits to be read |
-| startBit | The starting position of the bits to be read. If the "startBit" parameter missing, the default value is 0. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149049.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 readBit）
 
@@ -1065,10 +1044,9 @@ readData(int bitLength,int startBit);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| bitLength | The length of the bits (data will be automatically converted into bits) to be read. |
-| startBit | The starting position of the bits to be read. If the startBit parameter missing, the default value is 0. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149057.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 readData）
 
@@ -1087,9 +1065,9 @@ readMode(TA::MEAS_TYPE mode);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| mode | The read mode. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149061.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 List of available options of parameter: <mode>
  |
@@ -1144,11 +1122,9 @@ repeat(int rptNum, int vecSize, int startVec); // relevant only for the Vector c
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| rptNum | The loop / repeat number. |
-| vecSize | Only Vector class: Vector size. Used together with startVec to define the sector for repetition. |
-| startVec | Only Vector class: Start vector. Used together with vecSize to define the sector for repetition. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149318.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example 1（取自子主题 repeat）
 
@@ -1182,9 +1158,9 @@ repeatSub(int repeatNum);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| repeatNum | number of repeated subroutine calls. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152256.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 Return value
 
@@ -1210,15 +1186,14 @@ rdi.smartVec().vecEditMode(TA::Mode);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| TA::Mode | The mode to be used for one piece of pattern. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/151471.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 List of available options of parameter: <TA::Mode>
-| Option | Description |
-|---|---|
-| TA::VECD | The VECD firmware command mode, which calls the VECD FW command for vector editing. |
-| TA::VTT | The VEC_TRANSFER_TASK API mode. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/151471.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Option | Description
 
 ### Example 1（取自子主题 rdi.smartVec  .vecEditMode）
 
@@ -1315,12 +1290,9 @@ For pattern generation with bit streams per site, the sizes of all elements in A
 For more information about bits versus DVCs, see `Relationship between bits and device cycles`（raw: `02.07.13.24.01_Relationship_between_bits_and_device_cycles.md`）.
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| bitStream | The bit stream to be written to the pattern. |
-| sData | The sData of the parameter that can be changed at runtime. |
-| startBit | The bit position in pattern, starting from which the specified bit stream or sData to be written on.<br><br>If the startBit parameter is not specified, the default value is 0. |
-| perSiteBitStream | The bit stream per site. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149044.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Examples（取自子主题 writeBit）
 
@@ -1391,13 +1363,9 @@ writeData(ARRAY_LL perSiteData, int bitLength, int startBit); // values for all 
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| data | The data block you want to write to the pattern. |
-| bitLength | The length of the bits (data will be automatically converted into bits) to be written. |
-| sData | The sData of the parameter that can be changed at runtime. |
-| startBit | The starting position of the bits to be written. If the startBit parameter is not specified, the default value is 0. |
-| perSiteData | The array of data. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149051.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 writeData）
 
@@ -1449,12 +1417,9 @@ writeDataBurst(ARRAY_LL data, int bitLength); // startBit =0,bitDistance=bitLeng
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| data | The array of data you want to write to the pattern. |
-| bitLength | The length of the bits (data will be automatically converted into bits) to be written. |
-| bitDistance | The bit distance between one data and the next data. |
-| startBit | The starting position of the bits to be written. If the startBit parameter missing, the default value is 0. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149053.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 writeDataBurst）
 
@@ -1499,12 +1464,9 @@ writeParData(ARRAY_LL perSiteData, int startBit);
 For pattern generation with different data per site, values for all sites must be different each other and cannot be changed at runtime.
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| data | The array of data you want to write to the pattern. |
-| sData | The sData of the parameter that can be changed at run-time. |
-| startBit | The starting position of the bits to be written. If the startBit parameter is not specified, the default value is 0. |
-| perSiteData | The array of data. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149054.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 writeParData）
 
@@ -1554,11 +1516,9 @@ writeParDataBurst(ARRAY_LL data);// bitDistance=1, startBit=0
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| data | The array of data you want to write to the pattern. |
-| bitDistance | The bit distance between one data and the next data. |
-| startBit | The starting position of the bits to be written. If the startBit parameter missing, the default value is 0. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149055.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 writeParDataBurst）
 
@@ -1590,10 +1550,9 @@ writePat(const string &dvc,int startVec);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| dvc | The device cycle you want to write into the pattern. |
-| startVec | The starting position of the vector to be written. If the startVec parameter missing, the default value is 0. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149039.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 writePat）
 
@@ -1616,14 +1575,9 @@ writeVec(vector<vector<string>> perSiteDvc, int startVec);
 For pattern generation with per-site data, the sizes of all elements in ARRAY_I or vector<string> must be the same. The value for a site can be different from the value for another site. The values for all sites cannot be changed at runtime.
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| dvcList | The device cycle list you want to write to the pattern. |
-| indexList | The physical index list you want to write to the pattern. |
-| sData | The sData of the parameter that can be changed at runtime. |
-| startVec | The starting position of the vector to be written. If the startVec parameter is not specified, the default value is 0. |
-| perSiteIndex | The index list per site. |
-| perSiteDvc | The device cycle list per site. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149037.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Examples（取自子主题 writeVec）
 
@@ -1781,9 +1735,9 @@ int getFailCount(string pin);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| pin | Specifies a pin for which to get the fail count. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152269.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Return value（取自子主题 getFailCount）
 
@@ -1810,9 +1764,9 @@ ARRAY_LL getFailCyc(string pin);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| pin | Specifies a pin for which to get all failing cycles' positions. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152273.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Return value（取自子主题 getFailCyc）
 
@@ -1825,9 +1779,9 @@ int getFFC(string pin);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| pin | Specifies a pin for which to get the first failing cycle. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/152277.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Return value（取自子主题 getFFC）
 
@@ -1841,9 +1795,9 @@ ARRAY_LL getMultiFFC(); // if only one result pin exists.
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| pin | The pin for which to retrieve the number of failing cycles. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/345978_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 rdi.id  .getMultiFFC）
 
@@ -1902,9 +1856,9 @@ ARRAY_LL  getReadData(const string &pin);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| pin | The pin to query. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149058.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 getReadData）
 
@@ -1924,10 +1878,9 @@ instruction(string instruct, int vecPos);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| instruct | An MACT X, MACT X CONTINUE, or MRPT X instruction to be inserted.<br><br>"X" presents an integer number for the loop repetitions. |
-| vecPos | The starting vector position from which MACT or MRPT to be inserted. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149554.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 Match loop support › Inserting MACT and MRPT in a smartVec label › instruction）
 
@@ -1958,11 +1911,9 @@ matchBit(ARRAY_I bitStream,int startBit,int maxLoopNum)
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| bitStream | The bit stream to be written to the vector. |
-| startBit | The starting position of the vector to be included in the match loop. |
-| maxLoopNum | The maximum number of loops to be executed. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149599.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Syntax（取自子主题 Match loop support › Creating a match loop pattern from logical data › matchCycle）
 
@@ -1971,9 +1922,9 @@ matchCycle(int cycle);
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| cycle | The number of waiting cycles between matches. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149600.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example（取自子主题 Match loop support › Creating a match loop pattern from logical data › matchCycle）
 
@@ -1989,12 +1940,9 @@ matchData(long long data,int bitLength,int startBit,int maxLoopNum,TA::MATCH_CON
 ```
 
 List of parameters
-| Parameter | Description |
-|---|---|
-| bitLength | The number of vectors to be included in the match loop. |
-| startBit | The starting position of the bit to be written in the match loop. |
-| maxLoopNum | The maximum number of the loops to be executed. |
-| TA::MATCH_CONT | An option parameter which presents CONTINUE for the MACT instruction. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149598.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Examples（取自子主题 Match loop support › Creating a match loop pattern from logical data › matchData）
 

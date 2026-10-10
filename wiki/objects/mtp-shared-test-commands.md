@@ -24,7 +24,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **4,073 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25_SHARING_CONFIGURATION.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.01_SHARING_CONFIGURATION.getInstance.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.02_SHARING_CONFIGURATION.hasLoaded.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.03_SHARING_CONFIGURATION.load.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.04_SHARING_CONFIGURATION.setRefPin.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.05_SHARING_CONFIGURATION.getModeContext.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.06_SHARING_CONFIGURATION.isFXDLIgnorePin.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.07_SHARING_CONFIGURATION.utilitySearchFirst.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.08_SHARING_CONFIGURATION.utilitySearchNext.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.09_SHARING_CONFIGURATION.utilityActionExecute.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.10_SHARING_CONFIGURATION.utilityGetApplicableSitesString.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.11_SHARING_CONFIGURATION.utilitySubstitutePins.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.12_SHARING_CONFIGURATION.domainsGetXSize.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.13_SHARING_CONFIGURATION.domainsGetYSize.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.14_SHARING_CONFIGURATION.domainsGetZSize.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.15_SHARING_CONFIGURATION.domainsGetApplicableSitesString.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.16_SHARING_CONFIGURATION.domainsGetSiteAtPos.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.17_SHARING_CONFIGURATION.getTerminatedPinList.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.18_SHARING_CONFIGURATION.getBufferPinMap.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.19_SHARING_CONFIGURATION.getDomain.md>`。**不是转述。**
+> 本节 **3,832 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25_SHARING_CONFIGURATION.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.01_SHARING_CONFIGURATION.getInstance.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.02_SHARING_CONFIGURATION.hasLoaded.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.03_SHARING_CONFIGURATION.load.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.04_SHARING_CONFIGURATION.setRefPin.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.05_SHARING_CONFIGURATION.getModeContext.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.06_SHARING_CONFIGURATION.isFXDLIgnorePin.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.07_SHARING_CONFIGURATION.utilitySearchFirst.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.08_SHARING_CONFIGURATION.utilitySearchNext.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.09_SHARING_CONFIGURATION.utilityActionExecute.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.10_SHARING_CONFIGURATION.utilityGetApplicableSitesString.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.11_SHARING_CONFIGURATION.utilitySubstitutePins.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.12_SHARING_CONFIGURATION.domainsGetXSize.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.13_SHARING_CONFIGURATION.domainsGetYSize.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.14_SHARING_CONFIGURATION.domainsGetZSize.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.15_SHARING_CONFIGURATION.domainsGetApplicableSitesString.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.16_SHARING_CONFIGURATION.domainsGetSiteAtPos.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.17_SHARING_CONFIGURATION.getTerminatedPinList.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.18_SHARING_CONFIGURATION.getBufferPinMap.md>`、`<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.19_SHARING_CONFIGURATION.getDomain.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -62,9 +62,9 @@ bool hasLoaded() const
 void load(const string & config)
 ```
 
-| Parameter | Description |
-|---|---|
-| config | The name of the sharing configuration file which you want to load.<br><br>The file must be located in the <device directory>/configuration/ directory. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131634.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Syntax（取自子主题 SHARING CONFIGURATION.setRefPin）
 
@@ -72,9 +72,9 @@ void load(const string & config)
 void setRefPin(const string & pinName)
 ```
 
-| Parameter | Description |
-|---|---|
-| pinName | The name of a pin whose sharing configuration information you want to load. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131635.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Syntax（取自子主题 SHARING CONFIGURATION.getModeContext）
 
@@ -88,9 +88,9 @@ const string & getModeContext() const
 bool isFXDLIgnorePin(const string & pinname) const
 ```
 
-| Parameter | Description |
-|---|---|
-| pinName | The name of a pin for which you want to know whether it is ignored by the fixture delay settings. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131645.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Syntax（取自子主题 SHARING CONFIGURATION.utilitySearchFirst）
 
@@ -98,9 +98,10 @@ bool isFXDLIgnorePin(const string & pinname) const
 int utilitySearchFirst(const string & name) const
 ```
 
-| Parameter | Description |
-|---|---|
-| name | The name of a utility control line which you want to find in the `utility control block`（raw: `02.12.02.05.06.07.07.02_Sharing_configuration_file.md`）. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131646.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
+> 表内引用（1 条，供检索）：`utility control block`（raw: `02.12.02.05.06.07.07.02_Sharing_configuration_file.md`）
 
 ### Syntax（取自子主题 SHARING CONFIGURATION.utilitySearchNext）
 
@@ -108,9 +109,10 @@ int utilitySearchFirst(const string & name) const
 int utilitySearchNext(const string & name) const
 ```
 
-| Parameter | Description |
-|---|---|
-| name | The name of a utility control line which you want to search in the `utility control block`（raw: `02.12.02.05.06.07.07.02_Sharing_configuration_file.md`）. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131647.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
+> 表内引用（1 条，供检索）：`utility control block`（raw: `02.12.02.05.06.07.07.02_Sharing_configuration_file.md`）
 
 ### Syntax（取自子主题 SHARING CONFIGURATION.utilityActionExecute）
 
@@ -118,9 +120,10 @@ int utilitySearchNext(const string & name) const
 int utilityActionExecute(int index) const
 ```
 
-| Parameter | Description |
-|---|---|
-| index | The location of a utility control line within the utility_control block in the `Sharing configuration file`（raw: `02.12.02.05.06.07.07.02_Sharing_configuration_file.md`）.<br><br>0 represents the first line. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131650.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
+> 表内引用（1 条，供检索）：`Sharing configuration file`（raw: `02.12.02.05.06.07.07.02_Sharing_configuration_file.md`）
 
 ### Syntax（取自子主题 SHARING CONFIGURATION.utilityGetApplicableSitesString）
 
@@ -128,9 +131,10 @@ int utilityActionExecute(int index) const
 string utilityGetApplicableSitesString(int index) const
 ```
 
-| Parameter | Description |
-|---|---|
-| index | The location of a utility control line within the utility_control block in the `Sharing configuration file`（raw: `02.12.02.05.06.07.07.02_Sharing_configuration_file.md`）.<br><br>0 represents the first line. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131651.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
+> 表内引用（1 条，供检索）：`Sharing configuration file`（raw: `02.12.02.05.06.07.07.02_Sharing_configuration_file.md`）
 
 ### Syntax（取自子主题 SHARING CONFIGURATION.utilitySubstitutePins）
 
@@ -138,11 +142,10 @@ string utilityGetApplicableSitesString(int index) const
 void utilitySubstituePins(int index, const string & pinsFrom, string & pinsTo) const
 ```
 
-| Parameter | Description |
-|---|---|
-| index | The location of a utility control line within the utility_control block in a `Sharing configuration file`（raw: `02.12.02.05.06.07.07.02_Sharing_configuration_file.md`）. In this line, pins' substitutions are defined.<br><br>0 represents the first line in the utility_control block. |
-| pinsFrom | The pin names which will be substituted with new names. Multiple names are separated with commas.<br><br>Both the pin names and the new names have already been defined in the utility control line |
-| pinsTo | This variable stores the returned new names which replace the pin names in pinsFrom.<br><br>The new names have already been defined in the utility control line. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131652.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
+> 表内引用（1 条，供检索）：`Sharing configuration file`（raw: `02.12.02.05.06.07.07.02_Sharing_configuration_file.md`）
 
 ### Syntax（取自子主题 SHARING CONFIGURATION.domainsGetXSize）
 
@@ -168,10 +171,9 @@ int domainsGetZSize() const
 string domainsGetApplicableSitesString(int x, int y) const
 ```
 
-| Parameter | Description |
-|---|---|
-| x | The position in the X dimension, starts from 0. |
-| y | The position in the Y dimension, starts from 0. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131660.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Syntax（取自子主题 SHARING CONFIGURATION.domainsGetSiteAtPos）
 
@@ -179,11 +181,9 @@ string domainsGetApplicableSitesString(int x, int y) const
 int domainsGetSiteAtPos(int x, int y, int z) const
 ```
 
-| Parameter | Description |
-|---|---|
-| x | The position in the X dimension, starts from 0. |
-| y | The position in the Y dimension, starts from 0. |
-| y | The position in the Z dimension, starts from 0. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131661.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Syntax（取自子主题 SHARING CONFIGURATION.getTerminatedPinList）
 
@@ -191,9 +191,9 @@ int domainsGetSiteAtPos(int x, int y, int z) const
 string getTerminatedPinList(const string & vterm) const
 ```
 
-| Parameter | Description |
-|---|---|
-| vterm | The termination pin terminates the pins you want to retrieve. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131664.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Syntax（取自子主题 SHARING CONFIGURATION.getBufferPinMap）
 
@@ -207,9 +207,9 @@ const map<int, string> & getBufferPinMap() const
 vector <int> getDomain(int site) const
 ```
 
-| Parameter | Description |
-|---|---|
-| site | The site number from which you want to get the domain. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/131666.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 <!-- 语法节 end -->
 
