@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **16,357 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16_Pattern_Tools.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.06_Cloning_a_pattern.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.07_Moving_or_copying_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.08_Deleting_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.14.01_Moving_vectors_to_another_memory_type.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.01_Collapsed_and_expanded_mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.02_Signal_and_pin_group_representations.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.03_Pattern_editor_properties_view.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.04.03_STATEMAP_section_of_the_wavetable.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.16_Creating_a_Digital_Source_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.04.05.01_Function_of_the_base_wavetable.md>`。**不是转述。**
+> 本节 **15,682 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16_Pattern_Tools.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.06_Cloning_a_pattern.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.07_Moving_or_copying_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.08_Deleting_pattern_files.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.01.14.01_Moving_vectors_to_another_memory_type.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.01_Collapsed_and_expanded_mode.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.02_Signal_and_pin_group_representations.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.03_Pattern_editor_properties_view.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.04.03_STATEMAP_section_of_the_wavetable.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.02.06.16_Creating_a_Digital_Source_setup.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.16.04.05.01_Function_of_the_base_wavetable.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -323,11 +323,7 @@ It allows to assign the same state character to different tester waveforms (wave
 
 ### Digital Source setup of audio device
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/112906.htm`
-> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 1 列，含 colspan。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/112906.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 1 列，含 colspan。
 
  !`Data frame format of audio device`（raw: `../../../../raw/22434.png`）
 
@@ -468,11 +464,7 @@ SOURCE_DATA_TEMPLATE L[7-0];R[7-0]
 
 The semicolon means only the bits of frame section #2 and #4 included in the source memory, and the bits of frame section #3 not included.
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/112906.htm`
-> 中**第 6 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 1 列，含 colspan。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/112906.htm`
-> 中**第 5 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 1 列，含 colspan。
 
 ### VVC of video device
 
@@ -627,8 +619,6 @@ MAPPING
 
 ### VVC of parallel audio device
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/112906.htm`
-> 中**第 7 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 1 列，含 colspan。
 
  !`Data frame format of parallel audio device`（raw: `../../../../raw/112784.png`）
 

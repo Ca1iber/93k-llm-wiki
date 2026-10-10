@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,696 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`。**不是转述。**
+> 本节 **561 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,48 +44,9 @@ DFUT {ch_No}, {type}, {(util_name)}
 
 ### Parameters
 
-| ch_No |
-
-Channel number of the utility line specified with five or three digits.
-
-In the five‑digit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-In the legacy three‑digit format, the first digit (1 ... 8) specifies the utility pogo block UTIL‑ ... UTIL鈥?.
-
-The last two digits specify the channel number 01 ... 32 of the utility line.
-
-On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
-
-When reading the defined utility lines with the DFUT? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
-
-For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）
-
- |
- | type |
-
-Specifies the operating mode of the utility line with the following specifiers:
-
-- W: Write-Only
-- R: Read-Only
-- RW: Read-Write
-
-Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware‑controlled shutdown of XPS256 pins:
-
-- TRIGGER_IF_HIGH: Safety line
-- TRIGGER_IF_LOW: Safety line
-- TRIGGER_SITE_IF_HIGH: Global shutdown line
-- TRIGGER_SITE_IF_LOW: Global shutdown line
-
-For more information, refer to `XPS256 safety line and DUT board disconnect`（raw: `../02.05_Test_Head_Cards/02.05.05.03.03.06_XPS256_safety_line_and_DUT_board_disconnect.md`）.
-
- |
- | util_name |
-
-Name of the utility line. For the query, it specifies the utility line name to be retrieved. @ can be used to list all defined utility lines.
-
-This parameter can have up to 16 alphanumeric characters and must not contain blank spaces, or any of the following characters: `# ; ( ' ' ) ? @ ,`
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98560.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ch_No | Channel number of the utility line specified with five or three digits. In the five‑digit format, the first three digits specify the utility pogo block.…
 
 ### Example
 
@@ -362,7 +323,7 @@ DFUT 16504,w,(filter)
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md`
-（TDC `98560.htm`；**md 4,737 字节 / 106 行**，上游 htm 9,925 字节）。**整篇读完。**
+（TDC `98560.htm`；**md 2,446 字节 / 106 行**，上游 htm 9,925 字节）。**整篇读完。**
 
 **本页没做的**：
 

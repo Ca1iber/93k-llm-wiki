@@ -310,7 +310,7 @@ in `HW_STATE`（raw: `02.07.04.01.117_HW_STATE.md`）.
 `sources:` 一篇：
 
 - `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117.01_HW_PIN_STATE.md`
-  （frontmatter 的 `source_topic` 是 `105632.htm`；**21,128 字节 / 523 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `105632.htm`；**20,104 字节 / 523 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径。**这是本批四篇里最长的一篇。**）
 - 本页的「语法 / 参数」节是脚本从这一篇抽的（**本页一个字没动**）。
   **要留意它只抽到了 `## Example` 一节**——**本篇的类定义与 40 个成员函数都不在段标记里**，

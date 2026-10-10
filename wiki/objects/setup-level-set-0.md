@@ -248,7 +248,7 @@ END-IF
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.05.04.06_SetupLevelSet0.md`
-（TDC `121827.htm`，97 行 / 4,160 字节）。**整篇读完。**
+（TDC `121827.htm`，66 行 / 4,160 字节）。**整篇读完。**
 
 **本页没做的：**
 

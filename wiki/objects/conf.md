@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,199 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`。**不是转述。**
+> 本节 **1,418 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -29,11 +29,7 @@ verified: doc-only
 ```
 CONF ["context",]{pin_type},[pin_oper_mode],{(pinlist)}
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
 ```
 
 ### CONF?
@@ -50,63 +46,15 @@ CONF ["context",]{pin_type},{pin_oper_mode},{(pinlist)}
 
 ### Parameters
 
-| context |
-
-This extra parameter specifies a mode context. If it is omitted, the default mode context DEFAULT is set or read. If DEFAULT is the only context defined, the parameter is omitted in the query reply.
-
-The default mode context is predefined. All other mode contexts must be defined with the CTXT command.
-
-If you specify ALL in the query, CONF? will display all mode contexts.
-
- |
- | pin_type |
-
-The mandatory parameter assigns channel resources to the pin. This can be:
-
- | I  | Configures a drive pin. |
- | O  | Configures a receive pin. |
- | IO  | Configures a bidirectional pin. |
- | DC |
-
-Configures a pin for DC measurements. The pin is only connected to the PMU, and no driver or receiver resources are allocated to it.
-
-For DC Scale channels (power or signal pins) the mode is always DC.
-
-This option is not allowed for Smart Scale pins.
-
- |
- | OFF  | The pin is not available for measurements.  | |
- |
-
-pin_oper_mode
-
- |
-
-The mandatory parameter defines or indicates the operating mode of the pins in pinlist. The operation mode can be:
-
- | DCSIGNAL  | In the query this indicates that the pin is associated with a DC Scale channel and has been configured in PMU mode with DFPN. |
- | POWER  | In the query this indicates that the pin is associated with a DC Scale channel and has been configured in DPS mode with DFPS. |
- | CMON  | Configures the pin as current monitor output. For more information, refer to `XPS256 current monitor`（raw: `../02.05_Test_Head_Cards/02.05.05.03.03.02_XPS256_current_monitor.md`）. |
- | F160 |
-
-Specifies Standard operating mode. This is the default. It must be selected for pins on PS1600 boards.
-
- |
- | F330  | Not valid. |
- | FAST |
-
-This operation mode must be selected for fast pins. Note that no pin can be set to FAST in the default mode context DEFAULT, and that no IO pin can be set to FAST.
-
-For Smart Scale pins this mode will be mapped to F160.
-
-   | |
- | pinlist |
-
-The name of the pin or pins to be configured or listed. If more than one pin is to be included, the names must be separated with a comma.
-
-The symbol @ can be used in the query to list all pins that were previously either explicitly configured with the CONF command, or (in the case of DC Scale pins) implicitly with the DFPN or DFPS command.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：13 行 × 6 列，含嵌套表。
+> 首行（上游原文）：context | This extra parameter specifies a mode context. If it is omitted, the default mode context DEFAULT is set or read. If DEFAULT is the only context defin…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：I | Configures a drive pin.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：DCSIGNAL | In the query this indicates that the pin is associated with a DC Scale channel and has been configured in PMU mode with DFPN.
 
 ### Example 1
 
@@ -316,7 +264,7 @@ for the default mode context.` ——**没写 context 就是 `DEFAULT`**。
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md`
-（`98510.htm`，5,191 字节，132 行）——**整篇读完**。
+（`98510.htm`，3,297 字节，78 行）——**整篇读完**。
 
 **本页没做的**：
 

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,488 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`。**不是转述。**
+> 本节 **494 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -45,54 +45,9 @@ PSFC {"site_string"|ALL}
 
 ### Parameters
 
-|
-
-site
-
- |
-
-A single integer representing the site number.
-
- |
- |
-
-site_string
-
- |
-
-A string of characters ("0" or "1"). The length of the string corresponds to the number of the configured sites. The nth character of this string stands for site n.
-
--
-
-1 means that the site is (to be) addressed by any subsequent commands that take the setup focus into account.
-
--
-
-0 means that the site is not (to be) addressed by any subsequent commands.
-
-If some of the sites that are required to get the setup focus are not available (because they use a channel that is inactivated in the MCDIgnore file) the setup status of these sites will not be changed.
-
- |
- |
-
-ALL
-
- |
-
-In the command, this means that all sites that are available for testing (that is, do not use a channel that is inactivated in the MCDIgnore file) are to be addressed by subsequent (setup focus aware) commands.
-
-ALL is returned in the query reply, if the query is issued without the STR parameter, and if all available sites have the setup focus.
-
- |
- |
-
-STR
-
- |
-
-forces the query to return a site string even if all available sites have the setup focus. This can be used to check if some sites are not available.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98698.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：site | A single integer representing the site number.
 
 ### Example
 
@@ -378,7 +333,7 @@ PSFC ALL              ← 收工：把所有可用 site 的 focus 打开，别�
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md`
-（TDC `98698.htm`，113 行）
+（TDC `98698.htm`，66 行）
 
 **本页没做的**：
 

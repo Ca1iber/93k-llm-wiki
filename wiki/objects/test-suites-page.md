@@ -413,7 +413,7 @@ test methods that can be adapted.` 这一句，**窗口自己怎么措辞在文�
 
 `sources:` 一篇，**整篇读完**：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.01_Test_Suites_page.md`
-（TDC `99272.htm`，**全文 10,277 字节**）。**没有读 `sources` 之外的任何文档。**
+（TDC `99272.htm`，**全文 10,090 字节**）。**没有读 `sources` 之外的任何文档。**
 
 **看了 21 张图，全看了。** 本篇对 `raw/` 下 `.png` 的引用共 **23 处 / 21 张互不重复**
 （被引了两次的是 `125585.png` 与 `125534.png` **两张一致性检查按钮图**——

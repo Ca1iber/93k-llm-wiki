@@ -744,3 +744,306 @@ def apply_plan(plan, dry=True, batch=None, log=None, assign_path=None):
         n += len(items)
         if not dry: io.open(p, 'w', encoding='utf-8', newline='').write(new)
     return recs, n
+
+
+# ================================================================ ② 压平区
+
+OLD_PTR_KW = ('表格指针', '转录说明')
+
+
+def old_pointer_blocks(lines):
+    """已有的指针/转录说明块 → [(a, b)]，并给出它指的是哪一篇上游。"""
+    out = []; j = 0
+    while j < len(lines):
+        if lines[j].lstrip().startswith('>') and any(k in lines[j] for k in OLD_PTR_KW):
+            a = j
+            while j < len(lines) and lines[j].lstrip().startswith('>'): j += 1
+            out.append((a, j))
+        else:
+            j += 1
+    return out
+
+
+def merge_regions(regs):
+    regs = sorted(regs); out = []
+    for a, b in regs:
+        if out and a <= out[-1][1]: out[-1] = (out[-1][0], max(out[-1][1], b))
+        else: out.append((a, b))
+    return out
+
+
+def plan_l2(dry=True):
+    up = enumerate_upstream()
+    f2t, t2f = topic_to_md()
+    bytopic = collections.defaultdict(list)
+    for k, t in up.items(): bytopic[t['topic']].append(t)
+
+    stat = collections.Counter(); exc = []; plans = []
+    for p, topic in sorted(f2t.items()):
+        tabs = bytopic.get(topic, [])
+        if not tabs: continue
+        lines, nl = split_lines(read(p))
+        if lines is None: continue
+        regs = [(a, b) for kind, a, b in md_blocks('\n'.join(lines)) if kind == 'table']
+        regs += flat_clusters(lines)
+        regs = merge_regions(regs)
+        if not regs: continue
+        ptrs = old_pointer_blocks(lines)
+        repl = []; used = set()
+        for a, b in regs:
+            rc = {norm(c) for c in cells_of_region(lines, a, b)}
+            rc = {c for c in rc if len(c) >= 4}
+            hit = []
+            for t in tabs:
+                tc = {norm(c) for c in up_cells_of(t)}
+                tc = {c for c in tc if len(c) >= 4}
+                if tc and len(tc & rc) >= max(1, int(len(tc) * 0.6)): hit.append(t)
+            if hit:
+                stat['区域·匹配上'] += 1
+                for t in hit: used.add((t['topic'], t['idx']))
+                repl.append((a, b, '\n'.join(pointer_block(t) for t in hit).split('\n')))
+            else:
+                stat['区域·匹配不上'] += 1
+                exc.append((p, a, b, '区域对不上上游'))
+        # 旧指针：它指的表若已被新指针覆盖 → 删；否则留着
+        drop = []
+        for a, b in ptrs:
+            seg = '\n'.join(lines[a:b])
+            m = re.search(r'raw/([^`]+)`', seg)
+            if not m: continue
+            tpc = m.group(1)
+            idxs = [int(x) for x in re.findall(r'第 (\d+) 个有格子的', seg)]
+            covered = all((tpc, i - 1) in used for i in idxs) if idxs else False
+            if covered or not idxs:
+                drop.append((a, b)); stat['旧指针·删'] += 1
+            else:
+                stat['旧指针·留（新指针没覆盖到）'] += 1
+        allrepl = repl + [(a, b, []) for a, b in drop]
+        allrepl.sort(key=lambda x: -x[0])
+        # 去重叠
+        ok = []
+        for a, b, blk in allrepl:
+            if ok and b > ok[-1][0]: continue
+            ok.append((a, b, blk))
+        plans.append((p, nl, ok, len(regs)))
+    print("=== ② 空跑 ===")
+    for k, v in stat.most_common(): print(f"  {k:28} {v}")
+    print(f"  涉及文件 {len(plans)}，要动的区域 {sum(len(x[2]) for x in plans)}")
+    return plans, exc
+
+
+# ---------------- ② 改用「上游格子位置」直接框区域（不靠间隔聚类）
+
+def region_of_table(lines, nl_norm, t, minlen=6):
+    """上游一张表的格子，在 md 里出现的位置 → 框出它占的行区间。
+    用位置而不是间隔聚类：长格子里夹的段落会把聚类切断（实测 176 行的表被切成 3 段）。"""
+    cells = [c for c in up_cells_of(t)]
+    pos = []
+    for c in cells:
+        cn = norm(c)
+        if len(cn) < minlen: continue
+        hit = [i for i, l in enumerate(nl_norm) if cn in l]
+        if len(hit) == 1: pos.append(hit[0])
+    if len(pos) < 3: return None
+    a, b = min(pos), max(pos) + 1
+    # 收边界：前后吃掉紧邻的空行 / ' | ' 行 / 指针块
+    while a > 0 and (not lines[a-1].strip() or lines[a-1].startswith(' | ')
+                     or lines[a-1].lstrip().startswith('>')): a -= 1
+    while b < len(lines) and (not lines[b].strip() or lines[b].startswith(' | ')
+                              or lines[b].lstrip().startswith('>')): b += 1
+    # 复核：区间里应含绝大多数特征格
+    seg = norm('\n'.join(lines[a:b]))
+    tc = {norm(c) for c in cells if len(norm(c)) >= minlen}
+    if tc and len([c for c in tc if c in seg]) < len(tc) * 0.7: return None
+    return (a, b)
+
+
+def plan_l2b():
+    up = enumerate_upstream()
+    f2t, t2f = topic_to_md()
+    bytopic = collections.defaultdict(list)
+    for k, t in up.items(): bytopic[t['topic']].append(t)
+
+    stat = collections.Counter(); plans = []; exc = []
+    for p, topic in sorted(f2t.items()):
+        tabs = bytopic.get(topic, [])
+        if not tabs: continue
+        lines, nl = split_lines(read(p))
+        if lines is None: continue
+        nl_norm = [norm(l) for l in lines]
+        regs = []
+        for t in tabs:
+            r = region_of_table(lines, nl_norm, t)
+            if r: regs.append((r[0], r[1], t)); stat['表·框到'] += 1
+            else: stat['表·框不到'] += 1; exc.append((p, t['idx'], topic))
+        if not regs: continue
+        # 合并重叠区间，把落在同一区间的表归到一起
+        regs.sort(key=lambda x: (x[0], x[1]))
+        merged = []
+        for a, b, t in regs:
+            if merged and a <= merged[-1][1]:
+                merged[-1] = (merged[-1][0], max(merged[-1][1], b), merged[-1][2] + [t])
+            else:
+                merged.append((a, b, [t]))
+        # 旧指针：凡是被吃掉的就删
+        drop = []
+        for a, b in old_pointer_blocks(lines):
+            if any(not (b <= ma or a >= mb) for ma, mb, _ in merged):
+                drop.append((a, b)); stat['旧指针·随区域删'] += 1
+            else:
+                stat['旧指针·区域外'] += 1
+        items = [(a, b, '\n'.join(pointer_block(t) for t in ts).split('\n')) for a, b, ts in merged]
+        items += [(a, b, []) for a, b in drop]
+        items.sort(key=lambda x: -x[0])
+        # 去重叠
+        ok = []
+        for a, b, blk in items:
+            if ok and b > ok[-1][0]: continue
+            ok.append((a, b, blk))
+        plans.append((p, nl, ok))
+    print("=== ② 空跑（上游格子定位版）===")
+    for k, v in stat.most_common(): print(f"  {k:24} {v}"
+                                          )
+    print(f"  涉及文件 {len(plans)}，共动 {sum(len(x[2]) for x in plans)} 个区域")
+    return plans, exc
+
+
+L2_GAP = 20
+
+
+def plan_l2_final():
+    """② 的正式规划：结构聚类(gap=L2_GAP) → 按格子匹配上游表 →
+    区域换成指针；旧指针凡其目标表已被新指针覆盖的，一并删掉。"""
+    up = enumerate_upstream()
+    f2t, t2f = topic_to_md()
+    bytopic = collections.defaultdict(list)
+    for k, t in up.items(): bytopic[t['topic']].append(t)
+
+    stat = collections.Counter(); plans = []; exc = []
+    for p, topic in sorted(f2t.items()):
+        tabs = bytopic.get(topic, [])
+        if not tabs: continue
+        lines, nl = split_lines(read(p))
+        if lines is None: continue
+        clusters = flat_clusters(lines, gap=L2_GAP)
+        if not clusters: continue
+        covered = set(); items = []
+        for a, b in clusters:
+            rc = {norm(c) for c in cells_of_region(lines, a, b)}
+            rc = {c for c in rc if len(c) >= 4}
+            hit = []
+            for t in tabs:
+                if (t['topic'], t['idx']) in covered: continue
+                tc = {norm(c) for c in up_cells_of(t)}
+                tc = {c for c in tc if len(c) >= 4}
+                if tc and len(tc & rc) >= max(1, int(len(tc) * 0.6)): hit.append(t)
+            if hit:
+                for t in hit: covered.add((t['topic'], t['idx']))
+                items.append((a, b, '\n'.join(pointer_block(t) for t in hit).split('\n')))
+                stat['区·匹配上'] += 1
+            else:
+                stat['区·匹配不上'] += 1
+                exc.append((p, a, b, '区对不上上游'))
+        # 旧指针：目标表已被覆盖就删（哪怕它在区域外）
+        for a, b in old_pointer_blocks(lines):
+            seg = '\n'.join(lines[a:b])
+            if any(not (b <= ma or a >= mb) for ma, mb, _ in items):
+                items.append((a, b, [])); stat['旧指针·区内删'] += 1; continue
+            m = re.search(r'raw/([^`]+)`', seg)
+            idxs = [int(x) - 1 for x in re.findall(r'第 (\d+) 个有格子的', seg)]
+            if m and idxs and all((m.group(1), i) in covered for i in idxs):
+                items.append((a, b, [])); stat['旧指针·目标已覆盖→删'] += 1
+            else:
+                stat['旧指针·留'] += 1
+        items.sort(key=lambda x: -x[0])
+        ok = []
+        for a, b, blk in items:
+            if ok and b > ok[-1][0]: continue
+            ok.append((a, b, blk))
+        plans.append((p, nl, ok))
+    print("=== ② 空跑 ===")
+    for k, v in stat.most_common(): print(f"  {k:26} {v}")
+    print(f"  涉及文件 {len(plans)}，共动 {sum(len(x[2]) for x in plans)} 个区域")
+    return plans, exc
+
+
+def apply_plan2(plans, dry=True):
+    n = 0
+    for p, nl, items in plans:
+        text = read(p)
+        lines, _ = split_lines(text)
+        for a, b, blk in items:
+            lines[a:b] = blk
+        n += len(items)
+        if not dry:
+            io.open(p, 'w', encoding='utf-8', newline='').write(nl.join(lines))
+    return n
+
+
+def plan_l2_v3():
+    """② 第三版：**一张表的区域 = 含它格子的那些区间的「并」**。
+    为什么必须取并：长 Note 格子里夹的段落可以超过任何固定间隔，
+    176 行的表实测被切成 (61,183) 与 (215,386) 两段，哪一段都不够 60%。"""
+    up = enumerate_upstream()
+    f2t, t2f = topic_to_md()
+    bytopic = collections.defaultdict(list)
+    for k, t in up.items(): bytopic[t['topic']].append(t)
+
+    stat = collections.Counter(); plans = []
+    for p, topic in sorted(f2t.items()):
+        tabs = bytopic.get(topic, [])
+        if not tabs: continue
+        lines, nl = split_lines(read(p))
+        if lines is None: continue
+        clusters = flat_clusters(lines, gap=L2_GAP)
+        if not clusters: continue
+        cl = [(a, b, {norm(c) for c in cells_of_region(lines, a, b)} - {''})
+              for a, b in clusters]
+        regs = []
+        for t in tabs:
+            tc = {norm(c) for c in up_cells_of(t)}
+            tc = {c for c in tc if len(c) >= 4}
+            if not tc: continue
+            hit = [(a, b) for a, b, rc in cl if len(tc & {x for x in rc if len(x) >= 4}) >= 1]
+            if not hit: stat['表·完全找不到'] += 1; continue
+            a0, b0 = min(x[0] for x in hit), max(x[1] for x in hit)
+            seg = norm('\n'.join(lines[a0:b0]))
+            if len([c for c in tc if c in seg]) < len(tc) * 0.6:
+                stat['表·凑不够60%'] += 1; continue
+            regs.append((a0, b0, t)); stat['表·框到'] += 1
+        if not regs: continue
+        regs.sort(key=lambda x: (x[0], x[1]))
+        merged = []
+        for a, b, t in regs:
+            if merged and a <= merged[-1][1]:
+                merged[-1] = (merged[-1][0], max(merged[-1][1], b), merged[-1][2] + [t])
+            else:
+                merged.append((a, b, [t]))
+        covered = {(t['topic'], t['idx']) for _, _, ts in merged for t in ts}
+        def _blk(a, b, ts):
+            bl = '\n'.join(pointer_block(t) for t in ts).split('\n')
+            # 指针块后面补个空行，别让 `>` 紧贴下一个标题
+            if b < len(lines) and lines[b].strip():
+                bl = bl + ['']
+            return bl
+        items = [(a, b, _blk(a, b, ts)) for a, b, ts in merged]
+        for a, b in old_pointer_blocks(lines):
+            seg = '\n'.join(lines[a:b])
+            if any(not (b <= ma or a >= mb) for ma, mb, _ in merged):
+                items.append((a, b, [])); stat['旧指针·区内删'] += 1; continue
+            m = re.search(r'raw/([^`]+)`', seg)
+            idxs = [int(x) - 1 for x in re.findall(r'第 (\d+) 个有格子的', seg)]
+            if m and idxs and all((m.group(1), i) in covered for i in idxs):
+                items.append((a, b, [])); stat['旧指针·目标已覆盖→删'] += 1
+            else:
+                stat['旧指针·留'] += 1
+        items.sort(key=lambda x: -x[0])
+        ok = []
+        for a, b, blk in items:
+            if ok and b > ok[-1][0]: continue
+            ok.append((a, b, blk))
+        plans.append((p, nl, ok))
+    print("=== ② 空跑 v3 ===")
+    for k, v in stat.most_common(): print(f"  {k:24} {v}")
+    print(f"  涉及文件 {len(plans)}，共动 {sum(len(x[2]) for x in plans)} 个区域")
+    return plans

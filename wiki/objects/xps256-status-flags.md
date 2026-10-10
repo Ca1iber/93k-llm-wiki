@@ -18,17 +18,9 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **459 字符逐字取自** `<02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.02_XPS256_status_flags.md>`。**不是转述。**
-> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
-> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
-> 改写参数表就是把文档事实降级成我的转述（§11）。
-> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
-
-### Tables（脚本逐字抽取，第 1 张）
-
- | 8  | Lost measurementstoBeChecked  | Set to 1 if not all measurement results were recorded because the test stopped earlier than expected. |
- | 9  | Type mismatch  | Set to 1 if at least one measurement has been executed in a range that does not match the requested measurement type. |
- | 10  | Wrong hardware state  | Set to 1 if the hardware switched into an unexpected state that caused the test to fail (for example, a disconnect for safety reasons). |
+**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
+这类**段标记**，跟着 `Subtopics` 找一层也没有。
+**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
 <!-- 语法节 end -->
 
@@ -143,7 +135,7 @@ verified: doc-only
 ## 出处
 
 - 定义文档：`02_System_reference/02.05_Test_Head_Cards/02.05.05.03.10.02_XPS256_status_flags.md`
-  （TDC `354167.htm`，17,074 字节，151 行）
+  （TDC `354167.htm`，14,706 字节，99 行）
 - **入边 79 条 / 22 篇**（`inline` 口径）——**本页的入边里有大量锚点**
   （`#_354167__r_…` 这种指到「某一个标志」的深层链接），
   这是它入边数高的一大原因：**同一篇文档会为每个标志各留一条链接**。

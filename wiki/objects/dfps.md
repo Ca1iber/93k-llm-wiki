@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,794 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`。**不是转述。**
+> 本节 **1,402 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,94 +44,9 @@ DFPS {dps_channel|(DC_scale_channel_list)}, {polarity}, {(pin)}
 
 ### Parameters
 
-|
-
-dps_channel
-
- |
-
-The test system channel number of the DPS channel to be configured.
-
-The channel is to be defined as follows:
-
-- For `external device power supplies`（raw: `../02.05_Test_Head_Cards/02.05.06_External_device_power_supply__external_GPIB_DPS.md`）, this is a three‑digit or four‑digit integer.
-
-The first one or two digits define an external supply. To avoid a conflict with the internal supplies, we recommend using values above 8. The maximum supported value is 16.
-
-The last two digits define the channel number of the DPS. If the channel number is less than 10, a leading "0" must be used.
-
--
-
-For DC Scale channels (in DPS mode) this is a five digit number in the same format as for digital I/O channels.
-
- |
- |
-
-DC_scale_channel_list
-
- |
-
-To gang DC Scale channels, you must specify a consecutive number of channels enclosed by parentheses, either as comma separated list or as range, for example 10105-10106.
-
-- DPS128/64: Ganging is possible for any number of successive channels within a card, but not across cards.
-
-DPS128/DPS64 channels must be of the same type (HC or HV).
-
-The maximum number of ganging groups per DPS128/64 is half the number of channels. The maximum current per card cannot be exceeded.
-
-- XPS256: Only channels on the same HLA can be ganged.
-- UHC4, UHC4T: For UHC4 or UHC4T ganging is possible for any number of successive channels within a card and any number of cards within a test head. The combination of UHC4 and UHC4T within the same ganging group is not supported. The maximum current per card cannot be exceeded.
-
-Before cross-card ganging can be used, the connection must be enabled by command `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）.
-
- |
- |
-
-polarity
-
- |
-
-Gives the polarity of the DPS which has to be applied to the selected channel.
-
- |
- |
-
-POS
-
- |
-
-Enter POS only if the DPS connections on the DUT board are as follows: The force is connected to power; the sink is connected to ground. The voltage supplied to the device will then be exactly as entered in the Level Setup, but the entry made there must be positive, otherwise the system returns an error.
-
-For DC scale channels, only POS is allowed.
-
- |
- |
-
-NEG
-
- |
-
-NEG is not allowed for DC Scale channels.
-
- |
- |
-
-pin
-
- |
-
-Defines the pin name for the DPS channel.
-
- |
- |
-
-pinlist
-
- |
-
-The pin name or names of those power supply outputs which have already been defined. If more than one pin is required, the names must be separated with a comma. The @ character can be used to read all configured power supply pins.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98551.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
+> 首行（上游原文）：dps_channel | The test system channel number of the DPS channel to be configured. The channel is to be defined as follows: For external device power supplies, t…
 
 ### Example 1
 
@@ -145,8 +60,6 @@ This example connects device pin Vee to channel 1 of DPS board 1. The DPS output
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98551.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 1 列。
 
 ```
 DFPS (10101, 10102),POS,(vee)

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,035,795 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.01.02_Firmware_view.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.03_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.04_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.05_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.06_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.07_BCMD__BCMD__-_Binding_CoMmanD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.08_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.101_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.104_EMBS__Error_Map_Block_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.105_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.106_EPRC__-__Error_Propagation_Repetition_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.108_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.10_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.113_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.116_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.119_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.11_BSVE_-__Bulk_Set_Value_Evaluation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.120_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.121_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.123_FLBL__-__Failing_LaBeLs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.127_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.12_BSVR__BSVR___Bulk_Set_Value_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.131_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.132_GETL__-__GET_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.136_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.137_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.138_HREX__-__High_Resolution_EXecution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.139_HRIT__HRIT__-__High_Resolution_Interval_of_Time.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.143_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.144_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.145_INST__-__INSTrument_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.150_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.151_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.153_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.154_LBUD__LBUD__-__LaBel_User_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.156_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.157_LTDE__LTDE__-__Load_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.158_MCNT__-__Match_loop_CouNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.159_MEAR__retrieve_MEAsurement_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.160_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.161_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.163_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.165_MVCU_-__Modify_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.168_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.16_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.170_OUTS__-__OUTput_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.174_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.176_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.179_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.17_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.180_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.181_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.182_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.184_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.185_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.187_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.18_CFPR__CFPR__-__Clock_Forwarding_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.19_CFUD_-__Clock_Forwarding_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.201_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.202_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.205_RDGC_-__Reset_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.206_RLYC__RLYC__-__ReLaY_Control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.207_RRDF_-__Result_Retention_area_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.208_RRSC_-__Result_Retention_area_Select_for_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.209_RRUD_-__Result_Retention_area_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.20_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.211_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.212_RRSU___Result_Retention_area_Select_for_Upload.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.213_RVCU_-__Remove_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.214_RVVA_-__Remove_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.215_RVVC_-__Remove_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.217_SATR__SATR__-__System_ATtRibutes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.218_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.21_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.221_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.224_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.225_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.226_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.227_SPOP__SPOP__Set_Performance_Optimization_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.229_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.230_SQBV__SQBV__-__SeQuencer_Break_Vector_insertion.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.233_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.234_SQIT__-__SeQuencer_InterRupt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.235_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.238_SQRC_-__SeQuencer_Remove_execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.239_SQRP__SQRP__-__SeQuencer_Reference_Port.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.23_CHRS__CHRS__-__CHeck_Routing_Set_globally.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.242_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.243_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.244_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.247_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.248_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.249_STDE_-__Save_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.255_TDEX__Test_Data_Extension.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.256_TEMP__-__read_TEMPerature.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.258_TMUD__Tester_Memory_Utilization_set_Default_values.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.259_TMUL___Tester_Memory_Utilization_Log.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.25_CLKC.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.260_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.261_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.262_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.263_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.264_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.265_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.266_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.267_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.269_TPSP__TPSP__-__TestPoint_SuPpression.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.270_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.271_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.272_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.273_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.274_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.275_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.276_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.27_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.280_TSST__-__TeSt_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.282_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.284_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.285_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.287_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.28_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.290_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.293_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.294_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.299_UDPT_-__UnDefine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.29_CNCT_-_CoNneCT_disCoNneCT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.300_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.302_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.307_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.308_UTDE_-__Unload_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.309_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.30_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.314_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.315_VALC__-__VALid_Cycle_range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.317_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.318_VCAT__VCAT__-__VeCtor_ATtachment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.319_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.322_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.323_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.326_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.328_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.329_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.332_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.339_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.340_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.343_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.345_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.34_CTST__-__Continuity_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.37_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.38_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.39_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.41_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.42_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.43_DCEX_-__DC_set_EXecute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.45_DCRE__-__DC_set_REsult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.48_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.49_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.50_DCST__-__DC_SeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.51_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.55_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.57_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.58_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.61_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.71_DGCM__-__DiGital_Capture_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.72_DGCS__DGCC___DiGital_Capture_aSynchronous.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.73_DGCT__-__DiGital_Capture_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.74_DIAG_-__DIAGnostics.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.76_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.77_DLSO__Driver_Level_Switch_Off.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.78_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.80_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.81_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.84_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.87_DQUE__-__show_Data_QUEue_low_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.88_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.93_DTCP__DTCP__-__Define_Technology_Control_Parameters.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.94_DVVA__DVVA__-__Define_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.06_Defining_pin_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.07_Defining_ports.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.02_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.03_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.04_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.06_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.07_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.10_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.14_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.15_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.16_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.17_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.18_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.19_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.20_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.22_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.23_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.25_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.28_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.29_UDVP_-__UnDefine_Virtual_Pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.30_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.31_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.32_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.33_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.34_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.36_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.37_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.02_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.03_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.03_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.04_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.07_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.11_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.13_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.14_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.19_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.21_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.27_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.28_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.02_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.03_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.04_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.05_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.06_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.07_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.09_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.11_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.12_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.13_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.14_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.15_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.16_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.19_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.20_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.21_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.22_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.23_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.24_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.26_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.27_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.29_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.30_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.31_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.32_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.34_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.36_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.37_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.01_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.03_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.06_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.07_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.09_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.11_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.12_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.15_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.18_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.19_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.20_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.21_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.22_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.23_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.24_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.01.05_DC_measurements_using_a_PPMU_and_a_DC_Scale_DPS.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.02_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.03_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.04_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.05_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.06_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.07_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.10_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.13_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.15_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.02_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.03_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.05_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.06_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.07_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.08_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.09_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.10_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.12_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.13_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.17_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.19_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.21_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.25_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.26_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.29_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.30_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.32_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.34_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.36_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.37_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.04_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.05_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.06_UPOW__UPOW__-__Utility_POWer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.07_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.08_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.09_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.10_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.12_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.13_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.14_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.01_TMU_per_Pin_overview.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.03_Storing_the_results_of_more_than_one_TMU_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.01_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.02_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.03_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.04_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.05_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.06_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.07_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.08_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.11_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.12_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.01.01_Principles_of_source_synchronous_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.03_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.04_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.01.01_Drift_and_transition_tracking.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.01_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.02_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.04_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.05_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.07_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.08_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.09_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.10_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.01_Principles_of_jitter_injection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.01_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.03_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.04_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.05_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.08_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.03_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.04_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.05_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.06_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.07_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.01_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.02_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.03_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.05_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.06_SATR__SATR__-__System_ATtRibutes.md>`。**不是转述。**
+> 本节 **763,962 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06_Command_Reference.md>` 及其子主题 `<02_System_reference/02.06_Command_Reference/02.06.01.02_Firmware_view.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.02_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.03_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.04_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.05_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.06_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.07_BCMD__BCMD__-_Binding_CoMmanD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.08_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.09_BDID__BDID__-__BoarD_ID.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.100_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.101_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.102_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.103_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.104_EMBS__Error_Map_Block_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.105_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.106_EPRC__-__Error_Propagation_Repetition_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.107_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.108_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.109_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.10_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.110_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.111_ERCE__-__Expected_and_Received_Cycle_data_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.112_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.113_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.114_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.115_ERRE__-__Expected_and_Received_Results_of_Events.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.116_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.117_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.118_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.119_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.11_BSVE_-__Bulk_Set_Value_Evaluation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.120_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.121_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.122_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.123_FLBL__-__Failing_LaBeLs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.125_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.126_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.127_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.129_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.12_BSVR__BSVR___Bulk_Set_Value_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.130_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.131_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.132_GETL__-__GET_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.133_GETN__-__GEt_Testdata_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.134_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.135_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.136_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.137_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.138_HREX__-__High_Resolution_EXecution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.139_HRIT__HRIT__-__High_Resolution_Interval_of_Time.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.13_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.141_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.143_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.144_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.145_INST__-__INSTrument_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.146_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.148_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.149_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.14_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.150_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.151_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.152_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.153_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.154_LBUD__LBUD__-__LaBel_User_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.155_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.156_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.157_LTDE__LTDE__-__Load_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.158_MCNT__-__Match_loop_CouNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.159_MEAR__retrieve_MEAsurement_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.15_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.160_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.161_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.162_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.163_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.165_MVCU_-__Modify_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.167_NIFE__NIFE__-__Number_of_Independent_Fast_Error.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.168_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.169_NOOP__NOOP__-__NO_OPeration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.16_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.170_OUTS__-__OUTput_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.171_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.172_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.174_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.175_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.176_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.177_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.178_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.179_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.17_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.180_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.181_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.182_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.183_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.184_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.185_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.187_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.18_CFPR__CFPR__-__Clock_Forwarding_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.193_PSLC__PSLC__-__Power_Supply_Load_Capacitance.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.196_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.197_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.199_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.19_CFUD_-__Clock_Forwarding_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.200_PTDE__PTDE__-__Path_for_Test_Data_Entities.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.201_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.202_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.203_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.205_RDGC_-__Reset_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.206_RLYC__RLYC__-__ReLaY_Control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.207_RRDF_-__Result_Retention_area_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.208_RRSC_-__Result_Retention_area_Select_for_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.209_RRUD_-__Result_Retention_area_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.20_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.210_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.211_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.212_RRSU___Result_Retention_area_Select_for_Upload.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.213_RVCU_-__Remove_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.214_RVVA_-__Remove_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.215_RVVC_-__Remove_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.217_SATR__SATR__-__System_ATtRibutes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.218_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.21_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.220_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.221_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.222_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.223_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.224_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.225_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.226_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.227_SPOP__SPOP__Set_Performance_Optimization_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.228_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.229_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.22_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.230_SQBV__SQBV__-__SeQuencer_Break_Vector_insertion.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.231_SQEC__SQEC__-__SeQuencer_Execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.232_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.233_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.234_SQIT__-__SeQuencer_InterRupt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.235_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.238_SQRC_-__SeQuencer_Remove_execution_Context.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.239_SQRP__SQRP__-__SeQuencer_Reference_Port.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.23_CHRS__CHRS__-__CHeck_Routing_Set_globally.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.240_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.242_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.243_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.244_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.245_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.246_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.247_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.248_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.249_STDE_-__Save_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.24_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.250_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.251_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.252_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.255_TDEX__Test_Data_Extension.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.256_TEMP__-__read_TEMPerature.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.257_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.258_TMUD__Tester_Memory_Utilization_set_Default_values.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.259_TMUL___Tester_Memory_Utilization_Log.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.25_CLKC.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.260_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.261_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.262_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.263_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.264_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.265_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.266_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.267_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.269_TPSP__TPSP__-__TestPoint_SuPpression.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.26_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.270_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.271_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.272_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.273_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.274_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.275_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.276_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.27_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.280_TSST__-__TeSt_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.281_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.282_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.283_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.284_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.285_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.286_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.287_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.289_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.28_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.290_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.291_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.292_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.293_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.294_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.295_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.296_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.297_UDPR_-__UnDefine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.298_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.299_UDPT_-__UnDefine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.29_CNCT_-_CoNneCT_disCoNneCT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.300_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.301_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.302_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.304_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.306_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.307_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.308_UTDE_-__Unload_Test_Data_Entity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.309_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.30_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.311_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.313_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.314_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.315_VALC__-__VALid_Cycle_range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.316_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.317_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.318_VCAT__VCAT__-__VeCtor_ATtachment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.319_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.31_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.320_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.321_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.322_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.323_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.324_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.325_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.326_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.327_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.328_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.329_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.32_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.330_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.331_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.332_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.333_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.334_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.336_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.337_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.338_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.339_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.33_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.340_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.343_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.344_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.345_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.34_CTST__-__Continuity_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.35_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.36_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.37_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.38_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.39_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.41_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.42_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.43_DCEX_-__DC_set_EXecute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.45_DCRE__-__DC_set_REsult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.48_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.49_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.50_DCST__-__DC_SeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.51_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.55_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.56_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.57_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.58_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.59_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.61_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.62_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.63_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.66_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.67_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.70_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.71_DGCM__-__DiGital_Capture_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.72_DGCS__DGCC___DiGital_Capture_aSynchronous.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.73_DGCT__-__DiGital_Capture_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.74_DIAG_-__DIAGnostics.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.76_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.77_DLSO__Driver_Level_Switch_Off.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.78_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.80_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.81_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.82_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.83_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.84_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.85_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.86_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.87_DQUE__-__show_Data_QUEue_low_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.88_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.89_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.91_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.92_DSVS__DSVS__-__Define_Spec_Value_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.93_DTCP__DTCP__-__Define_Technology_Control_Parameters.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.94_DVVA__DVVA__-__Define_Vector_VAriable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.95_DVVC__DVVC__-__Define_Vector_Variable_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.96_DVCU__DVCU__-__Define_Vector_variable_Configuration_Usage.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.97_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.98_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.02.02.99_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.06_Defining_pin_groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.01.07_Defining_ports.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.01_CHIN__-__CHannel_INformation.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.02_CONF__CONF__-__CONFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.03_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.04_DFGE__DFGE__-__DeFine_Group_by_Expressions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.05_DFGP__DFGP__-__DeFine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.06_DFLV__DFLV__-__DeFaultLeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.07_DFPC__DFPC__-__DeFine_Pin_Comment.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.08_DFPN__DFPN__-__DeFine_Pin_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.09_DFPS__DFPS__-__DeFine_Power_Supply.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.10_DFPT__DFPT__-__DeFine_PorT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.11_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.12_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.13_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.14_GCTX__-__Get_ConTeXt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.15_HWTY__-__HardWare_TYpe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.16_PACT__PACT__-__Parallel_ACTivities_control.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.17_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.18_PFND__-__Pin_FiND.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.19_PQFC__PQFC__-__Parallel_Query_FoCus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.20_PRLT__-__request_Parallel_ResuLTs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.21_PSSL__PSSL___Power_Supply_Safety_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.22_PSTE__PSTE__-__Parallel_SiTe_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.23_STME__STME__-__SiTe_Match_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.24_UDEF_-__UnDEFine_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.25_UDGP_-__UnDefine_GrouP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.26_UDPS_-__Undefine_DPS_pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.27_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.28_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.29_UDVP_-__UnDefine_Virtual_Pin.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.30_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.31_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.32_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.33_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.34_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.35_VPIN__VPIN__-__Virtual_PIN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.36_IDN__-__IDeNtify.md>`、`<02_System_reference/02.06_Command_Reference/02.06.03.02.37_OPT__-__hardware_OPTions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.01_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.02_SRPR__SRPR__-__Set_Routing_PRimary.md>`、`<02_System_reference/02.06_Command_Reference/02.06.04.02.03_UDRS_-__UnDefine_Routing_Set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.02_CLMP__CLMP__-__CLaMP_level.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.03_DFSP__DFSP__-__DeFine_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.04_DPRL__DPRL__-__Default_PRimary_Level_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.05_DRLV__DRLV__-__DRive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.06_DSUS__DSUS__-__Dps_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.07_ENSP__ENSP__-__ENable_Sampling_Profile.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.08_EQFC__EQFC__-__EQualization_and_Filter_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.09_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.10_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.11_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.12_LSUS__LSUS__-__Level_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.13_LSUX__LSUX__-__Level_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.14_MERL__MERL__-__Message_ERror_Limits.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.15_PSLV__PSLV__-__Power_Supply_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.16_PSSR__PSSR__-_Power_Supply_Slew_Rate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.17_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.18_RCLV__RCLV__-__ReCeive_LeVel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.19_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.20_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.21_SLDO_-__Switch_Level_and_Dps_Order.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.22_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.23_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.24_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.25_TERM__TERM__-__TERMination_mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.26_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.27_WAIT_-__WAIT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.05.02.28_RST_-__ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.02_Data_organization_of_equation_based_timing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.01.05_Defining_the_timing_specification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.01_APRM_-__Activate_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.02_BWDF__BWDF__-__Break_Waveform_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.03_BWDS__BWDS__-__Break_Waveform_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.04_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.05_CLKR__CLKR__-__CLocK_Resolution.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.06_DCDT__DCDT__-__Device_Cycle_DefaulT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.07_DCUD_-__Device_Cycle_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.08_DFCR__DFCR__-__DeFine_Clock_Routing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.09_DPRT__DPRT__-__Default_PRimary_Timing_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.10_DSCP__DSCP__-__Define_System_Control_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.11_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.12_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.13_EQFS_-__EQuation_FileS_command_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.14_EQSP__EQSP__-__EQuation_SPecification_transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.15_ETDS__ETDS__-__Edge_Timing_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.16_ETIM__ETIM__-__Edge_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.17_EUDS__-__Edge_Usage_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.18_EVCK__-__EVent_ClocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.19_FTCG__FTCG__-__Functional_Test_ConfiGure.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.20_PCLK__PCLK__-__Pin_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.21_PDIV__-__Period_DIVider.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.22_RCLK__-__Reference_CLocK_source.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.23_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.24_SCLK__-__System_CLocK_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.25_SDSC__-__Set_number_DeSCriptions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.26_SPCP__-__SPeCification_Port_list.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.27_SPEC__-__SPECification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.28_SPRM__SPRM__-__Set_PRiMary_sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.29_SPST__-__SPecset_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.30_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.31_SVLR__SVLR__-__Spec_VaLues_at_Runtime.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.32_TSUS__TSUS__-__Timing_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.33_TSUX__TSUX__-__Timing_Sets_Used_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.34_UPTD__UPTD__-__UP_To_Date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.35_VCLK__-__Verify_CLocK.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.36_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.37_VTIM__-__Verify_TIMing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.38_VWFG__-__Verify_WaveForms_in_Groups.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.39_VWFS__-__Verify_WaveForm_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.40_WAVE__WAVE__-__WAVEform.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.41_WFDF__WFDF__-__WaveForm_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.42_WFDS__WFDS__-__WaveForm_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.43_WFUD_-__WaveForm_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.44_WRST_-__Waveform_ReSeT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.45_WSDM__WSDM__-__Waveform_Set_Display_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.06.02.46_WSUS__WSUS__-__Waveform_Sets_USed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.02_Label_definition__sequencer_program__and_sequencer_area.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.03_Sequencer_areas_and_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.04_Addressing_the_vector_areas.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.01.05_The_pattern_master_file.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.01_APDV_-__APpenD_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.02_APTS_-__APpend_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.03_BCMT__BCMT__-__Binary_CoMmenT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.04_BLUP_-__BLock_UP_to_date.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.05_CMNT__CMNT__-__CoMmeNT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.06_CMVC_-__Clear_and_MoVe_Comments.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.07_CNGV_-__CoNnect_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.08_CPYV_-__CopY_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.09_DELI_-__DELete_Instruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.10_DELV_-__DELete_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.11_DLPP_-__DeLete_Per_Pin_Subroutine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.12_DLTS_-__DeLete_TeSt.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.13_DMAS__DMAS__-__Define_Memory_Area_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.14_DPPC_-__Define_Per_Pin_subroutine_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.15_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.16_DPSA__DPSA__-__Define_per_Pin_Subroutine_Address.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.17_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.18_GETA__-__GET_vector_memory_Address_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.19_INGV_-__INsert_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.20_INSI_-__INsert_Instructions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.21_NODV__-__Number_Of_Displayable_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.22_RSET_-__ReSET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.23_SAOF__SAOF__-__Set_Alternating_Operation_Features.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.24_SPGV_-__SPlit_Generate_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.25_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.26_SQLA__SQLA__-__SeQuencer_Label_Attribute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.27_SQLB__SQLB__-__SeQuencer_LaBel_definition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.28_SQPG__SQPG__-__SeQuencer_ProGramming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.29_SQSL__SQSL__-__SeQuencer_Start_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.30_SQST__SQST__-__SeQuencer_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.31_SQTO__SQTO__-__SeQuencer_TimeOut.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.32_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.33_TCMT__TCMT__-__Test_CoMment_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.34_TSTL__TSTL__-__TeST_Label.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.35_VDCG__-__Verify_Device_Cycle_for_Group.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.36_VDCN_-__Vector_Device_Cycle_Name.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.37_VDCP__VDCP___Vector_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.38_VECC__VECC__-__VECtor_download_Compressed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.39_VECD__VECD__-__VECtor_Download.md>`、`<02_System_reference/02.06_Command_Reference/02.06.07.02.40_VPAR__-__Vectors_in_PARallel.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.01.02_Using_embedded_timing_and_level_search_on_a_Smart_Scale_system.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.01_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.02_DPSR__DPSR__-__Define_Parallel_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.03_DRLS__-__DRive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.04_EDDC__-__EDge_in_Device_Cycle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.05_EDSP__EDSP__-__EDge_SPecification.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.06_ESGB__ESGB__-__Edge_Search_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.07_EXSR_-__EXecute_SeaRch.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.08_FTSM__FTSM__-__Functional_Test_Set_Mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.09_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.10_RCLS__-__ReCeive_Level_Sensitivity.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.11_RSSR__-__Retrieve_Spec_Search_Results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.12_SHSP__SHSP__-__SHmoo_SPecs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.13_SHVL__SHVL__-__SHmoo_spec_VaLues.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.14_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.15_SREC__SREC__-__Set_RECeiver_mask.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.16_STRS__-__Spec_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.17_TOCF__TOCF__-__Timing_Level_Offset_search_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.18_TOCR__TOCR__-__Timing_level_Offset_Configure_Result_pins.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.19_TORC_-__Timing_level_Offset_Result_Copy.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.20_TORN__-__Timing_level_Offset_search_RuN.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.21_TORR__Timing_level_Offset_Reset_Result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.22_TORS__-__Timing_level_Offset_ReSult.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.23_TORT__-__Timing_Level_Offset_search_Result_Transitions.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.24_TOUD_-__Timing_Offset_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.09.02.25_TTRS__-__Time_TRansition_Search.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.01.05_DC_measurements_using_a_PPMU_and_a_DC_Scale_DPS.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.01_CSAS__-__Channel_Slot_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.02_CTXT__CTXT__-__ConTeXT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.03_DDIC__DDIC__-__Define_DUT_Interface_Connection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.04_DFCT_-__DeFine_Continuity_Test.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.05_DPSE__DPSE__-__Define_Power_Supply_External_trigger_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.06_GNOS__-__GetNumberofOccupiedSets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.07_MEAS_-__execute_a_MEASurement_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.08_MSET__MSET__-__definition_of_Measurement_SET.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.09_PDMM__-__PDps_Miscellaneous_Measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.10_PMUR___retrieve_PPMU_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.11_PSAS__-__Power_Supply_Accumulated_Status.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.12_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.13_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.14_PSIE_-__Power_Supply_Internal_trigger_Execute.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.15_PSST__PSST__-__Power_Supply_STatus.md>`、`<02_System_reference/02.06_Command_Reference/02.06.10.02.16_UHCM__UHCM__-__Ultra_High_Current_power_supply_Modes.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.01_CDCP__-__Cycle_Device_Cycle_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.02_CHER__-__CHeck_ERrors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.03_CHFA__-__CHannel_FAil_flag.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.04_CYCI__-__get_CYCle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.05_CYRM__CYRM__-__CYcle_Resolution_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.06_CYRP__-__CYcle_Resolution_Parameter.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.07_CYRS__-__CYcle_Resolution_State.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.08_DCEL__DCEL__-__Digital_Compare_Exception_List.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.09_DCGM__DCGM__-__Digital_Compare_Global_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.10_DCRM__DCRM__-__Digital_Compare_Result_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.11_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.12_DCRS__-__Digital_Compare_Result_Size.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.13_DCRT__DCRT__-__Digital_Compare_Result_Target.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.14_EAEX__-__Edge_Action_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.15_EARD__-__Edge_Action_Result_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.16_EARE__-__Edge_Action_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.17_EDGE__-__EDGE_errors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.18_EMAP__-__Error_MAP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.19_ERCC__-__ERror_in_Cycle_range_Count.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.20_ERCT__-__ERror_CounT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.21_ERCY__-__ERror_CYcle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.22_ERMP__-__ERror_MaP.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.23_FFCI__-__First_Failed_Cycle_Information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.24_FFPM___First_Failing_cycle_information_Pin_Mapping.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.25_FTST__-__Functional_TeST.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.26_GETC__-__GET_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.27_GETS__-__GET_Sets.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.28_GETV__-__GET_Vectors.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.29_GETX__-__GET_eXtended_vector_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.30_PASS__-__PASS_or_fail_result.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.31_SQGB__SQGB__-__SeQuencer_GloBal.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.32_SQIB__SQIB__-__SeQuencer_Interrupt_Behavior.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.33_VALD__-__VALid_Data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.34_VALR__-__VALid_Range.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.35_VCYC__-__Valid_CYCle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.36_VNEC__-__Valid_Number_of_Executed_Cycles.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.37_VRCS__-__Valid_ReConStruction.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.38_WFEX__-__WaveForm_EXpected_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.11.02.39_WFRE__-__WaveForm_REceived_data.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.01_Accessing_Utility_Lines.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.01_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.02_DFUT__DFUT__-__DeFine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.03_UDUP_-__UnDefine_Utility_Purpose.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.04_UDUT_-__UnDefine_UTility_line.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.05_UPAS__UPAS__-__Utility_Purpose_ASsignment_for_multi-site.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.06_UPOW__UPOW__-__Utility_POWer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.07_UPST__UPST__-__Utility_Purpose_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.08_UPTI__UPTI__-__Utility_Purpose_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.09_UTIN__-__UTility_line_INputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.10_UTIX__-__UTility_line_Inputs_eXtended.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.11_UTOT__UTOT__-__UTility_line_OuTputs.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.12_UTSC__UTSC__-__UTility_line_Serial_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.13_UTST__UTST__-__UTility_line_STate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.12.02.14_UTTI__UTTI__-__UTility_line_settling_TIme.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.01_TMU_per_Pin_overview.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.01.03_Storing_the_results_of_more_than_one_TMU_measurement.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.01_TSCF__TSCF__-__TMU_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.02_TSDF__TSDF__-__TMU_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.03_TSER__-__TMU_Set_ERror.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.04_TSHA__-__Timing_Setup_Has_Arming.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.05_TSMD__-__TMU_Set_Measurement_Done.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.06_TSRH__-__TMU_Set_Result_Handle.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.07_TSPR__TSPR__-__TMU_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.08_TSRC__-__Time_Stamping_Results_Computed.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.09_TSRS__-__TMU_Set_ReSults.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.10_TSRW__-__TMU_Set_RaW_results.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.11_TSUD_-__TMU_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.13.02.12_TSVD__-__TimStamper_ValiD.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.01.01_Principles_of_source_synchronous_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.01_SSAC__SSAC__-__Source_Synchronous_testing__Add_Configuration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.02_SSCT__SSCT__-__Source_Synchronous_data__Combine_and_Transfer.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.03_SSRC_-__Source_Synchronous_testing__Remove_Configurations.md>`、`<02_System_reference/02.06_Command_Reference/02.06.14.02.04_SSTR__-__Source_Synchronous_Testing__Result_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.01.01_Drift_and_transition_tracking.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.01_CFCF__CFCF__-__Clock_Forwarding_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.02_CFDF__CFDF__-__Clock_Forwarding_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.03_TTCF__TTCF__-__Transition_Test_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.04_TTDB__-__Transition_Test_DeBug_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.05_TTDF__TTDF__-__Transition_Test_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.06_TTMD__-__Transition_Test_MoDe_query.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.07_TTPR__TTPR__-__Transition_Test_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.08_TTST__-__Transition_Test_STatus_information.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.09_TTUD_-__Transition_Test_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.15.03.10_TTVD__-__Transition_Test_ValiDate.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.01_Principles_of_jitter_injection.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.01_JRST_-__Jitter_modulator_ReseT.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.02_JSCF__JSCF__-__Jitter_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.03_JSDF__JSDF__-__Jitter_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.04_JSPR__JSPR__-__Jitter_Set_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.05_JSUD_-__Jitter_Set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.06_JSWF__-__Jitter_Set_WaveForm.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.07_MSCF__MSCF__-__Modulation_Set_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.16.02.08_MSDF__MSDF__-__Modulation_Set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.01_Overview_of_pseudo_random_bit_sequences.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.04.01_Defining_a_compliance_pattern_for_pattern__ased_SmartLoop_testing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.01_LBMD__-__LoopBack_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.02_LBRT__-__LoopBack_RouTing.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.03_PRCF__PRCF__-__Pseudo_Random_bit_sequence_ConFiguration.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.04_PRDF__PRDF__-__PRBS_set_DeFinition.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.05_PRMD__-__PRBS_MoDe.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.06_PRPR__PRPR__-__PRBS_PRimary_set.md>`、`<02_System_reference/02.06_Command_Reference/02.06.17.05.07_PRUD_-__PRBS_set_UnDefine.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.01_ASWE__ASWE__-__Auto_SWing_Enable.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.02_ASWM__ASWM__-__Auto_SWing_Mode.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.03_FXDL__FXDL__-__FiXture_DeLay.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.04_PADS__PADS__-__Pin_Attributes_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.05_PTDS__PTDS__-__Pin_attributes_Tweaking_Definition_String.md>`、`<02_System_reference/02.06_Command_Reference/02.06.18.02.06_SATR__SATR__-__System_ATtRibutes.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -229,65 +229,9 @@ BCMT {vect_addr}, {vect_length}[, HIMEN][, (port)], {#spec(data)}
 ```
 
 Parameters
- |
-
-vect_addr
-
- |
-
-The first vector of the segment for which comments are to be transferred.
-
-This number counts the active vectors of the port (as specified for the port parameter) across all of its labels, starting from 0. For example, suppose that two labels are associated with the port, and that the first of them has eight active vectors, while the second has three. Then you must enter 9 if you want to insert comments for a segment that begins with the second vector of the second label.
-
- |
- |
-
-vect_length
-
- |
-
-Defines the total number of active vectors for which comments are to be downloaded.
-
- |
- | HIMEM |
-
-If this parameter is specified, the data format of #spec(data) will be treated as 64-bit. If the HIMEM parameter is omitted, the data format will be treated as 32-bit. If you want to set any comments to over 2GB vector address, you should also use the himem:on parameter in the `.technology file`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md`）.
-
-The query displays the 64-bit format if the response data includes over 2GB vector addresses.
-
- |
- |
-
-port
-
- |
-
-If you specify a port, the comments are associated with the active vectors of this port. Otherwise, they are associated with the active vectors of the default port @.
-
- |
- |
-
-#spec(data)
-
- |
-
-The binary comment data. The format of this parameter is:
-
-#Nn1n2n...nNcomm_data[comm_data...]
-
-where the decimal digit N defines the number of the decimal digits ni (1 鈮?i 鈮?N) that specify the length of the comment data in bytes. The comm_data blocks are structured as follows:
-
-Not using HIMEM (default):
-
-- The first byte specifies the comment length.
-- The next four bytes contain the number of the active vector to which the comment is to be attached. The vectors are counted for the whole port across label boundaries, starting from 0.
-- The remaining bytes (250 at most) contain the actual comment data.
- Using HIMEM:
-
-- The first byte specifies the actual comment length. (Excluding vector number.)
-- The next eight bytes contain the number of the active vector to which the comment is to be attached. The vectors are counted for the whole port across label boundaries, starting from 0.
-- The remaining bytes (250 at most) contain the actual comment data.
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98488.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：vect_addr | The first vector of the segment for which comments are to be transferred. This number counts the active vectors of the port (as specified for the po…
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › BCMT  BCMT  -  Binary CoMmenT）
 
@@ -819,74 +763,9 @@ CLMP {level_set|level_set_id}, [clamp_mode], [low_clamp_level], [high_clamp_leve
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CLMP  CLMP  -  CLaMP level）
 
-|
-
-level_set
-
- |
-
-The identification number of the level set in which you want the levels to be included. The number must not exceed the maximum number of level sets allowed (as defined by the DSCP command). Specifying ALL sets the clamp levels for all existing level sets (except level set 0). Specifying PRM sets the clamp levels for the primary level set.
-
-Standard level sets have a number > 0. Level set 0 is a dedicated level set for the high-Z state of digital pins. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）.
-
- |
- |
-
-level_set_id
-
- |
-
-Used in equation based level setup. It is derived as follows:
-
-100000 * equation_set_no + 1000 * specset_no + level_set_no
-
-Note that if you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set.
-
- |
- |
-
-clamp_mode
-
- |
-
-ON | OFF
-
-For the Pin Scale 3600, the clamps can be set to ON when std/fast mode is set to std, and termination mode is set to OFF or A (active load).
-
-Pin Scale 9G cards do not have clamps. Setting clamp levels will be ignored.
-
-For termination mode, see `TERM, TERM? - (TERMination mode)`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`）.
-
- |
- |
-
-low_clamp_level
-
- |
-
-An integer (in mV) which sets the low clamp level.
-
-For the Pin Scale 800, the range is -1800 to 6800. At power-on this parameter assumes a default value of -250.
-
- |
- |
-
-high_clamp_level
-
- |
-
-An integer (in mV) which sets the high clamp level. For the Pin Scale 800, the range is -1800 to 6800, and the difference of high_clamp_level - low_clamp_level must be in the range 0 to 8.6 V.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pins for which the clamp levels are to be set. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. If more than one pin is to be included, the names must be separated by a comma. The symbol @ refers to all pins. You can include O and IO pin types in pinlist.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98505.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：level_set | The identification number of the level set in which you want the levels to be included. The number must not exceed the maximum number of level sets …
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CLMP  CLMP  -  CLaMP level）
 
@@ -1043,11 +922,7 @@ CNGV {(cmd_No)}
 ```
 CONF ["context",]{pin_type},[pin_oper_mode],{(pinlist)}
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
 ```
 
 ### CONF?（取自子主题 Commands in alphabetical order › List of commands › CONF  CONF  -  CONFiguration）
@@ -1064,63 +939,15 @@ CONF ["context",]{pin_type},{pin_oper_mode},{(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CONF  CONF  -  CONFiguration）
 
-| context |
-
-This extra parameter specifies a mode context. If it is omitted, the default mode context DEFAULT is set or read. If DEFAULT is the only context defined, the parameter is omitted in the query reply.
-
-The default mode context is predefined. All other mode contexts must be defined with the CTXT command.
-
-If you specify ALL in the query, CONF? will display all mode contexts.
-
- |
- | pin_type |
-
-The mandatory parameter assigns channel resources to the pin. This can be:
-
- | I  | Configures a drive pin. |
- | O  | Configures a receive pin. |
- | IO  | Configures a bidirectional pin. |
- | DC |
-
-Configures a pin for DC measurements. The pin is only connected to the PMU, and no driver or receiver resources are allocated to it.
-
-For DC Scale channels (power or signal pins) the mode is always DC.
-
-This option is not allowed for Smart Scale pins.
-
- |
- | OFF  | The pin is not available for measurements.  | |
- |
-
-pin_oper_mode
-
- |
-
-The mandatory parameter defines or indicates the operating mode of the pins in pinlist. The operation mode can be:
-
- | DCSIGNAL  | In the query this indicates that the pin is associated with a DC Scale channel and has been configured in PMU mode with DFPN. |
- | POWER  | In the query this indicates that the pin is associated with a DC Scale channel and has been configured in DPS mode with DFPS. |
- | CMON  | Configures the pin as current monitor output. For more information, refer to `XPS256 current monitor`（raw: `../02.05_Test_Head_Cards/02.05.05.03.03.02_XPS256_current_monitor.md`）. |
- | F160 |
-
-Specifies Standard operating mode. This is the default. It must be selected for pins on PS1600 boards.
-
- |
- | F330  | Not valid. |
- | FAST |
-
-This operation mode must be selected for fast pins. Note that no pin can be set to FAST in the default mode context DEFAULT, and that no IO pin can be set to FAST.
-
-For Smart Scale pins this mode will be mapped to F160.
-
-   | |
- | pinlist |
-
-The name of the pin or pins to be configured or listed. If more than one pin is to be included, the names must be separated with a comma.
-
-The symbol @ can be used in the query to list all pins that were previously either explicitly configured with the CONF command, or (in the case of DC Scale pins) implicitly with the DFPN or DFPS command.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：13 行 × 6 列，含嵌套表。
+> 首行（上游原文）：context | This extra parameter specifies a mode context. If it is omitted, the default mode context DEFAULT is set or read. If DEFAULT is the only context defin…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：I | Configures a drive pin.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：DCSIGNAL | In the query this indicates that the pin is associated with a DC Scale channel and has been configured in PMU mode with DFPN.
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › CONF  CONF  -  CONFiguration）
 
@@ -1376,770 +1203,9 @@ CYCI {cycle}, [res_mode] [, (port)], {vector_number}, [label], [type], [seq_stat
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › CYCI  -  get CYCle Information）
 
-|
-
-start_cycle
-
- |
-
-The start cycle is an integer that defines the first cycle to be reported. The start cycle is in the range 0 to 2^48 when the sequencer runs in the Start Analysis mode, and -2^48 to -1 when the sequencer is in the Stop Analysis mode. If a positive number is entered, cycles are counted from 0 upwards. If a negative number is entered, the cycles are counted from the end of the test to -1. In both cases the reported start cycles are in Start Analysis mode.
-
- |
- |
-
-no_of_cycles
-
- |
-
-Defines the number of cycles to be reported. The integer must be in the range 0 to 256.
-
- |
- |
-
-resolution_mode
-
- |
-
-Defines the answer format of the binary data.
-
- |
- |
-
-CYCL
-
- |
-
-This is the default value.
-
- |
- |
-
-CYRM
-
- |
-
-This option lets the result granularity depend on the CYRM command. If CYRM is set to EDGE, then CYCI? will supply information on the edge level (receive events).
-
- |
- |
-
-port
-
- |
-
-If you specify a port, information is returned for this port. If you do not specify any port, the default port @, to which all pins belong, is reported.
-
- |
- |
-
-cycle
-
- |
-
-In the reply, this is the consecutive number of the reported cycle. The numbering starts with the value of start_cycle.
-
- |
- |
-
-res_mode
-
- |
-
-This has the same values as defined in the CYRM mode parameter.
-
- |
- |
-
-CYCL
-
- |
-
-This is the answer if the CYRM command mode is CYCL.
-
- |
- |
-
-EDGE
-
- |
-
-If CYRM is set to EDGE and resolution_mode was set to CYRM, then EDGE will be returned for this parameter.
-
- |
- |
-
-vector_number
-
- |
-
-Returns the logical number of the first vector of the instruction that generated the cycle. The logical vector number counts the active vectors within one label, starting from 0. If the vectors generated by the instruction are break vectors, then -1 is returned.
-
- |
- |
-
-label
-
- |
-
-Returns the label name. It references the label to which the reported cycle belongs.
-
- |
- |
-
-type
-
- |
-
-Returns the label type. The following types are reported:
-
- |
- |
-
-MAIN
-
- |
-
-The MAIN program.
-
- |
- |
-
-SJMP
-
- |
-
-A JuMP Subroutine.
-
- |
- |
-
-SVEC
-
- |
-
-A VECtor Subroutine.
-
- |
- |
-
-BRST
-
- |
-
-BuRST mode.
-
- |
- |
-
- |
-
-MPBU
-
- |
-
-Multi-Port BUrst mode
-
- |
- |
-
-seq_status
-
- |
-
-Returns the current sequencer status. The status is expressed on most occasions in the form of the sequencer instruction that was used to generate the vectors in the requested cycle range. Otherwise it is expressed in terms of the current sequencer activity. Note that seq_status is not the same as the sequencer state determined by `SQST, SQST? - (SeQuencer STate)`（raw: `02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md`）. Sequencer instructions are parameters to `SQPG, SQPG? - (SeQuencer ProGramming)`（raw: `02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md`）. For additional information on sequencer programming see also see `Vector Setup Commands`（raw: `02.06.07_Vector_Setup_Commands.md`）.
-
-The seq_status parameter is required for the reconstruction of received data. Some of the values it returns signify that vectors are being generated, others inform of sequencer status changes, which cause some or no break vectors to be generated.
-
- |
- |
-
-GENV
-
- |
-
-This is returned if GENV is the sequencer instruction that generated the parallel vector for the reported cycle.
-
- |
- |
-
-SRCV
-
- |
-
-This is returned if SRCV is the sequencer instruction that generates vectors in the reported cycle range.
-
-For "non-source pin" the reported cycle range is generated by the parallel vectors exactly the same way as RPTV. That means "no_of_vectors" parallel vectors are repeated for a repeating count (equal to no_of_cycles divided by no_of_vectors) to generate "no_of_cycles" cycles on the test system.
-
-For "source pin" the reported cycle range is generated by the vectors stored in the source memory. It means "no_of_cycles" vectors are generated from the source memory to produce "no_of_cycles" cycle on the test system, and the information of "no_of_vectors" has no meaning to "source pin".
-
- |
- |
-
-RPTV
-
- |
-
-This is returned if RPTV is the sequencer instruction that generated the parallel vector for the reported cycle.
-
- |
- |
-
-JPPS
-
- |
-
-This keyword indicates that a per pin subroutine is executed that cannot be reconstructed because it is too complex. In this case, PP is returned for the drive data and expected data parameters in the result data (#spec(data) parameter).
-
- |
- |
-
-CTIM
-
- |
-
-This is returned if a change timing instruction has been issued in the queried cycle range. Each timing change generates break vectors.
-
-The real number of break cycles depends on the test system period and will not be shown in the cycle reconstruction.
-
-Between 0 to 7 break cycles will be recorded during a CTIM instruction, the exact number depends on the number of vectors loaded previously. For instance, if the previous number of cycles was a multiple of 8, then no break vectors are issued during the reload.
-
- |
- |
-
-CLEV
-
- |
-
-The CLEV (change levels) parameter indicates that unrecorded break cycles, due to a change of level set, exist in the specified cycle range.
-
- |
- |
-
-BRK
-
- |
-
-This is returned if break cycles are being generated during the reported cycle range - for example, if a timed match loop is in progress. Between 0 and 7 break cycles will be recorded.
-
-Additionally, the following sequencer instructions also generate break vectors:
-
- |
- |
-
- |
-
-Sequencer instruction
-
- |
-
-reported as
-
- |
- |
-
- |
-
-CTIM
-
- |
-
-CTIM
-
- |
- |
-
- |
-
-CLEV
-
- |
-
-CLEV
-
- |
- |
-
- |
-
-WTER
-
- |
-
-BRK
-
- |
- |
-
- |
-
-FLQU
-
- |
-
-BRK
-
- |
- |
-
- |
-
-MEAS
-
- |
-
-BRK
-
- |
- |
-
- |
-
-STOP
-
- |
-
-BRK
-
- |
- |
-
-MTCH
-
- |
-
-This is returned if
-
-- the test contains a counted match loop,
-- the test has been executed online, and
-- the last cycle of the match loop is not the last cycle of a 8-cycle block.
-
-In this case the last match loop cycles belonging to this block (up to 7) are recorded in the Error Map and reported by CYCI?. For details see `Adjusting the junctions between match loop and surrounding label`（raw: `02.06.07.01.08.04.03.01.01_Adjusting_the_junctions_between_match_loop_and_surrounding_label.md`）.
-
- |
- |
-
-comment
-
- |
-
-Returns the comment text inserted at vector_number. (See also `TCMT, TCMT? - (Test CoMment Transfer)`（raw: `02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md`）)
-
- |
- |
-
-no_of_waveforms
-
- |
-
-This parameter will always be 1.
-
- |
- |
-
-MUX
-
- |
-
-If this flag is set, and one of the Pin Scale pins is multiplexed to an HXA pin, then the reply for this pin will combine the results of all Pin Scale pins that are multiplexed to the respective HXA pin.
-
- |
- |
-
-#spec(data)
-
- |
-
-Returns result data in binary format. This parameter reports the length of data (in bytes) being transferred, followed by the data for each pin. The pins are ordered by ascending channel numbers from the first site.
-
-The format of the pin specific output data is controlled by the res_mode parameter: Cycle resolution format is used if res_mode was set to CYCL, edge resolution format is used if res_mode was set to CYRM. Both formats agree for the first 23 bytes, which contain the following information:
-
- |
- |
-
- |
-
-byte 0-16:
-
- |
-
-Device cycle name or 'BREAK' in case of break cycles, zero terminated. The reserved device cycle name 'JPPS' can be returned if the reconstructed data belongs to a Per-Pin subroutine.
-
- |
- |
-
- |
-
-byte 17:
-
- |
-
-HXA information
-
- |
- |
-
- |
-
- |
-
-bit 0-3: NOT USED (always 0).
-
- |
- |
-
- |
-
- |
-
-bit 4-5: channel selector for pins mapped to a HXA pin. Indicates the logical position of the pin in the multiplexing order. Set to 0 for standard pins.
-
- |
- |
-
- |
-
- |
-
-bit 6-7: pin multiplexing factor for HXA pins. Possible values are:
-
- |
- |
-
- |
-
- |
-
-0
-
- |
-
-Pin not mapped to HXA pin
-
- |
- |
-
- |
-
- |
-
-1
-
- |
-
-One of two Pin Scale pins that are mapped to HXA pin
-
- |
- |
-
- |
-
- |
-
-3
-
- |
-
-One of 4 Pin Scale pins that are mapped to HXA pin
-
- |
- |
-
- |
-
- |
-
-Information relating to HXA multiplexing is only returned if the MUX flag is set.
-
- |
- |
-
- |
-
-byte 18, 19:
-
- |
-
-NOT USED (always set to 4).
-
- |
- |
-
- |
-
-byte 20, 21:
-
- |
-
-NOT USED (always set to 15).
-
- |
- |
-
- |
-
-byte 22:
-
- |
-
-Received data. Possible values are:
-
- |
- |
-
- |
-
- |
-
-0
-
- |
-
-No error
-
- |
- |
-
- |
-
- |
-
-FF
-
- |
-
-This means that an error has occurred, but that it is not reconstructible for one of the following reasons:
-
-- The waveform contains more than 1 edge.
-- The waveform contains a window compare.
-- Only 1 bit results are recorded.
- |
- |
-
- |
-
- |
-
-Bits 0-2 contain the received value:
-
- |
- |
-
- |
-
- |
-
-1
-
- |
-
-Received high
-
- |
- |
-
- |
-
- |
-
-2
-
- |
-
-Received intermediate
-
- |
- |
-
- |
-
- |
-
-4
-
- |
-
-Received low
-
- |
- |
-
- |
-
- |
-
-5
-
- |
-
-Received unstable
-
- |
- |
-
- |
-
- |
-
-7
-
- |
-
-Failed but not reconstructible
-
-This value will be returned for single-ended standard mode if only one bit results are recorded and the edge failed.
-
- |
- |
-
- |
-
- |
-
-bits 3 - 5: number of failing compare edge or failing window close. If the edge was not reconstructible (bits 6-7 set to 3) the value is set to 7.
-
- |
- |
-
- |
-
- |
-
-bits 6-7:
-
- |
- |
-
- |
-
- |
-
-0
-
- |
-
-This is the default.
-
- |
- |
-
- |
-
- |
-
-3
-
- |
-
-The failing edge is not reconstructible.
-
- |
- |
-
- |
-
-The cycle resolution format consists of the 23 bytes described above. If the data is returned in edge resolution format, CYCI? provides additional information about receive events.
-
- |
- |
-
- |
-
-byte 23:
-
- |
-
-Number of the following receive events. Note that only used receive events will be reported.
-
-Every receive event consists of three bytes (A, B, C), that are to be read as follows:
-
- |
- |
-
- |
-
-byte A:
-
- |
-
-CURRENTLY NOT USED (Always 0).
-
- |
- |
-
- |
-
-byte B:
-
- |
-
-Receive event index
-
- |
- |
-
- |
-
- |
-
-bits 0-2: edge index (0 through 7)
-
- |
- |
-
- |
-
- |
-
-bit 3-4: channel selector for HXA pins.
-
-If the multiplexing factor in byte 17 is > 0, and the channel selector in byte 17 is set to 0, then CYCI? will add the edges of all the other channels for the same HXA pin to the binary data. This field indicates to which of these channels the edge belongs. It specifies the position number of the respective channel in the logical multiplexing order.
-
- |
- |
-
- |
-
- |
-
-Information relating to HXA multiplexing is only returned if the MUX flag is set.
-
- |
- |
-
- |
-
-byte C:
-
- |
-
-Receive data
-
- |
- |
-
- |
-
- |
-
-bits 0 - 3: compare method
-
- |
- |
-
- |
-
- |
-
-bits 4 - 6: received value
-
- |
- |
-
- |
-
-For details see the tables below.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/99098.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：73 行 × 8 列。
+> 首行（上游原文）：start_cycle | The start cycle is an integer that defines the first cycle to be reported. The start cycle is in the range 0 to 248 when the sequencer runs in the…
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › CYCI  -  get CYCle Information）
 
@@ -2256,32 +1322,16 @@ DCCH {`setNr`（raw: `02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precisi
             `[clampRange`（raw: `02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md#_98518__r_clampRange`）,] `[relayAction`（raw: `02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md#_98518__r_relayAction`）], `[measureCurrentRange`（raw: `02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md#_98518__r_measureCurrentRange`）,] `[executionMode`（raw: `02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md#_98518__r_executionMode`）],
             `[connectState`（raw: `02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md#_98518__r_connectState`）,] `[samples`（raw: `02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md#_98518__r_samples`）,] {(`pinlist`（raw: `02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md#_98518__r_pinList`）)} `, ([refPinList`（raw: `02.06.02.02.40_DCCH_-__DC_Current_measurement_High_precision_pmu.md#_98518__r_refPinList`）)]
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
-> 中**第 12 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：19 行 × 2 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
-> 中**第 11 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 3 列。
 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
 > 中**第 10 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
-> 中**第 8 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
-> 中**第 7 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 3 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
-> 中**第 6 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
-> 中**第 5 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列，含 rowspan。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
-> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
 > 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
@@ -2302,9 +1352,6 @@ This is an optional parameter.
  |
  | forceMode  | This extra parameter specifies the force mode:
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
-> 首行（上游原文）：I | Specifies the force current mode. Parameter forceValue is to be defined in µA (Microampere).
 
 The force current mode is currently supported only by the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`）.
 
@@ -2417,10 +1464,6 @@ The type and unit of the value depends on the value of the forceMode parameter:
  |   | V  | The clamp current range is to be specified in µA (Microampere).  | |
  | relayAction  | This parameter defines the termination mode of the measurement. The mode can be:
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98518.htm`
-> 中**第 10 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 3 列。
-> 首行（上游原文）：NTBBM | No-Termination-Break-Before-Measure.Relay action: For digital DC pins:Non-terminated measurement: Causes all pins in the pin list to be disconnected fro…
-> 表内引用（1 条，供检索）：`SPMU_PIN_TASK.relay()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.234.01.28_SPMU_PIN_TASK.relay.md`）
 
 See also `SPMU_PIN_TASK.relay()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.234.01.28_SPMU_PIN_TASK.relay.md`）.
 
@@ -2715,8 +1758,6 @@ DCGM {acqu_mode},{emap_pos_int},{ovem_pos_int}
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98522.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：16 行 × 2 列，含 colspan 与 rowspan。
 
 acqu_mode
 
@@ -2877,9 +1918,6 @@ This example sets the error map into acquire failure mode and specifies that the
 
 ### Syntax（取自子主题 Commands in alphabetical order › List of commands › DCRE  -  DC set REsult）
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98523.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
-
 ```
 DCRE? setNr,[resultMode]
 ```
@@ -2905,9 +1943,6 @@ A single result, which includes the pass/fail result of the pins, specified in t
  |   | VAL  | Returns for each pin of the DC set the pass/fail result and the measured value.  | |
 
 If the resultMode is not specified for DCRE?, the result mode given to `DCEX`（raw: `02.06.02.02.43_DCEX_-__DC_set_EXecute.md`） is returned.
-
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98523.htm`
-> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列，含 colspan。
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › DCRE  -  DC set REsult）
 
@@ -2994,11 +2029,7 @@ returns:
 ```
 DCRM {map},{mode},[bits],[sub_cycles,] {(port)}
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98524.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：14 行 × 2 列，含 colspan 与 rowspan。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98524.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列，含 colspan。
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DCRM  DCRM  -  Digital Compare Result Mode）
@@ -3038,9 +2069,6 @@ The default is 4096.
  | PFC  | In case of failure, a more detailed two bit code will be recorded. This is the default. |
  | The meaning of the 2 bit error codes depends on the expected result as follows:
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98524.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 5 列。
-> 首行（上游原文）：Received
 
 "I" stands for "Intermediate", and "U" stands for "Unstable". Note that you can reconstruct the received result from the expected result and the error code.
 
@@ -3333,23 +2361,13 @@ DCVH {`setNr`（raw: `02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precisi
             `[clampRange`（raw: `02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md#_98530__r_clampRange`）,] `[relayAction`（raw: `02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md#_98530__r_relayAction`）], `[measureVoltageRange`（raw: `02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md#_98530__r_measureVoltageRange`）,] `[executionMode`（raw: `02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md#_98530__r_executionMode`）],
             `[connectState`（raw: `02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md#_98530__r_connectState`）,] `[samples`（raw: `02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md#_98530__r_samples`）,] {(`pinList`（raw: `02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md#_98530__r_pinList`）)} `, ([refPinList`（raw: `02.06.02.02.52_DCVH_-__DC_Voltage_measurement_High_precision_pmu.md#_98530__r_refPinList`）)]
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
-> 中**第 12 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：19 行 × 2 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
-> 中**第 11 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 3 列。
 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
 > 中**第 10 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：9 行 × 3 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
-> 中**第 8 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
-> 中**第 7 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 3 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
-> 中**第 6 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
 > 中**第 5 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列，含 rowspan。
@@ -3366,9 +2384,6 @@ This is an optional parameter.
  |
  | forceMode  | This extra parameter specifies the force mode:
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
-> 首行（上游原文）：I | Specifies the force current mode. Parameter forceValue is to be defined in µA (Microampere). This is the default force mode.
 
 The force current mode is only supported by the `DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`）.
 
@@ -3379,9 +2394,6 @@ The force value parameter specifies the force current in µA (Microampere) or th
 
 The type and unit of the value depends on the value of the forceMode parameter:
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
-> 首行（上游原文）：I | The force value is to be specified as current in µA (Microampere).
 
 The valid range for the force value depends on the hardware.
 
@@ -3394,9 +2406,6 @@ The optional clamp value parameter specifies the output clamp voltage in mV (Mil
 
 The type and unit of the value depends on the value of the forceMode parameter:
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
-> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
-> 首行（上游原文）：I | The clamp value is to be specified as output clamp voltage in mV (Millivolt). This is the default mode.
 
 The parameter may be defined as floating-point number or as string.
 
@@ -3404,9 +2413,6 @@ The string format supports different values for the upper (or positive) clamp va
 
 The string must be defined with pairs of properties and values in the format "property1:value1 property2:value2 ...":
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
-> 中**第 5 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 3 列。
-> 首行（上游原文）：Property | Value type | Description
 
 In the query answer the lower clamp value is returned only if it is not symmetrical to the upper clamp value.
 
@@ -3511,10 +2517,6 @@ The type and unit of the value depends on the value of the forceMode parameter:
  |   | V  | The clamp current range is to be specified in µA (Microampere).  | |
  | relayAction  | This parameter defines the termination mode of the measurement. The mode can be:
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98530.htm`
-> 中**第 10 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 3 列。
-> 首行（上游原文）：NTBBM | No-Termination-Break-Before-Measure.Relay action: For digital DC pins:Non-terminated measurement: Causes all pins in the pin list to be disconnected fro…
-> 表内引用（1 条，供检索）：`SPMU_PIN_TASK.relay()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.234.01.28_SPMU_PIN_TASK.relay.md`）
 
 See also `SPMU_PIN_TASK.relay()`（raw: `../02.07_Test_Method_Reference/02.07.04.01.234.01.28_SPMU_PIN_TASK.relay.md`）.
 
@@ -3800,8 +2802,6 @@ DDIC? {"circuitry_type"}
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/106906.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：14 行 × 2 列，含 colspan 与 rowspan。
 
 connectionSet
 
@@ -4045,39 +3045,12 @@ DFCT {force_current}, {commutation_voltage}, {pass_volt_min}, {pass_volt_max}, {
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFCT -  DeFine Continuity Test）
 
-|
-
-force_current
-
- |
-
-The force_current parameter specifies the current (in [micro ]A) that the active load sources or sinks. The range is 0 to 35 mA for the Pin Scale 800 and P-/Ce- channel boards. The direction of the current is determined by the polarity of the commutation voltage and the pass range.
-
- |
- |
-
-commutation_voltage
-
- |
-
-This parameter defines the commutation voltage (in mV) that the active load requires to source/sink the force_current. For the Pin Scale 800, the range is -1.5 V to 5.5 V. For the P-/Ce-channel boards, the range is -2 V to +6 V.
-
- |
-
- |
-
-pass_volt_min
-
- |
-
-This parameter specifies (in mV) the minimum pass value of the test. It defines the low level threshold for the comparator during the measurement.
-
- |
- |
-
-pass_volt_max
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98542.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：force_current | The force_current parameter specifies the current (in [micro ]A) that the active load sources or sinks. The range is 0 to 35 mA for the Pin Scal…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98542.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：pass_volt_min | This parameter specifies (in mV) the minimum pass value of the test. It defines the low level threshold for the comparator during the measuremen…
 
 This parameter specifies (in mV) the maximum pass value of the test. It defines the high level threshold for the comparator during the measurement.
 
@@ -4132,111 +3105,9 @@ for digital fixed groups.
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFGE  DFGE  -  DeFine Group by Expressions）
 
-|
-
-group_type
-
- |
-
-Defines the type of pins in the group. This can be:
-
- |
- |
-
-I
-
- |
-
-Identifies a group of device input pins.
-
- |
- |
-
-O
-
- |
-
-Identifies a group of device output pins.
-
- |
- |
-
-IO
-
- |
-
-Identifies a group of bidirectional pins.
-
- |
- |
-
-DC
-
- |
-
-Identifies a group of DC type pins.
-
- |
- |
-
-group_expression
-
- |
-
-The expression that describes the pins to be included in the group. The expression must be built up from pin or pin group names which serve as arguments for the following operators:
-
- |
- |
-
- |
-
-+
-
- |
-
-returns the union of its arguments, that is, all pins that are contained in one of its arguments.
-
- |
- |
-
- |
-
-*
-
- |
-
-returns the intersection of its arguments, that is, all pins that are contained in both of its arguments.
-
- |
- |
-
- |
-
--
-
- |
-
-returns the difference of its arguments, that is, all pins that are contained in the first argument, but not in the second.
-
- |
- |
-
- |
-
-You can also use parentheses to force a certain processing order.
-
- |
- |
-
-pin_group
-
- |
-
-The name assigned to the pin group. You can use the same name for groups of different type.
-
-The symbol @ can be used with the DFGE? query to list all groups previously defined using the DFGP and DFGE command. If you query a non-existent group, the system returns nothing.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98544.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：11 行 × 4 列。
+> 首行（上游原文）：group_type | Defines the type of pins in the group. This can be:
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DFGE  DFGE  -  DeFine Group by Expressions）
 
@@ -4322,60 +3193,14 @@ DFLV REC_SWING,STD,value
 
 if neither parameter resourceSpecifier nor parameter mode have been specified.
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/349982.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
-
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFLV  DFLV  -  DeFaultLeVel）
 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/349982.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：10 行 × 2 列。
-
- | resourceSpecifier |
-
-The extra parameter specifies the resource to be set or queried.
-
-The following resources are supported:
-
- | Resource specifier  | Description |
- | VIL and VIH  | Input (drive) voltage definition for I and I/O pins. |
- | VIHH  | High voltage level definition for I and I/O pins. |
- | VOL and VOH  | Output threshold voltage definition for O and I/O pins. |
- | VOL_DIFF and VOH_DIFF  | Output threshold voltage definition for O and I/O pins in differential mode. |
- | VT  | Termination voltage definition. |
- | VCOM  | Commutation voltage of the active load. |
- | REC_SWING  | The receiver swing for a differential comparator. |
- | REC_OFFSET  | The receiver offset for a differential comparator. |
- | ALL  | Keyword ALL selects all resources.  | |
- | mode |
-
-The extra parameter specifies for which operation mode parameter value should be applied or queried.
-
-Supported operation modes:
-
-- STD
-- ALL
-
-Keyword ALL selects all operating modes.
-
-Extra parameter resourceSpecifier must also be defined if mode is specified.
-
-If the parameter is not defined, mode STD is taken as default value. In this case the specified value is applied to STD values only and default values used in STDDIFF mode will not be affected.
-
-Note: There is an exception when setting parameter value to RESET. In this case, an omitted mode parameter will be counted as ALL.
-
- |
- | value |
-
-The mandatory parameter defines the default value for the selected resource and operating mode.
-
- This parameter is to be defined as
-
-- voltage (in mV) or
-- as keyword RESET.
-
-With the parameter set to RESET, the affected values will be set to the system-defined default values of the selected cmos or ecl device technology.
-
- |
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：12 行 × 4 列，含嵌套表。
+> 首行（上游原文）：resourceSpecifier | The extra parameter specifies the resource to be set or queried. The following resources are supported: Resource specifier | Description
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/349982.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：10 行 × 2 列。
+> 首行（上游原文）：Resource specifier | Description
 
 ### Example 1: Resource and mode specified（取自子主题 Commands in alphabetical order › List of commands › DFLV  DFLV  -  DeFaultLeVel）
 
@@ -4647,94 +3472,9 @@ DFPS {dps_channel|(DC_scale_channel_list)}, {polarity}, {(pin)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFPS  DFPS  -  DeFine Power Supply）
 
-|
-
-dps_channel
-
- |
-
-The test system channel number of the DPS channel to be configured.
-
-The channel is to be defined as follows:
-
-- For `external device power supplies`（raw: `../02.05_Test_Head_Cards/02.05.06_External_device_power_supply__external_GPIB_DPS.md`）, this is a three‑digit or four‑digit integer.
-
-The first one or two digits define an external supply. To avoid a conflict with the internal supplies, we recommend using values above 8. The maximum supported value is 16.
-
-The last two digits define the channel number of the DPS. If the channel number is less than 10, a leading "0" must be used.
-
--
-
-For DC Scale channels (in DPS mode) this is a five digit number in the same format as for digital I/O channels.
-
- |
- |
-
-DC_scale_channel_list
-
- |
-
-To gang DC Scale channels, you must specify a consecutive number of channels enclosed by parentheses, either as comma separated list or as range, for example 10105-10106.
-
-- DPS128/64: Ganging is possible for any number of successive channels within a card, but not across cards.
-
-DPS128/DPS64 channels must be of the same type (HC or HV).
-
-The maximum number of ganging groups per DPS128/64 is half the number of channels. The maximum current per card cannot be exceeded.
-
-- XPS256: Only channels on the same HLA can be ganged.
-- UHC4, UHC4T: For UHC4 or UHC4T ganging is possible for any number of successive channels within a card and any number of cards within a test head. The combination of UHC4 and UHC4T within the same ganging group is not supported. The maximum current per card cannot be exceeded.
-
-Before cross-card ganging can be used, the connection must be enabled by command `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）.
-
- |
- |
-
-polarity
-
- |
-
-Gives the polarity of the DPS which has to be applied to the selected channel.
-
- |
- |
-
-POS
-
- |
-
-Enter POS only if the DPS connections on the DUT board are as follows: The force is connected to power; the sink is connected to ground. The voltage supplied to the device will then be exactly as entered in the Level Setup, but the entry made there must be positive, otherwise the system returns an error.
-
-For DC scale channels, only POS is allowed.
-
- |
- |
-
-NEG
-
- |
-
-NEG is not allowed for DC Scale channels.
-
- |
- |
-
-pin
-
- |
-
-Defines the pin name for the DPS channel.
-
- |
- |
-
-pinlist
-
- |
-
-The pin name or names of those power supply outputs which have already been defined. If more than one pin is required, the names must be separated with a comma. The @ character can be used to read all configured power supply pins.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98551.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
+> 首行（上游原文）：dps_channel | The test system channel number of the DPS channel to be configured. The channel is to be defined as follows: For external device power supplies, t…
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › DFPS  DFPS  -  DeFine Power Supply）
 
@@ -4748,8 +3488,6 @@ This example connects device pin Vee to channel 1 of DPS board 1. The DPS output
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98551.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 1 列。
 
 ```
 DFPS (10101, 10102),POS,(vee)
@@ -4882,10 +3620,7 @@ DFTD {"`testdata_name`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md#_
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFTD  DFTD   DeFine Test Data）
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/100076.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 3 列。
-
- | testdata_name |
+| testdata_name |
 
 A mandatory name that identifies a collection of test data elements (td).
 
@@ -4989,9 +3724,6 @@ Attributes for element "lastMeasure":
 | limitHigh | double |  | Optional: If specified, the result will be FAIL if<br><br>measured value > limitHigh<br><br>and failAboveHighLimit of the previously performed measurement has been set to true (not supported for current measurements with ganged channels).<br><br>Supported only by XPS256. |
 
 Attributes for element "matchCmp":
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/100076.htm`
-> 中**第 6 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 4 列。
-> 首行（上游原文）：Attribute | Type | Value | Comment
 
 Attributes for element "measure":
 | Attribute | Type | Value | Comment |
@@ -5008,35 +3740,16 @@ Attributes for element "measure":
 | failOnLowClamp | boolean | true, false<br><br>default: false | Optional: FAIL on low clamp violation if set to true |
 | failOnHighClamp | boolean | true, false<br><br>default: false | Optional: FAIL on high clamp violation if set to true |
 
-> ⚠️ 转录说明（非原文）：本表在上游 HTML 里含合并格（colspan / rowspan）；
-> 跨格文字已按覆盖范围重复写出（**不是原表里有重复的格子**）。真结构见 `tdc-html/raw/100076.htm`。
 
 Attributes for element "restoreMeasureRange":
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/100076.htm`
-> 中**第 8 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 4 列。
-> 首行（上游原文）：Attribute | Type | Value | Comment
 
 Attributes for element "setCompliance":
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/100076.htm`
-> 中**第 9 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 4 列。
-> 首行（上游原文）：Attribute | Type | Value | Comment
-> 表内引用（1 条，供检索）：`1)`（raw: `#fntarg_1`）
 
 Attributes for element "setFilterValue":
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/100076.htm`
-> 中**第 10 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 4 列。
-> 首行（上游原文）：Attribute | Type | Value | Comment
 
 Attributes for element "setForceRange":
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/100076.htm`
-> 中**第 11 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 4 列。
-> 首行（上游原文）：Attribute | Type | Value | Comment
-> 表内引用（1 条，供检索）：`DC Scale XPS256 card`（raw: `../02.05_Test_Head_Cards/02.05.05.03_DC_Scale_XPS256_card.md`）
 
 Attributes for element "setForceValue":
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/100076.htm`
-> 中**第 12 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 4 列。
-> 首行（上游原文）：Attribute | Type | Value | Comment
 
 Attributes for element "setMeasureRange":
  | Attribute  | Type  | Value  | Comment |
@@ -5060,9 +3773,6 @@ If standard is set, the attribute will not be reported in DFTD?.
    | Note that setMeasureRange is not allowed for DC Scale UHC4T, if connect_state (set with `PSLR`（raw: `02.06.02.02.194_PSLR__PSLR__-__Power_Supply_Level_Ranges.md`）) is hdig or norm_hdig.
 
 Attributes for element "setTmuArming":
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/100076.htm`
-> 中**第 14 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 4 列。
-> 首行（上游原文）：Attribute | Type | Value | Comment
 
 Attributes for element "setTmuConfigure":
  | Attribute  | Type  | Value  | Comment |
@@ -5241,45 +3951,9 @@ DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFUP  DFUP  -  DeFine Utility Purpose）
 
-| ch_No_list |
-
-Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with a comma.
-
-In the five‑digit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-The legacy three‑digit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL‑ ... UTIL鈥?.
-
-The last two digits specify the channel number 01 ... 32 of the utility line.
-
-On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
-
-When reading the defined utility lines with the DFUP? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
-
-The channel numbers 16515 and 16516 should not be used. They should only be accessed with the `I2CA`（raw: `02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md`）or the `BDID`（raw: `02.06.02.02.09_BDID__BDID__-__BoarD_ID.md`）firmware command.
-
- |
- | setting |
-
-Output states for each channel in the ch_No_list. Specify the setting of each utility line with the following specifiers:
-
-- 0: sets the corresponding (write) channel to high (high impedance state)
-- 1: sets the corresponding (write) channel to low
-- X (x): no action
-
-Specify the setting values corresponding to the definition order of the ch_No_list parameter.
-
-The number of characters must be equal to the number of the utility line channels in the ch_No_list parameter.
-
-Note that the settings must be explicitly activated with `UPST`（raw: `02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`）.
-
- |
- | purpose_name |
-
-Name of the utility purpose. In the query you can use the symbol @ to list all defined utility purposes.
-
-This parameter can have up to 16 alphanumeric characters and must not contain blank spaces, or any of the following characters: `# ; ( ' ' ) ? @ ,`
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98559.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ch_No_list | Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with …
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DFUP  DFUP  -  DeFine Utility Purpose）
 
@@ -5321,48 +3995,9 @@ DFUT {ch_No}, {type}, {(util_name)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DFUT  DFUT  -  DeFine UTility line）
 
-| ch_No |
-
-Channel number of the utility line specified with five or three digits.
-
-In the five‑digit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-In the legacy three‑digit format, the first digit (1 ... 8) specifies the utility pogo block UTIL‑ ... UTIL鈥?.
-
-The last two digits specify the channel number 01 ... 32 of the utility line.
-
-On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
-
-When reading the defined utility lines with the DFUT? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
-
-For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）
-
- |
- | type |
-
-Specifies the operating mode of the utility line with the following specifiers:
-
-- W: Write-Only
-- R: Read-Only
-- RW: Read-Write
-
-Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware‑controlled shutdown of XPS256 pins:
-
-- TRIGGER_IF_HIGH: Safety line
-- TRIGGER_IF_LOW: Safety line
-- TRIGGER_SITE_IF_HIGH: Global shutdown line
-- TRIGGER_SITE_IF_LOW: Global shutdown line
-
-For more information, refer to `XPS256 safety line and DUT board disconnect`（raw: `../02.05_Test_Head_Cards/02.05.05.03.03.06_XPS256_safety_line_and_DUT_board_disconnect.md`）.
-
- |
- | util_name |
-
-Name of the utility line. For the query, it specifies the utility line name to be retrieved. @ can be used to list all defined utility lines.
-
-This parameter can have up to 16 alphanumeric characters and must not contain blank spaces, or any of the following characters: `# ; ( ' ' ) ? @ ,`
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98560.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ch_No | Channel number of the utility line specified with five or three digits. In the five‑digit format, the first three digits specify the utility pogo block.…
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DFUT  DFUT  -  DeFine UTility line）
 
@@ -6027,102 +4662,11 @@ DPSE {setnr}, {(pinlist)}, {binary_data}
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › DPSE  DPSE  -  Define Power Supply External trigger measurement）
 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98572.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：24 行 × 1 列，含 colspan。
-
- |
-
-setnr
-
- |
-
-This number defines the set number for the measurement. The number must be an integer from 1 to 256.
-
-In the query, you can specify ALL to retrieve the data of all sets.
-
- |
- |
-
-pinlist
-
- |
-
-This parameter specifies the pins to be used for the measurements.
-
- |
- |
-
-binary_data
-
- |
-
-This is a binary data string. The string starts with the '#' character, followed by a digit in the range 1 to 9 which stipulates how many digits are used in the data length specifier. The data length specifier is next: up to 9 digits determine how many bytes of data will follow. The actual data string follows last.
-
- Note If the binary data string is empty, the definition for the pins specified in pinlist will be deleted from the set.
-
-The first character or value of the data stream determines the format for the remainder of the data stream (characters '0' through '3' are for current measurements, '4' through '11' for voltage measurements):
-
- | 0: Waveform template |
- | |
-
-If the first character is a '0', it is followed by a waveform template. The values are given first for the low value and then for the high value. The values are separated by a ',' (comma).
-
-This template is for the PASS/FAIL results from the `PSER?`（raw: `02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md`） query. The current range in which the measurements will be executed is determined by the maximum/ minimum value of the template. The values have the unit Amps [A].
-
-This option can only be combined with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command.
-
- |
- | 1: Number of measurement points followed by low and high values |
- |   | If the first character is a '1', a number and two values follow. The first number gives the number of measurement points. The second and third define the low and high values. These are separated by a "," (comma). The current range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Amps [A].
-
-This option can only be combined with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command.
-
- |
- | 2: Low and high value |
- |   | If the first character is a '2', two values follow. They define the low and high value (in this order) and are separated by a "," (comma). The current range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Amps [A]. The number of measurement points is 1.
-
-This option requires that the measurement is executed with the `PSIE`（raw: `02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`） command.
-
- |
- | 3: Low and high value |
- |   | If the first character is a '3', two values follow. They define the low and high value (in this order) and are separated by a "," (comma). The current range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Amps [A]. The number of measurement points is 1.
-
-This option can only be selected for DC Scale channel DPS's and requires that the measurement is executed with the `PSIE`（raw: `02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`） command. If the channels belong to a Master/Slave configuration, they are unganged during the measurement as far as possible, that is, as far this can be done without affecting the goal of the measurement.
-
- |
- | 4: Waveform template |
- |   | If the first character is a '4', it is followed by a waveform template. The values are given first for the low value and then for the high value. The values are separated by a ',' (comma). This template is for the PASS/FAIL results from the `PSER?`（raw: `02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md`） query. The voltage range in which the measurements will be executed is determined by the maximum/ minimum value of the template. The values have the unit Volt [V].
-
-This option can only be selected for DC Scale channel DPS's and can be combined only with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command.
-
- |
- | 5: Number of measurement points followed by the low and high values |
- |   | If the first character is a '5', a number and two values follow. The first number gives the number of measurement points. The second and third define the low and high values. These are separated by a "," (comma). The voltage range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Volt [V].
-
-This option can only be selected for DC Scale channel DPS's and can be combined only with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command.
-
- |
- | 6: Low and high value |
- |   | If the first character is a '6', two values follow. They define the low and high value (in this order) and are separated by a "," (comma). The voltage range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Volt [V]. The number of measurement points is 1.
-
-This option requires that the measurement is executed with the `PSIE`（raw: `02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`） command.
-
- |
- | 7: Voltage waveform template for the high speed digitizer |
- |   | If the first character is a '7', it is followed by a voltage waveform template for the high speed digitizer (connect state *HDIG). An error message occurs if another connect state is used. The values are given first for the low value and then for the high value. The values are separated by a ',' (comma). This template is for the PASS/FAIL results from the `PSER?`（raw: `02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md`） query. The voltage range in which the measurements will be executed, is determined by the maximum/ minimum value of the template. The values have the unit Volt [V]. This option can be selected only for DC Scale UHC4 / UHC4T channels and can be combined only with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command. See also `DPS_PIN_TASK`（raw: `../02.07_Test_Method_Reference/02.07.04.01.50.01_DPS_PIN_TASK.md`）. |
- | 8: Number of measurement points followed by the low and high values for high speed digitizer measurements |
- |   | If the first character is an '8', a number and two values follow. The first number gives the number of measurement points. The second and third define the low and high values. These are separated by a "," (comma). The voltage range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Volt [V]. This template is for high speed digitizer measurements only, that means connect state *HDIG. An error message occurs if another connect state is used. This option can be selected only for DC Scale UHC4 / UHC4T channels and can be combined only with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command. See also `DPS_PIN_TASK`（raw: `../02.07_Test_Method_Reference/02.07.04.01.50.01_DPS_PIN_TASK.md`）. |
- | 9: Low and high value for high speed digitizer measurements |
- |   | If the first character is a '9', two values follow. They define the low and high value (in this order) and are separated by a "," (comma). The voltage range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Volt [V]. The number of measurement points is 1. This template is for high speed digitizer measurements only, that means connect state *HDIG. An error message occurs if another connect state is used. This option can be selected only for DC Scale UHC4 / UHC4T channels and requires that the measurement is executed with the `PSIE`（raw: `02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`） command. See also `DPS_PIN_TASK`（raw: `../02.07_Test_Method_Reference/02.07.04.01.50.01_DPS_PIN_TASK.md`）. |
- | 10: Force voltage-drop measurement |
- | |
-
-If the first value is a '10', two values follow. They define the low/high P/F limits of a force (voltage-)drop measurement and are separated by a "," (comma). The values are given in the unit Volt [V]. The number of measurement points is 1.
-
-This option can be selected only for the HC variant of `DC Scale DPS128`（raw: `../02.05_Test_Head_Cards/02.05.05.01_DC_Scale_DPS128_DPS64_cards.md`） channels and requires that the measurement is executed with the `PSIE`（raw: `02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`） command.
-
- |
- | 11: Return voltage-drop measurement |
- | |
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：26 行 × 4 列，含嵌套表。
+> 首行（上游原文）：setnr | This number defines the set number for the measurement. The number must be an integer from 1 to 256. In the query, you can specify ALL to retrieve the d…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98572.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：24 行 × 2 列。
+> 首行（上游原文）：0: Waveform template
 
 If the first value is an '11', two values follow. They define the low/high P/F limits of a return (voltage-)drop measurement and are separated by a "," (comma). The values are given in the unit Volt [V]. The number of measurement points is 1.
 
@@ -6213,157 +4757,9 @@ DPSR {set_nr}, ["exec_context",] (setup_pinlist), (result_pinlist), [wait_time,]
 Extra parameters exec_context and wait_time are returned only if they have been defined by DPSR.
 
 Parameters
- | set_nr |
-
-The mandatory parameter specifies the number of the search set in which the condition is to be stored.
-
-The maximum number is 128.
-
-If a search set with this number does not yet exist, it will be created.
-
- |
- | exec_context |
-
-The extra parameter defines an execution context.
-
-For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）.
-
- |
- | setup_pinlist |
-
-The optional parameter defines the pins for which an edge is to be moved or a spec variable is to be modified.
-
-If this parameter is omitted, all pins will be used as setup pins.
-
- |
- | primary_port |
-
-This optional parameter is only relevant for Pin Scale systems.
-
-Specifies the setup pins by a single port name. The difference to a setup pin list is that the port will be used as the primary port by `EXSR`（raw: `02.06.02.02.121_EXSR_-__EXecute_SeaRch.md`）.
-
-Note that this only holds if you specify the setup pins by one single port. If you enter more than one port, the list will be treated as a normal setup pin list.
-
-This parameter is only applicable if spec_name as specified in the #spec(data) parameter occurs in the period definition for the specified port in the primary multi-port timing specification.
-
-Add @UNCHANGED to suppress the switch of the primary port..
-
- |
- | result_pinlist |
-
-The optional parameter defines the output pins whose results are contributing to the test result.
-
-If the parameter is omitted, all output and I/O pins will contribute to the result. If you specify an empty #spec(data) parameter, the result_pinlist parameter is ignored.
-
- |
- | wait_time  | The extra parameter specifies a wait time between the functional test runs in milliseconds.
-
-Valid range: 0 …2^31 - 2
-
-Default value if not specified: 0 ms
-
- |
- | search_type |
-
-The optional parameter specifies the search type.
-
-This parameter determines the format of the #spec(data) parameter. If you specify an empty #spec(data) parameter, the search_type parameter will be ignored.
-
-Currently, the following values are allowed:
-
- |
- | FUNC  | Functional search |
- | ERCT |
-
-With this option, an additional error count check is performed internally for each repetition of the functional test. If the number of errors is smaller than the value specified by the max_err_count parameter, then the functional test will count as passed, and the search be terminated for a FAIL/PASS transition. The edge position / spec value of this test repetition will then be returned as the transition point by RSSR?.
-
-Note that it depends on the settings of DRCM whether failing cycles or failing edges are counted.
-
- |
- | max_err_count |
-
-This extra parameter specifies the maximum number of errors for which a repetition of the functional test will still count as passed.
-
-The parameter must be defined and is only processed if the search_type is ERCT.
-
- |
- | #spec(data) |
-
-The mandatory binary data that define the search condition. The general format is:
-
-`#Nn1n2n...nNdata_stream`
-
-where the digit N defines the number of the digits ni (1 鈮? i 鈮?N) that specify the length of data_stream in bytes.
-
-The format of the data stream itself is determined by the search_type parameter. For search types FUNC and ERCT (currently the only search types), the format is
-
-`{spec_type}, {"spec_name"|resource}, {search_mode}, {start}, {stop}, [step_size], [resolution]`
-
-You can delete a search condition by specifying an empty data stream with #10. If you omit all the other parameters and specify #10 for the #spec(data) parameter, the whole search set will be erased.
-
-The meaning of the individual sub-parameters is as follows:
-
- |
- |
-
-spec_type
-
- |
-
-Specifies whether a spec variable or a resource is modified, and in the former case also the type of the spec variable. This parameter determines the allowed values of the following parameter.
-
-Possible values of the spec_type parameter are:
-
- |
- | TIM  | A timing spec variable is to be modified. |
- | LEV  | A level spec variable is to be modified. |
- | RES  | A hardware resource is to be modified. |
- | spec_name |
-
-The name of a spec variable must be specified if spec_type is set to TIM or LEV.
-
-DPSR does not accept the format
-
-`spec_name@port_name,`
-
-that is, spec names that are qualified by a port name. If the same spec variable is used in more than one port, the setup pins determine on which ports the value of the variable is modified.
-
- |
- | resource |
-
-A resource must be specified if spec_type is set to RES Currently, the only allowed resources are edges, which must be specified in the standard format, di or ri.
-
- |
- | search_mode |
-
-This parameter defines the search algorithm.
-
-Possible values are:
-
- |
- | L  | Specifies a linear search from the start of the search range at intervals defined by step_size. |
- | B  | Specifies a binary search between the start and the stop positions. |
- |
-
-LB
-
-   | Specifies a combined linear and binary search. A linear search is performed at intervals defined by step_size. When a PASS/FAIL transition is found, an additional binary search is performed in the interval between the last passed and the first failed test, or the last failed and the first passed test. |
- | start  | >Specifies the starting point of the search. If the value is greater than the stop value, the search will go backward. |
- | stop  | Specifies the end point of the search. If the value is smaller than the start value, the search will go backward. |
- | step_size |
-
-This parameter specifies the step width of a linear search. The unit depends on the spec_type parameter. For a spec search, it is the unit of the spec variable. For a resource search, it is ns.
-
-This parameter is mandatory for a linear search, and optional for a binary search.
-
- |
- | resolution |
-
-This parameter specifies the resolution of the search. For a binary search, this is the minimum length of the interval between the returned PASS value and the returned FAIL value. For a linear search, the start, stop, and step_size values will be rounded to multiples of the specified resolution.
-
-If the parameter is omitted, the smallest values allowed by the software ( for spec variables) or the hardware (for edges) will be used.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98574.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：25 行 × 4 列。
+> 首行（上游原文）：set_nr | The mandatory parameter specifies the number of the search set in which the condition is to be stored. The maximum number is 128. If a search set with …
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › DPSR  DPSR  -  Define Parallel SeaRch）
 
@@ -6990,292 +5386,9 @@ EMAP {pin_res},{start_cycle},{no_of_cycles},{resolution_mode},{results_per_cycle
 ```
 
 Parameters
- |
-
-pin_res
-
- |
-
-Specifies the pin granularity. Possible values are:
-
- |
- |
-
-PPIN
-
- |
-
-Separate results will be reported for every pin of the pin list.
-
- |
- |
-
-COMB
-
- |
-
-Only one global result will be reported for all pins of the pin list.
-
- |
- |
-
-start_cycle
-
- |
-
-In the query, this is an integer that defines the first test cycle to be reported.
-
-In the reply, this is the first cycle that is returned. If the requested cycle range exceeds the capacity of the Error Map, the index of the first returned cycle may be greater than that of the first requested cycle.
-
- |
- |
-
-no_of_cycles
-
- |
-
-This is an integer that defines the number of test cycles to be reported. The range for this parameter is 0 to2^48 - 1. In the reply, this parameter indicates the number of cycles which have been read. If a 0 is returned, no data is available for the requested range.
-
- |
- |
-
-resolution_mode
-
- |
-
-Defines how the recorded results are combined. Possible values are:
-
- |
- |
-
-CYCL
-
- |
-
-In this mode all recorded results are combined into one result per cycle.
-
- |
- |
-
-SCYC
-
- |
-
-In this mode the results are reported as they were recorded.
-
- |
- |
-
-EDGE
-
- |
-
-This mode requests error information for each recorded receive edge. If the results_per_cycle parameter is omitted, the reply will return all 8 edges, even if only 2 or 4 edges were recorded; the edges that were not recorded will be represented as passed. In this way, the edge number of the failing recorded edges will be indicated by their position within the result data stream.
-
-The EDGE option requires one of the following two sets of conditions to be satisfied:
-
-- The mode parameter of DCRM is > 1.
-- No result combination, as specified with the sub_cycles parameter of DCRM, contains more than 1 edge.
-
-Note that this requires that result combinations are specified with DCRM.
-
-- The edges in the sub_cycles string are in ascending order.
-
-or (see `Retrieving edge information by repeating the test`（raw: `02.06.11.01.02.02.01_Retrieving_edge_information_by_repeating_the_test.md`）):
-
-- DCRM is set to 1,PFC.
-- CYRM is set to EDGE.
-- CYRP is set to MULT (the default).
- |
- |
-
-results_per_cycle
-
- |
-
-This parameter is only relevant for resolution mode EDGE. If you are only interested in an initial segment of the 8 edge sequence that is returned by default, you can specify the length of this segment here. In certain situations, this allows you to reduce the size of the reply.
-
-If the MUX flag is set, and one of the specified PS (Pin Scale) pins is multiplexed to an HXA pin, then the edges of the PS pins that are multiplexed to this HXA pin will be returned interleaved as follows:
-
-r1 of PS pin 1, ..., r1 of PS pin n, r2 of PS pin 1, ..., r2 of PS pin n,...,
-
-r8 of PS pin 1, ..., r8 of PS pin n
-
-Here, n is 2 or 4, and the PS pins are ordered as defined in the BOARDCONF section of the model file.
-
-Accordingly, if the multiplexing factor of the HXA pin is 4, and 5 edges per cycle are requested, then the first edge of every PS pin plus the second edge of the first PS pin will be returned.
-
- |
- |
-
-bits
-
- |
-
-Specifies how detailed the reported error code is to be in case of failure. Possible values are:
-
- |
- |
-
-PF
-
- |
-
-Only a 1 bit Pass/Fail result will be returned.
-
- |
- |
-
-PFC
-
- |
-
-In case of failure, a more detailed two bit code will be returned.
-
-The received data can be reconstructed from the expected data and the error code as follows:
-
-  !`Parameters`（raw: `../../../../raw/57171.png`）
-
-"I" stands for "Intermediate" and "U" for "Unstable".
-
-Note that 2 bit codes can only be reported if 2 bit codes were recorded (bits parameter of `DCRM`（raw: `02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md`） set to PFC).
-
- |
- |
-
-rep_mode
-
- |
-
-Specifies the reporting mode for the Error Map. Possible values are:
-
- |
- |
-
-ALL
-
- |
-
-All cycles within the selected area are reported. If the data was recorded in acquire failure mode, EMAP? will expand the reply accordingly.
-
- |
- |
-
-EOLY
-
- |
-
-As far as is feasible, only failed cycles are reported.
-
- |
- |
-
-results_align
-
- |
-
-Specifies how the results, as defined by the resolution_mode, results_per_cycle and bits parameters, are aligned within the returned data stream. The supported values are:
-
- |
- |
-
-BYTE
-
- |
-
-By this option, no byte will contain results of more than one cycle. If the results returned per cycle do not make up exactly one or two bytes, they will be padded accordingly.
-
-Note that if two bit codes are requested for resolution mode EDGE, and results_per_cycle is set to a value < 8, the results will always be padded to two bytes, even if results_per_cycle is ≤4.
-
- |
- |
-
- |
-
-PACK
-
- |
-
-This option is mainly relevant for resolution modes CYCL and SCYC. It will have the effect that the results are not padded, but follow one another immediately. Thus, the results of 8 or 4 cycles (depending on the bits setting) will be packed into one byte in CYCL mode, and the results of 4 or 2 cycles (depending on the bits setting) will be packed into one byte in SCYC mode.
-
-PACK will have an effect on resolution mode EDGE only, if the initial segment defined with results_per_cycle already makes up a complete byte. This would be the case, for example, if two bit codes are recorded for all 8 edges, and results_per_cycle is set to 4.
-
- |
- |
-
-byte_max
-
- |
-
-In the query, this parameter specifies the maximum number of bytes that may be returned. This option is primarily intended for the reporting mode EOLY, where the size of the data that will be returned cannot be calculated beforehand.
-
-In the answer, the following codes can be returned:
-
- |
- |
-
-EOB
-
- |
-
-The cycle range of the query exceeds the specified maximum number of bytes.
-
- |
- |
-
-EOF
-
- |
-
-The cycle range of the query exceeds the cycle range to be recorded (as defined with `DCGM`（raw: `02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md`） and `DCRP`（raw: `02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md`）).
-
- |
- |
-
-EOM
-
- |
-
-The cycle range of the query exceeds the actual content of the Error Map.
-
- |
- |
-
-MUX
-
- |
-
-If this flag is set, and one of the specified (Pin Scale) pins is multiplexed to an HXA pin, then the reply for this pin will combine the results of all Pin Scale pins that are multiplexed to the respective HXA pin.
-
-In particular, if information on the edge level is requested, then the edges of all multiplexed Pin Scale pins will be returned interleaved as follows:
-
-r1 of PS pin 1, ..., r1 of PS pin n,
-
-r2 of PS pin 1, ..., r2 of PS pin n,
-
-...
-
-r8 of PS pin 1, ..., r8 of PS pin n
-
-Here, n is 2 or 4, and the order of the PS pins is that defined in the BOARDCONF section of the model file.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins or pin groups for which information is returned. If more than one pin is to be included, the names must be separated by a comma. All pins in the pin list must have type O or IO. They must also all belong to the same port in the current start label.
-
-If the MUX flag is set, then each pin in the pin list should represent a different HXA pin, and all HXA pins should have the same multiplexing factor.
-
- |
- |
-
-#spec(data)
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98590.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：26 行 × 3 列。
+> 首行（上游原文）：pin_res | Specifies the pin granularity. Possible values are:
 
 The binary data that are returned. The general format is:
 
@@ -7506,8 +5619,6 @@ EQFC {level_set_no|level_set_id|ALL|PRM} ,{filter_parameter|ALL_specifier}, {off
 ```
 EQFC? {level_set_no|level_set_id|ALL|PRM} ,{filter_parameter|ALL_specifier|ALL}, {value}, {(pinList)}
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/112905.htm`
-> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › EQFC  EQFC  -  EQualization and Filter Configuration）
@@ -7528,65 +5639,9 @@ Possible values for ALL_specifier
 > 首行（上游原文）：Value | Description | Modified parameter
 
 Valid ranges for the equalization parameters (set value using "offset_value")
- |
-
-Equalization amplitude
-
- |
-
-PS1600
-
-   | PS5000 |
- |
-
-EQI1
-
- |
-
--25 % ... 10 %
-
-   | n/a |
- |
-
-EQI2
-
- |
-
-n/a
-
-   | -19 % 鈥?17 % |
- |
-
-EQI3
-
- |
-
-n/a
-
-   | -19 % 鈥?17 % |
- |
-
-EQO1
-
- |
-
--25 % ... 10 %
-
-   | n/a |
- |
-
-EQO2
-
- |
-
-n/a
-
-   | -19% 鈥?17% |
- |
-
-EQO3
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/112905.htm`
+> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
+> 首行（上游原文）：Equalization amplitude | PS1600 | PS5000
 
 n/a
 
@@ -7690,8 +5745,6 @@ ERCC {type}, {start_cycle}, {no_of_cycles} [, granularity], {valid_code}, {no_of
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98594.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 2 列，含 colspan 与 rowspan。
 
 type
 
@@ -7856,69 +5909,24 @@ returns:
 ```
 ERCE  {type}, {start_cycle}, {no_of_cycles}, {data_format}, {rep_mode}, [error_status], {(pin)}, {#spec(data)}
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/118682.htm`
-> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：12 行 × 2 列，含 colspan。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/118682.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/118682.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
 ```
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › ERCE  -  Expected and Received Cycle data of Events）
 
-| type |
-
-The supported types are:
-
- | RCV |
-
-Requests received data only.
-
-Can only be requested if a test point pattern has been executed for DC Scale pins.
-
- |
- | EXP  | Requests expected or setup data of all test point events, not only those that generate a result. |
- | ALL |
-
-Requests both expected and received data of events that generate a result.
-
-This option can only be requested if a test point pattern has been executed for DC Scale pins.
-
-  | |
- | start_cycle  | The start cycle of the area from which event data is to be reported. Cycles are counted from 0. |
- | no_of_cycles  | The length of the cycle area from which event data is to be reported. |
- | data_format  | Specifies the binary data format of #spec(data). The DC Scale cards DPS32, VI32, and UHC4 / UHC4T support both formats.
-
- | 0  | This format contains PASS/FAIL and status information for every cycle. It can be used for status analysis where expected data and measurement values are not required. This format is only available for type RCV. |
- | 1 |
-
-This format can return both received and expected data.
-
-The received data of format 1 not only contains PASS/FAIL and status information for every measurement, but also the measurement type and value.
-
-The expected data contains all the setup information of the respective event.
-
-Format 1 is available for all three types RCV, EXP, and ALL).
-
-   | |
- | rep_mode  | Specifies the reporting mode. Possible values are:
-
- | ALL  | Reports all results within the selected area. |
- | EOLY  | Reports only failed results including measurement errors (that is, too small a distance between two measurements, or type mismatch between measurement and range). This mode is not available for type EXP.  | |
- | byte_max |
-
-In the query, this parameter specifies the maximum number of bytes that may be returned. This option can be used for the reporting mode EOLY, where the size of the data that will be returned cannot be calculated beforehand.
-
-In the reply, this parameter is used to indicate the reason in case that not all the requested results can be returned:
-
- |
- |   | EOB  | The number of requested results exceeds the maximum buffer length specified with byte_max. |
- |   | EOF  | The result range of the query exceeds the length of the test. |
- |   | EOM  | This code is returned if the size of the answer exceeds the available storage capacity. |
- | pinlist  | Only DC Scale pins are considered. |
- | #spec(data) |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/118682.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：16 行 × 9 列，含嵌套表。
+> 首行（上游原文）：type | The supported types are: RCV | Requests received data only. Can only be requested if a test point pattern has been executed for DC Scale pins.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/118682.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：RCV | Requests received data only. Can only be requested if a test point pattern has been executed for DC Scale pins.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/118682.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：0 | This format contains PASS/FAIL and status information for every cycle. It can be used for status analysis where expected data and measurement values are not…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/118682.htm`
+> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：ALL | Reports all results within the selected area.
 
 The binary data that are returned. The general format is:
 
@@ -8048,321 +6056,12 @@ ERMP {map_id}, {start_unit}, {no_of_units}, {map_mode},[edges,] [MUX,] {(pinlist
 ```
 
 Parameters
- |
-
-map_id
-
- |
-
-Determines the type of Error Map for which data is to be read out. Note that the allowed values depend on the settings of the DCRM command. Options that request two bit values can only be specified if the bits parameter of DCRM is set to PFC.
-
-The possible values are:
-
- |
- |
-
- |
-
-DERR
-
- |
-
-This option provides per pin pass/fail results and full error codes per test cycle for all pins in the pinlist. The system returns values for the error codes PASS, FAIL1, FAIL2 and FAIL3 using a two-bit code as follows:
-
-PASS 00
-
-FAIL1 01
-
-FAIL2 10
-
-FAIL3 11
-
-The received data can be reconstructed from the expected data and from the error code values in the following table:
-
- |
- |
-
- |
-
- |
-
- |
-
-Expected Data
-
- |
-
-FAIL1
-
- |
-
-FAIL2
-
- |
-
-FAIL3
-
- |
- |
-
-Low
-
- |
-
-Intermediate
-
- |
-
-High
-
- |
-
-Unstable
-
- |
- |
-
-Intermediate
-
- |
-
-High
-
- |
-
-Low
-
- |
-
-Unstable
-
- |
- |
-
-High
-
- |
-
-Low
-
- |
-
-Intermediate
-
- |
-
-Unstable
-
- |
- |
-
-Unstable
-
- |
-
-Low
-
- |
-
-Intermediate
-
- |
-
-High
-
-   | |
-
- |
- |
-
- |
-
- |
-
-Note that this mode requires that the DCRM command has been set to 1,PFC, and that the map_mode parameter of ERMP? is set to F160.
-
- |
- |
-
- |
-
-EDGE
-
- |
-
-This option reads the error map and returns an overall one bit Pass/Fail result (combining the results of all selected pins) of the edges selected by DCRM. The reply will not only return the results, but will also indicate the numbers of the recorded edges.
-
-Note that this mode is only applicable if
-
-- no result combination, as specified with the sub_cycles parameter of DCRM, contains more than 1 edge,
-- the edges parameter is omitted or set to 8.
- |
- |
-
- |
-
-EOLY
-
- |
-
-The errors only error map delivers errors per pin. With this option, a two bit error code and the address of all those cycles will be returned at which errors have occurred. For more information on the error codes see the DERR option.
-
-Note that this mode requires that the DCRM command has been set to 1,PFC.
-
- |
- |
-
- |
-
-ERRM
-
- |
-
-The error map option reads the Error Map and provides a single one-bit result per test system cycle for all pins in the pinlist. The result is:
-
-0: Pass
-
-1: Fail
-
- |
- |
-
- |
-
-OVEM
-
- |
-
-This option reads the Overview Error Map and provides a single result according to the compression factor set with DCRM. The returned pass/fail result is of the same type as for the ERRM option (one bit pass/fail). This option is only allowed if if the over view Error Map was set to FCM with DCRM in the last executed test.
-
- |
- |
-
- |
-
-LMAP
-
- |
-
-This option returns the results for the specified range of label calls within a burst. It is only allowed if the overview Error Map was set to LMAP with DCRM in the last executed test.
-
- Note If you use the LMAP error map mode, `FLBL`（raw: `02.06.02.02.123_FLBL__-__Failing_LaBeLs.md`） ignores the RETC clearing flag for failures. |
- |
-
- |
-
-RECD
-
- |
-
-The receive data option reads the Error Map and provides per pin pass/fail result per test cycle for all pins in the pinlist. The returned pass/fail information is of the same type as for the ERRM option (one bit pass/fail).
-
- |
- |
-
-start_unit
-
- |
-
-For most values of map_id, this parameter defines the first recorded cycle that is to be reported. Note that depending on the selected map_id, the returned start cycle can be an earlier cycle than the requested start cycle.
-
-If map_id is set to LMAP, then start_unit specifies the first label call of a burst that is to be reported. For this map_id option, only positive numbers are allowed.
-
- |
- |
-
-no_of_units
-
- |
-
-For most values of map_id, this parameter defines the number of cycles to be reported. The range for this parameter depends on the compression factor if OVEM has been selected. The specified number of cycles is adjusted to the existing cycles. If no existing cycle is included in the specified range, an error message is issued. It is recommended that you first determine the available cycle range with the VALD? query.
-
-Note that depending on the selected map_id, the returned number of cycles can be greater than the requested number.
-
-If map_id is set to LMAP, then no_of_units specifies the number of label calls within a burst that are to be reported.
-
- |
- |
-
-map_mode
-
- |
-
-Specifies how detailed the displayed error code is to be in case of failure. Note that the parameter is ignored for all values of map_id except EDGE. Possible values are:
-
- |
- |
-
- |
-
-PF
-
- |
-
-A one bit Pass/Fail result will be returned. This value is only allowed if DCRM has been set to 8,PF.
-
- |
- |
-
- |
-
-F160
-
- |
-
-This is equivalent to PF for the map_id value EDGE.
-
- |
- |
-
-edges
-
- |
-
-Specifies the number of edges for the EDGE option of the map_id parameter.
-
- |
- |
-
-MUX
-
- |
-
-If this flag is set, and one of the specified (Pin Scale) pins is multiplexed to an HXA pin, then the reply for this pin will combine the results of all Pin Scale pins that are multiplexed to the respective HXA pin.
-
-In particular, if information on the edge level is requested, then the edges of all multiplexed Pin Scale pins will be returned interleaved as follows:
-
-r1 of PS pin 1, ..., r1 of PS pin n, r2 of PS pin 1, ..., r2 of PS pin n, ..., r8 of PS pin 1, ..., r8 of PS pin n
-
-Here, n is 2 or 4, and the order of the PS pins is that defined in the BOARDCONF section of the model file.
-
- |
- |
-
-pinlist
-
- |
-
-Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated by a comma. All pins in pinlist must be O or IO pin types. They must also all belong to the same port of the current start label.
-
-If the MUX flag is set, then each pin in the pin list should represent a different HXA pin, and all HXA pins should have the same multiplexing factor.
-
- |
- |
-
-#spec(data)
-
- |
-
-The binary data that is returned. The general format is:
-
-#Nn1n2...nNdata_stream
-
-where the digit N defines the number of the digits ni (1 鈮?i 鈮?N) that specify the length of data_stream in bytes.
-
-The structure of the data stream depends on the selected map_id value.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98597.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：23 行 × 8 列，含嵌套表。
+> 首行（上游原文）：map_id | Determines the type of Error Map for which data is to be read out. Note that the allowed values depend on the settings of the DCRM command. Options tha…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98597.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 4 列。
+> 首行（上游原文）：Expected Data | FAIL1 | FAIL2 | FAIL3
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › ERMP  -  ERror MaP）
 
@@ -8858,28 +6557,9 @@ FTSM SET, [run_to], [mask_before], [mask_after][,(ref_port)]
 
   Parameters
 
- | mode  | Lets you set the mode of the FTSM command. The mode can be: |
- | SET  | In this mode the parameters run_to, mask_before, and mask_after are set and used in the next sequencer run. The original SQGB values are saved and restored with the next FTSM CLEAR command. |
- | CLEAR  | The FTSM parameters run_to, mask_before, and mask_after will be ignored by subsequent sequencer runs. Instead, the original SQGB values are restored. Original values are the values that had been active before execution of the FTSM SET command to set a specific mask. |
- | run_to |
-
-The pattern is executed up to the specified cycle, including this cycle. This parameter cannot be used together with the mask_before or mask_after parameter except for two cases:
-
-- If the mask_before parameter is set to 0.
-- If the run_to parameter is set to N and the mask_after parameter to N + 1.
-
-The cycle number must be within the range [0 ... 2^48 - 2]
-
- |
- | mask_before |
-
-All cycles before the specified cycle are masked and do not contribute to the pass/fail result. The specified cycle is not masked.
-
-If mask_before is not a multiple of 8, cycles will be recorded starting from the next lowest multiple of 8, but those up to the specified cycle will be discarded afterwards.
-
- |
- | mask_after  | All cycles after the specified cycle are masked and do not contribute to the pass/fail result. The specified cycle is not masked. (Recording will run to the end of the test, but the cycles following the specified one will be discarded afterwards.) |
- | ref_port |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98607.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
+> 首行（上游原文）：mode | Lets you set the mode of the FTSM command. The mode can be:
 
 For a multi-port burst, this parameter specifies the reference port to which the cycle numbers of the run_to, mask_before, and mask_after parameters refer.
 
@@ -8931,11 +6611,12 @@ FTST {result_flag}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › FTST  -  Functional TeST）
 
-| exec_context  | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）. |
- | result_flag  | This is returned by the system when the functional test has finished. It can be:
-
- |   | P  | is returned if the functional test passes. |
- |   | F  | is returned if the functional test fails.  | |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98608.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 6 列，含嵌套表。
+> 首行（上游原文）：exec_context | An execution context. For more information on execution contexts see Using execution contexts.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98608.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
+> 首行（上游原文）：P | is returned if the functional test passes.
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › FTST  -  Functional TeST）
 
@@ -9200,253 +6881,12 @@ GETV {start_cycle}, {no_of_cycles}, {start_vector}, {no_of_vectors}, {seq_status
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › GETV  -  GET Vectors）
 
-|
-
-start_cycle
-
- |
-
-An integer that defines the first cycle to be reported. It is in the range 0 to 2^48 when the sequencer runs in the Start Analysis mode, or -2^48 to -1 when the sequencer runs in the Stop Analysis mode. If a positive number is entered, cycles are counted from 0 upwards. If a negative value is entered, the cycles are counted from the end of the test at -1.
-
- |
- |
-
-no_of_cycles
-
- |
-
-Defines the number of cycles to be reported. The integer must be in the range 0 to 2147483648 (2^31).
-
- |
- |
-
-pinlist
-
- |
-
-Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated with a comma.
-
- |
- |
-
-start_vector
-
- |
-
-Returns the logical number of the start vector for the instruction specified by the seq_status parameter within the test specified by the label parameter.
-
-The logical vector number counts the active vectors within one label, starting from 0. If the vectors generated by the instruction are break vectors, then -1 is returned.
-
- |
- |
-
-no_of_vectors
-
- |
-
-Returns the vector length of the instruction specified by the seq_status parameter. If the vectors generated in the requested range are break vectors, then the parameter returns -1.
-
- |
- |
-
-seq_status
-
- |
-
-Returns the current sequencer status. The status is expressed on most occasions in the form of the sequencer instruction that was used to generate a segment of the vectors in the requested cycle range. Otherwise it is expressed in terms of the current sequencer activity. Note that seq_status is not the same as the sequencer state determined by `SQST, SQST? - (SeQuencer STate)`（raw: `02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md`）. Sequencer instructions are parameters to `SQPG, SQPG? - (SeQuencer ProGramming)`（raw: `02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md`）. For additional information on sequencer programming see also `Vector Setup Commands`（raw: `02.06.07_Vector_Setup_Commands.md`）.
-
- |
- |
-
- |
-
-The seq_status parameter is required for the reconstruction of received data. Some of the values it returns signify that vectors are being generated, others inform of sequencer status changes, which cause some or no break vectors to be generated.
-
- |
- |
-
- |
-
-GENV
-
- |
-
-This is returned if GENV is the sequencer instruction that generated the parallel vectors in the reported cycle range. The number of vectors generated equals the no_of_vectors.
-
- |
- |
-
- |
-
-SRCV
-
- |
-
-This is returned if SRCV is the sequencer instruction that generates vectors in the reported cycle range.
-
-For "non-source pin" the reported cycle range is generated by the parallel vectors exactly the same way as RPTV. That means "no_of_vectors" parallel vectors are repeated for a repeating count (equal to no_of_cycles divided by no_of_vectors) to generate "no_of_cycles" cycles on the test system.
-
-For "source pin" the reported cycle range is generated by the vectors stored in the source memory. It means "no_of_cycles" vectors are generated from the source memory to produce "no_of_cycles" cycle on the test system, and the information of "no_of_vectors" has no meaning to "source pin".
-
- |
- |
-
- |
-
-RPTV
-
- |
-
-This is returned if RPTV is the sequencer instruction that generated the parallel vectors in the reported cycle range. In order to obtain the number of repetitions divide no_of_cycles by no_of_vectors.
-
-You can stop a repeat loop by hitting BREAK in the user interface. The seq_status may then still be RPTV because the BREAK occurs asynchronously to the execution of the loop.
-
- |
- |
-
- |
-
-JPPS
-
- |
-
-This is returned if the parallel vectors for the reported cycles were generated by a per-pin subroutine.
-
- |
- |
-
- |
-
-CTIM
-
- |
-
-This is returned if a change timing instruction has been issued in the queried cycle range. Each timing change generates break vectors.
-
-The actual number of break cycles depends on the test system period and will not be shown in the cycle reconstruction.
-
-Between 0 to 7 break cycles will be recorded during a CTIM instruction, the exact number depends on the number of vectors loaded previously. For instance, if the previous number of cycles was a multiple of 8, then no break vectors are issued during the reload.
-
- |
- |
-
- |
-
-CLEV
-
- |
-
-The CLEV (change levels) parameter indicates that unrecorded break cycles, due to a change of level set, exist in the specified cycle range.
-
- |
- |
-
- |
-
-BRK
-
- |
-
-This is returned if break cycles are being generated during the reported cycle range - for example, if a timed match loop is in progress. Between 0 and 7 break cycles will be recorded.
-
-Additionally, the following sequencer instructions also generate break vectors:
-
- |
-
-sequencer instruction
-
- |
-
-reported as
-
- |
- |
-
-CTIM
-
- |
-
-CTIM
-
- |
- |
-
-CLEV
-
- |
-
-CLEV
-
- |
- |
-
-WTER
-
- |
-
-BRK
-
- |
- |
-
-FLQU
-
- |
-
-BRK
-
- |
- |
-
-MEAS
-
- |
-
-BRK
-
- |
- |
-
-STOP
-
- |
-
-BRK
-
- |
-
- |
- |
-
- |
-
-MTCH
-
- |
-
-This is always returned if the test contains a counted match loop. The specified vectors are those that are associated with the MRPT instruction. The specified number of cycles is greater than 0 if the test has been executed online, and the last cycle that was generated from these vectors is not the last cycle of a block. For details see `Adjusting the junctions between match loop and surrounding label`（raw: `02.06.07.01.08.04.03.01.01_Adjusting_the_junctions_between_match_loop_and_surrounding_label.md`）.
-
-MTCH is also returned for a timed match loop, but only if the test has been executed online, and the number of cycles will always be 0.
-
- |
- |
-
-label
-
- |
-
-This parameter returns the label to which the instruction belongs.
-
- |
- |
-
-instance
-
- |
-
-This parameter is blank for all sequencer instructions.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98617.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：23 行 × 5 列，含嵌套表。
+> 首行（上游原文）：start_cycle | An integer that defines the first cycle to be reported. It is in the range 0 to 248 when the sequencer runs in the Start Analysis mode, or -248 to…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98617.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 2 列。
+> 首行（上游原文）：sequencer instruction | reported as
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › GETV  -  GET Vectors）
 
@@ -9542,29 +6982,9 @@ HREX {(pin)}, {#spec(data)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › HREX  -  High Resolution EXecution）
 
-|
-
-pinlist
-
- |
-
-Specifies the pins or pin groups for which the measurement is to be reported. A reply will be given for a pin only if the port to which it belongs is in the same sequencing group as the reference port of `HRIT`（raw: `02.06.02.02.139_HRIT__HRIT__-__High_Resolution_Interval_of_Time.md`）.
-
- |
- |
-
-pin
-
- |
-
-The pin for which an answer is given.
-
- |
- |
-
-#spec(data)
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98624.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：pinlist | Specifies the pins or pin groups for which the measurement is to be reported. A reply will be given for a pin only if the port to which it belongs is …
 
 The binary data that are returned. The general format is:
 
@@ -10527,104 +7947,9 @@ MVVA {"name"}, {type}, {"vector_label"}, {xfer_mode}, [device_cycle], [start_vec
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › MVVA -  Modify Vector VAriable）
 
-| name |
-
-Name of a vector variable.
-
- |
- | type |
-
-Type of vector variable. Currently, only the type DIGCAPT is supported.
-
- |
- | vector_label |
-
-Name of a vector label. Only main vector labels are supported.
-
- |
- | xfer_mode |
-
-Mandatory parameter that determines the transfer mode. The options available are
-
--
-
-PARA = Parallel. This is the default.
-
--
-
-SERI = Serial
-
-Note that you cannot select SERI if the vector variable is associated with more than one pin.
-
- |
- | device_cycle |
-
-Optional parameter, currently not used.
-
- |
- | start_vector_nr |
-
-Optional parameter, currently not used.
-
- |
- | capt_label |
-
-This optional parameter describes a label reference to a capture block within a vector label which has been set aside for digital capture. If this parameter is specified, the vector variable is defined with respect to this capture area. If it is not specified, the capture label references the entire pattern.
-
- |
- | init_discard |
-
-The optional parameter defines the offset relative to the start location of a capture block within the capture memory. The vectors before this offset will not be uploaded.
-
-The default value is 0.
-
- |
- | nr_vec_per_frame |
-
-The optional parameter defines the number of vectors that make up a frame.
-
- |
- | nr_vec_per_sample |
-
-The optional number of vectors that are contained in one sample.
-
-The suitable values for this parameter depend on the selected transfer mode (`xfer_mode`（raw: `02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md#_99063__r_xfer_mode`） parameter).
-
-- For transfer mode PARA, this parameter must be set to 1 (the default value).
-- For SERI, it should be set to the number of code bits (see the code_width parameter of `DIDT?`（raw: `02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md`）). The maximum value is 32.
- |
- | nr_vector_interdisc |
-
-The optional parameter defines how many vectors are discarded between two extracted vectors in step 2 of the extraction process. If set to 2, for example, the first and then every third vector will be extracted.
-
-The default value is 0, in which case no vector will be discarded in step 2.
-
- |
- | nr_frames |
-
-The optional number of frames that are to be extracted, starting from the first frame.
-
-The default value is 1.
-
- |
- | frame_interdisc |
-
-The optional number of irrelevant vectors between frames. These will be discarded in step 3 of the extraction process.
-
-The default value is 0.
-
- |
- | pinlist |
-
-The mandatory List of pins for which the vector variable is defined. The pins specified here should be contained in the pin list that was associated with the referenced vector label (vector_label parameter) by the `SDGC`（raw: `02.06.02.02.219_SDGC__SDGC__-__Setup_DiGital_Capture.md`） command. Only then will the digital data of these pins be retrieved by `DIDT?`（raw: `02.06.02.02.75_DIDT__DIDT__-__upload_DIgital_DaTa.md`）, if DIDT? is called with the actual vector variable.
-
-If the list contains more than one element, the element names must be separated with a comma.
-
-If you have set `xfer_mode`（raw: `02.06.02.02.166_MVVA_-__Modify_Vector_VAriable.md#_99063__r_xfer_mode`） to SERI, specify only one pin.
-
-The LSB of the uploaded vector variable data will be assigned to the last pin of the pin list.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/99063.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：14 行 × 2 列。
+> 首行（上游原文）：name | Name of a vector variable.
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › MVVA -  Modify Vector VAriable）
 
@@ -11196,90 +8521,9 @@ PMUR {judge}, [voltage], [current], {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PMUR   retrieve PPMU result）
 
-|
-
-type
-
- |
-
-Data type to be retrieved. The following specifiers can be set:
-
-VMUM: Returns the measurement value from the PPMU measurement (successive approximation) for the pins in pinlist.
-
-VAL: Returns the per pin measurement value or values for the pins in pinlist.
-
-PF: Per pin pass fail result for the pins in pinlist.
-
-GPF: Global pass fail result for all tested pins. The pinlist is ignored.
-
- |
- |
-
-mode
-
- |
-
-This parameter controls the behavior of PMUR? if the type parameter is set to VAL. The allowed values are:
-
- |
- |
-
- |
-
-FORCE_MEASURE
-
- |
-
-PMUR? performs a value measurement for type VAL.
-
- |
- |
-
- |
-
-USE_CACHE
-
- |
-
-PMUR? performs a value measurement only if necessary, that is, if a result for the same measurement set is not present in the cache.
-
- |
- |
-
-judge
-
- |
-
-This parameter indicates a judgment of the pin with the following specifiers:
-
-P: Pass
-
-F: Fail
-
- |
- |
-
-voltage
-
- |
-
-Measured voltage in mV. This parameter is only returned when type = VAL.
-
- |
- |
-
-current
-
- |
-
-Measured current in uA. This parameter is only returned when type = VAL.
-
- |
- |
-
-pinlist
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98687.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 3 列。
+> 首行（上游原文）：type | Data type to be retrieved. The following specifiers can be set: VMUM: Returns the measurement value from the PPMU measurement (successive approximation) …
 
 Target pin or pins to retrieve result
 
@@ -11519,9 +8763,6 @@ PRUD {"prbs_set_name"|ALL}
 
 ### Syntax（取自子主题 Commands in alphabetical order › List of commands › PSAS  -  Power Supply Accumulated Status）
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 2 列，含 colspan 与 rowspan。
-
 ```
 PSAS? [msMode ,] {mask}, {(pinlist)}
 ```
@@ -11531,55 +8772,18 @@ returns
 ```
 PSAS {status}, {(pinlist)}
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
 ```
 
 Parameters
- | msMode  | The extra parameter controls how the return value is created.
-
-The value of the parameter can be PQFC:
-
-- PQFC specified: The current query focus is respected and allows status query per site without affecting status bits of other sites.
-- PQFC not specified: The command reads (and clears) status bits of all enabled and active sites at a glance, ignoring the actual query focus.
-The parameter applies only to use of parameter mask as integer value. |
- | mask  | Integer bit mask or ALL.
-
--
-
-Integer bit mask: Integer value is used to mask out individual status bits. Each bit of mask is logically AND-ed with the corresponding bit of the DPS status. If one of the resulting bits is set, then F (Fail) is returned, otherwise P (Pass).
-
-It is used to check for an error condition. All bit positions of the status flags that should be checked, must be set to 1 in mask. If one of the selected status bits is set, then PSAS? returns F.
-
-- ALL: Hex value (hexadecimal representation of all status bits) is returned.
-For setting the integer bit mask or interpreting a returned hex value, refer to the `status`（raw: `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md#_98691__r_status`） parameter below. |
- | pinlist  | Comma separated list of DPS128/64 or XPS256 pins. The @ character can be used to read the status for all DPS pins. |
- | status  | If parameter mask is ALL, you need to translate the hex value (hexadecimal representation of the status bits) to its binary form as follows:
-
- | Bit 0 (LSB):  | Constant voltage |
- | Bit 1:  | Constant current |
- | Bit 2:  | Unregulated |
- | Bit 3:  | Overvoltage |
- | Bit 4:  | Overpower / Overcurrent / Power budget exceeded |
- | Bit 5:  | Overtemperature |
- | Bit 6:  | Voltage drop force |
- | Bit 7:  | Voltage drop return |
- | Bit 8:  | DUT board disconnect  | For the special mapping of bit 9 and 8 on UHC4 and UHC4T, refer to table `DPS flag description`（raw: `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md#_98691__s_DPS_flag_description`） below. |
- | Bit 9:  | Safety line |
- | Bit 10:  | Current limit disconnect |
- | Bit 11:  | Low headroom |
- | Bit 12:  | Current limiter protection detected |
- | Bit 13:  | Range overflow |
- | Bit 14 (MSB):  | Clamp distance too low |
- | Bit 15:  | Voltage drop force warning |
- | Bit 16:  | Voltage drop return warning  |  If parameter mask is specified as an integer bit-mask:
-
-- Pass: P
-- Fail: F
-
-Refer to table `DPS flag implementation`（raw: `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md#_98691__s_DPS_flag_implementation_710`） below for information regarding the card specific implementation of the bits or flags.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：20 行 × 5 列，含嵌套表。
+> 首行（上游原文）：msMode | The extra parameter controls how the return value is created.The value of the parameter can be PQFC: PQFC specified: The current query focus is respect…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 3 列。
+> 首行（上游原文）：Bit 0 (LSB): | Constant voltage
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691.htm`
+> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：18 行 × 6 列。
+> 首行（上游原文）：Bit | Flag | DPS128DPS64 | UHC4T | XPS256
 
 ### Description（取自子主题 Commands in alphabetical order › List of commands › PSAS  -  Power Supply Accumulated Status）
 
@@ -11799,54 +9003,9 @@ PSFC {"site_string"|ALL}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSFC  PSFC  -  Parallel Setup FoCus）
 
-|
-
-site
-
- |
-
-A single integer representing the site number.
-
- |
- |
-
-site_string
-
- |
-
-A string of characters ("0" or "1"). The length of the string corresponds to the number of the configured sites. The nth character of this string stands for site n.
-
--
-
-1 means that the site is (to be) addressed by any subsequent commands that take the setup focus into account.
-
--
-
-0 means that the site is not (to be) addressed by any subsequent commands.
-
-If some of the sites that are required to get the setup focus are not available (because they use a channel that is inactivated in the MCDIgnore file) the setup status of these sites will not be changed.
-
- |
- |
-
-ALL
-
- |
-
-In the command, this means that all sites that are available for testing (that is, do not use a channel that is inactivated in the MCDIgnore file) are to be addressed by subsequent (setup focus aware) commands.
-
-ALL is returned in the query reply, if the query is issued without the STR parameter, and if all available sites have the setup focus.
-
- |
- |
-
-STR
-
- |
-
-forces the query to return a site string even if all available sites have the setup focus. This can be used to check if some sites are not available.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98698.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：site | A single integer representing the site number.
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › PSFC  PSFC  -  Parallel Setup FoCus）
 
@@ -11932,135 +9091,14 @@ PSLR {dps_No|dps_set_id}, [vout_frc_rng], [iout_clamp_rng], [current_limiter,] [
 
 Note The PSLR command supports only DC Scale channels, except for one parameter: const_curr_check can be set for standard DPS-slot DPS's as well.
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98701.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 2 列，含 colspan。
-
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › PSLR  PSLR  -  Power Supply Level Ranges）
 
-|
-
-dps_No
-
- |
-
-Needed for non-equation-based setup.
-
-The identification number of the DPS set which you want to modify. The number must not exceed the maximum number allowed (as defined by the DSCP (Define System Control Parameter) command). Typing ALL modifies all the existing DPS sets. Typing PRM modifies the primary DPS set. Typing ACT (only for PSLV?) displays the settings of the actual enabled DPS set.
-
- |
- |
-
-dps_set_id
-
- |
-
-Needed for equation-based setup.
-
-This parameter is derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + 1`
-
- |
- |
-
-vout_frc_rng
-
- |
-
-Specifies the upper limit of the voltage range for DC Scale channels in [V].
-
-This is the maximum output voltage that can later be programmed by the `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`） command. The specified value is rounded up to the next higher range limit of the underlying hardware. The value also effects the number of required channels in case of connect_state = UNGANG (see below).
-
-This parameter does not apply to DPS-slot DPS's and to DC Scale DPS's which provide only one range. Check the `DC Scale Device Power Supplies specifications`（raw: `../02.02_Specifications/02.02.05_DC_Scale_Device_Power_Supplies_and_VI_Cards.md`） whether voltage force ranges are supported for your configuration. Use the (optional) parameter accordingly.
-
- DC Scale AVI64 and FVI16 The parameter can be changed in connected state and in disconnected state of the DPS. All other DPS The parameter may only be changed when `PSST, PSST? - (Power Supply STatus)`（raw: `02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md`） is set to OFF for the specified pins.
-
-When changing the range while in LOZ state (see `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`）), the system shortly opens the output relay and closes it afterwards.
-
- |
- |
-
-iout_clamp_rng
-
- |
-
-Specifies the maximum current for DC Scale channels in [A]. The parameter is ignored for DPS-slot DPS's.
-
-  DC Scale AVI64 and FVI16 The parameter can be changed in connected state and in disconnected state of the DPS. All other DPS The parameter may only be changed when `PSST, PSST? - (Power Supply STatus)`（raw: `02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md`） is set to OFF for the specified pins.
-
-When changing the range while in LOZ state (see `PSLV`（raw: `02.06.02.02.195_PSLV__PSLV__-__Power_Supply_LeVel.md`）), the system shortly opens the output relay and closes it afterwards.
-
- |
- |
-
-current_limiter
-
- |
-
-Enables (= protected) or disables (= unprotected) a protection against a shutdown of the tester due to excessive current consumption (see also parameter hex_value, bit 12 of the `PSAS? - (Power Supply Accumulated Status)`（raw: `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md`） query).
-
- |
- |
-
-const_curr_check
-
- |
-
-Defines whether constant current check is enabled. The parameter can be set for DPS-slot DPS's as well. Possible values are:
-
-ON Current check is enabled
-
-OFF Current check is disabled (this is the default)
-
- |
- |
-
-connect_state
-
- |
-
-Defines the connection state for DC Scale channels. This parameter may only be changed when PSST is set to OFF for the specified pins. Possible values are:
-
- |   | HIMP  | High Impedance Measurement Mode. This mode allows you to use a DC Scale card as a voltmeter. |
- |   | NORM |
-
-Normal (default)
-
- |
- |   | HDIG |
-
-Digitizer Mode
-
-This parameter is for UHC4 / UHC4T only!
-
- |
- |   | NORM_HDIG |
-
-Normal with Digitizer Mode
-
-This parameter is for UHC4 / UHC4T only!
-
- |
- |   | UNGANG |
-
-Specifies to connect only necessary channels
-
-This parameter is for all DC Scale cards.
-
-Note that on DPS128/64 and XPS256 you cannot execute a current compare on a ganged group of channels in unganged mode. Already activated comparators are silently disabled in unganged mode. A user notification (Error or warning) is omitted in this case, to avoid any interrupt in the testflow. The previous state of the comparators is automatically restored after the ganged group has been restored.
-
-See also `Using UNGANG connect state with DC Scale DPS cards`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.06.01.03_Using_the_UNGANG_connect_state_with_DC_Scale_DPS_cards.md`）.
-
-   | |
- |
-
-pinlist
-
- |
-
-pinlist must contain the names of pins previously defined by the `DFPS`（raw: `02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md`） command. If a pin is associated with a DPS-slot DPS, it is ignored. @ refers to all pins that are associated with a DC Scale channel.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98701.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：12 行 × 6 列，含嵌套表。
+> 首行（上游原文）：dps_No | Needed for non-equation-based setup. The identification number of the DPS set which you want to modify. The number must not exceed the maximum number a…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98701.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 3 列。
+> 首行（上游原文）：HIMP | High Impedance Measurement Mode. This mode allows you to use a DC Scale card as a voltmeter.
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › PSLR  PSLR  -  Power Supply Level Ranges）
 
@@ -12385,8 +9423,6 @@ RCLS {value_specifier}, {result_value}
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98716.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：15 行 × 2 列，含 colspan 与 rowspan。
 
 test
 
@@ -12646,21 +9682,9 @@ WARNING: ... - reported last DC state ... may not reflect online state.
 
 is issued in the ui_report window.
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98721.htm`
-> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
-
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98721.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
-
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98721.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
-
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › RLYC  RLYC  -  ReLaY Control）
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98721.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：11 行 × 2 列。
-
- | pin_mode |
+| pin_mode |
 
 This parameter controls per-pin relay resources. These are AC, DC and PPMU relays. pin_mode can take the following options:
 
@@ -12739,8 +9763,6 @@ When some digital channels are configured for triggering analog modules that are
 
  |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98721.htm`
-> 中**第 5 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
 
 ```
 RLYC IDLE,OFF,(pin)
@@ -12844,20 +9866,9 @@ RRSC {area-id} | OFF
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › RRSC -  Result Retention area Select for Capture）
 
-|
-
-area-id
-
- |
-
-A unique string identifying a specific result retention area.
-
- |
- |
-
-OFF
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/121743.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：area-id | A unique string identifying a specific result retention area.
 
 Enumerated parameter to switch back to normal result acquisition.
 
@@ -12930,21 +9941,7 @@ RRSU {area-id} | OFF
 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/140930.htm`
 > 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
-
- |
-
-area-id
-
- |
-
-Mandatory parameter consisting of a variable string. The quotes belong to the command language (not the syntax language) and must be specified in the call and also in the syntax description..
-
- |
- |
-
-OFF
-
- |
+> 首行（上游原文）：area-id | Mandatory parameter consisting of a variable string. The quotes belong to the command language (not the syntax language) and must be specified in the …
 
 Enumerated parameter to switch back to normal result upload focus.
 
@@ -13361,57 +10358,9 @@ SPEC {"module:resource"},["details"],[context], {answer},[(pinlist)]
 
    Parameters
 
- | module:resource  | Specifies the module and the resource about which information is to be returned. Currently, the following values are allowed: |
- | Level:Term  | Queries the termination modes that can be specified with the `TERM, TERM? - (TERMination mode)`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`） command for the specified pins and level setup. |
- | Level:Rcvrange  | Queries the minimum logic 0 threshold and the maximum logic 1 threshold that can be specified with the `RCLV, RCLV? - (ReCeive LeVel)`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`） command for the specified pins and level setup. |
- | Level:UnterminatedModes  | Query returns unterminated termination modes for the given pin or pins, see pinList parameter (these modes have no leakage). |
- | Level:Pulldown  | Query the termination modes that support a pulldown resistor. |
- | Timing:FxdlRange  | Queries the range of the fixture delay, as defined by `FXDL, FXDL? - (FiXture DeLay)`（raw: `02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md`）, for the current system. |
- | HiRes:Mode  | Queries the possible options for determining High and Low of a differential pin. One of these options must be used for param2 of the `HROL, HROL? - (High Resolution Option and Level)`（raw: `02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md`） command. |
- | pattern:testPoints |
-
-Queries the minimum number of vectors that must be inserted between any of the following two points:
-
-- Two test points,
-- Vector 0 of the containing label and the first test point,
-- A test point and the preceding instruction.
-
-This applies only to testpoints defined with `TPSE, TPSE? - (Test Point SEquence)`（raw: `02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md`）.
-
- |
- | Result:Xmodes  | Queries which x-modes are available to the result module on the current hardware. |
- | details |
-
-Specifies a string containing a comma separated list. This parameter is required for the following module/resource combination
-
-- Result:Mode: Specify `fail,8`
-- HiRs:Mode: Specify ResultVerdictMode
- |
- | context |
-
-Specifies further restrictions on the required information. This parameter is required for the following module/resource combinations:
-
-- Level:Term and Level:Rcvrange to specify the level setup.
-
-For a fixed level setup, enter a number from 1 to 99, or specify PRM to query the primary level set.
-
-For an equation based level setup, specify a level setup ID. The level setup ID is derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + level_set_no`
-
-- Timing:FxdlRange
-
-Global is currently the only allowed value.
-
- |
- | answer |
-
-Returns the requested information. In the answer for Level:Rcvrange, the minimum 0 threshold precedes the maximum 1 threshold.
-
-Note that the structure of the replies may change from release to release.
-
- |
- | pinlist  | A list of pins, separated by commas. This parameter is irrelevant for Result:Mode, but must be specified for the other queries.  |  Application Error map, level setup.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98739.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：13 行 × 3 列。
+> 首行（上游原文）：module:resource | Specifies the module and the resource about which information is to be returned. Currently, the following values are allowed:
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SPEC  -  SPECification）
 
@@ -14023,530 +10972,9 @@ SQPG {cmd_No}, {instr}, [param_1], [param_2], [memory], {(port)}
 ```
 
 Parameters
- |
-
-cmd_No
-
- |
-
-The command number. This parameter identifies the instruction within the sequencer area of the specified port. Refer to `Address instructions`（raw: `02.06.07.01.08.02_Address_instructions.md`） for further details.
-
-In the query, you can also specify ALL or two command numbers that are separated by a comma and included by quotes. If you specify ALL, SQPG? will return all the instructions in the sequencer area of all the specified ports. If you specify two numbers, all instructions in the specified range will be returned.
-
-Note that the exact meaning of this number depends on the operation mode, as defined with the `SAOF`（raw: `02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md`）command. In standard mode (SAOF ZERO), the command lines are counted from the start of the sequencer area, but in append mode (SAOF APP) they are counted from the start of the expansion previously defined with `DMAS`（raw: `02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md`）.
-
- |
- |
-
-instr
-
- |
-
-The mandatory sequencer instruction. It specifies the task that the sequencer performs:
-
- |
- | |
-
-BEND
-
- |
-
-Marks the end of a normal or a multi-port burst label.
-
- |
- | |
-
-BRKV
-
- |
-
-The "break vector" instruction generates break vectors. param_1 and param_2 must both be specified.
-
-- param_1specifies the number of break vectors to be generated. If the specified number is not directly divisible by 8, it will be rounded up to the next multiple of 8. The admitted range is from 1 to 32760.
-- param_2specifies a wait time in nanoseconds. SmarTest will generate the appropriate number of break vectors (always a multiple of 8) to fill that interval.
-
-Note that this is a lower bound; the actual wait time may be longer than the specified time. The admitted range is from 0 to 5592402.
-
-If the wait time is greater than 0, it is added to the time consumed by the break vectors of param_1.
-
- |
- | |
-
-CALL
-
- |
-
-Calls a MAIN label within a normal or a multi-port burst label. param_1 must be omitted, param_2 is required:
-
-- param_2 specifies the name of the label to be executed as part of the burst label. The label name must be enclosed in double quotes.
- |
- | |
-
-CLEV
-
- |
-
-The "Change LEVels" instruction allows you to change the level set. param_1 is required, param_2 must be omitted:
-
-- param_1 specifies the level set number. The new value has to be an integer in the range of 1 to the maximum allowed level sets as set by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command. You can also enter PRM which specifies the primary level set.
- |
- | |
-
-COGO
-
- |
-
-The "conditional go to" instruction is similar to the JMPE instruction. There are two differences:
-
-- COGO can only be used in SVEC subroutines.
-- When a subroutine is called with COGO, the called subroutine will not return to the calling subroutine, but to the lowest label in the call hierarchy that did not use COGO for its subroutine call.
-
-If, for example, the MAIN label pat1 calls the subroutine sub1 with JSUB, and sub1 calls sub2 with JMPE, then sub2 will return to sub1. But if sub2 is called with COGO from sub1, then sub2 will return to pat1.
-
-The reason for this is that the return address for a COGO call is not pushed onto the call stack. Note that this can be exploited to create an infinite loop by letting sub1 call sub2 with COGO, and letting sub2 in turn call sub1 also with COGO. By contrast, such a mutual call will lead to a stack overflow when JMPE is used for the calls.
-
-- param_1 specifies the label to jump to when the error flag is not set 1.
-- param_2 specifies the label to jump to when the error flag is set 1.
-
-The label names must be enclosed with double quotes. Both parameters can be omitted.
-
- |
- | |
-
-CTIM
-
- |
-
-The "Change TIMing" instruction allows you to change the timing set. param_1 is required, param_2 must be omitted:
-
-- param_1 specifies the timing set number. The new value has to be an integer in the range of 1 to the maximum number of allowed timing sets as set by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）command. You can also enter PRM which specifies the primary timing set.
- |
- | |
-
-FLQU
-
- |
-
-The "fill data queue" instruction inserts fill break vectors into the data queue (see also `How to prevent the data queue from running empty`（raw: `02.06.07.01.09.03_How_to_prevent_the_data_queue_from_running_empty.md`）). param_1 and param_2 must be omitted.
-
- |
- | |
-
-GENV
-
- |
-
-The "GENerate Vectors" instruction causes parallel vectors to be sent to the DUT. param_1 is required, param_2 must be omitted. Where, param_1 specifies the number of parallel vectors to be generated. The maximum number of vectors is (2^21- 1) * 8.
-
-  Note After inserting a GENV instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas. See `Inserting a sequencer instruction`（raw: `02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md`）. |
- | |
-
-JMPE
-
- |
-
-The "jump to subroutine on error" instruction lets you execute a conditional jump to an SVEC type subroutine in dependence on an internal error flag which indicates that at least one cycle has failed. You can specify two subroutines, one for the case where the flag is set, and one for the case where it is not set. Both specifications are optional.
-
-- param_1 specifies the label to jump to when the error flag is not set`1)`（raw: `#_98749__fn1`）.
-- param_2 specifies the label to jump to when the error flag is set`1)`（raw: `#_98749__fn1`）.
-
-The label names must be enclosed with double quotes. Both parameters can be omitted.
-
-The error flag is reset when the subroutine of param_2 is executed.
-
-Note that the instruction cannot be placed immediately after the last of those vectors on whose result the jump is to depend. Rather, an appropriate number of buffer vectors must be inserted between this vector and the instruction. For more information see `Calculating the buffer vectors for JMPE`（raw: `02.06.07.01.08.05.02.01_Calculating_the_buffer_cycles_for_JMPE_and_RETC__and_match_loops.md`）.
-
-Note also that this instruction is not supported by the result tools.
-
- |
- | |
-
-JPPS
-
- |
-
-The "jump to per-pin subroutine" instruction jumps to a pin specific subroutine. param_1 must be omitted, param_2 is required:
-
-- param_2 specifies the label to jump to. The label name must be enclosed with double quotes.
-
-Note that this instruction is counted as a logical vector of a pattern.
-
- |
- |   | JSUB |
-
-The "jump sub-patterns" instruction jumps to a vector type subroutine or a scan subroutine.
-
-Note that this instruction is not allowed in scan subroutines.
-
- |
- | |
-
-JTIN
-
- |
-
-This instruction starts or stops jitter injection on a Smart Scale port for all port pins that are included in the primary jitter set. It overrules the global configuration of the jitter loop (as defined by the MODE property of JSCF), but only within the test in which it is issued. If no primary jitter set exists, the instruction is ignored.
-
-param_1 is required, param_2 must be omitted:
-
-- The possible values for param_1 are START and STOP.
-
-Note that this instruction is not available for the PSSL FASTDIFF mode.
-
- |
- | |
-
-LBGN
-
- |
-
-The "loop begin" instruction specifies the start position of either a counted or an endless loop. The software uses different parameters to differentiate between the two loop structures.
-
-For an endless loop, param_1 can be either omitted or set to 0.
-
-For a counted loop, param_1 must be an integer in the range of 1 to 33554432 (this is the restriction imposed by the hardware). If this maximum is exceeded, the command fails with an error message.
-
-For both cases, param_2 must be omitted.
-
- Note The only instructions that are allowed to be used within a counted loop are GENV, SRCV, RPTV, and NOP. Other instructions will report errors at the proper time. There are no changes to the existing endless loop structure. Note Whenever possible, use RPTV instead of a counted loop. |
- | |
-
-LEND
-
- |
-
-The "Loop END" instruction specifies the end of an endless loop. param_1 and param_2 must be omitted.
-
- |
- | |
-
-LPBK
-
- |
-
-This instruction starts a SmartLoop™test. param_1 and param_2 are both optional:
-
-- param_1 defines the number of cycles for the SmartLoop™test; this must be a multiple of 8. The maximum is 2^31-1.
-- param_2 is an optional multiplier for param_1; the maximum is 2^12-1. The point of this construction is to increase the maximum number of cycles above the maximum value of the individual parameters.
-
-If you omit both parameters, then the behavior of the SmartLoop™test depends on whether ports without loopback pins exist in the start label. If so, the SmartLoop™ test will run until all ports without loopback pins have finished their test. If all pins are loopback pins, the test will start, but stop at once.
-
-Note that a pattern that contains a LPBK instruction must not contain any other instruction except BRKV, LBGN/LEND, and TMUA.
-
- |
- | |
-
-MACT
-
- |
-
-The "match activate" instruction specifies the start of a counted match loop.
-
-param_1 specifies the number of loops after which the whole test fails. The maximum is 2^21 - 1.
-
-The MACT instruction features a second, optional parameter:
-
-- CONTINUE: This option keeps the test going on even if the loop fails.
-- TIL_FAIL_STOP: The loop is to be repeated until an iteration fails. When the maximum loop count is reached, the test program stops.
-- TIL_FAIL_CONT: The loop is to be repeated until an iteration fails. When the maximum loop count is reached, the test program continues after the loop has been completely executed. This behavior is a combination of both TIL_FAIL_STOP and CONTINUE.
-  Note The two values TIL_FAIL_STOP and TIL_FAIL_CONT are valid for Smart Scale cards only. |
- | |
-
-MBGN
-
- |
-
-The "Match BeGiN" instruction specifies the start position of a timed (old style) match loop. param_1 and param_2 must be omitted. See Generating a Match Loop below.
-
- |
- | |
-
-MEAS
-
- |
-
-The "execute MEASurement set" instruction executes a PPMU measurement set. The measurement set must have been downloaded with the `MSET`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md`） command. param_1 and param_2 are both required.
-
-- param_1 specifies the number of the PPMU DC set to which the measurement set belongs.
-- param_2 specifies the number of the measurement set.
- |
- | |
-
-MEND
-
- |
-
-The "Match END" instruction specifies the end of a timed (old style) match loop. param_1 and param_2 must be omitted.
-
- |
- | |
-
-MJPE
-
- |
-
-The "Match Jump on Error" instruction tells the sequencer to jump out of a timed (old style) match loop when a compare match is found. param_1 and param_2 must be omitted.
-
- |
- | |
-
-MRPT
-
- |
-
-The "match repeat" instruction marks the end of the compare vectors and the start of the dummy vectors for a counted match loop. It specifies the number of dummy vectors. It also causes the sequencer to wait when an error is detected in the match loop. See `Counted match loops`（raw: `02.06.07.01.08.04.03.01_Counted_match_loops.md`）. param_1 is required, param_2 must be omitted:
-
-- param_1 is the number of vectors. The maximum is (2^21 - 1) * 8 for SM memory type, and (2^21 - 1) * 7 for VM memory type.
-
-Note that after inserting a MRPT instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas.
-
-Note that this instruction is counted as a logical vector of a pattern.
-
- |
- | |
-
-NOP
-
- |
-
-The "no operation" instruction performs no operation on the DUT (but increases the instruction density for the data queue. For more information refer to `Managing the data queue`（raw: `02.06.07.01.09_Managing_the_data_queue.md`）). param_1 and param_2 must be omitted.
-
- |
- | |
-
-PRBS
-
- |
-
-This instruction starts a PRBS test. param_1 is required, param_2 is optional:
-
-- param_1 defines the number of cycles for the PRBS test; the maximum is 2^31-1.
-- param_2 is an optional multiplier for param_1; the maximum is 2^12-1. The point of this construction is to increase the maximum number of cycles above the maximum value of the individual parameters.
-
-Note that a pattern that contains a PRBS instruction must not contain any other instruction except BRKV, LBGN/LEND, and TMUA.
-
- |
- | |
-
-RETC
-
- |
-
-The "return conditionally" instruction returns from an SVEC type subroutine to a higher level SVEC subroutine or the main program in dependence of an internal error flag which is set when at least one cycle has failed. param_1 and param_2 are both required.
-
-- param_1 controls the dependency on the error flag. If it is set to 0, the return will only be executed if no error occurred so far. If it is set to 1, the return will only be executed if an error occurred.
-- param_2 can be used to reset the error flag. If the parameter is set to 0, the flag will be reset. If the parameter is set to 1, the flag will left in its current state.
-
-Note that this instruction is not supported by the result tools.
-
- Note If you use the LMAP error map mode, `FLBL`（raw: `02.06.02.02.123_FLBL__-__Failing_LaBeLs.md`） ignores the RETC clearing flag for failures. Note If you use RETC to reduce test time by aborting a sequencer run early after checking for a failing DUT response, consider the following:
-
-When not all sites are enabled or activated (means, they are masked), see `The states of the sites`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.27.01_The_states_of_the_sites.md`）, and site match is set to ON, the masked sites will not be aware of the abort condition. Instead, the overall execution time depend on the maximum pattern length. In such scenarios, use the `Pattern per site`（raw: `../../03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.03.02.02_Pattern_per_site__Label_per_site.md`） feature to assign a dummy label for disabled sites. This ensures that the sequencer run get stopped as soon as all enabled sites have met the RETC condition.
-
- |
- |   | RGOP  | The "register operation" instruction performs simple arithmetic operations. It can be used, for instance, to ease the branch reconstruction for a `Sequencer‑controlled search with cogo`（raw: `../02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md`）.
-
-param_1 is required, param_2 must be omitted.
-
-param_1 species the action as one of the following options:
-
-- RESET checks that the register value is 0. If not, the test fails. The first instruction of a new search has to be an RGOP RESET.
-- INC adds 1 to the current value of the register. The maximum count is 2^32-1.
-- INC_LOWER is the same as INC but with a different overflow check, to be used to run the first of two counts in the same sequencer run, together with INC_UPPER (not INC). Must not be used after a call with INC_UPPER. The maximum count is 2^16-1
-- INC_UPPER is to be used as the second count (works by adding 2^16 to the current value of the register).
-- SHL shifts the current value of the register one bit to the left and set bit 0 of the register to 0.
-
-The RGOP instruction cannot be used in the same sequencer run as a `match loop`（raw: `02.06.07.01.08.04.03_Match_loops.md`）, nor can you do interleaved or sequential COGO searches with this approach.
-
-The result is retrieved with an RGOV? query.
-
- |
- | |
-
-RPTJ
-
- |
-
-The "repeat jump" instruction repeats the next JSUB instruction param_1 times. The JSUB instruction must follow the RPTJ instruction immediately. param_1 is required, param_2 must be omitted:
-
-- param_1 specifies the number of times the next JSUB instruction is to be repeated. The value has to be an integer in the range of 2 to 2^19 - 1.
-
-Note that this instruction is counted as a logical vector of a pattern.
-
- |
- | |
-
-RPTV
-
- |
-
-The "repeat vector" instruction repeats a sequence of vectors. param_1 and param_2 are both required:
-
-- param_1 specifies the number of vectors to be repeated. The maximum is (2^21- 1) * 8.
-- param_2 specifies the number of repetitions. The maximum value depends on whether param_1 exceeds the word length of 8. If it does not, the maximum is 2^24 - 8. If it does, the maximum number is 2^18.
- Note After inserting an RPTV instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas. See `Inserting a sequencer instruction`（raw: `02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md`）. |
- | |
-
-RSJP
-
- |
-
-The "Return from a Subroutine Jump" instruction returns from an SJMP type subroutine. param_1 and param_2 must be omitted.
-
-This instruction is allowed for downward compatibility only. It should not be used in new applications.
-
- |
- | |
-
-RSUB
-
- |
-
-The "return from a vector subroutine" instruction returns from an SVEC type subroutine to a higher level SVEC subroutine or the main program. param_1 and param_2 must both be omitted.
-
- |
- | |
-
-SRCV
-
- |
-
-The "SouRCe Vectors" instruction marks the start of a source vector block. It can only be used in connection with the SSRC instruction. Within such a block, the vectors of the source pins are read from the DSCR label referenced by the SSRC instruction. The vectors for the other non-source pins are specified in the actual label. param_1 and param_2 are both required:
-
-- param_1 specifies the size of the parallel vector sequence to be repeated on non-source pins. The range is 1 to 65535.
-- param_2 specifies how often the sequence is to be repeated. The range is also 1 to 65535.
-
-The length of a source vector block is determined by the length of the corresponding source vector section in the DSCR label. Accordingly, param_1 * param_2 must equal the length of this section. Otherwise, the parameters are only relevant to the non-DSM pins: they define the length of the vector block that is to be executed on the non-source pins, and how often this block is to be repeated.
-
-Note that this instruction is counted as a logical vector of a pattern.
-
- |
- | |
-
-SSRC
-
- |
-
-The "Start SouRCe" instruction specifies the label (of type DSRC) that contains the vectors for the source pins. param_1 must be omitted, param_2 is required:
-
-- param_2 must specify a valid DSRC label name enclosed by doubled quotes.
-
-The source pins are defined by the port of the DSRC label. Refer to the SRCV instruction below.
-
- |
- | |
-
-STOP
-
- |
-
-The "stop test" instruction programs the sequencer to stop the label. This instruction must be present in each label of type MAIN. param_1 and param_2 must both be omitted.
-
- |
- | |
-
-STSA
-
- |
-
-The "SeT Scan vector Address" instruction is one of the two STxA instructions that form a label header. It must be present in every label of type MAIN. param_1 and param_2 must be omitted.
-
- |
- | |
-
-STVA
-
- |
-
-The "SeT parallel Vector Address" instruction is one of the two STxA instructions that form a label header. It must be present in every label of types MAIN and SVEC. param_2 is required, param_1 must be omitted:
-
-- param_2 specifies the start address of the port specific vector area segments that are associated with the label. The address must be a multiple of 8.
-
-You can always use param_2 to specify the address, but SmarTest stores and displays the address in param_2 only if the vector setup file contains patterns for user defined ports. In all other cases it uses param_1.
-
- |
- | |
-
-TMUA
-
- |
-
-This instruction arms the TMU per pin for all pins of the pattern port. param_1 and param_2 must both be omitted.
-
-Not supported for Pin Scale 5000 cards.
-
- |
- | |
-
-WAIT
-
- |
-
-The WAIT instruction causes the sequencer to create a number of break vectors which approximates as closely as possible a specified number of nano seconds.
-
-param_1 is required, param_2 must be omitted:
-
-- param_1specifies the required number of nano seconds. The admitted range is from 0 to 5592402.
- |
- | |
-
-WTER
-
- |
-
-The "WaiT on ERror" instruction programs the sequencer to wait on encountering an error within a timed (old style) match loop. param_1 and param_2 must be omitted.
-
- |
- |
-
- |
-
-XACT
-
- |
-
-The "eXecute ACTion" instruction executes a DC waveform. param_2 is required, param_1 must be omitted:
-
-- param_2 specifies the name of the DC waveform to be executed. The waveform identified by this name must have been defined with the DFTD command within a test data collection which has the same name as the pattern in which XACT is used.
- |
- |
-
-param_1
-
- |
-
-The role of this optional parameter depends on the instruction specified for the instr parameter. See the descriptions of the individual instructions.
-
- |
- |
-
-param_2
-
- |
-
-The role of this optional parameter depends on the instruction specified for the instr parameter. See the descriptions of the individual instructions.
-
- |
- |
-
-memory
-
- |
-
-The optional parameter defines the location of the vectors. Possible values are:
-
-- SM: Sequencer memory. This is the default.
-- SHMEM: With this option different sites for the same pin share their vector areas, or at least always use the same vector data. For more information see `Selecting the memory type`（raw: `02.06.07.01.04.01_Selecting_the_memory_type.md`）.
- |
- |
-
-port
-
- |
-
-The mandatory parameter defines the name of the port whose sequencer area is to be modified. Specify @ for the default port to which all pins belong.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98749.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：44 行 × 3 列。
+> 首行（上游原文）：cmd_No | The command number. This parameter identifies the instruction within the sequencer area of the specified port. Refer to Address instructions for furthe…
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › SQPG  SQPG  -  SeQuencer ProGramming）
 
@@ -15028,94 +11456,9 @@ SSTR {DET},{(pin)},{#spec(data)}}
 ```
 
 Parameters
- |
-
-ALL_SITES
-
- |
-
-This parameter causes SSTR? to return a global result for all sites. If it is omitted, the result for that site is returned that currently has the result focus.
-
- |
- |
-
-GLO
-
- |
-
-One global result is returned for all buffers of the pin list. The result is calculated by combining first all cycle results of the individual buffers with AND, and then the combined buffer results of all buffers again with AND. PASS will be returned if the final result is 1.
-
-This option must be selected if PASS is represented by 1 and FAIL by 0 in all buffer pins.
-
- |
- |
-
-INV
-
- |
-
-One global result is returned for all pins of the pin list. The result is calculated in 3 steps:
-
-- The cycle results of the individual channels are inverted.
-- The inverted cycle results are combined with AND.
-- The global results of the individual channels are again combined with AND
-
-PASS will be returned if the final result is 1.
-
-This option must be selected if PASS is represented by 0 and FAIL by 1 in all buffer pins. A possible application is that one global result is to be returned for one or more global buffers.
-
- |
- |
-
-DET
-
- |
-
-The cycle results of the specified buffer pin are returned as they are stored in the buffer.
-
- |
- |
-
-pinlist
-
- |
-
-The buffer pins whose results are to be accumulated. More than one pin can only specified for options GLO and INV.
-
- |
- |
-
-pin
-
- |
-
-If DET is specified as the first parameter, only one pin may be specified.
-
- |
- |
-
-glob_res
-
- |
-
-The global result that is returned for options GLO and INV. "P" signifies PASS, and "F" signifies FAIL.
-
- |
- |
-
-#spec(data)
-
- |
-
-The binary data that is returned for option DET. It has a header which specifies the length of the data in the following format:
-
-#Nn1n2n...nNdata_stream,
-
-where the digit N defines the number of the digits ni (1 鈮?i 鈮?N) that specify the length of data_stream in bytes.
-
-If you record 8 results per cycle (every edge is recorded) then one bit represents one edge. If only one global result per cycle is recorded, two bits represent one cycle.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98759.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 2 列。
+> 首行（上游原文）：ALL_SITES | This parameter causes SSTR? to return a global result for all sites. If it is omitted, the result for that site is returned that currently has the r…
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › SSTR  -  Source Synchronous Testing  Result query）
 
@@ -15854,159 +12197,9 @@ TPSE {testdata_name}, {label_type}, {label_name}, REPLACE, {(pinlist)}, [#spec(t
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TPSE  TPSE  -  Test Point SEquence）
 
-|
-
-testdata_name
-
- |
-
-Specifies the test data collection from which the test events are to be selected. The collection must have been defined with `DFTD`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md`）.
-
- |
- |
-
-labelType
-
- |
-
-The following types are supported:
-
- |
- |
-
- |
-
-MAIN
-
- |
-
-requires a label name defined with `SQLB`（raw: `02.06.02.02.236_SQLB__SQLB__-__SeQuencer_LaBel_definition.md`）.
-
- |
- |
-
- |
-
-SVEC
-
- |
-
-requires a label name defined with SQLB.
-
- |
- |
-
- |
-
-PPSQ
-
- |
-
-Per pin subroutine defined with `DPPS`（raw: `02.06.02.02.81_DPPS__DPPS__-__Define_Per_Pin_Subroutine_label.md`）. This type is only used for memory tests. You should not define a test point sequence for a per pin subroutine manually. Note also that the anchor of a per pin subroutine is an address, not a vector number.
-
- |
- |
-
- |
-
-ALL
-
- |
-
-reports the test points of all label types (query only).
-
- |
- |
-
-label_name
-
- |
-
-The name of the pattern to which the test point sequence belongs.
-
- |
- |
-
- |
-
-ALL
-
- |
-
-returns the test points of all labels (query only)
-
- |
- |
-
-edit_mode
-
- |
-
-Possible modes are:
-
-- REPLACE: All existing test point definitions are replaced with the new definitions.
-- UPDATE: Existing test points can be modified, that is, you can associate a different test event with the given vector position. You cannot add new test points or remove existing ones.
-- INSERT: Additional test points can be defined. The existing setups are unchanged. Existing test points cannot be replaced.
-- DELETE: All specified test points are removed. If a group does no longer contain a test point, it will be removed as well.
-
-The TPSE? query always responds with REPLACE mode.
-
- |
- |
-
-anchor_number
-
- |
-
-Selects a single test point for the query. In the command, the anchor numbers are specified within the XML code (anchor attribute of the tp element).
-
- |
- |
-
-pinlist
-
- |
-
-Only pins with test point capability (DC Scale DPS32 and VI32 pins) are considered.
-
- |
- |
-
-#spec(test_points)
-
- |
-
-The binary data stream that contains the test points. The general format is:
-
-`#`Nn1n2n...nNdata_stream
-
-where the digit N defines the number of the digits ni (1 鈮?i鈮?N) that specify the length of data_stream in bytes.
-
-The general format of the XML string is explained above. The two attributes of the tp element must take the following values:
-
- |
- |
-
- |
-
-anchor
-
- |
-
-The value of this attribute must be a logical vector number of the specified pattern. This is the vector at which the test point becomes active. At least 32 vectors must be generated before the first anchor and between any two anchors. These vectors are needed to download data to the hardware.
-
- |
- |
-
- |
-
-td
-
- |
-
-The value of this attribute must be the identifier of a td element in the test data block specified with the testdata_name parameter.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/99875.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：14 行 × 3 列。
+> 首行（上游原文）：testdata_name | Specifies the test data collection from which the test events are to be selected. The collection must have been defined with DFTD.
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TPSE  TPSE  -  Test Point SEquence）
 
@@ -16294,108 +12487,14 @@ TSRC [shotcount],{result_type}, {successinfo}, {(pin)}
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSRC  -  Time Stamping Results Computed）
 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/141847.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
-
- | sitesToBeDone |
-
-An extra string parameter, defining the sites to be uploaded. i.e. "01110011".
-
-This option needs parameter `site_selector`（raw: `02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md#_141847__r_site_selector`） to be set to ALL.
-
- |
- | measurement_id |
-
-The optional number of the measurement block (identified by the ARM keyword within a waveform that is executed in the pattern) for which the computation is performed. If no measurement block is specified, all measurement blocks will be computed.
-
- |
- | result_type |
-
-The mandatory result type. Currently, the only supported result type is PERIOD.
-
- |
- | first_sample |
-
-NOT USED
-
- |
- | no_of_samples |
-
-NOT USED
-
- |
- | execution_control |
-
-With this extra parameter, you can modify the default action sequence of TSRC?. Possible values are:
-
- | NOT_FINISHED |
-
-Default. All three steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it issues warning and continues to analyze and compute the available samples.
-
- |
- | FINISHED |
-
-Completeness check will be skipped. TSRC? assumes that all required samples have been taken. It will analyze and compute the available samples. It starts from step 2, above.
-
- |
- | ANALYZED |
-
-Samples will not be analyzed. TSRC? assumes that all required samples were taken and analyzed in a previous step. It computes the available samples. It starts from step 3, above.
-
-   | |
- | site_selector |
-
-This extra query parameter allows you to compute the results for a specific site or all sites. Possible values are:
-
- | ONE |
-
-Only the values of the site which has the query focus are processed (the default).
-
- |
- | ALL |
-
-The values of all sites or the sites defined by parameter `sitesToBeDone`（raw: `02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md#_141847__r_sitesToBeDone`） are processed.
-
- |
- | <N> |
-
-The results of the site with this number are processed.
-
-   | |
- | resultAreaName |
-
-The extra parameter defines the name of the result area from which the samples should be computed. If this parameter is omitted, the default result area is used.
-
- |
- | pinlist |
-
-The mandatory list of pins for which the time stamps are to be computed.
-
- |
- | pin |
-
-The pin to which the computed results belong.
-
- |
- | shotcount |
-
-The parameter returns the number of shots that have been computed.
-
- |
- | successinfo |
-
-The parameter indicates whether the computation succeeded.
-
-Possible return values:
-
--
-
-SUCCEEDED
-
--
-
-FAILED.
-
- |
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：16 行 × 6 列，含嵌套表。
+> 首行（上游原文）：sitesToBeDone | An extra string parameter, defining the sites to be uploaded. i.e. "01110011". This option needs parameter site_selector to be set to ALL.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/141847.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：NOT_FINISHED | Default. All three steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it issu…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/141847.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ONE | Only the values of the site which has the query focus are processed (the default).
 
 ### Syntax（取自子主题 Commands in alphabetical order › List of commands › TSRS  -  TMU Set ReSults）
 
@@ -16411,141 +12510,15 @@ TSRS [measurement_id], [(sitenumber),] {result_type}, [sample_id|aggregation_typ
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSRS  -  TMU Set ReSults）
 
-| sitesToBeDone |
-
-An extra string parameter, defining the sites to be uploaded. i.e. "01110011".
-
-This option needs parameter `site_selector`（raw: `02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md#_125500__r_site_selector`） to be set to ALL.
-
- |
- | measurement_id |
-
-The optional number of the measurement block (identified by the ARM keyword within a waveform that is executed in the pattern) for which periods or statistics to be returned. If no measurement block is specified, the periods or statistics of all measurement blocks are returned.
-
- |
- | result_type |
-
-The mandatory result type. Currently, the only supported result type is PERIOD.
-
- |
- | first_sample |
-
-The optional parameter specifies the first sample in the query (TSRS?) for which the period is to be returned. In the return (TSRS) of the query it specifies the first sample that is returned if the mode is set to ON. Samples are counted from 0.
-
- |
- | no_of_samples |
-
-The optional parameter defines in the query (TSRS?) the number of samples for which the periods are to be returned. In the return (TSRS) of the query it specifies the number of samples that are returned if the mode is set to ON.
-
-Depending on the value of parameter first_sample, fewer samples than specified may be returned. For example, if there are 9 samples in total, first_sample is 7 and no_of_samples is 4, only two samples are returned (the last two), not four.
-
- |
- | execution_control |
-
-With this extra parameter, you can modify the default action sequence of TSRS?. Possible values are:
-
- | NOT_FINISHED |
-
-All four steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it will continue to analyze,compute and upload the available samples.
-
-This is the default value.
-
- |
- | FINISHED  | Completeness check will be skipped. TSRS? assumes that all required samples have been taken. It will analyze, compute, and upload the available samples. It starts from step 2. |
- | ANALYZED  | Samples will not be analyzed. TSRS? assumes that all required samples were taken and analyzed in a previous step. It computes the available samples. It starts from step 3. |
- | COMPUTED  | Samples will not be computed. TSRS? assumes that all required samples were taken, analyzed, and computed in a previous step. It retrieves the periods and their statistics to the system controller. It starts from step 4.  | |
- | site_selector |
-
-This extra query parameter allows you to request the results for all sites or a specific site. Possible values:
-
- | ONE |
-
-Only the values of the site which has the query focus are processed (the default).
-
- |
- | ALL |
-
-The values of all sites or the sites defined by parameter `sitesToBeDone`（raw: `02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md#_125500__r_sitesToBeDone`） are processed.
-
- |
- | <N> |
-
-The results of the site with this number are processed.
-
-   | |
- | resultAreaName |
-
-The extra parameter defines the name of the result area from which the samples should be retrieved. If this parameter is omitted, the default result area is used.
-
- |
- | mode  | This extra parameter controls the format of the reply when a range is specified with parameters first_sample and no_of_samples:
-
-- If mode is set to OFF, a separate line is returned for every period value within the range.
-- If mode is set to ON, the values are returned in a binary format in one line.
-OFF is the default value. |
- | pinlist  | The mandatory list of pins for which the time stamps are to be returned. |
- | sitenumber |
-
-Extra reply parameter. The site the samples belong to if the site_selector parameter has been set to ALL.
-
- |
- | sample_id |
-
-This reply parameter identifies the sample. It is only returned if a range was specified in the query and mode was set to OFF.
-
- |
- | aggregation_type |
-
-This reply parameter specifies an aggregation type. If a range was specified in the query, TSRS? returns not only the individual period values but also a number of statistics. These are:
-
--
-
-STDDEV (standard deviation)
-
--
-
-MEAN
-
--
-
-MAX
-
--
-
-MIN
-
--
-
-MEDIAN
-
--
-
-PP (peak to peak), the PP is same as MINMAX in the TMU ORE firmware.
-
- |
- | result |
-
-The reply parameter specifies the period related to sample n or a value of the descriptive statistics. The unit is seconds.
-
-It is not returned if a range was specified in the query and mode was set to ON.
-
- |
- | pin |
-
-The pin to which the returned results belong.
-
- |
- | #spec(raw_results) |
-
-The binary data that are returned if a range is specified with parameters first_sample and no_of_samples, and parameter mode is set to ON. The general format is:
-
-`n1n2...nNdata_stream`
-
-Where the decimal digit N defines the number of the decimal digits ni (1 = i = N) that specify the length of data_stream in bytes.
-
-The values are specified as seconds.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125500.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：NOT_FINISHED | All four steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it will continue …
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125500.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ONE | Only the values of the site which has the query focus are processed (the default).
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125500.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：21 行 × 6 列，含嵌套表。
+> 首行（上游原文）：sitesToBeDone | An extra string parameter, defining the sites to be uploaded. i.e. "01110011". This option needs parameter site_selector to be set to ALL.
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSRS  -  TMU Set ReSults）
 
@@ -16600,131 +12573,15 @@ TSRW [shot], [measurement_id], [first_sample], [no_of_samples], [(sitenumber),] 
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSRW  -  TMU Set RaW results）
 
-| sitesToBeDone |
-
-An extra string parameter, defining the sites to be uploaded. i.e. "01110011".
-
-This option needs parameter `site_selector`（raw: `02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md#_125519__r_site_selector`） to be set to ALL.
-
- |
- | shot |
-
-The optional parameter specifies the number of the shot for which the time stamps are to be uploaded. If no shot number is specified, the time stamps for all shots are uploaded.
-
- |
- | measurement_id |
-
-The optional number of the measurement block (identified by the ARM keyword within a waveform that is executed in the pattern) from which time stamps are to be uploaded. If no measurement block is specified, results from all measurement blocks are uploaded.
-
- |
- | first_sample |
-
-The optional parameter specifies the first sample to be uploaded. Samples are counted from 0.
-
- |
- | no_of_samples |
-
-The optional parameter specifies the number of samples that are to be uploaded. Depending on the value of parameter first_sample, fewer samples than specified may be uploaded. For example, if there are nine samples in total, first_sample is 7 and no_of_samples is 4, only two samples are returned (the last two), not four.
-
- |
- | execution_control |
-
-With this extra parameter, you can modify the default actions sequence of TSRW?. Possible values are.
-
- |
-
-NOT_FINISHED
-
- |
-
-All three steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it issues a warning and continues to analyze and upload the available samples.
-
-This is the default value.
-
- |
- | FINISHED  | The completeness check will be skipped. TSRW? assumes that all required samples have been taken. It will analyze and upload the available samples. It starts from step 2, above. |
- | ANALYZED  | Samples will not be analyzed. TSRW? assumes that all required samples were taken and analyzed in a previous step. It uploads the available samples. It starts from step 3, above.  | |
- | site_selector |
-
-This extra query parameter allows you to request the results for a specific site or all sites. Possible values:
-
- | ONE |
-
-Only the values of the site which has the query focus are uploaded (the default).
-
- |
- | ALL |
-
-The values of all sites or the sites defined by parameter `sitesToBeDone`（raw: `02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md#_125519__r_sitesToBeDone`） are computed.
-
- |
- | <N> |
-
-The results of the site with this number are computed.
-
-   | |
- | resultAreaName |
-
-The extra parameter defines the name of the result area from which the samples should be retrieved. If this parameter is omitted the default result area is used.
-
- |
- | mode |
-
-This extra parameter has two functions. It defines the format of the reply, and it controls the behavior of the TMU if the distance of a sample from the arming point exceeds the maximum of about 15 s.
-
-By default, there will be an internal wrap-around in this case, and the following time stamps will no longer be correct. You can choose to let the software correct the results, but this will increase the testing time.
-
-There are four options:
-
--
-
-OFF
-
-The time stamps are returned in ASCII format. Values that exceed the maximum distance from the arming point are wrapped around.
-
--
-
-ON
-
-The time stamps are returned in binary format. Values that exceed the maximum distance from the arming point are wrapped around.
-
--
-
-LTOFF
-
-The time stamps are returned in ASCII format. Values that exceed the maximum distance from the arming point are corrected.
-
--
-
-LTON
-
-The time stamps are returned in binary format. Values that exceed the maximum distance from the arming point are corrected.
-
- |
- | pinlist |
-
-The mandatory list of pins for which the time stamps are to be uploaded.
-
- |
- | pin |
-
-The pin to which the uploaded results belong.
-
- |
- | sitenumber |
-
-Extra reply parameter. The site to which the samples belong.
-
- |
- | #spec(raw_result) |
-
-The binary data that are returned. The general format is:
-
-`n1n2...nNdata_stream`
-
-Where the decimal digit N defines the number of the decimal digits ni (1 = i = N) that specify the length of data_stream in bytes.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125519.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：NOT_FINISHED | All three steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it issues a warn…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125519.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ONE | Only the values of the site which has the query focus are uploaded (the default).
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125519.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 6 列，含嵌套表。
+> 首行（上游原文）：sitesToBeDone | An extra string parameter, defining the sites to be uploaded. i.e. "01110011". This option needs parameter site_selector to be set to ALL.
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSRW  -  TMU Set RaW results）
 
@@ -16750,170 +12607,9 @@ TSST {test_result}, {test_status}, {(pinlist)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › TSST  -  TeSt STatus）
 
-|
-
-test_result_mask
-
- |
-
-In order to mask some of the result bits, enter an integer not greater than 2047. The bits of the corresponding binary number will be combined with the respective bits of the result bytes by AND.
-
- |
-
-ALL
-
- |
-
-By this option, the information of the result bytes is returned as an integer. This integer must be translated into a binary number and then be interpreted as follows:
-
-- Bit 0 (LSB): Upper limit
-
-Set to 1 if all these conditions are true for at least one measurement:
-
-  - A high limit is both specified and activated with `DFTD`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md`）.
-  - The measurement is not masked with DFTD.
-  - The measurement value was greater than the high limit.
-
-- Bit 1: Lower limit
-
-Set to 1 if all these conditions are true for at least one measurement:
-
-  - A low limit is both specified and activated with `DFTD`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md`）.
-  - The measurement is not masked with DFTD.
-  - The measurement value was smaller than the low limit.
-
-- Bit 2: Global status
-
-Set to 1 if at least one of the bits 3, 4, 5, 6, 7, 9, 10 is set to 1.
-
-- Bit 3: Low clamp violation
-
-Set to 1 if all these conditions are true for at least one measurement:
-
-  - Checking low clamp violations is activated with `DFTD`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md`）.
-  - The measurement is not masked with DFTD.
-  - The low clamp was violated (status bit 0 is set to 1).
-
-- Bit 4: High clamp violation
-
-Set to 1 if all these conditions are true for at least one measurement:
-
-  - Checking high clamp violations is activated with `DFTD`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md`）.
-  - The measurement is not masked with DFTD.
-  - The high clamp was violated (status bit 1 is set to 1).
-
-- Bit 5: Range underflow
-
-Set to 1 if all these conditions are true for at least one measurement:
-
-  - Checking measurement ranges is activated with `DFTD`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md`）.
-  - The measurement is not masked with DFTD.
-  - An underflow occurred (status bit 4 is set to 1).
-
-- Bit 6: Range overflow
-
-Set to 1 if all these conditions are true for at least one measurement:
-
-  - Checking measurement ranges is activated with `DFTD`（raw: `02.06.02.02.68_DFTD__DFTD___DeFine_Test_Data.md`）.
-  - The measurement is not masked with DFTD.
-  - An overflow occurred (status bit 5 is set to 1).
-
-- Bit 7: Distance too small or internal buffer overflow
-
-Set to 1 if the distance between two consecutive test points (for example, between definition of the range and measurement) is too small, and measurements were interrupted.
-
-AVI64 and FVI16 only: The bit is also set to 1 in case too many commands were issued causing internal buffer overflow.
-
-- Bit 8: Lost measurements
-
-Set to 1 if not all measurement results were recorded because the test stopped earlier than expected.
-
-- Bit 9: Type mismatch
-
-Set to 1 if at least one measurement has been executed in a range that does not match the requested measurement type.
-
-- Bit 10: Wrong hardware state
-
-Set to 1 if the hardware switched into an unexpected state that caused the test to fail (for example, a disconnect for safety reasons). Detailed information can be queried with `PSAS?`（raw: `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md`）.
-
-   | |
- |
-
-test_status_mask
-
- |
-
-In order to mask some of the result bits, enter an integer not greater than 15. The bits of the corresponding binary number will be combined with the respective bits of the status byte by AND.
-
- |
-
-ALL
-
- |
-
-By this option, the information of the status byte is returned as an integer. This integer must be translated into a binary number, and then be interpreted as follows:
-
-- Bit 0 (LSB): Current sink limit is reached
-
-Set to 1 if current sink limit is reached (Clamp low) for at least one measurement.
-
-- Bit 1: Current source limit
-
-Set to 1 if current source limit is reached (Clamp high) for at least one measurement.
-
-- Bit 2: Clamp low was reached
-
-Set to 1 if clamp low was reached during the test for a DC Scale pin where no measurement was executed.
-
-- Bit 3: Clamp high was reached
-
-Set to 1 if clamp high was reached during the test for a DC Scale pin where no measurement was executed.
-
-- Bit 4: Range underflow
-
-Set to 1 in case of a range underflow has been detected for at least one measurement.
-
-- Bit 5: Range overflow
-
-Set to 1 in case of a range overflow has been detected for at least one measurement.
-
-- Bit 6-7: Reserved
-   | |
- |
-
-test_result
-
- |
-
-If you specify `ALL` for the test_result_mask parameter, the result byte is returned as a decimal value.
-
-If you specify a mask, P or F is returned according to the result of combining the mask and the test result bytes by AND.
-
-- P: The result of the AND operation is 0 for all bit pairs.
-- F: The result of the AND operation is 1 for at least 1 bit pair.
- |
- |
-
-test_status
-
- |
-
-If you specify ALL for the test_result_mask parameter, the status byte is returned as a decimal value.
-
-If you specify a mask, P or F is returned according to the result of combining the mask and the test result byte by AND.
-
-- P: The result of the AND operation is 0 for all bit pairs.
-- F: The result of the AND operation is 1 for at least 1 bit pair.
- |
- |
-
-pinlist
-
- |
-
-Results are provided only for the pins specified in pinlist. If you specify more than one pin, the names must be separated by commas. All pins in pinlist must have test point capability.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/97179.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 6 列，含嵌套表。
+> 首行（上游原文）：test_result_mask | In order to mask some of the result bits, enter an integer not greater than 2047. The bits of the corresponding binary number will be combine…
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TSST  -  TeSt STatus）
 
@@ -17120,478 +12816,9 @@ TTCF {"tt_name"}, {property}, {property_value}, {(pinlist)}
 > 表内引用（1 条，供检索）：`TTDF`（raw: `02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md`）
 
 Properties and their values
- |
-
-Property
-
- |
-
-Explanation and values
-
- |
- |
-
-ALL_PATTERN_ERR
-
- |
-
-This is a collective switch for all pattern matching errors. The possible values are ON and OFF. There is no default.
-
- |
- |
-
-ALL_TRACKING_ERR
-
- |
-
-This is a collective switch for all tracking errors. The possible values are ON and OFF. There is no default.
-
- |
- |
-
-DEVIATION_LIMIT_DUT_BEFORE_ED
-
- |
-
-This property only applies if X-tokens are removed (REMOVE_XTOKEN_MODE set to ON) and the token size is > 0. It defines the maximum number of UI by which the received data are allowed to exceed the expected data under these circumstances. The received data exceeds the expected data in length if the number of idle tokens in the received data is greater than the number of X-tokens in the expected data. See `Skipping idle tokens`（raw: `02.06.15.01.02.02_Skipping_idle_tokens.md`）.
-
-The default is 0. The specified value must be ≤256.
-
- |
- |
-
-DEVIATION_LIMIT_ED_BEFORE_DUT
-
- |
-
-This property only applies if X-tokens are removed (REMOVE_XTOKEN_MODE set to ON) and the token size is > 0. It defines the maximum number of UI by which the expected data are allowed to exceed the received data under these circumstances. The expected data exceeds the received data in length if the number of X-tokens in the expected data is greater than the number of idle tokens in the received data. See `Skipping idle tokens`（raw: `02.06.15.01.02.02_Skipping_idle_tokens.md`）.
-
-The default is 0. The specified value must be 鈮?256.
-
- |
- |
-
-DISPARITY_MODE
-
- |
-
-This property determines whether disparity is taken into account when comparing expected tokens with received tokens. This only applies to token size 10.
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_BADTRAN
-
- |
-
-This property defines whether the test fails if an illegal sequence of transitions occurred.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_CNTADJOVR
-
- |
-
-This property defines whether the test fails if an adjustment overflow occurs. This means that the observation window was adjusted more than 1 UI in one direction within 24 UI. Note that adjustments in opposite direction cancel each other out. Thus if '+' indicates an adjustment to the right, and '-' an adjustment to the left,
-
-`- + - + - + - +`
-
-is acceptable, but
-
-`+ + + + + - + +`
-
-creates an overflow.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_CNTLMT
-
- |
-
-This property defines whether the test fails if the maximum drift of 7.75 UI for the entire pattern is exceeded.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_COMPARE
-
- |
-
-This property defines whether the test fails if compare errors are detected.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_FTO
-
- |
-
-This property defines whether the test fails if the number of UI that are skipped for synchronization at test start exceeds the maximum defined with FIRST_INITIAL_SYNC_LIMIT.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_JMP2
-
- |
-
-This property defines whether the test fails if an unrecoverable BC transition (jump by 2) is detected.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_PULSE
-
- |
-
-This property defines whether the test fails if a bit was sampled only once. If pulse stretching is enabled, the error will refer to the stretched pulse (see `Stretching the pulse`（raw: `02.06.15.01.01.03_Stretching_the_pulse.md`）).
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_STO
-
- |
-
-This property defines whether the test fails when the number of consecutive skipped bits after initial synchronization exceeds the maximum defined with SUBSEQUENT_INITIAL_SYNC_LIMIT.
-
-This can happen in two cases:
-
-- at synchronization of an IO pin that has been switched from drive to receive mode, or
-- when too many consecutive idle tokens have been skipped, that is, if
-
-no_of_tokens * token_size > SUBSEQUENT_INITIAL_SYNC_LIMIT.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_STOP
-
- |
-
-This property defines whether the test fails if the sequencer stops too early, that is, before all compare actions have been completed. This error can be avoided by adding an appropriate number of break vectors (at least 400) at the end of the test.
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_TE0
-
- |
-
-This property defines whether the test fails if no reference transition occurs, that is, the observation window could not be adjusted successfully.
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_TE2
-
- |
-
-This property defines whether the test fails if a BC transition occurs in a block of three UI, for example
-
-LLLL LLHH HHHH
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_TE3
-
- |
-
-This property defines whether the test fails if two different transitions occur within a UI (not between two UI) in a block of three UI, for example
-
-LLLL LHHH LLLH
-
-Here the second UI contains an AB transition, and the third UI contains a CD transition.
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_TE4
-
- |
-
-This property defines whether the test fails if three transitions occur within a UI (not between two UI) in a block of three UI, for example
-
-HHLL LHHH LLLH
-
-Here the first UI contains a BC transition, the second contains an AB transition, and the third a CD transition.
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_TRK
-
- |
-
-This property defines whether the test fails if the maximum drift for the entire pattern as defined with TRACKING_LIMIT is exceeded.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_TRMCNT
-
- |
-
-This property defines whether the test fails if the skipped idle bits are not a multiple of the token size.
-
- |
- |
-
-ERR_XMAX
-
- |
-
-This property defines whether the test fails if the length of the received data exceeds the length of the expected data by more than the value defined with DEVIATION_LIMIT_DUT_BEFORE_ED.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_XMIN
-
- |
-
-This property defines whether the test fails if the length of the expected data exceeds the length of the received data by more than the value defined with DEVIATION_LIMIT_ED_BEFORE_DUT.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-FIRST_INITIAL_SYNC_LIMIT
-
- |
-
-This property defines how many bits are allowed to be skipped by initial synchronization at test start. The maximum value is 2^32. This is also the default.
-
- |
- |
-
-FIRST_INITIAL_SYNC_MODE
-
- |
-
-This property activates or deactivates initial synchronization at test start.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-IDLE_TOKEN_i
-
- |
-
-With this property, you can specify idle tokens whose occurrences in the received data are to be counted. i can be 1 through 6. This property only applies to token sizes > 0 and < 18.
-
- |
- |
-
-PULSE_STRETCHING_MODE_1BIT
-
- |
-
-This property defines if and how much pulses that are sampled only once are to be stretched. For more information see `Stretching the pulse`（raw: `02.06.15.01.01.03_Stretching_the_pulse.md`）.
-
-Possible values are:
-
- |
- |
-
-NONE
-
- |
-
-No stretching takes place.
-
- |
- |
-
-STRETCH_1TO3
-
- |
-
-1 sample bits are stretched to 3 samples.
-
- |
- |
-
-STRETCH_1TO4
-
- |
-
-1 sample bits are stretched to 4 samples.
-
- |
- |
-
-PULSE_STRETCHING_MODE_2BIT
-
- |
-
-This property defines if and how much pulses that are sampled only twice are to be stretched. For more information see `Stretching the pulse`（raw: `02.06.15.01.02.01_Startup_latency_and_initial_synchronization.md`）.
-
-Possible values are:
-
- |
- |
-
-NONE
-
- |
-
-No stretching takes place.
-
- |
- |
-
-STRETCH_2TO3
-
- |
-
-2 sample bits are stretched to 3 samples.
-
- |
- |
-
-STRETCH_2TO4
-
- |
-
-2 sample bits are stretched to 4 samples.
-
- |
- |
-
-REMOVE_XTOKEN_MODE
-
- |
-
-This property activates or deactivates removal of tokens consisting entirely of X from the expected data. The possible values are ON and OFF. For more information see `Skipping idle tokens`（raw: `02.06.15.01.02.02_Skipping_idle_tokens.md`）.
-
-This property only takes effect if the token size is > 0.
-
- |
- |
-
-SUBSEQUENT_INITIAL_SYNC_LIMIT
-
- |
-
-This property defines how many bits are allowed to be skipped by subsequent initial synchronization. The maximum value is 2^32. This is also the default.
-
-This property also limits the maximum number of consecutive idle tokens that can be skipped after synchronization, by the following inequality:
-
-number_of_skipped_tokens * token_size 鈮? SUBSEQUENT_INITIAL_SYNC_LIMIT
-
- |
- |
-
-SUBSEQUENT_INITIAL_SYNC_MODE
-
- |
-
-This property activates or deactivates subsequent initial synchronization, for example after the switch of an IO pin from drive to receive mode. The possible values are ON and OFF. ON is the default. This property only takes effect if FIRST_INITIAL_SYNC_MODE is set to ON.
-
-For more information see `Startup latency and initial synchronization`（raw: `02.06.15.01.02.01_Startup_latency_and_initial_synchronization.md`）.
-
- |
- |
-
-TOKEN_SIZE
-
- |
-
-This property defines the token size for the pattern matching block. The allowed values are:
-
-0, 8, 9, 10, 12, 16, 18, 20, 24, 28, 32, 34, 36, 40, 44, 48, 52, 56, 60, 64, 66.
-
-0 is the default. For more information see `Pattern matching`（raw: `02.06.15.01.02_Pattern_matching.md`）.
-
- |
- |
-
-TRACKING_LIMIT
-
- |
-
-This property defines how much the device is to be allowed to drift during the whole pattern. The maximum value that still allows a reliable tracking is 7.75 UI. This is also the default.
-
-The step width for this parameter is 1/4 UI.
-
- |
- |
-
-TRACKING_MODE
-
- |
-
-This property defines the operation mode of the transition tracker. For more information see `Controlling the tracking behavior`（raw: `02.06.15.01.01.01_Controlling_the_tracking_behavior.md`）.
-
-The possible values are:
-
- |
- |
-
-ACTIVE
-
- |
-
-If necessary, the observation window is adjusted after every 3 UI.
-
- |
- |
-
-FREEZE_AFTER_SYNC
-
- |
-
-If necessary, the observation window is adjusted once at test start and once after every switch of a IO pin from drive to receive mode.
-
- |
- |
-
-FREEZE_ALWAYS
-
- |
-
-The observation window is never adjusted.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/116670.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：43 行 × 4 列。
+> 首行（上游原文）：Property | Explanation and values
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › TTCF  TTCF  -  Transition Test ConFiguration）
 
@@ -17813,8 +13040,6 @@ TTST {status_type}, {property}, {state}, {(pinlist)}
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/116741.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：38 行 × 2 列，含 colspan 与 rowspan。
 
 status_type
 
@@ -18467,10 +13692,7 @@ UHCM {`set_nr`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_s
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UHCM  UHCM  -  Ultra High Current power supply Modes）
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/106910.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
-
- | set_nr  | The mandatory identification number of the DPS set which you want to modify:
+| set_nr  | The mandatory identification number of the DPS set which you want to modify:
 
  | ALL  | Modifies all existing DPS sets. |
  | PRM  | Modifies the primary DPS set. |
@@ -18487,10 +13709,6 @@ This parameter is supported only by the `DC Scale XPS256 card`（raw: `../02.05_
  | reserved_param  | The optional parameter is reserved and required for compatibility. |
  | clamp_mode  | The optional parameter defines the clamp mode:
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/106910.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
-> 首行（上游原文）：limit | The clamp is active forever (the delay value is ignored). This is the default value.
-> 表内引用（1 条，供检索）：`PSST`（raw: `02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md`）
 
 See also `ms_const_curr_disconnect`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md#_16887__ms_const_curr_disconnect`） in `DPSPINS resources`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md`）.
 
@@ -18682,30 +13900,9 @@ UPST "{setting}", {(purpose_name)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UPST  UPST  -  Utility Purpose STate）
 
-| setting |
-
-The optional parameter specifies the status of the utility lines in the utility purpose.
-
-The status is determined with the following specifiers:
-
--
-
-0: Sets the output state of the corresponding (write) channel to high (high impedance state)
-
--
-
-1: Sets the corresponding (write) channel to low
-
--
-
-X (x): No action
-
-Specify the setting values corresponding to the definition order of the utility lines in the specified utility purpose.
-
-If this parameter is omitted, the settings defined by the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） or UPAS commands (depending on the setup focus as set with `PSFC`（raw: `02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md`）) are set to the utility lines of the specified utility purpose.
-
- |
- | purpose_name |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98833.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：setting | The optional parameter specifies the status of the utility lines in the utility purpose. The status is determined with the following specifiers: 0: Se…
 
 Name of the utility purpose to be set or read.
 
@@ -18782,22 +13979,9 @@ UPTI {time}, {(purpose_name)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UPTI  UPTI  -  Utility Purpose settling TIme）
 
-| time |
-
-Specifies the wait time to change the utility line status using the `UPST`（raw: `02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） commands (in ms).
-
-0 ... 2鈥?47鈥?83.646 [ms]
-
- |
- | purpose_name |
-
-Specifies the utility purpose name or names for which the settling time is to be set.
-
-The symbol @ is used for all utility purposes.
-
-If more than one name is required, the names must be separated with a comma.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98835.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：time | Specifies the wait time to change the utility line status using the UPST and FLSH commands (in ms). 0 ... 2 147 483.646 [ms]
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › UPTI  UPTI  -  Utility Purpose settling TIme）
 
@@ -18872,36 +14056,9 @@ UTIX {utility_group}, {value}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UTIX  -  UTility line Inputs eXtended）
 
-|
-
-utility_group
-
- |
-
-This parameter specifies the utility pogo block.
-
-The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-The legacy single‑digit format 1 ... 8 is also supported, but the query always returns the three‑digit format.
-
-For the query, ALL can be entered to specify all utility blocks.
-
-For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）.
-
- |
- |
-
-value
-
- |
-
-The returned integer word.
-
-This integer word must be translated to binary code to get the state of each utility line in the utility line block specified in the query.
-
-The range is 0 ... 4鈥?94鈥?67鈥?95 for a 4‑row utility block.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98837.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：utility_group | This parameter specifies the utility pogo block. The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to DUT interfac…
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › UTIX  -  UTility line Inputs eXtended）
 
@@ -18953,52 +14110,9 @@ UTOT {utility_group}, [mask], {word}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UTOT  UTOT  -  UTility line OuTputs）
 
-| utility_group |
-
-This parameter specifies the utility pogo block.
-
-The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-The legacy single‑digit format 1 ... 8 is also supported, but the query always returns the three ‑digit format.
-
-For the UTOT? query, the parameter can be set to ALL to specify all utility blocks.
-
-For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）.
-
- |
- | mask |
-
-The optional parameter masks the utility lines in the block selected by the utility_group parameter.
-
-Enter a decimal equivalent of a 32 bit binary number (0 ... 4鈥?94鈥?67鈥?95), to mask the required line.
-
-The mask value is defined as follows:
-
-- 1: A bit value of 1 causes the selected line to be programmed to the value specified in the parameter value.
-- 0: A bit value of 0 masks the line, that is, the line remains unchanged.
-
-If the mask parameter is not specified, then all the utility lines in the selected block are programmed.
-
- |
- | value |
-
-This parameter can be entered either as string in the form of a hex word (0 ... FFFF FFFF), or in the form of an integer word (0 ... 4鈥?94鈥?67鈥?95).
-
-Utility lines are basically low side switches. Therefore, the utility lines are set to the inverse of the binary equivalent of the specified value. For example, let us assume the value is 12. This equals to 1100 in binary, its inverse is 0011. Therefore, the first and the second utility line (URW00 and URW01) will be set to high, while all others on this block are set to low.
-
-You can pulse the output utility lines by entering several hex words one after another (not decimal integers) enclosed in double quotes.
-
-- Thus to produce a single pulse on the sixth line of the second utility pogo block, you would enter: `UTOT 166, "0040, 0000, 0040"`.
-- You can use this facility for instance to produce a trigger pulse for a certain measurement.
-- The specified hex data is sequentially written to the utility lines.Note Such pulses on the utility lines can in no way be synchronized to the execution of test vectors and are meant to enable you to switch slow devices such as relays. If you need to switch utility lines in synchronism with test vectors you must use the command `UTSC, UTSC? - (UTility line Serial Configuration)`（raw: `02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md`） and set up serial control of utility lines as described in `Sequencer-controlled utility lines`（raw: `../../03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md`）.
- |
- | word |
-
-This is an integer value returned by the system, informing you of the setting of the utility output lines. For each utility block you enter, the system returns a reading.
-
-The query returns the value the utility lines were set to by `UTOT`. Use the `UTIX?`（raw: `02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md`） command to read back the actual state of the utility lines.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98838.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：utility_group | This parameter specifies the utility pogo block. The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to DUT interfac…
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › UTOT  UTOT  -  UTility line OuTputs）
 
@@ -19185,24 +14299,9 @@ UTST {value}, {(util_name)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › UTST  UTST  -  UTility line STate）
 
-| value |
-
-Specifies the output (desired) status of the utility line with the specifier 0 or 1.
-
-- 0: High output
-- 1: Low output
- |
- | type |
-
-This parameter is used to specify whether the output (desired) state or the input (actual) state is to be returned. Possible values are:
-
-- w: Returns the output (desired) state.
-- r: Returns the input (actual) state
-
-For pure output utility lines, this parameter is ignored.
-
- |
- | util_name |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98839.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：value | Specifies the output (desired) status of the utility line with the specifier 0 or 1. 0: High output 1: Low output
 
 Specifies the utility line name or names to be set or read.
 
@@ -19365,185 +14464,9 @@ VCAT {"label_name"}, {(port)}, {"attachment_type"}, {#spec(data)}
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › VCAT  VCAT  -  VeCtor ATtachment）
 
-|
-
-label_name
-
- |
-
-The label must be of type MAIN or SVEC.
-
- |
- |
-
-ALL
-
- |
-
-In the query, you can specify ALL provided that you also specify @@ for the port parameter. The query will then return the data for all labels of all ports.
-
- |
- |
-
-port
-
- |
-
-Specifies the port to which the label belongs. In the query, you can specify @@ in combination with ALL in the first parameter to retrieve the DUT views for all labels of all ports.
-
- |
- |
-
-attachment_type
-
- |
-
-Defines the attachment type. Possible values are:
-
-- AreaPatternAttachment, which defines the DUT view of a label for the Pattern Debug tool.
-- ScanInstanceAttachment, which describes a scan test instance generated by the STIL Reader or the ASCII Interface.
-- MarkerPatternAttachment, defines that synchronization points used with protocols will be specified and add to the sequencer label.
- |
- |
-
-#spec(data)
-
- |
-
-The general format of the parameter is as follows:
-
-#Nn1n2n...nNdata_stream
-
-where the decimal digit N defines the number of the decimal digits ni (1 鈮?i 鈮?N) which in their turn specify the length of data_stream in bytes.
-
-The format of the data stream depends on the attachment type:
-
- |
- |
-
-AreaPatternAttachment consists of one or more statements in the following format:
-
-logical_vector_nr, list_of_pins_with_associated_formats
-
-In the query, the individual statements are separated by linefeed characters for better readability. The list of pins with associated formats consists of one or more triples
-
-(pinlist), x_mode, selector;
-
-Note that fractional x-modes are coded by negative integers.
-
- |
- |
-
-ScanInstanceAttachment identifies one or more scan instance definitions in the following format:
-
-first_vector, x_vector, test_type, length, "scan_test_name", "struct_block_name";
-
-where:
-
- |
- |
-
-first_vector
-
- |
-
-The logical tester vector within which the scan test instance begins, counted from 0.
-
- |
- |
-
-X_vector
-
- |
-
-The X-vector within first_vector at which the scan instance begins, counted from 0.
-
- |
- |
-
-test_type
-
- |
-
-scan tests: test_type = 1
-
-functional test: test_type = 0
-
- |
- |
-
-length
-
- |
-
-Length of the scan instance, that is, the number of X-vectors. If the command was generated by the ASCII Interface, length equals the template length.
-
- |
- |
-
-scan_test_name
-
- |
-
-Name of the scan instance. If the command was generated by the ASCII Interface, the name has the format
-
-<template_name>_<instance_number>
-
- |
- |
-
-struct_block_name
-
- |
-
-Name of the active structure block, empty for the default block. The structure block configures the scan chain.
-
- |
- |
-
-MarkerPatternAttachment defines one or more synchronization markers for a protocol pattern in the following format:
-
-tester_vector, sync_point_name, x_vector, pin_name
-
-where:
-
- |
- |
-
-tester_vector
-
- |
-
-The logical tester vector within which the synchronization point is located, counted from 0.
-
- |
- |
-
-sync_point_name
-
- |
-
-The name of the synchronization point. To activate the synchronization point, this name must be specified with the setSynchronization() member function of the SYNCHRONIZED_TEST API. See also `Protocol wrapper API`（raw: `../02.07_Test_Method_Reference/02.07.04.01.172_Protocol_wrapper_API.md`）.
-
- |
- |
-
-X_vector
-
- |
-
-The X-vector within tester_vector to which the synchronization marker is assigned.
-
- |
- |
-
-pin_name
-
- |
-
-The pin on which the marker is (to be) defined. This information is required if the pins of the specified port (port parameter) are assigned different x-modes in the STATEMAP section of their base wavetable.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/100378.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：18 行 × 3 列。
+> 首行（上游原文）：label_name | The label must be of type MAIN or SVEC.
 
 ### Example 1（取自子主题 Commands in alphabetical order › List of commands › VCAT  VCAT  -  VeCtor ATtachment）
 
@@ -19630,8 +14553,6 @@ VCYC {start_cycle}, {no_of_cycles}, {seq_status}, {pin_oper_mode}, {(pinlist)}, 
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98845.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：26 行 × 2 列，含 colspan 与 rowspan。
 
 start_cycle
 
@@ -20428,211 +15349,9 @@ WFDS {wvf_set|"wavetable"|specset_id|"multiport_spec"}, {wfIndex}, [mode], {defi
 
 ### Parameters（取自子主题 Commands in alphabetical order › List of commands › WFDS  WFDS  -  WaveForm Definition String）
 
-|
-
-wvf_set
-
- |
-
-Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query you can also enter ALL for all waveform sets. Enter PRM to select the primary waveform set.
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
- |
- |
-
-multiport_spec
-
- |
-
-To query a multiport specification, enter the name of the specification.
-
- |
- |
-
-wfIndex
-
- |
-
-Waveform index. Enter an integer between 0 and 255. The index references a waveform in a device cycle. For the query you can also enter ALL for all waveform DC/DC power units. The waveform index is also used by the `WAVE, WAVE? - (WAVEform)`（raw: `02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`） command.
-
-Note that the index must be specified decimally here, whereas in the wavetable, it is coded hexadecimally.
-
- |
- |
-
-mode
-
- |
-
-Not used.
-
- |
- |
-
-definition_string
-
- |
-
-Edge action definition string which consists of drive actions for the drive/ bidirectional edges only. On Pin Scale systems, there is only one drive edge type, which is denoted by di (1 鈮? i 鈮?8).
-
-With these edges you can associate the following actions:
-
-- N: No action
-- F0N: Drive 0, no tri-state action
-- F1N: Drive 1, no tri-state action
-- FN0: No drive action, tri-state off
-- FNZ: No drive action, tri-state on
-- F00: Drive 0, tri-state off
-- F0Z: Drive 0, tri-state on
-- F10: Drive 1, tri-state off
-- F1Z: Drive 1, tri-state on
-- D1N: Drive parameter 1 (DD1), no tri-state action
-- D1N: Drive parameter 2 (DD2), no tri-state action
-- C1N: Drive complement of parameter 1 (DD1), no tri-state action
-- C2N: Drive complement of parameter 2 (DD2), no tri-state action
-- DN1: No drive action, tri-state parameter 1 (DD1)
-- DN2: No drive action, tri-state parameter 2 (DD2)
-- D11: Drive parameter 1 (DD1), tri-state parameter 1 (DD1)
-- C11: Drive complement of parameter 1 (DD1), tri-state parameter 1 (DD1)
-- D22: Drive parameter 2 (DD2), tri-state parameter 2 (DD2)
-- C22: Drive complement of parameter 2 (DD2), tri-state parameter 2 (DD2)
-
-All edges which are not explicitly set are set to N. In the query only those edges that are used are printed.
-
-The following table shows which data-dependent drive actions use the driver formatter, which use the tri-state formatter, and which use both. You have to consider this when assigning parameters to the `WAVE`（raw: `02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`） command. See also `Specifying the actions`（raw: `02.06.06.01.03.01.01_Specifying_the_actions.md`）.
-
- |
- |
-
- |
-
-Data-dependent Drive Action
-
- |
-
-Driver
-
- |
-
-Tri-state
-
- |
- |
-
-D1N, D2N, C1N, C2N
-
- |
-
-yes
-
- |
-
-no
-
- |
- |
-
-DN1, DN2
-
- |
-
-no
-
- |
-
-yes
-
- |
- |
-
-D11, C11, D22, C22
-
- |
-
-yes
-
- |
-
-yes
-
- |
- |
-
- |
-
-On Smart Scale systems, there are two types of drive edges, denoted by fi and si (1 鈮?i 鈮?8). For both of them, only the action codes 0, 1, and N are admitted. But the Smart Scale systems also support the old di syntax. For more information see `Defining waveforms for Smart Scale pins`（raw: `02.06.06.01.03.02_Defining_waveform_shapes_for_Smart_Scale_pins.md`）.
-
- |
- |
-
- |
-
-On the expected data side the actions you can define are:
-
-- N: No action
-- E0: Edge compare to 0
-- E1: Edge compare to 1
-- EI: Edge compare to intermediate
-- EX: Edge compare to mask
-- EU: Edge compare to unstable
-- C: Capture digital data (selective digital capture)
-- D: Do not capture digital data (selective digital capture)
-
-Note that waveforms that are to be used for selective digital capture must contain exactly one compare action.
-
-- W0: Window open with compare to 0
-- W1: Window open with compare to 1
-- WI: Window open with compare to intermediate
-- WX: Window open with compare to mask
-- WU: Window open with compare to unstable
-- WC: Window close
-- EE1: Edge compare to parameter 1 (ED1)
-- EE2: Edge compare to parameter 1 (ED2)
-- WE1: Window open with compare to parameter 1 (ED1)
-- WE2: Window open with compare to parameter 1 (ED2)
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
- |
-
-ALLOW_EQ
-
- |
-
-This extra parameter allows you to define or change logical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.
-
-Note also the following:
-
-- Every runtime change will affect all specifications that use the respective wavetable.
-- Since the new or changed waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
-- The runtime definitions are not checked for consistency. It is up to the user to ensure this.
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98872.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：15 行 × 4 列。
+> 首行（上游原文）：wvf_set | Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by WSUS, WSUS? -…
 
 ### Example（取自子主题 Commands in alphabetical order › List of commands › WFDS  WFDS  -  WaveForm Definition String）
 
@@ -21002,11 +15721,7 @@ CHIN 21702,DPS128HC,-1,217,31,191,0
 ```
 CONF ["context",]{pin_type},[pin_oper_mode],{(pinlist)}
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510_2.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510_2.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
 ```
 
 ### CONF?（取自子主题 Pin configuration setup commands › List of configuration commands › CONF  CONF  -  CONFiguration）
@@ -21023,63 +15738,15 @@ CONF ["context",]{pin_type},{pin_oper_mode},{(pinlist)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › CONF  CONF  -  CONFiguration）
 
-| context |
-
-This extra parameter specifies a mode context. If it is omitted, the default mode context DEFAULT is set or read. If DEFAULT is the only context defined, the parameter is omitted in the query reply.
-
-The default mode context is predefined. All other mode contexts must be defined with the CTXT command.
-
-If you specify ALL in the query, CONF? will display all mode contexts.
-
- |
- | pin_type |
-
-The mandatory parameter assigns channel resources to the pin. This can be:
-
- | I  | Configures a drive pin. |
- | O  | Configures a receive pin. |
- | IO  | Configures a bidirectional pin. |
- | DC |
-
-Configures a pin for DC measurements. The pin is only connected to the PMU, and no driver or receiver resources are allocated to it.
-
-For DC Scale channels (power or signal pins) the mode is always DC.
-
-This option is not allowed for Smart Scale pins.
-
- |
- | OFF  | The pin is not available for measurements.  | |
- |
-
-pin_oper_mode
-
- |
-
-The mandatory parameter defines or indicates the operating mode of the pins in pinlist. The operation mode can be:
-
- | DCSIGNAL  | In the query this indicates that the pin is associated with a DC Scale channel and has been configured in PMU mode with DFPN. |
- | POWER  | In the query this indicates that the pin is associated with a DC Scale channel and has been configured in DPS mode with DFPS. |
- | CMON  | Configures the pin as current monitor output. For more information, refer to `XPS256 current monitor`（raw: `../02.05_Test_Head_Cards/02.05.05.03.03.02_XPS256_current_monitor.md`）. |
- | F160 |
-
-Specifies Standard operating mode. This is the default. It must be selected for pins on PS1600 boards.
-
- |
- | F330  | Not valid. |
- | FAST |
-
-This operation mode must be selected for fast pins. Note that no pin can be set to FAST in the default mode context DEFAULT, and that no IO pin can be set to FAST.
-
-For Smart Scale pins this mode will be mapped to F160.
-
-   | |
- | pinlist |
-
-The name of the pin or pins to be configured or listed. If more than one pin is to be included, the names must be separated with a comma.
-
-The symbol @ can be used in the query to list all pins that were previously either explicitly configured with the CONF command, or (in the case of DC Scale pins) implicitly with the DFPN or DFPS command.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：13 行 × 6 列，含嵌套表。
+> 首行（上游原文）：context | This extra parameter specifies a mode context. If it is omitted, the default mode context DEFAULT is set or read. If DEFAULT is the only context defin…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：I | Configures a drive pin.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98510_2.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：DCSIGNAL | In the query this indicates that the pin is associated with a DC Scale channel and has been configured in PMU mode with DFPN.
 
 ### Example 1（取自子主题 Pin configuration setup commands › List of configuration commands › CONF  CONF  -  CONFiguration）
 
@@ -21160,111 +15827,9 @@ for digital fixed groups.
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFGE  DFGE  -  DeFine Group by Expressions）
 
-|
-
-group_type
-
- |
-
-Defines the type of pins in the group. This can be:
-
- |
- |
-
-I
-
- |
-
-Identifies a group of device input pins.
-
- |
- |
-
-O
-
- |
-
-Identifies a group of device output pins.
-
- |
- |
-
-IO
-
- |
-
-Identifies a group of bidirectional pins.
-
- |
- |
-
-DC
-
- |
-
-Identifies a group of DC type pins.
-
- |
- |
-
-group_expression
-
- |
-
-The expression that describes the pins to be included in the group. The expression must be built up from pin or pin group names which serve as arguments for the following operators:
-
- |
- |
-
- |
-
-+
-
- |
-
-returns the union of its arguments, that is, all pins that are contained in one of its arguments.
-
- |
- |
-
- |
-
-*
-
- |
-
-returns the intersection of its arguments, that is, all pins that are contained in both of its arguments.
-
- |
- |
-
- |
-
--
-
- |
-
-returns the difference of its arguments, that is, all pins that are contained in the first argument, but not in the second.
-
- |
- |
-
- |
-
-You can also use parentheses to force a certain processing order.
-
- |
- |
-
-pin_group
-
- |
-
-The name assigned to the pin group. You can use the same name for groups of different type.
-
-The symbol @ can be used with the DFGE? query to list all groups previously defined using the DFGP and DFGE command. If you query a non-existent group, the system returns nothing.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98544_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：11 行 × 4 列。
+> 首行（上游原文）：group_type | Defines the type of pins in the group. This can be:
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › DFGE  DFGE  -  DeFine Group by Expressions）
 
@@ -21350,60 +15915,14 @@ DFLV REC_SWING,STD,value
 
 if neither parameter resourceSpecifier nor parameter mode have been specified.
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/349982_2.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
-
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFLV  DFLV  -  DeFaultLeVel）
 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/349982_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：10 行 × 2 列。
-
- | resourceSpecifier |
-
-The extra parameter specifies the resource to be set or queried.
-
-The following resources are supported:
-
- | Resource specifier  | Description |
- | VIL and VIH  | Input (drive) voltage definition for I and I/O pins. |
- | VIHH  | High voltage level definition for I and I/O pins. |
- | VOL and VOH  | Output threshold voltage definition for O and I/O pins. |
- | VOL_DIFF and VOH_DIFF  | Output threshold voltage definition for O and I/O pins in differential mode. |
- | VT  | Termination voltage definition. |
- | VCOM  | Commutation voltage of the active load. |
- | REC_SWING  | The receiver swing for a differential comparator. |
- | REC_OFFSET  | The receiver offset for a differential comparator. |
- | ALL  | Keyword ALL selects all resources.  | |
- | mode |
-
-The extra parameter specifies for which operation mode parameter value should be applied or queried.
-
-Supported operation modes:
-
-- STD
-- ALL
-
-Keyword ALL selects all operating modes.
-
-Extra parameter resourceSpecifier must also be defined if mode is specified.
-
-If the parameter is not defined, mode STD is taken as default value. In this case the specified value is applied to STD values only and default values used in STDDIFF mode will not be affected.
-
-Note: There is an exception when setting parameter value to RESET. In this case, an omitted mode parameter will be counted as ALL.
-
- |
- | value |
-
-The mandatory parameter defines the default value for the selected resource and operating mode.
-
- This parameter is to be defined as
-
-- voltage (in mV) or
-- as keyword RESET.
-
-With the parameter set to RESET, the affected values will be set to the system-defined default values of the selected cmos or ecl device technology.
-
- |
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：12 行 × 4 列，含嵌套表。
+> 首行（上游原文）：resourceSpecifier | The extra parameter specifies the resource to be set or queried. The following resources are supported: Resource specifier | Description
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/349982_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：10 行 × 2 列。
+> 首行（上游原文）：Resource specifier | Description
 
 ### Example 1: Resource and mode specified（取自子主题 Pin configuration setup commands › List of configuration commands › DFLV  DFLV  -  DeFaultLeVel）
 
@@ -21553,94 +16072,9 @@ DFPS {dps_channel|(DC_scale_channel_list)}, {polarity}, {(pin)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFPS  DFPS  -  DeFine Power Supply）
 
-|
-
-dps_channel
-
- |
-
-The test system channel number of the DPS channel to be configured.
-
-The channel is to be defined as follows:
-
-- For `external device power supplies`（raw: `../02.05_Test_Head_Cards/02.05.06_External_device_power_supply__external_GPIB_DPS.md`）, this is a three‑digit or four‑digit integer.
-
-The first one or two digits define an external supply. To avoid a conflict with the internal supplies, we recommend using values above 8. The maximum supported value is 16.
-
-The last two digits define the channel number of the DPS. If the channel number is less than 10, a leading "0" must be used.
-
--
-
-For DC Scale channels (in DPS mode) this is a five digit number in the same format as for digital I/O channels.
-
- |
- |
-
-DC_scale_channel_list
-
- |
-
-To gang DC Scale channels, you must specify a consecutive number of channels enclosed by parentheses, either as comma separated list or as range, for example 10105-10106.
-
-- DPS128/64: Ganging is possible for any number of successive channels within a card, but not across cards.
-
-DPS128/DPS64 channels must be of the same type (HC or HV).
-
-The maximum number of ganging groups per DPS128/64 is half the number of channels. The maximum current per card cannot be exceeded.
-
-- XPS256: Only channels on the same HLA can be ganged.
-- UHC4, UHC4T: For UHC4 or UHC4T ganging is possible for any number of successive channels within a card and any number of cards within a test head. The combination of UHC4 and UHC4T within the same ganging group is not supported. The maximum current per card cannot be exceeded.
-
-Before cross-card ganging can be used, the connection must be enabled by command `DDIC`（raw: `02.06.02.02.54_DDIC__DDIC__-__Define_DUT_Interface_Connection.md`）.
-
- |
- |
-
-polarity
-
- |
-
-Gives the polarity of the DPS which has to be applied to the selected channel.
-
- |
- |
-
-POS
-
- |
-
-Enter POS only if the DPS connections on the DUT board are as follows: The force is connected to power; the sink is connected to ground. The voltage supplied to the device will then be exactly as entered in the Level Setup, but the entry made there must be positive, otherwise the system returns an error.
-
-For DC scale channels, only POS is allowed.
-
- |
- |
-
-NEG
-
- |
-
-NEG is not allowed for DC Scale channels.
-
- |
- |
-
-pin
-
- |
-
-Defines the pin name for the DPS channel.
-
- |
- |
-
-pinlist
-
- |
-
-The pin name or names of those power supply outputs which have already been defined. If more than one pin is required, the names must be separated with a comma. The @ character can be used to read all configured power supply pins.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98551_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
+> 首行（上游原文）：dps_channel | The test system channel number of the DPS channel to be configured. The channel is to be defined as follows: For external device power supplies, t…
 
 ### Example 1（取自子主题 Pin configuration setup commands › List of configuration commands › DFPS  DFPS  -  DeFine Power Supply）
 
@@ -21654,8 +16088,6 @@ This example connects device pin Vee to channel 1 of DPS board 1. The DPS output
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98551_2.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 1 列。
 
 ```
 DFPS (10101, 10102),POS,(vee)
@@ -21752,45 +16184,9 @@ DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFUP  DFUP  -  DeFine Utility Purpose）
 
-| ch_No_list |
-
-Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with a comma.
-
-In the five‑digit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-The legacy three‑digit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL‑ ... UTIL鈥?.
-
-The last two digits specify the channel number 01 ... 32 of the utility line.
-
-On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
-
-When reading the defined utility lines with the DFUP? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
-
-The channel numbers 16515 and 16516 should not be used. They should only be accessed with the `I2CA`（raw: `02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md`）or the `BDID`（raw: `02.06.02.02.09_BDID__BDID__-__BoarD_ID.md`）firmware command.
-
- |
- | setting |
-
-Output states for each channel in the ch_No_list. Specify the setting of each utility line with the following specifiers:
-
-- 0: sets the corresponding (write) channel to high (high impedance state)
-- 1: sets the corresponding (write) channel to low
-- X (x): no action
-
-Specify the setting values corresponding to the definition order of the ch_No_list parameter.
-
-The number of characters must be equal to the number of the utility line channels in the ch_No_list parameter.
-
-Note that the settings must be explicitly activated with `UPST`（raw: `02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`）.
-
- |
- | purpose_name |
-
-Name of the utility purpose. In the query you can use the symbol @ to list all defined utility purposes.
-
-This parameter can have up to 16 alphanumeric characters and must not contain blank spaces, or any of the following characters: `# ; ( ' ' ) ? @ ,`
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98559_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ch_No_list | Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with …
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › DFUP  DFUP  -  DeFine Utility Purpose）
 
@@ -21832,48 +16228,9 @@ DFUT {ch_No}, {type}, {(util_name)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › DFUT  DFUT  -  DeFine UTility line）
 
-| ch_No |
-
-Channel number of the utility line specified with five or three digits.
-
-In the five‑digit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-In the legacy three‑digit format, the first digit (1 ... 8) specifies the utility pogo block UTIL‑ ... UTIL鈥?.
-
-The last two digits specify the channel number 01 ... 32 of the utility line.
-
-On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
-
-When reading the defined utility lines with the DFUT? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
-
-For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）
-
- |
- | type |
-
-Specifies the operating mode of the utility line with the following specifiers:
-
-- W: Write-Only
-- R: Read-Only
-- RW: Read-Write
-
-Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware‑controlled shutdown of XPS256 pins:
-
-- TRIGGER_IF_HIGH: Safety line
-- TRIGGER_IF_LOW: Safety line
-- TRIGGER_SITE_IF_HIGH: Global shutdown line
-- TRIGGER_SITE_IF_LOW: Global shutdown line
-
-For more information, refer to `XPS256 safety line and DUT board disconnect`（raw: `../02.05_Test_Head_Cards/02.05.05.03.03.06_XPS256_safety_line_and_DUT_board_disconnect.md`）.
-
- |
- | util_name |
-
-Name of the utility line. For the query, it specifies the utility line name to be retrieved. @ can be used to list all defined utility lines.
-
-This parameter can have up to 16 alphanumeric characters and must not contain blank spaces, or any of the following characters: `# ; ( ' ' ) ? @ ,`
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98560_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ch_No | Channel number of the utility line specified with five or three digits. In the five‑digit format, the first three digits specify the utility pogo block.…
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › DFUT  DFUT  -  DeFine UTility line）
 
@@ -22468,30 +16825,9 @@ UPST "{setting}", {(purpose_name)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UPST  UPST  -  Utility Purpose STate）
 
-| setting |
-
-The optional parameter specifies the status of the utility lines in the utility purpose.
-
-The status is determined with the following specifiers:
-
--
-
-0: Sets the output state of the corresponding (write) channel to high (high impedance state)
-
--
-
-1: Sets the corresponding (write) channel to low
-
--
-
-X (x): No action
-
-Specify the setting values corresponding to the definition order of the utility lines in the specified utility purpose.
-
-If this parameter is omitted, the settings defined by the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） or UPAS commands (depending on the setup focus as set with `PSFC`（raw: `02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md`）) are set to the utility lines of the specified utility purpose.
-
- |
- | purpose_name |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98833_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：setting | The optional parameter specifies the status of the utility lines in the utility purpose. The status is determined with the following specifiers: 0: Se…
 
 Name of the utility purpose to be set or read.
 
@@ -22538,22 +16874,9 @@ UPTI {time}, {(purpose_name)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UPTI  UPTI  -  Utility Purpose settling TIme）
 
-| time |
-
-Specifies the wait time to change the utility line status using the `UPST`（raw: `02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） commands (in ms).
-
-0 ... 2鈥?47鈥?83.646 [ms]
-
- |
- | purpose_name |
-
-Specifies the utility purpose name or names for which the settling time is to be set.
-
-The symbol @ is used for all utility purposes.
-
-If more than one name is required, the names must be separated with a comma.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98835_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：time | Specifies the wait time to change the utility line status using the UPST and FLSH commands (in ms). 0 ... 2 147 483.646 [ms]
 
 ### Example（取自子主题 Pin configuration setup commands › List of configuration commands › UPTI  UPTI  -  Utility Purpose settling TIme）
 
@@ -22583,24 +16906,9 @@ UTST {value}, {(util_name)}
 
 ### Parameters（取自子主题 Pin configuration setup commands › List of configuration commands › UTST  UTST  -  UTility line STate）
 
-| value |
-
-Specifies the output (desired) status of the utility line with the specifier 0 or 1.
-
-- 0: High output
-- 1: Low output
- |
- | type |
-
-This parameter is used to specify whether the output (desired) state or the input (actual) state is to be returned. Possible values are:
-
-- w: Returns the output (desired) state.
-- r: Returns the input (actual) state
-
-For pure output utility lines, this parameter is ignored.
-
- |
- | util_name |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98839_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：value | Specifies the output (desired) status of the utility line with the specifier 0 or 1. 0: High output 1: Low output
 
 Specifies the utility line name or names to be set or read.
 
@@ -22893,74 +17201,9 @@ CLMP {level_set|level_set_id}, [clamp_mode], [low_clamp_level], [high_clamp_leve
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › CLMP  CLMP  -  CLaMP level）
 
-|
-
-level_set
-
- |
-
-The identification number of the level set in which you want the levels to be included. The number must not exceed the maximum number of level sets allowed (as defined by the DSCP command). Specifying ALL sets the clamp levels for all existing level sets (except level set 0). Specifying PRM sets the clamp levels for the primary level set.
-
-Standard level sets have a number > 0. Level set 0 is a dedicated level set for the high-Z state of digital pins. For more information see `Defining a level set for sequencer state OFF`（raw: `02.06.05.01.05.05_Controlling_high-Z_behavior_of_digital_pins_while_the_sequencers_are_OFF.md`）.
-
- |
- |
-
-level_set_id
-
- |
-
-Used in equation based level setup. It is derived as follows:
-
-100000 * equation_set_no + 1000 * specset_no + level_set_no
-
-Note that if you use the command for an equation based level setup, you modify only the runtime values, not the value in the level set.
-
- |
- |
-
-clamp_mode
-
- |
-
-ON | OFF
-
-For the Pin Scale 3600, the clamps can be set to ON when std/fast mode is set to std, and termination mode is set to OFF or A (active load).
-
-Pin Scale 9G cards do not have clamps. Setting clamp levels will be ignored.
-
-For termination mode, see `TERM, TERM? - (TERMination mode)`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`）.
-
- |
- |
-
-low_clamp_level
-
- |
-
-An integer (in mV) which sets the low clamp level.
-
-For the Pin Scale 800, the range is -1800 to 6800. At power-on this parameter assumes a default value of -250.
-
- |
- |
-
-high_clamp_level
-
- |
-
-An integer (in mV) which sets the high clamp level. For the Pin Scale 800, the range is -1800 to 6800, and the difference of high_clamp_level - low_clamp_level must be in the range 0 to 8.6 V.
-
- |
- |
-
-pinlist
-
- |
-
-The name of the pins for which the clamp levels are to be set. This parameter can also include groups previously created by the DFGP (DeFine GrouP) command. If more than one pin is to be included, the names must be separated by a comma. The symbol @ refers to all pins. You can include O and IO pin types in pinlist.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98505_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列。
+> 首行（上游原文）：level_set | The identification number of the level set in which you want the levels to be included. The number must not exceed the maximum number of level sets …
 
 ### Example（取自子主题 Level Setup Commands › List of level setup commands › CLMP  CLMP  -  CLaMP level）
 
@@ -23187,8 +17430,6 @@ EQFC {level_set_no|level_set_id|ALL|PRM} ,{filter_parameter|ALL_specifier}, {off
 ```
 EQFC? {level_set_no|level_set_id|ALL|PRM} ,{filter_parameter|ALL_specifier|ALL}, {value}, {(pinList)}
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/112905_2.htm`
-> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
 ```
 
 ### Parameters（取自子主题 Level Setup Commands › List of level setup commands › EQFC  EQFC  -  EQualization and Filter Configuration）
@@ -23215,9 +17456,6 @@ Valid ranges for the equalization parameters (set value using "offset_value")
 
 Equalization amplitude
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/112905_2.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 3 列。
-> 首行（上游原文）：Value | Description | Modified parameter
  |
 
 EQI1
@@ -23618,8 +17856,6 @@ RCLS {value_specifier}, {result_value}
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98716_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：15 行 × 2 列，含 colspan 与 rowspan。
 
 test
 
@@ -25218,57 +19454,9 @@ SPEC {"module:resource"},["details"],[context], {answer},[(pinlist)]
 
    Parameters
 
- | module:resource  | Specifies the module and the resource about which information is to be returned. Currently, the following values are allowed: |
- | Level:Term  | Queries the termination modes that can be specified with the `TERM, TERM? - (TERMination mode)`（raw: `02.06.02.02.257_TERM__TERM__-__TERMination_mode.md`） command for the specified pins and level setup. |
- | Level:Rcvrange  | Queries the minimum logic 0 threshold and the maximum logic 1 threshold that can be specified with the `RCLV, RCLV? - (ReCeive LeVel)`（raw: `02.06.02.02.204_RCLV__RCLV__-__ReCeive_LeVel.md`） command for the specified pins and level setup. |
- | Level:UnterminatedModes  | Query returns unterminated termination modes for the given pin or pins, see pinList parameter (these modes have no leakage). |
- | Level:Pulldown  | Query the termination modes that support a pulldown resistor. |
- | Timing:FxdlRange  | Queries the range of the fixture delay, as defined by `FXDL, FXDL? - (FiXture DeLay)`（raw: `02.06.02.02.128_FXDL__FXDL__-__FiXture_DeLay.md`）, for the current system. |
- | HiRes:Mode  | Queries the possible options for determining High and Low of a differential pin. One of these options must be used for param2 of the `HROL, HROL? - (High Resolution Option and Level)`（raw: `02.06.02.02.140_HROL__HROL__-__High_Resolution_Option_and_Level.md`） command. |
- | pattern:testPoints |
-
-Queries the minimum number of vectors that must be inserted between any of the following two points:
-
-- Two test points,
-- Vector 0 of the containing label and the first test point,
-- A test point and the preceding instruction.
-
-This applies only to testpoints defined with `TPSE, TPSE? - (Test Point SEquence)`（raw: `02.06.02.02.268_TPSE__TPSE__-__Test_Point_SEquence.md`）.
-
- |
- | Result:Xmodes  | Queries which x-modes are available to the result module on the current hardware. |
- | details |
-
-Specifies a string containing a comma separated list. This parameter is required for the following module/resource combination
-
-- Result:Mode: Specify `fail,8`
-- HiRs:Mode: Specify ResultVerdictMode
- |
- | context |
-
-Specifies further restrictions on the required information. This parameter is required for the following module/resource combinations:
-
-- Level:Term and Level:Rcvrange to specify the level setup.
-
-For a fixed level setup, enter a number from 1 to 99, or specify PRM to query the primary level set.
-
-For an equation based level setup, specify a level setup ID. The level setup ID is derived as follows:
-
-`100000 * equation_set_no + 1000 * specset_no + level_set_no`
-
-- Timing:FxdlRange
-
-Global is currently the only allowed value.
-
- |
- | answer |
-
-Returns the requested information. In the answer for Level:Rcvrange, the minimum 0 threshold precedes the maximum 1 threshold.
-
-Note that the structure of the replies may change from release to release.
-
- |
- | pinlist  | A list of pins, separated by commas. This parameter is irrelevant for Result:Mode, but must be specified for the other queries.  |  Application Error map, level setup.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98739_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：13 行 × 3 列。
+> 首行（上游原文）：module:resource | Specifies the module and the resource about which information is to be returned. Currently, the following values are allowed:
 
 ### Example 1（取自子主题 Timing Setup Commands › List of timing setup commands › SPEC  -  SPECification）
 
@@ -25956,211 +20144,9 @@ WFDS {wvf_set|"wavetable"|specset_id|"multiport_spec"}, {wfIndex}, [mode], {defi
 
 ### Parameters（取自子主题 Timing Setup Commands › List of timing setup commands › WFDS  WFDS  -  WaveForm Definition String）
 
-|
-
-wvf_set
-
- |
-
-Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query you can also enter ALL for all waveform sets. Enter PRM to select the primary waveform set.
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
- |
- |
-
-multiport_spec
-
- |
-
-To query a multiport specification, enter the name of the specification.
-
- |
- |
-
-wfIndex
-
- |
-
-Waveform index. Enter an integer between 0 and 255. The index references a waveform in a device cycle. For the query you can also enter ALL for all waveform DC/DC power units. The waveform index is also used by the `WAVE, WAVE? - (WAVEform)`（raw: `02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`） command.
-
-Note that the index must be specified decimally here, whereas in the wavetable, it is coded hexadecimally.
-
- |
- |
-
-mode
-
- |
-
-Not used.
-
- |
- |
-
-definition_string
-
- |
-
-Edge action definition string which consists of drive actions for the drive/ bidirectional edges only. On Pin Scale systems, there is only one drive edge type, which is denoted by di (1 鈮? i 鈮?8).
-
-With these edges you can associate the following actions:
-
-- N: No action
-- F0N: Drive 0, no tri-state action
-- F1N: Drive 1, no tri-state action
-- FN0: No drive action, tri-state off
-- FNZ: No drive action, tri-state on
-- F00: Drive 0, tri-state off
-- F0Z: Drive 0, tri-state on
-- F10: Drive 1, tri-state off
-- F1Z: Drive 1, tri-state on
-- D1N: Drive parameter 1 (DD1), no tri-state action
-- D1N: Drive parameter 2 (DD2), no tri-state action
-- C1N: Drive complement of parameter 1 (DD1), no tri-state action
-- C2N: Drive complement of parameter 2 (DD2), no tri-state action
-- DN1: No drive action, tri-state parameter 1 (DD1)
-- DN2: No drive action, tri-state parameter 2 (DD2)
-- D11: Drive parameter 1 (DD1), tri-state parameter 1 (DD1)
-- C11: Drive complement of parameter 1 (DD1), tri-state parameter 1 (DD1)
-- D22: Drive parameter 2 (DD2), tri-state parameter 2 (DD2)
-- C22: Drive complement of parameter 2 (DD2), tri-state parameter 2 (DD2)
-
-All edges which are not explicitly set are set to N. In the query only those edges that are used are printed.
-
-The following table shows which data-dependent drive actions use the driver formatter, which use the tri-state formatter, and which use both. You have to consider this when assigning parameters to the `WAVE`（raw: `02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`） command. See also `Specifying the actions`（raw: `02.06.06.01.03.01.01_Specifying_the_actions.md`）.
-
- |
- |
-
- |
-
-Data-dependent Drive Action
-
- |
-
-Driver
-
- |
-
-Tri-state
-
- |
- |
-
-D1N, D2N, C1N, C2N
-
- |
-
-yes
-
- |
-
-no
-
- |
- |
-
-DN1, DN2
-
- |
-
-no
-
- |
-
-yes
-
- |
- |
-
-D11, C11, D22, C22
-
- |
-
-yes
-
- |
-
-yes
-
- |
- |
-
- |
-
-On Smart Scale systems, there are two types of drive edges, denoted by fi and si (1 鈮?i 鈮?8). For both of them, only the action codes 0, 1, and N are admitted. But the Smart Scale systems also support the old di syntax. For more information see `Defining waveforms for Smart Scale pins`（raw: `02.06.06.01.03.02_Defining_waveform_shapes_for_Smart_Scale_pins.md`）.
-
- |
- |
-
- |
-
-On the expected data side the actions you can define are:
-
-- N: No action
-- E0: Edge compare to 0
-- E1: Edge compare to 1
-- EI: Edge compare to intermediate
-- EX: Edge compare to mask
-- EU: Edge compare to unstable
-- C: Capture digital data (selective digital capture)
-- D: Do not capture digital data (selective digital capture)
-
-Note that waveforms that are to be used for selective digital capture must contain exactly one compare action.
-
-- W0: Window open with compare to 0
-- W1: Window open with compare to 1
-- WI: Window open with compare to intermediate
-- WX: Window open with compare to mask
-- WU: Window open with compare to unstable
-- WC: Window close
-- EE1: Edge compare to parameter 1 (ED1)
-- EE2: Edge compare to parameter 1 (ED2)
-- WE1: Window open with compare to parameter 1 (ED1)
-- WE2: Window open with compare to parameter 1 (ED2)
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
- |
-
-ALLOW_EQ
-
- |
-
-This extra parameter allows you to define or change logical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.
-
-Note also the following:
-
-- Every runtime change will affect all specifications that use the respective wavetable.
-- Since the new or changed waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
-- The runtime definitions are not checked for consistency. It is up to the user to ensure this.
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98872_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：15 行 × 4 列。
+> 首行（上游原文）：wvf_set | Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by WSUS, WSUS? -…
 
 ### Example（取自子主题 Timing Setup Commands › List of timing setup commands › WFDS  WFDS  -  WaveForm Definition String）
 
@@ -26471,65 +20457,9 @@ BCMT {vect_addr}, {vect_length}[, HIMEN][, (port)], {#spec(data)}
 ```
 
 Parameters
- |
-
-vect_addr
-
- |
-
-The first vector of the segment for which comments are to be transferred.
-
-This number counts the active vectors of the port (as specified for the port parameter) across all of its labels, starting from 0. For example, suppose that two labels are associated with the port, and that the first of them has eight active vectors, while the second has three. Then you must enter 9 if you want to insert comments for a segment that begins with the second vector of the second label.
-
- |
- |
-
-vect_length
-
- |
-
-Defines the total number of active vectors for which comments are to be downloaded.
-
- |
- | HIMEM |
-
-If this parameter is specified, the data format of #spec(data) will be treated as 64-bit. If the HIMEM parameter is omitted, the data format will be treated as 32-bit. If you want to set any comments to over 2GB vector address, you should also use the himem:on parameter in the `.technology file`（raw: `../../01_Getting_started/01.01_SmarTest_Work_Center/01.01.07.02.01.02_Technology_file_for_a_device.md`）.
-
-The query displays the 64-bit format if the response data includes over 2GB vector addresses.
-
- |
- |
-
-port
-
- |
-
-If you specify a port, the comments are associated with the active vectors of this port. Otherwise, they are associated with the active vectors of the default port @.
-
- |
- |
-
-#spec(data)
-
- |
-
-The binary comment data. The format of this parameter is:
-
-#Nn1n2n...nNcomm_data[comm_data...]
-
-where the decimal digit N defines the number of the decimal digits ni (1 鈮?i 鈮?N) that specify the length of the comment data in bytes. The comm_data blocks are structured as follows:
-
-Not using HIMEM (default):
-
-- The first byte specifies the comment length.
-- The next four bytes contain the number of the active vector to which the comment is to be attached. The vectors are counted for the whole port across label boundaries, starting from 0.
-- The remaining bytes (250 at most) contain the actual comment data.
- Using HIMEM:
-
-- The first byte specifies the actual comment length. (Excluding vector number.)
-- The next eight bytes contain the number of the active vector to which the comment is to be attached. The vectors are counted for the whole port across label boundaries, starting from 0.
-- The remaining bytes (250 at most) contain the actual comment data.
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98488_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：vect_addr | The first vector of the segment for which comments are to be transferred. This number counts the active vectors of the port (as specified for the po…
 
 ### Example（取自子主题 Vector Setup Commands › List of vector setup commands › BCMT  BCMT  -  Binary CoMmenT）
 
@@ -27118,28 +21048,9 @@ FTSM SET, [run_to], [mask_before], [mask_after][,(ref_port)]
 
   Parameters
 
- | mode  | Lets you set the mode of the FTSM command. The mode can be: |
- | SET  | In this mode the parameters run_to, mask_before, and mask_after are set and used in the next sequencer run. The original SQGB values are saved and restored with the next FTSM CLEAR command. |
- | CLEAR  | The FTSM parameters run_to, mask_before, and mask_after will be ignored by subsequent sequencer runs. Instead, the original SQGB values are restored. Original values are the values that had been active before execution of the FTSM SET command to set a specific mask. |
- | run_to |
-
-The pattern is executed up to the specified cycle, including this cycle. This parameter cannot be used together with the mask_before or mask_after parameter except for two cases:
-
-- If the mask_before parameter is set to 0.
-- If the run_to parameter is set to N and the mask_after parameter to N + 1.
-
-The cycle number must be within the range [0 ... 2^48 - 2]
-
- |
- | mask_before |
-
-All cycles before the specified cycle are masked and do not contribute to the pass/fail result. The specified cycle is not masked.
-
-If mask_before is not a multiple of 8, cycles will be recorded starting from the next lowest multiple of 8, but those up to the specified cycle will be discarded afterwards.
-
- |
- | mask_after  | All cycles after the specified cycle are masked and do not contribute to the pass/fail result. The specified cycle is not masked. (Recording will run to the end of the test, but the cycles following the specified one will be discarded afterwards.) |
- | ref_port |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98607_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
+> 首行（上游原文）：mode | Lets you set the mode of the FTSM command. The mode can be:
 
 For a multi-port burst, this parameter specifies the reference port to which the cycle numbers of the run_to, mask_before, and mask_after parameters refer.
 
@@ -27607,530 +21518,9 @@ SQPG {cmd_No}, {instr}, [param_1], [param_2], [memory], {(port)}
 ```
 
 Parameters
- |
-
-cmd_No
-
- |
-
-The command number. This parameter identifies the instruction within the sequencer area of the specified port. Refer to `Address instructions`（raw: `02.06.07.01.08.02_Address_instructions.md`） for further details.
-
-In the query, you can also specify ALL or two command numbers that are separated by a comma and included by quotes. If you specify ALL, SQPG? will return all the instructions in the sequencer area of all the specified ports. If you specify two numbers, all instructions in the specified range will be returned.
-
-Note that the exact meaning of this number depends on the operation mode, as defined with the `SAOF`（raw: `02.06.02.02.216_SAOF__SAOF__-__Set_Alternating_Operation_Features.md`）command. In standard mode (SAOF ZERO), the command lines are counted from the start of the sequencer area, but in append mode (SAOF APP) they are counted from the start of the expansion previously defined with `DMAS`（raw: `02.06.02.02.79_DMAS__DMAS__-__Define_Memory_Area_Size.md`）.
-
- |
- |
-
-instr
-
- |
-
-The mandatory sequencer instruction. It specifies the task that the sequencer performs:
-
- |
- | |
-
-BEND
-
- |
-
-Marks the end of a normal or a multi-port burst label.
-
- |
- | |
-
-BRKV
-
- |
-
-The "break vector" instruction generates break vectors. param_1 and param_2 must both be specified.
-
-- param_1specifies the number of break vectors to be generated. If the specified number is not directly divisible by 8, it will be rounded up to the next multiple of 8. The admitted range is from 1 to 32760.
-- param_2specifies a wait time in nanoseconds. SmarTest will generate the appropriate number of break vectors (always a multiple of 8) to fill that interval.
-
-Note that this is a lower bound; the actual wait time may be longer than the specified time. The admitted range is from 0 to 5592402.
-
-If the wait time is greater than 0, it is added to the time consumed by the break vectors of param_1.
-
- |
- | |
-
-CALL
-
- |
-
-Calls a MAIN label within a normal or a multi-port burst label. param_1 must be omitted, param_2 is required:
-
-- param_2 specifies the name of the label to be executed as part of the burst label. The label name must be enclosed in double quotes.
- |
- | |
-
-CLEV
-
- |
-
-The "Change LEVels" instruction allows you to change the level set. param_1 is required, param_2 must be omitted:
-
-- param_1 specifies the level set number. The new value has to be an integer in the range of 1 to the maximum allowed level sets as set by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`） command. You can also enter PRM which specifies the primary level set.
- |
- | |
-
-COGO
-
- |
-
-The "conditional go to" instruction is similar to the JMPE instruction. There are two differences:
-
-- COGO can only be used in SVEC subroutines.
-- When a subroutine is called with COGO, the called subroutine will not return to the calling subroutine, but to the lowest label in the call hierarchy that did not use COGO for its subroutine call.
-
-If, for example, the MAIN label pat1 calls the subroutine sub1 with JSUB, and sub1 calls sub2 with JMPE, then sub2 will return to sub1. But if sub2 is called with COGO from sub1, then sub2 will return to pat1.
-
-The reason for this is that the return address for a COGO call is not pushed onto the call stack. Note that this can be exploited to create an infinite loop by letting sub1 call sub2 with COGO, and letting sub2 in turn call sub1 also with COGO. By contrast, such a mutual call will lead to a stack overflow when JMPE is used for the calls.
-
-- param_1 specifies the label to jump to when the error flag is not set 1.
-- param_2 specifies the label to jump to when the error flag is set 1.
-
-The label names must be enclosed with double quotes. Both parameters can be omitted.
-
- |
- | |
-
-CTIM
-
- |
-
-The "Change TIMing" instruction allows you to change the timing set. param_1 is required, param_2 must be omitted:
-
-- param_1 specifies the timing set number. The new value has to be an integer in the range of 1 to the maximum number of allowed timing sets as set by the `DSCP`（raw: `02.06.02.02.90_DSCP__DSCP__-__Define_System_Control_Parameter.md`）command. You can also enter PRM which specifies the primary timing set.
- |
- | |
-
-FLQU
-
- |
-
-The "fill data queue" instruction inserts fill break vectors into the data queue (see also `How to prevent the data queue from running empty`（raw: `02.06.07.01.09.03_How_to_prevent_the_data_queue_from_running_empty.md`）). param_1 and param_2 must be omitted.
-
- |
- | |
-
-GENV
-
- |
-
-The "GENerate Vectors" instruction causes parallel vectors to be sent to the DUT. param_1 is required, param_2 must be omitted. Where, param_1 specifies the number of parallel vectors to be generated. The maximum number of vectors is (2^21- 1) * 8.
-
-  Note After inserting a GENV instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas. See `Inserting a sequencer instruction`（raw: `02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md`）. |
- | |
-
-JMPE
-
- |
-
-The "jump to subroutine on error" instruction lets you execute a conditional jump to an SVEC type subroutine in dependence on an internal error flag which indicates that at least one cycle has failed. You can specify two subroutines, one for the case where the flag is set, and one for the case where it is not set. Both specifications are optional.
-
-- param_1 specifies the label to jump to when the error flag is not set`1)`（raw: `02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md#_98749__fn1`）.
-- param_2 specifies the label to jump to when the error flag is set`1)`（raw: `02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md#_98749__fn1`）.
-
-The label names must be enclosed with double quotes. Both parameters can be omitted.
-
-The error flag is reset when the subroutine of param_2 is executed.
-
-Note that the instruction cannot be placed immediately after the last of those vectors on whose result the jump is to depend. Rather, an appropriate number of buffer vectors must be inserted between this vector and the instruction. For more information see `Calculating the buffer vectors for JMPE`（raw: `02.06.07.01.08.05.02.01_Calculating_the_buffer_cycles_for_JMPE_and_RETC__and_match_loops.md`）.
-
-Note also that this instruction is not supported by the result tools.
-
- |
- | |
-
-JPPS
-
- |
-
-The "jump to per-pin subroutine" instruction jumps to a pin specific subroutine. param_1 must be omitted, param_2 is required:
-
-- param_2 specifies the label to jump to. The label name must be enclosed with double quotes.
-
-Note that this instruction is counted as a logical vector of a pattern.
-
- |
- |   | JSUB |
-
-The "jump sub-patterns" instruction jumps to a vector type subroutine or a scan subroutine.
-
-Note that this instruction is not allowed in scan subroutines.
-
- |
- | |
-
-JTIN
-
- |
-
-This instruction starts or stops jitter injection on a Smart Scale port for all port pins that are included in the primary jitter set. It overrules the global configuration of the jitter loop (as defined by the MODE property of JSCF), but only within the test in which it is issued. If no primary jitter set exists, the instruction is ignored.
-
-param_1 is required, param_2 must be omitted:
-
-- The possible values for param_1 are START and STOP.
-
-Note that this instruction is not available for the PSSL FASTDIFF mode.
-
- |
- | |
-
-LBGN
-
- |
-
-The "loop begin" instruction specifies the start position of either a counted or an endless loop. The software uses different parameters to differentiate between the two loop structures.
-
-For an endless loop, param_1 can be either omitted or set to 0.
-
-For a counted loop, param_1 must be an integer in the range of 1 to 33554432 (this is the restriction imposed by the hardware). If this maximum is exceeded, the command fails with an error message.
-
-For both cases, param_2 must be omitted.
-
- Note The only instructions that are allowed to be used within a counted loop are GENV, SRCV, RPTV, and NOP. Other instructions will report errors at the proper time. There are no changes to the existing endless loop structure. Note Whenever possible, use RPTV instead of a counted loop. |
- | |
-
-LEND
-
- |
-
-The "Loop END" instruction specifies the end of an endless loop. param_1 and param_2 must be omitted.
-
- |
- | |
-
-LPBK
-
- |
-
-This instruction starts a SmartLoop™test. param_1 and param_2 are both optional:
-
-- param_1 defines the number of cycles for the SmartLoop™test; this must be a multiple of 8. The maximum is 2^31-1.
-- param_2 is an optional multiplier for param_1; the maximum is 2^12-1. The point of this construction is to increase the maximum number of cycles above the maximum value of the individual parameters.
-
-If you omit both parameters, then the behavior of the SmartLoop™test depends on whether ports without loopback pins exist in the start label. If so, the SmartLoop™ test will run until all ports without loopback pins have finished their test. If all pins are loopback pins, the test will start, but stop at once.
-
-Note that a pattern that contains a LPBK instruction must not contain any other instruction except BRKV, LBGN/LEND, and TMUA.
-
- |
- | |
-
-MACT
-
- |
-
-The "match activate" instruction specifies the start of a counted match loop.
-
-param_1 specifies the number of loops after which the whole test fails. The maximum is 2^21 - 1.
-
-The MACT instruction features a second, optional parameter:
-
-- CONTINUE: This option keeps the test going on even if the loop fails.
-- TIL_FAIL_STOP: The loop is to be repeated until an iteration fails. When the maximum loop count is reached, the test program stops.
-- TIL_FAIL_CONT: The loop is to be repeated until an iteration fails. When the maximum loop count is reached, the test program continues after the loop has been completely executed. This behavior is a combination of both TIL_FAIL_STOP and CONTINUE.
-  Note The two values TIL_FAIL_STOP and TIL_FAIL_CONT are valid for Smart Scale cards only. |
- | |
-
-MBGN
-
- |
-
-The "Match BeGiN" instruction specifies the start position of a timed (old style) match loop. param_1 and param_2 must be omitted. See Generating a Match Loop below.
-
- |
- | |
-
-MEAS
-
- |
-
-The "execute MEASurement set" instruction executes a PPMU measurement set. The measurement set must have been downloaded with the `MSET`（raw: `02.06.02.02.164_MSET__MSET__-__definition_of_Measurement_SET.md`） command. param_1 and param_2 are both required.
-
-- param_1 specifies the number of the PPMU DC set to which the measurement set belongs.
-- param_2 specifies the number of the measurement set.
- |
- | |
-
-MEND
-
- |
-
-The "Match END" instruction specifies the end of a timed (old style) match loop. param_1 and param_2 must be omitted.
-
- |
- | |
-
-MJPE
-
- |
-
-The "Match Jump on Error" instruction tells the sequencer to jump out of a timed (old style) match loop when a compare match is found. param_1 and param_2 must be omitted.
-
- |
- | |
-
-MRPT
-
- |
-
-The "match repeat" instruction marks the end of the compare vectors and the start of the dummy vectors for a counted match loop. It specifies the number of dummy vectors. It also causes the sequencer to wait when an error is detected in the match loop. See `Counted match loops`（raw: `02.06.07.01.08.04.03.01_Counted_match_loops.md`）. param_1 is required, param_2 must be omitted:
-
-- param_1 is the number of vectors. The maximum is (2^21 - 1) * 8 for SM memory type, and (2^21 - 1) * 7 for VM memory type.
-
-Note that after inserting a MRPT instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas.
-
-Note that this instruction is counted as a logical vector of a pattern.
-
- |
- | |
-
-NOP
-
- |
-
-The "no operation" instruction performs no operation on the DUT (but increases the instruction density for the data queue. For more information refer to `Managing the data queue`（raw: `02.06.07.01.09_Managing_the_data_queue.md`）). param_1 and param_2 must be omitted.
-
- |
- | |
-
-PRBS
-
- |
-
-This instruction starts a PRBS test. param_1 is required, param_2 is optional:
-
-- param_1 defines the number of cycles for the PRBS test; the maximum is 2^31-1.
-- param_2 is an optional multiplier for param_1; the maximum is 2^12-1. The point of this construction is to increase the maximum number of cycles above the maximum value of the individual parameters.
-
-Note that a pattern that contains a PRBS instruction must not contain any other instruction except BRKV, LBGN/LEND, and TMUA.
-
- |
- | |
-
-RETC
-
- |
-
-The "return conditionally" instruction returns from an SVEC type subroutine to a higher level SVEC subroutine or the main program in dependence of an internal error flag which is set when at least one cycle has failed. param_1 and param_2 are both required.
-
-- param_1 controls the dependency on the error flag. If it is set to 0, the return will only be executed if no error occurred so far. If it is set to 1, the return will only be executed if an error occurred.
-- param_2 can be used to reset the error flag. If the parameter is set to 0, the flag will be reset. If the parameter is set to 1, the flag will left in its current state.
-
-Note that this instruction is not supported by the result tools.
-
- Note If you use the LMAP error map mode, `FLBL`（raw: `02.06.02.02.123_FLBL__-__Failing_LaBeLs.md`） ignores the RETC clearing flag for failures. Note If you use RETC to reduce test time by aborting a sequencer run early after checking for a failing DUT response, consider the following:
-
-When not all sites are enabled or activated (means, they are masked), see `The states of the sites`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.27.01_The_states_of_the_sites.md`）, and site match is set to ON, the masked sites will not be aware of the abort condition. Instead, the overall execution time depend on the maximum pattern length. In such scenarios, use the `Pattern per site`（raw: `../../03_Use_cases_and_application_papers/03.01_Performance_Cookbook__How_to_reduce_test_times/03.01.03.02.02_Pattern_per_site__Label_per_site.md`） feature to assign a dummy label for disabled sites. This ensures that the sequencer run get stopped as soon as all enabled sites have met the RETC condition.
-
- |
- |   | RGOP  | The "register operation" instruction performs simple arithmetic operations. It can be used, for instance, to ease the branch reconstruction for a `Sequencer‑controlled search with cogo`（raw: `../02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md`）.
-
-param_1 is required, param_2 must be omitted.
-
-param_1 species the action as one of the following options:
-
-- RESET checks that the register value is 0. If not, the test fails. The first instruction of a new search has to be an RGOP RESET.
-- INC adds 1 to the current value of the register. The maximum count is 2^32-1.
-- INC_LOWER is the same as INC but with a different overflow check, to be used to run the first of two counts in the same sequencer run, together with INC_UPPER (not INC). Must not be used after a call with INC_UPPER. The maximum count is 2^16-1
-- INC_UPPER is to be used as the second count (works by adding 2^16 to the current value of the register).
-- SHL shifts the current value of the register one bit to the left and set bit 0 of the register to 0.
-
-The RGOP instruction cannot be used in the same sequencer run as a `match loop`（raw: `02.06.07.01.08.04.03_Match_loops.md`）, nor can you do interleaved or sequential COGO searches with this approach.
-
-The result is retrieved with an RGOV? query.
-
- |
- | |
-
-RPTJ
-
- |
-
-The "repeat jump" instruction repeats the next JSUB instruction param_1 times. The JSUB instruction must follow the RPTJ instruction immediately. param_1 is required, param_2 must be omitted:
-
-- param_1 specifies the number of times the next JSUB instruction is to be repeated. The value has to be an integer in the range of 2 to 2^19 - 1.
-
-Note that this instruction is counted as a logical vector of a pattern.
-
- |
- | |
-
-RPTV
-
- |
-
-The "repeat vector" instruction repeats a sequence of vectors. param_1 and param_2 are both required:
-
-- param_1 specifies the number of vectors to be repeated. The maximum is (2^21- 1) * 8.
-- param_2 specifies the number of repetitions. The maximum value depends on whether param_1 exceeds the word length of 8. If it does not, the maximum is 2^24 - 8. If it does, the maximum number is 2^18.
- Note After inserting an RPTV instruction you may have to readjust the vector areas, and possibly also the STVA addresses of the labels that use later segments of the vector areas. See `Inserting a sequencer instruction`（raw: `02.06.07.01.07.03.01_Inserting_a_sequencer_instruction.md`）. |
- | |
-
-RSJP
-
- |
-
-The "Return from a Subroutine Jump" instruction returns from an SJMP type subroutine. param_1 and param_2 must be omitted.
-
-This instruction is allowed for downward compatibility only. It should not be used in new applications.
-
- |
- | |
-
-RSUB
-
- |
-
-The "return from a vector subroutine" instruction returns from an SVEC type subroutine to a higher level SVEC subroutine or the main program. param_1 and param_2 must both be omitted.
-
- |
- | |
-
-SRCV
-
- |
-
-The "SouRCe Vectors" instruction marks the start of a source vector block. It can only be used in connection with the SSRC instruction. Within such a block, the vectors of the source pins are read from the DSCR label referenced by the SSRC instruction. The vectors for the other non-source pins are specified in the actual label. param_1 and param_2 are both required:
-
-- param_1 specifies the size of the parallel vector sequence to be repeated on non-source pins. The range is 1 to 65535.
-- param_2 specifies how often the sequence is to be repeated. The range is also 1 to 65535.
-
-The length of a source vector block is determined by the length of the corresponding source vector section in the DSCR label. Accordingly, param_1 * param_2 must equal the length of this section. Otherwise, the parameters are only relevant to the non-DSM pins: they define the length of the vector block that is to be executed on the non-source pins, and how often this block is to be repeated.
-
-Note that this instruction is counted as a logical vector of a pattern.
-
- |
- | |
-
-SSRC
-
- |
-
-The "Start SouRCe" instruction specifies the label (of type DSRC) that contains the vectors for the source pins. param_1 must be omitted, param_2 is required:
-
-- param_2 must specify a valid DSRC label name enclosed by doubled quotes.
-
-The source pins are defined by the port of the DSRC label. Refer to the SRCV instruction below.
-
- |
- | |
-
-STOP
-
- |
-
-The "stop test" instruction programs the sequencer to stop the label. This instruction must be present in each label of type MAIN. param_1 and param_2 must both be omitted.
-
- |
- | |
-
-STSA
-
- |
-
-The "SeT Scan vector Address" instruction is one of the two STxA instructions that form a label header. It must be present in every label of type MAIN. param_1 and param_2 must be omitted.
-
- |
- | |
-
-STVA
-
- |
-
-The "SeT parallel Vector Address" instruction is one of the two STxA instructions that form a label header. It must be present in every label of types MAIN and SVEC. param_2 is required, param_1 must be omitted:
-
-- param_2 specifies the start address of the port specific vector area segments that are associated with the label. The address must be a multiple of 8.
-
-You can always use param_2 to specify the address, but SmarTest stores and displays the address in param_2 only if the vector setup file contains patterns for user defined ports. In all other cases it uses param_1.
-
- |
- | |
-
-TMUA
-
- |
-
-This instruction arms the TMU per pin for all pins of the pattern port. param_1 and param_2 must both be omitted.
-
-Not supported for Pin Scale 5000 cards.
-
- |
- | |
-
-WAIT
-
- |
-
-The WAIT instruction causes the sequencer to create a number of break vectors which approximates as closely as possible a specified number of nano seconds.
-
-param_1 is required, param_2 must be omitted:
-
-- param_1specifies the required number of nano seconds. The admitted range is from 0 to 5592402.
- |
- | |
-
-WTER
-
- |
-
-The "WaiT on ERror" instruction programs the sequencer to wait on encountering an error within a timed (old style) match loop. param_1 and param_2 must be omitted.
-
- |
- |
-
- |
-
-XACT
-
- |
-
-The "eXecute ACTion" instruction executes a DC waveform. param_2 is required, param_1 must be omitted:
-
-- param_2 specifies the name of the DC waveform to be executed. The waveform identified by this name must have been defined with the DFTD command within a test data collection which has the same name as the pattern in which XACT is used.
- |
- |
-
-param_1
-
- |
-
-The role of this optional parameter depends on the instruction specified for the instr parameter. See the descriptions of the individual instructions.
-
- |
- |
-
-param_2
-
- |
-
-The role of this optional parameter depends on the instruction specified for the instr parameter. See the descriptions of the individual instructions.
-
- |
- |
-
-memory
-
- |
-
-The optional parameter defines the location of the vectors. Possible values are:
-
-- SM: Sequencer memory. This is the default.
-- SHMEM: With this option different sites for the same pin share their vector areas, or at least always use the same vector data. For more information see `Selecting the memory type`（raw: `02.06.07.01.04.01_Selecting_the_memory_type.md`）.
- |
- |
-
-port
-
- |
-
-The mandatory parameter defines the name of the port whose sequencer area is to be modified. Specify @ for the default port to which all pins belong.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98749_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：44 行 × 3 列。
+> 首行（上游原文）：cmd_No | The command number. This parameter identifies the instruction within the sequencer area of the specified port. Refer to Address instructions for furthe…
 
 ### Example 1（取自子主题 Vector Setup Commands › List of vector setup commands › SQPG  SQPG  -  SeQuencer ProGramming）
 
@@ -28725,157 +22115,9 @@ DPSR {set_nr}, ["exec_context",] (setup_pinlist), (result_pinlist), [wait_time,]
 Extra parameters exec_context and wait_time are returned only if they have been defined by DPSR.
 
 Parameters
- | set_nr |
-
-The mandatory parameter specifies the number of the search set in which the condition is to be stored.
-
-The maximum number is 128.
-
-If a search set with this number does not yet exist, it will be created.
-
- |
- | exec_context |
-
-The extra parameter defines an execution context.
-
-For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）.
-
- |
- | setup_pinlist |
-
-The optional parameter defines the pins for which an edge is to be moved or a spec variable is to be modified.
-
-If this parameter is omitted, all pins will be used as setup pins.
-
- |
- | primary_port |
-
-This optional parameter is only relevant for Pin Scale systems.
-
-Specifies the setup pins by a single port name. The difference to a setup pin list is that the port will be used as the primary port by `EXSR`（raw: `02.06.02.02.121_EXSR_-__EXecute_SeaRch.md`）.
-
-Note that this only holds if you specify the setup pins by one single port. If you enter more than one port, the list will be treated as a normal setup pin list.
-
-This parameter is only applicable if spec_name as specified in the #spec(data) parameter occurs in the period definition for the specified port in the primary multi-port timing specification.
-
-Add @UNCHANGED to suppress the switch of the primary port..
-
- |
- | result_pinlist |
-
-The optional parameter defines the output pins whose results are contributing to the test result.
-
-If the parameter is omitted, all output and I/O pins will contribute to the result. If you specify an empty #spec(data) parameter, the result_pinlist parameter is ignored.
-
- |
- | wait_time  | The extra parameter specifies a wait time between the functional test runs in milliseconds.
-
-Valid range: 0 …2^31 - 2
-
-Default value if not specified: 0 ms
-
- |
- | search_type |
-
-The optional parameter specifies the search type.
-
-This parameter determines the format of the #spec(data) parameter. If you specify an empty #spec(data) parameter, the search_type parameter will be ignored.
-
-Currently, the following values are allowed:
-
- |
- | FUNC  | Functional search |
- | ERCT |
-
-With this option, an additional error count check is performed internally for each repetition of the functional test. If the number of errors is smaller than the value specified by the max_err_count parameter, then the functional test will count as passed, and the search be terminated for a FAIL/PASS transition. The edge position / spec value of this test repetition will then be returned as the transition point by RSSR?.
-
-Note that it depends on the settings of DRCM whether failing cycles or failing edges are counted.
-
- |
- | max_err_count |
-
-This extra parameter specifies the maximum number of errors for which a repetition of the functional test will still count as passed.
-
-The parameter must be defined and is only processed if the search_type is ERCT.
-
- |
- | #spec(data) |
-
-The mandatory binary data that define the search condition. The general format is:
-
-`#Nn1n2n...nNdata_stream`
-
-where the digit N defines the number of the digits ni (1 鈮? i 鈮?N) that specify the length of data_stream in bytes.
-
-The format of the data stream itself is determined by the search_type parameter. For search types FUNC and ERCT (currently the only search types), the format is
-
-`{spec_type}, {"spec_name"|resource}, {search_mode}, {start}, {stop}, [step_size], [resolution]`
-
-You can delete a search condition by specifying an empty data stream with #10. If you omit all the other parameters and specify #10 for the #spec(data) parameter, the whole search set will be erased.
-
-The meaning of the individual sub-parameters is as follows:
-
- |
- |
-
-spec_type
-
- |
-
-Specifies whether a spec variable or a resource is modified, and in the former case also the type of the spec variable. This parameter determines the allowed values of the following parameter.
-
-Possible values of the spec_type parameter are:
-
- |
- | TIM  | A timing spec variable is to be modified. |
- | LEV  | A level spec variable is to be modified. |
- | RES  | A hardware resource is to be modified. |
- | spec_name |
-
-The name of a spec variable must be specified if spec_type is set to TIM or LEV.
-
-DPSR does not accept the format
-
-`spec_name@port_name,`
-
-that is, spec names that are qualified by a port name. If the same spec variable is used in more than one port, the setup pins determine on which ports the value of the variable is modified.
-
- |
- | resource |
-
-A resource must be specified if spec_type is set to RES Currently, the only allowed resources are edges, which must be specified in the standard format, di or ri.
-
- |
- | search_mode |
-
-This parameter defines the search algorithm.
-
-Possible values are:
-
- |
- | L  | Specifies a linear search from the start of the search range at intervals defined by step_size. |
- | B  | Specifies a binary search between the start and the stop positions. |
- |
-
-LB
-
-   | Specifies a combined linear and binary search. A linear search is performed at intervals defined by step_size. When a PASS/FAIL transition is found, an additional binary search is performed in the interval between the last passed and the first failed test, or the last failed and the first passed test. |
- | start  | >Specifies the starting point of the search. If the value is greater than the stop value, the search will go backward. |
- | stop  | Specifies the end point of the search. If the value is smaller than the start value, the search will go backward. |
- | step_size |
-
-This parameter specifies the step width of a linear search. The unit depends on the spec_type parameter. For a spec search, it is the unit of the spec variable. For a resource search, it is ns.
-
-This parameter is mandatory for a linear search, and optional for a binary search.
-
- |
- | resolution |
-
-This parameter specifies the resolution of the search. For a binary search, this is the minimum length of the interval between the returned PASS value and the returned FAIL value. For a linear search, the start, stop, and step_size values will be rounded to multiples of the specified resolution.
-
-If the parameter is omitted, the smallest values allowed by the software ( for spec variables) or the hardware (for edges) will be used.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98574_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：25 行 × 4 列。
+> 首行（上游原文）：set_nr | The mandatory parameter specifies the number of the search set in which the condition is to be stored. The maximum number is 128. If a search set with …
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › DPSR  DPSR  -  Define Parallel SeaRch）
 
@@ -29059,28 +22301,9 @@ FTSM SET, [run_to], [mask_before], [mask_after][,(ref_port)]
 
   Parameters
 
- | mode  | Lets you set the mode of the FTSM command. The mode can be: |
- | SET  | In this mode the parameters run_to, mask_before, and mask_after are set and used in the next sequencer run. The original SQGB values are saved and restored with the next FTSM CLEAR command. |
- | CLEAR  | The FTSM parameters run_to, mask_before, and mask_after will be ignored by subsequent sequencer runs. Instead, the original SQGB values are restored. Original values are the values that had been active before execution of the FTSM SET command to set a specific mask. |
- | run_to |
-
-The pattern is executed up to the specified cycle, including this cycle. This parameter cannot be used together with the mask_before or mask_after parameter except for two cases:
-
-- If the mask_before parameter is set to 0.
-- If the run_to parameter is set to N and the mask_after parameter to N + 1.
-
-The cycle number must be within the range [0 ... 2^48 - 2]
-
- |
- | mask_before |
-
-All cycles before the specified cycle are masked and do not contribute to the pass/fail result. The specified cycle is not masked.
-
-If mask_before is not a multiple of 8, cycles will be recorded starting from the next lowest multiple of 8, but those up to the specified cycle will be discarded afterwards.
-
- |
- | mask_after  | All cycles after the specified cycle are masked and do not contribute to the pass/fail result. The specified cycle is not masked. (Recording will run to the end of the test, but the cycles following the specified one will be discarded afterwards.) |
- | ref_port |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98607_3.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 3 列。
+> 首行（上游原文）：mode | Lets you set the mode of the FTSM command. The mode can be:
 
 For a multi-port burst, this parameter specifies the reference port to which the cycle numbers of the run_to, mask_before, and mask_after parameters refer.
 
@@ -29132,11 +22355,12 @@ FTST {result_flag}
 
 ### Parameters（取自子主题 AC Testing Commands › List of AC test function commands › FTST  -  Functional TeST）
 
-| exec_context  | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）. |
- | result_flag  | This is returned by the system when the functional test has finished. It can be:
-
- |   | P  | is returned if the functional test passes. |
- |   | F  | is returned if the functional test fails.  | |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98608_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 6 列，含嵌套表。
+> 首行（上游原文）：exec_context | An execution context. For more information on execution contexts see Using execution contexts.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98608_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
+> 首行（上游原文）：P | is returned if the functional test passes.
 
 ### Example（取自子主题 AC Testing Commands › List of AC test function commands › FTST  -  Functional TeST）
 
@@ -29168,8 +22392,6 @@ RCLS {value_specifier}, {result_value}
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98716_3.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：15 行 × 2 列，含 colspan 与 rowspan。
 
 test
 
@@ -29964,8 +23186,6 @@ DDIC? {"circuitry_type"}
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/106906_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：14 行 × 2 列，含 colspan 与 rowspan。
 
 connectionSet
 
@@ -30095,39 +23315,12 @@ DFCT {force_current}, {commutation_voltage}, {pass_volt_min}, {pass_volt_max}, {
 
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › DFCT -  DeFine Continuity Test）
 
-|
-
-force_current
-
- |
-
-The force_current parameter specifies the current (in [micro ]A) that the active load sources or sinks. The range is 0 to 35 mA for the Pin Scale 800 and P-/Ce- channel boards. The direction of the current is determined by the polarity of the commutation voltage and the pass range.
-
- |
- |
-
-commutation_voltage
-
- |
-
-This parameter defines the commutation voltage (in mV) that the active load requires to source/sink the force_current. For the Pin Scale 800, the range is -1.5 V to 5.5 V. For the P-/Ce-channel boards, the range is -2 V to +6 V.
-
- |
-
- |
-
-pass_volt_min
-
- |
-
-This parameter specifies (in mV) the minimum pass value of the test. It defines the low level threshold for the comparator during the measurement.
-
- |
- |
-
-pass_volt_max
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98542_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：force_current | The force_current parameter specifies the current (in [micro ]A) that the active load sources or sinks. The range is 0 to 35 mA for the Pin Scal…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98542_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：pass_volt_min | This parameter specifies (in mV) the minimum pass value of the test. It defines the low level threshold for the comparator during the measuremen…
 
 This parameter specifies (in mV) the maximum pass value of the test. It defines the high level threshold for the comparator during the measurement.
 
@@ -30175,102 +23368,11 @@ DPSE {setnr}, {(pinlist)}, {binary_data}
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › DPSE  DPSE  -  Define Power Supply External trigger measurement）
 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98572_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：24 行 × 1 列，含 colspan。
-
- |
-
-setnr
-
- |
-
-This number defines the set number for the measurement. The number must be an integer from 1 to 256.
-
-In the query, you can specify ALL to retrieve the data of all sets.
-
- |
- |
-
-pinlist
-
- |
-
-This parameter specifies the pins to be used for the measurements.
-
- |
- |
-
-binary_data
-
- |
-
-This is a binary data string. The string starts with the '#' character, followed by a digit in the range 1 to 9 which stipulates how many digits are used in the data length specifier. The data length specifier is next: up to 9 digits determine how many bytes of data will follow. The actual data string follows last.
-
- Note If the binary data string is empty, the definition for the pins specified in pinlist will be deleted from the set.
-
-The first character or value of the data stream determines the format for the remainder of the data stream (characters '0' through '3' are for current measurements, '4' through '11' for voltage measurements):
-
- | 0: Waveform template |
- | |
-
-If the first character is a '0', it is followed by a waveform template. The values are given first for the low value and then for the high value. The values are separated by a ',' (comma).
-
-This template is for the PASS/FAIL results from the `PSER?`（raw: `02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md`） query. The current range in which the measurements will be executed is determined by the maximum/ minimum value of the template. The values have the unit Amps [A].
-
-This option can only be combined with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command.
-
- |
- | 1: Number of measurement points followed by low and high values |
- |   | If the first character is a '1', a number and two values follow. The first number gives the number of measurement points. The second and third define the low and high values. These are separated by a "," (comma). The current range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Amps [A].
-
-This option can only be combined with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command.
-
- |
- | 2: Low and high value |
- |   | If the first character is a '2', two values follow. They define the low and high value (in this order) and are separated by a "," (comma). The current range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Amps [A]. The number of measurement points is 1.
-
-This option requires that the measurement is executed with the `PSIE`（raw: `02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`） command.
-
- |
- | 3: Low and high value |
- |   | If the first character is a '3', two values follow. They define the low and high value (in this order) and are separated by a "," (comma). The current range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Amps [A]. The number of measurement points is 1.
-
-This option can only be selected for DC Scale channel DPS's and requires that the measurement is executed with the `PSIE`（raw: `02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`） command. If the channels belong to a Master/Slave configuration, they are unganged during the measurement as far as possible, that is, as far this can be done without affecting the goal of the measurement.
-
- |
- | 4: Waveform template |
- |   | If the first character is a '4', it is followed by a waveform template. The values are given first for the low value and then for the high value. The values are separated by a ',' (comma). This template is for the PASS/FAIL results from the `PSER?`（raw: `02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md`） query. The voltage range in which the measurements will be executed is determined by the maximum/ minimum value of the template. The values have the unit Volt [V].
-
-This option can only be selected for DC Scale channel DPS's and can be combined only with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command.
-
- |
- | 5: Number of measurement points followed by the low and high values |
- |   | If the first character is a '5', a number and two values follow. The first number gives the number of measurement points. The second and third define the low and high values. These are separated by a "," (comma). The voltage range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Volt [V].
-
-This option can only be selected for DC Scale channel DPS's and can be combined only with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command.
-
- |
- | 6: Low and high value |
- |   | If the first character is a '6', two values follow. They define the low and high value (in this order) and are separated by a "," (comma). The voltage range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Volt [V]. The number of measurement points is 1.
-
-This option requires that the measurement is executed with the `PSIE`（raw: `02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`） command.
-
- |
- | 7: Voltage waveform template for the high speed digitizer |
- |   | If the first character is a '7', it is followed by a voltage waveform template for the high speed digitizer (connect state *HDIG). An error message occurs if another connect state is used. The values are given first for the low value and then for the high value. The values are separated by a ',' (comma). This template is for the PASS/FAIL results from the `PSER?`（raw: `02.06.02.02.190_PSER__-__Power_Supply_External_trigger_measurement_Read_results.md`） query. The voltage range in which the measurements will be executed, is determined by the maximum/ minimum value of the template. The values have the unit Volt [V]. This option can be selected only for DC Scale UHC4 / UHC4T channels and can be combined only with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command. See also `DPS_PIN_TASK`（raw: `../02.07_Test_Method_Reference/02.07.04.01.50.01_DPS_PIN_TASK.md`）. |
- | 8: Number of measurement points followed by the low and high values for high speed digitizer measurements |
- |   | If the first character is an '8', a number and two values follow. The first number gives the number of measurement points. The second and third define the low and high values. These are separated by a "," (comma). The voltage range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Volt [V]. This template is for high speed digitizer measurements only, that means connect state *HDIG. An error message occurs if another connect state is used. This option can be selected only for DC Scale UHC4 / UHC4T channels and can be combined only with the `PSEE`（raw: `02.06.02.02.189_PSEE_-__Power_Supply_External_trigger_measurement_Execute.md`） command. See also `DPS_PIN_TASK`（raw: `../02.07_Test_Method_Reference/02.07.04.01.50.01_DPS_PIN_TASK.md`）. |
- | 9: Low and high value for high speed digitizer measurements |
- |   | If the first character is a '9', two values follow. They define the low and high value (in this order) and are separated by a "," (comma). The voltage range for the measurements is determined by the maximum and minimum value of the template. The values are given in the unit Volt [V]. The number of measurement points is 1. This template is for high speed digitizer measurements only, that means connect state *HDIG. An error message occurs if another connect state is used. This option can be selected only for DC Scale UHC4 / UHC4T channels and requires that the measurement is executed with the `PSIE`（raw: `02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`） command. See also `DPS_PIN_TASK`（raw: `../02.07_Test_Method_Reference/02.07.04.01.50.01_DPS_PIN_TASK.md`）. |
- | 10: Force voltage-drop measurement |
- | |
-
-If the first value is a '10', two values follow. They define the low/high P/F limits of a force (voltage-)drop measurement and are separated by a "," (comma). The values are given in the unit Volt [V]. The number of measurement points is 1.
-
-This option can be selected only for the HC variant of `DC Scale DPS128`（raw: `../02.05_Test_Head_Cards/02.05.05.01_DC_Scale_DPS128_DPS64_cards.md`） channels and requires that the measurement is executed with the `PSIE`（raw: `02.06.02.02.192_PSIE_-__Power_Supply_Internal_trigger_Execute.md`） command.
-
- |
- | 11: Return voltage-drop measurement |
- | |
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：26 行 × 4 列，含嵌套表。
+> 首行（上游原文）：setnr | This number defines the set number for the measurement. The number must be an integer from 1 to 256. In the query, you can specify ALL to retrieve the d…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98572_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：24 行 × 2 列。
+> 首行（上游原文）：0: Waveform template
 
 If the first value is an '11', two values follow. They define the low/high P/F limits of a return (voltage-)drop measurement and are separated by a "," (comma). The values are given in the unit Volt [V]. The number of measurement points is 1.
 
@@ -30606,90 +23708,9 @@ PMUR {judge}, [voltage], [current], {(pinlist)}
 
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › PMUR   retrieve PPMU result）
 
-|
-
-type
-
- |
-
-Data type to be retrieved. The following specifiers can be set:
-
-VMUM: Returns the measurement value from the PPMU measurement (successive approximation) for the pins in pinlist.
-
-VAL: Returns the per pin measurement value or values for the pins in pinlist.
-
-PF: Per pin pass fail result for the pins in pinlist.
-
-GPF: Global pass fail result for all tested pins. The pinlist is ignored.
-
- |
- |
-
-mode
-
- |
-
-This parameter controls the behavior of PMUR? if the type parameter is set to VAL. The allowed values are:
-
- |
- |
-
- |
-
-FORCE_MEASURE
-
- |
-
-PMUR? performs a value measurement for type VAL.
-
- |
- |
-
- |
-
-USE_CACHE
-
- |
-
-PMUR? performs a value measurement only if necessary, that is, if a result for the same measurement set is not present in the cache.
-
- |
- |
-
-judge
-
- |
-
-This parameter indicates a judgment of the pin with the following specifiers:
-
-P: Pass
-
-F: Fail
-
- |
- |
-
-voltage
-
- |
-
-Measured voltage in mV. This parameter is only returned when type = VAL.
-
- |
- |
-
-current
-
- |
-
-Measured current in uA. This parameter is only returned when type = VAL.
-
- |
- |
-
-pinlist
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98687_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 3 列。
+> 首行（上游原文）：type | Data type to be retrieved. The following specifiers can be set: VMUM: Returns the measurement value from the PPMU measurement (successive approximation) …
 
 Target pin or pins to retrieve result
 
@@ -30716,9 +23737,6 @@ In this example, PMUR? returns the global pass/fail result for all tested pins o
 
 ### Syntax（取自子主题 DC Measurement Commands › List of DC measurement commands › PSAS  -  Power Supply Accumulated Status）
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 2 列，含 colspan 与 rowspan。
-
 ```
 PSAS? [msMode ,] {mask}, {(pinlist)}
 ```
@@ -30728,55 +23746,18 @@ returns
 ```
 PSAS {status}, {(pinlist)}
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
 ```
 
 Parameters
- | msMode  | The extra parameter controls how the return value is created.
-
-The value of the parameter can be PQFC:
-
-- PQFC specified: The current query focus is respected and allows status query per site without affecting status bits of other sites.
-- PQFC not specified: The command reads (and clears) status bits of all enabled and active sites at a glance, ignoring the actual query focus.
-The parameter applies only to use of parameter mask as integer value. |
- | mask  | Integer bit mask or ALL.
-
--
-
-Integer bit mask: Integer value is used to mask out individual status bits. Each bit of mask is logically AND-ed with the corresponding bit of the DPS status. If one of the resulting bits is set, then F (Fail) is returned, otherwise P (Pass).
-
-It is used to check for an error condition. All bit positions of the status flags that should be checked, must be set to 1 in mask. If one of the selected status bits is set, then PSAS? returns F.
-
-- ALL: Hex value (hexadecimal representation of all status bits) is returned.
-For setting the integer bit mask or interpreting a returned hex value, refer to the `status`（raw: `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md#_98691__r_status`） parameter below. |
- | pinlist  | Comma separated list of DPS128/64 or XPS256 pins. The @ character can be used to read the status for all DPS pins. |
- | status  | If parameter mask is ALL, you need to translate the hex value (hexadecimal representation of the status bits) to its binary form as follows:
-
- | Bit 0 (LSB):  | Constant voltage |
- | Bit 1:  | Constant current |
- | Bit 2:  | Unregulated |
- | Bit 3:  | Overvoltage |
- | Bit 4:  | Overpower / Overcurrent / Power budget exceeded |
- | Bit 5:  | Overtemperature |
- | Bit 6:  | Voltage drop force |
- | Bit 7:  | Voltage drop return |
- | Bit 8:  | DUT board disconnect  | For the special mapping of bit 9 and 8 on UHC4 and UHC4T, refer to table `DPS flag description`（raw: `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md#_98691__s_DPS_flag_description`） below. |
- | Bit 9:  | Safety line |
- | Bit 10:  | Current limit disconnect |
- | Bit 11:  | Low headroom |
- | Bit 12:  | Current limiter protection detected |
- | Bit 13:  | Range overflow |
- | Bit 14 (MSB):  | Clamp distance too low |
- | Bit 15:  | Voltage drop force warning |
- | Bit 16:  | Voltage drop return warning  |  If parameter mask is specified as an integer bit-mask:
-
-- Pass: P
-- Fail: F
-
-Refer to table `DPS flag implementation`（raw: `02.06.02.02.188_PSAS__-__Power_Supply_Accumulated_Status.md#_98691__s_DPS_flag_implementation_710`） below for information regarding the card specific implementation of the bits or flags.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：20 行 × 5 列，含嵌套表。
+> 首行（上游原文）：msMode | The extra parameter controls how the return value is created.The value of the parameter can be PQFC: PQFC specified: The current query focus is respect…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 3 列。
+> 首行（上游原文）：Bit 0 (LSB): | Constant voltage
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98691_2.htm`
+> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：18 行 × 6 列。
+> 首行（上游原文）：Bit | Flag | DPS128DPS64 | UHC4T | XPS256
 
 ### Description（取自子主题 DC Measurement Commands › List of DC measurement commands › PSAS  -  Power Supply Accumulated Status）
 
@@ -31072,10 +24053,7 @@ UHCM {`set_nr`（raw: `02.06.02.02.303_UHCM__UHCM__-__Ultra_High_Current_power_s
 
 ### Parameters（取自子主题 DC Measurement Commands › List of DC measurement commands › UHCM  UHCM  -  Ultra High Current power supply Modes）
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/106910_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
-
- | set_nr  | The mandatory identification number of the DPS set which you want to modify:
+| set_nr  | The mandatory identification number of the DPS set which you want to modify:
 
  | ALL  | Modifies all existing DPS sets. |
  | PRM  | Modifies the primary DPS set. |
@@ -31092,10 +24070,6 @@ This parameter is supported only by the `DC Scale XPS256 card`（raw: `../02.05_
  | reserved_param  | The optional parameter is reserved and required for compatibility. |
  | clamp_mode  | The optional parameter defines the clamp mode:
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/106910_2.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
-> 首行（上游原文）：limit | The clamp is active forever (the delay value is ignored). This is the default value.
-> 表内引用（1 条，供检索）：`PSST`（raw: `02.06.02.02.198_PSST__PSST__-__Power_Supply_STatus.md`）
 
 See also `ms_const_curr_disconnect`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md#_16887__ms_const_curr_disconnect`） in `DPSPINS resources`（raw: `../02.08_Setup_and_Result_Tools/02.08.04.14.02.03.07.01_DPSPINS_resources.md`）.
 
@@ -31333,770 +24307,9 @@ CYCI {cycle}, [res_mode] [, (port)], {vector_number}, [label], [type], [seq_stat
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › CYCI  -  get CYCle Information）
 
-|
-
-start_cycle
-
- |
-
-The start cycle is an integer that defines the first cycle to be reported. The start cycle is in the range 0 to 2^48 when the sequencer runs in the Start Analysis mode, and -2^48 to -1 when the sequencer is in the Stop Analysis mode. If a positive number is entered, cycles are counted from 0 upwards. If a negative number is entered, the cycles are counted from the end of the test to -1. In both cases the reported start cycles are in Start Analysis mode.
-
- |
- |
-
-no_of_cycles
-
- |
-
-Defines the number of cycles to be reported. The integer must be in the range 0 to 256.
-
- |
- |
-
-resolution_mode
-
- |
-
-Defines the answer format of the binary data.
-
- |
- |
-
-CYCL
-
- |
-
-This is the default value.
-
- |
- |
-
-CYRM
-
- |
-
-This option lets the result granularity depend on the CYRM command. If CYRM is set to EDGE, then CYCI? will supply information on the edge level (receive events).
-
- |
- |
-
-port
-
- |
-
-If you specify a port, information is returned for this port. If you do not specify any port, the default port @, to which all pins belong, is reported.
-
- |
- |
-
-cycle
-
- |
-
-In the reply, this is the consecutive number of the reported cycle. The numbering starts with the value of start_cycle.
-
- |
- |
-
-res_mode
-
- |
-
-This has the same values as defined in the CYRM mode parameter.
-
- |
- |
-
-CYCL
-
- |
-
-This is the answer if the CYRM command mode is CYCL.
-
- |
- |
-
-EDGE
-
- |
-
-If CYRM is set to EDGE and resolution_mode was set to CYRM, then EDGE will be returned for this parameter.
-
- |
- |
-
-vector_number
-
- |
-
-Returns the logical number of the first vector of the instruction that generated the cycle. The logical vector number counts the active vectors within one label, starting from 0. If the vectors generated by the instruction are break vectors, then -1 is returned.
-
- |
- |
-
-label
-
- |
-
-Returns the label name. It references the label to which the reported cycle belongs.
-
- |
- |
-
-type
-
- |
-
-Returns the label type. The following types are reported:
-
- |
- |
-
-MAIN
-
- |
-
-The MAIN program.
-
- |
- |
-
-SJMP
-
- |
-
-A JuMP Subroutine.
-
- |
- |
-
-SVEC
-
- |
-
-A VECtor Subroutine.
-
- |
- |
-
-BRST
-
- |
-
-BuRST mode.
-
- |
- |
-
- |
-
-MPBU
-
- |
-
-Multi-Port BUrst mode
-
- |
- |
-
-seq_status
-
- |
-
-Returns the current sequencer status. The status is expressed on most occasions in the form of the sequencer instruction that was used to generate the vectors in the requested cycle range. Otherwise it is expressed in terms of the current sequencer activity. Note that seq_status is not the same as the sequencer state determined by `SQST, SQST? - (SeQuencer STate)`（raw: `02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md`）. Sequencer instructions are parameters to `SQPG, SQPG? - (SeQuencer ProGramming)`（raw: `02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md`）. For additional information on sequencer programming see also see `Vector Setup Commands`（raw: `02.06.07_Vector_Setup_Commands.md`）.
-
-The seq_status parameter is required for the reconstruction of received data. Some of the values it returns signify that vectors are being generated, others inform of sequencer status changes, which cause some or no break vectors to be generated.
-
- |
- |
-
-GENV
-
- |
-
-This is returned if GENV is the sequencer instruction that generated the parallel vector for the reported cycle.
-
- |
- |
-
-SRCV
-
- |
-
-This is returned if SRCV is the sequencer instruction that generates vectors in the reported cycle range.
-
-For "non-source pin" the reported cycle range is generated by the parallel vectors exactly the same way as RPTV. That means "no_of_vectors" parallel vectors are repeated for a repeating count (equal to no_of_cycles divided by no_of_vectors) to generate "no_of_cycles" cycles on the test system.
-
-For "source pin" the reported cycle range is generated by the vectors stored in the source memory. It means "no_of_cycles" vectors are generated from the source memory to produce "no_of_cycles" cycle on the test system, and the information of "no_of_vectors" has no meaning to "source pin".
-
- |
- |
-
-RPTV
-
- |
-
-This is returned if RPTV is the sequencer instruction that generated the parallel vector for the reported cycle.
-
- |
- |
-
-JPPS
-
- |
-
-This keyword indicates that a per pin subroutine is executed that cannot be reconstructed because it is too complex. In this case, PP is returned for the drive data and expected data parameters in the result data (#spec(data) parameter).
-
- |
- |
-
-CTIM
-
- |
-
-This is returned if a change timing instruction has been issued in the queried cycle range. Each timing change generates break vectors.
-
-The real number of break cycles depends on the test system period and will not be shown in the cycle reconstruction.
-
-Between 0 to 7 break cycles will be recorded during a CTIM instruction, the exact number depends on the number of vectors loaded previously. For instance, if the previous number of cycles was a multiple of 8, then no break vectors are issued during the reload.
-
- |
- |
-
-CLEV
-
- |
-
-The CLEV (change levels) parameter indicates that unrecorded break cycles, due to a change of level set, exist in the specified cycle range.
-
- |
- |
-
-BRK
-
- |
-
-This is returned if break cycles are being generated during the reported cycle range - for example, if a timed match loop is in progress. Between 0 and 7 break cycles will be recorded.
-
-Additionally, the following sequencer instructions also generate break vectors:
-
- |
- |
-
- |
-
-Sequencer instruction
-
- |
-
-reported as
-
- |
- |
-
- |
-
-CTIM
-
- |
-
-CTIM
-
- |
- |
-
- |
-
-CLEV
-
- |
-
-CLEV
-
- |
- |
-
- |
-
-WTER
-
- |
-
-BRK
-
- |
- |
-
- |
-
-FLQU
-
- |
-
-BRK
-
- |
- |
-
- |
-
-MEAS
-
- |
-
-BRK
-
- |
- |
-
- |
-
-STOP
-
- |
-
-BRK
-
- |
- |
-
-MTCH
-
- |
-
-This is returned if
-
-- the test contains a counted match loop,
-- the test has been executed online, and
-- the last cycle of the match loop is not the last cycle of a 8-cycle block.
-
-In this case the last match loop cycles belonging to this block (up to 7) are recorded in the Error Map and reported by CYCI?. For details see `Adjusting the junctions between match loop and surrounding label`（raw: `02.06.07.01.08.04.03.01.01_Adjusting_the_junctions_between_match_loop_and_surrounding_label.md`）.
-
- |
- |
-
-comment
-
- |
-
-Returns the comment text inserted at vector_number. (See also `TCMT, TCMT? - (Test CoMment Transfer)`（raw: `02.06.02.02.254_TCMT__TCMT__-__Test_CoMment_Transfer.md`）)
-
- |
- |
-
-no_of_waveforms
-
- |
-
-This parameter will always be 1.
-
- |
- |
-
-MUX
-
- |
-
-If this flag is set, and one of the Pin Scale pins is multiplexed to an HXA pin, then the reply for this pin will combine the results of all Pin Scale pins that are multiplexed to the respective HXA pin.
-
- |
- |
-
-#spec(data)
-
- |
-
-Returns result data in binary format. This parameter reports the length of data (in bytes) being transferred, followed by the data for each pin. The pins are ordered by ascending channel numbers from the first site.
-
-The format of the pin specific output data is controlled by the res_mode parameter: Cycle resolution format is used if res_mode was set to CYCL, edge resolution format is used if res_mode was set to CYRM. Both formats agree for the first 23 bytes, which contain the following information:
-
- |
- |
-
- |
-
-byte 0-16:
-
- |
-
-Device cycle name or 'BREAK' in case of break cycles, zero terminated. The reserved device cycle name 'JPPS' can be returned if the reconstructed data belongs to a Per-Pin subroutine.
-
- |
- |
-
- |
-
-byte 17:
-
- |
-
-HXA information
-
- |
- |
-
- |
-
- |
-
-bit 0-3: NOT USED (always 0).
-
- |
- |
-
- |
-
- |
-
-bit 4-5: channel selector for pins mapped to a HXA pin. Indicates the logical position of the pin in the multiplexing order. Set to 0 for standard pins.
-
- |
- |
-
- |
-
- |
-
-bit 6-7: pin multiplexing factor for HXA pins. Possible values are:
-
- |
- |
-
- |
-
- |
-
-0
-
- |
-
-Pin not mapped to HXA pin
-
- |
- |
-
- |
-
- |
-
-1
-
- |
-
-One of two Pin Scale pins that are mapped to HXA pin
-
- |
- |
-
- |
-
- |
-
-3
-
- |
-
-One of 4 Pin Scale pins that are mapped to HXA pin
-
- |
- |
-
- |
-
- |
-
-Information relating to HXA multiplexing is only returned if the MUX flag is set.
-
- |
- |
-
- |
-
-byte 18, 19:
-
- |
-
-NOT USED (always set to 4).
-
- |
- |
-
- |
-
-byte 20, 21:
-
- |
-
-NOT USED (always set to 15).
-
- |
- |
-
- |
-
-byte 22:
-
- |
-
-Received data. Possible values are:
-
- |
- |
-
- |
-
- |
-
-0
-
- |
-
-No error
-
- |
- |
-
- |
-
- |
-
-FF
-
- |
-
-This means that an error has occurred, but that it is not reconstructible for one of the following reasons:
-
-- The waveform contains more than 1 edge.
-- The waveform contains a window compare.
-- Only 1 bit results are recorded.
- |
- |
-
- |
-
- |
-
-Bits 0-2 contain the received value:
-
- |
- |
-
- |
-
- |
-
-1
-
- |
-
-Received high
-
- |
- |
-
- |
-
- |
-
-2
-
- |
-
-Received intermediate
-
- |
- |
-
- |
-
- |
-
-4
-
- |
-
-Received low
-
- |
- |
-
- |
-
- |
-
-5
-
- |
-
-Received unstable
-
- |
- |
-
- |
-
- |
-
-7
-
- |
-
-Failed but not reconstructible
-
-This value will be returned for single-ended standard mode if only one bit results are recorded and the edge failed.
-
- |
- |
-
- |
-
- |
-
-bits 3 - 5: number of failing compare edge or failing window close. If the edge was not reconstructible (bits 6-7 set to 3) the value is set to 7.
-
- |
- |
-
- |
-
- |
-
-bits 6-7:
-
- |
- |
-
- |
-
- |
-
-0
-
- |
-
-This is the default.
-
- |
- |
-
- |
-
- |
-
-3
-
- |
-
-The failing edge is not reconstructible.
-
- |
- |
-
- |
-
-The cycle resolution format consists of the 23 bytes described above. If the data is returned in edge resolution format, CYCI? provides additional information about receive events.
-
- |
- |
-
- |
-
-byte 23:
-
- |
-
-Number of the following receive events. Note that only used receive events will be reported.
-
-Every receive event consists of three bytes (A, B, C), that are to be read as follows:
-
- |
- |
-
- |
-
-byte A:
-
- |
-
-CURRENTLY NOT USED (Always 0).
-
- |
- |
-
- |
-
-byte B:
-
- |
-
-Receive event index
-
- |
- |
-
- |
-
- |
-
-bits 0-2: edge index (0 through 7)
-
- |
- |
-
- |
-
- |
-
-bit 3-4: channel selector for HXA pins.
-
-If the multiplexing factor in byte 17 is > 0, and the channel selector in byte 17 is set to 0, then CYCI? will add the edges of all the other channels for the same HXA pin to the binary data. This field indicates to which of these channels the edge belongs. It specifies the position number of the respective channel in the logical multiplexing order.
-
- |
- |
-
- |
-
- |
-
-Information relating to HXA multiplexing is only returned if the MUX flag is set.
-
- |
- |
-
- |
-
-byte C:
-
- |
-
-Receive data
-
- |
- |
-
- |
-
- |
-
-bits 0 - 3: compare method
-
- |
- |
-
- |
-
- |
-
-bits 4 - 6: received value
-
- |
- |
-
- |
-
-For details see the tables below.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/99098_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：73 行 × 8 列。
+> 首行（上游原文）：start_cycle | The start cycle is an integer that defines the first cycle to be reported. The start cycle is in the range 0 to 248 when the sequencer runs in the…
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › CYCI  -  get CYCle Information）
 
@@ -32269,8 +24482,6 @@ DCGM {acqu_mode},{emap_pos_int},{ovem_pos_int}
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98522_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：16 行 × 2 列，含 colspan 与 rowspan。
 
 acqu_mode
 
@@ -32448,11 +24659,7 @@ returns:
 ```
 DCRM {map},{mode},[bits],[sub_cycles,] {(port)}
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98524_2.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：14 行 × 2 列，含 colspan 与 rowspan。
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98524_2.htm`
-> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 2 列，含 colspan。
 ```
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › DCRM  DCRM  -  Digital Compare Result Mode）
@@ -32492,9 +24699,6 @@ The default is 4096.
  | PFC  | In case of failure, a more detailed two bit code will be recorded. This is the default. |
  | The meaning of the 2 bit error codes depends on the expected result as follows:
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98524_2.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：6 行 × 5 列。
-> 首行（上游原文）：Received
 
 "I" stands for "Intermediate", and "U" stands for "Unstable". Note that you can reconstruct the received result from the expected result and the error code.
 
@@ -32886,292 +25090,9 @@ EMAP {pin_res},{start_cycle},{no_of_cycles},{resolution_mode},{results_per_cycle
 ```
 
 Parameters
- |
-
-pin_res
-
- |
-
-Specifies the pin granularity. Possible values are:
-
- |
- |
-
-PPIN
-
- |
-
-Separate results will be reported for every pin of the pin list.
-
- |
- |
-
-COMB
-
- |
-
-Only one global result will be reported for all pins of the pin list.
-
- |
- |
-
-start_cycle
-
- |
-
-In the query, this is an integer that defines the first test cycle to be reported.
-
-In the reply, this is the first cycle that is returned. If the requested cycle range exceeds the capacity of the Error Map, the index of the first returned cycle may be greater than that of the first requested cycle.
-
- |
- |
-
-no_of_cycles
-
- |
-
-This is an integer that defines the number of test cycles to be reported. The range for this parameter is 0 to2^48 - 1. In the reply, this parameter indicates the number of cycles which have been read. If a 0 is returned, no data is available for the requested range.
-
- |
- |
-
-resolution_mode
-
- |
-
-Defines how the recorded results are combined. Possible values are:
-
- |
- |
-
-CYCL
-
- |
-
-In this mode all recorded results are combined into one result per cycle.
-
- |
- |
-
-SCYC
-
- |
-
-In this mode the results are reported as they were recorded.
-
- |
- |
-
-EDGE
-
- |
-
-This mode requests error information for each recorded receive edge. If the results_per_cycle parameter is omitted, the reply will return all 8 edges, even if only 2 or 4 edges were recorded; the edges that were not recorded will be represented as passed. In this way, the edge number of the failing recorded edges will be indicated by their position within the result data stream.
-
-The EDGE option requires one of the following two sets of conditions to be satisfied:
-
-- The mode parameter of DCRM is > 1.
-- No result combination, as specified with the sub_cycles parameter of DCRM, contains more than 1 edge.
-
-Note that this requires that result combinations are specified with DCRM.
-
-- The edges in the sub_cycles string are in ascending order.
-
-or (see `Retrieving edge information by repeating the test`（raw: `02.06.11.01.02.02.01_Retrieving_edge_information_by_repeating_the_test.md`）):
-
-- DCRM is set to 1,PFC.
-- CYRM is set to EDGE.
-- CYRP is set to MULT (the default).
- |
- |
-
-results_per_cycle
-
- |
-
-This parameter is only relevant for resolution mode EDGE. If you are only interested in an initial segment of the 8 edge sequence that is returned by default, you can specify the length of this segment here. In certain situations, this allows you to reduce the size of the reply.
-
-If the MUX flag is set, and one of the specified PS (Pin Scale) pins is multiplexed to an HXA pin, then the edges of the PS pins that are multiplexed to this HXA pin will be returned interleaved as follows:
-
-r1 of PS pin 1, ..., r1 of PS pin n, r2 of PS pin 1, ..., r2 of PS pin n,...,
-
-r8 of PS pin 1, ..., r8 of PS pin n
-
-Here, n is 2 or 4, and the PS pins are ordered as defined in the BOARDCONF section of the model file.
-
-Accordingly, if the multiplexing factor of the HXA pin is 4, and 5 edges per cycle are requested, then the first edge of every PS pin plus the second edge of the first PS pin will be returned.
-
- |
- |
-
-bits
-
- |
-
-Specifies how detailed the reported error code is to be in case of failure. Possible values are:
-
- |
- |
-
-PF
-
- |
-
-Only a 1 bit Pass/Fail result will be returned.
-
- |
- |
-
-PFC
-
- |
-
-In case of failure, a more detailed two bit code will be returned.
-
-The received data can be reconstructed from the expected data and the error code as follows:
-
-  !`Parameters`（raw: `../../../../raw/57171.png`）
-
-"I" stands for "Intermediate" and "U" for "Unstable".
-
-Note that 2 bit codes can only be reported if 2 bit codes were recorded (bits parameter of `DCRM`（raw: `02.06.02.02.46_DCRM__DCRM__-__Digital_Compare_Result_Mode.md`） set to PFC).
-
- |
- |
-
-rep_mode
-
- |
-
-Specifies the reporting mode for the Error Map. Possible values are:
-
- |
- |
-
-ALL
-
- |
-
-All cycles within the selected area are reported. If the data was recorded in acquire failure mode, EMAP? will expand the reply accordingly.
-
- |
- |
-
-EOLY
-
- |
-
-As far as is feasible, only failed cycles are reported.
-
- |
- |
-
-results_align
-
- |
-
-Specifies how the results, as defined by the resolution_mode, results_per_cycle and bits parameters, are aligned within the returned data stream. The supported values are:
-
- |
- |
-
-BYTE
-
- |
-
-By this option, no byte will contain results of more than one cycle. If the results returned per cycle do not make up exactly one or two bytes, they will be padded accordingly.
-
-Note that if two bit codes are requested for resolution mode EDGE, and results_per_cycle is set to a value < 8, the results will always be padded to two bytes, even if results_per_cycle is ≤4.
-
- |
- |
-
- |
-
-PACK
-
- |
-
-This option is mainly relevant for resolution modes CYCL and SCYC. It will have the effect that the results are not padded, but follow one another immediately. Thus, the results of 8 or 4 cycles (depending on the bits setting) will be packed into one byte in CYCL mode, and the results of 4 or 2 cycles (depending on the bits setting) will be packed into one byte in SCYC mode.
-
-PACK will have an effect on resolution mode EDGE only, if the initial segment defined with results_per_cycle already makes up a complete byte. This would be the case, for example, if two bit codes are recorded for all 8 edges, and results_per_cycle is set to 4.
-
- |
- |
-
-byte_max
-
- |
-
-In the query, this parameter specifies the maximum number of bytes that may be returned. This option is primarily intended for the reporting mode EOLY, where the size of the data that will be returned cannot be calculated beforehand.
-
-In the answer, the following codes can be returned:
-
- |
- |
-
-EOB
-
- |
-
-The cycle range of the query exceeds the specified maximum number of bytes.
-
- |
- |
-
-EOF
-
- |
-
-The cycle range of the query exceeds the cycle range to be recorded (as defined with `DCGM`（raw: `02.06.02.02.44_DCGM__DCGM__-__Digital_Compare_Global_Mode.md`） and `DCRP`（raw: `02.06.02.02.47_DCRP__DCRP__-__Digital_Compare_Result_Positioning.md`）).
-
- |
- |
-
-EOM
-
- |
-
-The cycle range of the query exceeds the actual content of the Error Map.
-
- |
- |
-
-MUX
-
- |
-
-If this flag is set, and one of the specified (Pin Scale) pins is multiplexed to an HXA pin, then the reply for this pin will combine the results of all Pin Scale pins that are multiplexed to the respective HXA pin.
-
-In particular, if information on the edge level is requested, then the edges of all multiplexed Pin Scale pins will be returned interleaved as follows:
-
-r1 of PS pin 1, ..., r1 of PS pin n,
-
-r2 of PS pin 1, ..., r2 of PS pin n,
-
-...
-
-r8 of PS pin 1, ..., r8 of PS pin n
-
-Here, n is 2 or 4, and the order of the PS pins is that defined in the BOARDCONF section of the model file.
-
- |
- |
-
-pinlist
-
- |
-
-Specifies the pins or pin groups for which information is returned. If more than one pin is to be included, the names must be separated by a comma. All pins in the pin list must have type O or IO. They must also all belong to the same port in the current start label.
-
-If the MUX flag is set, then each pin in the pin list should represent a different HXA pin, and all HXA pins should have the same multiplexing factor.
-
- |
- |
-
-#spec(data)
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98590_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：26 行 × 3 列。
+> 首行（上游原文）：pin_res | Specifies the pin granularity. Possible values are:
 
 The binary data that are returned. The general format is:
 
@@ -33303,8 +25224,6 @@ ERCC {type}, {start_cycle}, {no_of_cycles} [, granularity], {valid_code}, {no_of
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98594_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 2 列，含 colspan 与 rowspan。
 
 type
 
@@ -33533,321 +25452,12 @@ ERMP {map_id}, {start_unit}, {no_of_units}, {map_mode},[edges,] [MUX,] {(pinlist
 ```
 
 Parameters
- |
-
-map_id
-
- |
-
-Determines the type of Error Map for which data is to be read out. Note that the allowed values depend on the settings of the DCRM command. Options that request two bit values can only be specified if the bits parameter of DCRM is set to PFC.
-
-The possible values are:
-
- |
- |
-
- |
-
-DERR
-
- |
-
-This option provides per pin pass/fail results and full error codes per test cycle for all pins in the pinlist. The system returns values for the error codes PASS, FAIL1, FAIL2 and FAIL3 using a two-bit code as follows:
-
-PASS 00
-
-FAIL1 01
-
-FAIL2 10
-
-FAIL3 11
-
-The received data can be reconstructed from the expected data and from the error code values in the following table:
-
- |
- |
-
- |
-
- |
-
- |
-
-Expected Data
-
- |
-
-FAIL1
-
- |
-
-FAIL2
-
- |
-
-FAIL3
-
- |
- |
-
-Low
-
- |
-
-Intermediate
-
- |
-
-High
-
- |
-
-Unstable
-
- |
- |
-
-Intermediate
-
- |
-
-High
-
- |
-
-Low
-
- |
-
-Unstable
-
- |
- |
-
-High
-
- |
-
-Low
-
- |
-
-Intermediate
-
- |
-
-Unstable
-
- |
- |
-
-Unstable
-
- |
-
-Low
-
- |
-
-Intermediate
-
- |
-
-High
-
-   | |
-
- |
- |
-
- |
-
- |
-
-Note that this mode requires that the DCRM command has been set to 1,PFC, and that the map_mode parameter of ERMP? is set to F160.
-
- |
- |
-
- |
-
-EDGE
-
- |
-
-This option reads the error map and returns an overall one bit Pass/Fail result (combining the results of all selected pins) of the edges selected by DCRM. The reply will not only return the results, but will also indicate the numbers of the recorded edges.
-
-Note that this mode is only applicable if
-
-- no result combination, as specified with the sub_cycles parameter of DCRM, contains more than 1 edge,
-- the edges parameter is omitted or set to 8.
- |
- |
-
- |
-
-EOLY
-
- |
-
-The errors only error map delivers errors per pin. With this option, a two bit error code and the address of all those cycles will be returned at which errors have occurred. For more information on the error codes see the DERR option.
-
-Note that this mode requires that the DCRM command has been set to 1,PFC.
-
- |
- |
-
- |
-
-ERRM
-
- |
-
-The error map option reads the Error Map and provides a single one-bit result per test system cycle for all pins in the pinlist. The result is:
-
-0: Pass
-
-1: Fail
-
- |
- |
-
- |
-
-OVEM
-
- |
-
-This option reads the Overview Error Map and provides a single result according to the compression factor set with DCRM. The returned pass/fail result is of the same type as for the ERRM option (one bit pass/fail). This option is only allowed if if the over view Error Map was set to FCM with DCRM in the last executed test.
-
- |
- |
-
- |
-
-LMAP
-
- |
-
-This option returns the results for the specified range of label calls within a burst. It is only allowed if the overview Error Map was set to LMAP with DCRM in the last executed test.
-
- Note If you use the LMAP error map mode, `FLBL`（raw: `02.06.02.02.123_FLBL__-__Failing_LaBeLs.md`） ignores the RETC clearing flag for failures. |
- |
-
- |
-
-RECD
-
- |
-
-The receive data option reads the Error Map and provides per pin pass/fail result per test cycle for all pins in the pinlist. The returned pass/fail information is of the same type as for the ERRM option (one bit pass/fail).
-
- |
- |
-
-start_unit
-
- |
-
-For most values of map_id, this parameter defines the first recorded cycle that is to be reported. Note that depending on the selected map_id, the returned start cycle can be an earlier cycle than the requested start cycle.
-
-If map_id is set to LMAP, then start_unit specifies the first label call of a burst that is to be reported. For this map_id option, only positive numbers are allowed.
-
- |
- |
-
-no_of_units
-
- |
-
-For most values of map_id, this parameter defines the number of cycles to be reported. The range for this parameter depends on the compression factor if OVEM has been selected. The specified number of cycles is adjusted to the existing cycles. If no existing cycle is included in the specified range, an error message is issued. It is recommended that you first determine the available cycle range with the VALD? query.
-
-Note that depending on the selected map_id, the returned number of cycles can be greater than the requested number.
-
-If map_id is set to LMAP, then no_of_units specifies the number of label calls within a burst that are to be reported.
-
- |
- |
-
-map_mode
-
- |
-
-Specifies how detailed the displayed error code is to be in case of failure. Note that the parameter is ignored for all values of map_id except EDGE. Possible values are:
-
- |
- |
-
- |
-
-PF
-
- |
-
-A one bit Pass/Fail result will be returned. This value is only allowed if DCRM has been set to 8,PF.
-
- |
- |
-
- |
-
-F160
-
- |
-
-This is equivalent to PF for the map_id value EDGE.
-
- |
- |
-
-edges
-
- |
-
-Specifies the number of edges for the EDGE option of the map_id parameter.
-
- |
- |
-
-MUX
-
- |
-
-If this flag is set, and one of the specified (Pin Scale) pins is multiplexed to an HXA pin, then the reply for this pin will combine the results of all Pin Scale pins that are multiplexed to the respective HXA pin.
-
-In particular, if information on the edge level is requested, then the edges of all multiplexed Pin Scale pins will be returned interleaved as follows:
-
-r1 of PS pin 1, ..., r1 of PS pin n, r2 of PS pin 1, ..., r2 of PS pin n, ..., r8 of PS pin 1, ..., r8 of PS pin n
-
-Here, n is 2 or 4, and the order of the PS pins is that defined in the BOARDCONF section of the model file.
-
- |
- |
-
-pinlist
-
- |
-
-Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated by a comma. All pins in pinlist must be O or IO pin types. They must also all belong to the same port of the current start label.
-
-If the MUX flag is set, then each pin in the pin list should represent a different HXA pin, and all HXA pins should have the same multiplexing factor.
-
- |
- |
-
-#spec(data)
-
- |
-
-The binary data that is returned. The general format is:
-
-#Nn1n2...nNdata_stream
-
-where the digit N defines the number of the digits ni (1 鈮?i 鈮?N) that specify the length of data_stream in bytes.
-
-The structure of the data stream depends on the selected map_id value.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98597_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：23 行 × 8 列，含嵌套表。
+> 首行（上游原文）：map_id | Determines the type of Error Map for which data is to be read out. Note that the allowed values depend on the settings of the DCRM command. Options tha…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98597_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 4 列。
+> 首行（上游原文）：Expected Data | FAIL1 | FAIL2 | FAIL3
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › ERMP  -  ERror MaP）
 
@@ -34030,11 +25640,12 @@ FTST {result_flag}
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › FTST  -  Functional TeST）
 
-| exec_context  | An execution context. For more information on execution contexts see `Using execution contexts`（raw: `02.06.07.01.08.05.03.02.03_Using_execution_contexts.md`）. |
- | result_flag  | This is returned by the system when the functional test has finished. It can be:
-
- |   | P  | is returned if the functional test passes. |
- |   | F  | is returned if the functional test fails.  | |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98608_3.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 6 列，含嵌套表。
+> 首行（上游原文）：exec_context | An execution context. For more information on execution contexts see Using execution contexts.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98608_3.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 3 列。
+> 首行（上游原文）：P | is returned if the functional test passes.
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › FTST  -  Functional TeST）
 
@@ -34140,253 +25751,12 @@ GETV {start_cycle}, {no_of_cycles}, {start_vector}, {no_of_vectors}, {seq_status
 
 ### Parameters（取自子主题 Test Result Commands › List of test result commands › GETV  -  GET Vectors）
 
-|
-
-start_cycle
-
- |
-
-An integer that defines the first cycle to be reported. It is in the range 0 to 2^48 when the sequencer runs in the Start Analysis mode, or -2^48 to -1 when the sequencer runs in the Stop Analysis mode. If a positive number is entered, cycles are counted from 0 upwards. If a negative value is entered, the cycles are counted from the end of the test at -1.
-
- |
- |
-
-no_of_cycles
-
- |
-
-Defines the number of cycles to be reported. The integer must be in the range 0 to 2147483648 (2^31).
-
- |
- |
-
-pinlist
-
- |
-
-Information is only returned for the pins specified in pinlist. If more than one pin is to be included, the names must be separated with a comma.
-
- |
- |
-
-start_vector
-
- |
-
-Returns the logical number of the start vector for the instruction specified by the seq_status parameter within the test specified by the label parameter.
-
-The logical vector number counts the active vectors within one label, starting from 0. If the vectors generated by the instruction are break vectors, then -1 is returned.
-
- |
- |
-
-no_of_vectors
-
- |
-
-Returns the vector length of the instruction specified by the seq_status parameter. If the vectors generated in the requested range are break vectors, then the parameter returns -1.
-
- |
- |
-
-seq_status
-
- |
-
-Returns the current sequencer status. The status is expressed on most occasions in the form of the sequencer instruction that was used to generate a segment of the vectors in the requested cycle range. Otherwise it is expressed in terms of the current sequencer activity. Note that seq_status is not the same as the sequencer state determined by `SQST, SQST? - (SeQuencer STate)`（raw: `02.06.02.02.241_SQST__SQST__-__SeQuencer_STate.md`）. Sequencer instructions are parameters to `SQPG, SQPG? - (SeQuencer ProGramming)`（raw: `02.06.02.02.237_SQPG__SQPG__-__SeQuencer_ProGramming.md`）. For additional information on sequencer programming see also `Vector Setup Commands`（raw: `02.06.07_Vector_Setup_Commands.md`）.
-
- |
- |
-
- |
-
-The seq_status parameter is required for the reconstruction of received data. Some of the values it returns signify that vectors are being generated, others inform of sequencer status changes, which cause some or no break vectors to be generated.
-
- |
- |
-
- |
-
-GENV
-
- |
-
-This is returned if GENV is the sequencer instruction that generated the parallel vectors in the reported cycle range. The number of vectors generated equals the no_of_vectors.
-
- |
- |
-
- |
-
-SRCV
-
- |
-
-This is returned if SRCV is the sequencer instruction that generates vectors in the reported cycle range.
-
-For "non-source pin" the reported cycle range is generated by the parallel vectors exactly the same way as RPTV. That means "no_of_vectors" parallel vectors are repeated for a repeating count (equal to no_of_cycles divided by no_of_vectors) to generate "no_of_cycles" cycles on the test system.
-
-For "source pin" the reported cycle range is generated by the vectors stored in the source memory. It means "no_of_cycles" vectors are generated from the source memory to produce "no_of_cycles" cycle on the test system, and the information of "no_of_vectors" has no meaning to "source pin".
-
- |
- |
-
- |
-
-RPTV
-
- |
-
-This is returned if RPTV is the sequencer instruction that generated the parallel vectors in the reported cycle range. In order to obtain the number of repetitions divide no_of_cycles by no_of_vectors.
-
-You can stop a repeat loop by hitting BREAK in the user interface. The seq_status may then still be RPTV because the BREAK occurs asynchronously to the execution of the loop.
-
- |
- |
-
- |
-
-JPPS
-
- |
-
-This is returned if the parallel vectors for the reported cycles were generated by a per-pin subroutine.
-
- |
- |
-
- |
-
-CTIM
-
- |
-
-This is returned if a change timing instruction has been issued in the queried cycle range. Each timing change generates break vectors.
-
-The actual number of break cycles depends on the test system period and will not be shown in the cycle reconstruction.
-
-Between 0 to 7 break cycles will be recorded during a CTIM instruction, the exact number depends on the number of vectors loaded previously. For instance, if the previous number of cycles was a multiple of 8, then no break vectors are issued during the reload.
-
- |
- |
-
- |
-
-CLEV
-
- |
-
-The CLEV (change levels) parameter indicates that unrecorded break cycles, due to a change of level set, exist in the specified cycle range.
-
- |
- |
-
- |
-
-BRK
-
- |
-
-This is returned if break cycles are being generated during the reported cycle range - for example, if a timed match loop is in progress. Between 0 and 7 break cycles will be recorded.
-
-Additionally, the following sequencer instructions also generate break vectors:
-
- |
-
-sequencer instruction
-
- |
-
-reported as
-
- |
- |
-
-CTIM
-
- |
-
-CTIM
-
- |
- |
-
-CLEV
-
- |
-
-CLEV
-
- |
- |
-
-WTER
-
- |
-
-BRK
-
- |
- |
-
-FLQU
-
- |
-
-BRK
-
- |
- |
-
-MEAS
-
- |
-
-BRK
-
- |
- |
-
-STOP
-
- |
-
-BRK
-
- |
-
- |
- |
-
- |
-
-MTCH
-
- |
-
-This is always returned if the test contains a counted match loop. The specified vectors are those that are associated with the MRPT instruction. The specified number of cycles is greater than 0 if the test has been executed online, and the last cycle that was generated from these vectors is not the last cycle of a block. For details see `Adjusting the junctions between match loop and surrounding label`（raw: `02.06.07.01.08.04.03.01.01_Adjusting_the_junctions_between_match_loop_and_surrounding_label.md`）.
-
-MTCH is also returned for a timed match loop, but only if the test has been executed online, and the number of cycles will always be 0.
-
- |
- |
-
-label
-
- |
-
-This parameter returns the label to which the instruction belongs.
-
- |
- |
-
-instance
-
- |
-
-This parameter is blank for all sequencer instructions.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98617_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：23 行 × 5 列，含嵌套表。
+> 首行（上游原文）：start_cycle | An integer that defines the first cycle to be reported. It is in the range 0 to 248 when the sequencer runs in the Start Analysis mode, or -248 to…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98617_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 2 列。
+> 首行（上游原文）：sequencer instruction | reported as
 
 ### Example（取自子主题 Test Result Commands › List of test result commands › GETV  -  GET Vectors）
 
@@ -34659,8 +26029,6 @@ VCYC {start_cycle}, {no_of_cycles}, {seq_status}, {pin_oper_mode}, {(pinlist)}, 
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98845_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：26 行 × 2 列，含 colspan 与 rowspan。
 
 start_cycle
 
@@ -35130,45 +26498,9 @@ DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › DFUP  DFUP  -  DeFine Utility Purpose）
 
-| ch_No_list |
-
-Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with a comma.
-
-In the five‑digit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-The legacy three‑digit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL‑ ... UTIL鈥?.
-
-The last two digits specify the channel number 01 ... 32 of the utility line.
-
-On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
-
-When reading the defined utility lines with the DFUP? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
-
-The channel numbers 16515 and 16516 should not be used. They should only be accessed with the `I2CA`（raw: `02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md`）or the `BDID`（raw: `02.06.02.02.09_BDID__BDID__-__BoarD_ID.md`）firmware command.
-
- |
- | setting |
-
-Output states for each channel in the ch_No_list. Specify the setting of each utility line with the following specifiers:
-
-- 0: sets the corresponding (write) channel to high (high impedance state)
-- 1: sets the corresponding (write) channel to low
-- X (x): no action
-
-Specify the setting values corresponding to the definition order of the ch_No_list parameter.
-
-The number of characters must be equal to the number of the utility line channels in the ch_No_list parameter.
-
-Note that the settings must be explicitly activated with `UPST`（raw: `02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`）.
-
- |
- | purpose_name |
-
-Name of the utility purpose. In the query you can use the symbol @ to list all defined utility purposes.
-
-This parameter can have up to 16 alphanumeric characters and must not contain blank spaces, or any of the following characters: `# ; ( ' ' ) ? @ ,`
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98559_3.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ch_No_list | Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with …
 
 ### Example（取自子主题 Utility Line Commands › List of utility line commands › DFUP  DFUP  -  DeFine Utility Purpose）
 
@@ -35210,48 +26542,9 @@ DFUT {ch_No}, {type}, {(util_name)}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › DFUT  DFUT  -  DeFine UTility line）
 
-| ch_No |
-
-Channel number of the utility line specified with five or three digits.
-
-In the five‑digit format, the first three digits specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-In the legacy three‑digit format, the first digit (1 ... 8) specifies the utility pogo block UTIL‑ ... UTIL鈥?.
-
-The last two digits specify the channel number 01 ... 32 of the utility line.
-
-On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
-
-When reading the defined utility lines with the DFUT? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
-
-For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）
-
- |
- | type |
-
-Specifies the operating mode of the utility line with the following specifiers:
-
-- W: Write-Only
-- R: Read-Only
-- RW: Read-Write
-
-Utility lines of the optional `Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） can also be configured as safety lines or as global shutdown line for hardware‑controlled shutdown of XPS256 pins:
-
-- TRIGGER_IF_HIGH: Safety line
-- TRIGGER_IF_LOW: Safety line
-- TRIGGER_SITE_IF_HIGH: Global shutdown line
-- TRIGGER_SITE_IF_LOW: Global shutdown line
-
-For more information, refer to `XPS256 safety line and DUT board disconnect`（raw: `../02.05_Test_Head_Cards/02.05.05.03.03.06_XPS256_safety_line_and_DUT_board_disconnect.md`）.
-
- |
- | util_name |
-
-Name of the utility line. For the query, it specifies the utility line name to be retrieved. @ can be used to list all defined utility lines.
-
-This parameter can have up to 16 alphanumeric characters and must not contain blank spaces, or any of the following characters: `# ; ( ' ' ) ? @ ,`
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98560_3.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ch_No | Channel number of the utility line specified with five or three digits. In the five‑digit format, the first three digits specify the utility pogo block.…
 
 ### Example（取自子主题 Utility Line Commands › List of utility line commands › DFUT  DFUT  -  DeFine UTility line）
 
@@ -35364,45 +26657,9 @@ UPOW {state} [, supplyId, resourceID]
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UPOW  UPOW  -  Utility POWer）
 
-| mode |
-
-The mandatory parameter defines the new state of the supply.
-
-Available options of the parameter:
-
-- ON: Switches the supply on
-- OFF: Switches the supply off
- |
- | supplyId |
-
-The extra parameter defines the utility power supply to be set.
-
-Available options of the parameter:
-
-- UP5V: The `+5 V supply on UP5V pins`（raw: `../02.03_DUT_board_design_reference/02.03.05.01_Utility_power_supply_-_UP5V_pins__V93000_EXA_Scale_systems.md`） of the optional Utility Card or the internal utility resources.
-- XPP5V: The `+5 V supply on XPP5V pins`（raw: `../02.03_DUT_board_design_reference/02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md`） of the optional Utility Card.
-- XPM5V: The `-5 V supply on XPM5V pins`（raw: `../02.03_DUT_board_design_reference/02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md`） of the optional Utility Card.
-- XPP3V3: The `+3.3 V supply on XPP3V3 pins`（raw: `../02.03_DUT_board_design_reference/02.03.05.02_Utility_power_supply_-_XP_pins__V93000_EXA_Scale_systems.md`） of the optional Utility Card.
-- P15V: The `+15 V supply on UPP15V pins`（raw: `../02.03_DUT_board_design_reference/02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`） of the optional Utility Card.
-- M15V: The `-15 V supply on UPM15V pins`（raw: `../02.03_DUT_board_design_reference/02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`） of the optional Utility Card.
-- F24VA: The `floating 24 V supply on F24VA pins`（raw: `../02.03_DUT_board_design_reference/02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`） of the optional Utility Card.
-- F24VB: The `floating 24 V supply on F24VB pins`（raw: `../02.03_DUT_board_design_reference/02.03.05.03_Utility_power_supply_-_UPP15V___UPM15V___F24V_pins__V93000_EXA_Scale_sys.md`） of the optional Utility Card.
-- UDPS: The `Internal Utility Power Option`（raw: `../02.03_DUT_board_design_reference/02.03.05.04_Internal_Utility_Power_Option__V93000_EXA_Scale_systems.md`） of the internal utility resources that replaces the legacy `SE-UDPS`（raw: `../02.03_DUT_board_design_reference/02.03.05.07_Internal_Utility_Power_Supply__SE-UDPS___V93000_systems.md`）.
-The extra parameter must always be set in combination with the resourceID parameter. |
- | resourceID |
-
-The extra parameter defines the utility power resource to be set.
-
-Available options of the parameter:
-
-- 1: First `optional Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） or the `Internal utility power supplies`（raw: `../02.05_Test_Head_Cards/02.05.08.03.02_Internal_utility_power_supplies.md`） of the first card cage.
-- 2: Second `optional Utility Card`（raw: `../02.05_Test_Head_Cards/02.05.08.04_Utility_Card.md`） or the `Internal utility power supplies`（raw: `../02.05_Test_Head_Cards/02.05.08.03.02_Internal_utility_power_supplies.md`） of the second card cage.
-The extra parameter must always be set in combination with the supplyId parameter. |
- |
-
-state
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/137170.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：mode | The mandatory parameter defines the new state of the supply. Available options of the parameter: ON: Switches the supply on OFF: Switches the supply off
 
 The returned state of the queried supply.
 
@@ -35446,30 +26703,9 @@ UPST "{setting}", {(purpose_name)}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UPST  UPST  -  Utility Purpose STate）
 
-| setting |
-
-The optional parameter specifies the status of the utility lines in the utility purpose.
-
-The status is determined with the following specifiers:
-
--
-
-0: Sets the output state of the corresponding (write) channel to high (high impedance state)
-
--
-
-1: Sets the corresponding (write) channel to low
-
--
-
-X (x): No action
-
-Specify the setting values corresponding to the definition order of the utility lines in the specified utility purpose.
-
-If this parameter is omitted, the settings defined by the `DFUP`（raw: `02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`） or UPAS commands (depending on the setup focus as set with `PSFC`（raw: `02.06.02.02.191_PSFC__PSFC__-__Parallel_Setup_FoCus.md`）) are set to the utility lines of the specified utility purpose.
-
- |
- | purpose_name |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98833_3.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：setting | The optional parameter specifies the status of the utility lines in the utility purpose. The status is determined with the following specifiers: 0: Se…
 
 Name of the utility purpose to be set or read.
 
@@ -35516,22 +26752,9 @@ UPTI {time}, {(purpose_name)}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UPTI  UPTI  -  Utility Purpose settling TIme）
 
-| time |
-
-Specifies the wait time to change the utility line status using the `UPST`（raw: `02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） commands (in ms).
-
-0 ... 2鈥?47鈥?83.646 [ms]
-
- |
- | purpose_name |
-
-Specifies the utility purpose name or names for which the settling time is to be set.
-
-The symbol @ is used for all utility purposes.
-
-If more than one name is required, the names must be separated with a comma.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98835_3.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：time | Specifies the wait time to change the utility line status using the UPST and FLSH commands (in ms). 0 ... 2 147 483.646 [ms]
 
 ### Example（取自子主题 Utility Line Commands › List of utility line commands › UPTI  UPTI  -  Utility Purpose settling TIme）
 
@@ -35587,36 +26810,9 @@ UTIX {utility_group}, {value}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UTIX  -  UTility line Inputs eXtended）
 
-|
-
-utility_group
-
- |
-
-This parameter specifies the utility pogo block.
-
-The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-The legacy single‑digit format 1 ... 8 is also supported, but the query always returns the three‑digit format.
-
-For the query, ALL can be entered to specify all utility blocks.
-
-For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）.
-
- |
- |
-
-value
-
- |
-
-The returned integer word.
-
-This integer word must be translated to binary code to get the state of each utility line in the utility line block specified in the query.
-
-The range is 0 ... 4鈥?94鈥?67鈥?95 for a 4‑row utility block.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98837_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：utility_group | This parameter specifies the utility pogo block. The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to DUT interfac…
 
 ### Example 1（取自子主题 Utility Line Commands › List of utility line commands › UTIX  -  UTility line Inputs eXtended）
 
@@ -35668,52 +26864,9 @@ UTOT {utility_group}, [mask], {word}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UTOT  UTOT  -  UTility line OuTputs）
 
-| utility_group |
-
-This parameter specifies the utility pogo block.
-
-The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-The legacy single‑digit format 1 ... 8 is also supported, but the query always returns the three ‑digit format.
-
-For the UTOT? query, the parameter can be set to ALL to specify all utility blocks.
-
-For more information, see `Utility line assignments`（raw: `../02.03_DUT_board_design_reference/02.03.04.01_Utility_line_assignments.md`） and `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`）.
-
- |
- | mask |
-
-The optional parameter masks the utility lines in the block selected by the utility_group parameter.
-
-Enter a decimal equivalent of a 32 bit binary number (0 ... 4鈥?94鈥?67鈥?95), to mask the required line.
-
-The mask value is defined as follows:
-
-- 1: A bit value of 1 causes the selected line to be programmed to the value specified in the parameter value.
-- 0: A bit value of 0 masks the line, that is, the line remains unchanged.
-
-If the mask parameter is not specified, then all the utility lines in the selected block are programmed.
-
- |
- | value |
-
-This parameter can be entered either as string in the form of a hex word (0 ... FFFF FFFF), or in the form of an integer word (0 ... 4鈥?94鈥?67鈥?95).
-
-Utility lines are basically low side switches. Therefore, the utility lines are set to the inverse of the binary equivalent of the specified value. For example, let us assume the value is 12. This equals to 1100 in binary, its inverse is 0011. Therefore, the first and the second utility line (URW00 and URW01) will be set to high, while all others on this block are set to low.
-
-You can pulse the output utility lines by entering several hex words one after another (not decimal integers) enclosed in double quotes.
-
-- Thus to produce a single pulse on the sixth line of the second utility pogo block, you would enter: `UTOT 166, "0040, 0000, 0040"`.
-- You can use this facility for instance to produce a trigger pulse for a certain measurement.
-- The specified hex data is sequentially written to the utility lines.Note Such pulses on the utility lines can in no way be synchronized to the execution of test vectors and are meant to enable you to switch slow devices such as relays. If you need to switch utility lines in synchronism with test vectors you must use the command `UTSC, UTSC? - (UTility line Serial Configuration)`（raw: `02.06.02.02.312_UTSC__UTSC__-__UTility_line_Serial_Configuration.md`） and set up serial control of utility lines as described in `Sequencer-controlled utility lines`（raw: `../../03_Use_cases_and_application_papers/03.09_How_to_set_up_sequencer__ontrolled_utility_lines/03.09.01_Sequencer-controlled_utility_lines.md`）.
- |
- | word |
-
-This is an integer value returned by the system, informing you of the setting of the utility output lines. For each utility block you enter, the system returns a reading.
-
-The query returns the value the utility lines were set to by `UTOT`. Use the `UTIX?`（raw: `02.06.02.02.310_UTIX__-__UTility_line_Inputs_eXtended.md`） command to read back the actual state of the utility lines.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98838_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：utility_group | This parameter specifies the utility pogo block. The pogo block is defined by a three‑digit number. For valid pogo blocks, refer to DUT interfac…
 
 ### Example 1（取自子主题 Utility Line Commands › List of utility line commands › UTOT  UTOT  -  UTility line OuTputs）
 
@@ -35900,24 +27053,9 @@ UTST {value}, {(util_name)}
 
 ### Parameters（取自子主题 Utility Line Commands › List of utility line commands › UTST  UTST  -  UTility line STate）
 
-| value |
-
-Specifies the output (desired) status of the utility line with the specifier 0 or 1.
-
-- 0: High output
-- 1: Low output
- |
- | type |
-
-This parameter is used to specify whether the output (desired) state or the input (actual) state is to be returned. Possible values are:
-
-- w: Returns the output (desired) state.
-- r: Returns the input (actual) state
-
-For pure output utility lines, this parameter is ignored.
-
- |
- | util_name |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98839_3.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：value | Specifies the output (desired) status of the utility line with the specifier 0 or 1. 0: High output 1: Low output
 
 Specifies the utility line name or names to be set or read.
 
@@ -36249,108 +27387,14 @@ TSRC [shotcount],{result_type}, {successinfo}, {(pin)}
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSRC  -  Time Stamping Results Computed）
 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/141847_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
-
- | sitesToBeDone |
-
-An extra string parameter, defining the sites to be uploaded. i.e. "01110011".
-
-This option needs parameter `site_selector`（raw: `02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md#_141847__r_site_selector`） to be set to ALL.
-
- |
- | measurement_id |
-
-The optional number of the measurement block (identified by the ARM keyword within a waveform that is executed in the pattern) for which the computation is performed. If no measurement block is specified, all measurement blocks will be computed.
-
- |
- | result_type |
-
-The mandatory result type. Currently, the only supported result type is PERIOD.
-
- |
- | first_sample |
-
-NOT USED
-
- |
- | no_of_samples |
-
-NOT USED
-
- |
- | execution_control |
-
-With this extra parameter, you can modify the default action sequence of TSRC?. Possible values are:
-
- | NOT_FINISHED |
-
-Default. All three steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it issues warning and continues to analyze and compute the available samples.
-
- |
- | FINISHED |
-
-Completeness check will be skipped. TSRC? assumes that all required samples have been taken. It will analyze and compute the available samples. It starts from step 2, above.
-
- |
- | ANALYZED |
-
-Samples will not be analyzed. TSRC? assumes that all required samples were taken and analyzed in a previous step. It computes the available samples. It starts from step 3, above.
-
-   | |
- | site_selector |
-
-This extra query parameter allows you to compute the results for a specific site or all sites. Possible values are:
-
- | ONE |
-
-Only the values of the site which has the query focus are processed (the default).
-
- |
- | ALL |
-
-The values of all sites or the sites defined by parameter `sitesToBeDone`（raw: `02.06.02.02.277_TSRC__-__Time_Stamping_Results_Computed.md#_141847__r_sitesToBeDone`） are processed.
-
- |
- | <N> |
-
-The results of the site with this number are processed.
-
-   | |
- | resultAreaName |
-
-The extra parameter defines the name of the result area from which the samples should be computed. If this parameter is omitted, the default result area is used.
-
- |
- | pinlist |
-
-The mandatory list of pins for which the time stamps are to be computed.
-
- |
- | pin |
-
-The pin to which the computed results belong.
-
- |
- | shotcount |
-
-The parameter returns the number of shots that have been computed.
-
- |
- | successinfo |
-
-The parameter indicates whether the computation succeeded.
-
-Possible return values:
-
--
-
-SUCCEEDED
-
--
-
-FAILED.
-
- |
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：16 行 × 6 列，含嵌套表。
+> 首行（上游原文）：sitesToBeDone | An extra string parameter, defining the sites to be uploaded. i.e. "01110011". This option needs parameter site_selector to be set to ALL.
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/141847_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：NOT_FINISHED | Default. All three steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it issu…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/141847_2.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ONE | Only the values of the site which has the query focus are processed (the default).
 
 ### Syntax（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSRS  -  TMU Set ReSults）
 
@@ -36366,141 +27410,15 @@ TSRS [measurement_id], [(sitenumber),] {result_type}, [sample_id|aggregation_typ
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSRS  -  TMU Set ReSults）
 
-| sitesToBeDone |
-
-An extra string parameter, defining the sites to be uploaded. i.e. "01110011".
-
-This option needs parameter `site_selector`（raw: `02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md#_125500__r_site_selector`） to be set to ALL.
-
- |
- | measurement_id |
-
-The optional number of the measurement block (identified by the ARM keyword within a waveform that is executed in the pattern) for which periods or statistics to be returned. If no measurement block is specified, the periods or statistics of all measurement blocks are returned.
-
- |
- | result_type |
-
-The mandatory result type. Currently, the only supported result type is PERIOD.
-
- |
- | first_sample |
-
-The optional parameter specifies the first sample in the query (TSRS?) for which the period is to be returned. In the return (TSRS) of the query it specifies the first sample that is returned if the mode is set to ON. Samples are counted from 0.
-
- |
- | no_of_samples |
-
-The optional parameter defines in the query (TSRS?) the number of samples for which the periods are to be returned. In the return (TSRS) of the query it specifies the number of samples that are returned if the mode is set to ON.
-
-Depending on the value of parameter first_sample, fewer samples than specified may be returned. For example, if there are 9 samples in total, first_sample is 7 and no_of_samples is 4, only two samples are returned (the last two), not four.
-
- |
- | execution_control |
-
-With this extra parameter, you can modify the default action sequence of TSRS?. Possible values are:
-
- | NOT_FINISHED |
-
-All four steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it will continue to analyze,compute and upload the available samples.
-
-This is the default value.
-
- |
- | FINISHED  | Completeness check will be skipped. TSRS? assumes that all required samples have been taken. It will analyze, compute, and upload the available samples. It starts from step 2. |
- | ANALYZED  | Samples will not be analyzed. TSRS? assumes that all required samples were taken and analyzed in a previous step. It computes the available samples. It starts from step 3. |
- | COMPUTED  | Samples will not be computed. TSRS? assumes that all required samples were taken, analyzed, and computed in a previous step. It retrieves the periods and their statistics to the system controller. It starts from step 4.  | |
- | site_selector |
-
-This extra query parameter allows you to request the results for all sites or a specific site. Possible values:
-
- | ONE |
-
-Only the values of the site which has the query focus are processed (the default).
-
- |
- | ALL |
-
-The values of all sites or the sites defined by parameter `sitesToBeDone`（raw: `02.06.02.02.278_TSRS__-__TMU_Set_ReSults.md#_125500__r_sitesToBeDone`） are processed.
-
- |
- | <N> |
-
-The results of the site with this number are processed.
-
-   | |
- | resultAreaName |
-
-The extra parameter defines the name of the result area from which the samples should be retrieved. If this parameter is omitted, the default result area is used.
-
- |
- | mode  | This extra parameter controls the format of the reply when a range is specified with parameters first_sample and no_of_samples:
-
-- If mode is set to OFF, a separate line is returned for every period value within the range.
-- If mode is set to ON, the values are returned in a binary format in one line.
-OFF is the default value. |
- | pinlist  | The mandatory list of pins for which the time stamps are to be returned. |
- | sitenumber |
-
-Extra reply parameter. The site the samples belong to if the site_selector parameter has been set to ALL.
-
- |
- | sample_id |
-
-This reply parameter identifies the sample. It is only returned if a range was specified in the query and mode was set to OFF.
-
- |
- | aggregation_type |
-
-This reply parameter specifies an aggregation type. If a range was specified in the query, TSRS? returns not only the individual period values but also a number of statistics. These are:
-
--
-
-STDDEV (standard deviation)
-
--
-
-MEAN
-
--
-
-MAX
-
--
-
-MIN
-
--
-
-MEDIAN
-
--
-
-PP (peak to peak), the PP is same as MINMAX in the TMU ORE firmware.
-
- |
- | result |
-
-The reply parameter specifies the period related to sample n or a value of the descriptive statistics. The unit is seconds.
-
-It is not returned if a range was specified in the query and mode was set to ON.
-
- |
- | pin |
-
-The pin to which the returned results belong.
-
- |
- | #spec(raw_results) |
-
-The binary data that are returned if a range is specified with parameters first_sample and no_of_samples, and parameter mode is set to ON. The general format is:
-
-`n1n2...nNdata_stream`
-
-Where the decimal digit N defines the number of the decimal digits ni (1 = i = N) that specify the length of data_stream in bytes.
-
-The values are specified as seconds.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125500_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：NOT_FINISHED | All four steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it will continue …
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125500_2.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ONE | Only the values of the site which has the query focus are processed (the default).
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125500_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：21 行 × 6 列，含嵌套表。
+> 首行（上游原文）：sitesToBeDone | An extra string parameter, defining the sites to be uploaded. i.e. "01110011". This option needs parameter site_selector to be set to ALL.
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSRS  -  TMU Set ReSults）
 
@@ -36555,131 +27473,15 @@ TSRW [shot], [measurement_id], [first_sample], [no_of_samples], [(sitenumber),] 
 
 ### Parameters（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSRW  -  TMU Set RaW results）
 
-| sitesToBeDone |
-
-An extra string parameter, defining the sites to be uploaded. i.e. "01110011".
-
-This option needs parameter `site_selector`（raw: `02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md#_125519__r_site_selector`） to be set to ALL.
-
- |
- | shot |
-
-The optional parameter specifies the number of the shot for which the time stamps are to be uploaded. If no shot number is specified, the time stamps for all shots are uploaded.
-
- |
- | measurement_id |
-
-The optional number of the measurement block (identified by the ARM keyword within a waveform that is executed in the pattern) from which time stamps are to be uploaded. If no measurement block is specified, results from all measurement blocks are uploaded.
-
- |
- | first_sample |
-
-The optional parameter specifies the first sample to be uploaded. Samples are counted from 0.
-
- |
- | no_of_samples |
-
-The optional parameter specifies the number of samples that are to be uploaded. Depending on the value of parameter first_sample, fewer samples than specified may be uploaded. For example, if there are nine samples in total, first_sample is 7 and no_of_samples is 4, only two samples are returned (the last two), not four.
-
- |
- | execution_control |
-
-With this extra parameter, you can modify the default actions sequence of TSRW?. Possible values are.
-
- |
-
-NOT_FINISHED
-
- |
-
-All three steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it issues a warning and continues to analyze and upload the available samples.
-
-This is the default value.
-
- |
- | FINISHED  | The completeness check will be skipped. TSRW? assumes that all required samples have been taken. It will analyze and upload the available samples. It starts from step 2, above. |
- | ANALYZED  | Samples will not be analyzed. TSRW? assumes that all required samples were taken and analyzed in a previous step. It uploads the available samples. It starts from step 3, above.  | |
- | site_selector |
-
-This extra query parameter allows you to request the results for a specific site or all sites. Possible values:
-
- | ONE |
-
-Only the values of the site which has the query focus are uploaded (the default).
-
- |
- | ALL |
-
-The values of all sites or the sites defined by parameter `sitesToBeDone`（raw: `02.06.02.02.279_TSRW__-__TMU_Set_RaW_results.md#_125519__r_sitesToBeDone`） are computed.
-
- |
- | <N> |
-
-The results of the site with this number are computed.
-
-   | |
- | resultAreaName |
-
-The extra parameter defines the name of the result area from which the samples should be retrieved. If this parameter is omitted the default result area is used.
-
- |
- | mode |
-
-This extra parameter has two functions. It defines the format of the reply, and it controls the behavior of the TMU if the distance of a sample from the arming point exceeds the maximum of about 15 s.
-
-By default, there will be an internal wrap-around in this case, and the following time stamps will no longer be correct. You can choose to let the software correct the results, but this will increase the testing time.
-
-There are four options:
-
--
-
-OFF
-
-The time stamps are returned in ASCII format. Values that exceed the maximum distance from the arming point are wrapped around.
-
--
-
-ON
-
-The time stamps are returned in binary format. Values that exceed the maximum distance from the arming point are wrapped around.
-
--
-
-LTOFF
-
-The time stamps are returned in ASCII format. Values that exceed the maximum distance from the arming point are corrected.
-
--
-
-LTON
-
-The time stamps are returned in binary format. Values that exceed the maximum distance from the arming point are corrected.
-
- |
- | pinlist |
-
-The mandatory list of pins for which the time stamps are to be uploaded.
-
- |
- | pin |
-
-The pin to which the uploaded results belong.
-
- |
- | sitenumber |
-
-Extra reply parameter. The site to which the samples belong.
-
- |
- | #spec(raw_result) |
-
-The binary data that are returned. The general format is:
-
-`n1n2...nNdata_stream`
-
-Where the decimal digit N defines the number of the decimal digits ni (1 = i = N) that specify the length of data_stream in bytes.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125519_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：NOT_FINISHED | All three steps described above will be executed. If not all required samples have been actually taken, the query will not stop, it issues a warn…
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125519_2.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ONE | Only the values of the site which has the query focus are uploaded (the default).
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/125519_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：17 行 × 6 列，含嵌套表。
+> 首行（上游原文）：sitesToBeDone | An extra string parameter, defining the sites to be uploaded. i.e. "01110011". This option needs parameter site_selector to be set to ALL.
 
 ### Example（取自子主题 Commands for the TMU per pin › List of commands for the TMU per pin › TSRW  -  TMU Set RaW results）
 
@@ -36886,94 +27688,9 @@ SSTR {DET},{(pin)},{#spec(data)}}
 ```
 
 Parameters
- |
-
-ALL_SITES
-
- |
-
-This parameter causes SSTR? to return a global result for all sites. If it is omitted, the result for that site is returned that currently has the result focus.
-
- |
- |
-
-GLO
-
- |
-
-One global result is returned for all buffers of the pin list. The result is calculated by combining first all cycle results of the individual buffers with AND, and then the combined buffer results of all buffers again with AND. PASS will be returned if the final result is 1.
-
-This option must be selected if PASS is represented by 1 and FAIL by 0 in all buffer pins.
-
- |
- |
-
-INV
-
- |
-
-One global result is returned for all pins of the pin list. The result is calculated in 3 steps:
-
-- The cycle results of the individual channels are inverted.
-- The inverted cycle results are combined with AND.
-- The global results of the individual channels are again combined with AND
-
-PASS will be returned if the final result is 1.
-
-This option must be selected if PASS is represented by 0 and FAIL by 1 in all buffer pins. A possible application is that one global result is to be returned for one or more global buffers.
-
- |
- |
-
-DET
-
- |
-
-The cycle results of the specified buffer pin are returned as they are stored in the buffer.
-
- |
- |
-
-pinlist
-
- |
-
-The buffer pins whose results are to be accumulated. More than one pin can only specified for options GLO and INV.
-
- |
- |
-
-pin
-
- |
-
-If DET is specified as the first parameter, only one pin may be specified.
-
- |
- |
-
-glob_res
-
- |
-
-The global result that is returned for options GLO and INV. "P" signifies PASS, and "F" signifies FAIL.
-
- |
- |
-
-#spec(data)
-
- |
-
-The binary data that is returned for option DET. It has a header which specifies the length of the data in the following format:
-
-#Nn1n2n...nNdata_stream,
-
-where the digit N defines the number of the digits ni (1 鈮?i 鈮?N) that specify the length of data_stream in bytes.
-
-If you record 8 results per cycle (every edge is recorded) then one bit represents one edge. If only one global result per cycle is recorded, two bits represent one cycle.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98759_2.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：8 行 × 2 列。
+> 首行（上游原文）：ALL_SITES | This parameter causes SSTR? to return a global result for all sites. If it is omitted, the result for that site is returned that currently has the r…
 
 ### Example（取自子主题 Commands for Processing Results of Source Synchronous Testing › List of commands for source synchronous testing › SSTR  -  Source Synchronous Testing  Result query）
 
@@ -37099,478 +27816,9 @@ TTCF {"tt_name"}, {property}, {property_value}, {(pinlist)}
 > 表内引用（1 条，供检索）：`TTDF`（raw: `02.06.02.02.288_TTDF__TTDF__-__Transition_Test_set_DeFinition.md`）
 
 Properties and their values
- |
-
-Property
-
- |
-
-Explanation and values
-
- |
- |
-
-ALL_PATTERN_ERR
-
- |
-
-This is a collective switch for all pattern matching errors. The possible values are ON and OFF. There is no default.
-
- |
- |
-
-ALL_TRACKING_ERR
-
- |
-
-This is a collective switch for all tracking errors. The possible values are ON and OFF. There is no default.
-
- |
- |
-
-DEVIATION_LIMIT_DUT_BEFORE_ED
-
- |
-
-This property only applies if X-tokens are removed (REMOVE_XTOKEN_MODE set to ON) and the token size is > 0. It defines the maximum number of UI by which the received data are allowed to exceed the expected data under these circumstances. The received data exceeds the expected data in length if the number of idle tokens in the received data is greater than the number of X-tokens in the expected data. See `Skipping idle tokens`（raw: `02.06.15.01.02.02_Skipping_idle_tokens.md`）.
-
-The default is 0. The specified value must be ≤256.
-
- |
- |
-
-DEVIATION_LIMIT_ED_BEFORE_DUT
-
- |
-
-This property only applies if X-tokens are removed (REMOVE_XTOKEN_MODE set to ON) and the token size is > 0. It defines the maximum number of UI by which the expected data are allowed to exceed the received data under these circumstances. The expected data exceeds the received data in length if the number of X-tokens in the expected data is greater than the number of idle tokens in the received data. See `Skipping idle tokens`（raw: `02.06.15.01.02.02_Skipping_idle_tokens.md`）.
-
-The default is 0. The specified value must be 鈮?256.
-
- |
- |
-
-DISPARITY_MODE
-
- |
-
-This property determines whether disparity is taken into account when comparing expected tokens with received tokens. This only applies to token size 10.
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_BADTRAN
-
- |
-
-This property defines whether the test fails if an illegal sequence of transitions occurred.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_CNTADJOVR
-
- |
-
-This property defines whether the test fails if an adjustment overflow occurs. This means that the observation window was adjusted more than 1 UI in one direction within 24 UI. Note that adjustments in opposite direction cancel each other out. Thus if '+' indicates an adjustment to the right, and '-' an adjustment to the left,
-
-`- + - + - + - +`
-
-is acceptable, but
-
-`+ + + + + - + +`
-
-creates an overflow.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_CNTLMT
-
- |
-
-This property defines whether the test fails if the maximum drift of 7.75 UI for the entire pattern is exceeded.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_COMPARE
-
- |
-
-This property defines whether the test fails if compare errors are detected.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_FTO
-
- |
-
-This property defines whether the test fails if the number of UI that are skipped for synchronization at test start exceeds the maximum defined with FIRST_INITIAL_SYNC_LIMIT.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_JMP2
-
- |
-
-This property defines whether the test fails if an unrecoverable BC transition (jump by 2) is detected.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_PULSE
-
- |
-
-This property defines whether the test fails if a bit was sampled only once. If pulse stretching is enabled, the error will refer to the stretched pulse (see `Stretching the pulse`（raw: `02.06.15.01.01.03_Stretching_the_pulse.md`）).
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_STO
-
- |
-
-This property defines whether the test fails when the number of consecutive skipped bits after initial synchronization exceeds the maximum defined with SUBSEQUENT_INITIAL_SYNC_LIMIT.
-
-This can happen in two cases:
-
-- at synchronization of an IO pin that has been switched from drive to receive mode, or
-- when too many consecutive idle tokens have been skipped, that is, if
-
-no_of_tokens * token_size > SUBSEQUENT_INITIAL_SYNC_LIMIT.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_STOP
-
- |
-
-This property defines whether the test fails if the sequencer stops too early, that is, before all compare actions have been completed. This error can be avoided by adding an appropriate number of break vectors (at least 400) at the end of the test.
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_TE0
-
- |
-
-This property defines whether the test fails if no reference transition occurs, that is, the observation window could not be adjusted successfully.
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_TE2
-
- |
-
-This property defines whether the test fails if a BC transition occurs in a block of three UI, for example
-
-LLLL LLHH HHHH
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_TE3
-
- |
-
-This property defines whether the test fails if two different transitions occur within a UI (not between two UI) in a block of three UI, for example
-
-LLLL LHHH LLLH
-
-Here the second UI contains an AB transition, and the third UI contains a CD transition.
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_TE4
-
- |
-
-This property defines whether the test fails if three transitions occur within a UI (not between two UI) in a block of three UI, for example
-
-HHLL LHHH LLLH
-
-Here the first UI contains a BC transition, the second contains an AB transition, and the third a CD transition.
-
-The possible values are ON and OFF. OFF is the default.
-
- |
- |
-
-ERR_TRK
-
- |
-
-This property defines whether the test fails if the maximum drift for the entire pattern as defined with TRACKING_LIMIT is exceeded.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_TRMCNT
-
- |
-
-This property defines whether the test fails if the skipped idle bits are not a multiple of the token size.
-
- |
- |
-
-ERR_XMAX
-
- |
-
-This property defines whether the test fails if the length of the received data exceeds the length of the expected data by more than the value defined with DEVIATION_LIMIT_DUT_BEFORE_ED.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-ERR_XMIN
-
- |
-
-This property defines whether the test fails if the length of the expected data exceeds the length of the received data by more than the value defined with DEVIATION_LIMIT_ED_BEFORE_DUT.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-FIRST_INITIAL_SYNC_LIMIT
-
- |
-
-This property defines how many bits are allowed to be skipped by initial synchronization at test start. The maximum value is 2^32. This is also the default.
-
- |
- |
-
-FIRST_INITIAL_SYNC_MODE
-
- |
-
-This property activates or deactivates initial synchronization at test start.
-
-The possible values are ON and OFF. ON is the default.
-
- |
- |
-
-IDLE_TOKEN_i
-
- |
-
-With this property, you can specify idle tokens whose occurrences in the received data are to be counted. i can be 1 through 6. This property only applies to token sizes > 0 and < 18.
-
- |
- |
-
-PULSE_STRETCHING_MODE_1BIT
-
- |
-
-This property defines if and how much pulses that are sampled only once are to be stretched. For more information see `Stretching the pulse`（raw: `02.06.15.01.01.03_Stretching_the_pulse.md`）.
-
-Possible values are:
-
- |
- |
-
-NONE
-
- |
-
-No stretching takes place.
-
- |
- |
-
-STRETCH_1TO3
-
- |
-
-1 sample bits are stretched to 3 samples.
-
- |
- |
-
-STRETCH_1TO4
-
- |
-
-1 sample bits are stretched to 4 samples.
-
- |
- |
-
-PULSE_STRETCHING_MODE_2BIT
-
- |
-
-This property defines if and how much pulses that are sampled only twice are to be stretched. For more information see `Stretching the pulse`（raw: `02.06.15.01.02.01_Startup_latency_and_initial_synchronization.md`）.
-
-Possible values are:
-
- |
- |
-
-NONE
-
- |
-
-No stretching takes place.
-
- |
- |
-
-STRETCH_2TO3
-
- |
-
-2 sample bits are stretched to 3 samples.
-
- |
- |
-
-STRETCH_2TO4
-
- |
-
-2 sample bits are stretched to 4 samples.
-
- |
- |
-
-REMOVE_XTOKEN_MODE
-
- |
-
-This property activates or deactivates removal of tokens consisting entirely of X from the expected data. The possible values are ON and OFF. For more information see `Skipping idle tokens`（raw: `02.06.15.01.02.02_Skipping_idle_tokens.md`）.
-
-This property only takes effect if the token size is > 0.
-
- |
- |
-
-SUBSEQUENT_INITIAL_SYNC_LIMIT
-
- |
-
-This property defines how many bits are allowed to be skipped by subsequent initial synchronization. The maximum value is 2^32. This is also the default.
-
-This property also limits the maximum number of consecutive idle tokens that can be skipped after synchronization, by the following inequality:
-
-number_of_skipped_tokens * token_size 鈮? SUBSEQUENT_INITIAL_SYNC_LIMIT
-
- |
- |
-
-SUBSEQUENT_INITIAL_SYNC_MODE
-
- |
-
-This property activates or deactivates subsequent initial synchronization, for example after the switch of an IO pin from drive to receive mode. The possible values are ON and OFF. ON is the default. This property only takes effect if FIRST_INITIAL_SYNC_MODE is set to ON.
-
-For more information see `Startup latency and initial synchronization`（raw: `02.06.15.01.02.01_Startup_latency_and_initial_synchronization.md`）.
-
- |
- |
-
-TOKEN_SIZE
-
- |
-
-This property defines the token size for the pattern matching block. The allowed values are:
-
-0, 8, 9, 10, 12, 16, 18, 20, 24, 28, 32, 34, 36, 40, 44, 48, 52, 56, 60, 64, 66.
-
-0 is the default. For more information see `Pattern matching`（raw: `02.06.15.01.02_Pattern_matching.md`）.
-
- |
- |
-
-TRACKING_LIMIT
-
- |
-
-This property defines how much the device is to be allowed to drift during the whole pattern. The maximum value that still allows a reliable tracking is 7.75 UI. This is also the default.
-
-The step width for this parameter is 1/4 UI.
-
- |
- |
-
-TRACKING_MODE
-
- |
-
-This property defines the operation mode of the transition tracker. For more information see `Controlling the tracking behavior`（raw: `02.06.15.01.01.01_Controlling_the_tracking_behavior.md`）.
-
-The possible values are:
-
- |
- |
-
-ACTIVE
-
- |
-
-If necessary, the observation window is adjusted after every 3 UI.
-
- |
- |
-
-FREEZE_AFTER_SYNC
-
- |
-
-If necessary, the observation window is adjusted once at test start and once after every switch of a IO pin from drive to receive mode.
-
- |
- |
-
-FREEZE_ALWAYS
-
- |
-
-The observation window is never adjusted.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/116670_2.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：43 行 × 4 列。
+> 首行（上游原文）：Property | Explanation and values
 
 ### Example（取自子主题 Commands for the protocol engine per pin › List of commands for protocol engine tests › TTCF  TTCF  -  Transition Test ConFiguration）
 
@@ -37764,8 +28012,6 @@ TTST {status_type}, {property}, {state}, {(pinlist)}
 
 |
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/116741_2.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：38 行 × 2 列，含 colspan 与 rowspan。
 
 status_type
 

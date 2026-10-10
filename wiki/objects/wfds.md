@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **5,887 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`。**不是转述。**
+> 本节 **1,003 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -45,211 +45,9 @@ WFDS {wvf_set|"wavetable"|specset_id|"multiport_spec"}, {wfIndex}, [mode], {defi
 
 ### Parameters
 
-|
-
-wvf_set
-
- |
-
-Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by `WSUS, WSUS? - (Waveform Sets USed)`（raw: `02.06.02.02.342_WSUS__WSUS__-__Waveform_Sets_USed.md`）. For the query you can also enter ALL for all waveform sets. Enter PRM to select the primary waveform set.
-
- |
- |
-
-wavetable_name
-
- |
-
-The wavetable name. Enter a string of up to 40 alphanumeric characters (upper or lower case) enclosed by double quotes.
-
- |
- |
-
-specset_id
-
- |
-
-Derived as follows:
-
-`100 * equation_set_no + specset_no`
-
- |
- |
-
-multiport_spec
-
- |
-
-To query a multiport specification, enter the name of the specification.
-
- |
- |
-
-wfIndex
-
- |
-
-Waveform index. Enter an integer between 0 and 255. The index references a waveform in a device cycle. For the query you can also enter ALL for all waveform DC/DC power units. The waveform index is also used by the `WAVE, WAVE? - (WAVEform)`（raw: `02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`） command.
-
-Note that the index must be specified decimally here, whereas in the wavetable, it is coded hexadecimally.
-
- |
- |
-
-mode
-
- |
-
-Not used.
-
- |
- |
-
-definition_string
-
- |
-
-Edge action definition string which consists of drive actions for the drive/ bidirectional edges only. On Pin Scale systems, there is only one drive edge type, which is denoted by di (1 鈮? i 鈮?8).
-
-With these edges you can associate the following actions:
-
-- N: No action
-- F0N: Drive 0, no tri-state action
-- F1N: Drive 1, no tri-state action
-- FN0: No drive action, tri-state off
-- FNZ: No drive action, tri-state on
-- F00: Drive 0, tri-state off
-- F0Z: Drive 0, tri-state on
-- F10: Drive 1, tri-state off
-- F1Z: Drive 1, tri-state on
-- D1N: Drive parameter 1 (DD1), no tri-state action
-- D1N: Drive parameter 2 (DD2), no tri-state action
-- C1N: Drive complement of parameter 1 (DD1), no tri-state action
-- C2N: Drive complement of parameter 2 (DD2), no tri-state action
-- DN1: No drive action, tri-state parameter 1 (DD1)
-- DN2: No drive action, tri-state parameter 2 (DD2)
-- D11: Drive parameter 1 (DD1), tri-state parameter 1 (DD1)
-- C11: Drive complement of parameter 1 (DD1), tri-state parameter 1 (DD1)
-- D22: Drive parameter 2 (DD2), tri-state parameter 2 (DD2)
-- C22: Drive complement of parameter 2 (DD2), tri-state parameter 2 (DD2)
-
-All edges which are not explicitly set are set to N. In the query only those edges that are used are printed.
-
-The following table shows which data-dependent drive actions use the driver formatter, which use the tri-state formatter, and which use both. You have to consider this when assigning parameters to the `WAVE`（raw: `02.06.02.02.333_WAVE__WAVE__-__WAVEform.md`） command. See also `Specifying the actions`（raw: `02.06.06.01.03.01.01_Specifying_the_actions.md`）.
-
- |
- |
-
- |
-
-Data-dependent Drive Action
-
- |
-
-Driver
-
- |
-
-Tri-state
-
- |
- |
-
-D1N, D2N, C1N, C2N
-
- |
-
-yes
-
- |
-
-no
-
- |
- |
-
-DN1, DN2
-
- |
-
-no
-
- |
-
-yes
-
- |
- |
-
-D11, C11, D22, C22
-
- |
-
-yes
-
- |
-
-yes
-
- |
- |
-
- |
-
-On Smart Scale systems, there are two types of drive edges, denoted by fi and si (1 鈮?i 鈮?8). For both of them, only the action codes 0, 1, and N are admitted. But the Smart Scale systems also support the old di syntax. For more information see `Defining waveforms for Smart Scale pins`（raw: `02.06.06.01.03.02_Defining_waveform_shapes_for_Smart_Scale_pins.md`）.
-
- |
- |
-
- |
-
-On the expected data side the actions you can define are:
-
-- N: No action
-- E0: Edge compare to 0
-- E1: Edge compare to 1
-- EI: Edge compare to intermediate
-- EX: Edge compare to mask
-- EU: Edge compare to unstable
-- C: Capture digital data (selective digital capture)
-- D: Do not capture digital data (selective digital capture)
-
-Note that waveforms that are to be used for selective digital capture must contain exactly one compare action.
-
-- W0: Window open with compare to 0
-- W1: Window open with compare to 1
-- WI: Window open with compare to intermediate
-- WX: Window open with compare to mask
-- WU: Window open with compare to unstable
-- WC: Window close
-- EE1: Edge compare to parameter 1 (ED1)
-- EE2: Edge compare to parameter 1 (ED2)
-- WE1: Window open with compare to parameter 1 (ED1)
-- WE2: Window open with compare to parameter 1 (ED2)
- |
- |
-
-pinlist
-
- |
-
-The name of the pin or pins for which the waveform is to be defined or read back. This parameter can also include groups previously created by `DFGP, DFGP? - (DeFine GrouP)`（raw: `02.06.02.02.60_DFGP__DFGP__-__DeFine_GrouP.md`）. The @ symbol can be used to specify all configured pins. If more than one pin is to be included, the names must be separated with a comma.
-
- |
- |
-
-ALLOW_EQ
-
- |
-
-This extra parameter allows you to define or change logical waveforms for an equation based timing. Note that only the runtime settings are affected; the definitions in the wavetable are not changed.
-
-Note also the following:
-
-- Every runtime change will affect all specifications that use the respective wavetable.
-- Since the new or changed waveform must be evaluated and downloaded for every specification that uses the respective wavetable, the change tends to be rather slow.
-- The runtime definitions are not checked for consistency. It is up to the user to ensure this.
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98872.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：15 行 × 4 列。
+> 首行（上游原文）：wvf_set | Waveform set number. Enter an integer in the range 1 to the maximum number of allowed waveform sets. The maximum number is determined by WSUS, WSUS? -…
 
 ### Example
 
@@ -631,7 +429,7 @@ alphanumeric characters (upper or lower case) enclosed by double quotes.`——
 `sources:` 一篇：
 
 - `02_System_reference/02.06_Command_Reference/02.06.02.02.335_WFDS__WFDS__-__WaveForm_Definition_String.md`
-  （frontmatter 的 `source_topic` 是 `98872.htm`；**9,260 字节 / 288 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `98872.htm`；**4,032 字节 / 288 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节与「报错条件」节是脚本从这一篇抽的（**本页一个字没动**）。
   **本篇没有 `## Syntax` 段**——它的两段语法挂在 `## WFDS` 与 `## WFDS?` 两个标题下，

@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,085 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.69_FLUSH.md>`。**不是转述。**
+> 本节 **1,225 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.69_FLUSH.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -37,29 +37,9 @@ void FLUSH(TM::FLUSH_POST_ACTION action, bool force, TM::FLUSH_SECTION_TYPE flus
 ```
 
 Parameters
- | action |
-
-This parameter controls how the setup data will be downloaded to the hardware.
-
-You can leave it empty or use TM::APRM.
-
-When using the TM:APRM option, the command `APRM`（raw: `../02.06_Command_Reference/02.06.02.02.03_APRM_-__Activate_PRiMary_sets.md`） with mode set to CNL will be issued following the normal FLUSH() actions.
-
- |
- | force |
-
-When to execute the firmware command `FLSH`（raw: `../02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） and `WSDN`（raw: `../02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md`）. It can be:
-
--
-
-true: always executes the firmware command `FLSH`（raw: `../02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） and `WSDN`（raw: `../02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md`） (default)
-
--
-
-false: only executes the firmware command `FLSH`（raw: `../02.06_Command_Reference/02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`） and `WSDN`（raw: `../02.06_Command_Reference/02.06.02.02.341_WSDN_-__Wait_Setup_DoNe.md`） when necessary.
-
- |
- | flush_section  | This parameter allows you to set which types of APIs to flush.You can use the following options:
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/29338.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：action | This parameter controls how the setup data will be downloaded to the hardware. You can leave it empty or use TM::APRM. When using the TM:APRM option, t…
 
 - TM::FLUSH_PRIMARY`1)`（raw: `#fntarg_1`）,
 - TM::FLUSH_UTIL`2)`（raw: `#fntarg_2`）,
@@ -322,7 +302,7 @@ FLUSH(flushType);
 
 - 定义文档（本页 `sources:` 唯一一篇，**整篇读过**）：
   `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.69_FLUSH.md`
-  （TDC `29338.htm`，7,627 字节 / 154 行）。
+  （TDC `29338.htm`，6,641 字节 / 154 行）。
 - **本篇没有重复投放**：全语料按 `source_topic` 查 `29338.htm`，**只有这一个文件**。
 - **本页「语法 / 参数」节的来源就是这一篇自己**（节首没写「取自子主题」后缀），
   节里那 2,085 字符包括 7 个重载的 `Syntax` 块、`Parameters` 表、以及那个 `## Example` 的两个代码块。

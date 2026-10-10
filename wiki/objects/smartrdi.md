@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **109,986 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13_SmartRDI.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.01_Example_of_keyword_setups_in_the_RDI_Configure_file.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.02_getRdiConfig.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.06.01_rdi.getInfoLevel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.06.02_rdi.setInfoLevel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.02_execute.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.03_id.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.04_RDI_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.05_RDI_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.06_RDI_INIT.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.07_RDI_UNIT_INIT.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.08_RDI_WAIT_TEST_DONE.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.02_Changing_the_default_pin_status_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.03_Changing_the_parameter_value_at_runtime_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.04.01_digCapBurstSiteUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.01_fastSyncOff.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.02_fastSyncOn.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.03_fastSyncPortNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.01_getBuildDate.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.02_Macros_to_get_the_SmartRDI_version_number.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.03_rdi.getActiveRdiRev.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.04_rdi.getCompileRdiRev.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.07.01_Automatic_masking_on_inactive_sites.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.07.02_Active_site_on_hold.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.01_port.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.02_portSync.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.03_RDI_PORT_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.04_RDI_PORT_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.09_Pass_Fail_per_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.10.01_burstPostfix.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.11.01_rdi.pureGenerationMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.12_Register_Access_library.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.13.04_RDI_SEMI_PARALLEL_TEST_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.13.05_RDI_SEMI_PARALLEL_TEST_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.14_Setting_and_retrieving_the_setup_name_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.16.01_rdi.disableWarning.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.16.02_rdi.enableWarning.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.17_Sync_group_support_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.19.01_Using_hidden_upload_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.20_Using_Offline_Result_Emulation_in_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.21.01_wait.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.21.02_waitCycle.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.09.01_Alarm_setup_file.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.09.02_Alarm_handling_commands.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.10_SmartRDI__d2s-like_protocol_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.01_Using_a_DC_resource_as_an_AWG_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.02_Runtime_DC_waveform.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.03_DC_waveforms_per_site.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.04_Using_a_DC_resource_as_a_digitizer_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.05_Using_a_DC_Scale_resource_as_a_digitizer_while_sourcing_a_waveform_on_th.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.06_Serial_Semi-parallel_execution_of_BADC_as_digitizer_over_sites.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.07_DC_waveform_and_sampling_in_parallel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.08_Parallel_pulse_actions_with_measurement_and_sampling.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01_Setting_up_PPMU_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.02_Setting_up_Board_ADC_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.03_Setting_up_SPMU_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.01_Generating_a_new_digital_capture_pattern_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.02_Inserting_digital_capture_actions_in_an_existing_pattern_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.03_Using_Immediate_Upload_in_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.04_addVecRange.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.05_bitPerWord.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.06_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.07_capMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.08_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.09_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.10_format.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.11_initDiscard.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.12_interSkip.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.13_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.14_pin.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.15_samples.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.16_vecVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.17_vecVarOnly.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.18_getVector.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.19_getVectorBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.20_rdi.id__.getVectorFromVV.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.21_getVecVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.14_SmartRDI__Digital_channel_relay_control.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.01.01_Routing_Tools_-_Global_Setup_editor.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.01.04_Routing_Tools_-_State_Setup_editor.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.05_rdi.route.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.16_SmartRDI__Error_map_results_from_user_patterns.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.17_Functional_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.18_SmartRDI__Level_and_timing_set_changes.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.19.01_Structures_of_multiple_cogo___nodes.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.20.03_postBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.21_SmartRDI__TMU_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.01_getLabelCycleNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.02.01_setGlobalVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.02.02_getGlobalVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.03_dtos.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.04_itos.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.05_itos_hex.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.06_reverseBits.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.07_getCommentCycleNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.08_getCommentVectorNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.23_SmartRDI__Utility_lines_control.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.02_bitLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.04_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.06_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.07_defaultBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.08_defaultVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.09_download.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.10_emapLocation.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.11_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.12_expectBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.13_expectData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.16_failNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.18_fillBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.19_fillVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.20_insertJmpe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.21_insertSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.22_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.25_passNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.26_pMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.27_pModeStrobe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.28_readBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.29_readData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.30_rdi.smartVec__.readMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.31_repeat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.32_repeatSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.33_rdi.smartVec__.vecEditMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.34_vecLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.35_writeBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.36_writeData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.37_writeDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.38_writeParData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.39_writeParDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.40_writePat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.41_writeVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.43_getFailCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.44_getFailCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.45_getFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.46_rdi.id__.getMultiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.47_getReadBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.48_getReadData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.03_Retrieving_match_loop_results.md>`。**不是转述。**
+> 本节 **109,108 字符逐字取自** `<02_System_reference/02.07_Test_Method_Reference/02.07.13_SmartRDI.md>` 及其子主题 `<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.01_Example_of_keyword_setups_in_the_RDI_Configure_file.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.04.02_getRdiConfig.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.06.01_rdi.getInfoLevel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.06.02_rdi.setInfoLevel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.02_execute.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.03_id.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.04_RDI_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.05_RDI_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.06_RDI_INIT.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.07_RDI_UNIT_INIT.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.01.08_RDI_WAIT_TEST_DONE.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.02_Changing_the_default_pin_status_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.03_Changing_the_parameter_value_at_runtime_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.04.01_digCapBurstSiteUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.01_fastSyncOff.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.02_fastSyncOn.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.05.03_fastSyncPortNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.01_getBuildDate.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.02_Macros_to_get_the_SmartRDI_version_number.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.03_rdi.getActiveRdiRev.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.06.04_rdi.getCompileRdiRev.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.07.01_Automatic_masking_on_inactive_sites.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.07.02_Active_site_on_hold.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.01_port.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.02_portSync.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.03_RDI_PORT_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.08.04_RDI_PORT_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.09_Pass_Fail_per_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.10.01_burstPostfix.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.11.01_rdi.pureGenerationMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.12_Register_Access_library.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.13.04_RDI_SEMI_PARALLEL_TEST_BEGIN.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.13.05_RDI_SEMI_PARALLEL_TEST_END.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.14_Setting_and_retrieving_the_setup_name_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.16.01_rdi.disableWarning.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.16.02_rdi.enableWarning.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.17_Sync_group_support_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.19.01_Using_hidden_upload_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.20_Using_Offline_Result_Emulation_in_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.21.01_wait.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.08.21.02_waitCycle.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.09.01_Alarm_setup_file.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.09.02_Alarm_handling_commands.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.10_SmartRDI__d2s-like_protocol_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.01_Using_a_DC_resource_as_an_AWG_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.02_Runtime_DC_waveform.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.03_DC_waveforms_per_site.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.04_Using_a_DC_resource_as_a_digitizer_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.05_Using_a_DC_Scale_resource_as_a_digitizer_while_sourcing_a_waveform_on_th.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.06_Serial_Semi-parallel_execution_of_BADC_as_digitizer_over_sites.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.07_DC_waveform_and_sampling_in_parallel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.08_Parallel_pulse_actions_with_measurement_and_sampling.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.01_Setting_up_PPMU_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.02_Setting_up_Board_ADC_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.01.03_Setting_up_SPMU_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02_Setting_up_DC_Scale_pins_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.01_Generating_a_new_digital_capture_pattern_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.02_Inserting_digital_capture_actions_in_an_existing_pattern_with_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.03_Using_Immediate_Upload_in_SmartRDI.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.04_addVecRange.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.05_bitPerWord.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.06_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.07_capMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.08_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.09_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.10_format.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.11_initDiscard.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.12_interSkip.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.13_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.14_pin.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.15_samples.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.16_vecVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.17_vecVarOnly.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.18_getVector.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.19_getVectorBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.20_rdi.id__.getVectorFromVV.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.13.21_getVecVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.14_SmartRDI__Digital_channel_relay_control.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.01.01_Routing_Tools_-_Global_Setup_editor.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.01.04_Routing_Tools_-_State_Setup_editor.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.05_rdi.route.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.16_SmartRDI__Error_map_results_from_user_patterns.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.17_Functional_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.18_SmartRDI__Level_and_timing_set_changes.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.19.01_Structures_of_multiple_cogo___nodes.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.19.02_Sequencer-controlled_searching_with_cogo.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.20.03_postBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.21_SmartRDI__TMU_test_setup.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.01_getLabelCycleNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.02.01_setGlobalVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.02.02_getGlobalVar.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.03_dtos.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.04_itos.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.05_itos_hex.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.06_reverseBits.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.07_getCommentCycleNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.22.08_getCommentVectorNum.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.23_SmartRDI__Utility_lines_control.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.02_bitLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.03_burstLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.04_burstUpload.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.05_comment.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.06_copyLabel.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.07_defaultBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.08_defaultVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.09_download.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.10_emapLocation.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.11_enPassFail.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.12_expectBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.13_expectData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.14_failCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.15_failCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.16_failNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.17_FFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.18_fillBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.19_fillVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.20_insertJmpe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.21_insertSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.22_label.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.23_labelName.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.24_multiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.25_passNode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.26_pMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.27_pModeStrobe.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.28_readBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.29_readData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.30_rdi.smartVec__.readMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.31_repeat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.32_repeatSub.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.33_rdi.smartVec__.vecEditMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.34_vecLength.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.35_writeBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.36_writeData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.37_writeDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.38_writeParData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.39_writeParDataBurst.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.40_writePat.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.41_writeVec.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.42_xMode.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.43_getFailCount.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.44_getFailCyc.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.45_getFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.46_rdi.id__.getMultiFFC.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.47_getReadBit.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.48_getReadData.md>`、`<02_System_reference/02.07_Test_Method_Reference/02.07.13.24.49.03_Retrieving_match_loop_results.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -265,36 +265,9 @@ RDI_BEGIN(mode);
 ```
 
 Parameter
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-mode
-
- |
-
-The optional execution mode. It can be:
-
--
-
-TA::BURST: Pattern-based execution mode. This is the default mode.
-
--
-
-TA::SINGLE: Single step execution mode for debugging.
-
--
-
-TA::PROD: Production mode. No new setups will be generated. The saved setups from the pattern‑based mode will be used.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/141276.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example 1: Minimum code（取自子主题 SmartRDI  General topics and functions › General SmartRDI functions › RDI BEGIN）
 
@@ -330,36 +303,9 @@ RDI_END(mode);
 ```
 
 Parameter
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-mode
-
- |
-
-The optional execution mode. If mode is not specified, the blocking pattern execution is used by default.
-
--
-
-TA::BLOCKING is to be used to start the blocking pattern execution at the end of the RDI block. No other action can be performed while the pattern burst is running.
-
-This is the default option.
-
--
-
-TA::NON_BLOCKING is to be used to start the non-blocking pattern burst execution at the end of the RDI block. Other actions can be performed while the pattern burst is running.
-
-The command `RDI_WAIT_TEST_DONE()`（raw: `02.07.13.08.01.08_RDI_WAIT_TEST_DONE.md`） is to be used to align the end of the non-blocking pattern execution.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/141277.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 ### Example 1: Minimum code（取自子主题 SmartRDI  General topics and functions › General SmartRDI functions › RDI END）
 
@@ -2284,13 +2230,6 @@ The following code shows the contents of an XML file that has been generated by 
 </switchtool>
 ```
 
-### Example 1: shortcut menu - Inserting a row（取自子主题 SmartRDI  DUT board connections control by Routing Tools › Routing Tools editors › Routing Tools - State Setup editor）
-
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/153261.htm`
-> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
-
-!`Routing Tools - State Setup editor Context menus State name`（raw: `../../../../raw/343030.png`）
-
 ### Example 2: shortcut menu - Fill data（取自子主题 SmartRDI  DUT board connections control by Routing Tools › Routing Tools editors › Routing Tools - State Setup editor）
 
 | !`Routing Tools - State Setup editor Context menus Fill states`（raw: `../../../../raw/343031.png`） | To select multiple cells: Click the upper left cell, press Shift and click the lower right cell. |
@@ -2301,15 +2240,9 @@ The following code shows the contents of an XML file that has been generated by 
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/153261.htm`
 > 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
 
- |
-
-!`Routing Tools - State Setup editor Context menus Move columns`（raw: `../../../../raw/343028.png`）
-
-  | Moving columns is also supported by clicking the related cell of the header row (A, B, C, 鈥? and dragging the column to the new position. |
-
-### Example 4: shortcut menu - Move row（取自子主题 SmartRDI  DUT board connections control by Routing Tools › Routing Tools editors › Routing Tools - State Setup editor）
-
-|
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/153261.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：1 行 × 2 列。
+> 首行（上游原文）：Moving columns is also supported by clicking the related cell of the header row (A, B, C, …) and dragging the column to the new position.
 
 !`Routing Tools - State Setup editor Context menus Move columns`（raw: `../../../../raw/346495.png`）
 
@@ -2848,20 +2781,9 @@ bitLength(int length);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-length
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149048.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 The length of the bit stream.
 
@@ -3440,56 +3362,15 @@ You must define device cycles in the corresponding wavetable.
 
 ### Syntax（取自子主题 SmartRDI  Vector and protocol programming › fillVec）
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149041.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
-
 ```
 fillVec(int index,int vecLength,int startVec);
 fillVec(string dvc,int vecLength,int startVec);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-index
-
- |
-
-The physical index you want to write to the pattern .
-
- |
- |
-
-dvc
-
- |
-
-The device cycle you want to write to the pattern.
-
- |
- |
-
-vecLength
-
- |
-
-The length of the vector to be filled.
-
- |
- |
-
-startVec
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149041.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：5 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 The starting position of the vector to be written. If the startVec parameter missing, the default value is 0.
 
@@ -3880,36 +3761,14 @@ readMode(TA::MEAS_TYPE mode);
 ```
 
 List of parameters
+
+List of available options of parameter: <mode>
 > ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149061.htm`
 > 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
 > 首行（上游原文）：Parameter | Description
-
-List of available options of parameter: <mode>
- |
-
-Option
-
- |
-
-Description
-
- |
- |
-
-TA::EMAP
-
- |
-
-The error map as the read mode.
-
-In this mode, for each pin, the ERROR_MAP_TEST API is used to get all failed positions. A post processing is done afterward.
-
- |
- |
-
-TA::DIGCAP
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149061.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Option | Description
 
 The digital capture as the read mode.
 
@@ -4065,20 +3924,9 @@ vecLength(int length);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-length
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149043.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 The length of the pattern.
 
@@ -4468,28 +4316,14 @@ RDI_END();
 
 ### Syntax（取自子主题 SmartRDI  Vector and protocol programming › xMode）
 
-> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149062.htm`
-> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
-
 ```
 xMode(int Xmode);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-Xmode
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149062.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 The number of device cycles in each tester cycle.
 
@@ -4634,20 +4468,9 @@ ARRAY_I getReadBit(const string &pin);
 ```
 
 List of parameters
- |
-
-Parameter
-
- |
-
-Description
-
- |
- |
-
-pin
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/149050.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 2 列。
+> 首行（上游原文）：Parameter | Description
 
 The pin to query.
 

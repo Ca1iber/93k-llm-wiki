@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **3,059 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`。**不是转述。**
+> 本节 **844 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,45 +44,9 @@ DFUP {(ch_No_list)}, "{setting}", {(purpose_name)}
 
 ### Parameters
 
-| ch_No_list |
-
-Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with a comma.
-
-In the five‑digit format, the first three digits of the channel numbers specify the utility pogo block. For valid pogo blocks, refer to `DUT interface layout`（raw: `../02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`） and to `Utility pogo block mapping`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md#_347642__s_Utility_pogo_block_mapping`） in `Utility pogo block - Utility Card (V93000 EXA Scale systems)`（raw: `../02.03_DUT_board_design_reference/02.03.06.08.02_Utility_pogo_block_-_Utility_Card__V93000_EXA_Scale_systems.md`）.
-
-The legacy three‑digit format is also supported: The first digit (1 ... 8) specifies the utility pogo block UTIL‑ ... UTIL鈥?.
-
-The last two digits specify the channel number 01 ... 32 of the utility line.
-
-On the utility pogo blocks, an offset of -1 is to be considered and the channel number is URW00 ... URW31.
-
-When reading the defined utility lines with the DFUP? command, the data returned always have the five‑digit format. The same applies to the `PALS?`（raw: `02.06.02.02.173_PALS__PALS__-__Pin_ALlocation_for_multiple_Sites.md`） command.
-
-The channel numbers 16515 and 16516 should not be used. They should only be accessed with the `I2CA`（raw: `02.06.02.02.142_I2CA__I2CA__-__I2CA_bus.md`）or the `BDID`（raw: `02.06.02.02.09_BDID__BDID__-__BoarD_ID.md`）firmware command.
-
- |
- | setting |
-
-Output states for each channel in the ch_No_list. Specify the setting of each utility line with the following specifiers:
-
-- 0: sets the corresponding (write) channel to high (high impedance state)
-- 1: sets the corresponding (write) channel to low
-- X (x): no action
-
-Specify the setting values corresponding to the definition order of the ch_No_list parameter.
-
-The number of characters must be equal to the number of the utility line channels in the ch_No_list parameter.
-
-Note that the settings must be explicitly activated with `UPST`（raw: `02.06.02.02.305_UPST__UPST__-__Utility_Purpose_STate.md`） and `FLSH`（raw: `02.06.02.02.124_FLSH_-__FLuSH_buffered_commands.md`）.
-
- |
- | purpose_name |
-
-Name of the utility purpose. In the query you can use the symbol @ to list all defined utility purposes.
-
-This parameter can have up to 16 alphanumeric characters and must not contain blank spaces, or any of the following characters: `# ; ( ' ' ) ? @ ,`
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98559.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：ch_No_list | Utility line channel numbers to be defined as the members of a utility purpose and specified with five digits. The channels must be separated with …
 
 ### Example
 
@@ -371,7 +335,7 @@ Setting:     0      1      1      0
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.69_DFUP__DFUP__-__DeFine_Utility_Purpose.md`
-（TDC `98559.htm`，111 行 / 4,497 字节）。**整篇读完。**
+（TDC `98559.htm`，73 行 / 4,497 字节）。**整篇读完。**
 
 **本页没做的：**
 
