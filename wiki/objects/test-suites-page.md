@@ -18,21 +18,9 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,039 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.01_Test_Suites_page.md>`。**不是转述。**
-> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
-> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
-> 改写参数表就是把文档事实降级成我的转述（§11）。
-> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
-
-### Tables（脚本逐字抽取，第 1 张）
-
-| !`1t`（raw: `../../../../raw/110947.png`） / !`Hide primary setup columns`（raw: `../../../../raw/110950.png`） | Show or hide the test setup columns |
-|---|---|
-| !`Primary setup columns`（raw: `../../../../raw/110946.png`） / !`2p`（raw: `../../../../raw/110951.png`） | Show or hide the primary setup columns |
-| !`Show result columns`（raw: `../../../../raw/110948.png`） / !`2p`（raw: `../../../../raw/110952.png`） | Show or hide the result columns |
-| !`Show testsuite flag columns`（raw: `../../../../raw/110949.png`） / !`Hide testsuite flag columns`（raw: `../../../../raw/110953.png`） | Show or hide the test suite flag columns |
-| !`Show all columns icon`（raw: `../../../../raw/110688.png`） | Show all columns |
-| !`Validate setups icon`（raw: `../../../../raw/111383.png`） | Validate setups<br><br>Clicking this button highlights any invalid testflow setup (where setup files have not been loaded or the selected setting does not exist in the setup files) the equation or set number in yellow and displays the annotation. You can hover over the annotation to see the detailed information. |
+**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
+这类**段标记**，跟着 `Subtopics` 找一层也没有。
+**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
 <!-- 语法节 end -->
 
@@ -413,7 +401,7 @@ test methods that can be adapted.` 这一句，**窗口自己怎么措辞在文�
 
 `sources:` 一篇，**整篇读完**：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.01.01_Test_Suites_page.md`
-（TDC `99272.htm`，**全文 10,090 字节**）。**没有读 `sources` 之外的任何文档。**
+（TDC `99272.htm`，**全文 9,318 字节**）。**没有读 `sources` 之外的任何文档。**
 
 **看了 21 张图，全看了。** 本篇对 `raw/` 下 `.png` 的引用共 **23 处 / 21 张互不重复**
 （被引了两次的是 `125585.png` 与 `125534.png` **两张一致性检查按钮图**——

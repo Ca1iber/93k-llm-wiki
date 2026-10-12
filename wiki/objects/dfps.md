@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **1,402 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`。**不是转述。**
+> 本节 **1,476 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.65_DFPS__DFPS__-__DeFine_Power_Supply.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -58,21 +58,9 @@ This example connects device pin Vee to channel 1 of DPS board 1. The DPS output
 
 ### Example 2
 
-|
-
-
-```
-DFPS (10101, 10102),POS,(vee)
-```
-
- |
- |
-
-```
-DFPS (10101-10102),POS,(vee)
-```
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/98551.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：2 行 × 1 列。
+> 首行（上游原文）：DFPS (10101, 10102),POS,(vee)
 
 Both lines define the same master/slave configuration for DC Scale channels in DPS mode. They just use different notations. Note the five digit channel numbers.
 

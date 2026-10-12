@@ -422,7 +422,7 @@ defaultConfig.enable();
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.191_RESULT_CONFIGURATION.md`
-（frontmatter `source_topic` = `130383.htm`；**20,945 字节 / 671 行**，**整篇读完**。
+（frontmatter `source_topic` = `130383.htm`；**9,358 字节 / 671 行**，**整篇读完**。
 口径按 §11.5：字节是 `st_size`，行数是 `wc -l`，本语料末行带换行，两者恒等）
 
 **本页的 `## 语法 / 参数` 节是脚本从这一篇抽的**（节首逐字写着来源，**只有这一篇，没有子主题**），**本页一个字没动**。

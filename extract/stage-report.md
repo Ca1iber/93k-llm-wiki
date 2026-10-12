@@ -1756,7 +1756,7 @@
 - ✅ `concepts/direct-probe-stiffener.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `concepts/dut-board-design-reference.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `concepts/dut-board-grounding.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `concepts/dut-interface-layout.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `concepts/dut-interface-layout.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；32 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `concepts/edf-data-organization.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `concepts/edf-data-types.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `concepts/edf.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1788,7 +1788,7 @@
 - ✅ `concepts/waveform-set.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；7 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `constraints/constraint-level-mode-context-match.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `constraints/constraint-timing-mode-context-match.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `constraints/cross-card-ganging-requires-ddic.md` — 引用块/代码块 20 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；32 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `constraints/cross-card-ganging-requires-ddic.md` — 引用块/代码块 20 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；50 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `constraints/execution-context-requires-firmware-definition.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `constraints/label-edit-requires-tstl-selection.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `constraints/pals-before-other-setup.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1806,12 +1806,12 @@
 - ✅ `errors/error-result-server-transmission-timeout.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `errors/error-utility-power-supply-not-enabled.md` — 引用块/代码块 14 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `errors/error-workspace-in-use.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；9 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `mappings/mapping-level.md` — 引用块/代码块 21 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `mappings/mapping-level.md` — 引用块/代码块 21 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；11 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `mappings/mapping-pattern.md` — 引用块/代码块 14 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；7 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `mappings/mapping-pin.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `mappings/mapping-project.md` — 引用块/代码块 15 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**；5 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
     - ⚠️ 未称逐字，覆盖率 50%｜`Note The VEC_TRANSFER_TASK and LEV_TRANSFER_TASK APIs can be used only with Smar…`
-- ✅ `mappings/mapping-results.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `mappings/mapping-results.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；4 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `mappings/mapping-run.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；3 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `mappings/mapping-testflow.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `mappings/mapping-testmethod.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；13 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
@@ -1820,14 +1820,14 @@
 - ✅ `objects/alias-set-editor.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/alphabetical-list-of-flags.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；3 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/analysis-views.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/apg-pattern-file.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/apg-pattern-file.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；14 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/apg-program-file.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/aprm.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/assign-value-node.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/begin-extension.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；6 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/bin.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；23 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/built-in-functions.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；2 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/bwdf.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；7 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/bwdf.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；9 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/bwds.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；26 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/cct-change-level-spec.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/cct-multiport-sequencer-synchronizer-api.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1835,7 +1835,7 @@
 - ✅ `objects/chin.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；7 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/ci-cpi.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/clkr.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；13 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/clmp.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；34 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/clmp.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；35 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/conf.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；9 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/connect.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/ctxt.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；6 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
@@ -1845,14 +1845,14 @@
         - `debug profile to enable more detailed logging. …`
 - ✅ `objects/data-navigation-views.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/data-retrieval-library.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/dc-result-accessor.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dc-result-accessor.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；10 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/dc-scale-limits-editor.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dc-scale-uhc4t-card.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dc-scale-xps256-card.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dcdt.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；8 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/debug-perspective.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/debug-view.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/device-access-file.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/device-access-file.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；22 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/device-architecture-file.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/device-directory.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/device-license-file.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1861,7 +1861,7 @@
 - ✅ `objects/dfge.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；8 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/dfgp.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfpc.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；8 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/dfpn.md` — 引用块/代码块 20 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；92 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/dfpn.md` — 引用块/代码块 20 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；111 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/dfpr.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dfps.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；6 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/dfpt.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；7 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
@@ -1882,9 +1882,9 @@
 - ✅ `objects/dps-aux-task.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/dps-pins-editor.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；15 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/dps-power-flags-get-functions.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/dps-task.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dps-task.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；18 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/dps128-dps64-cards.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/dpspins-resources.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/dpspins-resources.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；7 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/drlv.md` — 引用块/代码块 10 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**；12 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
     - ⚠️ 未称逐字，覆盖率 79%｜`The DRLV command defines the low and the high voltage levels for the driver ampl…`
     - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
@@ -1900,7 +1900,7 @@
 - ✅ `objects/eqsp.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；24 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/error-map-tool.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/error-map.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/etds.md` — 引用块/代码块 28 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；110 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/etds.md` — 引用块/代码块 28 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；112 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/etim.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；8 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/event-base.md` — 引用块/代码块 6 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 50%｜`The following event types are provided by specialized event classes：`
@@ -1912,7 +1912,7 @@
 - ✅ `objects/execution-context.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/file-string.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；2 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/flags-page.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/flex-relay.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/flex-relay.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；4 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/flow-data-editor.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/flow-sequence-editor.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/flsh.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；7 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
@@ -1924,7 +1924,7 @@
 - ✅ `objects/get-functional-result.md` — 引用块/代码块 23 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；25 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/get-utility-lines.md` — 引用块/代码块 8 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**；5 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
     - ⚠️ 未称逐字，覆盖率 75%｜`GetUtilityLines: Gets the status of the utility lines SetUtilityLines: Sets the …`
-- ✅ `objects/global-section.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/global-section.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；98 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/ground-sense-editor.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；8 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/group-node.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；6 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/hardware-bin-summary-tab.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1933,11 +1933,11 @@
 - ✅ `objects/hidden-upload.md` — 引用块/代码块 3 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 50%｜`Note Hidden uploads, controlled and started by SMC_ARM()， must be finished befor…`
 - ✅ `objects/hw-pin-state.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/hw-state.md` — 引用块/代码块 20 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/hw-state.md` — 引用块/代码块 20 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；40 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/hwty.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/integrated-result-tool.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/jrst.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；1 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/jscf.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/jscf.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；13 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/jsdf.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；5 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/jspr.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/jsud.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1949,13 +1949,13 @@
 - ✅ `objects/level-setup-tool.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/level-spec.md` — 引用块/代码块 17 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**；另有 1 处**忽略空白后才对上**（排版差异，不判错）；5 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
     - ⚠️ 未称逐字，覆盖率 0%｜`| specset | Spec set number. | Member functions`
-- ✅ `objects/limit.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/limit.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；19 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/lot-summary-generator.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/lsus.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；6 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/lsux.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/match-loops.md` — 引用块/代码块 14 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/model-file.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/mscf.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；28 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/mscf.md` — 引用块/代码块 12 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；52 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/msdf.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；2 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/mtp-maintenance-operations.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/mtp-memory-test.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；4 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
@@ -1972,12 +1972,12 @@
         - `An error is generated if： - The specified`
         - `if： - The specified channel number is not`
 - ✅ `objects/pattern-controller.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；9 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/pattern-editor.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；1 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/pattern-explorer.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/pattern-editor.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；16 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/pattern-explorer.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；22 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/pattern-master-file.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pattern-object.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；5 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/pattern-tool.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/pclk.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；44 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/pclk.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；46 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/pdiv.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；13 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/pfnd.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；4 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/pin-configuration-file.md` — 引用块/代码块 18 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -1993,27 +1993,27 @@
 - ✅ `objects/port-editor.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/pqfc.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/preprocessing-and-postprocessing-scripts.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/primary-status.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/primary-status.md` — 引用块/代码块 15 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；8 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/prlt.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；5 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/project-explorer-view.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/protocol-editor.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；2 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/psas.md` — 引用块/代码块 25 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；2 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/psfc.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；26 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/pslv.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/pslv.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；39 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/pssl.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；6 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/pssr.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；8 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/pssr.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；16 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/pste.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；5 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/raw-data-views.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/rclv.md` — 引用块/代码块 11 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；22 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
     - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
         - `previously defined by the DFGP, DFGP? - (DeFine`
         - `DFGP, DFGP? - (DeFine GrouP) command. The threshold`
-- ✅ `objects/rdi-configure-file.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；67 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/rdi-configure-file.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；92 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
     - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
         - `generate eight or more cycles […]. So when`
         - `cycles […]. So when this mode is enabled,`
 - ✅ `objects/report-window.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/result-configuration.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/result-configuration.md` — 引用块/代码块 17 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；32 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/rset.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；2 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/run-dialog.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/sequencer-status.md` — 引用块/代码块 19 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；11 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
@@ -2057,7 +2057,7 @@
 - ✅ `objects/stpm-control-file.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/stpm-merge-rules-file.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/stpm.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/strs.md` — 引用块/代码块 14 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；27 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/strs.md` — 引用块/代码块 14 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；30 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/structure-of-a-tmlimits-csv-file.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/svlr.md` — 引用块/代码块 21 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；24 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/table-filter.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2068,7 +2068,7 @@
 - ✅ `objects/test-program-explorer.md` — 引用块/代码块 10 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/test-suite-control-api.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/test-suite.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/test-suites-page.md` — 引用块/代码块 37 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/test-suites-page.md` — 引用块/代码块 37 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；12 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/test-summary-tab.md` — 引用块/代码块 4 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
     - ⚠️ 未称逐字，覆盖率 71%｜`Refresh: Updates the system data log stream display with the latest logged data …`
 - ✅ `objects/test.md` — 引用块/代码块 38 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；36 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
@@ -2082,7 +2082,7 @@
 - ✅ `objects/testflow-tool.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/testflow-variable.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/testset-testname.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；19 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/testset.md` — 引用块/代码块 18 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/testset.md` — 引用块/代码块 18 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；7 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/timestamp-attr-type.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-diagram-tool.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；2 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/timing-equation-set.md` — 引用块/代码块 25 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2092,7 +2092,7 @@
 - ✅ `objects/timing-setup-tool.md` — 引用块/代码块 43 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-spec.md` — 引用块/代码块 19 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/timing-specification.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/tmlimits.md` — 引用块/代码块 32 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；24 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/tmlimits.md` — 引用块/代码块 32 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；43 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
     - 🟠 **疑似自加结构 1 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
         - `getLimitRef(), getLimitObj() / load() (without parameters!). - The`
 - ✅ `objects/tp360.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；另有 1 处**忽略空白后才对上**（排版差异，不判错）
@@ -2117,7 +2117,7 @@
 - ✅ `objects/utility-line-assignments.md` — 引用块/代码块 0 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/utility-line-view.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/utility-pins-editor.md` — 引用块/代码块 20 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；73 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/utility-pogo-block-utility-card-v93000-exa-scale-systems.md` — 引用块/代码块 5 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/utility-pogo-block-utility-card-v93000-exa-scale-systems.md` — 引用块/代码块 5 处；对不上的 1 处，其中**页面自称「逐字」的 0 处**；16 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
     - ⚠️ 未称逐字，覆盖率 50%｜`CAUTION The 4-row utility block uses the row sequence c-a-b-d for compatibility …`
 - ✅ `objects/utility-power-supplies.md` — 引用块/代码块 6 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；10 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/utility-purpose-editor.md` — 引用块/代码块 5 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2127,15 +2127,15 @@
 - ✅ `objects/vector-setup-file.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `objects/vpin.md` — 引用块/代码块 3 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；7 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/vtim.md` — 引用块/代码块 18 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；20 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/vwfg.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；22 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
-- ✅ `objects/vwfs.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；11 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/vwfg.md` — 引用块/代码块 13 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；24 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/vwfs.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；13 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/wafer-summary-tab.md` — 引用块/代码块 20 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/wave.md` — 引用块/代码块 24 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；90 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/wave.md` — 引用块/代码块 24 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；93 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/waveform-mapping.md` — 引用块/代码块 8 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/waveform-view.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
+- ✅ `objects/waveform-view.md` — 引用块/代码块 16 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；32 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/wavetable-file.md` — 引用块/代码块 7 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；3 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/wavetable.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `objects/wfds.md` — 引用块/代码块 19 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；68 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `objects/wfds.md` — 引用块/代码块 19 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；70 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/wsus.md` — 引用块/代码块 9 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；12 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/xps256-pmu-operating-mode.md` — 引用块/代码块 2 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；4 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `objects/xps256-programming-dps-operating-mode.md` — 引用块/代码块 1 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
@@ -2145,7 +2145,7 @@
 - ✅ `stages/pin.md` — 引用块/代码块 14 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；1 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
 - ✅ `stages/project.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
 - ✅ `stages/results.md` — 引用块/代码块 4 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**
-- ✅ `stages/run.md` — 引用块/代码块 58 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；另有 2 处**忽略空白后才对上**（排版差异，不判错）；55 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
+- ✅ `stages/run.md` — 引用块/代码块 58 处；对不上的 0 处，其中**页面自称「逐字」的 0 处**；另有 2 处**忽略空白后才对上**（排版差异，不判错）；62 处在**上游 raw/** 里对上（表格已换成指针，见 `_up_blob`）
     - 🟠 **疑似自加结构 2 处**（引文单元以 `- ` 开头 / 中间有 ` - ` / 含 `…` 或 `...`，**且对不上原文**）。**筛查项，不判错**——滑窗跨过两个真列表项的接缝时也会命中，要人看。
         - `system/testflow/testsuite flags. - Execute the test. Obtain the`
         - `flag settings. - Execute all tests. Obtain the`
@@ -2303,7 +2303,7 @@
 > - **没自称逐字 = 转述，对不上是正常的。** 只提示，不判错。
 >
 > **另一档，与上面两档都不同：疑似自加结构 —— 本次共 20 处。**
-> **本类主动排除：`<!-- 语法节 begin -->`…`<!-- 语法节 end -->` 之间那一段，本次涉及 322 页、共 2469231 字符。**
+> **本类主动排除：`<!-- 语法节 begin -->`…`<!-- 语法节 end -->` 之间那一段，本次涉及 322 页、共 2292646 字符。**
 > 那一段由 `objscaffold.py` 写（§4），段内语料链接被机械改写成 ``文本``（raw: `路径`），**按设计就不是逐字的**——不排除它，本类会稳定地报一条自己造成的「对不上」。
 > **它没有被放过，是被更硬的口径接管了**：第十二类查的是「页面与脚本当前产出**逐字节一致**」。两个检查管同一段时，弱的那条只产生噪声。
 > 形状判据三条：引文单元**以 `- ` 开头**、**中间含 ` - `**、或**含 `…` / `...`**，**且对不上原文**。
@@ -2336,7 +2336,7 @@
 ## 第八类 · 链接目标可达（**抓断链；排除项是名字白名单两项，行内代码跨度里的 wikilink 照样算**）
 
 - 内容页共 **505** 页，引用 **521** 个目标，其中 **16** 个找不到对应页。
-- 口径指纹：内容页 505 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 9bc5c114216e`。
+- 口径指纹：内容页 505 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 0a65b1bf5ad9`。
 
 > **这不是页面的缺陷，是建页 backlog。** 它列的是**脊椎已经要求**的页——
 > 比按 `in_src` 排的「125 个高入度对象」更有用：那些只是"语料里常出现"，

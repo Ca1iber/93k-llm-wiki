@@ -18,22 +18,9 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **776 字符逐字取自** `<01_Getting_started/01.01_SmarTest_Work_Center/01.01.08.06_Debug_View.md>`。**不是转述。**
-> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
-> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
-> 改写参数表就是把文档事实降级成我的转述（§11）。
-> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
-
-### Tables（脚本逐字抽取，第 1 张）
-
-| Icon | Description |
-|---|---|
-| !`Debug view: Remove terminated testflows`（raw: `../../../../raw/125022.png`） | Click to remove all terminated testflows in the Debug view |
-| !`Debug view: restart`（raw: `../../../../raw/125023.png`） | Click Restart to restart testflow execution |
-| !`Debug view: resume`（raw: `../../../../raw/125024.png`） | Click Resume to continue testflow execution with no stops unless there are enabled breakpoints in a test method |
-| !`Debug view: suspend`（raw: `../../../../raw/125025.png`） | Click Suspend to stop testflow execution |
-| !`Debug view: terminate`（raw: `../../../../raw/125026.png`） | Click Terminate to abort testflow execution |
-| !`Debug view: step over`（raw: `../../../../raw/125027.png`） | Click Step over to execute exact one (next) test suite in testflow |
+**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
+这类**段标记**，跟着 `Subtopics` 找一层也没有。
+**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
 <!-- 语法节 end -->
 

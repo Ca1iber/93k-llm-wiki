@@ -276,7 +276,7 @@ JSCF {"jitter_set_name"}, {"property"}, {"property_value"}, {(pinlist)}
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.147_JSCF__JSCF__-__Jitter_Set_ConFiguration.md`
-（TDC `116890.htm`，259 行）
+（TDC `116890.htm`，70 行）
 
 **本页没做的**：
 
