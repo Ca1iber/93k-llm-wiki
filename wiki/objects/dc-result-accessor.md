@@ -530,7 +530,7 @@ virtual void run()
 
 `sources:` 一篇：
 `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.28_DC_RESULT_ACCESSOR.md`
-（`99071.htm`，**25,901 字节 / 573 行**）——**整篇读完**。
+（`99071.htm`，**19,888 字节 / 573 行**）——**整篇读完**。
 
 **「语法 / 参数」节收了 9,753 字符**，逐字来自原文的 `## Examples` 一节（含 `### Note` 与
 Example 1–5 的 5 段代码）。**它收的是例子，不是参数表**——

@@ -18,110 +18,9 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **9,538 字符逐字取自** `<02_System_reference/02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md>`。**不是转述。**
-> §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
-> **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
-> 改写参数表就是把文档事实降级成我的转述（§11）。
-> 段内的语料内部相对链接已改写为 `文本`（raw: `路径`），**不再是链接**。
-
-### Tables（脚本逐字抽取，第 1 张）
-
-| Group 7 | Group 7 |  | Group 8 | Group 8 |  | Group 2 | Group 2 |  | Group 6 | Group 6 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| DPS 7<br><br>(272) | UTIL 8<br><br>(172) |  | DPS 8<br><br>(268) | UTIL 4<br><br>(168) |  | DPS 2<br><br>(267) | UTIL 3<br><br>(167) |  | DPS 6<br><br>(271) | UTIL 7<br><br>(171) |
-| 424 | 420 |  | 432 | 428 |  | 316 | 312 |  | 416 | 412 |
-| 224 | 220 |  | 232 | 228 |  | 116 | 112 |  | 216 | 212 |
-| 423 | 419 |  | 431 | 427 |  | 315 | 311 |  | 415 | 411 |
-| 223 | 219 |  | 231 | 227 |  | 115 | 111 |  | 215 | 211 |
-| 422 | 418 |  | 430 | 426 |  | 314 | 310 |  | 414 | 410 |
-| 222 | 218 |  | 230 | 226 |  | 114 | 110 |  | 214 | 210 |
-| 421 | 417 |  | 429 | 425 |  | 313 | 309 |  | 413 | 409 |
-| 221 | 217 |  | 229 | 225 |  | 113 | 109 |  | 213 | 209 |
-|  |  |  |  |  |  |  |  |  |  |  |
-| `MUX cards pogo blocks`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_MUX_cards`）<br><br>or<br><br>`Wave Scale interface modules`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_Wave_scale`）`1)`（raw: `#_20811__fn_SmarTest_8_only_EXA_Scale`） | `MUX cards pogo blocks`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_MUX_cards`）<br><br>or<br><br>`Wave Scale interface modules`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_Wave_scale`）`1)`（raw: `#_20811__fn_SmarTest_8_only_EXA_Scale`） | `MUX cards pogo blocks`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_MUX_cards`）<br><br>or<br><br>`Wave Scale interface modules`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_Wave_scale`）`1)`（raw: `#_20811__fn_SmarTest_8_only_EXA_Scale`） | `MUX cards pogo blocks`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_MUX_cards`）<br><br>or<br><br>`Wave Scale interface modules`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_Wave_scale`）`1)`（raw: `#_20811__fn_SmarTest_8_only_EXA_Scale`） | !`DUT interface layout - RF only`（raw: `../../../../raw/347950.png`）<br><br>`High-Density Port Scale RF solution`（raw: `02.03.07.08.01_High-Density_Port_Scale_RF_solution.md`）`2)`（raw: `#fntarg_2`） | !`DUT interface layout - RF only`（raw: `../../../../raw/347950.png`）<br><br>`High-Density Port Scale RF solution`（raw: `02.03.07.08.01_High-Density_Port_Scale_RF_solution.md`）`2)`（raw: `#fntarg_2`） | !`DUT interface layout - RF only`（raw: `../../../../raw/347950.png`）<br><br>`High-Density Port Scale RF solution`（raw: `02.03.07.08.01_High-Density_Port_Scale_RF_solution.md`）`2)`（raw: `#fntarg_2`） | `MUX cards pogo blocks`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_MUX_cards`）<br><br>or<br><br>`Wave Scale interface modules`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_Wave_scale`）`1)`（raw: `#_20811__fn_SmarTest_8_only_EXA_Scale`） | `MUX cards pogo blocks`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_MUX_cards`）<br><br>or<br><br>`Wave Scale interface modules`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_Wave_scale`）`1)`（raw: `#_20811__fn_SmarTest_8_only_EXA_Scale`） | `MUX cards pogo blocks`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_MUX_cards`）<br><br>or<br><br>`Wave Scale interface modules`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_Wave_scale`）`1)`（raw: `#_20811__fn_SmarTest_8_only_EXA_Scale`） | `MUX cards pogo blocks`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_MUX_cards`）<br><br>or<br><br>`Wave Scale interface modules`（raw: `02.03.03.01_DUT_interface_layout.md#_20811__r_Wave_scale`）`1)`（raw: `#_20811__fn_SmarTest_8_only_EXA_Scale`） |
-|  |  |  |  |  |  |  |  |  |  |  |
-| 125 | 129 |  | 117 | 121 |  | 101 | 105 |  | 201 | 205 |
-| 325 | 329 |  | 317 | 321 |  | 301 | 305 |  | 401 | 405 |
-| 126 | 130 |  | 118 | 122 |  | 102 | 106 |  | 202 | 206 |
-| 326 | 330 |  | 318 | 322 |  | 302 | 306 |  | 402 | 406 |
-| 127 | 131 |  | 119 | 123 |  | 103 | 107 |  | 203 | 207 |
-| 327 | 331 |  | 319 | 323 |  | 303 | 307 |  | 403 | 407 |
-| 128 | 132 |  | 120 | 124 |  | 104 | 108 |  | 204 | 208 |
-| 328 | 332 |  | 320 | 324 |  | 304 | 308 |  | 404 | 408 |
-| UTIL 5<br><br>(169) | DPS 4<br><br>(269) |  | UTIL 1<br><br>(165) | DPS 3<br><br>(265) |  | UTIL 2<br><br>(166) | DPS 1<br><br>(266) |  | UTIL 6<br><br>(170) | DPS 5<br><br>(270) |
-| Group 4 | Group 4 |  | Group 3 | Group 3 |  | Group 1 | Group 1 |  | Group 5 | Group 5 |
-
-### Tables（脚本逐字抽取，第 2 张）
-
- | Group  | Pogo block range  | Usage |
- | Cable pogo block area of the DUT scale interface  | 101, 102, 103, 104, 105, 106, 107, 108  | S1 pogo blocks of group 1 |
- | 109, 110, 111, 112, 113, 114, 115, 116  | S1 pogo blocks of group 2 |
- | 117, 118, 119, 120, 121, 122, 123, 124  | S1 pogo blocks of group 3 |
- | 125, 126, 127, 128, 129, 130, 131, 132  | S1 pogo blocks of group 4 |
- | 201, 202, 203, 204, 205, 206, 207, 208  | S1 pogo blocks of group 5 |
- | 209, 210, 211, 212, 213, 214, 215, 216  | S1 pogo blocks of group 6 |
- | 217, 218, 219, 220, 221, 222, 223, 224  | S1 pogo blocks of group 7 |
- | 225, 226, 227, 228, 229, 230, 231, 232  | S1 pogo blocks of group 8 |
- | 301, 302, 303, 304, 305, 306, 307, 308  | S2 pogo blocks of group 1 |
- | 309, 310, 311, 312, 313, 314, 315, 316  | S2 pogo blocks of group 2 |
- | 317, 318, 319, 320, 321, 322, 323, 324  | S2 pogo blocks of group 3 |
- | 325, 326, 327, 328, 329, 330, 331, 332  | S2 pogo blocks of group 4 |
- | 401, 402, 403, 404, 405, 406, 407, 408  | S2 pogo blocks of group 5 |
- | 409, 410, 411, 412, 413, 414, 415, 416  | S2 pogo blocks of group 6 |
- | 417, 418, 419, 420, 421, 422, 423, 424  | S2 pogo blocks of group 7 |
- | 425, 426, 427, 428, 429, 430, 431, 432  | S2 pogo blocks of group 8 |
- | Alternate designation of UTIL 1 …nbsp;8 and DPS 1 …nbsp;8 pogo blocks of the V93000 EXA Scale system.  | 165, 166, 167, 168, 169, 170, 171, 172  | Alternate designation for UTIL 1 …UTIL 8. |
- | 265, 266, 267, 268, 269, 270, 271, 272  | Alternate designation for DPS 1 …DPS 8`3)`（raw: `#fntarg_3`）. |
- | `MUX cards`（raw: `02.03.06.05_Pogo_pin_assignment_-_MUX_cards.md`） in the central area of the DUT interface. For the pogo block numbering, refer to `MUX cards pogo block numbering`（raw: `02.03.06.05.03_MUX_cards_pogo_block_numbering.md`）.  | 881, 883, 885, 887, 889, 891, 893, 895  | Block A of cards 05, 06, 07, 08, 11, 12, 15, 16 in the left frame |
- | 882, 884, 886, 888, 890, 892, 894, 896  | Block B of cards 05, 06, 07, 08, 11, 12, 15, 16 in the left frame |
- | 865, 867, 869, 871, 873, 875, 877, 879  | Block A of cards 01, 02, 03, 04, 09, 10, 13, 14 in the right frame |
- | 866, 868, 870, 872, 874, 876, 878, 880  | Block B of cards 01, 02, 03, 04, 09, 10, 13, 14 in the right frame |
- | Wave Scale `RFIM-6`（raw: `02.03.06.07.05_Wave_Scale_RF_with_RFIM-6_RFIM-8_pogo_pin_assignment.md`） and `RFIM-18`（raw: `02.03.06.07.06_Wave_Scale_RF_with_RFIM-18_pogo_pin_assignment.md`） interface modules in the central area of the DUT interface (SmarTest 8 only)  | 901, 902, 903, 904, 905, 906  | RF interface modules in the left frame |
- | 909, 910, 911, 912, 913, 914  | RF interface modules in the right frame |
-
-### Tables（脚本逐字抽取，第 3 张）
-
-   | 4128 ... 7426  | Resources of the DUT Scale interface |
- | 9901 ... 9912  | RFIM-6 and RFIM-18 ports |
- | 190901 ... 890208  | RF ports of the Remote Mixing Modules (RMM) |
-
-### Tables（脚本逐字抽取，第 4 张）
-
-   | 501, 502, 503, 504, 505, 506, 507, 508  | Virtual S1 pogo blocks of group 1 |
- | 509, 510, 511, 512, 513, 514, 515, 516  | Virtual S1 pogo blocks of group 2 |
- | 517, 518, 519, 520, 521, 522, 523, 524  | Virtual S1 pogo blocks of group 3 |
- | 525, 526, 527, 528, 529, 530, 531, 532  | Virtual S1 pogo blocks of group 4 |
- | 601, 602, 603, 604, 605, 606, 607, 608  | Virtual S1 pogo blocks of group 5 |
- | 609, 610, 611, 612, 613, 614, 615, 616  | Virtual S1 pogo blocks of group 6 |
- | 617, 618, 619, 620, 621, 622, 623, 624  | Virtual S1 pogo blocks of group 7 |
- | 625, 626, 627, 628, 629, 630, 631, 632  | Virtual S1 pogo blocks of group 8 |
- | 701, 702, 703, 704, 705, 706, 707, 708  | Virtual S2 pogo blocks of group 1 |
- | 709, 710, 711, 712, 713, 714, 715, 716  | Virtual S2 pogo blocks of group 2 |
- | 717, 718, 719, 720, 721, 722, 723, 724  | Virtual S2 pogo blocks of group 3 |
- | 725, 726, 727, 728, 729, 730, 731, 732  | Virtual S2 pogo blocks of group 4 |
- | 801, 802, 803, 804, 805, 806, 807, 808  | Virtual S2 pogo blocks of group 5 |
- | 809, 810, 811, 812, 813, 814, 815, 816  | Virtual S2 pogo blocks of group 6 |
- | 817, 818, 819, 820, 821, 822, 823, 824  | Virtual S2 pogo blocks of group 7 |
- | 825, 826, 827, 828, 829, 830, 831, 832  | Virtual S2 pogo blocks of group 8 |
-
-### Tables（脚本逐字抽取，第 5 张）
-
-  | 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148 |
- | 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164 |
- | 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248 |
- | 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264 |
- | 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348 |
- | 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364 |
- | 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448 |
- | 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464 |
- | 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548 |
- | 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564 |
- | 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648 |
- | 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664 |
- | 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748 |
- | 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764 |
- | 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848 |
- | 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864 |
+**没有加标记的语法段。** 定义文档里没有 `Syntax` / `Parameters` / `Example`
+这类**段标记**，跟着 `Subtopics` 找一层也没有。
+**所以本脚本一个字都不收录**——没有段标记时「哪一段是语法」是猜，而猜就是编（§4）。
 
 <!-- 语法节 end -->
 
@@ -350,7 +249,7 @@ Smart Scale（SmarTest 8）上 `reserved for future use`。**查号之前先定�
 
 `sources:` 一篇：
 `02_System_reference/02.03_DUT_board_design_reference/02.03.03.01_DUT_interface_layout.md`
-（TDC `20811.htm`，**213 行**，**整篇读完**）
+（TDC `20811.htm`，**103 行**，**整篇读完**）
 
 **本页没做的（按缺口大小排）：**
 

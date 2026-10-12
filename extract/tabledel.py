@@ -67,7 +67,13 @@ def upstream_tables(h):
 
 
 def up_cells(seg):
-    """一张表的格子文字（含所有嵌套格）"""
+    """一张表的格子文字（含所有嵌套格）。
+
+    ★ **`<img>` 要先还原成它的 `alt`**：md 格子里是 `![Refresh button](<…>)`，
+    上游是 `<img alt="Refresh button">`。标签一剥 alt 就没了，两边永远对不上 ——
+    实测这是「签名对不上」那 176 个表块的主因（同 `<li>` → `- ` 一类）。
+    """
+    seg = re.sub(r'<img\b[^>]*?alt="([^"]*)"[^>]*>', r'\1', seg, flags=re.I)
     return [html.unescape(re.sub(r'<[^>]+>', '', c))
             for c in re.findall(r'<t[dh]\b[^>]*>(.*?)</t[dh]>', seg, re.S)]
 

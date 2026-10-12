@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **11,874 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04_Device_access_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04.01_Device_access_file_syntax.md>`。**不是转述。**
+> 本节 **7,612 字符逐字取自** `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04_Device_access_file.md>` 及其子主题 `<02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.03.03.04.01_Device_access_file_syntax.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -118,176 +118,18 @@ These keywords let you specify device accesses for use in the program file (see 
 
 The :table: element contains these keywords:
 
- |
-
-
-Keyword
-
- |
-
-Parameters and descriptions
-
- |
- |
-
-:comment:
-
- |
-
-An optional comment explaining the row.
-
-The comment can be any text.
-
- |
- |
-
-:data:
-
- |
-
-A value or expression that determines which of the two values in the :state: column (the left or the right one) is sent to the pins.
-
-:data: may contain:
-
-- A fixed hexadecimal or decimal value. Hexadecimal numbers must be prefixed with `0x` to distinguish them from decimal numbers.
-- An expression using predefined operators and parameters whose values are set by the APG program code. (For example, `xAddr(rowAddress)`, `data(0,xAddr)`, `data(0,xAddr,yAddr,zAddr)`.)
-
-Each row of the table:
-
-- Takes the value given in the :data: column or, if it is an expression, evaluates it.
-- Maps the resulting bit (`0` or `1`) to the states given in the :states: column, a 0 indicating the left state and a 1, the right.
-
-If the :pin: column contains a pin group, the first bit of the expression result is used to determine the state character for the first pin, the second bit for the second pin, and so on. If there are more bits in the result than there are pins in the group, the excess bits are discarded. For illustration, see Pin groups and the :data: column in the Examples section, below.
-
-For an overview of the operators that you can use in the :data: column, see the description of operators for the APG program file in `Operators`（raw: `02.12.03.03.03.01.01_Operators.md`） and the description of data macros in `Macros in device accesses`（raw: `02.12.03.03.04.02_Macros_and_functions_in_device_accesses.md`）.
-
-Note that the :data: column is ignored in device accesses when the :operation: column comprises the crc macro and CRC is enabled.
-
- |
- |
-
-:instruction:
-
- |
-
-The :instruction: column can contain optional control instructions that affect the execution of the statements in the other columns.
-
-For an overview of the statements supported in the :instruction: column, see `Control instructions in device accesses`（raw: `02.12.03.03.04.03_Control_instructions_in_device_accesses.md`）.
-
- |
- |
-
-:operation:
-
- |
-
-The :operation: column contains specifications of `Cyclic redundancy checks`（raw: `02.12.03.04.09_Cyclic_redundancy_checks.md`） and `dynamic bus inversions`（raw: `02.12.03.04.10_Dynamic_bus_inversion.md`） to apply.
-
-To apply multiple operations, specify them in the desired order and separate them with commas.
-
-This column is optional; if neither cyclic redundancy checks nor dynamic bus inversion is required for an access, it can be omitted.
-
- |
- |
-
-:pin:
-
- |
-
-The pins or pin groups involved in the device access.
-
-The pins or pin groups are listed one per row; they must be specified in the `Pin mapping file`（raw: `02.12.03.03.06_Pin_mapping_file.md`）.
-
- |
- |
-
-:states:
-
- |
-
-The single state character from the wavetable. In this column, each row must contain two single state characters surrounded by {}. The two state characters are separated with space. For example, `{0 1}`. When the expression in the :data: column is evaluated to 0, the left of the two characters will be transferred to a pin. When the expression is evaluated to 1, the right one will be transferred to a pin.
-
-You can also use the {} characters to reference the interface parameters of this APG access and transfer different state characters to the pins with the same APG access at different call times. Those interface parameters must have the following attributes:
-
-- Data type must be string.
-- String to be transferred with a parameter must be one character. For example, "0".
-- Independent of any loop variable in this APG access-called program.
-
-For example,
-
-```
-:apgAccess:
-  {
-    :name:  Write
-    :interface: {zero one}
-    :table:
-    {
-       :format:
-       { :pin:           :states:           :data:     }
-       { DQ              {zero one}          0         }
-       { ""              {zero one}          1         }
-    }
-  }
- 
-main()
-{
-  Write("0", "1");
-  //Be careful, do not code like Write(0, 1), or Write("01"), both of which are wrong.
-}
-```
-
- |
-
-## Constants keywords
-
-These keywords let you specify constants for use in device access (see :constants:, in the topmost table above):
-
- |
-
-Keyword
-
- |
-
-Parameters and descriptions
-
- |
- |
-
-:bits:
-
- |
-
-The width of the constant in bits.
-
-For example, a constant may be 8 bits wide or 64 bits wide.
-
- |
- |
-
-:name:
-
- |
-
-The name of the constant.
-
-The name can be any text that follows the `naming conventions`（raw: `02.12.03.02.03_Naming_rules_and_conventions.md`）.
-
- |
- |
-
-:value:
-
- |
-
-Specifies the value of the constant.
-
-You can enter hexadecimal or decimal values. Hexadecimal numbers must be prefixed with `0x` to distinguish them from decimal numbers. (For values greater than 64 bits, there are `special considerations`（raw: `02.12.03.04.15_Expressions_with_more_than_64_bits.md`）.)
-
-A constant's value can also be defined as an expression using any of these operators: `+ - * / << >> & | ~`
-
-Comparison operators are not permitted in these expressions.
-
- |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102365.htm`
+> 中**第 2 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102365.htm`
+> 中**第 3 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：7 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102365.htm`
+> 中**第 4 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/102365.htm`
+> 中**第 5 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：3 行 × 2 列。
+> 首行（上游原文）：Keyword | Parameters and descriptions
 
 ## Counted match padding keywords
 

@@ -370,7 +370,7 @@ cout << "Current site: " << CURRENT_SITE_NUMBER() << ", pin \"DPS_pin_1\"" << en
 `sources:` 一篇：
 
 - `02_System_reference/02.07_Test_Method_Reference/02.07.04.01.117_HW_STATE.md`
-  （frontmatter 的 `source_topic` 是 `105633.htm`；**11,379 字节 / 245 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `105633.htm`；**7,693 字节 / 245 行，整篇读完**——
   字节按 `st_size`、行数按 `wc -l`，§11.5 口径）
 - 本页的「语法 / 参数」节是脚本从这一篇抽的（**本页一个字没动**）。
   **要留意它只抽到了 `## Examples` 下面那两节**（`### Example 1` / `### Example 2`）——
