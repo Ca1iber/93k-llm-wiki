@@ -130,7 +130,7 @@ verified: doc-only
 - [EVENT_FILTER.setFilterType()](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.07.01_EVENT_FILTER.setFilterType.md>) —— SmarTest 7.5.0: New filter types CURRENT_SLEW, VOLTAGE_SLEW, CURRENT_BANDWIDTH, VOLTAGE_BANDWIDTH, and MEASURE_FILTER
 - [EVENT_FILTER](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.07_EVENT_FILTER.md>) —— SmarTest 7.5.0: Support for DC Scale FVI16 added. New filter types added.
 - [EVENT_RANGE_CF](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63.13_EVENT_RANGE_CF.md>) —— SmarTest 7.5.0: The class supports both the PMU operating mode and the DPS operating mode of FVI16.
-- [EVENT_... (DC events API reference)](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63_EVENT_...__DC_events_API_reference.md>) —— SmarTest 7.5.0: New events ..._BLM, 鈥FDM, 鈥RDM, ..._LAST, EVENT_COMPLIANCE and EVENT_KELVIN added for FVI16
+- [EVENT_... (DC events API reference)](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.63_EVENT_...__DC_events_API_reference.md>) —— SmarTest 7.5.0: New events ..._BLM, …FDM, …RDM, ..._LAST, EVENT_COMPLIANCE and EVENT_KELVIN added for FVI16
 - [FLEX_PIN_RELAY](<02_System_reference/02.07_Test_Method_Reference/02.07.04.01.68.01_FLEX_PIN_RELAY.md>) —— SmarTest 7.5.0: New option "HIGH_SPEED" of function setTMU.
 - [viMeas()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.11.04.07_viMeas.md>) —— SmarTest 7.5.0: DC Scale FVI16 card added.
 - [iFilter()](<02_System_reference/02.07_Test_Method_Reference/02.07.13.12.02.15_iFilter.md>) —— SmarTest 7.5.0: DC Scale FVI16 card added.
@@ -220,11 +220,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 154 条**，涉及 **147 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **2 处**「`鈥`」字样：`鈥`（2 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

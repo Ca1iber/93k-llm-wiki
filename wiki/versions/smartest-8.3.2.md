@@ -34,7 +34,7 @@ verified: doc-only
 - [MUX cards design data](<02_System_reference/02.03_DUT_board_design_reference/02.03.08.04.04_MUX_cards_design_data.md>) —— SmarTest 7.5.3 / 8.3.2: E8021-66412 design kit for MUXIP01 updated from revision C to revision 6. New file is E8021-66412-6_DesignKit_MUXIP01.zip
 - [MUX cards design data](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.11_MUX_cards_design_data.md>) —— SmarTest 7.5.3 / 8.3.2: E8021-66412 design kit for MUXIP01 updated from revision C to revision 6. New file is E8021-66412-6_DesignKit_MUXIP01.zip
 - [Twinning DUT and family board info](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.19_Twinning_DUT_and_family_board_info.md>) —— SmarTest 7.5.3 / 8.3.2: Twinning Direct Probe Card Outline E8028-96570 updated from revision F to revision G.
-- [Twinning stiffener info](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.20_Twinning_stiffener_info.md>) —— SmarTest 7.5.3 / 8.3.2: Twinning Direct-Probe Stiffener (E8028DSD / E8028-64170) extended to "鈥?3rd party fabrication package".
+- [Twinning stiffener info](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.20_Twinning_stiffener_info.md>) —— SmarTest 7.5.3 / 8.3.2: Twinning Direct-Probe Stiffener (E8028DSD / E8028-64170) extended to "…3rd party fabrication package".
 - [Twinning stiffener info](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.20_Twinning_stiffener_info.md>) —— SmarTest 7.5.3 / 8.3.2: Twinning Direct-Probe Probe card specifications (E8028-96570) updated from revision F to revision G.
 - [Single License server installation, upgrades and updates](<02_System_reference/02.04_Model_File_and_Licensing/02.04.13.01.03_Single_License_server_installation__upgrades_and_updates.md>) —— SmarTest 8.3.2: Mixed FNE-FNP licensing supported.
 
@@ -51,11 +51,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 9 条**，涉及 **8 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **1 处**「`鈥`」字样：`鈥?`（1 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

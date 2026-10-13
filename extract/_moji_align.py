@@ -60,18 +60,20 @@ for topic, p in work:
         if op == 'equal': continue
         seg = A[j1:j2]
         if not any(c in FAM for c in seg): continue          # md 侧这处没有坏字
-        up = U[i1:i2].replace(' ', '')
-        if len(up) != 1: continue                            # 判据①：上游侧恰好一个字
+        ups = U[i1:i2].replace(' ', '')
+        if not (1 <= len(ups) <= 3): continue                # 判据①：上游侧 1~3 个字
         # 逐个坏字处理（一段里可能不止一个）
         k = 0
         for off, ch in enumerate(seg):
             if ch not in FAM: continue
-            if ok_char(ch, up): 
+            cand = next((x for x in ups if ok_char(ch, x)), None)
+            if cand: 
                 a0, a1 = mp[j1 + off], mp[j1 + off] + 1
                 # 连同后面的 `?` 一起吃掉
-                while a1 < len(s) and s[a1] == '?': a1 += 1
-                edits.append((a0, a1, up)); fixed += 1
-                if len(samples) < 6: samples.append((A[max(0,j1+off-12):j1+off], ch, up))
+                while a1 < len(s) and (s[a1] == '?'
+                                       or 0xE000 <= ord(s[a1]) <= 0xF8FF): a1 += 1
+                edits.append((a0, a1, cand)); fixed += 1
+                if len(samples) < 6: samples.append((A[max(0,j1+off-12):j1+off], ch, cand))
             else:
                 cand_bad += 1
     if edits:
