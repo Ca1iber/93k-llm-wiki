@@ -403,7 +403,7 @@ string rdi.getRdiConfig(string optionName);
 `sources:` 一篇：
 
 `02_System_reference/02.07_Test_Method_Reference/02.07.13.04_RDI_Configure_file.md`
-（TDC `146692.htm`，共 110 行）
+（TDC `146692.htm`，共 127 行）
 
 **本页没做的**：
 
