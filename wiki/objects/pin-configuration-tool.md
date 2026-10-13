@@ -7,8 +7,12 @@ tags: [gui, pin, setup, pin-configuration, editor, pin-settings, context, utilit
 related: [pin, pin-configuration-file, pin-configuration-master-file, setup-management-tool, digital-pins-editor, dps-pins-editor, utility-pins-editor, utility-purpose-editor, pin-group-editor, port-editor, alias-set-editor, dc-scale-limits-editor, ground-sense-editor, protocol-editor, mapping-pin]
 sources:
   - 02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18_Pin_configuration_tool.md
+  # 2026-10-13 补：本页有一处「逐字」引文（`For a DC Scale pin in PMU operating mode,
+  # it must be SIG.`）实际出自**子主题** Digital Pins editor，原先没列。
+  # 2026-10-10 表格换成指针后，第七类回上游核引文时才显出来。
+  - 02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-13
 verified: doc-only
 ---
 
