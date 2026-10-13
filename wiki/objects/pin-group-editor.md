@@ -348,7 +348,7 @@ verified: doc-only
 
 `sources:` **3 篇**：
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.02_Pin_group_editor.md`
-（TDC `97914.htm`，**3,942 字节，117 行**）、
+（TDC `97914.htm`，**3,940 字节，117 行**）、
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.02.01_Rules_for_defining_groups.md`
 （TDC `17576.htm`，**698 字节，15 行**）、
 `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.02.02_Incompatible_pin_groups.md`

@@ -59,7 +59,7 @@ verified: doc-only
 - [DPS128… DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.5.4 / 8.3.4: Support of E8023PB and E8023PK VHD pogo cable assemblies
 - [DPS128 and DPS64 pogo cabling and model file configuration](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.09.01_DPS128_and_DPS64_pogo_cabling_and_model_file_configuration.md>) —— SmarTest 7.5.4 / 8.3.4: Support of E8023PB and E8023PK VHD pogo cable assemblies
 - [93000 menu and its tools](<02_System_reference/02.08_Setup_and_Result_Tools/02.08.02_93000_menu_and_its_tools.md>) —— SmarTest 7.5.4: Added 93000 top-level menu items.
-- [Advantest V93000 E5214B Jitter Attenuator Module](<03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.08.01_Advantest_V93000_E5214B_Jitter_Attenuator_Module.md>) —— SmarTest 7.5.4: Specifications updated, application note "Important notes on the utility 5V and R/W line usage 鈥? added
+- [Advantest V93000 E5214B Jitter Attenuator Module](<03_Use_cases_and_application_papers/03.14_Application_Papers/03.14.08.01_Advantest_V93000_E5214B_Jitter_Attenuator_Module.md>) —— SmarTest 7.5.4: Specifications updated, application note "Important notes on the utility 5V and R/W line usage … added
 
 
 ## 这一版新引入（17 条）
@@ -90,11 +90,3 @@ verified: doc-only
 - 抽取自 raw 的 `## Functional changes` 段落；**本页正文列出 28 条**，涉及 **28 篇**文档。
 - 抽取器：`extract/versions.py`（纯脚本）；机器可读全量：`extract/version-facts.csv`。
 - **本页没有逐篇回读 raw 原文**——条目是段落级抽取的结果。若要据此下结论，请点开对应出处链接核对。
-
-## ⚠️ 本页出现的语料编码损坏
-
-本页条目里有 **1 处**「`鈥`」字样：`鈥?`（1 处）。
-
-**这是 raw 自带的编码损坏，不是本页打错、也不是转录出错。**损坏的成因与对照表见 [[pogo-block-compatibility]]，同族实例见 [[dps128-dps64-cards]] 与 [[xps256-programming-dps-operating-mode]]。
-
-**本页照原样转录**（raw 一个字节不动，schema §1.1）。**代价是：拿修好的字去 raw 里搜是搜不到的**，要搜坏掉的那个形态。

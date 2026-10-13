@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **9,796 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18_Pin_configuration_tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.02.07.01_Virtual_pins.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.02.08.03_Editing_an_expression-based_group.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.01_Context_list.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.03_DPS_Pins_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.03_Port_Editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.13_Filter_line.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.14_Sorting_rows.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.04_Pin_configuration_file.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.05_Pin_configuration_master_file.md>`。**不是转述。**
+> 本节 **9,795 字符逐字取自** `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18_Pin_configuration_tool.md>` 及其子主题 `<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.02.07.01_Virtual_pins.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.02.08.03_Editing_an_expression-based_group.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.01_Context_list.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.02_Digital_Pins_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.01.03_DPS_Pins_editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.03_Port_Editor.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.13_Filter_line.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.03.14_Sorting_rows.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.04_Pin_configuration_file.md>`、`<02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.18.05_Pin_configuration_master_file.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -250,7 +250,7 @@ See `DC Scale pin (DPS mode) setup`（raw: `02.08.04.18.03.01.03.01_DC_Scale_pin
 
 The following picture shows a port Port_IO consisting of eight pins.
 
-In the Available Pin List, the "鈭? character preceding with the pin name means that this pin has been added to Port_IO.
+In the Available Pin List, the "√ character preceding with the pin name means that this pin has been added to Port_IO.
 
  !`Port Example`（raw: `../../../../raw/97848.png`）
 
