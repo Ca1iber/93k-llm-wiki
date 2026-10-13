@@ -88,7 +88,7 @@ verified: doc-only
 - [PS1600 TMU (Time Measurement Unit) per pin](<02_System_reference/02.05_Test_Head_Cards/02.05.04.01.07.07_PS1600_TMU__Time_Measurement_Unit__per_pin.md>) —— SmarTest 7.3.2: Support of PS1600B
 - [PS1600 specific setup tasks](<02_System_reference/02.05_Test_Head_Cards/02.05.04.01.07_PS1600_specific_setup_tasks.md>) —— SmarTest 7.3.2: Support of PS1600B
 - [Pin Scale 1600 digital card (Smart Scale)](<02_System_reference/02.05_Test_Head_Cards/02.05.04.01_Pin_Scale_1600_digital_card__Smart_Scale.md>) —— SmarTest 7.3.2: Support of PS1600B
-- [DPS128鈥? DPS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— SmarTest 7.3.2: Load Capacitance field in DPS128/DPS64 hardware views
+- [DPS128… DPS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— SmarTest 7.3.2: Load Capacitance field in DPS128/DPS64 hardware views
 - [UHC4T features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.02.03.03_UHC4T_features.md>) —— SmarTest 7.3.2: Current limiter protection mode (UHC4T only)
 - [UHC4T features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.02.03.03_UHC4T_features.md>) —— SmarTest 7.3.2: Measure Voltage Drop and Sampler fields of UHC4 and UHC4T hardware views generate sample test method code
 - [UHC4T functionality and features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.02.03_UHC4T_functionality_and_features.md>) —— SmarTest 7.3.2: Support of UHC4T
