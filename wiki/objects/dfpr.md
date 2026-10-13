@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **2,610 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`。**不是转述。**
+> 本节 **2,326 字符逐字取自** `<02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -44,11 +44,9 @@ DFPR "alias_set_name", "pin_alias", (package_pin_name)
 
 ### Parameters
 
-| alias_set_name | The alias set name.<br><br>If you assign a pair of pin alias and package pin name to a nonexistent alias set, an alias set is created named with this parameter.<br><br>In the query, you can define multiple alias sets or use the symbol @ to list all the defined pin alias sets. |
-|---|---|
-| pin_alias | The pin alias. |
-| package_pin_name | The package pin name. |
-| DEF\|ALL | If you select `ALL` in the query, for the pins without aliases, the package pin names are returned.<br><br>If `DEF` is chosen in the query, only the defined pin aliases are returned. |
+> ⚠️ 表格指针（非原文）：本表 markdown 表达不了。真表见 `tdc-html/raw/112436.htm`
+> 中**第 1 个有格子的 `<table>`**（跳过 `<table id="vr">` 空壳）：4 行 × 2 列。
+> 首行（上游原文）：alias_set_name | The alias set name. If you assign a pair of pin alias and package pin name to a nonexistent alias set, an alias set is created named with this …
 
 ### Examples
 
@@ -351,7 +349,7 @@ DFPR?DEF|ALL, (alias_set_name::pin_alias|alias_set_name|@)
 
 `sources:` 一篇：
 `02_System_reference/02.06_Command_Reference/02.06.02.02.64_DFPR__DFPR__-__DeFine_Pin_Role.md`
-（TDC `112436.htm`，**3,949 字节 / 252 行**）。**整篇读完**——本页引文全部来自这一篇 + `edges.jsonl` 里带原句的边。
+（TDC `112436.htm`，**3,762 字节 / 252 行**）。**整篇读完**——本页引文全部来自这一篇 + `edges.jsonl` 里带原句的边。
 
 **入边 5 条 / 5 篇**（`inline` + `toc` 口径）：
 `02.06.02.02_List_of_commands`、`02.06.03.01.01_Introduction`、`02.06.03_Pin_configuration_setup_commands`、
