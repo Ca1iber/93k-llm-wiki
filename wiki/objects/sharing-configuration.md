@@ -7,8 +7,13 @@ tags: [pin, mtp, sharing, fixture-delay, utility-control, domains, mts, api]
 related: [pin, sharing-configuration-file, utility-line-assignments, mtp-memory-test, mtp-shared-test-commands, mtp-3.1.5]
 sources:
   - 02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25_SHARING_CONFIGURATION.md
+  # 2026-10-13 补：本页两处「逐字」引文（`The name of the sharing configuration file
+  # which you want to load.` / `The file must be located in the <device directory>/configuration/
+  # directory.`）实际出自**子主题** .load，原先没列。
+  # 2026-10-10 表格换成指针后，第七类回上游核引文时才显出来。
+  - 02_System_reference/02.12_Memory_Test_Plus_7.10.2/02.12.06.25.03_SHARING_CONFIGURATION.load.md
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-13
 verified: doc-only
 ---
 

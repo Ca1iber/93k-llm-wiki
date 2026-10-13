@@ -1273,7 +1273,7 @@
 - ✅ `objects/pfnd.md` — 1 条来源
 - ✅ `objects/pin-configuration-file.md` — 2 条来源
 - ✅ `objects/pin-configuration-master-file.md` — 1 条来源
-- ✅ `objects/pin-configuration-tool.md` — 1 条来源
+- ✅ `objects/pin-configuration-tool.md` — 2 条来源
 - ✅ `objects/pin-group-editor.md` — 3 条来源
 - ✅ `objects/pin-mapping-file.md` — 1 条来源
 - ✅ `objects/pin-property-monitor.md` — 1 条来源
@@ -1309,7 +1309,7 @@
 - ✅ `objects/setup-perspective.md` — 1 条来源
 - ✅ `objects/shared-continuity-test.md` — 1 条来源
 - ✅ `objects/sharing-configuration-file.md` — 1 条来源
-- ✅ `objects/sharing-configuration.md` — 1 条来源
+- ✅ `objects/sharing-configuration.md` — 2 条来源
 - ✅ `objects/shmoo-tool.md` — 1 条来源
 - ✅ `objects/signal-analyzer.md` — 1 条来源
 - ✅ `objects/site-control-window.md` — 1 条来源
@@ -1558,7 +1558,7 @@
 - ✅ `versions/tp360-7.2.2.md` — 1 条来源
 - ✅ `versions/tp360-7.3.2.md` — 1 条来源
 
-其余页合计 3051 条来源路径（阶段页合计 677 条）。
+其余页合计 3053 条来源路径（阶段页合计 677 条）。
 
 ## 第四类 · 正文引用的分类号是否存在于语料
 
@@ -2336,7 +2336,7 @@
 ## 第八类 · 链接目标可达（**抓断链；排除项是名字白名单两项，行内代码跨度里的 wikilink 照样算**）
 
 - 内容页共 **505** 页，引用 **521** 个目标，其中 **16** 个找不到对应页。
-- 口径指纹：内容页 505 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 561860ff1368`。
+- 口径指纹：内容页 505 个文件、白名单 2 项、空目标跳过、`log.md` 不计入，`sha256[:12] = 019e95ec1acb`。
 
 > **这不是页面的缺陷，是建页 backlog。** 它列的是**脊椎已经要求**的页——
 > 比按 `in_src` 排的「125 个高入度对象」更有用：那些只是"语料里常出现"，
