@@ -69,12 +69,12 @@ verified: doc-only
 - [DPS section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.06_DPS_section.md>) —— SmarTest 7.2.2: DPS128-HC/HV supported.
 - [DPS section](<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02.06_DPS_section.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1.
 - [PS1600 DC value measurements](<02_System_reference/02.05_Test_Head_Cards/02.05.04.01.03.04_PS1600_DC_value_measurements.md>) —— SmarTest 7.2.2: Added test method: PPMU_BADC_MEASURE
-- [DPS128鈥? DPS64 specifications](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02_DPS128____PS64_specifications.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
-- [DPS128鈥? DPS64 functionality and features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
-- [DPS128鈥? DPS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128… DPS64 specifications](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02_DPS128____PS64_specifications.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128… DPS64 functionality and features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128… DPS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
 - [DPS128… DPS64 power budget](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
-- [DPS128鈥? DPS64 in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.06_DPS128____PS64_in_DPS_operating_mode.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
-- [DPS128鈥? DPS64 in PMU operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.07_DPS128____PS64_in_PMU_operating_mode.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128… DPS64 in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.06_DPS128____PS64_in_DPS_operating_mode.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
+- [DPS128… DPS64 in PMU operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.07_DPS128____PS64_in_PMU_operating_mode.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
 - [E8023PA pogo cable assembly: 8 HD pogo blocks (Standard)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV
 - [E8023PG pogo cable assembly: 4 MS-DPS style pogo blocks (DPS64 only)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.07_E8023PG_pogo_cable_assembly__4_MS-DPS_style_pogo_blocks__DPS64_only.md>) —— SmarTest 7.2.2: Support of E8023PG pogo assembly for the 7.2.2 release stream starts with SmarTest 7.2.2.1.
 - [DPS128… DPS64 pogo cable assemblies and pogo pin assignments](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08_DPS128____PS64_pogo_cable_assemblies_and_pogo_pin_assignments.md>) —— SmarTest 7.2.2: Support of DPS128-HC/HV and DPS128-HV

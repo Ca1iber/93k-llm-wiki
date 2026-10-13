@@ -362,12 +362,12 @@ verified: doc-only
 - [Stiffener wide opening (x16 sites)](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01.18_Stiffener_wide_opening__x16_sites.md>) —— Introduced in SmarTest 7.2.1
 - [Drawings](<02_System_reference/02.03_DUT_board_design_reference/02.03.12.01_Drawings.md>) —— Introduced in SmarTest 7.2.1
 - [Optimizing the technology file](<02_System_reference/02.04_Model_File_and_Licensing/02.04.05.07.02_Optimizing_the_technology_file.md>) —— Introduced in SmarTest 7.2.1
-- [DPS128鈥? DPS64 specifications](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02_DPS128____PS64_specifications.md>) —— Introduced in SmarTest 7.2.1
-- [DPS128鈥? DPS64 functionality and features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md>) —— Introduced in SmarTest 7.2.1
-- [DPS128鈥? DPS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— Introduced in SmarTest 7.2.1
+- [DPS128… DPS64 specifications](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.02_DPS128____PS64_specifications.md>) —— Introduced in SmarTest 7.2.1
+- [DPS128… DPS64 functionality and features](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.03_DPS128____PS64_functionality_and_features.md>) —— Introduced in SmarTest 7.2.1
+- [DPS128… DPS64 hardware overview](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.04_DPS128____PS64_hardware_overview.md>) —— Introduced in SmarTest 7.2.1
 - [DPS128… DPS64 power budget](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.05_DPS128____PS64_power_budget.md>) —— Introduced in SmarTest 7.2.1
-- [DPS128鈥? DPS64 in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.06_DPS128____PS64_in_DPS_operating_mode.md>) —— Introduced in SmarTest 7.2.1
-- [DPS128鈥? DPS64 in PMU operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.07_DPS128____PS64_in_PMU_operating_mode.md>) —— Introduced in SmarTest 7.2.1
+- [DPS128… DPS64 in DPS operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.06_DPS128____PS64_in_DPS_operating_mode.md>) —— Introduced in SmarTest 7.2.1
+- [DPS128… DPS64 in PMU operating mode](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.07_DPS128____PS64_in_PMU_operating_mode.md>) —— Introduced in SmarTest 7.2.1
 - [E8023PA pogo cable assembly: 8 HD pogo blocks (Standard)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.01_E8023PA_pogo_cable_assembly__8_HD_pogo_blocks__Standard.md>) —— Introduced in SmarTest 7.2.1
 - [E8023PC pogo cable assembly: 4 HD pogo blocks (DPS128-HC only)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.03_E8023PC_pogo_cable_assembly__4_HD_pogo_blocks__DPS128-HC_only.md>) —— Introduced in SmarTest 7.2.1
 - [E8023PD pogo cable assembly: 2 HD pogo blocks (DPS64 only)](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.08.04_E8023PD_pogo_cable_assembly__2_HD_pogo_blocks__DPS64_only.md>) —— Introduced in SmarTest 7.2.1

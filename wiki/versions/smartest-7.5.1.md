@@ -106,7 +106,7 @@ verified: doc-only
 - [V93000 License Master Look-up Table](<02_System_reference/02.04_Model_File_and_Licensing/02.04.02.01_V93000_License_Master_Look-up_Table.md>) —— Introduced in SmarTest 7.5.1
 - [V93000 license products](<02_System_reference/02.04_Model_File_and_Licensing/02.04.02_V93000_license_products.md>) —— Introduced in SmarTest 7.5.1
 - [PS1600 sitemap](<02_System_reference/02.05_Test_Head_Cards/02.05.04.01.01_PS1600_sitemap.md>) —— Introduced in SmarTest 7.5.1
-- [DPS128鈥? DPS64 sitemap](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.01_DPS128____PS64_sitemap.md>) —— Introduced in SmarTest 7.5.1
+- [DPS128… DPS64 sitemap](<02_System_reference/02.05_Test_Head_Cards/02.05.05.01.01_DPS128____PS64_sitemap.md>) —— Introduced in SmarTest 7.5.1
 - [Routing Tools - Debugger](<02_System_reference/02.07_Test_Method_Reference/02.07.13.15.01.05_Routing_Tools_-_Debugger.md>) —— Introduced in SmarTest 7.5.1
 - [Nested match loops](<03_Use_cases_and_application_papers/03.02_How_to_do_Multi-Site_Testing/03.02.05.02.07_Nested_match_loops.md>) —— Introduced in SmarTest 7.5.1
 - [DC event example: Setup per site](<03_Use_cases_and_application_papers/03.05_How_to_set_up_a_dynamic_DC_test/03.05.02.04_DC_event_example__Setup_per_site.md>) —— Introduced in SmarTest 7.5.1

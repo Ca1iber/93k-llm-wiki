@@ -18,7 +18,7 @@ verified: doc-only
 
 <!-- 语法节 begin —— 本行到 end 行之间由 `extract/objscaffold.py` 生成，**手改会在下次 `--refresh-syntax` 时消失** -->
 
-> 本节 **6,066 字符逐字取自** `<02_System_reference/02.04_Model_File_and_Licensing/02.04.01_The_model_file.md>` 及其子主题 `<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.01_Model_file_reference__tester.model.md>`、`<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02_Model_file_reference__model_legacy.md>`。**不是转述。**
+> 本节 **6,068 字符逐字取自** `<02_System_reference/02.04_Model_File_and_Licensing/02.04.01_The_model_file.md>` 及其子主题 `<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.01_Model_file_reference__tester.model.md>`、`<02_System_reference/02.04_Model_File_and_Licensing/02.04.01.03.02_Model_file_reference__model_legacy.md>`。**不是转述。**
 > §4 说语法/参数表由脚本抽、不许 LLM 重写；§3 说「不抄原文」指的是
 > **别把整篇文档搬进 wiki**，不是「参数表也要改写一遍」——
 > 改写参数表就是把文档事实降级成我的转述（§11）。
@@ -46,7 +46,7 @@ CARD_CONFIGURATION
 
 ```
 
-The default tester.model provided in /etc/opt/hp93000/soc/ is a template model file for illustration purposes only. For example, the PS5000 card can only be used in EXA Scale™test systems. PS1600 and PS5000 cards cannot be installed simultaneously in an EXA Scale™test system. For details, refer to the dedicated model file sections for each card using the links in the section `Detailed model file information`（raw: `02.04.01_The_model_file.md#_55954__model_file_links`）.
+The default tester.model provided in /etc/opt/hp93000/soc/ is a template model file for illustration purposes only. For example, the PS5000 card can only be used in EXA Scale™ test systems. PS1600 and PS5000 cards cannot be installed simultaneously in an EXA Scale™ test system. For details, refer to the dedicated model file sections for each card using the links in the section `Detailed model file information`（raw: `02.04.01_The_model_file.md#_55954__model_file_links`）.
 
 ```
 # Example for a tester.model file, see detailed syntax description in the TDC
