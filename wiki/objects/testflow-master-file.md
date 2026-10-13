@@ -275,7 +275,7 @@ test suite 也一样**（**能拆的粒度是 group，不是 suite，也不是�
 `sources:` **一篇**：
 
 - `02_System_reference/02.08_Setup_and_Result_Tools/02.08.04.32.03.06_Testflow_master_file.md`
-  （frontmatter 的 `source_topic` 是 `91577.htm`，**4,335 字节 / 129 行，整篇读完**——
+  （frontmatter 的 `source_topic` 是 `91577.htm`，**4,160 字节 / 129 行，整篇读完**——
   按 §11.5 口径：字节是 `st_size`，行数是 `wc -l`）
 - **重复投放检查做过**（§10 第 0 步）：全语料里 `source_topic: "91577...` **只有这一份**，
   **没有 `_2` 那样的第二投放**（**同批的 [[jsud]] / [[jswf]] 两篇都有，本页没有**）。
